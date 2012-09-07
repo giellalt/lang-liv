@@ -2,6 +2,14 @@
 !! --------------------
 !! The UNDEFINED language adjectives compare.
 
+! aigi 188
+LEXICON A-aigi
+	ATag	;
+
+! zirmi 191
+LEXICON A-zirmi
+        ATag    ;
+
 LEXICON ATag
 +A+pos:0        Cases   ;
 +A+cmp:er       Cases   ;

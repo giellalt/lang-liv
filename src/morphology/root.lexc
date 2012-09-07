@@ -111,7 +111,10 @@ LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 0   adjectives  ;
+0   adverbs  ;
+0   interjections  ;
 0   nouns   ;
+0   postpositions    ;
 0   pronouns    ;
 0   propernouns    ;
 0   quantifiers    ;
@@ -121,5 +124,15 @@ LEXICON Root
 0   Acronym		;
 0   Punctuation		;
 0   wordToNumeral	;
+
+!! Words that are not inflected
+
+LEXICON AdvTag
++Adv: #	;
+
+LEXICON InterjTag
++Interj: #	;
+
+
 
 ! vim: set ft=xfst-lexc:
