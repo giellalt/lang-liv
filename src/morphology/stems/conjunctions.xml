@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <entry>
+      <lg>
+         <l>ja</l>
+         <stg>
+            <st Contlex="CcTag">ja</st>
+         </stg>
+      </lg>
+      <pos>CC</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>and</t>
+            </tg>
+            <tg lang="fin">
+               <t>ja</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+</r>

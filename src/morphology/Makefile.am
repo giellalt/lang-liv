@@ -36,6 +36,7 @@ GT_LEXC_SRCS=\
 GENERATED_LEXC_SRCS=\
 			 stems/adjectives.lexc \
 			 stems/adverbs.lexc \
+			 stems/conjunctions.lexc \
 			 stems/interjections.lexc \
 			 stems/nouns.lexc \
 			 stems/pronouns.lexc \
@@ -48,6 +49,7 @@ GENERATED_LEXC_SRCS=\
 GT_XML_SRCS=\
 			 stems/adjectives.xml \
 			 stems/adverbs.xml \
+			 stems/conjunctions.xml \
 			 stems/interjections.xml \
 			 stems/nouns.xml \
 			 stems/pronouns.xml \

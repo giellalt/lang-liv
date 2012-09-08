@@ -112,6 +112,7 @@ LEXICON Root
 !! word classes, or optionally from prefixes:
 0   adjectives  ;
 0   adverbs  ;
+0   conjunctions	;
 0   interjections  ;
 0   nouns   ;
 0   postpositions    ;
@@ -129,6 +130,14 @@ LEXICON Root
 
 LEXICON AdvTag
 +Adv: #	;
+
+! conjunctor
+LEXICON CcTag
++CC: # ;
+
+! subjunctor
+LEXICON CcTag
++CS: # ;
 
 LEXICON InterjTag
 +Interj: #	;
