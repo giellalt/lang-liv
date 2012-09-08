@@ -1,6 +1,6 @@
 !! Proper noun inflection
 !! ----------------------
-!! The UNDEFINED language proper nouns inflect in the same cases as regular
+!! Livonian proper nouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
 
 LEXICON PropTag
@@ -13,7 +13,13 @@ LEXICON ProperNounCases
 +N+Prop:%:   Cases  ;
 +N+Prop:%:   Cases  ;
 +N+Prop:%:   Cases  ;
-        -    Nouns  ;
+!        -    Nouns  ;
+
+LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
+    PropTag ;
+:%: PropTag ;
+:%- PropTag ;
+:%' PropTag ;
 
 ! vim: set ft=xfst-lexc:
 
