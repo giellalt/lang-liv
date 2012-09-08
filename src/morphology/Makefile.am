@@ -23,11 +23,13 @@ GT_LEXC_SRCS=\
 			 stems/abbr.lexc \
 			 stems/acro.lexc \
 			 stems/punct.lexc \
-			 stems/wordToNumeral.lexc
+			 stems/wordToNumeral.lexc \
 			 affixes/adjectives.lexc \
 			 affixes/nouns.lexc \
 			 affixes/postpositions.lexc \
+			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
+			 affixes/quantifiers.lexc \
 			 affixes/verbs.lexc
 
 # Set this to the names of all generated lexc files, if any
