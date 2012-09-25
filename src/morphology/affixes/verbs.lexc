@@ -1,0 +1,28 @@
+!! Verb inflection
+!! ---------------
+!! The UNDEFINED language verbs inflect in persons.
+
+! aigõ 37
+LEXICON V-aigo
+        VTag    ;
+
+
+! a'ilõ 52
+LEXICON V-ailo
+	VTag	;
+
+LEXICON VTag
+	Persons	;
+
+LEXICON Persons
++V+1sg:en   #   ;
++V+2sg:et   #   ;
++V+3sg:e    #   ;
++V+1pl:ien  #   ;
++V+2pl:iet  #   ;
++V+3pl:iet  #   ;
++V+inf:0    #   ;
+!#:0   Nouns   ;
+
+! vim: set ft=xfst-lexc:
+

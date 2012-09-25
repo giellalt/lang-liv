@@ -1,0 +1,13 @@
+!! Adjective inflection
+!! --------------------
+!! The UNDEFINED language adjectives compare.
+
+! aigiz 188
+LEXICON Po-aigiz
+	PoTag	;
+
+LEXICON PoTag
++Po:0        Cases   ;
+
+! vim: set ft=xfst-lexc:
+

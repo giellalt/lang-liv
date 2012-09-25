@@ -1,0 +1,14 @@
+!! Prounoun inflection
+!! ----------------------
+!! Livonian pronouns inflect in the same cases as regular
+!! nouns.
+
+LEXICON PronTag
+	PronCases	;
+
+LEXICON PronCases
++Pron:   Cases  ;
+!        -    Nouns  ;
+
+! vim: set ft=xfst-lexc:
+
