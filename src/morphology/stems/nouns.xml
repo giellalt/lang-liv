@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <entry>
+      <lg>
+         <l>a’b</l>
+         <stg>
+            <st Contlex="N-ab">a’b</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>help</t>
+            </tg>
+            <tg lang="fin">
+               <t>apu</t>
+            </tg>
+         </mg>
+      </e>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>shoulder</t>
+            </tg>
+            <tg lang="fin">
+               <t>olka</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>adres</l>
+         <stg>
+            <st Contlex="N-adres">adres</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>address</t>
+            </tg>
+            <tg lang="fin">
+               <t>osoite</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>aig</l>
+         <stg>
+            <st Contlex="N-aig">aig</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>pike</t>
+            </tg>
+            <tg lang="fin">
+               <t>hauki</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>lu’m</l>
+         <stg>
+            <st Contlex="N-lum">lu’m</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>snow</t>
+            </tg>
+            <tg lang="fin">
+               <t>lumi</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+</r>

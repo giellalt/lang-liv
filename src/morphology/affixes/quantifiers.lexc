@@ -1,0 +1,14 @@
+!! Quantifier inflection
+!! ----------------------
+!! Livonian quantifiers inflect in the same cases as regular
+!! nouns.
+
+LEXICON QntTag
+	QntCases	;
+
+LEXICON QntCases
++Qnt:   Cases  ;
+!        -    Nouns  ;
+
+! vim: set ft=xfst-lexc:
+

@@ -1,0 +1,40 @@
+!! Noun inflection
+!! ---------------
+!! Livonian nouns inflect in cases.
+
+! a'b 61
+LEXICON N-ab
+        Cases   ;
+
+! lu'm m 72
+LEXICON N-lum
+	Cases	;
+
+! aig 85
+LEXICON N-aig
+        Cases   ;
+
+! aim 87
+LEXICON N-aim
+        Cases   ;
+
+
+! adres 112
+LEXICON N-adres
+	Cases	;
+
+
+LEXICON NTag
+	Cases	;
+
+LEXICON Cases
++N+sg+nom:0     #   ;
++N+pl+nom:i     #   ;
++N+sg+loc:as    #   ;
++N+pl+loc:ias   #   ;
++N+sg+acc:at    #   ;
++N+pl+acc:iat   #   ;
+!#:0   nouns   ;
+
+! vim: set ft=xfst-lexc:
+

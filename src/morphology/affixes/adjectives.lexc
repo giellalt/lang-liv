@@ -1,0 +1,19 @@
+!! Adjective inflection
+!! --------------------
+!! Livonian adjectives compare.
+
+! aigi 188
+LEXICON A-aigi
+	ATag	;
+
+! zirmi 191
+LEXICON A-zirmi
+        ATag    ;
+
+LEXICON ATag
++A+Pos:0        Cases   ;
++A+Comp:er       Cases   ;
++A+Superl:est      Cases   ;
+
+! vim: set ft=xfst-lexc:
+
