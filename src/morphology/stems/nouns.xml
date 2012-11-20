@@ -2,7 +2,7 @@
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <entry>
+   <e>
       <lg>
          <l>a’b</l>
          <stg>
@@ -21,8 +21,8 @@
             <t>apu</t>
          </tg>
       </mg>
-   </entry>
-   <entry exclude="fst">
+   </e>
+   <e exclude="fst">
       <lg>
          <l>a’b</l>
          <stg>
@@ -41,8 +41,8 @@
             <t>olka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>adres</l>
          <stg>
@@ -61,8 +61,8 @@
             <t>osoite</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aig</l>
          <stg>
@@ -81,8 +81,8 @@
             <t>hauki</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lu’m</l>
          <stg>
@@ -101,5 +101,5 @@
             <t>lumi</t>
          </tg>
       </mg>
-   </entry>
+   </e>
 </r>
