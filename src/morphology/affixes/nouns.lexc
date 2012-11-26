@@ -28,12 +28,12 @@ LEXICON NTag
 	Cases	;
 
 LEXICON Cases
-+N+sg+nom:0     #   ;
-+N+pl+nom:i     #   ;
-+N+sg+loc:as    #   ;
-+N+pl+loc:ias   #   ;
-+N+sg+acc:at    #   ;
-+N+pl+acc:iat   #   ;
++N+Sg+Nom:0     #   ;
++N+Pl+Nom:i     #   ;
++N+Sg+Loc:as    #   ;
++N+Pl+Loc:ias   #   ;
++N+Sg+Acc:at    #   ;
++N+Pl+Acc:iat   #   ;
 !#:0   nouns   ;
 
 ! vim: set ft=xfst-lexc:
