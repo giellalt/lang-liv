@@ -124,7 +124,7 @@ LEXICON Root
    Abbreviation	;
    Acronym		;
    Punctuation		;
-   wordToNumeral	;
+!   wordToNumeral	;
 
 !! Words that are not inflected
 
@@ -142,6 +142,7 @@ LEXICON CsTag
 LEXICON InterjTag
 +Interj: #	;
 
-
+LEXICON K
+# ;
 
 ! vim: set ft=xfst-lexc:
