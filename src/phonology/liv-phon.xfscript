@@ -28,8 +28,8 @@ define Cns [ b | c | č | d | f | g | h | j | k | l
            | m | n | p | r | s | š | t | v | z | ž
            | M | N | P | R | S | Š | T | V | Z | Ž ] ;
 
-define VwsLessi [ a | e | o | u | ü | ä | ö | õ | ȯ | ē | ȱ | ō̧ 
-                | A | E | O | U | Ü | Ä | Ö | Õ | Ȯ | Ē | Ȱ | Ō̧ ] ;
+define VwsLessi [ a | e | o | u | ü | ä | ö | õ | ȯ | ē | ȱ | ǭ 
+                | A | E | O | U | Ü | Ä | Ö | Õ | Ȯ | Ē | Ȱ | Ǭ ] ;
 
 define Vws [ i | I | VwsLessi ] ;
 
