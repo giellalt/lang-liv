@@ -1,0 +1,37 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+# Comments after each adjective:
+# ok = checked against Marit/Maja
+# ? = not checked
+# c = Comp or Superl attested in corpus
+
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Noun - kalā: # nouns '(eng) fish / (fin) kala' 
+    kalā+N+Sg+Nom: kalā
+    kalā+N+Sg+Gen: kalā
+    kalā+N+Sg+Par: kallõ   # ka'llõ
+    kalā+N+Pl+Dat: kalān
+    kalā+N+Sg+Instr: kalāks
+    kalā+N+Sg+Ill: kallõ   # ka'llõ
+    kalā+N+Sg+Ela: kalāst
+    kalā+N+Pl+Nom: kalād
+    kalā+N+Pl+Gen: kalād
+    kalā+N+Pl+Par: kaļḑi
+    kalā+N+Pl+Dat: kalādõn
+    kalā+N+Pl+Instr: kalādõks
+    kalā+N+Pl+Ill: kaļži  # ka'ļži
+    kalā+N+Pl+Ela: kaļšti # ka'ļšti
