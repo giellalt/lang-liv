@@ -2,6 +2,63 @@
 !! ---------------
 !! The UNDEFINED language verbs inflect in persons.
 
+!!29-36 follow same pattern
+!lu'ggõ:lugg 29
+LEXICON V-luggõ
+	V-luggõ_01	;
+
+!mu'džõ:mudž 30
+LEXICON V-mudžõ
+	V-luggõ_01	;
+
+!vakțõ:vakțõ 31
+LEXICON V-vakțõ
+	V-luggõ_01	;
+
+!kittõ:kitt 32
+LEXICON V-kittõ
+	V-luggõ_01	;
+
+!riddõ:ridd 33
+LEXICON V-riddõ
+	V-luggõ_01	;
+
+!kutsõ:kuts 34
+LEXICON V-kutsõ
+	V-luggõ_01	;
+
+!laskõ:lask 35
+LEXICON V-laskõ
+	V-luggõ_01	;
+
+!akkõ:akk 36
+LEXICON V-akkõ
+	V-luggõ_01	;
+
+!This is mutual for 29-36: 
+!luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
+LEXICON	V-luggõ_01
++V+Inf:õ    K   ;
++V+Ger:õs   K	;
++V+Supin:õm K	;
++V+Ind+Prs+Sg3:ūb	K    ;
++V+Ind+Prs+Pl2:õt	K    ;
++V+Ind+Prt+Sg3:īz	K    ;
++V+Ind+Prt+Pl2:īztõ	K    ;
++V+Ind+Prt+Pl2:īzt	K    ;
++V+Ind+Prt+Pl3:īztõ	K    ;
++V+Ind+Prt+Pl3:īzt	K    ;
++V+Ind+Sg+ConNeg:	K    ;
++V+Cond+Sg3:õks		K    ;
++V+Imprt+Sg2:	K    ;
++V+Imprt+ConNeg:	K    ;
++V+Imprt+Pl2:õgid	K    ;
++V+Jus+Sg3:õg		K    ;
++V+Kvo+Sg:iji		K    ;
++V+ActPrfPrc+Sg:õn	K    ;
++V+PssPrfPrc:dõd	K    ;
+
+
 ! aigõ 37
 LEXICON V-aigo
         VTag    ;
