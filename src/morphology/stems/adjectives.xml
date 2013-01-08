@@ -1,45 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>aigi</l>
-         <stg>
-            <st Contlex="A-aigi">aigi</st>
-         </stg>
-      </lg>
-      <pos>A</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>early</t>
-         </tg>
-         <tg lang="fin">
-            <t>aikainen</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>zirmi</l>
-         <stg>
-            <st Contlex="A-zirmi">zirmi</st>
-         </stg>
-      </lg>
-      <pos>A</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>grey</t>
-         </tg>
-         <tg lang="fin">
-            <t>harmaa</t>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>aigi</l>
+
+      <stg>
+        <st Contlex="A-aigi">aigi</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="A">early</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="A">aikainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>zirmi</l>
+
+      <stg>
+        <st Contlex="A-zirmi">zirmi</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>grey</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>harmaa</t>
+      </tg>
+    </mg>
+  </e>
 </r>
