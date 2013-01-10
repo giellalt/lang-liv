@@ -1,0 +1,23 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - jellõ: # Verb 'to live' - full paradigm
+     jellõ+V+Ind+Prs+Sg1: jelāb
+     jellõ+V+Ind+Prs+Sg2: lugūd
+     jellõ+V+Ind+Prs+Sg3: lugūb
+     jellõ+V+Ind+Prs+Pl1: jellõm
+     jellõ+V+Ind+Prs+Pl2: jellõt
+     jellõ+V+Ind+Prs+Pl3: jellõbõd
