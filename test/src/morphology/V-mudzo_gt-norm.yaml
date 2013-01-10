@@ -1,0 +1,23 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - mudžõ: # Verb 'to read' - full paradigm
+     mudžõ+V+Ind+Prs+Sg1: mudžūb
+     mudžõ+V+Ind+Prs+Sg2: mudžūd
+     mudžõ+V+Ind+Prs+Sg3: mudžūb
+     mudžõ+V+Ind+Prs+Pl1: mudžõm
+     mudžõ+V+Ind+Prs+Pl2: mudžõt
+     mudžõ+V+Ind+Prs+Pl3: mudžõbõd
