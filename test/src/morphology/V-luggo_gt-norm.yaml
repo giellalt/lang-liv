@@ -22,10 +22,16 @@ Tests:
      luggõ+V+Ind+Prs+Pl2: luggõt
      luggõ+V+Ind+Prs+Pl3: luggõbõd
 
-     luggõ+V+Ind+Prs+ConNeg+Sg: lug
-     luggõ+V+Ind+Prs+ConNeg+Pl1: luggõm
-     luggõ+V+Ind+Prs+ConNeg+Pl2: luggõt
-     luggõ+V+Ind+Prs+ConNeg+Pl3: luggõt
+     luggõ+V+Ind+ConNeg+Sg: lug
+     luggõ+V+Ind+ConNeg+Pl1: luggõm
+     luggõ+V+Ind+ConNeg+Pl2: luggõt
+     luggõ+V+Ind+ConNeg+Pl3: luggõt
+# Since there is no distinction between present and preterite in the forms
+# perhaps there is no reason to show this as morphology 
+#     luggõ+V+Ind+Prs+ConNeg+Sg: lug
+#     luggõ+V+Ind+Prs+ConNeg+Pl1: luggõm
+#     luggõ+V+Ind+Prs+ConNeg+Pl2: luggõt
+#     luggõ+V+Ind+Prs+ConNeg+Pl3: luggõt
 
      luggõ+V+Ind+Prt+Sg1: lugīz
      luggõ+V+Ind+Prt+Sg2: lugīzt
@@ -34,10 +40,10 @@ Tests:
      luggõ+V+Ind+Prt+Pl2: [lugīzt, lugīztõ]
      luggõ+V+Ind+Prt+Pl3: [lugīzt, lugīztõ]
 
-     luggõ+V+Ind+Prt+ConNeg+Sg: lug
-     luggõ+V+Ind+Prt+ConNeg+Pl1: luggõm
-     luggõ+V+Ind+Prt+ConNeg+Pl2: luggõt
-     luggõ+V+Ind+Prt+ConNeg+Pl3: luggõt
+#     luggõ+V+Ind+Prt+ConNeg+Sg: lug
+#     luggõ+V+Ind+Prt+ConNeg+Pl1: luggõm
+#     luggõ+V+Ind+Prt+ConNeg+Pl2: luggõt
+#     luggõ+V+Ind+Prt+ConNeg+Pl3: luggõt
      
      luggõ+V+Imprt+Prs+Sg2: lug
      luggõ+V+Imprt+Prs+Pl1: luggõgõm
@@ -65,7 +71,7 @@ Tests:
      luggõ+V+Prc+Pss+Prs+Pl: lugdõbõd
      luggõ+V+Prc+Pss+Prt+Sg: lugdõd
 
-     luggõ+V+Ger+Ines: luggõs
+     luggõ+V+Ger+Ine: luggõs
      luggõ+V+Sup+Ill: luggõm
      
      
