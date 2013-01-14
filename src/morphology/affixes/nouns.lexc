@@ -24,19 +24,19 @@ LEXICON N-tei
 LEXICON N-kalā
 +N: N-kalā_01 ;
 LEXICON N-kalā_01
- SG-NOM	;
- SG-GEN	;
-:n SG-DAT	;
-:ks SG-INSTR	;
-:st SG-ELA	;
++Sg+Nom:ā	K	;
++Sg+Gen:ā	K	;
++Sg+Dat:n	K	;
++Sg+Instr:āks	K	;
++Sg+Ela:āst	K	;
 !
-:%^LConsõ SG-PAR	;
-:%^LConsõ SG-ILL	;
++Sg+Par:%^ConsLõ	K	;
++Sg+Ill:%^ConsLõ	K	;
 !!
-:d PL-NOM	;
-:d PL-GEN	;
-:dõn PL-DAT	;
-:dõks PL-INSTR	;
++Pl+Nom:ād	K	;
++Pl+Gen:ād	K	;
++Pl+Dat:ādõn	K	;
++Pl+Instr:ādõks	K	;
 
 !tubā:tubā 19
 LEXICON N-tubā
