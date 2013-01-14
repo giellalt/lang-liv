@@ -2,6 +2,35 @@
 !! ---------------
 !! The UNDEFINED language verbs inflect in persons.
 
+!jellõ:jell
+LEXICON V-jellõ
+ V-jellõ_01 ;
+
+LEXICON V-jellõ_01
++V+Inf:õ            K   ;
++V+Ger:õs           K	;
++V+Sup:õm           K	;
++V+Ind+Prs+Sg1:%^1Sh2Lāb	K    ;
++V+Ind+Prs+Sg2:ād	K    ;
++V+Ind+Prs+Sg3:%^1Sh2Lāb	K    ;
++V+Ind+Prs+Pl1:õm	K    ;
++V+Ind+Prs+Pl2:õt	K    ;
++V+Ind+Prs+Pl3:õbõd	K    ;
+!+V+Ind+Prt+Sg3:īz	K    ;
+!+V+Ind+Prt+Pl2:īztõ	K    ;
+!+V+Ind+Prt+Pl2:īzt	K    ;
+!+V+Ind+Prt+Pl3:īztõ	K    ;
+!+V+Ind+Prt+Pl3:īzt	K    ;
+!+V+Ind+Sg+ConNeg:	K    ;
+!+V+Cond+Sg3:õks	K    ;
+!+V+Imprt+Sg2:  	K    ;
+!+V+Imprt+ConNeg:	K    ;
+!+V+Imprt+Pl2:õgid	K    ;
+!+V+Jus+Sg3:õg		K    ;
+!+V+Kvo+Sg:iji		K    ;
+!+V+ActPrfPrc+Sg:õn	K    ;
+!+V+PssPrfPrc:dõd	K    ;
+
 !!29-36 follow same pattern
 !lu'ggõ:lugg 29
 LEXICON V-luggõ
@@ -39,24 +68,54 @@ LEXICON V-akkõ
 !luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
 LEXICON	V-luggõ_01
 +V+Inf:õ    K   ;
-+V+Ger:õs   K	;
-+V+Supin:õm K	;
-+V+Ind+Prs+Sg3:ūb	K    ;
++V+Ger+Ine:õs   K	;
++V+Sup+Ill:õm K	;
++V+Ind+Prs+Sg1:%^1Sh2Lūb	K    ;
++V+Ind+Prs+Sg2:%^1Sh2Lūd	K    ;
++V+Ind+Prs+Sg3:%^1Sh2Lūb	K    ;
++V+Ind+Prs+Pl1:õm	K    ;
 +V+Ind+Prs+Pl2:õt	K    ;
-+V+Ind+Prt+Sg3:īz	K    ;
-+V+Ind+Prt+Pl2:īztõ	K    ;
-+V+Ind+Prt+Pl2:īzt	K    ;
-+V+Ind+Prt+Pl3:īztõ	K    ;
-+V+Ind+Prt+Pl3:īzt	K    ;
-+V+Ind+Sg+ConNeg:	K    ;
-+V+Cond+Sg3:õks		K    ;
-+V+Imprt+Sg2:	K    ;
-+V+Imprt+ConNeg:	K    ;
-+V+Imprt+Pl2:õgid	K    ;
-+V+Jus+Sg3:õg		K    ;
-+V+Kvo+Sg:iji		K    ;
-+V+ActPrfPrc+Sg:õn	K    ;
-+V+PssPrfPrc:dõd	K    ;
++V+Ind+Prs+Pl3:õbõd	K    ;
++V+Ind+ConNeg+Sg:%^ConsSh	K    ;
++V+Ind+ConNeg+Pl1:õm	K    ;
++V+Ind+ConNeg+Pl2:õt	K    ;
++V+Ind+ConNeg+Pl3:õt	K    ;
+!! Prt
++V+Ind+Prt+Sg1:%^1Sh2Līz	K    ;
++V+Ind+Prt+Sg2:%^1Sh2Līzt	K    ;
++V+Ind+Prt+Sg3:%^1Sh2Līz	K    ;
++V+Ind+Prt+Pl1:%^1Sh2Līzmõ	K    ;
++V+Ind+Prt+Pl2:%^1Sh2Līztõ	K    ;
++V+Ind+Prt+Pl2:%^1Sh2Līzt	K    ;
++V+Ind+Prt+Pl3:%^1Sh2Līztõ	K    ;
++V+Ind+Prt+Pl3:%^1Sh2Līzt	K    ;
+! Cond
++V+Cond+Prs+Sg1:%^1Sh2Lūks		K    ;
++V+Cond+Prs+Sg2:%^1Sh2Lūkst		K    ;
++V+Cond+Prs+Sg3:%^1Sh2Lūks		K    ;
++V+Cond+Prs+Pl1:%^1Sh2Lūksmõ		K    ;
++V+Cond+Prs+Pl2:%^1Sh2Lūkstõ		K    ;
++V+Cond+Prs+Pl3:%^1Sh2Lūkstõ		K    ;
+! Imprt
++V+Imprt+Prs+Sg2:%^ConsSh	K    ;
++V+Imprt+Prs+Pl1:õgõm	K    ;
++V+Imprt+Prs+Pl2:õgid	K    ;
++V+Imprt+Prs+ConNeg:	K    ;
++V+Imprt+Prs+Pl2:õgid	K    ;
+! Jus
++V+Jus+Prs+Sg:õg		K    ;
++V+Jus+Prs+Pl:õgõd		K    ;
+! Kvo
++V+Quo+Prs+Sg:iji		K    ;
++V+Quo+Prs+Pl:ijid		K    ;
+! participles
++V+Prc+Act+Prs+Sg:õb	K    ;
++V+Prc+Act+Prs+Pl:õbõd	K    ;
++V+Prc+Act+Prt+Sg:õn	K    ;
++V+Prc+Act+Prt+Pl:õnd	K    ;
++V+Prc+Pss+Prs+Sg:%^ConsShdõb	K    ;
++V+Prc+Pss+Prs+Pl:%^ConsShdõbõd	K    ;
++V+Prc+Pss+Prt+Sg:%^ConsShdõd	K    ;
 
 
 ! aigõ 37
