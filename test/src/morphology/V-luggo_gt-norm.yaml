@@ -62,16 +62,56 @@ Tests:
      luggõ+V+Quo+Prs+Sg: luggiji
      luggõ+V+Quo+Prs+Pl: luggijid
      
-     luggõ+V+Prc+Act+Prs+Sg: luggõb     
-     luggõ+V+Prc+Act+Prs+Pl: luggõbõd
-     luggõ+V+Prc+Act+Prt+Sg: luggõn
-     luggõ+V+Prc+Act+Prt+Pl: luggõnd
+     luggõ+V+Act+PrsPrc+Sg: luggõb     
+     luggõ+V+Act+PrsPrc+Pl: luggõbõd
+     luggõ+V+Act+PrfPrc+Sg: luggõn
+     luggõ+V+Act+PrfPrc+Pl: luggõnd
 
-     luggõ+V+Prc+Pss+Prs+Sg: lugdõb
-     luggõ+V+Prc+Pss+Prs+Pl: lugdõbõd
-     luggõ+V+Prc+Pss+Prt+Sg: lugdõd
+     luggõ+V+Pss+PrsPrc+Sg: lugdõb
+     luggõ+V+Pss+PrsPrc+Pl: lugdõbõd
+     luggõ+V+Pss+PrfPrc+Sg: lugdõd
 
      luggõ+V+Ger+Ine: luggõs
      luggõ+V+Sup+Ill: luggõm
      
      
+#
+     vakțõ+V+Ind+ConNeg+Sg: vakț
+     kittõ+V+Ind+ConNeg+Sg: kit
+     riddõ+V+Ind+ConNeg+Sg: rid
+     kutsõ+V+Ind+ConNeg+Sg: kuts
+     laskõ+V+Ind+ConNeg+Sg: lask
+     akkõ+V+Ind+ConNeg+Sg: ak
+     aigõ+V+Ind+ConNeg+Sg: aig
+     kuoŗŗõ+V+Ind+ConNeg+Sg: kuoŗ
+     vannõ+V+Ind+ConNeg+Sg: van
+     pȯļļõ+V+Ind+ConNeg+Sg: pȯļ
+     pȯimõ+V+Ind+ConNeg+Sg: pȯim
+     ouŗõ+V+Ind+ConNeg+Sg: ouŗ
+     keijõ+V+Ind+ConNeg+Sg: keij
+     aŗštõ+V+Ind+ConNeg+Sg: aŗšt
+     pȯrtõ+V+Ind+ConNeg+Sg: pȯrt
+     outõ+V+Ind+ConNeg+Sg: out
+     tundõ+V+Ind+ConNeg+Sg: tund
+     oudõ+V+Ind+ConNeg+Sg: oud
+
+#luggõ+V+Pss+PrfPrc+Sg: lugdõd
+     vakțõ+V+Pss+PrfPrc+Sg: vakțõd
+     kittõ+V+Pss+PrfPrc+Sg: kittõd
+     riddõ+V+Pss+PrfPrc+Sg: ridtõd
+     kutsõ+V+Pss+PrfPrc+Sg: kutstõd
+     laskõ+V+Pss+PrfPrc+Sg: lastõd
+     akkõ+V+Pss+PrfPrc+Sg: aktõd
+     aigõ+V+Pss+PrfPrc+Sg: aigdõd
+     kuoŗŗõ+V+Pss+PrfPrc+Sg: kuoŗdõd
+     vannõ+V+Pss+PrfPrc+Sg: vandõd
+     pȯļļõ+V+Pss+PrfPrc+Sg: pȯļdõd
+     pȯimõ+V+Pss+PrfPrc+Sg: pȯimdõd
+     ouŗõ+V+Pss+PrfPrc+Sg: ouŗdõd
+     keijõ+V+Pss+PrfPrc+Sg: keijdõd
+     aŗštõ+V+Pss+PrfPrc+Sg: aŗštõd
+     pȯrtõ+V+Pss+PrfPrc+Sg: pȯrtõd
+     outõ+V+Pss+PrfPrc+Sg: outõd
+     tundõ+V+Pss+PrfPrc+Sg: tundtõd
+     oudõ+V+Pss+PrfPrc+Sg: oudtõd
+
