@@ -33,7 +33,7 @@ LEXICON V-jellõ_01
 !+Jus+Sg3:õg		K    ;
 !+Quo+Sg:iji		K    ;
 !+Act+PrfPrc+Sg:õn	K    ;
-!+Pss+PrfPrc:dõd	K    ;
+:%^ConsSh%>	PSSPRFPRCSG    ;
 
 !!29-48 follow same pattern
 LEXICON V-luggõ
@@ -117,7 +117,7 @@ LEXICON	V-luggõ_01
 +Act+PrfPrc+Pl:õnd	K    ;
 +Pss+PrsPrc+Sg:%^ConsShdõb	K    ;
 +Pss+PrsPrc+Pl:%^ConsShdõbõd	K    ;
-+Pss+PrfPrc+Sg:%^ConsShdõd	K    ;
+:%^ConsSh%>	PSSPRFPRCSG    ;
 
 
 LEXICON V-aigõ
@@ -202,6 +202,7 @@ LEXICON V-aigõ_01
 :%^1Sh2Li INDPRTPL2-z    ;
 :%^1Sh2Li INDPRTPL3-z    ;
 
+:%^ConsSh%>	PSSPRFPRCSG    ;
 
 
 LEXICON V-kūlõ
@@ -296,13 +297,16 @@ LEXICON INF-õ
 LEXICON SUP
 +Sup+Ill:õm K   ;
 
+LEXICON PSSPRFPRCSG
++Pss+PrfPrc+Sg:dõd    K    ;
+
 !! Finites
  ! Indicative present
 LEXICON INDPRSSG1
  +Ind+Prs+Sg1:b    K	;
 
 LEXICON INDPRSSG2
- +Ind+Prs+Sg2:b    K	;
+ +Ind+Prs+Sg2:d    K	;
 
 LEXICON INDPRSSG3
  +Ind+Prs+Sg3:b    K	;
@@ -348,7 +352,7 @@ LEXICON INDCONNEGPL2
  +Ind+ConNeg+Pl2:t    K	;
 
 LEXICON INDCONNEGPL3
- +Ind+ConNeg+Pl3:bõd    K	;
+ +Ind+ConNeg+Pl3:t    K	;
 
 
 
