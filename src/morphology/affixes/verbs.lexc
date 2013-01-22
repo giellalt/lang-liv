@@ -4,128 +4,268 @@
 
 !jellõ:jell
 LEXICON V-jellõ
- V-jellõ_01 ;
++V: V-jellõ_01 ;
 
 LEXICON V-jellõ_01
-+V+Inf:õ            K   ;
-+V+Ger:õs           K	;
-+V+Sup:õm           K	;
-+V+Ind+Prs+Sg1:%^1Sh2Lāb	K    ;
-+V+Ind+Prs+Sg2:ād	K    ;
-+V+Ind+Prs+Sg3:%^1Sh2Lāb	K    ;
-+V+Ind+Prs+Pl1:õm	K    ;
-+V+Ind+Prs+Pl2:õt	K    ;
-+V+Ind+Prs+Pl3:õbõd	K    ;
-!+V+Ind+Prt+Sg3:īz	K    ;
-!+V+Ind+Prt+Pl2:īztõ	K    ;
-!+V+Ind+Prt+Pl2:īzt	K    ;
-!+V+Ind+Prt+Pl3:īztõ	K    ;
-!+V+Ind+Prt+Pl3:īzt	K    ;
-!+V+Ind+Sg+ConNeg:	K    ;
-!+V+Cond+Sg3:õks	K    ;
-!+V+Imprt+Sg2:  	K    ;
-!+V+Imprt+ConNeg:	K    ;
-!+V+Imprt+Pl2:õgid	K    ;
-!+V+Jus+Sg3:õg		K    ;
-!+V+Kvo+Sg:iji		K    ;
-!+V+ActPrfPrc+Sg:õn	K    ;
-!+V+PssPrfPrc:dõd	K    ;
+ GER-õs     ;
+ INF-õ      ;
+ SUP        ;
+:%^1Sh2Lā   INDPRSSG1    ;
+:%^1Sh2Lā   INDPRSSG2    ;
+:%^1Sh2Lā   INDPRSSG3    ;
+:%^1Sh2Lā   INDPRSPL1	 ;
+:%^1Sh2Lā   INDPRSPL2	 ;
+:%^1Sh2Lā   INDPRSPL3	 ;
+:%^ConsSh   INDCONNEGSG    ;
+:%^1Sh2Lā INDCONNEGPL1 ;
+:%^1Sh2Lā INDCONNEGPL2 ;
+:%^1Sh2Lā INDCONNEGPL3 ;
+!+Ind+Prt+Sg3:īz	K    ;
+!+Ind+Prt+Pl2:īztõ	K    ;
+!+Ind+Prt+Pl2:īzt	K    ;
+!+Ind+Prt+Pl3:īztõ	K    ;
+!+Ind+Prt+Pl3:īzt	K    ;
+!+Ind+Sg+ConNeg:	K    ;
+!+Cond+Sg3:õks	K    ;
+!+Imprt+Sg2:  	K    ;
+!+Imprt+ConNeg:	K    ;
+!+Imprt+Pl2:õgid	K    ;
+!+Jus+Sg3:õg		K    ;
+!+Quo+Sg:iji		K    ;
+!+Act+PrfPrc+Sg:õn	K    ;
+!+Pss+PrfPrc:dõd	K    ;
 
-!!29-36 follow same pattern
-!lu'ggõ:lugg 29
+!!29-48 follow same pattern
 LEXICON V-luggõ
-	V-luggõ_01	;
+!lu'ggõ:lugg 29
++V:	V-luggõ_01	;
 
-!mu'džõ:mudž 30
 LEXICON V-mudžõ
-	V-luggõ_01	;
+!mu'džõ:mudž 30
++V:	V-luggõ_01	;
 
-!vakțõ:vakțõ 31
 LEXICON V-vakțõ
-	V-luggõ_01	;
+!vakțõ:vakțõ 31
++V:	V-luggõ_01	;
 
-!kittõ:kitt 32
 LEXICON V-kittõ
-	V-luggõ_01	;
+!kittõ:kitt 32
++V:	V-luggõ_01	;
 
-!riddõ:ridd 33
 LEXICON V-riddõ
-	V-luggõ_01	;
+!riddõ:ridd 33
++V:	V-luggõ_01	;
 
-!kutsõ:kuts 34
 LEXICON V-kutsõ
-	V-luggõ_01	;
+!kutsõ:kuts 34
++V:	V-luggõ_01	;
 
-!laskõ:lask 35
 LEXICON V-laskõ
-	V-luggõ_01	;
+!laskõ:lask 35
++V:	V-luggõ_01	;
 
 !akkõ:akk 36
 LEXICON V-akkõ
-	V-luggõ_01	;
++V:	V-luggõ_01	;
 
+LEXICON	V-luggõ_01
 !This is mutual for 29-36: 
 !luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
-LEXICON	V-luggõ_01
-+V+Inf:õ    K   ;
-+V+Ger+Ine:õs   K	;
-+V+Sup+Ill:õm K	;
-+V+Ind+Prs+Sg1:%^1Sh2Lūb	K    ;
-+V+Ind+Prs+Sg2:%^1Sh2Lūd	K    ;
-+V+Ind+Prs+Sg3:%^1Sh2Lūb	K    ;
-+V+Ind+Prs+Pl1:õm	K    ;
-+V+Ind+Prs+Pl2:õt	K    ;
-+V+Ind+Prs+Pl3:õbõd	K    ;
-+V+Ind+ConNeg+Sg:%^ConsSh	K    ;
-+V+Ind+ConNeg+Pl1:õm	K    ;
-+V+Ind+ConNeg+Pl2:õt	K    ;
-+V+Ind+ConNeg+Pl3:õt	K    ;
+ GER-õs   ;
+ INF-õ	  ;
+ SUP	  ; 
+:%^1Sh2Lū INDPRSSG1    ;
+:%^1Sh2Lū INDPRSSG2    ;
+:%^1Sh2Lū INDPRSSG3    ;
+:õ   INDPRSPL1    ;
+:õ   INDPRSPL2    ;
+:õ   INDPRSPL3    ;
+:%^ConsSh	INDCONNEGSG    ;
+:õ INDCONNEGPL1 ;
+:õ INDCONNEGPL2 ;
+:õ INDCONNEGPL3 ;
 !! Prt
-+V+Ind+Prt+Sg1:%^1Sh2Līz	K    ;
-+V+Ind+Prt+Sg2:%^1Sh2Līzt	K    ;
-+V+Ind+Prt+Sg3:%^1Sh2Līz	K    ;
-+V+Ind+Prt+Pl1:%^1Sh2Līzmõ	K    ;
-+V+Ind+Prt+Pl2:%^1Sh2Līztõ	K    ;
-+V+Ind+Prt+Pl2:%^1Sh2Līzt	K    ;
-+V+Ind+Prt+Pl3:%^1Sh2Līztõ	K    ;
-+V+Ind+Prt+Pl3:%^1Sh2Līzt	K    ;
+:%^1Sh2Lī INDPRTSG1-z    ;
+:%^1Sh2Lī INDPRTSG2-z    ;
+:%^1Sh2Lī INDPRTSG3-z    ;
+:%^1Sh2Lī INDPRTPL1-z    ;
+:%^1Sh2Lī INDPRTPL2-z    ;
+:%^1Sh2Lī INDPRTPL3-z    ;
 ! Cond
-+V+Cond+Prs+Sg1:%^1Sh2Lūks		K    ;
-+V+Cond+Prs+Sg2:%^1Sh2Lūkst		K    ;
-+V+Cond+Prs+Sg3:%^1Sh2Lūks		K    ;
-+V+Cond+Prs+Pl1:%^1Sh2Lūksmõ		K    ;
-+V+Cond+Prs+Pl2:%^1Sh2Lūkstõ		K    ;
-+V+Cond+Prs+Pl3:%^1Sh2Lūkstõ		K    ;
++Cond+Prs+Sg1:%^1Sh2Lūks		K    ;
++Cond+Prs+Sg2:%^1Sh2Lūkst		K    ;
++Cond+Prs+Sg3:%^1Sh2Lūks		K    ;
++Cond+Prs+Pl1:%^1Sh2Lūksmõ		K    ;
++Cond+Prs+Pl2:%^1Sh2Lūkstõ		K    ;
++Cond+Prs+Pl3:%^1Sh2Lūkstõ		K    ;
 ! Imprt
-+V+Imprt+Prs+Sg2:%^ConsSh	K    ;
-+V+Imprt+Prs+Pl1:õgõm	K    ;
-+V+Imprt+Prs+Pl2:õgid	K    ;
-+V+Imprt+Prs+ConNeg:	K    ;
-+V+Imprt+Prs+Pl2:õgid	K    ;
++Imprt+Prs+Sg2:%^ConsSh	K    ;
++Imprt+Prs+Pl1:õgõm	K    ;
++Imprt+Prs+Pl2:õgid	K    ;
++Imprt+Prs+ConNeg:	K    ;
++Imprt+Prs+Pl2:õgid	K    ;
 ! Jus
-+V+Jus+Prs+Sg:õg		K    ;
-+V+Jus+Prs+Pl:õgõd		K    ;
++Jus+Prs+Sg:õg		K    ;
++Jus+Prs+Pl:õgõd		K    ;
 ! Kvo
-+V+Quo+Prs+Sg:iji		K    ;
-+V+Quo+Prs+Pl:ijid		K    ;
++Quo+Prs+Sg:iji		K    ;
++Quo+Prs+Pl:ijid		K    ;
 ! participles
-+V+Prc+Act+Prs+Sg:õb	K    ;
-+V+Prc+Act+Prs+Pl:õbõd	K    ;
-+V+Prc+Act+Prt+Sg:õn	K    ;
-+V+Prc+Act+Prt+Pl:õnd	K    ;
-+V+Prc+Pss+Prs+Sg:%^ConsShdõb	K    ;
-+V+Prc+Pss+Prs+Pl:%^ConsShdõbõd	K    ;
-+V+Prc+Pss+Prt+Sg:%^ConsShdõd	K    ;
++Act+PrsPrc+Sg:õb	K    ;
++Act+PrsPrc+Pl:õbõd	K    ;
++Act+PrfPrc+Sg:õn	K    ;
++Act+PrfPrc+Pl:õnd	K    ;
++Pss+PrsPrc+Sg:%^ConsShdõb	K    ;
++Pss+PrsPrc+Pl:%^ConsShdõbõd	K    ;
++Pss+PrfPrc+Sg:%^ConsShdõd	K    ;
 
 
-! aigõ 37
-LEXICON V-aigo
-        VTag    ;
+LEXICON V-aigõ
+! aigõ:aig 37
++V:	V-aigõ_01	;
 
 
-! a'ilõ 52
-LEXICON V-ailo
-	VTag	;
+LEXICON V-kuoŗŗõ
+! kuoŗŗõ:kuoŗŗ 38
++V:	V-aigõ_01	;
+
+
+LEXICON V-vannõ
+! vannõ:vann 39
++V:	V-aigõ_01	;
+
+
+LEXICON V-pȯļļõ
+! pȯļļõ:pȯļļ 40
++V:	V-aigõ_01	;
+
+
+LEXICON V-pȯimõ
+! pȯimõ:pȯim 41
++V:	V-aigõ_01	;
+
+
+LEXICON V-ouŗõ
+! ouŗõ:ouŗ 42
++V:	V-aigõ_01	;
+
+
+LEXICON V-keijõ
+! keijõ:keij 43
++V:	V-aigõ_01	;
+
+
+LEXICON V-aŗštõ
+! aŗštõ:aŗšt 44
++V:	V-aigõ_01	;
+
+
+LEXICON V-pȯrtõ
+! pȯrtõ:pȯrt 45
++V:	V-aigõ_01	;
+
+
+LEXICON V-outõ
+! outõ:out 46
++V:	V-aigõ_01	;
+
+
+LEXICON V-tundõ
+! tundõ:tund 47
++V:	V-aigõ_01	;
+
+
+LEXICON V-oudõ
+! oudõ:oud 48
++V:	V-aigõ_01	;
+
+LEXICON V-aigõ_01
+!This is mutual for 29-36:
+ GER-õs   ;
+ INF-õ	  ;
+ SUP	  ; 
+:%^1Sh2Lõ INDPRSSG1    ;
+:%^1Sh2Lõ INDPRSSG2    ;
+:%^1Sh2Lõ INDPRSSG3    ;
+:õ   INDPRSPL1    ;
+:õ   INDPRSPL2    ;
+:õ   INDPRSPL3    ;
+:%^ConsSh	INDCONNEGSG    ;
+:õ INDCONNEGPL1 ;
+:õ INDCONNEGPL2 ;
+:õ INDCONNEGPL3 ;
+!! Prt
+:%^1Sh2Li INDPRTSG1-z    ;
+:%^1Sh2Li INDPRTSG2-z    ;
+:%^1Sh2Li INDPRTSG3-z    ;
+:%^1Sh2Li INDPRTPL1-z    ;
+:%^1Sh2Li INDPRTPL2-z    ;
+:%^1Sh2Li INDPRTPL3-z    ;
+
+
+
+LEXICON V-kūlõ
+!kūlõ:kūl 49
++V: V-kūlõ_01 ;
+
+LEXICON V-arrõ
+!arrõ:arr 50
++V: V-kūlõ_01 ;
+
+LEXICON V-ailõ
+!ailõ:ail 51
++V: V-kūlõ_01 ;
+
+LEXICON V-svarrõ
+! svarrõ:svarr 52
++V: V-kūlõ_01 ;
+
+LEXICON V-kītõ
+!kītõ:kīt 53
++V: V-kūlõ_01 ;
+
+LEXICON V-äbțõ
+!äbțõ:äbț 54
++V: V-kūlõ_01 ;
+
+LEXICON V-kūldõ
+!kūldõ:kūld 55
++V: V-kūlõ_01 ;
+
+LEXICON V-kīskõ
+!kīskõ:kīsk 56
++V: V-kūlõ_01 ;
+
+LEXICON V-īedõ
+!īedõ:īed 57
++V: V-kūlõ_01 ;
+
+LEXICON V-kūlõ_01
+! This is mutual for 49-57
+ GER-õs   ;
+ INF-õ	  ;
+ SUP	  ; 
+:õ INDPRSSG1    ;
+:õ INDPRSSG2    ;
+:õ INDPRSSG3    ;
+:õ   INDPRSPL1    ;
+:õ   INDPRSPL2    ;
+:õ   INDPRSPL3    ;
+:%^ConsSh	INDCONNEGSG    ;
+:õ INDCONNEGPL1 ;
+:õ INDCONNEGPL2 ;
+:õ INDCONNEGPL3 ;
+!! Prt
+:i INDPRTSG1-z    ;
+:i INDPRTSG2-z    ;
+:i INDPRTSG3-z    ;
+:i INDPRTPL1-z    ;
+:i INDPRTPL2-z    ;
+:i INDPRTPL3-z    ;
+
+
+LEXICON V-umblõ
++V: VTag ;
 
 LEXICON VTag
 	Persons	;
@@ -139,6 +279,78 @@ LEXICON Persons
 +V+3pl:iet  #   ;
 +V+inf:0    #   ;
 !#:0   Nouns   ;
+
+!! Nonfinites
+LEXICON GER-õs
++Ger+Ine:õs   K ;
+
+LEXICON GER-sõ
++Ger+Ine:sõ   K ;
+
+LEXICON INF-dõ
++Inf:dõ    K   ;
+
+LEXICON INF-õ
++Inf:õ    K   ;
+
+LEXICON SUP
++Sup+Ill:õm K   ;
+
+!! Finites
+ ! Indicative present
+LEXICON INDPRSSG1
+ +Ind+Prs+Sg1:b    K	;
+
+LEXICON INDPRSSG2
+ +Ind+Prs+Sg2:b    K	;
+
+LEXICON INDPRSSG3
+ +Ind+Prs+Sg3:b    K	;
+
+LEXICON INDPRSPL1
+ +Ind+Prs+Pl1:m    K	;
+
+LEXICON INDPRSPL2
+ +Ind+Prs+Pl2:t    K	;
+
+LEXICON INDPRSPL3
+ +Ind+Prs+Pl3:bõd    K	;
+
+ ! Indicative preterite
+LEXICON INDPRTSG1-z
+ +Ind+Prt+Sg1:z    K	;
+
+LEXICON INDPRTSG2-z
+ +Ind+Prt+Sg2:zt    K	;
+
+LEXICON INDPRTSG3-z
+ +Ind+Prt+Sg3:z    K	;
+
+LEXICON INDPRTPL1-z
+ +Ind+Prt+Pl1:zmõ    K	;
+
+LEXICON INDPRTPL2-z
+ +Ind+Prt+Pl2:zt    K	;
+ +Ind+Prt+Pl2:ztõ    K	;
+
+LEXICON INDPRTPL3-z
+ +Ind+Prt+Pl3:zt    K	;
+ +Ind+Prt+Pl3:ztõ    K	;
+
+
+LEXICON INDCONNEGSG
+ +Ind+ConNeg+Sg:    K	;
+
+LEXICON INDCONNEGPL1
+ +Ind+ConNeg+Pl1:m    K	;
+
+LEXICON INDCONNEGPL2
+ +Ind+ConNeg+Pl2:t    K	;
+
+LEXICON INDCONNEGPL3
+ +Ind+ConNeg+Pl3:bõd    K	;
+
+
 
 ! vim: set ft=xfst-lexc:
 
