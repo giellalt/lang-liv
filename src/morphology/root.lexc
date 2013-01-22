@@ -48,11 +48,31 @@ Multichar_Symbols
  +Attr +Card
  +Ord 
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
+ +Cond ! conditional 
+ +Ind ! indicative
+ +Imprt ! imperative
+ +Jus ! jussitive
+ +Quo ! quotative, quoted speech
+!! Tenses
+ +Prs +Prt
+!! Voice
+ +Act ! active
+ +Pss ! passive
 !! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
+ +Sg1 ! first person singular conjugation
+ +Sg2 ! second person singular conjugation
+ +Sg3 ! third person singular conjugation
+ +Pl1 ! first person plural conjugation
+ +Pl2 ! second person plural conjugation
+ +Pl3 ! third person plural conjugation
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+ +ConNeg ! connegative, main verb complement to Neg, 
+ +Ger ! gerund This is used with Der/Озь and VAbl
+ +Inf    ! infinitive
+ +Neg    ! verb of negation эзь, аволь, иля
+ +Prc ! participle
+
+ +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
