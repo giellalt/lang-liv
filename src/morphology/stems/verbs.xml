@@ -1,215 +1,594 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>jellõ</l>
-         <stg>
-            <st Contlex="V-jellõ">jell</st>
-         </stg>
-         <stress>je'llõ</stress>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t pos="V">live</t>
-         </tg>
-         <tg lang="fin">
-            <t pos="V">elää</t>
-            <t pos="V">asua</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>luggõ</l>
-         <stg>
-            <st Contlex="V-luggõ">lugg</st>
-         </stg>
-         <stress>lu'ggõ</stress>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>read</t>
-         </tg>
-         <tg lang="fin">
-            <t>lukea</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>mudžõ</l>
-         <stg>
-            <st Contlex="V-mudžõ">mudž</st>
-         </stg>
-         <stress>mu'džõ</stress>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>vakțõ</l>
-         <stg>
-            <st Contlex="V-vakțõ">vakț</st>
-         </stg>
-         <stress>vakțõ</stress>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kittõ</l>
-         <stg>
-            <st Contlex="V-kittõ">kitt</st>
-         </stg>
-         <stress>kittõ</stress>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>riddõ</l>
-         <stg>
-            <st Contlex="V-riddõ">ridd</st>
-         </stg>
-         <stress>ri'ddõ</stress>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>kutsõ</l>
-         <stg>
-            <st Contlex="V-kutsõ">kuts</st>
-         </stg>
-         <stress>kutsõ</stress>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>laskõ</l>
-         <stg>
-            <st Contlex="V-laskõ">lask</st>
-         </stg>
-         <stress>laskõ</stress>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>akkõ</l>
-         <stg>
-            <st Contlex="V-akkõ">akk</st>
-         </stg>
-         <stress>akkõ</stress>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t/>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>aigõ</l>
-         <stg>
-            <st Contlex="V-aigo">aigõ</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t pos="V">try out</t>
-         </tg>
-         <tg lang="fin">
-            <t pos="V">kokeilla</t>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>jellõ</l>
+
+      <stg>
+        <st Contlex="V-jellõ">jell</st>
+      </stg>
+
+      <stress>je'llõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="V">live</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="V">elää</t>
+
+        <t pos="V">asua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>luggõ</l>
+
+      <stg>
+        <st Contlex="V-luggõ">lugg</st>
+      </stg>
+
+      <stress>lu'ggõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>read</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>lukea</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mudžõ</l>
+
+      <stg>
+        <st Contlex="V-mudžõ">mudž</st>
+      </stg>
+
+      <stress>mu'džõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="VT">get confused</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="VT">panna sekaisin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vakțõ</l>
+
+      <stg>
+        <st Contlex="V-vakțõ">vakț</st>
+      </stg>
+
+      <stress>vakțõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kittõ</l>
+
+      <stg>
+        <st Contlex="V-kittõ">kitt</st>
+      </stg>
+
+      <stress>kittõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>riddõ</l>
+
+      <stg>
+        <st Contlex="V-riddõ">ridd</st>
+      </stg>
+
+      <stress>ri'ddõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kutsõ</l>
+
+      <stg>
+        <st Contlex="V-kutsõ">kuts</st>
+      </stg>
+
+      <stress>kutsõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>laskõ</l>
+
+      <stg>
+        <st Contlex="V-laskõ">lask</st>
+      </stg>
+
+      <stress>laskõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>akkõ</l>
+
+      <stg>
+        <st Contlex="V-akkõ">akk</st>
+      </stg>
+
+      <stress>akkõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>aigõ</l>
+
+      <stg>
+        <st Contlex="V-aigõ">aigõ</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="V">try out</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="V">kokeilla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuoŗŗõ</l>
+
+      <stg>
+        <st Contlex="V-kuoŗŗõ">kuoŗŗ</st>
+      </stg>
+
+      <stress>kuoŗŗõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vannõ</l>
+
+      <stg>
+        <st Contlex="V-vannõ">vann</st>
+      </stg>
+
+      <stress>vannõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pȯļļõ</l>
+
+      <stg>
+        <st Contlex="V-pȯļļõ">pȯļļ</st>
+      </stg>
+
+      <stress>pȯļļõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pȯimõ</l>
+
+      <stg>
+        <st Contlex="V-pȯimõ">pȯim</st>
+      </stg>
+
+      <stress>pȯimõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ouŗõ</l>
+
+      <stg>
+        <st Contlex="V-ouŗõ">ouŗ</st>
+      </stg>
+
+      <stress>ouŗõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>keijõ</l>
+
+      <stg>
+        <st Contlex="V-keijõ">keij</st>
+      </stg>
+
+      <stress>keijõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>aŗštõ</l>
+
+      <stg>
+        <st Contlex="V-aŗštõ">aŗšt</st>
+      </stg>
+
+      <stress>aŗštõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pȯrtõ</l>
+
+      <stg>
+        <st Contlex="V-pȯrtõ">pȯrt</st>
+      </stg>
+
+      <stress>pȯrtõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>outõ</l>
+
+      <stg>
+        <st Contlex="V-outõ">out</st>
+      </stg>
+
+      <stress>outõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tundõ</l>
+
+      <stg>
+        <st Contlex="V-tundõ">tund</st>
+      </stg>
+
+      <stress>tundõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>oudõ</l>
+
+      <stg>
+        <st Contlex="V-oudõ">oud</st>
+      </stg>
+
+      <stress>oudõ</stress>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
 </r>
