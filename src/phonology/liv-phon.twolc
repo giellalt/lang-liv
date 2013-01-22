@@ -103,9 +103,30 @@ Rules
 ! First syllable short second syllable long
 !! jellõ: jelāb
 "shorten first syllable jellõ: jelāb"
- Cx:0 <=> _ Cx %^1Sh2L:0 ;
-          _ Cx %^ConsSh:0 ;
-          where Cx in ( d g k l ļ n p ŗ t ) ;
+ Cx:0 <=> Cx _ %^1Sh2L:0 ;
+          Cx _ %^ConsSh:0 ;
+          where Cx in ( d g l ļ n p ŗ ) ;
+
+"d:t "
+d:t <=>
+       [ s k: | d: | t: | k k: | t s ] ( %^ConsSh:0 ) %> _ õ d ;
+
+"d:ț "
+d:ț <=> [ ț: ] %^ConsSh:0 %> _ õ d ;
+
+"k:0"
+k:0 <=> s _ %^ConsSh:0 %> d: õ d ;
+    	k _ %^1Sh2L:0 ;
+        k _ %^ConsSh:0 ;
+
+"t:0"
+t:0 <=>  _ %^ConsSh:0 %> d: õ d ;
+    	t _ %^1Sh2L:0 ;
+        t _ %^ConsSh:0 ;
+
+"ț:0"
+ț:0 <=> k _ %^ConsSh:0 %> d: õ d ;
+
 
 
 ! Consonant shortening
@@ -116,7 +137,7 @@ Rules
 ! Consonant Lengthening
 !! 
 "Consonant lengthening"
- 0:Cx <=> _ Cx %^ConsL:0 ;
+ 0:Cx <=> Cx _ %^ConsL:0 ;
          where Cx in ( l ) ;
 
 
