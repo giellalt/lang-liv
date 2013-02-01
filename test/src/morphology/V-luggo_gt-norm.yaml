@@ -14,106 +14,82 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - luggõ: # Verb 'to read' - full paradigm
-     luggõ+V+Inf: luggõ
+  Verb - lu’ggõ: # Verb 'to read' - full paradigm
+     lu’ggõ+V+Inf: lu’ggõ
 
-     luggõ+V+Ind+Prs+Sg1: lugūb
-     luggõ+V+Ind+Prs+Sg2: lugūd
-     luggõ+V+Ind+Prs+Sg3: lugūb
-     luggõ+V+Ind+Prs+Pl1: luggõm
-     luggõ+V+Ind+Prs+Pl2: luggõt
-     luggõ+V+Ind+Prs+Pl3: luggõbõd
+     lu’ggõ+V+Ind+Prs+Sg1: lugūb
+     lu’ggõ+V+Ind+Prs+Sg2: lugūd
+     lu’ggõ+V+Ind+Prs+Sg3: lugūb
+     lu’ggõ+V+Ind+Prs+Pl1: lu’ggõm
+     lu’ggõ+V+Ind+Prs+Pl2: lu’ggõt
+     lu’ggõ+V+Ind+Prs+Pl3: lu’ggõbõd
 
-     luggõ+V+Ind+ConNeg+Sg: lug
-     luggõ+V+Ind+ConNeg+Pl1: luggõm
-     luggõ+V+Ind+ConNeg+Pl2: luggõt
-     luggõ+V+Ind+ConNeg+Pl3: luggõt
+     lu’ggõ+V+Ind+ConNeg+Sg: lug
+     lu’ggõ+V+Ind+ConNeg+Pl1: lu’ggõm
+     lu’ggõ+V+Ind+ConNeg+Pl2: lu’ggõt
+     lu’ggõ+V+Ind+ConNeg+Pl3: lu’ggõt
 # Since there is no distinction between present and preterite in the forms
 # perhaps there is no reason to show this as morphology 
-#     luggõ+V+Ind+Prs+ConNeg+Sg: lug
-#     luggõ+V+Ind+Prs+ConNeg+Pl1: luggõm
-#     luggõ+V+Ind+Prs+ConNeg+Pl2: luggõt
-#     luggõ+V+Ind+Prs+ConNeg+Pl3: luggõt
+#     lu’ggõ+V+Ind+Prs+ConNeg+Sg: lug
+#     lu’ggõ+V+Ind+Prs+ConNeg+Pl1: lu’ggõm
+#     lu’ggõ+V+Ind+Prs+ConNeg+Pl2: lu’ggõt
+#     lu’ggõ+V+Ind+Prs+ConNeg+Pl3: lu’ggõt
 
-     luggõ+V+Ind+Prt+Sg1: lugīz
-     luggõ+V+Ind+Prt+Sg2: lugīzt
-     luggõ+V+Ind+Prt+Sg3: lugīz
-     luggõ+V+Ind+Prt+Pl1: lugīzmõ
-     luggõ+V+Ind+Prt+Pl2: [lugīzt, lugīztõ]
-     luggõ+V+Ind+Prt+Pl3: [lugīzt, lugīztõ]
+     lu’ggõ+V+Ind+Prt+Sg1: lugīz
+     lu’ggõ+V+Ind+Prt+Sg2: lugīzt
+     lu’ggõ+V+Ind+Prt+Sg3: lugīz
+     lu’ggõ+V+Ind+Prt+Pl1: lugīzmõ
+     lu’ggõ+V+Ind+Prt+Pl2: [lugīzt, lugīztõ]
+     lu’ggõ+V+Ind+Prt+Pl3: [lugīzt, lugīztõ]
 
-#     luggõ+V+Ind+Prt+ConNeg+Sg: lug
-#     luggõ+V+Ind+Prt+ConNeg+Pl1: luggõm
-#     luggõ+V+Ind+Prt+ConNeg+Pl2: luggõt
-#     luggõ+V+Ind+Prt+ConNeg+Pl3: luggõt
+#     lu’ggõ+V+Ind+Prt+ConNeg+Sg: lug
+#     lu’ggõ+V+Ind+Prt+ConNeg+Pl1: lu’ggõm
+#     lu’ggõ+V+Ind+Prt+ConNeg+Pl2: lu’ggõt
+#     lu’ggõ+V+Ind+Prt+ConNeg+Pl3: lu’ggõt
      
-     luggõ+V+Imprt+Prs+Sg2: lug
-     luggõ+V+Imprt+Prs+Pl1: luggõgõm
-     luggõ+V+Imprt+Prs+Pl2: luggõgid
+     lu’ggõ+V+Imprt+Prs+Sg2: lug
+     lu’ggõ+V+Imprt+Prs+Pl1: lu’ggõgõm
+     lu’ggõ+V+Imprt+Prs+Pl2: lu’ggõgid
 
-     luggõ+V+Cond+Prs+Sg1: lugūks
-     luggõ+V+Cond+Prs+Sg2: lugūkst
-     luggõ+V+Cond+Prs+Sg3: lugūks
-     luggõ+V+Cond+Prs+Pl1: lugūksmõ
-     luggõ+V+Cond+Prs+Pl2: lugūkstõ
-     luggõ+V+Cond+Prs+Pl3: lugūkstõ
+     lu’ggõ+V+Cond+Prs+Sg1: lugūks
+     lu’ggõ+V+Cond+Prs+Sg2: lugūkst
+     lu’ggõ+V+Cond+Prs+Sg3: lugūks
+     lu’ggõ+V+Cond+Prs+Pl1: lugūksmõ
+     lu’ggõ+V+Cond+Prs+Pl2: lugūkstõ
+     lu’ggõ+V+Cond+Prs+Pl3: lugūkstõ
 
-     luggõ+V+Jus+Prs+Sg: luggõg
-     luggõ+V+Jus+Prs+Pl: luggõgõd
+     lu’ggõ+V+Jus+Prs+Sg: lu’ggõg
+     lu’ggõ+V+Jus+Prs+Pl: lu’ggõgõd
 
-     luggõ+V+Quo+Prs+Sg: luggiji
-     luggõ+V+Quo+Prs+Pl: luggijid
+     lu’ggõ+V+Quo+Prs+Sg: lu’ggiji
+     lu’ggõ+V+Quo+Prs+Pl: lu’ggijid
      
-     luggõ+V+Act+PrsPrc+Sg: luggõb     
-     luggõ+V+Act+PrsPrc+Pl: luggõbõd
-     luggõ+V+Act+PrfPrc+Sg: luggõn
-     luggõ+V+Act+PrfPrc+Pl: luggõnd
+     lu’ggõ+V+Act+PrsPrc+Sg: lu’ggõb     
+     lu’ggõ+V+Act+PrsPrc+Pl: lu’ggõbõd
+     lu’ggõ+V+Act+PrfPrc+Sg: lu’ggõn
+     lu’ggõ+V+Act+PrfPrc+Pl: lu’ggõnd
 
-     luggõ+V+Pss+PrsPrc+Sg: lugdõb
-     luggõ+V+Pss+PrsPrc+Pl: lugdõbõd
-     luggõ+V+Pss+PrfPrc+Sg: lugdõd
+     lu’ggõ+V+Pss+PrsPrc+Sg: lu’gdõb
+     lu’ggõ+V+Pss+PrsPrc+Pl: lu’gdõbõd
+     lu’ggõ+V+Pss+PrfPrc+Sg: lu’gdõd
 
-     luggõ+V+Ger+Ine: luggõs
-     luggõ+V+Sup+Ill: luggõm
+     lu’ggõ+V+Ger+Ine: lu’ggõs
+     lu’ggõ+V+Sup+Ill: lu’ggõm
      
      
 #
      vakțõ+V+Ind+ConNeg+Sg: vakț
      kittõ+V+Ind+ConNeg+Sg: kit
-     riddõ+V+Ind+ConNeg+Sg: rid
+     ri’ddõ+V+Ind+ConNeg+Sg: rid
      kutsõ+V+Ind+ConNeg+Sg: kuts
      laskõ+V+Ind+ConNeg+Sg: lask
      akkõ+V+Ind+ConNeg+Sg: ak
-     aigõ+V+Ind+ConNeg+Sg: aig
-     kuoŗŗõ+V+Ind+ConNeg+Sg: kuoŗ
-     vannõ+V+Ind+ConNeg+Sg: van
-     pȯļļõ+V+Ind+ConNeg+Sg: pȯļ
-     pȯimõ+V+Ind+ConNeg+Sg: pȯim
-     ouŗõ+V+Ind+ConNeg+Sg: ouŗ
-     keijõ+V+Ind+ConNeg+Sg: keij
-     aŗštõ+V+Ind+ConNeg+Sg: aŗšt
-     pȯrtõ+V+Ind+ConNeg+Sg: pȯrt
-     outõ+V+Ind+ConNeg+Sg: out
-     tundõ+V+Ind+ConNeg+Sg: tund
-     oudõ+V+Ind+ConNeg+Sg: oud
 
-#luggõ+V+Pss+PrfPrc+Sg: lugdõd
+#lu’ggõ+V+Pss+PrfPrc+Sg: lugdõd
      vakțõ+V+Pss+PrfPrc+Sg: vakțõd
      kittõ+V+Pss+PrfPrc+Sg: kittõd
-     riddõ+V+Pss+PrfPrc+Sg: ridtõd
+     ri’ddõ+V+Pss+PrfPrc+Sg: ri’dtõd
      kutsõ+V+Pss+PrfPrc+Sg: kutstõd
      laskõ+V+Pss+PrfPrc+Sg: lastõd
      akkõ+V+Pss+PrfPrc+Sg: aktõd
-     aigõ+V+Pss+PrfPrc+Sg: aigdõd
-     kuoŗŗõ+V+Pss+PrfPrc+Sg: kuoŗdõd
-     vannõ+V+Pss+PrfPrc+Sg: vandõd
-     pȯļļõ+V+Pss+PrfPrc+Sg: pȯļdõd
-     pȯimõ+V+Pss+PrfPrc+Sg: pȯimdõd
-     ouŗõ+V+Pss+PrfPrc+Sg: ouŗdõd
-     keijõ+V+Pss+PrfPrc+Sg: keijdõd
-     aŗštõ+V+Pss+PrfPrc+Sg: aŗštõd
-     pȯrtõ+V+Pss+PrfPrc+Sg: pȯrtõd
-     outõ+V+Pss+PrfPrc+Sg: outõd
-     tundõ+V+Pss+PrfPrc+Sg: tundtõd
-     oudõ+V+Pss+PrfPrc+Sg: oudtõd
 

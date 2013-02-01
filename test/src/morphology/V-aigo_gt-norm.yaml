@@ -1,0 +1,105 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - aigõ: # Verb 'to measure' - full paradigm
+     aigõ+V+Inf: aigõ
+
+     aigõ+V+Ind+Prs+Sg1: āigõb
+     aigõ+V+Ind+Prs+Sg2: āigõd
+     aigõ+V+Ind+Prs+Sg3: āigõb
+     aigõ+V+Ind+Prs+Pl1: aigõm
+     aigõ+V+Ind+Prs+Pl2: aigõt
+     aigõ+V+Ind+Prs+Pl3: aigõbõd
+
+     aigõ+V+Ind+ConNeg+Sg: aig
+     aigõ+V+Ind+ConNeg+Pl1: aigõm
+     aigõ+V+Ind+ConNeg+Pl2: aigõt
+     aigõ+V+Ind+ConNeg+Pl3: aigõt
+# Since there is no distinction between present and preterite in the forms
+# perhaps there is no reason to show this as morphology 
+#     aigõ+V+Ind+Prs+ConNeg+Sg: aig
+#     aigõ+V+Ind+Prs+ConNeg+Pl1: aigõm
+#     aigõ+V+Ind+Prs+ConNeg+Pl2: aigõt
+#     aigõ+V+Ind+Prs+ConNeg+Pl3: aigõt
+
+     aigõ+V+Ind+Prt+Sg1: āigiz
+     aigõ+V+Ind+Prt+Sg2: āigizt
+     aigõ+V+Ind+Prt+Sg3: āigiz
+     aigõ+V+Ind+Prt+Pl1: āigizmõ
+     aigõ+V+Ind+Prt+Pl2: [āigizt, āigiztõ]
+     aigõ+V+Ind+Prt+Pl3: [āigizt, āigiztõ]
+
+#     aigõ+V+Ind+Prt+ConNeg+Sg: aig
+#     aigõ+V+Ind+Prt+ConNeg+Pl1: aigõm
+#     aigõ+V+Ind+Prt+ConNeg+Pl2: aigõt
+#     aigõ+V+Ind+Prt+ConNeg+Pl3: aigõt
+     
+     aigõ+V+Imprt+Prs+Sg2: aig
+     aigõ+V+Imprt+Prs+Pl1: aigõgõm
+     aigõ+V+Imprt+Prs+Pl2: aigõgid
+
+     aigõ+V+Cond+Prs+Sg1: aigõks
+     aigõ+V+Cond+Prs+Sg2: aigõkst
+     aigõ+V+Cond+Prs+Sg3: aigõks
+     aigõ+V+Cond+Prs+Pl1: aigõksmõ
+     aigõ+V+Cond+Prs+Pl2: aigõkstõ
+     aigõ+V+Cond+Prs+Pl3: aigõkstõ
+
+     aigõ+V+Jus+Prs+Sg: aigõg
+     aigõ+V+Jus+Prs+Pl: aigõgõd
+
+     aigõ+V+Quo+Prs+Sg: aigiji
+     aigõ+V+Quo+Prs+Pl: aigijid
+     
+     aigõ+V+Act+PrsPrc+Sg: aigõb     
+     aigõ+V+Act+PrsPrc+Pl: aigõbõd
+     aigõ+V+Act+PrfPrc+Sg: aigõn
+     aigõ+V+Act+PrfPrc+Pl: aigõnd
+
+     aigõ+V+Pss+PrsPrc+Sg: aigdõb
+     aigõ+V+Pss+PrsPrc+Pl: aigdõbõd
+     aigõ+V+Pss+PrfPrc+Sg: aigdõd
+
+     aigõ+V+Ger+Ine: aigõs
+     aigõ+V+Sup+Ill: aigõm
+     
+     
+#    aigõ+V+Ind+ConNeg+Sg: aig
+     kuoŗŗõ+V+Ind+ConNeg+Sg: kuoŗ
+     vannõ+V+Ind+ConNeg+Sg: van
+     pȯļļõ+V+Ind+ConNeg+Sg: pȯļ
+     pȯimõ+V+Ind+ConNeg+Sg: pȯim
+     ouŗõ+V+Ind+ConNeg+Sg: ouŗ
+     keijõ+V+Ind+ConNeg+Sg: keij
+     aŗštõ+V+Ind+ConNeg+Sg: aŗšt
+     pȯrtõ+V+Ind+ConNeg+Sg: pȯrt
+     outõ+V+Ind+ConNeg+Sg: out
+     tundõ+V+Ind+ConNeg+Sg: tund
+     oudõ+V+Ind+ConNeg+Sg: oud
+
+#aigõ+V+Pss+PrfPrc+Sg: aigdõd
+     kuoŗŗõ+V+Pss+PrfPrc+Sg: kuoŗdõd
+     vannõ+V+Pss+PrfPrc+Sg: vandõd
+     pȯļļõ+V+Pss+PrfPrc+Sg: pȯļdõd
+     pȯimõ+V+Pss+PrfPrc+Sg: pȯimdõd
+     ouŗõ+V+Pss+PrfPrc+Sg: ouŗdõd
+     keijõ+V+Pss+PrfPrc+Sg: keijdõd
+     aŗštõ+V+Pss+PrfPrc+Sg: aŗštõd
+     pȯrtõ+V+Pss+PrfPrc+Sg: pȯrtõd
+     outõ+V+Pss+PrfPrc+Sg: outõd
+     tundõ+V+Pss+PrfPrc+Sg: tundtõd
+     oudõ+V+Pss+PrfPrc+Sg: oudtõd
+
