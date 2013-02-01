@@ -22,25 +22,28 @@ LEXICON N-brī !!= @CODE@ contains brī:brī 16
 LEXICON N-tei !!= @CODE@ contains tei:tei 17
 	Cases	;
 
-LEXICON N-kalā  !!= @CODE@ contains  kalā:kal 18
+LEXICON N-kalā  !!= @CODE@ contains  kalā:kalā 18
 +N: N-kalā_01 ;
 
 !! !! Inflection lexica
 
 LEXICON N-kalā_01 !!= @CODE@ contains cases
-+Sg+Nom:ā	K	;
-+Sg+Gen:ā	K	;
++Sg+Nom:	K	;
++Sg+Gen:	K	;
 +Sg+Dat:n	K	;
-+Sg+Instr:āks	K	;
-+Sg+Ela:āst	K	;
++Sg+Instr:ks	K	;
++Sg+Ela:st	K	;
 !
-+Sg+Par:%^ConsLõ	K	;
-+Sg+Ill:%^ConsLõ	K	;
++Sg+Par:%^Stress2to1	K	;
++Sg+Ill:%^Stress2to1	K	;
 !!
-+Pl+Nom:ād	K	;
-+Pl+Gen:ād	K	;
-+Pl+Dat:ādõn	K	;
-+Pl+Instr:ādõks	K	;
++Pl+Nom:d	K	;
++Pl+Gen:d	K	;
++Pl+Dat:dõn	K	;
++Pl+Instr:dõks	K	;
++Pl+Par:%^Stress2to1%^VowsRM%>ḑi  K       ;
++Pl+Ill:%^Stress2to1%^VowsRM%>ži  K       ;
++Pl+Ela:%^Stress2to1%^VowsRM%>šti  K       ;
 
 
 LEXICON N-tubā
