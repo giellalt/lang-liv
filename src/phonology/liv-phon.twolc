@@ -9,7 +9,8 @@ A B D Ḑ E F G H I J K L Ļ M N Ņ O P R Ŗ S Š T Ț U V Z Ž Õ Ä Ö
 ā ē ī ō ū ǟ ǭ ȭ ȯ ȱ
 Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȯ Ȱ
 
-' ! Stød
+! '
+’ !! Stød
 
 !This far 2012-12-21
 ! Vowel harmony with "(t)a/ä"
@@ -70,13 +71,19 @@ K1:k
 %^RVows:0
 
 %- !Hyphen in  constructions 
-%>:0
-#:0   ! Word boundary for both lexicalised and dynamic compounds
+%>
+#   ! Word boundary for both lexicalised and dynamic compounds
 
 
-%^ConsSh:0
+!%^ConsSh:0
 %^ConsL:0
 %^1Sh2L:0
+
+%^Stress1to2:0
+%^Stress2to1:0
+%^VowsRM:0
+%^ConsRM:0
+
 
 ;
 
@@ -85,61 +92,94 @@ Sets
 
 VowsBack = a o u ;
 VowsFront = ä ö y ü ;
-VowsNeutral = e i ь ; 
+VowsNeutral = e i ; 
 VowsNonHigh = a o ä ö e ;
-Vows = a o u ä ö y ü e i ь ;
+VowsLong  = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī ;
+VowsShort = a o u ä ǫ õ ȯ ö y ü e i ;
+Vows = VowsLong VowsShort ;
 
-Cons = b d f g h j k l m n p r s ş š t v z ƶ ž ;
+Cons = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s ş t ț v z ž ;
 
 Letters = Vows Cons ;
 
 
 
-!Definitions
-
+Definitions
+ConsStrengthening = [ 0: g: | 0: l: ];
 
 Rules
+
+!! Vowels
+!! Shortening in first syllable
+"ā:a in first syllable"
+ā:a <=> # Cons* _  ( i ) :Cons+ Vows: %^Stress1to2:0  ;
+
+!! Destressing in second syllable
+"ā:õ "
+ā:õ <=> # Cons* [ Vows | ’: | :’ ]+ :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
+
+"ū:õ "
+ū:õ <=> # Cons* [ Vows | ’: | :’ ]+ :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
+
+!! Vowel loss
+!! 
+"ā:0"
+ā:0 <=> # Cons* [Vows | ’: | :’ ]+ [ Cons: | :Cons ]+ _ ( %^Stress2to1:0 ) %^VowsRM:0 ;
+
+"ū:0"
+ū:0 <=> # Cons* [Vows | ’: | :’ ]+ [ Cons: | :Cons ]+ _ [ ( %^Stress2to1:0 ) %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] ;
+!#Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: 
+
+"õ:0"
+õ:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ ( %^Stress1to2:0 ) %^VowsRM:0 ;
+
+!! Consonant loss 
+
+"0:t"
+ 0:t <=> # Cons* :Vows ( ’: | :’ ) _ t Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
+
+"0:k"
+ 0:k <=> # Cons* :Vows ( ’: | :’ ) _ k Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
+
+"0:d"
+ 0:d <=> # Cons* :Vows ( ’: | :’ ) _ d Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
+
+
+
+"0:g"
+ 0:g <=> # Cons* :Vows ( ’: | :’ ) _ g Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
+
+"0:l"
+ 0:l <=> # Cons* :Vows ( ’: | :’ ) _ l Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
+
+"0:’"
+0:’  <=> # Cons* :Vows _  ConsStrengthening Vows: %^Stress2to1:0  [ # | ( %^VowsRM:0 | %^VowsRM:0 ) %> ] ;
+         # Cons* :Vows _ [ :g | :d | :l ]+ Vows: %^Stress2to1:0 %^VowsRM:0  %^ConsRM:0 %> :Cons ;
+
+
+"l:ļ"
+l:ļ <=> _ Vows: %^Stress2to1:0 %^VowsRM:0 %> [ ḑ i | ž i | š t i ] ;
+
+
 
 ! First syllable short second syllable long
 !! jellõ: jelāb
 "shorten first syllable jellõ: jelāb"
  Cx:0 <=> Cx _ %^1Sh2L:0 ;
-          Cx _ %^ConsSh:0 ;
+          Cx _ %^ConsRM:0 ;
           where Cx in ( d g l ļ n p ŗ ) ;
 
 "d:t "
 d:t <=>
-       [ s k: | d: | t: | k k: | t s ] ( %^ConsSh:0 ) %> _ õ d ;
+       :Vows ( ’: | :’ ) [ s k: | d: | t: | k  | t s ] Vows: ( %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ) %> _ õ d ;
 
 "d:ț "
-d:ț <=> [ ț: ] %^ConsSh:0 %> _ õ d ;
+d:ț <=> [ ț: ] Vows: %^Stress2to1:0 %^VowsRM:0  %^ConsRM:0 %> _ õ d ;
 
 "k:0"
-k:0 <=> s _ %^ConsSh:0 %> d: õ d ;
-    	k _ %^1Sh2L:0 ;
-        k _ %^ConsSh:0 ;
+k:0 <=> s _ Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: õ d ;
 
-"t:0"
-t:0 <=>  _ %^ConsSh:0 %> d: õ d ;
-    	t _ %^1Sh2L:0 ;
-        t _ %^ConsSh:0 ;
 
 "ț:0"
-ț:0 <=> k _ %^ConsSh:0 %> d: õ d ;
+ț:0 <=> k _ Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: õ d ;
 
-
-
-! Consonant shortening
-!! luggõ:lug
-!Cx:0
-
-
-! Consonant Lengthening
-!! 
-"Consonant lengthening"
- 0:Cx <=> Cx _ %^ConsL:0 ;
-         where Cx in ( l ) ;
-
-
-! Consonant palatalization
-!! kalā:kaļḑi
