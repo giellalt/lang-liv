@@ -14,10 +14,11 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - jellõ: # Verb 'to live' - full paradigm
-     jellõ+V+Ind+Prs+Sg1: jelāb
-#     jellõ+V+Ind+Prs+Sg2: lugūd
-#     jellõ+V+Ind+Prs+Sg3: lugūb
-     jellõ+V+Ind+Prs+Pl1: jellõm
-     jellõ+V+Ind+Prs+Pl2: jellõt
-     jellõ+V+Ind+Prs+Pl3: jellõbõd
+  Verb - je’llõ: # Verb 'to live' - full paradigm
+     je’llõ+V+Inf: je’llõ
+     je’llõ+V+Ind+Prs+Sg1: jelāb
+     je’llõ+V+Ind+Prs+Sg2: jelād
+     je’llõ+V+Ind+Prs+Sg3: jelāb
+     je’llõ+V+Ind+Prs+Pl1: je’llõm
+     je’llõ+V+Ind+Prs+Pl2: je’llõt
+     je’llõ+V+Ind+Prs+Pl3: je’llõbõd
