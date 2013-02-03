@@ -21,13 +21,12 @@ LEXICON V-01_JELLO
 : INDCONNEGPL1 ;
 : INDCONNEGPL2 ;
 : INDCONNEGPL3 ;
-!+Ind+Prt+Sg3:īz	K    ;
-!+Ind+Prt+Pl2:īztõ	K    ;
-!+Ind+Prt+Pl2:īzt	K    ;
-!+Ind+Prt+Pl3:īztõ	K    ;
-!+Ind+Prt+Pl3:īzt	K    ;
+:ī INDPRT-z ;
 !+Ind+Sg+ConNeg:	K    ;
+
 !+Cond+Sg3:õks	K    ;
+ CONDPRS ;
+
 !+Imprt+Sg2:  	K    ;
 !+Imprt+ConNeg:	K    ;
 !+Imprt+Pl2:õgid	K    ;
@@ -86,31 +85,21 @@ LEXICON	V-01_LUGGO
 :%^Stress2to1 INDCONNEGPL2 ;
 :%^Stress2to1 INDCONNEGPL3 ;
 !! Prt
-:%^VowsRMī INDPRTSG1-z    ;
-:%^VowsRMī INDPRTSG2-z    ;
-:%^VowsRMī INDPRTSG3-z    ;
-:%^VowsRMī INDPRTPL1-z    ;
-:%^VowsRMī INDPRTPL2-z    ;
-:%^VowsRMī INDPRTPL3-z    ;
+:%^VowsRMī INDPRT-z    ;
 ! Cond
-+Cond+Prs+Sg1:%>ks		K    ;
-+Cond+Prs+Sg2:%>kst		K    ;
-+Cond+Prs+Sg3:%>ks		K    ;
-+Cond+Prs+Pl1:%>ksmõ		K    ;
-+Cond+Prs+Pl2:%>kstõ		K    ;
-+Cond+Prs+Pl3:%>kstõ		K    ;
-! Imprt
-+Imprt+Prs+Sg2:%^Stress2to1%^VowsRM%^ConsRM	K    ;
-+Imprt+Prs+Pl1:%^Stress2to1%>gõm	K    ;
+ CONDPRS ;
+!! Imprt
+:%^Stress2to1%^VowsRM%^ConsRM	IMPRTPRSSG2    ;
+:%^Stress2to1 IMPRTPRSPL1	;
+:%^Stress2to1 IMPRTPRSPL2	;
+:%^Stress2to1 IMPRTPRSCONNEG ;
+
 +Imprt+Prs+Pl2:%^Stress2to1%>gid	K    ;
-+Imprt+Prs+ConNeg:	K    ;
-+Imprt+Prs+Pl2:%^Stress2to1%>gid	K    ;
-! Jus
-+Jus+Prs+Sg:%^Stress2to1%>g		K    ;
-+Jus+Prs+Pl:%^Stress2to1%>gõd		K    ;
-! Kvo
-+Quo+Prs+Sg:%^Stress2to1%^VowsRM%>iji		K    ;
-+Quo+Prs+Pl:%^Stress2to1%^VowsRM%>ijid		K    ;
+!! Jus
+:%^Stress2to1 JUSPRS	;
+!! Kvo
+:%^Stress2to1%^VowsRM QUOPRS	;
+
 ! participles
 +Act+PrsPrc+Sg:%^Stress2to1%>b	K    ;
 +Act+PrsPrc+Pl:%^Stress2to1%>bõd	K    ;
@@ -185,7 +174,7 @@ LEXICON V-01_AIGO
 :%^Stress1to2 GER-õs   ;
 :%^Stress1to2 INF-õ	  ;
 :%^Stress1to2 SUP	  ; 
-: INDPRSSG1    ;
+ INDPRSSG1    ;
 : INDPRSSG2    ;
 : INDPRSSG3    ;
 :%^Stress1to2   INDPRSPL1    ;
@@ -196,14 +185,17 @@ LEXICON V-01_AIGO
 :%^Stress1to2 INDCONNEGPL2 ;
 :%^Stress1to2 INDCONNEGPL3 ;
 !! Prt
-:%^VowsRMi INDPRTSG1-z    ;
-:%^VowsRMi INDPRTSG2-z    ;
-:%^VowsRMi INDPRTSG3-z    ;
-:%^VowsRMi INDPRTPL1-z    ;
-:%^VowsRMi INDPRTPL2-z    ;
-:%^VowsRMi INDPRTPL3-z    ;
+:%^VowsRMi INDPRT-z    ;
 
 :%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 CONDPRS ;
+:%^Stress1to2%^VowsRM IMPRTPRSSG2 ;
+:%^Stress1to2 IMPRTPRSPL1 ;
+:%^Stress1to2 IMPRTPRSPL2 ;
+ IMPRTPRSCONNEG ;
+ JUSPRS	;
+ QUOPRS	;		
 
 
 LEXICON V-kūlõ
@@ -258,12 +250,8 @@ LEXICON V-kūlõ_01
 :õ INDCONNEGPL2 ;
 :õ INDCONNEGPL3 ;
 !! Prt
-:i INDPRTSG1-z    ;
-:i INDPRTSG2-z    ;
-:i INDPRTSG3-z    ;
-:i INDPRTPL1-z    ;
-:i INDPRTPL2-z    ;
-:i INDPRTPL3-z    ;
+:i INDPRT-z    ;
+
 
 
 LEXICON V-umblõ
@@ -302,6 +290,27 @@ LEXICON PSSPRFPRCSG
 +Pss+PrfPrc+Sg:%>dõd    K    ;
 
 !! Finites
+
+LEXICON INDPRT-z
+!! Indicative preterite in z
+ INDPRTSG1-z    ;
+ INDPRTSG2-z    ;
+ INDPRTSG3-z    ;
+ INDPRTPL1-z    ;
+ INDPRTPL2-z    ;
+ INDPRTPL3-z    ;
+
+
+LEXICON CONDPRS
+!! Conditional present
+  CONDPRSSG1	;
+  CONDPRSSG2	;
+  CONDPRSSG3	;
+  CONDPRSPL1	;
+  CONDPRSPL2	;
+  CONDPRSPL3	;
+
+
  ! Indicative present
 LEXICON INDPRSSG1
  +Ind+Prs+Sg1:%>b    K	;
@@ -344,7 +353,7 @@ LEXICON INDPRTPL3-z
 
 
 LEXICON INDCONNEGSG
- +Ind+ConNeg+Sg:    K	;
++Ind+ConNeg+Sg:    K	;
 
 LEXICON INDCONNEGPL1
  +Ind+ConNeg+Pl1:%>m    K	;
@@ -355,7 +364,47 @@ LEXICON INDCONNEGPL2
 LEXICON INDCONNEGPL3
  +Ind+ConNeg+Pl3:%>t    K	;
 
+!! Conditional
+LEXICON CONDPRSSG1
+ +Cond+Prs+Sg1:%>ks    K	;
 
+LEXICON CONDPRSSG2
+ +Cond+Prs+Sg2:%>kst    K	;
+
+LEXICON CONDPRSSG3
+ +Cond+Prs+Sg3:%>ks    K	;
+
+LEXICON CONDPRSPL1
+ +Cond+Prs+Pl1:%>ksmõ    K	;
+
+LEXICON CONDPRSPL2
+ +Cond+Prs+Pl2:%>kstõ    K	;
+
+LEXICON CONDPRSPL3
+ +Cond+Prs+Pl3:%>kstõ    K	;
+
+!! Imperative
+LEXICON IMPRTPRSSG2
++Imprt+Prs+Sg2: K ;
+
+LEXICON IMPRTPRSPL1
++Imprt+Prs+Pl1:%>gõm K ;
+
+LEXICON IMPRTPRSPL2
++Imprt+Prs+Pl2:%>gid K ;
+
+LEXICON IMPRTPRSCONNEG
++Imprt+Prs+ConNeg:      K    ;
+
+!! Jussative
+LEXICON JUSPRS
++Jus+Prs+Sg:%>g             K    ;
++Jus+Prs+Pl:%>gõd             K    ;
+
+!! Quotative
+LEXICON QUOPRS
++Quo+Prs+Sg:%>iji           K    ;
++Quo+Prs+Pl:%>ijid           K    ;
 
 ! vim: set ft=xfst-lexc:
 
