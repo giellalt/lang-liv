@@ -4,7 +4,7 @@
 
 LEXICON VT_
 !! CONJUGATION TYPE MISSING
-+VT: K ;
++TV: K ;
 
 LEXICON V-AUX_LǞ’DÕ
 !! 1 lǟ’dõ:
@@ -12,11 +12,11 @@ LEXICON V-AUX_LǞ’DÕ
 
 LEXICON VI_LǞ’DÕ
 !! 1 lǟ’dõ:
-+VI: K ;
++IV: K ;
 
 LEXICON VT_TǬ’DÕ
 !! 2 tǭ’dõ:
-+VT: K ;
++TV: K ;
 
 LEXICON V-AUX_VĪDÕ
 !! 3 vīdõ:
@@ -24,27 +24,27 @@ LEXICON V-AUX_VĪDÕ
 
 LEXICON VI_VĪDÕ
 !! 3 vīdõ:
-+VI: K ;
++IV: K ;
 
 LEXICON VT_VĪDÕ
 !! 3 vīdõ:
-+VT: K ;
++TV: K ;
 
 LEXICON VI_NǞ’DÕ
 !! 4 nǟ’dõ:
-+VI: K ;
++IV: K ;
 
 LEXICON VT_NǞ’DÕ
 !! 4 nǟ’dõ:
-+VT: K ;
++TV: K ;
 
 LEXICON VI_KǞ’DÕ
 !! 5 kǟ’dõ:
-+VI: K ;
++IV: K ;
 
 LEXICON VT_TĪ’EDÕ
 !! 6 tī’edõ:
-+VT: K ;
++TV: K ;
 
 
 
@@ -54,19 +54,19 @@ LEXICON V-AUX_SĪEDÕ
 
 LEXICON VI_SĪEDÕ
 !! 7 sīedõ:
-+VI: K ;
++IV: K ;
 
 LEXICON VT_SĪEDÕ
 !! 7 sīedõ:
-+VT: K ;
++TV: K ;
 
 LEXICON VI_SǬDÕ
 !! 8 sǭdõ:
-+VI: K ;
++IV: K ;
 
 LEXICON VT_SǬDÕ
 !! 8 sǭdõ:
-+VT: K ;
++TV: K ;
 
 LEXICON V-AUX_SǬDÕ
 !! 8 sīedõ:
@@ -74,7 +74,7 @@ LEXICON V-AUX_SǬDÕ
 
 LEXICON VT_JŪODÕ
 !! 9 jūodõ:
-+VT: K ;
++TV: K ;
 
 LEXICON V-AUX_VȰLDA
 !! 10 vȱlda:
@@ -82,11 +82,11 @@ LEXICON V-AUX_VȰLDA
 
 LEXICON VI_VȰLDA
 !! 10 vȱlda:
-+VI: K ;
++IV: K ;
 
 LEXICON VI_TŪLDA
 !! 11 tūlda:
-+VI: K ;
++IV: K ;
 
 LEXICON V-AUX_PĀNDA
 !! 12 pānda:
@@ -94,51 +94,51 @@ LEXICON V-AUX_PĀNDA
 
 LEXICON VI_PĀNDA
 !! 12 pānda:
-+VI: K ;
++IV: K ;
 
 LEXICON VT_PĀNDA
 !! 12 pānda:
-+VT: K ;
++TV: K ;
 
 LEXICON VI_JE’LLÕ
 !! 13 je’llõ:jelā
-+VI: V-01_JE’LLÕ ;
++IV: V-01_JE’LLÕ ;
 
 LEXICON VT_JE’LLÕ
 !! 13 je’llõ:jelā
-+VT: V-01_JE’LLÕ ;
++TV: V-01_JE’LLÕ ;
 
 LEXICON VI_ASTÕ
 !! 18 astõ:astā
-+VI: V-01_JE’LLÕ ;
++IV: V-01_JE’LLÕ ;
 
 LEXICON VT_ASTÕ
 !! 18 astõ:astā
-+VT: V-01_JE’LLÕ ;
++TV: V-01_JE’LLÕ ;
 
 LEXICON VT_VÕTTÕ
 !! 19 võttõ:võtā
-+VT: V-01_JE’LLÕ ;
++TV: V-01_JE’LLÕ ;
 
 LEXICON VI_VIE’DDÕ
 !! 24 vie’ddõ:viedā
-+VI: V-01_JE’LLÕ ;
++IV: V-01_JE’LLÕ ;
 
 LEXICON VT_VIE’DDÕ
 !! 24 vie’ddõ:viedā
-+VT: V-01_JE’LLÕ ;
++TV: V-01_JE’LLÕ ;
 
 LEXICON VI_MAKSÕ
 !! 25 maksõ:maksā
-+VI: V-01_JE’LLÕ ;
++IV: V-01_JE’LLÕ ;
 
 LEXICON VT_MAKSÕ
 !! 25 maksõ:maksā
-+VT: V-01_JE’LLÕ ;
++TV: V-01_JE’LLÕ ;
 
 LEXICON VT_TAPPÕ
 !! 26 tappõ:tapā
-+VT: V-01_JE’LLÕ ;
++TV: V-01_JE’LLÕ ;
 
 LEXICON V-01_JE’LLÕ
 !! 13 je’llõ, 18 astõ, 19 võttõ, 24 vie’ddõ, 25 maksõ, 26 tappõ
@@ -171,67 +171,67 @@ LEXICON V-01_JE’LLÕ
 
 LEXICON VI_MÄNGÕ
 !! 14 mängõ:mǟnga
-+VI: V-01_MÄNGÕ ;
++IV: V-01_MÄNGÕ ;
 
 LEXICON VT_KILLÕ
 !! 15 killõ:kīla
-+VT: V-01_MÄNGÕ ;
++TV: V-01_MÄNGÕ ;
 
 LEXICON VT_PALLÕ
 !! 16 pallõ:pǭla
-+VT: V-01_MÄNGÕ ;
++TV: V-01_MÄNGÕ ;
 
 LEXICON VT_LOULÕ
 !! 17 loulõ:lōla
-+VT: V-01_MÄNGÕ ;
++TV: V-01_MÄNGÕ ;
 
 LEXICON VI_LAITÕ
 !! 20 laittõ:lāita
-+VI: V-01_MÄNGÕ ;
++IV: V-01_MÄNGÕ ;
 
 LEXICON VT_LAITÕ
 !! 20 laittõ:lāita
-+VT: V-01_MÄNGÕ ;
++TV: V-01_MÄNGÕ ;
 
 LEXICON VI_TÄUTÕ
 !! 21 täutõ:tǟta
-+VI: V-01_MÄNGÕ ;
++IV: V-01_MÄNGÕ ;
 
 LEXICON VT_TÄUTÕ
 !! 21 täutõ:tǟta
-+VT: V-01_MÄNGÕ ;
++TV: V-01_MÄNGÕ ;
 
 LEXICON VI_PȮĻTÕ
 !! 22 pȯļtõ:pūoļta
-+VI: V-01_MÄNGÕ ;
++IV: V-01_MÄNGÕ ;
 
 LEXICON VT_PȮĻTÕ
 !! 22 pȯļtõ:pūoļta
-+VT: V-01_MÄNGÕ ;
++TV: V-01_MÄNGÕ ;
 
 LEXICON VI_MȮISTÕ
 !! 23 mȯistõ:mūošta
-+VI: V-01_MÄNGÕ ;
++IV: V-01_MÄNGÕ ;
 
 LEXICON VT_MȮISTÕ
 !! 23 mȯistõ:mūošta
-+VT: V-01_MÄNGÕ ;
++TV: V-01_MÄNGÕ ;
 
 LEXICON VI_ANDÕ
 !! 27 andõ:ānda
-+VI: V-01_MÄNGÕ ;
++IV: V-01_MÄNGÕ ;
 
 LEXICON VT_ANDÕ
 !! 27 andõ:ānda
-+VT: V-01_MÄNGÕ ;
++TV: V-01_MÄNGÕ ;
 
 LEXICON VI_TIEUDÕ
 !! 28 tieudõ:tīeda
-+VI: V-01_MÄNGÕ ;
++IV: V-01_MÄNGÕ ;
 
 LEXICON VT_TIEUDÕ
 !! 28 tieudõ:tīeda
-+VT: V-01_MÄNGÕ ;
++TV: V-01_MÄNGÕ ;
 
 LEXICON V-01_MÄNGÕ
 !! 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
@@ -265,35 +265,35 @@ LEXICON V-01_MÄNGÕ
 !! 29-48 follow same pattern
 LEXICON VI_LU’GGÕ
 !! lu’ggõ:lugū 29
-+VI:     V-01_LU’GGÕ ;
++IV:     V-01_LU’GGÕ ;
 
 LEXICON VT_LU’GGÕ
 !! lu’ggõ:lugū 29
-+VT:     V-01_LU’GGÕ ;
++TV:     V-01_LU’GGÕ ;
 
 LEXICON VI_MU’DŽÕ
 !! mu’džõ:mudžū 30
-+VI:     V-01_LU’GGÕ ;
++IV:     V-01_LU’GGÕ ;
 
 LEXICON VT_MU’DŽÕ
 !! mu’džõ:mudžū 30
-+VT:     V-01_LU’GGÕ ;
++TV:     V-01_LU’GGÕ ;
 
 LEXICON VI_VAKȚÕ
 !! vakțõ:vakțū 31
-+VI:     V-01_LU’GGÕ      ;
++IV:     V-01_LU’GGÕ      ;
 
 LEXICON VT_VAKȚÕ
 !! vakțõ:vakțū 31
-+VT:	V-01_LU’GGÕ	;
++TV:	V-01_LU’GGÕ	;
 
 LEXICON VI_KITTÕ
 !! kittõ:kitū 32
-+VI:     V-01_LU’GGÕ ;
++IV:     V-01_LU’GGÕ ;
 
 LEXICON VT_KITTÕ
 !! kittõ:kitū 32
-+VT:     V-01_LU’GGÕ ;
++TV:     V-01_LU’GGÕ ;
 
 LEXICON V-AUX_RI’DDÕ
 !! ri’ddõ:ridū 33
@@ -301,19 +301,19 @@ LEXICON V-AUX_RI’DDÕ
 
 LEXICON VI_RI’DDÕ
 !! ri’ddõ:ridū 33
-+VI:     V-01_LU’GGÕ ;
++IV:     V-01_LU’GGÕ ;
 
 LEXICON VT_RI’DDÕ
 !! ri’ddõ:ridū 33
-+VT:     V-01_LU’GGÕ ;
++TV:     V-01_LU’GGÕ ;
 
 LEXICON VI_KUTSÕ
 !! kutsõ:kutsū 34
-+VI:     V-01_LU’GGÕ ;
++IV:     V-01_LU’GGÕ ;
 
 LEXICON VT_KUTSÕ
 !! kutsõ:kutsū 34
-+VT:     V-01_LU’GGÕ ;
++TV:     V-01_LU’GGÕ ;
 
 LEXICON V-AUX_LASKÕ
 !! laskõ:laskū 35
@@ -321,19 +321,19 @@ LEXICON V-AUX_LASKÕ
 
 LEXICON VI_LASKÕ
 !! laskõ:laskū 35
-+VI:     V-01_LU’GGÕ ;
++IV:     V-01_LU’GGÕ ;
 
 LEXICON VT_LASKÕ
 !! laskõ:laskū 35
-+VT:     V-01_LU’GGÕ ;
++TV:     V-01_LU’GGÕ ;
 
 LEXICON VI_AKKÕ
 !! akkõ:akū 36
-+VI:     V-01_LU’GGÕ ;
++IV:     V-01_LU’GGÕ ;
 
 LEXICON VT_AKKÕ
 !! akkõ:akū 36
-+VT:     V-01_LU’GGÕ ;
++TV:     V-01_LU’GGÕ ;
 
 LEXICON	V-01_LU’GGÕ
 !! This is mutual for 29-36: 
@@ -380,41 +380,41 @@ LEXICON V-AUX_AIGÕ
 
 LEXICON VI_AIGÕ
 !! aigõ:āigõ 37
-+VI:  V-01_AIGÕ ;
++IV:  V-01_AIGÕ ;
 
 LEXICON VT_AIGÕ
 !! aigõ:āigõ 37
-+VT:  V-01_AIGÕ ;
++TV:  V-01_AIGÕ ;
 
 LEXICON VT_KUOŖŖÕ
 !! kuoŗŗõ:kūoŗõ 38
-+VT:     V-01_AIGÕ       ;
++TV:     V-01_AIGÕ       ;
 
 LEXICON VT_VANNÕ
 !! vannõ:vǭnõ 39
-+VT:     V-01_AIGÕ       ;
++TV:     V-01_AIGÕ       ;
 
 
 LEXICON VI_PȮĻĻÕ
 !! pȯļļõ:pūoļõ 40
-+VI:     V-01_AIGÕ       ;
++IV:     V-01_AIGÕ       ;
 
 
 LEXICON VI_PȮIMÕ
 !! pȯimõ:pūoimõ 41
-+VI:     V-01_AIGÕ       ;
++IV:     V-01_AIGÕ       ;
 
 LEXICON VT_PȮIMÕ
 !! pȯimõ:pūoimõ 41
-+VT:     V-01_AIGÕ       ;
++TV:     V-01_AIGÕ       ;
 
 LEXICON VI_OUŖÕ
 !! ouŗõ:ōŗõ 42
-+VI:     V-01_AIGÕ       ;
++IV:     V-01_AIGÕ       ;
 
 LEXICON VI_KEIJÕ
 !! keijõ:kējõ 43
-+VI:     V-01_AIGÕ       ;
++IV:     V-01_AIGÕ       ;
 
 LEXICON VT_KEIJÕ
 !! keijõ:kējõ 43
@@ -423,19 +423,19 @@ LEXICON VT_KEIJÕ
 
 LEXICON VI_AŖŠTÕ
 !! aŗštõ:āŗštõ 44
-+VI:     V-01_AIGÕ       ;
++IV:     V-01_AIGÕ       ;
 
 LEXICON VT_AŖŠTÕ
 !! aŗštõ:āŗštõ 44
-+VT:	V-01_AIGÕ	;
++TV:	V-01_AIGÕ	;
 
 LEXICON VT_PȮRTÕ
 !! pȯrtõ:pūortõ 45
-+VT:     V-01_AIGÕ       ;
++TV:     V-01_AIGÕ       ;
 
 LEXICON VT_OUTÕ
 !! outõ:ōtõ 46
-+VT:     V-01_AIGÕ       ;
++TV:     V-01_AIGÕ       ;
 
 LEXICON V-AUX_TUNDÕ
 !! tundõ:tūndõ 47
@@ -443,15 +443,15 @@ LEXICON V-AUX_TUNDÕ
 
 LEXICON VI_TUNDÕ
 !! tundõ:tūndõ 47
-+VI:	V-01_AIGÕ	;
++IV:	V-01_AIGÕ	;
 
 LEXICON VT_TUNDÕ
 !! tundõ:tūndõ 47
-+VT:     V-01_AIGÕ       ;
++TV:     V-01_AIGÕ       ;
 
 LEXICON VT_OUDÕ
 !! oudõ:ōdõ 48
-+VT:	V-01_AIGÕ	;
++TV:	V-01_AIGÕ	;
 
 LEXICON V-01_AIGÕ
 !! This is mutual for 37-48
@@ -488,31 +488,31 @@ LEXICON V-01_AIGÕ
 
 LEXICON VI_KŪLÕ
 !! kūlõ:kūlõ 49
-+VI: V-01_KŪLÕ ;
++IV: V-01_KŪLÕ ;
 
 LEXICON VT_KŪLÕ
 !! kūlõ:kūlõ 49
-+VT: V-01_KŪLÕ ;
++TV: V-01_KŪLÕ ;
 
 LEXICON VI_ARRÕ
 !! arrõ:arrõ 50
-+VI: V-01_KŪLÕ ;
++IV: V-01_KŪLÕ ;
 
 LEXICON VT_ARRÕ
 !! arrõ:arrõ 50
-+VT: V-01_KŪLÕ ;
++TV: V-01_KŪLÕ ;
 
 LEXICON VI_A’ILÕ
 !! a’ilõ:a’ilõ 51
-+VI: V-01_KŪLÕ ;
++IV: V-01_KŪLÕ ;
 
 LEXICON VT_A’ILÕ
 !! a’ilõ:a’ilõ 51
-+VT: V-01_KŪLÕ ;
++TV: V-01_KŪLÕ ;
 
 LEXICON VT_SVA’RRÕ
 !! sva’rrõ:sva’rrõ 52
-+VT: V-01_KŪLÕ ;
++TV: V-01_KŪLÕ ;
 
 LEXICON V-AUX_KĪTÕ
 !kītõ:kīt 53
@@ -520,20 +520,20 @@ LEXICON V-AUX_KĪTÕ
 
 LEXICON VI_KĪTÕ
 !! kītõ:kīt 53
-+VI: V-01_KŪLÕ ;
++IV: V-01_KŪLÕ ;
 
 LEXICON VT_KĪTÕ
 !kītõ:kīt 53
-+VT: V-01_KŪLÕ ;
++TV: V-01_KŪLÕ ;
 
 
 LEXICON VI_Ä’BȚÕ
 !! ä’bțõ:ä’bț 54
-+VI: V-01_KŪLÕ ;
++IV: V-01_KŪLÕ ;
 
 LEXICON VT_Ä’BȚÕ
 !! ä’bțõ:ä’bț 54
-+VT: V-01_KŪLÕ ;
++TV: V-01_KŪLÕ ;
 
 LEXICON V_KŪLDÕ
 !! kūldõ:kūld 55
@@ -545,15 +545,15 @@ LEXICON V-AUX_KŪLDÕ
 
 LEXICON VI_KŪLDÕ
 !! kūldõ:kūld 55
-+VI: V-01_KŪLÕ ;
++IV: V-01_KŪLÕ ;
 
 LEXICON VT_KŪLDÕ
 !! kūldõ:kūld 55
-+VT: V-01_KŪLÕ ;
++TV: V-01_KŪLÕ ;
 
 LEXICON VT_KĪSKÕ
 !! kīskõ:kīsk 56
-+VT: V-01_KŪLÕ ;
++TV: V-01_KŪLÕ ;
 
 LEXICON V-AUX_Ī’EDÕ
 !! ī’edõ:īed 57
@@ -561,11 +561,11 @@ LEXICON V-AUX_Ī’EDÕ
 
 LEXICON VI_Ī’EDÕ
 !! ī’edõ:īed 57
-+VI: V-01_KŪLÕ ;
++IV: V-01_KŪLÕ ;
 
 LEXICON VT_Ī’EDÕ
 !! ī’edõ:īed 57
-+VT: V-01_KŪLÕ ;
++TV: V-01_KŪLÕ ;
 
 LEXICON V-01_KŪLÕ
 ! This is mutual for 49-57
@@ -592,11 +592,11 @@ LEXICON V_UMBLÕ
 
 LEXICON VI_UMBLÕ
 !! umblõ: 58
-+VI: V-01_UMBLÕ ;
++IV: V-01_UMBLÕ ;
 
 LEXICON VT_UMBLÕ
 !! umblõ: 58
-+VT: V-01_UMBLÕ ;
++TV: V-01_UMBLÕ ;
 
 LEXICON V-AUX_MÕTLÕ
 !! mõtlõ: 59
@@ -604,27 +604,27 @@ LEXICON V-AUX_MÕTLÕ
 
 LEXICON VI_MÕTLÕ
 !! mõtlõ: 59
-+VI: V-01_UMBLÕ ;
++IV: V-01_UMBLÕ ;
 
 LEXICON VT_MÕTLÕ
 !! mõtlõ: 59
-+VT: V-01_UMBLÕ ;
++TV: V-01_UMBLÕ ;
 
 LEXICON VI_MǞ’DLÕ
 !! mǟ’dlõ: 60
-+VI: V-01_UMBLÕ ;
++IV: V-01_UMBLÕ ;
 
 LEXICON VT_MǞ’DLÕ
 !! mǟ’dlõ: 60
-+VT: V-01_UMBLÕ ;
++TV: V-01_UMBLÕ ;
 
 LEXICON VI_NA’GRÕ
 !! na’grõ: 60
-+VI: V-01_UMBLÕ ;
++IV: V-01_UMBLÕ ;
 
 LEXICON VT_NA’GRÕ
 !! na’grõ: 60
-+VT: V-01_UMBLÕ ;
++TV: V-01_UMBLÕ ;
 
 LEXICON V-01_UMBLÕ
  K ;
@@ -643,7 +643,7 @@ LEXICON V-AUX_I’Z
 
 LEXICON VT_SÄ
 !! 63 sä:sä
-+VT: K ;
++TV: K ;
 
 LEXICON V-AUX_PIḐĪKS
 !! 64 piḑīks:piḑī
