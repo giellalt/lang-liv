@@ -2,11 +2,145 @@
 !! ---------------
 !! The UNDEFINED language verbs inflect in persons.
 
-LEXICON V_JELLO
-!! je’llõ:jelā
-+V: V-01_JELLO ;
+LEXICON VT_
+!! CONJUGATION TYPE MISSING
++VT: K ;
 
-LEXICON V-01_JELLO
+LEXICON V-AUX_LǞ’DÕ
+!! 1 lǟ’dõ:
++VAUX: K ;
+
+LEXICON VI_LǞ’DÕ
+!! 1 lǟ’dõ:
++VI: K ;
+
+LEXICON VT_TǬ’DÕ
+!! 2 tǭ’dõ:
++VT: K ;
+
+LEXICON V-AUX_VĪDÕ
+!! 3 vīdõ:
++V-AUX: K ;
+
+LEXICON VI_VĪDÕ
+!! 3 vīdõ:
++VI: K ;
+
+LEXICON VT_VĪDÕ
+!! 3 vīdõ:
++VT: K ;
+
+LEXICON VI_NǞ’DÕ
+!! 4 nǟ’dõ:
++VI: K ;
+
+LEXICON VT_NǞ’DÕ
+!! 4 nǟ’dõ:
++VT: K ;
+
+LEXICON VI_KǞ’DÕ
+!! 5 kǟ’dõ:
++VI: K ;
+
+LEXICON VT_TĪ’EDÕ
+!! 6 tī’edõ:
++VT: K ;
+
+
+
+LEXICON V-AUX_SĪEDÕ
+!! 7 sīedõ:
++VAUX: K ;
+
+LEXICON VI_SĪEDÕ
+!! 7 sīedõ:
++VI: K ;
+
+LEXICON VT_SĪEDÕ
+!! 7 sīedõ:
++VT: K ;
+
+LEXICON VI_SǬDÕ
+!! 8 sǭdõ:
++VI: K ;
+
+LEXICON VT_SǬDÕ
+!! 8 sǭdõ:
++VT: K ;
+
+LEXICON V-AUX_SǬDÕ
+!! 8 sīedõ:
++VAUX: K ;
+
+LEXICON VT_JŪODÕ
+!! 9 jūodõ:
++VT: K ;
+
+LEXICON V-AUX_VȰLDA
+!! 10 vȱlda:
++VAUX: K ;
+
+LEXICON VI_VȰLDA
+!! 10 vȱlda:
++VI: K ;
+
+LEXICON VI_TŪLDA
+!! 11 tūlda:
++VI: K ;
+
+LEXICON V-AUX_PĀNDA
+!! 12 pānda:
++VAUX: K ;
+
+LEXICON VI_PĀNDA
+!! 12 pānda:
++VI: K ;
+
+LEXICON VT_PĀNDA
+!! 12 pānda:
++VT: K ;
+
+LEXICON VI_JE’LLÕ
+!! 13 je’llõ:jelā
++VI: V-01_JE’LLÕ ;
+
+LEXICON VT_JE’LLÕ
+!! 13 je’llõ:jelā
++VT: V-01_JE’LLÕ ;
+
+LEXICON VI_ASTÕ
+!! 18 astõ:astā
++VI: V-01_JE’LLÕ ;
+
+LEXICON VT_ASTÕ
+!! 18 astõ:astā
++VT: V-01_JE’LLÕ ;
+
+LEXICON VT_VÕTTÕ
+!! 19 võttõ:võtā
++VT: V-01_JE’LLÕ ;
+
+LEXICON VI_VIE’DDÕ
+!! 24 vie’ddõ:viedā
++VI: V-01_JE’LLÕ ;
+
+LEXICON VT_VIE’DDÕ
+!! 24 vie’ddõ:viedā
++VT: V-01_JE’LLÕ ;
+
+LEXICON VI_MAKSÕ
+!! 25 maksõ:maksā
++VI: V-01_JE’LLÕ ;
+
+LEXICON VT_MAKSÕ
+!! 25 maksõ:maksā
++VT: V-01_JE’LLÕ ;
+
+LEXICON VT_TAPPÕ
+!! 26 tappõ:tapā
++VT: V-01_JE’LLÕ ;
+
+LEXICON V-01_JE’LLÕ
 !! 13 je’llõ, 18 astõ, 19 võttõ, 24 vie’ddõ, 25 maksõ, 26 tappõ
  GER-õs     ;
 :%^Stress2to1 INF-õ      ;
@@ -35,40 +169,173 @@ LEXICON V-01_JELLO
 !+Act+PrfPrc+Sg:õn	K    ;
 :%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
 
+LEXICON VI_MÄNGÕ
+!! 14 mängõ:mǟnga
++VI: V-01_MÄNGÕ ;
+
+LEXICON VT_KILLÕ
+!! 15 killõ:kīla
++VT: V-01_MÄNGÕ ;
+
+LEXICON VT_PALLÕ
+!! 16 pallõ:pǭla
++VT: V-01_MÄNGÕ ;
+
+LEXICON VT_LOULÕ
+!! 17 loulõ:lōla
++VT: V-01_MÄNGÕ ;
+
+LEXICON VI_LAITÕ
+!! 20 laittõ:lāita
++VI: V-01_MÄNGÕ ;
+
+LEXICON VT_LAITÕ
+!! 20 laittõ:lāita
++VT: V-01_MÄNGÕ ;
+
+LEXICON VI_TÄUTÕ
+!! 21 täutõ:tǟta
++VI: V-01_MÄNGÕ ;
+
+LEXICON VT_TÄUTÕ
+!! 21 täutõ:tǟta
++VT: V-01_MÄNGÕ ;
+
+LEXICON VI_PȮĻTÕ
+!! 22 pȯļtõ:pūoļta
++VI: V-01_MÄNGÕ ;
+
+LEXICON VT_PȮĻTÕ
+!! 22 pȯļtõ:pūoļta
++VT: V-01_MÄNGÕ ;
+
+LEXICON VI_MȮISTÕ
+!! 23 mȯistõ:mūošta
++VI: V-01_MÄNGÕ ;
+
+LEXICON VT_MȮISTÕ
+!! 23 mȯistõ:mūošta
++VT: V-01_MÄNGÕ ;
+
+LEXICON VI_ANDÕ
+!! 27 andõ:ānda
++VI: V-01_MÄNGÕ ;
+
+LEXICON VT_ANDÕ
+!! 27 andõ:ānda
++VT: V-01_MÄNGÕ ;
+
+LEXICON VI_TIEUDÕ
+!! 28 tieudõ:tīeda
++VI: V-01_MÄNGÕ ;
+
+LEXICON VT_TIEUDÕ
+!! 28 tieudõ:tīeda
++VT: V-01_MÄNGÕ ;
+
+LEXICON V-01_MÄNGÕ
+!! 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+ GER-õs     ;
+:%^Stress2to1 INF-õ      ;
+ SUP        ;
+:   INDPRSSG1    ;
+:   INDPRSSG2    ;
+:   INDPRSSG3    ;
+:%^Stress2to1   INDPRSPL1	 ;
+:%^Stress2to1   INDPRSPL2	 ;
+:%^Stress2to1   INDPRSPL3	 ;
+:%^ConsSh   INDCONNEGSG    ;
+: INDCONNEGPL1 ;
+: INDCONNEGPL2 ;
+: INDCONNEGPL3 ;
+:ī INDPRT-z ;
+!+Ind+Sg+ConNeg:	K    ;
+
+!+Cond+Sg3:õks	K    ;
+ CONDPRS ;
+
+!+Imprt+Sg2:  	K    ;
+!+Imprt+ConNeg:	K    ;
+!+Imprt+Pl2:õgid	K    ;
+!+Jus+Sg3:õg		K    ;
+!+Quo+Sg:iji		K    ;
+!+Act+PrfPrc+Sg:õn	K    ;
+:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
 !! 29-48 follow same pattern
-LEXICON V_LUGGO
+LEXICON VI_LU’GGÕ
 !! lu’ggõ:lugū 29
-+V:	V-01_LUGGO ;
++VI:     V-01_LU’GGÕ ;
 
-LEXICON V_MUDZO
+LEXICON VT_LU’GGÕ
+!! lu’ggõ:lugū 29
++VT:     V-01_LU’GGÕ ;
+
+LEXICON VI_MU’DŽÕ
 !! mu’džõ:mudžū 30
-+V:	V-01_LUGGO ;
++VI:     V-01_LU’GGÕ ;
 
-LEXICON V_VAKTO
+LEXICON VT_MU’DŽÕ
+!! mu’džõ:mudžū 30
++VT:     V-01_LU’GGÕ ;
+
+LEXICON VI_VAKȚÕ
 !! vakțõ:vakțū 31
-+V:	V-01_LUGGO	;
++VI:     V-01_LU’GGÕ      ;
 
-LEXICON V_KITTO
+LEXICON VT_VAKȚÕ
+!! vakțõ:vakțū 31
++VT:	V-01_LU’GGÕ	;
+
+LEXICON VI_KITTÕ
 !! kittõ:kitū 32
-+V:	V-01_LUGGO ;
++VI:     V-01_LU’GGÕ ;
 
-LEXICON V_RIDDO
-!! riddõ:ridū 33
-+V:	V-01_LUGGO ;
+LEXICON VT_KITTÕ
+!! kittõ:kitū 32
++VT:     V-01_LU’GGÕ ;
 
-LEXICON V_KUTSO
+LEXICON V-AUX_RI’DDÕ
+!! ri’ddõ:ridū 33
++VAUX:     V-01_LU’GGÕ ;
+
+LEXICON VI_RI’DDÕ
+!! ri’ddõ:ridū 33
++VI:     V-01_LU’GGÕ ;
+
+LEXICON VT_RI’DDÕ
+!! ri’ddõ:ridū 33
++VT:     V-01_LU’GGÕ ;
+
+LEXICON VI_KUTSÕ
 !! kutsõ:kutsū 34
-+V:	V-01_LUGGO ;
++VI:     V-01_LU’GGÕ ;
 
-LEXICON V_LASKO
+LEXICON VT_KUTSÕ
+!! kutsõ:kutsū 34
++VT:     V-01_LU’GGÕ ;
+
+LEXICON V-AUX_LASKÕ
 !! laskõ:laskū 35
-+V:	V-01_LUGGO ;
++VAUX:     V-01_LU’GGÕ ;
 
-LEXICON V_AKKO
+LEXICON VI_LASKÕ
+!! laskõ:laskū 35
++VI:     V-01_LU’GGÕ ;
+
+LEXICON VT_LASKÕ
+!! laskõ:laskū 35
++VT:     V-01_LU’GGÕ ;
+
+LEXICON VI_AKKÕ
 !! akkõ:akū 36
-+V:	V-01_LUGGO ;
++VI:     V-01_LU’GGÕ ;
 
-LEXICON	V-01_LUGGO
+LEXICON VT_AKKÕ
+!! akkõ:akū 36
++VT:     V-01_LU’GGÕ ;
+
+LEXICON	V-01_LU’GGÕ
 !! This is mutual for 29-36: 
 !! luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
 :%^Stress2to1 GER-õs   ;
@@ -107,66 +374,86 @@ LEXICON	V-01_LUGGO
 :%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
 
 
-LEXICON V_AIGO
+LEXICON V-AUX_AIGÕ
 !! aigõ:āigõ 37
-+V:	V-01_AIGO ;
++VAUX:	V-01_AIGÕ ;
 
+LEXICON VI_AIGÕ
+!! aigõ:āigõ 37
++VI:  V-01_AIGÕ ;
 
-LEXICON V_KUORRO
+LEXICON VT_AIGÕ
+!! aigõ:āigõ 37
++VT:  V-01_AIGÕ ;
+
+LEXICON VT_KUOŖŖÕ
 !! kuoŗŗõ:kūoŗõ 38
-+V:	V-01_AIGO	;
++VT:     V-01_AIGÕ       ;
 
-
-LEXICON V_VANNO
+LEXICON VT_VANNÕ
 !! vannõ:vǭnõ 39
-+V:	V-01_AIGO	;
++VT:     V-01_AIGÕ       ;
 
 
-LEXICON V_POLLO
+LEXICON VI_PȮĻĻÕ
 !! pȯļļõ:pūoļõ 40
-+V:	V-01_AIGO	;
++VI:     V-01_AIGÕ       ;
 
 
-LEXICON V_POIMO
+LEXICON VI_PȮIMÕ
 !! pȯimõ:pūoimõ 41
-+V:	V-01_AIGO	;
++VI:     V-01_AIGÕ       ;
 
+LEXICON VT_PȮIMÕ
+!! pȯimõ:pūoimõ 41
++VT:     V-01_AIGÕ       ;
 
-LEXICON V_OURO
+LEXICON VI_OUŖÕ
 !! ouŗõ:ōŗõ 42
-+V:	V-01_AIGO	;
++VI:     V-01_AIGÕ       ;
 
-
-LEXICON V_KEIJO
+LEXICON VI_KEIJÕ
 !! keijõ:kējõ 43
-+V:	V-01_AIGO	;
++VI:     V-01_AIGÕ       ;
+
+LEXICON VT_KEIJÕ
+!! keijõ:kējõ 43
++V:     V-01_AIGÕ       ;
 
 
-LEXICON V_ARSTO
+LEXICON VI_AŖŠTÕ
 !! aŗštõ:āŗštõ 44
-+V:	V-01_AIGO	;
++VI:     V-01_AIGÕ       ;
 
+LEXICON VT_AŖŠTÕ
+!! aŗštõ:āŗštõ 44
++VT:	V-01_AIGÕ	;
 
-LEXICON V_PORTO
+LEXICON VT_PȮRTÕ
 !! pȯrtõ:pūortõ 45
-+V:	V-01_AIGO	;
++VT:     V-01_AIGÕ       ;
 
-
-LEXICON V_OUTO
+LEXICON VT_OUTÕ
 !! outõ:ōtõ 46
-+V:	V-01_AIGO	;
++VT:     V-01_AIGÕ       ;
 
-
-LEXICON V_TUNDO
+LEXICON V-AUX_TUNDÕ
 !! tundõ:tūndõ 47
-+V:	V-01_AIGO	;
++VAUX:    V-01_AIGÕ       ;
 
+LEXICON VI_TUNDÕ
+!! tundõ:tūndõ 47
++VI:	V-01_AIGÕ	;
 
-LEXICON V_OUDO
+LEXICON VT_TUNDÕ
+!! tundõ:tūndõ 47
++VT:     V-01_AIGÕ       ;
+
+LEXICON VT_OUDÕ
 !! oudõ:ōdõ 48
-+V:	V-01_AIGO	;
++VT:	V-01_AIGÕ	;
 
-LEXICON V-01_AIGO
+LEXICON V-01_AIGÕ
 !! This is mutual for 37-48
 :%^Stress1to2 GER-õs   ;
 :%^Stress1to2 INF-õ	  ;
@@ -199,43 +486,88 @@ LEXICON V-01_AIGO
 :%^Stress1to2%^VowsRM QUOPRS	;		
 
 
-LEXICON V-kūlõ
-!kūlõ:kūl 49
-+V: V-kūlõ_01 ;
+LEXICON VI_KŪLÕ
+!! kūlõ:kūlõ 49
++VI: V-01_KŪLÕ ;
 
-LEXICON V-arrõ
-!arrõ:arr 50
-+V: V-kūlõ_01 ;
+LEXICON VT_KŪLÕ
+!! kūlõ:kūlõ 49
++VT: V-01_KŪLÕ ;
 
-LEXICON V-ailõ
-!ailõ:ail 51
-+V: V-kūlõ_01 ;
+LEXICON VI_ARRÕ
+!! arrõ:arrõ 50
++VI: V-01_KŪLÕ ;
 
-LEXICON V-svarrõ
-! svarrõ:svarr 52
-+V: V-kūlõ_01 ;
+LEXICON VT_ARRÕ
+!! arrõ:arrõ 50
++VT: V-01_KŪLÕ ;
 
-LEXICON V-kītõ
+LEXICON VI_A’ILÕ
+!! a’ilõ:a’ilõ 51
++VI: V-01_KŪLÕ ;
+
+LEXICON VT_A’ILÕ
+!! a’ilõ:a’ilõ 51
++VT: V-01_KŪLÕ ;
+
+LEXICON VT_SVA’RRÕ
+!! sva’rrõ:sva’rrõ 52
++VT: V-01_KŪLÕ ;
+
+LEXICON V-AUX_KĪTÕ
 !kītõ:kīt 53
-+V: V-kūlõ_01 ;
++VAUX: V-01_KŪLÕ ;
 
-LEXICON V-äbțõ
-!äbțõ:äbț 54
-+V: V-kūlõ_01 ;
+LEXICON VI_KĪTÕ
+!! kītõ:kīt 53
++VI: V-01_KŪLÕ ;
 
-LEXICON V-kūldõ
-!kūldõ:kūld 55
-+V: V-kūlõ_01 ;
+LEXICON VT_KĪTÕ
+!kītõ:kīt 53
++VT: V-01_KŪLÕ ;
 
-LEXICON V-kīskõ
-!kīskõ:kīsk 56
-+V: V-kūlõ_01 ;
 
-LEXICON V-īedõ
-!īedõ:īed 57
-+V: V-kūlõ_01 ;
+LEXICON VI_Ä’BȚÕ
+!! ä’bțõ:ä’bț 54
++VI: V-01_KŪLÕ ;
 
-LEXICON V-kūlõ_01
+LEXICON VT_Ä’BȚÕ
+!! ä’bțõ:ä’bț 54
++VT: V-01_KŪLÕ ;
+
+LEXICON V_KŪLDÕ
+!! kūldõ:kūld 55
++V: V-01_KŪLÕ ;
+
+LEXICON V-AUX_KŪLDÕ
+!! kūldõ:kūld 55
++VAUX: V-01_KŪLÕ ;
+
+LEXICON VI_KŪLDÕ
+!! kūldõ:kūld 55
++VI: V-01_KŪLÕ ;
+
+LEXICON VT_KŪLDÕ
+!! kūldõ:kūld 55
++VT: V-01_KŪLÕ ;
+
+LEXICON VT_KĪSKÕ
+!! kīskõ:kīsk 56
++VT: V-01_KŪLÕ ;
+
+LEXICON V-AUX_Ī’EDÕ
+!! ī’edõ:īed 57
++VAUX: V-01_KŪLÕ ;
+
+LEXICON VI_Ī’EDÕ
+!! ī’edõ:īed 57
++VI: V-01_KŪLÕ ;
+
+LEXICON VT_Ī’EDÕ
+!! ī’edõ:īed 57
++VT: V-01_KŪLÕ ;
+
+LEXICON V-01_KŪLÕ
 ! This is mutual for 49-57
  GER-õs   ;
  INF-õ	  ;
@@ -254,9 +586,70 @@ LEXICON V-kūlõ_01
 :i INDPRT-z    ;
 
 
+LEXICON V_UMBLÕ
+!! umblõ: 58
++V: V-01_UMBLÕ ;
 
-LEXICON V-umblõ
-+V: VTag ;
+LEXICON VI_UMBLÕ
+!! umblõ: 58
++VI: V-01_UMBLÕ ;
+
+LEXICON VT_UMBLÕ
+!! umblõ: 58
++VT: V-01_UMBLÕ ;
+
+LEXICON V-AUX_MÕTLÕ
+!! mõtlõ: 59
++VAUX: V-01_UMBLÕ ;
+
+LEXICON VI_MÕTLÕ
+!! mõtlõ: 59
++VI: V-01_UMBLÕ ;
+
+LEXICON VT_MÕTLÕ
+!! mõtlõ: 59
++VT: V-01_UMBLÕ ;
+
+LEXICON VI_MǞ’DLÕ
+!! mǟ’dlõ: 60
++VI: V-01_UMBLÕ ;
+
+LEXICON VT_MǞ’DLÕ
+!! mǟ’dlõ: 60
++VT: V-01_UMBLÕ ;
+
+LEXICON VI_NA’GRÕ
+!! na’grõ: 60
++VI: V-01_UMBLÕ ;
+
+LEXICON VT_NA’GRÕ
+!! na’grõ: 60
++VT: V-01_UMBLÕ ;
+
+LEXICON V-01_UMBLÕ
+ K ;
+
+LEXICON V-AUX_ALĀ
+!! 62 alā:alā
++VAUX: K ;
+
+LEXICON V-AUX_Ä’B
+!! 62 ä’b:ä
++V+Neg: K ;
+
+LEXICON V-AUX_I’Z
+!! 62 i’z:ä
++V+Neg: K ;
+
+LEXICON VT_SÄ
+!! 63 sä:sä
++VT: K ;
+
+LEXICON V-AUX_PIḐĪKS
+!! 64 piḑīks:piḑī
++VAUX: K ;
+
+
 
 LEXICON VTag
 	Persons	;
