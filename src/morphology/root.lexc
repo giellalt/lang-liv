@@ -79,8 +79,8 @@ Multichar_Symbols
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
- +VT !! Transitive verb
- +VI !! Intransitive verb
+ +TV !! Transitive verb
+ +IV !! Intransitive verb
  +VAUX !! Auxilliary verb
 !! Special multiword units are analysed with:
  +Multi
