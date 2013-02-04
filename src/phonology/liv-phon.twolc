@@ -98,14 +98,15 @@ VowsLong  = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī ;
 VowsShort = a o u ä ǫ õ ȯ ö y ü e i ;
 Vows = VowsLong VowsShort ;
 
-Cons = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s ş t ț v z ž ;
+Cons = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž ;
 
 Letters = Vows Cons ;
 
 
 
 Definitions
-ConsStrengthening = [ 0: g: | 0: l: ];
+
+ConsStrengthening = [ 0: d: | 0: g: | 0: l: ];
 
 Rules
 
@@ -124,7 +125,7 @@ Rules
 !! Vowel loss
 !! 
 "ā:0"
-ā:0 <=> # Cons* [Vows | ’: | :’ ]+ [ Cons: | :Cons ]+ _ ( %^Stress2to1:0 ) %^VowsRM:0 ;
+ā:0 <=> # Cons* [Vows | ’: | :’ ]+ [ Cons: | :Cons ]+ _ [ ( %^Stress2to1:0 ) %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] ;
 
 "ū:0"
 ū:0 <=> # Cons* [Vows | ’: | :’ ]+ [ Cons: | :Cons ]+ _ [ ( %^Stress2to1:0 ) %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] ;
@@ -153,13 +154,14 @@ Rules
  0:l <=> # Cons* :Vows ( ’: | :’ ) _ l Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
 
 "0:’"
-0:’  <=> # Cons* :Vows _  ConsStrengthening Vows: %^Stress2to1:0  [ # | ( %^VowsRM:0 | %^VowsRM:0 ) %> ] ;
-         # Cons* :Vows _ [ :g | :d | :l ]+ Vows: %^Stress2to1:0 %^VowsRM:0  %^ConsRM:0 %> :Cons ;
+0:’ <=> # Cons* :Vows _  [ 0: d: | 0: g: | 0: l: ] Vows: %^Stress2to1:0  [ # | %> | %^VowsRM:0  %> ] ;
+         # Cons* :Vows _ [ g: | d: | l: ] Vows: %^Stress2to1:0 %^VowsRM:0  %^ConsRM:0  ;
+!         # Cons* :Vows _ [ g: | d: | l: ] Vows: %^Stress2to1:0 %^VowsRM:0 %> [ ḑ i | ž i | š t i ] ;
 
-
+ 
 "l:ļ"
-l:ļ <=> _ Vows: %^Stress2to1:0 %^VowsRM:0 %> [ ḑ i | ž i | š t i ] ;
-
+l:ļ <=> _ Vows: %^Stress2to1:0 %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
+!! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 
 
 ! First syllable short second syllable long

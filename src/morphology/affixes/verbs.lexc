@@ -100,13 +100,10 @@ LEXICON	V-01_LUGGO
 !! Kvo
 :%^Stress2to1%^VowsRM QUOPRS	;
 
-! participles
-+Act+PrsPrc+Sg:%^Stress2to1%>b	K    ;
-+Act+PrsPrc+Pl:%^Stress2to1%>bõd	K    ;
-+Act+PrfPrc+Sg:%^Stress2to1%>n	K    ;
-+Act+PrfPrc+Pl:%^Stress2to1%>nd	K    ;
-+Pss+PrsPrc+Sg:%^Stress2to1%^VowsRM%^ConsRM%>dõb	K    ;
-+Pss+PrsPrc+Pl:%^Stress2to1%^VowsRM%^ConsRM%>dõbõd	K    ;
+!! participles
+:%^Stress2to1 ACTPRSPRC ;
+:%^Stress2to1 ACTPRFPRC ;
+:%^Stress2to1%^VowsRM%^ConsRM PSSPRSPRC ;
 :%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
 
 
@@ -187,15 +184,19 @@ LEXICON V-01_AIGO
 !! Prt
 :%^VowsRMi INDPRT-z    ;
 
-:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
 
 :%^Stress1to2 CONDPRS ;
 :%^Stress1to2%^VowsRM IMPRTPRSSG2 ;
 :%^Stress1to2 IMPRTPRSPL1 ;
 :%^Stress1to2 IMPRTPRSPL2 ;
  IMPRTPRSCONNEG ;
- JUSPRS	;
- QUOPRS	;		
+:%^Stress1to2 JUSPRS	;
+:%^Stress1to2%^VowsRM QUOPRS	;		
 
 
 LEXICON V-kūlõ
@@ -285,6 +286,18 @@ LEXICON INF-õ
 
 LEXICON SUP
 +Sup+Ill:%>m K   ;
+
+LEXICON ACTPRSPRC
++Act+PrsPrc+Sg:%>b	K    ;
++Act+PrsPrc+Pl:%>bõd	K    ;
+
+LEXICON	ACTPRFPRC
++Act+PrfPrc+Sg:%>n	K    ;
++Act+PrfPrc+Pl:%>nd	K    ;
+
+LEXICON PSSPRSPRC
++Pss+PrsPrc+Sg:%>dõb        K    ;
++Pss+PrsPrc+Pl:%>dõbõd      K    ;
 
 LEXICON PSSPRFPRCSG
 +Pss+PrfPrc+Sg:%>dõd    K    ;
