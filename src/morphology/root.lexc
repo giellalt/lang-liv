@@ -25,7 +25,7 @@ Multichar_Symbols
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V
+ +N +A +Adv +V 
  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num 
 
 !! The parts of speech are further split up into:
@@ -79,7 +79,9 @@ Multichar_Symbols
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
- +TV +IV
+ +VT !! Transitive verb
+ +VI !! Intransitive verb
+ +VAUX !! Auxilliary verb
 !! Special multiword units are analysed with:
  +Multi
 !! Non-dictionary words can be recognised with:
