@@ -24,9 +24,21 @@ Multichar_Symbols
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
-!! The parts-of-speech are:
- +N +A +Adv +V 
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num 
+!! !!The parts-of-speech are:
+ +A !! adjective
+ +Adp !! adposition
+ +Adv !! adverb
+ +CS !! subordinating conjunction
+ +CC !! coordinating conjunction
+ +Interj !! interjection 
+ +N !! noun
+ +Num !! numeral
+ +Pcle !! particle
+ +Pr !! preposition
+ +Po !! postposition
+ +Pron !! pronoun
+ +Qnt !! Quantifier
+ +V !! verb
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
