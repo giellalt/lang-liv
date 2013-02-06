@@ -10,7 +10,21 @@ The morphological analyses of wordforms of UNDEFINED language are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
-The parts-of-speech are:
+!!The parts-of-speech are:
+adjective
+adposition
+adverb
+subordinating conjunction
+coordinating conjunction
+interjection 
+noun
+numeral
+particle
+preposition
+postposition
+pronoun
+Quantifier
+verb
 
 The parts of speech are further split up into:
 
@@ -30,6 +44,9 @@ Other verb forms are
 
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
+Transitive verb
+Intransitive verb
+Auxilliary verb
 Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
@@ -49,6 +66,7 @@ To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
 And following triggers to control variation
+2013-02-01 
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:

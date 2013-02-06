@@ -21,7 +21,21 @@ The morphological analyses of wordforms of UNDEFINED language are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
-The parts-of-speech are:
+!!The parts-of-speech are:
+adjective
+adposition
+adverb
+subordinating conjunction
+coordinating conjunction
+interjection 
+noun
+numeral
+particle
+preposition
+postposition
+pronoun
+Quantifier
+verb
 
 The parts of speech are further split up into:
 
@@ -41,6 +55,9 @@ Other verb forms are
 
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
+Transitive verb
+Intransitive verb
+Auxilliary verb
 Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
@@ -60,6 +77,7 @@ To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
 And following triggers to control variation
+2013-02-01 
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
@@ -73,5 +91,693 @@ Words that are not inflected
 
 
 
+
+
+Noun inflection
+Livonian nouns inflect in cases.
+
+Stem lexica
+ LEXICON N_PŪ  contains pū: 12
+
+
+ LEXICON N_RǬ’  contains rǭ':rǭ 13
+
+ LEXICON N_PǞ  contains pǟ:pǟ 14
+
+ LEXICON N_TĪE  contains tīe:tīe 15
+
+ LEXICON N_BRĪ  contains brī:brī 16
+
+ LEXICON N_TEI  contains tei:tei 17
+
+ LEXICON N_KALĀ   contains  kalā:kalā 18
+
+Inflection lexica
+
+ LEXICON NMN_KALĀ  contains cases for nominals
+See l:ļ in twolc
+
+
+ LEXICON N_TUBĀ  tubā:tubā 19
+
+ LEXICON N_AIGĀ  aigā:aigā 20
+
+ LEXICON N_LĒBA  lēba:lēba 21
+
+ LEXICON N_PŪOGA  pūoga:pūoga 22
+
+ LEXICON N_LǬJA  lǭja:lǭja 23
+
+ LEXICON N_PǞVA  pǟva:pǟva 24
+
+ LEXICON N_IZĀ  izā:izā 25
+
+ LEXICON N_AŽĀ  ažā:ažā 26
+
+ LEXICON N_ĀĻDŽA  āļdža:āļdža 27
+
+ LEXICON N_SUKĀ  sukā:sukā 28
+
+ LEXICON N_LIEPĀ  liepā:liepā 29
+
+ LEXICON N_OKSĀ  oksā:oksā 30
+
+ LEXICON N_VȰNTSA  vȱntsa:vȱntsa 31
+
+ LEXICON N_LIESTĀ  liestā:liestā 32
+
+ LEXICON N_ĀIGA  āiga:āiga 33
+
+ LEXICON N_LĀNGA  lānga:lānga 33
+
+ LEXICON N_SĪLMA  sīlma:sīlma 34
+
+ LEXICON N_KǞNGA  kǟnga:kǟnga 35
+
+ LEXICON N_ĀINA  āina:āina 36
+
+ LEXICON N_VĒNA  vēna:vēna 37
+
+ LEXICON N_RŌDA  rōda:rōda 38
+
+ LEXICON N_PADĀ  padā:padā 39
+
+ LEXICON N_SÕBRĀ  sõbrā:sõbrā 40
+
+ LEXICON N_KÄPĀ  käpā:käpā 41
+
+ LEXICON N_MAKSĀ  maksā:maksā 42
+
+ LEXICON N_KĒRA  kēra:kēra 43
+
+ LEXICON N_JǬRA  jǭra:jǭra 44
+
+ LEXICON N_PŪOLA  pūola:pūola 45
+
+ LEXICON N_ĀITA  āita:āita 46
+
+ LEXICON N_ŪŠKA  ūška:ūška 47
+
+ LEXICON N_MȬKA  mȭka:mȭka 48
+
+ LEXICON N_DADŽĀ  dadžā:dadžā 49
+
+ LEXICON N_SUŠĀ  sušā:sušā 50
+
+ LEXICON N_KUPŠĀ  kupšā:kupšā 51
+
+ LEXICON N_TŠŪRTŠA  tšūrtša:tšūrtša 52
+
+ LEXICON N_SĒMḐA  sēmḑa:sēmḑa 53
+
+ LEXICON N_TĪERA  tīera:tīera 54
+
+ LEXICON N_KRǬIPA  krǭipa:krǭipa 55
+
+ LEXICON N_LILLA  kuțā:kuțā 57
+
+
+ LEXICON N_NĒTŠA  nētša:nētša 58
+ LEXICON N_KIV  ki'v:kiv 59
+
+ LEXICON N_KUOIG  kuo'ig:kuoig 60
+
+ LEXICON N_KEP  kep:kep a'b 61
+
+ LEXICON N_KRUȚK  : 62
+
+ LEXICON N_KRÄMP  : 63
+
+ LEXICON N_PIŅ  pi'ņ:piņ 64
+
+ LEXICON N_KUOȚ  : 65
+
+ LEXICON N_VAKȚ  : 66
+
+ LEXICON N_REŅ  : 67
+
+ LEXICON N_OKŠ  : 68
+
+ LEXICON N_KAŠ  : 69
+
+ LEXICON N_DUŅTŠ  : 70
+
+  : 71
+  va’g:vag 72
+  kõ’l:kõl 73
+  su’g:sug 74
+  jo’ug:joug 75
+  ni’m:nim 76
+  : 77
+  : 78
+  tup:tup 79
+  : 80
+  lu’m:lum 81
+  mie’r:mier 82
+  me’r:mer 83
+  mu’r:mur 84
+  kuo’d:kuod aig 85
+  su’ž:suž 86
+  ke'ž:kež aim 87
+  ve'ž:vež 88
+  ku'ž:kuž 89
+  : 90
+  : 91
+  : 92
+  : 93
+  : 94
+  : 95
+  : 96
+  : 97
+  : 98
+  : 99
+  : 100
+  : 101
+  : 102
+  : 103
+  : 104
+  : 105
+  : 106
+  : 107
+  : 108
+  : 109
+  : 110
+  : 111
+  täuž: adres 112
+  : 113
+  : 114
+  : 115
+  : 116
+  : 117
+  : 118
+  nǭ'gõ:nǭgõ 119
+  : 120
+  drū’ošõ:drūošõ 121
+  : 122
+  : 123
+  ǭ'j:ǭj 124
+  : 125
+  : 126
+  : 127
+  va'it:vait 128
+  : 129
+  : 130
+  sa'gdit:sagdit 131
+  : 132
+  : 133
+  blē'ḑ:blēḑ 134
+  : 135
+  : 136
+  : 137
+  : 138
+  lǟ'nd:lǟnd 139
+  : 140
+  : 141
+  nī'em:nīem 142
+  : 143
+  : 144
+  rū'tš:rūtš 145
+  tē'ḑ:tēḑ 146
+  lē'ḑ:lēḑ 147
+  : 148
+  : 149
+  : 150
+  : 151
+  a'm:am 152
+  : 153
+  : 154
+  : 155
+  : 156
+  : 157
+  : 158
+  : 159
+  ȭ'dõg:ȭdõg 160
+  : 161
+  tī'edõd:tīedõd 162
+  : 163
+  : 164
+  ī'dõksmõz:īdõksmõz 165
+  : 166
+  : 167
+  : 168
+  : 169
+  : 170
+  : 171
+  : 172
+  : 173
+  : 174
+  : 175
+  : 176
+  : 177
+  : 178
+  : 179
+  : 180
+  : 181
+  ä'ggõz:äggõz 182
+  pū’dõz:pūdõz 183
+  : 184
+  lǭ’tšõz:lǭtšõz 185
+  : 186
+  : 187
+  lē'ji:lēji 188
+  : 189
+  lä’bḑi:läbḑi 190
+  : 191
+  a’igi:aigi 192
+  pu'nni:punni 193
+  : 194
+  : 195
+  aigi:aigi 196
+  : 197
+  : 198
+  : 199
+  a’bli:abli 200
+  : 201
+  lē'mi:lēmi 202
+  : 203
+  : 204
+  : 205
+  : 206
+  : 207
+  ä'bțõks:äbțõks 208
+  : 209
+  : 210
+  : 211
+  : 212
+  : 213
+
+ LEXICON N_TŪĻ  : 214
+
+ LEXICON N_KĒĻ  : 215
+
+ LEXICON QNT_PŪOL  : 216
+
+ LEXICON NUM_ĪKŠ  : 217
+
+ LEXICON NUM_KAKŠ  : 218
+
+ LEXICON A_ŪŽ  : 219
+
+ LEXICON N_SĒŅ  : 220
+
+ LEXICON N_JŪŖ  : 221
+
+ LEXICON A_SŪR  : 222
+
+ LEXICON N_SĒR  : 223
+
+ LEXICON N_BIRKOV  : 224
+
+ LEXICON N_SALĀJ  : 225
+
+ LEXICON N_UMĀRZ  umārz:umār 226
+
+ LEXICON N_DULLÕNZ  dullõnz:dullõn 227
+
+ LEXICON N_A’BBÕNZ  a’bbõnz:a’bbõn 228
+
+ LEXICON N_AŅGÕRZ  : aņgõrz:aņgõr 229
+
+ LEXICON N_KA’GGÕRZ  ka’ggõrz:ka’ggõr 230
+
+ LEXICON N_PǞGIŅŽ  pǟgiņž:pǟgiņ 231
+
+ LEXICON N_VAGĀŖ  vagāŗ:vagāŗ 232
+
+ LEXICON N_TIDĀR  tidār:tidār 233
+
+ LEXICON N_PĒGAL  pēgal:pēgal 234
+
+ LEXICON N_APPÕN  appõn:appõn 235
+
+ LEXICON N_Ǭ’RÕN  ǭ’rõn:ǭrõn 236
+
+ LEXICON N_KĪNDÕR  kīndõr:kīndõr 237
+
+ LEXICON N_BÄ’ZMÕR  bä’zmõr:bäzmõr 238
+
+ LEXICON N_TARĪĻ  tarīļ:tarīļ 239
+
+ LEXICON N_ĀNKAŖ  ānkaŗ:ānkaŗ 240
+
+ LEXICON N_VIRPÕĻ  virpõļ:virpõļ 241
+
+ LEXICON N_Ǭ’BIĻ  ǭ’biļ:ǭbiļ 242
+
+!!Nominal inflection
+is fed by types _UMĀRZ 226, _DULLÕNZ 227, _A’BBÕNZ 228,
+_AŅGÕRZ 229, _KA’GGÕRZ 230, _PǞGIŅŽ 231
+
+
+
+
+  #:0   nouns   ;
+
+!!NUMBER AND CASE
+
+
+
+
+
+
+   vim: set ft=xfst-lexc:
+
+Verb inflection
+---------------
+The UNDEFINED language verbs inflect in persons.
+
+CONJUGATION TYPE MISSING
+
+1 lǟ’dõ:
+
+1 lǟ’dõ:
+
+2 tǭ’dõ:
+
+3 vīdõ:
+
+3 vīdõ:
+
+3 vīdõ:
+
+4 nǟ’dõ:
+
+4 nǟ’dõ:
+
+5 kǟ’dõ:
+
+6 tī’edõ:
+
+
+
+7 sīedõ:
+
+7 sīedõ:
+
+7 sīedõ:
+
+8 sǭdõ:
+
+8 sǭdõ:
+
+8 sīedõ:
+
+9 jūodõ:
+
+10 vȱlda:
+
+10 vȱlda:
+
+11 tūlda:
+
+12 pānda:
+
+12 pānda:
+
+12 pānda:
+
+13 je’llõ:jelā
+
+13 je’llõ:jelā
+
+18 astõ:astā
+
+18 astõ:astā
+
+19 võttõ:võtā
+
+24 vie’ddõ:viedā
+
+24 vie’ddõ:viedā
+
+25 maksõ:maksā
+
+25 maksõ:maksā
+
+26 tappõ:tapā
+
+13 je’llõ, 18 astõ, 19 võttõ, 24 vie’ddõ, 25 maksõ, 26 tappõ
+
+
+
+14 mängõ:mǟnga
+
+15 killõ:kīla
+
+16 pallõ:pǭla
+
+17 loulõ:lōla
+
+20 laittõ:lāita
+
+20 laittõ:lāita
+
+21 täutõ:tǟta
+
+21 täutõ:tǟta
+
+22 pȯļtõ:pūoļta
+
+22 pȯļtõ:pūoļta
+
+23 mȯistõ:mūošta
+
+23 mȯistõ:mūošta
+
+27 andõ:ānda
+
+27 andõ:ānda
+
+28 tieudõ:tīeda
+
+28 tieudõ:tīeda
+
+14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+
+
+29-48 follow same pattern
+lu’ggõ:lugū 29
+
+lu’ggõ:lugū 29
+
+mu’džõ:mudžū 30
+
+mu’džõ:mudžū 30
+
+vakțõ:vakțū 31
+
+vakțõ:vakțū 31
+
+kittõ:kitū 32
+
+kittõ:kitū 32
+
+ri’ddõ:ridū 33
+
+ri’ddõ:ridū 33
+
+ri’ddõ:ridū 33
+
+kutsõ:kutsū 34
+
+kutsõ:kutsū 34
+
+laskõ:laskū 35
+
+laskõ:laskū 35
+
+laskõ:laskū 35
+
+akkõ:akū 36
+
+akkõ:akū 36
+
+This is mutual for 29-36: 
+luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
+Prt
+Imprt
+
+Jus
+Kvo
+
+participles
+
+
+aigõ:āigõ 37
+
+aigõ:āigõ 37
+
+aigõ:āigõ 37
+
+kuoŗŗõ:kūoŗõ 38
+
+vannõ:vǭnõ 39
+
+
+pȯļļõ:pūoļõ 40
+
+
+pȯimõ:pūoimõ 41
+
+pȯimõ:pūoimõ 41
+
+ouŗõ:ōŗõ 42
+
+keijõ:kējõ 43
+
+keijõ:kējõ 43
+
+
+aŗštõ:āŗštõ 44
+
+aŗštõ:āŗštõ 44
+
+pȯrtõ:pūortõ 45
+
+outõ:ōtõ 46
+
+tundõ:tūndõ 47
+
+tundõ:tūndõ 47
+
+tundõ:tūndõ 47
+
+oudõ:ōdõ 48
+
+This is mutual for 37-48
+Prt
+
+participles
+
+
+
+kūlõ:kūlõ 49
+
+kūlõ:kūlõ 49
+
+arrõ:arrõ 50
+
+arrõ:arrõ 50
+
+a’ilõ:a’ilõ 51
+
+a’ilõ:a’ilõ 51
+
+sva’rrõ:sva’rrõ 52
+
+
+kītõ:kīt 53
+
+
+
+ä’bțõ:ä’bț 54
+
+ä’bțõ:ä’bț 54
+
+kūldõ:kūld 55
+
+kūldõ:kūld 55
+
+kūldõ:kūld 55
+
+kūldõ:kūld 55
+
+kīskõ:kīsk 56
+
+ī’edõ:īed 57
+
+ī’edõ:īed 57
+
+ī’edõ:īed 57
+
+Prt
+
+
+umblõ: 58
+
+umblõ: 58
+
+umblõ: 58
+
+mõtlõ: 59
+
+mõtlõ: 59
+
+mõtlõ: 59
+
+mǟ’dlõ: 60
+
+mǟ’dlõ: 60
+
+na’grõ: 60
+
+na’grõ: 60
+
+
+62 alā:alā
+
+62 ä’b:ä
+
+62 i’z:ä
+
+63 sä:sä
+
+64 piḑīks:piḑī
+
+
+
+
+
+Nonfinites
+
+
+
+
+
+
+
+
+
+Finites
+
+Indicative preterite in z
+
+
+Conditional present
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conditional
+
+
+
+
+
+
+Imperative
+
+
+
+
+Jussative
+
+Quotative
 
 
