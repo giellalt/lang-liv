@@ -36,6 +36,7 @@ JSP_PAGES=root-morphology.jspwiki \
 # adjectives-affixes.jspwiki       \
 # propernouns-affixes.jspwiki      \
 #
+
 ALLINONE_JSP_PAGE=$(GTLANG).jspwiki
 
 LINKS=Links.jspwiki
