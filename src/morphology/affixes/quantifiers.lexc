@@ -10,5 +10,16 @@ LEXICON QntCases
 +Qnt:   Cases  ;
 !        -    Nouns  ;
 
+LEXICON QNT_PŪOL !!= @CODE@ : 216
++Qnt:     CASES   ;
+
+LEXICON NUM_ĪKŠ !!= @CODE@ : 217
++Num:     CASES   ;
+
+LEXICON NUM_KAKŠ !!= @CODE@ : 218
++Num:     CASES   ;
+
+
+
 ! vim: set ft=xfst-lexc:
 
