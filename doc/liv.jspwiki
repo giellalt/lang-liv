@@ -99,12 +99,15 @@ Livonian nouns inflect in cases.
 Stem lexica
  LEXICON N_PŪ  contains pū: 12
 
+ LEXICON N_PŪ-PL  contains pū: 12
 
- LEXICON N_RǬ’  contains rǭ':rǭ 13
+ LEXICON N_RǬ’  contains rǭ’:rǭ 13
 
  LEXICON N_PǞ  contains pǟ:pǟ 14
 
  LEXICON N_TĪE  contains tīe:tīe 15
+
+ LEXICON N_TĪE-PL  contains tīe:tīe 15
 
  LEXICON N_BRĪ  contains brī:brī 16
 
@@ -112,13 +115,13 @@ Stem lexica
 
  LEXICON N_KALĀ   contains  kalā:kalā 18
 
-Inflection lexica
+ LEXICON N_KALĀ-SG   contains  kalā:kalā 18
 
- LEXICON NMN_KALĀ  contains cases for nominals
-See l:ļ in twolc
-
+ LEXICON N_KALĀ-PL   contains  kalā:kalā 18
 
  LEXICON N_TUBĀ  tubā:tubā 19
+
+ LEXICON N_TUBĀ-PL  tubā:tubā 19
 
  LEXICON N_AIGĀ  aigā:aigā 20
 
@@ -152,9 +155,13 @@ See l:ļ in twolc
 
  LEXICON N_SĪLMA  sīlma:sīlma 34
 
+ LEXICON N_SĪLMA-PL  sīlma:sīlma 34
+
  LEXICON N_KǞNGA  kǟnga:kǟnga 35
 
  LEXICON N_ĀINA  āina:āina 36
+
+ LEXICON N_ĀINA-PL  āina:āina 36
 
  LEXICON N_VĒNA  vēna:vēna 37
 
@@ -162,9 +169,15 @@ See l:ļ in twolc
 
  LEXICON N_PADĀ  padā:padā 39
 
+ LEXICON N_PADĀ-SG  padā:padā 39
+
+ LEXICON N_PADĀ-PL  padā:padā 39
+
  LEXICON N_SÕBRĀ  sõbrā:sõbrā 40
 
  LEXICON N_KÄPĀ  käpā:käpā 41
+
+ LEXICON N_KÄPĀ-PL  käpā:käpā 41
 
  LEXICON N_MAKSĀ  maksā:maksā 42
 
@@ -175,6 +188,8 @@ See l:ļ in twolc
  LEXICON N_PŪOLA  pūola:pūola 45
 
  LEXICON N_ĀITA  āita:āita 46
+
+ LEXICON N_ĀITA-PL  āita:āita 46
 
  LEXICON N_ŪŠKA  ūška:ūška 47
 
@@ -198,17 +213,22 @@ See l:ļ in twolc
 
 
  LEXICON N_NĒTŠA  nētša:nētša 58
- LEXICON N_KIV  ki'v:kiv 59
 
- LEXICON N_KUOIG  kuo'ig:kuoig 60
+ LEXICON N_KI’V  ki’v:kiv 59
 
- LEXICON N_KEP  kep:kep a'b 61
+ LEXICON N_KUO’IG  kuo’ig:kuoig 60
+
+ LEXICON N_KEP  kep:kep a’b 61
+
+ LEXICON N_KEP-PL  kep:kep a’b 61
 
  LEXICON N_KRUȚK  : 62
 
  LEXICON N_KRÄMP  : 63
 
- LEXICON N_PIŅ  pi'ņ:piņ 64
+ LEXICON N_PI’Ņ  pi’ņ:piņ 64
+
+ LEXICON N_PI’Ņ-PL  pi’ņ:piņ 64
 
  LEXICON N_KUOȚ  : 65
 
@@ -230,23 +250,34 @@ See l:ļ in twolc
   ni’m:nim 76
   : 77
   : 78
-  tup:tup 79
-  : 80
+
+ LEXICON N_TUP  tup:tup 79
+
+ LEXICON N_TUP-PL  tup:tup 79
+
+ LEXICON N_MAKS  : 80
+
+ LEXICON N_MAKS-PL  : 80
+
   lu’m:lum 81
   mie’r:mier 82
   me’r:mer 83
   mu’r:mur 84
   kuo’d:kuod aig 85
   su’ž:suž 86
-  ke'ž:kež aim 87
-  ve'ž:vež 88
-  ku'ž:kuž 89
+  ke’ž:kež aim 87
+  ve’ž:vež 88
+  ku’ž:kuž 89
   : 90
   : 91
   : 92
   : 93
-  : 94
-  : 95
+
+ LEXICON N_KAND-PL  : 94
+
+ LEXICON N_KAND  : 94
+
+ LEXICON N_PȮRT  : 95
   : 96
   : 97
   : 98
@@ -269,120 +300,254 @@ See l:ļ in twolc
   : 115
   : 116
   : 117
-  : 118
-  nǭ'gõ:nǭgõ 119
-  : 120
-  drū’ošõ:drūošõ 121
-  : 122
-  : 123
-  ǭ'j:ǭj 124
-  : 125
-  : 126
+
+ LEXICON N_SIELDÕ  : 118
+
+ LEXICON N_SIELDÕ-PL  : 118
+
+ LEXICON N_NǬ’GÕ  nǭ’gõ:nǭgõ 119
+
+ LEXICON N_NǬ’GÕ-PL	 nǭ’gõ:nǭgõ 119
+
+ LEXICON N_AŠŠÕ  : 120
+
+ LEXICON N_AŠŠÕ-PL  : 120
+
+ LEXICON N_DRŪ’OŠÕ  drū’ošõ:drūošõ 121
+
+ LEXICON N_SO’V  : 122
+
+ LEXICON N_SO’V-PL  : 122
+
+ LEXICON N_KǬJ  : 123
+
+ LEXICON N_KǬJ-PL  : 123
+
+ LEXICON N_Ǭ’J  ǭ’j:ǭj 124
+
+ LEXICON N_IRM  : 125
+
+ LEXICON N_IRM-PL  : 125
+
+ LEXICON N_KIM  : 126
+
+ LEXICON N_KIM-SG  : 126
+
+ LEXICON N_KIM-PL  : 126
+
   : 127
-  va'it:vait 128
-  : 129
-  : 130
-  sa'gdit:sagdit 131
-  : 132
+
+ LEXICON N_VA’IT  va’it:vait 128
+
+ LEXICON N_VA’IT-PL	 va’it:vait 128
+
+ LEXICON N_AMĀT  : 129
+
+ LEXICON N_AMĀT-PL  : 129
+
+ LEXICON N_KULTŪR  : 130
+  sa’gdit:sagdit 131
+
+ LEXICON N_VIĻȚ  : 132
+
+ LEXICON N_VIĻȚ-PL  : 132
+
   : 133
-  blē'ḑ:blēḑ 134
-  : 135
-  : 136
+  blē’ḑ:blēḑ 134
+
+ LEXICON N_FAKT  : 135
+
+ LEXICON N_FAKT-PL  : 135
+
+ LEXICON N_TAS  : 136
   : 137
   : 138
-  lǟ'nd:lǟnd 139
-  : 140
-  : 141
-  nī'em:nīem 142
-  : 143
-  : 144
-  rū'tš:rūtš 145
-  tē'ḑ:tēḑ 146
-  lē'ḑ:lēḑ 147
+  lǟ’nd:lǟnd 139
+
+ LEXICON N_ĀIGAST  : 140
+
+ LEXICON N_ĀIGAST-PL  : 140
+
+ LEXICON N_ANALĪZ  : 141
+
+ LEXICON N_NĪ’EM  nī’em:nīem 142
+
+ LEXICON N_JAĻKŠ  : 143
+
+ LEXICON N_JAĻKŠ-PL	 : 143
+
+ LEXICON N_VIŠ  : 144
+
+ LEXICON N_RŪ’TŠ  rū’tš:rūtš 145
+
+ LEXICON N_RŪ’TŠ-PL  rū’tš:rūtš 145
+
+  tē’ḑ:tēḑ 146
+  lē’ḑ:lēḑ 147
   : 148
   : 149
   : 150
   : 151
-  a'm:am 152
-  : 153
-  : 154
+  a’m:am 152
+
+ LEXICON N_AZŪM  : 153
+
+ LEXICON N_AZŪM-PL  : 153
+
+ LEXICON N_VÕȚĪM  : 154
+
+ LEXICON N_VÕȚĪM-PL  : 154
+
   : 155
   : 156
-  : 157
-  : 158
-  : 159
-  ȭ'dõg:ȭdõg 160
-  : 161
-  tī'edõd:tīedõd 162
+
+ LEXICON N_SIDĀM  : 157
+
+ LEXICON N_SIDĀM-PL	 : 157
+
+ LEXICON N_TŪOITÕG  : 158
+
+ LEXICON N_KǬRAND  : 159
+
+ LEXICON N_KǬRAND-PL  : 159
+
+ LEXICON N_Ȭ’DÕG  ȭ’dõg:ȭdõg 160
+
+ LEXICON N_TAPTÕD  : 161
+
+ LEXICON N_TĪ’EDÕD  tī’edõd:tīedõd 162
   : 163
   : 164
-  ī'dõksmõz:īdõksmõz 165
+  ī’dõksmõz:īdõksmõz 165
   : 166
   : 167
   : 168
-  : 169
-  : 170
-  : 171
-  : 172
-  : 173
-  : 174
+
+ LEXICON N_MAIGĀZ  : 169
+
+ LEXICON N_NÕTKĀZ  : 170
+
+ LEXICON N_RIKĀZ  : 171
+
+ LEXICON N_BIKŠĀZ  : 172
+
+ LEXICON N_BIKŠĀZ-SG  : 172
+
+ LEXICON N_BIKŠĀZ-PL  : 172
+
+ LEXICON N_ĀMBAZ  : 173
+
+ LEXICON N_ĀMBAZ-PL  : 173
+
+ LEXICON N_PŪŖAZ  : 174
   : 175
-  : 176
-  : 177
+
+ LEXICON N_RĒNAZ  : 176
+
+ LEXICON N_RĒNAZ-PL	 : 176
+
+ LEXICON N_TŌVAZ  : 177
   : 178
-  : 179
-  : 180
-  : 181
-  ä'ggõz:äggõz 182
+
+ LEXICON N_MÕTKÕZ  : 179
+
+ LEXICON N_MÕTKÕZ-PL  : 179
+
+ LEXICON N_VȬRÕZ  : 180
+
+ LEXICON N_ARĀGÕZ  : 181
+
+ LEXICON N_ARĀGÕZ-PL  : 181
+
+ LEXICON N_Ä’GGÕZ  ä’ggõz:äggõz 182
   pū’dõz:pūdõz 183
-  : 184
+
+ LEXICON N_VĪETŠÕZ  : 184
+
+ LEXICON N_VĪETŠÕZ-PL  : 184
+
   lǭ’tšõz:lǭtšõz 185
   : 186
-  : 187
-  lē'ji:lēji 188
+
+ LEXICON N_AKKIJI  : 187
+
+ LEXICON N_AKKIJI-PL  : 187
+
+ LEXICON N_LĒ’JI  lē’ji:lēji 188
   : 189
   lä’bḑi:läbḑi 190
   : 191
-  a’igi:aigi 192
-  pu'nni:punni 193
+
+ LEXICON N_A’IGI  a’igi:aigi 192
+
+ LEXICON N_A’IGI-PL	 a’igi:aigi 192
+
+
+
+  pu’nni:punni 193
   : 194
   : 195
   aigi:aigi 196
   : 197
   : 198
-  : 199
-  a’bli:abli 200
-  : 201
-  lē'mi:lēmi 202
-  : 203
-  : 204
-  : 205
-  : 206
+
+ LEXICON N_TŪĻI  : 199
+
+ LEXICON N_TŪĻI-PL  : 199
+
+ LEXICON N_A’BLI  a’bli:abli 200
+
+ LEXICON N_A’BLI-PL  a’bli:abli 200
+
+ LEXICON N_SĒMI  : 201
+
+ LEXICON N_LĒ’MI  lē’mi:lēmi 202
+
+ LEXICON N_LĒ’MI-PL	 lē’mi:lēmi 202
+
+ LEXICON N_ALĪZ  : 203
+
+ LEXICON N_ALĪZ-PL  : 203
+
+ LEXICON N_NȬŖKÕZ  : 204
+
+ LEXICON N_KATŪKS  : 205
+
+ LEXICON N_KATŪKS-PL  : 205
+
+ LEXICON N_ĀNDÕKS  : 206
   : 207
-  ä'bțõks:äbțõks 208
+
+ LEXICON N_Ä’BȚÕKS  ä’bțõks:äbțõks 208
   : 209
   : 210
   : 211
-  : 212
-  : 213
+
+ LEXICON N_RIŠTĪNG-SG  : 212
+
+ LEXICON N_RO’VZT-PL  ro’vzt:ro’vz 212
+
+ LEXICON N_TU’Ļ  : 213
 
  LEXICON N_TŪĻ  : 214
 
  LEXICON N_KĒĻ  : 215
 
- LEXICON QNT_PŪOL  : 216
+ LEXICON N_PŪOL  : 216
 
- LEXICON NUM_ĪKŠ  : 217
+ LEXICON N_ĪKŠ  : 217
 
- LEXICON NUM_KAKŠ  : 218
+ LEXICON N_KAKŠ  : 218
 
- LEXICON A_ŪŽ  : 219
+ LEXICON N_ŪŽ  : 219
 
  LEXICON N_SĒŅ  : 220
 
  LEXICON N_JŪŖ  : 221
 
- LEXICON A_SŪR  : 222
+ LEXICON N_JŪŖ-PL  : 221
+
+ LEXICON N_SŪR  : 222
 
  LEXICON N_SĒR  : 223
 
@@ -396,7 +561,11 @@ See l:ļ in twolc
 
  LEXICON N_A’BBÕNZ  a’bbõnz:a’bbõn 228
 
+ LEXICON N_A’BBÕNZ-PL  a’bbõnz:a’bbõn 228
+
  LEXICON N_AŅGÕRZ  : aņgõrz:aņgõr 229
+
+ LEXICON N_AŅGÕRZ-PL  : aņgõrz:aņgõr 229
 
  LEXICON N_KA’GGÕRZ  ka’ggõrz:ka’ggõr 230
 
@@ -406,27 +575,64 @@ See l:ļ in twolc
 
  LEXICON N_TIDĀR  tidār:tidār 233
 
+ LEXICON N_TIDĀR-PL  tidār:tidār 233
+
  LEXICON N_PĒGAL  pēgal:pēgal 234
+
+ LEXICON N_PĒGAL-PL  pēgal:pēgal 234
 
  LEXICON N_APPÕN  appõn:appõn 235
 
+ LEXICON N_APPÕN-PL  appõn:appõn 235
+
  LEXICON N_Ǭ’RÕN  ǭ’rõn:ǭrõn 236
+
+ LEXICON N_Ǭ’RÕN-PL  ǭ’rõn:ǭrõn 236
 
  LEXICON N_KĪNDÕR  kīndõr:kīndõr 237
 
  LEXICON N_BÄ’ZMÕR  bä’zmõr:bäzmõr 238
 
+ LEXICON N_BÄ’ZMÕR-PL  bä’zmõr:bäzmõr 238
+
  LEXICON N_TARĪĻ  tarīļ:tarīļ 239
 
+ LEXICON N_TARĪĻ-PL  tarīļ:tarīļ 239
+
  LEXICON N_ĀNKAŖ  ānkaŗ:ānkaŗ 240
+
+ LEXICON N_ĀNKAŖ-PL  ānkaŗ:ānkaŗ 240
 
  LEXICON N_VIRPÕĻ  virpõļ:virpõļ 241
 
  LEXICON N_Ǭ’BIĻ  ǭ’biļ:ǭbiļ 242
 
+ LEXICON N_Ǭ’BIĻ-PL  ǭ’biļ:ǭbiļ 242
+
+ LEXICON N_GOLĀTÕKS  golātõks:golātõks 244 found in Liv-est-lat dictionary
+
+
+
+
 !!Nominal inflection
+Inflection lexica
+
+ LEXICON NMN_KALĀ  contains cases for nominals
+
+
+See l:ļ in twolc
+
+
+
+
+
 is fed by types _UMĀRZ 226, _DULLÕNZ 227, _A’BBÕNZ 228,
 _AŅGÕRZ 229, _KA’GGÕRZ 230, _PǞGIŅŽ 231
+
+
+
+
+
 
 
 
