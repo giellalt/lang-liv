@@ -1,25 +1,2918 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>ikš</l>
-         <stg>
-            <st Contlex="QntTag">ikš</st>
-         </stg>
-      </lg>
-      <pos>QNT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>one</t>
-         </tg>
-         <tg lang="fin">
-            <t>yksi</t>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>āigasttū’ontõ</l>
+
+      <stg>
+        <st Contlex="NUM_NǬ’GÕ">āigast#tū’ontõ</st>
+      </stg>
+
+      <stress>āigast|tū’ontõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>dutš</l>
+
+      <stg>
+        <st Contlex="NUM_OKŠ">dutš</st>
+      </stg>
+
+      <stress>dutš</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>e’žmi</l>
+
+      <stg>
+        <st Contlex="NUM_SĒMI">e’žmi</st>
+      </stg>
+
+      <stress>e’žmi</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’dõks</l>
+
+      <stg>
+        <st Contlex="NUM_Ä’BȚÕKS">ī’dõks</st>
+      </stg>
+
+      <stress>ī’dõks</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’dõkskimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">ī’dõks#kimdõ</st>
+      </stg>
+
+      <stress>ī’dõks|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’dõkskimdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">ī’dõks#kimdõz</st>
+      </stg>
+
+      <stress>ī’dõks|kimdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’dõksmõz</l>
+
+      <stg>
+        <st Contlex="NUM_Ī’DÕKSMÕZ">ī’dõksmõz</st>
+      </stg>
+
+      <stress>ī’dõksmõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>ī’dõkssadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">ī’dõks#sadā</st>
+      </stg>
+
+      <stress>ī’dõks||sadā</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’dõkssadāz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">ī’dõks#sadāz</st>
+      </stg>
+
+      <stress>ī’dõks|sadāz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>ī’dõkssa’ddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">ī’dõks#sa’ddõ</st>
+      </stg>
+
+      <stress>ī’dõks||sa’ddõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>ī’dõkstuoistõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">ī’dõks#tuoistõn</st>
+      </stg>
+
+      <stress>ī’dõks||tuoistõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’dõkstuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">ī’dõks#tuoistõnz</st>
+      </stg>
+
+      <stress>ī’dõks|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’dtuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">ī’d#tuoistõnz</st>
+      </stg>
+
+      <stress>ī’d|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ikš</l>
+
+      <stg>
+        <st Contlex="NUM_ĪKŠ">ikš</st>
+      </stg>
+
+      <stress>ikš 1</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ikštuoistõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">ikš#tuoistõn</st>
+      </stg>
+
+      <stress>ikš|tuoistõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ikštuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">ikš#tuoistõnz</st>
+      </stg>
+
+      <stress>ikš|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kakš</l>
+
+      <stg>
+        <st Contlex="NUM_KAKŠ">kakš</st>
+      </stg>
+
+      <stress>kakš</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kakškimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">kakš#kimdõ</st>
+      </stg>
+
+      <stress>kakš|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>kakšsadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">kakš#sadā</st>
+      </stg>
+
+      <stress>kakš||sadā</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>kakšsa’ddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">kakš#sa’ddõ</st>
+      </stg>
+
+      <stress>kakš||sa’ddõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kakštuoistõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">kakš#tuoistõn</st>
+      </stg>
+
+      <stress>kakš|tuoistõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kim</l>
+
+      <stg>
+        <st Contlex="NUM_KIM">kim</st>
+      </stg>
+
+      <stress>kim</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kimgõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">kimgõn</st>
+      </stg>
+
+      <stress>kimgõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kimmõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kimmõz</st>
+      </stg>
+
+      <stress>kimmõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>kimmõzja’g</l>
+
+      <stg>
+        <st Contlex="NUM_SU’G">kimmõz#ja’g</st>
+      </stg>
+
+      <stress>kimmõz||ja’g</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>kimmõzjagū</l>
+
+      <stg>
+        <st Contlex="NUM_RUZŪ">kimmõz#jagū</st>
+      </stg>
+
+      <stress>kimmõz||jagū</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dkimdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kǭ’d#kimdõz</st>
+      </stg>
+
+      <stress>kǭ’d|kimdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dõks</l>
+
+      <stg>
+        <st Contlex="NUM_Ä’BȚÕKS">kǭ’dõks</st>
+      </stg>
+
+      <stress>kǭ’dõks</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dõkskimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">kǭ’dõks#kimdõ</st>
+      </stg>
+
+      <stress>kǭ’dõks|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dõkskimdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kǭ’dõks#kimdõz</st>
+      </stg>
+
+      <stress>kǭ’dõks|kimdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dõksmõz</l>
+
+      <stg>
+        <st Contlex="NUM_Ī’DÕKSMÕZ">kǭ’dõksmõz</st>
+      </stg>
+
+      <stress>kǭ’dõksmõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>kǭ’dõkssadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">kǭ’dõks#sadā</st>
+      </stg>
+
+      <stress>kǭ’dõks||sadā</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dõkssadāz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kǭ’dõks#sadāz</st>
+      </stg>
+
+      <stress>kǭ’dõks|sadāz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dõkssa’ddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">kǭ’dõks#sa’ddõ</st>
+      </stg>
+
+      <stress>kǭ’dõks|sa’ddõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dõkstuoistõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">kǭ’dõks#tuoistõn</st>
+      </stg>
+
+      <stress>kǭ’dõks|tuoistõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dõkstuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">kǭ’dõks#tuoistõnz</st>
+      </stg>
+
+      <stress>kǭ’dõks|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dsadāz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kǭ’d#sadāz</st>
+      </stg>
+
+      <stress>kǭ’d|sadāz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kǭ’dtuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">kǭ’d#tuoistõnz</st>
+      </stg>
+
+      <stress>kǭ’d|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kūdkimdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kūd#kimdõz</st>
+      </stg>
+
+      <stress>kūd|kimdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kūdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kūdõz</st>
+      </stg>
+
+      <stress>kūdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kūdsadāz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kūd#sadāz</st>
+      </stg>
+
+      <stress>kūd|sadāz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kūdtuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">kūd#tuoistõnz</st>
+      </stg>
+
+      <stress>kūd|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuolm</l>
+
+      <stg>
+        <st Contlex="NUM_IRM">kuolm</st>
+      </stg>
+
+      <stress>kuolm</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuolmi</l>
+
+      <stg>
+        <st Contlex="NUM_TŪĻI">kuolmi</st>
+      </stg>
+
+      <stress>kuolmi</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuolmkimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">kuolm#kimdõ</st>
+      </stg>
+
+      <stress>kuolm|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuolmkimdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kuolm#kimdõz</st>
+      </stg>
+
+      <stress>kuolm|kimdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuolmõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kuolmõz</st>
+      </stg>
+
+      <stress>kuolmõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>kuolmsadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">kuolm#sadā</st>
+      </stg>
+
+      <stress>kuolm||sadā</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuolmsadāz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">kuolm#sadāz</st>
+      </stg>
+
+      <stress>kuolm|sadāz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>kuolmsa’ddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">kuolm#sa’ddõ</st>
+      </stg>
+
+      <stress>kuolm||sa’ddõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuolmtuoistõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">kuolm#tuoistõn</st>
+      </stg>
+
+      <stress>kuolm|tuoistõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuolmtuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">kuolm#tuoistõnz</st>
+      </stg>
+
+      <stress>kuolm|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kūž</l>
+
+      <stg>
+        <st Contlex="NUM_ŪŽ">kūž</st>
+      </stg>
+
+      <stress>kūž</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kūžkimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">kūž#kimdõ</st>
+      </stg>
+
+      <stress>kūž|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>kūžsadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">kūž#sadā</st>
+      </stg>
+
+      <stress>kūž||sadā</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kūžsa’ddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">kūž#sa’ddõ</st>
+      </stg>
+
+      <stress>kūž|sa’ddõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kūžtuoistõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">kūž#tuoistõn</st>
+      </stg>
+
+      <stress>kūž|tuoistõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>miljard</l>
+
+      <stg>
+        <st Contlex="NUM_ĀIGAST">miljard</st>
+      </stg>
+
+      <stress>miljard</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>miljon</l>
+
+      <stg>
+        <st Contlex="NUM_ĀIGAST">miljon</st>
+      </stg>
+
+      <stress>miljon</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mitskimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">mits#kimdõ</st>
+      </stg>
+
+      <stress>mits|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nēļa</l>
+
+      <stg>
+        <st Contlex="NUM_KĒRA">nēļa</st>
+      </stg>
+
+      <stress>nēļa</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nēļakimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">nēļa#kimdõ</st>
+      </stg>
+
+      <stress>nēļa|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nēļakimdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">nēļa#kimdõz</st>
+      </stg>
+
+      <stress>nēļa|kimdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nēļasadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">nēļa#sadā</st>
+      </stg>
+
+      <stress>nēļa|sadā</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nēļasadāz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">nēļa#sadāz</st>
+      </stg>
+
+      <stress>nēļa|sadāz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nēļasa’ddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">nēļa#sa’ddõ</st>
+      </stg>
+
+      <stress>nēļa|sa’ddõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nēļatuoistõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">nēļa#tuoistõn</st>
+      </stg>
+
+      <stress>nēļa|tuoistõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nēļatuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">nēļa#tuoistõnz</st>
+      </stg>
+
+      <stress>nēļa|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>neļļõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">neļļõz</st>
+      </stg>
+
+      <stress>neļļõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>neļļõzja’g</l>
+
+      <stg>
+        <st Contlex="NUM_VA’G">neļļõz#ja’g</st>
+      </stg>
+
+      <stress>neļļõz|ja’g</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>neļļõz#jagū</l>
+
+      <stg>
+        <st Contlex="NUM_RUZŪ">neļļõz#jagū</st>
+      </stg>
+
+      <stress>neļļõz|jagū</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pǭrkimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">pǭr#kimdõ</st>
+      </stg>
+
+      <stress>pǭr|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pǭrkimgõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">pǭr#kimgõn</st>
+      </stg>
+
+      <stress>pǭr|kimgõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pūol 2</l>
+
+      <stg>
+        <st Contlex="NUM_PŪOL">pūol</st>
+      </stg>
+
+      <stress>pūol 2</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pūoltūoizta</l>
+
+      <stg>
+        <st Contlex="NUM_NAI">pūol#tūoizta</st>
+      </stg>
+
+      <stress>pūol|tūoizta</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pūoļ 2</l>
+
+      <stg>
+        <st Contlex="NUM_TŪĻ">pūoļ</st>
+      </stg>
+
+      <stress>pūoļ 2</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>sadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">sadā</st>
+      </stg>
+
+      <stress>sadā</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>sadāz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">sadāz</st>
+      </stg>
+
+      <stress>sadāz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seis</l>
+
+      <stg>
+        <st Contlex="NUM_FAKT">seis</st>
+      </stg>
+
+      <stress>seis</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seiskimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">seis#kimdõ</st>
+      </stg>
+
+      <stress>seis|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seiskimdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">seis#kimdõz</st>
+      </stg>
+
+      <stress>seis|kimdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seismi</l>
+
+      <stg>
+        <st Contlex="NUM_TŪĻI">seismi</st>
+      </stg>
+
+      <stress>seismi</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seismõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">seismõz</st>
+      </stg>
+
+      <stress>seismõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seismõztuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">seismõz#tuoistõnz</st>
+      </stg>
+
+      <stress>seismõz|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seissadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">seis#sadā</st>
+      </stg>
+
+      <stress>seis|sadā</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seis$$sadāz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">seis$$sadāz</st>
+      </stg>
+
+      <stress>seis$$sadāz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seis$$sa’ddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">seis$$sa’ddõ</st>
+      </stg>
+
+      <stress>seis$$sa’ddõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seistuoistõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">seis#tuoistõn</st>
+      </stg>
+
+      <stress>seis|tuoistõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seistuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">seis#tuoistõnz</st>
+      </stg>
+
+      <stress>seis|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>setkimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">set#kimdõ</st>
+      </stg>
+
+      <stress>set|kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>setmõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">setmõz</st>
+      </stg>
+
+      <stress>setmõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>setsa’ddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">set#sa’ddõ</st>
+      </stg>
+
+      <stress>set|sa’ddõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tuoi</l>
+
+      <stg>
+        <st Contlex="NUM_NAI">tuoi</st>
+      </stg>
+
+      <stress>tuoi</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tū’ontõ</l>
+
+      <stg>
+        <st Contlex="NUM_NǬ’GÕ">tū’ontõ</st>
+      </stg>
+
+      <stress>tū’ontõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tū’ontõz</l>
+
+      <stg>
+        <st Contlex="NUM_Ī’DÕKSMÕZ">tū’ontõz</st>
+      </stg>
+
+      <stress>tū’ontõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vīdkimdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">vīd#kimdõz</st>
+      </stg>
+
+      <stress>vīd|kimdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vīdõz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">vīdõz</st>
+      </stg>
+
+      <stress>vīdõz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vīdsadāz</l>
+
+      <stg>
+        <st Contlex="NUM_VĪDÕZ">vīd#sadāz</st>
+      </stg>
+
+      <stress>vīd|sadāz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>vīdtuoistõnz</l>
+
+      <stg>
+        <st Contlex="NUM_TUOISTÕNZ">vīd#tuoistõnz</st>
+      </stg>
+
+      <stress>vīd|tuoistõnz</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vīž</l>
+
+      <stg>
+        <st Contlex="NUM_ŪŽ">vīž</st>
+      </stg>
+
+      <stress>vīž</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vīž$$kimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">vīž$$kimdõ</st>
+      </stg>
+
+      <stress>vīž$$kimdõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vīž$$sadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">vīž$$sadā</st>
+      </stg>
+
+      <stress>vīž$$sadā</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vīž$$sa’ddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">vīž$$sa’ddõ</st>
+      </stg>
+
+      <stress>vīž$$sa’ddõ</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>vīžtuoistõn</l>
+
+      <stg>
+        <st Contlex="NUM_APPÕN">vīž#tuoistõn</st>
+      </stg>
+
+      <stress>vīž|tuoistõn</stress>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="NUM">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="NUM">XX</t>
+      </tg>
+    </mg>
+  </e>
 </r>

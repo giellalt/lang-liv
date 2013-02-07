@@ -1,25 +1,1320 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>minã</l>
-         <stg>
-            <st Contlex="PronTag">minã</st>
-         </stg>
-      </lg>
-      <pos>PRON</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>I</t>
-         </tg>
-         <tg lang="fin">
-            <t>minä</t>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>amād</l>
+
+      <stg>
+        <st Contlex="PRON_TUBĀ-PL">amā</st>
+      </stg>
+
+      <stress>amād</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ätsmingi</l>
+
+      <stg>
+        <st Contlex="PRON_TŪĻI">äts#mingi</st>
+      </stg>
+
+      <stress>äts|mingi 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>eņtš 1</l>
+
+      <stg>
+        <st Contlex="PRON_">eņtš</st>
+      </stg>
+
+      <stress>eņtš 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’dt|a’mmõ</l>
+
+      <stg>
+        <st Contlex="PRON_TUBĀ">ī’dt|a’mmõ</st>
+      </stg>
+
+      <stress>ī’dt|a’mmõ</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’d|tuoiz</l>
+
+      <stg>
+        <st Contlex="PRON_NAI">ī’d|tuoiz</st>
+      </stg>
+
+      <stress>ī’d|tuoiz</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ikš 2</l>
+
+      <stg>
+        <st Contlex="PRON_ĪKŠ">ikš</st>
+      </stg>
+
+      <stress>ikš 2</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’ž 1</l>
+
+      <stg>
+        <st Contlex="PRON_Ī’Ž">ī’ž</st>
+      </stg>
+
+      <stress>ī’ž 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ī’žki</l>
+
+      <stg>
+        <st Contlex="PRON_SĒMI">ī’žki</st>
+      </stg>
+
+      <stress>ī’žki</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>jegā</l>
+
+      <stg>
+        <st Contlex="PRON_JEGĀ">jegā</st>
+      </stg>
+
+      <stress>jegā</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>jegā|ikš</l>
+
+      <stg>
+        <st Contlex="PRON_ĪKŠ">jegā|ikš</st>
+      </stg>
+
+      <stress>jegā|ikš</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kis</l>
+
+      <stg>
+        <st Contlex="PRON_KIS">kis</st>
+      </stg>
+
+      <stress>kis</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kummi</l>
+
+      <stg>
+        <st Contlex="PRON_TŪĻI">kummi</st>
+      </stg>
+
+      <stress>kummi</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kummit</l>
+
+      <stg>
+        <st Contlex="PRON_ĀIGAST">kummit</st>
+      </stg>
+
+      <stress>kummit</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ma</l>
+
+      <stg>
+        <st Contlex="PRON_MINĀ">ma</st>
+      </stg>
+
+      <stress>ma</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mēg</l>
+
+      <stg>
+        <st Contlex="PRON_MĒG">mēg</st>
+      </stg>
+
+      <stress>mēg</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>midāgõd</l>
+
+      <stg>
+        <st Contlex="PRON_MIDĀGÕD">midāgõd</st>
+      </stg>
+
+      <stress>midāgõd</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>midēd</l>
+
+      <stg>
+        <st Contlex="PRON_">midēd</st>
+      </stg>
+
+      <stress>midēd</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel>&gt; midēgõd</semRel>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>midēgõd</l>
+
+      <stg>
+        <st Contlex="PRON_MIDĀGÕD">midēgõd</st>
+      </stg>
+
+      <stress>midēgõd</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>minā</l>
+
+      <stg>
+        <st Contlex="PRON_MINĀ">minā</st>
+      </stg>
+
+      <stress>minā</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mingi</l>
+
+      <stg>
+        <st Contlex="PRON_TŪĻI">mingi</st>
+      </stg>
+
+      <stress>mingi 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mingi</l>
+
+      <stg>
+        <st Contlex="PRON_TŪĻI">mingi</st>
+      </stg>
+
+      <stress>mingi 2</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mingi</l>
+
+      <stg>
+        <st Contlex="PRON_TŪĻI">mingi</st>
+      </stg>
+
+      <stress>mingi 3</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mis</l>
+
+      <stg>
+        <st Contlex="PRON_MIS">mis</st>
+      </stg>
+
+      <stress>mis</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mitikš</l>
+
+      <stg>
+        <st Contlex="PRON_ĪKŠ">mit#ikš</st>
+      </stg>
+
+      <stress>mit|ikš</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>mitmõd</l>
+
+      <stg>
+        <st Contlex="PRON_MITS-PL">mitmõd</st>
+      </stg>
+
+      <stress>mitmõd</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mits</l>
+
+      <stg>
+        <st Contlex="PRON_MITS">mits</st>
+      </stg>
+
+      <stress>mits 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mitsmõz</l>
+
+      <stg>
+        <st Contlex="PRON_VĪDÕZ">mitsmõz</st>
+      </stg>
+
+      <stress>mitsmõz</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mitsõks</l>
+
+      <stg>
+        <st Contlex="PRON_MITS">mitsõks</st>
+      </stg>
+
+      <stress>mitsõks</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mȯ’lmõd</l>
+
+      <stg>
+        <st Contlex="PRON_AZŪM-PL">mȯ’lmõd</st>
+      </stg>
+
+      <stress>mȯ’lmõd</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mū</l>
+
+      <stg>
+        <st Contlex="PRON_MŪ">mū</st>
+      </stg>
+
+      <stress>mū 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mūnda</l>
+
+      <stg>
+        <st Contlex="PRON_ĀITA">mūnda</st>
+      </stg>
+
+      <stress>mūnda 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mūnda</l>
+
+      <stg>
+        <st Contlex="PRON_ĀITA">mūnda</st>
+      </stg>
+
+      <stress>mūnda 2</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>munt</l>
+
+      <stg>
+        <st Contlex="PRON_">munt</st>
+      </stg>
+
+      <stress>munt</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nämād</l>
+
+      <stg>
+        <st Contlex="PRON_NÄMĀD">nä</st>
+      </stg>
+
+      <stress>nämād</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ne</l>
+
+      <stg>
+        <st Contlex="PRON_NÄMĀD">ne</st>
+      </stg>
+
+      <stress>ne 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>sa</l>
+
+      <stg>
+        <st Contlex="PRON_SINĀ">sa</st>
+      </stg>
+
+      <stress>sa</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>se</l>
+
+      <stg>
+        <st Contlex="PRON_SE">se</st>
+      </stg>
+
+      <stress>se</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>seī’ž</l>
+
+      <stg>
+        <st Contlex="PRON_Ī’Ž">se#ī’ž</st>
+      </stg>
+
+      <stress>se$$ī’ž</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seļļi</l>
+
+      <stg>
+        <st Contlex="PRON_TŪĻI">seļļi</st>
+      </stg>
+
+      <stress>seļļi</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l>seļļiī’ž</l>
+
+      <stg>
+        <st Contlex="PRON_TŪĻI">seļļi#ī’ž</st>
+      </stg>
+
+      <stress>seļļi||ī’ž</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>seļļi-tūoļi</l>
+
+      <stg>
+        <st Contlex="PRON_TŪĻI">seļļi-tūoļi</st>
+      </stg>
+
+      <stress>seļļi-tūoļi</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>set</l>
+
+      <stg>
+        <st Contlex="PRON_MITS">set</st>
+      </stg>
+
+      <stress>set 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>setmiņ</l>
+
+      <stg>
+        <st Contlex="PRON_">setmiņ</st>
+      </stg>
+
+      <stress>setmiņ 1</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>sinā</l>
+
+      <stg>
+        <st Contlex="PRON_SINĀ">sinā</st>
+      </stg>
+
+      <stress>sinā</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ta</l>
+
+      <stg>
+        <st Contlex="PRON_TÄMĀ">ta</st>
+      </stg>
+
+      <stress>ta</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tämā</l>
+
+      <stg>
+        <st Contlex="PRON_TÄMĀ">tämā</st>
+      </stg>
+
+      <stress>tämā</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tēg</l>
+
+      <stg>
+        <st Contlex="PRON_TĒG">tēg</st>
+      </stg>
+
+      <stress>tēg</stress>
+    </lg>
+
+    <pos>PRON</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PRON">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="PRON">XX</t>
+      </tg>
+    </mg>
+  </e>
 </r>
