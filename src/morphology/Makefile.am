@@ -24,8 +24,8 @@ GT_LEXC_SRCS=\
 			 stems/acro.lexc \
 			 stems/punct.lexc \
 			 affixes/adjectives.lexc \
+			 affixes/adpositions.lexc \
 			 affixes/nouns.lexc \
-			 affixes/postpositions.lexc \
 			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
 			 affixes/quantifiers.lexc \
@@ -34,12 +34,13 @@ GT_LEXC_SRCS=\
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
 			 stems/adjectives.lexc \
+			 stems/adpositions.lexc \
 			 stems/adverbs.lexc \
 			 stems/conjunctions.lexc \
 			 stems/interjections.lexc \
 			 stems/nouns.lexc \
+			 stems/particles.lexc \
 			 stems/pronouns.lexc \
-			 stems/postpositions.lexc \
 			 stems/propernouns.lexc \
 			 stems/quantifiers.lexc \
 			 stems/verbs.lexc
@@ -47,12 +48,13 @@ GENERATED_LEXC_SRCS=\
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 			 stems/adjectives.xml \
+			 stems/adpositions.xml \
 			 stems/adverbs.xml \
 			 stems/conjunctions.xml \
 			 stems/interjections.xml \
 			 stems/nouns.xml \
+			 stems/particles.xml \
 			 stems/pronouns.xml \
-			 stems/postpositions.xml \
 			 stems/propernouns.xml \
 			 stems/quantifiers.xml \
 			 stems/verbs.xml

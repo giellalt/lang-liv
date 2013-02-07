@@ -1,25 +1,678 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>ja</l>
-         <stg>
-            <st Contlex="CcTag">ja</st>
-         </stg>
-      </lg>
-      <pos>CC</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>and</t>
-         </tg>
-         <tg lang="fin">
-            <t>ja</t>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>agā</l>
+
+      <stg>
+        <st Contlex="CONJ_">agā</st>
+      </stg>
+
+      <stress>agā 1</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>agā</l>
+
+      <stg>
+        <st Contlex="CONJ_">agā</st>
+      </stg>
+
+      <stress>agā 2</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>agā</l>
+
+      <stg>
+        <st Contlex="CONJ_">agā</st>
+      </stg>
+
+      <stress>agā 3</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>a’ž</l>
+
+      <stg>
+        <st Contlex="CONJ_">a’ž</st>
+      </stg>
+
+      <stress>a’ž</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ä’b ..., ä’b</l>
+
+      <stg>
+        <st Contlex="CONJ_">ä’b ..., ä’b</st>
+      </stg>
+
+      <stress>ä’b ..., ä’b</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>bet</l>
+
+      <stg>
+        <st Contlex="CONJ_">bet</st>
+      </stg>
+
+      <stress>bet</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ja</l>
+
+      <stg>
+        <st Contlex="CONJ_">ja</st>
+      </stg>
+
+      <stress>ja</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ki’l 5</l>
+
+      <stg>
+        <st Contlex="CONJ_">ki’l</st>
+      </stg>
+
+      <stress>ki’l 5</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>koks</l>
+
+      <stg>
+        <st Contlex="CONJ_">koks</st>
+      </stg>
+
+      <stress>koks</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kokska</l>
+
+      <stg>
+        <st Contlex="CONJ_">koks#ka</st>
+      </stg>
+
+      <stress>koks|ka</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ku</l>
+
+      <stg>
+        <st Contlex="CONJ_">ku</st>
+      </stg>
+
+      <stress>ku 2</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ku</l>
+
+      <stg>
+        <st Contlex="CONJ_">ku</st>
+      </stg>
+
+      <stress>ku 3</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ku</l>
+
+      <stg>
+        <st Contlex="CONJ_">ku</st>
+      </stg>
+
+      <stress>ku 4</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kunā</l>
+
+      <stg>
+        <st Contlex="CONJ_">kunā</st>
+      </stg>
+
+      <stress>kunā 3</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kuņtš</l>
+
+      <stg>
+        <st Contlex="CONJ_">kuņtš</st>
+      </stg>
+
+      <stress>kuņtš</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kus</l>
+
+      <stg>
+        <st Contlex="CONJ_">kus</st>
+      </stg>
+
+      <stress>kus 2</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>la’z</l>
+
+      <stg>
+        <st Contlex="CONJ_">la’z</st>
+      </stg>
+
+      <stress>la’z</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>misjūs</l>
+
+      <stg>
+        <st Contlex="CONJ_">mis#jūs</st>
+      </stg>
+
+      <stress>mis|jūs</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mispierāst</l>
+
+      <stg>
+        <st Contlex="CONJ_">mis#pierāst</st>
+      </stg>
+
+      <stress>mis|pierāst</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nemē</l>
+
+      <stg>
+        <st Contlex="CONJ_">nemē</st>
+      </stg>
+
+      <stress>nemē</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>set</l>
+
+      <stg>
+        <st Contlex="CONJ_">set</st>
+      </stg>
+
+      <stress>set 3</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>sīest</l>
+
+      <stg>
+        <st Contlex="CONJ_">sīest</st>
+      </stg>
+
+      <stress>sīest</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>un</l>
+
+      <stg>
+        <st Contlex="CONJ_">un</st>
+      </stg>
+
+      <stress>un</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>või</l>
+
+      <stg>
+        <st Contlex="CONJ_">või</st>
+      </stg>
+
+      <stress>või</stress>
+    </lg>
+
+    <pos>CONJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="CONJ">XX</t>
+      </tg>
+    </mg>
+  </e>
 </r>

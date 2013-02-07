@@ -189,11 +189,12 @@ LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
    adjectives  ;
+   adpositions    ;
    adverbs  ;
    conjunctions	;
    interjections  ;
    nouns   ;
-   postpositions    ;
+   particles   ;
    pronouns    ;
    propernouns    ;
    quantifiers    ;
@@ -206,19 +207,35 @@ LEXICON Root
 
 !! Words that are not inflected
 
-LEXICON AdvTag
+LEXICON ADV_
 +Adv: #	;
 
+LEXICON ADV_KĒRATÕKS
++Adv: # ;
+
+LEXICON ADV_KǬRAND
++Adv: # ;
+
+LEXICON ADV_IRM
++Adv: # ;
+
+LEXICON CONJ_
++WORK: # ;
+
 ! conjunctor
-LEXICON CcTag
+LEXICON CC_
 +CC: # ;
 
 ! subjunctor
-LEXICON CsTag
+LEXICON CS_
 +CS: # ;
 
-LEXICON InterjTag
+LEXICON INTERJ_
 +Interj: #	;
+
+LEXICON PCLE-MOD_
++Pcle: #      ;
+
 
 LEXICON K
 # ;
