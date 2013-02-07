@@ -1,25 +1,1934 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>vȯijē</l>
-         <stg>
-            <st Contlex="InterjTag">vȯijē</st>
-         </stg>
-      </lg>
-      <pos>INTERJ</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="eng">
-            <t>oh</t>
-         </tg>
-         <tg lang="fin">
-            <t>voi</t>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>ahā</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ahā</st>
+      </stg>
+
+      <stress>ahā</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ahah</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ahah</st>
+      </stg>
+
+      <stress>ahah</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ai</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ai</st>
+      </stg>
+
+      <stress>ai</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>aițumāl</l>
+
+      <stg>
+        <st Contlex="INTERJ_">aițumāl</st>
+      </stg>
+
+      <stress>aițumāl</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">XX</t>
+      </tg>
+
+       
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ak 2</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ak</st>
+      </stg>
+
+      <stress>ak 2</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>āmen</l>
+
+      <stg>
+        <st Contlex="INTERJ_">āmen</st>
+      </stg>
+
+      <stress>āmen</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ațā-ațā</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ațā-ațā</st>
+      </stg>
+
+      <stress>ațā-ațā</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>auh</l>
+
+      <stg>
+        <st Contlex="INTERJ_">auh</st>
+      </stg>
+
+      <stress>auh</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ä</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ä</st>
+      </stg>
+
+      <stress>ä</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>äp</l>
+
+      <stg>
+        <st Contlex="INTERJ_">äp</st>
+      </stg>
+
+      <stress>äp</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>bäh-bäh</l>
+
+      <stg>
+        <st Contlex="INTERJ_">bäh-bäh</st>
+      </stg>
+
+      <stress>bäh-bäh</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>bokt</l>
+
+      <stg>
+        <st Contlex="INTERJ_">bokt</st>
+      </stg>
+
+      <stress>bokt</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>boukt</l>
+
+      <stg>
+        <st Contlex="INTERJ_">boukt</st>
+      </stg>
+
+      <stress>boukt</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>bȱ-bȱu</l>
+
+      <stg>
+        <st Contlex="INTERJ_">bȱ-bȱu</st>
+      </stg>
+
+      <stress>bȱ-bȱu</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>dziņ-dziņ-dziņ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">dziņ-dziņ-dziņ</st>
+      </stg>
+
+      <stress>dziņ-dziņ-dziņ</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>džin-džin</l>
+
+      <stg>
+        <st Contlex="INTERJ_">džin-džin</st>
+      </stg>
+
+      <stress>džin-džin</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>hilp-hilp</l>
+
+      <stg>
+        <st Contlex="INTERJ_">hilp-hilp</st>
+      </stg>
+
+      <stress>hilp-hilp</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>hop</l>
+
+      <stg>
+        <st Contlex="INTERJ_">hop</st>
+      </stg>
+
+      <stress>hop</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kīep</l>
+
+      <stg>
+        <st Contlex="INTERJ_">kīep</st>
+      </stg>
+
+      <stress>kīep</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kikrikik</l>
+
+      <stg>
+        <st Contlex="INTERJ_">kikrikik</st>
+      </stg>
+
+      <stress>kikrikik</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kniukt</l>
+
+      <stg>
+        <st Contlex="INTERJ_">kniukt</st>
+      </stg>
+
+      <stress>kniukt</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kolkst</l>
+
+      <stg>
+        <st Contlex="INTERJ_">kolkst</st>
+      </stg>
+
+      <stress>kolkst</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>krouv-krouv</l>
+
+      <stg>
+        <st Contlex="INTERJ_">krouv-krouv</st>
+      </stg>
+
+      <stress>krouv-krouv</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kvär-kvär</l>
+
+      <stg>
+        <st Contlex="INTERJ_">kvär-kvär</st>
+      </stg>
+
+      <stress>kvär-kvär</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>lini</l>
+
+      <stg>
+        <st Contlex="INTERJ_">li#ni</st>
+      </stg>
+
+      <stress>li|ni</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>marš 2</l>
+
+      <stg>
+        <st Contlex="INTERJ_">marš</st>
+      </stg>
+
+      <stress>marš 2</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mǟ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">mǟ</st>
+      </stg>
+
+      <stress>mǟ</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>miau</l>
+
+      <stg>
+        <st Contlex="INTERJ_">miau</st>
+      </stg>
+
+      <stress>miau</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>misǟ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">misǟ</st>
+      </stg>
+
+      <stress>misǟ</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>mū 2</l>
+
+      <stg>
+        <st Contlex="INTERJ_">mū</st>
+      </stg>
+
+      <stress>mū 2</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nä</l>
+
+      <stg>
+        <st Contlex="INTERJ_">nä</st>
+      </stg>
+
+      <stress>nä</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nǟ’</l>
+
+      <stg>
+        <st Contlex="INTERJ_">nǟ’</st>
+      </stg>
+
+      <stress>nǟ’</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nonǟ!</l>
+
+      <stg>
+        <st Contlex="INTERJ_">nonǟ!</st>
+      </stg>
+
+      <stress>nonǟ!</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nō-o</l>
+
+      <stg>
+        <st Contlex="INTERJ_">nō-o</st>
+      </stg>
+
+      <stress>nō-o</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>nȭ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">nȭ</st>
+      </stg>
+
+      <stress>nȭ</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ņäm-ņäm</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ņäm-ņäm</st>
+      </stg>
+
+      <stress>ņäm-ņäm</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ņurrā</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ņurrā</st>
+      </stg>
+
+      <stress>ņurrā</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ō</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ō</st>
+      </stg>
+
+      <stress>ō</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>of-of</l>
+
+      <stg>
+        <st Contlex="INTERJ_">of-of</st>
+      </stg>
+
+      <stress>of-of</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>oho</l>
+
+      <stg>
+        <st Contlex="INTERJ_">oho</st>
+      </stg>
+
+      <stress>oho</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>oi</l>
+
+      <stg>
+        <st Contlex="INTERJ_">oi</st>
+      </stg>
+
+      <stress>oi</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ok</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ok</st>
+      </stg>
+
+      <stress>ok</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>oplā</l>
+
+      <stg>
+        <st Contlex="INTERJ_">oplā</st>
+      </stg>
+
+      <stress>oplā</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pǟk</l>
+
+      <stg>
+        <st Contlex="INTERJ_">pǟk</st>
+      </stg>
+
+      <stress>pǟk</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>pätš</l>
+
+      <stg>
+        <st Contlex="INTERJ_">pätš</st>
+      </stg>
+
+      <stress>pätš</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>piuks</l>
+
+      <stg>
+        <st Contlex="INTERJ_">piuks</st>
+      </stg>
+
+      <stress>piuks</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>potst</l>
+
+      <stg>
+        <st Contlex="INTERJ_">potst</st>
+      </stg>
+
+      <stress>potst</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>prōzit</l>
+
+      <stg>
+        <st Contlex="INTERJ_">prōzit</st>
+      </stg>
+
+      <stress>prōzit</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ptrū</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ptrū</st>
+      </stg>
+
+      <stress>ptrū</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ptruțē</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ptruțē</st>
+      </stg>
+
+      <stress>ptruțē</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>roh-roh</l>
+
+      <stg>
+        <st Contlex="INTERJ_">roh-roh</st>
+      </stg>
+
+      <stress>roh-roh</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>skõts</l>
+
+      <stg>
+        <st Contlex="INTERJ_">skõts</st>
+      </stg>
+
+      <stress>skõts</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>šläukt</l>
+
+      <stg>
+        <st Contlex="INTERJ_">šläukt</st>
+      </stg>
+
+      <stress>šläukt</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>šlīnga-šlǟnga</l>
+
+      <stg>
+        <st Contlex="INTERJ_">šlīnga-šlǟnga</st>
+      </stg>
+
+      <stress>šlīnga-šlǟnga</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tēriņtš</l>
+
+      <stg>
+        <st Contlex="INTERJ_">tēriņtš</st>
+      </stg>
+
+      <stress>tēriņtš</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tiš</l>
+
+      <stg>
+        <st Contlex="INTERJ_">tiš</st>
+      </stg>
+
+      <stress>tiš</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tō</l>
+
+      <stg>
+        <st Contlex="INTERJ_">tō</st>
+      </stg>
+
+      <stress>tō</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tšärrks</l>
+
+      <stg>
+        <st Contlex="INTERJ_">tšärrks</st>
+      </stg>
+
+      <stress>tšärrks</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tšīk-tšīk</l>
+
+      <stg>
+        <st Contlex="INTERJ_">tšīk-tšīk</st>
+      </stg>
+
+      <stress>tšīk-tšīk</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>tšuļļaka</l>
+
+      <stg>
+        <st Contlex="INTERJ_">tšuļļaka</st>
+      </stg>
+
+      <stress>tšuļļaka</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>uŗū</l>
+
+      <stg>
+        <st Contlex="INTERJ_">uŗū</st>
+      </stg>
+
+      <stress>uŗū</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vā</l>
+
+      <stg>
+        <st Contlex="INTERJ_">vā</st>
+      </stg>
+
+      <stress>vā</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vāņ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">vāņ</st>
+      </stg>
+
+      <stress>vāņ</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vațõ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">vațõ</st>
+      </stg>
+
+      <stress>vațõ</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vau</l>
+
+      <stg>
+        <st Contlex="INTERJ_">vau</st>
+      </stg>
+
+      <stress>vau</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vikā-väkā</l>
+
+      <stg>
+        <st Contlex="INTERJ_">vikā-väkā</st>
+      </stg>
+
+      <stress>vikā-väkā</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vȯ’d</l>
+
+      <stg>
+        <st Contlex="INTERJ_">vȯ’d</st>
+      </stg>
+
+      <stress>vȯ’d</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">XX</t>
+      </tg>
+
+       
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vȯi 2</l>
+
+      <stg>
+        <st Contlex="INTERJ_">vȯi</st>
+      </stg>
+
+      <stress>vȯi 2</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vȯijē</l>
+
+      <stg>
+        <st Contlex="INTERJ_">vȯijē</st>
+      </stg>
+
+      <stress>vȯijē</stress>
+    </lg>
+
+    <pos>INTERJ</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="INTERJ">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="INTERJ">XX</t>
+      </tg>
+    </mg>
+  </e>
 </r>

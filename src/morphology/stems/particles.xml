@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>ni’m</l>
+
+      <stg>
+        <st Contlex="PCLE-MOD_">ni’m</st>
+      </stg>
+
+      <stress>ni’m 2</stress>
+    </lg>
+
+    <pos>PCLE-MOD</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel>~ ni u’m</semRel>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PCLE-MOD">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>vȯšiz</l>
+
+      <stg>
+        <st Contlex="PCLE-MOD_">vȯšiz</st>
+      </stg>
+
+      <stress>vȯšiz</stress>
+    </lg>
+
+    <pos>PCLE-MOD</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PCLE-MOD">XX</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>võse’m</l>
+
+      <stg>
+        <st Contlex="PCLE-MOD_">võse’m</st>
+      </stg>
+
+      <stress>võse’m</stress>
+    </lg>
+
+    <pos>PCLE-MOD</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel>all~ või se u’m</semRel>
+      </m>
+
+      <tg lang="eng">
+        <t pos="PCLE-MOD">XX</t>
+      </tg>
+    </mg>
+  </e>
+</r>
