@@ -2,6 +2,14 @@
 ! ---------------
 !! Livonian nouns inflect in cases.
 
+! PROBLEMS with dictionary lexica
+LEXICON N_¤51
++WORK: # ;
+LEXICON N_¤37
++WORK: # ;
+LEXICON N_¤29
++WORK: # ;
+
 !! !! Stem lexica
 LEXICON N_PŪ !!= @CODE@ contains pū: 12
 +N:	CASES	;
@@ -54,14 +62,23 @@ LEXICON N_PŪOGA !!= @CODE@ pūoga:pūoga 22
 LEXICON N_LǬJA !!= @CODE@ lǭja:lǭja 23
 +N:	CASES	;
 
+LEXICON N_LǬJA-PL !!= @CODE@ lǭja:lǭja 23
++N:     PL-CASES   ;
+
 LEXICON N_PǞVA !!= @CODE@ pǟva:pǟva 24
 +N:	CASES	;
+
+LEXICON N_PǞVA-PL !!= @CODE@ pǟva:pǟva 24
++N:     PL-CASES   ;
 
 LEXICON N_IZĀ !!= @CODE@ izā:izā 25
 +N:	CASES	;
 
 LEXICON N_AŽĀ !!= @CODE@ ažā:ažā 26
 +N:	CASES	;
+
+LEXICON N_AŽĀ-PL !!= @CODE@ ažā:ažā 26
++N:     PL-CASES   ;
 
 LEXICON N_ĀĻDŽA !!= @CODE@ āļdža:āļdža 27
 +N:	CASES	;
@@ -107,6 +124,9 @@ LEXICON N_VĒNA !!= @CODE@ vēna:vēna 37
 
 LEXICON N_RŌDA !!= @CODE@ rōda:rōda 38
 +N:	CASES	;
+
+LEXICON N_RŌDA-PL !!= @CODE@ rōda:rōda 38
++N:     PL-CASES   ;
 
 LEXICON N_PADĀ !!= @CODE@ padā:padā 39
 +N:	NMN_PADĀ	;
@@ -207,6 +227,9 @@ LEXICON N_PI’Ņ-PL !!= @CODE@ pi’ņ:piņ 64
 LEXICON N_KUOȚ !!= @CODE@ : 65
 +N:	CASES	;
 
+LEXICON N_KUOȚ-PL !!= @CODE@ : 65
++N:     PL-CASES   ;
+
 LEXICON N_VAKȚ !!= @CODE@ : 66
 +N:	CASES	;
 
@@ -222,29 +245,34 @@ LEXICON N_KAŠ !!= @CODE@ : 69
 LEXICON N_DUŅTŠ !!= @CODE@ : 70
 +N:	CASES	;
 
-!!= @CODE@ : 71
-LEXICON N_TORĪ
+LEXICON N_TORĪ !!= @CODE@ : 71
 +N:	CASES	;
-!!= @CODE@ va’g:vag 72
-LEXICON N_VA’G
+
+LEXICON N_VA’G !!= @CODE@ va’g:vag 72
 +N:	CASES	;
-!!= @CODE@ kõ’l:kõl 73
-LEXICON N_KÕ’L
+
+LEXICON N_VA’G-PL !!= @CODE@ va’g:vag 72
++N:     PL-CASES   ;
+
+LEXICON N_KÕ’L !!= @CODE@ kõ’l:kõl 73
 +N:	CASES	;
-!!= @CODE@ su’g:sug 74
-LEXICON N_SU’G
+
+LEXICON N_SU’G !!= @CODE@ su’g:sug 74
 +N:	CASES	;
-!!= @CODE@ jo’ug:joug 75
-LEXICON N_JO’UG
+
+LEXICON N_JO’UG !!= @CODE@ jo’ug:joug 75
 +N:	CASES	;
-!!= @CODE@ ni’m:nim 76
-LEXICON N_NI’M
+
+LEXICON N_NI’M !!= @CODE@ ni’m:nim 76
 +N:	CASES	;
-!!= @CODE@ : 77
-LEXICON N_USK
+
+LEXICON N_NI’M-PL !!= @CODE@ ni’m:nim 76
++N:     PL-CASES   ;
+
+LEXICON N_USK !!= @CODE@ usk: 77
 +N:	CASES	;
-!!= @CODE@ : 78
-LEXICON N_VAŠK
+
+LEXICON N_VAŠK !!= @CODE@ : 78
 +N:	CASES	;
 
 LEXICON N_TUP !!= @CODE@ tup:tup 79
@@ -505,26 +533,28 @@ LEXICON N_RŪ’TŠ !!= @CODE@ rū’tš:rūtš 145
 LEXICON N_RŪ’TŠ-PL !!= @CODE@ rū’tš:rūtš 145
 +N:     PL-CASES   ;
 
-!!= @CODE@ tē’ḑ:tēḑ 146
-LEXICON N_TĒ’Ḑ
+LEXICON N_TĒ’Ḑ !!= @CODE@ tē’ḑ:tēḑ 146
 +N:	CASES	;
-!!= @CODE@ lē’ḑ:lēḑ 147
-LEXICON N_LĒ’Ḑ
+
+LEXICON N_LĒ’Ḑ !!= @CODE@ lē’ḑ:lēḑ 147
 +N:	CASES	;
-!!= @CODE@ : 148
-LEXICON N_KĪNTŠ
+
+LEXICON N_LĒ’Ḑ-PL !!= @CODE@ lē’ḑ:lēḑ 147
++N:     PL-CASES   ;
+
+LEXICON N_KĪNTŠ !!= @CODE@ : 148
 +N:	CASES	;
-!!= @CODE@ : 149
-LEXICON N_KǬŅTŠ
+
+LEXICON N_KǬŅTŠ !!= @CODE@ : 149
 +N:	CASES	;
-!!= @CODE@ : 150
-LEXICON N_LĒŅTŠ
+
+LEXICON N_LĒŅTŠ !!= @CODE@ : 150
 +N:	CASES	;
-!!= @CODE@ : 151
-LEXICON N_LĪEM
+
+LEXICON N_LĪEM !!= @CODE@ : 151
 +N:	CASES	;
-!!= @CODE@ a’m:am 152
-LEXICON N_A’M
+
+LEXICON N_A’M !!= @CODE@ a’m:am 152
 +N:	CASES	;
 
 LEXICON N_AZŪM !!= @CODE@ : 153
@@ -539,12 +569,14 @@ LEXICON N_VÕȚĪM !!= @CODE@ : 154
 LEXICON N_VÕȚĪM-PL !!= @CODE@ : 154
 +N:     PL-CASES   ;
 
-!!= @CODE@ : 155
-LEXICON N_KǬŅIM
+LEXICON N_KǬŅIM !!= @CODE@ : 155
 +N:	CASES	;
-!!= @CODE@ : 156
-LEXICON N_ĒTAM
+
+LEXICON N_ĒTAM !!= @CODE@ : 156
 +N:	CASES	;
+
+LEXICON N_ĒTAM-PL !!= @CODE@ : 156
++N:     PL-CASES   ;
 
 LEXICON N_SIDĀM !!= @CODE@ : 157
 +N:	CASES	;
@@ -569,23 +601,23 @@ LEXICON N_TAPTÕD !!= @CODE@ : 161
 
 LEXICON N_TĪ’EDÕD !!= @CODE@ tī’edõd:tīedõd 162
 +N:	CASES	;
-!!= @CODE@ : 163
-LEXICON Num-VĪDÕZ
+
+LEXICON Num-VĪDÕZ !!= @CODE@ : 163
 +N:	CASES	;
-!!= @CODE@ : 164
-LEXICON Num-TUOISTÕNZ
+
+LEXICON N_TUOISTÕNZ !!= @CODE@ : 164
 +N:	CASES	;
-!!= @CODE@ ī’dõksmõz:īdõksmõz 165
-LEXICON N_Ī’DÕKSMÕZ
+
+LEXICON N_Ī’DÕKSMÕZ !!= @CODE@ ī’dõksmõz:īdõksmõz 165
 +N:	CASES	;
-!!= @CODE@ : 166
-LEXICON N_MĪEZ
+
+LEXICON N_MĪEZ !!= @CODE@ : 166
 +N:	CASES	;
-!!= @CODE@ : 167
-LEXICON N_RO’VZ
+
+LEXICON N_RO’VZ !!= @CODE@ : 167
 +N:	CASES	;
-!!= @CODE@ : 168
-LEXICON N_KÄBRĀZ
+
+LEXICON N_KÄBRĀZ !!= @CODE@ : 168
 +N:	CASES	;
 
 LEXICON N_MAIGĀZ !!= @CODE@ : 169
@@ -594,8 +626,11 @@ LEXICON N_MAIGĀZ !!= @CODE@ : 169
 LEXICON N_NÕTKĀZ !!= @CODE@ : 170
 +N:	CASES	;
 
-LEXICON N_RIKĀZ !!= @CODE@ : 171
+LEXICON N_RIKĀZ !!= @CODE@ rikāz: 171
 +N:	CASES	;
+
+LEXICON N_RIKĀZ-PL !!= @CODE@ rikāz: 171
++N:     PL-CASES   ;
 
 LEXICON N_BIKŠĀZ !!= @CODE@ : 172
 +N:	CASES	;
@@ -626,18 +661,21 @@ LEXICON N_RĒNAZ-PL	!!= @CODE@ : 176
 
 LEXICON N_TŌVAZ !!= @CODE@ : 177
 +N:	CASES	;
-!!= @CODE@ : 178
-LEXICON N_PŪORAZ
+
+LEXICON N_PŪORAZ !!= @CODE@ pūoraz: 178
 +N:	CASES	;
 
-LEXICON N_MÕTKÕZ !!= @CODE@ : 179
+LEXICON N_MÕTKÕZ !!= @CODE@ mõtkõz: 179
 +N:	CASES	;
 
-LEXICON N_MÕTKÕZ-PL !!= @CODE@ : 179
+LEXICON N_MÕTKÕZ-PL !!= @CODE@ mõtkõz: 179
 +N:     PL-CASES   ;
 
-LEXICON N_VȬRÕZ !!= @CODE@ : 180
+LEXICON N_VȬRÕZ !!= @CODE@ vȭrõz: 180
 +N:	CASES	;
+
+LEXICON N_VȬRÕZ-PL !!= @CODE@ vȭrõz: 180
++N:     PL-CASES   ;
 
 LEXICON N_ARĀGÕZ !!= @CODE@ : 181
 +N:	CASES	;
@@ -647,9 +685,15 @@ LEXICON N_ARĀGÕZ-PL !!= @CODE@ : 181
 
 LEXICON N_Ä’GGÕZ !!= @CODE@ ä’ggõz:äggõz 182
 +N:	CASES	;
-!!= @CODE@ pū’dõz:pūdõz 183
-LEXICON N_PŪ’DÕZ
+
+LEXICON N_Ä’GGÕZ-PL !!= @CODE@ ä’ggõz:äggõz 182
++N:     PL-CASES   ;
+
+LEXICON N_PŪ’DÕZ !!= @CODE@ pū’dõz:pūdõz 183
 +N:	CASES	;
+
+LEXICON N_PŪ’DÕZ-PL !!= @CODE@ pū’dõz:pūdõz 183
++N:     PL-CASES   ;
 
 LEXICON N_VĪETŠÕZ !!= @CODE@ : 184
 +N:	CASES	;
@@ -657,11 +701,10 @@ LEXICON N_VĪETŠÕZ !!= @CODE@ : 184
 LEXICON N_VĪETŠÕZ-PL !!= @CODE@ : 184
 +N:     PL-CASES   ;
 
-!!= @CODE@ lǭ’tšõz:lǭtšõz 185
-LEXICON N_LǬ’TŠÕZ
+LEXICON N_LǬ’TŠÕZ !!= @CODE@ lǭ’tšõz:lǭtšõz 185
 +N:	CASES	;
-!!= @CODE@ : 186
-LEXICON N_SĒJI
+
+LEXICON N_SĒJI !!= @CODE@ : 186
 +N:	CASES	;
 
 LEXICON N_AKKIJI !!= @CODE@ : 187
@@ -672,14 +715,14 @@ LEXICON N_AKKIJI-PL !!= @CODE@ : 187
 
 LEXICON N_LĒ’JI !!= @CODE@ lē’ji:lēji 188
 +N:	CASES	;
-!!= @CODE@ : 189
-LEXICON N_TUĻĻI
+
+LEXICON N_TUĻĻI !!= @CODE@ : 189
 +N:	CASES	;
-!!= @CODE@ lä’bḑi:läbḑi 190
-LEXICON N_LÄ’BḐI
+
+LEXICON N_LÄ’BḐI !!= @CODE@ lä’bḑi:läbḑi 190
 +N:	CASES	;
-!!= @CODE@ : 191
-LEXICON N_NAI
+
+LEXICON N_NAI !!= @CODE@ : 191
 +N:	CASES	;
 
 LEXICON N_A’IGI !!= @CODE@ a’igi:aigi 192
@@ -688,25 +731,25 @@ LEXICON N_A’IGI !!= @CODE@ a’igi:aigi 192
 LEXICON N_A’IGI-PL	!!= @CODE@ a’igi:aigi 192
 +N:     PL-CASES   ;
 
+LEXICON N_PU’NNI !!= @CODE@ pu’nni:punni 193
++N:	CASES	;
 
+LEXICON N_PU’NNI-PL !!= @CODE@ pu’nni:punni 193
++N:     PL-CASES   ;
 
-!!= @CODE@ pu’nni:punni 193
-LEXICON N_PU’NNI
+LEXICON N_KAȚKI !!= @CODE@ kațki: 194
 +N:	CASES	;
-!!= @CODE@ : 194
-LEXICON N_KAȚKI
+
+LEXICON N_KUKKI !!= @CODE@ kukki: 195
 +N:	CASES	;
-!!= @CODE@ : 195
-LEXICON N_KUKKI
+
+LEXICON N_AIGI !!= @CODE@ aigi:aigi 196
 +N:	CASES	;
-!!= @CODE@ aigi:aigi 196
-LEXICON N_AIGI
+
+LEXICON N_OUKI !!= @CODE@ : 197
 +N:	CASES	;
-!!= @CODE@ : 197
-LEXICON N_OUKI
-+N:	CASES	;
-!!= @CODE@ : 198
-LEXICON N_PAŖĪ
+
+LEXICON N_PAŖĪ !!= @CODE@ : 198
 +N:	CASES	;
 
 LEXICON N_TŪĻI !!= @CODE@ : 199
@@ -723,6 +766,9 @@ LEXICON N_A’BLI-PL !!= @CODE@ a’bli:abli 200
 
 LEXICON N_SĒMI !!= @CODE@ : 201
 +N:	CASES	;
+
+LEXICON N_SĒMI-PL !!= @CODE@ : 201
++N:     PL-CASES   ;
 
 LEXICON N_LĒ’MI !!= @CODE@ lē’mi:lēmi 202
 +N:	CASES	;
@@ -745,23 +791,32 @@ LEXICON N_KATŪKS !!= @CODE@ : 205
 LEXICON N_KATŪKS-PL !!= @CODE@ : 205
 +N:     PL-CASES   ;
 
-LEXICON N_ĀNDÕKS !!= @CODE@ : 206
+LEXICON N_ĀNDÕKS !!= @CODE@ āndõks: 206
 +N:	CASES	;
-!!= @CODE@ : 207
-LEXICON N_KĒRATÕKS
+
+LEXICON N_ĀNDÕKS-PL !!= @CODE@ āndõks: 206
++N:     PL-CASES   ;
+
+LEXICON N_KĒRATÕKS !!= @CODE@ : 207
 +N:	CASES	;
 
 LEXICON N_Ä’BȚÕKS !!= @CODE@ ä’bțõks:äbțõks 208
 +N:	CASES	;
-!!= @CODE@ : 209
-LEXICON N_VARĪKŠ
+
+LEXICON N_Ä’BȚÕKS-PL !!= @CODE@ ä’bțõks:äbțõks 208
++N:     PL-CASES   ;
+
+LEXICON N_VARĪKŠ !!= @CODE@ : 209
 +N:	CASES	;
-!!= @CODE@ : 210
-LEXICON N_UKŠ
+
+LEXICON N_UKŠ !!= @CODE@ : 210
 +N:	CASES	;
-!!= @CODE@ : 211
-LEXICON N_LÄPŠ
+
+LEXICON N_LÄPŠ !!= @CODE@ läpš:laps 211
 +N:	CASES	;
+
+LEXICON N_LÄPŠ-PL !!= @CODE@ läpš:laps 211
++N:     PL-CASES   ;
 
 LEXICON N_RIŠTĪNG-SG !!= @CODE@ : 212
 +N:	CASES	;
@@ -780,6 +835,9 @@ LEXICON N_KĒĻ !!= @CODE@ : 215
 
 LEXICON N_PŪOL !!= @CODE@ : 216
 +N:	CASES	;
+
+LEXICON N_PŪOL-PL !!= @CODE@ : 216
++N:     PL-CASES   ;
 
 LEXICON N_ĪKŠ !!= @CODE@ : 217
 +N:	CASES	;
