@@ -20,42 +20,70 @@
 Multichar_Symbols
 !! Analysis symbols
 !! ----------------
-!! The morphological analyses of wordforms of UNDEFINED language are presented
+!! The morphological analyses of wordforms in the LIVONIAN language are presented
 !! in this system in terms of following symbols.
-!! (It is highly suggested to follow existing standards when adding new tags).
+!! (It is highly suggested to follow existing GIELLATEKNO standards when adding new tags).
 
 !! !!The parts-of-speech are:
- +A !! adjective
- +Adp !! adposition
- +Adv !! adverb
- +CS !! subordinating conjunction
- +CC !! coordinating conjunction
+ +A 	 !! adjective
+ +Adp 	 !! adposition
+ +Adv 	 !! adverb
+ +CS 	 !! subordinating conjunction
+ +CC 	 !! coordinating conjunction
  +Interj !! interjection 
- +N !! noun
- +Num !! numeral
- +Pcle !! particle
- +Pr !! preposition
- +Po !! postposition
- +Pron !! pronoun
- +Qnt !! Quantifier
- +V !! verb
+ +N 	 !! noun
+ +Num 	 !! numeral
+ +Pcle 	 !! particle
+ +Pr 	 !! preposition
+ +Po 	 !! postposition
+ +Pron 	 !! pronoun
+ +Qnt 	 !! quantifier
+ +V 	 !! verb
 
-!! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+!! !!Parts of speech are further split up into:
+!! Nouns
+ +Prop  !! proper
 
-!! The Usage extents are marked using following tags:
- +Use/Sub   
- +Use/-Spell 
+!! !!Pronouns
+ +Dem   !! demonstrative
+ +Indef !! indefinite
+ +Interr !! interrogative
+ +Pers   !! personal
+ +Recipr !! reciprocal
+ +Refl   !! reflexive
+ +Rel    !! relative
 
-!! The nominals are inflected in the following Case and Number
- +Sg +Pl
- +Ess +Nom +Gen +Dat +Par +Acc +Ine +Ill +Ela +Loc +Com +Com/Sh
-+Instr +Ins +Tra +Ade +All +Abl 
+!! !!Nominals are inflected for Number and Case
+!! !!Number
+ +Sg !! singular
+ +Pl !! plural
+!! !!Case
+ +Abe !! abessive
+ +Abl !! ablative case
+ +Ade !! adessive
+ +All !! allative
+ +Dat !! dative case
+ +Ela !! elative
+ +Ess !! essive
+ +Exe !! essive
+ +Gen !! genitive case
+ +Ill !! illative
+ +Ine !! inessive
+ +Ins !! instrumental -KÕKS
+ +Instr !! instructive -IN
+ +Lat !! Lative
+ +Nom !! nominative case
+ +Par !! partitive
+ +Prl !! prolative 
+ +Tra !! translative
+ +Voc !! Vocative
+
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
 +Pos +Comp +Superl
+
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
@@ -79,21 +107,28 @@ Multichar_Symbols
  +Pl3 ! third person plural conjugation
 !! Other verb forms are
  +ConNeg ! connegative, main verb complement to Neg, 
- +Ger ! gerund This is used with Der/Озь and VAbl
+ +Ger ! gerund 
  +Inf    ! infinitive
  +Neg    ! verb of negation эзь, аволь, иля
  +Prc ! participle
 
  +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
 
+!! !!Verbs are syntactically split according to transitivity:
+ +TV !! Transitive verb
+ +IV !! Intransitive verb
+ +VAUX !! Auxilliary verb
+
+!! !!Usage extents are marked using following tags:
+ +Use/Sub   
+ +Use/-Spell 
+
+
 ! Abbreviated words are classified with:
  +ABBR +ACR 
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
-!! The verbs are syntactically split according to transitivity:
- +TV !! Transitive verb
- +IV !! Intransitive verb
- +VAUX !! Auxilliary verb
+
 !! Special multiword units are analysed with:
  +Multi
 !! Non-dictionary words can be recognised with:

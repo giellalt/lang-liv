@@ -7,7 +7,7 @@ LEXICON PronTag
 	PronCases	;
 
 LEXICON PronCases
-+Pron:   Cases  ;
++Pron:   CASES  ;
 !        -    Nouns  ;
 
 ! vim: set ft=xfst-lexc:

@@ -7,8 +7,11 @@ LEXICON QntTag
 	QntCases	;
 
 LEXICON QntCases
-+Qnt:   Cases  ;
++Qnt:   CASES  ;
 !        -    Nouns  ;
+
+LEXICON NUM_TUOISTÕNZ !!= @CODE@ : 164
++Num:     CASES   ;
 
 LEXICON QNT_PŪOL !!= @CODE@ : 216
 +Qnt:     CASES   ;
