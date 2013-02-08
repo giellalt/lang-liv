@@ -4,18 +4,37 @@
 
 ! PROBLEMS with dictionary lexica
 LEXICON N_¤51
-+WORK: # ;
++TYÄ: # ;
 LEXICON N_¤37
-+WORK: # ;
++TYÄ: # ;
 LEXICON N_¤29
-+WORK: # ;
++TYÄ: # ;
 
 !! !! Stem lexica
 LEXICON N_PŪ !!= @CODE@ contains pū: 12
-+N:	CASES	;
+ N_PŪ-PL ;
+
++N: SG-DAT ;
++N: SG-ELA_stõ ;
++N:z SG-GEN ;
++N: SG-ILL_’zõ ;
+! SG-INE ;
++N: SG-INS_kõks ;
++N:     SG-NOM  ;
++N: SG-PAR_dõ ;
+
+
 
 LEXICON N_PŪ-PL !!= @CODE@ contains pū: 12
-+N:     PL-CASES   ;
++N: PL-DAT ;
++N:ži PL-ELA ;
++N: PL-GEN ;
++N: PL-ILL_’ži ;
+! PL-INE ;
++N: PL-INS_dkõks ;
++N: PL-NOM ;
++N: PL-PAR_ḑi ;
+
 
 LEXICON N_RǬ’ !!= @CODE@ contains rǭ’:rǭ 13
 +N:	CASES	;
@@ -753,16 +772,36 @@ LEXICON N_PAŖĪ !!= @CODE@ : 198
 +N:	CASES	;
 
 LEXICON N_TŪĻI !!= @CODE@ : 199
-+N:	CASES	;
+ N_TŪĻI-PL ;
+
++N:	SG-NOM	;
++N:zõ SG-DAT ;
++N:zõ SG-ELA_st ;
++N:z SG-GEN ;
++N:zõ SG-ILL_ZERO ;
+! SG-INE ;
++N:zõ SG-INS ;
++N:z SG-PAR_t ;
 
 LEXICON N_TŪĻI-PL !!= @CODE@ : 199
-+N:     PL-CASES   ;
++N:z PL-DAT ;
++N:ži PL-ELA ;
++N:z PL-GEN ;
++N:ži PL-ILL_z ;
+! PL-INE ;
++N:z PL-INS_dõks ;
++N:z PL-NOM ;
++N:z PL-PAR_i ;
+
+
 
 LEXICON N_A’BLI !!= @CODE@ a’bli:abli 200
-+N:	CASES	;
+ N_TŪĻI ;
+!+N:	CASES	;
 
 LEXICON N_A’BLI-PL !!= @CODE@ a’bli:abli 200
-+N:     PL-CASES   ;
+ N_TŪĻI-PL ;
+!+N:     PL-CASES   ;
 
 LEXICON N_SĒMI !!= @CODE@ : 201
 +N:	CASES	;
@@ -1014,7 +1053,7 @@ LEXICON NMN_UMĀRZ-PL
  PL-GEN ;
  PL-ILL ;
  PL-INE ;
- PL-INS ;
+ PL-INS_dõks ;
  PL-NOM ;
  PL-PAR ;
 
@@ -1024,17 +1063,21 @@ LEXICON NTag
 +N:	CASES	;
 
 LEXICON CASES
- SG-CASES ;
- PL-CASES ;
++TYÄ: SG-NOM ;
+! SG-CASES ;
+! PL-CASES ;
 
 LEXICON SG-CASES
+ SG-NOM	;
+ SG-OBLCASES ;
+
+LEXICON SG-OBLCASES
  SG-DAT	;
  SG-ELA	;
  SG-GEN	;
  SG-ILL	;
  SG-INE	;
  SG-INS	;
- SG-NOM	;
  SG-PAR	;
 
 LEXICON	PL-CASES
@@ -1043,7 +1086,7 @@ LEXICON	PL-CASES
  PL-GEN	;
  PL-ILL	;
  PL-INE	;
- PL-INS	;
+ PL-INS_dõks	;
  PL-NOM	;
  PL-PAR	;
 
@@ -1054,37 +1097,83 @@ LEXICON	PL-CASES
 LEXICON SG-DAT
 +Sg+Dat:n K ;
 LEXICON SG-ELA
-+Sg+Ela: K ;
++Sg+Ela:st K ;
+LEXICON SG-ELA_st
++Sg+Ela:st K ;
+
+LEXICON SG-ELA_stõ
++Sg+Ela:stõ K ;
+
 LEXICON SG-GEN
 +Sg+Gen: K ;
 LEXICON SG-ILL
 +Sg+Ill: K ;
+
+LEXICON SG-ILL_’zõ
++Sg+Ill:’zõ K ;
+
+LEXICON SG-ILL_ZERO
++Sg+Ill: K ;
+
 LEXICON SG-INE
 +Sg+Ine: K ;
 LEXICON SG-INS
 +Sg+Ins:ks K ;
+
+LEXICON SG-INS_õks
++Sg+Ins:õks K ;
+LEXICON SG-INS_kõks
++Sg+Ins:kõks K ;
+
 LEXICON SG-NOM
 +Sg+Nom: K ;
 LEXICON SG-PAR
 +Sg+Par: K ;
+LEXICON SG-PAR_dõ
++Sg+Par:dõ K ;
+LEXICON SG-PAR_t
++Sg+Par:t K ;
 
 
 LEXICON PL-DAT
-+Pl+Dat: K ;
++Pl+Dat:dõn K ;
+
 LEXICON PL-ELA
-+Pl+Ela: K ;
++Pl+Ela:st K ;
+
 LEXICON PL-GEN
-+Pl+Gen: K ;
++Pl+Gen:%>d K ;
+
 LEXICON PL-ILL
 +Pl+Ill: K ;
+LEXICON PL-ILL_z
++Pl+Ill:z K ;
+
+LEXICON PL-ILL_’ži
++Pl+Ill:’ži K ;
+
 LEXICON PL-INE
 +Pl+Ine: K ;
-LEXICON PL-INS
-+Pl+Ins:ks K ;
+
+LEXICON PL-INS_dõks
++Pl+Ins:%>dõks K ;
+
+LEXICON PL-INS_dkõks
++Pl+Ins:dkõks K ;
+
 LEXICON PL-NOM
-+Pl+Nom: K ;
++Pl+Nom:%>d K ;
+LEXICON PL-NOM_t
++Pl+Nom:t K ;
+
 LEXICON PL-PAR
 +Pl+Par: K ;
+
+LEXICON PL-PAR_ḑi
++Pl+Par:%>ḑi K ;
+
+LEXICON PL-PAR_i
++Pl+Par:%>i K ; !! A trigger for z:ž will be required
 
 
 
