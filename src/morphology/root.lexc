@@ -24,6 +24,8 @@ Multichar_Symbols
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing GIELLATEKNO standards when adding new tags).
 
++TYÄ ! This automatically encourages workers to want to correct something
+
 !! !!The parts-of-speech are:
  +A 	 !! adjective
  +Adp 	 !! adposition
@@ -220,7 +222,7 @@ LEXICON ADV_IRM
 +Adv: # ;
 
 LEXICON CONJ_
-+WORK: # ;
++TYÄ: # ;
 
 ! conjunctor
 LEXICON CC_
