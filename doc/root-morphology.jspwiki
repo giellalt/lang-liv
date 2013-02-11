@@ -6,9 +6,10 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
 
 Analysis symbols
 ----------------
-The morphological analyses of wordforms of UNDEFINED language are presented
+The morphological analyses of wordforms in the LIVONIAN language are presented
 in this system in terms of following symbols.
-(It is highly suggested to follow existing standards when adding new tags).
+(It is highly suggested to follow existing GIELLATEKNO standards when adding new tags).
+
 
 !!The parts-of-speech are:
 adjective
@@ -23,17 +24,51 @@ particle
 preposition
 postposition
 pronoun
-Quantifier
+quantifier
 verb
 
-The parts of speech are further split up into:
+!!Parts of speech are further split up into:
+Nouns
+proper
 
-The Usage extents are marked using following tags:
+!!Pronouns
+demonstrative
+indefinite
+interrogative
+personal
+reciprocal
+reflexive
+relative
 
-The nominals are inflected in the following Case and Number
+!!Nominals are inflected for Number and Case
+!!Number
+singular
+plural
+!!Case
+abessive
+ablative case
+adessive
+allative
+dative case
+elative
+essive
+essive
+genitive case
+illative
+inessive
+instrumental -KÕKS
+instructive -IN
+Lative
+nominative case
+partitive
+prolative 
+translative
+Vocative
+
 
 The possession is marked as such:
 The comparative forms are:
+
 Numerals are classified under:
 Verb moods are:
 Tenses
@@ -42,11 +77,16 @@ Verb personal forms are:
 Other verb forms are
 
 
-Special symbols are classified with:
-The verbs are syntactically split according to transitivity:
+!!Verbs are syntactically split according to transitivity:
 Transitive verb
 Intransitive verb
 Auxilliary verb
+
+!!Usage extents are marked using following tags:
+
+
+Special symbols are classified with:
+
 Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
@@ -76,6 +116,12 @@ word classes, or optionally from prefixes:
 
 
 Words that are not inflected
+
+
+
+
+
+
 
 
 

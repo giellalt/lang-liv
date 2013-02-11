@@ -1,10 +1,15 @@
 Noun inflection
 Livonian nouns inflect in cases.
 
+
 Stem lexica
  LEXICON N_PŪ  contains pū: 12
 
+
+
+
  LEXICON N_PŪ-PL  contains pū: 12
+
 
  LEXICON N_RǬ’  contains rǭ’:rǭ 13
 
@@ -36,11 +41,17 @@ Stem lexica
 
  LEXICON N_LǬJA  lǭja:lǭja 23
 
+ LEXICON N_LǬJA-PL  lǭja:lǭja 23
+
  LEXICON N_PǞVA  pǟva:pǟva 24
+
+ LEXICON N_PǞVA-PL  pǟva:pǟva 24
 
  LEXICON N_IZĀ  izā:izā 25
 
  LEXICON N_AŽĀ  ažā:ažā 26
+
+ LEXICON N_AŽĀ-PL  ažā:ažā 26
 
  LEXICON N_ĀĻDŽA  āļdža:āļdža 27
 
@@ -71,6 +82,8 @@ Stem lexica
  LEXICON N_VĒNA  vēna:vēna 37
 
  LEXICON N_RŌDA  rōda:rōda 38
+
+ LEXICON N_RŌDA-PL  rōda:rōda 38
 
  LEXICON N_PADĀ  padā:padā 39
 
@@ -137,6 +150,8 @@ Stem lexica
 
  LEXICON N_KUOȚ  : 65
 
+ LEXICON N_KUOȚ-PL  : 65
+
  LEXICON N_VAKȚ  : 66
 
  LEXICON N_REŅ  : 67
@@ -147,14 +162,25 @@ Stem lexica
 
  LEXICON N_DUŅTŠ  : 70
 
-  : 71
-  va’g:vag 72
-  kõ’l:kõl 73
-  su’g:sug 74
-  jo’ug:joug 75
-  ni’m:nim 76
-  : 77
-  : 78
+ LEXICON N_TORĪ  : 71
+
+ LEXICON N_VA’G  va’g:vag 72
+
+ LEXICON N_VA’G-PL  va’g:vag 72
+
+ LEXICON N_KÕ’L  kõ’l:kõl 73
+
+ LEXICON N_SU’G  su’g:sug 74
+
+ LEXICON N_JO’UG  jo’ug:joug 75
+
+ LEXICON N_NI’M  ni’m:nim 76
+
+ LEXICON N_NI’M-PL  ni’m:nim 76
+
+ LEXICON N_USK  usk: 77
+
+ LEXICON N_VAŠK  : 78
 
  LEXICON N_TUP  tup:tup 79
 
@@ -287,13 +313,21 @@ Stem lexica
 
  LEXICON N_RŪ’TŠ-PL  rū’tš:rūtš 145
 
-  tē’ḑ:tēḑ 146
-  lē’ḑ:lēḑ 147
-  : 148
-  : 149
-  : 150
-  : 151
-  a’m:am 152
+ LEXICON N_TĒ’Ḑ  tē’ḑ:tēḑ 146
+
+ LEXICON N_LĒ’Ḑ  lē’ḑ:lēḑ 147
+
+ LEXICON N_LĒ’Ḑ-PL  lē’ḑ:lēḑ 147
+
+ LEXICON N_KĪNTŠ  : 148
+
+ LEXICON N_KǬŅTŠ  : 149
+
+ LEXICON N_LĒŅTŠ  : 150
+
+ LEXICON N_LĪEM  : 151
+
+ LEXICON N_A’M  a’m:am 152
 
  LEXICON N_AZŪM  : 153
 
@@ -303,8 +337,11 @@ Stem lexica
 
  LEXICON N_VÕȚĪM-PL  : 154
 
-  : 155
-  : 156
+ LEXICON N_KǬŅIM  : 155
+
+ LEXICON N_ĒTAM  : 156
+
+ LEXICON N_ĒTAM-PL  : 156
 
  LEXICON N_SIDĀM  : 157
 
@@ -321,18 +358,26 @@ Stem lexica
  LEXICON N_TAPTÕD  : 161
 
  LEXICON N_TĪ’EDÕD  tī’edõd:tīedõd 162
-  : 163
-  : 164
-  ī’dõksmõz:īdõksmõz 165
-  : 166
-  : 167
-  : 168
+
+ LEXICON Num-VĪDÕZ  : 163
+
+ LEXICON N_TUOISTÕNZ  : 164
+
+ LEXICON N_Ī’DÕKSMÕZ  ī’dõksmõz:īdõksmõz 165
+
+ LEXICON N_MĪEZ  : 166
+
+ LEXICON N_RO’VZ  : 167
+
+ LEXICON N_KÄBRĀZ  : 168
 
  LEXICON N_MAIGĀZ  : 169
 
  LEXICON N_NÕTKĀZ  : 170
 
- LEXICON N_RIKĀZ  : 171
+ LEXICON N_RIKĀZ  rikāz: 171
+
+ LEXICON N_RIKĀZ-PL  rikāz: 171
 
  LEXICON N_BIKŠĀZ  : 172
 
@@ -352,59 +397,81 @@ Stem lexica
  LEXICON N_RĒNAZ-PL	 : 176
 
  LEXICON N_TŌVAZ  : 177
-  : 178
 
- LEXICON N_MÕTKÕZ  : 179
+ LEXICON N_PŪORAZ  pūoraz: 178
 
- LEXICON N_MÕTKÕZ-PL  : 179
+ LEXICON N_MÕTKÕZ  mõtkõz: 179
 
- LEXICON N_VȬRÕZ  : 180
+ LEXICON N_MÕTKÕZ-PL  mõtkõz: 179
+
+ LEXICON N_VȬRÕZ  vȭrõz: 180
+
+ LEXICON N_VȬRÕZ-PL  vȭrõz: 180
 
  LEXICON N_ARĀGÕZ  : 181
 
  LEXICON N_ARĀGÕZ-PL  : 181
 
  LEXICON N_Ä’GGÕZ  ä’ggõz:äggõz 182
-  pū’dõz:pūdõz 183
+
+ LEXICON N_Ä’GGÕZ-PL  ä’ggõz:äggõz 182
+
+ LEXICON N_PŪ’DÕZ  pū’dõz:pūdõz 183
+
+ LEXICON N_PŪ’DÕZ-PL  pū’dõz:pūdõz 183
 
  LEXICON N_VĪETŠÕZ  : 184
 
  LEXICON N_VĪETŠÕZ-PL  : 184
 
-  lǭ’tšõz:lǭtšõz 185
-  : 186
+ LEXICON N_LǬ’TŠÕZ  lǭ’tšõz:lǭtšõz 185
+
+ LEXICON N_SĒJI  : 186
 
  LEXICON N_AKKIJI  : 187
 
  LEXICON N_AKKIJI-PL  : 187
 
  LEXICON N_LĒ’JI  lē’ji:lēji 188
-  : 189
-  lä’bḑi:läbḑi 190
-  : 191
+
+ LEXICON N_TUĻĻI  : 189
+
+ LEXICON N_LÄ’BḐI  lä’bḑi:läbḑi 190
+
+ LEXICON N_NAI  : 191
 
  LEXICON N_A’IGI  a’igi:aigi 192
 
  LEXICON N_A’IGI-PL	 a’igi:aigi 192
 
+ LEXICON N_PU’NNI  pu’nni:punni 193
 
+ LEXICON N_PU’NNI-PL  pu’nni:punni 193
 
-  pu’nni:punni 193
-  : 194
-  : 195
-  aigi:aigi 196
-  : 197
-  : 198
+ LEXICON N_KAȚKI  kațki: 194
+
+ LEXICON N_KUKKI  kukki: 195
+
+ LEXICON N_AIGI  aigi:aigi 196
+
+ LEXICON N_OUKI  : 197
+
+ LEXICON N_PAŖĪ  : 198
 
  LEXICON N_TŪĻI  : 199
 
+
  LEXICON N_TŪĻI-PL  : 199
+
+
 
  LEXICON N_A’BLI  a’bli:abli 200
 
  LEXICON N_A’BLI-PL  a’bli:abli 200
 
  LEXICON N_SĒMI  : 201
+
+ LEXICON N_SĒMI-PL  : 201
 
  LEXICON N_LĒ’MI  lē’mi:lēmi 202
 
@@ -420,13 +487,23 @@ Stem lexica
 
  LEXICON N_KATŪKS-PL  : 205
 
- LEXICON N_ĀNDÕKS  : 206
-  : 207
+ LEXICON N_ĀNDÕKS  āndõks: 206
+
+ LEXICON N_ĀNDÕKS-PL  āndõks: 206
+
+ LEXICON N_KĒRATÕKS  : 207
 
  LEXICON N_Ä’BȚÕKS  ä’bțõks:äbțõks 208
-  : 209
-  : 210
-  : 211
+
+ LEXICON N_Ä’BȚÕKS-PL  ä’bțõks:äbțõks 208
+
+ LEXICON N_VARĪKŠ  : 209
+
+ LEXICON N_UKŠ  : 210
+
+ LEXICON N_LÄPŠ  läpš:laps 211
+
+ LEXICON N_LÄPŠ-PL  läpš:laps 211
 
  LEXICON N_RIŠTĪNG-SG  : 212
 
@@ -439,6 +516,8 @@ Stem lexica
  LEXICON N_KĒĻ  : 215
 
  LEXICON N_PŪOL  : 216
+
+ LEXICON N_PŪOL-PL  : 216
 
  LEXICON N_ĪKŠ  : 217
 
@@ -542,12 +621,32 @@ _AŅGÕRZ 229, _KA’GGÕRZ 230, _PǞGIŅŽ 231
 
 
 
+
   #:0   nouns   ;
 
 !!NUMBER AND CASE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A trigger for z:ž will be required
 
 
 
