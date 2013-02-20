@@ -138,7 +138,7 @@ Rules
 
 "õ:0"
 õ:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ ( %^Stress1to2:0 ) %^VowsRM:0 ;
-
+          Vows %> _ [ d | n | k s | s t ] ;
 !! Consonant loss 
 
 
@@ -162,7 +162,7 @@ Rules
  0:j <=> # Cons* :Vows ( ’: | :’ ) _ j Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
 
 "0:l"
- 0:l <=> # Cons* :Vows ( ’: | :’ ) _ l Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
+ 0:l <=> # Cons* :Vows ( ’: | :’ )  _ l Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
 
 "0:ļ"
  0:ļ <=> # Cons* :Vows ( ’: | :’ ) _ ļ Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
