@@ -526,16 +526,34 @@ LEXICON N_LǞ’ND
 +N:	CASES	;
 
 LEXICON N_ĀIGAST !!= @CODE@ : 140
-+N:	CASES	;
+!! >õ> [sg.dat,sg.ela,sg.ins,]
++N:	SG-DAT_õn	;
++N:	SG-ELA_õst	;
++N:	SG-GEN	;
++N:	SG-ILL_õ	;
++N:	SG-INS_õks	;
++N:	SG-NOM	;
++N:	SG-PAR_õ	;
+ N_ĀIGAST-PL ;
 
 LEXICON N_ĀIGAST-PL !!= @CODE@ : 140
-+N:     PL-CASES   ;
+!! >õd> [pl.dat, pl.gen, pl.ins, pl.nom]
++N:	PL-DAT_õdõn	;
++N:	PL-ELA_ist	;
++N:	PL-GEN_õd	;
++N:	PL-ILL_iž	;
+!+N:	PL_INE	;
++N:	PL-INS_õdõks	;
++N:	PL-NOM_õd	;
++N:	PL-PAR_idi	;
 
 LEXICON N_ANALĪZ !!= @CODE@ : 141
-+N:	CASES	;
+ N_ĀIGAST ;
+
 
 LEXICON N_NĪ’EM !!= @CODE@ nī’em:nīem 142
-+N:	CASES	;
+ N_ĀIGAST ;
+
 
 LEXICON N_JAĻKŠ !!= @CODE@ : 143
 +N:	CASES	;
@@ -775,12 +793,12 @@ LEXICON N_TŪĻI !!= @CODE@ : 199
  N_TŪĻI-PL ;
 
 +N:	SG-NOM	;
-+N:zõ SG-DAT ;
-+N:zõ SG-ELA_st ;
++N:z SG-DAT_õn ;
++N:z SG-ELA_õst ;
 +N:z SG-GEN ;
-+N:zõ SG-ILL_ZERO ;
++N:z SG-ILL_õ ;
 ! SG-INE ;
-+N:zõ SG-INS ;
++N:z SG-INS_õks ;
 +N:z SG-PAR_t ;
 
 LEXICON N_TŪĻI-PL !!= @CODE@ : 199
@@ -1096,10 +1114,13 @@ LEXICON	PL-CASES
 
 LEXICON SG-DAT
 +Sg+Dat:n K ;
+LEXICON SG-DAT_õn
++Sg+Dat:õn K ;
+
 LEXICON SG-ELA
 +Sg+Ela:st K ;
-LEXICON SG-ELA_st
-+Sg+Ela:st K ;
+LEXICON SG-ELA_õst
++Sg+Ela:õst K ;
 
 LEXICON SG-ELA_stõ
 +Sg+Ela:stõ K ;
@@ -1115,6 +1136,9 @@ LEXICON SG-ILL_’zõ
 LEXICON SG-ILL_ZERO
 +Sg+Ill: K ;
 
+LEXICON SG-ILL_õ
++Sg+Ill:õ K ;
+
 LEXICON SG-INE
 +Sg+Ine: K ;
 LEXICON SG-INS
@@ -1129,6 +1153,8 @@ LEXICON SG-NOM
 +Sg+Nom: K ;
 LEXICON SG-PAR
 +Sg+Par: K ;
+LEXICON SG-PAR_õ
++Sg+Par:õ K ;
 LEXICON SG-PAR_dõ
 +Sg+Par:dõ K ;
 LEXICON SG-PAR_t
@@ -1138,11 +1164,20 @@ LEXICON SG-PAR_t
 LEXICON PL-DAT
 +Pl+Dat:dõn K ;
 
+LEXICON PL-DAT_õdõn
++Pl+Dat:õdõn K ;
+
 LEXICON PL-ELA
 +Pl+Ela:st K ;
 
+LEXICON PL-ELA_ist
++Pl+Ela:%>ist K ;
+
 LEXICON PL-GEN
 +Pl+Gen:%>d K ;
+
+LEXICON PL-GEN_õd
++Pl+Gen:%>õd K ;
 
 LEXICON PL-ILL
 +Pl+Ill: K ;
@@ -1152,22 +1187,33 @@ LEXICON PL-ILL_z
 LEXICON PL-ILL_’ži
 +Pl+Ill:’ži K ;
 
+LEXICON PL-ILL_iž
++Pl+Ill:iž K ;
+
 LEXICON PL-INE
 +Pl+Ine: K ;
 
 LEXICON PL-INS_dõks
 +Pl+Ins:%>dõks K ;
 
+LEXICON PL-INS_õdõks
++Pl+Ins:%>õdõks K ;
+
 LEXICON PL-INS_dkõks
 +Pl+Ins:dkõks K ;
 
 LEXICON PL-NOM
 +Pl+Nom:%>d K ;
+LEXICON PL-NOM_õd
++Pl+Nom:%>õd K ;
 LEXICON PL-NOM_t
 +Pl+Nom:t K ;
 
 LEXICON PL-PAR
 +Pl+Par: K ;
+
+LEXICON PL-PAR_idi
++Pl+Par:%>idi K ;
 
 LEXICON PL-PAR_ḑi
 +Pl+Par:%>ḑi K ;
