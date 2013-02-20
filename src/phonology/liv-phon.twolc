@@ -115,6 +115,11 @@ Rules
 "ā:a in first syllable"
 ā:a <=> # Cons* _  ( i ) :Cons+ Vows: %^Stress1to2:0  ;
 
+"ǭ:a in first syllable"
+ǭ:a <=> # Cons* _  ( i ) :Cons+ Vows: %^Stress1to2:0  ;
+
+
+
 !! Destressing in second syllable
 "ā:õ "
 ā:õ <=> # Cons* [ Vows | ’: | :’ ]+ :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
@@ -135,6 +140,7 @@ Rules
 õ:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ ( %^Stress1to2:0 ) %^VowsRM:0 ;
 
 !! Consonant loss 
+
 
 "0:t"
  0:t <=> # Cons* :Vows ( ’: | :’ ) _ t Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
