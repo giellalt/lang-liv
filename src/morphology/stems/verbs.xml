@@ -9941,7 +9941,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">väljähtyä</t>
       </tg>
     </mg>
   </e>
@@ -9969,7 +9969,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">luopua</t>
       </tg>
     </mg>
   </e>
@@ -9993,11 +9993,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">reconcile</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">sovittaa</t>
       </tg>
     </mg>
   </e>
@@ -10025,7 +10025,21 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">tyyntyä</t>
+      </tg>
+    </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="VI">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="VI">lakastua</t>
       </tg>
     </mg>
   </e>
@@ -10049,11 +10063,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">secrete</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">erittää</t>
       </tg>
     </mg>
   </e>
@@ -10081,7 +10095,21 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">jättää syrjään</t>
+      </tg>
+    </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="VT">YY</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="VT">hylätä</t>
       </tg>
     </mg>
   </e>
@@ -10109,7 +10137,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">todeta</t>
       </tg>
     </mg>
   </e>
@@ -10133,11 +10161,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">smudge</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">tahraantua</t>
       </tg>
     </mg>
   </e>
@@ -10161,11 +10189,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">lengthen</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">pidentää</t>
       </tg>
     </mg>
   </e>
@@ -10189,11 +10217,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">continue</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">jatkua</t>
       </tg>
     </mg>
   </e>
@@ -10221,7 +10249,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">hassutella</t>
       </tg>
     </mg>
   </e>
@@ -10249,7 +10277,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">harhailla</t>
       </tg>
     </mg>
   </e>
@@ -10277,7 +10305,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">erehtyä</t>
       </tg>
     </mg>
 
@@ -10291,7 +10319,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">joutua hämmennyksiin</t>
       </tg>
     </mg>
   </e>
@@ -10315,11 +10343,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">reanimate</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">elvyttää</t>
       </tg>
     </mg>
   </e>
@@ -10347,7 +10375,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">laittaa käymään</t>
       </tg>
     </mg>
   </e>
@@ -10375,7 +10403,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">askarella</t>
       </tg>
     </mg>
 
@@ -10385,15 +10413,43 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">do</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">tehdä</t>
       </tg>
     </mg>
   </e>
 
+  <e>
+    <lg>
+      <l>je’llõ</l>
+
+      <stg>
+        <st Contlex="VI_JE’LLÕ">jelā</st>
+      </stg>
+
+      <stress>je’llõ 2</stress>
+    </lg>
+
+    <pos>VI</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="VI">ferment</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="VI">käydä</t>
+      </tg>
+    </mg>
+  </e>
+  
   <e>
     <lg>
       <l>je’llõ</l>
@@ -10413,11 +10469,25 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">live</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">asua</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="VT">live</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="VI">elää</t>
       </tg>
     </mg>
 
@@ -10431,21 +10501,21 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">tulla toimeen</t>
       </tg>
     </mg>
-
+    
     <mg>
       <m>
         <head/>
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">inhabit</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">asuttaa</t>
       </tg>
     </mg>
   </e>
@@ -10469,11 +10539,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">huff</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">huokailla</t>
       </tg>
     </mg>
   </e>
@@ -10501,7 +10571,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">antaa tekohengitystä</t>
       </tg>
     </mg>
   </e>
@@ -10525,11 +10595,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">sigh</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">huokaista</t>
       </tg>
     </mg>
   </e>
@@ -10553,11 +10623,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">breathe</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">hengittää</t>
       </tg>
     </mg>
 
@@ -10567,11 +10637,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">evaporate</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">haihtua</t>
       </tg>
     </mg>
   </e>
@@ -10595,11 +10665,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">slaughter</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">teurastaa</t>
       </tg>
     </mg>
   </e>
@@ -10627,7 +10697,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">jättää</t>
       </tg>
     </mg>
 
@@ -10641,7 +10711,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">luopua</t>
       </tg>
     </mg>
   </e>
@@ -10665,11 +10735,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">cool</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">jäähtyä</t>
       </tg>
     </mg>
   </e>
@@ -10697,7 +10767,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">hypätä</t>
       </tg>
     </mg>
   </e>
@@ -10725,7 +10795,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">olla kiimoillaan</t>
       </tg>
     </mg>
   </e>
@@ -10749,11 +10819,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">get lost</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">eksyä</t>
       </tg>
     </mg>
 
@@ -10767,7 +10837,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">takertua</t>
       </tg>
     </mg>
   </e>
@@ -10795,7 +10865,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">narrata</t>
       </tg>
     </mg>
 
@@ -10805,11 +10875,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">betray</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">pettää</t>
       </tg>
     </mg>
   </e>
@@ -10833,11 +10903,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">cool</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">jäähdyttää</t>
       </tg>
     </mg>
 
@@ -10851,7 +10921,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">viilentää</t>
       </tg>
     </mg>
   </e>
@@ -10879,7 +10949,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">saapua</t>
       </tg>
     </mg>
 
@@ -10893,7 +10963,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">ehtiä</t>
       </tg>
     </mg>
   </e>
@@ -10917,11 +10987,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">mill</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">jauhaa</t>
       </tg>
     </mg>
   </e>
@@ -10945,11 +11015,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">lap</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">hioa</t>
       </tg>
     </mg>
 
@@ -10959,11 +11029,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">sharpen</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">teroittaa</t>
       </tg>
     </mg>
   </e>
@@ -10987,11 +11057,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">encourage</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">rohkaista</t>
       </tg>
     </mg>
   </e>
@@ -11015,11 +11085,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">dazzle</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">sokaista</t>
       </tg>
     </mg>
   </e>
@@ -11043,11 +11113,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">worship</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">jumaloida</t>
       </tg>
     </mg>
   </e>
@@ -11071,11 +11141,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">drink</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">juoda</t>
       </tg>
     </mg>
   </e>
@@ -11099,11 +11169,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">lead</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">johtaa</t>
       </tg>
     </mg>
 
@@ -11117,7 +11187,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">talutella</t>
       </tg>
     </mg>
   </e>
@@ -11145,7 +11215,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VT">XX</t>
+        <t pos="VT">hauskutella</t>
       </tg>
     </mg>
   </e>
@@ -11173,7 +11243,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">juosta</t>
       </tg>
     </mg>
   </e>
@@ -11197,11 +11267,11 @@
       </m>
 
       <tg lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">run</t>
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">juosta</t>
       </tg>
     </mg>
 
@@ -11215,7 +11285,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">virrata</t>
       </tg>
     </mg>
 
@@ -11229,7 +11299,21 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">valua</t>
+      </tg>
+    </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="VT">leak</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="VI">vuotaa</t>
       </tg>
     </mg>
   </e>
