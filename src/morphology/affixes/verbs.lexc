@@ -155,7 +155,7 @@ LEXICON V-01_JE’LLÕ
 : INDCONNEGPL1 ;
 : INDCONNEGPL2 ;
 : INDCONNEGPL3 ;
-:ī INDPRT-z ;
+:%^VowsRM%>ī INDPRT_z ;
 !+Ind+Sg+ConNeg:	K    ;
 
 !+Cond+Sg3:õks	K    ;
@@ -248,7 +248,7 @@ LEXICON V-01_MÄNGÕ
 : INDCONNEGPL1 ;
 : INDCONNEGPL2 ;
 : INDCONNEGPL3 ;
-:ī INDPRT-z ;
+:%^VowsRM%>ī INDPRT_z ;
 !+Ind+Sg+ConNeg:	K    ;
 
 !+Cond+Sg3:õks	K    ;
@@ -353,7 +353,7 @@ LEXICON	V-01_LU’GGÕ
 :%^Stress2to1 INDCONNEGPL2 ;
 :%^Stress2to1 INDCONNEGPL3 ;
 !! Prt
-:%^VowsRMī INDPRT-z    ;
+:%^VowsRM%>ī INDPRT_z    ;
 ! Cond
  CONDPRS ;
 !! Imprt
@@ -470,7 +470,7 @@ LEXICON V-01_AIGÕ
 :%^Stress1to2 INDCONNEGPL2 ;
 :%^Stress1to2 INDCONNEGPL3 ;
 !! Prt
-:%^VowsRMi INDPRT-z    ;
+:%^VowsRM%>i INDPRT_z    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
@@ -516,15 +516,16 @@ LEXICON VT_SVA’RRÕ
 +V+TV: V-01_KŪLÕ ;
 
 LEXICON V-AUX_KĪTÕ
-!kītõ:kīt 53
+!! kītõ:kīt 53
 +V+VAUX: V-01_KŪLÕ ;
 
 LEXICON VI_KĪTÕ
 !! kītõ:kīt 53
+!! ~701
 +V+IV: V-01_KŪLÕ ;
 
 LEXICON VT_KĪTÕ
-!kītõ:kīt 53
+!! kītõ:kīt 53
 +V+TV: V-01_KŪLÕ ;
 
 
@@ -573,18 +574,18 @@ LEXICON V-01_KŪLÕ
  GER-õs   ;
  INF-õ	  ;
  SUP	  ; 
-:õ INDPRSSG1    ;
-:õ INDPRSSG2    ;
-:õ INDPRSSG3    ;
-:õ   INDPRSPL1    ;
-:õ   INDPRSPL2    ;
-:õ   INDPRSPL3    ;
+: INDPRSSG1    ;
+: INDPRSSG2    ;
+: INDPRSSG3    ;
+:   INDPRSPL1    ;
+:   INDPRSPL2    ;
+:   INDPRSPL3    ;
 :%^ConsSh	INDCONNEGSG    ;
-:õ INDCONNEGPL1 ;
-:õ INDCONNEGPL2 ;
-:õ INDCONNEGPL3 ;
+: INDCONNEGPL1 ;
+: INDCONNEGPL2 ;
+: INDCONNEGPL3 ;
 !! Prt
-:i INDPRT-z    ;
+:%^VowsRM%>i INDPRT_z    ;
 
 
 LEXICON V_UMBLÕ
@@ -698,14 +699,14 @@ LEXICON PSSPRFPRCSG
 
 !! Finites
 
-LEXICON INDPRT-z
+LEXICON INDPRT_z
 !! Indicative preterite in z
- INDPRTSG1-z    ;
- INDPRTSG2-z    ;
- INDPRTSG3-z    ;
- INDPRTPL1-z    ;
- INDPRTPL2-z    ;
- INDPRTPL3-z    ;
+ INDPRTSG1_z    ;
+ INDPRTSG2_z    ;
+ INDPRTSG3_z    ;
+ INDPRTPL1_z    ;
+ INDPRTPL2_z    ;
+ INDPRTPL3_z    ;
 
 
 LEXICON CONDPRS
@@ -738,23 +739,23 @@ LEXICON INDPRSPL3
  +Ind+Prs+Pl3:%>bõd    K	;
 
  ! Indicative preterite
-LEXICON INDPRTSG1-z
+LEXICON INDPRTSG1_z
  +Ind+Prt+Sg1:%>z    K	;
 
-LEXICON INDPRTSG2-z
+LEXICON INDPRTSG2_z
  +Ind+Prt+Sg2:%>zt    K	;
 
-LEXICON INDPRTSG3-z
+LEXICON INDPRTSG3_z
  +Ind+Prt+Sg3:%>z    K	;
 
-LEXICON INDPRTPL1-z
+LEXICON INDPRTPL1_z
  +Ind+Prt+Pl1:%>zmõ    K	;
 
-LEXICON INDPRTPL2-z
+LEXICON INDPRTPL2_z
  +Ind+Prt+Pl2:%>zt    K	;
  +Ind+Prt+Pl2:%>ztõ    K	;
 
-LEXICON INDPRTPL3-z
+LEXICON INDPRTPL3_z
  +Ind+Prt+Pl3:%>zt    K	;
  +Ind+Prt+Pl3:%>ztõ    K	;
 
