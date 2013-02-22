@@ -44,6 +44,7 @@ V3:ä
 V3:ö
 V3:0
 
+!! Triggers
 ! this k is not effected by gradation
 K1:k
 %^NoGrad:0 ! This will be placed after a stem to break Gradation
@@ -72,7 +73,7 @@ K1:k
 %^Stress2to1:0
 %^VowsRM:0
 %^ConsRM:0
-
+%^PalatalizeLeft:0 !! laps:läpš
 ;
 
 
@@ -179,8 +180,8 @@ Rules
  0:ž <=> # Cons* :Vows ( ’: | :’ ) ž _ Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
 
 
-"0:’ Stod"
- 0:’ <=> # Cons* :Vows _ :ConsWithStod+  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
+!"0:’ Stod"
+! 0:’ <=> # Cons* :Vows _ :ConsWithStod+  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !€# ka0l0ā%^Stress2to1
 !€0 ka’llõ0
 
@@ -217,3 +218,8 @@ k:0 <=> s _ Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: õ d ;
 "ț:0"
 ț:0 <=> k _ Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: õ d ;
 
+"s:š palatalization"
+s:š <=> _ %^PalatalizeLeft:0 ;
+
+"a:ä palatalization"
+a:ä <=> _ ( 0: ) :Cons+ %^PalatalizeLeft:0 ;
