@@ -12,6 +12,7 @@ LEXICON N_¤29
 
 !! !! Stem lexica
 LEXICON N_PŪ !!= @CODE@ contains pū: 12
+!! ~156
  N_PŪ-PL ;
 
 +N: SG-DAT ;
@@ -26,7 +27,8 @@ LEXICON N_PŪ !!= @CODE@ contains pū: 12
 
 
 LEXICON N_PŪ-PL !!= @CODE@ contains pū: 12
-+N: PL-DAT ;
+!!  
++N: PL-DAT_dõn ;
 +N:ži PL-ELA ;
 +N: PL-GEN ;
 +N: PL-ILL_’ži ;
@@ -64,13 +66,13 @@ LEXICON N_KALĀ-PL  !!= @CODE@ contains  kalā:kalā 18
 +N: NMN_KALĀ-PL ;
 
 LEXICON N_TUBĀ !!= @CODE@ tubā:tubā 19
-+N:	CASES	;
+ N_KALĀ	;
 
 LEXICON N_TUBĀ-PL !!= @CODE@ tubā:tubā 19
-+N:     PL-CASES   ;
+ N_KALĀ-PL   ;
 
 LEXICON N_AIGĀ !!= @CODE@ aigā:aigā 20
-+N:	CASES	;
+	N_KALĀ	;
 
 LEXICON N_LĒBA !!= @CODE@ lēba:lēba 21
 +N:	CASES	;
@@ -790,6 +792,7 @@ LEXICON N_PAŖĪ !!= @CODE@ : 198
 +N:	CASES	;
 
 LEXICON N_TŪĻI !!= @CODE@ : 199
+!! ~422
  N_TŪĻI-PL ;
 
 +N:	SG-NOM	;
@@ -802,7 +805,7 @@ LEXICON N_TŪĻI !!= @CODE@ : 199
 +N:z SG-PAR_t ;
 
 LEXICON N_TŪĻI-PL !!= @CODE@ : 199
-+N:z PL-DAT ;
++N:z PL-DAT_dõn ;
 +N:ži PL-ELA ;
 +N:z PL-GEN ;
 +N:ži PL-ILL_z ;
@@ -814,6 +817,7 @@ LEXICON N_TŪĻI-PL !!= @CODE@ : 199
 
 
 LEXICON N_A’BLI !!= @CODE@ a’bli:abli 200
+!! ~567
  N_TŪĻI ;
 !+N:	CASES	;
 
@@ -870,10 +874,24 @@ LEXICON N_UKŠ !!= @CODE@ : 210
 +N:	CASES	;
 
 LEXICON N_LÄPŠ !!= @CODE@ läpš:laps 211
-+N:	CASES	;
+ N_LÄPŠ-PL     ;
++N:			SG-DAT_õn	;
++N:			SG-ELA_õst	;
++N:			SG-GEN	;
++N:			SG-ILL_õ	;
++N:			SG-INS_õks	;
++N:%^PalatalizeLeft	SG-NOM	;
++N:			SG-PAR_tā ;
+
 
 LEXICON N_LÄPŠ-PL !!= @CODE@ läpš:laps 211
-+N:     PL-CASES   ;
++N:     PL-DAT_dõn   ;
++N:%^PalatalizeLeft     PL-ELA_īst   ;
++N:     PL-GEN   ;
++N:%^PalatalizeLeft     PL-ILL_īz   ;
++N:     PL-INS_dkõks   ;
++N:     PL-NOM   ;
++N:%^PalatalizeLeft     PL-PAR_i   ;
 
 LEXICON N_RIŠTĪNG-SG !!= @CODE@ : 212
 +N:	CASES	;
@@ -1066,7 +1084,7 @@ LEXICON NMN_UMĀRZ-SG
 :%>zt	SG-PAR ;
 
 LEXICON NMN_UMĀRZ-PL
- PL-DAT ;
+ PL-DAT_dõn ;
  PL-ELA ;
  PL-GEN ;
  PL-ILL ;
@@ -1099,7 +1117,7 @@ LEXICON SG-OBLCASES
  SG-PAR	;
 
 LEXICON	PL-CASES
- PL-DAT	;
+ PL-DAT_dõn	;
  PL-ELA	;
  PL-GEN	;
  PL-ILL	;
@@ -1159,9 +1177,11 @@ LEXICON SG-PAR_dõ
 +Sg+Par:dõ K ;
 LEXICON SG-PAR_t
 +Sg+Par:t K ;
+LEXICON SG-PAR_tā
++Sg+Par:tā K ;
 
 
-LEXICON PL-DAT
+LEXICON PL-DAT_dõn
 +Pl+Dat:dõn K ;
 
 LEXICON PL-DAT_õdõn
@@ -1172,6 +1192,8 @@ LEXICON PL-ELA
 
 LEXICON PL-ELA_ist
 +Pl+Ela:%>ist K ;
+LEXICON PL-ELA_īst
++Pl+Ela:%>īst K ;
 
 LEXICON PL-GEN
 +Pl+Gen:%>d K ;
@@ -1183,6 +1205,8 @@ LEXICON PL-ILL
 +Pl+Ill: K ;
 LEXICON PL-ILL_z
 +Pl+Ill:z K ;
+LEXICON PL-ILL_īz
++Pl+Ill:īz K ;
 
 LEXICON PL-ILL_’ži
 +Pl+Ill:’ži K ;
