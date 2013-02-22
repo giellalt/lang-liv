@@ -673,6 +673,9 @@ LEXICON GER-õs
 LEXICON GER-sõ
 +Ger+Ine:%>sõ   K ;
 
+LEXICON INF
++Inf:    K   ;
+
 LEXICON INF-dõ
 +Inf:%>dõ    K   ;
 
@@ -681,6 +684,9 @@ LEXICON INF-õ
 
 LEXICON SUP
 +Sup+Ill:%>m K   ;
+
+LEXICON SUP_mõ
++Sup+Ill:%>mõ K   ;
 
 LEXICON ACTPRSPRC
 +Act+PrsPrc+Sg:%>b	K    ;
@@ -699,6 +705,24 @@ LEXICON PSSPRFPRCSG
 
 !! Finites
 
+LEXICON INDPRS
+!! Indicative present
+  INDPRSSG1	;
+  INDPRSSG2	;
+  INDPRSSG3	;
+  INDPRSPL1	;
+  INDPRSPL2	;
+  INDPRSPL3	;
+
+LEXICON INDPRS_tõ
+!! Indicative present
+  INDPRSSG1	;
+  INDPRSSG2	;
+  INDPRSSG3	;
+  INDPRSPL1	;
+  INDPRSPL2_tõ	;
+  INDPRSPL3	;
+
 LEXICON INDPRT_z
 !! Indicative preterite in z
  INDPRTSG1_z    ;
@@ -707,6 +731,11 @@ LEXICON INDPRT_z
  INDPRTPL1_z    ;
  INDPRTPL2_z    ;
  INDPRTPL3_z    ;
+
+LEXICON INDPRTSG3-STEM_tõ
+ INDPRTSG3    ;
+ INDPRTPL2_tõ    ;
+ INDPRTPL3_tõ    ;
 
 
 LEXICON CONDPRS
@@ -735,6 +764,9 @@ LEXICON INDPRSPL1
 LEXICON INDPRSPL2
  +Ind+Prs+Pl2:%>t    K	;
 
+LEXICON INDPRSPL2_tõ
+ +Ind+Prs+Pl2:%>tõ    K	;
+
 LEXICON INDPRSPL3
  +Ind+Prs+Pl3:%>bõd    K	;
 
@@ -744,6 +776,9 @@ LEXICON INDPRTSG1_z
 
 LEXICON INDPRTSG2_z
  +Ind+Prt+Sg2:%>zt    K	;
+
+LEXICON INDPRTSG3
+ +Ind+Prt+Sg3:    K	;
 
 LEXICON INDPRTSG3_z
  +Ind+Prt+Sg3:%>z    K	;
@@ -755,9 +790,21 @@ LEXICON INDPRTPL2_z
  +Ind+Prt+Pl2:%>zt    K	;
  +Ind+Prt+Pl2:%>ztõ    K	;
 
+LEXICON INDPRTPL2_tõ
+ +Ind+Prt+Pl2:%>tõ    K	;
+
+LEXICON INDPRTPL2_tā
+ +Ind+Prt+Pl2:%>tā    K	;
+
 LEXICON INDPRTPL3_z
  +Ind+Prt+Pl3:%>zt    K	;
  +Ind+Prt+Pl3:%>ztõ    K	;
+
+LEXICON INDPRTPL3_tõ
+ +Ind+Prt+Pl3:%>tõ    K	;
+
+LEXICON INDPRTPL3_tā
+ +Ind+Prt+Pl3:%>tā    K	;
 
 
 LEXICON INDCONNEGSG
