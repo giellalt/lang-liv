@@ -4,7 +4,7 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>Kaupo</l>
+         <l pos="PROP">Kaupo</l>
          <stg>
             <st Contlex="PropTag">Kaupo</st>
          </stg>
@@ -14,10 +14,10 @@
          <m>
             <head/>
          </m>
-         <tg lang="eng">
+         <tg xml:lang="eng">
             <t>Kaupo</t>
          </tg>
-         <tg lang="fin">
+         <tg xml:lang="fin">
             <t>Kaupo</t>
          </tg>
       </mg>
