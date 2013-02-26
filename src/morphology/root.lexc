@@ -180,10 +180,12 @@ Multichar_Symbols
 ! %^ConsSh
  %^Stress1to2
  %^Stress2to1
+ %^VowsSh1  !! vowel shortening in first syllable
  %^VowsRM
  %^ConsRM
  %^StodRM !! for removing Stød
  %^PalatalizeLeft
+ %^VowsL1aToǭ !! a >> ǭ
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
