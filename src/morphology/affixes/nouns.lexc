@@ -13,36 +13,16 @@ LEXICON N_¤29
 !! !! Stem lexica
 LEXICON N_PŪ !!= @CODE@ contains pū: 12
 !! ~156
- N_PŪ-PL ;
-
-+N: SG-DAT ;
-+N: SG-ELA_stõ ;
-+N:z SG-GEN ;
-+N: SG-ILL_’zõ ;
-! SG-INE ;
-+N: SG-INS_kõks ;
-+N:     SG-NOM  ;
-+N: SG-PAR_dõ ;
-
-
++N:	NMN_PŪ ;
 
 LEXICON N_PŪ-PL !!= @CODE@ contains pū: 12
-!!  
-+N: PL-DAT_dõn ;
-+N:ži PL-ELA ;
-+N: PL-GEN ;
-+N: PL-ILL_’ži ;
-! PL-INE ;
-+N: PL-INS_dkõks ;
-+N: PL-NOM ;
-+N: PL-PAR_ḑi ;
++N:	NMN_PŪ-PL   ;
 
-
-LEXICON N_RǬ’ !!= @CODE@ contains rǭ’:rǭ 13
-+N:	CASES	;
+LEXICON N_RǬ’ !!= @CODE@ contains rǭ’:rǭ’ 13
++N:	NMN_RǬ’	;
 
 LEXICON N_PǞ !!= @CODE@ contains pǟ:pǟ 14
-+N:	CASES	;
++N:	NMN_PǞ	;
 
 LEXICON N_TĪE !!= @CODE@ contains tīe:tīe 15
 +N:	CASES	;
@@ -51,25 +31,25 @@ LEXICON N_TĪE-PL !!= @CODE@ contains tīe:tīe 15
 +N:     PL-CASES   ;
 
 LEXICON N_BRĪ !!= @CODE@ contains brī:brī 16
-+N:	CASES	;
++N:	NMN_BRĪ	  ;
 	
 LEXICON N_TEI !!= @CODE@ contains tei:tei 17
 +N:	CASES	;
 
 LEXICON N_KALĀ  !!= @CODE@ contains  kalā:kalā 18
-+N: NMN_KALĀ ;
++N:	NMN_KALĀ   ;
 
 LEXICON N_KALĀ-SG  !!= @CODE@ contains  kalā:kalā 18
-+N: NMN_KALĀ-SG ;
+	NMN_KALĀ-SG    ;
 
 LEXICON N_KALĀ-PL  !!= @CODE@ contains  kalā:kalā 18
-+N: NMN_KALĀ-PL ;
+	NMN_KALĀ-PL    ;
 
 LEXICON N_TUBĀ !!= @CODE@ tubā:tubā 19
- N_KALĀ	;
+ 	NMN_KALĀ	;
 
 LEXICON N_TUBĀ-PL !!= @CODE@ tubā:tubā 19
- N_KALĀ-PL   ;
+	NMN_KALĀ-PL   ;
 
 LEXICON N_AIGĀ !!= @CODE@ aigā:aigā 20
 	N_KALĀ	;
@@ -150,25 +130,31 @@ LEXICON N_RŌDA-PL !!= @CODE@ rōda:rōda 38
 +N:     PL-CASES   ;
 
 LEXICON N_PADĀ !!= @CODE@ padā:padā 39
-+N:	NMN_PADĀ	;
++N:	NMN_PADĀ   ;
 
 LEXICON N_PADĀ-SG !!= @CODE@ padā:padā 39
-+N:     NMN_PADĀ-SG        ;
++N:	NMN_PADĀ-SG   ;
 
 LEXICON N_PADĀ-PL !!= @CODE@ padā:padā 39
-+N:     NMN_PADĀ-PL        ;
++N:	NMN_PADĀ-PL   ;
 
 LEXICON N_SÕBRĀ !!= @CODE@ sõbrā:sõbrā 40
-+N:	CASES	;
++N:	NMN_PADĀ	;
+
+LEXICON N_SÕBRĀ-PL !!= @CODE@ sõbrā:sõbrā 40
++N:	NMN_PADĀ-PL  ;
 
 LEXICON N_KÄPĀ !!= @CODE@ käpā:käpā 41
-+N:	CASES	;
++N:     NMN_PADĀ  ;
 
 LEXICON N_KÄPĀ-PL !!= @CODE@ käpā:käpā 41
-+N:     PL-CASES   ;
++N:     NMN_PADĀ-PL  ;
 
 LEXICON N_MAKSĀ !!= @CODE@ maksā:maksā 42
-+N:	CASES	;
++N:     NMN_PADĀ  ;
+
+LEXICON N_MAKSĀ-PL !!= @CODE@ maksā:maksā 42
++N:     NMN_PADĀ-PL  ;
 
 LEXICON N_KĒRA !!= @CODE@ kēra:kēra 43
 +N:	CASES	;
@@ -371,9 +357,20 @@ LEXICON N_UL
 !!= @CODE@ : 100
 LEXICON N_PAN
 +N:	CASES	;
-!!= @CODE@ : 101
-LEXICON N_TÄM
-+N:	CASES	;
+
+LEXICON N_TÄM !!= @CODE@ täm:tam 101 
++N:%^ConsL		SG-DAT_õn   ;
++N:			SG-ELA_stõ  ;
++N:			SG-GEN	    ;
++N:%^ConsL		SG-ILL_õ    ;
++N:%^ConsL		SG-INS_õks  ;
++N:%^PalatalizeLeft	SG-NOM	    ;
++N:%^ConsL		SG-PAR_õ    ;
++N:%^VowsL1aToǭ	PL-INS_ÕDÕKS-STEM	;
++N:%^VowsL1aToǭ	PL-ELA_ist	;
++N:%^VowsL1aToǭ	PL-ILL_iž	;
++N:%^VowsL1aToǭ	PL-PAR_idi	;
+
 !!= @CODE@ : 102
 LEXICON N_NIŖȚ
 +N:	CASES	;
@@ -460,41 +457,41 @@ LEXICON N_Ǭ’J !!= @CODE@ ǭ’j:ǭj 124
 +N:	CASES	;
 
 LEXICON N_IRM !!= @CODE@ : 125
-+N:	CASES	;
++N:	NMN_IRM	  ;
 
 LEXICON N_IRM-PL !!= @CODE@ : 125
-+N:     PL-CASES   ;
++N:     NMN_IRM-PL   ;
 
 LEXICON N_KIM !!= @CODE@ : 126
-+N:	CASES	;
++N:	NMN_IRM	;
 
 LEXICON N_KIM-SG !!= @CODE@ : 126
-+N:     SG-CASES   ;
++N:     NMN_IRM-SG   ;
 
 LEXICON N_KIM-PL !!= @CODE@ : 126
-+N:     PL-CASES   ;
++N:     NMN_IRM-PL   ;
 
 !!= @CODE@ : 127
 LEXICON N_VȮŅ
 +N:	CASES	;
 
 LEXICON N_VA’IT !!= @CODE@ va’it:vait 128
-+N:	CASES	;
++N:	NMN_IRM	;
 
 LEXICON N_VA’IT-PL	!!= @CODE@ va’it:vait 128
-+N:     PL-CASES   ;
++N:     NMN_IRM-PL   ;
 
 LEXICON N_AMĀT !!= @CODE@ : 129
-+N:	CASES	;
++N:	NMN_AMĀT	;
 
 LEXICON N_AMĀT-PL !!= @CODE@ : 129
-+N:     PL-CASES   ;
++N:     NMN_AMĀT-PL   ;
 
 LEXICON N_KULTŪR !!= @CODE@ : 130
-+N:	CASES	;
-!!= @CODE@ sa’gdit:sagdit 131
-LEXICON N_SA’GDIT
-+N:	CASES	;
++N:	NMN_AMĀT	;
+
+LEXICON N_SA’GDIT !!= @CODE@ sa’gdit:sagdit 131
++N:	NMN_AMĀT	;
 
 LEXICON N_VIĻȚ !!= @CODE@ : 132
 +N:	CASES	;
@@ -510,10 +507,10 @@ LEXICON N_BLĒ’Ḑ
 +N:	CASES	;
 
 LEXICON N_FAKT !!= @CODE@ : 135
-+N:	CASES	;
++N:	NMN_FAKT	;
 
 LEXICON N_FAKT-PL !!= @CODE@ : 135
-+N:     PL-CASES   ;
++N:     NMN_FAKT-PL   ;
 
 LEXICON N_TAS !!= @CODE@ : 136
 +N:	CASES	;
@@ -528,40 +525,23 @@ LEXICON N_LǞ’ND
 +N:	CASES	;
 
 LEXICON N_ĀIGAST !!= @CODE@ : 140
-!! >õ> [sg.dat,sg.ela,sg.ins,]
-+N:	SG-DAT_õn	;
-+N:	SG-ELA_õst	;
-+N:	SG-GEN	;
-+N:	SG-ILL_õ	;
-+N:	SG-INS_õks	;
-+N:	SG-NOM	;
-+N:	SG-PAR_õ	;
- N_ĀIGAST-PL ;
++N:	NMN_ĀIGAST   ;
 
 LEXICON N_ĀIGAST-PL !!= @CODE@ : 140
-!! >õd> [pl.dat, pl.gen, pl.ins, pl.nom]
-+N:	PL-DAT_õdõn	;
-+N:	PL-ELA_ist	;
-+N:	PL-GEN_õd	;
-+N:	PL-ILL_iž	;
-!+N:	PL_INE	;
-+N:	PL-INS_õdõks	;
-+N:	PL-NOM_õd	;
-+N:	PL-PAR_idi	;
+	NMN_ĀIGAST-PL	;
 
 LEXICON N_ANALĪZ !!= @CODE@ : 141
- N_ĀIGAST ;
-
+ 	NMN_ĀIGAST ;
 
 LEXICON N_NĪ’EM !!= @CODE@ nī’em:nīem 142
- N_ĀIGAST ;
+ 	NMN_ĀIGAST ;
 
 
 LEXICON N_JAĻKŠ !!= @CODE@ : 143
-+N:	CASES	;
++N:	NMN_JAĻKŠ	;
 
 LEXICON N_JAĻKŠ-PL	!!= @CODE@ : 143
-+N:     PL-CASES   ;
++N:     NMN_JAĻKŠ-PL   ;
 
 LEXICON N_VIŠ !!= @CODE@ : 144
 +N:	CASES	;
@@ -806,12 +786,12 @@ LEXICON N_TŪĻI !!= @CODE@ : 199
 
 LEXICON N_TŪĻI-PL !!= @CODE@ : 199
 +N:z PL-DAT_dõn ;
-+N:ži PL-ELA ;
-+N:z PL-GEN ;
-+N:ži PL-ILL_z ;
++N:ž PL-ELA_ist ;
++N:z PL-GEN_d ;
++N:ž PL-ILL_iz ;
 ! PL-INE ;
 +N:z PL-INS_dõks ;
-+N:z PL-NOM ;
++N:z PL-NOM_d ;
 +N:z PL-PAR_i ;
 
 
@@ -885,12 +865,9 @@ LEXICON N_LÄPŠ !!= @CODE@ läpš:laps 211
 
 
 LEXICON N_LÄPŠ-PL !!= @CODE@ läpš:laps 211
-+N:     PL-DAT_dõn   ;
++N:     PL-INS_DKÕKS-STEM   ;
 +N:%^PalatalizeLeft     PL-ELA_īst   ;
-+N:     PL-GEN   ;
 +N:%^PalatalizeLeft     PL-ILL_īz   ;
-+N:     PL-INS_dkõks   ;
-+N:     PL-NOM   ;
 +N:%^PalatalizeLeft     PL-PAR_i   ;
 
 LEXICON N_RIŠTĪNG-SG !!= @CODE@ : 212
@@ -945,85 +922,165 @@ LEXICON N_SALĀJ !!= @CODE@ : 225
 +N:	CASES	;
 
 LEXICON N_UMĀRZ !!= @CODE@ umārz:umār 226
-	NMN_UMĀRZ   ;
++N:	NMN_UMĀRZ  ;
+
+LEXICON N_UMĀRZ-PL !!= @CODE@ umārz:umār 226
++N:	NMN_UMĀRZ-PL   ;
 
 LEXICON N_DULLÕNZ !!= @CODE@ dullõnz:dullõn 227
-	NMN_UMĀRZ	;
+	N_UMĀRZ	  ;
+LEXICON N_DULLÕNZ-PL !!= @CODE@ dullõnz:dullõn 227
+	N_UMĀRZ-PL	  ;
 
 LEXICON N_A’BBÕNZ !!= @CODE@ a’bbõnz:a’bbõn 228
-	NMN_UMĀRZ	;
+	N_UMĀRZ	;
 
 LEXICON N_A’BBÕNZ-PL !!= @CODE@ a’bbõnz:a’bbõn 228
-	NMN_UMĀRZ-PL       ;
+	N_UMĀRZ-PL       ;
 
 LEXICON N_AŅGÕRZ !!= @CODE@ : aņgõrz:aņgõr 229
-	NMN_UMĀRZ	;
+	N_AŅGÕRZ-PL  ;
++N:     SG-DAT_õn        ;
++N:     SG-ELA_õst        ;
++N:     SG-GEN   ;
++N:     SG-ILL_õ         ;
++N:     SG-INS_õks       ;
++N:z    SG-NOM   ;
++N:z    SG-PAR_t         ;
 
 LEXICON N_AŅGÕRZ-PL !!= @CODE@ : aņgõrz:aņgõr 229
-        NMN_UMĀRZ-PL       ;
++N:     PL-INS_DÕKS-STEM    ;
++N:     PL-ELA_ist       ;
++N:     PL-ILL_iž        ;
++N:     PL-PAR_i         ;
 
 LEXICON N_KA’GGÕRZ !!= @CODE@ ka’ggõrz:ka’ggõr 230
-	NMN_UMĀRZ	;
+	N_AŅGÕRZ   ;
+
+LEXICON N_KA’GGÕRZ-PL !!= @CODE@ ka’ggõrz:ka’ggõr 230
+	N_AŅGÕRZ-PL   ;
 
 LEXICON N_PǞGIŅŽ !!= @CODE@ pǟgiņž:pǟgiņ 231
-	NMN_UMĀRZ	;
+	N_PǞGIŅŽ-PL      ;
++N:	SG-DAT_õn	 ;
++N:	SG-ELA_št	 ;
++N:	SG-GEN	 	 ;
++N:	SG-ILL_õ	 ;
++N:	SG-INS_õks	 ;
++N:ž	SG-NOM	 	 ;
++N:ž	SG-PAR_t	 ;
 
-LEXICON N_VAGĀŖ !!= @CODE@ vagāŗ:vagāŗ 232
-+N:	CASES	;
+LEXICON N_PǞGIŅŽ-PL !!= @CODE@ pǟgiņž:pǟgiņ 231
++N:	PL-INS_DÕKS-STEM	 ;
++N:	PL-ELA_ist	 ;
++N:	PL-ILL_iž	 ;
++N:	PL-PAR_i	 ;
+
+LEXICON N_VAGĀŖ !!= @CODE@ vagāŗ:vagār 232
+	N_VAGĀŖ-PL  ;
++N:     SG-DAT_õn       ;
++N:     SG-ELA_õst      ;
++N:     SG-GEN  ;
++N:     SG-ILL_õ        ;
++N:     SG-INS_õks      ;
++N:%^PalatalizeLeft     SG-NOM  ;
++N:     SG-PAR_t        ;
+
+LEXICON N_VAGĀŖ-PL !!= @CODE@ vagāŗ:vagār 232
++N:     PL-INS_DÕKS-STEM   ;
++N:%^PalatalizeLeft     PL-ELA_ist         ;
++N:%^PalatalizeLeft     PL-ILL_iž          ;
++N:%^PalatalizeLeft     PL-PAR_i           ;
 
 LEXICON N_TIDĀR !!= @CODE@ tidār:tidār 233
-+N:	CASES	;
+ 	N_TIDĀR-PL  ;
++N:	SG-DAT_õn	;
++N:	SG-ELA_õst	;
++N:	SG-GEN	;
++N:	SG-ILL_õ	;
++N:	SG-INS_õks	;
++N:	SG-NOM	;
++N:	SG-PAR_t	;
 
 LEXICON N_TIDĀR-PL !!= @CODE@ tidār:tidār 233
-+N:     PL-CASES   ;
++N:     PL-INS_DÕKS-STEM   ;
++N:%^PalatalizeLeft	PL-ELA_ist	   ;
++N:%^PalatalizeLeft	PL-ILL_iž	   ;
++N:%^PalatalizeLeft	PL-PAR_i	   ;
 
 LEXICON N_PĒGAL !!= @CODE@ pēgal:pēgal 234
-+N:	CASES	;
+	N_TIDĀR	;
 
 LEXICON N_PĒGAL-PL !!= @CODE@ pēgal:pēgal 234
-+N:     PL-CASES   ;
+        N_TIDĀR-PL  ;
 
 LEXICON N_APPÕN !!= @CODE@ appõn:appõn 235
-+N:	CASES	;
+        N_TIDĀR ;
 
 LEXICON N_APPÕN-PL !!= @CODE@ appõn:appõn 235
-+N:     PL-CASES   ;
+        N_TIDĀR-PL  ;
 
 LEXICON N_Ǭ’RÕN !!= @CODE@ ǭ’rõn:ǭrõn 236
-+N:	CASES	;
+        N_TIDĀR ;
 
 LEXICON N_Ǭ’RÕN-PL !!= @CODE@ ǭ’rõn:ǭrõn 236
-+N:     PL-CASES   ;
+        N_TIDĀR-PL  ;
 
 LEXICON N_KĪNDÕR !!= @CODE@ kīndõr:kīndõr 237
-+N:	CASES	;
+        N_KĪNDÕR-PL  ;
++N:     SG-DAT_õn    ;
++N:     SG-ELA_õst    ;
++N:     SG-GEN    ;
++N:     SG-ILL_õ    ;
++N:     SG-INS_õks    ;
++N:     SG-NOM    ;
++N:     SG-PAR_t    ;
+
+LEXICON N_KĪNDÕR-PL !!= @CODE@ kīndõr:kīndõr 237
++N:     PL-INS_DÕKS-STEM   ;
++N:     PL-ELA_ist         ;
++N:     PL-ILL_iž          ;
++N:     PL-PAR_i           ;
 
 LEXICON N_BÄ’ZMÕR !!= @CODE@ bä’zmõr:bäzmõr 238
-+N:	CASES	;
+	N_KĪNDÕR  ;
 
 LEXICON N_BÄ’ZMÕR-PL !!= @CODE@ bä’zmõr:bäzmõr 238
-+N:     PL-CASES   ;
+	N_KĪNDÕR-PL  ;
 
 LEXICON N_TARĪĻ !!= @CODE@ tarīļ:tarīļ 239
-+N:	CASES	;
+	N_TARĪĻ-PL  ;
++N:     SG-DAT_õn    ;
++N:     SG-ELA_št    ;
++N:     SG-GEN    ;
++N:     SG-ILL_õ    ;
++N:     SG-INS_õks    ;
++N:     SG-NOM    ;
++N:     SG-PAR_t    ;
 
 LEXICON N_TARĪĻ-PL !!= @CODE@ tarīļ:tarīļ 239
-+N:     PL-CASES   ;
++N:     PL-INS_DÕKS-STEM   ;
++N:     PL-ELA_ist         ;
++N:     PL-ILL_iž          ;
++N:     PL-PAR_i           ;
 
 LEXICON N_ĀNKAŖ !!= @CODE@ ānkaŗ:ānkaŗ 240
-+N:	CASES	;
+	N_TARĪĻ	;
 
 LEXICON N_ĀNKAŖ-PL !!= @CODE@ ānkaŗ:ānkaŗ 240
-+N:     PL-CASES   ;
+	N_TARĪĻ-PL ;
 
 LEXICON N_VIRPÕĻ !!= @CODE@ virpõļ:virpõļ 241
-+N:	CASES	;
+        N_TARĪĻ ;
+
+LEXICON N_VIRPÕĻ-PL !!= @CODE@ virpõļ:virpõļ 241
+        N_TARĪĻ-PL ;
 
 LEXICON N_Ǭ’BIĻ !!= @CODE@ ǭ’biļ:ǭbiļ 242
-+N:	CASES	;
+        N_TARĪĻ ;
 
 LEXICON N_Ǭ’BIĻ-PL !!= @CODE@ ǭ’biļ:ǭbiļ 242
-+N:     PL-CASES   ;
+	N_TARĪĻ-PL ;
 
 LEXICON N_GOLĀTÕKS !!= @CODE@ golātõks:golātõks 244 found in Liv-est-lat dictionary
  N_KĒRATÕKS ; !!
@@ -1033,66 +1090,304 @@ LEXICON N_GOLĀTÕKS !!= @CODE@ golātõks:golātõks 244 found in Liv-est-lat d
 
 !! !!Nominal inflection
 !! !! Inflection lexica
+LEXICON NMN_PŪ
+	NMN_PŪ-SG	;
+	NMN_PŪ-PL	;
 
-LEXICON NMN_KALĀ !!= @CODE@ contains cases for nominals
- NMN_KALĀ-SG 	 ;
- NMN_KALĀ-PL 	 ;
+LEXICON NMN_PŪ-SG
+ 	SG-DAT_n ;
+ 	SG-ELA_stõ ;
+ 	SG-GEN ;
+ 	SG-ILL_’zõ ;
+! SG-INE ;
+  	SG-INS_kõks ;
+     	SG-NOM  ;
+ 	SG-PAR_dõ ;
+
+LEXICON NMN_PŪ-PL
+ PL-INS_DKÕKS-STEM ;
+ PL-ELA_šti ;
+ PL-ILL_’ži ;
+! PL-INE ;
+ PL-PAR_ḑi ;
+
+LEXICON NMN_RǬ’
+	NMN_RǬ’-PL ;
+        SG-DAT_n ;
+        SG-ELA_stõ ;
+        SG-GEN ;
+        SG-ILL_zõ ;
+! SG-INE ;
+        SG-INS_kõks ;
+        SG-NOM  ;
+        SG-PAR_dõ ;
+
+LEXICON NMN_RǬ’-PL
+	PL-INS_DKÕKS-STEM ;
+	PL-ELA_šti ;
+	PL-ILL_ži ;
+! 	PL-INE ;
+ 	PL-PAR_ḑi ;
+
+LEXICON NMN_PǞ
+	NMN_PǞ-PL	:
+        SG-DAT_n ;
+        SG-ELA_stõ ;
+        SG-GEN ;
+        SG-ILL_’zõ ;
+! SG-INE ;
+        SG-INS_kõks ;
+        SG-NOM  ;
+        SG-PAR_dõ ;
+
+LEXICON NMN_PǞ-PL
+        PL-INS_DKÕKS-STEM ;
+:%^PalatalizeLeft        PL-ELA_šti ;
+:%^PalatalizeLeft        PL-ILL_’ži ;
+!       PL-INE ;
+:%^PalatalizeLeft        PL-PAR_ḑi ;
+
+LEXICON NMN_BRĪ
+	NMN_BRĪ-PL	;
+        SG-DAT_õn ;
+        SG-ELA_õst ;
+	SG-GEN ;
+        SG-ILL_õ ;
+! SG-INE ;
+        SG-INS_õks ;
+        SG-NOM  ;
+	SG-PAR_õ ;
+
+LEXICON NMN_BRĪ-PL
+        PL-INS_DKÕKS-STEM ;
+        PL-ELA_šti ;
+        PL-ILL_ži ;
+!       PL-INE ;
+	PL-PAR_ḑi ;
+
+!17
+
+!18,19
+LEXICON NMN_KALĀ
+	NMN_KALĀ-SG	;
+	NMN_KALĀ-PL	;
 
 LEXICON NMN_KALĀ-SG
-:%^StodRM	SG-NOM	;
-:%^StodRM	SG-GEN	;
-:%^StodRM	SG-DAT_õn	;
-:%^StodRM	SG-INS_õks	;
-:%^StodRM	SG-ELA_õst	;
-!
-:%^Stress2to1	SG-PAR_ZERO	;
-:%^Stress2to1	SG-ILL_ZERO	;
++N:%^StodRM        SG-DAT_n ;
++N:%^StodRM        SG-ELA_st ;
++N:%^StodRM        SG-GEN ;
++N:%^Stress2to1    SG-ILL_ZERO ;
+! SG-INE ;
++N:%^StodRM        SG-INS_õks ;
++N:%^StodRM        SG-NOM  ;
++N:%^Stress2to1    SG-PAR_ZERO ;
 
-LEXICON NMN_KALĀ-PL !!
-:%^StodRM	PL-NOM_õd	;
-:%^StodRM	PL-GEN_õd	;
-:%^StodRM	PL-DAT_õdõn	;
-:%^StodRM	PL-INS_õdõks	;
-:%^Stress2to1%^VowsRM%^ConsRM  PL-PAR_ḑi       ; !! See l:ļ in twolc
-:%^Stress2to1%^VowsRM%^ConsRM PL-ILL_ži       ;
-:%^Stress2to1%^VowsRM%^ConsRM PL-ELA_šti       ;
+LEXICON NMN_KALĀ-PL
+:%^StodRM        PL-INS_DKÕKS-STEM ;
+:%^Stress2to1%^VowsRM        PL-ELA_šti ;
+:%^Stress2to1%^VowsRM        PL-ILL_ži ;
+!       PL-INE ;
+:%^Stress2to1%^VowsRM        PL-PAR_ḑi ;
 
+!20
 
-LEXICON NMN_PADĀ !!
- NMN_PADĀ-SG	 ;
- NMN_PADĀ-PL 	 ;
+!39, 40, 41, 42
+LEXICON NMN_PADĀ
+	NMN_PADĀ-SG	;
+	NMN_PADĀ-PL	;
 
-LEXICON NMN_PADĀ-SG !!
- SG-CASES ;
+LEXICON NMN_PADĀ-SG
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA_st ;
+:%^StodRM        SG-GEN ;
+:%^Stress2to1    SG-ILL_ZERO ;
+! SG-INE ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^Stress2to1    SG-PAR_ZERO ;
 
-LEXICON NMN_PADĀ-PL !!
- PL-CASES ;
+LEXICON NMN_PADĀ-PL
+:%^StodRM        PL-INS_DKÕKS-STEM ;
+:%^Stress2to1%^VowsRM        PL-ELA_īšt ;
+:%^Stress2to1%^VowsRM        PL-ILL_īž ;
+!       PL-INE ;
+:%^Stress2to1%^VowsRM        PL-PAR_īdi ;
 
-LEXICON NMN_UMĀRZ !! is fed by types _UMĀRZ 226, _DULLÕNZ 227, _A’BBÕNZ 228,
-!! _AŅGÕRZ 229, _KA’GGÕRZ 230, _PǞGIŅŽ 231
- NMN_UMĀRZ-SG	;
- NMN_UMĀRZ-PL	;
+!! 43
+ 
+!! 46
+LEXICON NMN_ĀITA
+	NMN_ĀITA-SG	;
+	NMN_ĀITA-PL	;
+
+LEXICON NMN_ĀITA-SG
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA_st ;
+:%^StodRM        SG-GEN ;
+:%^Stress1to2%^VowsRM    SG-ILL_õ ;
+! SG-INE ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^Stress1to2%^VowsRM    SG-PAR_õ ;
+
+LEXICON NMN_ĀITA-PL
+:%^StodRM        PL-INS_DÕKS-STEM ;
+:%^Stress1to2%^VowsRM        PL-ELA_išt ;
+:%^Stress1to2%^VowsRM        PL-ILL_iž ;
+!       PL-INE ;
+:%^Stress1to2%^VowsRM        PL-PAR_idi ;
+
+!!
+
+! 125, 126, 128
+LEXICON NMN_IRM
+        NMN_IRM-SG     ;
+        NMN_IRM-PL     ;
+
+LEXICON NMN_IRM-SG
+:%^ConsL        SG-DAT_õn ;
+        	SG-ELA_stõ ;
+        	SG-GEN ;
+:%^ConsL    	 SG-ILL_õ ;
+! SG-INE ;
+:%^ConsL        SG-INS_õks ;
+        	SG-NOM  ;
+:%^ConsL    	SG-PAR_õ ;
+
+LEXICON NMN_IRM-PL
+:%^ConsL 	PL-INS_ÕDÕKS-STEM ;
+:%^ConsL 	PL-ELA_ist ;
+:%^ConsL 	PL-ILL_iž ;
+:%^ConsL 	PL-PAR_idi ;
+!!
+
+!! 129, 130, 131
+LEXICON NMN_AMĀT
+        NMN_AMĀT-SG     ;
+        NMN_AMĀT-PL     ;
+
+LEXICON NMN_AMĀT-SG
+        SG-DAT_õn ;
+       	SG-ELA_st ;
+        SG-GEN ;
+  	SG-ILL_õ ;
+! SG-INE ;
+        SG-INS_õks ;
+	SG-NOM  ;
+    	SG-PAR_õ ;
+
+LEXICON NMN_AMĀT-PL
+ 	PL-INS_ÕDÕKS-STEM ;
+ 	PL-ELA_ist ;
+ 	PL-ILL_iž ;
+ 	PL-PAR_idi ;
+!! 132
+
+!! 135
+LEXICON NMN_FAKT
+        NMN_FAKT-SG     ;
+        NMN_FAKT-PL     ;
+
+LEXICON NMN_FAKT-SG
+        SG-DAT_õn ;
+       	SG-ELA_õst ;
+        SG-GEN ;
+  	SG-ILL_õ ;
+! SG-INE ;
+        SG-INS_õks ;
+	SG-NOM  ;
+    	SG-PAR_õ ;
+
+LEXICON NMN_FAKT-PL
+ 	PL-INS_ÕDÕKS-STEM ;
+ 	PL-ELA_ist ;
+ 	PL-ILL_iž ;
+ 	PL-PAR_idi ;
+!!
+
+!! 140, 141, 142
+LEXICON NMN_ĀIGAST
+        NMN_ĀIGAST-SG     ;
+        NMN_ĀIGAST-PL     ;
+
+LEXICON NMN_ĀIGAST-SG
+        SG-DAT_õn ;
+       	SG-ELA_õst ;
+        SG-GEN ;
+  	SG-ILL_õ ;
+! SG-INE ;
+        SG-INS_õks ;
+	SG-NOM  ;
+    	SG-PAR_õ ;
+
+LEXICON NMN_ĀIGAST-PL
+ 	PL-INS_ÕDÕKS-STEM ;
+ 	PL-ELA_ist ;
+ 	PL-ILL_iž ;
+ 	PL-PAR_idi ;
+
+!! 143, 144, 145
+LEXICON NMN_JAĻKŠ
+        NMN_JAĻKŠ-SG     ;
+        NMN_JAĻKŠ-PL     ;
+
+LEXICON NMN_JAĻKŠ-SG
+:%^ConsL        SG-DAT_õn ;
+:%^ConsL       	SG-ELA_õst ;
+        SG-GEN ;
+:%^ConsL  	SG-ILL_õ ;
+! SG-INE ;
+:%^ConsL        SG-INS_õks ;
+	SG-NOM  ;
+:%^ConsL    	SG-PAR_õ ;
+
+LEXICON NMN_JAĻKŠ-PL
+:%^ConsL 	PL-INS_ÕDÕKS-STEM ;
+:%^ConsL 	PL-ELA_ist ;
+:%^ConsL 	PL-ILL_iz ;
+:%^ConsL 	PL-PAR_idi ;
+!!
+
+!! 226, 227, 228
+LEXICON NMN_UMĀRZ
+        NMN_UMĀRZ-SG     ;
+        NMN_UMĀRZ-PL     ;
 
 LEXICON NMN_UMĀRZ-SG
-:õ SG-DAT ;
- SG-ELA ;
- SG-GEN ;
- SG-ILL ;
- SG-INE ;
- SG-INS ;
-:%>z	SG-NOM	  ;
-:%>zt	SG-PAR ;
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA_st ;
+:%^StodRM        SG-GEN ;
+:%^Stress1to2%^VowsRM    SG-ILL_õ ;
+! SG-INE ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^Stress1to2%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_UMĀRZ-PL
- PL-DAT_dõn ;
- PL-ELA ;
- PL-GEN ;
- PL-ILL ;
- PL-INE ;
- PL-INS_dõks ;
- PL-NOM ;
- PL-PAR ;
+ 	PL-INS_DÕKS-STEM ;
+:%^PalatalizeLeft PL-ELA_ist ;
+:%^PalatalizeLeft PL-ILL_iž ;
+:%^PalatalizeLeft PL-PAR_i ;
 
+!!
+
+LEXICON PL-INS_DÕKS-STEM
+     PL-DAT_dõn       ;
+     PL-GEN_d         ;
+     PL-INS_dõks      ;
+     PL-NOM_d         ;
+
+LEXICON PL-INS_DKÕKS-STEM
+     PL-DAT_dõn       ;
+     PL-GEN_d         ;
+     PL-INS_dkõks      ;
+     PL-NOM_d         ;
+
+LEXICON PL-INS_ÕDÕKS-STEM
+     PL-DAT_õdõn       ;
+     PL-GEN_õd         ;
+     PL-INS_õdõks      ;
+     PL-NOM_õd         ;
 
 
 LEXICON NTag
@@ -1108,84 +1403,91 @@ LEXICON SG-CASES
  SG-OBLCASES ;
 
 LEXICON SG-OBLCASES
- SG-DAT	;
- SG-ELA	;
+! SG-DAT	;
+! SG-ELA	;
  SG-GEN	;
- SG-ILL	;
+! SG-ILL	;
  SG-INE	;
- SG-INS	;
- SG-PAR	;
+! SG-INS	;
+! SG-PAR	;
 
 LEXICON	PL-CASES
  PL-DAT_dõn	;
- PL-ELA	;
- PL-GEN	;
- PL-ILL	;
+! PL-ELA	;
+! PL-GEN	;
+! PL-ILL	;
  PL-INE	;
  PL-INS_dõks	;
- PL-NOM	;
+! PL-NOM	;
  PL-PAR	;
 
 !!= @CODE@ #:0   nouns   ;
 
 !! !!NUMBER AND CASE
 
-LEXICON SG-DAT
-+Sg+Dat:n K ;
-LEXICON SG-DAT_õn
-+Sg+Dat:õn K ;
+LEXICON SG-DAT_n
++Sg+Dat:%>n K ;
 
-LEXICON SG-ELA
-+Sg+Ela:st K ;
+LEXICON SG-DAT_õn
++Sg+Dat:%>õn K ;
+
+LEXICON SG-ELA_st
++Sg+Ela:%>st K ;
+
+LEXICON SG-ELA_št
++Sg+Ela:%>št K ;
+
 LEXICON SG-ELA_õst
-+Sg+Ela:õst K ;
++Sg+Ela:%>õst K ;
 
 LEXICON SG-ELA_stõ
-+Sg+Ela:stõ K ;
++Sg+Ela:%>stõ K ;
 
 LEXICON SG-GEN
 +Sg+Gen: K ;
-!LEXICON SG-ILL
-!+Sg+Ill: K ;
 
 LEXICON SG-ILL_’zõ
-+Sg+Ill:’zõ K ;
++Sg+Ill:%>’zõ K ;
+
+LEXICON SG-ILL_zõ
++Sg+Ill:%>zõ K ;
 
 LEXICON SG-ILL_ZERO
 +Sg+Ill: K ;
 
 LEXICON SG-ILL_õ
-+Sg+Ill:õ K ;
++Sg+Ill:%>õ K ;
 
 LEXICON SG-INE
 +Sg+Ine: K ;
-LEXICON SG-INS
-+Sg+Ins:ks K ;
+
+LEXICON SG-INS_ks
++Sg+Ins:%>ks K ;
 
 LEXICON SG-INS_õks
-+Sg+Ins:õks K ;
++Sg+Ins:%>õks K ;
 LEXICON SG-INS_kõks
-+Sg+Ins:kõks K ;
++Sg+Ins:%>kõks K ;
 
 LEXICON SG-NOM
 +Sg+Nom: K ;
 LEXICON SG-PAR_ZERO
 +Sg+Par: K ;
 LEXICON SG-PAR_õ
-+Sg+Par:õ K ;
++Sg+Par:%>õ K ;
 LEXICON SG-PAR_dõ
-+Sg+Par:dõ K ;
++Sg+Par:%>dõ K ;
 LEXICON SG-PAR_t
-+Sg+Par:t K ;
++Sg+Par:%>t K ;
 LEXICON SG-PAR_tā
-+Sg+Par:tā K ;
++Sg+Par:%>tā K ;
 
 
 LEXICON PL-DAT_dõn
-+Pl+Dat:dõn K ;
++Pl+Dat:%>dõn K ;
 
 LEXICON PL-DAT_õdõn
-+Pl+Dat:õdõn K ;
++Pl+Dat:%>õdõn K ;
 
 LEXICON PL-ELA_õst
 +Pl+Ela:%>õst K ;
@@ -1196,31 +1498,40 @@ LEXICON PL-ELA_ist
 LEXICON PL-ELA_īst
 +Pl+Ela:%>īst K ;
 
+LEXICON PL-ELA_īšt
++Pl+Ela:%>īšt K ;
+
+LEXICON PL-ELA_išt
++Pl+Ela:%>išt K ;
+
 LEXICON PL-ELA_šti
 +Pl+Ela:%>šti K ;
 
 
-LEXICON PL-GEN
+LEXICON PL-GEN_d
 +Pl+Gen:%>d K ;
 
 LEXICON PL-GEN_õd
 +Pl+Gen:%>õd K ;
 
-LEXICON PL-ILL
-+Pl+Ill: K ;
+
 LEXICON PL-ILL_z
-+Pl+Ill:z K ;
++Pl+Ill:%>z K ;
+LEXICON PL-ILL_iz
++Pl+Ill:%>iz K ;
 LEXICON PL-ILL_īz
-+Pl+Ill:īz K ;
++Pl+Ill:%>īz K ;
 
 LEXICON PL-ILL_’ži
-+Pl+Ill:’ži K ;
++Pl+Ill:%>’ži K ;
 
 LEXICON PL-ILL_ži
 +Pl+Ill:%>ži K ;
 
 LEXICON PL-ILL_iž
-+Pl+Ill:iž K ;
++Pl+Ill:%>iž K ;
+LEXICON PL-ILL_īž
++Pl+Ill:%>īž K ;
 
 LEXICON PL-INE
 +Pl+Ine: K ;
@@ -1232,20 +1543,23 @@ LEXICON PL-INS_õdõks
 +Pl+Ins:%>õdõks K ;
 
 LEXICON PL-INS_dkõks
-+Pl+Ins:dkõks K ;
++Pl+Ins:%>dkõks K ;
 
-LEXICON PL-NOM
+LEXICON PL-NOM_d
 +Pl+Nom:%>d K ;
 LEXICON PL-NOM_õd
 +Pl+Nom:%>õd K ;
-LEXICON PL-NOM_t
-+Pl+Nom:t K ;
+!LEXICON PL-NOM_t
+!+Pl+Nom:%>t K ;
 
 LEXICON PL-PAR
 +Pl+Par: K ;
 
 LEXICON PL-PAR_idi
 +Pl+Par:%>idi K ;
+
+LEXICON PL-PAR_īdi
++Pl+Par:%>īdi K ;
 
 LEXICON PL-PAR_ḑi
 +Pl+Par:%>ḑi K ;
