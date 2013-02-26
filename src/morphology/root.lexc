@@ -182,7 +182,7 @@ Multichar_Symbols
  %^Stress2to1
  %^VowsRM
  %^ConsRM
- %^STOD
+ %^StodRM !! for removing Stød
  %^PalatalizeLeft
 
 !! We have manually optimised the structure of our lexicon using following
@@ -223,17 +223,6 @@ LEXICON ADV_KǬRAND
 
 LEXICON ADV_IRM
 +Adv: # ;
-
-LEXICON CONJ_
-+TYÄ: # ;
-
-! conjunctor
-LEXICON CC_
-+CC: # ;
-
-! subjunctor
-LEXICON CS_
-+CS: # ;
 
 LEXICON INTERJ_
 +Interj: #	;
