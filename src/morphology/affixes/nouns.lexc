@@ -1045,17 +1045,17 @@ LEXICON NMN_KALĀ-SG
 :%^StodRM	SG-INS_õks	;
 :%^StodRM	SG-ELA_õst	;
 !
-:%^Stress2to1	SG-PAR_Zero	;
-:%^Stress2to1	SG-ILL_Zero	;
+:%^Stress2to1	SG-PAR_ZERO	;
+:%^Stress2to1	SG-ILL_ZERO	;
 
 LEXICON NMN_KALĀ-PL !!
-+Pl+Nom:d	K	;
-+Pl+Gen:d	K	;
-+Pl+Dat:dõn	K	;
-+Pl+Ins:dõks	K	;
-+Pl+Par:%^Stress2to1%^VowsRM%^ConsRM%>ḑi  K       ; !! See l:ļ in twolc
-+Pl+Ill:%^Stress2to1%^VowsRM%^ConsRM%>ži  K       ;
-+Pl+Ela:%^Stress2to1%^VowsRM%^ConsRM%>šti  K       ;
+:%^StodRM	PL-NOM_õd	;
+:%^StodRM	PL-GEN_õd	;
+:%^StodRM	PL-DAT_õdõn	;
+:%^StodRM	PL-INS_õdõks	;
+:%^Stress2to1%^VowsRM%^ConsRM  PL-PAR_ḑi       ; !! See l:ļ in twolc
+:%^Stress2to1%^VowsRM%^ConsRM PL-ILL_ži       ;
+:%^Stress2to1%^VowsRM%^ConsRM PL-ELA_šti       ;
 
 
 LEXICON NMN_PADĀ !!
@@ -1145,8 +1145,8 @@ LEXICON SG-ELA_stõ
 
 LEXICON SG-GEN
 +Sg+Gen: K ;
-LEXICON SG-ILL
-+Sg+Ill: K ;
+!LEXICON SG-ILL
+!+Sg+Ill: K ;
 
 LEXICON SG-ILL_’zõ
 +Sg+Ill:’zõ K ;
@@ -1169,7 +1169,7 @@ LEXICON SG-INS_kõks
 
 LEXICON SG-NOM
 +Sg+Nom: K ;
-LEXICON SG-PAR
+LEXICON SG-PAR_ZERO
 +Sg+Par: K ;
 LEXICON SG-PAR_õ
 +Sg+Par:õ K ;
@@ -1187,13 +1187,18 @@ LEXICON PL-DAT_dõn
 LEXICON PL-DAT_õdõn
 +Pl+Dat:õdõn K ;
 
-LEXICON PL-ELA
-+Pl+Ela:st K ;
+LEXICON PL-ELA_õst
++Pl+Ela:%>õst K ;
 
 LEXICON PL-ELA_ist
 +Pl+Ela:%>ist K ;
+
 LEXICON PL-ELA_īst
 +Pl+Ela:%>īst K ;
+
+LEXICON PL-ELA_šti
++Pl+Ela:%>šti K ;
+
 
 LEXICON PL-GEN
 +Pl+Gen:%>d K ;
@@ -1210,6 +1215,9 @@ LEXICON PL-ILL_īz
 
 LEXICON PL-ILL_’ži
 +Pl+Ill:’ži K ;
+
+LEXICON PL-ILL_ži
++Pl+Ill:%>ži K ;
 
 LEXICON PL-ILL_iž
 +Pl+Ill:iž K ;
