@@ -12,7 +12,7 @@ This is free and open source Livonian morphology.
 
 Morphology
 ----------
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE LIVONIAN LANGUAGE.
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
 
 
 Analysis symbols
@@ -118,18 +118,18 @@ symbols in the lexicon files:
 
 And following triggers to control variation
 2013-02-01 
+vowel shortening in first syllable
+for removing Stød
+a >> ǭ
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
 
-The word forms in the LIVONIAN language start from the lexeme roots of basic
+The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 
 Words that are not inflected
-
-
-
 
 
 
@@ -358,14 +358,9 @@ Stem lexica
  LEXICON N_PŪ  contains pū: 12
 ~156
 
-
-
-
  LEXICON N_PŪ-PL  contains pū: 12
- 
 
-
- LEXICON N_RǬ’  contains rǭ’:rǭ 13
+ LEXICON N_RǬ’  contains rǭ’:rǭ’ 13
 
  LEXICON N_PǞ  contains pǟ:pǟ 14
 
@@ -447,11 +442,15 @@ Stem lexica
 
  LEXICON N_SÕBRĀ  sõbrā:sõbrā 40
 
+ LEXICON N_SÕBRĀ-PL  sõbrā:sõbrā 40
+
  LEXICON N_KÄPĀ  käpā:käpā 41
 
  LEXICON N_KÄPĀ-PL  käpā:käpā 41
 
  LEXICON N_MAKSĀ  maksā:maksā 42
+
+ LEXICON N_MAKSĀ-PL  maksā:maksā 42
 
  LEXICON N_KĒRA  kēra:kēra 43
 
@@ -568,7 +567,9 @@ Stem lexica
   : 98
   : 99
   : 100
-  : 101
+
+ LEXICON N_TÄM  täm:tam 101 
+
   : 102
   : 103
   : 104
@@ -631,7 +632,8 @@ Stem lexica
  LEXICON N_AMĀT-PL  : 129
 
  LEXICON N_KULTŪR  : 130
-  sa’gdit:sagdit 131
+
+ LEXICON N_SA’GDIT  sa’gdit:sagdit 131
 
  LEXICON N_VIĻȚ  : 132
 
@@ -650,13 +652,10 @@ Stem lexica
   lǟ’nd:lǟnd 139
 
  LEXICON N_ĀIGAST  : 140
->õ> [sg.dat,sg.ela,sg.ins,]
 
  LEXICON N_ĀIGAST-PL  : 140
->õd> [pl.dat, pl.gen, pl.ins, pl.nom]
 
  LEXICON N_ANALĪZ  : 141
-
 
  LEXICON N_NĪ’EM  nī’em:nīem 142
 
@@ -902,7 +901,10 @@ Stem lexica
 
  LEXICON N_UMĀRZ  umārz:umār 226
 
+ LEXICON N_UMĀRZ-PL  umārz:umār 226
+
  LEXICON N_DULLÕNZ  dullõnz:dullõn 227
+ LEXICON N_DULLÕNZ-PL  dullõnz:dullõn 227
 
  LEXICON N_A’BBÕNZ  a’bbõnz:a’bbõn 228
 
@@ -914,9 +916,15 @@ Stem lexica
 
  LEXICON N_KA’GGÕRZ  ka’ggõrz:ka’ggõr 230
 
+ LEXICON N_KA’GGÕRZ-PL  ka’ggõrz:ka’ggõr 230
+
  LEXICON N_PǞGIŅŽ  pǟgiņž:pǟgiņ 231
 
- LEXICON N_VAGĀŖ  vagāŗ:vagāŗ 232
+ LEXICON N_PǞGIŅŽ-PL  pǟgiņž:pǟgiņ 231
+
+ LEXICON N_VAGĀŖ  vagāŗ:vagār 232
+
+ LEXICON N_VAGĀŖ-PL  vagāŗ:vagār 232
 
  LEXICON N_TIDĀR  tidār:tidār 233
 
@@ -936,6 +944,8 @@ Stem lexica
 
  LEXICON N_KĪNDÕR  kīndõr:kīndõr 237
 
+ LEXICON N_KĪNDÕR-PL  kīndõr:kīndõr 237
+
  LEXICON N_BÄ’ZMÕR  bä’zmõr:bäzmõr 238
 
  LEXICON N_BÄ’ZMÕR-PL  bä’zmõr:bäzmõr 238
@@ -950,6 +960,8 @@ Stem lexica
 
  LEXICON N_VIRPÕĻ  virpõļ:virpõļ 241
 
+ LEXICON N_VIRPÕĻ-PL  virpõļ:virpõļ 241
+
  LEXICON N_Ǭ’BIĻ  ǭ’biļ:ǭbiļ 242
 
  LEXICON N_Ǭ’BIĻ-PL  ǭ’biļ:ǭbiļ 242
@@ -962,17 +974,53 @@ Stem lexica
 !!Nominal inflection
 Inflection lexica
 
- LEXICON NMN_KALĀ  contains cases for nominals
-
-
-See l:ļ in twolc
 
 
 
 
 
-is fed by types _UMĀRZ 226, _DULLÕNZ 227, _A’BBÕNZ 228,
-_AŅGÕRZ 229, _KA’GGÕRZ 230, _PǞGIŅŽ 231
+
+
+
+
+
+
+
+
+
+
+
+43
+
+46
+
+
+
+
+
+
+
+129, 130, 131
+
+
+132
+
+135
+
+
+
+140, 141, 142
+
+
+
+143, 144, 145
+
+
+
+226, 227, 228
+
+
+
 
 
 
@@ -986,6 +1034,19 @@ _AŅGÕRZ 229, _KA’GGÕRZ 230, _PǞGIŅŽ 231
   #:0   nouns   ;
 
 !!NUMBER AND CASE
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
