@@ -31,11 +31,12 @@ K1:k
 
 ! Vowel raising
 %^RVows:0
+%^VowsSh1:0 !!
 
 %^StodRM:0
 
 !%^ConsSh:0
-%^ConsL:0
+%^ConsL:0 !! lengthen consonant
 %^1Sh2L:0
 
 %^Stress1to2:0
@@ -43,6 +44,8 @@ K1:k
 %^VowsRM:0
 %^ConsRM:0
 %^PalatalizeLeft:0 !! laps:läpš
+
+%^VowsL1aToǭ:0
 
 %- !! Hyphen in  constructions 
 %> !! morpheme boundary
@@ -82,10 +85,15 @@ Rules
 ǭ:a <=> # Cons* _  ( i ) :Cons+ Vows: %^Stress1to2:0  ;
 
 
+"a:ǭ in first syllable"
+a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
+!€# tam%^VowsL1aToǭõd
+!€0 tǭm0õd
+
 
 !! Destressing in second syllable
 "ā:õ "
-ā:õ <=>  _ %^Stress2to1:0 [ # | %> ] ;
+ā:õ <=>  _ ( %^ConsL:0 ) %^Stress2to1:0 [ # | %> ] ;
 !# Cons* Vows ( 0: ) :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
 
 "ū:õ "
@@ -110,8 +118,9 @@ Rules
 ! simultaneous to reducing vowel of second syllable
 !! jelāb:jellõ
 "lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ"
- 0:Cx <=> Cx _ Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
-          where Cx in ( t k b d g l ļ n ņ r ŗ v z ž ) ;
+ 0:Cx <=> Cx _ Vows: %^ConsL:0 ;
+! Cx _ Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
+          where Cx in ( t k b d g l ļ m n ņ r ŗ v z ž ) ;
 !€  je0l0ā%^Stress2to1
 !0  je’llõ0
 
@@ -157,6 +166,9 @@ k:0 <=> s _ Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: õ d ;
 
 "s:š palatalization"
 s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
+
+"ǟ:ē palatalization"
+ǟ:ē <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 
 "a:ä palatalization"
 a:ä <=> _ ( 0: ) :Cons+ %^PalatalizeLeft:0 [ # | %> ] ;
