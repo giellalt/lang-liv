@@ -1039,14 +1039,14 @@ LEXICON NMN_KALĀ !!= @CODE@ contains cases for nominals
  NMN_KALĀ-PL 	 ;
 
 LEXICON NMN_KALĀ-SG
-+Sg+Nom:	K	;
-+Sg+Gen:	K	;
-+Sg+Dat:n	K	;
-+Sg+Ins:ks	K	;
-+Sg+Ela:st	K	;
+:%^StodRM	SG-NOM	;
+:%^StodRM	SG-GEN	;
+:%^StodRM	SG-DAT_õn	;
+:%^StodRM	SG-INS_õks	;
+:%^StodRM	SG-ELA_õst	;
 !
-+Sg+Par:%^Stress2to1	K	;
-+Sg+Ill:%^Stress2to1	K	;
+:%^Stress2to1	SG-PAR_Zero	;
+:%^Stress2to1	SG-ILL_Zero	;
 
 LEXICON NMN_KALĀ-PL !!
 +Pl+Nom:d	K	;
