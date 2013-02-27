@@ -14,12 +14,14 @@
 
 !! Morphology
 !! ----------
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LIVONIAN.
 
 
 Multichar_Symbols
 !! Analysis symbols
 !! ----------------
+
 !! The morphological analyses of wordforms in the LIVONIAN language are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing GIELLATEKNO standards when adding new tags).
@@ -43,6 +45,7 @@ Multichar_Symbols
  +V 	 !! verb
 
 !! !!Parts of speech are further split up into:
+
 !! Nouns
  +Prop  !! proper
 
@@ -55,10 +58,12 @@ Multichar_Symbols
  +Refl   !! reflexive
  +Rel    !! relative
 
-!! !!Nominals are inflected for Number and Case
+!! Nominals are inflected for Number and Case
+
 !! !!Number
  +Sg !! singular
  +Pl !! plural
+
 !! !!Case
  +Abe !! abessive
  +Abl !! ablative case
