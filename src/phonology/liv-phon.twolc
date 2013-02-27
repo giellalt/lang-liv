@@ -14,7 +14,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ
 
 !! '
-’ !! Stød
+ʼ !! Stød
 
 
 
@@ -97,15 +97,15 @@ a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 !# Cons* Vows ( 0: ) :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
 
 "ū:õ "
-ū:õ <=> # Cons* [ Vows | ’: | :’ ]+ :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
+ū:õ <=> # Cons* [ Vows | ʼ: | :ʼ ]+ :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
 
 !! Vowel loss
 !! 
 "ā:0"
-ā:0 <=> # Cons* Vows ( ’: | :’ ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+ā:0 <=> # Cons* Vows ( ʼ: | :ʼ ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 
 "ū:0"
-ū:0 <=> # Cons* [Vows | ’: | :’ ]+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+ū:0 <=> # Cons* [Vows | ʼ: | :ʼ ]+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 !#Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: 
 
 "õ:0"
@@ -122,14 +122,14 @@ a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 ! Cx _ Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
           where Cx in ( t k b d g l ļ m n ņ r ŗ v z ž ) ;
 !€  je0l0ā%^Stress2to1
-!0  je’llõ0
+!0  jeʼllõ0
 
 "Stod removal"
- ’:0 <=>  # Cons* Vows _ [ :ConsWithStod+ | i g ] Vows: %^StodRM:0 ; 
+ ʼ:0 <=>  # Cons* Vows _ [ :ConsWithStod+ | i g ] Vows: %^StodRM:0 ; 
 ! Vows _ ConsWithStod: ( :ConsWithStod )  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !# Cons* :Vows _ :ConsWithStod+  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !€# ka0l0ā%^Stress2to1
-!€0 ka’llõ0
+!€0 kaʼllõ0
 
 !# Cons* Vows ( 0: ) :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
 !# Cons* :Vows _  ConsStrengthening Vows: %^Stress2to1:0  [ # | %> | %^VowsRM:0  %> ] ;
@@ -151,7 +151,7 @@ l:ļ <=> _ Vows: %^Stress2to1:0 %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š
 
 "d:t "
 d:t <=>
-       :Vows ( ’: | :’ ) [ s k: | d: | t: | k  | t s ] Vows: ( %^Stress2to1:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
+       :Vows ( ʼ: | :ʼ ) [ s k: | d: | t: | k  | t s ] Vows: ( %^Stress2to1:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
        [ :z | :s | :š ] %> _ ; !! nominative plural 
 
 "d:ț "
