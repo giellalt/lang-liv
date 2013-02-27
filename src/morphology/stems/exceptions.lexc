@@ -8,53 +8,53 @@
 LEXICON EXCEPTIONS
 
 !! the verbs of negation have partial inflection:
-!!€ ä’b
-!!€ i’zt
-!!€ a’lgid
+!!€ äʼb
+!!€ iʼzt
+!!€ aʼlgid
 äb+V+Neg+Act+Ind+Prs+Sg1:äb        K ;
-äb+V+Neg+Act+Ind+Prs+Sg1:ä’b        K ;
+äb+V+Neg+Act+Ind+Prs+Sg1:äʼb        K ;
 äb+V+Neg+Act+Ind+Prs+Sg3:äb        K ;
-äb+V+Neg+Act+Ind+Prs+Sg3:ä’b        K ;
+äb+V+Neg+Act+Ind+Prs+Sg3:äʼb        K ;
 äb+V+Neg+Act+Ind+Prs+Pl1:äb        K ;
-äb+V+Neg+Act+Ind+Prs+Pl1:ä’b        K ;
+äb+V+Neg+Act+Ind+Prs+Pl1:äʼb        K ;
 äb+V+Neg+Act+Ind+Prs+Pl2:ät        K ;
 äb+V+Neg+Act+Ind+Prs+Pl3:äb        K ;
-äb+V+Neg+Act+Ind+Prs+Pl3:ä’b        K ;
+äb+V+Neg+Act+Ind+Prs+Pl3:äʼb        K ;
 äb+V+Neg+Act+Ind+Prt+Sg3:iz        K ;
-äb+V+Neg+Act+Ind+Prt+Sg3:i’z        K ;
+äb+V+Neg+Act+Ind+Prt+Sg3:iʼz        K ;
 äb+V+Neg+Act+Ind+Prt+Pl2:izt       K ;
-äb+V+Neg+Act+Ind+Prt+Pl2:i’zt       K ;
-äb+V+Neg+Act+Ind+Prt+Pl3:i’zt       K ;
+äb+V+Neg+Act+Ind+Prt+Pl2:iʼzt       K ;
+äb+V+Neg+Act+Ind+Prt+Pl3:iʼzt       K ;
 äb+V+Neg+Act+Ind+Prt+Pl3:izt       K ;
 äb+V+Neg+Act+Imprt+Sg2:alā         K ;
-äb+V+Neg+Act+Imprt+Pl2:a’lgid      K ;
-äb+V+Neg+Act+Jus+Sg3:a’lgõ         K ;
+äb+V+Neg+Act+Imprt+Pl2:aʼlgid      K ;
+äb+V+Neg+Act+Jus+Sg3:aʼlgõ         K ;
 
 !! Some verbs only have few word-forms left:
 !!€ piḑīm
 !!€ piḑīks
 
 
-!! The verb lǟ’dõ has irregular forms:
+!! The verb lǟʼdõ has irregular forms:
 !!€ lekš
 !!€ li
-lǟ’dõ+V:lǟ’dõ	INF	;
-lǟ’dõ+V:lǟ’d	GER-sõ	;
-lǟ’dõ+V:lǟ’	SUP_mõ	;
-lǟ’dõ+V:lǟ’	INDPRS_tõ 	;
-lǟ’dõ+V:lekš    INDPRTSG3-STEM_tõ   ;
-lǟ’dõ+V:lekš        INDPRTPL2_tā   ;
-lǟ’dõ+V:lekš        INDPRTPL3_tā   ;
+lǟʼdõ+V:lǟʼdõ	INF	;
+lǟʼdõ+V:lǟʼd	GER-sõ	;
+lǟʼdõ+V:lǟʼ	SUP_mõ	;
+lǟʼdõ+V:lǟʼ	INDPRS_tõ 	;
+lǟʼdõ+V:lekš    INDPRTSG3-STEM_tõ   ;
+lǟʼdõ+V:lekš        INDPRTPL2_tā   ;
+lǟʼdõ+V:lekš        INDPRTPL3_tā   ;
 
 !! The verb vȱlda has irregular forms:
-!!€ u’m
+!!€ uʼm
 !!€ ūo
 vȱlda+V:vȱlda   INF	;
 vȱlda+V:vȯld    GER-sõ  ;
-vȱlda+V:vȯ’l     SUP_mõ  ;
-vȱlda+V+Ind+Prs+Sg3:u’m     K       ; 
+vȱlda+V:vȯʼl     SUP_mõ  ;
+vȱlda+V+Ind+Prs+Sg3:uʼm     K       ; 
 vȱlda+V+Ind+Prs+Pl3:āt     K       ; 
-vȱlda+V:vȯ’ļ     INDPRTSG3-STEM_tõ   ;
+vȱlda+V:vȯʼļ     INDPRTSG3-STEM_tõ   ;
 vȱlda+V:ūo        INDPRSPL2_tõ   ;
 
 
