@@ -142,9 +142,9 @@ LEXICON VT_TAPPÕ
 
 LEXICON V-01_JEʼLLÕ
 !! 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
- GER-õs     ;
-:%^Stress2to1 INF-õ      ;
- SUP        ;
+ GER_s     ;
+:%^Stress2to1 INF_ZERO      ;
+ SUP_m        ;
 :%^StodRM   INDPRSSG1    ;
 :%^StodRM   INDPRSSG2    ;
 :%^StodRM   INDPRSSG3    ;
@@ -235,9 +235,9 @@ LEXICON VT_TIEUDÕ
 
 LEXICON V-01_MÄNGÕ
 !! 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
- GER-õs     ;
-:%^Stress2to1 INF-õ      ;
- SUP        ;
+ GER_s     ;
+:%^Stress2to1 INF_ZERO      ;
+ SUP_m        ;
 :   INDPRSSG1    ;
 :   INDPRSSG2    ;
 :   INDPRSSG3    ;
@@ -336,45 +336,6 @@ LEXICON VT_AKKÕ
 !! akkõ:akū 36
 +V+TV:     V-01_LUʼGGÕ ;
 
-LEXICON	V-01_LUʼGGÕ
-!! This is mutual for 29-36: 
-!! luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
-:%^Stress2to1 GER-õs   ;
-:%^Stress2to1 INF-õ	  ;
-:%^Stress2to1 SUP	  ; 
-:%^StodRM INDPRSSG1    ;
-:%^StodRM INDPRSSG2    ;
-:%^StodRM INDPRSSG3    ;
-:%^Stress2to1   INDPRSPL1    ;
-:%^Stress2to1   INDPRSPL2    ;
-:%^Stress2to1   INDPRSPL3    ;
-:%^VowsRM INDCONNEGSG    ;
-!:%^Stress2to1%^VowsRM%^ConsRM	INDCONNEGSG    ;
-:%^Stress2to1 INDCONNEGPL1 ;
-:%^Stress2to1 INDCONNEGPL2 ;
-:%^Stress2to1 INDCONNEGPL3 ;
-!! Prt
-:%^StodRM%^VowsRM%>ī INDPRT_z    ;
-! Cond
-:%^StodRM CONDPRS ;
-!! Imprt
-:%^VowsRM	IMPRTPRSSG2    ;
-:%^Stress2to1 IMPRTPRSPL1	;
-:%^Stress2to1 IMPRTPRSPL2	;
-:%^Stress2to1 IMPRTPRSCONNEG ;
-
-+V+Imprt+Prs+Pl2:%^Stress2to1%>gid	K    ;
-!! Jus
-:%^Stress2to1 JUSPRS	;
-!! Kvo
-:%^Stress2to1%^VowsRM QUOPRS	;
-
-!! participles
-:%^Stress2to1 ACTPRSPRC ;
-:%^Stress2to1 ACTPRFPRC ;
-:%^VowsRM PSSPRSPRC ;
-:%^VowsRM	PSSPRFPRCSG    ;
-
 
 LEXICON V-AUX_AIGÕ
 !! aigõ:āigõ 37
@@ -457,9 +418,9 @@ LEXICON VT_OUDÕ
 
 LEXICON V-01_AIGÕ
 !! This is mutual for 37-48
-:%^Stress1to2 GER-õs   ;
-:%^Stress1to2 INF-õ	  ;
-:%^Stress1to2 SUP	  ; 
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
  INDPRSSG1    ;
 : INDPRSSG2    ;
 : INDPRSSG3    ;
@@ -572,9 +533,9 @@ LEXICON VT_ĪʼEDÕ
 
 LEXICON V-01_KŪLÕ
 ! This is mutual for 49-57
- GER-õs   ;
- INF-õ	  ;
- SUP	  ; 
+ GER_s   ;
+ INF_ZERO	  ;
+ SUP_m	  ; 
 : INDPRSSG1    ;
 : INDPRSSG2    ;
 : INDPRSSG3    ;
@@ -590,7 +551,7 @@ LEXICON V-01_KŪLÕ
 
 
 LEXICON V_UMBLÕ
-!! umblõ: 58
+!! umblõ:umblõ 58
 +V: V-01_UMBLÕ ;
 
 LEXICON VI_UMBLÕ
@@ -629,9 +590,6 @@ LEXICON VT_NAʼGRÕ
 !! naʼgrõ: 60
 +V+TV: V-01_UMBLÕ ;
 
-LEXICON V-01_UMBLÕ
- K ;
-
 LEXICON V-AUX_ALĀ
 !! 62 alā:alā
 +V+VAUX: K ;
@@ -652,6 +610,90 @@ LEXICON V-AUX_PIḐĪKS
 !! 64 piḑīks:piḑī
 +V+VAUX: K ;
 
+!!!!!
+!!
+
+!! 29
+LEXICON	V-01_LUʼGGÕ
+!! This is mutual for 29-36: 
+!! luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
+:%^Stress2to1 GER_s   ;
+:%^Stress2to1 INF_ZERO	  ;
+:%^Stress2to1 SUP_m	  ; 
+:%^StodRM INDPRSSG1    ;
+:%^StodRM INDPRSSG2    ;
+:%^StodRM INDPRSSG3    ;
+:%^Stress2to1   INDPRSPL1    ;
+:%^Stress2to1   INDPRSPL2    ;
+:%^Stress2to1   INDPRSPL3    ;
+:%^VowsRM INDCONNEGSG    ;
+!:%^Stress2to1%^VowsRM%^ConsRM	INDCONNEGSG    ;
+:%^Stress2to1 INDCONNEGPL1 ;
+:%^Stress2to1 INDCONNEGPL2 ;
+:%^Stress2to1 INDCONNEGPL3 ;
+!! Prt
+:%^StodRM%^VowsRM%>ī INDPRT_z    ;
+! Cond
+:%^StodRM CONDPRS ;
+!! Imprt
+:%^VowsRM	IMPRTPRSSG2    ;
+:%^Stress2to1 IMPRTPRSPL1	;
+:%^Stress2to1 IMPRTPRSPL2	;
+:%^Stress2to1 IMPRTPRSCONNEG ;
+
++V+Imprt+Prs+Pl2:%^Stress2to1%>gid	K    ;
+!! Jus
+:%^Stress2to1 JUSPRS	;
+!! Kvo
+:%^Stress2to1%^VowsRM QUOPRS	;
+
+!! participles
+:%^Stress2to1 ACTPRSPRC ;
+:%^Stress2to1 ACTPRFPRC ;
+:%^VowsRM PSSPRSPRC ;
+:%^VowsRM	PSSPRFPRCSG    ;
+
+
+!!
+!! 58, 
+LEXICON V-01_UMBLÕ
+!! This is mutual for 58-61: 
+!! umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+   GER_s   ;
+   INF_ZERO	  ;
+   SUP_m	  ; 
+   INDPRSSG1    ;
+   INDPRSSG2    ;
+   INDPRSSG3    ;
+   INDPRSPL1    ;
+   INDPRSPL2    ;
+   INDPRSPL3    ;
+   INDCONNEGSG    ;
+   INDCONNEGPL1 ;
+   INDCONNEGPL2 ;
+   INDCONNEGPL3 ;
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+! Cond
+: CONDPRS ;
+!! Imprt
+:%^VowsMetath%^VowsRM	IMPRTPRSSG2    ;
+: IMPRTPRSPL1	;
+: IMPRTPRSPL2	;
+:%^VowsMetath%^VowsRM IMPRTPRSCONNEG ;
+
+!! Jus
+ JUSPRS	;
+!! Qvo
+:%^VowsRM QUOPRS	;
+
+!! participles
+ ACTPRSPRC ;
+ ACTPRFPRC ;
+:%^VowsRM PSSPRSPRC ;
+:%^VowsRM	PSSPRFPRCSG    ;
+
+
 
 
 LEXICON VTag
@@ -668,22 +710,22 @@ LEXICON Persons
 !#:0   Nouns   ;
 
 !! Nonfinites
-LEXICON GER-õs
+LEXICON GER_s
 +Ger+Ine:%>s   K ;
 
-LEXICON GER-sõ
+LEXICON GER_sõ
 +Ger+Ine:%>sõ   K ;
 
-LEXICON INF
+LEXICON INF_ZERO
 +Inf:    K   ;
 
-LEXICON INF-dõ
+LEXICON INF_dõ
 +Inf:%>dõ    K   ;
 
-LEXICON INF-õ
-+Inf:    K   ;
+LEXICON INF_da
++Inf:%>da    K   ;
 
-LEXICON SUP
+LEXICON SUP_m
 +Sup+Ill:%>m K   ;
 
 LEXICON SUP_mõ
