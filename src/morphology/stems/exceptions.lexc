@@ -38,8 +38,8 @@ LEXICON EXCEPTIONS
 !! The verb lǟʼdõ has irregular forms:
 !!€ lekš
 !!€ li
-lǟʼdõ+V:lǟʼdõ	INF	;
-lǟʼdõ+V:lǟʼd	GER-sõ	;
+lǟʼdõ+V:lǟʼdõ	INF_ZERO	;
+lǟʼdõ+V:lǟʼd	GER_sõ	;
 lǟʼdõ+V:lǟʼ	SUP_mõ	;
 lǟʼdõ+V:lǟʼ	INDPRS_tõ 	;
 lǟʼdõ+V:lekš    INDPRTSG3-STEM_tõ   ;
@@ -49,8 +49,8 @@ lǟʼdõ+V:lekš        INDPRTPL3_tā   ;
 !! The verb vȱlda has irregular forms:
 !!€ uʼm
 !!€ ūo
-vȱlda+V:vȱlda   INF	;
-vȱlda+V:vȯld    GER-sõ  ;
+vȱlda+V:vȱl   INF_da	;
+vȱlda+V:vȯld    GER_sõ  ;
 vȱlda+V:vȯʼl     SUP_mõ  ;
 vȱlda+V+Ind+Prs+Sg3:uʼm     K       ; 
 vȱlda+V+Ind+Prs+Pl3:āt     K       ; 
