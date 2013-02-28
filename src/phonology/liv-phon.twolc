@@ -33,6 +33,9 @@ K1:k
 %^RVows:0
 %^VowsSh1:0 !!
 
+!! vowel metathesis
+%^VowsMetath:0
+
 %^StodRM:0
 
 !%^ConsSh:0
@@ -116,9 +119,11 @@ a:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( 
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !€0 jarr0000õ
 "õ:0"
-õ:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ ( %^StodRM:0 ) ( %^Stress1to2:0 ) %^VowsRM:0 ;
+õ:0 <=>  [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 ] %^VowsRM:0 ;
 !          Vows %> _ [ d | n | k s | s t ] ;
 
+"0:õ in vowel metathesis"
+0:õ <=> [ b | d | t | g ] _ [ l | r ] õ: %^VowsMetath:0 %^VowsRM:0  ;
 
 
 !! Consonant loss 
@@ -182,3 +187,4 @@ s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 
 "a:ä palatalization"
 a:ä <=> _ ( 0: ) :Cons+ %^PalatalizeLeft:0 [ # | %> ] ;
+
