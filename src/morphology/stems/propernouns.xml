@@ -1,25 +1,5202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l pos="PROP">Kaupo</l>
-         <stg>
-            <st Contlex="PropTag">Kaupo</st>
-         </stg>
-      </lg>
-      <pos>PROP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t>Kaupo</t>
-         </tg>
-         <tg xml:lang="fin">
-            <t>Kaupo</t>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="PROP">A’brig</l>
+
+      <stg>
+        <st Contlex="PROP_ȬʼDÕG">A’brig</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Abruka</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Abrukas sala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Aḑā</l>
+
+      <stg>
+        <st Contlex="PROP_PADĀ">Aḑā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Aģe jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Aģes upe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Āfrik</l>
+
+      <stg>
+        <st Contlex="PROP_AMĀT">Āfrik</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Aafrika</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Āfrika</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Amērik</l>
+
+      <stg>
+        <st Contlex="PROP_AMĀT">Amērik</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ameerika</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Amerika</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Aņtš</l>
+
+      <stg>
+        <st Contlex="PROP_JAĻKŠ">Aņtš</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ance</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ance</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Arābij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Arābij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Araabia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Arābija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Armēnij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Armēnij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Armeenia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Armēnija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Atlant okeān</l>
+
+      <stg>
+        <st Contlex="PROP_AMĀT">Atlant okeān</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Atlandi ookean</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Atlantijas okeāns</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Austrālij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Austrālij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Austraalia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Austrālija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Austrij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Austrij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Austria</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Austrija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Āzij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Āzij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Aasia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Āzija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Bažāsūo</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ">Bažā#sūo</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Bažāsūo soo</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Bažu purvs</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Belgij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Belgij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Belgia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Beļģija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Berlīn</l>
+
+      <stg>
+        <st Contlex="PROP_KULTŪR">Berlīn</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Berliin</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Berlīne</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Bosnij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Bosnij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Bosnia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Bosnija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Brissõl</l>
+
+      <stg>
+        <st Contlex="PROP_APPÕN">Brissõl</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Brüssel</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Brisele</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Būdnikā mä’g</l>
+
+      <stg>
+        <st Contlex="PROP_NIʼM">Būdnikā mä’g</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Būdnikā mägi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Būdenes kalns</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Bulgārij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Bulgārij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Bulgaaria</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Bulgārija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Dāvid luoik</l>
+
+      <stg>
+        <st Contlex="PROP_KAND">Dāvid luoik</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Dāvidi nõgu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dāvida leja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Dēņmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Dēņ#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Taani</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dānija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Dēvit jǭrad</l>
+
+      <stg>
+        <st Contlex="PROP_JǬRA-PL">Dēvit jǭra</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Dēviti järved</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dieviņezeri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Dī’eviņjǭra</l>
+
+      <stg>
+        <st Contlex="PROP_JǬRA">Dī’eviņ#jǭra</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Dēviti järved</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dieviņezeri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Dēvit jǭrad</l>
+
+      <stg>
+        <st Contlex="PROP_JǬRA-PL">Dēvit jǭra</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Dēviti järved</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dieviņezeri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Dūmõl</l>
+
+      <stg>
+        <st Contlex="PROP_APPÕN">Dūmõl</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Dūmele</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dūmele</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Dūobõl</l>
+
+      <stg>
+        <st Contlex="PROP_APPÕN">Dūobõl</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Dobele</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dobele</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Dūoņig</l>
+
+      <stg>
+        <st Contlex="PROP_KǬRAND">Dūoņig</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Tooninge</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dundaga</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ēgipt</l>
+
+      <stg>
+        <st Contlex="PROP_VȮŅ">Ēgipt</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Egiptus</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ēģipte</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Eirop</l>
+
+      <stg>
+        <st Contlex="PROP_VȮŅ">Eirop</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Euroopa</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Eiropa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Englišmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Engliš#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Inglismaa</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Anglija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ēstimǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Ēsti#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Eesti</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Igaunija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Frantsij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Frantsij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Prantsusmaa</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Francija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Gipk</l>
+
+      <stg>
+        <st Contlex="PROP_FAKT">Gipk</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ģipka</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ģipka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Grēkõmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Grēkõ#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kreeka</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Grieķija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Gruzīj</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Gruzīj</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Gruusia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Gruzija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Hapsal</l>
+
+      <stg>
+        <st Contlex="PROP_PĒGAL">Hapsal</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Haapsalu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Hāpsalu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Helsinki</l>
+
+      <stg>
+        <st Contlex="PROP_TORĪ">Helsinki</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Helsingi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Helsinki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Holand</l>
+
+      <stg>
+        <st Contlex="PROP_VȮŅ">Holand</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Hollandi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Holande</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Horvātij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Horvātij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Horvaatia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Horvātija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ikškilā</l>
+
+      <stg>
+        <st Contlex="PROP_PADĀ">Ikš#kilā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Üksküla</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ikšķile</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Indij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Indij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">India</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Indija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Indij okeān</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Indij okeān</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">India ookean</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Indijas okeāns</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Īra</l>
+
+      <stg>
+        <st Contlex="PROP_JǬRA">Īra</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Lielirbe</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Lielirbe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Irāj</l>
+
+      <stg>
+        <st Contlex="PROP_SALĀJ-SG">Irāj</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel semRelType="prefer">&gt; Irē</semRel>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Irāj</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Mazirbe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Īra jo’ug</l>
+
+      <stg>
+        <st Contlex="PROP_JOʼUG">Īra jo’ug</st>
+
+        <st Contlex="PROP_JOʼUG">Irāj jo’ug</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Īra jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Irbes upe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Irē</l>
+
+      <stg>
+        <st Contlex="PROP_KALĀ-SG">Irē</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Irē</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Mazirbe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Irē jo’ug</l>
+
+      <stg>
+        <st Contlex="PROP_JOʼUG">Irē jo’ug</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Irē jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Mazirbes upe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Īrõmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Īrõ#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Iirimaa</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Īrija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Island</l>
+
+      <stg>
+        <st Contlex="PROP_VȮŅ">Island</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Island</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Islande</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Itālij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Itālij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Itaalia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Itālija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">I’zrael</l>
+
+      <stg>
+        <st Contlex="PROP_VAʼIT">I’zrael</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Iisrael</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Izraēla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Jālgab</l>
+
+      <stg>
+        <st Contlex="PROP_ĒTAM">Jālgab</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Jelgava</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Jelgava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Japān</l>
+
+      <stg>
+        <st Contlex="PROP_TIDĀR">Japān</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Jaapan</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Japāna</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Jeime’r</l>
+
+      <stg>
+        <st Contlex="PROP_MEʼR">Jei#me’r</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Põhja-Jäämeri</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ziemeļu ledus okeāns</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Jo’ugštūrga</l>
+
+      <stg>
+        <st Contlex="PROP_ŪŠKA">Jo’ugšt#ūrga</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Jougštūrga oja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Jougstu valks</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kanād</l>
+
+      <stg>
+        <st Contlex="PROP_VȮŅ">Kanād</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kanada</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kanāda</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kāndab</l>
+
+      <stg>
+        <st Contlex="PROP_ĒTAM">Kāndab</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kandava</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kandava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Karnõdmä’g</l>
+
+      <stg>
+        <st Contlex="PROP_NIʼM">Karnõd#mä’g</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Karnõdmäg’i mägi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Vārnu kalns</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kēņigtarā ūrga</l>
+
+      <stg>
+        <st Contlex="PROP_ŪŠKA">Kēņigtarā ūrga</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kēņigtarā oja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kēniņdārza strauts</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kikkõnjo’ug</l>
+
+      <stg>
+        <st Contlex="PROP_JOʼUG">Kikkõn#jo’ug</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kikkõnjoug’i oja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ķikānu upīte</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kikkõnmä’g</l>
+
+      <stg>
+        <st Contlex="PROP_NIʼM">Kikkõn#mä’g</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kikkõnmäg’i mägi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ķikanes kalns</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kīlmaūrga</l>
+
+      <stg>
+        <st Contlex="PROP_ŪŠKA">Kīlma#ūrga</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kīlmaūrga oja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kīlmiņu valks</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kī’nõ</l>
+
+      <stg>
+        <st Contlex="PROP_NǬʼGÕ">Kī’nõ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kihnu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kihnu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kīnõmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Kīnõ#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Hiina</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ķīna</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kõuvšt nīt</l>
+
+      <stg>
+        <st Contlex="PROP_IRM">Kõuvšt nīt</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kõuvšti niit</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kauštu pļava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Krī’evmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Krī’ev#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Venemaa</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Krievija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kuldīg</l>
+
+      <stg>
+        <st Contlex="PROP_SIDĀM">Kuldīg</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kuldīga</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kuldīga</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kūolka</l>
+
+      <stg>
+        <st Contlex="PROP_ĀITA">Kūolka</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kūolka</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kolka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kūolka kõlā</l>
+
+      <stg>
+        <st Contlex="PROP_PADĀ">Kūolka kõlā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kūolka laht</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kolkas līcis</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kūolka nanā</l>
+
+      <stg>
+        <st Contlex="PROP_KALĀ">Kūolka nanā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kūolka neem</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kolkasrags</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kuoštrõg</l>
+
+      <stg>
+        <st Contlex="PROP_KǬRAND-SG">Kuoštrõg</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kuoštrõg</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Košrags</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kurāmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Kurā#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kuramaa</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kurzeme ~ Ku’r|mǭ</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kuresār</l>
+
+      <stg>
+        <st Contlex="PROP_APPÕN">Kuresār</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kuressaare</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Kuresāre</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">La’dgal</l>
+
+      <stg>
+        <st Contlex="PROP_AMĀT">La’dgal</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Latgale</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Latgale</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Leišmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Leiš#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Leedu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Lietuva ~ Leišõ|mǭ</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Lețmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Leț#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Läti</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Latvija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Līepõ</l>
+
+      <stg>
+        <st Contlex="PROP_SIELDÕ">Līepõ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Liepāja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Liepāja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Limbaž</l>
+
+      <stg>
+        <st Contlex="PROP_JAĻKŠ">Limbaž</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Lemsalu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Limbaži</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">London</l>
+
+      <stg>
+        <st Contlex="PROP_PĒGAL">London</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">London</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Londona</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Luksemburg</l>
+
+      <stg>
+        <st Contlex="PROP_VȮŅ">Luksemburg</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Luksemburg</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Luksemburga</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Lū’ž</l>
+
+      <stg>
+        <st Contlex="PROP_RŪʼTŠ">Lū’ž</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Lūž</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Lūžņa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Lū’ž jo’ug</l>
+
+      <stg>
+        <st Contlex="PROP_JOʼUG">Lū’ž jo’ug</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Lūži jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Lūžņas upe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Mä’gkilā</l>
+
+      <stg>
+        <st Contlex="PROP_PADĀ">Mä’g#kilā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Mägkilā küla</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Uši</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Moldov</l>
+
+      <stg>
+        <st Contlex="PROP_BIRKOV">Moldov</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Moldova</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Moldova, Moldāvija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Moskov</l>
+
+      <stg>
+        <st Contlex="PROP_BIRKOV">Moskov</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Moskva</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Maskava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Mustānum</l>
+
+      <stg>
+        <st Contlex="PROP_KIM-SG">Mustā#num</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Mustānum</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Melnsils</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Nabāld</l>
+
+      <stg>
+        <st Contlex="PROP_TIDĀR-PL">Nabāl</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Nabāldi soo</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Nabaļu purvs</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Nabāl jǭra</l>
+
+      <stg>
+        <st Contlex="PROP_JǬRA">Nabāl jǭra</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Nabāli järv</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Nābeļa ezers</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Nabālūrga</l>
+
+      <stg>
+        <st Contlex="PROP_ĀITA">Nabāl#ūrga</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Nabālūrga oja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Nabeļvalks</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Norvēgij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Norvēgij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Norra</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Norvēģija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Nõ’vkilā</l>
+
+      <stg>
+        <st Contlex="PROP_PADĀ">Nõ’v#kilā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Nõvküla</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Neveja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ōst</l>
+
+      <stg>
+        <st Contlex="PROP_FAKT-SG">Ōst</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ōst</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Aizklāņi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ōstūrga</l>
+
+      <stg>
+        <st Contlex="PROP_ĀITA">Ōst#ūrga</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ōstūrga oja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Aizklāņu valks</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Parīz</l>
+
+      <stg>
+        <st Contlex="PROP_ĀIGAST">Parīz</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Pariis</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Parīze</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Patskul</l>
+
+      <stg>
+        <st Contlex="PROP_APPÕN">Patskul</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Packule</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Packule</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pațīkmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Pațīk#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Oviši</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Oviši</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Päpmä’g jo’ug</l>
+
+      <stg>
+        <st Contlex="PROP_JOʼUG">Päp#mä’g jo’ug</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Päpmägi jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Pepmegu strauts</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pǟrnov</l>
+
+      <stg>
+        <st Contlex="PROP_BIRKOV">Pǟrnov</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Pärnu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Pērnava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pēmpõd</l>
+
+      <stg>
+        <st Contlex="PROP_KAND">Pēmpõd</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">pl Pēmpi soo</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Pempi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pētõrgrād</l>
+
+      <stg>
+        <st Contlex="PROP_IRM">Pētõrgrād</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Peterburi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Pēterburga</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pētõr jǭrad</l>
+
+      <stg>
+        <st Contlex="PROP_JǬRA-PL">Pētõr jǭrad</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Pētõri järved</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Pēterezeri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Piltõn</l>
+
+      <stg>
+        <st Contlex="PROP_APPÕN">Piltõn</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Piltene</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Piltene</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Piški me’r</l>
+
+      <stg>
+        <st Contlex="PROP_KAȚKI$$PROP_MEʼR">Piški me’r</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel semRelType="synonym">= Rīgõ lop</semRel>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Liivi laht</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Rīgas līcis</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Piški$$salāts</l>
+
+      <stg>
+        <st Contlex="PROP_KAȚKI$$PROP_ĀIGAST">Piški$$salāts</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Väike-Salatsi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Mazsalaca</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pitrõg</l>
+
+      <stg>
+        <st Contlex="PROP_KǬRAND-SG">Pitrõg</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Pitrõg</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Pitrags</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pitrõg jo’ug</l>
+
+      <stg>
+        <st Contlex="PROP_JOʼUG">Pitrõg jo’ug</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Pitrõgi jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Pitraga upe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pizā</l>
+
+      <stg>
+        <st Contlex="PROP_PADĀ">Pizā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Pizā</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Miķeļtornis, Pize</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Portugal</l>
+
+      <stg>
+        <st Contlex="PROP_APPÕN">Portugal</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Portugal</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Portugāle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pūoip</l>
+
+      <stg>
+        <st Contlex="PROP_IRM">Pūoip</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Pope</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Pope</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pū’ojme’r</l>
+
+      <stg>
+        <st Contlex="PROP_MEʼR">Pū’oj#me’r</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Põhjameri</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ziemeļjūra</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pūoļmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Pūoļ#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Poola</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Polija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Pu’zzõ</l>
+
+      <stg>
+        <st Contlex="PROP_NǬʼGÕ">Pu’zzõ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Puze</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Puze</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Rabādsūo</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ">Rabād#sūo</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Rabādsūo soo</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Drabiņpurvs</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Rīgõ</l>
+
+      <stg>
+        <st Contlex="PROP_SIELDÕ">Rīgõ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Riia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Rīga</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Rīgõ lop</l>
+
+      <stg>
+        <st Contlex="PROP_TUP">Rīgõ lop</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel semRelType="synonym">= Piški me’r</semRel>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Liivi laht</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Rīgas līcis</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Rīnda</l>
+
+      <stg>
+        <st Contlex="PROP_ĀITA">Rīnda</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Rinda</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Rinda</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Rōm</l>
+
+      <stg>
+        <st Contlex="PROP_IRM">Rōm</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Rooma</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Roma</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Rumēnij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Rumēnij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Rumeenia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Rumānija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Rū’nõ</l>
+
+      <stg>
+        <st Contlex="PROP_NǬʼGÕ">Rū’nõ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ruhnu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Roņu sala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Rūoj</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Rūoj</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Roja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Roja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Rūotšmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Rūotš#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Rootsi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Zviedrija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sabīl</l>
+
+      <stg>
+        <st Contlex="PROP_KULTŪR">Sabīl</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Sabile</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Sabile</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Saksāmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Saksā#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Saksamaa</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Vācija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Salāts</l>
+
+      <stg>
+        <st Contlex="PROP_ĀIGAST">Salāts</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Salatsi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Salaca</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sasmagā</l>
+
+      <stg>
+        <st Contlex="PROP_PADĀ">Sasmagā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Sasmaka (Valdemārpils)</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Sasmaka (Valdemārpils)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sǟnag</l>
+
+      <stg>
+        <st Contlex="PROP_TŪOITÕG-SG">Sǟnag</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Sǟnag</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Saunags</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sǟr</l>
+
+      <stg>
+        <st Contlex="PROP_SŪR">Sǟr</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Sõrve</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Serve</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Säskkilā</l>
+
+      <stg>
+        <st Contlex="PROP_PADĀ">Säsk#kilā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Säskkilā</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Sesku ciems</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sibīrij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Sibīrij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Siber</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Sibīrija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sīkrõg</l>
+
+      <stg>
+        <st Contlex="PROP_KǬRAND-SG">Sīkrõg</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Sīkrõg</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Sīkrags</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Si’ņņizt mägūd</l>
+
+      <stg>
+        <st Contlex="PROP_NIʼM-PL">Si’ņņizt mäʼg</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Sinised mäed</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Zilie kalni</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Siprikšvigā</l>
+
+      <stg>
+        <st Contlex="PROP_TUBĀ">Siprikš#vigā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Siprikšvigā org</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Siprikšviga</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Slovakij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Slovakij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Slovakkia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Slovākija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Slovēnij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Slovēnij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Sloveenia</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Slovēnija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sǭrmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Sǭr#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Saaremaa</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Sāmsala, Sāremā sala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Spāņ</l>
+
+      <stg>
+        <st Contlex="PROP_VIĻȚ">Spāņ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Hispaania</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Spānija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Stēņḑa</l>
+
+      <stg>
+        <st Contlex="PROP_ĀITA">Stēņḑa</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Stende</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Stende</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sūomõmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ">Sūomõ#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Soome</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Somija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Sūr me’r</l>
+
+      <stg>
+        <st Contlex="PROP_SŪR$$PROP_MEʼR">Sūr me’r</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Kura kurk</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Irbes šaurums</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sūrmõtsād jo’ug</l>
+
+      <stg>
+        <st Contlex="PROP_JOʼUG">Sūr#mõtsād jo’ug</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Sūrmõtsādi jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dižmeža strauts</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Sūrsūo</l>
+
+      <stg>
+        <st Contlex="PROP_SŪR">Sūr#sūo</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">PROP_PŪ Sūrsūo soo</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Dižpurvs</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Šlītõr</l>
+
+      <stg>
+        <st Contlex="PROP_KĪNDÕR">Šlītõr</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Slītere</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Slītere</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Šlītõr mäʼg</l>
+
+      <stg>
+        <st Contlex="PROP_NIʼM">Šlītõr mäʼg</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Šlītõri mägi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Slīteres kalns</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Šveits</l>
+
+      <stg>
+        <st Contlex="PROP_FAKT">Šveits</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Šveits</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Šveice</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tallin</l>
+
+      <stg>
+        <st Contlex="PROP_ĀIGAST">Tallin</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Tallinn</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Tallina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tālsa</l>
+
+      <stg>
+        <st Contlex="PROP_ĀITA">Tālsa</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Talsi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Talsi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tartu</l>
+
+      <stg>
+        <st Contlex="PROP_RADIO">Tartu</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Tartu</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Tartu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tiabõrmä’g</l>
+
+      <stg>
+        <st Contlex="PROP_NIʼM">Tiabõr#mä’g</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Tiabõrmäg’i mägi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Stieberkalns</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tirkmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Tirk#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Türgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Turcija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tsälmõt</l>
+
+      <stg>
+        <st Contlex="PROP_AMĀT">Tsälmõt</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Tsälmõti jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Celmupe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tsirst</l>
+
+      <stg>
+        <st Contlex="PROP_FAKT">Tsirst</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Cirsti</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Cirsti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tšehij</l>
+
+      <stg>
+        <st Contlex="PROP_KǬJ">Tšehij</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Tšehhi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Čehija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tubāmägūd</l>
+
+      <stg>
+        <st Contlex="PROP_NIʼM-PL">Tubā#mäg</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Tubāmägūdi mäed</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Istabkalni</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Tukāmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Tukā#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Tukums</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Tukums</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ūdmȯizõ</l>
+
+      <stg>
+        <st Contlex="PROP_SIELDÕ">Ūd#mȯizõ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Jaunmuiža</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Jaunmuiža</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ugāl</l>
+
+      <stg>
+        <st Contlex="PROP_TIDĀR">Ugāl</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ugāle</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ugāle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ukrain</l>
+
+      <stg>
+        <st Contlex="PROP_IRM">Ukrain</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ukraina</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ukraina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ungar</l>
+
+      <stg>
+        <st Contlex="PROP_TIDĀR">Ungar</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel>~ Ungar|mǭ</semRel>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ungari</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ungārija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Ušīūrga</l>
+
+      <stg>
+        <st Contlex="PROP_ĀITA">Ušī#ūrga</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ušīūrga oja</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ušu valks</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Ūž$$grǭv</l>
+
+      <stg>
+        <st Contlex="PROP_ŪŽ$$PROP_IRM">Ūž$$grǭv</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ūžgrōvi kraav</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Jaunais grāvis</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Ūž$$kilā</l>
+
+      <stg>
+        <st Contlex="PROP_ŪŽ$$PROP_PADĀ">Ūž$$kilā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ūžkilā</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Jaunciems</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="PROP">Vagā okeān</l>
+
+      <stg>
+        <st Contlex="PROP_ANALĪZ">Vagā okeān</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Vaikne ookean</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Klusais okeāns</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Va’id</l>
+
+      <stg>
+        <st Contlex="PROP_NĪʼEM-SG">Va’id</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Vaide</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Vaide</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Vāldakrī’evmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Vālda#krī’ev#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Valgevene</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Baltkrievija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Vanārūotš jo’ug</l>
+
+      <stg>
+        <st Contlex="PROP_JOʼUG">Vanā#rūotš jo’ug</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Vanārūotši jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Vecroču upe</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Vǟnta</l>
+
+      <stg>
+        <st Contlex="PROP_ĀITA">Vǟnta</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Ventspils</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Ventspils</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Vǟnta</l>
+
+      <stg>
+        <st Contlex="PROP_ĀITA">Vǟnta</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Venta jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Venta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Vēna</l>
+
+      <stg>
+        <st Contlex="PROP_VĒNA">Vēna</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Väina jõgi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Daugava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Vidūmǭ</l>
+
+      <stg>
+        <st Contlex="PROP_PŪ-SG">Vidū#mǭ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Vidzeme</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Vidzeme</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Vīḑõl</l>
+
+      <stg>
+        <st Contlex="PROP_APPÕN">Vīḑõl</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Vīdale</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Vīdale</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Viļņ</l>
+
+      <stg>
+        <st Contlex="PROP_VIĻȚ">Viļņ</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Vilnius</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Viļņa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Zemgal</l>
+
+      <stg>
+        <st Contlex="PROP_AMĀT">Zemgal</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Zemgale</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Zemgale</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Žūokkilā</l>
+
+      <stg>
+        <st Contlex="PROP_PADĀ">Žūok#kilā</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="est">
+        <t pos="PROP">Žūokkilā</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PROP"/>
+      </tg>
+
+      <tg xml:lang="lat">
+        <t pos="PROP">Žocene</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="PROP">Kaupo</l>
+
+      <stg>
+        <st Contlex="PROP_">Kaupo</st>
+      </stg>
+    </lg>
+
+    <pos>PROP</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>Kaupo</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>Kaupo</t>
+      </tg>
+    </mg>
+  </e>
 </r>
