@@ -3,30 +3,23 @@
 !! Livonian proper nouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
 
-LEXICON PropTag
-	ProperNounCases	;
-
-LEXICON ProperNounCases
-+N+Prop:%:   CASES  ;
-+N+Prop:%:   CASES  ;
-+N+Prop:%:   CASES  ;
-+N+Prop:%:   CASES  ;
-+N+Prop:%:   CASES  ;
-+N+Prop:%:   CASES  ;
-!        -    Nouns  ;
+LEXICON PROP_
++TYÄ+N+Prop:	K	;
 
 LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
-    PropTag ;
-:%: PropTag ;
-:%- PropTag ;
-:%' PropTag ;
+    PROP_ ;
+:%: PROP_ ;
+:%- PROP_ ;
+:%' PROP_ ;
 
 !! !! Stem lexica
 LEXICON PROP_PŪ !!= @CODE@ contains pū: 12
++N+Prop:	NMN_PŪ	;
 
-+N+Prop:	CASES	;
+LEXICON PROP_PŪ-SG !!= @CODE@ contains pū: 12
++N+Prop:	NMN_PŪ-SG	;
 
-LEXICON PROP_RǬʼ !!= @CODE@ contains rǭ':rǭ 13
+LEXICON PROP_RǬʼ !!= @CODE@ contains rǭʼ:rǭ 13
 +N+Prop:	CASES	;
 
 LEXICON PROP_PǞ !!= @CODE@ contains pǟ:pǟ 14
@@ -43,6 +36,9 @@ LEXICON PROP_TEI !!= @CODE@ contains tei:tei 17
 
 LEXICON PROP_KALĀ  !!= @CODE@ contains  kalā:kalā 18
 +N+Prop: NMN_KALĀ ;
+
+LEXICON PROP_KALĀ-SG  !!= @CODE@ contains  kalā:kalā 18
++N+Prop: NMN_KALĀ-SG ;
 
 LEXICON PROP_TUBĀ !!= @CODE@ tubā:tubā 19
 +N+Prop:	CASES	;
@@ -123,7 +119,10 @@ LEXICON PROP_KĒRA !!= @CODE@ kēra:kēra 43
 +N+Prop:	CASES	;
 
 LEXICON PROP_JǬRA !!= @CODE@ jǭra:jǭra 44
-+N+Prop:	CASES	;
++N+Prop:	NMN_JǬRA	;
+
+LEXICON PROP_JǬRA-PL !!= @CODE@ jǭra:jǭra 44
++N+Prop:	NMN_JǬRA-PL	;
 
 LEXICON PROP_PŪOLA !!= @CODE@ pūola:pūola 45
 +N+Prop:	CASES	;
@@ -166,13 +165,13 @@ LEXICON PROP_KUȚĀ
 
 LEXICON PROP_NĒTŠA !!= @CODE@ nētša:nētša 58
 +N+Prop:	CASES	;
-LEXICON PROP_KIV !!= @CODE@ ki'v:kiv 59
+LEXICON PROP_KIV !!= @CODE@ kiʼv:kiv 59
 +N+Prop:	CASES	;
 
-LEXICON PROP_KUOIG !!= @CODE@ kuo'ig:kuoig 60
+LEXICON PROP_KUOIG !!= @CODE@ kuoʼig:kuoig 60
 +N+Prop:	CASES	;
 
-LEXICON PROP_KEP !!= @CODE@ kep:kep a'b 61
+LEXICON PROP_KEP !!= @CODE@ kep:kep aʼb 61
         CASES   ;
 
 LEXICON PROP_KRUȚK !!= @CODE@ : 62
@@ -217,11 +216,14 @@ LEXICON PROP_SUʼG
 !!= @CODE@ joʼug:joug 75
 LEXICON PROP_JOʼUG
 +N+Prop:	CASES	;
-!!= @CODE@ niʼm:nim 76
-LEXICON PROP_NIʼM
-+N+Prop:	CASES	;
-!!= @CODE@ : 77
-LEXICON PROP_USK
+
+LEXICON PROP_NIʼM !!= @CODE@ niʼm:niʼm 76
++N+Prop:	NMN_NIʼM	;
+
+LEXICON PROP_NIʼM-PL !!= @CODE@ niʼm:niʼm 76
++N+Prop:	NMN_NIʼM-PL	;
+
+LEXICON PROP_USK !!= @CODE@ : 77
 +N+Prop:	CASES	;
 !!= @CODE@ : 78
 LEXICON PROP_VAŠK
@@ -251,13 +253,13 @@ LEXICON PROP_KUOʼD
 !!= @CODE@ suʼž:suž 86
 LEXICON PROP_SUʼŽ
 +N+Prop:	CASES	;
-!!= @CODE@ ke'ž:kež aim 87
+!!= @CODE@ keʼž:kež aim 87
 LEXICON PROP_KEʼŽ
         CASES   ;
-!!= @CODE@ ve'ž:vež 88
+!!= @CODE@ veʼž:vež 88
 LEXICON PROP_VEʼŽ
 +N+Prop:	CASES	;
-!!= @CODE@ ku'ž:kuž 89
+!!= @CODE@ kuʼž:kuž 89
 LEXICON PROP_KUʼŽ
 +N+Prop:	CASES	;
 !!= @CODE@ : 90
@@ -348,7 +350,7 @@ LEXICON PROP_VȬIDAG
 LEXICON PROP_SIELDÕ
 +N+Prop:	CASES	;
 
-LEXICON PROP_NǬʼGÕ !!= @CODE@ nǭ'gõ:nǭgõ 119
+LEXICON PROP_NǬʼGÕ !!= @CODE@ nǭʼgõ:nǭgõ 119
 +N+Prop:	CASES	;
 
 LEXICON PROP_AŠŠÕ !!= @CODE@ : 120
@@ -363,20 +365,23 @@ LEXICON PROP_SOʼV !!= @CODE@ : 122
 LEXICON PROP_KǬJ !!= @CODE@ : 123
 +N+Prop:	CASES	;
 
-LEXICON PROP_ǬʼJ !!= @CODE@ ǭ'j:ǭj 124
+LEXICON PROP_ǬʼJ !!= @CODE@ ǭʼj:ǭj 124
 +N+Prop:	CASES	;
 !!= @CODE@ : 125
 LEXICON PROP_IRM
 +N+Prop:	CASES	;
 
 LEXICON PROP_KIM !!= @CODE@ : 126
-+N+Prop:	CASES	;
++N+Prop:	NMN_KIM	    ;
+
+LEXICON PROP_KIM-SG !!= @CODE@ : 126
++N+Prop:	NMN_KIM-SG	    ;
 
 !!= @CODE@ : 127
 LEXICON PROP_VȮŅ
 +N+Prop:	CASES	;
 
-LEXICON PROP_VAʼIT !!= @CODE@ va'it:vait 128
+LEXICON PROP_VAʼIT !!= @CODE@ vaʼit:vait 128
 +N+Prop:	CASES	;
 
 LEXICON PROP_AMĀT !!= @CODE@ : 129
@@ -384,7 +389,7 @@ LEXICON PROP_AMĀT !!= @CODE@ : 129
 
 LEXICON PROP_KULTŪR !!= @CODE@ : 130
 +N+Prop:	CASES	;
-!!= @CODE@ sa'gdit:sagdit 131
+!!= @CODE@ saʼgdit:sagdit 131
 LEXICON PROP_SAʼGDIT
 +N+Prop:	CASES	;
 
@@ -394,14 +399,17 @@ LEXICON PROP_VIĻȚ !!= @CODE@ : 132
 !!= @CODE@ : 133
 LEXICON PROP_EĻ
 +N+Prop:	CASES	;
-!!= @CODE@ blē'ḑ:blēḑ 134
+!!= @CODE@ blēʼḑ:blēḑ 134
 LEXICON PROP_BLĒʼḐ
 +N+Prop:	CASES	;
-!!= @CODE@ : 135
-LEXICON PROP_FAKT
-+N+Prop:	CASES	;
-!!= @CODE@ : 136
-LEXICON PROP_TAS
+
+LEXICON PROP_FAKT !!= @CODE@ fakt:fakt 135
++N+Prop:	NMN_FAKT	;
+
+LEXICON PROP_FAKT-SG !!= @CODE@ fakt:fakt 135
++N+Prop:	NMN_FAKT-SG	;
+
+LEXICON PROP_TAS !!= @CODE@ tas:tas 136
 +N+Prop:	CASES	;
 !!= @CODE@ : 137
 LEXICON PROP_NEITST
@@ -409,7 +417,7 @@ LEXICON PROP_NEITST
 !!= @CODE@ : 138
 LEXICON PROP_SĪEND
 +N+Prop:	CASES	;
-!!= @CODE@ lǟ'nd:lǟnd 139
+!!= @CODE@ lǟʼnd:lǟnd 139
 LEXICON PROP_LǞND
 +N+Prop:	CASES	;
 
@@ -418,9 +426,12 @@ LEXICON PROP_ĀIGAST !!= @CODE@ : 140
 
 LEXICON PROP_ANALĪZ !!= @CODE@ : 141
 +N+Prop:	CASES	;
-!!= @CODE@ nī'em:nīem 142
-LEXICON PROP_NĪEM
-+N+Prop:	CASES	;
+
+LEXICON PROP_NĪʼEM !!= @CODE@ nīʼem:nīʼem 142
++N+Prop:	NMN_NĪʼEM	;
+
+LEXICON PROP_NĪʼEM-SG !!= @CODE@ nīʼem:nīʼem 142
++N+Prop:	NMN_NĪʼEM-SG	;
 
 LEXICON PROP_JAĻKŠ !!= @CODE@ : 143
 +N+Prop:	CASES	;
@@ -428,13 +439,13 @@ LEXICON PROP_JAĻKŠ !!= @CODE@ : 143
 LEXICON PROP_VIŠ !!= @CODE@ : 144
 +N+Prop:	CASES	;
 
-LEXICON PROP_RŪTŠ !!= @CODE@ rū'tš:rūtš 145
-+N+Prop:	CASES	;
+LEXICON PROP_RŪʼTŠ !!= @CODE@ rūʼtš:rūʼtš 145
++N+Prop:	NMN_RŪʼTŠ	;
 
-!!= @CODE@ tē'ḑ:tēḑ 146
+!!= @CODE@ tēʼḑ:tēḑ 146
 LEXICON PROP_TĒʼḐ
 +N+Prop:	CASES	;
-!!= @CODE@ lē'ḑ:lēḑ 147
+!!= @CODE@ lēʼḑ:lēḑ 147
 LEXICON PROP_LĒʼḐ
 +N+Prop:	CASES	;
 !!= @CODE@ : 148
@@ -449,7 +460,7 @@ LEXICON PROP_LĒŅTŠ
 !!= @CODE@ : 151
 LEXICON PROP_LĪEM
 +N+Prop:	CASES	;
-!!= @CODE@ a'm:am 152
+!!= @CODE@ aʼm:am 152
 LEXICON PROP_AʼM
 +N+Prop:	CASES	;
 
@@ -470,17 +481,23 @@ LEXICON PROP_SIDĀM !!= @CODE@ : 157
 +N+Prop:	CASES	;
 
 LEXICON PROP_TŪOITÕG !!= @CODE@ : 158
-+N+Prop:	CASES	;
-!!= @CODE@ : 159
-LEXICON PROP_KǬRAND
-+N+Prop:	CASES	;
-!!= @CODE@ ȭ'dõg:ȭdõg 160
-LEXICON PROP_ȬDÕG
-+N+Prop:	CASES	;
++N+Prop:	NMN_TŪOITÕG	;
+
+LEXICON PROP_TŪOITÕG-SG !!= @CODE@ : 158
++N+Prop:	NMN_TŪOITÕG-SG	;
+
+LEXICON PROP_KǬRAND !!= @CODE@ : 159
++N+Prop:	NMN_KǬRAND	;
+
+LEXICON PROP_KǬRAND-SG !!= @CODE@ : 159
++N+Prop:	NMN_KǬRAND-SG	;
+
+LEXICON PROP_ȬʼDÕG !!= @CODE@ ȭʼdõg:ȭʼdõg 160
++N+Prop:	NMN_ȬʼDÕG	;
 !!= @CODE@ : 161
 LEXICON PROP_TAPTÕD
 +N+Prop:	CASES	;
-!!= @CODE@ tī'edõd:tīedõd 162
+!!= @CODE@ tīʼedõd:tīedõd 162
 LEXICON PROP_TĪEDÕD
 +N+Prop:	CASES	;
 !!= @CODE@ : 163
@@ -489,7 +506,7 @@ LEXICON PROP_VĪDÕZ
 !!= @CODE@ : 164
 LEXICON PROP_TUOISTÕNZ
 +N+Prop:	CASES	;
-!!= @CODE@ ī'dõksmõz:īdõksmõz 165
+!!= @CODE@ īʼdõksmõz:īdõksmõz 165
 LEXICON PROP_ĪDÕKSMÕZ
 +N+Prop:	CASES	;
 !!= @CODE@ : 166
@@ -541,7 +558,7 @@ LEXICON PROP_VȬRÕZ
 LEXICON PROP_ARĀGÕZ !!= @CODE@ : 181
 +N+Prop:	CASES	;
 
-LEXICON PROP_ÄʼGGÕZ !!= @CODE@ ä'ggõz:äggõz 182
+LEXICON PROP_ÄʼGGÕZ !!= @CODE@ äʼggõz:äggõz 182
 +N+Prop:	CASES	;
 !!= @CODE@ pūʼdõz:pūdõz 183
 LEXICON PROP_PŪʼDÕZ
@@ -559,7 +576,7 @@ LEXICON PROP_SĒJI
 !!= @CODE@ : 187
 LEXICON PROP_AKKIJI
 +N+Prop:	CASES	;
-!!= @CODE@ lē'ji:lēji 188
+!!= @CODE@ lēʼji:lēji 188
 LEXICON PROP_LĒʼJI
 +N+Prop:	CASES	;
 !!= @CODE@ : 189
@@ -577,7 +594,7 @@ LEXICON PROP_AʼIGI !!= @CODE@ aʼigi:aigi 192
 
 
 
-!!= @CODE@ pu'nni:punni 193
+!!= @CODE@ puʼnni:punni 193
 LEXICON PROP_PUʼNNI
 +N+Prop:	CASES	;
 !!= @CODE@ : 194
@@ -604,7 +621,7 @@ LEXICON PROP_AʼBLI
 !!= @CODE@ : 201
 LEXICON PROP_SĒMI
 +N+Prop:	CASES	;
-!!= @CODE@ lē'mi:lēmi 202
+!!= @CODE@ lēʼmi:lēmi 202
 LEXICON PROP_LĒʼMI
 +N+Prop:	CASES	;
 
@@ -622,7 +639,7 @@ LEXICON PROP_ĀNDÕKS !!= @CODE@ : 206
 !!= @CODE@ : 207
 LEXICON PROP_KĒRATÕKS
 +N+Prop:	CASES	;
-!!= @CODE@ ä'bțõks:äbțõks 208
+!!= @CODE@ äʼbțõks:äbțõks 208
 LEXICON PROP_ÄʼBȚÕKS
 +N+Prop:	CASES	;
 !!= @CODE@ : 209
@@ -672,7 +689,10 @@ LEXICON PROP_BIRKOV !!= @CODE@ : 224
 +N+Prop:	CASES	;
 
 LEXICON PROP_SALĀJ !!= @CODE@ : 225
-+N+Prop:	CASES	;
++N+Prop:	NMN_SALĀJ	;
+
+LEXICON PROP_SALĀJ-SG !!= @CODE@ : 225
++N+Prop:	NMN_SALĀJ-SG	;
 
 LEXICON PROP_UMĀRZ !!= @CODE@ umārz:umār 226
 +N+Prop:	NMN_UMĀRZ   ;
@@ -696,7 +716,13 @@ LEXICON PROP_VAGĀŖ !!= @CODE@ vagāŗ:vagāŗ 232
 +N+Prop:	CASES	;
 
 LEXICON PROP_TIDĀR !!= @CODE@ tidār:tidār 233
-+N+Prop:	CASES	;
++N+Prop:	NMN_TIDĀR	;
+
+LEXICON PROP_TIDĀR-SG !!= @CODE@ tidār:tidār 233
++N+Prop:	NMN_TIDĀR-SG	;
+
+LEXICON PROP_TIDĀR-PL !!= @CODE@ tidār:tidār 233
++N+Prop:	NMN_TIDĀR-PL	;
 
 LEXICON PROP_PĒGAL !!= @CODE@ pēgal:pēgal 234
 +N+Prop:	CASES	;
