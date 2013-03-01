@@ -154,6 +154,8 @@ a:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) 
  
 "l:ļ"
 l:ļ <=> _ Vows: %^Stress2to1:0 %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
+        _ m Vows: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
+
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 
 
