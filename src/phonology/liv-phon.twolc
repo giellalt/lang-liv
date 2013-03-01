@@ -115,7 +115,7 @@ a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 !#Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: 
 
 "a:0"
-a:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) %^VowsRM:0 ;
+a:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^PalatalizeLeft:0 ] %^VowsRM:0 ;
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !€0 jarr0000õ
 "õ:0"
@@ -133,7 +133,7 @@ a:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( 
 ! simultaneous to reducing vowel of second syllable
 !! jelāb:jellõ
 "lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ"
- 0:Cx <=> Cx _ Vows: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
+ 0:Cx <=> # Cons* Vows ( ʼ: ) Cx _ Vows: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
 ! Cx _ Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
           where Cx in ( t k b d g l ļ m n ņ r ŗ v z ž ) ;
 !€  je0l0ā%^Stress2to1
@@ -181,6 +181,11 @@ k:0 <=> s _ Vows: ( %^Stress2to1:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
 
 "s:š palatalization"
 s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
+
+"n:ņ palatalization"
+n:ņ <=> _ Vows: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
+!€# Vē0na%^PalatalizeLeft%^VowsRMõ
+!€0 Vein000õ
 
 "ǟ:ē palatalization"
 ǟ:ē <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
