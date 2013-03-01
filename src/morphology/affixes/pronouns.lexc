@@ -10,23 +10,70 @@ LEXICON PronCases
 +Pron:   CASES  ;
 !        -    Nouns  ;
 
-LEXICON PRON_MIS !!= @CODE@ 1
-+Pron: # ;
+LEXICON PRON_MIS !!= @CODE@ mis:mi 1
++Pron+Interr:ss SG-DAT_õn ;
++Pron+Interr:s%^ConsL SG-ELA_õst ;
++Pron+Interr:s SG-GEN ;
++Pron+Interr:s%^ConsL SG-ILL_õ ;
++Pron+Interr:s%^ConsL SG-INS_õks ;
++Pron+Interr:s SG-NOM ;
++Pron+Interr:s SG-PAR_ZERO ;
++Pron+Interr: SG-PAR_dā ;
 
-LEXICON PRON_JEGĀ !!= @CODE@ 2
-+Pron: # ;
 
-LEXICON PRON_MŪ !!= @CODE@ 3
-+Pron: # ;
+LEXICON PRON_JEGĀ !!= @CODE@ jegā:jeʼgā 2
++Pron:%^StodRM SG-DAT_n ;
++Pron:%^StodRM SG-ELA_st ;
++Pron:%^StodRM SG-GEN ;
++Pron:%^ConsL SG-ILL_õ ;
++Pron:%^StodRM SG-INS_ks ;
++Pron:%^StodRM SG-NOM ;
++Pron:%^StodRM SG-PAR_ZERO ;
 
-LEXICON PRON_SE !!= @CODE@ 4
-+Pron: # ;
 
-LEXICON PRON_TÄMĀ !!= @CODE@ 5
-+Pron: # ;
+LEXICON PRON_MŪ !!= @CODE@ mū:mū 3
++Pron: SG-DAT_n ;
++Pron: SG-ELA_stõ ;
++Pron: SG-GEN ;
++Pron: SG-ILL_ʼzõ ;
++Pron: SG-INS_kõks ;
++Pron: SG-NOM ;
++Pron: SG-PAR_dõ ;
++Pron: PL-ELA_šti   ;
++Pron+Pl+Gen:%^VowsRMunt K ;
++Pron+Pl+Ill: PL-ILL_ʼži   ;
++Pron+Pl+Ins:%^VowsRMuntkõks K ;
++Pron+Pl+Nom:%^VowsRMunt K ;
++Pron+Pl+Par:ḑi K ;
 
-LEXICON PRON_NÄMĀD !!= @CODE@ nämǟd:nä 4 & 5
-+Pron: # ;
+LEXICON PRON_SE !!= @CODE@ se:s 4
++Pron+Dem:īe SG-DAT_n ;
++Pron+Dem:īe SG-ELA_stõ ;
++Pron+Dem:īe SG-GEN ;
++Pron+Dem+Sg+Ill:īʼezõ K ;
++Pron+Dem:īe SG-INS_kõks ;
++Pron+Dem:e SG-NOM ;
++Pron+Dem:ie SG-PAR_dā ;
+
+LEXICON PRON_TÄMĀ !!= @CODE@ tämā:t 5
++Pron+Dem:äʼm%^ConsL SG-DAT_õn ;
++Pron+Dem:äʼm SG-ELA_stõ ;
++Pron+Dem:äʼm SG-GEN ;
++Pron+Dem:äʼm%^ConsL SG-ILL_õ ;
++Pron+Dem:äʼm%^ConsL SG-ILL_õz ;
++Pron+Dem:äʼm SG-INS_kõks ;
++Pron+Dem:ämā SG-NOM ;
++Pron+Dem:a SG-NOM ;
++Pron+Dem:ǟn SG-PAR_da ;
+
+LEXICON PRON_NE !!= @CODE@ ne:n 4 & 5
++Pron+Dem+Pl+Dat:äntõn K ;
++Pron+Dem:ē PL-ELA_šti  ;
++Pron+Dem+Pl+Gen:änt K ;
++Pron+Dem:ē PL-ILL_ʼži ;
++Pron+Dem+Pl+Ins:äntkõks K ;
++Pron+Dem+Pl+Nom:e K ;
++Pron+Dem:ē PL-PAR_ḑi  ;
 
 LEXICON PRON_MINĀ !!= @CODE@ 6
 +Pron+Pers+Sg1+Dat:iʼnnön K ;
@@ -68,8 +115,24 @@ LEXICON PRON_TĒG !!= @CODE@ tēg:t 7
 +Pron+Pers+Pl2+Nom:ēg K ;
 +Pron+Pers+Pl2+Par:ēḑi K ;
 
-LEXICON PRON_KIS !!= @CODE@ 8
-+Pron: # ;
+LEXICON PRON_KIS !!= @CODE@ kis:kī 8
++Pron+Interr:e SG-DAT_n ;
++Pron+Interr:nga SG-DAT_n ;
++Pron+Interr:en SG-ELA_stõ ;
++Pron+Interr:en SG-GEN ;
++Pron+Interr:enga SG-GEN ;
++Pron+Interr:en SG-ILL_õ ;
++Pron+Interr:en SG-INS_kõks ;
++Pron+Interr:nga SG-INS_ks ;
++Pron+Interr:%^VowsRMis SG-NOM ;
++Pron+Interr:en SG-PAR_ta ;
++Pron+Interr:en SG-PAR_da ;
++Pron+Interr:en PL-ELA_šti   ;
++Pron+Interr:en PL-GEN_d ;
++Pron+Interr:en PL-ILL_iž   ;
++Pron+Interr:en PL-INS_dõks ;
++Pron+Interr:en PL-PAR_di   ;
+
 
 LEXICON PRON_ĪʼŽ !!= @CODE@ 9
 +Pron: # ;
