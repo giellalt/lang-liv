@@ -20,16 +20,16 @@ LEXICON PROP_PŪ-SG !!= @CODE@ contains pū: 12
 +N+Prop:	NMN_PŪ-SG	;
 
 LEXICON PROP_RǬʼ !!= @CODE@ contains rǭʼ:rǭ 13
-+N+Prop:	CASES	;
++N+Prop:	NMN_RǬʼ	;
 
 LEXICON PROP_PǞ !!= @CODE@ contains pǟ:pǟ 14
-+N+Prop:	CASES	;
++N+Prop:	NMN_PǞ	;
 
 LEXICON PROP_TĪE !!= @CODE@ contains tīe:tīe 15
-+N+Prop:	CASES	;
++N+Prop:	NMN_TĪE	;
 	
 LEXICON PROP_BRĪ !!= @CODE@ contains brī:brī 16
-+N+Prop:	CASES	;
++N+Prop:	NMN_BRĪ	;
 	
 LEXICON PROP_TEI !!= @CODE@ contains tei:tei 17
 +N+Prop:	CASES	;
@@ -98,25 +98,25 @@ LEXICON PROP_ĀINA !!= @CODE@ āina:āina 36
 +N+Prop:	CASES	;
 
 LEXICON PROP_VĒNA !!= @CODE@ vēna:vēna 37
-+N+Prop:	CASES	;
++N+Prop:	  NMN_VĒNA  ;
 
 LEXICON PROP_RŌDA !!= @CODE@ rōda:rōda 38
-+N+Prop:	CASES	;
++N+Prop:	NMN_RŌDA	;
 
 LEXICON PROP_PADĀ !!= @CODE@ padā:padā 39
 +N+Prop:	NMN_PADĀ	;
 
 LEXICON PROP_SÕBRĀ !!= @CODE@ sõbrā:sõbrā 40
-+N+Prop:	CASES	;
++N+Prop:	NMN_SÕBRĀ	;
 
 LEXICON PROP_KÄPĀ !!= @CODE@ käpā:käpā 41
-+N+Prop:	CASES	;
++N+Prop:	NMN_KÄPĀ	;
 
 LEXICON PROP_MAKSĀ !!= @CODE@ maksā:maksā 42
-+N+Prop:	CASES	;
++N+Prop:	NMN_MAKSĀ	;
 
 LEXICON PROP_KĒRA !!= @CODE@ kēra:kēra 43
-+N+Prop:	CASES	;
++N+Prop:	NMN_KĒRA	;
 
 LEXICON PROP_JǬRA !!= @CODE@ jǭra:jǭra 44
 +N+Prop:	NMN_JǬRA	;
