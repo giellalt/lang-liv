@@ -11,139 +11,233 @@
 This is free and open source Livonian morphology.
 
 Morphology
-----------
 
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LIVONIAN.
+!!!INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF LIVONIAN.
 
 
-Analysis symbols
+
+Analysis of the symbols symbols
 ----------------
 
-The morphological analyses of wordforms in the LIVONIAN language are presented
+The morphological analyses of wordforms in Livonian are presented
 in this system in terms of following symbols.
+
 (It is highly suggested to follow existing GIELLATEKNO standards when adding new tags).
 
+ * +TYÄ  = This automatically encourages workers to want to correct something
 
 !!The parts-of-speech are:
-adjective
-adposition
-adverb
-subordinating conjunction
-coordinating conjunction
-interjection 
-noun
-numeral
-particle
-preposition
-postposition
-pronoun
-quantifier
-verb
+ *  +A 	  = adjective
+ *  +Adp 	  = adposition
+ *  +Adv 	  = adverb
+ *  +CS 	  = subordinating conjunction
+ *  +CC 	  = coordinating conjunction
+ *  +Interj  = interjection 
+ *  +N 	  = noun
+ *  +Num 	  = numeral
+ *  +Pcle 	  = particle
+ *  +Pr 	  = preposition
+ *  +Po 	  = postposition
+ *  +Pron 	  = pronoun
+ *  +Qnt 	  = quantifier
+ *  +V 	  = verb
 
 !!Parts of speech are further split up into:
 
 Nouns
-proper
+
+ *  +Prop   = proper
 
 !!Pronouns
-demonstrative
-indefinite
-interrogative
-personal
-reciprocal
-reflexive
-relative
+
+ *  +Dem    = demonstrative
+ *  +Indef  = indefinite
+ *  +Interr  = interrogative
+ *  +Pers    = personal
+ *  +Recipr  = reciprocal
+ *  +Refl    = reflexive
+ *  +Rel     = relative
 
 Nominals are inflected for Number and Case
 
 !!Number
-singular
-plural
+ *  +Sg  = singular
+ *  +Pl  = plural
 
 !!Case
-abessive
-ablative case
-adessive
-allative
-dative case
-elative
-essive
-essive
-genitive case
-illative
-inessive
-instrumental -KÕKS
-instructive -IN
-Lative
-nominative case
-partitive
-prolative 
-translative
-Vocative
+ *  +Abe  = abessive
+ *  +Abl  = ablative case
+ *  +Ade  = adessive
+ *  +All  = allative
+ *  +Dat  = dative case
+ *  +Ela  = elative
+ *  +Ess  = essive
+ *  +Exe  = essive
+ *  +Gen  = genitive case
+ *  +Ill  = illative
+ *  +Ine  = inessive
+ *  +Ins  = instrumental -KÕKS
+ *  +Instr  = instructive -IN
+ *  +Lat  = Lative
+ *  +Nom  = nominative case
+ *  +Par  = partitive
+ *  +Prl  = prolative 
+ *  +Tra  = translative
+ *  +Voc  = Vocative
 
 
 The possession is marked as such:
+
+ *  +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3  
+
 The comparative forms are:
 
+ * +Pos +Comp +Superl  
+
 Numerals are classified under:
+
+ *  +Attr +Card  
+ *  +Ord         
+
 Verb moods are:
+ *  +Cond  = conditional 
+ *  +Ind  = indicative
+ *  +Imprt  = imperative
+ *  +Jus  = jussitive
+ *  +Quo  = quotative, quoted speech
 Tenses
 Voice
+ *  +Act  = active
+ *  +Pss  = passive
 Verb personal forms are:
+ *  +Sg1  = first person singular conjugation
+ *  +Sg2  = second person singular conjugation
+ *  +Sg3  = third person singular conjugation
+ *  +Pl1  = first person plural conjugation
+ *  +Pl2  = second person plural conjugation
+ *  +Pl3  = third person plural conjugation
 Other verb forms are
+ *  +ConNeg  = connegative, main verb complement to Neg, 
+ *  +Ger  = gerund 
+ *  +Inf     = infinitive
+ *  +Neg     = verb of negation эзь, аволь, иля
+ *  +Prc  = participle
 
+ *  +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess   
 
 !!Verbs are syntactically split according to transitivity:
-Transitive verb
-Intransitive verb
-Auxilliary verb
+
+ *  +TV  = Transitive verb
+ *  +IV  = Intransitive verb
+ *  +VAUX  = Auxilliary verb
 
 !!Usage extents are marked using following tags:
 
 
+Abbreviated words are classified with:
+ *  +ABBR +ACR  
+
 Special symbols are classified with:
+ * +CLB +PUNCT +LEFT +RIGHT  
 
 Special multiword units are analysed with:
+ *  +Multi  
 Non-dictionary words can be recognised with:
+ *  +Guess   
 
 Question and Focus particles:
+ *  +Qst +Foc  
 
 
 Semantics are classified with
+
+ *  +Mal +Fem +Sur  
+ *  +Plc 			 
+ *  +Org			 
+ *  +Obj			 
+ *  +Ani			 
+ *  +Hum			 
+ *  +Plant			 
+ *  +Group			 
+ *  +Time 			 
+ *  +Txt			 
+ *  +Route			 
+ *  +Measr 		 
+ *  +Wthr			 
+ *  +Build 		 
+ *  +Edu			 
+ *  +Veh			 
+ *  +Clth			 
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
+ *  +V→N +V→V +V→A   
+ *  +Der/xxx	      
 
-Morphophonology
----------------
+
+!!!Morphophonology
+
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
+  {aä} {oö} {uü} 
+
 And following triggers to control variation
-2013-02-01 
-vowel shortening in first syllable
-vowel metathesis in verbs
-for removing Stød
-a >> ǭ
+
+ *  {front} {back}  
+ *  %^ConsL           = Consonant lengthening
+ *  %^1Sh2L		   = 
+ *  %^Stress1to2	   = 
+ *  %^Stress2to1	   = 
+ *  %^VowsSh1         = vowel shortening in first syllable
+ *  %^VowsMetath      = vowel metathesis in verbs
+ *  %^VowsRM		   = 
+ *  %^ConsRM		   = 
+ *  %^StodRM          = for removing Stød
+ *  %^PalatalizeLeft  = 
+ *  %^VowsL1aToǭ      = a >> ǭ
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
 
-The word forms in UNDEFINED language start from the lexeme roots of basic
-word classes, or optionally from prefixes:
+The word forms in Livonian start from the lexeme roots of basic
+word classes
 
+ *    adjectives  ;	    
+ *    adpositions    ;	    
+ *    adverbs  ;		    
+ *    conjunctions	;	    
+ *    interjections  ;	    
+ *    nouns   ;		    
+ *    particles   ;	    
+ *    pronouns    ;	    
+ *    propernouns    ;	    
+ *    quantifiers    ;	    
+ *    verbs   ;		    
+ * 					    
+ *    Abbreviation	;	    
+ *    Acronym		;	    
+ *    Punctuation		;   
+ *    EXCEPTIONS		;   
 
 Words that are not inflected
 
+ * LEXICON ADV_   
+
+ * LEXICON ADV_KĒRATÕKS   
+
+ * LEXICON ADV_KǬRAND   
+
+ * LEXICON ADV_IRM   
+
+ * LEXICON INTERJ_   
+
+ * LEXICON PCLE-MOD_   
 
 
-
-
-
-
-
+ * LEXICON K   is the clitic lexicon, but no clitica here, only #.
 
 !!!Adjective inflection
 
