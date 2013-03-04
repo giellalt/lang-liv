@@ -31,7 +31,10 @@ K1:k
 
 ! Vowel raising
 %^RVows:0
-%^VowsSh1:0 !!
+%^VowsSh1:0 !! vowel shortening in first syllable
+%^VowsShU1:0 !!
+%^VowsShI1:0 !!
+%^DiphthSh1:0 !!
 
 !! vowel metathesis
 %^VowsMetath:0
@@ -88,8 +91,14 @@ Rules
 ǭ:a <=> # Cons* _  ( i ) :Cons+ Vows: %^Stress1to2:0  ;
 
 "ē:e in first syllable"
-ē:e<=> # Cons* _  ( i ) :Cons+ Vows: %^Stress1to2:0  ;
+ē:e <=> # Cons* _  ( :i ) :Cons+ Vows: %^VowsShI1:0 ;
+!# Cons* _  ( :i ) :Cons+ Vows: %^Stress1to2:0  ;
 
+"e:ē in first syllable"
+e:ē<=> # Cons* _  ( i: ) :Cons+ Vows: %^VowsLI1:0 ;
+
+"0:i after shortened vowel or diphthong"
+0:i <=> # Cons* [ ē: | ū: o: ] _ :Cons+ Vows: %^VowsShI1:0 ;
 
 "a:ǭ in first syllable"
 a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
@@ -108,19 +117,24 @@ a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 !! Vowel loss
 !! 
 "ā:0"
-ā:0 <=> # Cons* Vows ( ʼ: | :ʼ ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+ā:0 <=> # Cons* Vows ( ʼ: | :ʼ ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 
 "ū:0"
-ū:0 <=> # Cons* [Vows | ʼ: | :ʼ ]+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+ū:0 <=> # Cons* [Vows | ʼ: | :ʼ ]+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 !#Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: 
 
 "a:0"
-a:0 <=> # Cons* Vows:+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^PalatalizeLeft:0 ] %^VowsRM:0 ;
+a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^PalatalizeLeft:0 ] %^VowsRM:0 ;
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !€0 jarr0000õ
 "õ:0"
 õ:0 <=>  [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 ] %^VowsRM:0 ;
 !          Vows %> _ [ d | n | k s | s t ] ;
+
+"i:0 in first syllable"
+i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
+
+
 
 "0:õ in vowel metathesis"
 0:õ <=> [ b | d | t | g ] _ [ l | r ] õ: %^VowsMetath:0 %^VowsRM:0  ;
