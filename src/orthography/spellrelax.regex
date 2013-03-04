@@ -5,7 +5,13 @@
 ʼ (->) ’,
 ǭ (->) ō,
 ǫ (->) o,
-Ǭ (->) Ō
+Ǭ (->) Ō,
+ǭ (->) o,
+Ǭ (->) O, # blank to precomposed
+ō (->) o, # blank to precomposed
+Ō (->) Ō, # composed to precomposed
+Ō (->) O, # blank to precomposed
+ō (->) ō  # composed to precomposed
 ;
 
 # Explanation:
