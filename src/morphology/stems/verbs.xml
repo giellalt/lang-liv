@@ -14995,11 +14995,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">play</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">leikkiä</t>
       </tg>
     </mg>
 
@@ -34297,11 +34297,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">shine</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">paistaa</t>
       </tg>
     </mg>
 
@@ -34311,11 +34311,25 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="VT">YY</t>
+        <t pos="VT">glitter</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">säihkyä</t>
+      </tg>
+    </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="VT">be visible</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="VI">näkyä</t>
       </tg>
     </mg>
   </e>
@@ -34339,11 +34353,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">swell</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">turvota</t>
       </tg>
     </mg>
   </e>
@@ -55507,11 +55521,25 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="VI">YY</t>
+        <t pos="VI">come</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">tulla</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="VT">arrive</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="VI">saapua</t>
       </tg>
     </mg>
 
@@ -55525,7 +55553,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">liikkua</t>
       </tg>
     </mg>
 
@@ -55539,21 +55567,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="VI">XX</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="VT">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="VI">XX</t>
+        <t pos="VI">onnistua</t>
       </tg>
     </mg>
   </e>
