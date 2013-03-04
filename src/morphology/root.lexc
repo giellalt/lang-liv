@@ -193,15 +193,19 @@ Multichar_Symbols
  {aä} {oö} {uü} !!= @CODE@
 
 !! And following triggers to control variation
+ {front} {back} !!= * @CODE@
+ %^ConsL !!= * @CODE@ = Consonant lengthening
+ %^1Sh2L !!= * @CODE@ =
+!! 2013-02-01 
+! %^ConsSh
+ %^Stress1to2  !!= * @CODE@ =
+ %^Stress2to1  !!= * @CODE@ =
+ %^VowsSh1     !!= * @CODE@ = vowel shortening in first syllable
+ %^VowsShU1    !!= * @CODE@ =
+ %^VowsShI1    !!= * @CODE@ =
+ %^DiphthSh1   !!= * @CODE@ =
+ %^VowsLI1     !!= * @CODE@ = Vowel lengthening
 
- {front} {back}  !!= * @CODE@
- %^ConsL          !!= * @CODE@ = Consonant lengthening
- %^1Sh2L		  !!= * @CODE@ = 
-! 2013-02-01
-! %^ConsSh	
- %^Stress1to2	  !!= * @CODE@ = 
- %^Stress2to1	  !!= * @CODE@ = 
- %^VowsSh1        !!= * @CODE@ = vowel shortening in first syllable
  %^VowsMetath     !!= * @CODE@ = vowel metathesis in verbs
  %^VowsRM		  !!= * @CODE@ = 
  %^ConsRM		  !!= * @CODE@ = 
