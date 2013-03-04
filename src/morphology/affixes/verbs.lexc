@@ -140,35 +140,6 @@ LEXICON VT_TAPPÕ
 !! 26 tappõ:tapā
 +V+TV: V-01_JEʼLLÕ ;
 
-LEXICON V-01_JEʼLLÕ
-!! 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
- GER_s     ;
-:%^Stress2to1 INF_ZERO      ;
- SUP_m        ;
-:%^StodRM   INDPRSSG1    ;
-:%^StodRM   INDPRSSG2    ;
-:%^StodRM   INDPRSSG3    ;
-:%^Stress2to1   INDPRSPL1	 ;
-:%^Stress2to1   INDPRSPL2	 ;
-:%^Stress2to1   INDPRSPL3	 ;
-:%^ConsSh   INDCONNEGSG    ;
-: INDCONNEGPL1 ;
-: INDCONNEGPL2 ;
-: INDCONNEGPL3 ;
-:%^VowsRM%>ī INDPRT_z ;
-!+Ind+Sg+ConNeg:	K    ;
-
-!+Cond+Sg3:õks	K    ;
- CONDPRS ;
-
-!+Imprt+Sg2:  	K    ;
-!+Imprt+ConNeg:	K    ;
-!+Imprt+Pl2:õgid	K    ;
-!+Jus+Sg3:õg		K    ;
-!+Quo+Sg:iji		K    ;
-!+Act+PrfPrc+Sg:õn	K    ;
-:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
-
 LEXICON VI_MÄNGÕ
 !! 14 mängõ:mǟnga
 +V+IV: V-01_MÄNGÕ ;
@@ -232,35 +203,6 @@ LEXICON VI_TIEUDÕ
 LEXICON VT_TIEUDÕ
 !! 28 tieudõ:tīeda
 +V+TV: V-01_MÄNGÕ ;
-
-LEXICON V-01_MÄNGÕ
-!! 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
- GER_s     ;
-:%^Stress2to1 INF_ZERO      ;
- SUP_m        ;
-:   INDPRSSG1    ;
-:   INDPRSSG2    ;
-:   INDPRSSG3    ;
-:%^Stress2to1   INDPRSPL1	 ;
-:%^Stress2to1   INDPRSPL2	 ;
-:%^Stress2to1   INDPRSPL3	 ;
-:%^ConsSh   INDCONNEGSG    ;
-: INDCONNEGPL1 ;
-: INDCONNEGPL2 ;
-: INDCONNEGPL3 ;
-:%^VowsRM%>ī INDPRT_z ;
-!+Ind+Sg+ConNeg:	K    ;
-
-!+Cond+Sg3:õks	K    ;
- CONDPRS ;
-
-!+Imprt+Sg2:  	K    ;
-!+Imprt+ConNeg:	K    ;
-!+Imprt+Pl2:õgid	K    ;
-!+Jus+Sg3:õg		K    ;
-!+Quo+Sg:iji		K    ;
-!+Act+PrfPrc+Sg:õn	K    ;
-:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
 
 !! 29-48 follow same pattern
 LEXICON VI_LUʼGGÕ
@@ -499,25 +441,6 @@ LEXICON VT_ĪʼEDÕ
 !! īʼedõ:īed 57
 +V+TV: V-01_KŪLÕ ;
 
-LEXICON V-01_KŪLÕ
-! This is mutual for 49-57
- GER_s   ;
- INF_ZERO	  ;
- SUP_m	  ; 
-: INDPRSSG1    ;
-: INDPRSSG2    ;
-: INDPRSSG3    ;
-:   INDPRSPL1    ;
-:   INDPRSPL2    ;
-:   INDPRSPL3    ;
-:%^ConsSh	INDCONNEGSG    ;
-: INDCONNEGPL1 ;
-: INDCONNEGPL2 ;
-: INDCONNEGPL3 ;
-!! Prt
-:%^VowsRM%>i INDPRT_z    ;
-
-
 LEXICON V_UMBLÕ
 !! umblõ:umblõ 58
 +V: V-01_UMBLÕ ;
@@ -578,8 +501,10 @@ LEXICON V-AUX_PIḐĪKS
 !! 64 piḑīks:piḑī
 +V+VAUX: K ;
 
-!!!!!
-!!
+!! !!After transitive, intransitive, auxiliary and such tags have been added
+!! 1
+
+!! 2
 
 !! 3
 LEXICON V-01_VĪDÕ
@@ -587,17 +512,11 @@ LEXICON V-01_VĪDÕ
 !! vīdõ:vī
 :d   GER_sõ   ;
    INF_dõ	  ;
-   SUP_mõ	  ; 
+   SUP-STEM_mõ	  ; 
    INDPRSSG1    ;
    INDPRSSG2    ;
    INDPRSSG3    ;
-   INDPRSPL1    ;
-   INDPRSPL2    ;
-   INDPRSPL3    ;
    INDCONNEGSG    ;
-   INDCONNEGPL1 ;
-   INDCONNEGPL2 ;
-   INDCONNEGPL3 ;
 !! Prt
  INDPRT_ž    ;
 ! Cond
@@ -618,26 +537,68 @@ LEXICON V-01_VĪDÕ
  ACTPRFPRC_nd ;
 :%^VowsRM PSSPRSPRC ;
 :%^VowsRM	PSSPRFPRCSG    ;
-!!
+!! 4
 
+
+LEXICON V-01_JEʼLLÕ
+!! 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
+ GER_s     ;
+:%^Stress2to1 INF_ZERO      ;
+:%^Stress2to1 SUP-STEM_m        ;
+:%^StodRM   INDPRSSG1    ;
+:%^StodRM   INDPRSSG2    ;
+:%^StodRM   INDPRSSG3    ;
+:%^ConsSh   INDCONNEGSG    ;
+:%^VowsRM%>ī INDPRT_z ;
+!+Ind+Sg+ConNeg:	K    ;
+
+!+Cond+Sg3:õks	K    ;
+ CONDPRS ;
+
+!+Imprt+Sg2:  	K    ;
+!+Imprt+ConNeg:	K    ;
+!+Imprt+Pl2:õgid	K    ;
+!+Jus+Sg3:õg		K    ;
+!+Quo+Sg:iji		K    ;
+!+Act+PrfPrc+Sg:õn	K    ;
+:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+!!
+LEXICON V-01_MÄNGÕ
+!! 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+ GER_s     ;
+:%^Stress2to1 INF_ZERO      ;
+:%^Stress2to1 SUP-STEM_m        ;
+:   INDPRSSG1    ;
+:   INDPRSSG2    ;
+:   INDPRSSG3    ;
+:%^ConsSh   INDCONNEGSG    ;
+:%^VowsRM%>ī INDPRT_z ;
+!+Ind+Sg+ConNeg:	K    ;
+
+!+Cond+Sg3:õks	K    ;
+ CONDPRS ;
+
+!+Imprt+Sg2:  	K    ;
+!+Imprt+ConNeg:	K    ;
+!+Imprt+Pl2:õgid	K    ;
+!+Jus+Sg3:õg		K    ;
+!+Quo+Sg:iji		K    ;
+!+Act+PrfPrc+Sg:õn	K    ;
+:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+!!
 !! 29
 LEXICON	V-01_LUʼGGÕ
 !! This is mutual for 29-36: 
 !! luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
 :%^Stress2to1 GER_s   ;
 :%^Stress2to1 INF_ZERO	  ;
-:%^Stress2to1 SUP_m	  ; 
+:%^Stress2to1 SUP-STEM_m	  ; 
 :%^StodRM INDPRSSG1    ;
 :%^StodRM INDPRSSG2    ;
 :%^StodRM INDPRSSG3    ;
-:%^Stress2to1   INDPRSPL1    ;
-:%^Stress2to1   INDPRSPL2    ;
-:%^Stress2to1   INDPRSPL3    ;
 :%^VowsRM INDCONNEGSG    ;
 !:%^Stress2to1%^VowsRM%^ConsRM	INDCONNEGSG    ;
-:%^Stress2to1 INDCONNEGPL1 ;
-:%^Stress2to1 INDCONNEGPL2 ;
-:%^Stress2to1 INDCONNEGPL3 ;
 !! Prt
 :%^StodRM%^VowsRM%>ī INDPRT_z    ;
 ! Cond
@@ -661,21 +622,16 @@ LEXICON	V-01_LUʼGGÕ
 :%^VowsRM	PSSPRFPRCSG    ;
 
 !!
+
 LEXICON V-01_AIGÕ
 !! This is mutual for 37-48
 :%^Stress1to2 GER_s   ;
 :%^Stress1to2 INF_ZERO	  ;
-:%^Stress1to2 SUP_m	  ; 
+:%^Stress1to2 SUP-STEM_m	  ; 
  INDPRSSG1    ;
 : INDPRSSG2    ;
 : INDPRSSG3    ;
-:%^Stress1to2   INDPRSPL1    ;
-:%^Stress1to2   INDPRSPL2    ;
-:%^Stress1to2   INDPRSPL3    ;
 :%^Stress1to2%^VowsRM	INDCONNEGSG    ;
-:%^Stress1to2 INDCONNEGPL1 ;
-:%^Stress1to2 INDCONNEGPL2 ;
-:%^Stress1to2 INDCONNEGPL3 ;
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
 
@@ -693,6 +649,18 @@ LEXICON V-01_AIGÕ
 :%^Stress1to2 JUSPRS_g	;
 :%^Stress1to2%^VowsRM QUOPRS_iji	;		
 
+!!
+LEXICON V-01_KŪLÕ
+! This is mutual for 49-57
+ GER_s   ;
+ INF_ZERO	  ;
+ SUP-STEM_m	  ; 
+: INDPRSSG1    ;
+: INDPRSSG2    ;
+: INDPRSSG3    ;
+:%^ConsSh	INDCONNEGSG    ;
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
 
 
 !!
@@ -702,17 +670,11 @@ LEXICON V-01_UMBLÕ
 !! umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
    GER_s   ;
    INF_ZERO	  ;
-   SUP_m	  ; 
+   SUP-STEM_m	  ; 
    INDPRSSG1    ;
    INDPRSSG2    ;
    INDPRSSG3    ;
-   INDPRSPL1    ;
-   INDPRSPL2    ;
-   INDPRSPL3    ;
    INDCONNEGSG    ;
-   INDCONNEGPL1 ;
-   INDCONNEGPL2 ;
-   INDCONNEGPL3 ;
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
 ! Cond
@@ -765,9 +727,26 @@ LEXICON INF_dõ
 
 LEXICON INF_da
 +Inf:%>da    K   ;
-
+1
+LEXICON SUP-STEM_m
+   SUP_m	;
+   INDPRSPL1    ;
+   INDPRSPL2    ;
+   INDPRSPL3    ;
+   INDCONNEGPL1	;
+   INDCONNEGPL2	;
+   INDCONNEGPL3	;
 LEXICON SUP_m
 +Sup+Ill:%>m K   ;
+
+LEXICON	SUP-STEM_mõ
+   SUP_mõ	;
+   INDPRSPL1    ;
+   INDPRSPL2    ;
+   INDPRSPL3    ;
+   INDCONNEGPL1 ;
+   INDCONNEGPL2 ;
+   INDCONNEGPL3 ;
 
 LEXICON SUP_mõ
 +Sup+Ill:%>mõ K   ;
