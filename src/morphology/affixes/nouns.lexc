@@ -776,22 +776,22 @@ LEXICON N_TŪĻI-PL !!= @CODE@ : 199
 
 LEXICON N_AʼBLI !!= @CODE@ aʼbli:abli 200
 !! ~567
- N_TŪĻI ;
+ NMN_AʼBLI ;
 
 LEXICON N_AʼBLI-PL !!= @CODE@ aʼbli:abli 200
- N_TŪĻI-PL ;
+ NMN_AʼBLI-PL ;
 
 LEXICON N_SĒMI !!= @CODE@ : 201
-+N:	CASES	;
++N:	NMN_SĒMI	;
 
 LEXICON N_SĒMI-PL !!= @CODE@ : 201
-+N:     PL-CASES   ;
++N:     NMN_SĒMI-PL   ;
 
-LEXICON N_LĒʼMI !!= @CODE@ lēʼmi:lēmi 202
-+N:	CASES	;
+LEXICON N_LĒʼMI !!= @CODE@ lēʼmi:lēʼmi 202
++N:	NMN_LĒʼMI	;
 
-LEXICON N_LĒʼMI-PL	!!= @CODE@ lēʼmi:lēmi 202
-+N:     PL-CASES   ;
+LEXICON N_LĒʼMI-PL	!!= @CODE@ lēʼmi:lēʼmi 202
++N:     NMN_LĒʼMI-PL   ;
 
 LEXICON N_ALĪZ !!= @CODE@ : 203
 +N:	CASES	;
@@ -1923,9 +1923,24 @@ LEXICON NMN_ĒTAM !!= @CODE@ : 156
 LEXICON NMN_ĒTAM-PL !!= @CODE@ : 156
 +TYÄ: #;
 LEXICON NMN_SIDĀM !!= @CODE@ : 157
-+TYÄ: #;
+        NMN_SIDĀM-SG     ;
+        NMN_SIDĀM-PL     ;
+
+LEXICON NMN_SIDĀM-SG
+        SG-DAT_õn ;
+       	SG-ELA/INE_õst ;
+        SG-GEN ;
+  	SG-ILL_õ ;
+        SG-INS_õks ;
+	SG-NOM  ;
+    	SG-PAR_t ;
+
 LEXICON NMN_SIDĀM-PL      !!= @CODE@ : 157
-+TYÄ: #;
+:%^ConsL 	PL-INS_ÕDÕKS-STEM ;
+:%^ConsL 	PL-ELA/INE_ist ;
+:%^ConsL 	PL-ILL_iž ;
+:%^ConsL 	PL-PAR_idi ;
+
 
 !! 158
 LEXICON NMN_TŪOITÕG
@@ -2147,17 +2162,24 @@ LEXICON NMN_TŪĻI-PL
 :ž 	PL-PAR_i ;
 !!
 LEXICON NMN_AʼBLI !!= @CODE@ aʼbli:abli 200
-+TYÄ: #;
+	NMN_TŪĻI   ;
+
 LEXICON NMN_AʼBLI-PL !!= @CODE@ aʼbli:abli 200
-+TYÄ: #;
+	NMN_TŪĻI-PL  ;
+
 LEXICON NMN_SĒMI !!= @CODE@ : 201
-+TYÄ: #;
+        NMN_TŪĻI   ;
+        SG-PAR_t   ;	
 LEXICON NMN_SĒMI-PL !!= @CODE@ : 201
-+TYÄ: #;
+        NMN_TŪĻI-PL   ;
+
 LEXICON NMN_LĒʼMI !!= @CODE@ lēʼmi:lēmi 202
-+TYÄ: #;
+	NMN_TŪĻI   ;
+	SG-PAR_t   ;
+
 LEXICON NMN_LĒʼMI-PL      !!= @CODE@ lēʼmi:lēmi 202
-+TYÄ: #;
+        NMN_TŪĻI-PL   ;
+
 LEXICON NMN_ALĪZ !!= @CODE@ : 203
 +TYÄ: #;
 LEXICON NMN_ALĪZ-PL !!= @CODE@ : 203

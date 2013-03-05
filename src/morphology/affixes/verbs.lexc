@@ -515,9 +515,7 @@ LEXICON V-01_VĪDÕ
 :d   GER_sõ   ;
    INF_dõ	  ;
    SUP-STEM_mõ	  ; 
-   INDPRSSG1    ;
-   INDPRSSG2    ;
-   INDPRSSG3    ;
+   INDPRSSG1-STEM    ;
    INDCONNEGSG    ;
 !! Prt
  INDPRT_ž    ;
@@ -532,7 +530,7 @@ LEXICON V-01_VĪDÕ
 !! Jus
  JUSPRS_gõ	;
 !! Qvo
- QUOPRS_ji	;
+ QUOPRS-STEM_ji	;
 
 !! participles
  ACTPRSPRC ;
@@ -547,9 +545,7 @@ LEXICON V-01_JEʼLLÕ
 :%^Stress2to1 GER_s     ;
 :%^Stress2to1 INF_ZERO      ;
 :%^Stress2to1 SUP-STEM_m        ;
-:%^StodRM   INDPRSSG1    ;
-:%^StodRM   INDPRSSG2    ;
-:%^StodRM   INDPRSSG3    ;
+:%^StodRM%^ConsSh%^VowsRM%>ā   INDPRSSG1-STEM    ;
 :%^ConsSh   INDCONNEGSG    ;
 :%^VowsRM%>ī INDPRT_z ;
 !+Ind+Sg+ConNeg:	K    ;
@@ -570,9 +566,7 @@ LEXICON V-01_MÄNGÕ
  GER_s     ;
 :%^Stress2to1 INF_ZERO      ;
 :%^Stress2to1 SUP-STEM_m        ;
-:   INDPRSSG1    ;
-:   INDPRSSG2    ;
-:   INDPRSSG3    ;
+:   INDPRSSG1-STEM    ;
 :%^ConsSh   INDCONNEGSG    ;
 :%^VowsRM%>ī INDPRT_z ;
 !+Ind+Sg+ConNeg:	K    ;
@@ -593,35 +587,32 @@ LEXICON V-01_MÄNGÕ
 LEXICON	V-01_LUʼGGÕ
 !! This is mutual for 29-36: 
 !! luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
-:%^Stress2to1 GER_s   ;
-:%^Stress2to1 INF_ZERO	  ;
-:%^Stress2to1 SUP-STEM_m	  ; 
-:%^StodRM INDPRSSG1    ;
-:%^StodRM INDPRSSG2    ;
-:%^StodRM INDPRSSG3    ;
-:%^VowsRM INDCONNEGSG    ;
-!:%^Stress2to1%^VowsRM%^ConsRM	INDCONNEGSG    ;
+ GER_s   ;
+ INF_ZERO	  ;
+ SUP-STEM_m	  ; 
+:%^StodRM%^ConsSh%^VowsRM%>ū INDPRSSG1-STEM    ;
+:%^ConsSh%^VowsRM INDCONNEGSG    ;
 !! Prt
-:%^StodRM%^VowsRM%>ī INDPRT_z    ;
+:%^StodRM%^ConsSh%^VowsRM%>ī INDPRT_z    ;
 ! Cond
-:%^StodRM CONDPRS ;
+:%^StodRM%^ConsSh%^VowsRM%>ū CONDPRS ;
 !! Imprt
-:%^VowsRM	IMPRTPRSSG2    ;
+:%^ConsSh%^VowsRM	IMPRTPRSSG2    ;
 :%^Stress2to1 IMPRTPRSPL1	;
 :%^Stress2to1 IMPRTPRSPL2	;
 :%^Stress2to1 IMPRTPRSCONNEG ;
 
 +V+Imprt+Prs+Pl2:%^Stress2to1%>gid	K    ;
 !! Jus
-:%^Stress2to1 JUSPRS_g	;
+ JUSPRS_g	;
 !! Kvo
-:%^Stress2to1%^VowsRM QUOPRS_iji	;
+:%^VowsRM QUOPRS-STEM_iji	;
 
 !! participles
-:%^Stress2to1 ACTPRSPRC ;
-:%^Stress2to1 ACTPRFPRC_n ;
-:%^VowsRM PSSPRSPRC ;
-:%^VowsRM	PSSPRFPRCSG    ;
+ ACTPRSPRC ;
+ ACTPRFPRC_n ;
+:%^ConsSh%^VowsRM PSSPRSPRC ;
+:%^ConsSh%^VowsRM	PSSPRFPRCSG    ;
 
 !!
 
@@ -630,9 +621,7 @@ LEXICON V-01_AIGÕ
 :%^Stress1to2 GER_s   ;
 :%^Stress1to2 INF_ZERO	  ;
 :%^Stress1to2 SUP-STEM_m	  ; 
- INDPRSSG1    ;
-: INDPRSSG2    ;
-: INDPRSSG3    ;
+ INDPRSSG1-STEM    ;
 :%^Stress1to2%^VowsRM	INDCONNEGSG    ;
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
@@ -649,7 +638,7 @@ LEXICON V-01_AIGÕ
 :%^Stress1to2 IMPRTPRSPL2 ;
  IMPRTPRSCONNEG ;
 :%^Stress1to2 JUSPRS_g	;
-:%^Stress1to2%^VowsRM QUOPRS_iji	;		
+:%^Stress1to2%^VowsRM QUOPRS-STEM_iji	;		
 
 !!
 LEXICON V-01_KŪLÕ
@@ -657,9 +646,7 @@ LEXICON V-01_KŪLÕ
  GER_s   ;
  INF_ZERO	  ;
  SUP-STEM_m	  ; 
-: INDPRSSG1    ;
-: INDPRSSG2    ;
-: INDPRSSG3    ;
+: INDPRSSG1-STEM    ;
 :%^ConsSh	INDCONNEGSG    ;
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
@@ -673,9 +660,7 @@ LEXICON V-01_UMBLÕ
    GER_s   ;
    INF_ZERO	  ;
    SUP-STEM_m	  ; 
-   INDPRSSG1    ;
-   INDPRSSG2    ;
-   INDPRSSG3    ;
+   INDPRSSG1-STEM    ;
    INDCONNEGSG    ;
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
@@ -690,7 +675,7 @@ LEXICON V-01_UMBLÕ
 !! Jus
  JUSPRS_g	;
 !! Qvo
-:%^VowsRM QUOPRS_iji	;
+:%^VowsRM QUOPRS-STEM_iji	;
 
 !! participles
  ACTPRSPRC ;
@@ -722,7 +707,7 @@ LEXICON GER_sõ
 +Ger+Ine:%>sõ   K ;
 
 LEXICON INF_ZERO
-+Inf:    K   ;
++Inf:	K	;
 
 LEXICON INF_dõ
 +Inf:%>dõ    K   ;
@@ -756,6 +741,7 @@ LEXICON SUP_mõ
 LEXICON ACTPRSPRC
 +Act+PrsPrc+Sg:%>b	K    ;
 +Act+PrsPrc+Pl:%>bõd	K    ;
++Act+PrsPrc+Der/A:%>b	A_SIDĀM    ;
 
 LEXICON	ACTPRFPRC_n
 +Act+PrfPrc+Sg:%>n	K    ;
@@ -778,18 +764,14 @@ LEXICON PSSPRFPRCSG
 
 LEXICON INDPRS
 !! Indicative present
-  INDPRSSG1	;
-  INDPRSSG2	;
-  INDPRSSG3	;
+  INDPRSSG1-STEM	;
   INDPRSPL1	;
   INDPRSPL2	;
   INDPRSPL3	;
 
 LEXICON INDPRS_tõ
 !! Indicative present
-  INDPRSSG1	;
-  INDPRSSG2	;
-  INDPRSSG3	;
+  INDPRSSG1-STEM	;
   INDPRSPL1	;
   INDPRSPL2_tõ	;
   INDPRSPL3	;
@@ -829,6 +811,11 @@ LEXICON CONDPRS
 
 
  ! Indicative present
+LEXICON INDPRSSG1-STEM
+	INDPRSSG1	;
+	INDPRSSG2	;
+	INDPRSSG3	;
+
 LEXICON INDPRSSG1
  +Ind+Prs+Sg1:%>b    K	;
 
@@ -961,6 +948,14 @@ LEXICON JUSPRS_gõ
 +Jus+Prs+Pl:%>gõd             K    ;
 
 !! Quotative
+LEXICON QUOPRS-STEM_ji
+	QUOPRS_ji	;
++Der/VN:mi		N_AʼBLI	;
+
+LEXICON QUOPRS-STEM_iji
+	QUOPRS_iji	;
++Der/VN:imi		N_AʼBLI	;
+
 LEXICON QUOPRS_ji
 +Quo+Prs+Sg:%>ji           K    ;
 +Quo+Prs+Pl:%>jid           K    ;
