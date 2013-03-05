@@ -611,7 +611,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">rannikkovesien kalastusverkko</t>
       </tg>
     </mg>
   </e>
@@ -10321,11 +10321,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">sprat</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kilohaili</t>
       </tg>
     </mg>
   </e>
@@ -13049,11 +13049,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">lighthouse</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">majakka</t>
       </tg>
     </mg>
   </e>
@@ -33627,7 +33627,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">syvempi paikka meressa kahden hiekkasärkän välissä</t>
       </tg>
     </mg>
   </e>
@@ -36679,11 +36679,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">fisherman</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kalastaja</t>
       </tg>
     </mg>
   </e>
@@ -70953,11 +70953,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">Atlantic salmon</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">merilohi</t>
       </tg>
     </mg>
   </e>
@@ -72985,11 +72985,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">flounder</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kampela</t>
       </tg>
     </mg>
   </e>
@@ -82113,11 +82113,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">boat</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">vene</t>
       </tg>
     </mg>
   </e>
@@ -91291,11 +91291,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">play</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">leikki</t>
       </tg>
     </mg>
   </e>
@@ -148032,11 +148032,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">Baltic herring</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">silakka</t>
       </tg>
     </mg>
   </e>
@@ -157568,11 +157568,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">whitefish</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">siika</t>
       </tg>
     </mg>
   </e>
@@ -176776,11 +176776,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">cod</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">turska</t>
       </tg>
     </mg>
   </e>
@@ -186604,11 +186604,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">water</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">vesi</t>
       </tg>
     </mg>
   </e>
@@ -200750,11 +200750,25 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">time</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">aika</t>
+      </tg>
+    </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N">weather</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">sää</t>
       </tg>
     </mg>
   </e>
@@ -200778,11 +200792,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">measure</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">mitta</t>
       </tg>
     </mg>
 
@@ -200792,25 +200806,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">size</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">koko</t>
       </tg>
     </mg>
   </e>
