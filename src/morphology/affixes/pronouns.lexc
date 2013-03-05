@@ -137,8 +137,20 @@ LEXICON PRON_KIS !!= @CODE@ kis:kī 8
 LEXICON PRON_ĪʼŽ !!= @CODE@ 9
 +Pron: # ;
 
-LEXICON PRON_MIDĀGÕD !!= @CODE@ 10
-+Pron: # ;
+LEXICON PRON_MIDĀGÕD !!= @CODE@ midāgõd:midāg 10
++Pron+Indef: SG-DAT_õn ;
++Pron+Indef: SG-ELA_õst ;
++Pron+Indef:õd SG-GEN ;
++Pron+Indef: SG-ILL_õ ;
++Pron+Indef:õ SG-ILL_z ;
++Pron+Indef: SG-INS_õks ;
++Pron+Indef:õd SG-NOM ;
++Pron+Indef:õd SG-PAR_ZERO ;
++Pron+Indef: PL-INS_ÕDÕKS-STEM ;
++Pron+Indef:en PL-ELA/INE_ist   ;
++Pron+Indef:en PL-ILL_iž   ;
++Pron+Indef:en PL-PAR_idi   ;
+
 
 LEXICON PRON_MITS !!= @CODE@ 11
 +Pron: # ;
