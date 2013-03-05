@@ -16,7 +16,7 @@ LEXICON IV_LǞʼDÕ
 
 LEXICON TV_TǬʼDÕ
 !! 2 tǭʼdõ:
-+V+TV: K ;
++V+TV: V-01_TǬʼDÕ ;
 
 LEXICON V-AUX_VĪDÕ
 !! 3 vīdõ:vī
@@ -505,6 +505,8 @@ LEXICON V-AUX_PIḐĪKS
 !! 1
 
 !! 2
+LEXICON V-01_TǬʼDÕ
+ V-01_VĪDÕ ;
 
 !! 3
 LEXICON V-01_VĪDÕ
@@ -542,7 +544,7 @@ LEXICON V-01_VĪDÕ
 
 LEXICON V-01_JEʼLLÕ
 !! 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
- GER_s     ;
+:%^Stress2to1 GER_s     ;
 :%^Stress2to1 INF_ZERO      ;
 :%^Stress2to1 SUP-STEM_m        ;
 :%^StodRM   INDPRSSG1    ;
