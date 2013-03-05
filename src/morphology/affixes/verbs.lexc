@@ -2,47 +2,47 @@
 !! ---------------
 !! The UNDEFINED language verbs inflect in persons.
 
-LEXICON VT_
+LEXICON TV_
 !! CONJUGATION TYPE MISSING
 +V+TV: K ;
 
 LEXICON V-AUX_LǞʼDÕ
 !! 1 lǟʼdõ:
-+V+VAUX: K ;
++V+Aux: K ;
 
-LEXICON VI_LǞʼDÕ
+LEXICON IV_LǞʼDÕ
 !! 1 lǟʼdõ:
 +V+IV: K ;
 
-LEXICON VT_TǬʼDÕ
+LEXICON TV_TǬʼDÕ
 !! 2 tǭʼdõ:
 +V+TV: K ;
 
 LEXICON V-AUX_VĪDÕ
 !! 3 vīdõ:vī
-+V+VAUX: V-01_VĪDÕ ;
++V+Aux: V-01_VĪDÕ ;
 
-LEXICON VI_VĪDÕ
+LEXICON IV_VĪDÕ
 !! 3 vīdõ:
 +V+IV: V-01_VĪDÕ ;
 
-LEXICON VT_VĪDÕ
+LEXICON TV_VĪDÕ
 !! 3 vīdõ:
 +V+TV: V-01_VĪDÕ ;
 
-LEXICON VI_NǞʼDÕ
+LEXICON IV_NǞʼDÕ
 !! 4 nǟʼdõ:
 +V+IV: K ;
 
-LEXICON VT_NǞʼDÕ
+LEXICON TV_NǞʼDÕ
 !! 4 nǟʼdõ:
 +V+TV: K ;
 
-LEXICON VI_KǞʼDÕ
+LEXICON IV_KǞʼDÕ
 !! 5 kǟʼdõ:
 +V+IV: K ;
 
-LEXICON VT_TĪʼEDÕ
+LEXICON TV_TĪʼEDÕ
 !! 6 tīʼedõ:
 +V+TV: K ;
 
@@ -50,362 +50,362 @@ LEXICON VT_TĪʼEDÕ
 
 LEXICON V-AUX_SĪEDÕ
 !! 7 sīedõ:
-+V+VAUX: K ;
++V+Aux: K ;
 
-LEXICON VI_SĪEDÕ
+LEXICON IV_SĪEDÕ
 !! 7 sīedõ:
 +V+IV: K ;
 
-LEXICON VT_SĪEDÕ
+LEXICON TV_SĪEDÕ
 !! 7 sīedõ:
 +V+TV: K ;
 
-LEXICON VI_SǬDÕ
+LEXICON IV_SǬDÕ
 !! 8 sǭdõ:
 +V+IV: K ;
 
-LEXICON VT_SǬDÕ
+LEXICON TV_SǬDÕ
 !! 8 sǭdõ:
 +V+TV: K ;
 
 LEXICON V-AUX_SǬDÕ
 !! 8 sīedõ:
-+V+VAUX: K ;
++V+Aux: K ;
 
-LEXICON VT_JŪODÕ
+LEXICON TV_JŪODÕ
 !! 9 jūodõ:
 +V+TV: K ;
 
 LEXICON V-AUX_VȰLDA
 !! 10 vȱlda:
-+V+VAUX: K ;
++V+Aux: K ;
 
-LEXICON VI_VȰLDA
+LEXICON IV_VȰLDA
 !! 10 vȱlda:
 +V+IV: K ;
 
-LEXICON VI_TŪLDA
+LEXICON IV_TŪLDA
 !! 11 tūlda:
 +V+IV: K ;
 
 LEXICON V-AUX_PĀNDA
 !! 12 pānda:
-+V+VAUX: K ;
++V+Aux: K ;
 
-LEXICON VI_PĀNDA
+LEXICON IV_PĀNDA
 !! 12 pānda:
 +V+IV: K ;
 
-LEXICON VT_PĀNDA
+LEXICON TV_PĀNDA
 !! 12 pānda:
 +V+TV: K ;
 
-LEXICON VI_JEʼLLÕ
+LEXICON IV_JEʼLLÕ
 !! 13 jeʼllõ:jeʼlā
 +V+IV: V-01_JEʼLLÕ ;
 
-LEXICON VT_JEʼLLÕ
+LEXICON TV_JEʼLLÕ
 !! 13 jeʼllõ:jeʼlā
 +V+TV: V-01_JEʼLLÕ ;
 
-LEXICON VI_ASTÕ
+LEXICON IV_ASTÕ
 !! 18 astõ:astā
 +V+IV: V-01_JEʼLLÕ ;
 
-LEXICON VT_ASTÕ
+LEXICON TV_ASTÕ
 !! 18 astõ:astā
 +V+TV: V-01_JEʼLLÕ ;
 
-LEXICON VT_VÕTTÕ
+LEXICON TV_VÕTTÕ
 !! 19 võttõ:võtā
 +V+TV: V-01_JEʼLLÕ ;
 
-LEXICON VI_VIEʼDDÕ
+LEXICON IV_VIEʼDDÕ
 !! 24 vieʼddõ:vieʼdā
 +V+IV: V-01_JEʼLLÕ ;
 
-LEXICON VT_VIEʼDDÕ
+LEXICON TV_VIEʼDDÕ
 !! 24 vieʼddõ:vieʼdā
 +V+TV: V-01_JEʼLLÕ ;
 
-LEXICON VI_MAKSÕ
+LEXICON IV_MAKSÕ
 !! 25 maksõ:maksā
 +V+IV: V-01_JEʼLLÕ ;
 
-LEXICON VT_MAKSÕ
+LEXICON TV_MAKSÕ
 !! 25 maksõ:maksā
 +V+TV: V-01_JEʼLLÕ ;
 
-LEXICON VT_TAPPÕ
+LEXICON TV_TAPPÕ
 !! 26 tappõ:tapā
 +V+TV: V-01_JEʼLLÕ ;
 
-LEXICON VI_MÄNGÕ
+LEXICON IV_MÄNGÕ
 !! 14 mängõ:mǟnga
 +V+IV: V-01_MÄNGÕ ;
 
-LEXICON VT_KILLÕ
+LEXICON TV_KILLÕ
 !! 15 killõ:kīla
 +V+TV: V-01_MÄNGÕ ;
 
-LEXICON VT_PALLÕ
+LEXICON TV_PALLÕ
 !! 16 pallõ:pǭla
 +V+TV: V-01_MÄNGÕ ;
 
-LEXICON VT_LOULÕ
+LEXICON TV_LOULÕ
 !! 17 loulõ:lōla
 +V+TV: V-01_MÄNGÕ ;
 
-LEXICON VI_LAITÕ
+LEXICON IV_LAITÕ
 !! 20 laittõ:lāita
 +V+IV: V-01_MÄNGÕ ;
 
-LEXICON VT_LAITÕ
+LEXICON TV_LAITÕ
 !! 20 laittõ:lāita
 +V+TV: V-01_MÄNGÕ ;
 
-LEXICON VI_TÄUTÕ
+LEXICON IV_TÄUTÕ
 !! 21 täutõ:tǟta
 +V+IV: V-01_MÄNGÕ ;
 
-LEXICON VT_TÄUTÕ
+LEXICON TV_TÄUTÕ
 !! 21 täutõ:tǟta
 +V+TV: V-01_MÄNGÕ ;
 
-LEXICON VI_PȮĻTÕ
+LEXICON IV_PȮĻTÕ
 !! 22 pȯļtõ:pūoļta
 +V+IV: V-01_MÄNGÕ ;
 
-LEXICON VT_PȮĻTÕ
+LEXICON TV_PȮĻTÕ
 !! 22 pȯļtõ:pūoļta
 +V+TV: V-01_MÄNGÕ ;
 
-LEXICON VI_MȮISTÕ
+LEXICON IV_MȮISTÕ
 !! 23 mȯistõ:mūošta
 +V+IV: V-01_MÄNGÕ ;
 
-LEXICON VT_MȮISTÕ
+LEXICON TV_MȮISTÕ
 !! 23 mȯistõ:mūošta
 +V+TV: V-01_MÄNGÕ ;
 
-LEXICON VI_ANDÕ
+LEXICON IV_ANDÕ
 !! 27 andõ:ānda
 +V+IV: V-01_MÄNGÕ ;
 
-LEXICON VT_ANDÕ
+LEXICON TV_ANDÕ
 !! 27 andõ:ānda
 +V+TV: V-01_MÄNGÕ ;
 
-LEXICON VI_TIEUDÕ
+LEXICON IV_TIEUDÕ
 !! 28 tieudõ:tīeda
 +V+IV: V-01_MÄNGÕ ;
 
-LEXICON VT_TIEUDÕ
+LEXICON TV_TIEUDÕ
 !! 28 tieudõ:tīeda
 +V+TV: V-01_MÄNGÕ ;
 
 !! 29-48 follow same pattern
-LEXICON VI_LUʼGGÕ
+LEXICON IV_LUʼGGÕ
 !! luʼggõ:lugū 29
 +V+IV:     V-01_LUʼGGÕ ;
 
-LEXICON VT_LUʼGGÕ
+LEXICON TV_LUʼGGÕ
 !! luʼggõ:lugū 29
 +V+TV:     V-01_LUʼGGÕ ;
 
-LEXICON VI_MUʼDŽÕ
+LEXICON IV_MUʼDŽÕ
 !! muʼdžõ:mudžū 30
 +V+IV:     V-01_LUʼGGÕ ;
 
-LEXICON VT_MUʼDŽÕ
+LEXICON TV_MUʼDŽÕ
 !! muʼdžõ:mudžū 30
 +V+TV:     V-01_LUʼGGÕ ;
 
-LEXICON VI_VAKȚÕ
+LEXICON IV_VAKȚÕ
 !! vakțõ:vakțū 31
 +V+IV:     V-01_LUʼGGÕ      ;
 
-LEXICON VT_VAKȚÕ
+LEXICON TV_VAKȚÕ
 !! vakțõ:vakțū 31
 +V+TV:	V-01_LUʼGGÕ	;
 
-LEXICON VI_KITTÕ
+LEXICON IV_KITTÕ
 !! kittõ:kitū 32
 +V+IV:     V-01_LUʼGGÕ ;
 
-LEXICON VT_KITTÕ
+LEXICON TV_KITTÕ
 !! kittõ:kitū 32
 +V+TV:     V-01_LUʼGGÕ ;
 
 LEXICON V-AUX_RIʼDDÕ
 !! riʼddõ:ridū 33
-+V+VAUX:     V-01_LUʼGGÕ ;
++V+Aux:     V-01_LUʼGGÕ ;
 
-LEXICON VI_RIʼDDÕ
+LEXICON IV_RIʼDDÕ
 !! riʼddõ:ridū 33
 +V+IV:     V-01_LUʼGGÕ ;
 
-LEXICON VT_RIʼDDÕ
+LEXICON TV_RIʼDDÕ
 !! riʼddõ:ridū 33
 +V+TV:     V-01_LUʼGGÕ ;
 
-LEXICON VI_KUTSÕ
+LEXICON IV_KUTSÕ
 !! kutsõ:kutsū 34
 +V+IV:     V-01_LUʼGGÕ ;
 
-LEXICON VT_KUTSÕ
+LEXICON TV_KUTSÕ
 !! kutsõ:kutsū 34
 +V+TV:     V-01_LUʼGGÕ ;
 
 LEXICON V-AUX_LASKÕ
 !! laskõ:laskū 35
-+V+VAUX:     V-01_LUʼGGÕ ;
++V+Aux:     V-01_LUʼGGÕ ;
 
-LEXICON VI_LASKÕ
+LEXICON IV_LASKÕ
 !! laskõ:laskū 35
 +V+IV:     V-01_LUʼGGÕ ;
 
-LEXICON VT_LASKÕ
+LEXICON TV_LASKÕ
 !! laskõ:laskū 35
 +V+TV:     V-01_LUʼGGÕ ;
 
-LEXICON VI_AKKÕ
+LEXICON IV_AKKÕ
 !! akkõ:akū 36
 !! Should ss be s and šš be š? 2013-02-19
 +V+IV:     V-01_LUʼGGÕ ;
 
-LEXICON VT_AKKÕ
+LEXICON TV_AKKÕ
 !! akkõ:akū 36
 +V+TV:     V-01_LUʼGGÕ ;
 
 
 LEXICON V-AUX_AIGÕ
 !! aigõ:āigõ 37
-+V+VAUX:	V-01_AIGÕ ;
++V+Aux:	V-01_AIGÕ ;
 
-LEXICON VI_AIGÕ
+LEXICON IV_AIGÕ
 !! aigõ:āigõ 37
 +V+IV:  V-01_AIGÕ ;
 
-LEXICON VT_AIGÕ
+LEXICON TV_AIGÕ
 !! aigõ:āigõ 37
 +V+TV:  V-01_AIGÕ ;
 
-LEXICON VT_KUOŖŖÕ
+LEXICON TV_KUOŖŖÕ
 !! kuoŗŗõ:kūoŗõ 38
 +V+TV:     V-01_AIGÕ       ;
 
-LEXICON VT_VANNÕ
+LEXICON TV_VANNÕ
 !! vannõ:vǭnõ 39
 +V+TV:     V-01_AIGÕ       ;
 
 
-LEXICON VI_PȮĻĻÕ
+LEXICON IV_PȮĻĻÕ
 !! pȯļļõ:pūoļõ 40
 +V+IV:     V-01_AIGÕ       ;
 
 
-LEXICON VI_PȮIMÕ
+LEXICON IV_PȮIMÕ
 !! pȯimõ:pūoimõ 41
 +V+IV:     V-01_AIGÕ       ;
 
-LEXICON VT_PȮIMÕ
+LEXICON TV_PȮIMÕ
 !! pȯimõ:pūoimõ 41
 +V+TV:     V-01_AIGÕ       ;
 
-LEXICON VI_OUŖÕ
+LEXICON IV_OUŖÕ
 !! ouŗõ:ōŗõ 42
 +V+IV:     V-01_AIGÕ       ;
 
-LEXICON VI_KEIJÕ
+LEXICON IV_KEIJÕ
 !! keijõ:kējõ 43
 +V+IV:     V-01_AIGÕ       ;
 
-LEXICON VT_KEIJÕ
+LEXICON TV_KEIJÕ
 !! keijõ:kējõ 43
 +V+TV:     V-01_AIGÕ       ;
 
 
-LEXICON VI_AŖŠTÕ
+LEXICON IV_AŖŠTÕ
 !! aŗštõ:āŗštõ 44
 +V+IV:     V-01_AIGÕ       ;
 
-LEXICON VT_AŖŠTÕ
+LEXICON TV_AŖŠTÕ
 !! aŗštõ:āŗštõ 44
 +V+TV:	V-01_AIGÕ	;
 
-LEXICON VT_PȮRTÕ
+LEXICON TV_PȮRTÕ
 !! pȯrtõ:pūortõ 45
 +V+TV:     V-01_AIGÕ       ;
 
-LEXICON VT_OUTÕ
+LEXICON TV_OUTÕ
 !! outõ:ōtõ 46
 +V+TV:     V-01_AIGÕ       ;
 
 LEXICON V-AUX_TUNDÕ
 !! tundõ:tūndõ 47
-+V+VAUX:    V-01_AIGÕ       ;
++V+Aux:    V-01_AIGÕ       ;
 
-LEXICON VI_TUNDÕ
+LEXICON IV_TUNDÕ
 !! tundõ:tūndõ 47
 +V+IV:	V-01_AIGÕ	;
 
-LEXICON VT_TUNDÕ
+LEXICON TV_TUNDÕ
 !! tundõ:tūndõ 47
 +V+TV:     V-01_AIGÕ       ;
 
-LEXICON VT_OUDÕ
+LEXICON TV_OUDÕ
 !! oudõ:ōdõ 48
 +V+TV:	V-01_AIGÕ	;
 
 
-LEXICON VI_KŪLÕ
+LEXICON IV_KŪLÕ
 !! kūlõ:kūlõ 49
 +V+IV: V-01_KŪLÕ ;
 
-LEXICON VT_KŪLÕ
+LEXICON TV_KŪLÕ
 !! kūlõ:kūlõ 49
 +V+TV: V-01_KŪLÕ ;
 
-LEXICON VI_ARRÕ
+LEXICON IV_ARRÕ
 !! arrõ:arrõ 50
 +V+IV: V-01_KŪLÕ ;
 
-LEXICON VT_ARRÕ
+LEXICON TV_ARRÕ
 !! arrõ:arrõ 50
 +V+TV: V-01_KŪLÕ ;
 
-LEXICON VI_AʼILÕ
+LEXICON IV_AʼILÕ
 !! aʼilõ:aʼilõ 51
 +V+IV: V-01_KŪLÕ ;
 
-LEXICON VT_AʼILÕ
+LEXICON TV_AʼILÕ
 !! aʼilõ:aʼilõ 51
 +V+TV: V-01_KŪLÕ ;
 
-LEXICON VT_SVAʼRRÕ
+LEXICON TV_SVAʼRRÕ
 !! svaʼrrõ:svaʼrrõ 52
 +V+TV: V-01_KŪLÕ ;
 
 LEXICON V-AUX_KĪTÕ
 !! kītõ:kīt 53
-+V+VAUX: V-01_KŪLÕ ;
++V+Aux: V-01_KŪLÕ ;
 
-LEXICON VI_KĪTÕ
+LEXICON IV_KĪTÕ
 !! kītõ:kīt 53
 !! ~701
 +V+IV: V-01_KŪLÕ ;
 
-LEXICON VT_KĪTÕ
+LEXICON TV_KĪTÕ
 !! kītõ:kīt 53
 +V+TV: V-01_KŪLÕ ;
 
 
-LEXICON VI_ÄʼBȚÕ
+LEXICON IV_ÄʼBȚÕ
 !! äʼbțõ:äʼbț 54
 +V+IV: V-01_KŪLÕ ;
 
-LEXICON VT_ÄʼBȚÕ
+LEXICON TV_ÄʼBȚÕ
 !! äʼbțõ:äʼbț 54
 +V+TV: V-01_KŪLÕ ;
 
@@ -415,29 +415,29 @@ LEXICON V_KŪLDÕ
 
 LEXICON V-AUX_KŪLDÕ
 !! kūldõ:kūld 55
-+V+VAUX: V-01_KŪLÕ ;
++V+Aux: V-01_KŪLÕ ;
 
-LEXICON VI_KŪLDÕ
+LEXICON IV_KŪLDÕ
 !! kūldõ:kūld 55
 +V+IV: V-01_KŪLÕ ;
 
-LEXICON VT_KŪLDÕ
+LEXICON TV_KŪLDÕ
 !! kūldõ:kūld 55
 +V+TV: V-01_KŪLÕ ;
 
-LEXICON VT_KĪSKÕ
+LEXICON TV_KĪSKÕ
 !! kīskõ:kīsk 56
 +V+TV: V-01_KŪLÕ ;
 
 LEXICON V-AUX_ĪʼEDÕ
 !! īʼedõ:īed 57
-+V+VAUX: V-01_KŪLÕ ;
++V+Aux: V-01_KŪLÕ ;
 
-LEXICON VI_ĪʼEDÕ
+LEXICON IV_ĪʼEDÕ
 !! īʼedõ:īed 57
 +V+IV: V-01_KŪLÕ ;
 
-LEXICON VT_ĪʼEDÕ
+LEXICON TV_ĪʼEDÕ
 !! īʼedõ:īed 57
 +V+TV: V-01_KŪLÕ ;
 
@@ -445,45 +445,45 @@ LEXICON V_UMBLÕ
 !! umblõ:umblõ 58
 +V: V-01_UMBLÕ ;
 
-LEXICON VI_UMBLÕ
+LEXICON IV_UMBLÕ
 !! umblõ: 58
 +V+IV: V-01_UMBLÕ ;
 
-LEXICON VT_UMBLÕ
+LEXICON TV_UMBLÕ
 !! umblõ: 58
 +V+TV: V-01_UMBLÕ ;
 
 LEXICON V-AUX_MÕTLÕ
 !! mõtlõ: 59
-+V+VAUX: V-01_UMBLÕ ;
++V+Aux: V-01_UMBLÕ ;
 
-LEXICON VI_MÕTLÕ
+LEXICON IV_MÕTLÕ
 !! mõtlõ: 59
 +V+IV: V-01_UMBLÕ ;
 
-LEXICON VT_MÕTLÕ
+LEXICON TV_MÕTLÕ
 !! mõtlõ: 59
 +V+TV: V-01_UMBLÕ ;
 
-LEXICON VI_MǞʼDLÕ
+LEXICON IV_MǞʼDLÕ
 !! mǟʼdlõ: 60
 +V+IV: V-01_UMBLÕ ;
 
-LEXICON VT_MǞʼDLÕ
+LEXICON TV_MǞʼDLÕ
 !! mǟʼdlõ: 60
 +V+TV: V-01_UMBLÕ ;
 
-LEXICON VI_NAʼGRÕ
+LEXICON IV_NAʼGRÕ
 !! naʼgrõ: 60
 +V+IV: V-01_UMBLÕ ;
 
-LEXICON VT_NAʼGRÕ
+LEXICON TV_NAʼGRÕ
 !! naʼgrõ: 60
 +V+TV: V-01_UMBLÕ ;
 
 LEXICON V-AUX_ALĀ
 !! 62 alā:alā
-+V+VAUX: K ;
++V+Aux: K ;
 
 LEXICON V-AUX_ÄʼB
 !! 62 äʼb:ä
@@ -493,13 +493,13 @@ LEXICON V-AUX_IʼZ
 !! 62 iʼz:ä
 +V+Neg: K ;
 
-LEXICON VT_SÄ
+LEXICON TV_SÄ
 !! 63 sä:sä
 +V+TV: K ;
 
 LEXICON V-AUX_PIḐĪKS
 !! 64 piḑīks:piḑī
-+V+VAUX: K ;
++V+Aux: K ;
 
 !! !!After transitive, intransitive, auxiliary and such tags have been added
 !! 1
