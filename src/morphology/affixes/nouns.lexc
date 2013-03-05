@@ -36,19 +36,19 @@ LEXICON N_BRĪ !!= @CODE@ contains brī:brī 16
 LEXICON N_TEI !!= @CODE@ contains tei:tei 17
 +N:	NMN_TEI	;
 
-LEXICON N_KALĀ  !!= @CODE@ contains  kalā:kalā 18
+LEXICON N_KALĀ  !!= @CODE@ contains  kalā:kaʼlā 18
 +N:	NMN_KALĀ   ;
 
-LEXICON N_KALĀ-SG  !!= @CODE@ contains  kalā:kalā 18
+LEXICON N_KALĀ-SG  !!= @CODE@ contains  kalā:kaʼlā 18
 +N:	NMN_KALĀ-SG    ;
 
-LEXICON N_KALĀ-PL  !!= @CODE@ contains  kalā:kalā 18
+LEXICON N_KALĀ-PL  !!= @CODE@ contains  kalā:kaʼlā 18
 +N:	NMN_KALĀ-PL    ;
 
-LEXICON N_TUBĀ !!= @CODE@ tubā:tubā 19
+LEXICON N_TUBĀ !!= @CODE@ tubā:tuʼbā 19
 +N: 	NMN_KALĀ	;
 
-LEXICON N_TUBĀ-PL !!= @CODE@ tubā:tubā 19
+LEXICON N_TUBĀ-PL !!= @CODE@ tubā:tuʼbā 19
 +N:	NMN_KALĀ-PL   ;
 
 LEXICON N_AIGĀ !!= @CODE@ aigā:aigā 20
@@ -1129,16 +1129,15 @@ LEXICON NMN_KALĀ-SG
 :%^StodRM        SG-GEN ;
 :%^Stress2to1    SG-ILL_ZERO ;
 ! SG-INE ;
-:%^StodRM        SG-INS_õks ;
+:%^StodRM        SG-INS_ks ;
 :%^StodRM        SG-NOM  ;
 :%^Stress2to1    SG-PAR_ZERO ;
 
 LEXICON NMN_KALĀ-PL
-:%^StodRM        PL-INS_DKÕKS-STEM ;
-:%^Stress2to1%^VowsRM        PL-ELA/INE_šti ;
-:%^Stress2to1%^VowsRM        PL-ILL_ži ;
-!       PL-INE ;
-:%^Stress2to1%^VowsRM        PL-PAR_ḑi ;
+:%^StodRM        PL-INS_DÕKS-STEM ;
+:%^VowsRM        PL-ELA/INE_šti ;
+:%^VowsRM        PL-ILL_ži ;
+:%^VowsRM        PL-PAR_ḑi ;
 
 !! 19
 
