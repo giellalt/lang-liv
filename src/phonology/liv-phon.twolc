@@ -35,13 +35,17 @@ K1:k
 %^VowsShU1:0 !!
 %^VowsShI1:0 !!
 %^DiphthSh1:0 !!
+%^VowsLI1:0 !! vowel lengthening that is followed by "i" when short
+%^VowsLU1:0 !! vowel lengthening that is followed by "u" when short
+%^VowsL1:0 !! vowel lengthening 
+%^DiphthL1:0 !!
 
 !! vowel metathesis
 %^VowsMetath:0
 
 %^StodRM:0
 
-!%^ConsSh:0
+%^ConsSh:0
 %^ConsL:0 !! lengthen consonant
 %^1Sh2L:0
 
@@ -117,7 +121,7 @@ a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 !! Vowel loss
 !! 
 "ā:0"
-ā:0 <=> # Cons* Vows ( ʼ: | :ʼ ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+ā:0 <=> # Cons* Vows ( ʼ: | :ʼ ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 
 "ū:0"
 ū:0 <=> # Cons* [Vows | ʼ: | :ʼ ]+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
@@ -128,7 +132,7 @@ a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !€0 jarr0000õ
 "õ:0"
-õ:0 <=>  [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 ] %^VowsRM:0 ;
+õ:0 <=>  [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 | ( %^StodRM:0 ) %^ConsSh:0 ] %^VowsRM:0 ;
 !          Vows %> _ [ d | n | k s | s t ] ;
 
 "i:0 in first syllable"
@@ -141,20 +145,28 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 
 
 !! Consonant loss 
+"shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb"
+ Cx:0 <=> 
+# Cons* Vows ( ʼ: ) Cx _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
+          where Cx in ( t k b d g l ļ m n ņ r ŗ v z ž ) ;
 
-
+!! !!Consonant lengthening
 ! Lengthening consonantism between first and second vowel center
 ! simultaneous to reducing vowel of second syllable
 !! jelāb:jellõ
 "lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ"
- 0:Cx <=> # Cons* Vows ( ʼ: ) Cx _ Vows: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
+ 0:Cx <=> 
+# Cons* Vows ( ʼ: ) Cx _ Vows: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
+! Cx _ Vows: %^ConsL:0  [ # | %> | %^VowsRM:0 %> :Vows ] ;
 ! Cx _ Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
           where Cx in ( t k b d g l ļ m n ņ r ŗ v z ž ) ;
 !€  je0l0ā%^Stress2to1
 !0  jeʼllõ0
+!€  ka0l0ā%^Stress2to1
+!0  kaʼllõ0
 
 "Stod removal"
- ʼ:0 <=>  # Cons* Vows _ [ :ConsWithStod+ | i g ] Vows: %^StodRM:0 ; 
+ ʼ:0 <=>  # Cons* Vows _ [ ConsWithStod :0* | i g ] Vows: %^StodRM:0 ; 
 ! Vows _ ConsWithStod: ( :ConsWithStod )  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !# Cons* :Vows _ :ConsWithStod+  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !€# ka0l0ā%^Stress2to1
@@ -167,7 +179,7 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 
  
 "l:ļ"
-l:ļ <=> _ Vows: %^Stress2to1:0 %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
+l:ļ <=> _ Vows: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vows: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
 
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
@@ -182,18 +194,18 @@ l:ļ <=> _ Vows: %^Stress2to1:0 %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š
 
 "d:t "
 d:t <=>
-       :Vows ( ʼ: | :ʼ ) [ s k: | d: | t: | k  | t s ] Vows: ( %^Stress2to1:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
+       :Vows ( ʼ: | :ʼ ) [ s k: | d d: | t t: | k k:  | t s ] Vows: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
        [ :z | :s | :š ] %> _ ; !! nominative plural 
 
 "d:ț "
-d:ț <=> [ ț: ] Vows: ( %^Stress2to1:0 ) %^VowsRM:0  ( %^ConsRM:0 ) %> _ õ d ;
+d:ț <=> [ ț: ] Vows: ( %^ConsSh:0 ) %^VowsRM:0  ( %^ConsRM:0 ) %> _ õ d ;
 
 "k:0"
-k:0 <=> s _ Vows: ( %^Stress2to1:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
+k:0 <=> s _ Vows: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
 
 
 "ț:0"
-ț:0 <=> k _ Vows: ( %^Stress2to1:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
+ț:0 <=> k _ Vows: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
 
 "s:š palatalization"
 s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
