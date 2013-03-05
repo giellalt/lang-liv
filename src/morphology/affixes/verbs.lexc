@@ -72,9 +72,13 @@ LEXICON V-AUX_SǬDÕ
 !! 8 sīedõ:
 +V+Aux: K ;
 
+LEXICON IV_JŪODÕ
+!! 9 jūodõ:
++V+IV: V-01_JŪODÕ ;
+
 LEXICON TV_JŪODÕ
 !! 9 jūodõ:
-+V+TV: K ;
++V+TV: V-01_JŪODÕ ;
 
 LEXICON V-AUX_VȰLDA
 !! 10 vȱlda:
@@ -539,7 +543,37 @@ LEXICON V-01_VĪDÕ
 :%^VowsRM	PSSPRFPRCSG    ;
 !! 4
 
+!! 9
+LEXICON V-01_JŪODÕ
+!! jūodõ:vī
+:d   GER_sõ   ;
+   INF_dõ	  ;
+   SUP-STEM_mõ	  ; 
+   INDPRSSG1-STEM    ;
+   INDCONNEGSG    ;
+!! Prt
+ INDPRT_i    ;
+! Cond
+: CONDPRS ;
+!! Imprt
+	IMPRTPRSSG2    ;
+	IMPRTPRSPL1	;
+	IMPRTPRSPL2	;
+	IMPRTPRSCONNEG ;
 
+!! Jus
+ JUSPRS_gõ	;
+!! Qvo
+ QUOPRS-STEM_ji	;
+
+!! participles
+ ACTPRSPRC ;
+ ACTPRFPRC_nd ;
+ PSSPRSPRC ;
+ PSSPRFPRCSG    ;
+!! 10
+
+!!
 LEXICON V-01_JEʼLLÕ
 !! 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
 :%^Stress2to1 GER_s     ;
@@ -776,6 +810,15 @@ LEXICON INDPRS_tõ
   INDPRSPL2_tõ	;
   INDPRSPL3	;
 
+LEXICON INDPRT_i
+!! Indicative preterite in i
+ INDPRTSG1_i    ;
+ INDPRTSG2_i    ;
+ INDPRTSG3_i    ;
+ INDPRTPL1_i    ;
+ INDPRTPL2_i    ;
+ INDPRTPL3_i    ;
+
 LEXICON INDPRT_z
 !! Indicative preterite in z
  INDPRTSG1_z    ;
@@ -838,14 +881,20 @@ LEXICON INDPRSPL3
  +Ind+Prs+Pl3:%>bõd    K	;
 
  ! Indicative preterite
+LEXICON INDPRTSG1_i
+ +Ind+Prt+Sg1:%>i    K	;
+
 LEXICON INDPRTSG1_z
  +Ind+Prt+Sg1:%>z    K	;
 
 LEXICON INDPRTSG1_ž
  +Ind+Prt+Sg1:%>ž    K	;
 
+LEXICON INDPRTSG2_i
++Ind+Prt+Sg2:%>id    K ;
+
 LEXICON INDPRTSG2_z
- +Ind+Prt+Sg2:%>zt    K	;
++Ind+Prt+Sg2:%>zt    K	;
 
 LEXICON INDPRTSG2_ž
  +Ind+Prt+Sg2:%>žt    K	;
@@ -853,17 +902,26 @@ LEXICON INDPRTSG2_ž
 LEXICON INDPRTSG3
  +Ind+Prt+Sg3:    K	;
 
+LEXICON INDPRTSG3_i
+ +Ind+Prt+Sg3:%>i    K	;
+
 LEXICON INDPRTSG3_z
  +Ind+Prt+Sg3:%>z    K	;
 
 LEXICON INDPRTSG3_ž
  +Ind+Prt+Sg3:%>ž    K	;
 
+LEXICON INDPRTPL1_i
+ +Ind+Prt+Pl1:%>imõ    K	;
+
 LEXICON INDPRTPL1_z
  +Ind+Prt+Pl1:%>zmõ    K	;
 
 LEXICON INDPRTPL1_ž
  +Ind+Prt+Pl1:%>žmõ    K	;
+
+LEXICON INDPRTPL2_i
+ +Ind+Prt+Pl2:%>itõ    K	;
 
 LEXICON INDPRTPL2_z
  +Ind+Prt+Pl2:%>zt    K	;
@@ -878,6 +936,9 @@ LEXICON INDPRTPL2_tõ
 
 LEXICON INDPRTPL2_tā
  +Ind+Prt+Pl2:%>tā    K	;
+
+LEXICON INDPRTPL3_i
+ +Ind+Prt+Pl3:%>itõ    K	;
 
 LEXICON INDPRTPL3_z
  +Ind+Prt+Pl3:%>zt    K	;
