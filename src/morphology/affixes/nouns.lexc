@@ -803,25 +803,25 @@ LEXICON N_NȬŖKÕZ !!= @CODE@ : 204
 +N:	CASES	;
 
 LEXICON N_KATŪKS !!= @CODE@ : 205
-+N:	CASES	;
++N:	NMN_KATŪKS	;
 
 LEXICON N_KATŪKS-PL !!= @CODE@ : 205
-+N:     PL-CASES   ;
++N:     NMN_KATŪKS-PL   ;
 
 LEXICON N_ĀNDÕKS !!= @CODE@ āndõks: 206
-+N:	CASES	;
++N:	NMN_ĀNDÕKS	;
 
 LEXICON N_ĀNDÕKS-PL !!= @CODE@ āndõks: 206
-+N:     PL-CASES   ;
++N:     NMN_ĀNDÕKS-PL   ;
 
-LEXICON N_KĒRATÕKS !!= @CODE@ : 207
-+N:	CASES	;
+LEXICON N_KĒRATÕKS !!= @CODE@ kēratõks:kēratõks 207
++N:	NMN_KĒRATÕKS	;
 
 LEXICON N_ÄʼBȚÕKS !!= @CODE@ äʼbțõks:äbțõks 208
-+N:	CASES	;
++N:	NMN_ÄʼBȚÕKS	;
 
 LEXICON N_ÄʼBȚÕKS-PL !!= @CODE@ äʼbțõks:äbțõks 208
-+N:     PL-CASES   ;
++N:     NMN_ÄʼBȚÕKS-PL   ;
 
 LEXICON N_VARĪKŠ !!= @CODE@ : 209
 +N:	CASES	;
@@ -844,10 +844,10 @@ LEXICON N_TUʼĻ !!= @CODE@ : 213
 +N:	CASES	;
 
 LEXICON N_TŪĻ !!= @CODE@ : 214
-+N:	CASES	;
++N:	NMN_TŪĻ	;
 
-LEXICON N_KĒĻ !!= @CODE@ : 215
-+N:	CASES	;
+LEXICON N_KĒĻ !!= @CODE@ kēļ:kēl 215
++N:	NMN_KĒĻ	;
 
 LEXICON N_PŪOL !!= @CODE@ : 216
 +N:	CASES	;
@@ -864,17 +864,17 @@ LEXICON N_KAKŠ !!= @CODE@ : 218
 LEXICON N_ŪŽ !!= @CODE@ : 219
 +N:	CASES	;
 
-LEXICON N_SĒŅ !!= @CODE@ : 220
-+N:	CASES	;
+LEXICON N_SĒŅ !!= @CODE@ sēņ:sēn 220
++N:	NMN_SĒŅ	;
 
-LEXICON N_JŪŖ !!= @CODE@ : 221
-+N:	CASES	;
+LEXICON N_JŪŖ !!= @CODE@ jūŗ:jūr 221
++N:	NMN_JŪŖ	;
 
 LEXICON N_JŪŖ-PL !!= @CODE@ : 221
-+N:     PL-CASES   ;
++N:     NMN_JŪŖ-PL   ;
 
 LEXICON N_SŪR !!= @CODE@ : 222
-+N:	CASES	;
++N:	NMN_SŪR	;
 
 LEXICON N_SĒR !!= @CODE@ : 223
 +N:	CASES	;
@@ -2204,19 +2204,35 @@ LEXICON NMN_ALĪZ-PL !!= @CODE@ : 203
 LEXICON NMN_NȬŖKÕZ !!= @CODE@ : 204
 +TYÄ: #;
 LEXICON NMN_KATŪKS !!= @CODE@ : 205
-+TYÄ: #;
+	NMN_KĒRATÕKS   ;
 LEXICON NMN_KATŪKS-PL !!= @CODE@ : 205
-+TYÄ: #;
+	NMN_KĒRATÕKS-PL ;
 LEXICON NMN_ĀNDÕKS !!= @CODE@ āndõks: 206
-+TYÄ: #;
+	NMN_KĒRATÕKS   ;
 LEXICON NMN_ĀNDÕKS-PL !!= @CODE@ āndõks: 206
-+TYÄ: #;
-LEXICON NMN_KĒRATÕKS !!= @CODE@ : 207
-+TYÄ: #;
+	NMN_KĒRATÕKS-PL	  ;
+LEXICON NMN_KĒRATÕKS !!= @CODE@ kēratõks:kēratõks 207
+ NMN_KĒRATÕKS-SG     ;
+ NMN_KĒRATÕKS-PL     ;
+LEXICON NMN_KĒRATÕKS-SG
+:		SG-DAT_õn	;
+:		SG-ELA/INE_õst	;
+:		SG-GEN	;
+:		SG-ILL_õ	;
+:		SG-INS_õks	;
+:		SG-NOM	;
+:		SG-PAR_t ;
+
+LEXICON NMN_KĒRATÕKS-PL !!= @CODE@ kēratõks:kēratõks 207
+:     PL-INS_DÕKS-STEM   ;
+:%^PalatalizeLeft     PL-ELA/INE_ist   ;
+:%^PalatalizeLeft     PL-ILL_iz   ;
+:%^PalatalizeLeft     PL-PAR_i   ;
+
 LEXICON NMN_ÄʼBȚÕKS !!= @CODE@ äʼbțõks:äbțõks 208
-+TYÄ: #;
+	NMN_KĒRATÕKS	;
 LEXICON NMN_ÄʼBȚÕKS-PL !!= @CODE@ äʼbțõks:äbțõks 208
-+TYÄ: #;
+	NMN_KĒRATÕKS-PL	   ;
 LEXICON NMN_VARĪKŠ !!= @CODE@ : 209
 +TYÄ: #;
 LEXICON NMN_UKŠ !!= @CODE@ : 210
@@ -2224,22 +2240,22 @@ LEXICON NMN_UKŠ !!= @CODE@ : 210
 
 !! 211
 LEXICON NMN_LÄPŠ
- NMN_LÄPŠ-PL     ;
+ NMN_LÄPŠ-SG     ;
  NMN_LÄPŠ-PL     ;
 LEXICON NMN_LÄPŠ-SG
-+N:			SG-DAT_õn	;
-+N:			SG-ELA/INE_õst	;
-+N:			SG-GEN	;
-+N:			SG-ILL_õ	;
-+N:			SG-INS_õks	;
-+N:%^PalatalizeLeft	SG-NOM	;
-+N:			SG-PAR_tā ;
+:			SG-DAT_õn	;
+:			SG-ELA/INE_õst	;
+:			SG-GEN	;
+:			SG-ILL_õ	;
+:			SG-INS_õks	;
+:%^PalatalizeLeft	SG-NOM	;
+:			SG-PAR_tā ;
 
 LEXICON NMN_LÄPŠ-PL !!= @CODE@ läpš:laps 211
-+N:     PL-INS_DKÕKS-STEM   ;
-+N:%^PalatalizeLeft     PL-ELA/INE_īst   ;
-+N:%^PalatalizeLeft     PL-ILL_īz   ;
-+N:%^PalatalizeLeft     PL-PAR_i   ;
+:     PL-INS_DKÕKS-STEM   ;
+:%^PalatalizeLeft     PL-ELA/INE_īst   ;
+:%^PalatalizeLeft     PL-ILL_īz   ;
+:%^PalatalizeLeft     PL-PAR_i   ;
 
 !! 212
 LEXICON NMN_RIŠTĪNG-SG !!= @CODE@ : 212
@@ -2248,10 +2264,26 @@ LEXICON NMN_ROʼVZT-PL !!= @CODE@ roʼvzt:roʼvz 212
 +TYÄ: #;
 LEXICON NMN_TUʼĻ !!= @CODE@ : 213
 +TYÄ: #;
-LEXICON NMN_TŪĻ !!= @CODE@ : 214
-+TYÄ: #;
-LEXICON NMN_KĒĻ !!= @CODE@ : 215
-+TYÄ: #;
+LEXICON NMN_TŪĻ !!= @CODE@ tūļ:tūl 214
+	NMN_KĒĻ	;
+LEXICON NMN_KĒĻ !!= @CODE@ kēļ:kēl 215
+ NMN_KĒĻ-SG     ;
+ NMN_KĒĻ-PL     ;
+LEXICON NMN_KĒĻ-SG
+:%^RVows		SG-DAT_õn	;
+:%^RVows		SG-ELA/INE_stõ	;
+:%^RVows		SG-GEN	;
+:%^RVows		SG-ILL_õ	;
+:%^RVows		SG-INS_kõks	;
+:%^PalatalizeLeft	SG-NOM	;
+:%^RVows		SG-PAR_dõ ;
+
+LEXICON NMN_KĒĻ-PL !!= @CODE@ kēļ:kēl 211
+:%^RVows     PL-INS_DKÕKS-STEM   ;
+:%^PalatalizeLeft     PL-ELA/INE_šti   ;
+:%^PalatalizeLeft     PL-ILL_iž   ;
+:%^PalatalizeLeft     PL-PAR_i   ;
+
 LEXICON NMN_PŪOL !!= @CODE@ : 216
 +TYÄ: #;
 LEXICON NMN_PŪOL-PL !!= @CODE@ : 216
@@ -2262,14 +2294,48 @@ LEXICON NMN_KAKŠ !!= @CODE@ : 218
 +TYÄ: #;
 LEXICON NMN_ŪŽ !!= @CODE@ : 219
 +TYÄ: #;
-LEXICON NMN_SĒŅ !!= @CODE@ : 220
-+TYÄ: #;
-LEXICON NMN_JŪŖ !!= @CODE@ : 221
-+TYÄ: #;
+LEXICON NMN_SĒŅ !!= @CODE@ sēņ:sēn 220
+ NMN_SĒŅ-SG     ;
+ NMN_SĒŅ-PL     ;
+LEXICON NMN_SĒŅ-SG
+:%^RVows		SG-DAT_õn	;
+:%^RVows		SG-ELA/INE_stõ	;
+:%^RVows		SG-GEN	;
+:%^RVows		SG-ILL_õ	;
+:%^RVows		SG-INS_kõks	;
+:%^PalatalizeLeft	SG-NOM	;
+:%^RVows		SG-PAR_tõ ;
+
+LEXICON NMN_SĒŅ-PL !!= @CODE@ kēļ:kēl 211
+:%^RVows     PL-INS_DKÕKS-STEM   ;
+:%^PalatalizeLeft     PL-ELA/INE_šti   ;
+:%^PalatalizeLeft     PL-ILL_iž   ;
+:%^PalatalizeLeft     PL-PAR_i   ;
+
+
+LEXICON NMN_JŪŖ !!= @CODE@ jūŗ:jūr 221
+	NMN_SĒŅ	;
 LEXICON NMN_JŪŖ-PL !!= @CODE@ : 221
-+TYÄ: #;
+	NMN_SĒŅ-PL ;
+
 LEXICON NMN_SŪR !!= @CODE@ : 222
-+TYÄ: #;
+ NMN_SŪR-SG     ;
+ NMN_SŪR-PL     ;
+LEXICON NMN_SŪR-SG
+:		SG-DAT_õn	;
+:		SG-ELA/INE_stõ	;
+:		SG-GEN	;
+:		SG-ILL_õ	;
+:		SG-INS_kõks	;
+:	SG-NOM	;
+:		SG-PAR_tõ ;
+
+LEXICON NMN_SŪR-PL !!= @CODE@ sūr:sūr 211
+:     PL-INS_DKÕKS-STEM   ;
+:     PL-ELA/INE_šti   ;
+:     PL-ILL_iž   ;
+:     PL-PAR_i   ;
+
 LEXICON NMN_SĒR !!= @CODE@ : 223
 +TYÄ: #;
 LEXICON NMN_BIRKOV !!= @CODE@ : 224
@@ -2624,6 +2690,8 @@ LEXICON SG-PAR_õ
 +Sg+Par:%>õ K ;
 LEXICON SG-PAR_dõ
 +Sg+Par:%>dõ K ;
+LEXICON SG-PAR_tõ
++Sg+Par:%>tõ K ;
 LEXICON SG-PAR_da
 +Sg+Par:%>da K ;
 LEXICON SG-PAR_dā

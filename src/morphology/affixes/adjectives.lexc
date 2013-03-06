@@ -278,7 +278,7 @@ LEXICON A_ALĪZ !!= @CODE@ : 203
 +A:	CASES	;
 
 LEXICON A_KĒRATÕKS !!= @CODE@ : 207
-+A:	CASES	;
++A:	NMN_KĒRATÕKS	;
 
 LEXICON A_VARĪKŠ !!= @CODE@ varīkš: 209
 +A:	CASES	;
@@ -286,11 +286,11 @@ LEXICON A_VARĪKŠ !!= @CODE@ varīkš: 209
 LEXICON A_ŪŽ !!= @CODE@ : 219
 +A:	CASES	;
 
-LEXICON A_JŪŖ !!= @CODE@ : 221
-+A:	CASES	;
+LEXICON A_JŪŖ !!= @CODE@ jūŗ:jūr 221
++A:	NMN_JŪŖ	;
 
-LEXICON A_SŪR !!= @CODE@ : 222
-+A:	CASES	;
+LEXICON A_SŪR !!= @CODE@ sūr:sūr 222
++A:	NMN_SŪR	;
 
 LEXICON A_SALĀJ !!= @CODE@ : 225
 +A:	CASES	;
