@@ -210,6 +210,7 @@ Multichar_Symbols
  %^VowsL1     !!= * @CODE@ =
  %^DiphthL1   !!= * @CODE@ =
 
+ %^RVows   !!= * @CODE@ = Vowel raising
  %^VowsMetath     !!= * @CODE@ = vowel metathesis in verbs
  %^VowsRM		  !!= * @CODE@ = 
  %^ConsRM		  !!= * @CODE@ = 
@@ -261,6 +262,9 @@ LEXICON INTERJ_  !!= * @CODE@
 +Interj: #	;
 
 LEXICON PCLE-MOD_  !!= * @CODE@ 
++Pcle: #      ;
+
+LEXICON PCLE_  !!= * @CODE@
 +Pcle: #      ;
 
 
