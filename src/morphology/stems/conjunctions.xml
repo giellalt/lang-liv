@@ -6,16 +6,16 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
-      <l>agā</l>
+      <l pos="CC">agā</l>
 
       <stg>
-        <st Contlex="CONJ_">agā</st>
+        <st Contlex="CC_">agā</st>
       </stg>
 
       <stress>agā 1</stress>
     </lg>
 
-    <pos>CONJ</pos>
+    <pos>CC</pos>
 
     <mg>
       <m>
@@ -23,27 +23,27 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="CONJ">YY</t>
+        <t pos="CC">but</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="CONJ">XX</t>
+        <t pos="CC">mutta</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>agā</l>
+      <l pos="PCLE">agā</l>
 
       <stg>
-        <st Contlex="CONJ_">agā</st>
+        <st Contlex="PCLE_">agā</st>
       </stg>
 
       <stress>agā 2</stress>
     </lg>
 
-    <pos>CONJ</pos>
+    <pos>PCLE</pos>
 
     <mg>
       <m>
@@ -51,27 +51,27 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="CONJ">YY</t>
+        <t pos="CONJ">maybe</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="CONJ">XX</t>
+        <t pos="CONJ">ehkä</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>agā</l>
+      <l pos="PCLE">agā</l>
 
       <stg>
-        <st Contlex="CONJ_">agā</st>
+        <st Contlex="PCLE_">agā</st>
       </stg>
 
       <stress>agā 3</stress>
     </lg>
 
-    <pos>CONJ</pos>
+    <pos>PCLE</pos>
 
     <mg>
       <m>
@@ -83,7 +83,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="CONJ">XX</t>
+        <t>-ko/kö</t>
+        <td>kysymyspartikkeli</td>
       </tg>
     </mg>
   </e>
@@ -174,16 +175,16 @@
 
   <e>
     <lg>
-      <l>ja</l>
+      <l pos="CC">ja</l>
 
       <stg>
-        <st Contlex="CONJ_">ja</st>
+        <st Contlex="CC_">ja</st>
       </stg>
 
       <stress>ja</stress>
     </lg>
 
-    <pos>CONJ</pos>
+    <pos>CC</pos>
 
     <mg>
       <m>
@@ -191,11 +192,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="CONJ">YY</t>
+        <t pos="CONJ">and</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="CONJ">XX</t>
+        <t pos="CONJ">ja</t>
       </tg>
     </mg>
   </e>
@@ -675,25 +676,30 @@
       </tg>
     </mg>
   </e>
-    
-    <e>
-        <lg>
-            <l>un</l>
-            <stg>
-                <st Contlex="CC_">un</st>
-            </stg>
-        </lg>
-        <pos>CC</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>and</t>
-            </tg>
-            <tg lang="fin">
-                <t>ja</t>
-            </tg>
-        </mg>
-    </e>
+
+  <e>
+    <lg>
+      <l>un</l>
+
+      <stg>
+        <st Contlex="CC_">un</st>
+      </stg>
+    </lg>
+
+    <pos>CC</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>and</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>ja</t>
+      </tg>
+    </mg>
+  </e>
 </r>
