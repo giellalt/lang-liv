@@ -66,16 +66,16 @@ K1:k
 
 Sets
 
-VowsBack = a o u ;
-VowsFront = ä ö y ü ;
-VowsNeutral = e i ; 
-VowsNonHigh = a o ä ö e ;
-VowsLong  = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī ;
-VowsShort = a o u ä ǫ õ ȯ ö y ü e i ;
+VowsBack = a o u A O U ;
+VowsFront = ä ö y ü Ä Ö Y Ü ;
+VowsNeutral = e i E I ; 
+VowsNonHigh = a o ä ö e A O Ä Ö E ;
+VowsLong  = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī Ā Ō Ū Ǟ Ǭ Ȭ Ȱ Ȫ Ȳ Ǖ Ē Ī ;
+VowsShort = a o u ä ǫ õ ȯ ö y ü e i A O U Ä Ǫ Õ Ȯ Ö Y Ü E I ;
 Vows = VowsLong VowsShort ;
 
 ConsWithStod = b d g j l ļ m ņ r ŗ v z ž ;
-Cons = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž ;
+Cons = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ;
 
 Letters = Vows Cons ;
 
@@ -89,14 +89,27 @@ Rules
 !! Vowels
 !! Shortening in first syllable
 "ā:a in first syllable"
-ā:a <=> # Cons* _  ( i ) :Cons+ Vows: %^Stress1to2:0  ;
+ā:a <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ] ;
 
 "ǭ:a in first syllable"
-ǭ:a <=> # Cons* _  ( i ) :Cons+ Vows: %^Stress1to2:0  ;
+ǭ:a <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 "ē:e in first syllable"
-ē:e <=> # Cons* _  ( :i ) :Cons+ Vows: %^VowsShI1:0 ;
+ē:e <=> # Cons* _  ( :i ) :Cons+ Vows: [ %^VowsShI1:0 | %^Stress1to2:0 | %^VowsSh1:0 ] ;
 !# Cons* _  ( :i ) :Cons+ Vows: %^Stress1to2:0  ;
+
+"ū:u in first syllable"
+ū:u <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+
+"ī:i in first syllable"
+ī:i <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+
+"ȭ:õ in first syllable"
+ȭ:õ <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+
+"ō:o in first syllable"
+ō:o <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+
 
 "e:ē in first syllable"
 e:ē<=> # Cons* _  ( i: ) :Cons+ Vows: %^VowsLI1:0 ;
@@ -128,7 +141,7 @@ a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 !#Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: 
 
 "a:0"
-a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^PalatalizeLeft:0 ] %^VowsRM:0 ;
+a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^VowsSh1:0 | %^PalatalizeLeft:0 ] %^VowsRM:0 ;
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !€0 jarr0000õ
 "õ:0"
