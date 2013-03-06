@@ -207,13 +207,13 @@ LEXICON A_NÕTKĀZ !!= @CODE@ : 170
 LEXICON A_RIKĀZ !!= @CODE@ : 171
 +A:	CASES	;
 
-LEXICON A_ĀMBAZ !!= @CODE@ : 173
-+A:	CASES	;
+LEXICON A_ĀMBAZ !!= @CODE@ āmbaz:āmba 173
++A:	NMN_ĀMBAZ	;
 
 LEXICON A_PŪŖAZ !!= @CODE@ : 174
 +A:	CASES	;
-!!= @CODE@ : 175
-LEXICON A_PǬĻAZ
+
+LEXICON A_PǬĻAZ !!= @CODE@ : 175
 +A:	CASES	;
 
 LEXICON A_MÕTKÕZ !!= @CODE@ mõtkõz: 179

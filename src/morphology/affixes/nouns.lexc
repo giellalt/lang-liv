@@ -656,10 +656,10 @@ LEXICON N_BIKŠĀZ-PL !!= @CODE@ : 172
 +N:     PL-CASES   ;
 
 LEXICON N_ĀMBAZ !!= @CODE@ : 173
-+N:	CASES	;
++N:	NMN_ĀMBAZ	;
 
 LEXICON N_ĀMBAZ-PL !!= @CODE@ : 173
-+N:     PL-CASES   ;
++N:     NMN_ĀMBAZ-PL   ;
 
 LEXICON N_PŪŖAZ !!= @CODE@ : 174
 +N:	CASES	;
@@ -2013,9 +2013,26 @@ LEXICON NMN_BIKŠĀZ-SG !!= @CODE@ : 172
 LEXICON NMN_BIKŠĀZ-PL !!= @CODE@ : 172
 +TYÄ: #;
 LEXICON NMN_ĀMBAZ !!= @CODE@ : 173
-+TYÄ: #;
+        NMN_ĀMBAZ-SG     ;
+        NMN_ĀMBAZ-PL     ;
+
+LEXICON NMN_ĀMBAZ-SG
+:%^VowsSh1%^VowsRM%>õ        SG-DAT_n ;
+:%^VowsSh1%^VowsRM%>õ       	SG-ELA/INE_st ;
+:%^VowsSh1%^VowsRM%>õ        SG-GEN ;
+:%^VowsSh1%^VowsRM%>õ  	SG-ILL_ZERO ;
+:%^VowsSh1%^VowsRM%>õ  	SG-ILL_z ;
+:%^VowsSh1%^VowsRM%>õ        SG-INS_ks ;
+:z	SG-NOM  ;
+:z    	SG-PAR_t ;
+
 LEXICON NMN_ĀMBAZ-PL !!= @CODE@ : 173
-+TYÄ: #;
+:%^VowsSh1%^VowsRM%>õ 	PL-INS_DÕKS-STEM ;
+:%^VowsSh1%^VowsRM 	PL-ELA/INE_ist ;
+:%^VowsSh1%^VowsRM 	PL-ILL_iž ;
+:%^VowsSh1%^VowsRM 	PL-PAR_idi ;
+
+
 LEXICON NMN_PŪŖAZ !!= @CODE@ : 174
 +TYÄ: #;
 LEXICON NMN_PǬĻAZ !!= @CODE@ : 175
