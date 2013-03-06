@@ -757,8 +757,14 @@ LEXICON SUP-STEM_m
    INDCONNEGPL1	;
    INDCONNEGPL2	;
    INDCONNEGPL3	;
+
 LEXICON SUP_m
++Sup+Abe:%>mõt K   ;
++Sup+Ela:%>mõst K   ;
++Sup+Deb:%>mõst K   ;
 +Sup+Ill:%>m K   ;
++Sup+Ine:%>mõs K   ;
++Sup+Tra:%>mõks K   ;
 
 LEXICON	SUP-STEM_mõ
    SUP_mõ	;
@@ -770,7 +776,12 @@ LEXICON	SUP-STEM_mõ
    INDCONNEGPL3 ;
 
 LEXICON SUP_mõ
++Sup+Abe:%>mõt K   ;
++Sup+Ela:%>mõst K   ;
++Sup+Deb:%>mõst K   ;
 +Sup+Ill:%>mõ K   ;
++Sup+Ine:%>mõs K   ;
++Sup+Tra:%>mõks K   ;
 
 LEXICON ACTPRSPRC
 +Act+PrsPrc+Sg:%>b	K    ;
