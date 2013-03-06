@@ -590,10 +590,10 @@ LEXICON N_ĒTAM-PL !!= @CODE@ : 156
 +N:     PL-CASES   ;
 
 LEXICON N_SIDĀM !!= @CODE@ : 157
-+N:	CASES	;
++N:	NMN_SIDĀM	;
 
 LEXICON N_SIDĀM-PL	!!= @CODE@ : 157
-+N:     PL-CASES   ;
++N:     NMN_SIDĀM-PL   ;
 
 LEXICON N_TŪOITÕG !!= @CODE@ : 158
 +N:	CASES	;
@@ -1936,10 +1936,10 @@ LEXICON NMN_SIDĀM-SG
     	SG-PAR_t ;
 
 LEXICON NMN_SIDĀM-PL      !!= @CODE@ : 157
-:%^ConsL 	PL-INS_ÕDÕKS-STEM ;
-:%^ConsL 	PL-ELA/INE_ist ;
-:%^ConsL 	PL-ILL_iž ;
-:%^ConsL 	PL-PAR_idi ;
+: 	PL-INS_ÕDÕKS-STEM ;
+: 	PL-ELA/INE_ist ;
+: 	PL-ILL_iž ;
+: 	PL-PAR_idi ;
 
 
 !! 158
