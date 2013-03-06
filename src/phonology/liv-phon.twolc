@@ -30,7 +30,7 @@ K1:k
 %^TS:0
 
 ! Vowel raising
-%^RVows:0
+%^RVows:0  !! raise vowel
 %^VowsSh1:0 !! vowel shortening in first syllable
 %^VowsShU1:0 !!
 %^VowsShI1:0 !!
@@ -110,6 +110,7 @@ Rules
 "ō:o in first syllable"
 ō:o <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
+!! lengthen vowels
 
 "e:ē in first syllable"
 e:ē<=> # Cons* _  ( i: ) :Cons+ Vows: %^VowsLI1:0 ;
@@ -122,6 +123,10 @@ a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 !€# tam%^VowsL1aToǭõd
 !€0 tǭm0õd
 
+!! raise vowels
+"ē:ī in kēļ 215"
+ē:ī <=> # Cons* _ ( :e ) Cons %^RVows:0 ;
+! requires 0:e
 
 !! Destressing in second syllable
 "ā:õ "
@@ -151,7 +156,9 @@ a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1
 "i:0 in first syllable"
 i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 
-
+!! Zero to vowel
+"0:e in vowel raising kēļ"
+0:e <=> Cons* ē: _ Cons %^RVows:0 ;
 
 "0:õ in vowel metathesis"
 0:õ <=> [ b | d | t | g ] _ [ l | r ] õ: %^VowsMetath:0 %^VowsRM:0  ;
@@ -194,8 +201,14 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 "l:ļ"
 l:ļ <=> _ Vows: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vows: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
-
+	_ %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
+
+"n:ņ"
+n:ņ <=> _ %^PalatalizeLeft:0 ; !! sēņ:sēn 220
+
+"r:ŗ"
+r:ŗ <=> _ %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
 
 
 ! First syllable short second syllable long
