@@ -2142,19 +2142,19 @@ LEXICON NMN_AʼIGI-PL
 :%^StodRM%^VowsRMīž 	PL-ILL_iz ;
 :%^StodRM%^VowsRMīž 	PL-PAR_i ;
 !!
-LEXICON N_PUʼNNI !!= @CODE@ puʼnni:punni 193
+LEXICON NMN_PUʼNNI !!= @CODE@ puʼnni:punni 193
 +TYÄ: #;
-LEXICON N_PUʼNNI-PL !!= @CODE@ puʼnni:punni 193
+LEXICON NMN_PUʼNNI-PL !!= @CODE@ puʼnni:punni 193
 +TYÄ: #;
-LEXICON N_KAȚKI !!= @CODE@ kațki: 194
+LEXICON NMN_KAȚKI !!= @CODE@ kațki: 194
 +TYÄ: #;
-LEXICON N_KUKKI !!= @CODE@ kukki: 195
+LEXICON NMN_KUKKI !!= @CODE@ kukki: 195
 +TYÄ: #;
-LEXICON N_AIGI !!= @CODE@ aigi:aigi 196
+LEXICON NMN_AIGI !!= @CODE@ aigi:aigi 196
 +TYÄ: #;
-LEXICON N_OUKI !!= @CODE@ : 197
+LEXICON NMN_OUKI !!= @CODE@ : 197
 +TYÄ: #;
-LEXICON N_PAŖĪ !!= @CODE@ : 198
+LEXICON NMN_PAŖĪ !!= @CODE@ : 198
 +TYÄ: #;
 
 !! 199
@@ -2371,8 +2371,8 @@ LEXICON NMN_PǞGIŅŽ-PL !!= @CODE@ pǟgiņž:pǟgiņ 231
      PL-ILL_iž        ;
      PL-PAR_i         ;
 LEXICON NMN_VAGĀŖ !!= @CODE@ vagāŗ:vagār 232
-        N_VAGĀŖ-SG  ;
-        N_VAGĀŖ-PL  ;
+        NMN_VAGĀŖ-SG  ;
+        NMN_VAGĀŖ-PL  ;
 LEXICON NMN_VAGĀŖ-SG
      SG-DAT_õn       ;
      SG-ELA/INE_õst      ;
@@ -2578,11 +2578,11 @@ LEXICON SG-INE_õs
 
 LEXICON SG-ELA/INE_stõ
 	SG-ELA_stõ	;
-	SG-INE_s	;
+	SG-INE_s	; !! above as pair in SG-ELA/INE_st
 LEXICON SG-ELA_stõ
 +Sg+Ela:%>stõ K ;
-LEXICON SG-INE_s
-+Sg+Ine:%>s K ;
+!LEXICON SG-INE_s
+!+Sg+Ine:%>s K ;
 
 LEXICON SG-GEN
 +Sg+Gen: K ;
@@ -2693,24 +2693,6 @@ LEXICON PL-ELA_št
 LEXICON PL-ELA_šti
 +Pl+Ela:%>šti K ;
 !
-LEXICON PL-INE_õs
-+Pl+Ine:%>õs K ;
-
-LEXICON PL-INE_is
-+Pl+Ine:%>is K ;
-
-LEXICON PL-INE_īs
-+Pl+Ine:%>īs K ;
-
-LEXICON PL-INE_īš
-+Pl+Ine:%>īš K ;
-
-LEXICON PL-INE_iš
-+Pl+Ine:%>iš K ;
-
-LEXICON PL-INE_š
-+Pl+Ine:%>š K ;
-
 
 LEXICON PL-GEN_d
 +Pl+Gen:%>d K ;
