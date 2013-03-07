@@ -387,11 +387,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="NUM">one</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="NUM">yksi</t>
       </tg>
     </mg>
   </e>
@@ -471,11 +471,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="NUM">two</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="NUM">kaksi</t>
       </tg>
     </mg>
   </e>
@@ -1227,11 +1227,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="NUM">third</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="NUM">kolmas</t>
       </tg>
     </mg>
   </e>
@@ -1311,11 +1311,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="NUM">third</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="NUM">kolmas</t>
       </tg>
     </mg>
   </e>
@@ -1703,11 +1703,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="NUM">four</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="NUM">neljä</t>
       </tg>
     </mg>
   </e>
@@ -2599,11 +2599,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="NUM">second</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="NUM">toinen</t>
       </tg>
     </mg>
   </e>
@@ -2795,11 +2795,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="NUM">five</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="NUM">viisi</t>
       </tg>
     </mg>
   </e>
@@ -2915,4 +2915,193 @@
       </tg>
     </mg>
   </e>
+    
+   <e>
+        <lg>
+            <l>kakš</l>
+            <stg>
+                <st Contlex="QntTag">kakš</st>
+            </stg>
+        </lg>
+        <pos>QNT</pos>
+        <mg>
+            <m>
+                <head/>
+            </m>
+            <tg lang="eng">
+                <t>two</t>
+            </tg>
+            <tg lang="fin">
+                <t>kaksi</t>
+            </tg>
+        </mg>
+    </e>
+    
+    <e>
+        <lg>
+            <l>kuolm</l>
+            <stg>
+                <st Contlex="QntTag">kuolm</st>
+            </stg>
+        </lg>
+        <pos>QNT</pos>
+        <mg>
+            <m>
+                <head/>
+            </m>
+            <tg lang="eng">
+                <t>three</t>
+            </tg>
+            <tg lang="fin">
+                <t>kolme</t>
+            </tg>
+        </mg>
+    </e>
+    
+    <e>
+        <lg>
+            <l>nēļa</l>
+            <stg>
+                <st Contlex="QntTag">nēļa</st>
+            </stg>
+        </lg>
+        <pos>QNT</pos>
+        <mg>
+            <m>
+                <head/>
+            </m>
+            <tg lang="eng">
+                <t>four</t>
+            </tg>
+            <tg lang="fin">
+                <t>neljä</t>
+            </tg>
+        </mg>
+    </e>
+    
+    <e>
+        <lg>
+            <l>vīž</l>
+            <stg>
+                <st Contlex="QntTag">vīž</st>
+            </stg>
+        </lg>
+        <pos>QNT</pos>
+        <mg>
+            <m>
+                <head/>
+            </m>
+            <tg lang="eng">
+                <t>five</t>
+            </tg>
+            <tg lang="fin">
+                <t>viisi</t>
+            </tg>
+        </mg>
+    </e>
+    
+    <e>
+        <lg>
+            <l>kūž</l>
+            <stg>
+                <st Contlex="QntTag">kūž</st>
+            </stg>
+        </lg>
+        <pos>QNT</pos>
+        <mg>
+            <m>
+                <head/>
+            </m>
+            <tg lang="eng">
+                <t>six</t>
+            </tg>
+            <tg lang="fin">
+                <t>kuusi</t>
+            </tg>
+        </mg>
+    </e>
+    
+    <e>
+        <lg>
+            <l>seis</l>
+            <stg>
+                <st Contlex="QntTag">seis</st>
+            </stg>
+        </lg>
+        <pos>QNT</pos>
+        <mg>
+            <m>
+                <head/>
+            </m>
+            <tg lang="eng">
+                <t>seven</t>
+            </tg>
+            <tg lang="fin">
+                <t>seitsemän</t>
+            </tg>
+        </mg>
+    </e>
+    
+    <e>
+        <lg>
+            <l>kǭ’dõks</l>
+            <stg>
+                <st Contlex="QntTag">kǭ’dõks</st>
+            </stg>
+        </lg>
+        <pos>QNT</pos>
+        <mg>
+            <m>
+                <head/>
+            </m>
+            <tg lang="eng">
+                <t>eight</t>
+            </tg>
+            <tg lang="fin">
+                <t>kahdeksan</t>
+            </tg>
+        </mg>
+    </e>
+    
+    <e>
+        <lg>
+            <l>ī’dõks</l>
+            <stg>
+                <st Contlex="QntTag">ī’dõks</st>
+            </stg>
+        </lg>
+        <pos>QNT</pos>
+        <mg>
+            <m>
+                <head/>
+            </m>
+            <tg lang="eng">
+                <t>nine</t>
+            </tg>
+            <tg lang="fin">
+                <t>yhdeksän</t>
+            </tg>
+        </mg>
+    </e>
+    
+    <e>
+        <lg>
+            <l>kim</l>
+            <stg>
+                <st Contlex="QntTag">kim</st>
+            </stg>
+        </lg>
+        <pos>QNT</pos>
+        <mg>
+            <m>
+                <head/>
+            </m>
+            <tg lang="eng">
+                <t>ten</t>
+            </tg>
+            <tg lang="fin">
+                <t>kymmenen</t>
+            </tg>
+        </mg>
+    </e>
 </r>
