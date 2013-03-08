@@ -611,11 +611,25 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
+        <t pos="PREP">about</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">-sta, -stä</t>
+      </tg>
+    </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="PREP">over</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="PREP">yli</t>
       </tg>
     </mg>
   </e>
@@ -1007,7 +1021,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">luota</t>
       </tg>
     </mg>
   </e>
@@ -1731,11 +1745,39 @@
       </m>
 
       <tg xml:lang="eng">
+        <t pos="POSTP">on</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="POSTP">päällä</t>
+      </tg>
+    </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="POSTP">for</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="POSTP">ilmaisee tapahtuman kestoa</t>
+      </tg>
+    </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
         <t pos="POSTP">YY</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">kimpussa</t>
       </tg>
     </mg>
   </e>
@@ -1927,11 +1969,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
+        <t pos="PREP">along</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">pitkin</t>
       </tg>
     </mg>
   </e>
@@ -2433,11 +2475,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
+        <t pos="POSTP">into</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">sisään</t>
       </tg>
     </mg>
   </e>
@@ -2461,13 +2503,27 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
+        <t pos="POSTP">up to</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">asti</t>
       </tg>
     </mg>
+    
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="POSTP">until</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="POSTP">saakka</t>
+      </tg>
+    </mg>
+
   </e>
 
   <e>
@@ -2737,11 +2793,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
+        <t pos="PREP">beyond</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">tuolla puolen</t>
       </tg>
     </mg>
   </e>
