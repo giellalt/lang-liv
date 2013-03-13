@@ -46,10 +46,10 @@ LEXICON N_KALĀ-PL  !!= @CODE@ contains  kalā:kaʼlā 18
 +N:	NMN_KALĀ-PL    ;
 
 LEXICON N_TUBĀ !!= @CODE@ tubā:tuʼbā 19
-+N: 	NMN_KALĀ	;
++N: 	NMN_TUBĀ	;
 
 LEXICON N_TUBĀ-PL !!= @CODE@ tubā:tuʼbā 19
-+N:	NMN_KALĀ-PL   ;
++N:	NMN_TUBĀ-PL   ;
 
 LEXICON N_AIGĀ !!= @CODE@ aigā:aigā 20
 +N:	NMN_AIGĀ	;
@@ -1140,7 +1140,12 @@ LEXICON NMN_KALĀ-PL
 :%^VowsRM        PL-PAR_ḑi ;
 
 !! 19
-
+LEXICON NMN_TUBĀ
+	 NMN_KALĀ	;
+LEXICON NMN_TUBĀ-SG
+        NMN_KALĀ-SG     ;
+LEXICON NMN_TUBĀ-PL
+	NMN_KALĀ-PL     ;
 !! 20
 LEXICON NMN_AIGĀ
 	NMN_AIGĀ-SG	;
