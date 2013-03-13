@@ -2,6 +2,9 @@
 
 !! Livonian adjectives compare.
 
+LEXICON A_-ZERO !! modifiers that do not decline
++A: # ;
+
 LEXICON A_
 +A+Pos:0        CASES   ;
 +A+Comp:er       CASES   ;
@@ -10,19 +13,19 @@ LEXICON A_
 !! !!Stem lexica
 
 LEXICON A_PŪ !!= @CODE@ contains pū: 12
-+A:	CASES	;
++A:	NMN_PŪ	;
 
 LEXICON A_TĪE !!= @CODE@ contains tīe:tīe 15
-+A:	CASES	;
++A:	NMN_TĪE	;
 	
 LEXICON A_BRĪ !!= @CODE@ contains brī:brī 16
-+A:	CASES	;
++A:	NMN_BRĪ	;
 	
-LEXICON A_KALĀ  !!= @CODE@ contains  kalā:kalā 18
+LEXICON A_KALĀ  !!= @CODE@ contains  kalā:kaʼlā 18
 +A: NMN_KALĀ ;
 
-LEXICON A_TUBĀ !!= @CODE@ tubā:tubā 19
-+A:	CASES	;
+LEXICON A_TUBĀ !!= @CODE@ tubā:tuʼbā 19
++A:	NMN_TUBĀ	;
 
 LEXICON A_AIGĀ !!= @CODE@ aigā:aigā 20
 +A:	CASES	;
