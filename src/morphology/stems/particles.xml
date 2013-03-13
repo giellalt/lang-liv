@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -6,7 +6,229 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
-      <l pos="PCLE">niʼm</l>
+      <l>või</l>
+
+      <stg>
+        <st Contlex="PCLE_">või</st>
+      </stg>
+
+      <stress>või</stress>
+    </lg>
+
+    <pos>Pcle</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Pcle">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pcle">kas</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pcle">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pcle">vai</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>laʼz</l>
+
+      <stg>
+        <st Contlex="PCLE_">laʼz</st>
+      </stg>
+
+      <stress>laʼz</stress>
+    </lg>
+
+    <pos>Pcle</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Pcle">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pcle">las</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pcle">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pcle">lai</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ku</l>
+
+      <stg>
+        <st Contlex="PCLE_">ku</st>
+      </stg>
+
+      <stress>ku 4</stress>
+    </lg>
+
+    <pos>Pcle</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel>= laʼz</semRel>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Pcle">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pcle">las</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pcle">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pcle">lai</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>kiʼl</l>
+
+      <stg>
+        <st Contlex="PCLE_">kiʼl</st>
+      </stg>
+
+      <stress>kiʼl 5</stress>
+    </lg>
+
+    <pos>Pcle</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Pcle">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pcle">küll</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Conj">kyllä</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pcle">gan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>agā</l>
+
+      <stg>
+        <st Contlex="PCLE_">agā</st>
+      </stg>
+
+      <stress>agā 3</stress>
+    </lg>
+
+    <pos>Pcle</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel>&gt; või</semRel>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Pcle">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pcle">kas</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pcle">-ko/kö</t>
+
+        <td>kysymyspartikkeli</td>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pcle">vai</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>agā</l>
+
+      <stg>
+        <st Contlex="PCLE_">agā</st>
+      </stg>
+
+      <stress>agā 2</stress>
+    </lg>
+
+    <pos>Pcle</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Pcle">maybe</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pcle">ehk, võib-olla</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pcle">ehkä</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pcle">varbūt</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>niʼm</l>
 
       <stg>
         <st Contlex="PCLE-MOD_">niʼm</st>
@@ -25,14 +247,26 @@
       </m>
 
       <tg xml:lang="eng">
+        <t pos="PCLE-MOD">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="PCLE-MOD">nii on</t>
+      </tg>
+
+      <tg xml:lang="fin">
         <t pos="PCLE-MOD">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="PCLE-MOD">▫ nu ir</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PCLE">vȯšiz</l>
+      <l>vȯšiz</l>
 
       <stg>
         <st Contlex="PCLE-MOD_">vȯšiz</st>
@@ -46,17 +280,31 @@
     <mg>
       <m>
         <head/>
+
+        <semRel>~ või siʼz</semRel>
       </m>
 
       <tg xml:lang="eng">
+        <t pos="PCLE-MOD">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="PCLE-MOD">kas siis</t>
+      </tg>
+
+      <tg xml:lang="fin">
         <t pos="PCLE-MOD">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="PCLE-MOD">vai tad</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PCLE">võseʼm</l>
+      <l>võseʼm</l>
 
       <stg>
         <st Contlex="PCLE-MOD_">võseʼm</st>
@@ -71,11 +319,23 @@
       <m>
         <head/>
 
-        <semRel>all~ või se uʼm</semRel>
+        <semRel>~ või se uʼm</semRel>
       </m>
 
       <tg xml:lang="eng">
+        <t pos="PCLE-MOD">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="PCLE-MOD">onʼs</t>
+      </tg>
+
+      <tg xml:lang="fin">
         <t pos="PCLE-MOD">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="PCLE-MOD">▫ vai tiešām</t>
       </tg>
     </mg>
   </e>
