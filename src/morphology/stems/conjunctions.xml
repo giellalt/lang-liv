@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -6,7 +6,7 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
-      <l pos="CC">agā</l>
+      <l>agā</l>
 
       <stg>
         <st Contlex="CC_">agā</st>
@@ -20,87 +20,40 @@
     <mg>
       <m>
         <head/>
+
+        <semRel>= bet</semRel>
       </m>
 
       <tg xml:lang="eng">
         <t pos="CC">but</t>
       </tg>
 
+      <tg xml:lang="est">
+        <t pos="CC">aga</t>
+      </tg>
+
       <tg xml:lang="fin">
         <t pos="CC">mutta</t>
       </tg>
-    </mg>
-  </e>
 
-  <e>
-    <lg>
-      <l pos="Pcle">agā</l>
-
-      <stg>
-        <st Contlex="PCLE_">agā</st>
-      </stg>
-
-      <stress>agā 2</stress>
-    </lg>
-
-    <pos>PCLE</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Pcle">maybe</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Pcle">ehkä</t>
+      <tg xml:lang="lav">
+        <t pos="CC">bet</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Pcle">agā</l>
+      <l>aʼž</l>
 
       <stg>
-        <st Contlex="PCLE_">agā</st>
-      </stg>
-
-      <stress>agā 3</stress>
-    </lg>
-
-    <pos>PCLE</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t>-ko/kö</t>
-        <td>kysymyspartikkeli</td>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Conj">aʼž</l>
-
-      <stg>
-        <st Contlex="CONJ_">aʼž</st>
+        <st Contlex="CS_">aʼž</st>
       </stg>
 
       <stress>aʼž</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -111,15 +64,23 @@
         <t pos="Conj">if</t>
       </tg>
 
+      <tg xml:lang="est">
+        <t pos="CS">kui</t>
+      </tg>
+
       <tg xml:lang="fin">
         <t pos="Conj">jos</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">ja</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">äʼb ..., äʼb</l>
+      <l>äʼb ..., äʼb</l>
 
       <stg>
         <st Contlex="CONJ_">äʼb ..., äʼb</st>
@@ -136,46 +97,64 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
+        <t pos="CONJ">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CONJ">ei ... ega</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
+        <t pos="CONJ">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CONJ">ne ..., ne</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">bet</l>
+      <l>bet</l>
 
       <stg>
-        <st Contlex="CONJ_">bet</st>
+        <st Contlex="CC_">bet</st>
       </stg>
 
       <stress>bet</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CC</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= agā 1</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
+        <t pos="CC">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CC">aga</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
+        <t pos="CC">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CC">bet</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="CC">ja</l>
+      <l>ja</l>
 
       <stg>
         <st Contlex="CC_">ja</st>
@@ -192,55 +171,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Conj">and</t>
+        <t pos="CC">and</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CC">ja, ning</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Conj">ja</t>
+        <t pos="CC">ja</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CC">un</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">kiʼl 5</l>
+      <l>koks</l>
 
       <stg>
-        <st Contlex="CONJ_">kiʼl</st>
-      </stg>
-
-      <stress>kiʼl 5</stress>
-    </lg>
-
-    <pos>Conj</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Conj">kyllä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Conj">koks</l>
-
-      <stg>
-        <st Contlex="CONJ_">koks</st>
+        <st Contlex="CS_">koks</st>
       </stg>
 
       <stress>koks</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -248,27 +207,57 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
+        <t pos="CS">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CS">kuigi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
+        <t pos="CS">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">lai gan</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="CS">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CS">kui ometi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="CS">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">kaut</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">kokska</l>
+      <l>kokska</l>
 
       <stg>
-        <st Contlex="CONJ_">koks#ka</st>
+        <st Contlex="CS_">koks#ka</st>
       </stg>
 
       <stress>koks|ka</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -276,27 +265,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
+        <t pos="CS">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CS">kuigi ka</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
+        <t pos="CS">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">kaut arī</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">ku</l>
+      <l>ku</l>
 
       <stg>
-        <st Contlex="CONJ_">ku</st>
+        <st Contlex="CS_">ku</st>
       </stg>
 
       <stress>ku 2</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -307,24 +304,32 @@
         <t pos="Conj">when</t>
       </tg>
 
+      <tg xml:lang="est">
+        <t pos="CS">kui</t>
+      </tg>
+
       <tg xml:lang="fin">
         <t pos="Conj">kun</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">kad</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">ku</l>
+      <l>ku</l>
 
       <stg>
-        <st Contlex="CONJ_">ku</st>
+        <st Contlex="CS_">ku</st>
       </stg>
 
       <stress>ku 3</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -335,52 +340,32 @@
         <t pos="Conj">that</t>
       </tg>
 
+      <tg xml:lang="est">
+        <t pos="CS">et</t>
+      </tg>
+
       <tg xml:lang="fin">
         <t pos="Conj">että</t>
       </tg>
-    </mg>
-  </e>
 
-  <e>
-    <lg>
-      <l pos="Conj">ku</l>
-
-      <stg>
-        <st Contlex="CONJ_">ku</st>
-      </stg>
-
-      <stress>ku 4</stress>
-    </lg>
-
-    <pos>Conj</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
+      <tg xml:lang="lav">
+        <t pos="CS">ka</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">kunā</l>
+      <l>kunā</l>
 
       <stg>
-        <st Contlex="CONJ_">kunā</st>
+        <st Contlex="CS_">kunā</st>
       </stg>
 
       <stress>kunā 3</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -388,27 +373,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
+        <t pos="CS">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CS">kuna</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
+        <t pos="CS">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">kad</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">kuņtš</l>
+      <l>kuņtš</l>
 
       <stg>
-        <st Contlex="CONJ_">kuņtš</st>
+        <st Contlex="CS_">kuņtš</st>
       </stg>
 
       <stress>kuņtš</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -419,24 +412,32 @@
         <t pos="Conj">till</t>
       </tg>
 
+      <tg xml:lang="est">
+        <t pos="CS">kuni</t>
+      </tg>
+
       <tg xml:lang="fin">
         <t pos="Conj">kunnes</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">kamēr</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">kus</l>
+      <l>kus</l>
 
       <stg>
-        <st Contlex="CONJ_">kus</st>
+        <st Contlex="CS_">kus</st>
       </stg>
 
       <stress>kus 2</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -444,49 +445,29 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
+        <t pos="CS">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CS">kus, kuidas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
+        <t pos="CS">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">kaut kur</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">laʼz</l>
+      <l>misjūs</l>
 
       <stg>
-        <st Contlex="CONJ_">laʼz</st>
-      </stg>
-
-      <stress>laʼz</stress>
-    </lg>
-
-    <pos>Conj</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Conj">misjūs</l>
-
-      <stg>
-        <st Contlex="CONJ_">mis#jūs</st>
+        <st Contlex="CS_">mis#jūs</st>
       </stg>
 
       <stress>mis|jūs</stress>
@@ -500,27 +481,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
+        <t pos="CS">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CS">misjuures</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
+        <t pos="CS">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">turklāt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">mispierāst</l>
+      <l>mispierāst</l>
 
       <stg>
-        <st Contlex="CONJ_">mis#pierāst</st>
+        <st Contlex="CS_">mis#pierāst</st>
       </stg>
 
       <stress>mis|pierāst</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -528,27 +517,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
+        <t pos="CS">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CS">mispärast</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
+        <t pos="CS">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">kāpēc</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">nemē</l>
+      <l>nemē</l>
 
       <stg>
-        <st Contlex="CONJ_">nemē</st>
+        <st Contlex="CS_">nemē</st>
       </stg>
 
       <stress>nemē</stress>
     </lg>
 
-    <pos>Conj</pos>
+    <pos>CS</pos>
 
     <mg>
       <m>
@@ -559,103 +556,29 @@
         <t pos="Conj">like</t>
       </tg>
 
+      <tg xml:lang="est">
+        <t pos="CS">nagu</t>
+      </tg>
+
       <tg xml:lang="fin">
         <t pos="Conj">kuten</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">kā, it kā, tā kā</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Conj">set</l>
+      <l>set</l>
 
       <stg>
         <st Contlex="CONJ_">set</st>
       </stg>
 
       <stress>set 3</stress>
-    </lg>
-
-    <pos>Conj</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Conj">but</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Conj">vaan</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Conj">sīest</l>
-
-      <stg>
-        <st Contlex="CONJ_">sīest</st>
-      </stg>
-
-      <stress>sīest</stress>
-    </lg>
-
-    <pos>Conj</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Conj">või</l>
-
-      <stg>
-        <st Contlex="CONJ_">või</st>
-      </stg>
-
-      <stress>või</stress>
-    </lg>
-
-    <pos>Conj</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Conj">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Conj">XX</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="CC">un</l>
-
-      <stg>
-        <st Contlex="CC_">un</st>
-      </stg>
     </lg>
 
     <pos>CC</pos>
@@ -666,11 +589,117 @@
       </m>
 
       <tg xml:lang="eng">
-        <t>and</t>
+        <t pos="Conj">but</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CONJ">ainult, vaid</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>ja</t>
+        <t pos="Conj">vaan</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CONJ">tikai</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel>= set|ku</semRel>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="CS">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CS">vaid, aina, ainuüksi, muudkui</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="CS">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">tik, taču, vien</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>sīest</l>
+
+      <stg>
+        <st Contlex="CS_">sīest</st>
+      </stg>
+
+      <stress>sīest</stress>
+    </lg>
+
+    <pos>CS</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="CS">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CS">sest</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="CS">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CS">jo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>un</l>
+
+      <stg>
+        <st Contlex="CC_">un</st>
+      </stg>
+
+      <stress>un</stress>
+    </lg>
+
+    <pos>CC</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel>&gt; ja</semRel>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="CC">and</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="CC">ja, ning</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="CC">ja</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="CC">un</t>
       </tg>
     </mg>
   </e>
