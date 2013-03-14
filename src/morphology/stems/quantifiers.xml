@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -6,7 +6,7 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
-      <l pos="Qnt">āigasttūʼontõ</l>
+      <l pos="Num">āigasttūʼontõ</l>
 
       <stg>
         <st Contlex="NUM_NǬʼGÕ">āigast#tūʼontõ</st>
@@ -15,7 +15,7 @@
       <stress>āigast|tūʼontõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -23,18 +23,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">aastatuhat</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">gadu tūkstotis</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">dutš</l>
+      <l pos="Num">dutš</l>
 
       <stg>
         <st Contlex="NUM_OKŠ">dutš</st>
@@ -43,7 +51,7 @@
       <stress>dutš</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -51,18 +59,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">tosin</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">ducis</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">eʼžmi</l>
+      <l pos="Num">eʼžmi</l>
 
       <stg>
         <st Contlex="NUM_SĒMI">eʼžmi</st>
@@ -71,7 +87,7 @@
       <stress>eʼžmi</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -79,18 +95,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">esimene</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">pirmais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">īʼdõks</l>
+      <l pos="Num">īʼdõks</l>
 
       <stg>
         <st Contlex="NUM_ÄʼBȚÕKS">īʼdõks</st>
@@ -99,7 +123,7 @@
       <stress>īʼdõks</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -107,18 +131,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheksa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">deviņi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">īʼdõkskimdõ</l>
+      <l pos="Num">īʼdõkskimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">īʼdõks#kimdõ</st>
@@ -127,7 +159,7 @@
       <stress>īʼdõks|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -135,18 +167,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheksakümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">deviņdesmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">īʼdõkskimdõz</l>
+      <l pos="Num">īʼdõkskimdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">īʼdõks#kimdõz</st>
@@ -155,7 +195,7 @@
       <stress>īʼdõks|kimdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -163,18 +203,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheksakümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">deviņdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">īʼdõksmõz</l>
+      <l pos="Num">īʼdõksmõz</l>
 
       <stg>
         <st Contlex="NUM_ĪʼDÕKSMÕZ">īʼdõksmõz</st>
@@ -183,7 +231,7 @@
       <stress>īʼdõksmõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -191,27 +239,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheksas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">devītais</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">īʼdõkssadā</l>
+      <l pos="Num">īʼdõkssadā</l>
 
       <stg>
-        <st Contlex="NUM_PADĀ">īʼdõks#sadā</st>
+        <st Contlex="NUM_PADĀ">īʼdõks##sadā</st>
       </stg>
 
       <stress>īʼdõks||sadā</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -219,18 +275,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheksasada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">deviņsimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">īʼdõkssadāz</l>
+      <l pos="Num">īʼdõkssadāz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">īʼdõks#sadāz</st>
@@ -239,7 +303,7 @@
       <stress>īʼdõks|sadāz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -247,27 +311,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheksasajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">deviņsimtais</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">īʼdõkssaʼddõ</l>
+      <l pos="Num">īʼdõkssaʼddõ</l>
 
       <stg>
-        <st Contlex="NUM_PADĀ">īʼdõks#saʼddõ</st>
+        <st Contlex="NUM_PADĀ">īʼdõks##saʼddõ</st>
       </stg>
 
       <stress>īʼdõks||saʼddõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -275,27 +347,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheksasada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">deviņsimt</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">īʼdõkstuoistõn</l>
+      <l pos="Num">īʼdõkstuoistõn</l>
 
       <stg>
-        <st Contlex="NUM_APPÕN">īʼdõks#tuoistõn</st>
+        <st Contlex="NUM_APPÕN">īʼdõks##tuoistõn</st>
       </stg>
 
       <stress>īʼdõks||tuoistõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -303,18 +383,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheksateist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">deviņpadsmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">īʼdõkstuoistõnz</l>
+      <l pos="Num">īʼdõkstuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">īʼdõks#tuoistõnz</st>
@@ -323,7 +411,7 @@
       <stress>īʼdõks|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -331,18 +419,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheksateistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">deviņpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">īʼdtuoistõnz</l>
+      <l pos="Num">īʼdtuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">īʼd#tuoistõnz</st>
@@ -351,26 +447,36 @@
       <stress>īʼd|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= ikš|tuoistõnz</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">vienpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">ikš</l>
+      <l pos="Num">ikš</l>
 
       <stg>
         <st Contlex="NUM_ĪKŠ">ikš</st>
@@ -379,7 +485,7 @@
       <stress>ikš 1</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -387,18 +493,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">one</t>
+        <t pos="Num">one</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üks</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">yksi</t>
+        <t pos="Num">yksi</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">viens</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">ikštuoistõn</l>
+      <l pos="Num">ikštuoistõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">ikš#tuoistõn</st>
@@ -407,7 +521,7 @@
       <stress>ikš|tuoistõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -415,18 +529,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üksteist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">vienpadsmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">ikštuoistõnz</l>
+      <l pos="Num">ikštuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">ikš#tuoistõnz</st>
@@ -435,26 +557,36 @@
       <stress>ikš|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= īʼd|tuoistõnz</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">üheteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">vienpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kakš</l>
+      <l pos="Num">kakš</l>
 
       <stg>
         <st Contlex="NUM_KAKŠ">kakš</st>
@@ -463,7 +595,7 @@
       <stress>kakš</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -471,18 +603,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">two</t>
+        <t pos="Num">two</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaks</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">kaksi</t>
+        <t pos="Num">kaksi</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">divi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kakškimdõ</l>
+      <l pos="Num">kakškimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">kakš#kimdõ</st>
@@ -491,7 +631,7 @@
       <stress>kakš|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -499,27 +639,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kakskümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">divdesmit</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">kakšsadā</l>
+      <l pos="Num">kakšsadā</l>
 
       <stg>
-        <st Contlex="NUM_PADĀ">kakš#sadā</st>
+        <st Contlex="NUM_PADĀ">kakš##sadā</st>
       </stg>
 
       <stress>kakš||sadā</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -527,46 +675,64 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kakssada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">divsimt</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">kakšsaʼddõ</l>
+      <l pos="Num">kakšsaʼddõ</l>
 
       <stg>
-        <st Contlex="NUM_PADĀ">kakš#saʼddõ</st>
+        <st Contlex="NUM_PADĀ">kakš##saʼddõ</st>
       </stg>
 
       <stress>kakš||saʼddõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>&gt; kakš||sadā</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kakssada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">divsimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kakštuoistõn</l>
+      <l pos="Num">kakštuoistõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">kakš#tuoistõn</st>
@@ -575,7 +741,7 @@
       <stress>kakš|tuoistõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -583,18 +749,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaksteist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">divpadsmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kim</l>
+      <l pos="Num">kim</l>
 
       <stg>
         <st Contlex="NUM_KIM">kim</st>
@@ -603,7 +777,7 @@
       <stress>kim</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -611,18 +785,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">ten</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kümme</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">kymmenen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">desmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kimgõn</l>
+      <l pos="Num">kimgõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">kimgõn</st>
@@ -631,7 +813,7 @@
       <stress>kimgõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -639,18 +821,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kümmekond</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">desmits</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kimmõz</l>
+      <l pos="Num">kimmõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kimmõz</st>
@@ -659,7 +849,7 @@
       <stress>kimmõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -667,74 +857,102 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">desmitais</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">kimmõzjaʼg</l>
+      <l pos="Num">kimmõzjaʼg</l>
 
       <stg>
-        <st Contlex="NUM_SUʼG">kimmõz#jaʼg</st>
+        <st Contlex="NUM_SUʼG">kimmõz##jaʼg</st>
       </stg>
 
       <stress>kimmõz||jaʼg</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>≈ kimmõz|jagū</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kümnendik</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">desmitdaļa</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">kimmõzjagū</l>
+      <l pos="Num">kimmõzjagū</l>
 
       <stg>
-        <st Contlex="NUM_RUZŪ">kimmõz#jagū</st>
+        <st Contlex="NUM_RUZŪ">kimmõz##jagū</st>
       </stg>
 
       <stress>kimmõz||jagū</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>≈ kimmõz|jaʼg</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kümnendik</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">desmitdaļa</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdkimdõz</l>
+      <l pos="Num">kǭʼdkimdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kǭʼd#kimdõz</st>
@@ -743,7 +961,7 @@
       <stress>kǭʼd|kimdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -751,18 +969,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kahekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">divdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdõks</l>
+      <l pos="Num">kǭʼdõks</l>
 
       <stg>
         <st Contlex="NUM_ÄʼBȚÕKS">kǭʼdõks</st>
@@ -771,7 +997,7 @@
       <stress>kǭʼdõks</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -779,18 +1005,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheksa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">astoņi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdõkskimdõ</l>
+      <l pos="Num">kǭʼdõkskimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">kǭʼdõks#kimdõ</st>
@@ -799,7 +1033,7 @@
       <stress>kǭʼdõks|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -807,18 +1041,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheksakümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">astoņdesmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdõkskimdõz</l>
+      <l pos="Num">kǭʼdõkskimdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kǭʼdõks#kimdõz</st>
@@ -827,7 +1069,7 @@
       <stress>kǭʼdõks|kimdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -835,18 +1077,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheksakümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">astoņdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdõksmõz</l>
+      <l pos="Num">kǭʼdõksmõz</l>
 
       <stg>
         <st Contlex="NUM_ĪʼDÕKSMÕZ">kǭʼdõksmõz</st>
@@ -855,7 +1105,7 @@
       <stress>kǭʼdõksmõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -863,27 +1113,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheksas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">astotais</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">kǭʼdõkssadā</l>
+      <l pos="Num">kǭʼdõkssadā</l>
 
       <stg>
-        <st Contlex="NUM_PADĀ">kǭʼdõks#sadā</st>
+        <st Contlex="NUM_PADĀ">kǭʼdõks##sadā</st>
       </stg>
 
       <stress>kǭʼdõks||sadā</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -891,18 +1149,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheksasada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">astoņsimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdõkssadāz</l>
+      <l pos="Num">kǭʼdõkssadāz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kǭʼdõks#sadāz</st>
@@ -911,7 +1177,7 @@
       <stress>kǭʼdõks|sadāz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -919,18 +1185,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheksasajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">astoņsimtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdõkssaʼddõ</l>
+      <l pos="Num">kǭʼdõkssaʼddõ</l>
 
       <stg>
         <st Contlex="NUM_PADĀ">kǭʼdõks#saʼddõ</st>
@@ -939,7 +1213,7 @@
       <stress>kǭʼdõks|saʼddõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -947,18 +1221,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheksasada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">astoņsimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdõkstuoistõn</l>
+      <l pos="Num">kǭʼdõkstuoistõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">kǭʼdõks#tuoistõn</st>
@@ -967,7 +1249,7 @@
       <stress>kǭʼdõks|tuoistõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -975,18 +1257,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheksateist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">astoņpadsmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdõkstuoistõnz</l>
+      <l pos="Num">kǭʼdõkstuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">kǭʼdõks#tuoistõnz</st>
@@ -995,7 +1285,7 @@
       <stress>kǭʼdõks|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1003,18 +1293,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheksateistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">astoņpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdsadāz</l>
+      <l pos="Num">kǭʼdsadāz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kǭʼd#sadāz</st>
@@ -1023,7 +1321,7 @@
       <stress>kǭʼd|sadāz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1031,18 +1329,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kahesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">divsimtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kǭʼdtuoistõnz</l>
+      <l pos="Num">kǭʼdtuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">kǭʼd#tuoistõnz</st>
@@ -1051,7 +1357,7 @@
       <stress>kǭʼd|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1059,18 +1365,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kaheteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">divpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kūdkimdõz</l>
+      <l pos="Num">kūdkimdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kūd#kimdõz</st>
@@ -1079,7 +1393,7 @@
       <stress>kūd|kimdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1087,18 +1401,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kuuekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">sešdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kūdõz</l>
+      <l pos="Num">kūdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kūdõz</st>
@@ -1107,7 +1429,7 @@
       <stress>kūdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1115,18 +1437,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kuues</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">sestais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kūdsadāz</l>
+      <l pos="Num">kūdsadāz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kūd#sadāz</st>
@@ -1135,7 +1465,7 @@
       <stress>kūd|sadāz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1143,18 +1473,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kuuesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">sešsimtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kūdtuoistõnz</l>
+      <l pos="Num">kūdtuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">kūd#tuoistõnz</st>
@@ -1163,7 +1501,7 @@
       <stress>kūd|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1171,18 +1509,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kuueteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">sešpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kuolm</l>
+      <l pos="Num">kuolm</l>
 
       <stg>
         <st Contlex="NUM_IRM">kuolm</st>
@@ -1191,7 +1537,7 @@
       <stress>kuolm</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1199,18 +1545,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">three</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kolm</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">kolme</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trīs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kuolmi</l>
+      <l pos="Num">kuolmi</l>
 
       <stg>
         <st Contlex="NUM_TŪĻI">kuolmi</st>
@@ -1219,26 +1573,36 @@
       <stress>kuolmi</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>&gt; kuolmõz</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">third</t>
+        <t pos="Num">third</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kolmas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">kolmas</t>
+        <t pos="Num">kolmas</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trešais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kuolmkimdõ</l>
+      <l pos="Num">kuolmkimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">kuolm#kimdõ</st>
@@ -1247,7 +1611,7 @@
       <stress>kuolm|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1255,18 +1619,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kolmkümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trīsdesmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kuolmkimdõz</l>
+      <l pos="Num">kuolmkimdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kuolm#kimdõz</st>
@@ -1275,7 +1647,7 @@
       <stress>kuolm|kimdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1283,18 +1655,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kolmekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trīsdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kuolmõz</l>
+      <l pos="Num">kuolmõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kuolmõz</st>
@@ -1303,7 +1683,7 @@
       <stress>kuolmõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1311,27 +1691,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">third</t>
+        <t pos="Num">third</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kolmas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">kolmas</t>
+        <t pos="Num">kolmas</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trešais</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">kuolmsadā</l>
+      <l pos="Num">kuolmsadā</l>
 
       <stg>
-        <st Contlex="NUM_PADĀ">kuolm#sadā</st>
+        <st Contlex="NUM_PADĀ">kuolm##sadā</st>
       </stg>
 
       <stress>kuolm||sadā</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1339,18 +1727,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">komsada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trīssimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kuolmsadāz</l>
+      <l pos="Num">kuolmsadāz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">kuolm#sadāz</st>
@@ -1359,7 +1755,7 @@
       <stress>kuolm|sadāz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1367,27 +1763,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kolmesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trīssimtais</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">kuolmsaʼddõ</l>
+      <l pos="Num">kuolmsaʼddõ</l>
 
       <stg>
-        <st Contlex="NUM_PADĀ">kuolm#saʼddõ</st>
+        <st Contlex="NUM_PADĀ">kuolm##saʼddõ</st>
       </stg>
 
       <stress>kuolm||saʼddõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1395,18 +1799,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kolmsada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trīssimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kuolmtuoistõn</l>
+      <l pos="Num">kuolmtuoistõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">kuolm#tuoistõn</st>
@@ -1415,7 +1827,7 @@
       <stress>kuolm|tuoistõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1423,18 +1835,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kolmteist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trīspadsmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kuolmtuoistõnz</l>
+      <l pos="Num">kuolmtuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">kuolm#tuoistõnz</st>
@@ -1443,7 +1863,7 @@
       <stress>kuolm|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1451,18 +1871,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kolmeteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">trīspadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kūž</l>
+      <l pos="Num">kūž</l>
 
       <stg>
         <st Contlex="NUM_ŪŽ">kūž</st>
@@ -1471,7 +1899,7 @@
       <stress>kūž</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1479,18 +1907,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">six</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kuus</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">kuusi</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">seši</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kūžkimdõ</l>
+      <l pos="Num">kūžkimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">kūž#kimdõ</st>
@@ -1499,7 +1935,7 @@
       <stress>kūž|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1507,27 +1943,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kuuskümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">sešdesmit</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">kūžsadā</l>
+      <l pos="Num">kūžsadā</l>
 
       <stg>
-        <st Contlex="NUM_PADĀ">kūž#sadā</st>
+        <st Contlex="NUM_PADĀ">kūž##sadā</st>
       </stg>
 
       <stress>kūž||sadā</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1535,18 +1979,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kuussada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">sešsimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kūžsaʼddõ</l>
+      <l pos="Num">kūžsaʼddõ</l>
 
       <stg>
         <st Contlex="NUM_PADĀ">kūž#saʼddõ</st>
@@ -1555,7 +2007,7 @@
       <stress>kūž|saʼddõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1563,18 +2015,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kuussada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">sešsimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">kūžtuoistõn</l>
+      <l pos="Num">kūžtuoistõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">kūž#tuoistõn</st>
@@ -1583,7 +2043,7 @@
       <stress>kūž|tuoistõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1591,18 +2051,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">kuusteist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">sešpadsmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">miljard</l>
+      <l pos="Num">miljard</l>
 
       <stg>
         <st Contlex="NUM_ĀIGAST">miljard</st>
@@ -1611,7 +2079,7 @@
       <stress>miljard</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1619,18 +2087,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">miljard</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">miljards</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">miljon</l>
+      <l pos="Num">miljon</l>
 
       <stg>
         <st Contlex="NUM_ĀIGAST">miljon</st>
@@ -1639,7 +2115,7 @@
       <stress>miljon</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1647,18 +2123,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">miljon</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">miljons</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">mitskimdõ</l>
+      <l pos="Num">mitskimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">mits#kimdõ</st>
@@ -1667,7 +2151,7 @@
       <stress>mits|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1675,18 +2159,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">mitukümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">vairāki desmiti</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">nēļa</l>
+      <l pos="Num">nēļa</l>
 
       <stg>
         <st Contlex="NUM_KĒRA">nēļa</st>
@@ -1695,7 +2187,7 @@
       <stress>nēļa</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1703,18 +2195,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">four</t>
+        <t pos="Num">four</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">neli</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">neljä</t>
+        <t pos="Num">neljä</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">četri</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">nēļakimdõ</l>
+      <l pos="Num">nēļakimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">nēļa#kimdõ</st>
@@ -1723,7 +2223,7 @@
       <stress>nēļa|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1731,18 +2231,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">nelikümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">četrdesmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">nēļakimdõz</l>
+      <l pos="Num">nēļakimdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">nēļa#kimdõz</st>
@@ -1751,7 +2259,7 @@
       <stress>nēļa|kimdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1759,18 +2267,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">neljakümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">četrdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">nēļasadā</l>
+      <l pos="Num">nēļasadā</l>
 
       <stg>
         <st Contlex="NUM_PADĀ">nēļa#sadā</st>
@@ -1779,7 +2295,7 @@
       <stress>nēļa|sadā</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1787,18 +2303,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">nelisada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">četrsimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">nēļasadāz</l>
+      <l pos="Num">nēļasadāz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">nēļa#sadāz</st>
@@ -1807,7 +2331,7 @@
       <stress>nēļa|sadāz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1815,18 +2339,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">neljasajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">četrsimtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">nēļasaʼddõ</l>
+      <l pos="Num">nēļasaʼddõ</l>
 
       <stg>
         <st Contlex="NUM_PADĀ">nēļa#saʼddõ</st>
@@ -1835,7 +2367,7 @@
       <stress>nēļa|saʼddõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1843,18 +2375,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">nelisada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">četrsimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">nēļatuoistõn</l>
+      <l pos="Num">nēļatuoistõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">nēļa#tuoistõn</st>
@@ -1863,7 +2403,7 @@
       <stress>nēļa|tuoistõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1871,18 +2411,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">neliteist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">četrpadsmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">nēļatuoistõnz</l>
+      <l pos="Num">nēļatuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">nēļa#tuoistõnz</st>
@@ -1891,7 +2439,7 @@
       <stress>nēļa|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1899,18 +2447,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">neljateistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">četrpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">neļļõz</l>
+      <l pos="Num">neļļõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">neļļõz</st>
@@ -1919,7 +2475,7 @@
       <stress>neļļõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1927,18 +2483,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">neljas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">ceturtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">neļļõzjaʼg</l>
+      <l pos="Num">neļļõzjaʼg</l>
 
       <stg>
         <st Contlex="NUM_VAʼG">neļļõz#jaʼg</st>
@@ -1947,26 +2511,36 @@
       <stress>neļļõz|jaʼg</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>≈ neļļõz|jagū</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">neljandik</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">ceturtdaļa</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">neļļõz#jagū</l>
+      <l pos="Num">neļļõzjagū</l>
 
       <stg>
         <st Contlex="NUM_RUZŪ">neļļõz#jagū</st>
@@ -1975,26 +2549,36 @@
       <stress>neļļõz|jagū</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>≈ neļļõz|jaʼg</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">neljandik</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">ceturtdaļa</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">pǭrkimdõ</l>
+      <l pos="Num">pǭrkimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">pǭr#kimdõ</st>
@@ -2003,26 +2587,36 @@
       <stress>pǭr|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= pǭr|kimgõn</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">paarkümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">pārdesmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">pǭrkimgõn</l>
+      <l pos="Num">pǭrkimgõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">pǭr#kimgõn</st>
@@ -2031,7 +2625,7 @@
       <stress>pǭr|kimgõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2039,18 +2633,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">paarkümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">pārdesmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">pūol 2</l>
+      <l pos="Num">pūol</l>
 
       <stg>
         <st Contlex="NUM_PŪOL">pūol</st>
@@ -2059,7 +2661,7 @@
       <stress>pūol 2</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2067,18 +2669,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">pool</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">puse</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">pūoltūoizta</l>
+      <l pos="Num">pūoltūoizta</l>
 
       <stg>
         <st Contlex="NUM_NAI">pūol#tūoizta</st>
@@ -2087,7 +2697,7 @@
       <stress>pūol|tūoizta</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2095,18 +2705,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">poolteist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">pusotrs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">pūoļ 2</l>
+      <l pos="Num">pūoļ</l>
 
       <stg>
         <st Contlex="NUM_TŪĻ">pūoļ</st>
@@ -2115,26 +2733,36 @@
       <stress>pūoļ 2</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>&gt; pūol 2</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">pool</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">puse</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">sadā</l>
+      <l pos="Num">sadā</l>
 
       <stg>
         <st Contlex="NUM_PADĀ">sadā</st>
@@ -2143,7 +2771,7 @@
       <stress>sadā</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2151,18 +2779,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">sada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">simts</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">sadāz</l>
+      <l pos="Num">sadāz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">sadāz</st>
@@ -2171,7 +2807,7 @@
       <stress>sadāz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2179,18 +2815,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">sajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">simtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">seis</l>
+      <l pos="Num">seis</l>
 
       <stg>
         <st Contlex="NUM_FAKT">seis</st>
@@ -2199,7 +2843,7 @@
       <stress>seis</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2207,18 +2851,86 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">seven</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitse</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">seitsemän</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septiņi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">seiskimdõ</l>
+      <l pos="Num">ī’dõks</l>
+
+      <stg>
+        <st Contlex="QntTag">ī’dõks</st>
+      </stg>
+    </lg>
+
+    <pos>Num</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>nine</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>yhdeksän</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Num">kǭ’dõks</l>
+
+      <stg>
+        <st Contlex="QntTag">kǭ’dõks</st>
+      </stg>
+    </lg>
+
+    <pos>Num</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t>eight</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t>kahdeksan</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Num">seiskimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">seis#kimdõ</st>
@@ -2227,7 +2939,7 @@
       <stress>seis|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2235,18 +2947,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitsekümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septiņdesmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">seiskimdõz</l>
+      <l pos="Num">seiskimdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">seis#kimdõz</st>
@@ -2255,7 +2975,7 @@
       <stress>seis|kimdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2263,18 +2983,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitsmekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septiņdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">seismi</l>
+      <l pos="Num">seismi</l>
 
       <stg>
         <st Contlex="NUM_TŪĻI">seismi</st>
@@ -2283,26 +3011,36 @@
       <stress>seismi</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>&gt; seismõz</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitsmes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septītais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">seismõz</l>
+      <l pos="Num">seismõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">seismõz</st>
@@ -2311,7 +3049,7 @@
       <stress>seismõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2319,18 +3057,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitsmes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septītais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">seismõztuoistõnz</l>
+      <l pos="Num">seismõztuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">seismõz#tuoistõnz</st>
@@ -2339,26 +3085,36 @@
       <stress>seismõz|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>&gt; seis|tuoistõnz</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitsmeteiskümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septiņpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">seissadā</l>
+      <l pos="Num">seissadā</l>
 
       <stg>
         <st Contlex="NUM_PADĀ">seis#sadā</st>
@@ -2367,7 +3123,7 @@
       <stress>seis|sadā</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2375,27 +3131,35 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitsesada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septiņsimt</t>
       </tg>
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
-      <l pos="Qnt">seis$$sadāz</l>
+      <l pos="Num">seissadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">seis$$sadāz</st>
+        <st Contlex="NUM_VĪDÕZ">seis##sadāz</st>
       </stg>
 
-      <stress>seis$$sadāz</stress>
+      <stress>seis||sadāz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2403,46 +3167,64 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitsmesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septiņsimtais</t>
       </tg>
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
-      <l pos="Qnt">seis$$saʼddõ</l>
+      <l pos="Num">seissaʼddõ</l>
 
       <stg>
-        <st Contlex="NUM_PADĀ">seis$$saʼddõ</st>
+        <st Contlex="NUM_PADĀ">seis##saʼddõ</st>
       </stg>
 
-      <stress>seis$$saʼddõ</stress>
+      <stress>seis||saʼddõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>&gt; seis|sadā</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitsesada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septiņsimt</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">seistuoistõn</l>
+      <l pos="Num">seistuoistõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">seis#tuoistõn</st>
@@ -2451,7 +3233,7 @@
       <stress>seis|tuoistõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2459,18 +3241,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitseteist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septiņpadsmit</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">seistuoistõnz</l>
+      <l pos="Num">seistuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">seis#tuoistõnz</st>
@@ -2479,7 +3269,7 @@
       <stress>seis|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2487,18 +3277,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">seitsmeteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">septiņpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">setkimdõ</l>
+      <l pos="Num">setkimdõ</l>
 
       <stg>
         <st Contlex="NUM_SIELDÕ">set#kimdõ</st>
@@ -2507,7 +3305,7 @@
       <stress>set|kimdõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2515,18 +3313,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">mitukümmend</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">vairāki desmiti</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">setmõz</l>
+      <l pos="Num">setmõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">setmõz</st>
@@ -2535,7 +3341,7 @@
       <stress>setmõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2543,18 +3349,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">setmes, nii mitmes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">jau kurais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">setsaʼddõ</l>
+      <l pos="Num">setsaʼddõ</l>
 
       <stg>
         <st Contlex="NUM_PADĀ">set#saʼddõ</st>
@@ -2563,7 +3377,7 @@
       <stress>set|saʼddõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2571,18 +3385,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">mitusada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">vairāki simti</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">tuoi</l>
+      <l pos="Num">tuoi</l>
 
       <stg>
         <st Contlex="NUM_NAI">tuoi</st>
@@ -2591,7 +3413,7 @@
       <stress>tuoi</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2599,18 +3421,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">second</t>
+        <t pos="Num">second</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">teine</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">toinen</t>
+        <t pos="Num">toinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">otrs, cits</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">tūʼontõ</l>
+      <l pos="Num">tūʼontõ</l>
 
       <stg>
         <st Contlex="NUM_NǬʼGÕ">tūʼontõ</st>
@@ -2619,7 +3449,7 @@
       <stress>tūʼontõ</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2627,18 +3457,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">tuhat</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">tūkstotis</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">tūʼontõz</l>
+      <l pos="Num">tūʼontõz</l>
 
       <stg>
         <st Contlex="NUM_ĪʼDÕKSMÕZ">tūʼontõz</st>
@@ -2647,7 +3485,7 @@
       <stress>tūʼontõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2655,18 +3493,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">tuhandes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">tūkstošais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">vīdkimdõz</l>
+      <l pos="Num">vīdkimdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">vīd#kimdõz</st>
@@ -2675,7 +3521,7 @@
       <stress>vīd|kimdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2683,18 +3529,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">viiekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">piecdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">vīdõz</l>
+      <l pos="Num">vīdõz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">vīdõz</st>
@@ -2703,7 +3557,7 @@
       <stress>vīdõz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2711,18 +3565,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">viies</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">piektais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">vīdsadāz</l>
+      <l pos="Num">vīdsadāz</l>
 
       <stg>
         <st Contlex="NUM_VĪDÕZ">vīd#sadāz</st>
@@ -2731,7 +3593,7 @@
       <stress>vīd|sadāz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2739,18 +3601,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">viiesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">piecsimtais</t>
       </tg>
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e>
     <lg>
-      <l pos="Qnt">vīdtuoistõnz</l>
+      <l pos="Num">vīdtuoistõnz</l>
 
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">vīd#tuoistõnz</st>
@@ -2759,7 +3629,7 @@
       <stress>vīd|tuoistõnz</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2767,18 +3637,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">viieteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">piecpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">vīž</l>
+      <l pos="Num">vīž</l>
 
       <stg>
         <st Contlex="NUM_ŪŽ">vīž</st>
@@ -2787,7 +3665,7 @@
       <stress>vīž</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2795,102 +3673,136 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">five</t>
+        <t pos="Num">five</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">viis</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">viisi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">vīž$$kimdõ</l>
-
-      <stg>
-        <st Contlex="NUM_SIELDÕ">vīž$$kimdõ</st>
-      </stg>
-
-      <stress>vīž$$kimdõ</stress>
-    </lg>
-
-    <pos>NUM</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">viisi</t>
       </tg>
 
-      <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">vīž$$sadā</l>
-
-      <stg>
-        <st Contlex="NUM_PADĀ">vīž$$sadā</st>
-      </stg>
-
-      <stress>vīž$$sadā</stress>
-    </lg>
-
-    <pos>NUM</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">vīž$$saʼddõ</l>
-
-      <stg>
-        <st Contlex="NUM_PADĀ">vīž$$saʼddõ</st>
-      </stg>
-
-      <stress>vīž$$saʼddõ</stress>
-    </lg>
-
-    <pos>NUM</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+      <tg xml:lang="lav">
+        <t pos="Num">pieci</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Qnt">vīžtuoistõn</l>
+      <l pos="Num">vīžkimdõ</l>
+
+      <stg>
+        <st Contlex="NUM_SIELDÕ">vīž##kimdõ</st>
+      </stg>
+
+      <stress>vīž||kimdõ</stress>
+    </lg>
+
+    <pos>Num</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">viiskümmend</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">piecdesmit</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="Num">vīžsadā</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">vīž##sadā</st>
+      </stg>
+
+      <stress>vīž||sadā</stress>
+    </lg>
+
+    <pos>Num</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">viissada</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">piecsimt</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="Num">vīžsaʼddõ</l>
+
+      <stg>
+        <st Contlex="NUM_PADĀ">vīž##saʼddõ</st>
+      </stg>
+
+      <stress>vīž||saʼddõ</stress>
+    </lg>
+
+    <pos>Num</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel>&gt; vīž||sadā</semRel>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">viissada</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">piecsimt</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Num">vīžtuoistõn</l>
 
       <stg>
         <st Contlex="NUM_APPÕN">vīž#tuoistõn</st>
@@ -2899,7 +3811,7 @@
       <stress>vīž|tuoistõn</stress>
     </lg>
 
-    <pos>NUM</pos>
+    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2907,201 +3819,20 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="NUM">YY</t>
+        <t pos="Num">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Num">viisteist</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="NUM">XX</t>
+        <t pos="Num">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Num">piecpadsmit</t>
       </tg>
     </mg>
   </e>
-    
-   <e>
-        <lg>
-            <l>kakš</l>
-            <stg>
-                <st Contlex="QntTag">kakš</st>
-            </stg>
-        </lg>
-        <pos>QNT</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>two</t>
-            </tg>
-            <tg lang="fin">
-                <t>kaksi</t>
-            </tg>
-        </mg>
-    </e>
-    
-    <e>
-        <lg>
-            <l>kuolm</l>
-            <stg>
-                <st Contlex="QntTag">kuolm</st>
-            </stg>
-        </lg>
-        <pos>QNT</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>three</t>
-            </tg>
-            <tg lang="fin">
-                <t>kolme</t>
-            </tg>
-        </mg>
-    </e>
-    
-    <e>
-        <lg>
-            <l>nēļa</l>
-            <stg>
-                <st Contlex="QntTag">nēļa</st>
-            </stg>
-        </lg>
-        <pos>QNT</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>four</t>
-            </tg>
-            <tg lang="fin">
-                <t>neljä</t>
-            </tg>
-        </mg>
-    </e>
-    
-    <e>
-        <lg>
-            <l>vīž</l>
-            <stg>
-                <st Contlex="QntTag">vīž</st>
-            </stg>
-        </lg>
-        <pos>QNT</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>five</t>
-            </tg>
-            <tg lang="fin">
-                <t>viisi</t>
-            </tg>
-        </mg>
-    </e>
-    
-    <e>
-        <lg>
-            <l>kūž</l>
-            <stg>
-                <st Contlex="QntTag">kūž</st>
-            </stg>
-        </lg>
-        <pos>QNT</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>six</t>
-            </tg>
-            <tg lang="fin">
-                <t>kuusi</t>
-            </tg>
-        </mg>
-    </e>
-    
-    <e>
-        <lg>
-            <l>seis</l>
-            <stg>
-                <st Contlex="QntTag">seis</st>
-            </stg>
-        </lg>
-        <pos>QNT</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>seven</t>
-            </tg>
-            <tg lang="fin">
-                <t>seitsemän</t>
-            </tg>
-        </mg>
-    </e>
-    
-    <e>
-        <lg>
-            <l>kǭ’dõks</l>
-            <stg>
-                <st Contlex="QntTag">kǭ’dõks</st>
-            </stg>
-        </lg>
-        <pos>QNT</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>eight</t>
-            </tg>
-            <tg lang="fin">
-                <t>kahdeksan</t>
-            </tg>
-        </mg>
-    </e>
-    
-    <e>
-        <lg>
-            <l>ī’dõks</l>
-            <stg>
-                <st Contlex="QntTag">ī’dõks</st>
-            </stg>
-        </lg>
-        <pos>QNT</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>nine</t>
-            </tg>
-            <tg lang="fin">
-                <t>yhdeksän</t>
-            </tg>
-        </mg>
-    </e>
-    
-    <e>
-        <lg>
-            <l>kim</l>
-            <stg>
-                <st Contlex="QntTag">kim</st>
-            </stg>
-        </lg>
-        <pos>QNT</pos>
-        <mg>
-            <m>
-                <head/>
-            </m>
-            <tg lang="eng">
-                <t>ten</t>
-            </tg>
-            <tg lang="fin">
-                <t>kymmenen</t>
-            </tg>
-        </mg>
-    </e>
 </r>
