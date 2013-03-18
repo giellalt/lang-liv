@@ -6,7 +6,7 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
-      <l pos="PRON">amād</l>
+      <l pos="Pron">amād</l>
 
       <stg>
         <st Contlex="PRON_TUBĀ-PL">amā</st>
@@ -15,7 +15,7 @@
       <stress>amād</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -23,18 +23,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">kõik</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">visi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">ätsmingi</l>
+      <l pos="Pron">ätsmingi</l>
 
       <stg>
         <st Contlex="PRON_TŪĻI">äts#mingi</st>
@@ -43,7 +51,7 @@
       <stress>äts|mingi 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -51,18 +59,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">keegi, mingi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kāds</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">eņtš 1</l>
+      <l pos="Pron">eņtš 1</l>
 
       <stg>
         <st Contlex="PRON_">eņtš</st>
@@ -71,7 +87,7 @@
       <stress>eņtš 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -79,18 +95,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">oma</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">savs, paša</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">īʼdt|aʼmmõ</l>
+      <l pos="Pron">īʼdt|aʼmmõ</l>
 
       <stg>
         <st Contlex="PRON_TUBĀ">īʼdt|aʼmmõ</st>
@@ -99,7 +123,7 @@
       <stress>īʼdt|aʼmmõ</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -107,18 +131,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">seda kõike</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">to visu</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">īʼd|tuoiz</l>
+      <l pos="Pron">īʼd|tuoiz</l>
 
       <stg>
         <st Contlex="PRON_NAI">īʼd|tuoiz</st>
@@ -127,7 +159,7 @@
       <stress>īʼd|tuoiz</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -135,18 +167,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">üksteise, teineteise</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">viens otru</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">ikš 2</l>
+      <l pos="Pron">ikš 2</l>
 
       <stg>
         <st Contlex="PRON_ĪKŠ">ikš</st>
@@ -155,7 +195,7 @@
       <stress>ikš 2</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -163,18 +203,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">üks, ükssama, sama</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">viens, vienots</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">īʼž 1</l>
+      <l pos="Pron">īʼž 1</l>
 
       <stg>
         <st Contlex="PRON_ĪʼŽ">īʼž</st>
@@ -183,7 +231,7 @@
       <stress>īʼž 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -191,18 +239,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">ise</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">pats</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">īʼžki</l>
+      <l pos="Pron">īʼžki</l>
 
       <stg>
         <st Contlex="PRON_SĒMI">īʼžki</st>
@@ -211,7 +267,7 @@
       <stress>īʼžki</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -219,18 +275,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">eri, eraldi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">atsevišķs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">jegā</l>
+      <l pos="Pron">jegā</l>
 
       <stg>
         <st Contlex="PRON_JEGĀ">jegā</st>
@@ -239,7 +303,7 @@
       <stress>jegā</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -247,32 +311,48 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">every</t>
+        <t pos="Pron">every</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">iga</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">joka</t>
+        <t pos="Pron">joka</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">katrs</t>
       </tg>
     </mg>
-    
+
     <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">everybody</t>
+        <t pos="Pron">everybody</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">iga</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">jokainen</t>
+        <t pos="Pron">jokainen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">katrs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">jegā|ikš</l>
+      <l pos="Pron">jegā|ikš</l>
 
       <stg>
         <st Contlex="PRON_ĪKŠ">jegā|ikš</st>
@@ -281,7 +361,7 @@
       <stress>jegā|ikš</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -289,18 +369,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">igaüks, iga</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">ikviens, katrs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">kis</l>
+      <l pos="Pron">kis</l>
 
       <stg>
         <st Contlex="PRON_KIS">kī</st>
@@ -309,7 +397,7 @@
       <stress>kis</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -317,32 +405,40 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">who</t>
+        <t pos="Pron">who</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">kes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">kuka</t>
+        <t pos="Pron">kuka</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kas, kurš</t>
       </tg>
     </mg>
-    
-     <mg>
+
+    <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">who</t>
+        <t pos="Pron">who</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">joka</t>
+        <t pos="Pron">joka</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">kummi</l>
+      <l pos="Pron">kummi</l>
 
       <stg>
         <st Contlex="PRON_TŪĻI">kummi</st>
@@ -351,26 +447,36 @@
       <stress>kummi</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= kummit</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">kumbki</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">katrs (no abiem)</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">kummit</l>
+      <l pos="Pron">kummit</l>
 
       <stg>
         <st Contlex="PRON_ĀIGAST">kummit</st>
@@ -379,26 +485,36 @@
       <stress>kummit</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= kummi</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">kumbki</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">katrs (no abiem), abi divi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">ma</l>
+      <l pos="Pron">ma</l>
 
       <stg>
         <st Contlex="PRON_MINĀ">ma</st>
@@ -407,7 +523,7 @@
       <stress>ma</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -415,18 +531,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">ma</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">es</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mēg</l>
+      <l pos="Pron">mēg</l>
 
       <stg>
         <st Contlex="PRON_MĒG">m</st>
@@ -435,7 +559,7 @@
       <stress>mēg</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -443,18 +567,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">we</t>
+        <t pos="Pron">we</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">meie</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">me</t>
+        <t pos="Pron">me</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">mēs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">midāgõd</l>
+      <l pos="Pron">midāgõd</l>
 
       <stg>
         <st Contlex="PRON_MIDĀGÕD">midāg</st>
@@ -463,26 +595,36 @@
       <stress>midāgõd</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>≈ midēgõd</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">miski</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kaut kas</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">midēd</l>
+      <l pos="Pron">midēd</l>
 
       <stg>
         <st Contlex="PRON_">midēd</st>
@@ -491,7 +633,7 @@
       <stress>midēd</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -501,14 +643,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">midagi</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kaut kas</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">midēgõd</l>
+      <l pos="Pron">midēgõd</l>
 
       <stg>
         <st Contlex="PRON_MIDĀGÕD">midēgõd</st>
@@ -517,26 +671,36 @@
       <stress>midēgõd</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>≈ midāgõd</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">miski</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kaut kas</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">minā</l>
+      <l pos="Pron">minā</l>
 
       <stg>
         <st Contlex="PRON_MINĀ">minā</st>
@@ -545,26 +709,36 @@
       <stress>minā</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= ma</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mina</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">es</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mingi</l>
+      <l pos="Pron">mingi</l>
 
       <stg>
         <st Contlex="PRON_TŪĻI">mingi</st>
@@ -573,7 +747,7 @@
       <stress>mingi 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -581,18 +755,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">keegi, mingi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kāds</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mingi</l>
+      <l pos="Pron">mingi</l>
 
       <stg>
         <st Contlex="PRON_TŪĻI">mingi</st>
@@ -601,7 +783,7 @@
       <stress>mingi 2</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -609,18 +791,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mõni</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">dažs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mingi</l>
+      <l pos="Pron">mingi</l>
 
       <stg>
         <st Contlex="PRON_TŪĻI">mingi</st>
@@ -629,7 +819,7 @@
       <stress>mingi 3</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -637,18 +827,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mis</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kas, kurš</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mis</l>
+      <l pos="Pron">mis</l>
 
       <stg>
         <st Contlex="PRON_MIS">mi</st>
@@ -657,7 +855,7 @@
       <stress>mis</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -665,60 +863,78 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">what</t>
+        <t pos="Pron">what</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mis</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">mikä</t>
+        <t pos="Pron">mikä</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kas, kurš (par nedzīvām būtnēm)</t>
       </tg>
     </mg>
-    
+
     <mg>
       <m>
         <head/>
+
+        <semRel>&gt; kis</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">which</t>
+        <t pos="Pron">which</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">kes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">joka</t>
+        <t pos="Pron">joka</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kas, kurš (par dzīvām būtnēm)</t>
       </tg>
     </mg>
-    
+
     <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">who</t>
+        <t pos="Pron">who</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">kuka</t>
+        <t pos="Pron">kuka</t>
       </tg>
     </mg>
-    
+
     <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">who</t>
+        <t pos="Pron">who</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">joka</t>
+        <t pos="Pron">joka</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mitikš</l>
+      <l pos="Pron">mitikš</l>
 
       <stg>
         <st Contlex="PRON_ĪKŠ">mit#ikš</st>
@@ -727,7 +943,7 @@
       <stress>mit|ikš</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -735,18 +951,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">ei keegi, mitte keegi, mitte ükski</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">neviens</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="PRON">mitmõd</l>
+      <l pos="Pron">mitmõd</l>
 
       <stg>
         <st Contlex="PRON_MITS-PL">mitmõd</st>
@@ -755,7 +979,7 @@
       <stress>mitmõd</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -763,18 +987,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mitmed</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">vairāki</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mits</l>
+      <l pos="Pron">mits</l>
 
       <stg>
         <st Contlex="PRON_MITS">mits</st>
@@ -783,7 +1015,7 @@
       <stress>mits 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -791,18 +1023,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mitu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">cik</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mitsmõz</l>
+      <l pos="Pron">mitsmõz</l>
 
       <stg>
         <st Contlex="PRON_VĪDÕZ">mitsmõz</st>
@@ -811,7 +1051,7 @@
       <stress>mitsmõz</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -819,18 +1059,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mitmes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kurš</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mitsõks</l>
+      <l pos="Pron">mitsõks</l>
 
       <stg>
         <st Contlex="PRON_MITS">mitsõks</st>
@@ -839,7 +1087,7 @@
       <stress>mitsõks</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -847,18 +1095,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">millal, mis kella ajal</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">uz cikiem, cikos</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mȯʼlmõd</l>
+      <l pos="Pron">mȯʼlmõd</l>
 
       <stg>
         <st Contlex="PRON_AZŪM-PL">mȯʼlmõd</st>
@@ -867,7 +1123,7 @@
       <stress>mȯʼlmõd</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -875,18 +1131,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mõlemad</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">abi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mū</l>
+      <l pos="Pron">mū</l>
 
       <stg>
         <st Contlex="PRON_MŪ">mū</st>
@@ -895,7 +1159,7 @@
       <stress>mū 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -903,32 +1167,40 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">other</t>
+        <t pos="Pron">other</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">muu, teine</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">muu</t>
+        <t pos="Pron">muu</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">cits</t>
       </tg>
     </mg>
-    
+
     <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">other</t>
+        <t pos="Pron">other</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">toinen</t>
+        <t pos="Pron">toinen</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mūnda</l>
+      <l pos="Pron">mūnda</l>
 
       <stg>
         <st Contlex="PRON_ĀITA">mūnda</st>
@@ -937,7 +1209,7 @@
       <stress>mūnda 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -945,18 +1217,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mõni, üks või teine</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">dažs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">mūnda</l>
+      <l pos="Pron">mūnda</l>
 
       <stg>
         <st Contlex="PRON_ĀITA">mūnda</st>
@@ -965,7 +1245,7 @@
       <stress>mūnda 2</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -973,18 +1253,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">keegi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">kāds</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="PRON">munt</l>
+      <l pos="Pron">munt</l>
 
       <stg>
         <st Contlex="PRON_">munt</st>
@@ -993,7 +1281,7 @@
       <stress>munt</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1001,18 +1289,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">muud, teised</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">citi</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="PRON">nämād</l>
+      <l pos="Pron">nämād</l>
 
       <stg>
         <st Contlex="PRON_NÄMĀD">nä</st>
@@ -1021,26 +1317,36 @@
       <stress>nämād</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= ne</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">they</t>
+        <t pos="Pron">they</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">nemad</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">he</t>
+        <t pos="Pron">he</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">viņi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">ne</l>
+      <l pos="Pron">ne</l>
 
       <stg>
         <st Contlex="PRON_NE">n</st>
@@ -1049,7 +1355,7 @@
       <stress>ne 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1057,32 +1363,48 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">they</t>
+        <t pos="Pron">they</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">nemad</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">he</t>
+        <t pos="Pron">he</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">viņi</t>
       </tg>
     </mg>
-    
+
     <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">these</t>
+        <t pos="Pron">these</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">need</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">nämä</t>
+        <t pos="Pron">nämä</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">tie, šie</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">sa</l>
+      <l pos="Pron">sa</l>
 
       <stg>
         <st Contlex="PRON_SINĀ">sa</st>
@@ -1091,26 +1413,36 @@
       <stress>sa</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= sinā</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">you</t>
+        <t pos="Pron">you</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">sa, sina</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">sinä</t>
+        <t pos="Pron">sinä</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">tu</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">se</l>
+      <l pos="Pron">se</l>
 
       <stg>
         <st Contlex="PRON_SE">se</st>
@@ -1119,7 +1451,7 @@
       <stress>se</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1127,18 +1459,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">see</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">šis, tas</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="PRON">seīʼž</l>
+      <l pos="Pron">seīʼž</l>
 
       <stg>
         <st Contlex="PRON_ĪʼŽ">se#īʼž</st>
@@ -1147,7 +1487,7 @@
       <stress>se$$īʼž</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1155,18 +1495,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">seesama</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">tas pats</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">seļļi</l>
+      <l pos="Pron">seļļi</l>
 
       <stg>
         <st Contlex="PRON_TŪĻI">seļļi</st>
@@ -1175,7 +1523,7 @@
       <stress>seļļi</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1183,18 +1531,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">niisugune, selline, säherdune, säärane</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">šāds, tāds</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="PRON">seļļiīʼž</l>
+      <l pos="Pron">seļļiīʼž</l>
 
       <stg>
         <st Contlex="PRON_TŪĻI">seļļi#īʼž</st>
@@ -1203,7 +1559,7 @@
       <stress>seļļi||īʼž</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1211,18 +1567,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">samasugune</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">tāds pats</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">seļļi-tūoļi</l>
+      <l pos="Pron">seļļi-tūoļi</l>
 
       <stg>
         <st Contlex="PRON_TŪĻI">seļļi-tūoļi</st>
@@ -1231,7 +1595,7 @@
       <stress>seļļi-tūoļi</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1239,18 +1603,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">niisugune-naasugune; mitmesugune</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">šāds tāds</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">set</l>
+      <l pos="Pron">set</l>
 
       <stg>
         <st Contlex="PRON_MITS">set</st>
@@ -1259,7 +1631,7 @@
       <stress>set 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1267,18 +1639,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">many</t>
+        <t pos="Pron">many</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mitu, palju</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">moni</t>
+        <t pos="Pron">moni</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">vairāki, daudz</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">setmiņ</l>
+      <l pos="Pron">setmiņ</l>
 
       <stg>
         <st Contlex="PRON_">setmiņ</st>
@@ -1287,7 +1667,7 @@
       <stress>setmiņ 1</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1295,18 +1675,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">YY</t>
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">mitu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">XX</t>
+        <t pos="Pron">XX</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">vairāki</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">sinā</l>
+      <l pos="Pron">sinā</l>
 
       <stg>
         <st Contlex="PRON_SINĀ">sinā</st>
@@ -1315,7 +1703,7 @@
       <stress>sinā</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1323,18 +1711,26 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">you</t>
+        <t pos="Pron">you</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">sina, sa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">sinä</t>
+        <t pos="Pron">sinä</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">tu</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">ta</l>
+      <l pos="Pron">ta</l>
 
       <stg>
         <st Contlex="PRON_TÄMĀ">ta</st>
@@ -1343,54 +1739,52 @@
       <stress>ta</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= tämā</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">he</t>
+        <t gen="m" pos="Pron">he</t>
+
+        <t gen="f" pos="Pron">she</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">ta, see</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">hän</t>
+        <t pos="Pron">hän</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">viņš, tas</t>
       </tg>
     </mg>
-    
+
     <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">she</t>
+        <t pos="Pron">it</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">hän</t>
-      </tg>
-    </mg>
-    
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PRON">it</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PRON">se</t>
+        <t pos="Pron">se</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">tämā</l>
+      <l pos="Pron">tämā</l>
 
       <stg>
         <st Contlex="PRON_TÄMĀ">tämā</st>
@@ -1399,54 +1793,52 @@
       <stress>tämā</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
         <head/>
+
+        <semRel>= ta</semRel>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">he</t>
+        <t gen="m" pos="Pron">he</t>
+
+        <t gen="f" pos="Pron">she</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">tema, see</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">hän</t>
+        <t pos="Pron">hän</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">viņš, tas</t>
       </tg>
     </mg>
-    
+
     <mg>
       <m>
         <head/>
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">she</t>
+        <t pos="Pron">it</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">hän</t>
-      </tg>
-    </mg>
-    
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PRON">it</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PRON">se</t>
+        <t pos="Pron">se</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="PRON">tēg</l>
+      <l pos="Pron">tēg</l>
 
       <stg>
         <st Contlex="PRON_TĒG">t</st>
@@ -1455,7 +1847,7 @@
       <stress>tēg</stress>
     </lg>
 
-    <pos>PRON</pos>
+    <pos>Pron</pos>
 
     <mg>
       <m>
@@ -1463,11 +1855,19 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="PRON">you</t>
+        <t pos="Pron">you</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">teie</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PRON">te</t>
+        <t pos="Pron">te</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">jūs</t>
       </tg>
     </mg>
   </e>
