@@ -118,7 +118,7 @@ Other verb forms are
 
  *  +TV  = Transitive verb
  *  +IV  = Intransitive verb
- *  +VAUX  = Auxilliary verb
+ *  +Aux  = Auxiliary verb
 
 !!Usage extents are marked using following tags:
 
@@ -164,7 +164,8 @@ source and target part-of-speech.
 
  *  +V→N +V→V +V→A   
  *  +Der/xxx	      
-
+ *  +Der/A	       for example present participle to adjective
+ *  +Der/VN       
 
 !!!Morphophonology
 
@@ -174,13 +175,22 @@ symbols in the lexicon files:
   {aä} {oö} {uü} 
 
 And following triggers to control variation
+ *  {front} {back} 
+ *  %^ConsL  = Consonant lengthening
+ *  %^1Sh2L  =
+2013-02-01 
+ *  %^Stress1to2   =
+ *  %^Stress2to1   =
+ *  %^VowsSh1      = vowel shortening in first syllable
+ *  %^VowsShU1     =
+ *  %^VowsShI1     =
+ *  %^DiphthSh1    =
+ *  %^VowsLI1      = Vowel lengthening
+ *  %^VowsLU1      = 
+ *  %^VowsL1      =
+ *  %^DiphthL1    =
 
- *  {front} {back}  
- *  %^ConsL           = Consonant lengthening
- *  %^1Sh2L		   = 
- *  %^Stress1to2	   = 
- *  %^Stress2to1	   = 
- *  %^VowsSh1         = vowel shortening in first syllable
+ *  %^RVows    = Vowel raising
  *  %^VowsMetath      = vowel metathesis in verbs
  *  %^VowsRM		   = 
  *  %^ConsRM		   = 
@@ -224,6 +234,8 @@ Words that are not inflected
  * LEXICON INTERJ_   
 
  * LEXICON PCLE-MOD_   
+
+ * LEXICON PCLE_  
 
 
  * LEXICON K   is the clitic lexicon, but no clitica here, only #.

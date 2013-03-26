@@ -20,15 +20,15 @@ Stem lexica
 
  LEXICON N_TEI  contains tei:tei 17
 
- LEXICON N_KALĀ   contains  kalā:kalā 18
+ LEXICON N_KALĀ   contains  kalā:kaʼlā 18
 
- LEXICON N_KALĀ-SG   contains  kalā:kalā 18
+ LEXICON N_KALĀ-SG   contains  kalā:kaʼlā 18
 
- LEXICON N_KALĀ-PL   contains  kalā:kalā 18
+ LEXICON N_KALĀ-PL   contains  kalā:kaʼlā 18
 
- LEXICON N_TUBĀ  tubā:tubā 19
+ LEXICON N_TUBĀ  tubā:tuʼbā 19
 
- LEXICON N_TUBĀ-PL  tubā:tubā 19
+ LEXICON N_TUBĀ-PL  tubā:tuʼbā 19
 
  LEXICON N_AIGĀ  aigā:aigā 20
 
@@ -193,49 +193,83 @@ Stem lexica
 
  LEXICON N_MAKS-PL  : 80
 
-  luʼm:lum 81
-  mieʼr:mier 82
-  meʼr:mer 83
-  muʼr:mur 84
-  kuoʼd:kuod aig 85
-  suʼž:suž 86
-  keʼž:kež aim 87
-  veʼž:vež 88
-  kuʼž:kuž 89
-  : 90
-  : 91
-  : 92
-  : 93
+
+ LEXICON N_LUʼM  luʼm:lum 81
+
+ LEXICON N_MIEʼR  mieʼr:mier 82
+
+ LEXICON N_MEʼR  meʼr:mer 83
+
+ LEXICON N_MUʼR  muʼr:mur 84
+
+ LEXICON N_KUOʼD  kuoʼd:kuod aig 85
+
+ LEXICON N_SUʼŽ  suʼž:suž 86
+
+ LEXICON N_KEʼŽ  keʼž:kež aim 87
+
+ LEXICON N_VEʼŽ  veʼž:vež 88
+
+ LEXICON N_KUʼŽ  kuʼž:kuž 89
+
+ LEXICON N_RUZŪ  : 90
+
+ LEXICON N_RADIO  : 91
+
+ LEXICON N_ANG  : 92
+
+ LEXICON N_KOUV  : 93
 
  LEXICON N_KAND-PL  : 94
 
  LEXICON N_KAND  : 94
 
  LEXICON N_PȮRT  : 95
-  : 96
-  : 97
-  : 98
-  : 99
-  : 100
+
+ LEXICON N_NUŖM  : 96
+
+ LEXICON N_LAINT  : 97
+
+ LEXICON N_LOUL  : 98
+
+ LEXICON N_UL  : 99
+
+ LEXICON N_PAN  : 100
 
  LEXICON N_TÄM  täm:tam 101 
 
-  : 102
-  : 103
-  : 104
-  : 105
-  : 106
-  : 107
-  : 108
-  : 109
-  : 110
-  : 111
-  täuž: adres 112
-  : 113
-  : 114
-  : 115
-  : 116
-  : 117
+
+ LEXICON N_NIŖȚ  : 102
+
+ LEXICON N_KUĻ  : 103
+
+ LEXICON N_PAŅ  : 104
+
+ LEXICON N_DAŅTŠ  : 105
+
+ LEXICON N_KOUŠ  : 106
+
+ LEXICON N_SPLEIŠ  : 107
+
+ LEXICON N_VEIS  : 108
+
+ LEXICON N_PȮIS  : 109
+
+ LEXICON N_KIĻG  : 110
+
+ LEXICON N_VȮĻG  : 111
+
+ LEXICON N_TÄUŽ  täuž: adres 112
+
+ LEXICON N_VAŖŽ  : 113
+
+ LEXICON N_PIERZ  : 114
+
+ LEXICON N_VÕRGÕ  : 115
+
+ LEXICON N_JÕUGÕ  : 116
+
+ LEXICON N_VȬIDAG  : 117
 
  LEXICON N_SIELDÕ  : 118
 
@@ -271,7 +305,8 @@ Stem lexica
 
  LEXICON N_KIM-PL  : 126
 
-  : 127
+
+ LEXICON N_VȮŅ  : 127
 
  LEXICON N_VAʼIT  vaʼit:vait 128
 
@@ -289,8 +324,10 @@ Stem lexica
 
  LEXICON N_VIĻȚ-PL  : 132
 
-  : 133
-  blēʼḑ:blēḑ 134
+
+ LEXICON N_EĻ  : 133
+
+ LEXICON N_BLĒʼḐ  blēʼḑ:blēḑ 134
 
  LEXICON N_FAKT  : 135
 
@@ -301,7 +338,8 @@ Stem lexica
  LEXICON N_NEITST  neitst:neits 137
 
  LEXICON N_SĪEND  : 138
-  lǟʼnd:lǟnd 139
+
+ LEXICON N_LǞʼND  lǟʼnd:lǟnd 139
 
  LEXICON N_ĀIGAST  : 140
 
@@ -310,7 +348,6 @@ Stem lexica
  LEXICON N_ANALĪZ  : 141
 
  LEXICON N_NĪʼEM  nīʼem:nīem 142
-
 
  LEXICON N_JAĻKŠ  : 143
 
@@ -401,7 +438,8 @@ Stem lexica
  LEXICON N_ĀMBAZ-PL  : 173
 
  LEXICON N_PŪŖAZ  : 174
-  : 175
+
+ LEXICON N_PǬĻAZ  : 175
 
  LEXICON N_RĒNAZ  : 176
 
@@ -484,9 +522,9 @@ Stem lexica
 
  LEXICON N_SĒMI-PL  : 201
 
- LEXICON N_LĒʼMI  lēʼmi:lēmi 202
+ LEXICON N_LĒʼMI  lēʼmi:lēʼmi 202
 
- LEXICON N_LĒʼMI-PL	 lēʼmi:lēmi 202
+ LEXICON N_LĒʼMI-PL	 lēʼmi:lēʼmi 202
 
  LEXICON N_ALĪZ  : 203
 
@@ -502,7 +540,7 @@ Stem lexica
 
  LEXICON N_ĀNDÕKS-PL  āndõks: 206
 
- LEXICON N_KĒRATÕKS  : 207
+ LEXICON N_KĒRATÕKS  kēratõks:kēratõks 207
 
  LEXICON N_ÄʼBȚÕKS  äʼbțõks:äbțõks 208
 
@@ -513,8 +551,6 @@ Stem lexica
  LEXICON N_UKŠ  : 210
 
  LEXICON N_LÄPŠ  läpš:laps 211
-
-
  LEXICON N_LÄPŠ-PL  läpš:laps 211
 
  LEXICON N_RIŠTĪNG-SG  : 212
@@ -525,7 +561,7 @@ Stem lexica
 
  LEXICON N_TŪĻ  : 214
 
- LEXICON N_KĒĻ  : 215
+ LEXICON N_KĒĻ  kēļ:kēl 215
 
  LEXICON N_PŪOL  : 216
 
@@ -537,9 +573,9 @@ Stem lexica
 
  LEXICON N_ŪŽ  : 219
 
- LEXICON N_SĒŅ  : 220
+ LEXICON N_SĒŅ  sēņ:sēn 220
 
- LEXICON N_JŪŖ  : 221
+ LEXICON N_JŪŖ  jūŗ:jūr 221
 
  LEXICON N_JŪŖ-PL  : 221
 
@@ -577,6 +613,8 @@ Stem lexica
  LEXICON N_PǞGIŅŽ-PL  pǟgiņž:pǟgiņ 231
 
  LEXICON N_VAGĀŖ  vagāŗ:vagār 232
+
+ LEXICON N_VAGĀŖ-SG  vagāŗ:vagār 232
 
  LEXICON N_VAGĀŖ-PL  vagāŗ:vagār 232
 
@@ -632,6 +670,46 @@ Inflection lexica
 
 
 
+14
+
+
+Work to be done 2013-03-04
+15
+
+tēšti
+
+16
+
+
+17
+
+
+
+
+18,19
+
+
+
+19
+20
+
+21
+
+
+
+22
+
+
+
+23
+
+
+
+24
+
+
+
+25
 
 
 
@@ -639,7 +717,12 @@ Inflection lexica
 
 
 
-
+ LEXICON NMN_ĀĻDŽA  āļdža:āļdža 27
+ LEXICON NMN_SUKĀ  sukā:sukā 28
+ LEXICON NMN_LIEPĀ  liepā:liepā 29
+ LEXICON NMN_OKSĀ  oksā:oksā 30
+ LEXICON NMN_VȰNTSA  vȱntsa:vȱntsa 31
+ LEXICON NMN_LIESTĀ  liestā:liestā 32
 
 33
 
@@ -648,16 +731,26 @@ Inflection lexica
 
 
 35
+ LEXICON NMN_KǞNGA  kǟnga:kǟnga 35
+ LEXICON NMN_ĀINA  āina:āina 36
+ LEXICON NMN_ĀINA-PL  āina:āina 36
+
 37
-
-
 
 
 38
 
+
+
 39, 40, 41, 42
 
 
+
+40
+
+41
+
+42
 
 43
 
@@ -665,33 +758,139 @@ Inflection lexica
 
 
 45
+ LEXICON NMN_PŪOLA  pūola:pūola 45
+
 46
 
+
+ LEXICON NMN_ŪŠKA  ūška:ūška 47
+ LEXICON NMN_MȬKA  mȭka:mȭka 48
+ LEXICON NMN_DADŽĀ  dadžā:dadžā 49
+ LEXICON NMN_SUŠĀ  sušā:sušā 50
+ LEXICON NMN_KUPŠĀ  kupšā:kupšā 51
+ LEXICON NMN_TŠŪRTŠA  tšūrtša:tšūrtša 52
+ LEXICON NMN_SĒMḐA  sēmḑa:sēmḑa 53
+ LEXICON NMN_TĪERA  tīera:tīera 54
+ LEXICON NMN_KRǬIPA  krǭipa:krǭipa 55
+ LEXICON NMN_LILLA  kuțā:kuțā 57
+ LEXICON NMN_NĒTŠA  nētša:nētša 58
 
 59
 60
 
 
 
+ LEXICON NMN_KEP  kep:kep aʼb 61
+ LEXICON NMN_KEP-PL  kep:kep aʼb 61
+ LEXICON NMN_KRUȚK  : 62
+ LEXICON NMN_KRÄMP  : 63
+ LEXICON NMN_PIʼŅ  piʼņ:piņ 64
+ LEXICON NMN_PIʼŅ-PL  piʼņ:piņ 64
+ LEXICON NMN_KUOȚ  : 65
+ LEXICON NMN_KUOȚ-PL  : 65
+ LEXICON NMN_VAKȚ  : 66
+ LEXICON NMN_REŅ  : 67
+ LEXICON NMN_OKŠ  : 68
+ LEXICON NMN_KAŠ  : 69
+ LEXICON NMN_DUŅTŠ  : 70
+ LEXICON NMN_TORĪ  : 71
+ LEXICON NMN_VAʼG  vaʼg:vag 72
+ LEXICON NMN_VAʼG-PL  vaʼg:vag 72
+ LEXICON NMN_KÕʼL  kõʼl:kõl 73
+ LEXICON NMN_SUʼG  suʼg:sug 74
+ LEXICON NMN_JOʼUG  joʼug:joug 75
+
 76
 
 
 
+ LEXICON NMN_USK  usk: 77
+ LEXICON NMN_VAŠK  : 78
+ LEXICON NMN_TUP  tup:tup 79
+ LEXICON NMN_TUP-PL  tup:tup 79
+ LEXICON NMN_MAKS  : 80
+ LEXICON NMN_MAKS-PL  : 80
+ LEXICON NMN_LUʼM  luʼm:lum 81
+ LEXICON NMN_MIEʼR  mieʼr:mier 82
+ LEXICON NMN_MEʼR  meʼr:mer 83
+ LEXICON NMN_MUʼR  muʼr:mur 84
+ LEXICON NMN_KUOʼD  kuoʼd:kuod aig 85
+ LEXICON NMN_SUʼŽ  suʼž:suž 86
+ LEXICON NMN_KEʼŽ  keʼž:kež aim 87
+ LEXICON NMN_VEʼŽ  veʼž:vež 88
+ LEXICON NMN_KUʼŽ  kuʼž:kuž 89
+ LEXICON NMN_RUZŪ  : 90
+ LEXICON NMN_RADIO  : 91
+ LEXICON NMN_ANG  : 92
+ LEXICON NMN_KOUV  : 93
+ LEXICON NMN_KAND-PL  : 94
+ LEXICON NMN_KAND  : 94
+ LEXICON NMN_PȮRT  : 95
+ LEXICON NMN_NUŖM  : 96
+ LEXICON NMN_LAINT  : 97
+ LEXICON NMN_LOUL  : 98
+ LEXICON NMN_UL  : 99
+ LEXICON NMN_PAN  : 100
+ LEXICON NMN_TÄM  täm:tam 101 
+
+
+102
+ LEXICON NMN_NIŖȚ  : 102
+ LEXICON NMN_KUĻ  : 103
+ LEXICON NMN_PAŅ  : 104
+ LEXICON NMN_DAŅTŠ  : 105
+ LEXICON NMN_KOUŠ  : 106
+ LEXICON NMN_SPLEIŠ  : 107
+ LEXICON NMN_VEIS  : 108
+ LEXICON NMN_PȮIS  : 109
+ LEXICON NMN_KIĻG  : 110
+ LEXICON NMN_VȮĻG  : 111
+ LEXICON NMN_TÄUŽ  täuž: adres 112
+ LEXICON NMN_VAŖŽ  : 113
+ LEXICON NMN_PIERZ  : 114
+ LEXICON NMN_VÕRGÕ  : 115
+ LEXICON NMN_JÕUGÕ  : 116
+ LEXICON NMN_VȬIDAG  : 117
+ LEXICON NMN_SIELDÕ  : 118
+ LEXICON NMN_SIELDÕ-PL  : 118
+ LEXICON NMN_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+ LEXICON NMN_NǬʼGÕ-PL       nǭʼgõ:nǭgõ 119
+ LEXICON NMN_AŠŠÕ  : 120
+ LEXICON NMN_AŠŠÕ-PL  : 120
+ LEXICON NMN_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
+ LEXICON NMN_SOʼV  : 122
+ LEXICON NMN_SOʼV-PL  : 122
+ LEXICON NMN_KǬJ  : 123
+ LEXICON NMN_KǬJ-PL  : 123
+ LEXICON NMN_ǬʼJ  ǭʼj:ǭj 124
 
 125, 126, 128
 
 
 
 126
+ LEXICON NMN_VȮŅ  : 127
+ LEXICON NMN_VAʼIT  vaʼit:vait 128
+ LEXICON NMN_VAʼIT-PL       vaʼit:vait 128
 
 129, 130, 131
 
 
+ LEXICON NMN_KULTŪR  : 130
+ LEXICON NMN_SAʼGDIT  saʼgdit:sagdit 131
 132
+ LEXICON NMN_VIĻȚ  : 132
+ LEXICON NMN_VIĻȚ-PL  : 132
+ LEXICON NMN_EĻ  : 133
+ LEXICON NMN_BLĒʼḐ  blēʼḑ:blēḑ 134
 
 135
 
 
+ LEXICON NMN_TAS  : 136
+ LEXICON NMN_NEITST  neitst:neits 137
+ LEXICON NMN_SĪEND  : 138
+ LEXICON NMN_LǞʼND  lǟʼnd:lǟnd 139
 
 140, 141, 142
 
@@ -703,7 +902,30 @@ Inflection lexica
 143, 144, 145
 
 
+ LEXICON NMN_VIŠ  : 144
+
 145
+ LEXICON NMN_TĒʼḐ  tēʼḑ:tēḑ 146
+ LEXICON NMN_LĒʼḐ  lēʼḑ:lēḑ 147
+ LEXICON NMN_LĒʼḐ-PL  lēʼḑ:lēḑ 147
+ LEXICON NMN_KĪNTŠ  : 148
+ LEXICON NMN_KǬŅTŠ  : 149
+ LEXICON NMN_LĒŅTŠ  : 150
+ LEXICON NMN_LĪEM  : 151
+ LEXICON NMN_AʼM  aʼm:am 152
+ LEXICON NMN_AZŪM  : 153
+ LEXICON NMN_AZŪM-PL  : 153
+ LEXICON NMN_VÕȚĪM  : 154
+ LEXICON NMN_VÕȚĪM-PL  : 154
+ LEXICON NMN_KǬŅIM  : 155
+ LEXICON NMN_ĒTAM  : 156
+ LEXICON NMN_ĒTAM-PL  : 156
+ LEXICON NMN_SIDĀM  : 157
+
+
+ LEXICON NMN_SIDĀM-PL       : 157
+
+
 158
 
 
@@ -713,6 +935,34 @@ Inflection lexica
 
 160
 
+
+ LEXICON NMN_TAPTÕD  : 161
+ LEXICON NMN_TĪʼEDÕD  tīʼedõd:tīedõd 162
+ LEXICON NMN-VĪDÕZ  : 163
+ LEXICON NMN_TUOISTÕNZ  : 164
+ LEXICON NMN_ĪʼDÕKSMÕZ  īʼdõksmõz:īdõksmõz 165
+ LEXICON NMN_MĪEZ  : 166
+ LEXICON NMN_ROʼVZ  : 167
+ LEXICON NMN_KÄBRĀZ  : 168
+ LEXICON NMN_MAIGĀZ  : 169
+ LEXICON NMN_NÕTKĀZ  : 170
+ LEXICON NMN_RIKĀZ  rikāz: 171
+ LEXICON NMN_RIKĀZ-PL  rikāz: 171
+ LEXICON NMN_BIKŠĀZ  : 172
+ LEXICON NMN_BIKŠĀZ-SG  : 172
+ LEXICON NMN_BIKŠĀZ-PL  : 172
+ LEXICON NMN_ĀMBAZ  : 173
+
+
+ LEXICON NMN_ĀMBAZ-PL  : 173
+
+
+ LEXICON NMN_PŪŖAZ  : 174
+ LEXICON NMN_PǬĻAZ  : 175
+ LEXICON NMN_RĒNAZ  : 176
+ LEXICON NMN_RĒNAZ-PL       : 176
+ LEXICON NMN_TŌVAZ  : 177
+ LEXICON NMN_PŪORAZ  pūoraz: 178
 
 179
 
@@ -726,13 +976,90 @@ Inflection lexica
 
 183
 184
+ LEXICON NMN_VĪETŠÕZ  : 184
+ LEXICON NMN_VĪETŠÕZ-PL  : 184
+ LEXICON NMN_LǬʼTŠÕZ  lǭʼtšõz:lǭtšõz 185
+ LEXICON NMN_SĒJI  : 186
+ LEXICON NMN_AKKIJI  : 187
+ LEXICON NMN_AKKIJI-PL  : 187
+ LEXICON NMN_LĒʼJI  lēʼji:lēji 188
+ LEXICON NMN_TUĻĻI  : 189
+ LEXICON NMN_LÄʼBḐI  läʼbḑi:läbḑi 190
+ LEXICON NMN_NAI  : 191
 
 192
 
 
+ LEXICON NMN_PUʼNNI  puʼnni:punni 193
+ LEXICON NMN_PUʼNNI-PL  puʼnni:punni 193
+ LEXICON NMN_KAȚKI  kațki: 194
+ LEXICON NMN_KUKKI  kukki: 195
+ LEXICON NMN_AIGI  aigi:aigi 196
+ LEXICON NMN_OUKI  : 197
+ LEXICON NMN_PAŖĪ  : 198
 
 199
 
+
+ LEXICON NMN_AʼBLI  aʼbli:abli 200
+
+ LEXICON NMN_AʼBLI-PL  aʼbli:abli 200
+
+ LEXICON NMN_SĒMI  : 201
+ LEXICON NMN_SĒMI-PL  : 201
+
+ LEXICON NMN_LĒʼMI  lēʼmi:lēmi 202
+
+ LEXICON NMN_LĒʼMI-PL       lēʼmi:lēmi 202
+
+ LEXICON NMN_ALĪZ  : 203
+ LEXICON NMN_ALĪZ-PL  : 203
+ LEXICON NMN_NȬŖKÕZ  : 204
+ LEXICON NMN_KATŪKS  : 205
+ LEXICON NMN_KATŪKS-PL  : 205
+ LEXICON NMN_ĀNDÕKS  āndõks: 206
+ LEXICON NMN_ĀNDÕKS-PL  āndõks: 206
+ LEXICON NMN_KĒRATÕKS  kēratõks:kēratõks 207
+
+ LEXICON NMN_KĒRATÕKS-PL  kēratõks:kēratõks 207
+
+ LEXICON NMN_ÄʼBȚÕKS  äʼbțõks:äbțõks 208
+ LEXICON NMN_ÄʼBȚÕKS-PL  äʼbțõks:äbțõks 208
+ LEXICON NMN_VARĪKŠ  : 209
+ LEXICON NMN_UKŠ  : 210
+
+211
+
+ LEXICON NMN_LÄPŠ-PL  läpš:laps 211
+
+212
+ LEXICON NMN_RIŠTĪNG-SG  : 212
+ LEXICON NMN_ROʼVZT-PL  roʼvzt:roʼvz 212
+ LEXICON NMN_TUʼĻ  : 213
+ LEXICON NMN_TŪĻ  tūļ:tūl 214
+ LEXICON NMN_KĒĻ  kēļ:kēl 215
+
+ LEXICON NMN_KĒĻ-PL  kēļ:kēl 211
+
+ LEXICON NMN_PŪOL  : 216
+ LEXICON NMN_PŪOL-PL  : 216
+ LEXICON NMN_ĪKŠ  : 217
+ LEXICON NMN_KAKŠ  : 218
+ LEXICON NMN_ŪŽ  : 219
+ LEXICON NMN_SĒŅ  sēņ:sēn 220
+
+ LEXICON NMN_SĒŅ-PL  kēļ:kēl 211
+
+
+ LEXICON NMN_JŪŖ  jūŗ:jūr 221
+ LEXICON NMN_JŪŖ-PL  : 221
+
+ LEXICON NMN_SŪR  : 222
+
+ LEXICON NMN_SŪR-PL  sūr:sūr 211
+
+ LEXICON NMN_SĒR  : 223
+ LEXICON NMN_BIRKOV  : 224
 
 225
 
@@ -741,10 +1068,68 @@ Inflection lexica
 226, 227, 228
 
 
+ LEXICON NMN_DULLÕNZ  dullõnz:dullõn 227
+ LEXICON NMN_DULLÕNZ-PL  dullõnz:dullõn 227
+
+ LEXICON NMN_AʼBBÕNZ  aʼbbõnz:aʼbbõn 228
+
+ LEXICON NMN_AʼBBÕNZ-PL  aʼbbõnz:aʼbbõn 228
+ LEXICON NMN_AŅGÕRZ  : aņgõrz:aņgõr 229
+
+ LEXICON NMN_AŅGÕRZ-PL  : aņgõrz:aņgõr 229
+
+ LEXICON NMN_KAʼGGÕRZ  kaʼggõrz:kaʼggõr 230
+
+ LEXICON NMN_KAʼGGÕRZ-PL  kaʼggõrz:kaʼggõr 230
+
+ LEXICON NMN_PǞGIŅŽ  pǟgiņž:pǟgiņ 231
+
+ LEXICON NMN_PǞGIŅŽ-PL  pǟgiņž:pǟgiņ 231
+ LEXICON NMN_VAGĀŖ  vagāŗ:vagār 232
+
+ LEXICON NMN_VAGĀŖ-PL  vagāŗ:vagār 232
 
 233
 
 
+ LEXICON NMN_PĒGAL  pēgal:pēgal 234
+
+ LEXICON NMN_PĒGAL-PL  pēgal:pēgal 234
+
+ LEXICON NMN_APPÕN  appõn:appõn 235
+
+ LEXICON NMN_APPÕN-PL  appõn:appõn 235
+
+ LEXICON NMN_ǬʼRÕN  ǭʼrõn:ǭrõn 236
+
+ LEXICON NMN_ǬʼRÕN-PL  ǭʼrõn:ǭrõn 236
+
+ LEXICON NMN_KĪNDÕR  kīndõr:kīndõr 237
+
+
+ LEXICON NMN_KĪNDÕR-PL  kīndõr:kīndõr 237
+
+ LEXICON NMN_BÄʼZMÕR  bäʼzmõr:bäzmõr 238
+
+ LEXICON NMN_BÄʼZMÕR-PL  bäʼzmõr:bäzmõr 238
+
+ LEXICON NMN_TARĪĻ  tarīļ:tarīļ 239
+
+ LEXICON NMN_TARĪĻ-PL  tarīļ:tarīļ 239
+
+ LEXICON NMN_ĀNKAŖ  ānkaŗ:ānkaŗ 240
+
+ LEXICON NMN_ĀNKAŖ-PL  ānkaŗ:ānkaŗ 240
+
+ LEXICON NMN_VIRPÕĻ  virpõļ:virpõļ 241
+
+ LEXICON NMN_VIRPÕĻ-PL  virpõļ:virpõļ 241
+
+ LEXICON NMN_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
+
+ LEXICON NMN_ǬʼBIĻ-PL  ǭʼbiļ:ǭbiļ 242
+
+ LEXICON NMN_GOLĀTÕKS  golātõks:golātõks 244 found in Liv-est-lat dictionary
 
 
 
@@ -766,6 +1151,7 @@ Inflection lexica
 
 
 
+above as pair in SG-ELA/INE_st
 
 
 
@@ -787,12 +1173,6 @@ Inflection lexica
 
 
 Is this correct?
-
-
-
-
-
-
 
 
 
