@@ -5124,6 +5124,8 @@
 
       <tg xml:lang="lav">
         <t pos="TV">pļāpāt</t>
+        
+        <t pos="IV">runāt blēņas</t>
       </tg>
     </mg>
   </e>
@@ -30738,6 +30740,8 @@
 
       <tg xml:lang="fin">
         <t pos="IV">astua</t>
+        
+        <t pos="IV">paritella</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31361,7 +31365,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">move</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31369,7 +31373,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">liikuttaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31383,7 +31387,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">waggle</t>
+        
+        <t pos="TV">wag</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31391,7 +31397,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">heiluttaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31419,7 +31425,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">sound</t>
+        
+        <t pos="TV">blow</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31427,7 +31435,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">puhaltaa pilliin</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31483,7 +31491,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">slime</t>
+        
+        <t pos="IV">become coated by slime</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31491,7 +31501,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">limaantua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31519,7 +31529,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">fly</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31527,7 +31537,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">lentää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31557,7 +31567,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">sway</t>
+        
+        <t pos="IV">swing</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31565,13 +31577,38 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">heilua</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="IV">līgoties</t>
       </tg>
     </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="IV">totter</t>
+        
+        <t pos="IV">stagger</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="IV">tuikuda</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="IV">horjua</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="IV">grīļoties</t>
+      </tg>
+    </mg>
+
   </e>
 
   <e>
@@ -31593,7 +31630,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">flatter</t>
+        
+        <t pos="IV">cajole</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31601,11 +31640,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">imarrella</t>
+        
+        <t pos="IV">mielistellä</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="IV">lišķēt</t>
+        
+        <t pos="IV">glaimot</t>
       </tg>
     </mg>
   </e>
@@ -31629,7 +31672,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">glue</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31637,11 +31680,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">liimata</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="TV">lipināt</t>
+        
+        <t pos="TV">līmēt</t>
       </tg>
     </mg>
   </e>
@@ -31665,7 +31710,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">milk</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31673,7 +31718,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">lypsää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31701,7 +31746,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">trill</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31709,7 +31754,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">livertää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31737,7 +31782,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">wave</t>
+        
+        <t pos="IV">wag</t>
+        
+        <t pos="IV">flap</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31745,11 +31794,17 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">heiluttaa</t>
+        
+        <t pos="IV">räpyttää</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="IV">vicināties</t>
+        
+        <t pos="IV">vēcināties</t>
+        
+        <t pos="IV">plivināt</t>
       </tg>
     </mg>
   </e>
@@ -31773,7 +31828,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">giggle</t>
+        
+        <t pos="IV">chuckle</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31781,7 +31838,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">hykertää</t>
+        
+        <t pos="IV">kihertää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31809,7 +31868,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">slide</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31817,7 +31876,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">liukua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31845,7 +31904,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">slip</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31853,7 +31912,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">liukastua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31867,7 +31926,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">glide</t>
+        
+        <t pos="IV">slide</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31875,7 +31936,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">liidellä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31903,7 +31964,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">slide</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31911,7 +31972,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">liukua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31939,7 +32000,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">soak</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31949,7 +32010,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">liota</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -31977,7 +32038,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">soak</t>
+        
+        <t pos="TV">ret</t>
       </tg>
 
       <tg xml:lang="est">
@@ -31985,7 +32048,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">liottaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -32013,7 +32076,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">waffle</t>
       </tg>
 
       <tg xml:lang="est">
@@ -32021,11 +32084,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">puhua palturia</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="IV">pļāpāt</t>
+        
+        <t pos="IV">runāt blēņas</t>
       </tg>
     </mg>
   </e>
@@ -34135,7 +34200,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">sway</t>
+        
+        <t pos="IV">swing</t>
       </tg>
 
       <tg xml:lang="est">
@@ -34143,7 +34210,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">heilua</t>
       </tg>
 
       <tg xml:lang="lav">
