@@ -20370,7 +20370,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">finger</t>
+        <t pos="IV">keep busy with</t>
+        
+        <t pos="IV">be busy with</t>
       </tg>
 
       <tg xml:lang="est">
@@ -20378,7 +20380,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">näpelöidä</t>
+        <t pos="IV">näperrellä</t>
+        
+        <t pos="IV">puuhata</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -41631,7 +41635,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">understand</t>
       </tg>
 
       <tg xml:lang="est">
@@ -41639,7 +41643,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">ymmärtää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -41653,7 +41657,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">think</t>
       </tg>
 
       <tg xml:lang="est">
@@ -41661,7 +41665,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">ajatella</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -41669,99 +41673,7 @@
       </tg>
     </mg>
   </e>
-
-  <e>
-    <lg>
-      <l>mȯštad</l>
-
-      <stg>
-        <st Contlex="TV_">mȯštad</st>
-      </stg>
-
-      <stress>mȯštad</stress>
-    </lg>
-
-    <pos>TV</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ mūoštagid</semRel>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l>mȯštad</l>
-
-      <stg>
-        <st Contlex="TV_">mȯštad</st>
-      </stg>
-
-      <stress>mȯštad</stress>
-    </lg>
-
-    <pos>TV</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="TV">XX</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>mȯštgid</l>
-
-      <stg>
-        <st Contlex="TV_">mȯštgid</st>
-      </stg>
-
-      <stress>mȯštgid</stress>
-    </lg>
-
-    <pos>TV</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ mūoštagid</semRel>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l>mȯštgid</l>
-
-      <stg>
-        <st Contlex="TV_">mȯštgid</st>
-      </stg>
-
-      <stress>mȯštgid</stress>
-    </lg>
-
-    <pos>TV</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="TV">XX</t>
-      </tg>
-    </mg>
-  </e>
-
+  
   <e>
     <lg>
       <l>mȯʼjjõ</l>
@@ -41781,7 +41693,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">feel</t>
       </tg>
 
       <tg xml:lang="est">
@@ -41791,7 +41703,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">tuntea</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -41821,7 +41733,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">be influenced</t>
       </tg>
 
       <tg xml:lang="est">
@@ -41829,7 +41741,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">vaikuttua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -41857,7 +41769,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">influence</t>
+        
+        <t pos="TV">affect</t>
+        
+        <t pos="TV">have an influence</t>
       </tg>
 
       <tg xml:lang="est">
@@ -41867,7 +41783,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">vaikuttaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -41895,7 +41811,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">give away in marriage</t>
+        
+        <t pos="TV">marry off</t>
       </tg>
 
       <tg xml:lang="est">
@@ -41903,11 +41821,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">naittaa</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="TV">apprecināt</t>
+        
+        <t pos="TV">izprecināt</t>
       </tg>
     </mg>
   </e>
@@ -41931,7 +41851,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">get married</t>
+        
+        <t pos="IV">marry</t>
       </tg>
 
       <tg xml:lang="est">
@@ -41939,7 +41861,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">mennä naimisiin</t>
+        
+        <t pos="TV">avioitua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -41969,7 +41893,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">knock</t>
       </tg>
 
       <tg xml:lang="est">
@@ -41977,7 +41901,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">koputtaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42005,7 +41929,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">fool</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42013,7 +41937,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">narrata</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42041,7 +41965,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">snoop</t>
+        
+        <t pos="TV">sleuth</t>
+        
+        <t pos="TV">nose around</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42049,7 +41977,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">nuuskia</t>
+        
+        <t pos="TV">urkkia</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42077,7 +42007,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">nail</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42085,7 +42015,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">naulata</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42101,7 +42031,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">shoe</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42109,7 +42039,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">kengittää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42137,7 +42067,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">make someone laugh</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42145,7 +42075,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">naurattaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42173,7 +42103,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">laugh</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42181,7 +42111,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">nauraa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42195,7 +42125,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">deride</t>
+        
+        <t pos="TV">ridicule</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42205,7 +42137,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">pilkata</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42233,7 +42165,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">gorge</t>
+        
+        <t pos="TV">glut</t>
+        
+        <t pos="TV">gobble</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42243,7 +42179,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">hotkia</t>
+        
+        <t pos="TV">ahmia</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42273,7 +42211,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">twist</t>
+        
+        <t pos="TV">wrench</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42281,7 +42221,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">nyrjähtää</t>
+        
+        <t pos="TV">vääntää sijoiltaan</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42309,7 +42251,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">skin</t>
+        
+        <t pos="TV">flay</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42317,7 +42261,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">nylkeä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42345,7 +42289,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">snake</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42353,7 +42297,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">kiemurrella</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42381,7 +42325,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">damage</t>
+        
+        <t pos="TV">spoil</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42389,7 +42335,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">vioittaa</t>
+        
+        <t pos="TV">vaurioittaa</t>
+        
+        <t pos="TV">rikkoa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42417,7 +42367,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">name</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42427,7 +42377,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">nimittää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42457,7 +42407,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">pick</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42465,7 +42415,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">poimia</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42493,7 +42443,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">filter</t>
+        
+        <t pos="TV">strain</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42503,11 +42455,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">valuttaa</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="TV">nokāst</t>
+        
+        <t pos="TV">notecināt</t>
       </tg>
     </mg>
   </e>
@@ -42531,7 +42485,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">dry</t>
+        
+        <t pos="TV">drain</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42539,7 +42495,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">kuivattaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42553,7 +42509,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">filter</t>
+        
+        <t pos="TV">strain</t>
+        
+        <t pos="TV">pour off</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42561,7 +42521,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">valuttaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42589,7 +42549,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">rest</t>
+        
+        <t pos="TV">give rest</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42597,7 +42559,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">lepuuttaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42625,7 +42587,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">salivate</t>
+        
+        <t pos="TV">drivel</t>
+        
+        <t pos="TV">slobber</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42633,7 +42599,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">kuolata</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42661,7 +42627,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">lick</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42673,7 +42639,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">nuolaista</t>
+        
+        <t pos="TV">lipaista</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42707,7 +42675,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">lean against</t>
+        
+        <t pos="IV">recline</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42717,7 +42687,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">nojautua</t>
+        
+        <t pos="IV">tukeutua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42747,7 +42719,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">percolate</t>
+        
+        <t pos="IV">trickle</t>
+        
+        <t pos="IV">be absorbed</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42757,7 +42733,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">norua</t>
+        
+        <t pos="IV">imeytyä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42773,7 +42751,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">suck in</t>
+        
+        <t pos="IV">absorb</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42781,7 +42761,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">imeytyä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42809,7 +42789,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">rest</t>
+        
+        <t pos="IV">take a rest</t>
+        
+        <t pos="IV">repose</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42817,7 +42801,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">levätä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42845,7 +42829,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">strain</t>
+        
+        <t pos="TV">sprain</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42853,7 +42839,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">venäyttää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42881,7 +42867,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">number</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42889,7 +42875,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">numeroida</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42919,7 +42905,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">rummage</t>
+        
+        <t pos="TV">dig</t>
+        
+        <t pos="TV">burrow</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42929,7 +42919,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">penkoa</t>
+        
+        <t pos="TV">tonkia</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42959,7 +42951,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">groan</t>
+        
+        <t pos="IV">moan</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42967,7 +42961,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">nurista</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -42981,7 +42975,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">snarl</t>
+        
+        <t pos="IV">grunt</t>
+        
+        <t pos="IV">growl</t>
       </tg>
 
       <tg xml:lang="est">
@@ -42989,7 +42987,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">murista</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43017,7 +43015,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">lift</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43025,7 +43023,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">nostaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43039,7 +43037,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">shrug</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43047,11 +43045,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">kohauttaa</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="TV">raustīt</t>
+        
+        <t pos="TV">paraustīt</t>
       </tg>
     </mg>
 
@@ -43061,7 +43061,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">hoist</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43069,7 +43069,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">nostaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43099,7 +43099,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">name</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43107,7 +43107,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">nimetä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43123,7 +43123,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">call</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43131,7 +43131,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">kutsua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43163,7 +43163,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">rummage</t>
+        
+        <t pos="TV">dig</t>
+        
+        <t pos="TV">burrow</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43173,7 +43177,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">penkoa</t>
+        
+        <t pos="TV">tonkia</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43203,7 +43209,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">copulate</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43211,7 +43217,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">paritella</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43239,7 +43245,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">mess about</t>
+        
+        <t pos="IV">spend much time</t>
+        
+        <t pos="IV">waste</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43247,7 +43257,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">tuhertaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43277,7 +43287,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">sleuth</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43285,13 +43295,19 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">urkkia</t>
+        
+        <t pos="TV">nuuskia</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="TV">okšķerēt</t>
 
         <t pos="TV">okšķerēties</t>
+        
+        <t pos="TV">dzīt pēdas</t>
+        
+        <t pos="TV">ošņāt</t>
       </tg>
     </mg>
   </e>
@@ -43315,8 +43331,8 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
-
+        <t pos="TV">pull together</t>
+        
         <t pos="TV">frown</t>
       </tg>
 
@@ -43325,7 +43341,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">vetää ryppyyn</t>
 
         <t pos="TV">rypistää</t>
       </tg>
@@ -43343,7 +43359,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">bat</t>
+        
+        <t pos="TV">wink</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43351,7 +43369,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">siristää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43379,7 +43397,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">keep busy with</t>
+        
+        <t pos="IV">be busy with</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43387,7 +43407,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">näperrellä</t>
+        
+        <t pos="IV">puuhata</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43451,7 +43473,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">show</t>
+        
+        <t pos="TV">demonstrate</t>
+        
+        <t pos="TV">direct</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43461,11 +43487,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">näyttää</t>
+        
+        <t pos="TV">osoittaa</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="TV">rādīt</t>
+        
+        <t pos="TV">parādīt</t>
       </tg>
     </mg>
 
@@ -43475,7 +43505,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">disclose</t>
+        
+        <t pos="TV">reveal</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43483,7 +43515,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">paljastaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43513,7 +43545,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">seem</t>
+        
+        <t pos="IV">look like</t>
+        
+        <t pos="IV">appear</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43521,7 +43557,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">tuntua</t>
+        
+        <t pos="TV">näyttää</t>
+        
+        <t pos="TV">vaikuttaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43537,7 +43577,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">appear</t>
+        
+        <t pos="IV">show up</t>
+        
+        <t pos="IV">pop up</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43545,7 +43589,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">ilmestyä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43573,7 +43617,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">keep underfed</t>
+        
+        <t pos="TV">starve</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43583,7 +43629,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">näännyttää</t>
+        
+        <t pos="TV">nälkiinnyttää</t>
+        
+        <t pos="TV">näivettää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43611,7 +43661,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">wither</t>
+        
+        <t pos="IV">fade</t>
+        
+        <t pos="IV">wilt</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43619,11 +43673,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">lakastua</t>
+        
+        <t pos="IV">nahistua</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="IV">vīst</t>
+        
+        <t pos="IV">novīst</t>
       </tg>
     </mg>
   </e>
@@ -43647,7 +43705,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">moo quietly</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43657,7 +43715,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">ynistä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43685,7 +43743,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">bend</t>
+        
+        <t pos="TV">curve</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43693,7 +43753,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">taivuttaa</t>
+        
+        <t pos="TV">vääntää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43723,7 +43785,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">bend</t>
+        
+        <t pos="IV">nod</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43733,7 +43797,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">taipua</t>
+        
+        <t pos="IV">notkua</t>
+        
+        <t pos="IV">vääntyä</t>
+        
+        <t pos="IV">koukistua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43763,7 +43833,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">strain</t>
+        
+        <t pos="TV">sprain</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43771,7 +43843,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">venäyttää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43785,7 +43857,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">bend</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43793,7 +43865,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">notkuttaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43821,7 +43893,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">loosen</t>
+        
+        <t pos="IV">languish</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43833,7 +43907,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">löyhetä</t>
+        
+        <t pos="IV">nääntyä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43865,7 +43941,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">darn</t>
+        
+        <t pos="TV">repair</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43873,7 +43951,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">parsia</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43901,7 +43979,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">dive</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43909,7 +43987,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">sukeltaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43937,7 +44015,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">consider</t>
+        
+        <t pos="TV">discuss</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43945,11 +44025,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">pohtia</t>
+        
+        <t pos="TV">keskustella</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="TV">spriest</t>
+        
+        <t pos="TV">apspriest</t>
       </tg>
     </mg>
 
@@ -43959,7 +44043,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">plan</t>
+        
+        <t pos="TV">prepare</t>
       </tg>
 
       <tg xml:lang="est">
@@ -43969,7 +44055,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">suunnitella</t>
+        
+        <t pos="TV">valmistella</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -43999,7 +44087,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">discuss</t>
+        
+        <t pos="IV">consult</t>
       </tg>
 
       <tg xml:lang="est">
@@ -44007,7 +44097,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">neuvotella</t>
+        
+        <t pos="IV">pohtia</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -44021,7 +44113,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">go for</t>
+        
+        <t pos="IV">aim for</t>
       </tg>
 
       <tg xml:lang="est">
@@ -44029,7 +44123,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="IV">XX</t>
+        <t pos="IV">tavoitella</t>
+        
+        <t pos="IV">pyrkiä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -44059,7 +44155,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">chew</t>
       </tg>
 
       <tg xml:lang="est">
@@ -44069,7 +44165,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">pureksia</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -68833,7 +68929,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="TV">YY</t>
+        <t pos="TV">shoe</t>
       </tg>
 
       <tg xml:lang="est">
@@ -68841,7 +68937,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">kengittää</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -90431,7 +90527,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="IV">YY</t>
+        <t pos="IV">moo quietly</t>
       </tg>
 
       <tg xml:lang="est">
