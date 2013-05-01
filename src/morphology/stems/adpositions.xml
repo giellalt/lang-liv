@@ -311,7 +311,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
+        <t pos="POSTP">under</t>
       </tg>
 
       <tg xml:lang="est">
@@ -319,7 +319,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">alla</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3723,11 +3723,23 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">sisään</t>
+        <tCtn>
+          <t pos="POSTP">sisään</t>
+          
+          <t pos="POSTP">sisälle</t>
+
+          <re>käytetään illatiivissa</re>
+        </tCtn>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">iekšā, iekš (virziens)</t>
+        <tCtn>
+          <t pos="POSTP">iekšā</t>
+          
+          <t pos="POSTP">iekš</t>
+
+          <re>virziens</re>
+        </tCtn>
       </tg>
     </mg>
   </e>
