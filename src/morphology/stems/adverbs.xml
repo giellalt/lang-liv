@@ -5114,6 +5114,12 @@
 
       <tg xml:lang="eng">
         <t pos="Adv">much</t>
+        
+        <t pos="Adv">plenty</t>
+        
+        <t pos="Adv">a lot</t>
+        
+        <t pos="Adv">a great deal</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -19130,6 +19136,48 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">XX</t>
+      </tg>
+    </mg>
+  </e>
+  
+  <e>
+    <lg>
+      <l pos="Adv">pǟgiņ</l>
+
+      <stg>
+        <st Contlex="ADV_">pǟgiņ</st>
+      </stg>
+
+      <stress>pǟgiņ</stress>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">much</t>
+        
+        <t pos="Adv">plenty</t>
+        
+        <t pos="Adv">a lot</t>
+        
+        <t pos="Adv">a great deal</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Adv">palju</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">paljon</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Adv">daudz</t>
       </tg>
     </mg>
   </e>
