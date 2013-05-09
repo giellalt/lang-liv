@@ -735,11 +735,14 @@
       </tg>
 
       <tg xml:lang="fin">
-        <tf pos="N">rannikkovesien kalastusverkko</tf>
+        <tf pos="N">rannikkovesien kalastusverkko</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">maliņtīkls (zvejai krasta tuvumā)</t>
+        <tCtn>
+          <t pos="N">maliņtīkls</t>
+
+          <re>zvejai krasta tuvumā</re>
       </tg>
     </mg>
   </e>
@@ -2915,7 +2918,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">present</t>
+        
+        <t pos="N">gift</t>
       </tg>
 
       <tg xml:lang="est">
@@ -2925,7 +2930,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">lahja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2939,7 +2944,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">talent</t>
+        
+        <t pos="N">gift</t>
       </tg>
 
       <tg xml:lang="est">
@@ -2947,11 +2954,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">lahja</t>
+        
+        <t pos="N">kyky</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="N">talants</t>
+        
+        <t pos="N">spējas</t>
       </tg>
     </mg>
   </e>
@@ -58229,7 +58240,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">guest</t>
+        
+        <t pos="N">visitor</t>
       </tg>
 
       <tg xml:lang="est">
@@ -58237,11 +58250,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">vieras</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">ciemiņš, viesis</t>
+        <t pos="N">ciemiņš</t>
+        
+        <t pos="N">viesis</t>
       </tg>
     </mg>
   </e>
@@ -66296,7 +66311,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">frog</t>
       </tg>
 
       <tg xml:lang="est">
@@ -66304,7 +66319,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">sammakko</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -70554,7 +70569,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">home</t>
       </tg>
 
       <tg xml:lang="est">
@@ -70562,11 +70577,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">koti</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">mājas, mājoklis</t>
+        <t pos="N">mājas</t>
+        
+        <t pos="N">mājoklis</t>
       </tg>
     </mg>
   </e>
@@ -74908,7 +74925,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">paw</t>
       </tg>
 
       <tg xml:lang="est">
@@ -74916,7 +74933,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">käpälä</t>
+        
+        <t pos="N">tassu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -76924,7 +76943,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">birch</t>
       </tg>
 
       <tg xml:lang="est">
@@ -76934,7 +76953,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">koivu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -84876,15 +84895,18 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">moon</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="N">kuu (taevakeha)</t>
+        <tCtn>
+          <t pos="N">kuu</t>
+
+          <re>taevakeha</re>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kuu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -86392,7 +86414,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">frog</t>
       </tg>
 
       <tg xml:lang="est">
@@ -86400,7 +86422,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">sammakko</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -89528,7 +89550,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">farm</t>
+        
+        <t pos="N">farmstead</t>
       </tg>
 
       <tg xml:lang="est">
@@ -89536,13 +89560,17 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">maatila</t>
+        
+        <t pos="N">talo</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="N">mājas</t>
 
         <t pos="N">sēta</t>
+        
+        <t pos="N">lauku māja</t>
       </tg>
     </mg>
 
@@ -89552,7 +89580,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">yard</t>
+        
+        <t pos="N">courtyard</t>
       </tg>
 
       <tg xml:lang="est">
@@ -89562,7 +89592,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">piha</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -92384,7 +92414,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">birch</t>
       </tg>
 
       <tg xml:lang="est">
@@ -92392,7 +92422,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">koivu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -107225,7 +107255,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">bone</t>
+        
+        <t pos="N">fishbone</t>
       </tg>
 
       <tg xml:lang="est">
@@ -107235,7 +107267,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">luu</t>
+        
+        <t pos="N">ruoto</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -113583,7 +113617,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">belly</t>
+        
+        <t pos="N">abdomen</t>
+        
+        <t pos="N">stomach</t>
       </tg>
 
       <tg xml:lang="est">
@@ -113591,7 +113629,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">vatsa</t>
+        
+        <t pos="N">maha</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -113607,7 +113647,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">stomach</t>
       </tg>
 
       <tg xml:lang="est">
@@ -113615,7 +113655,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">mahalaukku</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -136869,7 +136909,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">needle</t>
+        
+        <t pos="N">prickle</t>
       </tg>
 
       <tg xml:lang="est">
@@ -136877,7 +136919,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">neula</t>
+        
+        <t pos="N">piikki</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -141799,7 +141843,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">bear</t>
       </tg>
 
       <tg xml:lang="est">
@@ -141807,7 +141851,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">karhu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -146941,7 +146985,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">pancake</t>
       </tg>
 
       <tg xml:lang="est">
@@ -146949,7 +146993,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ohukainen</t>
+        
+        <t pos="N">lettu</t>
+        
+        <t pos="N">räiskäle</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -152667,7 +152715,13 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">pot</t>
+        
+        <t pos="N">cask</t>
+        
+        <t pos="N">keg</t>
+        
+        <t pos="N">barrel</t>
       </tg>
 
       <tg xml:lang="est">
@@ -152677,7 +152731,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">pytty</t>
+        
+        <t pos="N">tynnyri</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -166787,7 +166843,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">rowan berry</t>
       </tg>
 
       <tg xml:lang="est">
@@ -166795,7 +166851,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">pihlajanmarja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -166827,7 +166883,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">rowan tree</t>
       </tg>
 
       <tg xml:lang="est">
@@ -166835,7 +166891,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">pihlaja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -167081,7 +167137,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">rowan tree</t>
       </tg>
 
       <tg xml:lang="est">
@@ -167089,7 +167145,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">pihlaja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -172642,42 +172698,6 @@
 
   <e>
     <lg>
-      <l pos="N">pǟgiņ</l>
-
-      <stg>
-        <st Contlex="N_ĀNKAŖ">pǟgiņ</st>
-      </stg>
-
-      <stress>pǟgiņ</stress>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="N">palju</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">XX</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="N">daudz</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">pǟgiņluʼg</l>
 
       <stg>
@@ -173827,7 +173847,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">linden</t>
+        
+        <t pos="N">lime</t>
       </tg>
 
       <tg xml:lang="est">
@@ -173835,7 +173857,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">lehmus</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -204714,7 +204736,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">finger</t>
       </tg>
 
       <tg xml:lang="est">
@@ -204724,11 +204746,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">sormi</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">pirksts (rokai)</t>
+        <t pos="N">rokas pirksts</t>
       </tg>
     </mg>
   </e>
@@ -211283,7 +211305,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">mouth</t>
       </tg>
 
       <tg xml:lang="est">
@@ -211291,7 +211313,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">suu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -226999,7 +227021,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">hedgehog</t>
       </tg>
 
       <tg xml:lang="est">
@@ -227007,7 +227029,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">siili</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -231747,7 +231769,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">star</t>
       </tg>
 
       <tg xml:lang="est">
@@ -231755,7 +231777,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">tähti</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -259889,7 +259911,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">butter</t>
       </tg>
 
       <tg xml:lang="est">
@@ -259897,7 +259919,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">voi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -267541,7 +267563,11 @@
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">laiks (hronometriskais)</t>
+        <tCtn>
+          <t pos="N">laiks</t>
+
+          <re>hronometriskais</re>
+        </tCtn>
       </tg>
     </mg>
 
@@ -267563,7 +267589,9 @@
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">laiks, laika apstākļi</t>
+        <t pos="N">laiks</t>
+        
+        <t pos="N">laika apstākļi</t>
       </tg>
     </mg>
   </e>
@@ -269681,7 +269709,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">present</t>
+        
+        <t pos="N">gift</t>
       </tg>
 
       <tg xml:lang="est">
@@ -269691,7 +269721,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">lahja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -269707,7 +269737,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">talent</t>
+        
+        <t pos="N">gift</t>
       </tg>
 
       <tg xml:lang="est">
@@ -269715,7 +269747,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">lahja</t>
+        
+        <t pos="N">kyky</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -271237,7 +271271,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">voice</t>
       </tg>
 
       <tg xml:lang="est">
@@ -271245,7 +271279,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ääni</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -271259,7 +271293,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">sound</t>
       </tg>
 
       <tg xml:lang="est">
@@ -271267,7 +271301,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ääni</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -272563,7 +272597,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">start</t>
+        
+        <t pos="N">beginning</t>
       </tg>
 
       <tg xml:lang="est">
@@ -272575,7 +272611,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">alku</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -275487,7 +275523,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">present</t>
+        
+        <t pos="N">gift</t>
       </tg>
 
       <tg xml:lang="est">
@@ -275495,7 +275533,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">lahja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -280697,7 +280735,9 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">aspen</t>
+        
+        <t pos="N">asp</t>
       </tg>
 
       <tg xml:lang="est">
@@ -280705,7 +280745,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">haapa</t>
       </tg>
 
       <tg xml:lang="lav">
