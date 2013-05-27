@@ -31,20 +31,20 @@ LEXICON PRON_JEGĀ !!= @CODE@ jegā:jeʼgā 2
 +Pron:%^StodRM SG-PAR_ZERO ;
 
 
-LEXICON PRON_MŪ !!= @CODE@ mū:mū 3
-+Pron: SG-DAT_n ;
-+Pron: SG-ELA_stõ ;
-+Pron: SG-GEN ;
-+Pron: SG-ILL_ʼzõ ;
-+Pron: SG-INS_kõks ;
-+Pron: SG-NOM ;
-+Pron: SG-PAR_dõ ;
-+Pron: PL-ELA_šti   ;
-+Pron+Pl+Gen:%^VowsRMunt K ;
-+Pron+Pl+Ill: PL-ILL_ʼži   ;
-+Pron+Pl+Ins:%^VowsRMuntkõks K ;
-+Pron+Pl+Nom:%^VowsRMunt K ;
-+Pron+Pl+Par:ḑi K ;
+LEXICON PRON_MŪ !!= @CODE@ mū:m 3
++Pron:ū SG-DAT_n ;
++Pron:ū SG-ELA_stõ ;
++Pron:ū SG-GEN ;
++Pron:ū SG-ILL_ʼzõ ;
++Pron:ū SG-INS_kõks ;
++Pron:ū SG-NOM ;
++Pron:ū SG-PAR_dõ ;
++Pron:ū PL-ELA_šti   ;
++Pron+Pl+Gen:unt K ;
++Pron+Pl+Ill:ū PL-ILL_ʼži   ;
++Pron+Pl+Ins:untkõks K ;
++Pron+Pl+Nom:unt K ;
++Pron+Pl+Par:ūḑi K ;
 
 LEXICON PRON_SE !!= @CODE@ se:s 4
 +Pron+Dem:īe SG-DAT_n ;
@@ -75,7 +75,7 @@ LEXICON PRON_NE !!= @CODE@ ne:n 4 & 5
 +Pron+Dem+Pl+Nom:e K ;
 +Pron+Dem:ē PL-PAR_ḑi  ;
 
-LEXICON PRON_MINĀ !!= @CODE@ 6
+LEXICON PRON_MINĀ !!= @CODE@ 6 minā:m
 +Pron+Pers+Sg1+Dat:iʼnnön K ;
 +Pron+Pers+Sg1+Ela:iʼsntõ K ;
 +Pron+Pers+Sg1+Gen:iʼn K ;
