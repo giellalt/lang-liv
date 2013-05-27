@@ -544,12 +544,12 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="Pron">ma</l>
 
       <stg>
-        <st Contlex="PRON_MINĀ">ma</st>
+        <st Contlex="PRON_MINĀ">m</st>
       </stg>
 
       <stress>ma</stress>
@@ -735,7 +735,7 @@
       <l pos="Pron">minā</l>
 
       <stg>
-        <st Contlex="PRON_MINĀ">minā</st>
+        <st Contlex="PRON_MINĀ">m</st>
       </stg>
 
       <stress>minā</stress>
@@ -1185,7 +1185,7 @@
       <l pos="Pron">mū</l>
 
       <stg>
-        <st Contlex="PRON_MŪ">mū</st>
+        <st Contlex="PRON_MŪ">m</st>
       </stg>
 
       <stress>mū 1</stress>
@@ -1436,7 +1436,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="Pron">sa</l>
 
@@ -1479,7 +1479,7 @@
       <l pos="Pron">se</l>
 
       <stg>
-        <st Contlex="PRON_SE">se</st>
+        <st Contlex="PRON_SE">s</st>
       </stg>
 
       <stress>se</stress>
@@ -1751,7 +1751,7 @@
       <l pos="Pron">sinā</l>
 
       <stg>
-        <st Contlex="PRON_SINĀ">sinā</st>
+        <st Contlex="PRON_SINĀ">s</st>
       </stg>
 
       <stress>sinā</stress>
@@ -1782,7 +1782,7 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="Pron">ta</l>
 
@@ -1841,7 +1841,7 @@
       <l pos="Pron">tämā</l>
 
       <stg>
-        <st Contlex="PRON_TÄMĀ">tämā</st>
+        <st Contlex="PRON_TÄMĀ">t</st>
       </stg>
 
       <stress>tämā</stress>
