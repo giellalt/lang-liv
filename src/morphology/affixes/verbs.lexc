@@ -61,16 +61,16 @@ LEXICON TV_SĪEDÕ
 +V+TV: K ;
 
 LEXICON IV_SǬDÕ
-!! 8 sǭdõ:
-+V+IV: K ;
+!! 8 sǭdõ:s
++V+IV: V-01_SǬDÕ ;
 
 LEXICON TV_SǬDÕ
-!! 8 sǭdõ:
-+V+TV: K ;
+!! 8 sǭdõ:s
++V+TV: V-01_SǬDÕ ;
 
 LEXICON V-AUX_SǬDÕ
-!! 8 sīedõ:
-+V+Aux: K ;
+!! 8 sǭdõ:s
++V+Aux: V-01_SǬDÕ ;
 
 LEXICON IV_JŪODÕ
 !! 9 jūodõ:
@@ -543,6 +543,36 @@ LEXICON V-01_VĪDÕ
 :%^VowsRM	PSSPRFPRCSG    ;
 !! 4
 
+
+!! 8
+LEXICON V-01_SǬDÕ
+!! sǭdõ:s
+:ǭd   GER_sõ   ;
+:ǭ   INF_dõ	  ;
+:ǭ   SUP-STEM_mõ	  ; 
+:ǭ   INDPRSSG1-STEM    ;
+:ǭ   INDCONNEGSG    ;
+!! Prt
+:a INDPRT_i    ;
+! Cond
+:ǭ CONDPRS ;
+!! Imprt
+:ǭ	IMPRTPRSSG2    ;
+:ǭ	IMPRTPRSPL1	;
+:ǭ	IMPRTPRSPL2	;
+:ǭ	IMPRTPRSCONNEG ;
+
+!! Jus
+:ǭ JUSPRS_gõ	;
+!! Qvo
+:ǭ QUOPRS-STEM_ji	;
+
+!! participles
+:ǭ ACTPRSPRC ;
+:ǭ ACTPRFPRC_nd ;
+:ǭ PSSPRSPRC ;
+:ǭ PSSPRFPRCSG    ;
+!! 9
 !! 9
 LEXICON V-01_JŪODÕ
 !! jūodõ:vī
