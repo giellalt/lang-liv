@@ -31,7 +31,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">kaikki</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -63,11 +63,13 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">keegi, mingi</t>
+        <t pos="Pron">keegi</t>
+        <t pos="Pron">mingi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">joku</t>
+        <t pos="Pron">jonkinlainen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -171,7 +173,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">sitä kaikkea</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -203,11 +205,13 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">üksteise, teineteise</t>
+        <t pos="Pron">üksteise</t>
+        <t pos="Pron">teineteise</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">toinen toisensa</t>
+        <t pos="Pron">toinen toistensa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -239,15 +243,19 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">üks, ükssama, sama</t>
+        <t pos="Pron">üks</t>
+        <t pos="Pron">ükssama</t>
+        <t pos="Pron">sama</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">sama</t>
+        <t pos="Pron">yksi</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">viens, vienots</t>
+        <t pos="Pron">viens</t>
+        <t pos="Pron">vienots</t>
       </tg>
     </mg>
   </e>
@@ -311,15 +319,40 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">eri, eraldi</t>
+        <t pos="Pron">eri</t>
+        <t pos="Pron">eraldi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">erillinen</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="Pron">atsevišķs</t>
+      </tg>
+    </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Pron">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pron">eriline</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">yksilöllinen</t>
+        <t pos="Pron">erikoinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="Pron">īpašs</t>
+        <t pos="Pron">sevišķs</t>
       </tg>
     </mg>
   </e>
