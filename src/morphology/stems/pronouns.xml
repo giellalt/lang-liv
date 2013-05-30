@@ -438,15 +438,19 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">igaüks, iga</t>
+        <t pos="Pron">igaüks</t>
+        <t pos="Pron">iga</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">joka ainoa</t>
+        <t pos="Pron">joka ikinen</t>
+        <t pos="Pron">jokainen</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">ikviens, katrs</t>
+        <t pos="Pron">ikviens</t>
+        <t pos="Pron">katrs</t>
       </tg>
     </mg>
   </e>
@@ -479,24 +483,12 @@
 
       <tg xml:lang="fin">
         <t pos="Pron">kuka</t>
+        <t pos="Pron">joka</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">kas, kurš</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Pron">who</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Pron">joka</t>
+        <t pos="Pron">kas</t>
+        <t pos="Pron">kurš</t>
       </tg>
     </mg>
   </e>
@@ -530,7 +522,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">kumpikin</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -568,11 +560,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">kumpikin</t>
+        <t pos="Pron">molemmat</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">katrs (no abiem), abi divi</t>
+        <t pos="Pron">katrs (no abiem)</t>
+        <t pos="Pron">abi divi</t>
       </tg>
     </mg>
   </e>
@@ -604,7 +598,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">mä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -678,7 +672,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">mikin</t>
+        <t pos="Pron">jokin</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -716,7 +711,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">mitäkin</t>
+        <t pos="Pron">jotakin</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -754,7 +750,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">mikin</t>
+        <t pos="Pron">jokin</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -792,7 +789,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">minä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -824,11 +821,13 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">keegi, mingi</t>
+        <t pos="Pron">keegi</t>
+        <t pos="Pron">mingi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">joku</t>
+        <t pos="Pron">jonkinlainen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -864,7 +863,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">muutama</t>
+        <t pos="Pron">joku</t>
+        <t pos="Pron">jokunen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -900,11 +901,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">joka</t>
+        <t pos="Pron">mikä</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">kas, kurš</t>
+        <t pos="Pron">kas</t>
+        <t pos="Pron">kurš</t>
       </tg>
     </mg>
   </e>
@@ -940,7 +943,8 @@
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">kas, kurš (par nedzīvām būtnēm)</t>
+        <t pos="Pron">kas (par nedzīvām būtnēm)</t>
+        <t pos="Pron">kurš (par nedzīvām būtnēm)</t>
       </tg>
     </mg>
 
@@ -953,6 +957,7 @@
 
       <tg xml:lang="eng">
         <t pos="Pron">which</t>
+        <t pos="Pron">who</t>
       </tg>
 
       <tg xml:lang="est">
@@ -961,38 +966,12 @@
 
       <tg xml:lang="fin">
         <t pos="Pron">joka</t>
+        <t pos="Pron">kuka</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">kas, kurš (par dzīvām būtnēm)</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Pron">who</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Pron">kuka</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Pron">who</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Pron">joka</t>
+        <t pos="Pron">kas (par dzīvām būtnēm)</t>
+        <t pos="Pron">kurš (par dzīvām būtnēm)</t>
       </tg>
     </mg>
   </e>
@@ -1020,11 +999,14 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">ei keegi, mitte keegi, mitte ükski</t>
+        <t pos="Pron">ei keegi</t>
+        <t pos="Pron">mitte keegi</t>
+        <t pos="Pron">mitte ükski</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">ei kukaan</t>
+        <t pos="Pron">ei yksikään</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1060,7 +1042,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">moni</t>
+        <t pos="Pron">usea</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1096,7 +1079,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">monta</t>
+        <t pos="Pron">montako</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1132,7 +1116,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">mones</t>
+        <t pos="Pron">monesko</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1164,15 +1149,19 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">millal, mis kella ajal</t>
+        <t pos="Pron">millal</t>
+        <t pos="Pron">mis kella ajal</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">milloin</t>
+        <t pos="Pron">koska</t>
+        <t pos="Pron">mihin aikaan</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">uz cikiem, cikos</t>
+        <t pos="Pron">uz cikiem</t>
+        <t pos="Pron">cikos</t>
       </tg>
     </mg>
   </e>
@@ -1204,7 +1193,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">molemmat</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1236,29 +1225,17 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">muu, teine</t>
+        <t pos="Pron">muu</t>
+        <t pos="Pron">teine</t>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="Pron">muu</t>
+        <t pos="Pron">toinen</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="Pron">cits</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Pron">other</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Pron">toinen</t>
       </tg>
     </mg>
   </e>
@@ -1286,11 +1263,14 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">mõni, üks või teine</t>
+        <t pos="Pron">mõni</t>
+        <t pos="Pron">üks või teine</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">joku</t>
+        <t pos="Pron">jokunen</t>
+        <t pos="Pron">jompikumpi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1326,7 +1306,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">joku</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1358,11 +1338,13 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">muud, teised</t>
+        <t pos="Pron">muud</t>
+        <t pos="Pron">teised</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">muut</t>
+        <t pos="Pron">toiset</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1494,10 +1476,12 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">sa, sina</t>
+        <t pos="Pron">sa</t>
+        <t pos="Pron">sina</t>
       </tg>
 
       <tg xml:lang="fin">
+        <t pos="Pron">sä</t>
         <t pos="Pron">sinä</t>
       </tg>
 
@@ -1534,11 +1518,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">tämä</t>
+        <t pos="Pron">tuo</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">šis, tas</t>
+        <t pos="Pron">šis</t>
+        <t pos="Pron">tas</t>
       </tg>
     </mg>
   </e>
@@ -1570,7 +1556,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">sama</t>
+        <t pos="Pron">se sama</t>
+        <t pos="Pron">tämä sama</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1662,7 +1650,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">samanlainen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1694,11 +1682,13 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">niisugune-naasugune; mitmesugune</t>
+        <t pos="Pron">niisugune-naasugune</t>
+        <t pos="Pron">mitmesugune</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">sellainen ja tällainen</t>
+        <t pos="Pron">monenlainen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1730,15 +1720,18 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">mitu, palju</t>
+        <t pos="Pron">mitu</t>
+        <t pos="Pron">palju</t>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="Pron">moni</t>
+        <t pos="Pron">paljon</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">vairāki, daudz</t>
+        <t pos="Pron">vairāki</t>
+        <t pos="Pron">daudz</t>
       </tg>
     </mg>
   </e>
@@ -1770,7 +1763,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron">XX</t>
+        <t pos="Pron">moni</t>
+        <t pos="Pron">muutama</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1802,7 +1796,8 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">sina, sa</t>
+        <t pos="Pron">sina</t>
+        <t pos="Pron">sa</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -1839,32 +1834,23 @@
         <t gen="m" pos="Pron">he</t>
 
         <t gen="f" pos="Pron">she</t>
+        
+        <t pos="Pron">it</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">ta, see</t>
+        <t pos="Pron">ta</t>
+        <t pos="Pron">see</t>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="Pron">hän</t>
+        <t pos="Pron">se</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">viņš, tas</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Pron">it</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Pron">se</t>
+        <t pos="Pron">viņš</t>
+        <t pos="Pron">tas</t>
       </tg>
     </mg>
   </e>
@@ -1893,32 +1879,23 @@
         <t gen="m" pos="Pron">he</t>
 
         <t gen="f" pos="Pron">she</t>
+        
+        <t pos="Pron">it</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pron">tema, see</t>
+        <t pos="Pron">tema</t>
+        <t pos="Pron">see</t>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="Pron">hän</t>
+        <t pos="Pron">se</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Pron">viņš, tas</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Pron">it</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Pron">se</t>
+        <t pos="Pron">viņš</t>
+        <t pos="Pron">tas</t>
       </tg>
     </mg>
   </e>
