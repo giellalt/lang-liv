@@ -1278,8 +1278,6 @@
     <mg>
       <m>
         <head/>
-
-        <semRel>= pierāst 2 (d)</semRel>
       </m>
 
       <tg xml:lang="eng">
@@ -1330,7 +1328,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">enemmän</t>
+        <t pos="PREP">enemmän (prepositio komparatiivin muodostamiseksi)</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2064,11 +2062,14 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">viereen</t>
+        <t pos="POSTP">vierelle</t>
+        <t pos="POSTP">rinnalle</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">blakus, blakām (virziens)</t>
+        <t pos="POSTP">blakus (virziens)</t>
+        <t pos="POSTP">blakām (virziens)</t>
       </tg>
     </mg>
   </e>
@@ -2096,15 +2097,19 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">kohakuti, kohale, kohal</t>
+        <t pos="POSTP">kohakuti</t>
+        <t pos="POSTP">kohale</t>
+        <t pos="POSTP">kohal</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">kohdakkain</t>
+        <t pos="POSTP">kohdalla</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">iepretim, blakus</t>
+        <t pos="POSTP">iepretim</t>
+        <t pos="POSTP">blakus</t>
       </tg>
     </mg>
   </e>
@@ -2136,7 +2141,10 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">läpi</t>
+        <t pos="PREP">lävitse</t>
+        <t pos="PREP">välistä</t>
+        <t pos="PREP">kautta</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2172,7 +2180,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">läpi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2204,11 +2212,14 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">ligidal, lähedal, läheduses</t>
+        <t pos="POSTP">ligidal</t>
+        <t pos="POSTP">lähedal</t>
+        <t pos="POSTP">läheduses</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">lähellä</t>
+        <t pos="POSTP">likellä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2240,15 +2251,18 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">ligidalt, lähedalt</t>
+        <t pos="POSTP">ligidalt</t>
+        <t pos="POSTP">lähedalt</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">likeltä</t>
+        <t pos="POSTP">läheltä</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">no tuvuma, no tuvienes</t>
+        <t pos="POSTP">no tuvuma</t>
+        <t pos="POSTP">no tuvienes</t>
       </tg>
     </mg>
   </e>
@@ -2276,11 +2290,14 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">ligidale, lähedale</t>
+        <t pos="POSTP">ligidale</t>
+        <t pos="POSTP">lähedale</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">lähelle</t>
+        <t pos="POSTP">likelle</t>
+        <t pos="POSTP">läheisyyteen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2312,15 +2329,19 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">maha, alla</t>
+        <t pos="POSTP">maha</t>
+        <t pos="POSTP">alla</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">maahan</t>
+        <t pos="POSTP">alas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">nost, zemē, no-</t>
+        <t pos="POSTP">nost</t>
+        <t pos="POSTP">zemē</t>
+        <t pos="POSTP">no-</t>
       </tg>
     </mg>
   </e>
@@ -2352,11 +2373,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">lailla</t>
+        <t pos="POSTP">tavalla</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">veidā, modē</t>
+        <t pos="POSTP">veidā</t>
+        <t pos="POSTP">modē</t>
       </tg>
     </mg>
   </e>
@@ -2388,7 +2411,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">nimissä</t>
+        <t pos="POSTP">puolesta</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2424,7 +2448,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">-ksi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2460,11 +2484,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">kerrallaan</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="PREP">▫ pa</t>
+        <t pos="PREP">pa</t>
       </tg>
     </mg>
 
@@ -2473,12 +2497,22 @@
         <head/>
       </m>
 
+      <tg xml:lang="eng">
+        <t pos="PREP">YY</t>
+      </tg>
+      
       <tg xml:lang="est">
         <t pos="ADV">liiga</t>
       </tg>
 
+      <tg xml:lang="fin">
+        <t pos="PREP">liian</t>
+        <t pos="PREP">liiaksi</t>
+      </tg>
+      
       <tg xml:lang="lav">
-        <t pos="ADV">par, pārāk</t>
+        <t pos="ADV">par</t>
+        <t pos="ADV">pārāk</t>
       </tg>
     </mg>
   </e>
@@ -2528,7 +2562,8 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">peale, ajaks</t>
+        <t pos="POSTP">peale</t>
+        <t pos="POSTP">ajaks</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -2592,7 +2627,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päältä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2630,7 +2665,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päältä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2666,7 +2701,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päälle</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2688,7 +2723,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">perään</t>
+        <t pos="POSTP">jälkeen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2706,15 +2742,18 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">peale, alates</t>
+        <t pos="POSTP">peale</t>
+        <t pos="POSTP">alates</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">jälkeen</t>
+        <t pos="POSTP">lähtien</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">pēc, vēlāk</t>
+        <t pos="POSTP">pēc</t>
+        <t pos="POSTP">vēlāk</t>
       </tg>
     </mg>
   </e>
@@ -2746,11 +2785,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">sijasta</t>
+        <t pos="POSTP">asemasta</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">vietā, kā</t>
+        <t pos="POSTP">vietā</t>
+        <t pos="POSTP">kā</t>
       </tg>
     </mg>
   </e>
@@ -2782,7 +2823,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">pitkin</t>
+        <t pos="PREP">myöten</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2818,7 +2860,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">rinnakkaisesti</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2850,7 +2892,9 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="PREP">mööda, pihta, piki</t>
+        <t pos="PREP">mööda</t>
+        <t pos="PREP">pihta</t>
+        <t pos="PREP">piki</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -2886,11 +2930,13 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">pärast, tõttu</t>
+        <t pos="POSTP">pärast</t>
+        <t pos="POSTP">tõttu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">takia</t>
+        <t pos="POSTP">vuoksi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -2912,11 +2958,12 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">varten</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">priekš, nolūkam</t>
+        <t pos="POSTP">priekš</t>
+        <t pos="POSTP">nolūkam</t>
       </tg>
     </mg>
 
@@ -2936,11 +2983,12 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">mukaan</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">atbilstoši, atbilstīgi</t>
+        <t pos="POSTP">atbilstoši</t>
+        <t pos="POSTP">atbilstīgi</t>
       </tg>
     </mg>
 
@@ -2958,19 +3006,18 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">käytössä</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">priekš, rīcībā</t>
+        <t pos="POSTP">priekš</t>
+        <t pos="POSTP">rīcībā</t>
       </tg>
     </mg>
 
     <mg>
       <m>
         <head/>
-
-        <semRel>= jeʼdstõ</semRel>
       </m>
 
       <tg xml:lang="eng">
@@ -2982,7 +3029,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">-sta</t>
+        <t pos="POSTP">-stä</t>
+        <t pos="POSTP">edestä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3018,7 +3067,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">jälkeen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3056,11 +3105,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">mukaan</t>
+        <t pos="POSTP">mukaisesti</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">atbilstoši, atbilstīgi</t>
+        <t pos="POSTP">atbilstoši</t>
+        <t pos="POSTP">atbilstīgi</t>
       </tg>
     </mg>
 
@@ -3078,7 +3129,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">kaltainen</t>
+        <t pos="POSTP">tapainen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3096,11 +3148,14 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">järel, pärast</t>
+        <t pos="POSTP">järel</t>
+        <t pos="POSTP">pärast</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">jälkeen</t>
+        <t pos="POSTP">päästä</t>
+        <t pos="POSTP">kuluttua</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3136,11 +3191,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päin</t>
+        <t pos="POSTP">puolella</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">pusē, malā</t>
+        <t pos="POSTP">pusē</t>
+        <t pos="POSTP">malā</t>
       </tg>
     </mg>
 
@@ -3158,7 +3215,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päin</t>
+        <t pos="POSTP">puoleen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3190,11 +3248,13 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">poolt, suunast</t>
+        <t pos="POSTP">poolt</t>
+        <t pos="POSTP">suunast</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päin</t>
+        <t pos="POSTP">puolelta</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3212,11 +3272,12 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">poolt, eest</t>
+        <t pos="POSTP">poolt</t>
+        <t pos="POSTP">eest</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">puolellaan</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3248,15 +3309,18 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">poole, juurde</t>
+        <t pos="POSTP">poole</t>
+        <t pos="POSTP">juurde</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päin</t>
+        <t pos="POSTP">luokse</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">uz pusi, pie</t>
+        <t pos="POSTP">uz pusi</t>
+        <t pos="POSTP">pie</t>
       </tg>
     </mg>
 
@@ -3270,15 +3334,18 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">poole, suunda</t>
+        <t pos="POSTP">poole</t>
+        <t pos="POSTP">suunda</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päin</t>
+        <t pos="POSTP">suuntaan</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">uz pusi, virzienā</t>
+        <t pos="POSTP">uz pusi</t>
+        <t pos="POSTP">virzienā</t>
       </tg>
     </mg>
 
@@ -3292,15 +3359,18 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">poole, suunas</t>
+        <t pos="POSTP">poole</t>
+        <t pos="POSTP">suunas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päin</t>
+        <t pos="POSTP">puolella</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">uz pusi, pusē</t>
+        <t pos="POSTP">uz pusi</t>
+        <t pos="POSTP">pusē</t>
       </tg>
     </mg>
   </e>
@@ -3332,7 +3402,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">puolesta</t>
+        <t pos="POSTP">suhteen</t>
+        <t pos="POSTP">suhteessa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3354,7 +3426,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">puolelta</t>
+        <t pos="POSTP">puolesta</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3372,11 +3445,12 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">poolt, eest</t>
+        <t pos="POSTP">poolt</t>
+        <t pos="POSTP">eest</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">puolesta</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3412,7 +3486,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">keskellä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3448,7 +3522,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">keskeltä</t>
+        <t pos="POSTP">joukosta</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3486,7 +3561,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">keskelle</t>
+        <t pos="POSTP">joukkoon</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3522,7 +3598,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">joukossa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3556,15 +3632,20 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">keskel, keskele</t>
+        <t pos="POSTP">keskel</t>
+        <t pos="POSTP">keskele</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">keskellä</t>
+        <t pos="POSTP">joukossa</t>
+        <t pos="POSTP">keskelle</t>
+        <t pos="POSTP">joukkoon</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">vidū, starpā</t>
+        <t pos="POSTP">vidū</t>
+        <t pos="POSTP">starpā</t>
       </tg>
     </mg>
   </e>
@@ -3596,11 +3677,16 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">joukossa</t>
+        <t pos="POSTP">seassa</t>
+        <t pos="POSTP">keskuudessa</t>
+        <t pos="POSTP">keskellä</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">starp, vidū, skaitā</t>
+        <t pos="POSTP">starp</t>
+        <t pos="POSTP">vidū</t>
+        <t pos="POSTP">skaitā</t>
       </tg>
     </mg>
   </e>
@@ -3632,7 +3718,10 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">joukosta</t>
+        <t pos="POSTP">seasta</t>
+        <t pos="POSTP">keskuudesta</t>
+        <t pos="POSTP">keskeltä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3668,7 +3757,10 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">joukkoon</t>
+        <t pos="POSTP">sekaan</t>
+        <t pos="POSTP">keskuuteen</t>
+        <t pos="POSTP">keskelle</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3686,11 +3778,13 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">sekka, hulka</t>
+        <t pos="POSTP">sekka</t>
+        <t pos="POSTP">hulka</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">joukkoon</t>
+        <t pos="POSTP">pariin</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3726,7 +3820,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">sisässä</t>
+        <t pos="POSTP">sisällä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3762,7 +3857,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">sisästä</t>
+        <t pos="POSTP">sisältä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3844,7 +3940,8 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">kuni, saadik</t>
+        <t pos="POSTP">kuni</t>
+        <t pos="POSTP">saadik</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -3886,7 +3983,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">takana</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3918,15 +4015,19 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">järele, järel</t>
+        <t pos="POSTP">järele</t>
+        <t pos="POSTP">järel</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">jälkeen</t>
+        <t pos="POSTP">perässä</t>
+        <t pos="POSTP">jäljessä</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">aiz, pēc</t>
+        <t pos="POSTP">aiz</t>
+        <t pos="POSTP">pēc</t>
       </tg>
     </mg>
 
@@ -3944,7 +4045,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">taakse</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -3990,7 +4091,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">takaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4028,7 +4129,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">takaa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4064,11 +4165,12 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">taakse</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">aizmugurē, aiz</t>
+        <t pos="POSTP">aizmugurē</t>
+        <t pos="POSTP">aiz</t>
       </tg>
     </mg>
   </e>
@@ -4096,15 +4198,18 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">tagasi, varem</t>
+        <t pos="POSTP">tagasi</t>
+        <t pos="POSTP">varem</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">takaperin</t>
+        <t pos="POSTP">sitten</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="POSTP">pirms, atpakaļ</t>
+        <t pos="POSTP">pirms</t>
+        <t pos="POSTP">atpakaļ</t>
       </tg>
     </mg>
   </e>
@@ -4136,11 +4241,12 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">toiselle puolelle</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="PREP">uz otru pusi, otrpus</t>
+        <t pos="PREP">uz otru pusi</t>
+        <t pos="PREP">otrpus</t>
       </tg>
     </mg>
   </e>
@@ -4172,11 +4278,12 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">toisella puolella</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="PREP">otrā pusē, otrpus</t>
+        <t pos="PREP">otrā pusē</t>
+        <t pos="PREP">otrpus</t>
       </tg>
     </mg>
   </e>
@@ -4208,11 +4315,12 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">toiselta puolelta</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="PREP">no otras puses, no vietas otrpus</t>
+        <t pos="PREP">no otras puses</t>
+        <t pos="PREP">no vietas otrpus</t>
       </tg>
     </mg>
   </e>
@@ -4280,11 +4388,12 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">tuolta puolen</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="PREP">no turienes, no tās puses</t>
+        <t pos="PREP">no turienes</t>
+        <t pos="PREP">no tās puses</t>
       </tg>
     </mg>
   </e>
@@ -4316,11 +4425,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">sinnepäin</t>
+        <t pos="PREP">tuonnepäin</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="PREP">turp, uz to pusi</t>
+        <t pos="PREP">turp</t>
+        <t pos="PREP">uz to pusi</t>
       </tg>
     </mg>
   </e>
@@ -4352,7 +4463,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">päässä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4388,7 +4499,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">välissä</t>
+        <t pos="POSTP">välillä</t>
+        <t pos="POSTP">kesken</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4406,11 +4519,15 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">seas, keskel</t>
+        <t pos="POSTP">seas</t>
+        <t pos="POSTP">keskel</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">joukossa</t>
+        <t pos="POSTP">seassa</t>
+        <t pos="POSTP">keskuudessa</t>
+        <t pos="POSTP">keskellä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4446,7 +4563,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">välistä</t>
+        <t pos="POSTP">väliltä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4464,11 +4582,15 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">seast, keskelt</t>
+        <t pos="POSTP">seast</t>
+        <t pos="POSTP">keskelt</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">joukosta</t>
+        <t pos="POSTP">seasta</t>
+        <t pos="POSTP">keskuudesta</t>
+        <t pos="POSTP">keskeltä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4504,7 +4626,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">välistä</t>
+        <t pos="POSTP">väliltä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4526,7 +4649,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">seasta</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4558,11 +4681,18 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">keskele, vahele, hulka, sekka</t>
+        <t pos="POSTP">keskele</t>
+        <t pos="POSTP">vahele</t>
+        <t pos="POSTP">hulka</t>
+        <t pos="POSTP">sekka</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">keskelle</t>
+        <t pos="POSTP">joukkoon</t>
+        <t pos="POSTP">välille</t>
+        <t pos="POSTP">väliin</t>
+        <t pos="POSTP">sekaan</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4580,11 +4710,18 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="POSTP">keskel, vahel, hulgas, seas</t>
+        <t pos="POSTP">keskel</t>
+        <t pos="POSTP">vahel</t>
+        <t pos="POSTP">hulgas</t>
+        <t pos="POSTP">seas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">keskellä</t>
+        <t pos="POSTP">välissä</t>
+        <t pos="POSTP">välillä</t>
+        <t pos="POSTP">parissa</t>
+        <t pos="POSTP">joukossa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4620,7 +4757,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">välissä</t>
+        <t pos="POSTP">välillä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4656,7 +4794,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">välistä</t>
+        <t pos="POSTP">väliltä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4692,7 +4831,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">välille</t>
+        <t pos="POSTP">väliin</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4728,7 +4868,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">vasten</t>
+        <t pos="PREP">vastoin</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4764,7 +4905,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="PREP">vastaan</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4786,7 +4927,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">vastapäätä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4824,7 +4965,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="PREP">XX</t>
+        <t pos="PREP">vasten</t>
+        <t pos="PREP">vastoin</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -4860,7 +5002,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="POSTP">XX</t>
+        <t pos="POSTP">vastapäätä päin</t>
       </tg>
 
       <tg xml:lang="lav">
