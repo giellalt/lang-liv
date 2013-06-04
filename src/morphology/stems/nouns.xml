@@ -71,7 +71,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">abessiivi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -111,7 +111,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ablatiivi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -187,7 +187,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">osoite</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -223,7 +223,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">adventti</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -259,7 +259,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">adventisti</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -295,7 +295,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">asianajaja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -331,7 +331,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">lentokenttä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -371,7 +371,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">affrikaatta</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -407,7 +407,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">agentti</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -443,7 +443,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">agentuuri</t>
+        <t pos="N">asioimistoimisto</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -479,7 +480,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">olomuoto</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -517,7 +518,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">akanat</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -555,7 +556,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">hauki</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -591,7 +592,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">mittaus</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -632,38 +633,11 @@
 
       <tg xml:lang="fin">
         <t pos="N">ääri</t>
+        <t pos="N">reuna</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="N">mala</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">reuna</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N">shore</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">ranta</t>
       </tg>
     </mg>
   </e>
@@ -695,7 +669,8 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">rannikkomeri</t>
+        <t pos="N">rantameri</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -775,14 +750,36 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">talonväki</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="N">saime</t>
       </tg>
     </mg>
+    
+    <mg>
+      <m>
+        <head/>
+      </m>
 
+      <tg xml:lang="eng">
+        <t pos="N">YY</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="N">perekond</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">perhe</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="N">ģimene</t>
+      </tg>
+    </mg>
+    
     <mg>
       <m>
         <head/>
@@ -791,7 +788,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N">YY</t>
+        <t pos="N">bee colony</t>
       </tg>
 
       <tg xml:lang="est">
@@ -799,25 +796,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">mehiläisparvi</t>
+        <t pos="N">mehiläisyhdyskunta</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">bišu saime, bišu spiets</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N">bee colony</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">mehiläisyhdyskunta</t>
+        <t pos="N">bišu saime</t>
+        <t pos="N">bišu spiets</t>
       </tg>
     </mg>
   </e>
@@ -849,7 +834,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">isäntä</t>
       </tg>
 
       <tg xml:lang="lav">
