@@ -168,7 +168,7 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 "shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb"
  Cx:0 <=> 
 # Cons* Vows ( ʼ: ) Cx _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
-          where Cx in ( t k b d g l ļ m n ņ r ŗ v z ž ) ;
+          where Cx in ( t b d g l ļ m n ņ r ŗ v z ž ) ;
 
 !! !!Consonant lengthening
 ! Lengthening consonantism between first and second vowel center
@@ -204,8 +204,11 @@ l:ļ <=> _ Vows: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | 
 	_ %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 
-"n:ņ"
-n:ņ <=> _ %^PalatalizeLeft:0 ; !! sēņ:sēn 220
+"n:ņ palatalization"
+n:ņ <=> _ Vows: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
+!€# Vē0na%^PalatalizeLeft%^VowsRMõ
+!€0 Vein000õ
+        _ %^PalatalizeLeft:0 ; !! sēņ:sēn 220
 
 "r:ŗ"
 r:ŗ <=> _ %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
@@ -228,18 +231,13 @@ d:ț <=> [ ț: ] Vows: ( %^ConsSh:0 ) %^VowsRM:0  ( %^ConsRM:0 ) %> _ õ d ;
 
 "k:0"
 k:0 <=> s _ Vows: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
-
+       # Cons* Vows ( ʼ: ) k _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
 
 "ț:0"
 ț:0 <=> k _ Vows: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
 
 "s:š palatalization"
 s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
-
-"n:ņ palatalization"
-n:ņ <=> _ Vows: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
-!€# Vē0na%^PalatalizeLeft%^VowsRMõ
-!€0 Vein000õ
 
 "ǟ:ē palatalization"
 ǟ:ē <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
