@@ -16,6 +16,10 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 !! '
 ʼ !! Stød
 
+!! loosening the rule to allow ǭ:ō 2013-06-26
+ǭ:ō
+Ǭ:Ō
+
 
 
 !! Triggers
@@ -145,6 +149,9 @@ a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 ū:0 <=> # Cons* [Vows | ʼ: | :ʼ ]+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 !#Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: 
 
+"ī:0"
+ī:0 <=> _ %^VowsRM:0 ;
+
 "a:0"
 a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^VowsSh1:0 | %^PalatalizeLeft:0 ] %^VowsRM:0 ;
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
@@ -185,8 +192,13 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 !€  ka0l0ā%^Stress2to1
 !0  kaʼllõ0
 
-"Stod removal"
- ʼ:0 <=>  # Cons* Vows _ [ ConsWithStod :0* | i g ] Vows: %^StodRM:0 ; 
+"Stod removal left"
+ ʼ:0 <=  # Cons* Vows _ [ ConsWithStod :0* | i g ] Vows: %^StodRM:0 ; 
+
+"Stod removal right"
+ ʼ:0 =>  # Cons* Vows _ [ ConsWithStod :0* | i g ] Vows: %^StodRM:0 ; 
+!! 2013-06-26 for looser voikko stød can disappear everywhere
+ _ ;
 ! Vows _ ConsWithStod: ( :ConsWithStod )  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !# Cons* :Vows _ :ConsWithStod+  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !€# ka0l0ā%^Stress2to1
