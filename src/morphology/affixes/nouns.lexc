@@ -685,11 +685,15 @@ LEXICON N_MÕTKÕZ !!= @CODE@ mõtkõz: 179
 LEXICON N_MÕTKÕZ-PL !!= @CODE@ mõtkõz: 179
 +N:     PL-CASES   ;
 
-LEXICON N_VȬRÕZ !!= @CODE@ vȭrõz: 180
-+N:	CASES	;
+LEXICON N_VȬRÕZ !!= @CODE@ vȭrõz:vȭrõ 180
+	N_VȬRÕZ-SG	;
+	N_VȬRÕZ-PL	;
 
-LEXICON N_VȬRÕZ-PL !!= @CODE@ vȭrõz: 180
-+N:     PL-CASES   ;
+LEXICON N_VȬRÕZ-SG !!= @CODE@ vȭrõz:vȭrõ 180
++N:     NMN_VȬRÕZ-SG   ;
+
+LEXICON N_VȬRÕZ-PL !!= @CODE@ vȭrõz:vȭrõ 180
++N:     NMN_VȬRÕZ-PL   ;
 
 LEXICON N_ARĀGÕZ !!= @CODE@ : 181
 +N:	CASES	;
@@ -2061,7 +2065,7 @@ LEXICON NMN_MÕTKÕZ-PL
 
 
 !! 180
-LEXICON NMN_VȬRÕZ
+LEXICON NMN_VȬRÕZ	!! vȭrõz:vȭrõ
         NMN_VȬRÕZ-SG     ;
         NMN_VȬRÕZ-PL     ;
 
