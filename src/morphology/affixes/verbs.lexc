@@ -109,39 +109,39 @@ LEXICON IV_JEʼLLÕ
 +V+IV: V-01_JEʼLLÕ ;
 
 LEXICON TV_JEʼLLÕ
-!! 13 jeʼllõ:jeʼlā
+!! 13 jeʼllõ:jeʼllõ
 +V+TV: V-01_JEʼLLÕ ;
 
 LEXICON IV_ASTÕ
-!! 18 astõ:astā
+!! 18 astõ:astõ
 +V+IV: V-01_JEʼLLÕ ;
 
 LEXICON TV_ASTÕ
-!! 18 astõ:astā
+!! 18 astõ:astõ
 +V+TV: V-01_JEʼLLÕ ;
 
 LEXICON TV_VÕTTÕ
-!! 19 võttõ:võtā
+!! 19 võttõ:võttõ
 +V+TV: V-01_JEʼLLÕ ;
 
 LEXICON IV_VIEʼDDÕ
-!! 24 vieʼddõ:vieʼdā
+!! 24 vieʼddõ:vieʼddõ
 +V+IV: V-01_JEʼLLÕ ;
 
 LEXICON TV_VIEʼDDÕ
-!! 24 vieʼddõ:vieʼdā
+!! 24 vieʼddõ:vieʼddõ
 +V+TV: V-01_JEʼLLÕ ;
 
 LEXICON IV_MAKSÕ
-!! 25 maksõ:maksā
+!! 25 maksõ:maksõ
 +V+IV: V-01_JEʼLLÕ ;
 
 LEXICON TV_MAKSÕ
-!! 25 maksõ:maksā
+!! 25 maksõ:maksõ
 +V+TV: V-01_JEʼLLÕ ;
 
 LEXICON TV_TAPPÕ
-!! 26 tappõ:tapā
+!! 26 tappõ:tappõ
 +V+TV: V-01_JEʼLLÕ ;
 
 LEXICON IV_MÄNGÕ
@@ -608,7 +608,7 @@ LEXICON V-01_JEʼLLÕ
 !! 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
 :%^Stress2to1 GER_s     ;
 :%^Stress2to1 INF_ZERO      ;
-:%^Stress2to1 SUP-STEM_m        ;
+:%^StodRM%^ConsSh%^VowsRM%>ā SUP-STEM_m        ;
 :%^StodRM%^ConsSh%^VowsRM%>ā   INDPRSSG1-STEM    ;
 :%^ConsSh   INDCONNEGSG    ;
 :%^StodRM%^ConsSh%^VowsRM%>ī INDPRT_z ;
@@ -684,9 +684,16 @@ LEXICON V-01_AIGÕ
 !! This is mutual for 37-48
 :%^Stress1to2 GER_s   ;
 :%^Stress1to2 INF_ZERO	  ;
-:%^Stress1to2 SUP-STEM_m	  ; 
+:%^Stress1to2 SUP_m	  ; 
  INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
 :%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
 
