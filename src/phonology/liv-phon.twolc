@@ -1,48 +1,51 @@
-!! ================================================ !
-!! The Livonian morphophonological/twolc rules file !
-!! ================================================ !
 
+!! !!!The Livonian morphophonological/twolc rules file 
+
+
+!! !!Alphabet
 
 Alphabet
-a b c d e f g h i j k l m n o p q r s t u v w x y z
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-ḑ ļ ņ ŗ š ț ž
-Ḑ Ļ Ņ Ŗ Š Ț Ž
-õ ä ö ȯ
-Õ Ä Ö Ȯ
-ā ē ī ō ū ǟ ǭ ȭ ȱ
-Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ
+a b c d e f g h i j k l m n o p q r s t u v w x y z  !!= * @CODE@ 
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  !!= * @CODE@ 
+ḑ ļ ņ ŗ š ț ž									     !!= * @CODE@ 
+Ḑ Ļ Ņ Ŗ Š Ț Ž									     !!= * @CODE@ 
+õ ä ö ȯ											     !!= * @CODE@ 
+Õ Ä Ö Ȯ											     !!= * @CODE@ 
+ā ē ī ō ū ǟ ǭ ȭ ȱ								     !!= * @CODE@ 
+Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								     !!= * @CODE@ 
 
-!! '
-ʼ !! Stød
 
-!! loosening the rule to allow ǭ:ō 2013-06-26
+ʼ !! ʼ Stød
+
+! loosening the rule to allow ǭ:ō 2013-06-26
 ǭ:ō
 Ǭ:Ō
 
 
 
-!! Triggers
-! this k is not effected by gradation
-K1:k
-%^NoGrad:0 ! This will be placed after a stem to break Gradation
+!! ! Triggers
 
-! this weakens the stem _ompel_ to _ommel_
-%^WGStem:0
 
-! The ti => si
-%^TS:0
+K1:k       !!= * @CODE@ this k is not effected by gradation
+%^NoGrad:0 !!= * @CODE@  This will be placed after a stem to break Gradation
 
-! Vowel raising
-%^RVows:0  !! raise vowel
-%^VowsSh1:0 !! vowel shortening in first syllable
-%^VowsShU1:0 !!
-%^VowsShI1:0 !!
-%^DiphthSh1:0 !!
-%^VowsLI1:0 !! vowel lengthening that is followed by "i" when short
-%^VowsLU1:0 !! vowel lengthening that is followed by "u" when short
-%^VowsL1:0 !! vowel lengthening 
-%^DiphthL1:0 !!
+
+%^WGStem:0 !!= * @CODE@ this weakens the stem ompel to ommel
+
+
+%^TS:0 !!= * @CODE@ The ti => si
+
+!! ! Vowel raising
+
+%^RVows:0     !!= * @CODE@ raise vowel
+%^VowsSh1:0   !!= * @CODE@ vowel shortening in first syllable
+%^VowsShU1:0  !!= * @CODE@ 
+%^VowsShI1:0  !!= * @CODE@ 
+%^DiphthSh1:0 !!= * @CODE@ 
+%^VowsLI1:0   !!= * @CODE@ vowel lengthening that is followed by "i" when short
+%^VowsLU1:0   !!= * @CODE@ vowel lengthening that is followed by "u" when short
+%^VowsL1:0    !!= * @CODE@ vowel lengthening 
+%^DiphthL1:0  !!= * @CODE@ 
 
 !! vowel metathesis
 %^VowsMetath:0
@@ -50,23 +53,25 @@ K1:k
 %^StodRM:0
 
 %^ConsSh:0
-%^ConsL:0 !! lengthen consonant
+%^ConsL:0 !!  * @CODE@ lengthen consonant
 %^1Sh2L:0
 
 %^Stress1to2:0
 %^Stress2to1:0
 %^VowsRM:0
 %^ConsRM:0
-%^PalatalizeLeft:0 !! laps:läpš
+%^PalatalizeLeft:0 !!  * @CODE@ laps:läpš
 
 %^VowsL1aToǭ:0
 
-%- !! Hyphen in  constructions 
-%> !! morpheme boundary
-#   !! Word boundary for both lexicalised and dynamic compounds
+%- !!  * @CODE@ Hyphen in  constructions 
+%> !!  * @CODE@ morpheme boundary
+#   !!  * @CODE@ Word boundary for both lexicalised and dynamic compounds
 
 ;
 
+
+!! !!!Sets
 
 Sets
 
@@ -88,100 +93,131 @@ Letters = Vows Cons ;
 !
 !ConsStrengthening = [ b: 0:b | d: 0:d | g: 0:g | j: 0:j | l: 0:l | ļ: 0:ļ | m: 0:m | ņ: 0:ņ | r: 0:r | ŗ: 0:ŗ | v: 0:v | z: 0:z | ž: 0:ž ];
 
+
+!! !!!Rule section
 Rules
 
-!! Vowels
+!! !!Vowel rules
+
 !! Shortening in first syllable
+
 "ā:a in first syllable"
+!! __@RULENAME@__  
 ā:a <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ] ;
 
 "ǭ:a in first syllable"
+!! __@RULENAME@__  
 ǭ:a <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 "ē:e in first syllable"
+!! __@RULENAME@__  
 ē:e <=> # Cons* _  ( :i ) :Cons+ Vows: [ %^VowsShI1:0 | %^Stress1to2:0 | %^VowsSh1:0 ] ;
 !# Cons* _  ( :i ) :Cons+ Vows: %^Stress1to2:0  ;
 
 "ū:u in first syllable"
+!! __@RULENAME@__  
 ū:u <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 "ī:i in first syllable"
+!! __@RULENAME@__  
 ī:i <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 "ȭ:õ in first syllable"
+!! __@RULENAME@__  
 ȭ:õ <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 "ō:o in first syllable"
+!! __@RULENAME@__  
 ō:o <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 !! lengthen vowels
 
 "e:ē in first syllable"
+!! __@RULENAME@__  
 e:ē<=> # Cons* _  ( i: ) :Cons+ Vows: %^VowsLI1:0 ;
 
 "0:i after shortened vowel or diphthong"
+!! __@RULENAME@__  
 0:i <=> # Cons* [ ē: | ū: o: ] _ :Cons+ Vows: %^VowsShI1:0 ;
 
 "a:ǭ in first syllable"
+!! __@RULENAME@__  
 a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 !€# tam%^VowsL1aToǭõd
 !€0 tǭm0õd
 
 !! raise vowels
 "ē:ī in kēļ 215"
+!! __@RULENAME@__  
 ē:ī <=> # Cons* _ ( :e ) Cons %^RVows:0 ;
 ! requires 0:e
 
 !! Destressing in second syllable
 "ā:õ "
+!! __@RULENAME@__  
 ā:õ <=>  _ ( %^ConsL:0 ) %^Stress2to1:0 [ # | %> ] ;
 !# Cons* Vows ( 0: ) :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
 
 "ū:õ "
+!! __@RULENAME@__  
 ū:õ <=> # Cons* [ Vows | ʼ: | :ʼ ]+ :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
 
 !! Vowel loss
-!! 
+
 "ā:0"
+!! __@RULENAME@__  
 ā:0 <=> # Cons* Vows ( ʼ: | :ʼ ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 
 "ū:0"
+!! __@RULENAME@__  
 ū:0 <=> # Cons* [Vows | ʼ: | :ʼ ]+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 !#Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: 
 
 "ī:0"
+!! __@RULENAME@__  
 ī:0 <=> _ %^VowsRM:0 ;
 
 "a:0"
+!! __@RULENAME@__  
 a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^VowsSh1:0 | %^PalatalizeLeft:0 ] %^VowsRM:0 ;
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !€0 jarr0000õ
 "õ:0"
+!! __@RULENAME@__  
 õ:0 <=>  [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 | ( %^StodRM:0 ) %^ConsSh:0 ] %^VowsRM:0 ;
 !          Vows %> _ [ d | n | k s | s t ] ;
 
 "i:0 in first syllable"
+!! __@RULENAME@__  
 i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 
 !! Zero to vowel
 "0:e in vowel raising kēļ"
+!! __@RULENAME@__  
 0:e <=> Cons* ē: _ Cons %^RVows:0 ;
 
 "0:õ in vowel metathesis"
+!! __@RULENAME@__  
 0:õ <=> [ b | d | t | g ] _ [ l | r ] õ: %^VowsMetath:0 %^VowsRM:0  ;
 
 
-!! Consonant loss 
+!! !!Consonant rules
+
+!! !Consonant loss 
 "shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb"
+!! __@RULENAME@__  
  Cx:0 <=> 
 # Cons* Vows ( ʼ: ) Cx _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
           where Cx in ( t b d g l ļ m n ņ r ŗ v z ž ) ;
 
-!! !!Consonant lengthening
-! Lengthening consonantism between first and second vowel center
-! simultaneous to reducing vowel of second syllable
-!! jelāb:jellõ
+!! !Consonant lengthening
+
+!! Lengthening consonantism between first and second vowel center
+!! simultaneous to reducing vowel of second syllable
+
+! jelāb:jellõ
 "lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ"
+!! __@RULENAME@__  
  0:Cx <=> 
 # Cons* Vows ( ʼ: ) Cx _ Vows: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
 ! Cx _ Vows: %^ConsL:0  [ # | %> | %^VowsRM:0 %> :Vows ] ;
@@ -193,11 +229,13 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 !0  kaʼllõ0
 
 "Stod removal left"
+!! __@RULENAME@__  
  ʼ:0 <=  # Cons* Vows _ [ ConsWithStod :0* | i g ] Vows: %^StodRM:0 ; 
 
 "Stod removal right"
+!! __@RULENAME@__  
  ʼ:0 =>  # Cons* Vows _ [ ConsWithStod :0* | i g ] Vows: %^StodRM:0 ; 
-!! 2013-06-26 for looser voikko stød can disappear everywhere
+! 2013-06-26 for looser voikko stød can disappear everywhere
  _ ;
 ! Vows _ ConsWithStod: ( :ConsWithStod )  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !# Cons* :Vows _ :ConsWithStod+  Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
@@ -207,53 +245,63 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 !# Cons* Vows ( 0: ) :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
 !# Cons* :Vows _  ConsStrengthening Vows: %^Stress2to1:0  [ # | %> | %^VowsRM:0  %> ] ;
 !         # Cons* :Vows _ [ g: | d: | l: ] Vows: %^Stress2to1:0 %^VowsRM:0  %^ConsRM:0  ;
-!!         # Cons* :Vows _ [ g: | d: | l: ] Vows: %^Stress2to1:0 %^VowsRM:0 %> [ ḑ i | ž i | š t i ] ;
+!         # Cons* :Vows _ [ g: | d: | l: ] Vows: %^Stress2to1:0 %^VowsRM:0 %> [ ḑ i | ž i | š t i ] ;
 
  
 "l:ļ"
+!! __@RULENAME@__  
 l:ļ <=> _ Vows: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vows: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
 	_ %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 
 "n:ņ palatalization"
+!! __@RULENAME@__  
 n:ņ <=> _ Vows: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
 !€# Vē0na%^PalatalizeLeft%^VowsRMõ
 !€0 Vein000õ
         _ %^PalatalizeLeft:0 ; !! sēņ:sēn 220
 
 "r:ŗ"
+!! __@RULENAME@__  
 r:ŗ <=> _ %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
 
 
 ! First syllable short second syllable long
-!! jellõ: jelāb
+! jellõ: jelāb
 !"shorten first syllable jellõ: jelāb"
 ! Cx:0 <=> Cx _ %^1Sh2L:0 ;
 !          Cx _ %^ConsRM:0 ;
 !          where Cx in ( d g l ļ n p ŗ ) ;
 
 "d:t "
+!! __@RULENAME@__  
 d:t <=>
        :Vows ( ʼ: | :ʼ ) [ s k: | d d: | t t: | k k:  | t s ] Vows: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
        [ :z | :s | :š ] %> _ ; !! nominative plural 
 
 "d:ț "
+!! __@RULENAME@__  
 d:ț <=> [ ț: ] Vows: ( %^ConsSh:0 ) %^VowsRM:0  ( %^ConsRM:0 ) %> _ õ d ;
 
 "k:0"
+!! __@RULENAME@__  
 k:0 <=> s _ Vows: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
        # Cons* Vows ( ʼ: ) k _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
 
 "ț:0"
+!! __@RULENAME@__  
 ț:0 <=> k _ Vows: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
 
 "s:š palatalization"
+!! __@RULENAME@__  
 s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 
 "ǟ:ē palatalization"
+!! __@RULENAME@__  
 ǟ:ē <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 
 "a:ä palatalization"
+!! __@RULENAME@__  
 a:ä <=> _ ( 0: ) :Cons+ %^PalatalizeLeft:0 [ # | %> ] ;
 
