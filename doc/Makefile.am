@@ -10,7 +10,8 @@
 if CAN_DOCC
 
 JSP_PAGES=\
-		root-morphology.jspwiki 	\
+		root-morphology.jspwiki 	 \
+		  liv-phon-phonology.jspwiki \
 		adjectives-affixes.jspwiki      \
 		nouns-affixes.jspwiki 	\
 		verbs-affixes.jspwiki
