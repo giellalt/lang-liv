@@ -251,6 +251,174 @@ Words that are not inflected
 
  * LEXICON K   is the clitic lexicon, but no clitica here, only #.
 
+
+!!!The Livonian morphophonological/twolc rules file 
+
+
+!!Alphabet
+
+ * a b c d e f g h i j k l m n o p q r s t u v w x y z   
+ * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
+ * ḑ ļ ņ ŗ š ț ž									      
+ * Ḑ Ļ Ņ Ŗ Š Ț Ž									      
+ * õ ä ö ȯ											      
+ * Õ Ä Ö Ȯ											      
+ * ā ē ī ō ū ǟ ǭ ȭ ȱ								      
+ * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
+
+
+ʼ Stød
+
+
+
+
+! Triggers
+
+
+ * K1:k        this k is not effected by gradation
+ * %^NoGrad:0   This will be placed after a stem to break Gradation
+
+
+ * %^WGStem:0  this weakens the stem ompel to ommel
+
+
+ * %^TS:0  The ti => si
+
+! Vowel raising
+
+ * %^RVows:0      raise vowel
+ * %^VowsSh1:0    vowel shortening in first syllable
+ * %^VowsShU1:0   
+ * %^VowsShI1:0   
+ * %^DiphthSh1:0  
+ * %^VowsLI1:0    vowel lengthening that is followed by "i" when short
+ * %^VowsLU1:0    vowel lengthening that is followed by "u" when short
+ * %^VowsL1:0     vowel lengthening 
+ * %^DiphthL1:0   
+
+vowel metathesis
+
+
+ * %^DiphthL1:0   lengthen consonant
+
+ * %^DiphthL1:0   laps:läpš
+
+
+ * %^DiphthL1:0   Hyphen in  constructions 
+ * %^DiphthL1:0   morpheme boundary
+ * %^DiphthL1:0   Word boundary for both lexicalised and dynamic compounds
+
+
+
+!!!Sets
+
+
+
+
+
+
+
+
+!!!Rule section
+
+!!Vowel rules
+
+Shortening in first syllable
+
+__ā:a in first syllable__  
+
+__ǭ:a in first syllable__  
+
+__ē:e in first syllable__  
+
+__ū:u in first syllable__  
+
+__ī:i in first syllable__  
+
+__ȭ:õ in first syllable__  
+
+__ō:o in first syllable__  
+
+lengthen vowels
+
+__e:ē in first syllable__  
+
+__0:i after shortened vowel or diphthong__  
+
+__a:ǭ in first syllable__  
+
+raise vowels
+__ē:ī in kēļ 215__  
+
+Destressing in second syllable
+__ā:õ __  
+
+__ū:õ __  
+
+Vowel loss
+
+__ā:0__  
+
+__ū:0__  
+
+__ī:0__  
+
+__a:0__  
+__õ:0__  
+
+__i:0 in first syllable__  
+
+Zero to vowel
+__0:e in vowel raising kēļ__  
+
+__0:õ in vowel metathesis__  
+
+
+!!Consonant rules
+
+!Consonant loss 
+__shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb__  
+
+!Consonant lengthening
+
+Lengthening consonantism between first and second vowel center
+simultaneous to reducing vowel of second syllable
+
+__lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ__  
+
+__Stod removal left__  
+
+__Stod removal right__  
+
+
+
+__l:ļ__  
+kēļ:kēl 215
+This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
+
+__n:ņ palatalization__  
+sēņ:sēn 220
+
+__r:ŗ__  
+jūŗ:jūr 221
+
+
+
+__d:t __  
+nominative plural 
+
+__d:ț __  
+
+__k:0__  
+
+__ț:0__  
+
+__s:š palatalization__  
+
+__ǟ:ē palatalization__  
+
+__a:ä palatalization__  
+
 !!!Adjective inflection
 
 Livonian adjectives compare.
