@@ -10,12 +10,11 @@
 if CAN_DOCC
 
 JSP_PAGES=\
-		root-morphology.jspwiki 	 \
-		  liv-phon-phonology.jspwiki \
-		adjectives-affixes.jspwiki      \
-		nouns-affixes.jspwiki 	\
-		verbs-affixes.jspwiki
-
+		  root-morphology.jspwiki 	 \
+		  adjectives-affixes.jspwiki      \
+		  nouns-affixes.jspwiki 	\
+		  verbs-affixes.jspwiki \
+		  liv-phon-phonology.jspwiki 
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
@@ -38,8 +37,6 @@ JSP_PAGES=\
 # verbs-stems.jspwiki              \
 # adjectives-oahpa-affixes.jspwiki \
 # propernouns-affixes.jspwiki      
-#
-
 ALLINONE_JSP_PAGE=$(GTLANG).jspwiki
 
 LINKS=Links.jspwiki
