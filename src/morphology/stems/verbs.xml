@@ -8885,6 +8885,7 @@
          <tg xml:lang="fin">
             <t pos="IV">muuttua voimattomaksi</t>
             <t pos="IV">tyyntyä</t>
+            <t pos="IV">näivettyä</t>
             <t pos="IV">lakastua</t>
          </tg>
          <tg xml:lang="lav">
@@ -59153,6 +59154,7 @@
          <tg xml:lang="fin">
             <t pos="IV">nahistua</t>
             <t pos="IV">kuihtua</t>
+            <t pos="IV">näivettyä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">vīst</t>
@@ -61794,14 +61796,12 @@
             <t pos="IV">lehvitada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">liehauttaa</t>
-            <t pos="TV">huiskia</t>
+            <t pos="IV">huitoa</t>
             <t pos="TV">heiluttaa</t>
-            <t pos="IV">XX</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">vicināties</t>
-            <t pos="IV">māt</t>
+            <t pos="TV">māt</t>
          </tg>
       </mg>
    </e>
@@ -61837,17 +61837,18 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t pos="IV">YY</t>
+            <t pos="TV">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="IV">lehvitada</t>
-            <t pos="IV">vehkida</t>
+            <t pos="TV">lehvitada</t>
+            <t pos="TV">vehkida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="TV">huiskuttaa</t>
+            <t pos="TV">heiluttaa</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="IV">māt</t>
+            <t pos="TV">māt</t>
          </tg>
       </mg>
    </e>
@@ -61871,7 +61872,8 @@
             <t pos="TV">nõiduda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">noitua</t>
+            <t pos="TV">taikoa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">burt</t>
@@ -61899,7 +61901,8 @@
             <t pos="TV">ära nõiduda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">lumota</t>
+            <t pos="TV">noitua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">noburt</t>
@@ -61927,7 +61930,7 @@
             <t pos="IV">võsuda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">vesoa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">dzīt atvases</t>
@@ -61944,7 +61947,7 @@
             <t pos="IV">haljendada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">vihertää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">zaļot</t>
@@ -61961,7 +61964,7 @@
             <t pos="IV">levida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">levittäytyä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">izplatīties</t>
@@ -61988,7 +61991,7 @@
             <t pos="TV">valgendada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">valkaista</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">balināt</t>
@@ -62015,7 +62018,7 @@
             <t pos="TV">kedrata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kehrätä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vērpt</t>
@@ -62042,7 +62045,8 @@
             <t pos="TV">lehvitada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">huiskuttaa</t>
+            <t pos="TV">heiluttaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">māt</t>
@@ -62059,7 +62063,8 @@
             <t pos="TV">vehkida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">huiskia</t>
+            <t pos="TV">heiluttaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vicināt</t>
@@ -62118,7 +62123,8 @@
             <t pos="IV">hõredaks muutuda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">harveta</t>
+            <t pos="IV">harventua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">kļūt skrajam</t>
@@ -62146,7 +62152,7 @@
             <t pos="TV">lubada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">luvata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">ļaut</t>
@@ -62163,7 +62169,7 @@
             <t pos="TV">soovida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">toivottaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">novēlēt</t>
@@ -62180,7 +62186,7 @@
             <t pos="TV">valida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">valita</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">izvēlēties</t>
@@ -62208,7 +62214,11 @@
             <t pos="TV">kulutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <tCtn>
+               <t pos="TV">viettää</t>
+               <t pos="TV">kuluttaa</t>
+               <re>aikaa</re>
+            </tCtn>
          </tg>
          <tg xml:lang="lav">
             <tCtn>
@@ -62229,10 +62239,10 @@
             <t pos="TV">viivitada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">viivyttää</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="TV">kavēties</t>
+            <t pos="TV">kavēt</t>
          </tg>
       </mg>
       <mg>
@@ -62247,7 +62257,7 @@
             <t pos="TV">kinni pidada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">pidättää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">aizkavēt</t>
@@ -62274,7 +62284,7 @@
             <t pos="IV">viita</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">hukata aikaa</t>
          </tg>
          <tg xml:lang="lav">
             <tCtn>
@@ -62294,7 +62304,8 @@
             <t pos="IV">hilineda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">myöhästyä</t>
+            <t pos="IV">viivästyä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">kavēties</t>
@@ -62349,7 +62360,8 @@
             <t pos="TV">veeretada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vierittää</t>
+            <t pos="TV">pyörittää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">ripināt</t>
@@ -62399,7 +62411,6 @@
          </m>
          <tg xml:lang="eng">
             <t pos="IV">roll</t>
-            <t pos="IV">YY</t>
          </tg>
          <tg xml:lang="est">
             <t pos="IV">veereda</t>
@@ -62435,7 +62446,8 @@
             <t pos="IV">kiuksuda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">vinkua</t>
+            <t pos="IV">kiljua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">kviekt</t>
@@ -62462,7 +62474,7 @@
             <t pos="TV">joonestada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">piirtää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">rasēt</t>
@@ -62489,7 +62501,8 @@
             <t pos="IV">kiirata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">sädehtiä</t>
+            <t pos="IV">säteillä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">starot</t>
@@ -62519,7 +62532,8 @@
             <t pos="IV">rikneda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">lakastua</t>
+            <t pos="IV">nahistua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">vīst</t>
@@ -62546,7 +62560,8 @@
             <t pos="IV">lõbutseda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">huvitella</t>
+            <t pos="IV">pitää hauskaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">uzjautrināties</t>
@@ -62573,7 +62588,8 @@
             <t pos="TV">lõbustada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">huvittaa</t>
+            <t pos="TV">hauskuttaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">uzjautrināt</t>
@@ -62600,7 +62616,7 @@
             <t pos="TV">viilida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">viilata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vīlēt</t>
@@ -62627,7 +62643,8 @@
             <t pos="TV">kujutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kuvata</t>
+            <t pos="TV">kuvailla</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">attēlot</t>
@@ -62646,7 +62663,8 @@
             <t pos="TV">viidata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">viitata</t>
+            <t pos="TV">osoittaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">norādīt</t>
@@ -62663,7 +62681,7 @@
             <t pos="TV">moodustada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">muodostaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">veidot</t>
@@ -62691,7 +62709,8 @@
             <t pos="IV">mossitada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">murjottaa</t>
+            <t pos="IV">mököttää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">nīgroties</t>
@@ -62718,7 +62737,8 @@
             <t pos="IV">udutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">vihmoa</t>
+            <t pos="IV">tihuttaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">smidzināt</t>
@@ -62750,7 +62770,8 @@
             </tCtn>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">vihmoa</t>
+            <t pos="IV">tihuttaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">smidzināt</t>
@@ -62779,7 +62800,8 @@
             <t pos="IV">lomberdada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">laahustaa</t>
+            <t pos="IV">kömpiä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">steberēt</t>
@@ -62806,7 +62828,7 @@
             <t pos="IV">vingerdada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">kiemurrella</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">locīties</t>
@@ -62853,7 +62875,8 @@
             <t pos="IV">väherda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">kieriskellä</t>
+            <t pos="IV">vääntelehtiä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">vārtīties</t>
@@ -62907,9 +62930,10 @@
             <t pos="TV">orjastada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">orjuuttaa</t>
          </tg>
          <tg xml:lang="lav">
+            <t pos="TV">paverdzināt</t>
             <t pos="TV">nospiest verdzībā</t>
          </tg>
       </mg>
@@ -62934,7 +62958,7 @@
             <t pos="TV">orjata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">orjailla</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vergot</t>
@@ -62961,7 +62985,8 @@
             <t pos="TV">valvata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vahtia</t>
+            <t pos="TV">vartioida</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">sargāt</t>
@@ -62989,7 +63014,7 @@
             <t pos="TV">vaevata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vaivata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">nomākt</t>
@@ -63006,7 +63031,7 @@
             <t pos="TV">piinata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">piinata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">mocīt</t>
@@ -63023,7 +63048,7 @@
             <t pos="TV">ahistada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">ahdistella</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vajāt</t>
@@ -63042,7 +63067,7 @@
       <mg>
          <m>
             <head/>
-            <semRel>&gt; vannõ 2</semRel>
+            <semRel>&gt; vannõ 1</semRel>
          </m>
          <tg xml:lang="eng">
             <t pos="TV">YY</t>
@@ -63051,7 +63076,7 @@
             <t pos="TV">vanduda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kiroilla</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">lādēties</t>
@@ -63078,7 +63103,7 @@
             <t pos="TV">vannutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vannottaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">zvērināt</t>
@@ -63105,7 +63130,8 @@
             <t pos="TV">kurnata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">näännyttää</t>
+            <t pos="TV">nälkiinnyttää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vārdzināt</t>
@@ -63132,7 +63158,7 @@
             <t pos="TV">valitseda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">hallita</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">valdīt</t>
@@ -63150,7 +63176,8 @@
             <t pos="TV">talitseda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">hillitä</t>
+            <t pos="TV">pitää aisoissa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">valdīt</t>
@@ -63179,7 +63206,8 @@
             <t pos="TV">avada ja sulgeda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kolkutella</t>
+            <t pos="TV">liikutella</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vārstīt</t>
@@ -63206,7 +63234,7 @@
             <t pos="TV">suunata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">suunnata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">virzīt</t>
@@ -63235,7 +63263,8 @@
             <t pos="TV">võrku kivitada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kivestää</t>
+            <t pos="TV">varustaa verkko painoilla</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">aprīkot tīklu ar gremdiem</t>
@@ -63290,7 +63319,8 @@
             <t pos="TV">koguda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">keräillä</t>
+            <t pos="TV">koota</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vākt</t>
@@ -63319,7 +63349,9 @@
             <t pos="TV">vaevata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">piinata</t>
+            <t pos="TV">kiduttaa</t>
+            <t pos="TV">vaivata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">mocīt</t>
@@ -63347,7 +63379,7 @@
             <t pos="IV">hääbuda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">nääntyä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">novārgt</t>
@@ -63374,7 +63406,7 @@
             <t pos="TV">vahatada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vahata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vaskot</t>
@@ -63402,7 +63434,8 @@
             <t pos="TV">vahule lüüa</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vaahdottaa</t>
+            <t pos="TV">vatkata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">putot</t>
@@ -63431,7 +63464,8 @@
             <t pos="IV">kobrutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">vaahdota</t>
+            <t pos="IV">kuohua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">putot</t>
@@ -63459,7 +63493,7 @@
             <t pos="TV">viirastuda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kummitella</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">rēgoties</t>
@@ -63478,6 +63512,8 @@
       <mg>
          <m>
             <head/>
+            <semRel>= mõllõ</semRel>
+            <semRel>= ūlastõ</semRel>
          </m>
          <tg xml:lang="eng">
             <t pos="IV">YY</t>
@@ -63486,7 +63522,8 @@
             <t pos="IV">möllata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">riehua</t>
+            <t pos="IV">raivota</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">trakot</t>
@@ -63514,7 +63551,8 @@
             <t pos="TV">võõrutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vieraannuttaa</t>
+            <t pos="TV">vieroittaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">atradināt</t>
@@ -63541,7 +63579,8 @@
             <t pos="IV">võõrduda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">vieraantua</t>
+            <t pos="IV">vieroittua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">atradināties</t>
@@ -63569,7 +63608,8 @@
             <t pos="TV">võõrutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vieraannuttaa</t>
+            <t pos="TV">vieroittaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">atradināt</t>
@@ -63596,7 +63636,7 @@
             <t pos="TV">hoida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">pitää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">turēt</t>
@@ -63613,7 +63653,9 @@
             <t pos="TV">hoida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">hoitaa</t>
+            <t pos="TV">pitää huolta</t>
+            <t pos="TV">huolehtia</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">glabāt</t>
@@ -63634,7 +63676,8 @@
             <t pos="TV">halastada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">suojella</t>
+            <t pos="TV">säästää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">saudzēt</t>
@@ -63661,7 +63704,7 @@
             <t pos="IV">hoiduda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">pysytellä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">turēties</t>
@@ -63688,7 +63731,7 @@
             <t pos="TV">ujutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">uittaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">peldināt</t>
@@ -63705,7 +63748,8 @@
             <t pos="TV">parvetada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">lautata</t>
+            <t pos="TV">uittaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">pludināt</t>
@@ -63759,7 +63803,8 @@
             <t pos="IV">ohata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">huoata</t>
+            <t pos="IV">huokaista</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">nopūsties</t>
@@ -63776,7 +63821,8 @@
             <t pos="IV">oiata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">voihkaista</t>
+            <t pos="IV">voihkia</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">vaidēt</t>
@@ -63805,7 +63851,7 @@
             <t pos="TV">huitada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kietoa lankaa verkkokäpyyn</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">uztīt uz vārpstiņas</t>
@@ -63822,7 +63868,7 @@
             <t pos="TV">mähkida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kääriä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">ietīt</t>
@@ -63849,16 +63895,42 @@
          <tg xml:lang="est">
             <tCtn>
                <t pos="V-Aux">oleks</t>
-               <re>ma, ta, see</re>
+               <re>ma</re>
             </tCtn>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V-Aux">XX</t>
+            <t pos="V-Aux">olisin</t>
          </tg>
          <tg xml:lang="lav">
             <tCtn>
                <t pos="V-Aux">būtu</t>
-               <re>es, viņš, tas</re>
+               <re>es</re>
+            </tCtn>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="V-Aux">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <tCtn>
+               <t pos="V-Aux">oleks</t>
+               <re>ta, see</re>
+            </tCtn>
+         </tg>
+         <tg xml:lang="fin">
+            <tCtn>
+               <t pos="V-Aux">olisi</t>
+               <re>hän, se</re>
+            </tCtn>
+         </tg>
+         <tg xml:lang="lav">
+            <tCtn>
+               <t pos="V-Aux">būtu</t>
+               <re>viņš, tas</re>
             </tCtn>
          </tg>
       </mg>
@@ -63883,7 +63955,7 @@
             <t pos="V-Aux">oleksime</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V-Aux">XX</t>
+            <t pos="V-Aux">olisimme</t>
          </tg>
          <tg xml:lang="lav">
             <tCtn>
@@ -63916,7 +63988,7 @@
             </tCtn>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V-Aux">XX</t>
+            <t pos="V-Aux">olisit</t>
          </tg>
          <tg xml:lang="lav">
             <tCtn>
@@ -63943,16 +64015,35 @@
             <t pos="V-Aux">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="V-Aux">oleksite</t>
-            <t>oleksid</t>
+            <t pos="V-Aux">oleksid</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V-Aux">XX</t>
+            <t pos="V-Aux">olisivad</t>
          </tg>
          <tg xml:lang="lav">
             <tCtn>
                <t pos="V-Aux">būtu</t>
-               <re>viņi</re>
+               <re>viņi, tie</re>
+            </tCtn>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="V-Aux">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="V-Aux">oleksite</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="V-Aux">olisitte</t>
+         </tg>
+         <tg xml:lang="lav">
+            <tCtn>
+               <t pos="V-Aux">būtu</t>
+               <re>jūs</re>
             </tCtn>
          </tg>
       </mg>
@@ -64103,7 +64194,7 @@
             <t pos="TV">osta</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">ostaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">pirkt</t>
@@ -64251,7 +64342,7 @@
             <t pos="IV">laabuda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">onnistua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">izdoties</t>
@@ -64279,7 +64370,7 @@
             <t pos="TV">roovida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">rimoittaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">latot</t>
@@ -64293,27 +64384,6 @@
             <st Contlex="V-AUX_VȰLDA">vȯʼl</st>
          </stg>
          <stress>vȯʼl 2</stress>
-      </lg>
-      <pos>V-Aux</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t pos="V-Aux">YY</t>
-         </tg>
-         <tg xml:lang="fin">
-            <t pos="V-Aux">XX</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>vȯʼlgid</l>
-         <stg>
-            <st Contlex="V-AUX_VȰLDA">vȯʼlgid</st>
-         </stg>
-         <stress>vȯʼlgid</stress>
       </lg>
       <pos>V-Aux</pos>
       <mg>
@@ -64375,7 +64445,7 @@
             <t pos="V-Aux">ole</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V-Aux">XX</t>
+            <t pos="V-Aux">ole</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="V-Aux">esi</t>
@@ -64402,7 +64472,7 @@
             <t pos="V-Aux">olge</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V-Aux">XX</t>
+            <t pos="V-Aux">olkaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="V-Aux">esiet</t>
@@ -64430,7 +64500,7 @@
             <t pos="TV">osuda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">osua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">trāpīt</t>
@@ -64487,7 +64557,7 @@
             <t pos="V-Aux">olid</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V-Aux">XX</t>
+            <t pos="V-Aux">olit</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="V-Aux">biji</t>
@@ -64512,19 +64582,34 @@
             <t pos="V-Aux">were</t>
          </tg>
          <tg xml:lang="est">
+            <t pos="V-Aux">olite</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="V-Aux">olitte</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="V-Aux">bijāt</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ vȯʼļțõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="V-Aux">were</t>
+         </tg>
+         <tg xml:lang="est">
             <tCtn>
-               <t pos="V-Aux">olite</t>
                <t pos="V-Aux">olid</t>
                <re>nad, need</re>
             </tCtn>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V-Aux">olitte</t>
             <t pos="V-Aux">olivat</t>
          </tg>
          <tg xml:lang="lav">
             <tCtn>
-               <t pos="V-Aux">bijāt</t>
                <t pos="V-Aux">bija</t>
                <re>viņi, tie</re>
             </tCtn>
@@ -64551,7 +64636,8 @@
             <t pos="TV">hoiduda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vältellä</t>
+            <t pos="TV">välttää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">izvairīties</t>
@@ -64605,7 +64691,7 @@
             <t pos="IV">oleneda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">riippua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">būt atkarīgam</t>
@@ -64632,7 +64718,7 @@
             <t pos="TV">oletada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">olettaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">pieļaut varbūtību</t>
@@ -64659,7 +64745,7 @@
             <t pos="TV">jumalat teotada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">herjata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">zaimot</t>
@@ -64688,7 +64774,8 @@
             <t pos="TV">võida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">voidella</t>
+            <t pos="TV">öljytä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">ieziest</t>
@@ -64716,7 +64803,7 @@
             <t pos="TV">sihtida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">tähdätä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">mērķēt</t>
@@ -64743,7 +64830,7 @@
             <t pos="TV">laulda ilmalikku laulu, šlaagrit</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">laulaa iskelmiä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">dziedāt ziņģes</t>
@@ -64772,7 +64859,8 @@
             <t pos="TV">sädemeid heita</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kipinöidä</t>
+            <t pos="TV">säkenöidä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">dzirksteļot</t>
@@ -64800,7 +64888,7 @@
             <t pos="TV">ette kuulutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">ennustaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">zīlēt</t>
@@ -64819,6 +64907,7 @@
       <mg>
          <m>
             <head/>
+            <semRel>&gt; valktõ</semRel>  
          </m>
          <tg xml:lang="eng">
             <t pos="IV">YY</t>
@@ -64827,7 +64916,7 @@
             <t pos="IV">välkuda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">salamoida</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">zibeņot</t>
@@ -64854,7 +64943,7 @@
             <t pos="TV">kägistada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kuristaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">žņaugt</t>
@@ -64881,7 +64970,7 @@
             <t pos="TV">sorteerida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">lajitella</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">šķirot</t>
@@ -64908,7 +64997,8 @@
             <t pos="IV">nühkida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">kiehnätä</t>
+            <t pos="IV">kyhnyttää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">berzēties</t>
@@ -64937,7 +65027,9 @@
             <t pos="IV">kopitada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">ummehtua</t>
+            <t pos="IV">tunkkaantua</t>
+            <t pos="IV">eltaantua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">sasmakt</t>
@@ -64957,7 +65049,8 @@
             <t pos="IV">pehkida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">lahota</t>
+            <t pos="IV">maatua</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">trūdēt</t>
@@ -64985,7 +65078,7 @@
             <t pos="TV">kõlistada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">kilistää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">šķindināt</t>
@@ -65013,7 +65106,8 @@
             <t pos="IV">lüüa</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">soida</t>
+            <t pos="IV">lyödä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">zvanīt</t>
@@ -65040,7 +65134,8 @@
             <t pos="TV">materdada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">nuijia</t>
+            <t pos="TV">hakata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">slānīt</t>
@@ -65067,7 +65162,8 @@
             <t pos="TV">viibutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">huitoa</t>
+            <t pos="TV">heilutella</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">vicināt</t>
@@ -65095,7 +65191,7 @@
             <t pos="TV">vannutada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vannottaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">zvērināt</t>
@@ -65124,7 +65220,8 @@
             <t pos="TV">tõotada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">vannoa</t>
+            <t pos="TV">vannoa vala</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">zvērēt</t>
@@ -65151,7 +65248,7 @@
             <t pos="TV">seebitada</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="TV">XX</t>
+            <t pos="TV">saippuoida</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="TV">ziepēt</t>
@@ -65178,7 +65275,7 @@
             <t pos="IV">sumiseda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">surista</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">zumēt</t>
@@ -65195,7 +65292,7 @@
             <t pos="IV">piniseda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">inistä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">sīkt</t>
@@ -65223,10 +65320,12 @@
             <t pos="IV">torgata</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">pistää</t>
+            <t pos="IV">pistellä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">durt</t>
+            <t pos="IV">durties</t>
          </tg>
       </mg>
    </e>
@@ -68688,7 +68787,9 @@
             <t pos="IV">märatseda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="IV">XX</t>
+            <t pos="IV">riehua</t>
+            <t pos="IV">raivota</t>
+            <t pos="IV">reuhata</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="IV">plosīties</t>
