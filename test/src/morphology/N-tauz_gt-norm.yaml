@@ -1,0 +1,37 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+# Comments after each adjective:
+# ok = checked against Marit/Maja
+# ? = not checked
+# c = Comp or Superl attested in corpus
+
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Noun - täuž: # nouns 112 '(eng) full / (fin) täysi' 
+    täuž+N+Sg+Nom: täuž
+    täuž+N+Sg+Gen: täud
+    täuž+N+Sg+Par: tǟta
+    täuž+N+Pl+Dat: täudõn
+    täuž+N+Sg+Ins: täudkõks
+    täuž+N+Sg+Ill: täudõ
+    täuž+N+Sg+Ela: täudstõ
+    täuž+N+Pl+Nom: tǟdõd
+    täuž+N+Pl+Gen: tǟdõd
+    täuž+N+Pl+Par: täuži
+    täuž+N+Pl+Dat: tǟdõdõn
+    täuž+N+Pl+Ins: tǟdõdõks
+    täuž+N+Pl+Ill: täužiz
+    täuž+N+Pl+Ela: täužist
