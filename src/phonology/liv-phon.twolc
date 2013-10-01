@@ -147,7 +147,7 @@ e:ē<=> # Cons* _  ( i: ) :Cons+ Vows: %^VowsLI1:0 ;
 
 "ä:ǟ in first syllable"
 !! __@RULENAME@__  
-ä:ǟ <=> # Cons* _  ( u: ) :Cons+ (Vows:) %^VowsLI1:0 ;
+ä:ǟ <=> # Cons:* _  ( u: ) Cons:+ (Vows:) %^VowsLI1:0 ;
 
 "0:i after shortened vowel or diphthong"
 !! __@RULENAME@__  
@@ -206,7 +206,7 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 
 "u:0 in second position of first-syllable diphthong"
 !! __@RULENAME@__  
-u:0 <=> # Cons* [ õ: | ä: ]  _ :Cons+ (Vows:) %^VowsLI1:0 ;
+u:0 <=> # Cons:* [ õ: | ä: ]  _ Cons:+ (Vows:) %^VowsLI1:0 ;
 
 
 !! !Zero to vowel
