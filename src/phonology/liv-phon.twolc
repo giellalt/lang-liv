@@ -35,6 +35,10 @@ K1:k       !!= * @CODE@ this k is not effected by gradation
 
 %^TS:0 !!= * @CODE@ The ti => si
 
+%^D2Ž:0 !!= * @CODE@ The *ti => *si
+
+%^D2ZERO:0 !!= * @CODE@ The d => 0
+
 !! ! Vowel raising
 
 %^RVows:0     !!= * @CODE@ raise vowel
@@ -99,8 +103,9 @@ Rules
 
 !! !!Vowel rules
 
-!! Shortening in first syllable
+!! !Shortening in first syllable
 
+!! 
 "ā:a in first syllable"
 !! __@RULENAME@__  
 ā:a <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ] ;
@@ -135,6 +140,14 @@ Rules
 "e:ē in first syllable"
 !! __@RULENAME@__  
 e:ē<=> # Cons* _  ( i: ) :Cons+ Vows: %^VowsLI1:0 ;
+
+"õ:ȭ in first syllable"
+!! __@RULENAME@__  
+õ:ȭ <=> # Cons* _  ( u: ) :Cons+ Vows: %^VowsLI1:0 ;
+
+"ä:ǟ in first syllable"
+!! __@RULENAME@__  
+ä:ǟ <=> # Cons* _  ( u: ) :Cons+ (Vows:) %^VowsLI1:0 ;
 
 "0:i after shortened vowel or diphthong"
 !! __@RULENAME@__  
@@ -184,14 +197,19 @@ a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1
 !€0 jarr0000õ
 "õ:0"
 !! __@RULENAME@__  
-õ:0 <=>  [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 | ( %^StodRM:0 ) %^ConsSh:0 ] %^VowsRM:0 ;
+õ:0 <=>  [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 | ( %^StodRM:0 ) %^ConsSh:0 | %^VowsLI1:0 ] %^VowsRM:0 ;
 !          Vows %> _ [ d | n | k s | s t ] ;
 
 "i:0 in first syllable"
 !! __@RULENAME@__  
 i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 
-!! Zero to vowel
+"u:0 in second position of first-syllable diphthong"
+!! __@RULENAME@__  
+u:0 <=> # Cons* [ õ: | ä: ]  _ :Cons+ (Vows:) %^VowsLI1:0 ;
+
+
+!! !Zero to vowel
 "0:e in vowel raising kēļ"
 !! __@RULENAME@__  
 0:e <=> Cons* ē: _ Cons %^RVows:0 ;
@@ -208,7 +226,7 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 !! __@RULENAME@__  
  Cx:0 <=> 
 # Cons* Vows ( ʼ: ) Cx _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
-          where Cx in ( t b d g l ļ m n ņ r ŗ v z ž ) ;
+          where Cx in ( t b g l ļ m n ņ r ŗ v z ž ) ;
 
 !! !Consonant lengthening
 
@@ -283,6 +301,17 @@ d:t <=>
 "d:ț "
 !! __@RULENAME@__  
 d:ț <=> [ ț: ] Vows: ( %^ConsSh:0 ) %^VowsRM:0  ( %^ConsRM:0 ) %> _ õ d ;
+
+"d:ž "
+!! __@RULENAME@__  
+d:ž <=>
+       :Vows Cons:* _ (%^VowsLI1:) %^D2Ž:0 ;
+
+"d:0"
+!! __@RULENAME@__  
+d:0 <=>
+     Vows: (Cons:+)  _ (%^VowsLI1:) %^D2ZERO:0 ;  !!= @CODE@ 
+      Cons* Vows ( ʼ: ) d _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
 
 "k:0"
 !! __@RULENAME@__  

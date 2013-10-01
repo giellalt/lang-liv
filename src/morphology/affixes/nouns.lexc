@@ -395,8 +395,18 @@ LEXICON N_KIĻG !!= @CODE@ : 110
 LEXICON N_VȮĻG !!= @CODE@ : 111
 +N:	CASES	;
 
-LEXICON N_TÄUŽ !!= @CODE@ täuž: adres 112
-+N:	CASES	;
+LEXICON N_TÄUŽ !!= @CODE@ täuž:täud adres 112
+!! N_SgGen/d-Nom/ž-Par//ta
+!! __täuž:täud__
+	N_TÄUŽ-SG	;
+	N_TÄUŽ-PL	;
+
+LEXICON N_TÄUŽ-SG !!= @CODE@ : 116
++N:	NMN_TÄUŽ-SG	;
+
+LEXICON N_TÄUŽ-PL !!= @CODE@ : 116
++N:	NMN_TÄUŽ-PL	;
+
 
 LEXICON N_VAŖŽ !!= @CODE@ : 113
 +N:	CASES	;
@@ -408,7 +418,16 @@ LEXICON N_VÕRGÕ !!= @CODE@ : 115
 +N:	CASES	;
 
 LEXICON N_JÕUGÕ !!= @CODE@ : 116
-+N:	CASES	;
+!! N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
+!! __jõugõ:jõugõ__
+	N_JÕUGÕ-SG	;
+	N_JÕUGÕ-PL	;
+
+LEXICON N_JÕUGÕ-SG !!= @CODE@ : 116
++N:	NMN_JÕUGÕ-SG	;
+
+LEXICON N_JÕUGÕ-PL !!= @CODE@ : 116
++N:	NMN_JÕUGÕ-PL	;
 
 LEXICON N_VȬIDAG !!= @CODE@ : 117
 +N:	CASES	;
@@ -1702,7 +1721,27 @@ LEXICON NMN_KIĻG !!= @CODE@ : 110
 LEXICON NMN_VȮĻG !!= @CODE@ : 111
 +TYÄ: #;
 LEXICON NMN_TÄUŽ !!= @CODE@ täuž: adres 112
-+TYÄ: #;
+	NMN_TÄUŽ-SG    ;
+	NMN_TÄUŽ-PL	;
+
+LEXICON NMN_TÄUŽ-SG !!= @CODE@ : 116
+		     SG-DAT_õn	;
+		     SG-ELA_stõ	;
+		     SG-GEN	;
+		     SG-ILL_ZERO	;
+		     SG-ILL_õ	;
+		     SG-INS_kõks	;
+:%^D2Ž		     SG-NOM	;
+:%^VowsLI1%^D2ZERO     SG-PAR_ta	;
+
+
+LEXICON NMN_TÄUŽ-PL !!= @CODE@ : 116
+:%^D2Ž	     PL-ELA/INE_ist	     ;
+:%^D2Ž	     PL-ILL_iz	     ;
+:%^VowsLI1	     PL-INS_DÕKS-STEM	     ;
+:%^D2Ž	     PL-PAR_i	     ;
+
+
 LEXICON NMN_VAŖŽ !!= @CODE@ : 113
 +TYÄ: #;
 LEXICON NMN_PIERZ !!= @CODE@ : 114
@@ -1710,7 +1749,27 @@ LEXICON NMN_PIERZ !!= @CODE@ : 114
 LEXICON NMN_VÕRGÕ !!= @CODE@ : 115
 +TYÄ: #;
 LEXICON NMN_JÕUGÕ !!= @CODE@ : 116
-+TYÄ: #;
+	NMN_JÕUGÕ-SG    ;
+	NMN_JÕUGÕ-PL	;
+
+LEXICON NMN_JÕUGÕ-SG !!= @CODE@ : 116
+     	SG-DAT_n	;
+	SG-ELA_st	;
+	SG-GEN	;
+	SG-ILL_ZERO	;
+	SG-ILL_z	;
+	SG-INS_ks	;
+	SG-NOM	;
+:%^VowsLI1%^VowsRM	     SG-PAR_ța	;
+
+
+LEXICON NMN_JÕUGÕ-PL !!= @CODE@ : 116
+:%^VowsRM	     PL-ELA/INE_ist	     ;
+:%^VowsRM	     PL-ILL_iž	     ;
+		     PL-INS_DÕKS-STEM	     ;
+:%^VowsRM	     PL-PAR_idi	     ;
+
+
 LEXICON NMN_VȬIDAG !!= @CODE@ : 117
 +TYÄ: #;
 LEXICON NMN_SIELDÕ !!= @CODE@ : 118
@@ -2711,6 +2770,8 @@ LEXICON SG-PAR_tā
 +Sg+Par:%>tā K ;
 LEXICON SG-PAR_ta
 +Sg+Par:%>ta K ;
+LEXICON SG-PAR_ța
++Sg+Par:%>ța K ;
 
 
 LEXICON PL-DAT_dõn

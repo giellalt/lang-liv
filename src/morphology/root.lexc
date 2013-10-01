@@ -207,8 +207,10 @@ Multichar_Symbols
  %^DiphthSh1   !!= * @CODE@ =
  %^VowsLI1     !!= * @CODE@ = Vowel lengthening
  %^VowsLU1     !!= * @CODE@ = 
- %^VowsL1     !!= * @CODE@ =
- %^DiphthL1   !!= * @CODE@ =
+ %^VowsL1      !!= * @CODE@ =
+ %^DiphthL1    !!= * @CODE@ =
+ %^D2Ž         !!= * @CODE@ = The *ti => *si
+ %^D2ZERO      !!= * @CODE@ The d => 0
 
  %^RVows   !!= * @CODE@ = Vowel raising
  %^VowsMetath     !!= * @CODE@ = vowel metathesis in verbs
