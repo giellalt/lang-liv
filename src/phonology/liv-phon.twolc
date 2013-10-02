@@ -108,7 +108,7 @@ Rules
 !! 
 "ā:a in first syllable"
 !! __@RULENAME@__  
-ā:a <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ] ;
+ā:a <=> # Cons* _  ( i ) Cons:+ (Vows:) [ %^Stress1to2:0 | %^VowsSh1:0 ] ;
 
 "ǭ:a in first syllable"
 !! __@RULENAME@__  
@@ -121,19 +121,23 @@ Rules
 
 "ū:u in first syllable"
 !! __@RULENAME@__  
-ū:u <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+ū:u <=> # Cons* _  ( i ) Cons:+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+
+"ū:ȯ in first syllable"
+!! __@RULENAME@__  
+ū:ȯ <=> # Cons* _   o:  Cons:+ (Vows:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 "ī:i in first syllable"
 !! __@RULENAME@__  
-ī:i <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+ī:i <=> # Cons* _  ( i ) Cons:+ (Vows:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 "ȭ:õ in first syllable"
 !! __@RULENAME@__  
-ȭ:õ <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+ȭ:õ <=> # Cons* _  ( i ) Cons:+ (Vows:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 "ō:o in first syllable"
 !! __@RULENAME@__  
-ō:o <=> # Cons* _  ( i ) :Cons+ Vows: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+ō:o <=> # Cons* _  ( i | 0:u ) Cons:+ (Vows:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
 !! lengthen vowels
 
@@ -153,11 +157,21 @@ e:ē<=> # Cons* _  ( i: ) :Cons+ Vows: %^VowsLI1:0 ;
 !! __@RULENAME@__  
 0:i <=> # Cons* [ ē: | ū: o: ] _ :Cons+ Vows: %^VowsShI1:0 ;
 
+"0:u after shortened vowel or diphthong"
+!! __@RULENAME@__  
+0:u <=> # Cons* [ ō: ] _ Cons:+ (Vows:) [ %^Stress1to2:0 ] ;
+
 "a:ǭ in first syllable"
 !! __@RULENAME@__  
 a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 !€# tam%^VowsL1aToǭõd
 !€0 tǭm0õd
+
+"a:ā in first syllable"
+!! __@RULENAME@__  
+a:ā <=> _ :Cons+ (Vows:) %^VowsLI1:0 ;
+!€# kand%^VowsLI1õd
+!€0 kāndõd
 
 !! raise vowels
 "ē:ī in kēļ 215"
@@ -208,8 +222,14 @@ i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
 !! __@RULENAME@__  
 u:0 <=> # Cons:* [ õ: | ä: ]  _ Cons:+ (Vows:) %^VowsLI1:0 ;
 
+"o:0 in second position of first-syllable diphthong"
+!! __@RULENAME@__  
+o:0 <=> # Cons:* [ ū: ]  _ Cons:+ (Vows:) [ %^Stress1to2:0 ] ;
+
+
 
 !! !Zero to vowel
+
 "0:e in vowel raising kēļ"
 !! __@RULENAME@__  
 0:e <=> Cons* ē: _ Cons %^RVows:0 ;
@@ -226,7 +246,7 @@ u:0 <=> # Cons:* [ õ: | ä: ]  _ Cons:+ (Vows:) %^VowsLI1:0 ;
 !! __@RULENAME@__  
  Cx:0 <=> 
 # Cons* Vows ( ʼ: ) Cx _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
-          where Cx in ( t b g l ļ m n ņ r ŗ v z ž ) ;
+          where Cx in ( b g l ļ m n ņ r ŗ v z ž ) ;
 
 !! !Consonant lengthening
 
@@ -295,7 +315,7 @@ r:ŗ <=> _ %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
 "d:t "
 !! __@RULENAME@__  
 d:t <=>
-       :Vows ( ʼ: | :ʼ ) [ s k: | d d: | t t: | k k:  | t s ] Vows: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
+       Vows: ( ʼ: | :ʼ ) [ s k: | d d: | t t: | k k:  | t s | n d | ŗ š t: | r t: | 0:u [ t: | d ] ] (Vows:) ( %^ConsSh:0 |%^Stress1to2:) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
        [ :z | :s | :š ] %> _ ; !! nominative plural 
 
 "d:ț "
@@ -307,11 +327,19 @@ d:ț <=> [ ț: ] Vows: ( %^ConsSh:0 ) %^VowsRM:0  ( %^ConsRM:0 ) %> _ õ d ;
 d:ž <=>
        :Vows Cons:* _ (%^VowsLI1:) %^D2Ž:0 ;
 
+!! !Consonant loss
+
 "d:0"
 !! __@RULENAME@__  
 d:0 <=>
      Vows: (Cons:+)  _ (%^VowsLI1:) %^D2ZERO:0 ;  !!= @CODE@ 
       Cons* Vows ( ʼ: ) d _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
+
+"t:0"
+!! __T loss before subsequent morpheme with underlying initial d__  
+t:0 <=>
+    [ Cons:+ | Vows: 0:u ] _ Vows: ( %^Stress1to2:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
+    # Cons* Vows ( ʼ: ) t _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
 
 "k:0"
 !! __@RULENAME@__  

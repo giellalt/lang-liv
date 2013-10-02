@@ -1,0 +1,37 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+# Comments after each adjective:
+# ok = checked against Marit/Maja
+# ? = not checked
+# c = Comp or Superl attested in corpus
+
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Noun - kand: # nouns 94 '(eng) stump / (fin) kanta' 
+    kand+N+Sg+Nom: kand
+    kand+N+Sg+Gen: kand
+    kand+N+Sg+Par: kandõ
+    kand+N+Sg+Dat: kandõn
+    kand+N+Sg+Ins: kandkõks
+    kand+N+Sg+Ill: kandõ
+    kand+N+Sg+Ela: kandstõ
+    kand+N+Pl+Nom: kāndõd
+    kand+N+Pl+Gen: kāndõd
+    kand+N+Pl+Par: kāndidi
+    kand+N+Pl+Dat: kāndõdõn
+    kand+N+Pl+Ins: kāndõdõks
+    kand+N+Pl+Ill: kāndiž
+    kand+N+Pl+Ela: kāndist
