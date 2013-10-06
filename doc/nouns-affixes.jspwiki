@@ -220,9 +220,11 @@ Stem lexica
 
  LEXICON N_KOUV  : 93
 
- LEXICON N_KAND-PL  : 94
-
  LEXICON N_KAND  : 94
+__kand:kand__
+
+ LEXICON N_KAND-SG  : 94
+ LEXICON N_KAND-PL  : 94
 
  LEXICON N_PȮRT  : 95
 
@@ -259,7 +261,14 @@ Stem lexica
 
  LEXICON N_VȮĻG  : 111
 
- LEXICON N_TÄUŽ  täuž: adres 112
+ LEXICON N_TÄUŽ  täuž:täud adres 112
+N_SgGen/d-Nom/ž-Par//ta
+__täuž:täud__
+
+ LEXICON N_TÄUŽ-SG  : 116
+
+ LEXICON N_TÄUŽ-PL  : 116
+
 
  LEXICON N_VAŖŽ  : 113
 
@@ -268,6 +277,12 @@ Stem lexica
  LEXICON N_VÕRGÕ  : 115
 
  LEXICON N_JÕUGÕ  : 116
+N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
+__jõugõ:jõugõ__
+
+ LEXICON N_JÕUGÕ-SG  : 116
+
+ LEXICON N_JÕUGÕ-PL  : 116
 
  LEXICON N_VȬIDAG  : 117
 
@@ -825,8 +840,11 @@ tēšti
  LEXICON NMN_RADIO  : 91
  LEXICON NMN_ANG  : 92
  LEXICON NMN_KOUV  : 93
- LEXICON NMN_KAND-PL  : 94
+
  LEXICON NMN_KAND  : 94
+ LEXICON NMN_KAND-SG  : 94
+ LEXICON NMN_KAND-PL  : 94
+
  LEXICON NMN_PȮRT  : 95
  LEXICON NMN_NUŖM  : 96
  LEXICON NMN_LAINT  : 97
@@ -848,10 +866,24 @@ tēšti
  LEXICON NMN_KIĻG  : 110
  LEXICON NMN_VȮĻG  : 111
  LEXICON NMN_TÄUŽ  täuž: adres 112
+
+ LEXICON NMN_TÄUŽ-SG  : 116
+
+
+ LEXICON NMN_TÄUŽ-PL  : 116
+
+
  LEXICON NMN_VAŖŽ  : 113
  LEXICON NMN_PIERZ  : 114
  LEXICON NMN_VÕRGÕ  : 115
  LEXICON NMN_JÕUGÕ  : 116
+
+ LEXICON NMN_JÕUGÕ-SG  : 116
+
+
+ LEXICON NMN_JÕUGÕ-PL  : 116
+
+
  LEXICON NMN_VȬIDAG  : 117
  LEXICON NMN_SIELDÕ  : 118
  LEXICON NMN_SIELDÕ-PL  : 118
