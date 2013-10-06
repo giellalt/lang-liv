@@ -198,8 +198,10 @@ And following triggers to control variation
  *  %^DiphthSh1    =
  *  %^VowsLI1      = Vowel lengthening
  *  %^VowsLU1      = 
- *  %^VowsL1      =
- *  %^DiphthL1    =
+ *  %^VowsL1       =
+ *  %^DiphthL1     =
+ *  %^D2Ž          = The *ti => *si
+ *  %^D2ZERO       The d => 0
 
  *  %^RVows    = Vowel raising
  *  %^VowsMetath      = vowel metathesis in verbs
@@ -250,174 +252,6 @@ Words that are not inflected
 
 
  * LEXICON K   is the clitic lexicon, but no clitica here, only #.
-
-
-!!!The Livonian morphophonological/twolc rules file 
-
-
-!!Alphabet
-
- * a b c d e f g h i j k l m n o p q r s t u v w x y z   
- * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
- * ḑ ļ ņ ŗ š ț ž									      
- * Ḑ Ļ Ņ Ŗ Š Ț Ž									      
- * õ ä ö ȯ											      
- * Õ Ä Ö Ȯ											      
- * ā ē ī ō ū ǟ ǭ ȭ ȱ								      
- * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
-
-
-ʼ Stød
-
-
-
-
-! Triggers
-
-
- * K1:k        this k is not effected by gradation
- * %^NoGrad:0   This will be placed after a stem to break Gradation
-
-
- * %^WGStem:0  this weakens the stem ompel to ommel
-
-
- * %^TS:0  The ti => si
-
-! Vowel raising
-
- * %^RVows:0      raise vowel
- * %^VowsSh1:0    vowel shortening in first syllable
- * %^VowsShU1:0   
- * %^VowsShI1:0   
- * %^DiphthSh1:0  
- * %^VowsLI1:0    vowel lengthening that is followed by "i" when short
- * %^VowsLU1:0    vowel lengthening that is followed by "u" when short
- * %^VowsL1:0     vowel lengthening 
- * %^DiphthL1:0   
-
-vowel metathesis
-
-
- * %^DiphthL1:0   lengthen consonant
-
- * %^DiphthL1:0   laps:läpš
-
-
- * %^DiphthL1:0   Hyphen in  constructions 
- * %^DiphthL1:0   morpheme boundary
- * %^DiphthL1:0   Word boundary for both lexicalised and dynamic compounds
-
-
-
-!!!Sets
-
-
-
-
-
-
-
-
-!!!Rule section
-
-!!Vowel rules
-
-Shortening in first syllable
-
-__ā:a in first syllable__  
-
-__ǭ:a in first syllable__  
-
-__ē:e in first syllable__  
-
-__ū:u in first syllable__  
-
-__ī:i in first syllable__  
-
-__ȭ:õ in first syllable__  
-
-__ō:o in first syllable__  
-
-lengthen vowels
-
-__e:ē in first syllable__  
-
-__0:i after shortened vowel or diphthong__  
-
-__a:ǭ in first syllable__  
-
-raise vowels
-__ē:ī in kēļ 215__  
-
-Destressing in second syllable
-__ā:õ __  
-
-__ū:õ __  
-
-Vowel loss
-
-__ā:0__  
-
-__ū:0__  
-
-__ī:0__  
-
-__a:0__  
-__õ:0__  
-
-__i:0 in first syllable__  
-
-Zero to vowel
-__0:e in vowel raising kēļ__  
-
-__0:õ in vowel metathesis__  
-
-
-!!Consonant rules
-
-!Consonant loss 
-__shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb__  
-
-!Consonant lengthening
-
-Lengthening consonantism between first and second vowel center
-simultaneous to reducing vowel of second syllable
-
-__lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ__  
-
-__Stod removal left__  
-
-__Stod removal right__  
-
-
-
-__l:ļ__  
-kēļ:kēl 215
-This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
-
-__n:ņ palatalization__  
-sēņ:sēn 220
-
-__r:ŗ__  
-jūŗ:jūr 221
-
-
-
-__d:t __  
-nominative plural 
-
-__d:ț __  
-
-__k:0__  
-
-__ț:0__  
-
-__s:š palatalization__  
-
-__ǟ:ē palatalization__  
-
-__a:ä palatalization__  
 
 !!!Adjective inflection
 
@@ -855,9 +689,11 @@ Stem lexica
 
  LEXICON N_KOUV  : 93
 
- LEXICON N_KAND-PL  : 94
-
  LEXICON N_KAND  : 94
+__kand:kand__
+
+ LEXICON N_KAND-SG  : 94
+ LEXICON N_KAND-PL  : 94
 
  LEXICON N_PȮRT  : 95
 
@@ -894,7 +730,14 @@ Stem lexica
 
  LEXICON N_VȮĻG  : 111
 
- LEXICON N_TÄUŽ  täuž: adres 112
+ LEXICON N_TÄUŽ  täuž:täud adres 112
+N_SgGen/d-Nom/ž-Par//ta
+__täuž:täud__
+
+ LEXICON N_TÄUŽ-SG  : 116
+
+ LEXICON N_TÄUŽ-PL  : 116
+
 
  LEXICON N_VAŖŽ  : 113
 
@@ -903,6 +746,12 @@ Stem lexica
  LEXICON N_VÕRGÕ  : 115
 
  LEXICON N_JÕUGÕ  : 116
+N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
+__jõugõ:jõugõ__
+
+ LEXICON N_JÕUGÕ-SG  : 116
+
+ LEXICON N_JÕUGÕ-PL  : 116
 
  LEXICON N_VȬIDAG  : 117
 
@@ -1460,8 +1309,11 @@ tēšti
  LEXICON NMN_RADIO  : 91
  LEXICON NMN_ANG  : 92
  LEXICON NMN_KOUV  : 93
- LEXICON NMN_KAND-PL  : 94
+
  LEXICON NMN_KAND  : 94
+ LEXICON NMN_KAND-SG  : 94
+ LEXICON NMN_KAND-PL  : 94
+
  LEXICON NMN_PȮRT  : 95
  LEXICON NMN_NUŖM  : 96
  LEXICON NMN_LAINT  : 97
@@ -1483,10 +1335,24 @@ tēšti
  LEXICON NMN_KIĻG  : 110
  LEXICON NMN_VȮĻG  : 111
  LEXICON NMN_TÄUŽ  täuž: adres 112
+
+ LEXICON NMN_TÄUŽ-SG  : 116
+
+
+ LEXICON NMN_TÄUŽ-PL  : 116
+
+
  LEXICON NMN_VAŖŽ  : 113
  LEXICON NMN_PIERZ  : 114
  LEXICON NMN_VÕRGÕ  : 115
  LEXICON NMN_JÕUGÕ  : 116
+
+ LEXICON NMN_JÕUGÕ-SG  : 116
+
+
+ LEXICON NMN_JÕUGÕ-PL  : 116
+
+
  LEXICON NMN_VȬIDAG  : 117
  LEXICON NMN_SIELDÕ  : 118
  LEXICON NMN_SIELDÕ-PL  : 118
@@ -2284,4 +2150,203 @@ Quotative
 
 
 
+
+
+!!!The Livonian morphophonological/twolc rules file 
+
+
+!!Alphabet
+
+ * a b c d e f g h i j k l m n o p q r s t u v w x y z   
+ * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
+ * ḑ ļ ņ ŗ š ț ž									      
+ * Ḑ Ļ Ņ Ŗ Š Ț Ž									      
+ * õ ä ö ȯ											      
+ * Õ Ä Ö Ȯ											      
+ * ā ē ī ō ū ǟ ǭ ȭ ȱ								      
+ * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
+
+
+ʼ Stød
+
+
+
+
+! Triggers
+
+
+ * K1:k        this k is not effected by gradation
+ * %^NoGrad:0   This will be placed after a stem to break Gradation
+
+
+ * %^WGStem:0  this weakens the stem ompel to ommel
+
+
+ * %^TS:0  The ti => si
+
+ * %^D2Ž:0  The *ti => *si
+
+ * %^D2ZERO:0  The d => 0
+
+! Vowel raising
+
+ * %^RVows:0      raise vowel
+ * %^VowsSh1:0    vowel shortening in first syllable
+ * %^VowsShU1:0   
+ * %^VowsShI1:0   
+ * %^DiphthSh1:0  
+ * %^VowsLI1:0    vowel lengthening that is followed by "i" when short
+ * %^VowsLU1:0    vowel lengthening that is followed by "u" when short
+ * %^VowsL1:0     vowel lengthening 
+ * %^DiphthL1:0   
+
+vowel metathesis
+
+
+ * %^DiphthL1:0   lengthen consonant
+
+ * %^DiphthL1:0   laps:läpš
+
+
+ * %^DiphthL1:0   Hyphen in  constructions 
+ * %^DiphthL1:0   morpheme boundary
+ * %^DiphthL1:0   Word boundary for both lexicalised and dynamic compounds
+
+
+
+!!!Sets
+
+
+
+
+
+
+
+
+!!!Rule section
+
+!!Vowel rules
+
+!Shortening in first syllable
+
+
+__ā:a in first syllable__  
+
+__ǭ:a in first syllable__  
+
+__ē:e in first syllable__  
+
+__ū:u in first syllable__  
+
+__ū:ȯ in first syllable__  
+
+__ī:i in first syllable__  
+
+__ȭ:õ in first syllable__  
+
+__ō:o in first syllable__  
+
+lengthen vowels
+
+__e:ē in first syllable__  
+
+__õ:ȭ in first syllable__  
+
+__ä:ǟ in first syllable__  
+
+__0:i after shortened vowel or diphthong__  
+
+__0:u after shortened vowel or diphthong__  
+
+__a:ǭ in first syllable__  
+
+__a:ā in first syllable__  
+
+raise vowels
+__ē:ī in kēļ 215__  
+
+Destressing in second syllable
+__ā:õ __  
+
+__ū:õ __  
+
+Vowel loss
+
+__ā:0__  
+
+__ū:0__  
+
+__ī:0__  
+
+__a:0__  
+__õ:0__  
+
+__i:0 in first syllable__  
+
+__u:0 in second position of first-syllable diphthong__  
+
+__o:0 in second position of first-syllable diphthong__  
+
+
+
+!Zero to vowel
+
+__0:e in vowel raising kēļ__  
+
+__0:õ in vowel metathesis__  
+
+
+!!Consonant rules
+
+!Consonant loss 
+__shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb__  
+
+!Consonant lengthening
+
+Lengthening consonantism between first and second vowel center
+simultaneous to reducing vowel of second syllable
+
+__lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ__  
+
+__Stod removal left__  
+
+__Stod removal right__  
+
+
+
+__l:ļ__  
+kēļ:kēl 215
+This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
+
+__n:ņ palatalization__  
+sēņ:sēn 220
+
+__r:ŗ__  
+jūŗ:jūr 221
+
+
+
+__d:t __  
+nominative plural 
+
+__d:ț __  
+
+__d:ž __  
+
+!Consonant loss
+
+__d:0__  
+      Vows: (Cons:+)  _ (%^VowsLI1:) %^D2ZERO:0 ;   
+
+__T loss before subsequent morpheme with underlying initial d__  
+
+__k:0__  
+
+__ț:0__  
+
+__s:š palatalization__  
+
+__ǟ:ē palatalization__  
+
+__a:ä palatalization__  
 
