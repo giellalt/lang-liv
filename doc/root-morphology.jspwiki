@@ -187,8 +187,10 @@ And following triggers to control variation
  *  %^DiphthSh1    =
  *  %^VowsLI1      = Vowel lengthening
  *  %^VowsLU1      = 
- *  %^VowsL1      =
- *  %^DiphthL1    =
+ *  %^VowsL1       =
+ *  %^DiphthL1     =
+ *  %^D2Ž          = The *ti => *si
+ *  %^D2ZERO       The d => 0
 
  *  %^RVows    = Vowel raising
  *  %^VowsMetath      = vowel metathesis in verbs

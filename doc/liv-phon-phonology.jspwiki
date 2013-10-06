@@ -31,6 +31,10 @@
 
  * %^TS:0  The ti => si
 
+ * %^D2Ž:0  The *ti => *si
+
+ * %^D2ZERO:0  The d => 0
+
 ! Vowel raising
 
  * %^RVows:0      raise vowel
@@ -70,7 +74,8 @@ vowel metathesis
 
 !!Vowel rules
 
-Shortening in first syllable
+!Shortening in first syllable
+
 
 __ā:a in first syllable__  
 
@@ -79,6 +84,8 @@ __ǭ:a in first syllable__
 __ē:e in first syllable__  
 
 __ū:u in first syllable__  
+
+__ū:ȯ in first syllable__  
 
 __ī:i in first syllable__  
 
@@ -90,9 +97,17 @@ lengthen vowels
 
 __e:ē in first syllable__  
 
+__õ:ȭ in first syllable__  
+
+__ä:ǟ in first syllable__  
+
 __0:i after shortened vowel or diphthong__  
 
+__0:u after shortened vowel or diphthong__  
+
 __a:ǭ in first syllable__  
+
+__a:ā in first syllable__  
 
 raise vowels
 __ē:ī in kēļ 215__  
@@ -115,7 +130,14 @@ __õ:0__
 
 __i:0 in first syllable__  
 
-Zero to vowel
+__u:0 in second position of first-syllable diphthong__  
+
+__o:0 in second position of first-syllable diphthong__  
+
+
+
+!Zero to vowel
+
 __0:e in vowel raising kēļ__  
 
 __0:õ in vowel metathesis__  
@@ -155,6 +177,15 @@ __d:t __
 nominative plural 
 
 __d:ț __  
+
+__d:ž __  
+
+!Consonant loss
+
+__d:0__  
+      Vows: (Cons:+)  _ (%^VowsLI1:) %^D2ZERO:0 ;   
+
+__T loss before subsequent morpheme with underlying initial d__  
 
 __k:0__  
 
