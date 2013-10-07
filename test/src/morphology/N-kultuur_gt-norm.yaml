@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kultūr: # Noun 130 'eng /est kultuur/fin' - full paradigm
+     kultūr+N+Sg+Nom: kultūr
+     kultūr+N+Sg+Gen: kultūr
+     kultūr+N+Sg+Par: kultūrõ
+     kultūr+N+Sg+Dat: kultūrõn
+     kultūr+N+Sg+Ins: kultūrõks
+     kultūr+N+Sg+Ill: kultūrõ
+     kultūr+N+Sg+Ela: kultūrst
+     kultūr+N+Pl+Nom: kultūrõd
+     kultūr+N+Pl+Gen: kultūrõd
+     kultūr+N+Pl+Par: kultūridi
+     kultūr+N+Pl+Dat: kultūrõdõn
+     kultūr+N+Pl+Ins: kultūrõdõks
+     kultūr+N+Pl+Ill: kultūriž
+     kultūr+N+Pl+Ela: kultūrist
+

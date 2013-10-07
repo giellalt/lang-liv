@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - piʼņ: # Noun 64 'eng /est koer/fin' - full paradigm
+     piʼņ+N+Sg+Nom: piʼņ
+     piʼņ+N+Sg+Gen: piʼņ
+     piʼņ+N+Sg+Par: piʼņņõ
+     piʼņ+N+Sg+Dat: piʼņņõn
+     piʼņ+N+Sg+Ins: [piʼņkõks, +]
+     piʼņ+N+Sg+Ill: piʼņņõ
+     piʼņ+N+Sg+Ela: piʼņštõ
+     piʼņ+N+Pl+Nom: piņīd
+     piʼņ+N+Pl+Gen: piņīd
+     piʼņ+N+Pl+Par: piņīdi
+     piʼņ+N+Pl+Dat: piņīdõn
+     piʼņ+N+Pl+Ins: piņīdõks
+     piʼņ+N+Pl+Ill: piņīž
+     piʼņ+N+Pl+Ela: piņīst
+

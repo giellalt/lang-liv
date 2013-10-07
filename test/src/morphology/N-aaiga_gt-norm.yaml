@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - āiga: # Noun 33 'eng /est aeg/fin' - full paradigm
+     āiga+N+Sg+Nom: āiga
+     āiga+N+Sg+Gen: āiga
+     āiga+N+Sg+Par: aigõ
+     āiga+N+Sg+Dat: āigan
+     āiga+N+Sg+Ins: āigaks
+     āiga+N+Sg+Ill: aigõ
+     āiga+N+Sg+Ela: āigast
+     āiga+N+Pl+Nom: āigad
+     āiga+N+Pl+Gen: āigad
+     āiga+N+Pl+Par: aigi
+     āiga+N+Pl+Dat: āigadõn
+     āiga+N+Pl+Ins: āigadõks
+     āiga+N+Pl+Ill: [aigži, āigiž]
+     āiga+N+Pl+Ela: [āigist, aigšti]
+

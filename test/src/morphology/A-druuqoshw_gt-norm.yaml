@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - drūʼošõ: # adjectives 121 'eng /est julge/fin' - full paradigm
+     drūʼošõ+A+Sg+Nom: drūʼošõ
+     drūʼošõ+A+Sg+Gen: drūʼošõ
+     drūʼošõ+A+Sg+Par: drūʼošõ
+     drūʼošõ+A+Sg+Dat: drūʼošõn
+     drūʼošõ+A+Sg+Ins: drūʼošõks
+     drūʼošõ+A+Sg+Ill: drūʼošõ(z)
+     drūʼošõ+A+Sg+Ela: drūʼošõst
+     drūʼošõ+A+Pl+Nom: drūʼošõd
+     drūʼošõ+A+Pl+Gen: drūʼošõd
+     drūʼošõ+A+Pl+Par: drūʼošidi
+     drūʼošõ+A+Pl+Dat: drūʼošõdõn
+     drūʼošõ+A+Pl+Ins: drūʼošõdõks
+     drūʼošõ+A+Pl+Ill: drūošiz
+     drūʼošõ+A+Pl+Ela: drūošist
+

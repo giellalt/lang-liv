@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - aʼm: # Noun 152 'eng /est kuub/fin' - full paradigm
+     aʼm+N+Sg+Nom: aʼm
+     aʼm+N+Sg+Gen: aʼm
+     aʼm+N+Sg+Par: aʼmtõ
+     aʼm+N+Sg+Dat: aʼmmõn
+     aʼm+N+Sg+Ins: aʼmkõks
+     aʼm+N+Sg+Ill: aʼmmõ
+     aʼm+N+Sg+Ela: aʼmstõ
+     aʼm+N+Pl+Nom: aʼmmõd
+     aʼm+N+Pl+Gen: aʼmmõd
+     aʼm+N+Pl+Par: aʼmmidi
+     aʼm+N+Pl+Dat: aʼmmõdõn
+     aʼm+N+Pl+Ins: aʼmmõdõks
+     aʼm+N+Pl+Ill: aʼmmiž
+     aʼm+N+Pl+Ela: aʼmmist
+

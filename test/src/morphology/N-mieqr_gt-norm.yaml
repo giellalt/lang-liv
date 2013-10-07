@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - mieʼr: # Noun 82 'eng /est meri/fin' - full paradigm
+     mieʼr+N+Sg+Nom: mieʼr
+     mieʼr+N+Sg+Gen: mieʼr
+     mieʼr+N+Sg+Par: mīerda
+     mieʼr+N+Sg+Dat: mieʼrrõn
+     mieʼr+N+Sg+Ins: mieʼrkõks
+     mieʼr+N+Sg+Ill: mieʼrrõ
+     mieʼr+N+Sg+Ela: mieʼrstõ
+     mieʼr+N+Pl+Nom: mierūd
+     mieʼr+N+Pl+Gen: mierūd
+     mieʼr+N+Pl+Par: mierīdi
+     mieʼr+N+Pl+Dat: mierūdõn
+     mieʼr+N+Pl+Ins: mierūdõks
+     mieʼr+N+Pl+Ill: mierīž
+     mieʼr+N+Pl+Ela: mieʼršti
+

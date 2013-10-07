@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - reņ: # Noun 67 'eng /est renn/fin' - full paradigm
+     reņ+N+Sg+Nom: reņ
+     reņ+N+Sg+Gen: reņ
+     reņ+N+Sg+Par: reņņõ
+     reņ+N+Sg+Dat: reņņõn
+     reņ+N+Sg+Ins: reņņõks
+     reņ+N+Sg+Ill: reņņõ
+     reņ+N+Sg+Ela: reņštõ
+     reņ+N+Pl+Nom: rēņid
+     reņ+N+Pl+Gen: rēņid
+     reņ+N+Pl+Par: rēņidi
+     reņ+N+Pl+Dat: rēņidõn
+     reņ+N+Pl+Ins: rēņidõks
+     reņ+N+Pl+Ill: rēņiž
+     reņ+N+Pl+Ela: rēņist
+

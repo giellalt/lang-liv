@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - āļdža: # Noun 27 'eng /est aevastus/fin' - full paradigm
+     āļdža+N+Sg+Nom: āļdža
+     āļdža+N+Sg+Gen: āļdža
+     āļdža+N+Sg+Par: aļdžõ
+     āļdža+N+Sg+Dat: āļdžan
+     āļdža+N+Sg+Ins: āļdžaks
+     āļdža+N+Sg+Ill: aļdžõ
+     āļdža+N+Sg+Ela: āļdžast
+     āļdža+N+Pl+Nom: āļdžad
+     āļdža+N+Pl+Gen: āļdžad
+     āļdža+N+Pl+Par: aļdžḑi
+     āļdža+N+Pl+Dat: āļdžadõn
+     āļdža+N+Pl+Ins: āļdžadõks
+     āļdža+N+Pl+Ill: āļdžiz
+     āļdža+N+Pl+Ela: āļdžist
+

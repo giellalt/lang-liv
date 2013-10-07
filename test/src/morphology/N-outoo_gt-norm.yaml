@@ -1,0 +1,35 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - outō: # Noun 90 'eng /est auto/fin' - full paradigm
+     outō+N+Sg+Nom: outō
+     outō+N+Sg+Gen: outō
+     outō+N+Sg+Par: outō
+     outō+N+Sg+Dat: outōn
+     outō+N+Sg+Ins: outōks
+     outō+N+Sg+Ill: outō(z)
+     outō+N+Sg+Ela: outōst
+     outō+N+Pl+Nom: outōd
+     outō+N+Pl+Gen: outōd
+     outō+N+Pl+Par: outīdi
+     outō+N+Pl+Dat: outōdõn
+     outō+N+Pl+Ins: outōdõks
+     outō+N+Pl+Ill: outīž
+     outō+N+Pl+Ela: outīst
+
+

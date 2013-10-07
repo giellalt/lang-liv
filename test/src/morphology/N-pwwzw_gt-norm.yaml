@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pȭzõ: # Noun 118 'eng /est põõsas/fin' - full paradigm
+     pȭzõ+N+Sg+Nom: pȭzõ
+     pȭzõ+N+Sg+Gen: pȭzõ
+     pȭzõ+N+Sg+Par: pȭzõ
+     pȭzõ+N+Sg+Dat: pȭzõn
+     pȭzõ+N+Sg+Ins: pȭzõks
+     pȭzõ+N+Sg+Ill: pȭzõ(z)
+     pȭzõ+N+Sg+Ela: pȭzõst
+     pȭzõ+N+Pl+Nom: pȭzõd
+     pȭzõ+N+Pl+Gen: pȭzõd
+     pȭzõ+N+Pl+Par: pȭzidi
+     pȭzõ+N+Pl+Dat: pȭzõdõn
+     pȭzõ+N+Pl+Ins: pȭzõdõks
+     pȭzõ+N+Pl+Ill: pȭziž
+     pȭzõ+N+Pl+Ela: pȭzist
+

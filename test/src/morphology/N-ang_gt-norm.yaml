@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ang: # Noun 92 'eng /est hang ­u/fin' - full paradigm
+     ang+N+Sg+Nom: ang
+     ang+N+Sg+Gen: ang
+     ang+N+Sg+Par: angõ
+     ang+N+Sg+Dat: angõn
+     ang+N+Sg+Ins: angkõks
+     ang+N+Sg+Ill: angõ
+     ang+N+Sg+Ela: angstõ
+     ang+N+Pl+Nom: āngõd
+     ang+N+Pl+Gen: āngõd
+     ang+N+Pl+Par: angḑi
+     ang+N+Pl+Dat: āngõdõn
+     ang+N+Pl+Ins: āngõdõks
+     ang+N+Pl+Ill: āngiž
+     ang+N+Pl+Ela: āngist
+
