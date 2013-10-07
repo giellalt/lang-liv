@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tubā: # Noun 19 'eng /est tuba/fin' - full paradigm
+     tubā+N+Sg+Nom: tubā
+     tubā+N+Sg+Gen: tubā
+     tubā+N+Sg+Par: tuʼbbõ
+     tubā+N+Sg+Dat: tubān
+     tubā+N+Sg+Ins: tubāks
+     tubā+N+Sg+Ill: tuʼbbõ
+     tubā+N+Sg+Ela: tubāst
+     tubā+N+Pl+Nom: tubād
+     tubā+N+Pl+Gen: tubād
+     tubā+N+Pl+Par: tuʼbḑi
+     tubā+N+Pl+Dat: tubādõn
+     tubā+N+Pl+Ins: tubādõks
+     tubā+N+Pl+Ill: tuʼbži
+     tubā+N+Pl+Ela: tuʼbšti
+

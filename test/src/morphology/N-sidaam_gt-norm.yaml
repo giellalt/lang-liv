@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sidām: # Noun 157 'eng /est lible/fin' - full paradigm
+     sidām+N+Sg+Nom: sidām
+     sidām+N+Sg+Gen: sidām
+     sidām+N+Sg+Par: sidāmt
+     sidām+N+Sg+Dat: sidāmõn
+     sidām+N+Sg+Ins: sidāmõks
+     sidām+N+Sg+Ill: sidāmõ
+     sidām+N+Sg+Ela: sidāmõst
+     sidām+N+Pl+Nom: sidāmõd
+     sidām+N+Pl+Gen: sidāmõd
+     sidām+N+Pl+Par: sidāmidi
+     sidām+N+Pl+Dat: sidāmõdõn
+     sidām+N+Pl+Ins: sidāmõdõks
+     sidām+N+Pl+Ill: sidāmiž
+     sidām+N+Pl+Ela: sidāmist
+

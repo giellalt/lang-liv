@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sīlma: # Noun 34 'eng /est silm/fin' - full paradigm
+     sīlma+N+Sg+Nom: sīlma
+     sīlma+N+Sg+Gen: sīlma
+     sīlma+N+Sg+Par: silmõ
+     sīlma+N+Sg+Dat: sīlman
+     sīlma+N+Sg+Ins: sīlmaks
+     sīlma+N+Sg+Ill: silmõ
+     sīlma+N+Sg+Ela: sīlmast
+     sīlma+N+Pl+Nom: sīlmad
+     sīlma+N+Pl+Gen: sīlmad
+     sīlma+N+Pl+Par: siļmi
+     sīlma+N+Pl+Dat: sīlmadõn
+     sīlma+N+Pl+Ins: sīlmadõks
+     sīlma+N+Pl+Ill: [siļmži, sīlmiž]
+     sīlma+N+Pl+Ela: [siļmšti, sīlmist]
+
