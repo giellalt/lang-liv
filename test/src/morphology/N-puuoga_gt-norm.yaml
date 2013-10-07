@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pūoga: # Noun 22 'eng /est poeg/fin' - full paradigm
+     pūoga+N+Sg+Nom: pūoga
+     pūoga+N+Sg+Gen: pūoga
+     pūoga+N+Sg+Par: pȯigõ
+     pūoga+N+Sg+Dat: pūogan
+     pūoga+N+Sg+Ins: pūogaks
+     pūoga+N+Sg+Ill: pȯigõ
+     pūoga+N+Sg+Ela: pūogast
+     pūoga+N+Pl+Nom: pūogad
+     pūoga+N+Pl+Gen: pūogad
+     pūoga+N+Pl+Par: pȯigḑi
+     pūoga+N+Pl+Dat: pūogadõn
+     pūoga+N+Pl+Ins: pūogadõks
+     pūoga+N+Pl+Ill: pȯigži
+     pūoga+N+Pl+Ela: pȯigšti
+

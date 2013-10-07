@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - atōm: # Noun 157 'eng /est aatom/fin' - full paradigm
+     atōm+N+Sg+Nom: atōm
+     atōm+N+Sg+Gen: atōm
+     atōm+N+Sg+Par: atōmt
+     atōm+N+Sg+Dat: atōmõn
+     atōm+N+Sg+Ins: atōmõks
+     atōm+N+Sg+Ill: atōmõ
+     atōm+N+Sg+Ela: atōmõst
+     atōm+N+Pl+Nom: atōmõd
+     atōm+N+Pl+Gen: atōmõd
+     atōm+N+Pl+Par: atōmidi
+     atōm+N+Pl+Dat: atōmõdõn
+     atōm+N+Pl+Ins: atōmõdõks
+     atōm+N+Pl+Ill: atōmiž
+     atōm+N+Pl+Ela: atōmist
+

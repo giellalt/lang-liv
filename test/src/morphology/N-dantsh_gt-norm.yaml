@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - daņtš: # Noun 105 'eng /est tants/fin' - full paradigm
+     daņtš+N+Sg+Nom: daņtš
+     daņtš+N+Sg+Gen: daņtš
+     daņtš+N+Sg+Par: daņtšõ
+     daņtš+N+Sg+Dat: daņtšõn
+     daņtš+N+Sg+Ins: daņtšõks
+     daņtš+N+Sg+Ill: daņtšõ
+     daņtš+N+Sg+Ela: daņtšõst
+     daņtš+N+Pl+Nom: dāņtšõd
+     daņtš+N+Pl+Gen: dāņtšõd
+     daņtš+N+Pl+Par: dāņtšidi
+     daņtš+N+Pl+Dat: dāņtšõdõn
+     daņtš+N+Pl+Ins: dāņtšõdõks
+     daņtš+N+Pl+Ill: dāņtšiz
+     daņtš+N+Pl+Ela: dāņtšist
+

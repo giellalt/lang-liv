@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kǟnga: # Noun 35 'eng /est king/fin' - full paradigm
+     kǟnga+N+Sg+Nom: kǟnga
+     kǟnga+N+Sg+Gen: kǟnga
+     kǟnga+N+Sg+Par: kängõ
+     kǟnga+N+Sg+Dat: kǟngan
+     kǟnga+N+Sg+Ins: kǟngaks
+     kǟnga+N+Sg+Ill: kängõ
+     kǟnga+N+Sg+Ela: kǟngast
+     kǟnga+N+Pl+Nom: kǟngad
+     kǟnga+N+Pl+Gen: kǟngad
+     kǟnga+N+Pl+Par: keņgi
+     kǟnga+N+Pl+Dat: kǟngadõn
+     kǟnga+N+Pl+Ins: kǟngadõks
+     kǟnga+N+Pl+Ill: [keņgži, kǟngiž]
+     kǟnga+N+Pl+Ela: [keņgšti, kǟngist]
+

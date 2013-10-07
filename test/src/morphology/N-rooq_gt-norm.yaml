@@ -1,0 +1,33 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - rǭʼ: # Noun 13 'eng /est raha/fin' - full paradigm
+     rǭʼ+N+Sg+Nom: rǭʼ
+     rǭʼ+N+Sg+Gen: rǭʼ
+     rǭʼ+N+Sg+Par: rǭʼdõ
+     rǭʼ+N+Sg+Dat: rǭʼn
+     rǭʼ+N+Sg+Ins: rǭʼkõks
+     rǭʼ+N+Sg+Ill: rǭʼzõ
+     rǭʼ+N+Sg+Ela: rǭʼstõ
+     rǭʼ+N+Pl+Nom: rǭʼd
+     rǭʼ+N+Pl+Gen: rǭʼd
+     rǭʼ+N+Pl+Par: rǭʼḑi
+     rǭʼ+N+Pl+Dat: rǭʼdõn
+     rǭʼ+N+Pl+Ins: rǭʼdkõks
+     rǭʼ+N+Pl+Ill: rǭʼži
+     rǭʼ+N+Pl+Ela: rǭʼšti

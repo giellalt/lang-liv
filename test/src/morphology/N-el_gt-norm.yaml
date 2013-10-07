@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - eļ: # Noun 133 'eng /est põrgu/fin' - full paradigm
+     eļ+N+Sg+Nom: eļ
+     eļ+N+Sg+Gen: eļ
+     eļ+N+Sg+Par: eļļõ
+     eļ+N+Sg+Dat: eļļõn
+     eļ+N+Sg+Ins: eļļõks
+     eļ+N+Sg+Ill: eļļõ
+     eļ+N+Sg+Ela: eļštõ
+     eļ+N+Pl+Nom: eļļõd
+     eļ+N+Pl+Gen: eļļõd
+     eļ+N+Pl+Par: eļļidi
+     eļ+N+Pl+Dat: eļļõdõn
+     eļ+N+Pl+Ins: eļļõdõks
+     eļ+N+Pl+Ill: eļļiž
+     eļ+N+Pl+Ela: eļļist
+

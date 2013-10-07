@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - amāt: # Noun 129 'eng /est amet/fin' - full paradigm
+     amāt+N+Sg+Nom: amāt
+     amāt+N+Sg+Gen: amāt
+     amāt+N+Sg+Par: amātõ
+     amāt+N+Sg+Dat: amātõn
+     amāt+N+Sg+Ins: amātõks
+     amāt+N+Sg+Ill: amātõ
+     amāt+N+Sg+Ela: amātst
+     amāt+N+Pl+Nom: amātõd
+     amāt+N+Pl+Gen: amātõd
+     amāt+N+Pl+Par: amātidi
+     amāt+N+Pl+Dat: amātõdõn
+     amāt+N+Pl+Ins: amātõdõks
+     amāt+N+Pl+Ill: amātiž
+     amāt+N+Pl+Ela: amātist
+

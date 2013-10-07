@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - luʼm: # Noun 81 'eng /est lumi/fin' - full paradigm
+     luʼm+N+Sg+Nom: luʼm
+     luʼm+N+Sg+Gen: luʼm
+     luʼm+N+Sg+Par: lūnda
+     luʼm+N+Sg+Dat: luʼmmõn
+     luʼm+N+Sg+Ins: luʼmkõks
+     luʼm+N+Sg+Ill: luʼmmõ
+     luʼm+N+Sg+Ela: luʼmstõ
+     luʼm+N+Pl+Nom: lumūd*
+     luʼm+N+Pl+Gen: lumūd*
+     luʼm+N+Pl+Par: lumīdi*
+     luʼm+N+Pl+Dat: lumūdõn*
+     luʼm+N+Pl+Ins: lumūdõks*
+     luʼm+N+Pl+Ill: lumīž*
+     luʼm+N+Pl+Ela: luʼmšti*
+

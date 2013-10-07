@@ -1,0 +1,33 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - neitst: # Noun 137 'eng /est neiu/fin' - full paradigm
+     neitst+N+Sg+Nom: neitst
+     neitst+N+Sg+Gen: [neitst, neitsõ]
+     neitst+N+Sg+Par: neitstõ
+     neitst+N+Sg+Dat: neitsõn
+     neitst+N+Sg+Ins: neitsõks
+     neitst+N+Sg+Ill: neitsõ
+     neitst+N+Sg+Ela: neitsõst
+     neitst+N+Pl+Nom: neitsõd
+     neitst+N+Pl+Gen: neitsõd
+     neitst+N+Pl+Par: neitsidi
+     neitst+N+Pl+Dat: neitsõdõn
+     neitst+N+Pl+Ins: neitsõdõks
+     neitst+N+Pl+Ill: neitsiž
+     neitst+N+Pl+Ela: neitsist

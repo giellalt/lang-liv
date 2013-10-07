@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pȯrt: # Noun 95 'eng /est hoor/fin' - full paradigm
+     pȯrt+N+Sg+Nom: pȯrt
+     pȯrt+N+Sg+Gen: pȯrt
+     pȯrt+N+Sg+Par: pȯrtõ
+     pȯrt+N+Sg+Dat: pȯrtõn
+     pȯrt+N+Sg+Ins: pȯrtõks
+     pȯrt+N+Sg+Ill: pȯrtõ
+     pȯrt+N+Sg+Ela: pȯrtstõ
+     pȯrt+N+Pl+Nom: pūortõd
+     pȯrt+N+Pl+Gen: pūortõd
+     pȯrt+N+Pl+Par: pūortidi
+     pȯrt+N+Pl+Dat: pūortõdõn
+     pȯrt+N+Pl+Ins: pūortõdõks
+     pȯrt+N+Pl+Ill: pūortiž
+     pȯrt+N+Pl+Ela: pūortist
+

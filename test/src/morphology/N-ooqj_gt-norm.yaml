@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ǭʼj: # Noun 124 'eng /est ahi/fin' - full paradigm
+     ǭʼj+N+Sg+Nom: ǭʼj
+     ǭʼj+N+Sg+Gen: ǭʼj
+     ǭʼj+N+Sg+Par: ǭʼjõ
+     ǭʼj+N+Sg+Dat: ǭʼjõn
+     ǭʼj+N+Sg+Ins: ǭʼjõks
+     ǭʼj+N+Sg+Ill: ǭʼjõ
+     ǭʼj+N+Sg+Ela: ǭʼjstõ
+     ǭʼj+N+Pl+Nom: ǭʼjd
+     ǭʼj+N+Pl+Gen: ǭʼjd
+     ǭʼj+N+Pl+Par: ǭʼjḑi
+     ǭʼj+N+Pl+Dat: ǭʼjdõn
+     ǭʼj+N+Pl+Ins: ǭʼjdkõks
+     ǭʼj+N+Pl+Ill: ǭʼjži
+     ǭʼj+N+Pl+Ela: ǭʼjšti
+

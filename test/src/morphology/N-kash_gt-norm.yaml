@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kaš: # Noun 69 'eng /est kass/fin' - full paradigm
+     kaš+N+Sg+Nom: kaš
+     kaš+N+Sg+Gen: kaš
+     kaš+N+Sg+Par: kaššõ
+     kaš+N+Sg+Dat: kaššõn
+     kaš+N+Sg+Ins: kaššõks
+     kaš+N+Sg+Ill: kaššõ
+     kaš+N+Sg+Ela: kaššõst
+     kaš+N+Pl+Nom: kašīd
+     kaš+N+Pl+Gen: kašīd
+     kaš+N+Pl+Par: kašīdi
+     kaš+N+Pl+Dat: kašīdõn
+     kaš+N+Pl+Ins: kašīdõks
+     kaš+N+Pl+Ill: kašīz
+     kaš+N+Pl+Ela: kašīst
+

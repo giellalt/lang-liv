@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - niʼm: # Noun 76 'eng /est nimi/fin' - full paradigm
+     niʼm+N+Sg+Nom: niʼm
+     niʼm+N+Sg+Gen: niʼm
+     niʼm+N+Sg+Par: niʼmmõ
+     niʼm+N+Sg+Dat: niʼmmõn
+     niʼm+N+Sg+Ins: niʼmkõks
+     niʼm+N+Sg+Ill: niʼmmõ
+     niʼm+N+Sg+Ela: niʼmstö
+     niʼm+N+Pl+Nom: nimūd
+     niʼm+N+Pl+Gen: nimūd
+     niʼm+N+Pl+Par: nimīdi
+     niʼm+N+Pl+Dat: nimūdõn
+     niʼm+N+Pl+Ins: nimūdõks
+     niʼm+N+Pl+Ill: nimīž
+     niʼm+N+Pl+Ela: nimīst
+

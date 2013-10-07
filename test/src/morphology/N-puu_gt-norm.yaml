@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pū: # Noun 12 'eng /est puu/fin' - full paradigm
+     pū+N+Sg+Nom: pū
+     pū+N+Sg+Gen: pū
+     pū+N+Sg+Par: pūdõ
+     pū+N+Sg+Dat: pūn
+     pū+N+Sg+Ins: pūkõks
+     pū+N+Sg+Ill: pūʼzõ
+     pū+N+Sg+Ela: pūstõ
+     pū+N+Pl+Nom: pūd
+     pū+N+Pl+Gen: pūd 
+     pū+N+Pl+Par: pūḑi
+     pū+N+Pl+Dat: pūdõn
+     pū+N+Pl+Ins: pūdkõks
+     pū+N+Pl+Ill: pūʼži
+     pū+N+Pl+Ela: pūšti
+

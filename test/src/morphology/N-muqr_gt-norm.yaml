@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - muʼr: # Noun 84 'eng /est mure/fin' - full paradigm
+     muʼr+N+Sg+Nom: muʼr
+     muʼr+N+Sg+Gen: muʼr
+     muʼr+N+Sg+Par: muʼrtõ
+     muʼr+N+Sg+Dat: muʼrrõn
+     muʼr+N+Sg+Ins: muʼrkõks
+     muʼr+N+Sg+Ill: muʼrrõ
+     muʼr+N+Sg+Ela: muʼrstõ
+     muʼr+N+Pl+Nom: murūd
+     muʼr+N+Pl+Gen: murūd
+     muʼr+N+Pl+Par: murīdi
+     muʼr+N+Pl+Dat: murūdõn
+     muʼr+N+Pl+Ins: murūdõks
+     muʼr+N+Pl+Ill: murīž
+     muʼr+N+Pl+Ela: muʼršti
+

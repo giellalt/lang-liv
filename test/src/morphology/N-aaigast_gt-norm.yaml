@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - āigast: # Noun 140 'eng /est aasta/fin' - full paradigm
+     āigast+N+Sg+Nom: āigast
+     āigast+N+Sg+Gen: āigast
+     āigast+N+Sg+Par: āigastõ
+     āigast+N+Sg+Dat: āigastõn
+     āigast+N+Sg+Ins: āigastõks
+     āigast+N+Sg+Ill: āigastõ
+     āigast+N+Sg+Ela: āigastõst
+     āigast+N+Pl+Nom: āigastõd
+     āigast+N+Pl+Gen: āigastõd
+     āigast+N+Pl+Par: āigastidi
+     āigast+N+Pl+Dat: āigastõdõn
+     āigast+N+Pl+Ins: āigastõdõks
+     āigast+N+Pl+Ill: āigastiž
+     āigast+N+Pl+Ela: āigastist
+

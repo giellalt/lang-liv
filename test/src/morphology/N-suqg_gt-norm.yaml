@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - suʼg: # Noun 74 'eng /est sugulane/fin' - full paradigm
+     suʼg+N+Sg+Nom: suʼg
+     suʼg+N+Sg+Gen: suʼg
+     suʼg+N+Sg+Par: suʼggõ
+     suʼg+N+Sg+Dat: suʼggõn
+     suʼg+N+Sg+Ins: suʼgkõks
+     suʼg+N+Sg+Ill: suʼggõ
+     suʼg+N+Sg+Ela: suʼgstõ
+     suʼg+N+Pl+Nom: sugūd
+     suʼg+N+Pl+Gen: sugūd
+     suʼg+N+Pl+Par: sugīdi
+     suʼg+N+Pl+Dat: sugūdõn
+     suʼg+N+Pl+Ins: sugūdõks
+     suʼg+N+Pl+Ill: suʼgži
+     suʼg+N+Pl+Ela: suʼgšti
+

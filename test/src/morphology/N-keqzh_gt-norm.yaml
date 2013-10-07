@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - keʼž: # Noun 87 'eng /est käsi/fin' - full paradigm
+     keʼž+N+Sg+Nom: keʼž
+     keʼž+N+Sg+Gen: käʼd
+     keʼž+N+Sg+Par: kätā
+     keʼž+N+Sg+Dat: käʼddõn
+     keʼž+N+Sg+Ins: käʼdkõks
+     keʼž+N+Sg+Ill: käʼddõ
+     keʼž+N+Sg+Ela: käʼdstõ
+     keʼž+N+Pl+Nom: kädūd
+     keʼž+N+Pl+Gen: kädūd
+     keʼž+N+Pl+Par: keʼžži
+     keʼž+N+Pl+Dat: kädūdõn
+     keʼž+N+Pl+Ins: kädūdõks
+     keʼž+N+Pl+Ill: kežīz
+     keʼž+N+Pl+Ela: kežīst
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - konkš: # Noun 70 'eng /est konks/fin' - full paradigm
+     konkš+N+Sg+Nom: konkš
+     konkš+N+Sg+Gen: konkš
+     konkš+N+Sg+Par: konkšõ
+     konkš+N+Sg+Dat: konkšõn
+     konkš+N+Sg+Ins: konkšõks
+     konkš+N+Sg+Ill: konkšõ
+     konkš+N+Sg+Ela: konkšõst
+     konkš+N+Pl+Nom: kōnkšid
+     konkš+N+Pl+Gen: kōnkšid
+     konkš+N+Pl+Par: kōnkšidi
+     konkš+N+Pl+Dat: kōnkšidõn
+     konkš+N+Pl+Ins: kōnkšiõdõks
+     konkš+N+Pl+Ill: kōnkšiz
+     konkš+N+Pl+Ela: kōnkšist
+

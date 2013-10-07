@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - jǭra: # Noun 44 'eng /est järv/fin' - full paradigm
+     jǭra+N+Sg+Nom: jǭra
+     jǭra+N+Sg+Gen: jǭra
+     jǭra+N+Sg+Par: jarrõ
+     jǭra+N+Sg+Dat: jǭran
+     jǭra+N+Sg+Ins: jǭraks
+     jǭra+N+Sg+Ill: jarrõ
+     jǭra+N+Sg+Ela: jǭrast
+     jǭra+N+Pl+Nom: jǭrad
+     jǭra+N+Pl+Gen: jǭrad
+     jǭra+N+Pl+Par: jǭridi
+     jǭra+N+Pl+Dat: jǭradõn
+     jǭra+N+Pl+Ins: jǭradõks
+     jǭra+N+Pl+Ill: jǭriž
+     jǭra+N+Pl+Ela: jǭrist
+

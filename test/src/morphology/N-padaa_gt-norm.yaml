@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - padā: # Noun 39 'eng /est pada/fin' - full paradigm
+     padā+N+Sg+Nom: padā
+     padā+N+Sg+Gen: padā
+     padā+N+Sg+Par: paʼddõ
+     padā+N+Sg+Dat: padān
+     padā+N+Sg+Ins: padāks
+     padā+N+Sg+Ill: paʼddõ
+     padā+N+Sg+Ela: padāst
+     padā+N+Pl+Nom: padād
+     padā+N+Pl+Gen: padād
+     padā+N+Pl+Par: padīdi
+     padā+N+Pl+Dat: padādõn
+     padā+N+Pl+Ins: padādõks
+     padā+N+Pl+Ill: padīž
+     padā+N+Pl+Ela: padīst
+

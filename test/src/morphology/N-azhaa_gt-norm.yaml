@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ažā: # Noun 26 'eng /est asi/fin' - full paradigm
+     ažā+N+Sg+Nom: ažā
+     ažā+N+Sg+Gen: ažā
+     ažā+N+Sg+Par: aʼžžõ
+     ažā+N+Sg+Dat: ažān
+     ažā+N+Sg+Ins: ažāks
+     ažā+N+Sg+Ill: aʼžžõ
+     ažā+N+Sg+Ela: ažāst
+     ažā+N+Pl+Nom: ažād
+     ažā+N+Pl+Gen: ažād
+     ažā+N+Pl+Par: aʼžḑi
+     ažā+N+Pl+Dat: ažādõn
+     ažā+N+Pl+Ins: ažādõks
+     ažā+N+Pl+Ill: ažīz
+     ažā+N+Pl+Ela: ažīst
+

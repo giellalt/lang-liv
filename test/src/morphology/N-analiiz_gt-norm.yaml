@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - analīz: # Noun 141 'eng /est analüüs/fin' - full paradigm
+     analīz+N+Sg+Nom: analīz
+     analīz+N+Sg+Gen: analīz
+     analīz+N+Sg+Par: analīzõ
+     analīz+N+Sg+Dat: analīzõn
+     analīz+N+Sg+Ins: analīzõks
+     analīz+N+Sg+Ill: analīzõ
+     analīz+N+Sg+Ela: analīzõst
+     analīz+N+Pl+Nom: analīzõd
+     analīz+N+Pl+Gen: analīzõd
+     analīz+N+Pl+Par: analīzidi
+     analīz+N+Pl+Dat: analīzõdõn
+     analīz+N+Pl+Ins: analīzõdõks
+     analīz+N+Pl+Ill: analīziž
+     analīz+N+Pl+Ela: analīzist
+

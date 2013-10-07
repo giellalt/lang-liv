@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - jaļkš: # Noun 143 'eng /est jaluts/fin' - full paradigm
+     jaļkš+N+Sg+Nom: jaļkš
+     jaļkš+N+Sg+Gen: jaļkš
+     jaļkš+N+Sg+Par: jaļkšõ
+     jaļkš+N+Sg+Dat: jaļkšõn
+     jaļkš+N+Sg+Ins: jaļkšõks
+     jaļkš+N+Sg+Ill: jaļkšõ
+     jaļkš+N+Sg+Ela: jaļkšõst
+     jaļkš+N+Pl+Nom: jaļkšõd
+     jaļkš+N+Pl+Gen: jaļkšõd
+     jaļkš+N+Pl+Par: jaļkšidi
+     jaļkš+N+Pl+Dat: jaļkšõdõn
+     jaļkš+N+Pl+Ins: jaļkšõdõks
+     jaļkš+N+Pl+Ill: jaļkšiz
+     jaļkš+N+Pl+Ela: jaļkšist
+

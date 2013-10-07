@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kēratõb: # Noun 159 'eng /est kirjuti/fin' - full paradigm
+     kēratõb+N+Sg+Nom: kēratõb
+     kēratõb+N+Sg+Gen: kēratõb
+     kēratõb+N+Sg+Par: kēratõbt
+     kēratõb+N+Sg+Dat: kēratõbõn
+     kēratõb+N+Sg+Ins: kēratõbõks
+     kēratõb+N+Sg+Ill: kēratõbõ
+     kēratõb+N+Sg+Ela: kēratõbst
+     kēratõb+N+Pl+Nom: kēratõbõd
+     kēratõb+N+Pl+Gen: kēratõbõd
+     kēratõb+N+Pl+Par: kēratõbidi
+     kēratõb+N+Pl+Dat: kēratõbõdõn
+     kēratõb+N+Pl+Ins: kēratõbõdõks
+     kēratõb+N+Pl+Ill: kēratõbiž
+     kēratõb+N+Pl+Ela: kēratõbist
+

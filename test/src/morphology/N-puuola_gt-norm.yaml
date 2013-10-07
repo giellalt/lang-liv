@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pūola: # Noun 45 'eng /est põlv/fin' - full paradigm
+     pūola+N+Sg+Nom: pūola
+     pūola+N+Sg+Gen: pūola
+     pūola+N+Sg+Par: pȯllõ
+     pūola+N+Sg+Dat: pūolan
+     pūola+N+Sg+Ins: pūolaks
+     pūola+N+Sg+Ill: pȯllõ
+     pūola+N+Sg+Ela: pūolast
+     pūola+N+Pl+Nom: pūolad
+     pūola+N+Pl+Gen: pūolad
+     pūola+N+Pl+Par: pūolidi
+     pūola+N+Pl+Dat: pūoladõn
+     pūola+N+Pl+Ins: pūoladõks
+     pūola+N+Pl+Ill: pūoliž
+     pūola+N+Pl+Ela: pūolist
+
