@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - veis: # Noun 108 'eng /est nuga/fin' - full paradigm
+     veis+N+Sg+Nom: veis
+     veis+N+Sg+Gen: veis
+     veis+N+Sg+Par: veisõ
+     veis+N+Sg+Dat: veisõn
+     veis+N+Sg+Ins: veisõks
+     veis+N+Sg+Ill: veisõ
+     veis+N+Sg+Ela: veisõst
+     veis+N+Pl+Nom: vēšõd
+     veis+N+Pl+Gen: vēšõd
+     veis+N+Pl+Par: vēšidi
+     veis+N+Pl+Dat: vēšõdõn
+     veis+N+Pl+Ins: vēšõdõks
+     veis+N+Pl+Ill: vēšiz
+     veis+N+Pl+Ela: vēšist
+

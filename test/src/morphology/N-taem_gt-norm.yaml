@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - täm: # Noun 101 'eng /est tamm ­e/fin' - full paradigm
+     täm+N+Sg+Nom: täm
+     täm+N+Sg+Gen: tam
+     täm+N+Sg+Par: tammõ
+     täm+N+Sg+Dat: tammõn
+     täm+N+Sg+Ins: tammõks
+     täm+N+Sg+Ill: tammõ
+     täm+N+Sg+Ela: tamstõ
+     täm+N+Pl+Nom: tǭmõd
+     täm+N+Pl+Gen: tǭmõd
+     täm+N+Pl+Par: tǭmidi
+     täm+N+Pl+Dat: tǭmõdõn
+     täm+N+Pl+Ins: tǭmõdõks
+     täm+N+Pl+Ill: tǭmiž
+     täm+N+Pl+Ela: tǭmist
+

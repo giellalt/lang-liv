@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vēna: # Noun 37 'eng /est sadam/fin' - full paradigm
+     vēna+N+Sg+Nom: vēna
+     vēna+N+Sg+Gen: vēna
+     vēna+N+Sg+Par: veinõ
+     vēna+N+Sg+Dat: vēnan
+     vēna+N+Sg+Ins: vēnaks
+     vēna+N+Sg+Ill: veinõ
+     vēna+N+Sg+Ela: vēnast
+     vēna+N+Pl+Nom: vēnad
+     vēna+N+Pl+Gen: vēnad 
+     vēna+N+Pl+Par: veiņi
+     vēna+N+Pl+Dat: vēnadõn
+     vēna+N+Pl+Ins: vēnadõks
+     vēna+N+Pl+Ill: vēniž
+     vēna+N+Pl+Ela: vēnist
+

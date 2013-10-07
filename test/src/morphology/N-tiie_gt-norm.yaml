@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tīe: # Noun 15 'eng /est töö/fin' - full paradigm
+     tīe+N+Sg+Nom: tīe
+     tīe+N+Sg+Gen: tīe
+     tīe+N+Sg+Par: tīedõ
+     tīe+N+Sg+Dat: tīen
+     tīe+N+Sg+Ins: tīekõks
+     tīe+N+Sg+Ill: tīʼezõ
+     tīe+N+Sg+Ela: tīestõ
+     tīe+N+Pl+Nom: tīed
+     tīe+N+Pl+Gen: tīed
+     tīe+N+Pl+Par: tēḑi
+     tīe+N+Pl+Dat: tīedõn
+     tīe+N+Pl+Ins: tīedkõks
+     tīe+N+Pl+Ill: tēʼži
+     tīe+N+Pl+Ela: tēšti
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vȭidag: # Noun 117 'eng /est või/fin' - full paradigm
+     vȭidag+N+Sg+Nom: vȭidag
+     vȭidag+N+Sg+Gen: vȭidag
+     vȭidag+N+Sg+Par: vȭita
+     vȭidag+N+Sg+Dat: vȭidagõn
+     vȭidag+N+Sg+Ins: vȭidagõks
+     vȭidag+N+Sg+Ill: vȭidagõ
+     vȭidag+N+Sg+Ela: vȭidagõst
+     vȭidag+N+Pl+Nom: vȭidagõd
+     vȭidag+N+Pl+Gen: vȭidagõd
+     vȭidag+N+Pl+Par: vȭidagidi
+     vȭidag+N+Pl+Dat: vȭidagõdõn
+     vȭidag+N+Pl+Ins: vȭidagõdõks
+     vȭidag+N+Pl+Ill: vȭidagiž
+     vȭidag+N+Pl+Ela: vȭidagist
+

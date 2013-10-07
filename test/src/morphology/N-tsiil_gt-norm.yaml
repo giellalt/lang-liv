@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tsīļ: # Noun 132 'eng /est siil -i/fin' - full paradigm
+     tsīļ+N+Sg+Nom: tsīļ
+     tsīļ+N+Sg+Gen: tsīļ
+     tsīļ+N+Sg+Par: tsīļõ
+     tsīļ+N+Sg+Dat: tsīļõn
+     tsīļ+N+Sg+Ins: tsīļõks
+     tsīļ+N+Sg+Ill: tsīļõ
+     tsīļ+N+Sg+Ela: tsīļštõ
+     tsīļ+N+Pl+Nom: tsīļõd
+     tsīļ+N+Pl+Gen: tsīļõd
+     tsīļ+N+Pl+Par: tsīļidi
+     tsīļ+N+Pl+Dat: tsīļõdõn
+     tsīļ+N+Pl+Ins: tsīļõdõks
+     tsīļ+N+Pl+Ill: tsīļiž
+     tsīļ+N+Pl+Ela: tsīļist
+

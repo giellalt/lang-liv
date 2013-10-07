@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ȭʼdõg: # Noun 160 'eng /est õhtu/fin' - full paradigm
+     ȭʼdõg+N+Sg+Nom: ȭʼdõg
+     ȭʼdõg+N+Sg+Gen: ȭʼdõg
+     ȭʼdõg+N+Sg+Par: ȭʼdõgt
+     ȭʼdõg+N+Sg+Dat: ȭʼdõgõn
+     ȭʼdõg+N+Sg+Ins: ȭʼdõgõks
+     ȭʼdõg+N+Sg+Ill: ȭʼdõgõ
+     ȭʼdõg+N+Sg+Ela: ȭʼdõgst
+     ȭʼdõg+N+Pl+Nom: ȭʼdõgõd
+     ȭʼdõg+N+Pl+Gen: ȭʼdõgõd
+     ȭʼdõg+N+Pl+Par: ȭʼdõgidi
+     ȭʼdõg+N+Pl+Dat: ȭʼdõgõdõn
+     ȭʼdõg+N+Pl+Ins: ȭʼdõgõdõks
+     ȭʼdõg+N+Pl+Ill: ȭʼdõgiž
+     ȭʼdõg+N+Pl+Ela: ȭʼdõgist
+

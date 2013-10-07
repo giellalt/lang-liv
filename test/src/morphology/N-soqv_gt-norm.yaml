@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - soʼv: # Noun 122 'eng /est suits/fin' - full paradigm
+     soʼv+N+Sg+Nom: soʼv
+     soʼv+N+Sg+Gen: soʼv
+     soʼv+N+Sg+Par: soʼvvõ
+     soʼv+N+Sg+Dat: soʼvvõn
+     soʼv+N+Sg+Ins: soʼvvõks
+     soʼv+N+Sg+Ill: soʼvvõ
+     soʼv+N+Sg+Ela: soʼvstõ
+     soʼv+N+Pl+Nom: soʼvd
+     soʼv+N+Pl+Gen: soʼvd
+     soʼv+N+Pl+Par: soʼvḑi
+     soʼv+N+Pl+Dat: soʼvdõn
+     soʼv+N+Pl+Ins: soʼvdõks
+     soʼv+N+Pl+Ill: soʼvži
+     soʼv+N+Pl+Ela: soʼvšti
+

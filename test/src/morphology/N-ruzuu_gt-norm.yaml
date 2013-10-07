@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ruzū: # Noun 90 'eng /est rusu/fin' - full paradigm
+     ruzū+N+Sg+Nom: ruzū
+     ruzū+N+Sg+Gen: ruzū
+     ruzū+N+Sg+Par: ruzū
+     ruzū+N+Sg+Dat: ruzūn
+     ruzū+N+Sg+Ins: ruzūks
+     ruzū+N+Sg+Ill: ruzū(z)
+     ruzū+N+Sg+Ela: ruzūst
+     ruzū+N+Pl+Nom: ruzūd
+     ruzū+N+Pl+Gen: ruzūd
+     ruzū+N+Pl+Par: ruzīdi
+     ruzū+N+Pl+Dat: ruzūdõn
+     ruzū+N+Pl+Ins: ruzūdõks
+     ruzū+N+Pl+Ill: ruzīž
+     ruzū+N+Pl+Ela: ruzīst
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - fakt: # Noun 135 'eng /est fakt/fin' - full paradigm
+     fakt+N+Sg+Nom: fakt
+     fakt+N+Sg+Gen: fakt
+     fakt+N+Sg+Par: faktõ
+     fakt+N+Sg+Dat: faktõn
+     fakt+N+Sg+Ins: faktõks
+     fakt+N+Sg+Ill: faktõ
+     fakt+N+Sg+Ela: faktõst
+     fakt+N+Pl+Nom: faktõd
+     fakt+N+Pl+Gen: faktõd
+     fakt+N+Pl+Par: faktidi
+     fakt+N+Pl+Dat: faktõdõn
+     fakt+N+Pl+Ins: faktõdõks
+     fakt+N+Pl+Ill: faktiž
+     fakt+N+Pl+Ela: faktist
+

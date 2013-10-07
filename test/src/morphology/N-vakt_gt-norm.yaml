@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vakț: # Noun 66 'eng /est valvur/fin' - full paradigm
+     vakț+N+Sg+Nom: vakț
+     vakț+N+Sg+Gen: vakț
+     vakț+N+Sg+Par: vakțõ
+     vakț+N+Sg+Dat: vakțõn
+     vakț+N+Sg+Ins: vakțõks
+     vakț+N+Sg+Ill: vakțõ
+     vakț+N+Sg+Ela: vakțštõ
+     vakț+N+Pl+Nom: vakțīd
+     vakț+N+Pl+Gen: vakțīd
+     vakț+N+Pl+Par: vakțīdi
+     vakț+N+Pl+Dat: vakțīdõn
+     vakț+N+Pl+Ins: vakțīdõks
+     vakț+N+Pl+Ill: vakțīž
+     vakț+N+Pl+Ela: vakțīst
+
