@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vaŗž*: # Noun 113 'eng /est vars/fin' - full paradigm
+     vaŗž*+N+Sg+Nom: vaŗž*
+     vaŗž*+N+Sg+Gen: vard
+     vaŗž*+N+Sg+Par: vārta
+     vaŗž*+N+Sg+Dat: vardõn
+     vaŗž*+N+Sg+Ins: vardkõks
+     vaŗž*+N+Sg+Ill: vardõ
+     vaŗž*+N+Sg+Ela: vardstõ
+     vaŗž*+N+Pl+Nom: vārdõd
+     vaŗž*+N+Pl+Gen: vārdõd
+     vaŗž*+N+Pl+Par: vaŗži
+     vaŗž*+N+Pl+Dat: vārdõdõn
+     vaŗž*+N+Pl+Ins: vārdõdõks
+     vaŗž*+N+Pl+Ill: vaŗžiz
+     vaŗž*+N+Pl+Ela: vaŗžist
+

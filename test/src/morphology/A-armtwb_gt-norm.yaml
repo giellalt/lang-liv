@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - armtõb: # adjectives 159 'eng /est rahuldav/fin' - full paradigm
+     armtõb+A+Sg+Nom: armtõb
+     armtõb+A+Sg+Gen: armtõb
+     armtõb+A+Sg+Par: armtõbt
+     armtõb+A+Sg+Dat: armtõbõn
+     armtõb+A+Sg+Ins: armtõbõks
+     armtõb+A+Sg+Ill: armtõbõ
+     armtõb+A+Sg+Ela: armtõbst
+     armtõb+A+Pl+Nom: armtõbõd
+     armtõb+A+Pl+Gen: armtõbõd
+     armtõb+A+Pl+Par: armtõbidi
+     armtõb+A+Pl+Dat: armtõbõdõn
+     armtõb+A+Pl+Ins: armtõbõdõks
+     armtõb+A+Pl+Ill: armtõbiž
+     armtõb+A+Pl+Ela: armtõbist
+

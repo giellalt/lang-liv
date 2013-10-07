@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - usk: # Noun 77 'eng /est usk/fin' - full paradigm
+     usk+N+Sg+Nom: usk
+     usk+N+Sg+Gen: usk
+     usk+N+Sg+Par: uskõ
+     usk+N+Sg+Dat: uskõn
+     usk+N+Sg+Ins: uskõks
+     usk+N+Sg+Ill: uskõ
+     usk+N+Sg+Ela: uskstõ
+     usk+N+Pl+Nom: uskūd
+     usk+N+Pl+Gen: uskūd
+     usk+N+Pl+Par: uskīdi
+     usk+N+Pl+Dat: uskūdõn
+     usk+N+Pl+Ins: uskūdõks
+     usk+N+Pl+Ill: uskīž
+     usk+N+Pl+Ela: uskīst
+
