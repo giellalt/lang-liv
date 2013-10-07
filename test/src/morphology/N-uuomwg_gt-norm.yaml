@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ūomõg: # Noun 157 'eng /est andam/fin' - full paradigm
+     ūomõg+N+Sg+Nom: ūomõg
+     ūomõg+N+Sg+Gen: ūomõg
+     ūomõg+N+Sg+Par: ūomõgt
+     ūomõg+N+Sg+Dat: ūomõgõn
+     ūomõg+N+Sg+Ins: ūomõgõks
+     ūomõg+N+Sg+Ill: ūomõgõ
+     ūomõg+N+Sg+Ela: ūomõgst
+     ūomõg+N+Pl+Nom: ūomõgõd
+     ūomõg+N+Pl+Gen: ūomõgõd
+     ūomõg+N+Pl+Par: ūomõgidi
+     ūomõg+N+Pl+Dat: ūomõgõdõn
+     ūomõg+N+Pl+Ins: ūomõgõdõks
+     ūomõg+N+Pl+Ill: ūomõgiž
+     ūomõg+N+Pl+Ela: ūomõgist
+

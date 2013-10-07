@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vȯļg*: # Noun 111 'eng /est õlg ­e/fin' - full paradigm
+     vȯļg*+N+Sg+Nom: vȯļg*
+     vȯļg*+N+Sg+Gen: vȯlg
+     vȯļg*+N+Sg+Par: vȱlgta
+     vȯļg*+N+Sg+Dat: vȯlgõn
+     vȯļg*+N+Sg+Ins: vȯlgkõks
+     vȯļg*+N+Sg+Ill: vȯlgõ
+     vȯļg*+N+Sg+Ela: vȯlgstõ
+     vȯļg*+N+Pl+Nom: vȱlgõd
+     vȯļg*+N+Pl+Gen: vȱlgõd
+     vȯļg*+N+Pl+Par: vȯļgi
+     vȯļg*+N+Pl+Dat: vȱlgõdõn
+     vȯļg*+N+Pl+Ins: vȱlgõdõks
+     vȯļg*+N+Pl+Ill: vȱlgiž
+     vȯļg*+N+Pl+Ela: vȯļgšti
+

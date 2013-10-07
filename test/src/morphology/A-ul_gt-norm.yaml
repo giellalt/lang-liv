@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - ul: # adjectives 99 'eng /est hull/fin' - full paradigm
+     ul+A+Sg+Nom: ul
+     ul+A+Sg+Gen: ul
+     ul+A+Sg+Par: ullõ
+     ul+A+Sg+Dat: ullõn
+     ul+A+Sg+Ins: ullõks
+     ul+A+Sg+Ill: ullõ
+     ul+A+Sg+Ela: ulstõ
+     ul+A+Pl+Nom: ūlõd
+     ul+A+Pl+Gen: ūlõd
+     ul+A+Pl+Par: ūlidi
+     ul+A+Pl+Dat: ūlõdõn
+     ul+A+Pl+Ins: ūlõdõks
+     ul+A+Pl+Ill: ūliž
+     ul+A+Pl+Ela: ūlist
+

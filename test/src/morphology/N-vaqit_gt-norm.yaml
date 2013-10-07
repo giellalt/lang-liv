@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vaʼit: # Noun 128 'eng /est vahe/fin' - full paradigm
+     vaʼit+N+Sg+Nom: vaʼit
+     vaʼit+N+Sg+Gen: vaʼit
+     vaʼit+N+Sg+Par: vaʼitõ
+     vaʼit+N+Sg+Dat: vaʼitõn
+     vaʼit+N+Sg+Ins: vaʼitõks
+     vaʼit+N+Sg+Ill: vaʼitõ
+     vaʼit+N+Sg+Ela: vaʼitstõ
+     vaʼit+N+Pl+Nom: vaʼitõd
+     vaʼit+N+Pl+Gen: vaʼitõd
+     vaʼit+N+Pl+Par: vaʼitidi
+     vaʼit+N+Pl+Dat: vaʼitõdõn
+     vaʼit+N+Pl+Ins: vaʼitõdõks
+     vaʼit+N+Pl+Ill: vaʼitiž
+     vaʼit+N+Pl+Ela: vaʼitist
+

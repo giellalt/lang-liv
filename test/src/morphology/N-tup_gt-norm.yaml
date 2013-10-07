@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tup: # Noun 79 'eng /est tupp/fin' - full paradigm
+     tup+N+Sg+Nom: tup
+     tup+N+Sg+Gen: tup
+     tup+N+Sg+Par: tuppõ
+     tup+N+Sg+Dat: tuppõn
+     tup+N+Sg+Ins: tuppõks
+     tup+N+Sg+Ill: tuppõ
+     tup+N+Sg+Ela: tupstõ
+     tup+N+Pl+Nom: tupūd
+     tup+N+Pl+Gen: tupūd
+     tup+N+Pl+Par: tupīdi
+     tup+N+Pl+Dat: tupūdõn
+     tup+N+Pl+Ins: tupūdõks
+     tup+N+Pl+Ill: tupīž
+     tup+N+Pl+Ela: tupīst
+

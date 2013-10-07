@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ūška: # Noun 47 'eng /est rästik/fin' - full paradigm
+     ūška+N+Sg+Nom: ūška
+     ūška+N+Sg+Gen: ūška
+     ūška+N+Sg+Par: uiskõ
+     ūška+N+Sg+Dat: ūškan
+     ūška+N+Sg+Ins: ūškaks
+     ūška+N+Sg+Ill: uiskõ
+     ūška+N+Sg+Ela: ūškast
+     ūška+N+Pl+Nom: ūškad
+     ūška+N+Pl+Gen: ūškad
+     ūška+N+Pl+Par: ūškidi
+     ūška+N+Pl+Dat: ūškadõn
+     ūška+N+Pl+Ins: ūškadõks
+     ūška+N+Pl+Ill: ūškiz
+     ūška+N+Pl+Ela: ūškist
+

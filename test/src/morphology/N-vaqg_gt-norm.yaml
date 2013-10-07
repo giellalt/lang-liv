@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vaʼg: # Noun 72 'eng /est vagu/fin' - full paradigm
+     vaʼg+N+Sg+Nom: vaʼg
+     vaʼg+N+Sg+Gen: vaʼg
+     vaʼg+N+Sg+Par: vaʼggõ
+     vaʼg+N+Sg+Dat: vaʼggõn
+     vaʼg+N+Sg+Ins: vaʼgkõks
+     vaʼg+N+Sg+Ill: vaʼggõ
+     vaʼg+N+Sg+Ela: vaʼgstõ
+     vaʼg+N+Pl+Nom: vagūd
+     vaʼg+N+Pl+Gen: vagūd
+     vaʼg+N+Pl+Par: vaʼgḑi
+     vaʼg+N+Pl+Dat: vagūdõn
+     vaʼg+N+Pl+Ins: vagūdõks
+     vaʼg+N+Pl+Ill: vaʼgži
+     vaʼg+N+Pl+Ela: vaʼgšti
+

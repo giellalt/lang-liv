@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - veʼž: # Noun 88 'eng /est vesi/fin' - full paradigm
+     veʼž+N+Sg+Nom: veʼž
+     veʼž+N+Sg+Gen: vieʼd
+     veʼž+N+Sg+Par: vietā
+     veʼž+N+Sg+Dat: vieʼddõn
+     veʼž+N+Sg+Ins: vieʼdkõks
+     veʼž+N+Sg+Ill: vieʼddõ
+     veʼž+N+Sg+Ela: vieʼdstõ
+     veʼž+N+Pl+Nom: viedūd
+     veʼž+N+Pl+Gen: viedūd
+     veʼž+N+Pl+Par: veʼžži
+     veʼž+N+Pl+Dat: viedūdõn
+     veʼž+N+Pl+Ins: viedūdõks
+     veʼž+N+Pl+Ill: vežīz
+     veʼž+N+Pl+Ela: vežīst
+

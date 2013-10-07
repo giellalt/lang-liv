@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - torī: # Noun 71 'eng /est toru/fin' - full paradigm
+     torī+N+Sg+Nom: torī
+     torī+N+Sg+Gen: torī
+     torī+N+Sg+Par: torī
+     torī+N+Sg+Dat: torīn
+     torī+N+Sg+Ins: torīks
+     torī+N+Sg+Ill: [torī, torīz]
+     torī+N+Sg+Ela: torīst
+     torī+N+Pl+Nom: torīd
+     torī+N+Pl+Gen: torīd
+     torī+N+Pl+Par: torīdi
+     torī+N+Pl+Dat: torīdõn
+     torī+N+Pl+Ins: torīdõks
+     torī+N+Pl+Ill: torīž
+     torī+N+Pl+Ela: torīsti
+

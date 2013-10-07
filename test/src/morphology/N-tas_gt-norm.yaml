@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tas: # Noun 136 'eng /est ??/fin' - full paradigm
+     tas+N+Sg+Nom: tas
+     tas+N+Sg+Gen: tas
+     tas+N+Sg+Par: tassõ
+     tas+N+Sg+Dat: tassõn
+     tas+N+Sg+Ins: tassõks
+     tas+N+Sg+Ill: tassõ
+     tas+N+Sg+Ela: tassõst
+     tas+N+Pl+Nom: tassõd
+     tas+N+Pl+Gen: tassõd
+     tas+N+Pl+Par: tassidi
+     tas+N+Pl+Dat: tassõdõn
+     tas+N+Pl+Ins: tassõdõks
+     tas+N+Pl+Ill: tassiž
+     tas+N+Pl+Ela: tassist
+

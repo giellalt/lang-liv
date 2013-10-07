@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - viš: # adjectives 144 'eng /est tugev/fin' - full paradigm
+     viš+A+Sg+Nom: viš
+     viš+A+Sg+Gen: viš
+     viš+A+Sg+Par: viššõ
+     viš+A+Sg+Dat: viššõn
+     viš+A+Sg+Ins: viššõks
+     viš+A+Sg+Ill: viššõ
+     viš+A+Sg+Ela: viššõst
+     viš+A+Pl+Nom: viššõd
+     viš+A+Pl+Gen: viššõd
+     viš+A+Pl+Par: viššidi
+     viš+A+Pl+Dat: viššõdõn
+     viš+A+Pl+Ins: viššõdõks
+     viš+A+Pl+Ill: viššiz
+     viš+A+Pl+Ela: viššist
+

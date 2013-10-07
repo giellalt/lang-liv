@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pierz: # Noun 114 'eng /est perse/fin' - full paradigm
+     pierz+N+Sg+Nom: pierz
+     pierz+N+Sg+Gen: pierz
+     pierz+N+Sg+Par: pīerzta
+     pierz+N+Sg+Dat: pierzõn
+     pierz+N+Sg+Ins: pierzkõks
+     pierz+N+Sg+Ill: pierzgõ
+     pierz+N+Sg+Ela: piergõst
+     pierz+N+Pl+Nom: pīerzõd
+     pierz+N+Pl+Gen: pīerzõd
+     pierz+N+Pl+Par: pīerzidi
+     pierz+N+Pl+Dat: pīerzõdõn
+     pierz+N+Pl+Ins: pīerzõdõks
+     pierz+N+Pl+Ill: pīerziž
+     pierz+N+Pl+Ela: pīerzist
+
