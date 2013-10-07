@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tēʼḑ: # Noun 146 'eng /est täht/fin' - full paradigm
+     tēʼḑ+N+Sg+Nom: tēʼḑ
+     tēʼḑ+N+Sg+Gen: tǟʼd
+     tēʼḑ+N+Sg+Par: tǟʼdtõ
+     tēʼḑ+N+Sg+Dat: tǟʼdõn
+     tēʼḑ+N+Sg+Ins: tǟʼdkõks
+     tēʼḑ+N+Sg+Ill: tǟʼdõ
+     tēʼḑ+N+Sg+Ela: tǟʼdstõ
+     tēʼḑ+N+Pl+Nom: tǟʼdõd
+     tēʼḑ+N+Pl+Gen: tǟʼdõd
+     tēʼḑ+N+Pl+Par: tēʼḑi
+     tēʼḑ+N+Pl+Dat: tǟʼdõdõn
+     tēʼḑ+N+Pl+Ins: tǟʼdõdõks
+     tēʼḑ+N+Pl+Ill: tēʼḑiž
+     tēʼḑ+N+Pl+Ela: tēʼḑist
+

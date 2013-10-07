@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - viļț: # Noun 132 'eng /est vilt/fin' - full paradigm
+     viļț+N+Sg+Nom: viļț
+     viļț+N+Sg+Gen: viļț
+     viļț+N+Sg+Par: viļțõ
+     viļț+N+Sg+Dat: viļțõn
+     viļț+N+Sg+Ins: viļțõks
+     viļț+N+Sg+Ill: viļțõ
+     viļț+N+Sg+Ela: viļțštõ
+     viļț+N+Pl+Nom: viļțõd
+     viļț+N+Pl+Gen: viļțõd
+     viļț+N+Pl+Par: viļțidi
+     viļț+N+Pl+Dat: viļțõdõn
+     viļț+N+Pl+Ins: viļțõdõks
+     viļț+N+Pl+Ill: viļțiž
+     viļț+N+Pl+Ela: viļțist
+

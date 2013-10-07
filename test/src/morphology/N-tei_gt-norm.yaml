@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tei: # Noun 17 'eng /est täi/fin' - full paradigm
+     tei+N+Sg+Nom: tei
+     tei+N+Sg+Gen: tei
+     tei+N+Sg+Par: teiõ
+     tei+N+Sg+Dat: teiõn
+     tei+N+Sg+Ins: teiõks
+     tei+N+Sg+Ill: teiõ
+     tei+N+Sg+Ela: teiõst
+     tei+N+Pl+Nom: teid
+     tei+N+Pl+Gen: teid
+     tei+N+Pl+Par: tēḑi
+     tei+N+Pl+Dat: teidõn
+     tei+N+Pl+Ins: teidõks
+     tei+N+Pl+Ill: tēži
+     tei+N+Pl+Ela: tēšti
+

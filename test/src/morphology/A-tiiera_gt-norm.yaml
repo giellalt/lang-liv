@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - tīera: # adjectives 54 'eng /est terve/fin' - full paradigm
+     tīera+A+Sg+Nom: tīera
+     tīera+A+Sg+Gen: tīera
+     tīera+A+Sg+Par: tierrõ
+     tīera+A+Sg+Dat: tīeran
+     tīera+A+Sg+Ins: [tierrõks, +]
+     tīera+A+Sg+Ill: tīerrõ
+     tīera+A+Sg+Ela: tīerast
+     tīera+A+Pl+Nom: tierrõd
+     tīera+A+Pl+Gen: tierrõd
+     tīera+A+Pl+Par: tierridi
+     tīera+A+Pl+Dat: tierrõdõn
+     tīera+A+Pl+Ins: tierrõdõks
+     tīera+A+Pl+Ill: tierriž
+     tīera+A+Pl+Ela: tierrist
+

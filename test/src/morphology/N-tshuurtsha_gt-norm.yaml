@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tšūrtša: # Noun 52 'eng /est piiritaja/fin' - full paradigm
+     tšūrtša+N+Sg+Nom: tšūrtša
+     tšūrtša+N+Sg+Gen: tšūrtša
+     tšūrtša+N+Sg+Par: tšurtšõ
+     tšūrtša+N+Sg+Dat: tšūrtšan
+     tšūrtša+N+Sg+Ins: tšūrtšaks
+     tšūrtša+N+Sg+Ill: tšurtšõ
+     tšūrtša+N+Sg+Ela: tšūrtšast
+     tšūrtša+N+Pl+Nom: tšūrtšad
+     tšūrtša+N+Pl+Gen: tšūrtšad
+     tšūrtša+N+Pl+Par: tšūrtšidi
+     tšūrtša+N+Pl+Dat: tšūrtšadõn
+     tšūrtša+N+Pl+Ins: tšūrtšadõks
+     tšūrtša+N+Pl+Ill: tšūrtšiz
+     tšūrtša+N+Pl+Ela: tšūrtšist
+

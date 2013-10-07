@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pitkit: # Noun 129 'eng /est pikkus/fin' - full paradigm
+     pitkit+N+Sg+Nom: pitkit
+     pitkit+N+Sg+Gen: pitkit
+     pitkit+N+Sg+Par: pitkitõ
+     pitkit+N+Sg+Dat: pitkitõn
+     pitkit+N+Sg+Ins: pitkitõks
+     pitkit+N+Sg+Ill: pitkitõ
+     pitkit+N+Sg+Ela: pitkitst
+     pitkit+N+Pl+Nom: pitkitõd
+     pitkit+N+Pl+Gen: pitkitõd
+     pitkit+N+Pl+Par: pitkitidi
+     pitkit+N+Pl+Dat: pitkitõdõn
+     pitkit+N+Pl+Ins: pitkitõdõks
+     pitkit+N+Pl+Ill: pitkitiž
+     pitkit+N+Pl+Ela: pitkitist
+
