@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - võrgõ: # Noun 115 'eng /est võrk/fin' - full paradigm
+     võrgõ+N+Sg+Nom: võrgõ
+     võrgõ+N+Sg+Gen: võrgõ
+     võrgõ+N+Sg+Par: vȭrta
+     võrgõ+N+Sg+Dat: võrgõn
+     võrgõ+N+Sg+Ins: võrgõks
+     võrgõ+N+Sg+Ill: [võrgõ, võrgõz]
+     võrgõ+N+Sg+Ela: võrgõst
+     võrgõ+N+Pl+Nom: võrgõd
+     võrgõ+N+Pl+Gen: võrgõd
+     võrgõ+N+Pl+Par: võrgidi
+     võrgõ+N+Pl+Dat: võrgõdõn
+     võrgõ+N+Pl+Ins: võrgõdõks
+     võrgõ+N+Pl+Ill: võrgiž
+     võrgõ+N+Pl+Ela: võrgist
+

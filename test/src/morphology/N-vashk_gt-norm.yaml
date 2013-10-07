@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vašk: # Noun 78 'eng /est vask/fin' - full paradigm
+     vašk+N+Sg+Nom: vašk
+     vašk+N+Sg+Gen: vask
+     vašk+N+Sg+Par: vaskõ
+     vašk+N+Sg+Dat: vaskõn
+     vašk+N+Sg+Ins: vaskõks
+     vašk+N+Sg+Ill: vaskõ
+     vašk+N+Sg+Ela: vaskstõ
+     vašk+N+Pl+Nom: vaskūd
+     vašk+N+Pl+Gen: vaskūd
+     vašk+N+Pl+Par: vaskīdi
+     vašk+N+Pl+Dat: vaskūdõn
+     vašk+N+Pl+Ins: vaskūdõks
+     vašk+N+Pl+Ill: vaskīž
+     vašk+N+Pl+Ela: vaskīst
+

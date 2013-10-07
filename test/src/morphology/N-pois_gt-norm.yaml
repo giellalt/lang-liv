@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pȯis: # Noun 109 'eng /est poiss/fin' - full paradigm
+     pȯis+N+Sg+Nom: pȯis
+     pȯis+N+Sg+Gen: pȯis
+     pȯis+N+Sg+Par: pȯisõ
+     pȯis+N+Sg+Dat: pȯisõn
+     pȯis+N+Sg+Ins: pȯisõks
+     pȯis+N+Sg+Ill: pȯisõ
+     pȯis+N+Sg+Ela: pȯisõst
+     pȯis+N+Pl+Nom: pūošõd
+     pȯis+N+Pl+Gen: pūošõd
+     pȯis+N+Pl+Par: pūošidi
+     pȯis+N+Pl+Dat: pūošõdõn
+     pȯis+N+Pl+Ins: pūošõdõks
+     pȯis+N+Pl+Ill: pūošiz
+     pȯis+N+Pl+Ela: pūošist
+
