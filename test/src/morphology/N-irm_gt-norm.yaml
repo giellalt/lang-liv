@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - irm: # Noun 125 'eng /est hirm/fin' - full paradigm
+     irm+N+Sg+Nom: irm
+     irm+N+Sg+Gen: irm
+     irm+N+Sg+Par: irmõ
+     irm+N+Sg+Dat: irmõn
+     irm+N+Sg+Ins: irmõks
+     irm+N+Sg+Ill: irmõ
+     irm+N+Sg+Ela: irmstõ
+     irm+N+Pl+Nom: irmõd
+     irm+N+Pl+Gen: irmõd
+     irm+N+Pl+Par: irmidi
+     irm+N+Pl+Dat: irmõdõn
+     irm+N+Pl+Ins: irmõdõks
+     irm+N+Pl+Ill: irmiž
+     irm+N+Pl+Ela: irmist
+

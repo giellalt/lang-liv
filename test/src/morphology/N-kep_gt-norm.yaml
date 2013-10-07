@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kep: # Noun 61 'eng /est kepp/fin' - full paradigm
+     kep+N+Sg+Nom: kep
+     kep+N+Sg+Gen: kep
+     kep+N+Sg+Par: keppõ
+     kep+N+Sg+Dat: keppõn
+     kep+N+Sg+Ins: keppõks
+     kep+N+Sg+Ill: keppõ
+     kep+N+Sg+Ela: kepstõ
+     kep+N+Pl+Nom: kepīd
+     kep+N+Pl+Gen: kepīd
+     kep+N+Pl+Par: kepīdi
+     kep+N+Pl+Dat: kepīdõn
+     kep+N+Pl+Ins: kepīdõks
+     kep+N+Pl+Ill: kepīž
+     kep+N+Pl+Ela: kepīst
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - āita: # Noun 46 'eng /est ait/fin' - full paradigm
+     āita+N+Sg+Nom: āita
+     āita+N+Sg+Gen: āita
+     āita+N+Sg+Par: aitõ
+     āita+N+Sg+Dat: āitan
+     āita+N+Sg+Ins: āitaks
+     āita+N+Sg+Ill: aitõ
+     āita+N+Sg+Ela: āitast
+     āita+N+Pl+Nom: āitad
+     āita+N+Pl+Gen: āitad
+     āita+N+Pl+Par: āitidi
+     āita+N+Pl+Dat: āitadõn
+     āita+N+Pl+Ins: āitadõks
+     āita+N+Pl+Ill: āitiž
+     āita+N+Pl+Ela: āitist
+

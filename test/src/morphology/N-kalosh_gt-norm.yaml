@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kaloš: # Noun 143 'eng /est kaloss/fin' - full paradigm
+     kaloš+N+Sg+Nom: kaloš
+     kaloš+N+Sg+Gen: kaloš
+     kaloš+N+Sg+Par: kalošõ
+     kaloš+N+Sg+Dat: kalošõn
+     kaloš+N+Sg+Ins: kalošõks
+     kaloš+N+Sg+Ill: kalošõ
+     kaloš+N+Sg+Ela: kalošõst
+     kaloš+N+Pl+Nom: kalošõd
+     kaloš+N+Pl+Gen: kalošõd
+     kaloš+N+Pl+Par: kalošidi
+     kaloš+N+Pl+Dat: kalošõdõn
+     kaloš+N+Pl+Ins: kalošõdõks
+     kaloš+N+Pl+Ill: kalošiz
+     kaloš+N+Pl+Ela: kalošist
+

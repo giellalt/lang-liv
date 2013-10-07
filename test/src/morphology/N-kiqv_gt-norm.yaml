@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kiʼv: # Noun 59 'eng /est kivi/fin' - full paradigm
+     kiʼv+N+Sg+Nom: kiʼv
+     kiʼv+N+Sg+Gen: kiʼv
+     kiʼv+N+Sg+Par: kiʼvvõ
+     kiʼv+N+Sg+Dat: kiʼvvõn
+     kiʼv+N+Sg+Ins: kiʼvkõks
+     kiʼv+N+Sg+Ill: kiʼvvõ
+     kiʼv+N+Sg+Ela: kiʼvstõ
+     kiʼv+N+Pl+Nom: kivīd
+     kiʼv+N+Pl+Gen: kivīd
+     kiʼv+N+Pl+Par: kivīdi
+     kiʼv+N+Pl+Dat: kivīdõn
+     kiʼv+N+Pl+Ins: kivīdõks
+     kiʼv+N+Pl+Ill: kivīž
+     kiʼv+N+Pl+Ela: kivīst
+

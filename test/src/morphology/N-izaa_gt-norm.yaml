@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - izā: # Noun 25 'eng /est isa/fin' - full paradigm
+     izā+N+Sg+Nom: izā
+     izā+N+Sg+Gen: izā
+     izā+N+Sg+Par: iʼzzõ
+     izā+N+Sg+Dat: izān
+     izā+N+Sg+Ins: izāks
+     izā+N+Sg+Ill: iʼzzõ
+     izā+N+Sg+Ela: izāst
+     izā+N+Pl+Nom: izād
+     izā+N+Pl+Gen: izād
+     izā+N+Pl+Par: iʼžḑi
+     izā+N+Pl+Dat: izādõn
+     izā+N+Pl+Ins: izādõks
+     izā+N+Pl+Ill: izīž
+     izā+N+Pl+Ela: izīst
+

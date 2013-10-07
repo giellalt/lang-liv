@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sušā: # Noun 50 'eng /est õeke/fin' - full paradigm
+     sušā+N+Sg+Nom: sušā
+     sušā+N+Sg+Gen: sušā
+     sušā+N+Sg+Par: suššõ
+     sušā+N+Sg+Dat: sušān
+     sušā+N+Sg+Ins: sušāks
+     sušā+N+Sg+Ill: suššõ
+     sušā+N+Sg+Ela: sušāst
+     sušā+N+Pl+Nom: sušād
+     sušā+N+Pl+Gen: sušād
+     sušā+N+Pl+Par: sušīdi
+     sušā+N+Pl+Dat: sušādõn
+     sušā+N+Pl+Ins: sušādõks
+     sušā+N+Pl+Ill: sušīz
+     sušā+N+Pl+Ela: sušīst
+

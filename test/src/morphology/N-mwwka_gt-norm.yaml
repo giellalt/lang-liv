@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - mȭka: # Noun 48 'eng /est vorst/fin' - full paradigm
+     mȭka+N+Sg+Nom: mȭka
+     mȭka+N+Sg+Gen: mȭka
+     mȭka+N+Sg+Par: mõukõ
+     mȭka+N+Sg+Dat: mȭkan
+     mȭka+N+Sg+Ins: mȭkaks
+     mȭka+N+Sg+Ill: mõukõ
+     mȭka+N+Sg+Ela: mȭkast
+     mȭka+N+Pl+Nom: mȭkad
+     mȭka+N+Pl+Gen: mȭkad
+     mȭka+N+Pl+Par: mȭkidi
+     mȭka+N+Pl+Dat: mȭkadõn
+     mȭka+N+Pl+Ins: mȭkadõks
+     mȭka+N+Pl+Ill: mȭkiž
+     mȭka+N+Pl+Ela: mȭkist
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kalendār: # Noun 130 'eng /est kalender/fin' - full paradigm
+     kalendār+N+Sg+Nom: kalendār
+     kalendār+N+Sg+Gen: kalendār
+     kalendār+N+Sg+Par: kalendārõ
+     kalendār+N+Sg+Dat: kalendārõn
+     kalendār+N+Sg+Ins: kalendārõks
+     kalendār+N+Sg+Ill: kalendārõ
+     kalendār+N+Sg+Ela: kalendārst
+     kalendār+N+Pl+Nom: kalendārõd
+     kalendār+N+Pl+Gen: kalendārõd
+     kalendār+N+Pl+Par: kalendāridi
+     kalendār+N+Pl+Dat: kalendārõdõn
+     kalendār+N+Pl+Ins: kalendārõdõks
+     kalendār+N+Pl+Ill: kalendāriž
+     kalendār+N+Pl+Ela: kalendārist
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sukā: # Noun 28 'eng /est sukk/fin' - full paradigm
+     sukā+N+Sg+Nom: sukā
+     sukā+N+Sg+Gen: sukā
+     sukā+N+Sg+Par: sukkõ
+     sukā+N+Sg+Dat: sukān
+     sukā+N+Sg+Ins: sukāks
+     sukā+N+Sg+Ill: sukkõ
+     sukā+N+Sg+Ela: sukāst
+     sukā+N+Pl+Nom: sukād
+     sukā+N+Pl+Gen: sukād
+     sukā+N+Pl+Par: sukţi
+     sukā+N+Pl+Dat: sukādõn
+     sukā+N+Pl+Ins: sukādõks
+     sukā+N+Pl+Ill: sukīž
+     sukā+N+Pl+Ela: sukīst
+

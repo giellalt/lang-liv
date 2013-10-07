@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - akātõb: # Noun 159 'eng /est käepide/fin' - full paradigm
+     akātõb+N+Sg+Nom: akātõb
+     akātõb+N+Sg+Gen: akātõb
+     akātõb+N+Sg+Par: akātõbt
+     akātõb+N+Sg+Dat: akātõbõn
+     akātõb+N+Sg+Ins: akātõbõks
+     akātõb+N+Sg+Ill: akātõbõ
+     akātõb+N+Sg+Ela: akātõbst
+     akātõb+N+Pl+Nom: akātõbõd
+     akātõb+N+Pl+Gen: akātõbõd
+     akātõb+N+Pl+Par: akātõbidi
+     akātõb+N+Pl+Dat: akātõbõdõn
+     akātõb+N+Pl+Ins: akātõbõdõks
+     akātõb+N+Pl+Ill: akātõbiž
+     akātõb+N+Pl+Ela: akātõbist
+

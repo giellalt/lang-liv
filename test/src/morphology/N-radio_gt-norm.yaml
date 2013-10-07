@@ -1,0 +1,35 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - radio: # Noun 90 'eng /est raadio/fin' - full paradigm
+     radio+N+Sg+Nom: radio
+     radio+N+Sg+Gen: radio
+     radio+N+Sg+Par: radio
+     radio+N+Sg+Dat: radion
+     radio+N+Sg+Ins: radioks
+     radio+N+Sg+Ill: [radio, radioz]
+     radio+N+Sg+Ela: radiost
+     radio+N+Pl+Nom: radiod
+     radio+N+Pl+Gen: radiod
+     radio+N+Pl+Par: radiodi
+     radio+N+Pl+Dat: radiodõn
+     radio+N+Pl+Ins: radiodõks
+     radio+N+Pl+Ill: radioiž
+     radio+N+Pl+Ela: radioist
+
+

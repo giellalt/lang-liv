@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kēra: # Noun 43 'eng /est kiri/fin' - full paradigm
+     kēra+N+Sg+Nom: kēra
+     kēra+N+Sg+Gen: kēra
+     kēra+N+Sg+Par: kerrõ
+     kēra+N+Sg+Dat: kēran
+     kēra+N+Sg+Ins: kēraks
+     kēra+N+Sg+Ill: kerrõ
+     kēra+N+Sg+Ela: kērast
+     kēra+N+Pl+Nom: kērad
+     kēra+N+Pl+Gen: kērad
+     kēra+N+Pl+Par: kēridi
+     kēra+N+Pl+Dat: kēradõn
+     kēra+N+Pl+Ins: kēradõks
+     kēra+N+Pl+Ill: kēriž
+     kēra+N+Pl+Ela: kērist
+
