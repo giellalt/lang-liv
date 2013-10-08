@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pǟva: # Noun 24 'eng /est päev/fin' - full paradigm
+     pǟva+N+Sg+Nom: pǟva
+     pǟva+N+Sg+Gen: pǟva
+     pǟva+N+Sg+Par: päuvõ
+     pǟva+N+Sg+Dat: pǟvan
+     pǟva+N+Sg+Ins: pǟvaks
+     pǟva+N+Sg+Ill: päuvõ
+     pǟva+N+Sg+Ela: pǟvast
+     pǟva+N+Pl+Nom: pǟvad
+     pǟva+N+Pl+Gen: pǟvad
+     pǟva+N+Pl+Par: päuvḑi
+     pǟva+N+Pl+Dat: pǟvadõn
+     pǟva+N+Pl+Ins: pǟvadõks
+     pǟva+N+Pl+Ill: päuvži
+     pǟva+N+Pl+Ela: päuvšti
+

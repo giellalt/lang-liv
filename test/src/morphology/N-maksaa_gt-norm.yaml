@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - maksā: # Noun 42 'eng /est maks ­a/fin' - full paradigm
+     maksā+N+Sg+Nom: maksā
+     maksā+N+Sg+Gen: maksā
+     maksā+N+Sg+Par: maksõ
+     maksā+N+Sg+Dat: maksān
+     maksā+N+Sg+Ins: maksāks
+     maksā+N+Sg+Ill: maksõ
+     maksā+N+Sg+Ela: maksāst
+     maksā+N+Pl+Nom: maksād
+     maksā+N+Pl+Gen: maksād
+     maksā+N+Pl+Par: maksīdi
+     maksā+N+Pl+Dat: maksādõn
+     maksā+N+Pl+Ins: maksādõks
+     maksā+N+Pl+Ill: maksīž
+     maksā+N+Pl+Ela: maksīst
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - rūʼtš: # Noun 145 'eng /est toriseja/fin' - full paradigm
+     rūʼtš+N+Sg+Nom: rūʼtš
+     rūʼtš+N+Sg+Gen: rūʼtš
+     rūʼtš+N+Sg+Par: rūʼtšõ
+     rūʼtš+N+Sg+Dat: rūʼtšõn
+     rūʼtš+N+Sg+Ins: rūʼtšõks
+     rūʼtš+N+Sg+Ill: rūʼtšõ
+     rūʼtš+N+Sg+Ela: rūʼtšõst
+     rūʼtš+N+Pl+Nom: rūʼtšõd
+     rūʼtš+N+Pl+Gen: rūʼtšõd
+     rūʼtš+N+Pl+Par: rūʼtšidi
+     rūʼtš+N+Pl+Dat: rūʼtšõdõn
+     rūʼtš+N+Pl+Ins: rūʼtšõdõks
+     rūʼtš+N+Pl+Ill: rūʼtšiz
+     rūʼtš+N+Pl+Ela: rūʼtšist
+

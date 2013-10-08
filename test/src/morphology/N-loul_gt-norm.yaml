@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - loul: # Noun 98 'eng /est loul/fin' - full paradigm
+     loul+N+Sg+Nom: loul
+     loul+N+Sg+Gen: loul
+     loul+N+Sg+Par: loulõ
+     loul+N+Sg+Dat: loulõn
+     loul+N+Sg+Ins: loulõks
+     loul+N+Sg+Ill: loulõ
+     loul+N+Sg+Ela: loulstõ
+     loul+N+Pl+Nom: lōlõd
+     loul+N+Pl+Gen: lōlõd
+     loul+N+Pl+Par: lōlidi
+     loul+N+Pl+Dat: lōlõdõn
+     loul+N+Pl+Ins: lōlõdõks
+     loul+N+Pl+Ill: lōliž
+     loul+N+Pl+Ela: lōlist
+

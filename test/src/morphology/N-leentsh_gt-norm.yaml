@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lēņtš*: # Noun 150 'eng /est lääs/fin' - full paradigm
+     lēņtš*+N+Sg+Nom: lēņtš*
+     lēņtš*+N+Sg+Gen: lǟnd
+     lēņtš*+N+Sg+Par: lǟndtõ
+     lēņtš*+N+Sg+Dat: lǟndõn
+     lēņtš*+N+Sg+Ins: lǟndkõks
+     lēņtš*+N+Sg+Ill: lǟndõ
+     lēņtš*+N+Sg+Ela: lǟndstõ
+     lēņtš*+N+Pl+Nom: lǟndõd
+     lēņtš*+N+Pl+Gen: [lǟndõ, d]
+     lēņtš*+N+Pl+Par: lēņtši
+     lēņtš*+N+Pl+Dat: lǟndõdõn
+     lēņtš*+N+Pl+Ins: lǟndõdõks
+     lēņtš*+N+Pl+Ill: —
+     lēņtš*+N+Pl+Ela: —
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - krǭipa: # Noun 55 'eng /est kraap/fin' - full paradigm
+     krǭipa+N+Sg+Nom: krǭipa
+     krǭipa+N+Sg+Gen: krǭipa
+     krǭipa+N+Sg+Par: krǭipõ
+     krǭipa+N+Sg+Dat: krǭipan
+     krǭipa+N+Sg+Ins: krǭipaks
+     krǭipa+N+Sg+Ill: krǭipõ
+     krǭipa+N+Sg+Ela: krǭipast
+     krǭipa+N+Pl+Nom: krǭipad
+     krǭipa+N+Pl+Gen: krǭipad
+     krǭipa+N+Pl+Par: krǭipidi
+     krǭipa+N+Pl+Dat: krǭipadõn
+     krǭipa+N+Pl+Ins: krǭipadõks
+     krǭipa+N+Pl+Ill: krǭipiž
+     krǭipa+N+Pl+Ela: krǭipist
+

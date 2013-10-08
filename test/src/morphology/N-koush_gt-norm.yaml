@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kouš: # Noun 106 'eng /est kauss/fin' - full paradigm
+     kouš+N+Sg+Nom: kouš
+     kouš+N+Sg+Gen: kouš
+     kouš+N+Sg+Par: koušõ
+     kouš+N+Sg+Dat: koušõn
+     kouš+N+Sg+Ins: koušõks
+     kouš+N+Sg+Ill: koušõ
+     kouš+N+Sg+Ela: koušõst
+     kouš+N+Pl+Nom: kōšõd
+     kouš+N+Pl+Gen: kōšõd
+     kouš+N+Pl+Par: kōšidi
+     kouš+N+Pl+Dat: kōšõdõn
+     kouš+N+Pl+Ins: kōšõdõks
+     kouš+N+Pl+Ill: kōšiz
+     kouš+N+Pl+Ela: kōšist
+

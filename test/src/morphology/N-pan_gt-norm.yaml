@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pan: # Noun 100 'eng /est pann/fin' - full paradigm
+     pan+N+Sg+Nom: pan
+     pan+N+Sg+Gen: pan
+     pan+N+Sg+Par: pannõ
+     pan+N+Sg+Dat: pannõn
+     pan+N+Sg+Ins: pannõks
+     pan+N+Sg+Ill: pannõ
+     pan+N+Sg+Ela: panstõ
+     pan+N+Pl+Nom: pǭnõd
+     pan+N+Pl+Gen: pǭnõd
+     pan+N+Pl+Par: pǭnidi
+     pan+N+Pl+Dat: pǭnõdõn
+     pan+N+Pl+Ins: pǭnõdõks
+     pan+N+Pl+Ill: pǭniž
+     pan+N+Pl+Ela: pǭnist
+
