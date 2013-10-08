@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - aigā: # Noun 20 'eng /est äär/fin' - full paradigm
+     aigā+N+Sg+Nom: aigā
+     aigā+N+Sg+Gen: aigā
+     aigā+N+Sg+Par: aʼigõ
+     aigā+N+Sg+Dat: aigān
+     aigā+N+Sg+Ins: aigāks
+     aigā+N+Sg+Ill: aʼigõ
+     aigā+N+Sg+Ela: aigāst
+     aigā+N+Pl+Nom: aigād
+     aigā+N+Pl+Gen: aigād
+     aigā+N+Pl+Par: aʼigḑi
+     aigā+N+Pl+Dat: aigādõn
+     aigā+N+Pl+Ins: aigādõks
+     aigā+N+Pl+Ill: aʼigži
+     aigā+N+Pl+Ela: aʼigšti
+

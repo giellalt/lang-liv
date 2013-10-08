@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tranšej: # Noun 225 'eng /est tranšee/fin' - full paradigm
+     tranšej+N+Sg+Nom: tranšej
+     tranšej+N+Sg+Gen: tranšej
+     tranšej+N+Sg+Par: tranšejt
+     tranšej+N+Sg+Dat: tranšejõn
+     tranšej+N+Sg+Ins: tranšejõks
+     tranšej+N+Sg+Ill: tranšejõ
+     tranšej+N+Sg+Ela: tranšejst
+     tranšej+N+Pl+Nom: tranšejd
+     tranšej+N+Pl+Gen: tranšejd
+     tranšej+N+Pl+Par: tranšejḑi
+     tranšej+N+Pl+Dat: tranšejdõn
+     tranšej+N+Pl+Ins: tranšejdkõks
+     tranšej+N+Pl+Ill: tranšejži
+     tranšej+N+Pl+Ela: tranšejšti
+

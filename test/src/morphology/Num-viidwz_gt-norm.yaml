@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Numeral - vīdõz: # quantifiers 163 'eng fifth /est viies /fin' - full paradigm
+     vīdõz+Num+Ord+Sg+Nom: vīdõz
+     vīdõz+Num+Ord+Sg+Gen: vīdõnd
+     vīdõz+Num+Ord+Sg+Par: vīdõndt
+     vīdõz+Num+Ord+Sg+Dat: vīdõndõn
+     vīdõz+Num+Ord+Sg+Ins: vīdõndõks
+     vīdõz+Num+Ord+Sg+Ill: vīdõndõ
+     vīdõz+Num+Ord+Sg+Ela: vīdõndõst
+     vīdõz+Num+Ord+Pl+Nom: vīdõndõd
+     vīdõz+Num+Ord+Pl+Gen: sadāndõd
+     vīdõz+Num+Ord+Pl+Par: vīdõndidi
+     vīdõz+Num+Ord+Pl+Dat: vīdõndõdõn
+     vīdõz+Num+Ord+Pl+Ins: vīdõndõdõks
+     vīdõz+Num+Ord+Pl+Ill: vīdõndiž
+     vīdõz+Num+Ord+Pl+Ela: vīdõndist
+

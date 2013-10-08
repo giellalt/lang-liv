@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lēʼji: # Noun 188 'eng /est mineja/fin' - full paradigm
+     lēʼji+N+Sg+Nom: lēʼji
+     lēʼji+N+Sg+Gen: lēʼjiz
+     lēʼji+N+Sg+Par: lēʼjizt
+     lēʼji+N+Sg+Dat: lēʼjizõn
+     lēʼji+N+Sg+Ins: lēʼjizõks
+     lēʼji+N+Sg+Ill: lēʼjizõ
+     lēʼji+N+Sg+Ela: lēʼjizõst
+     lēʼji+N+Pl+Nom: lēʼjid
+     lēʼji+N+Pl+Gen: lēʼjid
+     lēʼji+N+Pl+Par: lēʼjidi
+     lēʼji+N+Pl+Dat: lēʼjidõn
+     lēʼji+N+Pl+Ins: lēʼjidõks
+     lēʼji+N+Pl+Ill: lēʼjiž
+     lēʼji+N+Pl+Ela: lēʼjisti
+

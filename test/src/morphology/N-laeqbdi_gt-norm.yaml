@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - läʼbḑi: # Noun 190 'eng /est labidas/fin' - full paradigm
+     läʼbḑi+N+Sg+Nom: läʼbḑi
+     läʼbḑi+N+Sg+Gen: läʼbḑiz
+     läʼbḑi+N+Sg+Par: läʼbḑizt
+     läʼbḑi+N+Sg+Dat: läʼbḑin
+     läʼbḑi+N+Sg+Ins: läʼbḑiks
+     läʼbḑi+N+Sg+Ill: läʼbḑizõ
+     läʼbḑi+N+Sg+Ela: läʼbḑist
+     läʼbḑi+N+Pl+Nom: läʼbḑid
+     läʼbḑi+N+Pl+Gen: läʼbḑid
+     läʼbḑi+N+Pl+Par: läʼbḑidi
+     läʼbḑi+N+Pl+Dat: läʼbḑidõn
+     läʼbḑi+N+Pl+Ins: läʼbḑidõks
+     läʼbḑi+N+Pl+Ill: läʼbḑiž
+     läʼbḑi+N+Pl+Ela: läʼbḑisti
+

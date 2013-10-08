@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - läpš: # Noun 211 'eng /est laps/fin' - full paradigm
+     läpš+N+Sg+Nom: läpš
+     läpš+N+Sg+Gen: laps
+     läpš+N+Sg+Par: lapstā
+     läpš+N+Sg+Dat: lapsõn
+     läpš+N+Sg+Ins: lapsõks
+     läpš+N+Sg+Ill: lapsõ
+     läpš+N+Sg+Ela: lapsõst
+     läpš+N+Pl+Nom: lapst
+     läpš+N+Pl+Gen: lapst
+     läpš+N+Pl+Par: läpši
+     läpš+N+Pl+Dat: lapstõn
+     läpš+N+Pl+Ins: lapstkõks
+     läpš+N+Pl+Ill: läpšīz
+     läpš+N+Pl+Ela: läpšīst
+

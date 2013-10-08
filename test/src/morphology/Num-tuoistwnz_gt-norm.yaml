@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Numeral - -tuoistõnz: # quantifiers 164 'eng /est -teistkümnes/fin' - full paradigm
+     -tuoistõnz+Num+Ord+Sg+Nom: -tuoistõnz
+     -tuoistõnz+Num+Ord+Sg+Gen: -tuoistõnd
+     -tuoistõnz+Num+Ord+Sg+Par: -tuoistõndt
+     -tuoistõnz+Num+Ord+Sg+Dat: -tuoistõndõn
+     -tuoistõnz+Num+Ord+Sg+Ins: -tuoistõndõks
+     -tuoistõnz+Num+Ord+Sg+Ill: -tuoistõndõ
+     -tuoistõnz+Num+Ord+Sg+Ela: -tuoistõndõst
+     -tuoistõnz+Num+Ord+Pl+Nom: -tuoistõndõd
+     -tuoistõnz+Num+Ord+Pl+Gen: -tuoistõndõd
+     -tuoistõnz+Num+Ord+Pl+Par: -tuoistõndidi
+     -tuoistõnz+Num+Ord+Pl+Dat: -tuoistõndõdõn
+     -tuoistõnz+Num+Ord+Pl+Ins: -tuoistõndõdõks
+     -tuoistõnz+Num+Ord+Pl+Ill: -tuoistõndiž
+     -tuoistõnz+Num+Ord+Pl+Ela: -tuoistõndist
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sēņ: # Noun 220 'eng /est seen/fin' - full paradigm
+     sēņ+N+Sg+Nom: sēņ
+     sēņ+N+Sg+Gen: sīen
+     sēņ+N+Sg+Par: sīentõ
+     sēņ+N+Sg+Dat: sīenõn
+     sēņ+N+Sg+Ins: sīenkõks
+     sēņ+N+Sg+Ill: sīenõ
+     sēņ+N+Sg+Ela: sīenstõ
+     sēņ+N+Pl+Nom: sīend
+     sēņ+N+Pl+Gen: sīend
+     sēņ+N+Pl+Par: sēņi
+     sēņ+N+Pl+Dat: sīendõn
+     sēņ+N+Pl+Ins: sīendkõks
+     sēņ+N+Pl+Ill: sēņiž
+     sēņ+N+Pl+Ela: sēņšti
+

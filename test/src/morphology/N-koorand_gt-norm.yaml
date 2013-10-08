@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kǭrand: # Noun 159 'eng /est talu/fin' - full paradigm
+     kǭrand+N+Sg+Nom: kǭrand
+     kǭrand+N+Sg+Gen: kǭrand
+     kǭrand+N+Sg+Par: kǭrandt
+     kǭrand+N+Sg+Dat: kǭrandõn
+     kǭrand+N+Sg+Ins: kǭrandõks
+     kǭrand+N+Sg+Ill: kǭrandõ
+     kǭrand+N+Sg+Ela: kǭrandst
+     kǭrand+N+Pl+Nom: kǭrandõd
+     kǭrand+N+Pl+Gen: kǭrandõd
+     kǭrand+N+Pl+Par: kǭrandidi
+     kǭrand+N+Pl+Dat: kǭrandõdõn
+     kǭrand+N+Pl+Ins: kǭrandõdõks
+     kǭrand+N+Pl+Ill: kǭrandiž
+     kǭrand+N+Pl+Ela: kǭrandist
+

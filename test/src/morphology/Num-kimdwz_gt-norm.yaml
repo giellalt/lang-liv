@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Numeral - kimdõz: # quantifiers 163 'eng /est kümnes/fin' - full paradigm
+     kimdõz+Num+Ord+Sg+Nom: kimdõz
+     kimdõz+Num+Ord+Sg+Gen: kimdõnd
+     kimdõz+Num+Ord+Sg+Par: kimdõndt
+     kimdõz+Num+Ord+Sg+Dat: kimdõndõn
+     kimdõz+Num+Ord+Sg+Ins: kimdõndõks
+     kimdõz+Num+Ord+Sg+Ill: kimdõndõ
+     kimdõz+Num+Ord+Sg+Ela: kimdõndõst
+     kimdõz+Num+Ord+Pl+Nom: kimdõndõd
+     kimdõz+Num+Ord+Pl+Gen: kimdõndõd
+     kimdõz+Num+Ord+Pl+Par: kimdõndidi
+     kimdõz+Num+Ord+Pl+Dat: kimdõndõdõn
+     kimdõz+Num+Ord+Pl+Ins: kimdõndõdõks
+     kimdõz+Num+Ord+Pl+Ill: kimdõndiž
+     kimdõz+Num+Ord+Pl+Ela: kimdõndist
+

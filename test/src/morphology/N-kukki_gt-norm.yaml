@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kukki: # Noun 195 'eng /est putukas/fin' - full paradigm
+     kukki+N+Sg+Nom: kukki
+     kukki+N+Sg+Gen: kukīz
+     kukki+N+Sg+Par: kukīzt
+     kukki+N+Sg+Dat: kukīzõn
+     kukki+N+Sg+Ins: kukīzõks
+     kukki+N+Sg+Ill: kukīzõ
+     kukki+N+Sg+Ela: kukīzõst
+     kukki+N+Pl+Nom: kukkizt
+     kukki+N+Pl+Gen: kukkizt
+     kukki+N+Pl+Par: kukīži
+     kukki+N+Pl+Dat: kukkiztõn
+     kukki+N+Pl+Ins: kukkiztõks
+     kukki+N+Pl+Ill: kukīžiz
+     kukki+N+Pl+Ela: kukīžist
+

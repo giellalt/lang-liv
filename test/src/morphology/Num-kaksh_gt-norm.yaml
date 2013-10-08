@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Numeral - kakš: # quantifiers 218 'eng /est kaks/fin' - full paradigm
+     kakš+Num+Sg+Nom: kakš
+     kakš+Num+Sg+Gen: kǭʼd
+     kakš+Num+Sg+Par: kǭʼdtõ
+     kakš+Num+Sg+Dat: kǭʼdõn
+     kakš+Num+Sg+Ins: kǭʼdkõks
+     kakš+Num+Sg+Ill: kǭʼdõ
+     kakš+Num+Sg+Ela: kǭʼdstõ
+     kakš+Num+Pl+Nom: kǭʼd
+     kakš+Num+Pl+Gen: kǭʼd
+     kakš+Num+Pl+Par: kakši
+     kakš+Num+Pl+Dat: kǭʼdõn
+     kakš+Num+Pl+Ins: kǭʼdkõks
+     kakš+Num+Pl+Ill: kǭʼdiž
+     kakš+Num+Pl+Ela: kǭʼdšti
+

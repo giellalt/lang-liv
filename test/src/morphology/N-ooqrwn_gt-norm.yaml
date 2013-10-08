@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ǭʼrõn: # Noun 236 'eng /est riie/fin' - full paradigm
+     ǭʼrõn+N+Sg+Nom: ǭʼrõn
+     ǭʼrõn+N+Sg+Gen: ǭʼrõn
+     ǭʼrõn+N+Sg+Par: ǭʼrõnt
+     ǭʼrõn+N+Sg+Dat: ǭʼrõnõn
+     ǭʼrõn+N+Sg+Ins: ǭʼrõnõks
+     ǭʼrõn+N+Sg+Ill: ǭʼrõnõ
+     ǭʼrõn+N+Sg+Ela: ǭʼrõnõst
+     ǭʼrõn+N+Pl+Nom: ǭʼrõnd
+     ǭʼrõn+N+Pl+Gen: ǭʼrõnd
+     ǭʼrõn+N+Pl+Par: ǭʼriņi
+     ǭʼrõn+N+Pl+Dat: ǭʼrõndõn
+     ǭʼrõn+N+Pl+Ins: ǭʼrõndõks
+     ǭʼrõn+N+Pl+Ill: ǭʼriņiž
+     ǭʼrõn+N+Pl+Ela: ǭʼriņist
+

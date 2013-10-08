@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - āndõks: # Noun 206 'eng /est anne/fin' - full paradigm
+     āndõks+N+Sg+Nom: āndõks
+     āndõks+N+Sg+Gen: āndõks
+     āndõks+N+Sg+Par: āndõkst
+     āndõks+N+Sg+Dat: āndõksõn
+     āndõks+N+Sg+Ins: āndõksõks
+     āndõks+N+Sg+Ill: āndõksõ
+     āndõks+N+Sg+Ela: āndõksõst
+     āndõks+N+Pl+Nom: āndõkst
+     āndõks+N+Pl+Gen: āndõkst
+     āndõks+N+Pl+Par: āndõkši
+     āndõks+N+Pl+Dat: āndõkstõn
+     āndõks+N+Pl+Ins: āndõkstõks
+     āndõks+N+Pl+Ill: āndõkšiz
+     āndõks+N+Pl+Ela: āndõkšist
+

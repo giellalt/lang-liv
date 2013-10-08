@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kruțk: # Noun 62 'eng /est kark/fin' - full paradigm
+     kruțk+N+Sg+Nom: kruțk
+     kruțk+N+Sg+Gen: kruțk
+     kruțk+N+Sg+Par: kruțkõ
+     kruțk+N+Sg+Dat: kruțkõ
+     kruțk+N+Sg+Ins: kruțkõ
+     kruțk+N+Sg+Ill: kruțkõ
+     kruțk+N+Sg+Ela: kruțkstõ
+     kruțk+N+Pl+Nom: kruțkīd
+     kruțk+N+Pl+Gen: kruțkīd
+     kruțk+N+Pl+Par: kruțkīdi
+     kruțk+N+Pl+Dat: kruțkīdõn
+     kruțk+N+Pl+Ins: kruțkīdõks
+     kruțk+N+Pl+Ill: kruțkīž
+     kruțk+N+Pl+Ela: kruțkīst
+

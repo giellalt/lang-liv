@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ētam: # Noun 156 'eng /est heide/fin' - full paradigm
+     ētam+N+Sg+Nom: ētam
+     ētam+N+Sg+Gen: ētam
+     ētam+N+Sg+Par: ētamt
+     ētam+N+Sg+Dat: ētamõn
+     ētam+N+Sg+Ins: ētamõks
+     ētam+N+Sg+Ill: ētamõ
+     ētam+N+Sg+Ela: ētamõst
+     ētam+N+Pl+Nom: eitmõd
+     ētam+N+Pl+Gen: eitmõd
+     ētam+N+Pl+Par: eitmidi
+     ētam+N+Pl+Dat: eitmõdõn
+     ētam+N+Pl+Ins: eitmõdõks
+     ētam+N+Pl+Ill: eitmiž
+     ētam+N+Pl+Ela: eitmist
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kēļ: # Noun 215 'eng /est keel/fin' - full paradigm
+     kēļ+N+Sg+Nom: kēļ
+     kēļ+N+Sg+Gen: kīel
+     kēļ+N+Sg+Par: kīeldõ
+     kēļ+N+Sg+Dat: kīelõn
+     kēļ+N+Sg+Ins: kīelkõks
+     kēļ+N+Sg+Ill: kīelõ
+     kēļ+N+Sg+Ela: kīelstõ
+     kēļ+N+Pl+Nom: kīeld
+     kēļ+N+Pl+Gen: kīeld
+     kēļ+N+Pl+Par: kēļi
+     kēļ+N+Pl+Dat: kīeldõn
+     kēļ+N+Pl+Ins: kīeldkõks
+     kēļ+N+Pl+Ill: kēļiž
+     kēļ+N+Pl+Ela: kēļšti
+

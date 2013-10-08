@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - āndam: # Noun 159 'eng /est hommik/fin' - full paradigm
+     āndam+N+Sg+Nom: āndam
+     āndam+N+Sg+Gen: āndam
+     āndam+N+Sg+Par: āndamt
+     āndam+N+Sg+Dat: āndamõn
+     āndam+N+Sg+Ins: āndamõks
+     āndam+N+Sg+Ill: āndamõ
+     āndam+N+Sg+Ela: āndamst
+     āndam+N+Pl+Nom: āndamõd
+     āndam+N+Pl+Gen: āndamõd
+     āndam+N+Pl+Par: āndamidi
+     āndam+N+Pl+Dat: āndamõdõn
+     āndam+N+Pl+Ins: āndamõdõks
+     āndam+N+Pl+Ill: āndamiž
+     āndam+N+Pl+Ela: āndaist
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - jūŗ: # Noun 221 'eng /est juur/fin' - full paradigm
+     jūŗ+N+Sg+Nom: jūŗ
+     jūŗ+N+Sg+Gen: jūr
+     jūŗ+N+Sg+Par: jūrtõ
+     jūŗ+N+Sg+Dat: jūrõn
+     jūŗ+N+Sg+Ins: jūrkõks
+     jūŗ+N+Sg+Ill: jūrõ
+     jūŗ+N+Sg+Ela: jūrstõ
+     jūŗ+N+Pl+Nom: jūrd
+     jūŗ+N+Pl+Gen: jūrd
+     jūŗ+N+Pl+Par: jūŗi
+     jūŗ+N+Pl+Dat: jūrdõn
+     jūŗ+N+Pl+Ins: jūrdkõks
+     jūŗ+N+Pl+Ill: jūŗiž
+     jūŗ+N+Pl+Ela: jūŗšti
+
