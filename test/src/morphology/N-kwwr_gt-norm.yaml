@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kȭr: # Noun 125 'eng /est ratas/fin' - full paradigm
+     kȭr+N+Sg+Nom: kȭr
+     kȭr+N+Sg+Gen: kȭr
+     kȭr+N+Sg+Par: kȭrõ
+     kȭr+N+Sg+Dat: kȭrõn
+     kȭr+N+Sg+Ins: kȭrõks
+     kȭr+N+Sg+Ill: kȭrõ
+     kȭr+N+Sg+Ela: kȭrstõ
+     kȭr+N+Pl+Nom: kȭrõd
+     kȭr+N+Pl+Gen: kȭrõd
+     kȭr+N+Pl+Par: kȭridi
+     kȭr+N+Pl+Dat: kȭrõdõn
+     kȭr+N+Pl+Ins: kȭrõdõks
+     kȭr+N+Pl+Ill: kȭriž
+     kȭr+N+Pl+Ela: kȭrist
+

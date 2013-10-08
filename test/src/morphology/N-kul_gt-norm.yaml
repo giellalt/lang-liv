@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuļ: # Noun 103 'eng /est kull/fin' - full paradigm
+     kuļ+N+Sg+Nom: kuļ
+     kuļ+N+Sg+Gen: kuļ
+     kuļ+N+Sg+Par: kuļļõ
+     kuļ+N+Sg+Dat: kuļļõn
+     kuļ+N+Sg+Ins: kuļļõks
+     kuļ+N+Sg+Ill: kuļļõ
+     kuļ+N+Sg+Ela: kuļštõ
+     kuļ+N+Pl+Nom: kūļ
+     kuļ+N+Pl+Gen: kūļõd
+     kuļ+N+Pl+Par: kūļidi
+     kuļ+N+Pl+Dat: kūļõdõn
+     kuļ+N+Pl+Ins: kūļõdõks
+     kuļ+N+Pl+Ill: kūļiž
+     kuļ+N+Pl+Ela: kūļist
+

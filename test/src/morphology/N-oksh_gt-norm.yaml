@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - okš: # Noun 68 'eng /est karu/fin' - full paradigm
+     okš+N+Sg+Nom: okš
+     okš+N+Sg+Gen: okš
+     okš+N+Sg+Par: okšõ
+     okš+N+Sg+Dat: okšõn
+     okš+N+Sg+Ins: okšõks
+     okš+N+Sg+Ill: okšõ
+     okš+N+Sg+Ela: okšõst
+     okš+N+Pl+Nom: okšīd
+     okš+N+Pl+Gen: okšīd
+     okš+N+Pl+Par: okšīdi
+     okš+N+Pl+Dat: okšīdõn
+     okš+N+Pl+Ins: okšīdõks
+     okš+N+Pl+Ill: okšīz
+     okš+N+Pl+Ela: okšīst
+

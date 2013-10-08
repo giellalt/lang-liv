@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuoʼd: # Noun 85 'eng /est kodu/fin' - full paradigm
+     kuoʼd+N+Sg+Nom: kuoʼd
+     kuoʼd+N+Sg+Gen: kuoʼd
+     kuoʼd+N+Sg+Par: kuotā
+     kuoʼd+N+Sg+Dat: kuoʼddõn
+     kuoʼd+N+Sg+Ins: kuoʼdkõks
+     kuoʼd+N+Sg+Ill: kuoʼddõ
+     kuoʼd+N+Sg+Ela: kuoʼdstõ
+     kuoʼd+N+Pl+Nom: kuodūd
+     kuoʼd+N+Pl+Gen: kuodūd
+     kuoʼd+N+Pl+Par: kuodīdi
+     kuoʼd+N+Pl+Dat: kuodūdõn
+     kuoʼd+N+Pl+Ins: kuodūdõks
+     kuoʼd+N+Pl+Ill: kuodīž
+     kuoʼd+N+Pl+Ela: kuodīst
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - liepā: # Noun 29 'eng /est lepp/fin' - full paradigm
+     liepā+N+Sg+Nom: liepā
+     liepā+N+Sg+Gen: liepā
+     liepā+N+Sg+Par: lieppõ
+     liepā+N+Sg+Dat: liepān
+     liepā+N+Sg+Ins: liepāks
+     liepā+N+Sg+Ill: lieppõ
+     liepā+N+Sg+Ela: liepāst
+     liepā+N+Pl+Nom: liepād
+     liepā+N+Pl+Gen: liepād
+     liepā+N+Pl+Par: lepți
+     liepā+N+Pl+Dat: liepādõn
+     liepā+N+Pl+Ins: liepādõks
+     liepā+N+Pl+Ill: liepīž
+     liepā+N+Pl+Ela: liepīst
+

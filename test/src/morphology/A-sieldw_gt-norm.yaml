@@ -1,0 +1,33 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - sieldõ: # adjectives 118 'eng /est selge/fin' - full paradigm
+     sieldõ+A+Sg+Nom: sieldõ
+     sieldõ+A+Sg+Gen: sieldõ
+     sieldõ+A+Sg+Par: sieldõ
+     sieldõ+A+Sg+Dat: sieldõn
+     sieldõ+A+Sg+Ins: sieldõks
+     sieldõ+A+Sg+Ill: sieldõ(z)
+     sieldõ+A+Sg+Ela: sieldõst
+     sieldõ+A+Pl+Nom: sieldõd
+     sieldõ+A+Pl+Gen: sieldõd
+     sieldõ+A+Pl+Par: sieldidi
+     sieldõ+A+Pl+Dat: sieldõdõn
+     sieldõ+A+Pl+Ins: sieldõdõks
+     sieldõ+A+Pl+Ill: sieldiž
+     sieldõ+A+Pl+Ela: sieldist

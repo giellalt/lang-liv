@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - oksā: # Noun 30 'eng /est oks/fin' - full paradigm
+     oksā+N+Sg+Nom: oksā
+     oksā+N+Sg+Gen: oksā
+     oksā+N+Sg+Par: oksõ
+     oksā+N+Sg+Dat: oksān
+     oksā+N+Sg+Ins: oksāks
+     oksā+N+Sg+Ill: oksõ
+     oksā+N+Sg+Ela: oksāst
+     oksā+N+Pl+Nom: oksād
+     oksā+N+Pl+Gen: oksād
+     oksā+N+Pl+Par: okšti
+     oksā+N+Pl+Dat: oksādõn
+     oksā+N+Pl+Ins: oksādõks
+     oksā+N+Pl+Ill: oksīž
+     oksā+N+Pl+Ela: oksīst
+

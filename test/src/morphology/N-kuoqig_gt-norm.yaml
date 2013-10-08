@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuoʼig: # Noun 60 'eng /est laev/fin' - full paradigm
+     kuoʼig+N+Sg+Nom: kuoʼig
+     kuoʼig+N+Sg+Gen: kuoʼig
+     kuoʼig+N+Sg+Par: kuoʼigõ
+     kuoʼig+N+Sg+Dat: kuoʼigõn
+     kuoʼig+N+Sg+Ins: kuoʼigkõks
+     kuoʼig+N+Sg+Ill: kuoʼigõ
+     kuoʼig+N+Sg+Ela: kuoʼigstõ
+     kuoʼig+N+Pl+Nom: kuoigīd
+     kuoʼig+N+Pl+Gen: kuoigīd
+     kuoʼig+N+Pl+Par: kuoigīdi
+     kuoʼig+N+Pl+Dat: kuoigīdõn
+     kuoʼig+N+Pl+Ins: kuoigīdõks
+     kuoʼig+N+Pl+Ill: kuoigīž
+     kuoʼig+N+Pl+Ela: kuoigīst
+

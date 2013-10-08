@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - rubīž: # Noun 143 'eng /est piir/fin' - full paradigm
+     rubīž+N+Sg+Nom: rubīž
+     rubīž+N+Sg+Gen: rubīž
+     rubīž+N+Sg+Par: rubīžõ
+     rubīž+N+Sg+Dat: rubīžõn
+     rubīž+N+Sg+Ins: rubīžõks
+     rubīž+N+Sg+Ill: rubīžõ
+     rubīž+N+Sg+Ela: rubīžõst
+     rubīž+N+Pl+Nom: rubīžõd
+     rubīž+N+Pl+Gen: rubīžõ
+     rubīž+N+Pl+Par: rubīžidi
+     rubīž+N+Pl+Dat: rubīžõdõn
+     rubīž+N+Pl+Ins: rubīžõdõks
+     rubīž+N+Pl+Ill: rubīžiz
+     rubīž+N+Pl+Ela: rubīžist
+

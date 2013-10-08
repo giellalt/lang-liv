@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - mušt: # Noun 68 'eng /est viiger/fin' - full paradigm
+     mušt+N+Sg+Nom: mušt
+     mušt+N+Sg+Gen: mušt
+     mušt+N+Sg+Par: muštõ
+     mušt+N+Sg+Dat: muštõn
+     mušt+N+Sg+Ins: muštõks
+     mušt+N+Sg+Ill: muštõ
+     mušt+N+Sg+Ela: muštõst
+     mušt+N+Pl+Nom: muštīd
+     mušt+N+Pl+Gen: muštīd
+     mušt+N+Pl+Par: muštīdi
+     mušt+N+Pl+Dat: muštīdõn
+     mušt+N+Pl+Ins: muštīdõks
+     mušt+N+Pl+Ill: muštīz
+     mušt+N+Pl+Ela: muštīst
+

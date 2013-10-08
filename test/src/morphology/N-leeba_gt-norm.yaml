@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lēba: # Noun 21 'eng /est leib/fin' - full paradigm
+     lēba+N+Sg+Nom: lēba
+     lēba+N+Sg+Gen: lēba
+     lēba+N+Sg+Par: leibõ
+     lēba+N+Sg+Dat: lēban
+     lēba+N+Sg+Ins: lēbaks
+     lēba+N+Sg+Ill: leibõ
+     lēba+N+Sg+Ela: lēbast
+     lēba+N+Pl+Nom: lēbad
+     lēba+N+Pl+Gen: lēbad
+     lēba+N+Pl+Par: leibḑi
+     lēba+N+Pl+Dat: lēbadõn
+     lēba+N+Pl+Ins: lēbadõks
+     lēba+N+Pl+Ill: leibži
+     lēba+N+Pl+Ela: leibšti
+

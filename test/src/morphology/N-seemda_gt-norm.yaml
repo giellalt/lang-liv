@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sēmḑa: # Noun 53 'eng /est piim/fin' - full paradigm
+     sēmḑa+N+Sg+Nom: sēmḑa
+     sēmḑa+N+Sg+Gen: sēmḑa
+     sēmḑa+N+Sg+Par: semḑi
+     sēmḑa+N+Sg+Dat: sēmḑan
+     sēmḑa+N+Sg+Ins: sēmḑaks
+     sēmḑa+N+Sg+Ill: semḑõ
+     sēmḑa+N+Sg+Ela: sēmḑast
+     sēmḑa+N+Pl+Nom: sēmḑad
+     sēmḑa+N+Pl+Gen: sēmḑad
+     sēmḑa+N+Pl+Par: sēmḑidi
+     sēmḑa+N+Pl+Dat: sēmḑadõn
+     sēmḑa+N+Pl+Ins: sēmḑadõks
+     sēmḑa+N+Pl+Ill: sēmḑiž
+     sēmḑa+N+Pl+Ela: sēmḑist
+

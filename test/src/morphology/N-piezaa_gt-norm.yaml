@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - piezā: # Noun 25 'eng /est pesa/fin' - full paradigm
+     piezā+N+Sg+Nom: piezā
+     piezā+N+Sg+Gen: piezā
+     piezā+N+Sg+Par: pieʼzzõ
+     piezā+N+Sg+Dat: piezān
+     piezā+N+Sg+Ins: piezāks
+     piezā+N+Sg+Ill: pieʼzzõ
+     piezā+N+Sg+Ela: piezāst
+     piezā+N+Pl+Nom: piezād
+     piezā+N+Pl+Gen: piezād
+     piezā+N+Pl+Par: peʼžḑi
+     piezā+N+Pl+Dat: piezādõn
+     piezā+N+Pl+Ins: piezādõks
+     piezā+N+Pl+Ill: piezīž
+     piezā+N+Pl+Ela: piezīst
+

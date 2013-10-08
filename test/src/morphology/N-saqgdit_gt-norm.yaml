@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - saʼgdit: # Noun 131 'eng /est sagedus/fin' - full paradigm
+     saʼgdit+N+Sg+Nom: saʼgdit
+     saʼgdit+N+Sg+Gen: saʼgdit
+     saʼgdit+N+Sg+Par: saʼgditõ
+     saʼgdit+N+Sg+Dat: saʼgditõn
+     saʼgdit+N+Sg+Ins: saʼgditõks
+     saʼgdit+N+Sg+Ill: saʼgditõ
+     saʼgdit+N+Sg+Ela: saʼgditst
+     saʼgdit+N+Pl+Nom: saʼgditõd
+     saʼgdit+N+Pl+Gen: saʼgditõd
+     saʼgdit+N+Pl+Par: saʼgditidi
+     saʼgdit+N+Pl+Dat: saʼgditõdõn
+     saʼgdit+N+Pl+Ins: saʼgditõdõks
+     saʼgdit+N+Pl+Ill: saʼgditiž
+     saʼgdit+N+Pl+Ela: saʼgditist
+

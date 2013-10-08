@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - krämp: # Noun 63 'eng /est kramp/fin' - full paradigm
+     krämp+N+Sg+Nom: krämp
+     krämp+N+Sg+Gen: krämp
+     krämp+N+Sg+Par: krämpõ
+     krämp+N+Sg+Dat: krämpõn
+     krämp+N+Sg+Ins: krämpõks
+     krämp+N+Sg+Ill: krämpõ
+     krämp+N+Sg+Ela: krämpstõ
+     krämp+N+Pl+Nom: krǟmpid
+     krämp+N+Pl+Gen: krǟmpid
+     krämp+N+Pl+Par: krǟmpidi
+     krämp+N+Pl+Dat: krǟmpidõn
+     krämp+N+Pl+Ins: krǟmpidõks
+     krämp+N+Pl+Ill: krǟmpiž
+     krämp+N+Pl+Ela: krǟmpist
+

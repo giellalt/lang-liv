@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - paņ: # Noun 104 'eng /est pang/fin' - full paradigm
+     paņ+N+Sg+Nom: paņ
+     paņ+N+Sg+Gen: paņ
+     paņ+N+Sg+Par: paņņõ
+     paņ+N+Sg+Dat: paņņõn
+     paņ+N+Sg+Ins: paņņõks
+     paņ+N+Sg+Ill: paņņõ
+     paņ+N+Sg+Ela: paņštõ
+     paņ+N+Pl+Nom: pǭņõd
+     paņ+N+Pl+Gen: pǭņõd
+     paņ+N+Pl+Par: pǭņidi
+     paņ+N+Pl+Dat: pǭņõdõn
+     paņ+N+Pl+Ins: pǭņõdõks
+     paņ+N+Pl+Ill: pǭņiž
+     paņ+N+Pl+Ela: pǭņist
+
