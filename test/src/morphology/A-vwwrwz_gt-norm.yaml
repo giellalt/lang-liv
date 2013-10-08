@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - vȭrõz: # adjectives 180 'eng /est võõras/fin' - full paradigm
+     vȭrõz+A+Sg+Nom: vȭrõz
+     vȭrõz+A+Sg+Gen: vȭrõ
+     vȭrõz+A+Sg+Par: vȭrõzt
+     vȭrõz+A+Sg+Dat: vȭrõn
+     vȭrõz+A+Sg+Ins: vȭrõks
+     vȭrõz+A+Sg+Ill: [vȭrõ, vȭrõz]
+     vȭrõz+A+Sg+Ela: vȭrõst
+     vȭrõz+A+Pl+Nom: vȭrõd
+     vȭrõz+A+Pl+Gen: vȭrõd
+     vȭrõz+A+Pl+Par: vȭridi
+     vȭrõz+A+Pl+Dat: vȭrõdõn
+     vȭrõz+A+Pl+Ins: vȭrõdõks
+     vȭrõz+A+Pl+Ill: vȭriž
+     vȭrõz+A+Pl+Ela: vȭrist
+

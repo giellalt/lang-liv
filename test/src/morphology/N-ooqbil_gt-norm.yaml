@@ -1,0 +1,35 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ǭʼbiļ: # Noun 242 'eng /est ristik/fin' - full paradigm
+     ǭʼbiļ+N+Sg+Nom: ǭʼbiļ
+     ǭʼbiļ+N+Sg+Gen: ǭʼbiļ
+     ǭʼbiļ+N+Sg+Par: ǭʼbiļt
+     ǭʼbiļ+N+Sg+Dat: ǭʼbiļõn
+     ǭʼbiļ+N+Sg+Ins: ǭʼbiļõks
+     ǭʼbiļ+N+Sg+Ill: ǭʼbiļõ
+     ǭʼbiļ+N+Sg+Ela: ǭʼbiļšt
+     ǭʼbiļ+N+Pl+Nom: ǭʼbiļd
+     ǭʼbiļ+N+Pl+Gen: ǭʼbiļd
+     ǭʼbiļ+N+Pl+Par: ǭʼbiļi
+     ǭʼbiļ+N+Pl+Dat: ǭʼbiļdõn
+     ǭʼbiļ+N+Pl+Ins: ǭʼbiļdõks
+     ǭʼbiļ+N+Pl+Ill: ǭʼbiļiž
+     ǭʼbiļ+N+Pl+Ela: ǭʼbiļist
+
+

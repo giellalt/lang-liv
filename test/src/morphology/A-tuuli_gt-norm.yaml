@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - tūļi: # adjectives 199 'eng /est tuulne/fin' - full paradigm
+     tūļi+A+Sg+Nom: tūļi
+     tūļi+A+Sg+Gen: tūļiz
+     tūļi+A+Sg+Par: tūļizt
+     tūļi+A+Sg+Dat: tūļizõn
+     tūļi+A+Sg+Ins: tūļizõks
+     tūļi+A+Sg+Ill: tūļizõ
+     tūļi+A+Sg+Ela: tūļizõst
+     tūļi+A+Pl+Nom: tūļizt
+     tūļi+A+Pl+Gen: tūļizt
+     tūļi+A+Pl+Par: tūļiži
+     tūļi+A+Pl+Dat: tūļiztõn
+     tūļi+A+Pl+Ins: tūļiztõks
+     tūļi+A+Pl+Ill: tūļižiz
+     tūļi+A+Pl+Ela: tūļižist
+

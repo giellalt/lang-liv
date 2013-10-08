@@ -1,0 +1,35 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - midāgõd: # pronouns 10 'eng something /est miski /fin' - full paradigm
+     midāgõd+Pron+Sg+Nom: midāgõd
+     midāgõd+Pron+Sg+Gen: midāgõd
+     midāgõd+Pron+Sg+Par: midāgõd
+     midāgõd+Pron+Sg+Dat: midāgõn
+     midāgõd+Pron+Sg+Ins: midāgõks
+     midāgõd+Pron+Sg+Ill: [midāgõ, midāgõz]
+     midāgõd+Pron+Sg+Ela: midāgõst
+     midāgõd+Pron+Pl+Nom: midāgõd
+     midāgõd+Pron+Pl+Gen: midāgõd
+     midāgõd+Pron+Pl+Par: midāgidi
+     midāgõd+Pron+Pl+Dat: midāgõdõn
+     midāgõd+Pron+Pl+Ins: midāgõdõks
+     midāgõd+Pron+Pl+Ill: midāgiž
+     midāgõd+Pron+Pl+Ela: midāgist
+
+

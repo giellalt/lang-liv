@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - paŗī: # adjectives 198 'eng /est sobiv/fin' - full paradigm
+     paŗī+A+Sg+Nom: paŗī
+     paŗī+A+Sg+Gen: paŗīz
+     paŗī+A+Sg+Par: paŗīzt
+     paŗī+A+Sg+Dat: paŗīzõn
+     paŗī+A+Sg+Ins: paŗīzõks
+     paŗī+A+Sg+Ill: paŗīzõ
+     paŗī+A+Sg+Ela: paŗīzõst
+     paŗī+A+Pl+Nom: paŗīzt
+     paŗī+A+Pl+Gen: paŗīzt
+     paŗī+A+Pl+Par: paŗrīži
+     paŗī+A+Pl+Dat: paŗīztõn
+     paŗī+A+Pl+Ins: paŗīztõks
+     paŗī+A+Pl+Ill: paŗīžiz
+     paŗī+A+Pl+Ela: paŗīžist
+

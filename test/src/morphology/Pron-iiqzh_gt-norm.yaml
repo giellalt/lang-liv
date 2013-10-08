@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - īʼž: # pronouns 9 'eng /est ise/fin' - full paradigm
+     īʼž+Pron+Sg+Nom: īʼž
+     īʼž+Pron+Sg+Gen: eņtš
+     īʼž+Pron+Sg+Par: ēņtšta
+     īʼž+Pron+Sg+Dat: eņtšõn
+     īʼž+Pron+Sg+Ins: eņtšõks
+     īʼž+Pron+Sg+Ill: eņtšõ(z)
+     īʼž+Pron+Sg+Ela: eņtšõst
+     īʼž+Pron+Pl+Nom: eņtšõd
+     īʼž+Pron+Pl+Gen: eņtšõd
+     īʼž+Pron+Pl+Par: eņtšidi
+     īʼž+Pron+Pl+Dat: eņtšõdõn
+     īʼž+Pron+Pl+Ins: eņtšõdõks
+     īʼž+Pron+Pl+Ill: eņtšiz
+     īʼž+Pron+Pl+Ela: eņtšist
+

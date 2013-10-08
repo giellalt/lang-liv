@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - kis: # pronouns 8 'eng /est kes/fin' - full paradigm
+     kis+Pron+Sg+Nom: kis
+     kis+Pron+Sg+Gen: [kīen, kīnga]
+     kis+Pron+Sg+Par: [kīenta, kīenda]
+     kis+Pron+Sg+Dat: [kīen, kīngan]
+     kis+Pron+Sg+Ins: [kīenkõks, kīngaks]
+     kis+Pron+Sg+Ill: kīenõ
+     kis+Pron+Sg+Ela: kīenstõ
+     kis+Pron+Pl+Nom: kis
+     kis+Pron+Pl+Gen: kīend
+     kis+Pron+Pl+Par: kīendi
+     kis+Pron+Pl+Dat: kīendõn
+     kis+Pron+Pl+Ins: kīendõks
+     kis+Pron+Pl+Ill: kīeniž
+     kis+Pron+Pl+Ela: kīenšti
+

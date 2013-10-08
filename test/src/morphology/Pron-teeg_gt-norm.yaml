@@ -1,0 +1,26 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - tēg: # pronouns 7 'eng /est teie/fin' - full paradigm
+     tēg+Pron+Pl+Nom: tēg
+     tēg+Pron+Pl+Gen: täʼd
+     tēg+Pron+Pl+Par: tēḑi
+     tēg+Pron+Pl+Dat: täʼddõn
+     tēg+Pron+Pl+Ins: täʼdkõks
+     tēg+Pron+Pl+Ill: tēʼži
+     tēg+Pron+Pl+Ela: tēšti

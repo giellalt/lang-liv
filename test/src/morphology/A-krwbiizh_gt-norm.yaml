@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - krõbīž: # adjectives 209 'eng /est krõbe/fin' - full paradigm
+     krõbīž+A+Sg+Nom: krõbīž
+     krõbīž+A+Sg+Gen: krõbīž
+     krõbīž+A+Sg+Par: krõbīžt
+     krõbīž+A+Sg+Dat: krõbīžõn
+     krõbīž+A+Sg+Ins: krõbīžõks
+     krõbīž+A+Sg+Ill: krõbīžõ
+     krõbīž+A+Sg+Ela: krõbīžõst
+     krõbīž+A+Pl+Nom: krõbīžt
+     krõbīž+A+Pl+Gen: krõbīžt
+     krõbīž+A+Pl+Par: krõbīži
+     krõbīž+A+Pl+Dat: krõbīžtõn
+     krõbīž+A+Pl+Ins: krõbīžtõks
+     krõbīž+A+Pl+Ill: krõbīžiz
+     krõbīž+A+Pl+Ela: krõbīžist
+

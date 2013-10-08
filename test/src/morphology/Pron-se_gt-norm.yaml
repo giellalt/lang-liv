@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - se: # pronouns 4 'eng /est see/fin' - full paradigm
+     se+Pron+Sg+Nom: se
+     se+Pron+Sg+Gen: sīe
+     se+Pron+Sg+Par: siedā
+     se+Pron+Sg+Dat: sīen
+     se+Pron+Sg+Ins: sīekõks
+     se+Pron+Sg+Ill: sīʼezõ
+     se+Pron+Sg+Ela: sīestõ 
+     se+Pron+Pl+Nom: ne
+     se+Pron+Pl+Gen: nänt
+     se+Pron+Pl+Par: nēḑi
+     se+Pron+Pl+Dat: näntõn
+     se+Pron+Pl+Ins: näntkõks
+     se+Pron+Pl+Ill: nēʼži
+     se+Pron+Pl+Ela: nēšti
+

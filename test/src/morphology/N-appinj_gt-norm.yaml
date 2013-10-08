@@ -1,0 +1,35 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - appiņ: # Noun 240 'eng hop cone /est humalakäbi/fin' - full paradigm
+     appiņ+N+Sg+Nom: appiņ
+     appiņ+N+Sg+Gen: appiņ
+     appiņ+N+Sg+Par: appiņt
+     appiņ+N+Sg+Dat: appiņõn
+     appiņ+N+Sg+Ins: appiņõks
+     appiņ+N+Sg+Ill: appiņõ
+     appiņ+N+Sg+Ela: appiņšt
+     appiņ+N+Pl+Nom: appiņd
+     appiņ+N+Pl+Gen: appiņd
+     appiņ+N+Pl+Par: appiņi
+     appiņ+N+Pl+Dat: appiņdõn
+     appiņ+N+Pl+Ins: appiņdõks
+     appiņ+N+Pl+Ill: appiņiž
+     appiņ+N+Pl+Ela: appiņist
+
+

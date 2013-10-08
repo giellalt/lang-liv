@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ānkaŗ: # Noun 240 'eng anchor /est ankur/fin' - full paradigm
+     ānkaŗ+N+Sg+Nom: ānkaŗ
+     ānkaŗ+N+Sg+Gen: ānkaŗ
+     ānkaŗ+N+Sg+Par: ānkaŗt
+     ānkaŗ+N+Sg+Dat: ānkaŗõn
+     ānkaŗ+N+Sg+Ins: ānkaŗõks
+     ānkaŗ+N+Sg+Ill: ānkaŗõ
+     ānkaŗ+N+Sg+Ela: ānkaŗšt
+     ānkaŗ+N+Pl+Nom: ānkaŗd
+     ānkaŗ+N+Pl+Gen: ānkaŗd
+     ānkaŗ+N+Pl+Par: ānkaŗi
+     ānkaŗ+N+Pl+Dat: ānkaŗdõn
+     ānkaŗ+N+Pl+Ins: ānkaŗdõks
+     ānkaŗ+N+Pl+Ill: ānkaŗiž
+     ānkaŗ+N+Pl+Ela: ānkaŗist
+

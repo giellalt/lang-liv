@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - rikāz: # adjectives 171 'eng rich /est rikas/fin' - full paradigm
+     rikāz+A+Sg+Nom: rikāz
+     rikāz+A+Sg+Gen: rikkõ
+     rikāz+A+Sg+Par: rikāzt
+     rikāz+A+Sg+Dat: rikkõn
+     rikāz+A+Sg+Ins: rikkõks
+     rikāz+A+Sg+Ill: [rikkõ, rikkõz]
+     rikāz+A+Sg+Ela: rikāst
+     rikāz+A+Pl+Nom: rikkõd
+     rikāz+A+Pl+Gen: rikkõd
+     rikāz+A+Pl+Par: rikīdi
+     rikāz+A+Pl+Dat: rikkõdõn
+     rikāz+A+Pl+Ins: rikkõdõks
+     rikāz+A+Pl+Ill: rikīž
+     rikāz+A+Pl+Ela: rikīst
+

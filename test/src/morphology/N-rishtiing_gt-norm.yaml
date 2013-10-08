@@ -1,0 +1,26 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - rištīng (roʼvzt): # Noun 212 'eng /est inimesed/fin' - full paradigm
+     rištīng+N+Sg+Nom: rištīng
+     rištīng+N+Sg+Gen: rištīng
+     rištīng+N+Sg+Par: rištīngt
+     rištīng+N+Sg+Dat: rištīngõn
+     rištīng+N+Sg+Ins: rištīngõks
+     rištīng+N+Sg+Ill: rištīngõ
+     rištīng+N+Sg+Ela: rištīngst

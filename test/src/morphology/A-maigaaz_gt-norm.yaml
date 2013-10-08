@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - maigāz: # adjectives 169 'eng /est maias/fin' - full paradigm
+     maigāz+A+Sg+Nom: maigāz
+     maigāz+A+Sg+Gen: maʼigõ
+     maigāz+A+Sg+Par: maigāzt
+     maigāz+A+Sg+Dat: maigān
+     maigāz+A+Sg+Ins: maigāks
+     maigāz+A+Sg+Ill: [maʼigõ, maʼigõz]
+     maigāz+A+Sg+Ela: maigāst
+     maigāz+A+Pl+Nom: maigād
+     maigāz+A+Pl+Gen: maigād
+     maigāz+A+Pl+Par: maigīdi
+     maigāz+A+Pl+Dat: maigādõn
+     maigāz+A+Pl+Ins: maigādõks
+     maigāz+A+Pl+Ill: maigīž
+     maigāz+A+Pl+Ela: maigīst
+
