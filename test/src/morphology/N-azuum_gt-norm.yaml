@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - azūm: # Noun 153 'eng /est ase/fin' - full paradigm
+     azūm+N+Sg+Nom: azūm
+     azūm+N+Sg+Gen: azūm
+     azūm+N+Sg+Par: azūmt
+     azūm+N+Sg+Dat: azūmõn
+     azūm+N+Sg+Ins: azūmõks
+     azūm+N+Sg+Ill: azūmõ
+     azūm+N+Sg+Ela: azūmõst
+     azūm+N+Pl+Nom: aʼzmõd
+     azūm+N+Pl+Gen: aʼzmõd
+     azūm+N+Pl+Par: aʼzmidi
+     azūm+N+Pl+Dat: aʼzmõdõn
+     azūm+N+Pl+Ins: aʼzmõdõks
+     azūm+N+Pl+Ill: aʼzmiž
+     azūm+N+Pl+Ela: aʼzmist
+

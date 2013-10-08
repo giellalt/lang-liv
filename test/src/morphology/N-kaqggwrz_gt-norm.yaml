@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kaʼggõrz: # Noun 230 'eng /est kaer/fin' - full paradigm
+     kaʼggõrz+N+Sg+Nom: kaʼggõrz
+     kaʼggõrz+N+Sg+Gen: kaʼggõr
+     kaʼggõrz+N+Sg+Par: kaʼggõrzt
+     kaʼggõrz+N+Sg+Dat: kaʼggõrõn
+     kaʼggõrz+N+Sg+Ins: kaʼggõrõks
+     kaʼggõrz+N+Sg+Ill: kaʼggõrõ
+     kaʼggõrz+N+Sg+Ela: kaʼggõrõst
+     kaʼggõrz+N+Pl+Nom: kaʼggõrd
+     kaʼggõrz+N+Pl+Gen: kaʼggõrd
+     kaʼggõrz+N+Pl+Par: kaʼggiri
+     kaʼggõrz+N+Pl+Dat: kaʼggõrdõn
+     kaʼggõrz+N+Pl+Ins: kaʼggõrdõks
+     kaʼggõrz+N+Pl+Ill: kaʼggiriž
+     kaʼggõrz+N+Pl+Ela: kaʼggirist
+

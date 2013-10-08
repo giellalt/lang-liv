@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kēratõks: # Noun 207 'eng /est kirjutis/fin' - full paradigm
+     kēratõks+N+Sg+Nom: kēratõks
+     kēratõks+N+Sg+Gen: kēratõks
+     kēratõks+N+Sg+Par: kēratõkst
+     kēratõks+N+Sg+Dat: kēratõksõn
+     kēratõks+N+Sg+Ins: kēratõksõks
+     kēratõks+N+Sg+Ill: kēratõksõ
+     kēratõks+N+Sg+Ela: kēratõksõst
+     kēratõks+N+Pl+Nom: kēratõkst
+     kēratõks+N+Pl+Gen: kēratõkst
+     kēratõks+N+Pl+Par: kēratõkši
+     kēratõks+N+Pl+Dat: kēratõkstõn
+     kēratõks+N+Pl+Ins: kēratõkstõks
+     kēratõks+N+Pl+Ill: kēratõkšiz
+     kēratõks+N+Pl+Ela: kēratõkšist
+

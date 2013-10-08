@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tuļļi: # Noun 189 'eng /est tulija/fin' - full paradigm
+     tuļļi+N+Sg+Nom: tuļļi
+     tuļļi+N+Sg+Gen: tuļļiz
+     tuļļi+N+Sg+Par: tuļļizt
+     tuļļi+N+Sg+Dat: tuļļijzõn
+     tuļļi+N+Sg+Ins: tuļļizõks
+     tuļļi+N+Sg+Ill: tuļļizõ
+     tuļļi+N+Sg+Ela: tuļļizõst
+     tuļļi+N+Pl+Nom: tuļļid
+     tuļļi+N+Pl+Gen: tuļļid
+     tuļļi+N+Pl+Par: tuļļidi
+     tuļļi+N+Pl+Dat: tuļļidõn
+     tuļļi+N+Pl+Ins: tuļļidõks
+     tuļļi+N+Pl+Ill: tuļļiž
+     tuļļi+N+Pl+Ela: tuļļisti
+

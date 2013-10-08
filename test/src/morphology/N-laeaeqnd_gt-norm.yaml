@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lǟʼnd: # Noun 139 'eng /est ??/fin' - full paradigm
+     lǟʼnd+N+Sg+Nom: lǟʼnd
+     lǟʼnd+N+Sg+Gen: lǟʼnd
+     lǟʼnd+N+Sg+Par: lǟʼndõ
+     lǟʼnd+N+Sg+Dat: lǟʼndõn
+     lǟʼnd+N+Sg+Ins: lǟʼnõks
+     lǟʼnd+N+Sg+Ill: lǟʼndõ
+     lǟʼnd+N+Sg+Ela: lǟʼnõst
+     lǟʼnd+N+Pl+Nom: lǟʼnõd
+     lǟʼnd+N+Pl+Gen: lǟʼnõd
+     lǟʼnd+N+Pl+Par: lǟʼnidi
+     lǟʼnd+N+Pl+Dat: lǟʼnõdõn
+     lǟʼnd+N+Pl+Ins: lǟʼnõdõks
+     lǟʼnd+N+Pl+Ill: lǟʼniž
+     lǟʼnd+N+Pl+Ela: lǟʼnist
+

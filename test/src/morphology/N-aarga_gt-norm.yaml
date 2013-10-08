@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ǟrga: # Noun 35 'eng /est härg/fin' - full paradigm
+     ǟrga+N+Sg+Nom: ǟrga
+     ǟrga+N+Sg+Gen: ǟrga
+     ǟrga+N+Sg+Par: ärgõ
+     ǟrga+N+Sg+Dat: ǟrgan
+     ǟrga+N+Sg+Ins: ǟrgaks
+     ǟrga+N+Sg+Ill: ärgõ
+     ǟrga+N+Sg+Ela: ǟrgast
+     ǟrga+N+Pl+Nom: ǟrgad
+     ǟrga+N+Pl+Gen: ǟrgad
+     ǟrga+N+Pl+Par: eŗgi
+     ǟrga+N+Pl+Dat: ǟrgadõn
+     ǟrga+N+Pl+Ins: ǟrgadõks
+     ǟrga+N+Pl+Ill: [eŗgži, ǟrgiž]
+     ǟrga+N+Pl+Ela: [eŗgšti, ǟrgist]
+

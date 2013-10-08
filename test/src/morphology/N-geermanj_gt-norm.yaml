@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - gērmaņ: # Noun 133 'eng /est parkal/fin' - full paradigm
+     gērmaņ+N+Sg+Nom: gērmaņ
+     gērmaņ+N+Sg+Gen: gērmaņ
+     gērmaņ+N+Sg+Par: gērmaņņõ
+     gērmaņ+N+Sg+Dat: gērmaņņõn
+     gērmaņ+N+Sg+Ins: gērmaņņõks
+     gērmaņ+N+Sg+Ill: gērmaņņõ
+     gērmaņ+N+Sg+Ela: gērmaņšt
+     gērmaņ+N+Pl+Nom: gērmaņņõd
+     gērmaņ+N+Pl+Gen: gērmaņņõd
+     gērmaņ+N+Pl+Par: gērmaņņidi
+     gērmaņ+N+Pl+Dat: gērmaņņõdõn
+     gērmaņ+N+Pl+Ins: gērmaņņõdõks
+     gērmaņ+N+Pl+Ill: gērmaņņiž
+     gērmaņ+N+Pl+Ela: gērmaņņist
+

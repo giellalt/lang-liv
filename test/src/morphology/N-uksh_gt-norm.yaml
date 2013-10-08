@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ukš: # Noun 210 'eng /est uks/fin' - full paradigm
+     ukš+N+Sg+Nom: ukš
+     ukš+N+Sg+Gen: uks
+     ukš+N+Sg+Par: ukstā
+     ukš+N+Sg+Dat: uksõn
+     ukš+N+Sg+Ins: uksõks
+     ukš+N+Sg+Ill: uksõ
+     ukš+N+Sg+Ela: uksõst
+     ukš+N+Pl+Nom: ukst
+     ukš+N+Pl+Gen: ukst
+     ukš+N+Pl+Par: ukši
+     ukš+N+Pl+Dat: ukstõn
+     ukš+N+Pl+Ins: ukstkõks
+     ukš+N+Pl+Ill: ukšīz
+     ukš+N+Pl+Ela: ukšīst
+

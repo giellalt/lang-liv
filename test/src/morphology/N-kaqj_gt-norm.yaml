@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kaʼj: # Noun 122 'eng /est kahju/fin' - full paradigm
+     kaʼj+N+Sg+Nom: kaʼj
+     kaʼj+N+Sg+Gen: kaʼj
+     kaʼj+N+Sg+Par: kaʼjjõ
+     kaʼj+N+Sg+Dat: kaʼjjõn
+     kaʼj+N+Sg+Ins: kaʼjjõks
+     kaʼj+N+Sg+Ill: kaʼjjõ
+     kaʼj+N+Sg+Ela: kaʼjstõ
+     kaʼj+N+Pl+Nom: kaʼjd
+     kaʼj+N+Pl+Gen: kaʼjd
+     kaʼj+N+Pl+Par: kaʼjḑi
+     kaʼj+N+Pl+Dat: kaʼjdõn
+     kaʼj+N+Pl+Ins: kaʼjdõks
+     kaʼj+N+Pl+Ill: kaʼjži
+     kaʼj+N+Pl+Ela: kaʼjšti
+

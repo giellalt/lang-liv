@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kīntš*: # Noun 148 'eng /est küüs /fin' - full paradigm
+     kīntš*+N+Sg+Nom: kīntš*
+     kīntš*+N+Sg+Gen: kīnd
+     kīntš*+N+Sg+Par: kīndtõ
+     kīntš*+N+Sg+Dat: kīndõn
+     kīntš*+N+Sg+Ins: kīndkõks
+     kīntš*+N+Sg+Ill: kīndõ
+     kīntš*+N+Sg+Ela: kīndstõ
+     kīntš*+N+Pl+Nom: kīndõd
+     kīntš*+N+Pl+Gen: kīndõd
+     kīntš*+N+Pl+Par: kīntši
+     kīntš*+N+Pl+Dat: kīndõdõn
+     kīntš*+N+Pl+Ins: kīndõdõkd
+     kīntš*+N+Pl+Ill: kīndiž
+     kīntš*+N+Pl+Ela: kīndist
+

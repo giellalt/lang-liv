@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tuʼļ: # Noun 213 'eng /est tuli/fin' - full paradigm
+     tuʼļ+N+Sg+Nom: tuʼļ
+     tuʼļ+N+Sg+Gen: tuʼl
+     tuʼļ+N+Sg+Par: tūlda
+     tuʼļ+N+Sg+Dat: tuʼllõn
+     tuʼļ+N+Sg+Ins: tuʼlkõks
+     tuʼļ+N+Sg+Ill: tuʼllõ
+     tuʼļ+N+Sg+Ela: tuʼlstõ
+     tuʼļ+N+Pl+Nom: tuʼld
+     tuʼļ+N+Pl+Gen: tuʼld
+     tuʼļ+N+Pl+Par: tuʼļḑi
+     tuʼļ+N+Pl+Dat: tuʼldõn
+     tuʼļ+N+Pl+Ins: tuʼldkõks
+     tuʼļ+N+Pl+Ill: tuļīž
+     tuʼļ+N+Pl+Ela: tuʼļšti
+

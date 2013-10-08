@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vīetšõz: # Noun 184 'eng /est hundipaju/fin' - full paradigm
+     vīetšõz+N+Sg+Nom: vīetšõz
+     vīetšõz+N+Sg+Gen: vīetšõ
+     vīetšõz+N+Sg+Par: vīetšõzt
+     vīetšõz+N+Sg+Dat: vīetšõn
+     vīetšõz+N+Sg+Ins: vīetšõks
+     vīetšõz+N+Sg+Ill: [vīetšõ, vīetšõz]
+     vīetšõz+N+Sg+Ela: vīetšõst
+     vīetšõz+N+Pl+Nom: vīetšõd
+     vīetšõz+N+Pl+Gen: vīetšõd
+     vīetšõz+N+Pl+Par: vīetšidi
+     vīetšõz+N+Pl+Dat: vīetšõdõn
+     vīetšõz+N+Pl+Ins: vīetšõdõks
+     vīetšõz+N+Pl+Ill: vīetšiz
+     vīetšõz+N+Pl+Ela: vīetšist
+

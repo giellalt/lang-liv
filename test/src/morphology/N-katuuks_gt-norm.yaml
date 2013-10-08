@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - katūks: # Noun 205 'eng /est katus/fin' - full paradigm
+     katūks+N+Sg+Nom: katūks
+     katūks+N+Sg+Gen: katūks
+     katūks+N+Sg+Par: katūkst
+     katūks+N+Sg+Dat: katūksõn
+     katūks+N+Sg+Ins: katūksõks
+     katūks+N+Sg+Ill: katūksõ
+     katūks+N+Sg+Ela: katūksõst
+     katūks+N+Pl+Nom: katūkst
+     katūks+N+Pl+Gen: katūkst
+     katūks+N+Pl+Par: katūkši
+     katūks+N+Pl+Dat: katūkstõn
+     katūks+N+Pl+Ins: katūkstõks
+     katūks+N+Pl+Ill: katūkšiz
+     katūks+N+Pl+Ela: katūkšist
+

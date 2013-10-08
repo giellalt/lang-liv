@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - rēnaz: # Noun 176 'eng /est vankri küljelaud/fin' - full paradigm
+     rēnaz+N+Sg+Nom: rēnaz
+     rēnaz+N+Sg+Gen: reinõ
+     rēnaz+N+Sg+Par: rēnazt
+     rēnaz+N+Sg+Dat: reinõn
+     rēnaz+N+Sg+Ins: reinõks
+     rēnaz+N+Sg+Ill: [reinõ, reinõz]
+     rēnaz+N+Sg+Ela: reinõst
+     rēnaz+N+Pl+Nom: reinõd
+     rēnaz+N+Pl+Gen: reinõd
+     rēnaz+N+Pl+Par: reinidi
+     rēnaz+N+Pl+Dat: reinõdõn
+     rēnaz+N+Pl+Ins: reinõdõks
+     rēnaz+N+Pl+Ill: reiniž
+     rēnaz+N+Pl+Ela: reinist
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pūŗaz: # Noun 174 'eng /est puri/fin' - full paradigm
+     pūŗaz+N+Sg+Nom: pūŗaz
+     pūŗaz+N+Sg+Gen: puŗŗõ
+     pūŗaz+N+Sg+Par: pūŗazt
+     pūŗaz+N+Sg+Dat: puŗŗõn
+     pūŗaz+N+Sg+Ins: puŗŗõks
+     pūŗaz+N+Sg+Ill: [puŗŗõ, puŗŗõz]
+     pūŗaz+N+Sg+Ela: puŗŗõst
+     pūŗaz+N+Pl+Nom: puŗŗõd
+     pūŗaz+N+Pl+Gen: puŗŗõd
+     pūŗaz+N+Pl+Par: puŗŗidi
+     pūŗaz+N+Pl+Dat: puŗŗõdõn
+     pūŗaz+N+Pl+Ins: puŗŗõdõks
+     pūŗaz+N+Pl+Ill: puŗriž
+     pūŗaz+N+Pl+Ela: puŗŗist
+

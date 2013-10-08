@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Numeral - īʼdõksmõz: # quantifiers 165 'eng /est üheksas/fin' - full paradigm
+     īʼdõksmõz+Num+Ord+Sg+Nom: īʼdõksmõz
+     īʼdõksmõz+Num+Ord+Sg+Gen: īʼdõksmõnd
+     īʼdõksmõz+Num+Ord+Sg+Par: īʼdõksmõndt
+     īʼdõksmõz+Num+Ord+Sg+Dat: īʼdõksmõndõn
+     īʼdõksmõz+Num+Ord+Sg+Ins: īʼdõksmõndõks
+     īʼdõksmõz+Num+Ord+Sg+Ill: īʼdõksmõndõ
+     īʼdõksmõz+Num+Ord+Sg+Ela: īʼdõksmõndõst
+     īʼdõksmõz+Num+Ord+Pl+Nom: īʼdõksmõndõd
+     īʼdõksmõz+Num+Ord+Pl+Gen: īʼdõksmõndõd
+     īʼdõksmõz+Num+Ord+Pl+Par: īʼdõksmõndidi
+     īʼdõksmõz+Num+Ord+Pl+Dat: īʼdõksmõndõdõn
+     īʼdõksmõz+Num+Ord+Pl+Ins: īʼdõksmõndõdõks
+     īʼdõksmõz+Num+Ord+Pl+Ill: īʼdõksmõndiž
+     īʼdõksmõz+Num+Ord+Pl+Ela: īʼdõksmõndist
+

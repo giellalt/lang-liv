@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - umāl: # Noun 233 'eng /est humal/fin' - full paradigm
+     umāl+N+Sg+Nom: umāl
+     umāl+N+Sg+Gen: umāl
+     umāl+N+Sg+Par: umālt
+     umāl+N+Sg+Dat: umālõn
+     umāl+N+Sg+Ins: umālõks
+     umāl+N+Sg+Ill: umālõ
+     umāl+N+Sg+Ela: umālõst
+     umāl+N+Pl+Nom: umāld
+     umāl+N+Pl+Gen: umāld
+     umāl+N+Pl+Par: umāļi
+     umāl+N+Pl+Dat: umāldõn
+     umāl+N+Pl+Ins: umāldõks
+     umāl+N+Pl+Ill: umāļiž
+     umāl+N+Pl+Ela: umāļist
+

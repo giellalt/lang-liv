@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - bārbõl: # Noun 235 'eng /est kukerpuu/fin' - full paradigm
+     bārbõl+N+Sg+Nom: bārbõl
+     bārbõl+N+Sg+Gen: bārbõl
+     bārbõl+N+Sg+Par: bārbõlt
+     bārbõl+N+Sg+Dat: bārbõlõn
+     bārbõl+N+Sg+Ins: bārbõlõks
+     bārbõl+N+Sg+Ill: bārbõlõ
+     bārbõl+N+Sg+Ela: bārbõlõst
+     bārbõl+N+Pl+Nom: bārbõld
+     bārbõl+N+Pl+Gen: bārbõld
+     bārbõl+N+Pl+Par: bārbiļi
+     bārbõl+N+Pl+Dat: bārbõldõn
+     bārbõl+N+Pl+Ins: [bārbõld, õks]
+     bārbõl+N+Pl+Ill: bārbiļiž
+     bārbõl+N+Pl+Ela: bārbiļist
+

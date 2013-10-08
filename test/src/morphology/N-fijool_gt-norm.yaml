@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - fijōl: # Noun 233 'eng /est viiul/fin' - full paradigm
+     fijōl+N+Sg+Nom: fijōl
+     fijōl+N+Sg+Gen: fijōl
+     fijōl+N+Sg+Par: fijōlt
+     fijōl+N+Sg+Dat: fijōlõn
+     fijōl+N+Sg+Ins: fijōlõks
+     fijōl+N+Sg+Ill: fijōlõ
+     fijōl+N+Sg+Ela: fijōlõst
+     fijōl+N+Pl+Nom: fijōld
+     fijōl+N+Pl+Gen: fijōld
+     fijōl+N+Pl+Par: fijōļi
+     fijōl+N+Pl+Dat: fijōldõn
+     fijōl+N+Pl+Ins: fijōldõks
+     fijōl+N+Pl+Ill: fijōļiž
+     fijōl+N+Pl+Ela: fijōļist
+

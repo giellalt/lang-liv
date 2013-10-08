@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kǭj: # Noun 123 'eng /est lusikas/fin' - full paradigm
+     kǭj+N+Sg+Nom: kǭj
+     kǭj+N+Sg+Gen: kǭj
+     kǭj+N+Sg+Par: kǭjõ
+     kǭj+N+Sg+Dat: kǭjõn
+     kǭj+N+Sg+Ins: kǭjõks
+     kǭj+N+Sg+Ill: kǭjõ
+     kǭj+N+Sg+Ela: kǭjstõ
+     kǭj+N+Pl+Nom: kǭjd
+     kǭj+N+Pl+Gen: kǭjd
+     kǭj+N+Pl+Par: kǭjḑi
+     kǭj+N+Pl+Dat: kǭjdõn
+     kǭj+N+Pl+Ins: kǭjdkõks
+     kǭj+N+Pl+Ill: kǭjži
+     kǭj+N+Pl+Ela: kǭjšti
+

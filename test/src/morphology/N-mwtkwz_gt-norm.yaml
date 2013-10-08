@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - mõtkõz: # Noun 179 'eng /est mõte/fin' - full paradigm
+     mõtkõz+N+Sg+Nom: mõtkõz
+     mõtkõz+N+Sg+Gen: mõtkõ
+     mõtkõz+N+Sg+Par: mõtkõzt
+     mõtkõz+N+Sg+Dat: mõtkõn
+     mõtkõz+N+Sg+Ins: mõtkõks
+     mõtkõz+N+Sg+Ill: [mõtkõ, mõtkõz]
+     mõtkõz+N+Sg+Ela: mõtkõst
+     mõtkõz+N+Pl+Nom: mõtkõd
+     mõtkõz+N+Pl+Gen: mõtkõd
+     mõtkõz+N+Pl+Par: mõtkidi
+     mõtkõz+N+Pl+Dat: mõtkõdõn
+     mõtkõz+N+Pl+Ins: mõtkõdõks
+     mõtkõz+N+Pl+Ill: mõtkiž
+     mõtkõz+N+Pl+Ela: mõtkist
+

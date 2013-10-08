@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sēji*: # Noun 186 'eng /est sööja/fin' - full paradigm
+     sēji*+N+Sg+Nom: sēji*
+     sēji*+N+Sg+Gen: sējiz
+     sēji*+N+Sg+Par: sējizt
+     sēji*+N+Sg+Dat: sējizõn
+     sēji*+N+Sg+Ins: sējizõks
+     sēji*+N+Sg+Ill: sējizõ
+     sēji*+N+Sg+Ela: sējizõst
+     sēji*+N+Pl+Nom: sējid
+     sēji*+N+Pl+Gen: sējid
+     sēji*+N+Pl+Par: sējidi
+     sēji*+N+Pl+Dat: sējidõn
+     sēji*+N+Pl+Ins: sējidõks
+     sēji*+N+Pl+Ill: sējiž
+     sēji*+N+Pl+Ela: sējisti
+
