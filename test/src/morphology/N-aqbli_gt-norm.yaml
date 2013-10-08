@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - aʼbli: # Noun 200 'eng /est abiline/fin' - full paradigm
+     aʼbli+N+Sg+Nom: aʼbli
+     aʼbli+N+Sg+Gen: aʼbliz
+     aʼbli+N+Sg+Par: aʼblizt
+     aʼbli+N+Sg+Dat: aʼblizõn
+     aʼbli+N+Sg+Ins: aʼblizõks
+     aʼbli+N+Sg+Ill: aʼblizõ
+     aʼbli+N+Sg+Ela: aʼblizõst
+     aʼbli+N+Pl+Nom: aʼblizt
+     aʼbli+N+Pl+Gen: aʼblizt
+     aʼbli+N+Pl+Par: aʼbliži
+     aʼbli+N+Pl+Dat: aʼbliztõn
+     aʼbli+N+Pl+Ins: aʼbliztõks
+     aʼbli+N+Pl+Ill: aʼbližiz
+     aʼbli+N+Pl+Ela: aʼbližist
+

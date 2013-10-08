@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - āinagi: # adjectives 199 'eng /est ainuke/fin' - full paradigm
+     āinagi+A+Sg+Nom: āinagi
+     āinagi+A+Sg+Gen: āinagiz
+     āinagi+A+Sg+Par: āinagizt
+     āinagi+A+Sg+Dat: āinagizõn
+     āinagi+A+Sg+Ins: āinagizõks
+     āinagi+A+Sg+Ill: āinagizõ
+     āinagi+A+Sg+Ela: āinagizõst
+     āinagi+A+Pl+Nom: āinagizt
+     āinagi+A+Pl+Gen: āinagizt
+     āinagi+A+Pl+Par: āinagiži
+     āinagi+A+Pl+Dat: āinagiztõn
+     āinagi+A+Pl+Ins: āinagiztõks
+     āinagi+A+Pl+Ill: āinagižiz
+     āinagi+A+Pl+Ela: āinagižist
+

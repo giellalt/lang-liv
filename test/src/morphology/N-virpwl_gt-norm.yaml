@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - virpõļ: # Noun 241 'eng /est täring/fin' - full paradigm
+     virpõļ+N+Sg+Nom: virpõļ
+     virpõļ+N+Sg+Gen: virpõļ
+     virpõļ+N+Sg+Par: virpõļt
+     virpõļ+N+Sg+Dat: virpõļõn
+     virpõļ+N+Sg+Ins: virpõļõks
+     virpõļ+N+Sg+Ill: virpõļõ
+     virpõļ+N+Sg+Ela: virpõļšt
+     virpõļ+N+Pl+Nom: virpõļd
+     virpõļ+N+Pl+Gen: virpõļd
+     virpõļ+N+Pl+Par: virpiļi
+     virpõļ+N+Pl+Dat: virpõļdõn
+     virpõļ+N+Pl+Ins: virpõļdõks
+     virpõļ+N+Pl+Ill: virpiļiž
+     virpõļ+N+Pl+Ela: virpiļist
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kīndõr: # Noun 237 'eng /est küünar/fin' - full paradigm
+     kīndõr+N+Sg+Nom: kīndõr
+     kīndõr+N+Sg+Gen: kīndõr
+     kīndõr+N+Sg+Par: kīndõrt
+     kīndõr+N+Sg+Dat: kīndõrõn
+     kīndõr+N+Sg+Ins: kīndõrõks
+     kīndõr+N+Sg+Ill: kīndõrõ
+     kīndõr+N+Sg+Ela: kīndõrõst
+     kīndõr+N+Pl+Nom: kīndõrd
+     kīndõr+N+Pl+Gen: kīndõrd
+     kīndõr+N+Pl+Par: kīndõri
+     kīndõr+N+Pl+Dat: kīndõrdõn
+     kīndõr+N+Pl+Ins: kīndõrdõks
+     kīndõr+N+Pl+Ill: kīndiriž
+     kīndõr+N+Pl+Ela: kīndõrist
+

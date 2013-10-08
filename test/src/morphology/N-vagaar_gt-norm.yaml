@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vagāŗ: # Noun 232 'eng /est kubjas/fin' - full paradigm
+     vagāŗ+N+Sg+Nom: vagāŗ
+     vagāŗ+N+Sg+Gen: vagār
+     vagāŗ+N+Sg+Par: vagārt
+     vagāŗ+N+Sg+Dat: vagārõn
+     vagāŗ+N+Sg+Ins: vagārõks
+     vagāŗ+N+Sg+Ill: vagārõ
+     vagāŗ+N+Sg+Ela: vagārõst
+     vagāŗ+N+Pl+Nom: vagārd
+     vagāŗ+N+Pl+Gen: vagārd
+     vagāŗ+N+Pl+Par: vagāŗi
+     vagāŗ+N+Pl+Dat: vagārdõn
+     vagāŗ+N+Pl+Ins: vagārdõks
+     vagāŗ+N+Pl+Ill: vagāŗiž
+     vagāŗ+N+Pl+Ela: vagāŗist
+

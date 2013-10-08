@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - äʼggõz: # Noun 182 'eng /est äke/fin' - full paradigm
+     äʼggõz+N+Sg+Nom: äʼggõz
+     äʼggõz+N+Sg+Gen: äʼggõ
+     äʼggõz+N+Sg+Par: äʼggõzt
+     äʼggõz+N+Sg+Dat: äʼggõn
+     äʼggõz+N+Sg+Ins: äʼggõks
+     äʼggõz+N+Sg+Ill: äʼggõ(z)
+     äʼggõz+N+Sg+Ela: äʼggõst
+     äʼggõz+N+Pl+Nom: äʼggõd
+     äʼggõz+N+Pl+Gen: äʼggõd
+     äʼggõz+N+Pl+Par: äʼggidi
+     äʼggõz+N+Pl+Dat: äʼggõdõn
+     äʼggõz+N+Pl+Ins: äʼggõdõks
+     äʼggõz+N+Pl+Ill: äʼggiž
+     äʼggõz+N+Pl+Ela: äʼggist
+

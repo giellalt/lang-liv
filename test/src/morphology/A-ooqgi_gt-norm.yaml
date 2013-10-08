@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - ǭʼgi: # adjectives 200 'eng /est hall/fin' - full paradigm
+     ǭʼgi+A+Sg+Nom: ǭʼgi
+     ǭʼgi+A+Sg+Gen: ǭʼgiz
+     ǭʼgi+A+Sg+Par: ǭʼgizt
+     ǭʼgi+A+Sg+Dat: ǭʼgizõn
+     ǭʼgi+A+Sg+Ins: ǭʼgizõks
+     ǭʼgi+A+Sg+Ill: ǭʼgizõ
+     ǭʼgi+A+Sg+Ela: ǭʼgizõst
+     ǭʼgi+A+Pl+Nom: ǭʼgizt
+     ǭʼgi+A+Pl+Gen: ǭʼgizt
+     ǭʼgi+A+Pl+Par: ǭʼgiži
+     ǭʼgi+A+Pl+Dat: ǭʼgiztõn
+     ǭʼgi+A+Pl+Ins: ǭʼgiztõks
+     ǭʼgi+A+Pl+Ill: ǭʼgižiz
+     ǭʼgi+A+Pl+Ela: ǭʼgižist
+

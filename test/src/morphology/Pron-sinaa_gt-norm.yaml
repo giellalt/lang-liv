@@ -1,0 +1,26 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - sinā ~ sa: # pronouns 7 'eng /est sina/fin' - full paradigm
+     sinā+Pron+Sg+Nom: [sinā, sa]
+     sinā+Pron+Sg+Gen: siʼn
+     sinā+Pron+Sg+Par: sīnda
+     sinā+Pron+Sg+Dat: siʼnnõn
+     sinā+Pron+Sg+Ins: siʼnkõks
+     sinā+Pron+Sg+Ill: [siʼnnõ, siʼnnõz]
+     sinā+Pron+Sg+Ela: siʼnstõ

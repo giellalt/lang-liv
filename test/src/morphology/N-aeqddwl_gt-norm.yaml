@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - äʼddõl: # Noun 236 'eng /est ädal/fin' - full paradigm
+     äʼddõl+N+Sg+Nom: äʼddõl
+     äʼddõl+N+Sg+Gen: äʼddõl
+     äʼddõl+N+Sg+Par: äʼddõlt
+     äʼddõl+N+Sg+Dat: äʼddõlõn
+     äʼddõl+N+Sg+Ins: äʼddõlõks
+     äʼddõl+N+Sg+Ill: äʼddõlõ
+     äʼddõl+N+Sg+Ela: äʼddõlõst
+     äʼddõl+N+Pl+Nom: äʼddõld
+     äʼddõl+N+Pl+Gen: äʼddõld
+     äʼddõl+N+Pl+Par: äʼddiļi
+     äʼddõl+N+Pl+Dat: äʼddõldõn
+     äʼddõl+N+Pl+Ins: äʼddõldõks
+     äʼddõl+N+Pl+Ill: äʼddiļiž
+     äʼddõl+N+Pl+Ela: äʼddiļist
+

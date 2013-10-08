@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pǟgiņž: # Noun 231 'eng /est paljus/fin' - full paradigm
+     pǟgiņž+N+Sg+Nom: pǟgiņž
+     pǟgiņž+N+Sg+Gen: pǟgiņ
+     pǟgiņž+N+Sg+Par: pǟgiņžt
+     pǟgiņž+N+Sg+Dat: pǟgiņõn
+     pǟgiņž+N+Sg+Ins: pǟgiņõks
+     pǟgiņž+N+Sg+Ill: pǟgiņõ
+     pǟgiņž+N+Sg+Ela: pǟgiņšt
+     pǟgiņž+N+Pl+Nom: pǟgiņd
+     pǟgiņž+N+Pl+Gen: pǟgiņd
+     pǟgiņž+N+Pl+Par: pǟgiņi
+     pǟgiņž+N+Pl+Dat: pǟgiņdõn
+     pǟgiņž+N+Pl+Ins: pǟgiņdõks
+     pǟgiņž+N+Pl+Ill: pǟgiņiž
+     pǟgiņž+N+Pl+Ela: pǟgiņist
+
