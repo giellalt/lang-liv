@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - bäʼzmõr: # Noun 238 'eng /est päsmer/fin' - full paradigm
+     bäʼzmõr+N+Sg+Nom: bäʼzmõr
+     bäʼzmõr+N+Sg+Gen: bäʼzmõr
+     bäʼzmõr+N+Sg+Par: bäʼzmõrt
+     bäʼzmõr+N+Sg+Dat: bäʼzmõrõn
+     bäʼzmõr+N+Sg+Ins: bäʼzmõrõks
+     bäʼzmõr+N+Sg+Ill: bäʼzmõrõ
+     bäʼzmõr+N+Sg+Ela: bäʼzmõrõst
+     bäʼzmõr+N+Pl+Nom: bäʼzmõrd
+     bäʼzmõr+N+Pl+Gen: bäʼzmõrd
+     bäʼzmõr+N+Pl+Par: bäʼzmõri
+     bäʼzmõr+N+Pl+Dat: bäʼzmõrdõn
+     bäʼzmõr+N+Pl+Ins: bäʼzmõrdõks
+     bäʼzmõr+N+Pl+Ill: bäʼzmõriž
+     bäʼzmõr+N+Pl+Ela: bäʼzmõrist
+

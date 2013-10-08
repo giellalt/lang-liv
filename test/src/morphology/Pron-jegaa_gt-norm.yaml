@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - jegā: # pronouns 2 'eng each /est iga /fin joka' - full paradigm
+     jegā+Pron+Sg+Nom: jegā
+     jegā+Pron+Sg+Gen: jegā
+     jegā+Pron+Sg+Par: jegā
+     jegā+Pron+Sg+Dat: jegān
+     jegā+Pron+Sg+Ins: jegāks
+     jegā+Pron+Sg+Ill: jeʼggõ
+     jegā+Pron+Sg+Ela: jegāst
+
+

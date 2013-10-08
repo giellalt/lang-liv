@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - kuldi: # adjectives 199 'eng golden /est kuldne /fin kultainen' - full paradigm
+     kuldi+A+Sg+Nom: kuldi
+     kuldi+A+Sg+Gen: kuldiz
+     kuldi+A+Sg+Par: kuldizt
+     kuldi+A+Sg+Dat: kuldizõn
+     kuldi+A+Sg+Ins: kuldizõks
+     kuldi+A+Sg+Ill: kuldizõ
+     kuldi+A+Sg+Ela: kuldizõst
+     kuldi+A+Pl+Nom: kuldizt
+     kuldi+A+Pl+Gen: kuldizt
+     kuldi+A+Pl+Par: kuldiži
+     kuldi+A+Pl+Dat: kuldiztõn
+     kuldi+A+Pl+Ins: kuldiztõks
+     kuldi+A+Pl+Ill: kuldižiz
+     kuldi+A+Pl+Ela: kuldižist
+

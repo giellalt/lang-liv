@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - puʼnni: # adjectives 193 'eng /est punane/fin' - full paradigm
+     puʼnni+A+Sg+Nom: puʼnni
+     puʼnni+A+Sg+Gen: punīz
+     puʼnni+A+Sg+Par: punīzt
+     puʼnni+A+Sg+Dat: punīzõn
+     puʼnni+A+Sg+Ins: punīzõks
+     puʼnni+A+Sg+Ill: punīzõ
+     puʼnni+A+Sg+Ela: punīzõst
+     puʼnni+A+Pl+Nom: puʼnnizt
+     puʼnni+A+Pl+Gen: puʼnnizt
+     puʼnni+A+Pl+Par: punīži
+     puʼnni+A+Pl+Dat: puʼnniztõn
+     puʼnni+A+Pl+Ins: puʼnniztõks
+     puʼnni+A+Pl+Ill: punīžiz
+     puʼnni+A+Pl+Ela: punīžist
+

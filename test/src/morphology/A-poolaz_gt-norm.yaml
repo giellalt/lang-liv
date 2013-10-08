@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - pǭļaz: # adjectives 175 'eng bare /est paljas /fin' - full paradigm
+     pǭļaz+A+Sg+Nom: pǭļaz
+     pǭļaz+A+Sg+Gen: paļļõ
+     pǭļaz+A+Sg+Par: pǭļazt
+     pǭļaz+A+Sg+Dat: paļļõn
+     pǭļaz+A+Sg+Ins: paļļõks
+     pǭļaz+A+Sg+Ill: [paļļõ, paļļõz]
+     pǭļaz+A+Sg+Ela: paļļõst
+     pǭļaz+A+Pl+Nom: paļļõd
+     pǭļaz+A+Pl+Gen: paļļõd
+     pǭļaz+A+Pl+Par: paļļidi
+     pǭļaz+A+Pl+Dat: paļļõdõn
+     pǭļaz+A+Pl+Ins: paļļõdõks
+     pǭļaz+A+Pl+Ill: paļļiž
+     pǭļaz+A+Pl+Ela: paļļist
+

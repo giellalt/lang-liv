@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - sūr: # adjectives 222 'eng /est suur/fin' - full paradigm
+     sūr+A+Sg+Nom: sūr
+     sūr+A+Sg+Gen: sūr
+     sūr+A+Sg+Par: sūrtõ
+     sūr+A+Sg+Dat: sūrõn
+     sūr+A+Sg+Ins: sūrõks
+     sūr+A+Sg+Ill: sūrõ
+     sūr+A+Sg+Ela: sūrstõ
+     sūr+A+Pl+Nom: sūrd
+     sūr+A+Pl+Gen: sūrd
+     sūr+A+Pl+Par: sūri
+     sūr+A+Pl+Dat: sūrdõn
+     sūr+A+Pl+Ins: sūrdkõks
+     sūr+A+Pl+Ill: sūriž
+     sūr+A+Pl+Ela: sūršti
+

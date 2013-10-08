@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - mēg: # pronouns 6 'eng /est meie/fin' - full paradigm
+     mēg+N+Pl+Nom: mēg
+     mēg+N+Pl+Gen: mäʼd
+     mēg+N+Pl+Par: mēḑi
+     mēg+N+Pl+Dat: mäʼddõn
+     mēg+N+Pl+Ins: mäʼdkõks
+     mēg+N+Pl+Ill: mēʼži
+     mēg+N+Pl+Ela: mēšti
+
+

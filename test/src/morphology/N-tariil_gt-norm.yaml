@@ -1,0 +1,35 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tarīļ: # Noun 239 'eng /est taldrik/fin' - full paradigm
+     tarīļ+N+Sg+Nom: tarīļ
+     tarīļ+N+Sg+Gen: tarīļ
+     tarīļ+N+Sg+Par: tarīļt
+     tarīļ+N+Sg+Dat: tarīļõn
+     tarīļ+N+Sg+Ins: tarīļõks
+     tarīļ+N+Sg+Ill: tarīļõ
+     tarīļ+N+Sg+Ela: tarīļšt
+     tarīļ+N+Pl+Nom: tarīļd
+     tarīļ+N+Pl+Gen: tarīļd
+     tarīļ+N+Pl+Par: tarīļi
+     tarīļ+N+Pl+Dat: tarīļdõn
+     tarīļ+N+Pl+Ins: tarīļdõks
+     tarīļ+N+Pl+Ill: tarīļiž
+     tarīļ+N+Pl+Ela: tarīļist
+
+									

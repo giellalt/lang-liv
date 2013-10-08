@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - aʼigi: # adjectives 192 'eng /est äärne/fin' - full paradigm
+     aʼigi+A+Sg+Nom: aʼigi
+     aʼigi+A+Sg+Gen: aigīz
+     aʼigi+A+Sg+Par: aigīzt
+     aʼigi+A+Sg+Dat: aigīzõn
+     aʼigi+A+Sg+Ins: aigīzõks
+     aʼigi+A+Sg+Ill: aigīzõ
+     aʼigi+A+Sg+Ela: aigīzõst
+     aʼigi+A+Pl+Nom: aʼigizt
+     aʼigi+A+Pl+Gen: aʼigizt
+     aʼigi+A+Pl+Par: aigīži
+     aʼigi+A+Pl+Dat: aʼigiztõn
+     aʼigi+A+Pl+Ins: aʼigiztõks
+     aʼigi+A+Pl+Ill: aigīžiz
+     aʼigi+A+Pl+Ela: aigīžist
+

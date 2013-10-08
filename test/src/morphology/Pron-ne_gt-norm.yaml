@@ -1,0 +1,27 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - ne: # pronouns 5 'eng /est need/fin' - full paradigm
+     ne+Pron+Pl+Nom: ne
+     ne+Pron+Pl+Gen: nänt
+     ne+Pron+Pl+Par: nēḑi
+     ne+Pron+Pl+Dat: näntõn
+     ne+Pron+Pl+Ins: näntkõks
+     ne+Pron+Pl+Ill: nēʼži
+     ne+Pron+Pl+Ela: nēšti
+

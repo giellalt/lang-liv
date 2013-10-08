@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lǭʼtšõz: # Noun 185 'eng brome grass /est luste/fin' - full paradigm
+     lǭʼtšõz+N+Sg+Nom: lǭʼtšõz
+     lǭʼtšõz+N+Sg+Gen: lǭʼtšõ
+     lǭʼtšõz+N+Sg+Par: lǭʼtšõzt
+     lǭʼtšõz+N+Sg+Dat: lǭʼtšõn
+     lǭʼtšõz+N+Sg+Ins: lǭʼtšõks
+     lǭʼtšõz+N+Sg+Ill: [lǭʼtšõ, lǭʼtšõz]
+     lǭʼtšõz+N+Sg+Ela: lǭʼtšõst
+     lǭʼtšõz+N+Pl+Nom: lǭʼtšõd
+     lǭʼtšõz+N+Pl+Gen: lǭʼtšõd
+     lǭʼtšõz+N+Pl+Par: lǭʼtšidi
+     lǭʼtšõz+N+Pl+Dat: lǭʼtšõdõn
+     lǭʼtšõz+N+Pl+Ins: lǭʼtšõdõks
+     lǭʼtšõz+N+Pl+Ill: lǭʼtšiz
+     lǭʼtšõz+N+Pl+Ela: lǭʼtšist
+

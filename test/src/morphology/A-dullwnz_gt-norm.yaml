@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - dullõnz: # adjectives 227 'eng /est peast segi/fin' - full paradigm
+     dullõnz+A+Sg+Nom: dullõnz
+     dullõnz+A+Sg+Gen: dullõn
+     dullõnz+A+Sg+Par: dullõnt
+     dullõnz+A+Sg+Dat: dullõnõn
+     dullõnz+A+Sg+Ins: dullõnõks
+     dullõnz+A+Sg+Ill: dullõnõ
+     dullõnz+A+Sg+Ela: dullõnõst
+     dullõnz+A+Pl+Nom: dullõnd
+     dullõnz+A+Pl+Gen: dullõnd
+     dullõnz+A+Pl+Par: dulliņi
+     dullõnz+A+Pl+Dat: dullõndõn
+     dullõnz+A+Pl+Ins: dullõndõks
+     dullõnz+A+Pl+Ill: dulliņiž
+     dullõnz+A+Pl+Ela: dulliņist
+

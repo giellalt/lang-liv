@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - appõn: # adjectives 235 'eng /est hapu/fin' - full paradigm
+     appõn+A+Sg+Nom: appõn
+     appõn+A+Sg+Gen: appõn
+     appõn+A+Sg+Par: appõnt
+     appõn+A+Sg+Dat: appõnõn
+     appõn+A+Sg+Ins: appõnõks
+     appõn+A+Sg+Ill: appõnõ
+     appõn+A+Sg+Ela: appõnõst
+     appõn+A+Pl+Nom: appõnd
+     appõn+A+Pl+Gen: appõnd
+     appõn+A+Pl+Par: appiņi
+     appõn+A+Pl+Dat: appõndõn
+     appõn+A+Pl+Ins: appõndõks
+     appõn+A+Pl+Ill: appiņiž
+     appõn+A+Pl+Ela: appiņist
+

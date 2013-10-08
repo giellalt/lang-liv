@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - aʼrlimi: # adjectives 200 'eng /est haruline/fin' - full paradigm
+     aʼrlimi+A+Sg+Nom: aʼrlimi
+     aʼrlimi+A+Sg+Gen: aʼrlimiz
+     aʼrlimi+A+Sg+Par: aʼrlimizt
+     aʼrlimi+A+Sg+Dat: aʼrlimizõn
+     aʼrlimi+A+Sg+Ins: aʼrlimizõks
+     aʼrlimi+A+Sg+Ill: aʼrlimizõ
+     aʼrlimi+A+Sg+Ela: aʼrlimizõst
+     aʼrlimi+A+Pl+Nom: aʼrlimizt
+     aʼrlimi+A+Pl+Gen: aʼrlimizt
+     aʼrlimi+A+Pl+Par: aʼrlimiži
+     aʼrlimi+A+Pl+Dat: aʼrlimiztõn
+     aʼrlimi+A+Pl+Ins: aʼrlimiztõks
+     aʼrlimi+A+Pl+Ill: aʼrlimižiz
+     aʼrlimi+A+Pl+Ela: aʼrlimižist
+

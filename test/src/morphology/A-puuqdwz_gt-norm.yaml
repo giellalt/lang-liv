@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - pūʼdõz: # adjectives 183 'eng /est puhas/fin' - full paradigm
+     pūʼdõz+A+Sg+Nom: pūʼdõz
+     pūʼdõz+A+Sg+Gen: pūʼdõ
+     pūʼdõz+A+Sg+Par: pūʼdõzt
+     pūʼdõz+A+Sg+Dat: pūʼdõn
+     pūʼdõz+A+Sg+Ins: pūʼdõks
+     pūʼdõz+A+Sg+Ill: pūʼdõ(z)
+     pūʼdõz+A+Sg+Ela: pūʼdõst
+     pūʼdõz+A+Pl+Nom: pūʼdõd
+     pūʼdõz+A+Pl+Gen: pūʼdõd
+     pūʼdõz+A+Pl+Par: pūʼdidi
+     pūʼdõz+A+Pl+Dat: pūʼdõdõn
+     pūʼdõz+A+Pl+Ins: pūʼdõdõks
+     pūʼdõz+A+Pl+Ill: pūʼdiž
+     pūʼdõz+A+Pl+Ela: pūʼdist
+

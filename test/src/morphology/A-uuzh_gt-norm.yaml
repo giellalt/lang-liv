@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - ūž: # adjectives 219 'eng /est uus/fin' - full paradigm
+     ūž+A+Sg+Nom: ūž
+     ūž+A+Sg+Gen: ūd
+     ūž+A+Sg+Par: ūdtõ
+     ūž+A+Sg+Dat: ūdõn
+     ūž+A+Sg+Ins: ūdkõks
+     ūž+A+Sg+Ill: ūdõ
+     ūž+A+Sg+Ela: ūdstõ
+     ūž+A+Pl+Nom: ūd
+     ūž+A+Pl+Gen: ūd
+     ūž+A+Pl+Par: ūži
+     ūž+A+Pl+Dat: ūdõn
+     ūž+A+Pl+Ins: ūdkõks
+     ūž+A+Pl+Ill: ūžiz
+     ūž+A+Pl+Ela: ūžist
+
