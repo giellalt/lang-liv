@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - niŗț: # Noun 102 'eng /est nirk/fin' - full paradigm
+     niŗț+N+Sg+Nom: niŗț
+     niŗț+N+Sg+Gen: niŗț
+     niŗț+N+Sg+Par: niŗțõ
+     niŗț+N+Sg+Dat: niŗțõn
+     niŗț+N+Sg+Ins: niŗțõks
+     niŗț+N+Sg+Ill: niŗțõ
+     niŗț+N+Sg+Ela: niŗțštõ
+     niŗț+N+Pl+Nom: nīŗțõd
+     niŗț+N+Pl+Gen: nīŗțõd
+     niŗț+N+Pl+Par: nīŗțidi
+     niŗț+N+Pl+Dat: nīŗțõdõn
+     niŗț+N+Pl+Ins: nīŗțõdõks
+     niŗț+N+Pl+Ill: nīŗțiž
+     niŗț+N+Pl+Ela: nīŗțist
+

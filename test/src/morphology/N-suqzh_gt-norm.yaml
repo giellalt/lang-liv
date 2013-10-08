@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - suʼž: # Noun 86 'eng /est hunt/fin' - full paradigm
+     suʼž+N+Sg+Nom: suʼž
+     suʼž+N+Sg+Gen: suʼd
+     suʼž+N+Sg+Par: sutā
+     suʼž+N+Sg+Dat: suʼddõn
+     suʼž+N+Sg+Ins: suʼdkõks
+     suʼž+N+Sg+Ill: suʼddõ
+     suʼž+N+Sg+Ela: suʼdstõ
+     suʼž+N+Pl+Nom: sudūd
+     suʼž+N+Pl+Gen: sudūd
+     suʼž+N+Pl+Par: suʼžži
+     suʼž+N+Pl+Dat: sudūdõn
+     suʼž+N+Pl+Ins: sudūdõks
+     suʼž+N+Pl+Ill: sudīž
+     suʼž+N+Pl+Ela: sudīst
+

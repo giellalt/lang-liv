@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lipūk: # Noun 157 'eng /est süda/fin' - full paradigm
+     lipūk+N+Sg+Nom: lipūk
+     lipūk+N+Sg+Gen: lipūk
+     lipūk+N+Sg+Par: lipūkt
+     lipūk+N+Sg+Dat: lipūkõn
+     lipūk+N+Sg+Ins: lipūkõks
+     lipūk+N+Sg+Ill: lipūkõ
+     lipūk+N+Sg+Ela: lipūkõst
+     lipūk+N+Pl+Nom: lipūkõd
+     lipūk+N+Pl+Gen: lipūkõd
+     lipūk+N+Pl+Par: lipūkidi
+     lipūk+N+Pl+Dat: lipūkõdõn
+     lipūk+N+Pl+Ins: lipūkõdõks
+     lipūk+N+Pl+Ill: lipūkiž
+     lipūk+N+Pl+Ela: lipūkist
+

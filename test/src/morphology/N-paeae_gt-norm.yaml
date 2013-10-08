@@ -1,0 +1,33 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pǟ: # Noun 14 'eng /est pea/fin' - full paradigm
+     pǟ+N+Sg+Nom: pǟ
+     pǟ+N+Sg+Gen: pǟ
+     pǟ+N+Sg+Par: pǟdõ
+     pǟ+N+Sg+Dat: pǟn
+     pǟ+N+Sg+Ins: pǟkõks
+     pǟ+N+Sg+Ill: pǟʼzõ
+     pǟ+N+Sg+Ela: pǟstõ
+     pǟ+N+Pl+Nom: pǟd
+     pǟ+N+Pl+Gen: pǟd 
+     pǟ+N+Pl+Par: pēḑi
+     pǟ+N+Pl+Dat: pǟdõn
+     pǟ+N+Pl+Ins: pǟdkõks
+     pǟ+N+Pl+Ill: pēʼži
+     pǟ+N+Pl+Ela: pēšti

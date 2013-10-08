@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lǭja: # Noun 23 'eng /est paat/fin' - full paradigm
+     lǭja+N+Sg+Nom: lǭja
+     lǭja+N+Sg+Gen: lǭja
+     lǭja+N+Sg+Par: laijõ
+     lǭja+N+Sg+Dat: lǭjan
+     lǭja+N+Sg+Ins: lǭjaks
+     lǭja+N+Sg+Ill: laijõ
+     lǭja+N+Sg+Ela: lǭjast
+     lǭja+N+Pl+Nom: lǭjad
+     lǭja+N+Pl+Gen: lǭjad
+     lǭja+N+Pl+Par: laijḑi
+     lǭja+N+Pl+Dat: lǭjadõn
+     lǭja+N+Pl+Ins: lǭjadõks
+     lǭja+N+Pl+Ill: laijži
+     lǭja+N+Pl+Ela: laijšti
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuoţ: # Noun 65 'eng /est kott/fin' - full paradigm
+     kuoţ+N+Sg+Nom: kuoţ
+     kuoţ+N+Sg+Gen: kuoţ
+     kuoţ+N+Sg+Par: kuoţţõ
+     kuoţ+N+Sg+Dat: kuoţţõn
+     kuoţ+N+Sg+Ins: kuoţţõks
+     kuoţ+N+Sg+Ill: kuoţţõ
+     kuoţ+N+Sg+Ela: kuoţštõ
+     kuoţ+N+Pl+Nom: kuoţīd
+     kuoţ+N+Pl+Gen: kuoţīd
+     kuoţ+N+Pl+Par: kuoţīdi
+     kuoţ+N+Pl+Dat: kuoţīdõn
+     kuoţ+N+Pl+Ins: kuoţīdõks
+     kuoţ+N+Pl+Ill: kuoţīž
+     kuoţ+N+Pl+Ela: kuoţīst
+

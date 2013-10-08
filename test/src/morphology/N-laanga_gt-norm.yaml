@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lānga: # Noun 33 'eng /est lõng/fin' - full paradigm
+     lānga+N+Sg+Nom: lānga
+     lānga+N+Sg+Gen: lānga
+     lānga+N+Sg+Par: langõ
+     lānga+N+Sg+Dat: lāngan
+     lānga+N+Sg+Ins: lāngaks
+     lānga+N+Sg+Ill: langõ
+     lānga+N+Sg+Ela: lāngast
+     lānga+N+Pl+Nom: lāngad
+     lānga+N+Pl+Gen: lāngad
+     lānga+N+Pl+Par: langi
+     lānga+N+Pl+Dat: lāngadõn
+     lānga+N+Pl+Ins: lāngadõks
+     lānga+N+Pl+Ill: langži
+     lānga+N+Pl+Ela: langšti 
+

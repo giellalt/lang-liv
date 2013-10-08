@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - nīʼem: # Noun 142 'eng /est lehm/fin' - full paradigm
+     nīʼem+N+Sg+Nom: nīʼem
+     nīʼem+N+Sg+Gen: nīʼem
+     nīʼem+N+Sg+Par: nīʼemõ
+     nīʼem+N+Sg+Dat: nīʼemõn
+     nīʼem+N+Sg+Ins: nīʼemõks
+     nīʼem+N+Sg+Ill: nīʼemõ
+     nīʼem+N+Sg+Ela: nīʼemõst
+     nīʼem+N+Pl+Nom: nīʼemõd
+     nīʼem+N+Pl+Gen: nīʼemõd
+     nīʼem+N+Pl+Par: nīʼemidi
+     nīʼem+N+Pl+Dat: nīʼemõdõn
+     nīʼem+N+Pl+Ins: nīʼemõdõks
+     nīʼem+N+Pl+Ill: nīʼemiž
+     nīʼem+N+Pl+Ela: nīʼemist
+

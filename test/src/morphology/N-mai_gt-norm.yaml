@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - mai: # Noun 16 'eng /est mai/fin' - full paradigm
+     mai+N+Sg+Nom: mai
+     mai+N+Sg+Gen: mai
+     mai+N+Sg+Par: maiõ
+     mai+N+Sg+Dat: maiõn
+     mai+N+Sg+Ins: maiõks
+     mai+N+Sg+Ill: maiõ
+     mai+N+Sg+Ela: maiõst
+     mai+N+Pl+Nom: maid
+     mai+N+Pl+Gen: maid
+     mai+N+Pl+Par: maiḑi
+     mai+N+Pl+Dat: maidõn
+     mai+N+Pl+Ins: maidõks
+     mai+N+Pl+Ill: maiži
+     mai+N+Pl+Ela: maišti
+

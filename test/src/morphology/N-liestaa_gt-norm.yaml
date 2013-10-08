@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - liestā: # Noun 32 'eng /est lest/fin' - full paradigm
+     liestā+N+Sg+Nom: liestā
+     liestā+N+Sg+Gen: liestā
+     liestā+N+Sg+Par: liestõ
+     liestā+N+Sg+Dat: liestān
+     liestā+N+Sg+Ins: liestāks
+     liestā+N+Sg+Ill: liestõ
+     liestā+N+Sg+Ela: liestāst
+     liestā+N+Pl+Nom: liestād
+     liestā+N+Pl+Gen: liestād
+     liestā+N+Pl+Par: lešti
+     liestā+N+Pl+Dat: liestādõn
+     liestā+N+Pl+Ins: liestādõks
+     liestā+N+Pl+Ill: liestīž
+     liestā+N+Pl+Ela: liestīst
+

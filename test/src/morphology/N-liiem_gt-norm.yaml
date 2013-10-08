@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - līem: # Noun 151 'eng /est leem/fin' - full paradigm
+     līem+N+Sg+Nom: līem
+     līem+N+Sg+Gen: līem
+     līem+N+Sg+Par: līemtõ
+     līem+N+Sg+Dat: līemõn
+     līem+N+Sg+Ins: līemkõks
+     līem+N+Sg+Ill: līemõ
+     līem+N+Sg+Ela: līemstõ
+     līem+N+Pl+Nom: līemõd
+     līem+N+Pl+Gen: līemõd
+     līem+N+Pl+Par: līemidi
+     līem+N+Pl+Dat: līemõdõn
+     līem+N+Pl+Ins: līemõdõks
+     līem+N+Pl+Ill: līemiž
+     līem+N+Pl+Ela: līemist
+

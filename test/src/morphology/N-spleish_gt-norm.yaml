@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - spleiš: # Noun 107 'eng /est pleiss/fin' - full paradigm
+     spleiš+N+Sg+Nom: spleiš
+     spleiš+N+Sg+Gen: spleiš
+     spleiš+N+Sg+Par: spleišõ
+     spleiš+N+Sg+Dat: spleišõn
+     spleiš+N+Sg+Ins: spleišõks
+     spleiš+N+Sg+Ill: spleišõ
+     spleiš+N+Sg+Ela: spleišõst
+     spleiš+N+Pl+Nom: splēšõd
+     spleiš+N+Pl+Gen: splēšõd
+     spleiš+N+Pl+Par: splēšidi
+     spleiš+N+Pl+Dat: splēšõdõn
+     spleiš+N+Pl+Ins: splēšõdõks
+     spleiš+N+Pl+Ill: splēšiz
+     spleiš+N+Pl+Ela: splēšist
+
