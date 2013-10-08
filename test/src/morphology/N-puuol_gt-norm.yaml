@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pūol: # Noun 216 'eng /est pool/fin' - full paradigm
+     pūol+N+Sg+Nom: pūol
+     pūol+N+Sg+Gen: pūol
+     pūol+N+Sg+Par: pūoldõ
+     pūol+N+Sg+Dat: pūolõn
+     pūol+N+Sg+Ins: pūolkõks
+     pūol+N+Sg+Ill: pūolõ
+     pūol+N+Sg+Ela: pūolstõ
+     pūol+N+Pl+Nom: pūold
+     pūol+N+Pl+Gen: pūold
+     pūol+N+Pl+Par: pūoļi
+     pūol+N+Pl+Dat: pūolõn
+     pūol+N+Pl+Ins: pūolkõks
+     pūol+N+Pl+Ill: pūoļiž
+     pūol+N+Pl+Ela: pūoļšti
+

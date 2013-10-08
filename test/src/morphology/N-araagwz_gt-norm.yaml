@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - arāgõz: # Noun 181 'eng /est harakas/fin' - full paradigm
+     arāgõz+N+Sg+Nom: arāgõz
+     arāgõz+N+Sg+Gen: arāgõ
+     arāgõz+N+Sg+Par: arāgõzt
+     arāgõz+N+Sg+Dat: arāgõn
+     arāgõz+N+Sg+Ins: arāgõks
+     arāgõz+N+Sg+Ill: [arāgõ, arāgõz]
+     arāgõz+N+Sg+Ela: arāgõst
+     arāgõz+N+Pl+Nom: arāgõd
+     arāgõz+N+Pl+Gen: arāgõd
+     arāgõz+N+Pl+Par: arāgidi
+     arāgõz+N+Pl+Dat: arāgõdõn
+     arāgõz+N+Pl+Ins: arāgõdõks
+     arāgõz+N+Pl+Ill: arāgiž
+     arāgõz+N+Pl+Ela: arāgist
+

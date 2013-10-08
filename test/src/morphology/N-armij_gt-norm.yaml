@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - armij: # Noun 225 'eng /est armee/fin' - full paradigm
+     armij+N+Sg+Nom: armij
+     armij+N+Sg+Gen: armij
+     armij+N+Sg+Par: armijt
+     armij+N+Sg+Dat: armijõn
+     armij+N+Sg+Ins: armijõks
+     armij+N+Sg+Ill: armijõ
+     armij+N+Sg+Ela: armijst
+     armij+N+Pl+Nom: armijd
+     armij+N+Pl+Gen: armijd
+     armij+N+Pl+Par: armijḑi
+     armij+N+Pl+Dat: armijdõn
+     armij+N+Pl+Ins: armijdõks
+     armij+N+Pl+Ill: armijži
+     armij+N+Pl+Ela: armijšti
+

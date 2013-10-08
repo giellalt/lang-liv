@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Numeral - sadāz: # quantifiers 163 'eng /est sajas/fin' - full paradigm
+     sadāz+Num+Ord+Sg+Nom: sadāz
+     sadāz+Num+Ord+Sg+Gen: sadānd
+     sadāz+Num+Ord+Sg+Par: sadāndt
+     sadāz+Num+Ord+Sg+Dat: sadāndõn
+     sadāz+Num+Ord+Sg+Ins: sadāndõks
+     sadāz+Num+Ord+Sg+Ill: sadāndõ
+     sadāz+Num+Ord+Sg+Ela: sadāndõst
+     sadāz+Num+Ord+Pl+Nom: sadāndõd
+     sadāz+Num+Ord+Pl+Gen: kimdõndõd
+     sadāz+Num+Ord+Pl+Par: sadāndidi
+     sadāz+Num+Ord+Pl+Dat: sadāndõdõn
+     sadāz+Num+Ord+Pl+Ins: kimdõndõdõks
+     sadāz+Num+Ord+Pl+Ill: sadāndiž
+     sadāz+Num+Ord+Pl+Ela: sadāndist
+

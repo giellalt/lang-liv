@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - joʼug: # Noun 75 'eng /est jõgi/fin' - full paradigm
+     joʼug+N+Sg+Nom: joʼug
+     joʼug+N+Sg+Gen: joʼug
+     joʼug+N+Sg+Par: joʼugõ
+     joʼug+N+Sg+Dat: joʼugõn
+     joʼug+N+Sg+Ins: joʼugkõks
+     joʼug+N+Sg+Ill: joʼugõ
+     joʼug+N+Sg+Ela: joʼugstõ
+     joʼug+N+Pl+Nom: jougūd
+     joʼug+N+Pl+Gen: jougūd
+     joʼug+N+Pl+Par: jougīdi
+     joʼug+N+Pl+Dat: jougūdõn
+     joʼug+N+Pl+Ins: jougūdõks
+     joʼug+N+Pl+Ill: joʼugži
+     joʼug+N+Pl+Ela: joʼugšti
+

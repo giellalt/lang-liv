@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - võttõks: # Noun 206 'eng /est võte/fin' - full paradigm
+     võttõks+N+Sg+Nom: võttõks
+     võttõks+N+Sg+Gen: võttõks
+     võttõks+N+Sg+Par: võttõkst
+     võttõks+N+Sg+Dat: võttõksõn
+     võttõks+N+Sg+Ins: võttõksõks
+     võttõks+N+Sg+Ill: võttõksõ
+     võttõks+N+Sg+Ela: võttõksõst
+     võttõks+N+Pl+Nom: võttõkst
+     võttõks+N+Pl+Gen: võttõkst
+     võttõks+N+Pl+Par: võttõkši
+     võttõks+N+Pl+Dat: võttõkstõn
+     võttõks+N+Pl+Ins: võttõkstõks
+     võttõks+N+Pl+Ill: võttõkšiz
+     võttõks+N+Pl+Ela: võttõkšist
+

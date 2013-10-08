@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kīš: # Noun 143 'eng /est kiisk/fin' - full paradigm
+     kīš+N+Sg+Nom: kīš
+     kīš+N+Sg+Gen: kīš
+     kīš+N+Sg+Par: kīšõ
+     kīš+N+Sg+Dat: kīšõn
+     kīš+N+Sg+Ins: kīšõks
+     kīš+N+Sg+Ill: kīšõ
+     kīš+N+Sg+Ela: kīšõst
+     kīš+N+Pl+Nom: kīšõd
+     kīš+N+Pl+Gen: kīšõd
+     kīš+N+Pl+Par: kīšidi
+     kīš+N+Pl+Dat: kīšõdõn
+     kīš+N+Pl+Ins: kīšõdõks
+     kīš+N+Pl+Ill: kīšiz
+     kīš+N+Pl+Ela: kīšist
+

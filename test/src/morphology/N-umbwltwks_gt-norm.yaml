@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - umbõltõks: # Noun 207 'eng /est õmblus/fin' - full paradigm
+     umbõltõks+N+Sg+Nom: umbõltõks
+     umbõltõks+N+Sg+Gen: umbõltõks
+     umbõltõks+N+Sg+Par: umbõltõkst
+     umbõltõks+N+Sg+Dat: umbõltõksõn
+     umbõltõks+N+Sg+Ins: umbõltõksõks
+     umbõltõks+N+Sg+Ill: umbõltõksõ
+     umbõltõks+N+Sg+Ela: umbõltõksõst
+     umbõltõks+N+Pl+Nom: umbõltõkst
+     umbõltõks+N+Pl+Gen: umbõltõkst
+     umbõltõks+N+Pl+Par: umbõltõkši
+     umbõltõks+N+Pl+Dat: umbõltõkstõn
+     umbõltõks+N+Pl+Ins: umbõltõkstõks
+     umbõltõks+N+Pl+Ill: umbõltõkšiz
+     umbõltõks+N+Pl+Ela: umbõltõkšist
+

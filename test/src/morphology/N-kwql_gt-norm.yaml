@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kõʼl: # Noun 73 'eng /est kõle/fin' - full paradigm
+     kõʼl+N+Sg+Nom: kõʼl
+     kõʼl+N+Sg+Gen: kõʼl
+     kõʼl+N+Sg+Par: kõʼllõ
+     kõʼl+N+Sg+Dat: kõʼllõn
+     kõʼl+N+Sg+Ins: kõʼlkõks
+     kõʼl+N+Sg+Ill: kõʼllõ
+     kõʼl+N+Sg+Ela: kõʼlstõ
+     kõʼl+N+Pl+Nom: kõlūd
+     kõʼl+N+Pl+Gen: kõlūd
+     kõʼl+N+Pl+Par: kõʼļḑi
+     kõʼl+N+Pl+Dat: kõlūdõn
+     kõʼl+N+Pl+Ins: kõlūdõks
+     kõʼl+N+Pl+Ill: kõʼļži
+     kõʼl+N+Pl+Ela: kõʼļšti
+

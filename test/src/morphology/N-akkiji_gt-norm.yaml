@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - akkiji: # Noun 187 'eng /est püüdja/fin' - full paradigm
+     akkiji+N+Sg+Nom: akkiji
+     akkiji+N+Sg+Gen: akkijiz
+     akkiji+N+Sg+Par: akkijizt
+     akkiji+N+Sg+Dat: akkijizõn
+     akkiji+N+Sg+Ins: akkijizõks
+     akkiji+N+Sg+Ill: akkijizõ
+     akkiji+N+Sg+Ela: akkijizõst
+     akkiji+N+Pl+Nom: akkijid
+     akkiji+N+Pl+Gen: akkijid
+     akkiji+N+Pl+Par: akkijidi
+     akkiji+N+Pl+Dat: akkijidõn
+     akkiji+N+Pl+Ins: akkijidõks
+     akkiji+N+Pl+Ill: akkijiž
+     akkiji+N+Pl+Ela: akkijisti
+

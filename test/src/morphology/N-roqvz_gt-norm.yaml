@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - roʼvz: # Noun 167 'eng /est rahvas/fin' - full paradigm
+     roʼvz+N+Sg+Nom: roʼvz
+     roʼvz+N+Sg+Gen: roʼv
+     roʼvz+N+Sg+Par: roʼvztõ
+     roʼvz+N+Sg+Dat: roʼvvõn
+     roʼvz+N+Sg+Ins: roʼvkõks
+     roʼvz+N+Sg+Ill: roʼvvõ
+     roʼvz+N+Sg+Ela: roʼvstõ
+     roʼvz+N+Pl+Nom: roʼvd
+     roʼvz+N+Pl+Gen: roʼvd
+     roʼvz+N+Pl+Par: roʼvḑi
+     roʼvz+N+Pl+Dat: roʼvdõn
+     roʼvz+N+Pl+Ins: roʼvdkõks
+     roʼvz+N+Pl+Ill: roʼvži
+     roʼvz+N+Pl+Ela: roʼvšti
+

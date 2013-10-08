@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - āmbaz: # Noun 173 'eng /est hammas/fin' - full paradigm
+     āmbaz+N+Sg+Nom: āmbaz
+     āmbaz+N+Sg+Gen: ambõ
+     āmbaz+N+Sg+Par: āmbazt
+     āmbaz+N+Sg+Dat: ambõn
+     āmbaz+N+Sg+Ins: ambõks
+     āmbaz+N+Sg+Ill: ambõ(z)
+     āmbaz+N+Sg+Ela: ambõst
+     āmbaz+N+Pl+Nom: ambõd
+     āmbaz+N+Pl+Gen: ambõd
+     āmbaz+N+Pl+Par: ambidi
+     āmbaz+N+Pl+Dat: ambõdõn
+     āmbaz+N+Pl+Ins: ambõdõks
+     āmbaz+N+Pl+Ill: ambiž
+     āmbaz+N+Pl+Ela: ambist
+

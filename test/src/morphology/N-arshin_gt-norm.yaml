@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - aršin: # Noun 234 'eng /est arssin/fin' - full paradigm
+     aršin+N+Sg+Nom: aršin
+     aršin+N+Sg+Gen: aršin
+     aršin+N+Sg+Par: aršint
+     aršin+N+Sg+Dat: aršinõn
+     aršin+N+Sg+Ins: aršinõks
+     aršin+N+Sg+Ill: aršinõ
+     aršin+N+Sg+Ela: aršinõst
+     aršin+N+Pl+Nom: aršind
+     aršin+N+Pl+Gen: aršind
+     aršin+N+Pl+Par: aršiņi
+     aršin+N+Pl+Dat: aršindõn
+     aršin+N+Pl+Ins: aršindõks
+     aršin+N+Pl+Ill: aršiņiž
+     aršin+N+Pl+Ela: aršiņist
+

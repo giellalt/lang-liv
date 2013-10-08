@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - bikšāz: # Noun 172 'eng /est püks/fin' - full paradigm
+     bikšāz+N+Sg+Nom: bikšāz
+     bikšāz+N+Sg+Gen: bikšõ
+     bikšāz+N+Sg+Par: bikšāzt
+     bikšāz+N+Sg+Dat: bikšõn
+     bikšāz+N+Sg+Ins: bikšõks
+     bikšāz+N+Sg+Ill: bikšõ(z)
+     bikšāz+N+Sg+Ela: bikšāst
+     bikšāz+N+Pl+Nom: bikšõd
+     bikšāz+N+Pl+Gen: bikšõd
+     bikšāz+N+Pl+Par: bikšīdi
+     bikšāz+N+Pl+Dat: bikšõdõn
+     bikšāz+N+Pl+Ins: bikšõdõks
+     bikšāz+N+Pl+Ill: bikšīz
+     bikšāz+N+Pl+Ela: bikšīst
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - alīz: # Noun 203 'eng /est alus/fin' - full paradigm
+     alīz+N+Sg+Nom: alīz
+     alīz+N+Sg+Gen: alīz
+     alīz+N+Sg+Par: alīzt
+     alīz+N+Sg+Dat: alīzõn
+     alīz+N+Sg+Ins: alīzõks
+     alīz+N+Sg+Ill: alīzõ
+     alīz+N+Sg+Ela: alīzõst
+     alīz+N+Pl+Nom: alīzt
+     alīz+N+Pl+Gen: alīzt
+     alīz+N+Pl+Par: alīži
+     alīz+N+Pl+Dat: alīztõn
+     alīz+N+Pl+Ins: alīztõks
+     alīz+N+Pl+Ill: alīžiz
+     alīz+N+Pl+Ela: alīžist
+

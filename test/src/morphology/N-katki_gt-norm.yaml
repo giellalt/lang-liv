@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kaţki: # Noun 194 'eng /est haav/fin' - full paradigm
+     kaţki+N+Sg+Nom: kaţki
+     kaţki+N+Sg+Gen: kaţkīz
+     kaţki+N+Sg+Par: kaţkīzt
+     kaţki+N+Sg+Dat: kaţkīzõn
+     kaţki+N+Sg+Ins: kaţkīzõks
+     kaţki+N+Sg+Ill: kaţkīzõ
+     kaţki+N+Sg+Ela: kaţkīzõst
+     kaţki+N+Pl+Nom: kaţkizt
+     kaţki+N+Pl+Gen: kaţkizt
+     kaţki+N+Pl+Par: kaţkīži
+     kaţki+N+Pl+Dat: kaţkiztõn
+     kaţki+N+Pl+Ins: kaţkiztõks
+     kaţki+N+Pl+Ill: kaţkīžiz
+     kaţki+N+Pl+Ela: kaţkīžist
+

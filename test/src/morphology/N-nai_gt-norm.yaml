@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - nai: # Noun 191 'eng /est naine /fin' - full paradigm
+     nai+N+Sg+Nom: nai
+     nai+N+Sg+Gen: naiz
+     nai+N+Sg+Par: nāizta
+     nai+N+Sg+Dat: naizõn
+     nai+N+Sg+Ins: naizõks
+     nai+N+Sg+Ill: naizõ
+     nai+N+Sg+Ela: [naizõst, naistõ]
+     nai+N+Pl+Nom: naizt
+     nai+N+Pl+Gen: naizt
+     nai+N+Pl+Par: naiži
+     nai+N+Pl+Dat: naiztõn
+     nai+N+Pl+Ins: naiztkõks
+     nai+N+Pl+Ill: naižiz
+     nai+N+Pl+Ela: naižist
+

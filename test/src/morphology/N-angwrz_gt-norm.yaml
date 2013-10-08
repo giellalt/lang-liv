@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - aņgõrz: # Noun 229 'eng /est angerjas/fin' - full paradigm
+     aņgõrz+N+Sg+Nom: aņgõrz
+     aņgõrz+N+Sg+Gen: aņgõr
+     aņgõrz+N+Sg+Par: aņgõrzt
+     aņgõrz+N+Sg+Dat: aņgõrõn
+     aņgõrz+N+Sg+Ins: aņgõrõks
+     aņgõrz+N+Sg+Ill: aņgõrõ
+     aņgõrz+N+Sg+Ela: aņgõrõst
+     aņgõrz+N+Pl+Nom: aņgõrd
+     aņgõrz+N+Pl+Gen: aņgõrd
+     aņgõrz+N+Pl+Par: aņgiri
+     aņgõrz+N+Pl+Dat: aņgõrdõn
+     aņgõrz+N+Pl+Ins: aņgõrdõks
+     aņgõrz+N+Pl+Ill: aņgiriž
+     aņgõrz+N+Pl+Ela: aņgirist
+

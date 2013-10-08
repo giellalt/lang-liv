@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - umārz: # Noun 226 'eng /est õun/fin' - full paradigm
+     umārz+N+Sg+Nom: umārz
+     umārz+N+Sg+Gen: umār
+     umārz+N+Sg+Par: umārt
+     umārz+N+Sg+Dat: umārõn
+     umārz+N+Sg+Ins: umārõks
+     umārz+N+Sg+Ill: umārõ
+     umārz+N+Sg+Ela: umārõst
+     umārz+N+Pl+Nom: umārd
+     umārz+N+Pl+Gen: umārd
+     umārz+N+Pl+Par: umāŗi
+     umārz+N+Pl+Dat: umārdõn
+     umārz+N+Pl+Ins: umārdõks
+     umārz+N+Pl+Ill: umāŗiž
+     umārz+N+Pl+Ela: umāŗist
+

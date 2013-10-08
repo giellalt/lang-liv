@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Numeral - ikš: # quantifiers 217 'eng /est üks/fin' - full paradigm
+     ikš+Num+Sg+Nom: ikš
+     ikš+Num+Sg+Gen: īʼd
+     ikš+Num+Sg+Par: īʼdtõ
+     ikš+Num+Sg+Dat: īʼdõn
+     ikš+Num+Sg+Ins: īʼdkõks
+     ikš+Num+Sg+Ill: īʼdõ
+     ikš+Num+Sg+Ela: īʼdstõ
+     ikš+Num+Pl+Nom: īʼd
+     ikš+Num+Pl+Gen: īʼd
+     ikš+Num+Pl+Par: ikši
+     ikš+Num+Pl+Dat: īʼdõn
+     ikš+Num+Pl+Ins: īʼdkõks
+     ikš+Num+Pl+Ill: īʼdiž
+     ikš+Num+Pl+Ela: īʼdšti
+

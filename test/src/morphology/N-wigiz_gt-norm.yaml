@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - õigiz: # Noun 203 'eng /est õigus/fin' - full paradigm
+     õigiz+N+Sg+Nom: õigiz
+     õigiz+N+Sg+Gen: õigiz
+     õigiz+N+Sg+Par: õigizt
+     õigiz+N+Sg+Dat: õigizõn
+     õigiz+N+Sg+Ins: õigizõks
+     õigiz+N+Sg+Ill: õigizõ
+     õigiz+N+Sg+Ela: õigizõst
+     õigiz+N+Pl+Nom: õigizt
+     õigiz+N+Pl+Gen: õigizt
+     õigiz+N+Pl+Par: õigiži
+     õigiz+N+Pl+Dat: õigiztõn
+     õigiz+N+Pl+Ins: õigiztõks
+     õigiz+N+Pl+Ill: õigižiz
+     õigiz+N+Pl+Ela: õigižist
+

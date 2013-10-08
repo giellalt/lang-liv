@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - blēʼḑ: # Noun 134 'eng /est kelm/fin' - full paradigm
+     blēʼḑ+N+Sg+Nom: blēʼḑ
+     blēʼḑ+N+Sg+Gen: blēʼḑ
+     blēʼḑ+N+Sg+Par: blēʼḑõ
+     blēʼḑ+N+Sg+Dat: blēʼḑõn
+     blēʼḑ+N+Sg+Ins: blēʼḑõks
+     blēʼḑ+N+Sg+Ill: blēʼḑõ
+     blēʼḑ+N+Sg+Ela: blēʼḑštõ
+     blēʼḑ+N+Pl+Nom: blēʼḑõd
+     blēʼḑ+N+Pl+Gen: blēʼḑõd
+     blēʼḑ+N+Pl+Par: blēʼḑidi
+     blēʼḑ+N+Pl+Dat: blēʼḑõdõn
+     blēʼḑ+N+Pl+Ins: blēʼḑõdõks
+     blēʼḑ+N+Pl+Ill: blēʼḑiž
+     blēʼḑ+N+Pl+Ela: blēʼḑist
+

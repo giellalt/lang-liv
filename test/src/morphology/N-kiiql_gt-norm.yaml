@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kīʼl: # Noun 128 'eng /est pant/fin' - full paradigm
+     kīʼl+N+Sg+Nom: kīʼl
+     kīʼl+N+Sg+Gen: kīʼl
+     kīʼl+N+Sg+Par: kīʼlõ
+     kīʼl+N+Sg+Dat: kīʼlõn
+     kīʼl+N+Sg+Ins: kīʼlõks
+     kīʼl+N+Sg+Ill: kīʼlõ
+     kīʼl+N+Sg+Ela: kīʼlstõ
+     kīʼl+N+Pl+Nom: kīʼlõd
+     kīʼl+N+Pl+Gen: kīʼlõd
+     kīʼl+N+Pl+Par: kīʼlidi
+     kīʼl+N+Pl+Dat: kīʼlõdõn
+     kīʼl+N+Pl+Ins: kīʼlõdõks
+     kīʼl+N+Pl+Ill: kīʼliž
+     kīʼl+N+Pl+Ela: kīʼlist
+

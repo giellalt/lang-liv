@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - salāj: # Noun 225 'eng /est varas/fin' - full paradigm
+     salāj+N+Sg+Nom: salāj
+     salāj+N+Sg+Gen: salāj
+     salāj+N+Sg+Par: salājt
+     salāj+N+Sg+Dat: salājõn
+     salāj+N+Sg+Ins: salājõks
+     salāj+N+Sg+Ill: salājõ
+     salāj+N+Sg+Ela: salājst
+     salāj+N+Pl+Nom: salājd
+     salāj+N+Pl+Gen: salājd
+     salāj+N+Pl+Par: salājḑi
+     salāj+N+Pl+Dat: salājdõn
+     salāj+N+Pl+Ins: salājdkõks
+     salāj+N+Pl+Ill: salājži
+     salāj+N+Pl+Ela: salājšti
+

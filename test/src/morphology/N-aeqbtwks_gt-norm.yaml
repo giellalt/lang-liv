@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - äʼbţõks: # Noun 208 'eng /est vahend/fin' - full paradigm
+     äʼbţõks+N+Sg+Nom: äʼbţõks
+     äʼbţõks+N+Sg+Gen: äʼbţõks
+     äʼbţõks+N+Sg+Par: äʼbţõkst
+     äʼbţõks+N+Sg+Dat: äʼbţõksõn
+     äʼbţõks+N+Sg+Ins: äʼbţõksõks
+     äʼbţõks+N+Sg+Ill: äʼbţõksõ
+     äʼbţõks+N+Sg+Ela: äʼbţõksõst
+     äʼbţõks+N+Pl+Nom: äʼbţõkst
+     äʼbţõks+N+Pl+Gen: äʼbţõkst
+     äʼbţõks+N+Pl+Par: äʼbţõkši
+     äʼbţõks+N+Pl+Dat: äʼbţõkstõn
+     äʼbţõks+N+Pl+Ins: äʼbţõkstõks
+     äʼbţõks+N+Pl+Ill: äʼbţõkšiz
+     äʼbţõks+N+Pl+Ela: äʼbţõkšist
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tūļ: # Noun 214 'eng /est tuul/fin' - full paradigm
+     tūļ+N+Sg+Nom: tūļ
+     tūļ+N+Sg+Gen: tūl
+     tūļ+N+Sg+Par: tūldõ
+     tūļ+N+Sg+Dat: tūlõn
+     tūļ+N+Sg+Ins: tūlkõks
+     tūļ+N+Sg+Ill: tūlõ
+     tūļ+N+Sg+Ela: tūlstõ
+     tūļ+N+Pl+Nom: tūld
+     tūļ+N+Pl+Gen: tūld
+     tūļ+N+Pl+Par: tūļi
+     tūļ+N+Pl+Dat: tūldõn
+     tūļ+N+Pl+Ins: tūldkõks
+     tūļ+N+Pl+Ill: tūļiž
+     tūļ+N+Pl+Ela: tūļšti
+

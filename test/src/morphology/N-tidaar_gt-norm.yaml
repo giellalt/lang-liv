@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tidār: # Noun 233 'eng /est tütar/fin' - full paradigm
+     tidār+N+Sg+Nom: tidār
+     tidār+N+Sg+Gen: tidār
+     tidār+N+Sg+Par: tidārt
+     tidār+N+Sg+Dat: tidārõn
+     tidār+N+Sg+Ins: tidārõks
+     tidār+N+Sg+Ill: tidārõ
+     tidār+N+Sg+Ela: tidārõst
+     tidār+N+Pl+Nom: tidārd
+     tidār+N+Pl+Gen: tidārd
+     tidār+N+Pl+Par: tidāŗi
+     tidār+N+Pl+Dat: tidārdõn
+     tidār+N+Pl+Ins: tidārdõks
+     tidār+N+Pl+Ill: tidāŗiž
+     tidār+N+Pl+Ela: tidāŗist
+

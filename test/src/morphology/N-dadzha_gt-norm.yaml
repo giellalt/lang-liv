@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - dadžā: # Noun 49 'eng /est ohakas/fin' - full paradigm
+     dadžā+N+Sg+Nom: dadžā
+     dadžā+N+Sg+Gen: dadžā
+     dadžā+N+Sg+Par: daʼdžõ
+     dadžā+N+Sg+Dat: dadžān
+     dadžā+N+Sg+Ins: dadžāks
+     dadžā+N+Sg+Ill: daʼdžõ
+     dadžā+N+Sg+Ela: dadžāst
+     dadžā+N+Pl+Nom: dadžād
+     dadžā+N+Pl+Gen: dadžād
+     dadžā+N+Pl+Par: dadžīdi
+     dadžā+N+Pl+Dat: dadžādõn
+     dadžā+N+Pl+Ins: dadžādõks
+     dadžā+N+Pl+Ill: dadžīz
+     dadžā+N+Pl+Ela: dadžīst
+

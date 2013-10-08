@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - aʼbbõnz: # Noun 228 'eng /est habemekarv/fin' - full paradigm
+     aʼbbõnz+N+Sg+Nom: aʼbbõnz
+     aʼbbõnz+N+Sg+Gen: aʼbbõn
+     aʼbbõnz+N+Sg+Par: aʼbbõnzt
+     aʼbbõnz+N+Sg+Dat: aʼbbõnõn
+     aʼbbõnz+N+Sg+Ins: aʼbbõnõks
+     aʼbbõnz+N+Sg+Ill: aʼbbõnõ
+     aʼbbõnz+N+Sg+Ela: aʼbbõnõst
+     aʼbbõnz+N+Pl+Nom: aʼbbõnd
+     aʼbbõnz+N+Pl+Gen: aʼbbõnd
+     aʼbbõnz+N+Pl+Par: aʼbbiņi
+     aʼbbõnz+N+Pl+Dat: aʼbbõndõn
+     aʼbbõnz+N+Pl+Ins: aʼbbõndõks
+     aʼbbõnz+N+Pl+Ill: aʼbbiņiž
+     aʼbbõnz+N+Pl+Ela: aʼbbiņist
+

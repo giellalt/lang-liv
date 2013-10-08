@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tōvaz: # Noun 177 'eng /est taevas/fin' - full paradigm
+     tōvaz+N+Sg+Nom: tōvaz
+     tōvaz+N+Sg+Gen: touvõ
+     tōvaz+N+Sg+Par: tōvazt
+     tōvaz+N+Sg+Dat: touvõn
+     tōvaz+N+Sg+Ins: touvõks
+     tōvaz+N+Sg+Ill: [touvõ, touvõz]
+     tōvaz+N+Sg+Ela: touvõst
+     tōvaz+N+Pl+Nom: touvõd
+     tōvaz+N+Pl+Gen: touvõd
+     tōvaz+N+Pl+Par: touvidi
+     tōvaz+N+Pl+Dat: touvõdõn
+     tōvaz+N+Pl+Ins: touvõdõks
+     tōvaz+N+Pl+Ill: touviž
+     tōvaz+N+Pl+Ela: touvist
+

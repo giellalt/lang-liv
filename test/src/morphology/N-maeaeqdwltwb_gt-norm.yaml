@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - mǟʼdõltõb: # Noun 160 'eng /est mälestis/fin' - full paradigm
+     mǟʼdõltõb+N+Sg+Nom: mǟʼdõltõb
+     mǟʼdõltõb+N+Sg+Gen: mǟʼdõltõb
+     mǟʼdõltõb+N+Sg+Par: mǟʼdõltõbt
+     mǟʼdõltõb+N+Sg+Dat: mǟʼdõltõbõn
+     mǟʼdõltõb+N+Sg+Ins: mǟʼdõltõbõks
+     mǟʼdõltõb+N+Sg+Ill: mǟʼdõltõbõ
+     mǟʼdõltõb+N+Sg+Ela: mǟʼdõltõbst
+     mǟʼdõltõb+N+Pl+Nom: mǟʼdõltõbõd
+     mǟʼdõltõb+N+Pl+Gen: mǟʼdõltõbõd
+     mǟʼdõltõb+N+Pl+Par: mǟʼdõltõbidi
+     mǟʼdõltõb+N+Pl+Dat: mǟʼdõltõbõdõn
+     mǟʼdõltõb+N+Pl+Ins: mǟʼdõltõbõdõks
+     mǟʼdõltõb+N+Pl+Ill: mǟʼdõltõbiž
+     mǟʼdõltõb+N+Pl+Ela: mǟʼdõltõbist
+

@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - jõugõ: # Noun 116 'eng /est liiv/fin' - full paradigm
+     jõugõ+N+Sg+Nom: jõugõ
+     jõugõ+N+Sg+Gen: jõugõ
+     jõugõ+N+Sg+Par: jȭgţa
+     jõugõ+N+Sg+Dat: jõugõn
+     jõugõ+N+Sg+Ins: jõugõks
+     jõugõ+N+Sg+Ill: jõugõ(z)
+     jõugõ+N+Sg+Ela: jõugõst
+     jõugõ+N+Pl+Nom: jõugõd
+     jõugõ+N+Pl+Gen: jõugõd
+     jõugõ+N+Pl+Par: jõugidi
+     jõugõ+N+Pl+Dat: jõugõdõn
+     jõugõ+N+Pl+Ins: jõugõdõks
+     jõugõ+N+Pl+Ill: jõugiž
+     jõugõ+N+Pl+Ela: jõugist
+

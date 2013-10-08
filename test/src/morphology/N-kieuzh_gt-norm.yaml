@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kieuž*: # Noun 112 'eng /est köis/fin' - full paradigm
+     kieuž*+N+Sg+Nom: kieuž*
+     kieuž*+N+Sg+Gen: kieud
+     kieuž*+N+Sg+Par: kīeta
+     kieuž*+N+Sg+Dat: kieudõn
+     kieuž*+N+Sg+Ins: kieudkõks
+     kieuž*+N+Sg+Ill: kieudõ
+     kieuž*+N+Sg+Ela: kieudstõ
+     kieuž*+N+Pl+Nom: kīedõd
+     kieuž*+N+Pl+Gen: kīedõd
+     kieuž*+N+Pl+Par: kieuži
+     kieuž*+N+Pl+Dat: kīedõdõn
+     kieuž*+N+Pl+Ins: kīedõdõks
+     kieuž*+N+Pl+Ill: kieužiz
+     kieuž*+N+Pl+Ela: kieužist
+

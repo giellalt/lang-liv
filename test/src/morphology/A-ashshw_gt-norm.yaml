@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - aššõ: # adjectives 120 'eng /est äkiline/fin' - full paradigm
+     aššõ+A+Sg+Nom: aššõ
+     aššõ+A+Sg+Gen: aššõ
+     aššõ+A+Sg+Par: aššõ
+     aššõ+A+Sg+Dat: aššõn
+     aššõ+A+Sg+Ins: aššõks
+     aššõ+A+Sg+Ill: aššõ(z)
+     aššõ+A+Sg+Ela: aššõst
+     aššõ+A+Pl+Nom: aššõd
+     aššõ+A+Pl+Gen: aššõd
+     aššõ+A+Pl+Par: aššidi
+     aššõ+A+Pl+Dat: aššõdõn
+     aššõ+A+Pl+Ins: aššõdõks
+     aššõ+A+Pl+Ill: aššiz
+     aššõ+A+Pl+Ela: aššist
+

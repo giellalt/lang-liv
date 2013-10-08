@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sīend: # Noun 138 'eng /est söönud/fin' - full paradigm
+     sīend+N+Sg+Nom: sīend
+     sīend+N+Sg+Gen: [sīend, sīenõ]
+     sīend+N+Sg+Par: sīendõ
+     sīend+N+Sg+Dat: sīenõn
+     sīend+N+Sg+Ins: sīenõks
+     sīend+N+Sg+Ill: sīenõ
+     sīend+N+Sg+Ela: sīenõst
+     sīend+N+Pl+Nom: sīenõd
+     sīend+N+Pl+Gen: sīenõd
+     sīend+N+Pl+Par: sīenidi
+     sīend+N+Pl+Dat: sīenõdõn
+     sīend+N+Pl+Ins: sīenõdõks
+     sīend+N+Pl+Ill: sīeniž
+     sīend+N+Pl+Ela: sīenist
+
