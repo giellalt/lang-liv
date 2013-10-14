@@ -195,6 +195,7 @@ Multichar_Symbols
 
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@
+ %^Tense !!= * @CODE@ = Tense stem will have stød if proper stem type
  %^ConsL !!= * @CODE@ = Consonant lengthening
  %^1Sh2L !!= * @CODE@ =
 !! 2013-02-01 

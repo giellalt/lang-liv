@@ -592,25 +592,38 @@ LEXICON N_AʼM !!= @CODE@ aʼm:am 152
 +N:	CASES	;
 
 LEXICON N_AZŪM !!= @CODE@ : 153
-+N:	CASES	;
+	N_AZŪM-SG	;
+	N_AZŪM-PL	;
+
+LEXICON N_AZŪM-SG !!= @CODE@ : 153
++N:     NMN_AZŪM-SG   ;
 
 LEXICON N_AZŪM-PL !!= @CODE@ : 153
-+N:     PL-CASES   ;
++N:     NMN_AZŪM-PL   ;
 
-LEXICON N_VÕȚĪM !!= @CODE@ : 154
-+N:	CASES	;
-
+LEXICON N_VÕȚĪM !!= @CODE@ võțīm:võțīm 154 
+	N_VÕȚĪM-SG	;
+	N_VÕȚĪM-PL	;
+LEXICON N_VÕȚĪM-SG !!= @CODE@ : 154
++N: 	NMN_VÕȚĪM-SG ;
 LEXICON N_VÕȚĪM-PL !!= @CODE@ : 154
-+N:     PL-CASES   ;
++N:	NMN_VÕȚĪM-PL   ;
 
 LEXICON N_KǬŅIM !!= @CODE@ : 155
-+N:	CASES	;
+	N_KǬŅIM-SG	;
+	N_KǬŅIM-PL	;
+LEXICON N_KǬŅIM-SG !!= @CODE@ : 155
++N:	NMN_KǬŅIM-SG   ;
+LEXICON N_KǬŅIM-PL !!= @CODE@ : 155
++N:     NMN_KǬŅIM-PL   ;
 
 LEXICON N_ĒTAM !!= @CODE@ : 156
-+N:	CASES	;
-
+	N_ĒTAM-SG	;
+	N_ĒTAM-PL	;
+LEXICON N_ĒTAM-SG !!= @CODE@ : 156
++N:	NMN_ĒTAM-SG   ;
 LEXICON N_ĒTAM-PL !!= @CODE@ : 156
-+N:     PL-CASES   ;
++N:     NMN_ĒTAM-PL   ;
 
 LEXICON N_SIDĀM !!= @CODE@ : 157
 +N:	NMN_SIDĀM	;
@@ -1993,20 +2006,52 @@ LEXICON NMN_LĪEM !!= @CODE@ : 151
 +TYÄ: #;
 LEXICON NMN_AʼM !!= @CODE@ aʼm:am 152
 +TYÄ: #;
-LEXICON NMN_AZŪM !!= @CODE@ : 153
-+TYÄ: #;
+LEXICON NMN_AZŪM !!= @CODE@ : 153 azūm:aʼzūm
+	NMN_AZŪM-SG ;
+	NMN_AZŪM-PL ;
+
+LEXICON NMN_AZŪM-SG !!= @CODE@ : 153
+:%^StodRM        SG-DAT_õn ;
+:%^StodRM        SG-ELA/INE_õst ;
+:%^StodRM        SG-GEN ;
+:%^StodRM    SG-ILL_õ ;
+:%^StodRM        SG-INS_õks ;
+:%^StodRM        SG-NOM  ;
+:%^StodRM    SG-PAR_t ;
+
 LEXICON NMN_AZŪM-PL !!= @CODE@ : 153
-+TYÄ: #;
-LEXICON NMN_VÕȚĪM !!= @CODE@ : 154
-+TYÄ: #;
+:%^Tense        PL-INS_ÕDÕKS-STEM ;
+:%^Tense        PL-ELA/INE_ist ;
+:%^Tense        PL-ILL_iž ;
+:%^Tense        PL-PAR_idi ;
+
+LEXICON NMN_VÕȚĪM !!= @CODE@ võțīm:võțīm 154
+	NMN_VÕȚĪM-SG ;
+	NMN_VÕȚĪM-PL ;
+
+LEXICON NMN_VÕȚĪM-SG !!= @CODE@ : 154
+        NMN_AZŪM-SG ;
+
 LEXICON NMN_VÕȚĪM-PL !!= @CODE@ : 154
-+TYÄ: #;
+        NMN_AZŪM-PL ;
+
 LEXICON NMN_KǬŅIM !!= @CODE@ : 155
-+TYÄ: #;
+	NMN_KǬŅIM-SG  ;
+	NMN_KǬŅIM-PL  ;
+
+LEXICON NMN_KǬŅIM-SG !!= @CODE@ : 155
+        NMN_AZŪM-SG ;
+LEXICON NMN_KǬŅIM-PL !!= @CODE@ : 155
+        NMN_AZŪM-PL ;
+
 LEXICON NMN_ĒTAM !!= @CODE@ : 156
-+TYÄ: #;
+	NMN_ĒTAM-SG  ;
+	NMN_ĒTAM-PL  ;
+LEXICON NMN_ĒTAM-SG !!= @CODE@ : 156
+        NMN_AZŪM-SG ;
 LEXICON NMN_ĒTAM-PL !!= @CODE@ : 156
-+TYÄ: #;
+        NMN_AZŪM-PL ;
+
 LEXICON NMN_SIDĀM !!= @CODE@ : 157
         NMN_SIDĀM-SG     ;
         NMN_SIDĀM-PL     ;
@@ -2021,10 +2066,10 @@ LEXICON NMN_SIDĀM-SG
     	SG-PAR_t ;
 
 LEXICON NMN_SIDĀM-PL      !!= @CODE@ : 157
-: 	PL-INS_ÕDÕKS-STEM ;
-: 	PL-ELA/INE_ist ;
-: 	PL-ILL_iž ;
-: 	PL-PAR_idi ;
+ 	PL-INS_ÕDÕKS-STEM ;
+ 	PL-ELA/INE_ist ;
+ 	PL-ILL_iž ;
+ 	PL-PAR_idi ;
 
 
 !! 158
