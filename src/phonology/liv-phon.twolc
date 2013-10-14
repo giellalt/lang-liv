@@ -24,6 +24,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  !!= * @CODE@
 
 
 !! ! Triggers
+ %^Tense:0 !!= * @CODE@ = Tense stem will have stød if proper stem type
 
 
 K1:k       !!= * @CODE@ this k is not effected by gradation
@@ -198,11 +199,13 @@ a:ā <=> _ :Cons+ (Vows:) %^VowsLI1:0 ;
 "ū:0"
 !! __@RULENAME@__  
 ū:0 <=> # Cons* [Vows | ʼ: | :ʼ ]+ [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+    # Cons* Vows:+ ( ʼ: | :ʼ ) [ Cons: | :Cons ]+ _ Cons  %^Tense:0  ;
 !#Vows: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: 
 
 "ī:0"
 !! __@RULENAME@__  
 ī:0 <=> _ %^VowsRM:0 ;
+    # Cons* Vows:+ ( ʼ: | :ʼ ) [ Cons: | :Cons ]+ _ Cons  %^Tense:0  ;
 
 "a:0"
 !! __@RULENAME@__  
