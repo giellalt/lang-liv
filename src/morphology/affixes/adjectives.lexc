@@ -237,9 +237,10 @@ LEXICON A_PŪʼDÕZ !!= @CODE@ pūʼdõz:pūdõz 183
 !!= @CODE@ : 186
 LEXICON A_SĒJI
 +A:	CASES	;
-!!= @CODE@ : 187
-LEXICON A_AKKIJI
-+A:	CASES	;
+
+LEXICON A_AKKIJI !!= @CODE@ akkiji:akkiji 187
++A:	NMN_AKKIJI	;
+
 !!= @CODE@ lē'ji:lēji 188
 LEXICON A_LĒʼJI
 +A:	CASES	;
