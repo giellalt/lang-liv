@@ -273,8 +273,10 @@ LEXICON N_VAŠK !!= @CODE@ : 78
 +N:	NMN_VAŠK	;
 
 LEXICON N_TUP !!= @CODE@ tup:tup 79
-+N:	NMN_TUP	;
-
+	N_TUP-SG	;
+	N_TUP-PL	;
+LEXICON N_TUP-SG !!= @CODE@ tup:tup 79
++N:     NMN_TUP-SG   ;
 LEXICON N_TUP-PL !!= @CODE@ tup:tup 79
 +N:     NMN_TUP-PL   ;
 
@@ -1787,14 +1789,14 @@ LEXICON NMN_NIʼM
 	NMN_NIʼM-PL	;
 
 LEXICON NMN_NIʼM-SG
-:%^ConsL        SG-DAT_õn ;
+:%{XC%}        SG-DAT_õn ;
 :        SG-ELA/INE_stõ ;
 :        SG-GEN ;
-:%^ConsL    SG-ILL_õ ;
+:%{XC%}    SG-ILL_õ ;
 ! SG-INE ;
 :        SG-INS_kõks ;
 :        SG-NOM  ;
-:%^ConsL    SG-PAR_õ ;
+:%{XC%}    SG-PAR_õ ;
 
 LEXICON NMN_NIʼM-PL
 :%^StodRMū        PL-INS_DÕKS-STEM ;
@@ -1825,9 +1827,17 @@ LEXICON NMN_TUP !!= @CODE@ tup:tup 79
 	NMN_TUP-SG	;
 	NMN_TUP-PL	;
 LEXICON NMN_TUP-SG !!= @CODE@ tup:tup 79
-+TYÄ: #;
+:%{XC%}        SG-DAT_õn ;
+:        SG-ELA/INE_stõ ;
+:        SG-GEN ;
+:%{XC%}    SG-ILL_õ ;
+! SG-INE ;
+:%{XC%}   SG-INS_õks ;
+:        SG-NOM  ;
+:%{XC%}    SG-PAR_õ ;
+
 LEXICON NMN_TUP-PL !!= @CODE@ tup:tup 79
-+TYÄ: #;
+	NMN_NIʼM-PL ;
 
 
 LEXICON NMN_MAKS !!= @CODE@ : 80
@@ -3005,9 +3015,21 @@ LEXICON NMN_PUʼNNI !!= @CODE@ puʼnni:punni 193
 	NMN_PUʼNNI-SG	;
 	NMN_PUʼNNI-PL	;
 LEXICON NMN_PUʼNNI-SG !!= @CODE@ puʼnni:punni 193
-+TYÄ: #;
+:%^StodRM%^ConsSh%^VowsRMīz        SG-DAT_õn ;
+:%^StodRM%^ConsSh%^VowsRMīz       	SG-ELA/INE_õst ;
+:%^StodRM%^ConsSh%^VowsRMīz        SG-GEN ;
+:%^StodRM%^ConsSh%^VowsRMīz  	SG-ILL_õ ;
+! SG-INE ;
+:%^StodRM%^ConsSh%^VowsRMīz        SG-INS_õks ;
+	SG-NOM  ;
+:%^StodRM%^ConsSh%^VowsRMīz    	SG-PAR_t ;
+
 LEXICON NMN_PUʼNNI-PL !!= @CODE@ puʼnni:punni 193
-+TYÄ: #;
+:z 	PL-INS_DÕKS-STEM ;
+:%^StodRM%^ConsSh%^VowsRMīž 	PL-ELA/INE_ist ;
+:%^StodRM%^ConsSh%^VowsRMīž 	PL-ILL_iz ;
+:%^StodRM%^ConsSh%^VowsRMīž 	PL-PAR_i ;
+
 
 LEXICON NMN_KAȚKI !!= @CODE@ kațki: 194
 	NMN_KAȚKI-SG	;
