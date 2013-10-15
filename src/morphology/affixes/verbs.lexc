@@ -624,6 +624,8 @@ LEXICON V-01_JEʼLLÕ
 !+Quo+Sg:iji		K    ;
 !+Act+PrfPrc+Sg:õn	K    ;
 :%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
++PssPrfPrc:tõd			NMN_TAPTÕD ;
+
 !!
 LEXICON V-01_MÄNGÕ
 !! 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
@@ -721,6 +723,8 @@ LEXICON V-01_KŪLÕ
 :%^ConsSh	INDCONNEGSG    ;
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
+!! +ActPrfPrc
++ActPrfPrc:n	NMN_KŪOLÕN	;
 
 
 !!
