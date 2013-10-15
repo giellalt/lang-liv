@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - jūodõ: # Verb 9 'eng /est juua/fin' - full paradigm
+     jūodõ+V+Inf: jūodõ
+     jūodõ+V+Ger: jūodsõ
+     jūodõ+V+Sup: jūomõ
+     jūodõ+V+Sup+Ine: jūomõõs
+     jūodõ+V+Sup+Ela: jūomõõst
+     jūodõ+V+Sup+Tra: jūomõõks
+     jūodõ+V+Sup+Abe: jūomõõt
+     jūodõ+V+Ind+Prs+Sg3: jūob
+     jūodõ+V+Ind+Prs+Pl2: jūotõ
+     jūodõ+V+Ind+Prs+Pl3: jūobõd
+     jūodõ+V+Ind+Prt+Sg3: juoi
+     jūodõ+V+Ind+Prt+Pl2: juoitõ
+     jūodõ+V+Ind+Prt+Pl3: juoitõ
+     jūodõ+V+Ind+ConNeg+Sg: jūo
+     jūodõ+V+Cond+Sg3: jūoks
+     jūodõ+V+Imprt+Sg2: jūo
+     jūodõ+V+Imprt+ConNeg+Sg2: jūo
+     jūodõ+V+Imprt+Pl2: jūogid
+     jūodõ+V+Jus+Sg3: jūogõ
+     jūodõ+V+QuoSg3: jūoji
+     jūodõ+V+ActPrfPrc: jūond
+     jūodõ+V+PssPrfPrc: jūodõd
+

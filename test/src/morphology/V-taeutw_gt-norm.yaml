@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - täutõ: # Verb 21 'eng /est täita/fin' - full paradigm
+     täutõ+V+Inf: täutõ
+     täutõ+V+Ger: täutõs
+     täutõ+V+Sup: tǟtam
+     täutõ+V+Sup+Ine: tǟtamõs
+     täutõ+V+Sup+Ela: tǟtamõst
+     täutõ+V+Sup+Tra: tǟtamõks
+     täutõ+V+Sup+Abe: tǟtamõt
+     täutõ+V+Ind+Prs+Sg3: tǟtab
+     täutõ+V+Ind+Prs+Pl2: tǟtat
+     täutõ+V+Ind+Prs+Pl3: tǟtabõd
+     täutõ+V+Ind+Prt+Sg3: tǟtiz
+     täutõ+V+Ind+Prt+Pl2: [tǟtizt, tǟtiztõ]
+     täutõ+V+Ind+Prt+Pl3: [tǟtizt, tǟtiztõ]
+     täutõ+V+Ind+ConNeg+Sg: täut
+     täutõ+V+Cond+Sg3: tǟtaks
+     täutõ+V+Imprt+Sg2: tǟta
+     täutõ+V+Imprt+ConNeg+Sg2: täutõ
+     täutõ+V+Imprt+Pl2: tǟtagid
+     täutõ+V+Jus+Sg3: tǟtag
+     täutõ+V+QuoSg3: tǟtaji
+     täutõ+V+ActPrfPrc: täutõn
+     täutõ+V+PssPrfPrc: täutõd
+

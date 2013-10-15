@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - arrõ: # Verb 50 'eng /est arvata/fin' - full paradigm
+     arrõ+V+Inf: arrõ
+     arrõ+V+Ger: arrõs
+     arrõ+V+Sup: arrõm
+     arrõ+V+Sup+Ine: arrõmõs
+     arrõ+V+Sup+Ela: arrõmõst
+     arrõ+V+Sup+Tra: arrõmõks
+     arrõ+V+Sup+Abe: arrõmõt
+     arrõ+V+Ind+Prs+Sg3: arrõb
+     arrõ+V+Ind+Prs+Pl2: arrõt
+     arrõ+V+Ind+Prs+Pl3: arrõbõd
+     arrõ+V+Ind+Prt+Sg3: arriz
+     arrõ+V+Ind+Prt+Pl2: [arrizt, arriztõ]
+     arrõ+V+Ind+Prt+Pl3: [arrizt, arriztõ]
+     arrõ+V+Ind+ConNeg+Sg: ar
+     arrõ+V+Cond+Sg3: arrõks
+     arrõ+V+Imprt+Sg2: ar
+     arrõ+V+Imprt+ConNeg+Sg2: ar
+     arrõ+V+Imprt+Pl2: arrõgid
+     arrõ+V+Jus+Sg3: arrõg
+     arrõ+V+Quo+Sg3: arriji
+     arrõ+V+ActPrfPrc: arrõn
+     arrõ+V+PssPrfPrc: ardõd
+

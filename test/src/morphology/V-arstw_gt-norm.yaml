@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - aŗštõ: # Verb 44 'eng /est arstida/fin' - full paradigm
+     aŗštõ+V+Inf: aŗštõ
+     aŗštõ+V+Ger: aŗštõs
+     aŗštõ+V+Sup: aŗštõm
+     aŗštõ+V+Sup+Ine: aŗštõmõs
+     aŗštõ+V+Sup+Ela: aŗštõmõst
+     aŗštõ+V+Sup+Tra: aŗštõmõks
+     aŗštõ+V+Sup+Abe: aŗštõmõt
+     aŗštõ+V+Ind+Prs+Sg3: āŗštõb
+     aŗštõ+V+Ind+Prs+Pl2: aŗštõt
+     aŗštõ+V+Ind+Prs+Pl3: aŗštõbõd
+     aŗštõ+V+Ind+Prt+Sg3: āŗštiz
+     aŗštõ+V+Ind+Prt+Pl2: [āŗštizt, āŗštiztõ]
+     aŗštõ+V+Ind+Prt+Pl3: [āŗštizt, āŗštiztõ]
+     aŗštõ+V+Ind+ConNeg+Sg: aŗšt
+     aŗštõ+V+Cond+Sg3: aŗštõks
+     aŗštõ+V+Imprt+Sg2: aŗšt
+     aŗštõ+V+Imprt+ConNeg+Sg2: aŗšt
+     aŗštõ+V+Imprt+Pl2: aŗštõgid
+     aŗštõ+V+Jus+Sg3: aŗštõg
+     aŗštõ+V+Quo+Sg3: aŗštiji
+     aŗštõ+V+ActPrfPrc: aŗštõn
+     aŗštõ+V+PssPrfPrc: aŗštõd
+

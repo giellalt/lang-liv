@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - maksõ: # Verb 25 'eng /est maksta/fin' - full paradigm
+     maksõ+V+Inf: maksõ
+     maksõ+V+Ger: maksõs
+     maksõ+V+Sup: maksām
+     maksõ+V+Sup+Ine: maksāmõs
+     maksõ+V+Sup+Ela: maksāmõst
+     maksõ+V+Sup+Tra: maksāmõks
+     maksõ+V+Sup+Abe: maksāmõt
+     maksõ+V+Ind+Prs+Sg3: maksāb
+     maksõ+V+Ind+Prs+Pl2: maksāt
+     maksõ+V+Ind+Prs+Pl3: maksābõd
+     maksõ+V+Ind+Prt+Sg3: maksīz
+     maksõ+V+Ind+Prt+Pl2: [maksīzt, maksīztõ]
+     maksõ+V+Ind+Prt+Pl3: [maksīzt, maksīztõ]
+     maksõ+V+Ind+ConNeg+Sg: maks
+     maksõ+V+Cond+Sg3: maksāks
+     maksõ+V+Imprt+Sg2: maksā
+     maksõ+V+Imprt+ConNeg+Sg2: maksõ
+     maksõ+V+Imprt+Pl2: maksāgid
+     maksõ+V+Jus+Sg3: maksāg
+     maksõ+V+QuoSg3: maksāji
+     maksõ+V+ActPrfPrc: maksõn
+     maksõ+V+PssPrfPrc: makstõd
+

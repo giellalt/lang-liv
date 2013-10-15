@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - mu’džõ: # Verb 30 'eng /est sasida/fin' - full paradigm
+     mu’džõ+V+Inf: mu’džõ
+     mu’džõ+V+Ger: mu’džõs
+     mu’džõ+V+Sup: mu’džõm
+     mu’džõ+V+Sup+Ine: mu’džõmõs
+     mu’džõ+V+Sup+Ela: mu’džõmõst
+     mu’džõ+V+Sup+Tra: mu’džõmõks
+     mu’džõ+V+Sup+Abe: mu’džõmõt
+     mu’džõ+V+Ind+Prs+Sg3: mudžūb
+     mu’džõ+V+Ind+Prs+Pl2: mu’džõt
+     mu’džõ+V+Ind+Prs+Pl3: mudžūbõd
+     mu’džõ+V+Ind+Prt+Sg3: mudžīz
+     mu’džõ+V+Ind+Prt+Pl2: [mudžīzt, mudžīztõ]
+     mu’džõ+V+Ind+Prt+Pl3: [mudžīzt, mudžīztõ]
+     mu’džõ+V+Ind+ConNeg+Sg: mu’dž
+     mu’džõ+V+Cond+Sg3: mu’džõks
+     mu’džõ+V+Imprt+Sg2: mu’dž
+     mu’džõ+V+Imprt+ConNeg+Sg2: mu’dž
+     mu’džõ+V+Imprt+Pl2: mu’džõgid
+     mu’džõ+V+Jus+Sg3: mu’džõg
+     mu’džõ+V+Quo+Sg3: mu’džiji
+     mu’džõ+V+ActPrfPrc: mu’džõn
+     mu’džõ+V+PssPrfPrc: mu’dždõd
+

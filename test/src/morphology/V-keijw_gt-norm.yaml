@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - keijõ: # Verb 43 'eng /est käiata/fin' - full paradigm
+     keijõ+V+Inf: keijõ
+     keijõ+V+Ger: keijõs
+     keijõ+V+Sup: keijõm
+     keijõ+V+Sup+Ine: keijõmõs
+     keijõ+V+Sup+Ela: keijõmõst
+     keijõ+V+Sup+Tra: keijõmõks
+     keijõ+V+Sup+Abe: keijõmõt
+     keijõ+V+Ind+Prs+Sg3: kējõb
+     keijõ+V+Ind+Prs+Pl2: keijõt
+     keijõ+V+Ind+Prs+Pl3: keijõbõd
+     keijõ+V+Ind+Prt+Sg3: kējiz
+     keijõ+V+Ind+Prt+Pl2: [kējizt, kējiztõ]
+     keijõ+V+Ind+Prt+Pl3: [kējizt, kējiztõ]
+     keijõ+V+Ind+ConNeg+Sg: keij
+     keijõ+V+Cond+Sg3: keijõks
+     keijõ+V+Imprt+Sg2: keij
+     keijõ+V+Imprt+ConNeg+Sg2: keij
+     keijõ+V+Imprt+Pl2: keijõgid
+     keijõ+V+Jus+Sg3: keijõg
+     keijõ+V+Quo+Sg3: keijiji
+     keijõ+V+ActPrfPrc: keijõn
+     keijõ+V+PssPrfPrc: keijdõd
+

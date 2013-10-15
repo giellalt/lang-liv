@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - vannõ: # Verb 39 'eng /est vanduda/fin' - full paradigm
+     vannõ+V+Inf: vannõ
+     vannõ+V+Ger: vannõs
+     vannõ+V+Sup: vannõm
+     vannõ+V+Sup+Ine: vannõmõs
+     vannõ+V+Sup+Ela: vannõmõst
+     vannõ+V+Sup+Tra: vannõmõks
+     vannõ+V+Sup+Abe: vannõmõt
+     vannõ+V+Ind+Prs+Sg3: vǭnõb
+     vannõ+V+Ind+Prs+Pl2: vannõt
+     vannõ+V+Ind+Prs+Pl3: vannõbõd
+     vannõ+V+Ind+Prt+Sg3: vǭniz
+     vannõ+V+Ind+Prt+Pl2: [vǭnizt, vǭniztõ]
+     vannõ+V+Ind+Prt+Pl3: [vǭnizt, vǭniztõ]
+     vannõ+V+Ind+ConNeg+Sg: van
+     vannõ+V+Cond+Sg3: vannõks
+     vannõ+V+Imprt+Sg2: van
+     vannõ+V+Imprt+ConNeg+Sg2: van
+     vannõ+V+Imprt+Pl2: vannõgid
+     vannõ+V+Jus+Sg3: vannõg
+     vannõ+V+Quo+Sg3: vanniji
+     vannõ+V+ActPrfPrc: vannõn
+     vannõ+V+PssPrfPrc: vandõd
+

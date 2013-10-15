@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - mǟ’dlõ: # Verb 60 'eng /est mäletada/fin' - full paradigm
+     mǟ’dlõ+V+Inf: mǟ’dlõ
+     mǟ’dlõ+V+Ger: mǟ’dlõs
+     mǟ’dlõ+V+Sup: mǟ’dlõm
+     mǟ’dlõ+V+Sup+Ine: mǟ’dlõmõs
+     mǟ’dlõ+V+Sup+Ela: mǟ’dlõmõst
+     mǟ’dlõ+V+Sup+Tra: mǟ’dlõmõks
+     mǟ’dlõ+V+Sup+Abe: mǟ’dlõmõt
+     mǟ’dlõ+V+Ind+Prs+Sg3: mǟ’dlõb
+     mǟ’dlõ+V+Ind+Prs+Pl2: mǟ’dlõt
+     mǟ’dlõ+V+Ind+Prs+Pl3: mǟ’dlõbõd
+     mǟ’dlõ+V+Ind+Prt+Sg3: mǟ’dliz
+     mǟ’dlõ+V+Ind+Prt+Pl2: [mǟ’dlizt, mǟ’dliztõ]
+     mǟ’dlõ+V+Ind+Prt+Pl3: [mǟ’dlizt, mǟ’dliztõ]
+     mǟ’dlõ+V+Ind+ConNeg+Sg: mǟ’dlõ
+     mǟ’dlõ+V+Cond+Sg3: mǟ’dlõks
+     mǟ’dlõ+V+Imprt+Sg2: mǟ’dõl
+     mǟ’dlõ+V+Imprt+ConNeg+Sg2: mǟ’dõl
+     mǟ’dlõ+V+Imprt+Pl2: mǟ’dlõgid
+     mǟ’dlõ+V+Jus+Sg3: mǟ’dlõg
+     mǟ’dlõ+V+Quo+Sg3: mǟ’dliji
+     mǟ’dlõ+V+ActPrfPrc: mǟ’dlõn
+     mǟ’dlõ+V+PssPrfPrc: mǟ’dõltõd
+

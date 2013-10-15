@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - laitõ: # Verb 20 'eng /est laita/fin' - full paradigm
+     laitõ+V+Inf: laitõ
+     laitõ+V+Ger: laitõs
+     laitõ+V+Ger: laitõs
+     laitõ+V+Sup: lāitam
+     laitõ+V+Sup+Ine: lāitamõs
+     laitõ+V+Sup+Ela: lāitamõst
+     laitõ+V+Sup+Tra: lāitamõks
+     laitõ+V+Sup+Abe: lāitamõt
+     laitõ+V+Ind+Prs+Sg3: lāitab
+     laitõ+V+Ind+Prs+Pl2: lāitat
+     laitõ+V+Ind+Prs+Pl3: lāitabõd
+     laitõ+V+Ind+Prt+Sg3: lāitiz
+     laitõ+V+Ind+Prt+Pl2: [lāitizt, lāitiztõ]
+     laitõ+V+Ind+Prt+Pl3: [lāitizt, lāitiztõ]
+     laitõ+V+Ind+ConNeg+Sg: lait
+     laitõ+V+Cond+Sg3: lāitaks
+     laitõ+V+Imprt+Sg2: lāita
+     laitõ+V+Imprt+ConNeg+Sg2: laitõ
+     laitõ+V+Imprt+Pl2: lāitagid
+     laitõ+V+Jus+Sg3: lāitag
+     laitõ+V+QuoSg3: lāitaji
+     laitõ+V+ActPrfPrc: laitõn
+     laitõ+V+PssPrfPrc: laitõd
+
