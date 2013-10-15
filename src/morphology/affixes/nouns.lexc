@@ -2713,7 +2713,6 @@ LEXICON NMN_ȬʼDÕG-SG
 :%^ConsL       	SG-ELA/INE_st ;
         SG-GEN ;
 :%^ConsL  	SG-ILL_õ ;
-! SG-INE ;
 :%^ConsL        SG-INS_õks ;
 	SG-NOM  ;
 :%^ConsL    	SG-PAR_t ;
@@ -2728,9 +2727,19 @@ LEXICON NMN_TAPTÕD !!= @CODE@ taptõd:taptõd 161
 	NMN_TAPTÕD-SG	;
 	NMN_TAPTÕD-PL	;
 LEXICON NMN_TAPTÕD-SG !!= @CODE@ : 161
-+TYÄ: #;
+:%^D2ZERO        SG-DAT_n ;
+:%^D2ZERO        SG-ELA/INE_st ;
+        SG-GEN ;
+:%^D2ZEROz        SG-ILL_õ ;
+:%^D2ZERO        SG-INS_õks ;
+        SG-NOM  ;
+        SG-PAR_t ;
+
 LEXICON NMN_TAPTÕD-PL !!= @CODE@ : 161
-+TYÄ: #;
+:%^D2ZERO        PL-INS_DÕKS-STEM ;
+:%^VowsRM%^D2ZERO        PL-ELA/INE_ist ;
+:%^VowsRM%^D2ZERO        PL-ILL_iž ;
+:%^VowsRM%^D2ZERO        PL-PAR_idi ;
 
 
 LEXICON NMN_TĪʼEDÕD !!= @CODE@ tīʼedõd:tīedõd 162

@@ -209,7 +209,7 @@ LEXICON TV_TIEUDÕ
 
 !! 29-48 follow same pattern
 LEXICON IV_LUʼGGÕ
-!! luʼggõ:lugū 29
+!! luʼggõ:luʼggõ 29
 +V+IV:     V-01_LUʼGGÕ ;
 
 LEXICON TV_LUʼGGÕ
@@ -523,17 +523,17 @@ LEXICON V-01_VĪDÕ
 !! Prt
  INDPRT_ž    ;
 ! Cond
-: CONDPRS ;
+: COND ;
 !! Imprt
-	IMPRTPRSSG2    ;
-	IMPRTPRSPL1	;
-	IMPRTPRSPL2	;
-	IMPRTPRSCONNEG ;
+	IMPRTSG2    ;
+	IMPRTPL1	;
+	IMPRTPL2	;
+	IMPRTCONNEG ;
 
 !! Jus
- JUSPRS_gõ	;
+ JUS_gõ	;
 !! Qvo
- QUOPRS-STEM_ji	;
+ QUO-STEM_ji	;
 
 !! participles
  ACTPRSPRC ;
@@ -552,17 +552,17 @@ LEXICON V-01_SĪEDÕ !!= @CODE@ : 7
 !! Prt
 :a INDPRT_i    ;
 ! Cond
-:ǭ CONDPRS ;
+:ǭ COND ;
 !! Imprt
-:ǭ	IMPRTPRSSG2    ;
-:ǭ	IMPRTPRSPL1	;
-:ǭ	IMPRTPRSPL2	;
-:ǭ	IMPRTPRSCONNEG ;
+:ǭ	IMPRTSG2    ;
+:ǭ	IMPRTPL1	;
+:ǭ	IMPRTPL2	;
+:ǭ	IMPRTCONNEG ;
 
 !! Jus
-:ǭ JUSPRS_gõ	;
+:ǭ JUS_gõ	;
 !! Qvo
-:ǭ QUOPRS-STEM_ji	;
+:ǭ QUO-STEM_ji	;
 
 !! participles
 :ǭ ACTPRSPRC ;
@@ -582,17 +582,17 @@ LEXICON V-01_SǬDÕ
 !! Prt
 :a INDPRT_i    ;
 ! Cond
-:ǭ CONDPRS ;
+:ǭ COND ;
 !! Imprt
-:ǭ	IMPRTPRSSG2    ;
-:ǭ	IMPRTPRSPL1	;
-:ǭ	IMPRTPRSPL2	;
-:ǭ	IMPRTPRSCONNEG ;
+:ǭ	IMPRTSG2    ;
+:ǭ	IMPRTPL1	;
+:ǭ	IMPRTPL2	;
+:ǭ	IMPRTCONNEG ;
 
 !! Jus
-:ǭ JUSPRS_gõ	;
+:ǭ JUS_gõ	;
 !! Qvo
-:ǭ QUOPRS-STEM_ji	;
+:ǭ QUO-STEM_ji	;
 
 !! participles
 :ǭ ACTPRSPRC ;
@@ -611,17 +611,17 @@ LEXICON V-01_JŪODÕ
 !! Prt
  INDPRT_i    ;
 ! Cond
-: CONDPRS ;
+: COND ;
 !! Imprt
-	IMPRTPRSSG2    ;
-	IMPRTPRSPL1	;
-	IMPRTPRSPL2	;
-	IMPRTPRSCONNEG ;
+	IMPRTSG2    ;
+	IMPRTPL1	;
+	IMPRTPL2	;
+	IMPRTCONNEG ;
 
 !! Jus
- JUSPRS_gõ	;
+ JUS_gõ	;
 !! Qvo
- QUOPRS-STEM_ji	;
+ QUO-STEM_ji	;
 
 !! participles
  ACTPRSPRC ;
@@ -642,7 +642,7 @@ LEXICON V-01_JEʼLLÕ
 !+Ind+Sg+ConNeg:	K    ;
 
 !+Cond+Sg3:õks	K    ;
- CONDPRS ;
+ COND ;
 
 !+Imprt+Sg2:  	K    ;
 !+Imprt+ConNeg:	K    ;
@@ -665,7 +665,7 @@ LEXICON V-01_MÄNGÕ
 !+Ind+Sg+ConNeg:	K    ;
 
 !+Cond+Sg3:õks	K    ;
- CONDPRS ;
+ COND ;
 
 !+Imprt+Sg2:  	K    ;
 !+Imprt+ConNeg:	K    ;
@@ -677,9 +677,9 @@ LEXICON V-01_MÄNGÕ
 
 !!
 !! 29
-LEXICON	V-01_LUʼGGÕ
+LEXICON	V-01_LUʼGGÕ !!= @CODE@ luʼggõ:luʼggõ 29
 !! This is mutual for 29-36: 
-!! luggõ, mudžõ, vakțõ, kittõ, riddõ, kutsõ, laskõ, akkõ
+!! luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
  GER_s   ;
  INF_ZERO	  ;
  SUP-STEM_m	  ; 
@@ -688,18 +688,18 @@ LEXICON	V-01_LUʼGGÕ
 !! Prt
 :%^StodRM%^ConsSh%^VowsRM%>ī INDPRT_z    ;
 ! Cond
-:%^StodRM%^ConsSh%^VowsRM%>ū CONDPRS ;
-!! Imprt
-:%^ConsSh%^VowsRM	IMPRTPRSSG2    ;
-:%^Stress2to1 IMPRTPRSPL1	;
-:%^Stress2to1 IMPRTPRSPL2	;
-:%^Stress2to1 IMPRTPRSCONNEG ;
+ COND ;
+!! ImprtI
+:%^ConsSh%^VowsRM 	IMPRTSG2    ;
+:%^Stress2to1 IMPRTPL1	;
+:%^Stress2to1 IMPRTPL2	;
+:%^ConsSh%^VowsRM IMPRTCONNEG ;
 
-+V+Imprt+Prs+Pl2:%^Stress2to1%>gid	K    ;
++V+Imprt+Pl2:%^Stress2to1%>gid	K    ;
 !! Jus
- JUSPRS_g	;
+ JUS_g	;
 !! Kvo
-:%^VowsRM QUOPRS-STEM_iji	;
+:%^VowsRM QUO-STEM_iji	;
 
 !! participles
  ACTPRSPRC ;
@@ -732,13 +732,13 @@ LEXICON V-01_AIGÕ
 :%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
 :%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
 
-:%^Stress1to2 CONDPRS ;
-:%^Stress1to2%^VowsRM IMPRTPRSSG2 ;
-:%^Stress1to2 IMPRTPRSPL1 ;
-:%^Stress1to2 IMPRTPRSPL2 ;
- IMPRTPRSCONNEG ;
-:%^Stress1to2 JUSPRS_g	;
-:%^Stress1to2%^VowsRM QUOPRS-STEM_iji	;		
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
 
 !!
 LEXICON V-01_KŪLÕ
@@ -767,17 +767,17 @@ LEXICON V-01_UMBLÕ
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
 ! Cond
-: CONDPRS ;
+: COND ;
 !! Imprt
-:%^VowsMetath%^VowsRM	IMPRTPRSSG2    ;
-: IMPRTPRSPL1	;
-: IMPRTPRSPL2	;
-:%^VowsMetath%^VowsRM IMPRTPRSCONNEG ;
+:%^VowsMetath%^VowsRM	IMPRTSG2    ;
+: IMPRTPL1	;
+: IMPRTPL2	;
+:%^VowsMetath%^VowsRM IMPRTCONNEG ;
 
 !! Jus
- JUSPRS_g	;
+ JUS_g	;
 !! Qvo
-:%^VowsRM QUOPRS-STEM_iji	;
+:%^VowsRM QUO-STEM_iji	;
 
 !! participles
  ACTPRSPRC ;
@@ -827,6 +827,7 @@ LEXICON SUP-STEM_m
    INDCONNEGPL3	;
 
 LEXICON SUP_m
++Sup:%>m K   ;
 +Sup+Abe:%>mõt K   ;
 +Sup+Ela:%>mõst K   ;
 +Sup+Deb:%>mõst K   ;
@@ -844,6 +845,7 @@ LEXICON	SUP-STEM_mõ
    INDCONNEGPL3 ;
 
 LEXICON SUP_mõ
++Sup:%>mõ K   ;
 +Sup+Abe:%>mõt K   ;
 +Sup+Ela:%>mõst K   ;
 +Sup+Deb:%>mõst K   ;
@@ -852,26 +854,26 @@ LEXICON SUP_mõ
 +Sup+Tra:%>mõks K   ;
 
 LEXICON ACTPRSPRC
-+Act+PrsPrc+Sg:%>b	K    ;
-+Act+PrsPrc+Pl:%>bõd	K    ;
-+Act+PrsPrc+Der/A:%>b	A_SIDĀM    ;
++ActPrsPrc+Sg:%>b	K    ;
++ActPrsPrc+Pl:%>bõd	K    ;
++ActPrsPrc+Der/A:%>b	A_SIDĀM    ;
 
 LEXICON	ACTPRFPRC_n
-+Act+PrfPrc+Sg:%>n	K    ;
-+Act+PrfPrc+Pl:%>nd	K    ;
++ActPrfPrc+Sg:%>n	K    ;
++ActPrfPrc+Pl:%>nd	K    ;
 
 LEXICON ACTPRFPRC_nd
-+Act+PrfPrc+Sg:%>nd      K    ;
-+Act+PrfPrc+Pl:%>nd     K    ; !! Are the singular and plural homonyms?
++ActPrfPrc+Sg:%>nd      K    ;
++ActPrfPrc+Pl:%>nd     K    ; !! Are the singular and plural homonyms?
 
 
 
 LEXICON PSSPRSPRC
-+Pss+PrsPrc+Sg:%>dõb        K    ;
-+Pss+PrsPrc+Pl:%>dõbõd      K    ;
++PssPrsPrc+Sg:%>dõb        K    ;
++PssPrsPrc+Pl:%>dõbõd      K    ;
 
 LEXICON PSSPRFPRCSG
-+Pss+PrfPrc+Sg:%>dõd    K    ;
++PssPrfPrc+Sg:%>dõd    K    ;
 
 !! Finites
 
@@ -922,14 +924,14 @@ LEXICON INDPRTSG3-STEM_tõ
  INDPRTPL3_tõ    ;
 
 
-LEXICON CONDPRS
+LEXICON COND
 !! Conditional present
-  CONDPRSSG1	;
-  CONDPRSSG2	;
-  CONDPRSSG3	;
-  CONDPRSPL1	;
-  CONDPRSPL2	;
-  CONDPRSPL3	;
+  CONDSG1	;
+  CONDSG2	;
+  CONDSG3	;
+  CONDPL1	;
+  CONDPL2	;
+  CONDPL3	;
 
 
  ! Indicative present
@@ -1047,62 +1049,62 @@ LEXICON INDCONNEGPL3
  +Ind+ConNeg+Pl3:%>t    K	;
 
 !! Conditional
-LEXICON CONDPRSSG1
- +Cond+Prs+Sg1:%>ks    K	;
+LEXICON CONDSG1
+ +Cond+Sg1:%>ks    K	;
 
-LEXICON CONDPRSSG2
- +Cond+Prs+Sg2:%>kst    K	;
+LEXICON CONDSG2
+ +Cond+Sg2:%>kst    K	;
 
-LEXICON CONDPRSSG3
- +Cond+Prs+Sg3:%>ks    K	;
+LEXICON CONDSG3
+ +Cond+Sg3:%>ks    K	;
 
-LEXICON CONDPRSPL1
- +Cond+Prs+Pl1:%>ksmõ    K	;
+LEXICON CONDPL1
+ +Cond+Pl1:%>ksmõ    K	;
 
-LEXICON CONDPRSPL2
- +Cond+Prs+Pl2:%>kstõ    K	;
+LEXICON CONDPL2
+ +Cond+Pl2:%>kstõ    K	;
 
-LEXICON CONDPRSPL3
- +Cond+Prs+Pl3:%>kstõ    K	;
+LEXICON CONDPL3
+ +Cond+Pl3:%>kstõ    K	;
 
 !! Imperative
-LEXICON IMPRTPRSSG2
-+Imprt+Prs+Sg2: K ;
+LEXICON IMPRTSG2
++Imprt+Sg2: K ;
 
-LEXICON IMPRTPRSPL1
-+Imprt+Prs+Pl1:%>gõm K ;
+LEXICON IMPRTPL1
++Imprt+Pl1:%>gõm K ;
 
-LEXICON IMPRTPRSPL2
-+Imprt+Prs+Pl2:%>gid K ;
+LEXICON IMPRTPL2
++Imprt+Pl2:%>gid K ;
 
-LEXICON IMPRTPRSCONNEG
-+Imprt+Prs+ConNeg:      K    ;
+LEXICON IMPRTCONNEG
++Imprt+ConNeg:      K    ;
 
 !! Jussative
-LEXICON JUSPRS_g
-+Jus+Prs+Sg:%>g             K    ;
-+Jus+Prs+Pl:%>gõd             K    ;
+LEXICON JUS_g
++Jus+Sg:%>g             K    ;
++Jus+Pl:%>gõd             K    ;
 
-LEXICON JUSPRS_gõ
-+Jus+Prs+Sg:%>gõ             K    ;
-+Jus+Prs+Pl:%>gõd             K    ;
+LEXICON JUS_gõ
++Jus+Sg:%>gõ             K    ;
++Jus+Pl:%>gõd             K    ;
 
 !! Quotative
-LEXICON QUOPRS-STEM_ji
-	QUOPRS_ji	;
+LEXICON QUO-STEM_ji
+	QUO_ji	;
 +Der/VN:mi		N_AʼBLI	;
 
-LEXICON QUOPRS-STEM_iji
-	QUOPRS_iji	;
+LEXICON QUO-STEM_iji
+	QUO_iji	;
 +Der/VN:imi		N_AʼBLI	;
 
-LEXICON QUOPRS_ji
-+Quo+Prs+Sg:%>ji           K    ;
-+Quo+Prs+Pl:%>jid           K    ;
+LEXICON QUO_ji
++Quo+Sg:%>ji           K    ;
++Quo+Pl:%>jid           K    ;
 
-LEXICON QUOPRS_iji
-+Quo+Prs+Sg:%>iji           K    ;
-+Quo+Prs+Pl:%>ijid           K    ;
+LEXICON QUO_iji
++Quo+Sg:%>iji           K    ;
++Quo+Pl:%>ijid           K    ;
 
 ! vim: set ft=xfst-lexc:
 
