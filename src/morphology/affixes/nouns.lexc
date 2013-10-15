@@ -2442,14 +2442,24 @@ LEXICON NMN_NEITST-PL !!= @CODE@ neitst:neits 137
 +TYÄ: #;
 
 
-LEXICON NMN_SĪEND !!= @CODE@ : 138
+LEXICON NMN_SĪEND !!= @CODE@ sīend:sīen 138
 	NMN_SĪEND-SG	;
 	NMN_SĪEND-PL	;
 LEXICON NMN_SĪEND-SG !!= @CODE@ : 138
-+TYÄ: #;
-LEXICON NMN_SĪEND-PL !!= @CODE@ : 138
-+TYÄ: #;
+        SG-DAT_õn ;
+        SG-ELA/INE_õst ;
+:d        SG-GEN ;
+:õ        SG-GEN ;
+        SG-ILL_õ ;
+        SG-INS_õks ;
+:d        SG-NOM  ;
+:d        SG-PAR_õ ;
 
+LEXICON NMN_SĪEND-PL !!= @CODE@ : 138
+        PL-INS_ÕDÕKS-STEM ;
+        PL-ELA/INE_ist ;
+        PL-ILL_iž ;
+        PL-PAR_idi ;
 
 LEXICON NMN_LǞʼND !!= @CODE@ lǟʼnd:lǟnd 139
 	NMN_LǞʼND-SG	;
@@ -2463,6 +2473,7 @@ LEXICON NMN_LǞʼND-PL !!= @CODE@ lǟʼnd:lǟnd 139
 
 !! 140, 141, 142
 LEXICON NMN_ĀIGAST
+!! __241__
         NMN_ĀIGAST-SG     ;
         NMN_ĀIGAST-PL     ;
 
@@ -2481,9 +2492,22 @@ LEXICON NMN_ĀIGAST-PL
  	PL-ELA/INE_ist ;
  	PL-ILL_iž ;
  	PL-PAR_idi ;
+!! 141
+LEXICON NMN_ANALĪZ
+!! __87__
+	NMN_ANALĪZ-SG	;
+	NMN_ANALĪZ-PL	;
+
+LEXICON NMN_ANALĪZ-SG
+        NMN_ĀIGAST-SG   ;
+
+LEXICON NMN_ANALĪZ-PL
+        NMN_ĀIGAST-PL   ;
+
 !! 142
 LEXICON NMN_NĪʼEM
-	NMN_ĀIGAST	;
+	NMN_NĪʼEM-SG	;
+	NMN_NĪʼEM-PL	;
 
 LEXICON NMN_NĪʼEM-SG
         NMN_ĀIGAST-SG   ;
@@ -3012,6 +3036,7 @@ LEXICON NMN_AʼIGI-PL
 :%^StodRM%^VowsRMīž 	PL-PAR_i ;
 !!
 LEXICON NMN_PUʼNNI !!= @CODE@ puʼnni:punni 193
+!! __127__
 	NMN_PUʼNNI-SG	;
 	NMN_PUʼNNI-PL	;
 LEXICON NMN_PUʼNNI-SG !!= @CODE@ puʼnni:punni 193
@@ -3032,30 +3057,33 @@ LEXICON NMN_PUʼNNI-PL !!= @CODE@ puʼnni:punni 193
 
 
 LEXICON NMN_KAȚKI !!= @CODE@ kațki: 194
+!! __12__
 	NMN_KAȚKI-SG	;
 	NMN_KAȚKI-PL	;
 LEXICON NMN_KAȚKI-SG !!= @CODE@ kațki: 194
-+TYÄ: #;
+        NMN_PUʼNNI-SG	 ;
 LEXICON NMN_KAȚKI-PL !!= @CODE@ kațki: 194
-+TYÄ: #;
+	NMN_PUʼNNI-PL	 ;
 
 
 LEXICON NMN_KUKKI !!= @CODE@ kukki: 195
+!! __33__
 	NMN_KUKKI-SG	;
 	NMN_KUKKI-PL	;
 LEXICON NMN_KUKKI-SG !!= @CODE@ kukki: 195
-+TYÄ: #;
+      	NMN_PUʼNNI-SG	  ;
 LEXICON NMN_KUKKI-PL !!= @CODE@ kukki: 195
-+TYÄ: #;
+      	NMN_PUʼNNI-PL	  ;
 
 
 LEXICON NMN_AIGI !!= @CODE@ aigi:aigi 196
+!! __16__
 	NMN_AIGI-SG	;
 	NMN_AIGI-PL	;
 LEXICON NMN_AIGI-SG !!= @CODE@ aigi:aigi 196
-+TYÄ: #;
+	NMN_PUʼNNI-SG     ;
 LEXICON NMN_AIGI-PL !!= @CODE@ aigi:aigi 196
-+TYÄ: #;
+	NMN_PUʼNNI-PL     ;
 
 
 LEXICON NMN_OUKI !!= @CODE@ : 197
@@ -3099,6 +3127,8 @@ LEXICON NMN_TŪĻI-PL
 :ž 	PL-PAR_i ;
 !!
 LEXICON NMN_AʼBLI !!= @CODE@ aʼbli:abli 200
+!! __567__
+!! * Yaml: __aainagi__
 	NMN_TŪĻI   ;
 
 LEXICON NMN_AʼBLI-PL !!= @CODE@ aʼbli:abli 200
