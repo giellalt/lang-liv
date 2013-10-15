@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - ä’bţõ: # Verb 54 'eng /est aidata/fin' - full paradigm
+     ä’bţõ+V+Inf: ä’bţõ
+     ä’bţõ+V+Ger: ä’bţõs
+     ä’bţõ+V+Sup: ä’bţõm
+     ä’bţõ+V+Sup+Ine: ä’bţõmõs
+     ä’bţõ+V+Sup+Ela: ä’bţõmõst
+     ä’bţõ+V+Sup+Tra: ä’bţõmõks
+     ä’bţõ+V+Sup+Abe: ä’bţõmõt
+     ä’bţõ+V+Ind+Prs+Sg3: ä’bţõb
+     ä’bţõ+V+Ind+Prs+Pl2: ä’bţõt
+     ä’bţõ+V+Ind+Prs+Pl3: ä’bţõbõd
+     ä’bţõ+V+Ind+Prt+Sg3: ä’bţiz
+     ä’bţõ+V+Ind+Prt+Pl2: [ä’bţizt, ä’bţiztõ]
+     ä’bţõ+V+Ind+Prt+Pl3: [ä’bţizt, ä’bţiztõ]
+     ä’bţõ+V+Ind+ConNeg+Sg: ä’bţ
+     ä’bţõ+V+Cond+Sg3: ä’bţõks
+     ä’bţõ+V+Imprt+Sg2: ä’bţ
+     ä’bţõ+V+Imprt+ConNeg+Sg2: ä’bţ
+     ä’bţõ+V+Imprt+Pl2: ä’bţõgid
+     ä’bţõ+V+Jus+Sg3: ä’bţõg
+     ä’bţõ+V+Quo+Sg3: ä’bţiji
+     ä’bţõ+V+ActPrfPrc: ä’bţõn
+     ä’bţõ+V+PssPrfPrc: ä’bţõd
+
+

@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - pȯimõ: # Verb 41 'eng /est põimida/fin' - full paradigm
+     pȯimõ+V+Inf: pȯimõ
+     pȯimõ+V+Ger: pȯimõs
+     pȯimõ+V+Sup: pȯimõm
+     pȯimõ+V+Sup+Ine: pȯimõmõs
+     pȯimõ+V+Sup+Ela: pȯimõmõst
+     pȯimõ+V+Sup+Tra: pȯimõmõks
+     pȯimõ+V+Sup+Abe: pȯimõmõt
+     pȯimõ+V+Ind+Prs+Sg3: pūoimõb
+     pȯimõ+V+Ind+Prs+Pl2: pȯimõt
+     pȯimõ+V+Ind+Prs+Pl3: pȯimõbõd
+     pȯimõ+V+Ind+Prt+Sg3: pūoimiz
+     pȯimõ+V+Ind+Prt+Pl2: [pūoimizt, pūoimiztõ]
+     pȯimõ+V+Ind+Prt+Pl3: [pūoimizt, pūoimiztõ]
+     pȯimõ+V+Ind+ConNeg+Sg: pȯim
+     pȯimõ+V+Cond+Sg3: pȯimõks
+     pȯimõ+V+Imprt+Sg2: pȯim
+     pȯimõ+V+Imprt+ConNeg+Sg2: pȯim
+     pȯimõ+V+Imprt+Pl2: pȯimõgid
+     pȯimõ+V+Jus+Sg3: pȯimõg
+     pȯimõ+V+Quo+Sg3: pȯimiji
+     pȯimõ+V+ActPrfPrc: pȯimõn
+     pȯimõ+V+PssPrfPrc: pȯimdõd
+

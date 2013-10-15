@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kaŗnõ: # Verb 49 'eng /est jõllitada/fin' - full paradigm
+     kaŗnõ+V+Inf: kaŗnõ
+     kaŗnõ+V+Ger: kaŗnõs
+     kaŗnõ+V+Sup: kaŗnõm
+     kaŗnõ+V+Sup+Ine: kaŗnõmõs
+     kaŗnõ+V+Sup+Ela: kaŗnõmõst
+     kaŗnõ+V+Sup+Tra: kaŗnõmõks
+     kaŗnõ+V+Sup+Abe: kaŗnõmõt
+     kaŗnõ+V+Ind+Prs+Sg3: kaŗnõb
+     kaŗnõ+V+Ind+Prs+Pl2: kaŗnõt
+     kaŗnõ+V+Ind+Prs+Pl3: kaŗnõbõd
+     kaŗnõ+V+Ind+Prt+Sg3: kaŗniz
+     kaŗnõ+V+Ind+Prt+Pl2: [kaŗnizt, kaŗniztõ]
+     kaŗnõ+V+Ind+Prt+Pl3: [kaŗnizt, kaŗniztõ]
+     kaŗnõ+V+Ind+ConNeg+Sg: kaŗn
+     kaŗnõ+V+Cond+Sg3: kaŗnõks
+     kaŗnõ+V+Imprt+Sg2: kaŗn
+     kaŗnõ+V+Imprt+ConNeg+Sg2: kaŗn
+     kaŗnõ+V+Imprt+Pl2: kaŗnõgid
+     kaŗnõ+V+Jus+Sg3: kaŗnõg
+     kaŗnõ+V+Quo+Sg3: kaŗniji
+     kaŗnõ+V+ActPrfPrc: kaŗnõn
+     kaŗnõ+V+PssPrfPrc: kaŗndõd
+

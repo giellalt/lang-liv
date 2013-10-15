@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - pȯļtõ: # Verb 22 'eng /est reht peksta/fin' - full paradigm
+     pȯļtõ+V+Inf: pȯļtõ
+     pȯļtõ+V+Ger: pȯļtõs
+     pȯļtõ+V+Sup: pūoļtam
+     pȯļtõ+V+Sup+Ine: pūoļtamõs
+     pȯļtõ+V+Sup+Ela: pūoļtamõst
+     pȯļtõ+V+Sup+Tra: pūoļtamõks
+     pȯļtõ+V+Sup+Abe: pūoļtamõt
+     pȯļtõ+V+Ind+Prs+Sg3: pūoļtab
+     pȯļtõ+V+Ind+Prs+Pl2: pūoļtat
+     pȯļtõ+V+Ind+Prs+Pl3: pūoļtabõd
+     pȯļtõ+V+Ind+Prt+Sg3: pūoļtiz
+     pȯļtõ+V+Ind+Prt+Pl2: [pūoļtizt, pūoļtiztõ]
+     pȯļtõ+V+Ind+Prt+Pl3: [pūoļtizt, pūoļtiztõ]
+     pȯļtõ+V+Ind+ConNeg+Sg: pȯļt
+     pȯļtõ+V+Cond+Sg3: pūoļtaks
+     pȯļtõ+V+Imprt+Sg2: pūoļta
+     pȯļtõ+V+Imprt+ConNeg+Sg2: pȯļtõ
+     pȯļtõ+V+Imprt+Pl2: pūoļtagid
+     pȯļtõ+V+Jus+Sg3: pūoļtag
+     pȯļtõ+V+QuoSg3: pūoļtaji
+     pȯļtõ+V+ActPrfPrc: pȯļtõn
+     pȯļtõ+V+PssPrfPrc: pȯļtõd
+

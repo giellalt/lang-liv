@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - loulõ: # Verb 17 'eng /est laulda/fin' - full paradigm
+     loulõ+V+Inf: loulõ
+     loulõ+V+Ger: loulõs
+     loulõ+V+Sup: lōlam
+     loulõ+V+Sup+Ine: lōlamõs
+     loulõ+V+Sup+Ela: lōlamõst
+     loulõ+V+Sup+Tra: lōlamõks
+     loulõ+V+Sup+Abe: lōlamõt
+     loulõ+V+Ind+Prs+Sg3: lōlab
+     loulõ+V+Ind+Prs+Pl2: lōlat
+     loulõ+V+Ind+Prs+Pl3: lōlabõd
+     loulõ+V+Ind+Prt+Sg3: lōliz
+     loulõ+V+Ind+Prt+Pl2: [lōlizt, lōliztõ]
+     loulõ+V+Ind+Prt+Pl3: [lōlizt, lōliztõ]
+     loulõ+V+Ind+ConNeg+Sg: loul
+     loulõ+V+Cond+Sg3: lōlaks
+     loulõ+V+Imprt+Sg2: lōla
+     loulõ+V+Imprt+ConNeg+Sg2: loulõ
+     loulõ+V+Imprt+Pl2: lōlagid
+     loulõ+V+Jus+Sg3: lōlag
+     loulõ+V+QuoSg3: lōlaji
+     loulõ+V+ActPrfPrc: loulõn
+     loulõ+V+PssPrfPrc: louldõd
+

@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kīskõ: # Verb 56 'eng /est kiskuda/fin' - full paradigm
+     kīskõ+V+Inf: kīskõ
+     kīskõ+V+Ger: kīskõs
+     kīskõ+V+Sup: kīskõm
+     kīskõ+V+Sup+Ine: kīskõmõs
+     kīskõ+V+Sup+Ela: kīskõmõst
+     kīskõ+V+Sup+Tra: kīskõmõks
+     kīskõ+V+Sup+Abe: kīskõmõt
+     kīskõ+V+Ind+Prs+Sg3: kīskõb
+     kīskõ+V+Ind+Prs+Pl2: kīskõt
+     kīskõ+V+Ind+Prs+Pl3: kīskõbõd
+     kīskõ+V+Ind+Prt+Sg3: kīskiz
+     kīskõ+V+Ind+Prt+Pl2: [kīskizt, kīskiztõ]
+     kīskõ+V+Ind+Prt+Pl3: [kīskizt, kīskiztõ]
+     kīskõ+V+Ind+ConNeg+Sg: kīsk
+     kīskõ+V+Cond+Sg3: kīskõks
+     kīskõ+V+Imprt+Sg2: kīsk
+     kīskõ+V+Imprt+ConNeg+Sg2: kīsk
+     kīskõ+V+Imprt+Pl2: kīskõgid
+     kīskõ+V+Jus+Sg3: kīskõg
+     kīskõ+V+Quo+Sg3: kīskiji
+     kīskõ+V+ActPrfPrc: kīskõn
+     kīskõ+V+PssPrfPrc: kīstõd
+

@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - vakţõ: # Verb 31 'eng /est valvata/fin' - full paradigm
+     vakţõ+V+Inf: vakţõ
+     vakţõ+V+Ger: vakţõs
+     vakţõ+V+Sup: vakţõm
+     vakţõ+V+Sup+Ine: vakţõmõs
+     vakţõ+V+Sup+Ela: vakţõmõst
+     vakţõ+V+Sup+Tra: vakţõmõks
+     vakţõ+V+Sup+Abe: vakţõmõt
+     vakţõ+V+Ind+Prs+Sg3: vakţūb
+     vakţõ+V+Ind+Prs+Pl2: vakţõt
+     vakţõ+V+Ind+Prs+Pl3: vakţūbõd
+     vakţõ+V+Ind+Prt+Sg3: vakţīz
+     vakţõ+V+Ind+Prt+Pl2: [vakţīzt, vakţīztõ]
+     vakţõ+V+Ind+Prt+Pl3: [vakţīzt, vakţīztõ]
+     vakţõ+V+Ind+ConNeg+Sg: vakţ
+     vakţõ+V+Cond+Sg3: vakţõks
+     vakţõ+V+Imprt+Sg2: vakţ
+     vakţõ+V+Imprt+ConNeg+Sg2: vakţ
+     vakţõ+V+Imprt+Pl2: vakţõgid
+     vakţõ+V+Jus+Sg3: vakţõg
+     vakţõ+V+Quo+Sg3: vakţiji
+     vakţõ+V+ActPrfPrc: vakţõn
+     vakţõ+V+PssPrfPrc: vakţõd
+

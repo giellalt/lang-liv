@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - pȯļļõ: # Verb 40 'eng /est sumbata/fin' - full paradigm
+     pȯļļõ+V+Inf: pȯļļõ
+     pȯļļõ+V+Ger: pȯļļõs
+     pȯļļõ+V+Sup: pȯļļõm
+     pȯļļõ+V+Sup+Ine: pȯļļõmõs
+     pȯļļõ+V+Sup+Ela: pȯļļõmõst
+     pȯļļõ+V+Sup+Tra: pȯļļõmõks
+     pȯļļõ+V+Sup+Abe: pȯļļõmõt
+     pȯļļõ+V+Ind+Prs+Sg3: pūoļõb
+     pȯļļõ+V+Ind+Prs+Pl2: pȯļļõt
+     pȯļļõ+V+Ind+Prs+Pl3: pȯļļõbõd
+     pȯļļõ+V+Ind+Prt+Sg3: pūoļiz
+     pȯļļõ+V+Ind+Prt+Pl2: [pūoļizt, pūoļiztõ]
+     pȯļļõ+V+Ind+Prt+Pl3: [pūoļizt, pūoļiztõ]
+     pȯļļõ+V+Ind+ConNeg+Sg: pȯļ
+     pȯļļõ+V+Cond+Sg3: pȯļļõks
+     pȯļļõ+V+Imprt+Sg2: pȯļ
+     pȯļļõ+V+Imprt+ConNeg+Sg2: pȯļ
+     pȯļļõ+V+Imprt+Pl2: pȯļļõgid
+     pȯļļõ+V+Jus+Sg3: pȯļļõg
+     pȯļļõ+V+Quo+Sg3: pȯļļiji
+     pȯļļõ+V+ActPrfPrc: pȯļļõn
+     pȯļļõ+V+PssPrfPrc: pȯļdõd
+

@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - vie’ddõ: # Verb 24 'eng /est vedada/fin' - full paradigm
+     vie’ddõ+V+Inf: vie’ddõ
+     vie’ddõ+V+Ger: vie’ddõs
+     vie’ddõ+V+Sup: viedām
+     vie’ddõ+V+Sup+Ine: viedāmõs
+     vie’ddõ+V+Sup+Ela: viedāmõst
+     vie’ddõ+V+Sup+Tra: viedāmõks
+     vie’ddõ+V+Sup+Abe: viedāmõt
+     vie’ddõ+V+Ind+Prs+Sg3: viedāb
+     vie’ddõ+V+Ind+Prs+Pl2: viedāt
+     vie’ddõ+V+Ind+Prs+Pl3: viedābõd
+     vie’ddõ+V+Ind+Prt+Sg3: viedīz
+     vie’ddõ+V+Ind+Prt+Pl2: [viedīzt, viedīztõ]
+     vie’ddõ+V+Ind+Prt+Pl3: [viedīzt, viedīztõ]
+     vie’ddõ+V+Ind+ConNeg+Sg: vie’d
+     vie’ddõ+V+Cond+Sg3: viedāks
+     vie’ddõ+V+Imprt+Sg2: viedā
+     vie’ddõ+V+Imprt+ConNeg+Sg2: vie’ddõ
+     vie’ddõ+V+Imprt+Pl2: viedāgid
+     vie’ddõ+V+Jus+Sg3: viedāg
+     vie’ddõ+V+QuoSg3: viedāji
+     vie’ddõ+V+ActPrfPrc: vie’ddõn
+     vie’ddõ+V+PssPrfPrc: vie’dtõd
+

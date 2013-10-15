@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - pȯrtõ: # Verb 45 'eng /est hoorata/fin' - full paradigm
+     pȯrtõ+V+Inf: pȯrtõ
+     pȯrtõ+V+Ger: pȯrtõs
+     pȯrtõ+V+Sup: pȯrtõm
+     pȯrtõ+V+Sup+Ine: pȯrtõmõs
+     pȯrtõ+V+Sup+Ela: pȯrtõmõst
+     pȯrtõ+V+Sup+Tra: pȯrtõmõks
+     pȯrtõ+V+Sup+Abe: pȯrtõmõt
+     pȯrtõ+V+Ind+Prs+Sg3: pūortõb
+     pȯrtõ+V+Ind+Prs+Pl2: pȯrtõt
+     pȯrtõ+V+Ind+Prs+Pl3: pȯrtõbõd
+     pȯrtõ+V+Ind+Prt+Sg3: pūortiz
+     pȯrtõ+V+Ind+Prt+Pl2: [pūortizt, pūortiztõ]
+     pȯrtõ+V+Ind+Prt+Pl3: [pūortizt, pūortiztõ]
+     pȯrtõ+V+Ind+ConNeg+Sg: pȯrt
+     pȯrtõ+V+Cond+Sg3: pȯrtõks
+     pȯrtõ+V+Imprt+Sg2: pȯrt
+     pȯrtõ+V+Imprt+ConNeg+Sg2: pȯrt
+     pȯrtõ+V+Imprt+Pl2: pȯrtõgid
+     pȯrtõ+V+Jus+Sg3: pȯrtõg
+     pȯrtõ+V+Quo+Sg3: pȯrtiji
+     pȯrtõ+V+ActPrfPrc: pȯrtõn
+     pȯrtõ+V+PssPrfPrc: pȯrtõd
+

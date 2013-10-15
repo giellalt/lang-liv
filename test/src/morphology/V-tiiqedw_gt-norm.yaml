@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - tī’edõ: # Verb 6 'eng /est teha/fin' - full paradigm
+     tī’edõ+V+Inf: tī’edõ
+     tī’edõ+V+Ger: tī’edsõ
+     tī’edõ+V+Sup: tī’emõ
+     tī’edõ+V+Sup+Ine: tī’emõõs
+     tī’edõ+V+Sup+Ela: tī’emõõst
+     tī’edõ+V+Sup+Tra: tī’emõõks
+     tī’edõ+V+Sup+Abe: tī’emõõt
+     tī’edõ+V+Ind+Prs+Sg3: tī’eb
+     tī’edõ+V+Ind+Prs+Pl2: tī’etõ
+     tī’edõ+V+Ind+Prs+Pl3: tī’ebõd
+     tī’edõ+V+Ind+Prt+Sg3: tei
+     tī’edõ+V+Ind+Prt+Pl2: teitõ
+     tī’edõ+V+Ind+Prt+Pl3: teitõ
+     tī’edõ+V+Ind+ConNeg+Sg: tī’e
+     tī’edõ+V+Cond+Sg3: tī’eks
+     tī’edõ+V+Imprt+Sg2: tī’e
+     tī’edõ+V+Imprt+ConNeg+Sg2: tī’e
+     tī’edõ+V+Imprt+Pl2: tī’egid
+     tī’edõ+V+Jus+Sg3: tī’egõ
+     tī’edõ+V+QuoSg3: tē’ji
+     tī’edõ+V+ActPrfPrc: tī’end
+     tī’edõ+V+PssPrfPrc: tī’edõd
+

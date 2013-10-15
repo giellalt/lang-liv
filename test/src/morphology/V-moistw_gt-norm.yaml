@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - mȯistõ: # Verb 23 'eng /est mõista/fin' - full paradigm
+     mȯistõ+V+Inf: mȯistõ
+     mȯistõ+V+Ger: mȯistõs
+     mȯistõ+V+Sup: mūoštam
+     mȯistõ+V+Sup+Ine: mūoštamõs
+     mȯistõ+V+Sup+Ela: mūoštamõst
+     mȯistõ+V+Sup+Tra: mūoštamõks
+     mȯistõ+V+Sup+Abe: mūoštamõt
+     mȯistõ+V+Ind+Prs+Sg3: mūoštab
+     mȯistõ+V+Ind+Prs+Pl2: mūoštat
+     mȯistõ+V+Ind+Prs+Pl3: mūoštabõd
+     mȯistõ+V+Ind+Prt+Sg3: mūoštiz
+     mȯistõ+V+Ind+Prt+Pl2: [mūoštizt, mūoštiztõ]
+     mȯistõ+V+Ind+Prt+Pl3: [mūoštizt, mūoštiztõ]
+     mȯistõ+V+Ind+ConNeg+Sg: mȯist
+     mȯistõ+V+Cond+Sg3: mūoštaks
+     mȯistõ+V+Imprt+Sg2: mūošta
+     mȯistõ+V+Imprt+ConNeg+Sg2: mȯistõ
+     mȯistõ+V+Imprt+Pl2: mūoštagid
+     mȯistõ+V+Jus+Sg3: mūoštag
+     mȯistõ+V+QuoSg3: mūoštaji
+     mȯistõ+V+ActPrfPrc: mȯistõn
+     mȯistõ+V+PssPrfPrc: mȯistõd
+

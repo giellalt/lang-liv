@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - tieudõ: # Verb 28 'eng /est teada/fin' - full paradigm
+     tieudõ+V+Inf: tieudõ
+     tieudõ+V+Ger: tieudõs
+     tieudõ+V+Sup: tīedam
+     tieudõ+V+Sup+Ine: tīedamõs
+     tieudõ+V+Sup+Ela: tīedamõst
+     tieudõ+V+Sup+Tra: tīedamõks
+     tieudõ+V+Sup+Abe: tīedamõt
+     tieudõ+V+Ind+Prs+Sg3: tīedab
+     tieudõ+V+Ind+Prs+Pl2: tīedat
+     tieudõ+V+Ind+Prs+Pl3: tīedabõd
+     tieudõ+V+Ind+Prt+Sg3: tīediz
+     tieudõ+V+Ind+Prt+Pl2: [tīedizt, tīediztõ]
+     tieudõ+V+Ind+Prt+Pl3: [tīedizt, tīediztõ]
+     tieudõ+V+Ind+ConNeg+Sg: tieud
+     tieudõ+V+Cond+Sg3: tīedaks
+     tieudõ+V+Imprt+Sg2: tīeda
+     tieudõ+V+Imprt+ConNeg+Sg2: tieudõ
+     tieudõ+V+Imprt+Pl2: tīedagid
+     tieudõ+V+Jus+Sg3: tīedag
+     tieudõ+V+QuoSg3: tīedaji
+     tieudõ+V+ActPrfPrc: tieudõn
+     tieudõ+V+PssPrfPrc: tieudtõd
+

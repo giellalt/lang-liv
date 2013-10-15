@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kuoŗŗõ: # Verb 38 'eng /est korjata/fin' - full paradigm
+     kuoŗŗõ+V+Inf: kuoŗŗõ
+     kuoŗŗõ+V+Ger: kuoŗŗõs
+     kuoŗŗõ+V+Sup: kuoŗŗõm
+     kuoŗŗõ+V+Sup+Ine: kuoŗŗõmõs
+     kuoŗŗõ+V+Sup+Ela: kuoŗŗõmõst
+     kuoŗŗõ+V+Sup+Tra: kuoŗŗõmõks
+     kuoŗŗõ+V+Sup+Abe: kuoŗŗõmõt
+     kuoŗŗõ+V+Ind+Prs+Sg3: kūoŗõb
+     kuoŗŗõ+V+Ind+Prs+Pl2: kuoŗŗõt
+     kuoŗŗõ+V+Ind+Prs+Pl3: kuoŗŗõbõd
+     kuoŗŗõ+V+Ind+Prt+Sg3: kūoŗiz
+     kuoŗŗõ+V+Ind+Prt+Pl2: [kūoŗizt, kūoŗiztõ]
+     kuoŗŗõ+V+Ind+Prt+Pl3: [kūoŗizt, kūoŗiztõ]
+     kuoŗŗõ+V+Ind+ConNeg+Sg: kuoŗ
+     kuoŗŗõ+V+Cond+Sg3: kuoŗŗõks
+     kuoŗŗõ+V+Imprt+Sg2: kuoŗ
+     kuoŗŗõ+V+Imprt+ConNeg+Sg2: kuoŗ
+     kuoŗŗõ+V+Imprt+Pl2: kuoŗŗõgid
+     kuoŗŗõ+V+Jus+Sg3: kuoŗŗõg
+     kuoŗŗõ+V+Quo+Sg3: kuoŗŗiji
+     kuoŗŗõ+V+ActPrfPrc: kuoŗŗõn
+     kuoŗŗõ+V+PssPrfPrc: kuoŗdõd
+

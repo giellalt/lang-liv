@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - võttõ: # Verb 19 'eng /est võtta/fin' - full paradigm
+     võttõ+V+Inf: võttõ
+     võttõ+V+Ger: võttõs
+     võttõ+V+Ger: võttõs
+     võttõ+V+Sup: võtām
+     võttõ+V+Sup+Ine: võtāmõs
+     võttõ+V+Sup+Ela: võtāmõst
+     võttõ+V+Sup+Tra: võtāmõks
+     võttõ+V+Sup+Abe: võtāmõt
+     võttõ+V+Ind+Prs+Sg3: võtāb
+     võttõ+V+Ind+Prs+Pl2: võtāt
+     võttõ+V+Ind+Prs+Pl3: võtābõd
+     võttõ+V+Ind+Prt+Sg3: võtīz
+     võttõ+V+Ind+Prt+Pl2: [võtīzt, võtīztõ]
+     võttõ+V+Ind+Prt+Pl3: [võtīzt, võtīztõ]
+     võttõ+V+Ind+ConNeg+Sg: võt
+     võttõ+V+Cond+Sg3: võtāks
+     võttõ+V+Imprt+Sg2: võtā
+     võttõ+V+Imprt+ConNeg+Sg2: võttõ
+     võttõ+V+Imprt+Pl2: võtāgid
+     võttõ+V+Jus+Sg3: võtāg
+     võttõ+V+QuoSg3: võtāji
+     võttõ+V+ActPrfPrc: võttõn
+     võttõ+V+PssPrfPrc: võttõd
+

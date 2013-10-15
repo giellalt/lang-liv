@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - ī’edõ: # Verb 57 'eng /est lõigata/fin' - full paradigm
+     ī’edõ+V+Inf: ī’edõ
+     ī’edõ+V+Ger: ī’edõs
+     ī’edõ+V+Sup: ī’edõm
+     ī’edõ+V+Sup+Ine: ī’edõmõs
+     ī’edõ+V+Sup+Ela: ī’edõmõst
+     ī’edõ+V+Sup+Tra: ī’edõmõks
+     ī’edõ+V+Sup+Abe: ī’edõmõt
+     ī’edõ+V+Ind+Prs+Sg3: ī’edõb
+     ī’edõ+V+Ind+Prs+Pl2: ī’edõt
+     ī’edõ+V+Ind+Prs+Pl3: ī’edõbõd
+     ī’edõ+V+Ind+Prt+Sg3: ī’ediz
+     ī’edõ+V+Ind+Prt+Pl2: [ī’edizt, ī’ediztõ]
+     ī’edõ+V+Ind+Prt+Pl3: [ī’edizt, ī’ediztõ]
+     ī’edõ+V+Ind+ConNeg+Sg: ī’ed
+     ī’edõ+V+Cond+Sg3: ī’edõks
+     ī’edõ+V+Imprt+Sg2: ī’ed
+     ī’edõ+V+Imprt+ConNeg+Sg2: ī’ed
+     ī’edõ+V+Imprt+Pl2: ī’edõgid
+     ī’edõ+V+Jus+Sg3: ī’edõg
+     ī’edõ+V+Quo+Sg3: ī’ediji
+     ī’edõ+V+ActPrfPrc: ī’edõn
+     ī’edõ+V+PssPrfPrc: ī’edtõd
+

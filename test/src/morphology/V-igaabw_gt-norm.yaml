@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - igābõ: # Verb 49 'eng /est igatseda/fin' - full paradigm
+     igābõ+V+Inf: igābõ
+     igābõ+V+Ger: igābõs
+     igābõ+V+Sup: igābõm
+     igābõ+V+Sup+Ine: igābõmõs
+     igābõ+V+Sup+Ela: igābõmõst
+     igābõ+V+Sup+Tra: igābõmõks
+     igābõ+V+Sup+Abe: igābõmõt
+     igābõ+V+Ind+Prs+Sg3: igābõb
+     igābõ+V+Ind+Prs+Pl2: igābõt
+     igābõ+V+Ind+Prs+Pl3: igābõbõd
+     igābõ+V+Ind+Prt+Sg3: igābiz
+     igābõ+V+Ind+Prt+Pl2: [igābizt, igābiztõ]
+     igābõ+V+Ind+Prt+Pl3: [igābizt, igābiztõ]
+     igābõ+V+Ind+ConNeg+Sg: igāb
+     igābõ+V+Cond+Sg3: igābõks
+     igābõ+V+Imprt+Sg2: igāb
+     igābõ+V+Imprt+ConNeg+Sg2: igāb
+     igābõ+V+Imprt+Pl2: igābõgid
+     igābõ+V+Jus+Sg3: igābõg
+     igābõ+V+Quo+Sg3: igābiji
+     igābõ+V+ActPrfPrc: igābõn
+     igābõ+V+PssPrfPrc: igābdõd
+

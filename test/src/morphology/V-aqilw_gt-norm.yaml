@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - a’ilõ: # Verb 51 'eng /est joosta/fin' - full paradigm
+     a’ilõ+V+Inf: a’ilõ
+     a’ilõ+V+Ger: a’ilõs
+     a’ilõ+V+Sup: a’ilõm
+     a’ilõ+V+Sup+Ine: a’ilõmõs
+     a’ilõ+V+Sup+Ela: a’ilõmõst
+     a’ilõ+V+Sup+Tra: a’ilõmõks
+     a’ilõ+V+Sup+Abe: a’ilõmõt
+     a’ilõ+V+Ind+Prs+Sg3: a’ilõb
+     a’ilõ+V+Ind+Prs+Pl2: a’ilõt
+     a’ilõ+V+Ind+Prs+Pl3: a’ilõbõd
+     a’ilõ+V+Ind+Prt+Sg3: a’iliz
+     a’ilõ+V+Ind+Prt+Pl2: [a’ilizt, a’iliztõ]
+     a’ilõ+V+Ind+Prt+Pl3: [a’ilizt, a’iliztõ]
+     a’ilõ+V+Ind+ConNeg+Sg: a’il
+     a’ilõ+V+Cond+Sg3: a’ilõks
+     a’ilõ+V+Imprt+Sg2: a’il
+     a’ilõ+V+Imprt+ConNeg+Sg2: a’il
+     a’ilõ+V+Imprt+Pl2: a’ilõgid
+     a’ilõ+V+Jus+Sg3: a’ilõg
+     a’ilõ+V+Quo+Sg3: a’iliji
+     a’ilõ+V+ActPrfPrc: a’ilõn
+     a’ilõ+V+PssPrfPrc: a’ildõd
+

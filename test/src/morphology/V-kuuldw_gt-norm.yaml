@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kūldõ: # Verb 55 'eng /est kuulata/fin' - full paradigm
+     kūldõ+V+Inf: kūldõ
+     kūldõ+V+Ger: kūldõs
+     kūldõ+V+Ger: kūldõs
+     kūldõ+V+Sup: kūldõm
+     kūldõ+V+Sup+Ine: kūldõmõs
+     kūldõ+V+Sup+Ela: kūldõmõst
+     kūldõ+V+Sup+Tra: kūldõmõks
+     kūldõ+V+Sup+Abe: kūldõmõt
+     kūldõ+V+Ind+Prs+Sg3: kūldõb
+     kūldõ+V+Ind+Prs+Pl2: kūldõt
+     kūldõ+V+Ind+Prs+Pl3: kūldõbõd
+     kūldõ+V+Ind+Prt+Sg3: kūldiz
+     kūldõ+V+Ind+Prt+Pl2: [kūldizt, kūldiztõ]
+     kūldõ+V+Ind+Prt+Pl3: [kūldizt, kūldiztõ]
+     kūldõ+V+Ind+ConNeg+Sg: kūld
+     kūldõ+V+Cond+Sg3: kūldõks
+     kūldõ+V+Imprt+Sg2: kūld
+     kūldõ+V+Imprt+ConNeg+Sg2: kūld
+     kūldõ+V+Imprt+Pl2: kūldõgid
+     kūldõ+V+Jus+Sg3: kūldõg
+     kūldõ+V+Quo+Sg3: kūldiji
+     kūldõ+V+ActPrfPrc: kūldõn
+     kūldõ+V+PssPrfPrc: kūldtõd
+

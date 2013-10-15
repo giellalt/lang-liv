@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - ouŗõ: # Verb 42 'eng /est karjuda/fin' - full paradigm
+     ouŗõ+V+Inf: ouŗõ
+     ouŗõ+V+Ger: ouŗõs
+     ouŗõ+V+Sup: ouŗõm
+     ouŗõ+V+Sup+Ine: ouŗõmõs
+     ouŗõ+V+Sup+Ela: ouŗõmõst
+     ouŗõ+V+Sup+Tra: ouŗõmõks
+     ouŗõ+V+Sup+Abe: ouŗõmõt
+     ouŗõ+V+Ind+Prs+Sg3: ōŗõb
+     ouŗõ+V+Ind+Prs+Pl2: ouŗõt
+     ouŗõ+V+Ind+Prs+Pl3: ouŗõbõd
+     ouŗõ+V+Ind+Prt+Sg3: ōŗiz
+     ouŗõ+V+Ind+Prt+Pl2: [ōŗizt, ōŗiztõ]
+     ouŗõ+V+Ind+Prt+Pl3: [ōŗizt, ōŗiztõ]
+     ouŗõ+V+Ind+ConNeg+Sg: ouŗ
+     ouŗõ+V+Cond+Sg3: ouŗõks
+     ouŗõ+V+Imprt+Sg2: ouŗ
+     ouŗõ+V+Imprt+ConNeg+Sg2: ouŗ
+     ouŗõ+V+Imprt+Pl2: ouŗõgid
+     ouŗõ+V+Jus+Sg3: ouŗõg
+     ouŗõ+V+Quo+Sg3: ouŗiji
+     ouŗõ+V+ActPrfPrc: ouŗõn
+     ouŗõ+V+PssPrfPrc: ouŗdõd
+

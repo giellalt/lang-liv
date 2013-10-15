@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - laskõ: # Verb 35 'eng /est lasta/fin' - full paradigm
+     laskõ+V+Inf: laskõ
+     laskõ+V+Ger: laskõs
+     laskõ+V+Sup: laskõm
+     laskõ+V+Sup+Ine: laskõmõs
+     laskõ+V+Sup+Ela: laskõmõst
+     laskõ+V+Sup+Tra: laskõmõks
+     laskõ+V+Sup+Abe: laskõmõt
+     laskõ+V+Ind+Prs+Sg3: laskūb
+     laskõ+V+Ind+Prs+Pl2: laskõt
+     laskõ+V+Ind+Prs+Pl3: laskūbõd
+     laskõ+V+Ind+Prt+Sg3: laskīz
+     laskõ+V+Ind+Prt+Pl2: [laskīzt, laskīztõ]
+     laskõ+V+Ind+Prt+Pl3: [laskīzt, laskīztõ]
+     laskõ+V+Ind+ConNeg+Sg: lask
+     laskõ+V+Cond+Sg3: laskõks
+     laskõ+V+Imprt+Sg2: lask
+     laskõ+V+Imprt+ConNeg+Sg2: lask
+     laskõ+V+Imprt+Pl2: laskõgid
+     laskõ+V+Jus+Sg3: laskõg
+     laskõ+V+Quo+Sg3: laskiji
+     laskõ+V+ActPrfPrc: laskõn
+     laskõ+V+PssPrfPrc: lastõd
+

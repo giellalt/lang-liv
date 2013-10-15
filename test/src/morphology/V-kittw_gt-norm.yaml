@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kittõ: # Verb 32 'eng /est kittida/fin' - full paradigm
+     kittõ+V+Inf: kittõ
+     kittõ+V+Ger: kittõs
+     kittõ+V+Sup: kittõm
+     kittõ+V+Sup+Ine: kittõmõs
+     kittõ+V+Sup+Ela: kittõmõst
+     kittõ+V+Sup+Tra: kittõmõks
+     kittõ+V+Sup+Abe: kittõmõt
+     kittõ+V+Ind+Prs+Sg3: kitūb
+     kittõ+V+Ind+Prs+Pl2: kittõt
+     kittõ+V+Ind+Prs+Pl3: kitūbõd
+     kittõ+V+Ind+Prt+Sg3: kitīz
+     kittõ+V+Ind+Prt+Pl2: [kitīzt, kitīztõ]
+     kittõ+V+Ind+Prt+Pl3: [kitīzt, kitīztõ]
+     kittõ+V+Ind+ConNeg+Sg: kit
+     kittõ+V+Cond+Sg3: kittõks
+     kittõ+V+Imprt+Sg2: kit
+     kittõ+V+Imprt+ConNeg+Sg2: kit
+     kittõ+V+Imprt+Pl2: kittõgid
+     kittõ+V+Jus+Sg3: kittõg
+     kittõ+V+Quo+Sg3: kittiji
+     kittõ+V+ActPrfPrc: kittõn
+     kittõ+V+PssPrfPrc: kittõd
+

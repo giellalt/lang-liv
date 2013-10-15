@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - tūlda: # Verb 11 'eng /est tulla/fin' - full paradigm
+     tūlda+V+Inf: tūlda
+     tūlda+V+Ger: tuldsõ
+     tūlda+V+Sup: tu’lmõ
+     tūlda+V+Sup+Ine: tu’lmõõs
+     tūlda+V+Sup+Ela: tu’lmõõst
+     tūlda+V+Sup+Tra: tu’lmõõks
+     tūlda+V+Sup+Abe: tu’lmõõt
+     tūlda+V+Ind+Prs+Sg3: tulāb
+     tūlda+V+Ind+Prs+Pl2: tu’ltõ
+     tūlda+V+Ind+Prs+Pl3: tulābõd
+     tūlda+V+Ind+Prt+Sg3: tu’ļ
+     tūlda+V+Ind+Prt+Pl2: tu’ļtõ
+     tūlda+V+Ind+Prt+Pl3: tu’ļtõ
+     tūlda+V+Ind+ConNeg+Sg: tu’l
+     tūlda+V+Cond+Sg3: tulks
+     tūlda+V+Imprt+Sg2: tu’l
+     tūlda+V+Imprt+ConNeg+Sg2: tu’l
+     tūlda+V+Imprt+Pl2: tulgid
+     tūlda+V+Jus+Sg3: tulgõ
+     tūlda+V+QuoSg3: tuļļi
+     tūlda+V+ActPrfPrc: tund
+     tūlda+V+PssPrfPrc: tuldõd
+

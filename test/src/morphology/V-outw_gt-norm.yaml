@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - outõ: # Verb 46 'eng /est hautada/fin' - full paradigm
+     outõ+V+Inf: outõ
+     outõ+V+Ger: outõs
+     outõ+V+Sup: outõm
+     outõ+V+Sup+Ine: outõmõs
+     outõ+V+Sup+Ela: outõmõst
+     outõ+V+Sup+Tra: outõmõks
+     outõ+V+Sup+Abe: outõmõt
+     outõ+V+Ind+Prs+Sg3: ōtõb
+     outõ+V+Ind+Prs+Pl2: outõt
+     outõ+V+Ind+Prs+Pl3: outõbõd
+     outõ+V+Ind+Prt+Sg3: ōtiz
+     outõ+V+Ind+Prt+Pl2: [ōtizt, ōtiztõ]
+     outõ+V+Ind+Prt+Pl3: [ōtizt, ōtiztõ]
+     outõ+V+Ind+ConNeg+Sg: out
+     outõ+V+Cond+Sg3: outõks
+     outõ+V+Imprt+Sg2: out
+     outõ+V+Imprt+ConNeg+Sg2: out
+     outõ+V+Imprt+Pl2: outõgid
+     outõ+V+Jus+Sg3: outõg
+     outõ+V+Quo+Sg3: outiji
+     outõ+V+ActPrfPrc: outõn
+     outõ+V+PssPrfPrc: outõd
+

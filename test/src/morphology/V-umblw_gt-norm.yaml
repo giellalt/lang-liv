@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - umblõ: # Verb 58 'eng /est õmmelda/fin' - full paradigm
+     umblõ+V+Inf: umblõ
+     umblõ+V+Ger: umblõs
+     umblõ+V+Sup: umblõm
+     umblõ+V+Sup+Ine: umblõmõs
+     umblõ+V+Sup+Ela: umblõmõst
+     umblõ+V+Sup+Tra: umblõmõks
+     umblõ+V+Sup+Abe: umblõmõt
+     umblõ+V+Ind+Prs+Sg3: umblõb
+     umblõ+V+Ind+Prs+Pl2: umblõt
+     umblõ+V+Ind+Prs+Pl3: umblõbõd
+     umblõ+V+Ind+Prt+Sg3: umbliz
+     umblõ+V+Ind+Prt+Pl2: [umblizt, umbliztõ]
+     umblõ+V+Ind+Prt+Pl3: [umblizt, umbliztõ]
+     umblõ+V+Ind+ConNeg+Sg: umblõ
+     umblõ+V+Cond+Sg3: umblõks
+     umblõ+V+Imprt+Sg2: umbõl
+     umblõ+V+Imprt+ConNeg+Sg2: umbõl
+     umblõ+V+Imprt+Pl2: umblõgid
+     umblõ+V+Jus+Sg3: umblõg
+     umblõ+V+Quo+Sg3: umbliji
+     umblõ+V+ActPrfPrc: umblõn
+     umblõ+V+PssPrfPrc: umbõltõd
+

@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kītõ: # Verb 53 'eng /est öelda/fin' - full paradigm
+     kītõ+V+Inf: kītõ
+     kītõ+V+Ger: kītõs
+     kītõ+V+Sup: kītõm
+     kītõ+V+Sup+Ine: kītõmõs
+     kītõ+V+Sup+Ela: kītõmõst
+     kītõ+V+Sup+Tra: kītõmõks
+     kītõ+V+Sup+Abe: kītõmõt
+     kītõ+V+Ind+Prs+Sg3: kītõb
+     kītõ+V+Ind+Prs+Pl2: kītõt
+     kītõ+V+Ind+Prs+Pl3: kītõbõd
+     kītõ+V+Ind+Prt+Sg3: kītiz
+     kītõ+V+Ind+Prt+Pl2: [kītizt, kītiztõ]
+     kītõ+V+Ind+Prt+Pl3: [kītizt, kītiztõ]
+     kītõ+V+Ind+ConNeg+Sg: kīt
+     kītõ+V+Cond+Sg3: kītõks
+     kītõ+V+Imprt+Sg2: kīt
+     kītõ+V+Imprt+ConNeg+Sg2: kīt
+     kītõ+V+Imprt+Pl2: kītõgid
+     kītõ+V+Jus+Sg3: kītõg
+     kītõ+V+Quo+Sg3: kītiji
+     kītõ+V+ActPrfPrc: kītõn
+     kītõ+V+PssPrfPrc: kītõd
+

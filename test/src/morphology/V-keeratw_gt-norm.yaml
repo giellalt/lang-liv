@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kēratõ: # Verb 53 'eng /est kirjutada/fin' - full paradigm
+     kēratõ+V+Inf: kēratõ
+     kēratõ+V+Ger: kēratõs
+     kēratõ+V+Sup: kēratõm
+     kēratõ+V+Sup+Ine: kēratõmõs
+     kēratõ+V+Sup+Ela: kēratõmõst
+     kēratõ+V+Sup+Tra: kēratõmõks
+     kēratõ+V+Sup+Abe: kēratõmõt
+     kēratõ+V+Ind+Prs+Sg3: kēratõb
+     kēratõ+V+Ind+Prs+Pl2: kēratõt
+     kēratõ+V+Ind+Prs+Pl3: kēratõbõd
+     kēratõ+V+Ind+Prt+Sg3: kēratiz
+     kēratõ+V+Ind+Prt+Pl2: [kēratizt, kēratiztõ]
+     kēratõ+V+Ind+Prt+Pl3: [kēratizt, kēratiztõ]
+     kēratõ+V+Ind+ConNeg+Sg: kērat
+     kēratõ+V+Cond+Sg3: kēratõks
+     kēratõ+V+Imprt+Sg2: kērat
+     kēratõ+V+Imprt+ConNeg+Sg2: kērat
+     kēratõ+V+Imprt+Pl2: kēratõgid
+     kēratõ+V+Jus+Sg3: kēratõg
+     kēratõ+V+Quo+Sg3: kēratiji
+     kēratõ+V+ActPrfPrc: kēratõn
+     kēratõ+V+PssPrfPrc: kēratõd
+

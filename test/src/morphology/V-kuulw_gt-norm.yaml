@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kūlõ: # Verb 49 'eng /est kuulda/fin' - full paradigm
+     kūlõ+V+Inf: kūlõ
+     kūlõ+V+Ger: kūlõs
+     kūlõ+V+Sup: kūlõm
+     kūlõ+V+Sup+Ine: kūlõmõs
+     kūlõ+V+Sup+Ela: kūlõmõst
+     kūlõ+V+Sup+Tra: kūlõmõks
+     kūlõ+V+Sup+Abe: kūlõmõt
+     kūlõ+V+Ind+Prs+Sg3: kūlõb
+     kūlõ+V+Ind+Prs+Pl2: kūlõt
+     kūlõ+V+Ind+Prs+Pl3: kūlõbõd
+     kūlõ+V+Ind+Prt+Sg3: kūliz
+     kūlõ+V+Ind+Prt+Pl2: [kūlizt, kūliztõ]
+     kūlõ+V+Ind+Prt+Pl3: [kūlizt, kūliztõ]
+     kūlõ+V+Ind+ConNeg+Sg: kūl
+     kūlõ+V+Cond+Sg3: kūlõks
+     kūlõ+V+Imprt+Sg2: kūl
+     kūlõ+V+Imprt+ConNeg+Sg2: kūl
+     kūlõ+V+Imprt+Pl2: kūlõgid
+     kūlõ+V+Jus+Sg3: kūlõg
+     kūlõ+V+Quo+Sg3: kūliji
+     kūlõ+V+ActPrfPrc: kūlõn
+     kūlõ+V+PssPrfPrc: kūldõd
+

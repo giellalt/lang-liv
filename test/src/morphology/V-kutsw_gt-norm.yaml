@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kutsõ: # Verb 34 'eng /est kutsuda/fin' - full paradigm
+     kutsõ+V+Inf: kutsõ
+     kutsõ+V+Ger: kutsõs
+     kutsõ+V+Sup: kutsõm
+     kutsõ+V+Sup+Ine: kutsõmõs
+     kutsõ+V+Sup+Ela: kutsõmõst
+     kutsõ+V+Sup+Tra: kutsõmõks
+     kutsõ+V+Sup+Abe: kutsõmõt
+     kutsõ+V+Ind+Prs+Sg3: kutsūb
+     kutsõ+V+Ind+Prs+Pl2: kutsõt
+     kutsõ+V+Ind+Prs+Pl3: kutsūbõd
+     kutsõ+V+Ind+Prt+Sg3: kutsīz
+     kutsõ+V+Ind+Prt+Pl2: [kutsīzt, kutsīztõ]
+     kutsõ+V+Ind+Prt+Pl3: [kutsīzt, kutsīztõ]
+     kutsõ+V+Ind+ConNeg+Sg: kuts
+     kutsõ+V+Cond+Sg3: kutsõks
+     kutsõ+V+Imprt+Sg2: kuts
+     kutsõ+V+Imprt+ConNeg+Sg2: kuts
+     kutsõ+V+Imprt+Pl2: kutsõgid
+     kutsõ+V+Jus+Sg3: kutsõg
+     kutsõ+V+Quo+Sg3: kutsiji
+     kutsõ+V+ActPrfPrc: kutsõn
+     kutsõ+V+PssPrfPrc: kutstõd
+

@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - vīdõ: # Verb 3 'eng /est viia/fin' - full paradigm
+     vīdõ+V+Inf: vīdõ
+     vīdõ+V+Ger: vīdsõ
+     vīdõ+V+Ger: vīdsõ
+     vīdõ+V+Sup: vīmõ
+     vīdõ+V+Sup+Ine: vīmõõs
+     vīdõ+V+Sup+Ela: vīmõõst
+     vīdõ+V+Sup+Tra: vīmõõks
+     vīdõ+V+Sup+Abe: vīmõõt
+     vīdõ+V+Ind+Prs+Sg3: vīb
+     vīdõ+V+Ind+Prs+Pl2: vītõ
+     vīdõ+V+Ind+Prs+Pl3: vībõd
+     vīdõ+V+Ind+Prt+Sg3: vīž
+     vīdõ+V+Ind+Prt+Pl2: vīžtõ
+     vīdõ+V+Ind+Prt+Pl3: vīžtõ
+     vīdõ+V+Ind+ConNeg+Sg: vī
+     vīdõ+V+Cond+Sg3: vīks
+     vīdõ+V+Imprt+Sg2: vī
+     vīdõ+V+Imprt+ConNeg+Sg2: vī
+     vīdõ+V+Imprt+Pl2: vīgid
+     vīdõ+V+Jus+Sg3: vīgõ
+     vīdõ+V+QuoSg3: vīji
+     vīdõ+V+ActPrfPrc: vīnd
+     vīdõ+V+PssPrfPrc: vīdõd
+

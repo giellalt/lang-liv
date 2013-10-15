@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - a’lmõldõ: # Verb 54 'eng /est /fin' - full paradigm
+     a’lmõldõ+V+Inf: a’lmõldõ
+     a’lmõldõ+V+Ger: a’lmõldõs
+     a’lmõldõ+V+Sup: a’lmõldõm
+     a’lmõldõ+V+Sup+Ine: a’lmõldõmõs
+     a’lmõldõ+V+Sup+Ela: a’lmõldõmõst
+     a’lmõldõ+V+Sup+Tra: a’lmõldõmõks
+     a’lmõldõ+V+Sup+Abe: a’lmõldõmõt
+     a’lmõldõ+V+Ind+Prs+Sg3: a’lmõldõb
+     a’lmõldõ+V+Ind+Prs+Pl2: a’lmõldõt
+     a’lmõldõ+V+Ind+Prs+Pl3: a’lmõldõbõd
+     a’lmõldõ+V+Ind+Prt+Sg3: a’lmõldiz
+     a’lmõldõ+V+Ind+Prt+Pl2: [a’lmõldizt, a’lmõldiztõ]
+     a’lmõldõ+V+Ind+Prt+Pl3: [a’lmõldizt, a’lmõldiztõ]
+     a’lmõldõ+V+Ind+ConNeg+Sg: a’lmõld
+     a’lmõldõ+V+Cond+Sg3: a’lmõldõks
+     a’lmõldõ+V+Imprt+Sg2: a’lmõld
+     a’lmõldõ+V+Imprt+ConNeg+Sg2: a’lmõld
+     a’lmõldõ+V+Imprt+Pl2: a’lmõldõgid
+     a’lmõldõ+V+Jus+Sg3: a’lmõldõg
+     a’lmõldõ+V+Quo+Sg3: a’lmõldiji
+     a’lmõldõ+V+ActPrfPrc: a’lmõldõn
+     a’lmõldõ+V+PssPrfPrc: a’lmõldõd
+
+

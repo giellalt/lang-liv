@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - õrīkšõ: # Verb 55 'eng /est kadestada/fin' - full paradigm
+     õrīkšõ+V+Inf: õrīkšõ
+     õrīkšõ+V+Ger: õrīkšõs
+     õrīkšõ+V+Sup: õrīkšõm
+     õrīkšõ+V+Sup+Ine: õrīkšõmõs
+     õrīkšõ+V+Sup+Ela: õrīkšõmõst
+     õrīkšõ+V+Sup+Tra: õrīkšõmõks
+     õrīkšõ+V+Sup+Abe: õrīkšõmõt
+     õrīkšõ+V+Ind+Prs+Sg3: õrīkšõb
+     õrīkšõ+V+Ind+Prs+Pl2: õrīkšõt
+     õrīkšõ+V+Ind+Prs+Pl3: õrīkšõbõd
+     õrīkšõ+V+Ind+Prt+Sg3: õrīkšiz
+     õrīkšõ+V+Ind+Prt+Pl2: [ȭrīkšizt, ȭrīkšiztõ]
+     õrīkšõ+V+Ind+Prt+Pl3: [ȭrīkšizt, ȭrīkšiztõ]
+     õrīkšõ+V+Ind+ConNeg+Sg: õrīkš
+     õrīkšõ+V+Cond+Sg3: õrīkšõks
+     õrīkšõ+V+Imprt+Sg2: õrīkš
+     õrīkšõ+V+Imprt+ConNeg+Sg2: õrīkš
+     õrīkšõ+V+Imprt+Pl2: õrīkšõgid
+     õrīkšõ+V+Jus+Sg3: õrīkšõg
+     õrīkšõ+V+Quo+Sg3: õrīkšiji
+     õrīkšõ+V+ActPrfPrc: õrīkšõn
+     õrīkšõ+V+PssPrfPrc: õrīkštõd
+

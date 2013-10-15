@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - killõ: # Verb 15 'eng /est külvata/fin' - full paradigm
+     killõ+V+Inf: killõ
+     killõ+V+Ger: killõs
+     killõ+V+Ger: killõs
+     killõ+V+Sup: kīlam
+     killõ+V+Sup+Ine: kīlamõs
+     killõ+V+Sup+Ela: kīlamõst
+     killõ+V+Sup+Tra: kīlamõks
+     killõ+V+Sup+Abe: kīlamõt
+     killõ+V+Ind+Prs+Sg3: kīlab
+     killõ+V+Ind+Prs+Pl2: kīlat
+     killõ+V+Ind+Prs+Pl3: kīlabõd
+     killõ+V+Ind+Prt+Sg3: kīliz
+     killõ+V+Ind+Prt+Pl2: [kīlizt, kīliztõ]
+     killõ+V+Ind+Prt+Pl3: [kīlizt, kīliztõ]
+     killõ+V+Ind+ConNeg+Sg: kil
+     killõ+V+Cond+Sg3: kīlaks
+     killõ+V+Imprt+Sg2: kīla
+     killõ+V+Imprt+ConNeg+Sg2: killõ
+     killõ+V+Imprt+Pl2: kīlagid
+     killõ+V+Jus+Sg3: kīlag
+     killõ+V+QuoSg3: kīlaji
+     killõ+V+ActPrfPrc: killõn
+     killõ+V+PssPrfPrc: kildõd
+

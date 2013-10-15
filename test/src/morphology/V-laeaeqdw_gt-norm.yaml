@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - lǟ’dõ: # Verb 1 'eng /est minna/fin' - full paradigm
+     lǟ’dõ+V+Inf: lǟ’dõ
+     lǟ’dõ+V+Ger: lǟ’dsõ
+     lǟ’dõ+V+Ger: lǟ’dsõ
+     lǟ’dõ+V+Sup: lǟ’mõ
+     lǟ’dõ+V+Sup+Ine: lǟ’mõõs
+     lǟ’dõ+V+Sup+Ela: lǟ’mõõst
+     lǟ’dõ+V+Sup+Tra: lǟ’mõõks
+     lǟ’dõ+V+Sup+Abe: lǟ’mõõt
+     lǟ’dõ+V+Ind+Prs+Sg3: lǟ’b
+     lǟ’dõ+V+Ind+Prs+Pl2: lǟ’tõ
+     lǟ’dõ+V+Ind+Prs+Pl3: lǟ’bõd
+     lǟ’dõ+V+Ind+Prt+Sg3: lekš
+     lǟ’dõ+V+Ind+Prt+Pl2: [lekštõ, lekštā]
+     lǟ’dõ+V+Ind+Prt+Pl3: [lekštõ, lekštā]
+     lǟ’dõ+V+Ind+ConNeg+Sg: lǟ’
+     lǟ’dõ+V+Cond+Sg3: lǟ’ks
+     lǟ’dõ+V+Imprt+Sg2: li
+     lǟ’dõ+V+Imprt+ConNeg+Sg2: li
+     lǟ’dõ+V+Imprt+Pl2: ligīd
+     lǟ’dõ+V+Jus+Sg3: läkkõ
+     lǟ’dõ+V+QuoSg3: lē’ji
+     lǟ’dõ+V+ActPrfPrc: lǟ’nd
+
+
