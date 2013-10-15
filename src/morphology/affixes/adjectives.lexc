@@ -202,59 +202,57 @@ LEXICON A_KÄBRĀZ !!= @CODE@ : 168
 +A:	CASES	;
 
 LEXICON A_MAIGĀZ !!= @CODE@ : 169
-+A:	CASES	;
++A:	NMN_MAIGĀZ	;
 
 LEXICON A_NÕTKĀZ !!= @CODE@ : 170
-+A:	CASES	;
++A:	NMN_NÕTKĀZ	;
 
 LEXICON A_RIKĀZ !!= @CODE@ : 171
-+A:	CASES	;
++A:	NMN_RIKĀZ	;
 
 LEXICON A_ĀMBAZ !!= @CODE@ āmbaz:āmba 173
 +A:	NMN_ĀMBAZ	;
 
 LEXICON A_PŪŖAZ !!= @CODE@ : 174
-+A:	CASES	;
++A:	NMN_PŪŖAZ	;
 
 LEXICON A_PǬĻAZ !!= @CODE@ : 175
-+A:	CASES	;
++A:	NMN_PǬĻAZ	;
 
 LEXICON A_MÕTKÕZ !!= @CODE@ mõtkõz: 179
-+A:	CASES	;
++A:	NMN_MÕTKÕZ	;
 
 LEXICON A_VȬRÕZ !!= @CODE@ vȭrõz: 180
-+A:	CASES	;
++A:	NMN_VȬRÕZ	;
 
 LEXICON A_ARĀGÕZ !!= @CODE@ : 181
-+A:	CASES	;
++A:	NMN_ARĀGÕZ	;
 
 LEXICON A_ÄʼGGÕZ !!= @CODE@ ä'ggõz:äggõz 182
-+A:	CASES	;
++A:	NMN_ÄʼGGÕZ	;
 
 LEXICON A_PŪʼDÕZ !!= @CODE@ pūʼdõz:pūdõz 183
-+A:	CASES	;
++A:	NMN_PŪʼDÕZ	;
 
-!!= @CODE@ : 186
-LEXICON A_SĒJI
-+A:	CASES	;
+LEXICON A_SĒJI !!= @CODE@ : 186
++A:	NMN_SĒJI	;
 
 LEXICON A_AKKIJI !!= @CODE@ akkiji:akkiji 187
 +A:	NMN_AKKIJI	;
 
-!!= @CODE@ lē'ji:lēji 188
-LEXICON A_LĒʼJI
-+A:	CASES	;
+LEXICON A_LĒʼJI !!= @CODE@ lē'ji:lēji 188
++A:	NMN_LĒʼJI	;
 
 LEXICON A_AʼIGI !!= @CODE@ aʼigi:aigi 192
-+A:	CASES	;
++A:	NMN_AʼIGI	;
 
 LEXICON A_PUʼNNI !!= @CODE@ pu'nni:punni 193
-+A:	CASES	;
-!!= @CODE@ : 194
-LEXICON A_KAȚKI
-+A:	CASES	;
-!!= @CODE@ : 195
-LEXICON A_KUKKI
++A:	NMN_PUʼNNI	;
+
+LEXICON A_KAȚKI !!= @CODE@ : 194
++A:	NMN_KAȚKI	;
+
+LEXICON A_KUKKI !!= @CODE@ : 195
 +A:	CASES	;
 !!= @CODE@ aigi:aigi 196
 LEXICON A_AIGI

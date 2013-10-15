@@ -192,6 +192,7 @@ Multichar_Symbols
 !! symbols in the lexicon files:
 
  {aä} {oö} {uü} !!= @CODE@
+ %{XC%} !! *@CODE@ for consonant lengthening
 
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@

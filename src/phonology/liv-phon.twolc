@@ -21,7 +21,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  !!= * @CODE@
 ǭ:ō
 Ǭ:Ō
 
-
+%{XC%}:0 !! *@CODE@ for consonant lengthening
 
 !! ! Triggers
  %^Tense:0 !!= * @CODE@ = Tense stem will have stød if proper stem type
@@ -88,7 +88,7 @@ VowsLong  = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī Ā Ō Ū Ǟ Ǭ Ȭ Ȱ Ȫ Ȳ Ǖ Ē
 VowsShort = a o u ä ǫ õ ȯ ö y ü e i A O U Ä Ǫ Õ Ȯ Ö Y Ü E I ;
 Vows = VowsLong VowsShort ;
 
-ConsWithStod = b d g j l ļ m ņ r ŗ v z ž ;
+ConsWithStod = b d g j l ļ m n ņ r ŗ v z ž ;
 Cons = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ;
 
 Letters = Vows Cons ;
@@ -219,7 +219,8 @@ a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1
 
 "i:0 in first syllable"
 !! __@RULENAME@__  
-i:0 <=> # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ;
+i:0 <=>  # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ; !!= @CODE@ in first syllable
+ # Cons:* Vows:+ (ʼ:) [ ConsWithStod :0* | i g ] _ (%^StodRM:) (%^ConsSh:) %^VowsRM: ; !!= @CODE@ in second syllable
 
 "u:0 in second position of first-syllable diphthong"
 !! __@RULENAME@__  
@@ -260,14 +261,22 @@ o:0 <=> # Cons:* [ ū: ]  _ Cons:+ (Vows:) [ %^Stress1to2:0 ] ;
 "lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ"
 !! __@RULENAME@__  
  0:Cx <=> 
-# Cons* Vows ( ʼ: ) Cx _ Vows: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
+ # Cons* Vows ( ʼ: ) Cx _ Vows: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
+ # Cons* Vows ( ʼ: ) Cx _ [ %^ConsL:0 ] ;
 ! Cx _ Vows: %^ConsL:0  [ # | %> | %^VowsRM:0 %> :Vows ] ;
 ! Cx _ Vows: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vows ] ;
-          where Cx in ( t k b d g l ļ m n ņ r ŗ v z ž ) ;
+          where Cx in ( t k b d g l ļ m n ņ r ŗ š v z ž ) ;
 !€  je0l0ā%^Stress2to1
 !0  jeʼllõ0
 !€  ka0l0ā%^Stress2to1
 !0  kaʼllõ0
+
+"%{XC%}:Cx"
+!! __@RULENAME@__
+ %{XC%}:Cx <=> 
+!# Cons* Vows ( ʼ: ) Cx _ Vows: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
+ # Cons* [ a | õ | u | i ] ( ʼ: ) Cx _ [ %> õ ] ;
+         where Cx in (p t k b d g l ļ m n ņ r ŗ š v z ž ) ;
 
 "Stod removal left"
 !! __@RULENAME@__  
