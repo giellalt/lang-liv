@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - oudõ: # Verb 48 'eng /est haududa/fin' - full paradigm
+     oudõ+V+Inf: oudõ
+     oudõ+V+Ger: oudõs
+     oudõ+V+Sup: oudõm
+     oudõ+V+Sup+Ine: oudõmõs
+     oudõ+V+Sup+Ela: oudõmõst
+     oudõ+V+Sup+Tra: oudõmõks
+     oudõ+V+Sup+Abe: oudõmõt
+     oudõ+V+Ind+Prs+Sg3: ōdõb
+     oudõ+V+Ind+Prs+Pl2: oudõt
+     oudõ+V+Ind+Prs+Pl3: oudõbõd
+     oudõ+V+Ind+Prt+Sg3: ōdiz
+     oudõ+V+Ind+Prt+Pl2: [ōdizt, ōdiztõ]
+     oudõ+V+Ind+Prt+Pl3: [ōdizt, ōdiztõ]
+     oudõ+V+Ind+ConNeg+Sg: oud
+     oudõ+V+Cond+Sg3: oudõks
+     oudõ+V+Imprt+Sg2: oud
+     oudõ+V+Imprt+ConNeg+Sg2: oud
+     oudõ+V+Imprt+Pl2: oudõgid
+     oudõ+V+Jus+Sg3: oudõg
+     oudõ+V+Quo+Sg3: oudiji
+     oudõ+V+ActPrfPrc: oudõn
+     oudõ+V+PssPrfPrc: oudtõd
+

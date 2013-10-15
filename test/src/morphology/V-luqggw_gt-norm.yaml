@@ -16,24 +16,24 @@ Tests:
 
   Verb - luʼggõ: # Verb 'to read' - full paradigm
      luʼggõ+V+TV+Inf: luʼggõ
+     lu’ggõ+V+Ger: lu’ggõs
+     lu’ggõ+V+Sup: lu’ggõm
+     lu’ggõ+V+Sup+Ine: lu’ggõmõs
+     lu’ggõ+V+Sup+Ela: lu’ggõmõst
+     lu’ggõ+V+Sup+Tra: lu’ggõmõks
+     lu’ggõ+V+Sup+Abe: lu’ggõmõt
 
      luʼggõ+V+TV+Ind+Prs+Sg1: lugūb
      luʼggõ+V+TV+Ind+Prs+Sg2: lugūd
      luʼggõ+V+TV+Ind+Prs+Sg3: lugūb
      luʼggõ+V+TV+Ind+Prs+Pl1: luʼggõm
      luʼggõ+V+TV+Ind+Prs+Pl2: luʼggõt
-     luʼggõ+V+TV+Ind+Prs+Pl3: luʼggõbõd
+     luʼggõ+V+TV+Ind+Prs+Pl3: [luʼggõbõd, lugūbõd]
 
      luʼggõ+V+TV+Ind+ConNeg+Sg: luʼg
      luʼggõ+V+TV+Ind+ConNeg+Pl1: luʼggõm
      luʼggõ+V+TV+Ind+ConNeg+Pl2: luʼggõt
      luʼggõ+V+TV+Ind+ConNeg+Pl3: luʼggõt
-# Since there is no distinction between present and preterite in the forms
-# perhaps there is no reason to show this as morphology 
-#     luʼggõ+V+TV+Ind+Prs+ConNeg+Sg: luʼg
-#     luʼggõ+V+TV+Ind+Prs+ConNeg+Pl1: luʼggõm
-#     luʼggõ+V+TV+Ind+Prs+ConNeg+Pl2: luʼggõt
-#     luʼggõ+V+TV+Ind+Prs+ConNeg+Pl3: luʼggõt
 
      luʼggõ+V+TV+Ind+Prt+Sg1: lugīz
      luʼggõ+V+TV+Ind+Prt+Sg2: lugīzt
@@ -42,16 +42,14 @@ Tests:
      luʼggõ+V+TV+Ind+Prt+Pl2: [lugīzt, lugīztõ]
      luʼggõ+V+TV+Ind+Prt+Pl3: [lugīzt, lugīztõ]
 
-#     luʼggõ+V+TV+Ind+Prt+ConNeg+Sg: luʼg
-#     luʼggõ+V+TV+Ind+Prt+ConNeg+Pl1: luʼggõm
-#     luʼggõ+V+TV+Ind+Prt+ConNeg+Pl2: luʼggõt
-#     luʼggõ+V+TV+Ind+Prt+ConNeg+Pl3: luʼggõt
      
      luʼggõ+V+TV+Imprt+Prs+Sg2: luʼg
      luʼggõ+V+TV+Imprt+Prs+Pl1: luʼggõgõm
      luʼggõ+V+TV+Imprt+Prs+Pl2: luʼggõgid
+     lu’ggõ+V+Imprt+ConNeg+Sg2: lu’g
 
-     luʼggõ+V+TV+Cond+Prs+Sg1: lugūks
+
+     luʼggõ+V+TV+Cond+Prs+Sg1: [lugūks, lu’ggõks]
      luʼggõ+V+TV+Cond+Prs+Sg2: lugūkst
      luʼggõ+V+TV+Cond+Prs+Sg3: lugūks
      luʼggõ+V+TV+Cond+Prs+Pl1: lugūksmõ

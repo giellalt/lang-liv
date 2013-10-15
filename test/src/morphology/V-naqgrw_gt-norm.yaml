@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - na’grõ: # Verb 61 'eng /est naerda/fin' - full paradigm
+     na’grõ+V+Inf: na’grõ
+     na’grõ+V+Ger: na’grõs
+     na’grõ+V+Sup: na’grõm
+     na’grõ+V+Sup+Ine: na’grõmõs
+     na’grõ+V+Sup+Ela: na’grõmõst
+     na’grõ+V+Sup+Tra: na’grõmõks
+     na’grõ+V+Sup+Abe: na’grõmõt
+     na’grõ+V+Ind+Prs+Sg3: na’grõb
+     na’grõ+V+Ind+Prs+Pl2: na’grõt
+     na’grõ+V+Ind+Prs+Pl3: na’grõbõd
+     na’grõ+V+Ind+Prt+Sg3: na’griz
+     na’grõ+V+Ind+Prt+Pl2: [na’grizt, na’griztõ]
+     na’grõ+V+Ind+Prt+Pl3: [na’grizt, na’griztõ]
+     na’grõ+V+Ind+ConNeg+Sg: na’grõ
+     na’grõ+V+Cond+Sg3: na’grõks
+     na’grõ+V+Imprt+Sg2: na’ggõr
+     na’grõ+V+Imprt+ConNeg+Sg2: na’ggõr
+     na’grõ+V+Imprt+Pl2: na’grõgid
+     na’grõ+V+Jus+Sg3: na’grõg
+     na’grõ+V+Quo+Sg3: na’griji
+     na’grõ+V+ActPrfPrc: na’grõn
+     na’grõ+V+PssPrfPrc: na’ggõrtõd
+

@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - sǭdõ: # Verb 8 'eng /est saada/fin' - full paradigm
+     sǭdõ+V+Inf: sǭdõ
+     sǭdõ+V+Ger: sǭdsõ
+     sǭdõ+V+Sup: sǭmõ
+     sǭdõ+V+Sup+Ine: sǭmõõs
+     sǭdõ+V+Sup+Ela: sǭmõõst
+     sǭdõ+V+Sup+Tra: sǭmõõks
+     sǭdõ+V+Sup+Abe: sǭmõõt
+     sǭdõ+V+Ind+Prs+Sg3: sǭb
+     sǭdõ+V+Ind+Prs+Pl2: sǭtõ
+     sǭdõ+V+Ind+Prs+Pl3: sǭbõd
+     sǭdõ+V+Ind+Prt+Sg3: sai
+     sǭdõ+V+Ind+Prt+Pl2: [saitõ, sāita]
+     sǭdõ+V+Ind+Prt+Pl3: [saitõ, sāita]
+     sǭdõ+V+Ind+ConNeg+Sg: sǭ
+     sǭdõ+V+Cond+Sg3: sǭks
+     sǭdõ+V+Imprt+Sg2: sǭ
+     sǭdõ+V+Imprt+ConNeg+Sg2: sǭ
+     sǭdõ+V+Imprt+Pl2: sǭgid
+     sǭdõ+V+Jus+Sg3: sǭgõ
+     sǭdõ+V+QuoSg3: sǭji
+     sǭdõ+V+ActPrfPrc: sǭnd
+     sǭdõ+V+PssPrfPrc: sǭdõd
+

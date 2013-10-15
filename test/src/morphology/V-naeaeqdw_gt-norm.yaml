@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - nǟ’dõ: # Verb 4 'eng /est näha/fin' - full paradigm
+     nǟ’dõ+V+Inf: nǟ’dõ
+     nǟ’dõ+V+Ger: nǟ’dsõ
+     nǟ’dõ+V+Ger: nǟ’dsõ
+     nǟ’dõ+V+Sup: nǟmõ
+     nǟ’dõ+V+Sup+Ine: nǟmõõs
+     nǟ’dõ+V+Sup+Ela: nǟmõõst
+     nǟ’dõ+V+Sup+Tra: nǟmõõks
+     nǟ’dõ+V+Sup+Abe: nǟmõõt
+     nǟ’dõ+V+Ind+Prs+Sg3: nǟb
+     nǟ’dõ+V+Ind+Prs+Pl2: nǟtõ
+     nǟ’dõ+V+Ind+Prs+Pl3: nǟbõd
+     nǟ’dõ+V+Ind+Prt+Sg3: neiz
+     nǟ’dõ+V+Ind+Prt+Pl2: neiztõ
+     nǟ’dõ+V+Ind+Prt+Pl3: neiztõ
+     nǟ’dõ+V+Ind+ConNeg+Sg: nǟ
+     nǟ’dõ+V+Cond+Sg3: nǟks
+     nǟ’dõ+V+Imprt+Sg2: nǟ
+     nǟ’dõ+V+Imprt+ConNeg+Sg2: nǟ
+     nǟ’dõ+V+Imprt+Pl2: nǟgid
+     nǟ’dõ+V+Jus+Sg3: nǟgõ
+     nǟ’dõ+V+QuoSg3: nēji
+     nǟ’dõ+V+ActPrfPrc: nǟnd
+     nǟ’dõ+V+PssPrfPrc: nǟ’dõd
+

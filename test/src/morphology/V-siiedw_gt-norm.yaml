@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - sīedõ: # Verb 7 'eng /est süüa/fin' - full paradigm
+     sīedõ+V+Inf: sīedõ
+     sīedõ+V+Ger: sīedsõ
+     sīedõ+V+Sup: sīemõ
+     sīedõ+V+Sup+Ine: sīemõõs
+     sīedõ+V+Sup+Ela: sīemõõst
+     sīedõ+V+Sup+Tra: sīemõõks
+     sīedõ+V+Sup+Abe: sīemõõt
+     sīedõ+V+Ind+Prs+Sg3: sīeb
+     sīedõ+V+Ind+Prs+Pl2: sīetõ
+     sīedõ+V+Ind+Prs+Pl3: sīebõd
+     sīedõ+V+Ind+Prt+Sg3: sei
+     sīedõ+V+Ind+Prt+Pl2: seitõ
+     sīedõ+V+Ind+Prt+Pl3: seitõ
+     sīedõ+V+Ind+ConNeg+Sg: sīe
+     sīedõ+V+Cond+Sg3: sīeks
+     sīedõ+V+Imprt+Sg2: sīe
+     sīedõ+V+Imprt+ConNeg+Sg2: sīe
+     sīedõ+V+Imprt+Pl2: sīegid
+     sīedõ+V+Jus+Sg3: sīegõ
+     sīedõ+V+QuoSg3: sēji
+     sīedõ+V+ActPrfPrc: sīend
+     sīedõ+V+PssPrfPrc: sīedõd
+

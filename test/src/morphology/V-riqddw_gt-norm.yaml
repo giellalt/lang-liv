@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - ri’ddõ: # Verb 33 'eng /est koristada/fin' - full paradigm
+     ri’ddõ+V+Inf: ri’ddõ
+     ri’ddõ+V+Ger: ri’ddõs
+     ri’ddõ+V+Sup: ri’ddõm
+     ri’ddõ+V+Sup+Ine: ri’ddõmõs
+     ri’ddõ+V+Sup+Ela: ri’ddõmõst
+     ri’ddõ+V+Sup+Tra: ri’ddõmõks
+     ri’ddõ+V+Sup+Abe: ri’ddõmõt
+     ri’ddõ+V+Ind+Prs+Sg3: ridūb
+     ri’ddõ+V+Ind+Prs+Pl2: ri’ddõt
+     ri’ddõ+V+Ind+Prs+Pl3: ridūbõd
+     ri’ddõ+V+Ind+Prt+Sg3: ridīz
+     ri’ddõ+V+Ind+Prt+Pl2: [ridīzt, ridīztõ]
+     ri’ddõ+V+Ind+Prt+Pl3: [ridīzt, ridīztõ]
+     ri’ddõ+V+Ind+ConNeg+Sg: ri’d
+     ri’ddõ+V+Cond+Sg3: ri’ddõks
+     ri’ddõ+V+Imprt+Sg2: ri’d
+     ri’ddõ+V+Imprt+ConNeg+Sg2: ri’d
+     ri’ddõ+V+Imprt+Pl2: ri’ddõgid
+     ri’ddõ+V+Jus+Sg3: ri’ddõg
+     ri’ddõ+V+Quo+Sg3: ri’ddiji
+     ri’ddõ+V+ActPrfPrc: ri’ddõn
+     ri’ddõ+V+PssPrfPrc: ri’dtõd
+

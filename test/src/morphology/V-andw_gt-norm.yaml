@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - andõ: # Verb 27 'eng /est anda/fin' - full paradigm
+     andõ+V+Inf: andõ
+     andõ+V+Ger: andõs
+     andõ+V+Sup: āndam
+     andõ+V+Sup+Ine: āndamõs
+     andõ+V+Sup+Ela: āndamõst
+     andõ+V+Sup+Tra: āndamõks
+     andõ+V+Sup+Abe: āndamõt
+     andõ+V+Ind+Prs+Sg3: āndab
+     andõ+V+Ind+Prs+Pl2: āndat
+     andõ+V+Ind+Prs+Pl3: āndabõd
+     andõ+V+Ind+Prt+Sg3: āndiz
+     andõ+V+Ind+Prt+Pl2: [āndizt, āndiztõ]
+     andõ+V+Ind+Prt+Pl3: [āndizt, āndiztõ]
+     andõ+V+Ind+ConNeg+Sg: and
+     andõ+V+Cond+Sg3: āndaks
+     andõ+V+Imprt+Sg2: ānda
+     andõ+V+Imprt+ConNeg+Sg2: andõ
+     andõ+V+Imprt+Pl2: āndagid
+     andõ+V+Jus+Sg3: āndag
+     andõ+V+QuoSg3: āndaji
+     andõ+V+ActPrfPrc: andõn
+     andõ+V+PssPrfPrc: andtõd
+

@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - pallõ: # Verb 16 'eng /est paluda/fin' - full paradigm
+     pallõ+V+Inf: pallõ
+     pallõ+V+Ger: pallõs
+     pallõ+V+Ger: pallõs
+     pallõ+V+Sup: pǭlam
+     pallõ+V+Sup+Ine: pǭlamõs
+     pallõ+V+Sup+Ela: pǭlamõst
+     pallõ+V+Sup+Tra: pǭlamõks
+     pallõ+V+Sup+Abe: pǭlamõt
+     pallõ+V+Ind+Prs+Sg3: pǭlab
+     pallõ+V+Ind+Prs+Pl2: pǭlat
+     pallõ+V+Ind+Prs+Pl3: pǭlabõd
+     pallõ+V+Ind+Prt+Sg3: pǭliz
+     pallõ+V+Ind+Prt+Pl2: [pǭlizt, pǭliztõ]
+     pallõ+V+Ind+Prt+Pl3: [pǭlizt, pǭliztõ]
+     pallõ+V+Ind+ConNeg+Sg: pal
+     pallõ+V+Cond+Sg3: pǭlaks
+     pallõ+V+Imprt+Sg2: pǭla
+     pallõ+V+Imprt+ConNeg+Sg2: pallõ
+     pallõ+V+Imprt+Pl2: pǭlagid
+     pallõ+V+Jus+Sg3: pǭlag
+     pallõ+V+QuoSg3: pǭlaji
+     pallõ+V+ActPrfPrc: pallõn
+     pallõ+V+PssPrfPrc: paldõd
+

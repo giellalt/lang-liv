@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - salāndõ: # Verb 53 'eng /est varastada/fin' - full paradigm
+     salāndõ+V+Inf: salāndõ
+     salāndõ+V+Ger: salāndõs
+     salāndõ+V+Sup: salāndõm
+     salāndõ+V+Sup+Ine: salāndõmõs
+     salāndõ+V+Sup+Ela: salāndõmõst
+     salāndõ+V+Sup+Tra: salāndõmõks
+     salāndõ+V+Sup+Abe: salāndõmõt
+     salāndõ+V+Ind+Prs+Sg3: salāndõb
+     salāndõ+V+Ind+Prs+Pl2: salāndõt
+     salāndõ+V+Ind+Prs+Pl3: salāndõbõd
+     salāndõ+V+Ind+Prt+Sg3: salāndiz
+     salāndõ+V+Ind+Prt+Pl2: [salāndizt, salāndiztõ]
+     salāndõ+V+Ind+Prt+Pl3: [salāndizt, salāndiztõ]
+     salāndõ+V+Ind+ConNeg+Sg: salānd
+     salāndõ+V+Cond+Sg3: salāndõks
+     salāndõ+V+Imprt+Sg2: salānd
+     salāndõ+V+Imprt+ConNeg+Sg2: salānd
+     salāndõ+V+Imprt+Pl2: salāndõgid
+     salāndõ+V+Jus+Sg3: salāndõg
+     salāndõ+V+Quo+Sg3: salāndiji
+     salāndõ+V+ActPrfPrc: salāndõn
+     salāndõ+V+PssPrfPrc: salāndtõd
+

@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - langtõ: # Verb 53 'eng /est langetada/fin' - full paradigm
+     langtõ+V+Inf: langtõ
+     langtõ+V+Ger: langtõs
+     langtõ+V+Sup: langtõm
+     langtõ+V+Sup+Ine: langtõmõs
+     langtõ+V+Sup+Ela: langtõmõst
+     langtõ+V+Sup+Tra: langtõmõks
+     langtõ+V+Sup+Abe: langtõmõt
+     langtõ+V+Ind+Prs+Sg3: langtõb
+     langtõ+V+Ind+Prs+Pl2: langtõt
+     langtõ+V+Ind+Prs+Pl3: langtõbõd
+     langtõ+V+Ind+Prt+Sg3: langtiz
+     langtõ+V+Ind+Prt+Pl2: [langtizt, langtiztõ]
+     langtõ+V+Ind+Prt+Pl3: [langtizt, langtiztõ]
+     langtõ+V+Ind+ConNeg+Sg: langt
+     langtõ+V+Cond+Sg3: langtõks
+     langtõ+V+Imprt+Sg2: langt
+     langtõ+V+Imprt+ConNeg+Sg2: langt
+     langtõ+V+Imprt+Pl2: langtõgid
+     langtõ+V+Jus+Sg3: langtõg
+     langtõ+V+Quo+Sg3: langtiji
+     langtõ+V+ActPrfPrc: langtõn
+     langtõ+V+PssPrfPrc: langtõd
+

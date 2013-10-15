@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - mängõ: # Verb 14 'eng /est mängida/fin' - full paradigm
+     mängõ+V+Inf: mängõ
+     mängõ+V+Ger: mängõs
+     mängõ+V+Sup: mǟngam
+     mängõ+V+Sup+Ine: mǟngamõs
+     mängõ+V+Sup+Ela: mǟngamõst
+     mängõ+V+Sup+Tra: mǟngamõks
+     mängõ+V+Sup+Abe: mǟngamõt
+     mängõ+V+Ind+Prs+Sg3: mǟngab
+     mängõ+V+Ind+Prs+Pl2: mǟngat
+     mängõ+V+Ind+Prs+Pl3: mǟngabõd
+     mängõ+V+Ind+Prt+Sg3: mǟngiz
+     mängõ+V+Ind+Prt+Pl2: [mǟngizt, mǟngiztõ]
+     mängõ+V+Ind+Prt+Pl3: [mǟngizt, mǟngiztõ]
+     mängõ+V+Ind+ConNeg+Sg: mäng
+     mängõ+V+Cond+Sg3: mǟngaks
+     mängõ+V+Imprt+Sg2: manga
+     mängõ+V+Imprt+ConNeg+Sg2: mängõ
+     mängõ+V+Imprt+Pl2: mǟngagid
+     mängõ+V+Jus+Sg3: mǟngag
+     mängõ+V+QuoSg3: mǟngaji
+     mängõ+V+ActPrfPrc: mängõn
+     mängõ+V+PssPrfPrc: mängdõd
+

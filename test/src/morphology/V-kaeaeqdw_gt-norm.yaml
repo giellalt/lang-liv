@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kǟ’dõ: # Verb 5 'eng /est käia/fin' - full paradigm
+     kǟ’dõ+V+Inf: kǟ’dõ
+     kǟ’dõ+V+Ger: kǟ’dsõ
+     kǟ’dõ+V+Ger: kǟ’dsõ
+     kǟ’dõ+V+Sup: kǟ’mõ
+     kǟ’dõ+V+Sup+Ine: kǟ’mõõs
+     kǟ’dõ+V+Sup+Ela: kǟ’mõõst
+     kǟ’dõ+V+Sup+Tra: kǟ’mõõks
+     kǟ’dõ+V+Sup+Abe: kǟ’mõõt
+     kǟ’dõ+V+Ind+Prs+Sg3: kǟ’b
+     kǟ’dõ+V+Ind+Prs+Pl2: kǟ’tõ
+     kǟ’dõ+V+Ind+Prs+Pl3: kǟ’bõd
+     kǟ’dõ+V+Ind+Prt+Sg3: ke’i
+     kǟ’dõ+V+Ind+Prt+Pl2: ke’itõ
+     kǟ’dõ+V+Ind+Prt+Pl3: ke’itõ
+     kǟ’dõ+V+Ind+ConNeg+Sg: kǟ’
+     kǟ’dõ+V+Cond+Sg3: kǟ’ks
+     kǟ’dõ+V+Imprt+Sg2: kǟ’
+     kǟ’dõ+V+Imprt+ConNeg+Sg2: kǟ’
+     kǟ’dõ+V+Imprt+Pl2: kǟ’gid
+     kǟ’dõ+V+Jus+Sg3: kǟ’gõ
+     kǟ’dõ+V+QuoSg3: kē’ji
+     kǟ’dõ+V+ActPrfPrc: kǟ’nd
+     kǟ’dõ+V+PssPrfPrc: kǟ’dõd
+

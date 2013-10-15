@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - akkõ: # Verb 36 'eng /est hakata/fin' - full paradigm
+     akkõ+V+Inf: akkõ
+     akkõ+V+Ger: akkõs
+     akkõ+V+Sup: akkõm
+     akkõ+V+Sup+Ine: akkõmõs
+     akkõ+V+Sup+Ela: akkõmõst
+     akkõ+V+Sup+Tra: akkõmõks
+     akkõ+V+Sup+Abe: akkõmõt
+     akkõ+V+Ind+Prs+Sg3: akūb
+     akkõ+V+Ind+Prs+Pl2: akkõt
+     akkõ+V+Ind+Prs+Pl3: akūbõd
+     akkõ+V+Ind+Prt+Sg3: akīz
+     akkõ+V+Ind+Prt+Pl2: [akīzt, akīztõ]
+     akkõ+V+Ind+Prt+Pl3: [akīzt, akīztõ]
+     akkõ+V+Ind+ConNeg+Sg: ak
+     akkõ+V+Cond+Sg3: akkõks
+     akkõ+V+Imprt+Sg2: ak
+     akkõ+V+Imprt+ConNeg+Sg2: ak
+     akkõ+V+Imprt+Pl2: akkõgid
+     akkõ+V+Jus+Sg3: akkõg
+     akkõ+V+Quo+Sg3: akkiji
+     akkõ+V+ActPrfPrc: akkõn
+     akkõ+V+PssPrfPrc: aktõd
+

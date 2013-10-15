@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - astõ: # Verb 18 'eng /est astuda/fin' - full paradigm
+     astõ+V+Inf: astõ
+     astõ+V+Ger: astõs
+     astõ+V+Sup: astām
+     astõ+V+Sup+Ine: astāmõs
+     astõ+V+Sup+Ela: astāmõst
+     astõ+V+Sup+Tra: astāmõks
+     astõ+V+Sup+Abe: astāmõt
+     astõ+V+Ind+Prs+Sg3: astāb
+     astõ+V+Ind+Prs+Pl2: astāt
+     astõ+V+Ind+Prs+Pl3: astābõd
+     astõ+V+Ind+Prt+Sg3: astīz
+     astõ+V+Ind+Prt+Pl2: [astīzt, astīztõ]
+     astõ+V+Ind+Prt+Pl3: [astīzt, astīztõ]
+     astõ+V+Ind+ConNeg+Sg: ast
+     astõ+V+Cond+Sg3: astāks
+     astõ+V+Imprt+Sg2: astā
+     astõ+V+Imprt+ConNeg+Sg2: astõ
+     astõ+V+Imprt+Pl2: astāgid
+     astõ+V+Jus+Sg3: astāg
+     astõ+V+QuoSg3: astāji
+     astõ+V+ActPrfPrc: astõn
+     astõ+V+PssPrfPrc: astõd
+

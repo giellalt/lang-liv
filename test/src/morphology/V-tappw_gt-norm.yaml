@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - tappõ: # Verb 26 'eng /est tappa/fin' - full paradigm
+     tappõ+V+Inf: tappõ
+     tappõ+V+Ger: tappõs
+     tappõ+V+Sup: tapām
+     tappõ+V+Sup+Ine: tapāmõs
+     tappõ+V+Sup+Ela: tapāmõst
+     tappõ+V+Sup+Tra: tapāmõks
+     tappõ+V+Sup+Abe: tapāmõt
+     tappõ+V+Ind+Prs+Sg3: tapāb
+     tappõ+V+Ind+Prs+Pl2: tapāt
+     tappõ+V+Ind+Prs+Pl3: tapābõd
+     tappõ+V+Ind+Prt+Sg3: tapīz
+     tappõ+V+Ind+Prt+Pl2: [tapīzt, tapīztõ]
+     tappõ+V+Ind+Prt+Pl3: [tapīzt, tapīztõ]
+     tappõ+V+Ind+ConNeg+Sg: tap
+     tappõ+V+Cond+Sg3: tapāks
+     tappõ+V+Imprt+Sg2: tapā
+     tappõ+V+Imprt+ConNeg+Sg2: tappõ
+     tappõ+V+Imprt+Pl2: tapāgid
+     tappõ+V+Jus+Sg3: tapāg
+     tappõ+V+QuoSg3: tapāji
+     tappõ+V+ActPrfPrc: tappõn
+     tappõ+V+PssPrfPrc: taptõd
+

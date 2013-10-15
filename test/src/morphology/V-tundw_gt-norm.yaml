@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - tundõ: # Verb 47 'eng /est tunda/fin' - full paradigm
+     tundõ+V+Inf: tundõ
+     tundõ+V+Ger: tundõs
+     tundõ+V+Sup: tundõm
+     tundõ+V+Sup+Ine: tundõmõs
+     tundõ+V+Sup+Ela: tundõmõst
+     tundõ+V+Sup+Tra: tundõmõks
+     tundõ+V+Sup+Abe: tundõmõt
+     tundõ+V+Ind+Prs+Sg3: tūndõb
+     tundõ+V+Ind+Prs+Pl2: tundõt
+     tundõ+V+Ind+Prs+Pl3: tundõbõd
+     tundõ+V+Ind+Prt+Sg3: tūndiz
+     tundõ+V+Ind+Prt+Pl2: [tūndizt, tūndiztõ]
+     tundõ+V+Ind+Prt+Pl3: [tūndizt, tūndiztõ]
+     tundõ+V+Ind+ConNeg+Sg: tund
+     tundõ+V+Cond+Sg3: tundõks
+     tundõ+V+Imprt+Sg2: tund
+     tundõ+V+Imprt+ConNeg+Sg2: tund
+     tundõ+V+Imprt+Pl2: tundõgid
+     tundõ+V+Jus+Sg3: tundõg
+     tundõ+V+Quo+Sg3: tundiji
+     tundõ+V+ActPrfPrc: tundõn
+     tundõ+V+PssPrfPrc: tundtõd
+

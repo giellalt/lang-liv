@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - jeʼllõ: # Verb 'to live' - full paradigm
+     jeʼllõ+V+IV+Inf: jeʼllõ
+     je’llõ+V+Ger: je’llõs
+     je’llõ+V+Sup: jelām
+     je’llõ+V+Sup+Ine: jelāmõs
+     je’llõ+V+Sup+Ela: jelāmõst
+     je’llõ+V+Sup+Tra: jelāmõks
+     je’llõ+V+Sup+Abe: jelāmõt
+     jeʼllõ+V+IV+Ind+Prs+Sg1: jelāb
+     jeʼllõ+V+IV+Ind+Prs+Sg2: jelād
+     jeʼllõ+V+IV+Ind+Prs+Sg3: jelāb
+     je’llõ+V+Ind+Prs+Pl2: jelāt
+     je’llõ+V+Ind+Prs+Pl3: jelābõd
+     je’llõ+V+Ind+Prt+Sg3: jelīz
+     je’llõ+V+Ind+Prt+Pl2: [[jelīzt, jelīztõ]]
+     je’llõ+V+Ind+Prt+Pl3: [[jelīzt, jelīztõ]]
+     je’llõ+V+Ind+ConNeg+Sg: je’l
+     je’llõ+V+Cond+Sg3: jelāks
+     je’llõ+V+Imprt+Sg2: jelā
+     je’llõ+V+Imprt+ConNeg+Sg2: je’llõ
+     je’llõ+V+Imprt+Pl2: jelāgid
+     je’llõ+V+Jus+Sg3: jelāg
+     je’llõ+V+QuoSg3: jelāji
+     je’llõ+V+ActPrfPrc: je’llõn
+     je’llõ+V+PssPrfPrc: je’ldõd
+

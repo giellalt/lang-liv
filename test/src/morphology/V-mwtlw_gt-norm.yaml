@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - mõtlõ: # Verb 59 'eng /est mõelda/fin' - full paradigm
+     mõtlõ+V+Inf: mõtlõ
+     mõtlõ+V+Ger: mõtlõs
+     mõtlõ+V+Sup: mõtlõm
+     mõtlõ+V+Sup+Ine: mõtlõmõs
+     mõtlõ+V+Sup+Ela: mõtlõmõst
+     mõtlõ+V+Sup+Tra: mõtlõmõks
+     mõtlõ+V+Sup+Abe: mõtlõmõt
+     mõtlõ+V+Ind+Prs+Sg3: mõtlõb
+     mõtlõ+V+Ind+Prs+Pl2: mõtlõt
+     mõtlõ+V+Ind+Prs+Pl3: mõtlõbõd
+     mõtlõ+V+Ind+Prt+Sg3: mõtliz
+     mõtlõ+V+Ind+Prt+Pl2: [mõtlizt, mõtliztõ]
+     mõtlõ+V+Ind+Prt+Pl3: [mõtlizt, mõtliztõ]
+     mõtlõ+V+Ind+ConNeg+Sg: mõtlõ
+     mõtlõ+V+Cond+Sg3: mõtlõks
+     mõtlõ+V+Imprt+Sg2: mõttõl
+     mõtlõ+V+Imprt+ConNeg+Sg2: mõttõl
+     mõtlõ+V+Imprt+Pl2: mõtlõgid
+     mõtlõ+V+Jus+Sg3: mõtlõg
+     mõtlõ+V+Quo+Sg3: mõtliji
+     mõtlõ+V+ActPrfPrc: mõtlõn
+     mõtlõ+V+PssPrfPrc: mõttõltõd
+
