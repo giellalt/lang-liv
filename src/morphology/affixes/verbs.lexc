@@ -7,15 +7,15 @@ LEXICON TV_
 +V+TV: K ;
 
 LEXICON V-AUX_LǞʼDÕ
-!! 1 lǟʼdõ:
+!! 1 lǟʼdõ:lǟʼ
 +V+Aux: K ;
 
 LEXICON IV_LǞʼDÕ
-!! 1 lǟʼdõ:
+!! 1 lǟʼdõ:lǟʼ
 +V+IV: K ;
 
 LEXICON TV_TǬʼDÕ
-!! 2 tǭʼdõ:
+!! 2 tǭʼdõ:tǭʼ
 +V+TV: V-01_TǬʼDÕ ;
 
 LEXICON V-AUX_VĪDÕ
@@ -23,42 +23,41 @@ LEXICON V-AUX_VĪDÕ
 +V+Aux: V-01_VĪDÕ ;
 
 LEXICON IV_VĪDÕ
-!! 3 vīdõ:
+!! 3 vīdõ:vī
 +V+IV: V-01_VĪDÕ ;
 
 LEXICON TV_VĪDÕ
-!! 3 vīdõ:
+!! 3 vīdõ:vī
 +V+TV: V-01_VĪDÕ ;
 
 LEXICON IV_NǞʼDÕ
-!! 4 nǟʼdõ:
+!! 4 nǟʼdõ:nǟʼ
 +V+IV: K ;
 
 LEXICON TV_NǞʼDÕ
-!! 4 nǟʼdõ:
+!! 4 nǟʼdõ:nǟʼ
 +V+TV: K ;
 
 LEXICON IV_KǞʼDÕ
-!! 5 kǟʼdõ:
+!! 5 kǟʼdõ:kǟʼ
 +V+IV: K ;
 
 LEXICON TV_TĪʼEDÕ
-!! 6 tīʼedõ:
+!! 6 tīʼedõ:tīʼe
 +V+TV: K ;
-
 
 
 LEXICON V-AUX_SĪEDÕ
-!! 7 sīedõ:
-+V+Aux: K ;
+!! 7 sīedõ:sīe
++V+Aux: V-01_SĪEDÕ ;
 
 LEXICON IV_SĪEDÕ
-!! 7 sīedõ:
-+V+IV: K ;
+!! 7 sīedõ:sīe
++V+IV: V-01_SĪEDÕ ;
 
 LEXICON TV_SĪEDÕ
-!! 7 sīedõ:
-+V+TV: K ;
+!! 7 sīedõ:sīe
++V+TV: V-01_SĪEDÕ ;
 
 LEXICON IV_SǬDÕ
 !! 8 sǭdõ:s
@@ -73,11 +72,11 @@ LEXICON V-AUX_SǬDÕ
 +V+Aux: V-01_SǬDÕ ;
 
 LEXICON IV_JŪODÕ
-!! 9 jūodõ:
+!! 9 jūodõ:jūo
 +V+IV: V-01_JŪODÕ ;
 
 LEXICON TV_JŪODÕ
-!! 9 jūodõ:
+!! 9 jūodõ:jūo
 +V+TV: V-01_JŪODÕ ;
 
 LEXICON V-AUX_VȰLDA
@@ -543,7 +542,35 @@ LEXICON V-01_VĪDÕ
 :%^VowsRM	PSSPRFPRCSG    ;
 !! 4
 
+LEXICON V-01_SĪEDÕ !!= @CODE@ : 7
+!! * Yaml: __siiedw__
+:ǭd   GER_sõ   ;
+:ǭ   INF_dõ	  ;
+:ǭ   SUP-STEM_mõ	  ; 
+:ǭ   INDPRSSG1-STEM    ;
+:ǭ   INDCONNEGSG    ;
+!! Prt
+:a INDPRT_i    ;
+! Cond
+:ǭ CONDPRS ;
+!! Imprt
+:ǭ	IMPRTPRSSG2    ;
+:ǭ	IMPRTPRSPL1	;
+:ǭ	IMPRTPRSPL2	;
+:ǭ	IMPRTPRSCONNEG ;
 
+!! Jus
+:ǭ JUSPRS_gõ	;
+!! Qvo
+:ǭ QUOPRS-STEM_ji	;
+
+!! participles
+:ǭ ACTPRSPRC ;
+:ǭ ACTPRFPRC_nd ;
+:ǭ PSSPRSPRC ;
+:ǭ PSSPRFPRCSG    ;
+
++ActPrfPrc:n NMN_SĪEND	   ;
 !! 8
 LEXICON V-01_SǬDÕ
 !! sǭdõ:s
