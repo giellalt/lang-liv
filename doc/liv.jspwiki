@@ -187,6 +187,7 @@ symbols in the lexicon files:
 
 And following triggers to control variation
  *  {front} {back} 
+ *  %^Tense  = Tense stem will have stød if proper stem type
  *  %^ConsL  = Consonant lengthening
  *  %^1Sh2L  =
 2013-02-01 
@@ -410,7 +411,9 @@ modifiers that do not decline
  LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
 
   : 186
-  : 187
+
+ LEXICON A_AKKIJI  akkiji:akkiji 187
+
   lē'ji:lēji 188
 
  LEXICON A_AʼIGI  aʼigi:aigi 192
@@ -861,16 +864,20 @@ __jõugõ:jõugõ__
 
  LEXICON N_AZŪM  : 153
 
+ LEXICON N_AZŪM-SG  : 153
+
  LEXICON N_AZŪM-PL  : 153
 
- LEXICON N_VÕȚĪM  : 154
-
+ LEXICON N_VÕȚĪM  võțīm:võțīm 154 
+ LEXICON N_VÕȚĪM-SG  : 154
  LEXICON N_VÕȚĪM-PL  : 154
 
  LEXICON N_KǬŅIM  : 155
+ LEXICON N_KǬŅIM-SG  : 155
+ LEXICON N_KǬŅIM-PL  : 155
 
  LEXICON N_ĒTAM  : 156
-
+ LEXICON N_ĒTAM-SG  : 156
  LEXICON N_ĒTAM-PL  : 156
 
  LEXICON N_SIDĀM  : 157
@@ -963,11 +970,13 @@ __jõugõ:jõugõ__
 
  LEXICON N_SĒJI  : 186
 
- LEXICON N_AKKIJI  : 187
-
+ LEXICON N_AKKIJI  akkiji:akkiji 187
+ LEXICON N_AKKIJI-SG  : 187
  LEXICON N_AKKIJI-PL  : 187
 
  LEXICON N_LĒʼJI  lēʼji:lēji 188
+ LEXICON	N_LĒʼJI-SG  lēʼji:lēji 188
+ LEXICON	N_LĒʼJI-PL  lēʼji:lēji 188
 
  LEXICON N_TUĻĻI  : 189
 
@@ -1416,13 +1425,27 @@ tēšti
  LEXICON NMN_LĒŅTŠ  : 150
  LEXICON NMN_LĪEM  : 151
  LEXICON NMN_AʼM  aʼm:am 152
- LEXICON NMN_AZŪM  : 153
+ LEXICON NMN_AZŪM  : 153 azūm:aʼzūm
+
+ LEXICON NMN_AZŪM-SG  : 153
+
  LEXICON NMN_AZŪM-PL  : 153
- LEXICON NMN_VÕȚĪM  : 154
+
+ LEXICON NMN_VÕȚĪM  võțīm:võțīm 154
+
+ LEXICON NMN_VÕȚĪM-SG  : 154
+
  LEXICON NMN_VÕȚĪM-PL  : 154
+
  LEXICON NMN_KǬŅIM  : 155
+
+ LEXICON NMN_KǬŅIM-SG  : 155
+ LEXICON NMN_KǬŅIM-PL  : 155
+
  LEXICON NMN_ĒTAM  : 156
+ LEXICON NMN_ĒTAM-SG  : 156
  LEXICON NMN_ĒTAM-PL  : 156
+
  LEXICON NMN_SIDĀM  : 157
 
 
@@ -1434,9 +1457,11 @@ tēšti
 
 
 159
+__221__
 
 
 160
+__72__
 
 
  LEXICON NMN_TAPTÕD  : 161
@@ -1484,9 +1509,22 @@ vȭrõz:vȭrõ
  LEXICON NMN_VĪETŠÕZ-PL  : 184
  LEXICON NMN_LǬʼTŠÕZ  lǭʼtšõz:lǭtšõz 185
  LEXICON NMN_SĒJI  : 186
+
  LEXICON NMN_AKKIJI  : 187
+__123__
+* Yaml: __akkiji__
+ LEXICON NMN_AKKIJI-SG  : 187
+
  LEXICON NMN_AKKIJI-PL  : 187
+
+
  LEXICON NMN_LĒʼJI  lēʼji:lēji 188
+__61__
+* Yaml: __leeqji__
+ LEXICON NMN_LĒʼJI-SG  : 188
+
+ LEXICON NMN_LĒʼJI-PL  : 188
+
  LEXICON NMN_TUĻĻI  : 189
  LEXICON NMN_LÄʼBḐI  läʼbḑi:läbḑi 190
  LEXICON NMN_NAI  : 191
@@ -1677,6 +1715,10 @@ above as pair in SG-ELA/INE_st
 
 
 Is this correct?
+
+Is this correct?
+
+
 
 
 
@@ -2173,6 +2215,7 @@ Quotative
 
 
 ! Triggers
+ *  %^Tense:0  = Tense stem will have stød if proper stem type
 
 
  * K1:k        this k is not effected by gradation
