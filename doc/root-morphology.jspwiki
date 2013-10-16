@@ -176,6 +176,7 @@ symbols in the lexicon files:
 
 And following triggers to control variation
  *  {front} {back} 
+ *  %^Tense  = Tense stem will have stød if proper stem type
  *  %^ConsL  = Consonant lengthening
  *  %^1Sh2L  =
 2013-02-01 
