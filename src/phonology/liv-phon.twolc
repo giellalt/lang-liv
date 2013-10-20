@@ -219,8 +219,8 @@ a:0 <=> # Cons* Vows:+ ( 0:i ) [ Cons: | :Cons ]+ _ [ ( %^StodRM:0 ) ( %^Stress1
 
 "i:0 in first syllable"
 !! __@RULENAME@__  
-i:0 <=>  # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ; !!= @CODE@ in first syllable
- # Cons:* Vows:+ (ʼ:) [ ConsWithStod :0* | i g ] _ (%^StodRM:) (%^ConsSh:) %^VowsRM: ; !!= @CODE@ in second syllable
+i:0 <=>  # Cons* e:  _ :Cons+ Vows: %^VowsLI1:0 ; 
+ # Cons:* Vows:+ (ʼ:) [ ConsWithStod :0* | i g ] _ (%^StodRM:) (%^ConsSh:) %^VowsRM: ;
 
 "u:0 in second position of first-syllable diphthong"
 !! __@RULENAME@__  
