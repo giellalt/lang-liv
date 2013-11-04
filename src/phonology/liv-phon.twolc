@@ -170,7 +170,7 @@ a:ǭ <=> _ :Cons+ %^VowsL1aToǭ:0 ;
 
 "a:ā in first syllable"
 !! __@RULENAME@__  
-a:ā <=> _ :Cons+ (Vows:) %^VowsLI1:0 ;
+a:ā <=> _ [i g | :Cons+] (Vows:) %^VowsLI1:0 ;
 !€# kand%^VowsLI1õd
 !€0 kāndõd
 
