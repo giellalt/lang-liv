@@ -32,11 +32,12 @@ LEXICON TV_VĪDÕ
 
 LEXICON IV_NǞʼDÕ
 !! 4 nǟʼdõ:nǟʼ
-+V+IV: K ;
++V+IV: V-01_NǞʼDÕ ;
 
 LEXICON TV_NǞʼDÕ
 !! 4 nǟʼdõ:nǟʼ
-+V+TV: K ;
+!! * Yaml: __naeaeqdw__
++V+TV: V-01_NǞʼDÕ ;
 
 LEXICON IV_KǞʼDÕ
 !! 5 kǟʼdõ:kǟʼ
@@ -540,7 +541,37 @@ LEXICON V-01_VĪDÕ
  ACTPRFPRC_nd ;
 :%^VowsRM PSSPRSPRC ;
 :%^VowsRM	PSSPRFPRCSG    ;
-!! 4
+
+
+LEXICON V-01_NǞʼDÕ !!= @CODE@ 4
+!! This is mutual for ??: 
+!! 4 nǟʼdõ:nǟʼ
+:d   GER_sõ   ;
+   INF_dõ	  ;
+:%^StodRM   SUP-STEM_mõ	  ; 
+   INDPRSSG1-STEM    ;
+   INDCONNEGSG    ;
+!! Prt
+ INDPRT_ž    ;
+! Cond
+: COND ;
+!! Imprt
+	IMPRTSG2    ;
+	IMPRTPL1	;
+	IMPRTPL2	;
+	IMPRTCONNEG ;
+
+!! Jus
+ JUS_gõ	;
+!! Qvo
+ QUO-STEM_ji	;
+
+!! participles
+ ACTPRSPRC ;
+ ACTPRFPRC_nd ;
+:%^VowsRM PSSPRSPRC ;
+:%^VowsRM	PSSPRFPRCSG    ;
+!!5
 
 LEXICON V-01_SĪEDÕ !!= @CODE@ : 7
 !! * Yaml: __siiedw__
