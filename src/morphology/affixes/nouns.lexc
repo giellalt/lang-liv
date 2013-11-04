@@ -3090,9 +3090,20 @@ LEXICON NMN_AIGI !!= @CODE@ aigi:aigi 196
 	NMN_AIGI-SG	;
 	NMN_AIGI-PL	;
 LEXICON NMN_AIGI-SG !!= @CODE@ aigi:aigi 196
-	NMN_PUʼNNI-SG     ;
+:%^VowsLI1%^StodRM%^ConsShz        SG-DAT_õn ;
+:%^VowsLI1%^StodRM%^ConsShz       	SG-ELA/INE_õst ;
+:%^VowsLI1%^StodRM%^ConsShz        SG-GEN ;
+:%^VowsLI1%^StodRM%^ConsShz  	SG-ILL_õ ;
+! SG-INE ;
+:%^VowsLI1%^StodRM%^ConsSh%^VowsRMz        SG-INS_õks ;
+	SG-NOM  ;
+:%^VowsLI1%^StodRM%^ConsSh%^VowsRMz    	SG-PAR_t ;
+
 LEXICON NMN_AIGI-PL !!= @CODE@ aigi:aigi 196
-	NMN_PUʼNNI-PL     ;
+:z 	PL-INS_DÕKS-STEM ;
+:%^VowsLI1%^StodRM%^ConsShž 	PL-ELA/INE_ist ;
+:%^VowsLI1%^StodRM%^ConsShž 	PL-ILL_iz ;
+:%^VowsLI1%^StodRM%^ConsShž 	PL-PAR_i ;
 
 
 LEXICON NMN_OUKI !!= @CODE@ : 197
