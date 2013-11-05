@@ -47884,6 +47884,7 @@
 
       <tg xml:lang="fin">
         <t pos="N">kalastajansolmu</t>
+        
         <t pos="N">kalastajan solmu</t>
       </tg>
 
@@ -64308,7 +64309,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kristitty</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -155169,15 +155170,27 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="N">sõdur (kaardimängus)</t>
+        <tCtn>
+            <t pos="N">sõdur</t>
+            
+            <re>kaardimängus</re>
+        </tCtn>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <tCtn>
+            <t pos="N">sotamies</t>
+            
+            <re>korttipelissä</re>
+        </tCtn>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">kalps (kāršu spēlē)</t>
+        <tCtn>
+            <t pos="N">kalps</t>
+            
+            <re>kāršu spēlē</re>
+        </tCtn>
       </tg>
     </mg>
 
@@ -156134,8 +156147,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">roju</t>
-        
-        <t pos="N">roina</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -162450,6 +162461,8 @@
 
       <tg xml:lang="fin">
         <t pos="N">piikki</t>
+        
+        <t pos="N">pii</t>
         
         <t pos="N">hammas</t>
       </tg>
@@ -175857,7 +175870,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">reuma</t>
+        
+        <t pos="N">reumatismi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -175933,7 +175948,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">matka</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -175969,7 +175984,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">matkailija</t>
+        
+        <t pos="N">retkeilijä</t>
+        
+        <t pos="N">taivaltaja</t>
+        
+        <t pos="N">vaeltaja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176007,7 +176028,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">harava</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176047,7 +176068,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">haravan pii</t>
+        
+        <t pos="N">haravan hammas</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176083,7 +176106,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">haravan lapa</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176119,7 +176142,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">haravan varsi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176157,7 +176180,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">haravan pii</t>
+        
+        <t pos="N">haravan hammas</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176193,7 +176218,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">rekryytti</t>
+        
+        <t pos="N">alokas</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176231,11 +176258,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">reelinki</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">reliņi, kuģa klāja margas</t>
+        <t pos="N">reliņi</t>
+        
+        <t pos="N">kuģa klāja margas</t>
       </tg>
     </mg>
   </e>
@@ -176267,7 +176296,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">uskonto</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176305,11 +176334,19 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">maanvuokra</t>
+        
+        <t pos="N">vuokranmaksu</t>
+        
+        <t pos="N">vuokra</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">noma, nomas maksa, rente</t>
+        <t pos="N">noma</t>
+        
+        <t pos="N">nomas maksa</t>
+        
+        <t pos="N">rente</t>
       </tg>
     </mg>
   </e>
@@ -176341,7 +176378,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">vuokralainen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176377,7 +176414,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">vuokrasopimus</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176413,7 +176450,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">tasavalta</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176451,7 +176488,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">muikku</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176487,7 +176524,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ravistelu</t>
+        
+        <t pos="N">pudistus</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176529,11 +176568,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">rautatanko</t>
+        
+        <t pos="N">kalteri</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">dzelzs stienis, reste</t>
+        <t pos="N">dzelzs stienis</t>
+        
+        <t pos="N">reste</t>
       </tg>
     </mg>
 
@@ -176553,7 +176596,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">säleikkö</t>
+        
+        <t pos="N">ritilä</t>
+        
+        <t pos="N">ristikko</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176587,11 +176634,15 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="N">rest (kanga ülejääk)</t>
+        <t pos="N">rest</t>
+        
+        <t pos="N">kanga ülejääk</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kankaan jäännöskappale</t>
+        
+        <t pos="N">kankaan jäännöspala</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176631,7 +176682,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">säleikkö</t>
+        
+        <t pos="N">ritilä</t>
+        
+        <t pos="N">ristikko</t>
+        
+        <t pos="N">kalterit</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176669,7 +176726,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">resurssit</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176707,7 +176764,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">reuma</t>
+        
+        <t pos="N">reumatismi</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176743,7 +176802,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">maanmittari</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176779,7 +176838,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">tulos</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176817,7 +176876,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ränni</t>
+        
+        <t pos="N">katuoja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176899,7 +176960,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">röyhtäys</t>
+        
+        <t pos="N">röyhtäily</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176935,7 +176998,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">tikapuut</t>
+        
+        <t pos="N">tikkaat</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -176999,7 +177064,9 @@
           <field>anat.</field>
         </head>
 
-        <semRel>= kilg|lū, ribā|lū</semRel>
+        <semRel>= kilg|lū</semRel>
+        
+        <semRel>= ribā|lū</semRel>
       </m>
 
       <tg xml:lang="eng">
@@ -177013,7 +177080,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kylkiluu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177041,7 +177108,9 @@
           <field>anat.</field>
         </head>
 
-        <semRel>= kilg|lū, ribā</semRel>
+        <semRel>= kilg|lū</semRel>
+        
+        <semRel>= ribā</semRel>
       </m>
 
       <tg xml:lang="eng">
@@ -177055,7 +177124,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kylkiluu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177091,7 +177160,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">roina</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177199,7 +177268,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">tien kulkija</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177273,7 +177342,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">vaeltaja</t>
+        
+        <t pos="N">kuljeksia</t>
+        
+        <t pos="N">matkalainen</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177311,11 +177384,17 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">tiennäyttäjä</t>
+        
+        <t pos="N">opas</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="N">ceļvedis</t>
+        
+        <t pos="N">gids</t>
+        
+        <t pos="N">pavadonis</t>
       </tg>
     </mg>
   </e>
@@ -177336,7 +177415,9 @@
     <mg>
       <m>
         <head>
-          <sci>Plantago major, Plantago media</sci>
+          <sci>Plantago major</sci>
+          
+          <sci>Plantago media</sci>
         </head>
       </m>
 
@@ -177349,10 +177430,16 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">piharatamo</t>
+        
+        <t pos="N">soikkoratamo</t>
       </tg>
 
       <tg xml:lang="lav">
+        <t pos="N">lielā ceļteka</t>
+        
+        <t pos="N">vidējā ceļteka</t>
+        
         <t pos="N">ceļmalīte</t>
       </tg>
     </mg>
@@ -177375,7 +177462,9 @@
       <m>
         <head/>
 
-        <semRel>= rest, restūd</semRel>
+        <semRel>= rest</semRel>
+        
+        <semRel>= restūd</semRel>
       </m>
 
       <tg xml:lang="eng">
@@ -177389,7 +177478,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ritilä</t>
+        
+        <t pos="N">kalterit</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177425,7 +177516,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">rekikeli</t>
+        
+        <t pos="N">talvitie</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177461,7 +177554,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">reki</t>
+        
+        <t pos="N">kelkka</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177499,7 +177594,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">vaurio</t>
+        
+        <t pos="N">rikko</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177535,7 +177632,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">rikastaminen</t>
+        
+        <t pos="N">rikastus</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177571,7 +177670,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">hölkkä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177607,7 +177706,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">rikkaus</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177629,7 +177728,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">paljous</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177667,7 +177766,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ympyrä</t>
+        
+        <t pos="N">piiri</t>
+        
+        <t pos="N">rengas</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177691,7 +177794,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">sormus</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177727,7 +177830,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">piirileikki</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177763,7 +177866,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">helma</t>
+        
+        <t pos="N">syli</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177801,7 +177906,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kiekko</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177957,7 +178062,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ripsi</t>
+        
+        <t pos="N">ripsikangas</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -177993,7 +178100,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">venyttely</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178031,7 +178138,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ristiäiset</t>
+        
+        <t pos="N">kaste</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178069,7 +178178,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">risti</t>
+        
+        <t pos="N">ristinmerkki</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178093,7 +178204,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">risti</t>
+        
+        <t pos="N">riesa</t>
+        
+        <t pos="N">vaiva</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178113,11 +178228,19 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="N">risti (kaardimast)</t>
+        <tCtn>
+            <t pos="N">risti</t>
+            
+            <re>kaardimast</re>
+        </tCtn>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <tCtn>
+            <t pos="N">risti-</t>
+            
+            <re>korttipelissä</re>
+        </tCtn>
       </tg>
 
       <tg xml:lang="lav">
@@ -178155,7 +178278,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ristiäiset</t>
+        
+        <t pos="N">kaste</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178193,11 +178318,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">poikkipuu</t>
+        
+        <t pos="N">poikkihirsi</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">šķērskoks, šķērsbaļķis</t>
+        <t pos="N">šķērskoks</t>
+        
+        <t pos="N">šķērsbaļķis</t>
       </tg>
     </mg>
   </e>
@@ -178231,7 +178360,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">tienristeys</t>
+        
+        <t pos="N">risteys</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178267,7 +178398,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kummisetä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178303,7 +178434,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kummitäti</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178339,7 +178470,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kristitty</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178377,7 +178508,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ristiluu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178415,7 +178546,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ristiselkä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178447,11 +178578,17 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="N">nelk (nelgipuu kuivatatud õienupp)</t>
+        <tCtn>
+            <t pos="N">nelk</t>
+            
+            <re>nelgipuu kuivatatud õienupp</re>
+        </tCtn>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">mausteneilikka</t>
+        
+        <t pos="N">neilikka</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178491,39 +178628,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">poikkipuu</t>
+        
+        <t pos="N">poikkihirsi</t>
       </tg>
 
       <tg xml:lang="lav">
         <t pos="N">šķērskoks</t>
 
         <t pos="N">šķērsbaļķis</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">rištpǟva</l>
-
-      <stg>
-        <st Contlex="N_PǞVA">rišt#pǟva</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">XX</t>
       </tg>
     </mg>
   </e>
@@ -178557,11 +178670,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">helatorstai</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">Krusta pacelšanas diena, Debesbraukšanas diena</t>
+        <t pos="N">Krusta pacelšanas diena</t>
+        
+        <t pos="N">Debesbraukšanas diena</t>
       </tg>
     </mg>
   </e>
@@ -178593,7 +178708,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ristiretki</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178633,7 +178748,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+         <t pos="N">kalastajansolmu</t>
+        
+        <t pos="N">kalastajan solmu</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178669,37 +178786,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kristinusko</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">kristīgā ticība, kristietība</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">rištõbbeʼḑḑõr</l>
-
-      <stg>
-        <st Contlex="N_BÄʼZMÕR">rištõb#beʼḑḑõr</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N">YY</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kristīgā ticība</t>
+        
+        <t pos="N">kristietība</t>
       </tg>
     </mg>
   </e>
@@ -178731,7 +178824,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kasteallas</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178769,11 +178862,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ristimänimi</t>
+        
+        <t pos="N">etunimi</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">vārds, kristītais vārds</t>
+        <t pos="N">vārds</t>
+        
+        <t pos="N">kristītais vārds</t>
       </tg>
     </mg>
   </e>
@@ -178805,7 +178902,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kastemalja</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -178843,11 +178940,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">ristimänimi</t>
+        
+        <t pos="N">etunimi</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="N">vārds, kristītais vārds</t>
+        <t pos="N">vārds</t>
+        
+        <t pos="N">kristītais vārds</t>
       </tg>
     </mg>
   </e>
@@ -181675,7 +181776,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">röyhtäys</t>
+        
+        <t pos="N">röyhtäily</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -184749,7 +184852,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">rautakalterit</t>
+        
+        <t pos="N">rautaritilä</t>
+        
+        <t pos="N">teräsritilä</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -205328,7 +205435,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">maitohammas</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -207769,7 +207876,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">kulmahammas</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -227849,7 +227956,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">XX</t>
+        <t pos="N">pysyvä hammas</t>
       </tg>
 
       <tg xml:lang="lav">
