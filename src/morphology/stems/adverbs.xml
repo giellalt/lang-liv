@@ -4433,6 +4433,66 @@
       <mg>
          <m>
             <head/>
+            <semRel>= jõvā</semRel>
+            <semRel>= jubā</semRel>
+         </m>
+         <tg xml:lang="est">
+            <t pos="Adv">juba</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">already</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="Adv">jau</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">jo</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Adv">jõvā</l>
+         <stg>
+            <st Contlex="ADV_">jõvā</st>
+         </stg>
+         <stress>jõvā</stress>
+      </lg>
+      <pos>Adv</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= jõbā</semRel>
+            <semRel>= jubā</semRel>
+         </m>
+         <tg xml:lang="est">
+            <t pos="Adv">juba</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">already</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="Adv">jau</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">jo</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Adv">jubā</l>
+         <stg>
+            <st Contlex="ADV_">jubā</st>
+         </stg>
+         <stress>jubā</stress>
+      </lg>
+      <pos>Adv</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= jõbā</semRel>
+            <semRel>= jõvā</semRel>
          </m>
          <tg xml:lang="est">
             <t pos="Adv">juba</t>
@@ -4607,6 +4667,37 @@
             <t pos="Adv">humalassa</t>
             <t pos="Adv">juovuksissa</t>
             <t pos="Adv">juovuspäissä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Adv">jūs</l>
+         <stg>
+            <st Contlex="ADV_">jūs</st>
+         </stg>
+         <stress>jūs 1</stress>
+      </lg>
+      <pos>Adv</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= jūsõ 1</semRel>
+         </m>
+         <tg xml:lang="est">
+            <t pos="Adv">juures</t>
+            <t pos="Adv">käes</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">YY</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="Adv">klāt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">luona</t>
+            <t pos="Adv">tykönä</t>
+            <t pos="Adv">läsnä</t>
          </tg>
       </mg>
    </e>
@@ -24849,6 +24940,33 @@
             <st Contlex="ADV_">väʼggi</st>
          </stg>
          <stress>väʼggi</stress>
+      </lg>
+      <pos>Adv</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="est">
+            <t pos="Adv">väga</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">very</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="Adv">ļoti</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">erittäin</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Adv">väʼggõ</l>
+         <stg>
+            <st Contlex="ADV_">väʼggõ</st>
+         </stg>
+         <stress>väʼggõ</stress>
       </lg>
       <pos>Adv</pos>
       <mg>
