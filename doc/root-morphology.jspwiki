@@ -140,23 +140,35 @@ Question and Focus particles:
 
 Semantics are classified with
 
- *  +Mal +Fem +Sur  
- *  +Plc 			 
- *  +Org			 
- *  +Obj			 
- *  +Ani			 
- *  +Hum			 
- *  +Plant			 
- *  +Group			 
- *  +Time 			 
- *  +Txt			 
- *  +Route			 
- *  +Measr 		 
- *  +Wthr			 
- *  +Build 		 
- *  +Edu			 
- *  +Veh			 
- *  +Clth			 
+ *  +Sem/Mal      Male, 
+ *  +Sem/Fem      Female, 
+ *  +Sem/Sur      Surname, 
+ *  +Sem/Patr     Patronym, 
+ *  +Sem/Plc      Place name, 
+ *  +Sem/Org      name of organization, 
+ *  +Sem/Obj     
+ *  +Sem/Ani      name of animal, 
+ *  +Sem/Rvr      Animate, 
+ *  +Sem/Inanim   Inanimate, 
+ *  +Sem/Hum      Human, 
+ *  +Sem/NonHum   Nonhuman, 
+ *  +Sem/Kin      Kinship term (reflected in special PxSg2 forms), 
+ *  +Sem/Divinity   Divinity (god personified), 
+ *  +Sem/Constellation   Constellation, 
+ *  +Sem/Plant 	      Plant, 
+ *  +Sem/Group 	      Group, 
+ *  +Sem/Body  	     Body.
+ *  +Sem/Build 	      Building, 
+ *  +Sem/Clth	      clothing, 
+ *  +Sem/Edu 	      Education, 
+ *  +Sem/Event 	      Event, 
+ *  +Sem/Measr 	      Measure, 
+ *  +Sem/Route	      Name of a route, 
+ *  +Sem/Time  	      Time, 
+ *  +Sem/Txt  	      Name of a text, 
+ *  +Sem/Veh	      vehicle, 
+ *  +Sem/Wpn	      weapon, 
+ *  +Sem/Wthr	     Weather, 
 
 
 Derivations are classified under the morphophonetic form of the suffix, the

@@ -158,23 +158,35 @@ Multichar_Symbols
 
 !! Semantics are classified with
 
- +Mal +Fem +Sur  !!= * @CODE@
- +Plc 			 !!= * @CODE@
- +Org			 !!= * @CODE@
- +Obj			 !!= * @CODE@
- +Ani			 !!= * @CODE@
- +Hum			 !!= * @CODE@
- +Plant			 !!= * @CODE@
- +Group			 !!= * @CODE@
- +Time 			 !!= * @CODE@
- +Txt			 !!= * @CODE@
- +Route			 !!= * @CODE@
- +Measr 		 !!= * @CODE@
- +Wthr			 !!= * @CODE@
- +Build 		 !!= * @CODE@
- +Edu			 !!= * @CODE@
- +Veh			 !!= * @CODE@
- +Clth			 !!= * @CODE@
+ +Sem/Mal    !!= * @CODE@  Male, 
+ +Sem/Fem    !!= * @CODE@  Female, 
+ +Sem/Sur    !!= * @CODE@  Surname, 
+ +Sem/Patr   !!= * @CODE@  Patronym, 
+ +Sem/Plc    !!= * @CODE@  Place name, 
+ +Sem/Org    !!= * @CODE@  name of organization, 
+ +Sem/Obj    !!= * @CODE@ 
+ +Sem/Ani    !!= * @CODE@  name of animal, 
+ +Sem/Rvr    !!= * @CODE@  name of river or water way, media of transportation,  +Sem/Anim   !!= * @CODE@  Animate, 
+ +Sem/Inanim !!= * @CODE@  Inanimate, 
+ +Sem/Hum    !!= * @CODE@  Human, 
+ +Sem/NonHum !!= * @CODE@  Nonhuman, 
+ +Sem/Kin    !!= * @CODE@  Kinship term (reflected in special PxSg2 forms), 
+ +Sem/Divinity !!= * @CODE@  Divinity (god personified), 
+ +Sem/Constellation !!= * @CODE@  Constellation, 
+ +Sem/Plant 	    !!= * @CODE@  Plant, 
+ +Sem/Group 	    !!= * @CODE@  Group, 
+ +Sem/Body  	    !!= * @CODE@ Body.
+ +Sem/Build 	    !!= * @CODE@  Building, 
+ +Sem/Clth	    !!= * @CODE@  clothing, 
+ +Sem/Edu 	    !!= * @CODE@  Education, 
+ +Sem/Event 	    !!= * @CODE@  Event, 
+ +Sem/Measr 	    !!= * @CODE@  Measure, 
+ +Sem/Route	    !!= * @CODE@  Name of a route, 
+ +Sem/Time  	    !!= * @CODE@  Time, 
+ +Sem/Txt  	    !!= * @CODE@  Name of a text, 
+ +Sem/Veh	    !!= * @CODE@  vehicle, 
+ +Sem/Wpn	    !!= * @CODE@  weapon, 
+ +Sem/Wthr	    !!= * @CODE@ Weather, 
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
