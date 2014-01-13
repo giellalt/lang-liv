@@ -9,7 +9,7 @@
 
 ! To test: in kt/vep/src, do:
 ! xfst -e "source xfst-vep.txt"
-! invert net
+! 
 ! save s
 ! quit
 ! cat xfst-vep.txt | grep €|cut -d" " -f3|cut -d":" -f1|lookup s
