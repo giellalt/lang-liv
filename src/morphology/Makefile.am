@@ -26,7 +26,7 @@ GT_LEXC_SRCS=\
 			 stems/punct.lexc \
 			 affixes/adjectives.lexc \
 			 affixes/adpositions.lexc \
-			 affixes/conjunctions.lexc \
+			 affixes/conjunctors.lexc \
 			 affixes/nouns.lexc \
 			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
@@ -38,7 +38,7 @@ GENERATED_LEXC_SRCS=\
 			 stems/adjectives.lexc \
 			 stems/adpositions.lexc \
 			 stems/adverbs.lexc \
-			 stems/conjunctions.lexc \
+			 stems/conjunctors.lexc \
 			 stems/interjections.lexc \
 			 stems/nouns.lexc \
 			 stems/particles.lexc \
@@ -52,7 +52,7 @@ GT_XML_SRCS=\
 			 stems/adjectives.xml \
 			 stems/adpositions.xml \
 			 stems/adverbs.xml \
-			 stems/conjunctions.xml \
+			 stems/conjunctors.xml \
 			 stems/interjections.xml \
 			 stems/nouns.xml \
 			 stems/particles.xml \
