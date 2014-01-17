@@ -3,10 +3,10 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="liv">
   <e>
     <lg>
-      <l pos="Prop">Aʼbrig</l>
+      <l pos="N" type="Prop">Aʼbrig</l>
 
       <stg>
         <st Contlex="PROP_ȬʼDÕG">Aʼbrig</st>
@@ -19,22 +19,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Abruka</t>
+        <t pos="N" type="Prop">Abruka</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Abruka</t>
+        <t pos="N" type="Prop">Abruka</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Abrukas sala</t>
+        <t pos="N" type="Prop">Abrukas sala</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Aḑā</l>
+      <l pos="N" type="Prop">Aḑā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Aḑā</st>
@@ -47,22 +47,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Aģe jõgi</t>
+        <t pos="N" type="Prop">Aģe jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Aģes upe</t>
+        <t pos="N" type="Prop">Aģes upe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Āfrik</l>
+      <l pos="N" type="Prop">Āfrik</l>
 
       <stg>
         <st Contlex="PROP_AMĀT">Āfrik</st>
@@ -75,22 +75,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Aafrika</t>
+        <t pos="N" type="Prop">Aafrika</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Afrikka</t>
+        <t pos="N" type="Prop">Afrikka</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Āfrika</t>
+        <t pos="N" type="Prop">Āfrika</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Amērik</l>
+      <l pos="N" type="Prop">Amērik</l>
 
       <stg>
         <st Contlex="PROP_AMĀT">Amērik</st>
@@ -103,22 +103,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ameerika</t>
+        <t pos="N" type="Prop">Ameerika</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Amerikka</t>
+        <t pos="N" type="Prop">Amerikka</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Amerika</t>
+        <t pos="N" type="Prop">Amerika</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Aņtš</l>
+      <l pos="N" type="Prop">Aņtš</l>
 
       <stg>
         <st Contlex="PROP_JAĻKŠ">Aņtš</st>
@@ -131,22 +131,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ance</t>
+        <t pos="N" type="Prop">Ance</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Ance</t>
+        <t pos="N" type="Prop">Ance</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ance</t>
+        <t pos="N" type="Prop">Ance</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Arābij</l>
+      <l pos="N" type="Prop">Arābij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Arābij</st>
@@ -159,22 +159,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Araabia</t>
+        <t pos="N" type="Prop">Araabia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Arabia</t>
+        <t pos="N" type="Prop">Arabia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Arābija</t>
+        <t pos="N" type="Prop">Arābija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Armēnij</l>
+      <l pos="N" type="Prop">Armēnij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Armēnij</st>
@@ -187,22 +187,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Armeenia</t>
+        <t pos="N" type="Prop">Armeenia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Armenia</t>
+        <t pos="N" type="Prop">Armenia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Armēnija</t>
+        <t pos="N" type="Prop">Armēnija</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Atlant okeān</l>
+      <l pos="N" type="Prop">Atlant okeān</l>
 
       <stg>
         <st Contlex="PROP_AMĀT">Atlant okeān</st>
@@ -215,22 +215,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Atlandi ookean</t>
+        <t pos="N" type="Prop">Atlandi ookean</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Atlantin valtameri</t>
+        <t pos="N" type="Prop">Atlantin valtameri</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Atlantijas okeāns</t>
+        <t pos="N" type="Prop">Atlantijas okeāns</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Austrālij</l>
+      <l pos="N" type="Prop">Austrālij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Austrālij</st>
@@ -243,22 +243,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Austraalia</t>
+        <t pos="N" type="Prop">Austraalia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Australia</t>
+        <t pos="N" type="Prop">Australia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Austrālija</t>
+        <t pos="N" type="Prop">Austrālija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Austrij</l>
+      <l pos="N" type="Prop">Austrij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Austrij</st>
@@ -271,22 +271,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Austria</t>
+        <t pos="N" type="Prop">Austria</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Itävalta</t>
+        <t pos="N" type="Prop">Itävalta</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Austrija</t>
+        <t pos="N" type="Prop">Austrija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Āzij</l>
+      <l pos="N" type="Prop">Āzij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Āzij</st>
@@ -299,22 +299,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Aasia</t>
+        <t pos="N" type="Prop">Aasia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Aasia</t>
+        <t pos="N" type="Prop">Aasia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Āzija</t>
+        <t pos="N" type="Prop">Āzija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Bažāsūo</l>
+      <l pos="N" type="Prop">Bažāsūo</l>
 
       <stg>
         <st Contlex="PROP_PŪ">Bažā#sūo</st>
@@ -327,22 +327,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Bažāsūo soo</t>
+        <t pos="N" type="Prop">Bažāsūo soo</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Bažu purvs</t>
+        <t pos="N" type="Prop">Bažu purvs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Belgij</l>
+      <l pos="N" type="Prop">Belgij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Belgij</st>
@@ -355,22 +355,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Belgia</t>
+        <t pos="N" type="Prop">Belgia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Belgia</t>
+        <t pos="N" type="Prop">Belgia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Beļģija</t>
+        <t pos="N" type="Prop">Beļģija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Berlīn</l>
+      <l pos="N" type="Prop">Berlīn</l>
 
       <stg>
         <st Contlex="PROP_KULTŪR">Berlīn</st>
@@ -383,22 +383,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Berliin</t>
+        <t pos="N" type="Prop">Berliin</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Berliini</t>
+        <t pos="N" type="Prop">Berliini</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Berlīne</t>
+        <t pos="N" type="Prop">Berlīne</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Bosnij</l>
+      <l pos="N" type="Prop">Bosnij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Bosnij</st>
@@ -411,22 +411,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Bosnia</t>
+        <t pos="N" type="Prop">Bosnia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Bosnia</t>
+        <t pos="N" type="Prop">Bosnia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Bosnija</t>
+        <t pos="N" type="Prop">Bosnija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Brissõl</l>
+      <l pos="N" type="Prop">Brissõl</l>
 
       <stg>
         <st Contlex="PROP_APPÕN">Brissõl</st>
@@ -439,22 +439,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Brüssel</t>
+        <t pos="N" type="Prop">Brüssel</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Bryssel</t>
+        <t pos="N" type="Prop">Bryssel</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Brisele</t>
+        <t pos="N" type="Prop">Brisele</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Būdnikā mäʼg</l>
+      <l pos="N" type="Prop">Būdnikā mäʼg</l>
 
       <stg>
         <st Contlex="PROP_NIʼM">Būdnikā mäʼg</st>
@@ -467,22 +467,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Būdnikā mägi</t>
+        <t pos="N" type="Prop">Būdnikā mägi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Būdenes kalns</t>
+        <t pos="N" type="Prop">Būdenes kalns</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Bulgārij</l>
+      <l pos="N" type="Prop">Bulgārij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Bulgārij</st>
@@ -495,22 +495,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Bulgaaria</t>
+        <t pos="N" type="Prop">Bulgaaria</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Bulgaria</t>
+        <t pos="N" type="Prop">Bulgaria</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Bulgārija</t>
+        <t pos="N" type="Prop">Bulgārija</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Dāvid luoik</l>
+      <l pos="N" type="Prop">Dāvid luoik</l>
 
       <stg>
         <st Contlex="PROP_KAND">Dāvid luoik</st>
@@ -523,22 +523,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Dāvidi nõgu</t>
+        <t pos="N" type="Prop">Dāvidi nõgu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dāvida leja</t>
+        <t pos="N" type="Prop">Dāvida leja</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Dēņmǭ</l>
+      <l pos="N" type="Prop">Dēņmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Dēņ#mǭ</st>
@@ -551,22 +551,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Taani</t>
+        <t pos="N" type="Prop">Taani</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Tanska</t>
+        <t pos="N" type="Prop">Tanska</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dānija</t>
+        <t pos="N" type="Prop">Dānija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Dēvit jǭrad</l>
+      <l pos="N" type="Prop">Dēvit jǭrad</l>
 
       <stg>
         <st Contlex="PROP_JǬRA-PL">Dēvit jǭra</st>
@@ -579,22 +579,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Dēviti järved</t>
+        <t pos="N" type="Prop">Dēviti järved</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dieviņezeri</t>
+        <t pos="N" type="Prop">Dieviņezeri</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Dīʼeviņjǭra</l>
+      <l pos="N" type="Prop">Dīʼeviņjǭra</l>
 
       <stg>
         <st Contlex="PROP_JǬRA">Dīʼeviņ#jǭra</st>
@@ -607,22 +607,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Dēviti järved</t>
+        <t pos="N" type="Prop">Dēviti järved</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dieviņezeri</t>
+        <t pos="N" type="Prop">Dieviņezeri</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Dēvit jǭrad</l>
+      <l pos="N" type="Prop">Dēvit jǭrad</l>
 
       <stg>
         <st Contlex="PROP_JǬRA-PL">Dēvit jǭra</st>
@@ -635,22 +635,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Dēviti järved</t>
+        <t pos="N" type="Prop">Dēviti järved</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dieviņezeri</t>
+        <t pos="N" type="Prop">Dieviņezeri</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Dūmõl</l>
+      <l pos="N" type="Prop">Dūmõl</l>
 
       <stg>
         <st Contlex="PROP_APPÕN">Dūmõl</st>
@@ -663,22 +663,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Dūmele</t>
+        <t pos="N" type="Prop">Dūmele</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Dūmele</t>
+        <t pos="N" type="Prop">Dūmele</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dūmele</t>
+        <t pos="N" type="Prop">Dūmele</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Dūobõl</l>
+      <l pos="N" type="Prop">Dūobõl</l>
 
       <stg>
         <st Contlex="PROP_APPÕN">Dūobõl</st>
@@ -691,22 +691,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Dobele</t>
+        <t pos="N" type="Prop">Dobele</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Dobele</t>
+        <t pos="N" type="Prop">Dobele</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dobele</t>
+        <t pos="N" type="Prop">Dobele</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Dūoņig</l>
+      <l pos="N" type="Prop">Dūoņig</l>
 
       <stg>
         <st Contlex="PROP_KǬRAND">Dūoņig</st>
@@ -719,22 +719,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Tooninge</t>
+        <t pos="N" type="Prop">Tooninge</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Dundaga</t>
+        <t pos="N" type="Prop">Dundaga</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dundaga</t>
+        <t pos="N" type="Prop">Dundaga</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ēgipt</l>
+      <l pos="N" type="Prop">Ēgipt</l>
 
       <stg>
         <st Contlex="PROP_VȮŅ">Ēgipt</st>
@@ -747,22 +747,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Egiptus</t>
+        <t pos="N" type="Prop">Egiptus</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Egypti</t>
+        <t pos="N" type="Prop">Egypti</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ēģipte</t>
+        <t pos="N" type="Prop">Ēģipte</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Eirop</l>
+      <l pos="N" type="Prop">Eirop</l>
 
       <stg>
         <st Contlex="PROP_VȮŅ">Eirop</st>
@@ -775,22 +775,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Euroopa</t>
+        <t pos="N" type="Prop">Euroopa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Eurooppa</t>
+        <t pos="N" type="Prop">Eurooppa</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Eiropa</t>
+        <t pos="N" type="Prop">Eiropa</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Englišmǭ</l>
+      <l pos="N" type="Prop">Englišmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Engliš#mǭ</st>
@@ -803,22 +803,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Inglismaa</t>
+        <t pos="N" type="Prop">Inglismaa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Englanti</t>
+        <t pos="N" type="Prop">Englanti</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Anglija</t>
+        <t pos="N" type="Prop">Anglija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ēstimǭ</l>
+      <l pos="N" type="Prop">Ēstimǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Ēsti#mǭ</st>
@@ -831,22 +831,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Eesti</t>
+        <t pos="N" type="Prop">Eesti</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Viro</t>
+        <t pos="N" type="Prop">Viro</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Igaunija</t>
+        <t pos="N" type="Prop">Igaunija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Frantsij</l>
+      <l pos="N" type="Prop">Frantsij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Frantsij</st>
@@ -859,22 +859,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Prantsusmaa</t>
+        <t pos="N" type="Prop">Prantsusmaa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Ranska</t>
+        <t pos="N" type="Prop">Ranska</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Francija</t>
+        <t pos="N" type="Prop">Francija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Gipk</l>
+      <l pos="N" type="Prop">Gipk</l>
 
       <stg>
         <st Contlex="PROP_FAKT">Gipk</st>
@@ -887,22 +887,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ģipka</t>
+        <t pos="N" type="Prop">Ģipka</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Ģipka</t>
+        <t pos="N" type="Prop">Ģipka</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ģipka</t>
+        <t pos="N" type="Prop">Ģipka</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Grēkõmǭ</l>
+      <l pos="N" type="Prop">Grēkõmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Grēkõ#mǭ</st>
@@ -915,22 +915,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kreeka</t>
+        <t pos="N" type="Prop">Kreeka</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kreikka</t>
+        <t pos="N" type="Prop">Kreikka</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Grieķija</t>
+        <t pos="N" type="Prop">Grieķija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Gruzīj</l>
+      <l pos="N" type="Prop">Gruzīj</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Gruzīj</st>
@@ -943,22 +943,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Gruusia</t>
+        <t pos="N" type="Prop">Gruusia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Georgia</t>
+        <t pos="N" type="Prop">Georgia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Gruzija</t>
+        <t pos="N" type="Prop">Gruzija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Hapsal</l>
+      <l pos="N" type="Prop">Hapsal</l>
 
       <stg>
         <st Contlex="PROP_PĒGAL">Hapsal</st>
@@ -971,22 +971,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Haapsalu</t>
+        <t pos="N" type="Prop">Haapsalu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Haapsalu</t>
+        <t pos="N" type="Prop">Haapsalu</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Hāpsalu</t>
+        <t pos="N" type="Prop">Hāpsalu</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Helsinki</l>
+      <l pos="N" type="Prop">Helsinki</l>
 
       <stg>
         <st Contlex="PROP_TORĪ">Helsinki</st>
@@ -999,22 +999,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Helsingi</t>
+        <t pos="N" type="Prop">Helsingi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Helsinki</t>
+        <t pos="N" type="Prop">Helsinki</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Helsinki</t>
+        <t pos="N" type="Prop">Helsinki</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Holand</l>
+      <l pos="N" type="Prop">Holand</l>
 
       <stg>
         <st Contlex="PROP_VȮŅ">Holand</st>
@@ -1027,22 +1027,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Hollandi</t>
+        <t pos="N" type="Prop">Hollandi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Hollanti</t>
+        <t pos="N" type="Prop">Hollanti</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Holande</t>
+        <t pos="N" type="Prop">Holande</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Horvātij</l>
+      <l pos="N" type="Prop">Horvātij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Horvātij</st>
@@ -1055,22 +1055,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Horvaatia</t>
+        <t pos="N" type="Prop">Horvaatia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kroatia</t>
+        <t pos="N" type="Prop">Kroatia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Horvātija</t>
+        <t pos="N" type="Prop">Horvātija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ikškilā</l>
+      <l pos="N" type="Prop">Ikškilā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Ikš#kilā</st>
@@ -1083,22 +1083,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Üksküla</t>
+        <t pos="N" type="Prop">Üksküla</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Ikšķile</t>
+        <t pos="N" type="Prop">Ikšķile</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ikšķile</t>
+        <t pos="N" type="Prop">Ikšķile</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Indij</l>
+      <l pos="N" type="Prop">Indij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Indij</st>
@@ -1111,22 +1111,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">India</t>
+        <t pos="N" type="Prop">India</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Intia</t>
+        <t pos="N" type="Prop">Intia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Indija</t>
+        <t pos="N" type="Prop">Indija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Indij okeān</l>
+      <l pos="N" type="Prop">Indij okeān</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Indij okeān</st>
@@ -1139,22 +1139,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">India ookean</t>
+        <t pos="N" type="Prop">India ookean</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Intian valtameri</t>
+        <t pos="N" type="Prop">Intian valtameri</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Indijas okeāns</t>
+        <t pos="N" type="Prop">Indijas okeāns</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Īra</l>
+      <l pos="N" type="Prop">Īra</l>
 
       <stg>
         <st Contlex="PROP_JǬRA">Īra</st>
@@ -1167,22 +1167,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Lielirbe</t>
+        <t pos="N" type="Prop">Lielirbe</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Lielirbe</t>
+        <t pos="N" type="Prop">Lielirbe</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Lielirbe</t>
+        <t pos="N" type="Prop">Lielirbe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Irāj</l>
+      <l pos="N" type="Prop">Irāj</l>
 
       <stg>
         <st Contlex="PROP_SALĀJ-SG">Irāj</st>
@@ -1199,22 +1199,22 @@
       </m>
 
       <tg xml:lang="est">
-        <t pos="Prop">Irāj</t>
+        <t pos="N" type="Prop">Irāj</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Mazirbe</t>
+        <t pos="N" type="Prop">Mazirbe</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Mazirbe</t>
+        <t pos="N" type="Prop">Mazirbe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Īra joʼug</l>
+      <l pos="N" type="Prop">Īra joʼug</l>
 
       <stg>
         <st Contlex="PROP_JOʼUG">Īra joʼug</st>
@@ -1229,22 +1229,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Īra jõgi</t>
+        <t pos="N" type="Prop">Īra jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Irbes upe</t>
+        <t pos="N" type="Prop">Irbes upe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Irē</l>
+      <l pos="N" type="Prop">Irē</l>
 
       <stg>
         <st Contlex="PROP_KALĀ-SG">Irē</st>
@@ -1257,22 +1257,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Irē</t>
+        <t pos="N" type="Prop">Irē</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Mazirbe</t>
+        <t pos="N" type="Prop">Mazirbe</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Mazirbe</t>
+        <t pos="N" type="Prop">Mazirbe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Irē joʼug</l>
+      <l pos="N" type="Prop">Irē joʼug</l>
 
       <stg>
         <st Contlex="PROP_JOʼUG">Irē joʼug</st>
@@ -1285,22 +1285,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Irē jõgi</t>
+        <t pos="N" type="Prop">Irē jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Mazirbes upe</t>
+        <t pos="N" type="Prop">Mazirbes upe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Īrõmǭ</l>
+      <l pos="N" type="Prop">Īrõmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Īrõ#mǭ</st>
@@ -1313,22 +1313,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Iirimaa</t>
+        <t pos="N" type="Prop">Iirimaa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Irlanti</t>
+        <t pos="N" type="Prop">Irlanti</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Īrija</t>
+        <t pos="N" type="Prop">Īrija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Island</l>
+      <l pos="N" type="Prop">Island</l>
 
       <stg>
         <st Contlex="PROP_VȮŅ">Island</st>
@@ -1341,22 +1341,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Island</t>
+        <t pos="N" type="Prop">Island</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Islanti</t>
+        <t pos="N" type="Prop">Islanti</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Islande</t>
+        <t pos="N" type="Prop">Islande</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Itālij</l>
+      <l pos="N" type="Prop">Itālij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Itālij</st>
@@ -1369,22 +1369,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Itaalia</t>
+        <t pos="N" type="Prop">Itaalia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Italia</t>
+        <t pos="N" type="Prop">Italia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Itālija</t>
+        <t pos="N" type="Prop">Itālija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Iʼzrael</l>
+      <l pos="N" type="Prop">Iʼzrael</l>
 
       <stg>
         <st Contlex="PROP_VAʼIT">Iʼzrael</st>
@@ -1397,22 +1397,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Iisrael</t>
+        <t pos="N" type="Prop">Iisrael</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Israel</t>
+        <t pos="N" type="Prop">Israel</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Izraēla</t>
+        <t pos="N" type="Prop">Izraēla</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Jālgab</l>
+      <l pos="N" type="Prop">Jālgab</l>
 
       <stg>
         <st Contlex="PROP_ĒTAM">Jālgab</st>
@@ -1425,22 +1425,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Jelgava</t>
+        <t pos="N" type="Prop">Jelgava</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Jelgava</t>
+        <t pos="N" type="Prop">Jelgava</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Jelgava</t>
+        <t pos="N" type="Prop">Jelgava</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Japān</l>
+      <l pos="N" type="Prop">Japān</l>
 
       <stg>
         <st Contlex="PROP_TIDĀR">Japān</st>
@@ -1453,22 +1453,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Jaapan</t>
+        <t pos="N" type="Prop">Jaapan</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Japani</t>
+        <t pos="N" type="Prop">Japani</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Japāna</t>
+        <t pos="N" type="Prop">Japāna</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Jeimeʼr</l>
+      <l pos="N" type="Prop">Jeimeʼr</l>
 
       <stg>
         <st Contlex="PROP_MEʼR">Jei#meʼr</st>
@@ -1481,22 +1481,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Põhja-Jäämeri</t>
+        <t pos="N" type="Prop">Põhja-Jäämeri</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Pohjoinen jäämeri</t>
+        <t pos="N" type="Prop">Pohjoinen jäämeri</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ziemeļu ledus okeāns</t>
+        <t pos="N" type="Prop">Ziemeļu ledus okeāns</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Joʼugštūrga</l>
+      <l pos="N" type="Prop">Joʼugštūrga</l>
 
       <stg>
         <st Contlex="PROP_ŪŠKA">Joʼugšt#ūrga</st>
@@ -1509,22 +1509,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Jougštūrga oja</t>
+        <t pos="N" type="Prop">Jougštūrga oja</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Jougstu valks</t>
+        <t pos="N" type="Prop">Jougstu valks</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kanād</l>
+      <l pos="N" type="Prop">Kanād</l>
 
       <stg>
         <st Contlex="PROP_VȮŅ">Kanād</st>
@@ -1537,22 +1537,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kanada</t>
+        <t pos="N" type="Prop">Kanada</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kanada</t>
+        <t pos="N" type="Prop">Kanada</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kanāda</t>
+        <t pos="N" type="Prop">Kanāda</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kāndab</l>
+      <l pos="N" type="Prop">Kāndab</l>
 
       <stg>
         <st Contlex="PROP_ĒTAM">Kāndab</st>
@@ -1565,22 +1565,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kandava</t>
+        <t pos="N" type="Prop">Kandava</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kandava</t>
+        <t pos="N" type="Prop">Kandava</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kandava</t>
+        <t pos="N" type="Prop">Kandava</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Karnõdmäʼg</l>
+      <l pos="N" type="Prop">Karnõdmäʼg</l>
 
       <stg>
         <st Contlex="PROP_NIʼM">Karnõd#mäʼg</st>
@@ -1593,22 +1593,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Karnõdmägʼi mägi</t>
+        <t pos="N" type="Prop">Karnõdmägʼi mägi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Vārnu kalns</t>
+        <t pos="N" type="Prop">Vārnu kalns</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kēņigtarā ūrga</l>
+      <l pos="N" type="Prop">Kēņigtarā ūrga</l>
 
       <stg>
         <st Contlex="PROP_ŪŠKA">Kēņigtarā ūrga</st>
@@ -1621,22 +1621,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kēņigtarā oja</t>
+        <t pos="N" type="Prop">Kēņigtarā oja</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kēniņdārza strauts</t>
+        <t pos="N" type="Prop">Kēniņdārza strauts</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kikkõnjoʼug</l>
+      <l pos="N" type="Prop">Kikkõnjoʼug</l>
 
       <stg>
         <st Contlex="PROP_JOʼUG">Kikkõn#joʼug</st>
@@ -1649,22 +1649,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kikkõnjougʼi oja</t>
+        <t pos="N" type="Prop">Kikkõnjougʼi oja</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ķikānu upīte</t>
+        <t pos="N" type="Prop">Ķikānu upīte</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kikkõnmäʼg</l>
+      <l pos="N" type="Prop">Kikkõnmäʼg</l>
 
       <stg>
         <st Contlex="PROP_NIʼM">Kikkõn#mäʼg</st>
@@ -1677,22 +1677,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kikkõnmägʼi mägi</t>
+        <t pos="N" type="Prop">Kikkõnmägʼi mägi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ķikanes kalns</t>
+        <t pos="N" type="Prop">Ķikanes kalns</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kīlmaūrga</l>
+      <l pos="N" type="Prop">Kīlmaūrga</l>
 
       <stg>
         <st Contlex="PROP_ŪŠKA">Kīlma#ūrga</st>
@@ -1705,22 +1705,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kīlmaūrga oja</t>
+        <t pos="N" type="Prop">Kīlmaūrga oja</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kīlmiņu valks</t>
+        <t pos="N" type="Prop">Kīlmiņu valks</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kīʼnõ</l>
+      <l pos="N" type="Prop">Kīʼnõ</l>
 
       <stg>
         <st Contlex="PROP_NǬʼGÕ">Kīʼnõ</st>
@@ -1733,22 +1733,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kihnu</t>
+        <t pos="N" type="Prop">Kihnu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kihnu</t>
+        <t pos="N" type="Prop">Kihnu</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kihnu</t>
+        <t pos="N" type="Prop">Kihnu</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kīnõmǭ</l>
+      <l pos="N" type="Prop">Kīnõmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Kīnõ#mǭ</st>
@@ -1761,22 +1761,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Hiina</t>
+        <t pos="N" type="Prop">Hiina</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kiina</t>
+        <t pos="N" type="Prop">Kiina</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ķīna</t>
+        <t pos="N" type="Prop">Ķīna</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kõuvšt nīt</l>
+      <l pos="N" type="Prop">Kõuvšt nīt</l>
 
       <stg>
         <st Contlex="PROP_IRM">Kõuvšt nīt</st>
@@ -1789,22 +1789,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kõuvšti niit</t>
+        <t pos="N" type="Prop">Kõuvšti niit</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kauštu pļava</t>
+        <t pos="N" type="Prop">Kauštu pļava</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Krīʼevmǭ</l>
+      <l pos="N" type="Prop">Krīʼevmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Krīʼev#mǭ</st>
@@ -1817,22 +1817,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Venemaa</t>
+        <t pos="N" type="Prop">Venemaa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Venäjä</t>
+        <t pos="N" type="Prop">Venäjä</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Krievija</t>
+        <t pos="N" type="Prop">Krievija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kuldīg</l>
+      <l pos="N" type="Prop">Kuldīg</l>
 
       <stg>
         <st Contlex="PROP_SIDĀM">Kuldīg</st>
@@ -1845,22 +1845,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kuldīga</t>
+        <t pos="N" type="Prop">Kuldīga</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kuldīga</t>
+        <t pos="N" type="Prop">Kuldīga</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kuldīga</t>
+        <t pos="N" type="Prop">Kuldīga</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kūolka</l>
+      <l pos="N" type="Prop">Kūolka</l>
 
       <stg>
         <st Contlex="PROP_ĀITA">Kūolka</st>
@@ -1873,22 +1873,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kūolka</t>
+        <t pos="N" type="Prop">Kūolka</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kolka</t>
+        <t pos="N" type="Prop">Kolka</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kolka</t>
+        <t pos="N" type="Prop">Kolka</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kūolka kõlā</l>
+      <l pos="N" type="Prop">Kūolka kõlā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Kūolka kõlā</st>
@@ -1901,22 +1901,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kūolka laht</t>
+        <t pos="N" type="Prop">Kūolka laht</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kolkas līcis</t>
+        <t pos="N" type="Prop">Kolkas līcis</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kūolka nanā</l>
+      <l pos="N" type="Prop">Kūolka nanā</l>
 
       <stg>
         <st Contlex="PROP_KALĀ">Kūolka nanā</st>
@@ -1929,22 +1929,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kūolka neem</t>
+        <t pos="N" type="Prop">Kūolka neem</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kolkasrags</t>
+        <t pos="N" type="Prop">Kolkasrags</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kuoštrõg</l>
+      <l pos="N" type="Prop">Kuoštrõg</l>
 
       <stg>
         <st Contlex="PROP_KǬRAND-SG">Kuoštrõg</st>
@@ -1957,22 +1957,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kuoštrõg</t>
+        <t pos="N" type="Prop">Kuoštrõg</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Košrags</t>
+        <t pos="N" type="Prop">Košrags</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Košrags</t>
+        <t pos="N" type="Prop">Košrags</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kurāmǭ</l>
+      <l pos="N" type="Prop">Kurāmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Kurā#mǭ</st>
@@ -1988,23 +1988,23 @@
       </m>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kuramaa</t>
+        <t pos="N" type="Prop">Kuramaa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kuurinmaa</t>
-        <t pos="Prop">Kurzeme</t>
+        <t pos="N" type="Prop">Kuurinmaa</t>
+        <t pos="N" type="Prop">Kurzeme</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kurzeme</t>
+        <t pos="N" type="Prop">Kurzeme</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kuresār</l>
+      <l pos="N" type="Prop">Kuresār</l>
 
       <stg>
         <st Contlex="PROP_APPÕN">Kuresār</st>
@@ -2017,22 +2017,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kuressaare</t>
+        <t pos="N" type="Prop">Kuressaare</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Kuressaare</t>
+        <t pos="N" type="Prop">Kuressaare</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Kuresāre</t>
+        <t pos="N" type="Prop">Kuresāre</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Laʼdgal</l>
+      <l pos="N" type="Prop">Laʼdgal</l>
 
       <stg>
         <st Contlex="PROP_AMĀT">Laʼdgal</st>
@@ -2045,22 +2045,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Latgale</t>
+        <t pos="N" type="Prop">Latgale</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Latgale</t>
+        <t pos="N" type="Prop">Latgale</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Latgale</t>
+        <t pos="N" type="Prop">Latgale</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Leišmǭ</l>
+      <l pos="N" type="Prop">Leišmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Leiš#mǭ</st>
@@ -2076,22 +2076,22 @@
       </m>
 
       <tg xml:lang="est">
-        <t pos="Prop">Leedu</t>
+        <t pos="N" type="Prop">Leedu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Liettua</t>
+        <t pos="N" type="Prop">Liettua</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Lietuva</t>
+        <t pos="N" type="Prop">Lietuva</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Lețmǭ</l>
+      <l pos="N" type="Prop">Lețmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Leț#mǭ</st>
@@ -2104,22 +2104,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Läti</t>
+        <t pos="N" type="Prop">Läti</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Latvia</t>
+        <t pos="N" type="Prop">Latvia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Latvija</t>
+        <t pos="N" type="Prop">Latvija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Līepõ</l>
+      <l pos="N" type="Prop">Līepõ</l>
 
       <stg>
         <st Contlex="PROP_SIELDÕ">Līepõ</st>
@@ -2132,22 +2132,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Liepāja</t>
+        <t pos="N" type="Prop">Liepāja</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Liepāja</t>
+        <t pos="N" type="Prop">Liepāja</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Liepāja</t>
+        <t pos="N" type="Prop">Liepāja</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Limbaž</l>
+      <l pos="N" type="Prop">Limbaž</l>
 
       <stg>
         <st Contlex="PROP_JAĻKŠ">Limbaž</st>
@@ -2160,22 +2160,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Lemsalu</t>
+        <t pos="N" type="Prop">Lemsalu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Limbaži</t>
+        <t pos="N" type="Prop">Limbaži</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Limbaži</t>
+        <t pos="N" type="Prop">Limbaži</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Līndõdradā</l>
+      <l pos="N" type="Prop">Līndõdradā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Līndõd#raʼdā</st>
@@ -2188,18 +2188,18 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Prop">YY</t>
+        <t pos="N" type="Prop">YY</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">XX</t>
+        <t pos="N" type="Prop">XX</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">London</l>
+      <l pos="N" type="Prop">London</l>
 
       <stg>
         <st Contlex="PROP_PĒGAL">London</st>
@@ -2212,22 +2212,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">London</t>
+        <t pos="N" type="Prop">London</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Lontoo</t>
+        <t pos="N" type="Prop">Lontoo</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Londona</t>
+        <t pos="N" type="Prop">Londona</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Luksemburg</l>
+      <l pos="N" type="Prop">Luksemburg</l>
 
       <stg>
         <st Contlex="PROP_VȮŅ">Luksemburg</st>
@@ -2240,22 +2240,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Luksemburg</t>
+        <t pos="N" type="Prop">Luksemburg</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Luxemburg</t>
+        <t pos="N" type="Prop">Luxemburg</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Luksemburga</t>
+        <t pos="N" type="Prop">Luksemburga</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Lūʼž</l>
+      <l pos="N" type="Prop">Lūʼž</l>
 
       <stg>
         <st Contlex="PROP_RŪʼTŠ">Lūʼž</st>
@@ -2268,22 +2268,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Lūž</t>
+        <t pos="N" type="Prop">Lūž</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Lūžņa</t>
+        <t pos="N" type="Prop">Lūžņa</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Lūžņa</t>
+        <t pos="N" type="Prop">Lūžņa</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Lūʼž joʼug</l>
+      <l pos="N" type="Prop">Lūʼž joʼug</l>
 
       <stg>
         <st Contlex="PROP_JOʼUG">Lūʼž joʼug</st>
@@ -2296,22 +2296,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Lūži jõgi</t>
+        <t pos="N" type="Prop">Lūži jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Lūžņas upe</t>
+        <t pos="N" type="Prop">Lūžņas upe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Mäʼgkilā</l>
+      <l pos="N" type="Prop">Mäʼgkilā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Mäʼg#kilā</st>
@@ -2324,22 +2324,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Mägkilā küla</t>
+        <t pos="N" type="Prop">Mägkilā küla</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Uši</t>
+        <t pos="N" type="Prop">Uši</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Moldov</l>
+      <l pos="N" type="Prop">Moldov</l>
 
       <stg>
         <st Contlex="PROP_BIRKOV">Moldov</st>
@@ -2352,23 +2352,23 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Moldova</t>
+        <t pos="N" type="Prop">Moldova</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Moldova</t>
+        <t pos="N" type="Prop">Moldova</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Moldova</t>
-        <t pos="Prop">Moldāvija</t>
+        <t pos="N" type="Prop">Moldova</t>
+        <t pos="N" type="Prop">Moldāvija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Moskov</l>
+      <l pos="N" type="Prop">Moskov</l>
 
       <stg>
         <st Contlex="PROP_BIRKOV">Moskov</st>
@@ -2381,22 +2381,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Moskva</t>
+        <t pos="N" type="Prop">Moskva</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Moskova</t>
+        <t pos="N" type="Prop">Moskova</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Maskava</t>
+        <t pos="N" type="Prop">Maskava</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Mustānum</l>
+      <l pos="N" type="Prop">Mustānum</l>
 
       <stg>
         <st Contlex="PROP_KIM-SG">Mustā#num</st>
@@ -2409,22 +2409,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Mustānum</t>
+        <t pos="N" type="Prop">Mustānum</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Melnsils</t>
+        <t pos="N" type="Prop">Melnsils</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Melnsils</t>
+        <t pos="N" type="Prop">Melnsils</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Nabāld</l>
+      <l pos="N" type="Prop">Nabāld</l>
 
       <stg>
         <st Contlex="PROP_TIDĀR-PL">Nabāl</st>
@@ -2437,22 +2437,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Nabāldi soo</t>
+        <t pos="N" type="Prop">Nabāldi soo</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Nabaļu purvs</t>
+        <t pos="N" type="Prop">Nabaļu purvs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Nabāl jǭra</l>
+      <l pos="N" type="Prop">Nabāl jǭra</l>
 
       <stg>
         <st Contlex="PROP_JǬRA">Nabāl jǭra</st>
@@ -2465,22 +2465,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Nabāli järv</t>
+        <t pos="N" type="Prop">Nabāli järv</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Nābeļa ezers</t>
+        <t pos="N" type="Prop">Nābeļa ezers</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Nabālūrga</l>
+      <l pos="N" type="Prop">Nabālūrga</l>
 
       <stg>
         <st Contlex="PROP_ĀITA">Nabāl#ūrga</st>
@@ -2493,22 +2493,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Nabālūrga oja</t>
+        <t pos="N" type="Prop">Nabālūrga oja</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Nabeļvalks</t>
+        <t pos="N" type="Prop">Nabeļvalks</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Norvēgij</l>
+      <l pos="N" type="Prop">Norvēgij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Norvēgij</st>
@@ -2521,22 +2521,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Norra</t>
+        <t pos="N" type="Prop">Norra</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Norja</t>
+        <t pos="N" type="Prop">Norja</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Norvēģija</t>
+        <t pos="N" type="Prop">Norvēģija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Nõʼvkilā</l>
+      <l pos="N" type="Prop">Nõʼvkilā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Nõʼv#kilā</st>
@@ -2549,22 +2549,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Nõvküla</t>
+        <t pos="N" type="Prop">Nõvküla</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Neveja</t>
+        <t pos="N" type="Prop">Neveja</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Neveja</t>
+        <t pos="N" type="Prop">Neveja</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ōst</l>
+      <l pos="N" type="Prop">Ōst</l>
 
       <stg>
         <st Contlex="PROP_FAKT-SG">Ōst</st>
@@ -2577,22 +2577,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ōst</t>
+        <t pos="N" type="Prop">Ōst</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Aizklāņi</t>
+        <t pos="N" type="Prop">Aizklāņi</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Aizklāņi</t>
+        <t pos="N" type="Prop">Aizklāņi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ōstūrga</l>
+      <l pos="N" type="Prop">Ōstūrga</l>
 
       <stg>
         <st Contlex="PROP_ĀITA">Ōst#ūrga</st>
@@ -2605,22 +2605,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ōstūrga oja</t>
+        <t pos="N" type="Prop">Ōstūrga oja</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Aizklāņu valks</t>
+        <t pos="N" type="Prop">Aizklāņu valks</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Parīz</l>
+      <l pos="N" type="Prop">Parīz</l>
 
       <stg>
         <st Contlex="PROP_ĀIGAST">Parīz</st>
@@ -2633,22 +2633,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Pariis</t>
+        <t pos="N" type="Prop">Pariis</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Pariisi</t>
+        <t pos="N" type="Prop">Pariisi</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Parīze</t>
+        <t pos="N" type="Prop">Parīze</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Patskul</l>
+      <l pos="N" type="Prop">Patskul</l>
 
       <stg>
         <st Contlex="PROP_APPÕN">Patskul</st>
@@ -2661,22 +2661,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Packule</t>
+        <t pos="N" type="Prop">Packule</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Packule</t>
+        <t pos="N" type="Prop">Packule</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Packule</t>
+        <t pos="N" type="Prop">Packule</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pațīkmǭ</l>
+      <l pos="N" type="Prop">Pațīkmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Pațīk#mǭ</st>
@@ -2689,22 +2689,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Oviši</t>
+        <t pos="N" type="Prop">Oviši</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Oviši</t>
+        <t pos="N" type="Prop">Oviši</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Oviši</t>
+        <t pos="N" type="Prop">Oviši</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Päpmäʼg joʼug</l>
+      <l pos="N" type="Prop">Päpmäʼg joʼug</l>
 
       <stg>
         <st Contlex="PROP_JOʼUG">Päp#mäʼg joʼug</st>
@@ -2717,22 +2717,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Päpmägi jõgi</t>
+        <t pos="N" type="Prop">Päpmägi jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Pepmegu strauts</t>
+        <t pos="N" type="Prop">Pepmegu strauts</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pǟrnov</l>
+      <l pos="N" type="Prop">Pǟrnov</l>
 
       <stg>
         <st Contlex="PROP_BIRKOV">Pǟrnov</st>
@@ -2745,22 +2745,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Pärnu</t>
+        <t pos="N" type="Prop">Pärnu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Pärnu</t>
+        <t pos="N" type="Prop">Pärnu</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Pērnava</t>
+        <t pos="N" type="Prop">Pērnava</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pēmpõd</l>
+      <l pos="N" type="Prop">Pēmpõd</l>
 
       <stg>
         <st Contlex="PROP_KAND">Pēmpõd</st>
@@ -2773,22 +2773,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">pl Pēmpi soo</t>
+        <t pos="N" type="Prop">pl Pēmpi soo</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Pempi</t>
+        <t pos="N" type="Prop">Pempi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pētõrgrād</l>
+      <l pos="N" type="Prop">Pētõrgrād</l>
 
       <stg>
         <st Contlex="PROP_IRM">Pētõrgrād</st>
@@ -2801,22 +2801,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Peterburi</t>
+        <t pos="N" type="Prop">Peterburi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Pietari</t>
+        <t pos="N" type="Prop">Pietari</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Pēterburga</t>
+        <t pos="N" type="Prop">Pēterburga</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pētõr jǭrad</l>
+      <l pos="N" type="Prop">Pētõr jǭrad</l>
 
       <stg>
         <st Contlex="PROP_JǬRA-PL">Pētõr jǭrad</st>
@@ -2829,22 +2829,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Pētõri järved</t>
+        <t pos="N" type="Prop">Pētõri järved</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Pēterezeri</t>
+        <t pos="N" type="Prop">Pēterezeri</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Piltõn</l>
+      <l pos="N" type="Prop">Piltõn</l>
 
       <stg>
         <st Contlex="PROP_APPÕN">Piltõn</st>
@@ -2857,22 +2857,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Piltene</t>
+        <t pos="N" type="Prop">Piltene</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Piltene</t>
+        <t pos="N" type="Prop">Piltene</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Piltene</t>
+        <t pos="N" type="Prop">Piltene</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Piški meʼr</l>
+      <l pos="N" type="Prop">Piški meʼr</l>
 
       <stg>
         <st Contlex="PROP_KAȚKI$$PROP_MEʼR">Piški meʼr</st>
@@ -2889,23 +2889,23 @@
       </m>
 
       <tg xml:lang="est">
-        <t pos="Prop">Liivi laht</t>
-        <t pos="Prop">Riia laht</t>
+        <t pos="N" type="Prop">Liivi laht</t>
+        <t pos="N" type="Prop">Riia laht</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Riianlahti</t>
+        <t pos="N" type="Prop">Riianlahti</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Rīgas līcis</t>
+        <t pos="N" type="Prop">Rīgas līcis</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Piški$$salāts</l>
+      <l pos="N" type="Prop">Piški$$salāts</l>
 
       <stg>
         <st Contlex="PROP_KAȚKI$$PROP_ĀIGAST">Piški$$salāts</st>
@@ -2918,22 +2918,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Väike-Salatsi</t>
+        <t pos="N" type="Prop">Väike-Salatsi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Mazsalaca</t>
+        <t pos="N" type="Prop">Mazsalaca</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Mazsalaca</t>
+        <t pos="N" type="Prop">Mazsalaca</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pitrõg</l>
+      <l pos="N" type="Prop">Pitrõg</l>
 
       <stg>
         <st Contlex="PROP_KǬRAND-SG">Pitrõg</st>
@@ -2946,22 +2946,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Pitrõg</t>
+        <t pos="N" type="Prop">Pitrõg</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Pitrags</t>
+        <t pos="N" type="Prop">Pitrags</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Pitrags</t>
+        <t pos="N" type="Prop">Pitrags</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pitrõg joʼug</l>
+      <l pos="N" type="Prop">Pitrõg joʼug</l>
 
       <stg>
         <st Contlex="PROP_JOʼUG">Pitrõg joʼug</st>
@@ -2974,22 +2974,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Pitrõgi jõgi</t>
+        <t pos="N" type="Prop">Pitrõgi jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Pitraga upe</t>
+        <t pos="N" type="Prop">Pitraga upe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pizā</l>
+      <l pos="N" type="Prop">Pizā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Pizā</st>
@@ -3002,24 +3002,24 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Pizā</t>
+        <t pos="N" type="Prop">Pizā</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Miķeļtornis</t>
-        <t pos="Prop">Pize</t>
+        <t pos="N" type="Prop">Miķeļtornis</t>
+        <t pos="N" type="Prop">Pize</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Miķeļtornis</t>
-        <t pos="Prop">Pize</t>
+        <t pos="N" type="Prop">Miķeļtornis</t>
+        <t pos="N" type="Prop">Pize</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Portugal</l>
+      <l pos="N" type="Prop">Portugal</l>
 
       <stg>
         <st Contlex="PROP_APPÕN">Portugal</st>
@@ -3032,22 +3032,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Portugal</t>
+        <t pos="N" type="Prop">Portugal</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Portugali</t>
+        <t pos="N" type="Prop">Portugali</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Portugāle</t>
+        <t pos="N" type="Prop">Portugāle</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pūoip</l>
+      <l pos="N" type="Prop">Pūoip</l>
 
       <stg>
         <st Contlex="PROP_IRM">Pūoip</st>
@@ -3060,22 +3060,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Pope</t>
+        <t pos="N" type="Prop">Pope</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Pope</t>
+        <t pos="N" type="Prop">Pope</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Pope</t>
+        <t pos="N" type="Prop">Pope</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pūʼojmeʼr</l>
+      <l pos="N" type="Prop">Pūʼojmeʼr</l>
 
       <stg>
         <st Contlex="PROP_MEʼR">Pūʼoj#meʼr</st>
@@ -3088,22 +3088,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Põhjameri</t>
+        <t pos="N" type="Prop">Põhjameri</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Pohjanmeri</t>
+        <t pos="N" type="Prop">Pohjanmeri</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ziemeļjūra</t>
+        <t pos="N" type="Prop">Ziemeļjūra</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Pūoļmǭ</l>
+      <l pos="N" type="Prop">Pūoļmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Pūoļ#mǭ</st>
@@ -3116,22 +3116,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Poola</t>
+        <t pos="N" type="Prop">Poola</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Puola</t>
+        <t pos="N" type="Prop">Puola</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Polija</t>
+        <t pos="N" type="Prop">Polija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Puʼzzõ</l>
+      <l pos="N" type="Prop">Puʼzzõ</l>
 
       <stg>
         <st Contlex="PROP_NǬʼGÕ">Puʼzzõ</st>
@@ -3144,22 +3144,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Puze</t>
+        <t pos="N" type="Prop">Puze</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Puze</t>
+        <t pos="N" type="Prop">Puze</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Puze</t>
+        <t pos="N" type="Prop">Puze</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Rabādsūo</l>
+      <l pos="N" type="Prop">Rabādsūo</l>
 
       <stg>
         <st Contlex="PROP_PŪ">Rabād#sūo</st>
@@ -3172,22 +3172,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Rabādsūo soo</t>
+        <t pos="N" type="Prop">Rabādsūo soo</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Drabiņpurvs</t>
+        <t pos="N" type="Prop">Drabiņpurvs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Rīgõ</l>
+      <l pos="N" type="Prop">Rīgõ</l>
 
       <stg>
         <st Contlex="PROP_SIELDÕ">Rīgõ</st>
@@ -3200,22 +3200,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Riia</t>
+        <t pos="N" type="Prop">Riia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Riika</t>
+        <t pos="N" type="Prop">Riika</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Rīga</t>
+        <t pos="N" type="Prop">Rīga</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Rīgõ lop</l>
+      <l pos="N" type="Prop">Rīgõ lop</l>
 
       <stg>
         <st Contlex="PROP_TUP">Rīgõ lop</st>
@@ -3232,23 +3232,23 @@
       </m>
 
       <tg xml:lang="est">
-        <t pos="Prop">Liivi laht</t>
-        <t pos="Prop">Riia laht</t>
+        <t pos="N" type="Prop">Liivi laht</t>
+        <t pos="N" type="Prop">Riia laht</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Riianlahti</t>
+        <t pos="N" type="Prop">Riianlahti</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Rīgas līcis</t>
+        <t pos="N" type="Prop">Rīgas līcis</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Rīnda</l>
+      <l pos="N" type="Prop">Rīnda</l>
 
       <stg>
         <st Contlex="PROP_ĀITA">Rīnda</st>
@@ -3261,22 +3261,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Rinda</t>
+        <t pos="N" type="Prop">Rinda</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Rinda</t>
+        <t pos="N" type="Prop">Rinda</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Rinda</t>
+        <t pos="N" type="Prop">Rinda</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Rōm</l>
+      <l pos="N" type="Prop">Rōm</l>
 
       <stg>
         <st Contlex="PROP_IRM">Rōm</st>
@@ -3289,22 +3289,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Rooma</t>
+        <t pos="N" type="Prop">Rooma</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Rooma</t>
+        <t pos="N" type="Prop">Rooma</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Roma</t>
+        <t pos="N" type="Prop">Roma</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Rumēnij</l>
+      <l pos="N" type="Prop">Rumēnij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Rumēnij</st>
@@ -3317,22 +3317,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Rumeenia</t>
+        <t pos="N" type="Prop">Rumeenia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Romania</t>
+        <t pos="N" type="Prop">Romania</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Rumānija</t>
+        <t pos="N" type="Prop">Rumānija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Rūʼnõ</l>
+      <l pos="N" type="Prop">Rūʼnõ</l>
 
       <stg>
         <st Contlex="PROP_NǬʼGÕ">Rūʼnõ</st>
@@ -3345,22 +3345,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ruhnu</t>
+        <t pos="N" type="Prop">Ruhnu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Ruhnu</t>
+        <t pos="N" type="Prop">Ruhnu</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Roņu sala</t>
+        <t pos="N" type="Prop">Roņu sala</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Rūoj</l>
+      <l pos="N" type="Prop">Rūoj</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Rūoj</st>
@@ -3373,22 +3373,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Roja</t>
+        <t pos="N" type="Prop">Roja</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Roja</t>
+        <t pos="N" type="Prop">Roja</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Roja</t>
+        <t pos="N" type="Prop">Roja</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Rūotšmǭ</l>
+      <l pos="N" type="Prop">Rūotšmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Rūotš#mǭ</st>
@@ -3401,22 +3401,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Rootsi</t>
+        <t pos="N" type="Prop">Rootsi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Ruotsi</t>
+        <t pos="N" type="Prop">Ruotsi</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Zviedrija</t>
+        <t pos="N" type="Prop">Zviedrija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sabīl</l>
+      <l pos="N" type="Prop">Sabīl</l>
 
       <stg>
         <st Contlex="PROP_KULTŪR">Sabīl</st>
@@ -3429,22 +3429,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Sabile</t>
+        <t pos="N" type="Prop">Sabile</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Sabile</t>
+        <t pos="N" type="Prop">Sabile</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Sabile</t>
+        <t pos="N" type="Prop">Sabile</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Saksāmǭ</l>
+      <l pos="N" type="Prop">Saksāmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Saksā#mǭ</st>
@@ -3457,22 +3457,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Saksamaa</t>
+        <t pos="N" type="Prop">Saksamaa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Saksa</t>
+        <t pos="N" type="Prop">Saksa</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Vācija</t>
+        <t pos="N" type="Prop">Vācija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Salāts</l>
+      <l pos="N" type="Prop">Salāts</l>
 
       <stg>
         <st Contlex="PROP_ĀIGAST">Salāts</st>
@@ -3485,22 +3485,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Salatsi</t>
+        <t pos="N" type="Prop">Salatsi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Salaca</t>
+        <t pos="N" type="Prop">Salaca</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Salaca</t>
+        <t pos="N" type="Prop">Salaca</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sasmagā</l>
+      <l pos="N" type="Prop">Sasmagā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Sasmagā</st>
@@ -3513,25 +3513,25 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Sasmaka</t>
-        <t pos="Prop">Valdemārpils</t>
+        <t pos="N" type="Prop">Sasmaka</t>
+        <t pos="N" type="Prop">Valdemārpils</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Sasmaka</t>
-        <t pos="Prop">Valdemārpils</t>
+        <t pos="N" type="Prop">Sasmaka</t>
+        <t pos="N" type="Prop">Valdemārpils</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Sasmaka</t>
-        <t pos="Prop">Valdemārpils</t>
+        <t pos="N" type="Prop">Sasmaka</t>
+        <t pos="N" type="Prop">Valdemārpils</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sǟnag</l>
+      <l pos="N" type="Prop">Sǟnag</l>
 
       <stg>
         <st Contlex="PROP_TŪOITÕG-SG">Sǟnag</st>
@@ -3544,22 +3544,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Sǟnag</t>
+        <t pos="N" type="Prop">Sǟnag</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Saunags</t>
+        <t pos="N" type="Prop">Saunags</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Saunags</t>
+        <t pos="N" type="Prop">Saunags</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sǟr</l>
+      <l pos="N" type="Prop">Sǟr</l>
 
       <stg>
         <st Contlex="PROP_SŪR">Sǟr</st>
@@ -3572,22 +3572,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Sõrve</t>
+        <t pos="N" type="Prop">Sõrve</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Sõrve</t>
+        <t pos="N" type="Prop">Sõrve</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Serve</t>
+        <t pos="N" type="Prop">Serve</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Säskkilā</l>
+      <l pos="N" type="Prop">Säskkilā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Säsk#kilā</st>
@@ -3600,22 +3600,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Säskkilā</t>
+        <t pos="N" type="Prop">Säskkilā</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Sesku ciems</t>
+        <t pos="N" type="Prop">Sesku ciems</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sibīrij</l>
+      <l pos="N" type="Prop">Sibīrij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Sibīrij</st>
@@ -3628,22 +3628,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Siber</t>
+        <t pos="N" type="Prop">Siber</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Siperia</t>
+        <t pos="N" type="Prop">Siperia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Sibīrija</t>
+        <t pos="N" type="Prop">Sibīrija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sīkrõg</l>
+      <l pos="N" type="Prop">Sīkrõg</l>
 
       <stg>
         <st Contlex="PROP_KǬRAND-SG">Sīkrõg</st>
@@ -3656,22 +3656,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Sīkrõg</t>
+        <t pos="N" type="Prop">Sīkrõg</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Sīkrags</t>
+        <t pos="N" type="Prop">Sīkrags</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Sīkrags</t>
+        <t pos="N" type="Prop">Sīkrags</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Siʼņņizt mägūd</l>
+      <l pos="N" type="Prop">Siʼņņizt mägūd</l>
 
       <stg>
         <st Contlex="PROP_NIʼM-PL">Siʼņņizt mäʼg</st>
@@ -3684,22 +3684,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Sinised mäed</t>
+        <t pos="N" type="Prop">Sinised mäed</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Zilie kalni</t>
+        <t pos="N" type="Prop">Zilie kalni</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Siprikšvigā</l>
+      <l pos="N" type="Prop">Siprikšvigā</l>
 
       <stg>
         <st Contlex="PROP_TUBĀ">Siprikš#vigā</st>
@@ -3712,22 +3712,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Siprikšvigā org</t>
+        <t pos="N" type="Prop">Siprikšvigā org</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Siprikšviga</t>
+        <t pos="N" type="Prop">Siprikšviga</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Slovakij</l>
+      <l pos="N" type="Prop">Slovakij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Slovakij</st>
@@ -3740,22 +3740,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Slovakkia</t>
+        <t pos="N" type="Prop">Slovakkia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Slovakia</t>
+        <t pos="N" type="Prop">Slovakia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Slovākija</t>
+        <t pos="N" type="Prop">Slovākija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Slovēnij</l>
+      <l pos="N" type="Prop">Slovēnij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Slovēnij</st>
@@ -3768,22 +3768,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Sloveenia</t>
+        <t pos="N" type="Prop">Sloveenia</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Slovenia</t>
+        <t pos="N" type="Prop">Slovenia</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Slovēnija</t>
+        <t pos="N" type="Prop">Slovēnija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sǭrmǭ</l>
+      <l pos="N" type="Prop">Sǭrmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Sǭr#mǭ</st>
@@ -3796,23 +3796,23 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Saaremaa</t>
+        <t pos="N" type="Prop">Saaremaa</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Saaremaa</t>
+        <t pos="N" type="Prop">Saaremaa</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Sāmsala</t>
-        <t pos="Prop">Sāremā sala</t>
+        <t pos="N" type="Prop">Sāmsala</t>
+        <t pos="N" type="Prop">Sāremā sala</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Spāņ</l>
+      <l pos="N" type="Prop">Spāņ</l>
 
       <stg>
         <st Contlex="PROP_VIĻȚ">Spāņ</st>
@@ -3825,22 +3825,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Hispaania</t>
+        <t pos="N" type="Prop">Hispaania</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Espanja</t>
+        <t pos="N" type="Prop">Espanja</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Spānija</t>
+        <t pos="N" type="Prop">Spānija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Stēņḑa</l>
+      <l pos="N" type="Prop">Stēņḑa</l>
 
       <stg>
         <st Contlex="PROP_ĀITA">Stēņḑa</st>
@@ -3853,22 +3853,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Stende</t>
+        <t pos="N" type="Prop">Stende</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Stende</t>
+        <t pos="N" type="Prop">Stende</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Stende</t>
+        <t pos="N" type="Prop">Stende</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sūomõmǭ</l>
+      <l pos="N" type="Prop">Sūomõmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ">Sūomõ#mǭ</st>
@@ -3881,22 +3881,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Soome</t>
+        <t pos="N" type="Prop">Soome</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Suomi</t>
+        <t pos="N" type="Prop">Suomi</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Somija</t>
+        <t pos="N" type="Prop">Somija</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Sūr meʼr</l>
+      <l pos="N" type="Prop">Sūr meʼr</l>
 
       <stg>
         <st Contlex="PROP_SŪR$$PROP_MEʼR">Sūr meʼr</st>
@@ -3909,22 +3909,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Kura kurk</t>
+        <t pos="N" type="Prop">Kura kurk</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Irbes jūras šaurums</t>
+        <t pos="N" type="Prop">Irbes jūras šaurums</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sūrmõtsād joʼug</l>
+      <l pos="N" type="Prop">Sūrmõtsād joʼug</l>
 
       <stg>
         <st Contlex="PROP_JOʼUG">Sūr#mõtsād joʼug</st>
@@ -3937,22 +3937,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Sūrmõtsādi jõgi</t>
+        <t pos="N" type="Prop">Sūrmõtsādi jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dižmeža strauts</t>
+        <t pos="N" type="Prop">Dižmeža strauts</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Sūrsūo</l>
+      <l pos="N" type="Prop">Sūrsūo</l>
 
       <stg>
         <st Contlex="PROP_SŪR">Sūr#sūo</st>
@@ -3965,22 +3965,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">PROP_PŪ Sūrsūo soo</t>
+        <t pos="N" type="Prop">PROP_PŪ Sūrsūo soo</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Dižpurvs</t>
+        <t pos="N" type="Prop">Dižpurvs</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Šlītõr</l>
+      <l pos="N" type="Prop">Šlītõr</l>
 
       <stg>
         <st Contlex="PROP_KĪNDÕR">Šlītõr</st>
@@ -3993,22 +3993,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Slītere</t>
+        <t pos="N" type="Prop">Slītere</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Slītere</t>
+        <t pos="N" type="Prop">Slītere</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Slītere</t>
+        <t pos="N" type="Prop">Slītere</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Šlītõr mäʼg</l>
+      <l pos="N" type="Prop">Šlītõr mäʼg</l>
 
       <stg>
         <st Contlex="PROP_NIʼM">Šlītõr mäʼg</st>
@@ -4021,22 +4021,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Šlītõri mägi</t>
+        <t pos="N" type="Prop">Šlītõri mägi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Slīteres kalns</t>
+        <t pos="N" type="Prop">Slīteres kalns</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Šveits</l>
+      <l pos="N" type="Prop">Šveits</l>
 
       <stg>
         <st Contlex="PROP_FAKT">Šveits</st>
@@ -4049,22 +4049,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Šveits</t>
+        <t pos="N" type="Prop">Šveits</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Sveitsi</t>
+        <t pos="N" type="Prop">Sveitsi</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Šveice</t>
+        <t pos="N" type="Prop">Šveice</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tallin</l>
+      <l pos="N" type="Prop">Tallin</l>
 
       <stg>
         <st Contlex="PROP_ĀIGAST">Tallin</st>
@@ -4077,22 +4077,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Tallinn</t>
+        <t pos="N" type="Prop">Tallinn</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Tallinna</t>
+        <t pos="N" type="Prop">Tallinna</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Tallina</t>
+        <t pos="N" type="Prop">Tallina</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tālsa</l>
+      <l pos="N" type="Prop">Tālsa</l>
 
       <stg>
         <st Contlex="PROP_ĀITA">Tālsa</st>
@@ -4105,22 +4105,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Talsi</t>
+        <t pos="N" type="Prop">Talsi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Talsi</t>
+        <t pos="N" type="Prop">Talsi</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Talsi</t>
+        <t pos="N" type="Prop">Talsi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tartu</l>
+      <l pos="N" type="Prop">Tartu</l>
 
       <stg>
         <st Contlex="PROP_RADIO">Tartu</st>
@@ -4133,22 +4133,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Tartu</t>
+        <t pos="N" type="Prop">Tartu</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Tartto</t>
+        <t pos="N" type="Prop">Tartto</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Tartu</t>
+        <t pos="N" type="Prop">Tartu</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tiabõrmäʼg</l>
+      <l pos="N" type="Prop">Tiabõrmäʼg</l>
 
       <stg>
         <st Contlex="PROP_NIʼM">Tiabõr#mäʼg</st>
@@ -4161,22 +4161,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Tiabõrmägʼi mägi</t>
+        <t pos="N" type="Prop">Tiabõrmägʼi mägi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Stieberkalns</t>
+        <t pos="N" type="Prop">Stieberkalns</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tirkmǭ</l>
+      <l pos="N" type="Prop">Tirkmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Tirk#mǭ</st>
@@ -4189,22 +4189,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Türgi</t>
+        <t pos="N" type="Prop">Türgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Turkki</t>
+        <t pos="N" type="Prop">Turkki</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Turcija</t>
+        <t pos="N" type="Prop">Turcija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tsälmõt</l>
+      <l pos="N" type="Prop">Tsälmõt</l>
 
       <stg>
         <st Contlex="PROP_AMĀT">Tsälmõt</st>
@@ -4217,22 +4217,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Tsälmõti jõgi</t>
+        <t pos="N" type="Prop">Tsälmõti jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Celmupe</t>
+        <t pos="N" type="Prop">Celmupe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tsirst</l>
+      <l pos="N" type="Prop">Tsirst</l>
 
       <stg>
         <st Contlex="PROP_FAKT">Tsirst</st>
@@ -4245,22 +4245,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Cirsti</t>
+        <t pos="N" type="Prop">Cirsti</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Cirsti</t>
+        <t pos="N" type="Prop">Cirsti</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Cirsti</t>
+        <t pos="N" type="Prop">Cirsti</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tšehij</l>
+      <l pos="N" type="Prop">Tšehij</l>
 
       <stg>
         <st Contlex="PROP_KǬJ">Tšehij</st>
@@ -4273,22 +4273,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Tšehhi</t>
+        <t pos="N" type="Prop">Tšehhi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Tšekki</t>
+        <t pos="N" type="Prop">Tšekki</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Čehija</t>
+        <t pos="N" type="Prop">Čehija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tubāmägūd</l>
+      <l pos="N" type="Prop">Tubāmägūd</l>
 
       <stg>
         <st Contlex="PROP_NIʼM-PL">Tubā#mäg</st>
@@ -4301,22 +4301,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Tubāmägūdi mäed</t>
+        <t pos="N" type="Prop">Tubāmägūdi mäed</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Istabkalni</t>
+        <t pos="N" type="Prop">Istabkalni</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Tukāmǭ</l>
+      <l pos="N" type="Prop">Tukāmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Tukā#mǭ</st>
@@ -4329,22 +4329,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Tukums</t>
+        <t pos="N" type="Prop">Tukums</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Tukums</t>
+        <t pos="N" type="Prop">Tukums</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Tukums</t>
+        <t pos="N" type="Prop">Tukums</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ūdmȯizõ</l>
+      <l pos="N" type="Prop">Ūdmȯizõ</l>
 
       <stg>
         <st Contlex="PROP_SIELDÕ">Ūd#mȯizõ</st>
@@ -4357,22 +4357,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Jaunmuiža</t>
+        <t pos="N" type="Prop">Jaunmuiža</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Jaunmuiža</t>
+        <t pos="N" type="Prop">Jaunmuiža</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Jaunmuiža</t>
+        <t pos="N" type="Prop">Jaunmuiža</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ugāl</l>
+      <l pos="N" type="Prop">Ugāl</l>
 
       <stg>
         <st Contlex="PROP_TIDĀR">Ugāl</st>
@@ -4385,22 +4385,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ugāle</t>
+        <t pos="N" type="Prop">Ugāle</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Ugāle</t>
+        <t pos="N" type="Prop">Ugāle</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ugāle</t>
+        <t pos="N" type="Prop">Ugāle</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ukrain</l>
+      <l pos="N" type="Prop">Ukrain</l>
 
       <stg>
         <st Contlex="PROP_IRM">Ukrain</st>
@@ -4413,22 +4413,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ukraina</t>
+        <t pos="N" type="Prop">Ukraina</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Ukraina</t>
+        <t pos="N" type="Prop">Ukraina</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ukraina</t>
+        <t pos="N" type="Prop">Ukraina</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ungar</l>
+      <l pos="N" type="Prop">Ungar</l>
 
       <stg>
         <st Contlex="PROP_TIDĀR">Ungar</st>
@@ -4445,22 +4445,22 @@
       </m>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ungari</t>
+        <t pos="N" type="Prop">Ungari</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Unkari</t>
+        <t pos="N" type="Prop">Unkari</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ungārija</t>
+        <t pos="N" type="Prop">Ungārija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Ušīūrga</l>
+      <l pos="N" type="Prop">Ušīūrga</l>
 
       <stg>
         <st Contlex="PROP_ĀITA">Ušī#ūrga</st>
@@ -4473,22 +4473,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ušīūrga oja</t>
+        <t pos="N" type="Prop">Ušīūrga oja</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ušu valks</t>
+        <t pos="N" type="Prop">Ušu valks</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Ūž$$grǭv</l>
+      <l pos="N" type="Prop">Ūž$$grǭv</l>
 
       <stg>
         <st Contlex="PROP_ŪŽ$$PROP_IRM">Ūž$$grǭv</st>
@@ -4501,22 +4501,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ūžgrōvi kraav</t>
+        <t pos="N" type="Prop">Ūžgrōvi kraav</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Jaunais grāvis</t>
+        <t pos="N" type="Prop">Jaunais grāvis</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Ūž$$kilā</l>
+      <l pos="N" type="Prop">Ūž$$kilā</l>
 
       <stg>
         <st Contlex="PROP_ŪŽ$$PROP_PADĀ">Ūž$$kilā</st>
@@ -4529,22 +4529,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ūžkilā</t>
+        <t pos="N" type="Prop">Ūžkilā</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Jaunciems</t>
+        <t pos="N" type="Prop">Jaunciems</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Jaunciems</t>
+        <t pos="N" type="Prop">Jaunciems</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Prop">Vagā okeān</l>
+      <l pos="N" type="Prop">Vagā okeān</l>
 
       <stg>
         <st Contlex="PROP_ANALĪZ">Vagā okeān</st>
@@ -4557,23 +4557,23 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Vaikne ookean</t>
+        <t pos="N" type="Prop">Vaikne ookean</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Tyynimeri</t>
-        <t pos="Prop">Iso valtameri</t>
+        <t pos="N" type="Prop">Tyynimeri</t>
+        <t pos="N" type="Prop">Iso valtameri</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Klusais okeāns</t>
+        <t pos="N" type="Prop">Klusais okeāns</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Vaʼid</l>
+      <l pos="N" type="Prop">Vaʼid</l>
 
       <stg>
         <st Contlex="PROP_NĪʼEM-SG">Vaʼid</st>
@@ -4586,22 +4586,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Vaide</t>
+        <t pos="N" type="Prop">Vaide</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Vaide</t>
+        <t pos="N" type="Prop">Vaide</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Vaide</t>
+        <t pos="N" type="Prop">Vaide</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Vāldakrīʼevmǭ</l>
+      <l pos="N" type="Prop">Vāldakrīʼevmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Vālda#krīʼev#mǭ</st>
@@ -4614,22 +4614,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Valgevene</t>
+        <t pos="N" type="Prop">Valgevene</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Valko-Venäjä</t>
+        <t pos="N" type="Prop">Valko-Venäjä</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Baltkrievija</t>
+        <t pos="N" type="Prop">Baltkrievija</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Vanārūotš joʼug</l>
+      <l pos="N" type="Prop">Vanārūotš joʼug</l>
 
       <stg>
         <st Contlex="PROP_JOʼUG">Vanā#rūotš joʼug</st>
@@ -4642,22 +4642,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Vanārūotši jõgi</t>
+        <t pos="N" type="Prop">Vanārūotši jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Vecroču upe</t>
+        <t pos="N" type="Prop">Vecroču upe</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Vǟnta</l>
+      <l pos="N" type="Prop">Vǟnta</l>
 
       <stg>
         <st Contlex="PROP_ĀITA">Vǟnta</st>
@@ -4670,22 +4670,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Ventspils</t>
+        <t pos="N" type="Prop">Ventspils</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Ventspils</t>
+        <t pos="N" type="Prop">Ventspils</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Ventspils</t>
+        <t pos="N" type="Prop">Ventspils</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Vǟnta</l>
+      <l pos="N" type="Prop">Vǟnta</l>
 
       <stg>
         <st Contlex="PROP_ĀITA">Vǟnta</st>
@@ -4698,22 +4698,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Venta jõgi</t>
+        <t pos="N" type="Prop">Venta jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Venta</t>
+        <t pos="N" type="Prop">Venta</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Vēna</l>
+      <l pos="N" type="Prop">Vēna</l>
 
       <stg>
         <st Contlex="PROP_VĒNA">Vēna</st>
@@ -4726,22 +4726,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Väina jõgi</t>
+        <t pos="N" type="Prop">Väina jõgi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop"/>
+        <t pos="N" type="Prop"/>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Daugava</t>
+        <t pos="N" type="Prop">Daugava</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Vidūmǭ</l>
+      <l pos="N" type="Prop">Vidūmǭ</l>
 
       <stg>
         <st Contlex="PROP_PŪ-SG">Vidū#mǭ</st>
@@ -4754,23 +4754,23 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Vidzeme</t>
+        <t pos="N" type="Prop">Vidzeme</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Vidzeme</t>
-        <t pos="Prop">Liivinmaa</t>
+        <t pos="N" type="Prop">Vidzeme</t>
+        <t pos="N" type="Prop">Liivinmaa</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Vidzeme</t>
+        <t pos="N" type="Prop">Vidzeme</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Vīḑõl</l>
+      <l pos="N" type="Prop">Vīḑõl</l>
 
       <stg>
         <st Contlex="PROP_APPÕN">Vīḑõl</st>
@@ -4783,22 +4783,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Vīdale</t>
+        <t pos="N" type="Prop">Vīdale</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Vīdale</t>
+        <t pos="N" type="Prop">Vīdale</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Vīdale</t>
+        <t pos="N" type="Prop">Vīdale</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Viļņ</l>
+      <l pos="N" type="Prop">Viļņ</l>
 
       <stg>
         <st Contlex="PROP_VIĻȚ">Viļņ</st>
@@ -4811,22 +4811,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Vilnius</t>
+        <t pos="N" type="Prop">Vilnius</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Vilna</t>
+        <t pos="N" type="Prop">Vilna</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Viļņa</t>
+        <t pos="N" type="Prop">Viļņa</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Zemgal</l>
+      <l pos="N" type="Prop">Zemgal</l>
 
       <stg>
         <st Contlex="PROP_AMĀT">Zemgal</st>
@@ -4839,22 +4839,22 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Zemgale</t>
+        <t pos="N" type="Prop">Zemgale</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Zemgale</t>
+        <t pos="N" type="Prop">Zemgale</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Zemgale</t>
+        <t pos="N" type="Prop">Zemgale</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Žūokkilā</l>
+      <l pos="N" type="Prop">Žūokkilā</l>
 
       <stg>
         <st Contlex="PROP_PADĀ">Žūok#kilā</st>
@@ -4867,39 +4867,37 @@
         <defNative/>
 
       <tg xml:lang="est">
-        <t pos="Prop">Žūokkilā</t>
+        <t pos="N" type="Prop">Žūokkilā</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Žocene</t>
+        <t pos="N" type="Prop">Žocene</t>
       </tg>
 
       <tg xml:lang="lat">
-        <t pos="Prop">Žocene</t>
+        <t pos="N" type="Prop">Žocene</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Prop">Kaupo</l>
+      <l pos="N" type="Prop">Kaupo</l>
 
       <stg>
         <st Contlex="PROP_">Kaupo</st>
       </stg>
     </lg>
 
-    <pos>Prop</pos>
-
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>Kaupo</t>
+        <t pos="N" type="Prop">Kaupo</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>Kaupo</t>
+        <t pos="N" type="Prop">Kaupo</t>
       </tg>
     </mg>
   </e>
