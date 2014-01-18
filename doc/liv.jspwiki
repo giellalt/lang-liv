@@ -1320,6 +1320,7 @@ tēšti
 
  LEXICON NMN_KAŠ  : 69
  LEXICON NMN_KAŠ-SG  : 69
+
  LEXICON NMN_KAŠ-PL  : 69
 
  LEXICON NMN_DUŅTŠ  : 70
@@ -2668,7 +2669,7 @@ Quotative
 ʼ Stød
 
 
-*Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      for consonant lengthening
+
 
 ! Triggers
  *  %^Tense:0  = Tense stem will have stød if proper stem type
@@ -2808,6 +2809,9 @@ simultaneous to reducing vowel of second syllable
 __lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ__  
 
 __%{XC%}:Cx__
+
+__%{XC%}:š__ 2014-01-18 "%{XC%}:Cx" not working
+
 
 __Stod removal left__  
 

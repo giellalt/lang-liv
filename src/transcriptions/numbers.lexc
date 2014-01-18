@@ -129,11 +129,10 @@ LEXICON ONESM
 хасуюʼ:9 MILJON ; 
 
 LEXICON 1MILJON
-миллион% :1 OVERTHOUSANDS ;
-миллион% :1 OVERTHOUSANDS ;
+miljon% :1 OVERTHOUSANDS ;
 
 LEXICON MILJON
-% милюн% : OVERTHOUSANDS ;
+% miljonõd% : OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -237,21 +236,18 @@ LEXICON LÅGEVT
 юʼ: ONEST ;
 
 LEXICON ONEST
-
-сидя:2 THOUSANDS ;
-няхарʼ:3 THOUSANDS ;
-тет:4 THOUSANDS ;
-
-самляӈг:5 THOUSANDS ;
-матʼ:6 THOUSANDS ;
-сиʼив:7 THOUSANDS ;
-
-
-сидндет:8 THOUSANDS ;
-хасуюʼ:9 THOUSANDS ;
+tūontõ:1 THOUSAND ;
+kakš:2 THOUSANDS ;
+kuolm:3 THOUSANDS ;
+nēļa:4 THOUSANDS ;
+vīž:5 THOUSANDS ;
+kūž:6 THOUSANDS ;
+seis:7 THOUSANDS ;
+kǭdõks:8 THOUSANDS ;
+īdõks:9 THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-ёнарʼ: THOUSAND ;
+% tūontõd: THOUSAND ;
 
 
 LEXICON THOUSAND
@@ -267,25 +263,21 @@ UNDERTHOUSAND ;	   ! 1100-1999
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-юрʼ:1 HUNDRED ;
+sadā:1 HUNDRED ;
 
 
 LEXICON HUNDREDS
-
-сидя:2 CUODI ;
-няхарʼ:3 CUODI ;
-тет:4 CUODI ;
-
-самляӈг:5 CUODI ;
-матʼ:6 CUODI ;
-сиʼив:7 CUODI ;
-
-
-сидндет:8 CUODI ;
-хасуюʼ:9 CUODI ;
+kakš:2 CUODI ;
+kuolm:3 CUODI ;
+nēļa:4 CUODI ;
+vīž:5 CUODI ;
+kūž:6 CUODI ;
+seis:7 CUODI ;
+kǭdõks:8 CUODI ;
+īdõks:9 CUODI ;
 
 LEXICON CUODI
-% юрʼ: HUNDRED ;
+% saddõ: HUNDRED ;
 
 LEXICON HUNDRED
 TENS ;
@@ -294,7 +286,16 @@ TEENS ;
 :%0%0 # ;
 
 LEXICON TEENS
-:1 TEEN ;
+ikštuoistõn:11 # ;
+kakštuoistõn:12 # ;
+kuolmtuoistõn:13 # ;
+nēļatuoistõn:14 # ;
+vīžtuoistõn :15 # ;
+kūžtuoistõn:16 # ;
+seistuoistõn:17 # ;
+kǭdõkstuoistõn:18 # ;
+īdõkstuoistõn:19 # ;
+!:1 TEEN ;
 !яӈгня:1 TEEN2 ;
 
 LEXICON TEEN
@@ -327,34 +328,30 @@ LEXICON LOHKAI
 % яӈгня: # ;
 
 LEXICON TENS
-% юʼ:1%0 # ;
-сидя:2 LÅGEV ;
-няхарʼ:3 LÅGEV ;
-тет:4 LÅGEV ;
-самляӈг:5 LÅGEV ;
-матʼ:6 LÅGEV ;
-сиʼив:7 LÅGEV ;
-сидндет:8 LÅGEV ;
-хасуюʼ:9 LÅGEV ;
+% kim:1%0 # ;
+% kakš:2 LÅGEV ;
+% kuolm:3 LÅGEV ;
+% nēļa:4 LÅGEV ;
+% vīž:5 LÅGEV ;
+% kūž:6 LÅGEV ;
+% seis:7 LÅGEV ;
+% kǭdõks:8 LÅGEV ;
+% īdõks:9 LÅGEV ;
 
 LEXICON LÅGEV
-% юʼ:%0 # ;
-% юʼ:%0 # ;
-% юʼ% : ONES ;
+kimdõ:%0 # ;
+kimdõ% : ONES ;
+
 
 LEXICON ONES
-ӈопой:1 # ;
-
-сидя:2 # ;
-няхарʼ:3 # ;
-тет:4 # ;
-
-самляӈг:5 # ;
-матʼ:6 # ;
-сиʼив:7 # ;
-
-
-сидндет:8 # ;
-хасуюʼ:9 # ;
+% ikš:1 # ;
+% kakš:2 # ;
+% kuolm:3 # ;
+% nēļa:4 # ;
+% vīž:5 # ;
+% kūž:6 # ;
+% seis:7 # ;
+% kǭdõks:8 # ;
+% īdõks:9 # ;
 
 
