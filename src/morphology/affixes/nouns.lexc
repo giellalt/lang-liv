@@ -1731,9 +1731,19 @@ LEXICON NMN_KAŠ !!= @CODE@ : 69
 	NMN_KAŠ-SG ;
 	NMN_KAŠ-PL ;
 LEXICON NMN_KAŠ-SG !!= @CODE@ : 69
-+TYÄ: #;
+:%{XC%}	SG-DAT_õn ;
+:%^ConsL        SG-ELA/INE_õst ;
+		SG-GEN ;
+:%{XC%}	SG-ILL_õ ;
+:%{XC%}        SG-INS_õks ;
+		SG-NOM  ;
+:%{XC%}        SG-PAR_õ ;
+
 LEXICON NMN_KAŠ-PL !!= @CODE@ : 69
-+TYÄ: #;
+:ī 	PL-INS_DÕKS-STEM ;
+ 	PL-ELA/INE_īst ;
+ 	PL-ILL_īz ;
+ 	PL-PAR_īdi ;
 
 LEXICON NMN_DUŅTŠ !!= @CODE@ : 70
 	NMN_DUŅTŠ-SG ;
