@@ -184,6 +184,7 @@ LEXICON A_TŪOITÕG !!= @CODE@ : 158
 +A:	NMN_TŪOITÕG	;
 
 LEXICON A_KǬRAND !!= @CODE@ kǭrand: 159
+!! * Yaml: __armtõb__
 +A:	NMN_KǬRAND	;
 
 LEXICON A_ȬʼDÕG !!= @CODE@ ȭʼdõg:ȭdõg 160
@@ -298,10 +299,10 @@ LEXICON A_SALĀJ !!= @CODE@ : 225
 +A:	NMN_SALĀJ	;
 
 LEXICON A_UMĀRZ !!= @CODE@ umārz:umār 226
-	NMN_UMĀRZ   ;
++A:	NMN_UMĀRZ   ;
 
 LEXICON A_DULLÕNZ !!= @CODE@ dullõnz:dullõn 227
-	NMN_UMĀRZ	;
++A:	NMN_DULLÕNZ	;
 
 LEXICON A_AŅGÕRZ !!= @CODE@ : aņgõrz:aņgõr 229
 	NMN_UMĀRZ	;

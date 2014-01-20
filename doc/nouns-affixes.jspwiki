@@ -272,6 +272,7 @@ __jõugõ:jõugõ__
  LEXICON N_NǬʼGÕ-PL	 nǭʼgõ:nǭgõ 119
 
  LEXICON N_AŠŠÕ  : 120
+ LEXICON N_AŠŠÕ-SG  : 120
  LEXICON N_AŠŠÕ-PL  : 120
 
  LEXICON N_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
@@ -378,6 +379,7 @@ __jõugõ:jõugõ__
  LEXICON N_TŪOITÕG  : 158
 
  LEXICON N_KǬRAND  : 159
+* Yaml: __armtõb__
  LEXICON N_KǬRAND-SG  : 159
  LEXICON N_KǬRAND-PL  : 159
 
@@ -557,6 +559,7 @@ __jõugõ:jõugõ__
  LEXICON N_UMĀRZ-PL  umārz:umār 226
 
  LEXICON N_DULLÕNZ  dullõnz:dullõn 227
+ LEXICON N_DULLÕNZ-SG  dullõnz:dullõn 227
  LEXICON N_DULLÕNZ-PL  dullõnz:dullõn 227
 
  LEXICON N_AʼBBÕNZ  aʼbbõnz:aʼbbõn 228
@@ -582,6 +585,7 @@ __jõugõ:jõugõ__
  LEXICON N_PĒGAL-PL  pēgal:pēgal 234
 
  LEXICON N_APPÕN  appõn:appõn 235
+ LEXICON N_APPÕN-SG  appõn:appõn 235
  LEXICON N_APPÕN-PL  appõn:appõn 235
 
  LEXICON N_ǬʼRÕN  ǭʼrõn:ǭrõn 236
@@ -1082,12 +1086,16 @@ tēšti
 
  LEXICON NMN_AŠŠÕ  : 120
  LEXICON NMN_AŠŠÕ-SG  : 120
+
  LEXICON NMN_AŠŠÕ-PL  : 120
+
 
 
  LEXICON NMN_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
  LEXICON NMN_DRŪʼOŠÕ-SG  drūʼošõ:drūošõ 121
+
  LEXICON NMN_DRŪʼOŠÕ-PL  drūʼošõ:drūošõ 121
+
 
 
  LEXICON NMN_SOʼV  : 122
@@ -1262,6 +1270,7 @@ __87__
 
 
 159
+* Yaml: __armtõb__
 __221__
 
 
@@ -1545,10 +1554,12 @@ __567__
 
 
 
+ LEXICON NMN_UMĀRZ  226 umārz:umār
+
+
 226, 227, 228
-
-
  LEXICON NMN_DULLÕNZ  dullõnz:dullõn 227
+ LEXICON NMN_DULLÕNZ-SG  dullõnz:dullõn 227
  LEXICON NMN_DULLÕNZ-PL  dullõnz:dullõn 227
 
  LEXICON NMN_AʼBBÕNZ  aʼbbõnz:aʼbbõn 228
@@ -1586,6 +1597,7 @@ __567__
 
  LEXICON NMN_ǬʼRÕN  ǭʼrõn:ǭrõn 236
 
+ LEXICON NMN_ǬʼRÕN-SG  ǭʼrõn:ǭrõn 236
  LEXICON NMN_ǬʼRÕN-PL  ǭʼrõn:ǭrõn 236
 
  LEXICON NMN_KĪNDÕR  kīndõr:kīndõr 237
