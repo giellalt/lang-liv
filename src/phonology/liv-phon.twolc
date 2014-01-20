@@ -282,13 +282,12 @@ o:0 <=> # Cons:* [ ū: ]  _ Cons:+ (Vows:) [ %^Stress1to2:0 ] ;
 !! __@RULENAME@__
  %{XC%}:Cx <=> 
 !# Cons* Vows ( ʼ: ) Cx _ Vows: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] 
- Cx _ [ %> ] ;
-! # Cons* [ a | ä | õ | u | i ] ( ʼ: ) Cx _ [ %> õ ] ;
-         where Cx in (p t k b d g l ļ m n ņ r ŗ v z ž ) ;
+  # Cons* [ a | ä | õ | u | i ] ( ʼ: ) Cx _ [ %> õ ] ;
+         where Cx in (p t k b d g l ļ m n ņ r ŗ š v z ž ) ;
 
-"%{XC%}:š"
-!! __@RULENAME@__ 2014-01-18 "%{XC%}:Cx" not working
- %{XC%}:š <=> š _ %> ;
+!"%{XC%}:š"
+!!! __@RULENAME@__ 2014-01-18 "%{XC%}:Cx" not working
+! %{XC%}:š <=> š _ %> ;
 
 
 "Stod removal left"
