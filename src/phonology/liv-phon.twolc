@@ -197,6 +197,10 @@ a:ā <=> _ [i g | :Cons+] (Vows:) %^VowsLI1:0 ;
 !! __@RULENAME@__  
 ū:õ <=> # Cons* [ Vows | ʼ: | :ʼ ]+ :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
 
+"õ:i"
+!! __@RULENAME@__
+ õ:i <=> # Cons* [ Vows | ʼ: | :ʼ ]+ :Cons+ _ [ n: ] %^PalatalizeLeft: ;
+
 !! Vowel loss
 
 "ā:0"
@@ -319,7 +323,7 @@ l:ļ <=> _ Vows: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | 
 
 "n:ņ palatalization"
 !! __@RULENAME@__  
-n:ņ <=> _ Vows: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
+n:ņ <=> _ ( Vows: ) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
 !€# Vē0na%^PalatalizeLeft%^VowsRMõ
 !€0 Vein000õ
         _ %^PalatalizeLeft:0 ; !! sēņ:sēn 220
