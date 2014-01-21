@@ -191,6 +191,7 @@ a:ā <=> _ [i g | :Cons+] (Vows:) %^VowsLI1:0 ;
 "ā:õ "
 !! __@RULENAME@__  
 ā:õ <=>  _ ( %^ConsL:0 ) %^Stress2to1:0 [ # | %> ] ;
+     Cons _ z: %^Stress2to1:0  ;
 !# Cons* Vows ( 0: ) :Cons+ _ %^Stress2to1:0 [ # | %> ] ;
 
 "ū:õ "
@@ -261,7 +262,13 @@ o:0 <=> # Cons:* [ ū: ]  _ Cons:+ (Vows:) [ %^Stress1to2:0 ] ;
 !! __@RULENAME@__  
  Cx:0 <=> 
 # Cons* Vows ( ʼ: ) Cx _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
-          where Cx in ( b g l ļ m n ņ r ŗ v z ž ) ;
+          where Cx in ( b g l ļ m n ņ r ŗ v ž ) ;
+
+"z:0"
+!! __@RULENAME@__
+ z:0 <=>
+# Cons* Vows ( ʼ: ) z _ Vows: ( %^StodRM:0 ) %^ConsSh:0  ;
+  _ (%^Stress2to1:|%^StodRM:) %^ConsRM: ;
 
 !! !Consonant lengthening
 
@@ -344,7 +351,7 @@ r:ŗ <=> _ %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
 !! __@RULENAME@__  
 d:t <=>
        Vows: ( ʼ: | :ʼ ) [ s k: | d d: | t t: | k k:  | t s | n d | ŗ š t: | r t: | 0:u [ t: | d ] ] (Vows:) ( %^ConsSh:0 |%^Stress1to2:) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
-       [ :z | :s | :š ] %> _ ; !! nominative plural 
+       [ ž | :z | :s | :š ] %> _ ; !! nominative plural 
 
 "d:ț "
 !! __@RULENAME@__  

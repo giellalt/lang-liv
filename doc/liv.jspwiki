@@ -898,6 +898,7 @@ __jõugõ:jõugõ__
 
  LEXICON N_MAIGĀZ  : 169
 
+
  LEXICON N_NÕTKĀZ  : 170
 
  LEXICON N_RIKĀZ  rikāz: 171
@@ -1010,6 +1011,7 @@ __jõugõ:jõugõ__
  LEXICON N_ÄʼBȚÕKS-PL  äʼbțõks:äbțõks 208
 
  LEXICON N_VARĪKŠ  : 209
+
 
  LEXICON N_UKŠ  : 210
 
@@ -1813,9 +1815,11 @@ __72__
  LEXICON NMN_KÄBRĀZ-PL  : 168
 
 
- LEXICON NMN_MAIGĀZ  : 169
+ LEXICON NMN_MAIGĀZ  : 169 maigāz:maʼigāz
  LEXICON NMN_MAIGĀZ-SG  : 169
+
  LEXICON NMN_MAIGĀZ-PL  : 169
+
 
 
  LEXICON NMN_NÕTKĀZ  : 170
@@ -1975,9 +1979,13 @@ __567__
 
  LEXICON NMN_ÄʼBȚÕKS  äʼbțõks:äbțõks 208
  LEXICON NMN_ÄʼBȚÕKS-PL  äʼbțõks:äbțõks 208
+
  LEXICON NMN_VARĪKŠ  : 209
+* Yaml: __krwbiizh__
  LEXICON NMN_VARĪKŠ-SG  : 209
+
  LEXICON NMN_VARĪKŠ-PL  : 209
+
 
 
  LEXICON NMN_UKŠ  : 210
@@ -2817,6 +2825,8 @@ __0:õ in vowel metathesis__
 
 !Consonant loss 
 __shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb__  
+
+__z:0__
 
 !Consonant lengthening
 
