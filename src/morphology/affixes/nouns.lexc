@@ -2873,37 +2873,48 @@ LEXICON NMN_MAIGĀZ !!= @CODE@ : 169 maigāz:maʼigāz
 	NMN_MAIGĀZ-PL	;
 LEXICON NMN_MAIGĀZ-SG !!= @CODE@ : 169
 :%^StodRM%^ConsRM        SG-DAT_n ;
-:%^D2ZERO        SG-ELA/INE_st ;
+:%^StodRM%^ConsRM        SG-ELA/INE_st ;
 :%^Stress2to1%^ConsRM        SG-GEN ;
-:%^StodRM%^ConsRM        SG-ILL_õ ;
+:%^Stress2to1        SG-ILL_ZERO ;
+:%^Stress2to1%^ConsRM        SG-ILL_ZERO ;
 :%^StodRM%^ConsRM        SG-INS_ks ;
 :%^StodRM        SG-NOM  ;
 :%^StodRM        SG-PAR_t ;
 
 LEXICON NMN_MAIGĀZ-PL !!= @CODE@ : 169
-:%^D2ZERO        PL-INS_DÕKS-STEM ;
-:%^VowsRM%^D2ZERO        PL-ELA/INE_ist ;
-:%^VowsRM%^D2ZERO        PL-ILL_iž ;
-:%^VowsRM%^D2ZERO        PL-PAR_idi ;
-
-
+:%^StodRM%^ConsRM        PL-INS_DÕKS-STEM ;
+:%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_ist ; !!= @CODE@ not same as 2012
+:%^StodRM%^VowsRM%^ConsRM        PL-ILL_īž ;
+:%^StodRM%^VowsRM%^ConsRM        PL-PAR_idi ; !!= @CODE@ not same as 2012
 
 LEXICON NMN_NÕTKĀZ !!= @CODE@ : 170
 	NMN_NÕTKĀZ-SG	;
 	NMN_NÕTKĀZ-PL	;
 LEXICON NMN_NÕTKĀZ-SG !!= @CODE@ : 170
-+TYÄ: #;
+	NMN_MAIGĀZ-SG ; !!= @CODE@ : 169
 LEXICON NMN_NÕTKĀZ-PL !!= @CODE@ : 170
-+TYÄ: #;
+        NMN_RIKĀZ-PL    ; !!= @CODE@ rikāz: 171
 
 
 LEXICON NMN_RIKĀZ !!= @CODE@ rikāz: 171
 	NMN_RIKĀZ-SG	;
 	NMN_RIKĀZ-PL	;
 LEXICON NMN_RIKĀZ-SG !!= @CODE@ rikāz: 171
-+TYÄ: #;
+:%^StodRM%^ConsRM        SG-DAT_n ;
+:%^StodRM%^ConsRM        SG-ELA/INE_st ;
+:%^Stress2to1%^ConsRM        SG-GEN ;
+:%^Stress2to1        SG-ILL_ZERO ;
+:%^Stress2to1%^ConsRM        SG-ILL_ZERO ;
+:%^StodRM%^ConsRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^StodRM        SG-PAR_t ;
+
 LEXICON NMN_RIKĀZ-PL !!= @CODE@ rikāz: 171
-+TYÄ: #;
+:%^Stress2to1%^ConsRM        PL-INS_DÕKS-STEM ;
+:%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_īst ;
+:%^StodRM%^VowsRM%^ConsRM        PL-ILL_īž ;
+:%^StodRM%^VowsRM%^ConsRM        PL-PAR_īdi ;
+
 
 LEXICON NMN_BIKŠĀZ !!= @CODE@ : 172
 	NMN_BIKŠĀZ-SG	;

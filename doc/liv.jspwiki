@@ -1819,17 +1819,21 @@ __72__
  LEXICON NMN_MAIGĀZ-SG  : 169
 
  LEXICON NMN_MAIGĀZ-PL  : 169
-
-
+ :%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_ist ;  not same as 2012
+ :%^StodRM%^VowsRM%^ConsRM        PL-PAR_idi ;  not same as 2012
 
  LEXICON NMN_NÕTKĀZ  : 170
  LEXICON NMN_NÕTKĀZ-SG  : 170
+ 	NMN_MAIGĀZ-SG ;  : 169
  LEXICON NMN_NÕTKĀZ-PL  : 170
+         NMN_RIKĀZ-PL    ;  rikāz: 171
 
 
  LEXICON NMN_RIKĀZ  rikāz: 171
  LEXICON NMN_RIKĀZ-SG  rikāz: 171
+
  LEXICON NMN_RIKĀZ-PL  rikāz: 171
+
 
  LEXICON NMN_BIKŠĀZ  : 172
  LEXICON NMN_BIKŠĀZ-SG  : 172
@@ -2835,10 +2839,13 @@ simultaneous to reducing vowel of second syllable
 
 __lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ__  
 
+
+
+
+
 __%{XC%}:Cx__
 
 __%{XC%}:Cx__ 2014-01-18 "%{XC%}:Cx" not working
-
 
 __Stod removal left__  
 
@@ -2868,7 +2875,7 @@ __d:ž __
 !Consonant loss
 
 __d:0__  
-      Vows: (Cons:+)  _ (%^VowsLI1:) %^D2ZERO:0 ;   
+      Vow: (Cns:+)  _ (%^VowsLI1:) %^D2ZERO:0 ;   
 
 __T loss before subsequent morpheme with underlying initial d__  
 
