@@ -1324,17 +1324,21 @@ __72__
  LEXICON NMN_MAIGĀZ-SG  : 169
 
  LEXICON NMN_MAIGĀZ-PL  : 169
-
-
+ :%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_ist ;  not same as 2012
+ :%^StodRM%^VowsRM%^ConsRM        PL-PAR_idi ;  not same as 2012
 
  LEXICON NMN_NÕTKĀZ  : 170
  LEXICON NMN_NÕTKĀZ-SG  : 170
+ 	NMN_MAIGĀZ-SG ;  : 169
  LEXICON NMN_NÕTKĀZ-PL  : 170
+         NMN_RIKĀZ-PL    ;  rikāz: 171
 
 
  LEXICON NMN_RIKĀZ  rikāz: 171
  LEXICON NMN_RIKĀZ-SG  rikāz: 171
+
  LEXICON NMN_RIKĀZ-PL  rikāz: 171
+
 
  LEXICON NMN_BIKŠĀZ  : 172
  LEXICON NMN_BIKŠĀZ-SG  : 172
