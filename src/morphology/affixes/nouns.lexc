@@ -220,7 +220,10 @@ LEXICON N_KRÄMP !!= @CODE@ : 63
 +N:	NMN_KRÄMP	;
 
 LEXICON N_PIʼŅ !!= @CODE@ piʼņ:piņ 64
-+N:	NMN_PIʼŅ	;
+	N_PIʼŅ-SG	;
+	N_PIʼŅ-PL	;
+LEXICON N_PIʼŅ-SG !!= @CODE@ piʼņ:piņ 64
++N:     NMN_PIʼŅ-SG   ;
 LEXICON N_PIʼŅ-PL !!= @CODE@ piʼņ:piņ 64
 +N:     NMN_PIʼŅ-PL   ;
 
@@ -1719,9 +1722,19 @@ LEXICON NMN_PIʼŅ !!= @CODE@ piʼņ:piņ 64
 	NMN_PIʼŅ-SG ;
 	NMN_PIʼŅ-PL ;
 LEXICON NMN_PIʼŅ-SG !!= @CODE@ piʼņ:piņ 64
-+TYÄ: #;
+:%{XC%}  SG-DAT_õn ;
+	   SG-ELA/INE_štõ ;
+          SG-GEN ;
+:%{XC%}  SG-ILL_õ ;
+         SG-INS_kõks ;
+          SG-NOM  ;
+:%{XC%}  SG-PAR_õ ;
+
 LEXICON NMN_PIʼŅ-PL !!= @CODE@ piʼņ:piņ 64
-+TYÄ: #;
+:%^StodRMī        PL-INS_DÕKS-STEM ;
+:%^StodRM        PL-ELA/INE_īst ;
+:%^StodRMī        PL-ILL_ž ;
+:%^StodRMī        PL-PAR_di ;
 
 LEXICON NMN_KUOȚ !!= @CODE@ : 65
 	NMN_KUOȚ-SG ;
@@ -3798,6 +3811,14 @@ LEXICON SG-ELA_št
 +Sg+Ela:%>št K ;
 LEXICON SG-INE_š
 +Sg+Ine:%>š K ;
+
+LEXICON SG-ELA/INE_štõ
+	SG-ELA_štõ	;
+	SG-INE_šõ	;
+LEXICON SG-ELA_štõ
++Sg+Ela:%>štõ K ;
+LEXICON SG-INE_šõ
++Sg+Ine:%>šõ K ;
 
 LEXICON SG-ELA/INE_õst
 	SG-ELA_õst	;
