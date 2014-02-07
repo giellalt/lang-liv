@@ -107,7 +107,10 @@ LEXICON N_LĀNGA !!= @CODE@ lānga:lānga 33
 +N:	NMN_LĀNGA	;
 
 LEXICON N_SĪLMA !!= @CODE@ sīlma:sīlma 34
-+N:	NMN_SĪLMA	;
+	N_SĪLMA-SG ;
+	N_SĪLMA-PL ;
+LEXICON N_SĪLMA-SG
++N:	NMN_SĪLMA-SG	;
 LEXICON N_SĪLMA-PL !!= @CODE@ sīlma:sīlma 34
 +N:     NMN_SĪLMA-PL   ;
 
@@ -1366,7 +1369,6 @@ LEXICON NMN_ĀIGA-SG
 :        SG-ELA/INE_st ;
 :        SG-GEN ;
 :%^Stress1to2%^VowsRM    SG-ILL_õ ;
-! SG-INE ;
 :        SG-INS_ks ;
 :        SG-NOM  ;
 :%^Stress1to2%^VowsRM    SG-PAR_õ ;
@@ -1378,6 +1380,7 @@ LEXICON NMN_ĀIGA-PL
 :%^Stress1to2%^VowsRM        PL-ILL_ži ;
 :%^VowsRM        PL-ILL_iž ;
 :%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
+
 !! 33b LĀNGA
 LEXICON NMN_LĀNGA
         NMN_LĀNGA-SG     ;
@@ -1408,7 +1411,13 @@ LEXICON NMN_SĪLMA-SG
 	NMN_ĀIGA-SG	;
 
 LEXICON NMN_SĪLMA-PL
-	NMN_ĀIGA-PL	;
+:        PL-INS_DÕKS-STEM ;
+:%^Stress1to2%^PalatalizeLeft%^VowsRM        PL-ELA/INE_šti ;
+:%^VowsRM        PL-ELA/INE_ist ;
+:%^Stress1to2%^PalatalizeLeft%^VowsRM        PL-ILL_ži ;
+:%^VowsRM        PL-ILL_iž ;
+:%^Stress1to2%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
+
 !! 35
 LEXICON NMN_KǞNGA !!= @CODE@ kǟnga:kǟnga 35
 	NMN_KǞNGA-SG ;
