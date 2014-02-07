@@ -1540,7 +1540,6 @@ LEXICON NMN_JǬRA-SG
 :        SG-ELA/INE_st ;
 :        SG-GEN ;
 :%^Stress1to2%^ConsL%^VowsRM    SG-ILL_õ ;
-! SG-INE ;
 :        SG-INS_ks ;
 :        SG-NOM  ;
 :%^Stress1to2%^ConsL%^VowsRM    SG-PAR_õ ;
@@ -1556,9 +1555,19 @@ LEXICON NMN_PŪOLA !!= @CODE@ pūola:pūola 45
 	NMN_PŪOLA-SG	;
 	NMN_PŪOLA-PL	;
 LEXICON NMN_PŪOLA-SG !!= @CODE@ pūola:pūola 45
-+TYÄ: #;
+        SG-DAT_n ;
+        SG-ELA/INE_st ;
+        SG-GEN ;
+:%^Stress1to2%^ConsL    SG-ILL_ZERO ;
+        SG-INS_ks ;
+        SG-NOM  ;
+:%^Stress1to2%^ConsL%^VowsRM    SG-PAR_õ ;
+
 LEXICON NMN_PŪOLA-PL !!= @CODE@ pūola:pūola 45
-+TYÄ: #;
+        PL-INS_DÕKS-STEM ;
+:%^VowsRM        PL-ELA/INE_ist ;
+:%^VowsRM        PL-ILL_iž ;
+:%^VowsRM        PL-PAR_idi ;
 
 
 
@@ -2146,9 +2155,17 @@ LEXICON NMN_PAŅ !!= @CODE@ : 104
 	NMN_PAŅ-SG	;
 	NMN_PAŅ-PL	;
 LEXICON NMN_PAŅ-SG !!= @CODE@ : 104
-+TYÄ: #;
+:%{XC%}              SG-DAT_õn   ;
+        SG-ELA/INE_štõ  ;
+        SG-GEN      ;
+:%{XC%}              SG-ILL_õ    ;
+:%{XC%}              SG-INS_õks  ;
+        SG-NOM      ;
+:%{XC%}              SG-PAR_õ    ;
+
+
 LEXICON NMN_PAŅ-PL !!= @CODE@ : 104
-+TYÄ: #;
+NMN_TÄM-PL ;
 
 
 LEXICON NMN_DAŅTŠ !!= @CODE@ : 105
@@ -2235,7 +2252,7 @@ LEXICON NMN_TÄUŽ-SG !!= @CODE@ : 116
 		     SG-ILL_õ	;
 		     SG-INS_kõks	;
 :%^D2Ž		     SG-NOM	;
-:%^VowsLI1%^D2ZERO     SG-PAR_ta	;
+:%^VowsLI1%^D2ZERO    SG-PAR_ta	;
 
 
 LEXICON NMN_TÄUŽ-PL !!= @CODE@ : 116

@@ -133,7 +133,11 @@ Rules
 
 "ū:ȯ in first syllable"
 !! __@RULENAME@__  
-ū:ȯ <=> # Cns* _   o:  Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+!! {{{
+ū:ȯ <=> # Cns* _   o:  Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+!€# pūol0a%^Stress1to2%^ConsL
+!€# pȯ0llõ00
+!! }}}
 
 "ī:i in first syllable"
 !! __@RULENAME@__  
@@ -237,9 +241,13 @@ a:ā <=> _ [i g | :Cns+] (Vow:) %^VowsLI1:0 ;
 
 "a:0"
 !! __@RULENAME@__  
-a:0 <=> # Cns* Vow:+ ( 0:i ) [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^VowsSh1:0 | ( %^Stress1to2:0 ) %^PalatalizeLeft:0 ] %^VowsRM:0 ;
+a:0 <=> # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^VowsSh1:0 | ( %^Stress1to2:0 ) %^PalatalizeLeft:0 ] %^VowsRM:0 ;
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !€0 jarr0000õ
+!€# pūol0a%^Stress1to2%^ConsL%^VowsRMõ
+!€# pȯ0ll0000õ
+
+
 "õ:0"
 !! __@RULENAME@__  
 õ:0 <=>  [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 | ( %^StodRM:0 ) %^ConsSh:0 | %^VowsLI1:0 ] %^VowsRM:0 ;
@@ -257,9 +265,11 @@ u:0 <=> # Cns:* [ õ: | ä: ]  _ Cns:+ (Vow:) %^VowsLI1:0 ;
 
 "o:0 in second position of first-syllable diphthong"
 !! __@RULENAME@__  
-o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (Vow:) [ %^Stress1to2:0 ] ;
-
-
+!! {{{
+o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
+!€# pūol0a%^Stress1to2%^ConsL
+!€# pȯ0llõ00
+!! }}}
 
 !! !Zero to vowel
 
@@ -298,7 +308,7 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (Vow:) [ %^Stress1to2:0 ] ;
 "lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ"
 !! __@RULENAME@__  
  0:Cx <=> 
- # Cns* Vow ( ʼ: ) Cx _ Vow: (Cns:) [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
+ # Cns* Vow: (o:) ( ʼ: ) Cx _ Vow: (Cns:) [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
  # Cns* Vow ( ʼ: ) Cx _ [ %^ConsL:0 ] ;
 ! Cx _ Vow: %^ConsL:0  [ # | %> | %^VowsRM:0 %> :Vow ] ;
 ! Cx _ Vow: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vow ] ;
@@ -309,6 +319,8 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (Vow:) [ %^Stress1to2:0 ] ;
 !0  kaʼllõ0
 !€  rik0āz%^Stress2to1%^ConsRM
 !0  rikkõ000
+!€# pūol0a%^Stress1to2%^ConsL
+!€# pȯ0llõ00
 
 
 
