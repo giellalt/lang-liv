@@ -157,6 +157,10 @@ e:ē<=> # Cns* _  ( i: ) :Cns+ Vow: %^VowsLI1:0 ;
 !! __@RULENAME@__  
 õ:ȭ <=> # Cns* _  ( u: ) :Cns+ Vow: %^VowsLI1:0 ;
 
+"ȯ:ū in first syllable"
+!! __@RULENAME@__  
+ȯ:ū <=> # Cns* _  0: i:  Cns:+ (Vow:) %^VowsLI1:0  ;
+
 "ä:ǟ in first syllable"
 !! __@RULENAME@__  
 ä:ǟ <=> # Cns:* _  ( u: ) Cns:+ (Vow:) %^VowsLI1:0 ;
@@ -168,6 +172,12 @@ e:ē<=> # Cns* _  ( i: ) :Cns+ Vow: %^VowsLI1:0 ;
 "0:u after shortened vowel or diphthong"
 !! __@RULENAME@__  
 0:u <=> # Cns* [ ō: ] _ Cns:+ (Vow:) [ %^Stress1to2:0 ] ;
+
+"0:o after shortened vowel or diphthong"
+!! __@RULENAME@__  
+0:o <=> # Cns*  ȯ: _ (i:) Cns:+ (Vow:) [ %^VowsLI1:0 ] ;
+
+
 
 "a:ǭ in first syllable"
 !! __@RULENAME@__  
@@ -237,8 +247,9 @@ a:0 <=> # Cns* Vow:+ ( 0:i ) [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:
 
 "i:0 in first syllable"
 !! __@RULENAME@__  
-i:0 <=>  # Cns* e:  _ :Cns+ Vow: %^VowsLI1:0 ; 
+i:0 <=>  # Cns* [ e: | ȯ: (0:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ; 
  # Cns:* Vow:+ (ʼ:) [ CnsWithStod :0* | i g ] _ (%^StodRM:) (%^ConsSh:) %^VowsRM: ;
+
 
 "u:0 in second position of first-syllable diphthong"
 !! __@RULENAME@__  
@@ -400,7 +411,12 @@ k:0 <=> s _ Vow: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
 
 "s:š palatalization"
 !! __@RULENAME@__  
+!! {{{
 s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
+        # Cns* ȯ:  0: i: _ Cns:* (Vow:) %^VowsLI1:0 ;
+!€# pȯ0is%^VowsLI1õd
+!€0 pūo0š0õd
+!! }}}
 
 "ǟ:ē palatalization"
 !! __@RULENAME@__  
