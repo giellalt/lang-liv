@@ -877,7 +877,7 @@ LEXICON N_TŪĻ !!= @CODE@ : 214
 LEXICON N_KĒĻ !!= @CODE@ kēļ:kēl 215
 +N:	NMN_KĒĻ	;
 
-LEXICON N_PŪOL !!= @CODE@ : 216
+LEXICON N_PŪOL !!= @CODE@ : 216 pūol:pūol
 +N:	NMN_PŪOL	;
 
 LEXICON N_PŪOL-PL !!= @CODE@ : 216
@@ -3427,9 +3427,20 @@ LEXICON NMN_PŪOL !!= @CODE@ : 216
 	NMN_PŪOL-SG	;
 	NMN_PŪOL-PL	;
 LEXICON NMN_PŪOL-SG !!= @CODE@ : 216
-+TYÄ: #;
+        SG-DAT_õn       ;
+        SG-ELA/INE_stõ  ;
+        SG-GEN  ;
+        SG-ILL_õ        ;
+        SG-INS_kõks     ;
+        SG-NOM  ;
+        SG-PAR_dõ ;
+
 LEXICON NMN_PŪOL-PL !!= @CODE@ : 216
-+TYÄ: #;
+        PL-INS_DKÕKS-STEM   ;
+:%^PalatalizeLeft     PL-ELA/INE_šti   ;
+:%^PalatalizeLeft     PL-ILL_iž   ;
+:%^PalatalizeLeft     PL-PAR_i   ;
+
 
 LEXICON NMN_ĪKŠ !!= @CODE@ : 217
 	NMN_ĪKŠ-SG	;
