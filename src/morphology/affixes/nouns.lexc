@@ -385,8 +385,14 @@ LEXICON N_SPLEIŠ !!= @CODE@ : 107
 LEXICON N_VEIS !!= @CODE@ : 108
 +N:	NMN_VEIS	;
 
-LEXICON N_PȮIS !!= @CODE@ : 109
-+N:	NMN_PȮIS	;
+LEXICON N_PȮIS !!= @CODE@ : 109 pȯis:pȯis
+!!= * Yaml: __N-pois__
+ N_PȮIS-SG ;
+ N_PȮIS-PL ;
+LEXICON N_PȮIS-SG
++N:	NMN_PȮIS-SG	;
+LEXICON N_PȮIS-PL
++N:	NMN_PȮIS-PL	;
 
 LEXICON N_KIĻG !!= @CODE@ : 110
 +N:	NMN_KIĻG	;
@@ -2172,13 +2178,23 @@ LEXICON NMN_VEIS-PL !!= @CODE@ : 108
 +TYÄ: #;
 
 
-LEXICON NMN_PȮIS !!= @CODE@ : 109
+LEXICON NMN_PȮIS !!= @CODE@ : 109 pȯis:pȯis
 	NMN_PȮIS-SG	;
 	NMN_PȮIS-PL	;
 LEXICON NMN_PȮIS-SG !!= @CODE@ : 109
-+TYÄ: #;
+        SG-DAT_õn   ;
+        SG-ELA/INE_õst  ;
+        SG-GEN      ;
+        SG-ILL_õ    ;
+        SG-INS_õks  ;
+        SG-NOM      ;
+        SG-PAR_õ    ;
+
 LEXICON NMN_PȮIS-PL !!= @CODE@ : 109
-+TYÄ: #;
+:%^VowsLI1 PL-INS_ÕDÕKS-STEM       ;
+:%^VowsLI1 PL-ELA/INE_ist  ;
+:%^VowsLI1 PL-ILL_iz       ;
+:%^VowsLI1 PL-PAR_idi      ;
 
 
 LEXICON NMN_KIĻG !!= @CODE@ : 110
