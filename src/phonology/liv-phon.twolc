@@ -157,6 +157,12 @@ Rules
 !! __@RULENAME@__  
 e:ē<=> # Cns* _  ( i: ) :Cns+ Vow: %^VowsLI1:0 ;
 
+"u:ū in first syllable"
+!! __@RULENAME@__  
+u:ū <=> # Cns* _  ( i: ) :Cns+ (Vow:) %^VowsLI1:0 ;
+!€# ul%^VowsLI1>õd
+!€0 ūl00õd
+
 "õ:ȭ in first syllable"
 !! __@RULENAME@__  
 õ:ȭ <=> # Cns* _  ( u: ) :Cns+ Vow: %^VowsLI1:0 ;
