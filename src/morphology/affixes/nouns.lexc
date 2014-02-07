@@ -2104,10 +2104,15 @@ LEXICON NMN_UL !!= @CODE@ : 99
 	NMN_UL-SG	;
 	NMN_UL-PL	;
 LEXICON NMN_UL-SG !!= @CODE@ : 99
-+TYÄ: #;
+:%{XC%}        SG-DAT_õn   ;
+        SG-ELA/INE_stõ    ;
+        SG-GEN      ;
+:%{XC%}        SG-ILL_õ    ;
+:%{XC%}        SG-INS_õks ;
+        SG-NOM      ;
+:%{XC%}        SG-PAR_õ    ;
 LEXICON NMN_UL-PL !!= @CODE@ : 99
-+TYÄ: #;
-
+ NMN_KAND-PL ;
 
 LEXICON NMN_PAN !!= @CODE@ : 100
 	NMN_PAN-SG	;
