@@ -330,7 +330,7 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !! __@RULENAME@__
  %{XC%}:Cx <=> 
 !# Cns* Vow ( ʼ: ) Cx _ Vow: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] 
-  # Cns* [ a | ä | õ | u | i ] ( ʼ: ) Cx _ [ %> õ ] ;
+  # Cns* [ a | ä | õ | u | i ] ( ʼ: ) Cx _ [ %> õ | %> i ] ;
          where Cx in (p t k b d g l ļ m n ņ r ŗ š v z ž ) ;
 
 !"%{XC%}:š"

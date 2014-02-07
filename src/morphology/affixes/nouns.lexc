@@ -549,8 +549,13 @@ LEXICON N_JAĻKŠ !!= @CODE@ : 143
 LEXICON N_JAĻKŠ-PL	!!= @CODE@ : 143
 +N:     NMN_JAĻKŠ-PL   ;
 
-LEXICON N_VIŠ !!= @CODE@ : 144
-+N:	NMN_VIŠ	;
+LEXICON N_VIŠ !!= @CODE@ : 144 viš:viš
+	N_VIŠ-SG	;
+	N_VIŠ-PL	;
+LEXICON N_VIŠ-SG !!= @CODE@ : 144
++N:	NMN_VIŠ-SG	;
+LEXICON N_VIŠ-PL !!= @CODE@ : 144
++N:	NMN_VIŠ-PL	;
 
 LEXICON N_RŪʼTŠ !!= @CODE@ rūʼtš:rūtš 145
 +N:	NMN_RŪʼTŠ	;
@@ -1379,7 +1384,7 @@ LEXICON NMN_ĀIGA-PL
 :%^VowsRM        PL-ELA/INE_ist ;
 :%^Stress1to2%^VowsRM        PL-ILL_ži ;
 :%^VowsRM        PL-ILL_iž ;
-:%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
+:%^Stress1to2%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
 
 !! 33b LĀNGA
 LEXICON NMN_LĀNGA
@@ -2658,9 +2663,9 @@ LEXICON NMN_VIŠ !!= @CODE@ : 144
 	NMN_VIŠ-SG	;
 	NMN_VIŠ-PL	;
 LEXICON NMN_VIŠ-SG !!= @CODE@ : 144
-+TYÄ: #;
+NMN_JAĻKŠ-SG ;
 LEXICON NMN_VIŠ-PL !!= @CODE@ : 144
-+TYÄ: #;
+NMN_JAĻKŠ-PL ;
 
 
 
