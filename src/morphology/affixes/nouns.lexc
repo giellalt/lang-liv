@@ -3463,7 +3463,11 @@ LEXICON NMN_PŪOL-SG !!= @CODE@ : 216
         SG-PAR_dõ ;
 
 LEXICON NMN_PŪOL-PL !!= @CODE@ : 216
-        PL-INS_DKÕKS-STEM   ;
+!        PL-INS_DKÕKS-STEM   ;
+        PL-DAT_õn ;
+        PL-GEN_d ;
+        PL-INS_kõks ;
+        PL-NOM_d ;
 :%^PalatalizeLeft     PL-ELA/INE_šti   ;
 :%^PalatalizeLeft     PL-ILL_iž   ;
 :%^PalatalizeLeft     PL-PAR_i   ;
@@ -3959,6 +3963,9 @@ LEXICON SG-PAR_ța
 LEXICON PL-DAT_dõn
 +Pl+Dat:%>dõn K ;
 
+LEXICON PL-DAT_õn !!= * __@CODE@__ This is peculiar to NMN_PŪOL-PL 216
++Pl+Dat:%>õn K ;
+
 LEXICON PL-DAT_õdõn
 +Pl+Dat:%>õdõn K ;
 
@@ -4077,6 +4084,9 @@ LEXICON PL-INS_õdõks
 
 LEXICON PL-INS_dkõks
 +Pl+Ins:%>dkõks K ;
+
+LEXICON PL-INS_kõks !!= * __@CODE@__ This is peculiar to NMN_PŪOL-PL  216
++Pl+Ins:%>kõks K ;
 
 LEXICON PL-NOM_d
 +Pl+Nom:%>d K ;
