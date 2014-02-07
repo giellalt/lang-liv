@@ -436,5 +436,5 @@ s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 
 "a:ä palatalization"
 !! __@RULENAME@__  
-a:ä <=> _ ( 0: ) :Cns+ %^PalatalizeLeft:0 [ # | %> ] ;
+a:ä <=> # Cns*  _ ( 0: ) :Cns+ %^PalatalizeLeft:0 [ # | %> ] ;
 
