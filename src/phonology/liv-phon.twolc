@@ -237,7 +237,7 @@ a:ā <=> _ [i g | :Cns+] (Vow:) %^VowsLI1:0 ;
 
 "a:0"
 !! __@RULENAME@__  
-a:0 <=> # Cns* Vow:+ ( 0:i ) [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^VowsSh1:0 | %^PalatalizeLeft:0 ] %^VowsRM:0 ;
+a:0 <=> # Cns* Vow:+ ( 0:i ) [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^VowsSh1:0 | ( %^Stress1to2:0 ) %^PalatalizeLeft:0 ] %^VowsRM:0 ;
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !€0 jarr0000õ
 "õ:0"
@@ -348,7 +348,7 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (Vow:) [ %^Stress1to2:0 ] ;
 "l:ļ"
 !! __@RULENAME@__  
 l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
-        _ m Vow: %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
+        _ m Vow: (%^Stress1to2:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
 	_ %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 
