@@ -2948,9 +2948,11 @@ LEXICON NMN_MAIGĀZ-SG !!= @CODE@ : 169
 
 LEXICON NMN_MAIGĀZ-PL !!= @CODE@ : 169
 :%^StodRM%^ConsRM        PL-INS_DÕKS-STEM ;
-:%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_ist ; !!= @CODE@ not same as 2012
+:%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_īst ; !!= @CODE@ not same as 2012
+!:%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_ist ; 
 :%^StodRM%^VowsRM%^ConsRM        PL-ILL_īž ;
-:%^StodRM%^VowsRM%^ConsRM        PL-PAR_idi ; !!= @CODE@ not same as 2012
+:%^StodRM%^VowsRM%^ConsRM        PL-PAR_īdi ; !!= @CODE@ not same as 2012
+!:%^StodRM%^VowsRM%^ConsRM        PL-PAR_idi ;
 
 LEXICON NMN_NÕTKĀZ !!= @CODE@ : 170
 	NMN_NÕTKĀZ-SG	;
