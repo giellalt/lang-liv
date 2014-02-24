@@ -1838,9 +1838,10 @@ __72__
  :%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_īst ;  not same as 2012
  :%^StodRM%^VowsRM%^ConsRM        PL-PAR_īdi ;  not same as 2012
 
- LEXICON NMN_NÕTKĀZ  : 170
+ LEXICON NMN_NÕTKĀZ  : 170 nõtkāz:nõtkā
  LEXICON NMN_NÕTKĀZ-SG  : 170
- 	NMN_MAIGĀZ-SG ;  : 169
+ !	NMN_MAIGĀZ-SG ;  : 169
+
 
  LEXICON NMN_NÕTKĀZ-PL  : 170
          NMN_RIKĀZ-PL    ;  rikāz: 171
@@ -1855,7 +1856,6 @@ __72__
  LEXICON NMN_BIKŠĀZ-SG  : 172 bikšāz:bikšā
  	NMN_RIKĀZ-SG    ;  : 171
  LEXICON NMN_BIKŠĀZ-PL  : 172
- !        NMN_RIKĀZ-PL    ;  : 171
 
 
  LEXICON NMN_ĀMBAZ  : 173 āmbaz:āmba
@@ -1871,7 +1871,7 @@ __72__
  NMN_ĀMBAZ-PL     ;  : 173
 
 
- LEXICON NMN_PǬĻAZ  : 175 pǭļaz:pǭļa
+ LEXICON NMN_PǬĻAZ  : 175 pǭļaz:pǭļļa
  LEXICON NMN_PǬĻAZ-SG  : 175
  !NMN_ĀMBAZ-SG     ;  : 173
 
@@ -1970,9 +1970,10 @@ __16__
  LEXICON NMN_OUKI-SG  : 197
  LEXICON NMN_OUKI-PL  : 197
 
- LEXICON NMN_PAŖĪ  : 198
+ LEXICON NMN_PAŖĪ  : 198 paŗī:paŗŗī
  LEXICON NMN_PAŖĪ-SG  : 198
- NMN_TŪĻI-SG     ;  : 199
+ !NMN_TŪĻI-SG     ;  : 199
+
  LEXICON NMN_PAŖĪ-PL  : 198
  !NMN_TŪĻI-PL     ;  : 199
  :ž 	PL-PAR_i ;  paŗrīži ?
