@@ -59,14 +59,21 @@ K1:k       !!= * @CODE@ this k is not effected by gradation
 %^VowsL1:0    !!= * @CODE@ vowel lengthening 
 %^DiphthL1:0  !!= * @CODE@ 
 
+%^LongV2Õin2:0   !!= * @CODE@ long vowel to õ in second syllable
+
+%^Vow2Iin2:0   !!= * @CODE@ vowel to i or ī in second syllable
+
 !! vowel metathesis
 %^VowsMetath:0
+
+
 
 %^StodRM:0
 
 %^ConsSh:0
 %^ConsL:0 !!  * @CODE@ lengthen consonant
 %^1Sh2L:0
+
 
 %^Stress1to2:0
 %^Stress2to1:0
@@ -117,6 +124,13 @@ Rules
 "ā:a in first syllable"
 !! __@RULENAME@__  
 ā:a <=> # Cns* _  ( i ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 ] ;
+
+"ā:ī in second syllable plural"
+!! __@RULENAME@__
+ā:ī <=>  _ ( %^ConsSh: ) %^Vow2Iin2: ; 
+!# Cns* Vow [ ʼ: | :ʼ ] [ :Cns | Cns: ] _ (%^ConsSh:) %^Vow2Iin2: ;
+!€# rikkā%^ConsSh%^Vow2Iin2>di
+!€# rik0ī000di
 
 "ǭ:a in first syllable"
 !! __@RULENAME@__  
@@ -436,6 +450,8 @@ t:0 <=>
 !! __@RULENAME@__  
 k:0 <=> s _ Vow: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
        # Cns* Vow ( ʼ: ) k _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
+!€# rikkā%^ConsSh%^Vow2Iin2di
+!€# rik0ī00di
 
 "ț:0"
 !! __@RULENAME@__  

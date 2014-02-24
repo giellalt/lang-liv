@@ -1351,8 +1351,10 @@ __72__
 
 
  LEXICON NMN_BIKŠĀZ  : 172
- LEXICON NMN_BIKŠĀZ-SG  : 172
+ LEXICON NMN_BIKŠĀZ-SG  : 172 bikšāz:bikšā
+ 	NMN_RIKĀZ-SG    ;  : 171
  LEXICON NMN_BIKŠĀZ-PL  : 172
+ !        NMN_RIKĀZ-PL    ;  : 171
 
 
  LEXICON NMN_ĀMBAZ  : 173 āmbaz:āmba
@@ -1361,7 +1363,7 @@ __72__
  LEXICON NMN_ĀMBAZ-PL  : 173
 
 
- LEXICON NMN_PŪŖAZ  : 174 pūŗaz:pūŗa
+ LEXICON NMN_PŪŖAZ  : 174 pūŗaz:pūŗŗa
  LEXICON NMN_PŪŖAZ-SG  : 174
  NMN_ĀMBAZ-SG     ;  : 173 
  LEXICON NMN_PŪŖAZ-PL  : 174
@@ -1708,9 +1710,12 @@ above as pair in SG-ELA/INE_st
 
 
 
+
 Is this correct?
 
 Is this correct?
+
+
 
 
 
