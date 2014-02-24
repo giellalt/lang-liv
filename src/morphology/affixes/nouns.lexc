@@ -2954,11 +2954,20 @@ LEXICON NMN_MAIGĀZ-PL !!= @CODE@ : 169
 :%^StodRM%^VowsRM%^ConsRM        PL-PAR_īdi ; !!= @CODE@ not same as 2012
 !:%^StodRM%^VowsRM%^ConsRM        PL-PAR_idi ;
 
-LEXICON NMN_NÕTKĀZ !!= @CODE@ : 170
+LEXICON NMN_NÕTKĀZ !!= @CODE@ : 170 nõtkāz:nõtkā
 	NMN_NÕTKĀZ-SG	;
 	NMN_NÕTKĀZ-PL	;
 LEXICON NMN_NÕTKĀZ-SG !!= @CODE@ : 170
-	NMN_MAIGĀZ-SG ; !!= @CODE@ : 169
+!	NMN_MAIGĀZ-SG ; !!= @CODE@ : 169
+        SG-DAT_n ;
+:%^ConsSh        SG-ELA/INE_st ;
+:%^Stress2to1        SG-GEN ;
+:%^Stress2to1        SG-ILL_ZERO ;
+:%^Stress2to1%>z        SG-ILL_ZERO ;
+        SG-INS_ks ;
+:%^ConsShz        SG-NOM  ;
+:%^ConsShz        SG-PAR_t ;
+
 
 LEXICON NMN_NÕTKĀZ-PL !!= @CODE@ : 170
         NMN_RIKĀZ-PL    ; !!= @CODE@ rikāz: 171
@@ -3025,7 +3034,7 @@ LEXICON NMN_PŪŖAZ-PL !!= @CODE@ : 174
 NMN_ĀMBAZ-PL     ; !!= @CODE@ : 173
 
 
-LEXICON NMN_PǬĻAZ !!= @CODE@ : 175 pǭļaz:pǭļa
+LEXICON NMN_PǬĻAZ !!= @CODE@ : 175 pǭļaz:pǭļļa
 	NMN_PǬĻAZ-SG	;
 	NMN_PǬĻAZ-PL	;
 LEXICON NMN_PǬĻAZ-SG !!= @CODE@ : 175
@@ -3279,16 +3288,24 @@ NMN_AIGI-SG ;
 LEXICON NMN_OUKI-PL !!= @CODE@ : 197
 NMN_AIGI-PL ;
 
-LEXICON NMN_PAŖĪ !!= @CODE@ : 198
+LEXICON NMN_PAŖĪ !!= @CODE@ : 198 paŗī:paŗŗī
 	NMN_PAŖĪ-SG	;
 	NMN_PAŖĪ-PL	;
 LEXICON NMN_PAŖĪ-SG !!= @CODE@ : 198
-NMN_TŪĻI-SG     ; !!= @CODE@ : 199
+!NMN_TŪĻI-SG     ; !!= @CODE@ : 199
+:%^ConsShz        SG-DAT_õn ;
+:%^ConsShz       	SG-ELA/INE_õst ;
+:%^ConsShz        SG-GEN ;
+:%^ConsShz  	SG-ILL_õ ;
+:%^ConsShz        SG-INS_õks ;
+:%^ConsSh	SG-NOM  ;
+:%^ConsShz    	SG-PAR_t ;
+
 LEXICON NMN_PAŖĪ-PL !!= @CODE@ : 198
 !NMN_TŪĻI-PL     ; !!= @CODE@ : 199
-:z 	PL-INS_DÕKS-STEM ;
-:ž 	PL-ELA/INE_ist ;
-:ž 	PL-ILL_iz ;
+:%^ConsShz 	PL-INS_DÕKS-STEM ;
+:%^ConsShž 	PL-ELA/INE_ist ;
+:%^ConsShž 	PL-ILL_iz ;
 :ž 	PL-PAR_i ; !!= @CODE@ paŗrīži ?
 
 
