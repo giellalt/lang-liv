@@ -2959,40 +2959,40 @@ LEXICON NMN_NÕTKĀZ !!= @CODE@ : 170
 	NMN_NÕTKĀZ-PL	;
 LEXICON NMN_NÕTKĀZ-SG !!= @CODE@ : 170
 	NMN_MAIGĀZ-SG ; !!= @CODE@ : 169
+
 LEXICON NMN_NÕTKĀZ-PL !!= @CODE@ : 170
         NMN_RIKĀZ-PL    ; !!= @CODE@ rikāz: 171
-
 
 LEXICON NMN_RIKĀZ !!= @CODE@ rikāz: 171
 	NMN_RIKĀZ-SG	;
 	NMN_RIKĀZ-PL	;
-LEXICON NMN_RIKĀZ-SG !!= @CODE@ rikāz: 171
-:%^StodRM%^ConsRM        SG-DAT_n ;
-:%^StodRM%^ConsRM        SG-ELA/INE_st ;
-:%^Stress2to1%^ConsRM        SG-GEN ;
+LEXICON NMN_RIKĀZ-SG !!= @CODE@ rikāz:rikkā 171
+:%^Stress2to1        SG-DAT_n ;
+:%^ConsSh        SG-ELA/INE_st ;
+:%^Stress2to1        SG-GEN ;
 :%^Stress2to1        SG-ILL_ZERO ;
-:%^Stress2to1%^ConsRM        SG-ILL_ZERO ;
-:%^StodRM%^ConsRM        SG-INS_ks ;
-:%^StodRM        SG-NOM  ;
-:%^StodRM        SG-PAR_t ;
+:%^Stress2to1%>z        SG-ILL_ZERO ;
+:%^Stress2to1        SG-INS_ks ;
+:%^ConsShz        SG-NOM  ;
+:%^ConsShz        SG-PAR_t ;
 
 LEXICON NMN_RIKĀZ-PL !!= @CODE@ rikāz: 171
-:%^Stress2to1%^ConsRM        PL-INS_DÕKS-STEM ;
-:%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_īst ;
-:%^StodRM%^VowsRM%^ConsRM        PL-ILL_īž ;
-:%^StodRM%^VowsRM%^ConsRM        PL-PAR_īdi ;
+:%^Stress2to1        PL-INS_DÕKS-STEM ;
+:%^ConsSh%^VowsRM        PL-ELA/INE_īst ;
+:%^ConsSh%^VowsRM        PL-ILL_īž ;
+:%^ConsSh%^VowsRM        PL-PAR_īdi ;
 
 
 LEXICON NMN_BIKŠĀZ !!= @CODE@ : 172
 	NMN_BIKŠĀZ-SG	;
 	NMN_BIKŠĀZ-PL	;
-LEXICON NMN_BIKŠĀZ-SG !!= @CODE@ : 172
-+TYÄ: #;
+LEXICON NMN_BIKŠĀZ-SG !!= @CODE@ : 172 bikšāz:bikšā
+	NMN_RIKĀZ-SG    ; !!= @CODE@ : 171
 LEXICON NMN_BIKŠĀZ-PL !!= @CODE@ : 172
-+TYÄ: #;
+        NMN_RIKĀZ-PL    ; !!= @CODE@ : 171
 
 
-LEXICON NMN_ĀMBAZ !!= @CODE@ : 173
+LEXICON NMN_ĀMBAZ !!= @CODE@ : 173 āmbaz:āmba
         NMN_ĀMBAZ-SG     ;
         NMN_ĀMBAZ-PL     ;
 
@@ -3013,48 +3013,57 @@ LEXICON NMN_ĀMBAZ-PL !!= @CODE@ : 173
 :%^VowsSh1%^VowsRM 	PL-PAR_idi ;
 
 
-LEXICON NMN_PŪŖAZ !!= @CODE@ : 174
+LEXICON NMN_PŪŖAZ !!= @CODE@ : 174 pūŗaz:pūŗŗa
 	NMN_PŪŖAZ-SG	;
 	NMN_PŪŖAZ-PL	;
 LEXICON NMN_PŪŖAZ-SG !!= @CODE@ : 174
-+TYÄ: #;
+NMN_ĀMBAZ-SG     ; !!= @CODE@ : 173 
 LEXICON NMN_PŪŖAZ-PL !!= @CODE@ : 174
-+TYÄ: #;
+NMN_ĀMBAZ-PL     ; !!= @CODE@ : 173
 
 
-LEXICON NMN_PǬĻAZ !!= @CODE@ : 175
+LEXICON NMN_PǬĻAZ !!= @CODE@ : 175 pǭļaz:pǭļa
 	NMN_PǬĻAZ-SG	;
 	NMN_PǬĻAZ-PL	;
 LEXICON NMN_PǬĻAZ-SG !!= @CODE@ : 175
-+TYÄ: #;
+!NMN_ĀMBAZ-SG     ; !!= @CODE@ : 173
+:%^VowsSh1%^VowsRM%>õ        SG-DAT_n ;
+:%^VowsSh1%^VowsRM%>õ       	SG-ELA/INE_st ;
+:%^Stress1to2%^ConsL        SG-GEN ;
+:%^VowsSh1%^VowsRM%>õ  	SG-ILL_ZERO ;
+:%^VowsSh1%^VowsRM%>õ  	SG-ILL_z ;
+:%^VowsSh1%^VowsRM%>õ        SG-INS_ks ;
+:z	SG-NOM  ;
+:z    	SG-PAR_t ;
+
 LEXICON NMN_PǬĻAZ-PL !!= @CODE@ : 175
-+TYÄ: #;
+NMN_ĀMBAZ-PL     ; !!= @CODE@ : 173
 
 
-LEXICON NMN_RĒNAZ !!= @CODE@ : 176
+LEXICON NMN_RĒNAZ !!= @CODE@ : 176 rēnaz:rēna
 	NMN_RĒNAZ-SG	;
 	NMN_RĒNAZ-PL	;
 LEXICON NMN_RĒNAZ-SG !!= @CODE@ : 176
-+TYÄ: #;
+NMN_ĀMBAZ-SG     ; !!= @CODE@ : 173
 LEXICON NMN_RĒNAZ-PL !!= @CODE@ : 176
-+TYÄ: #;
+NMN_ĀMBAZ-PL     ; !!= @CODE@ : 173
 
-LEXICON NMN_TŌVAZ !!= @CODE@ : 177
+LEXICON NMN_TŌVAZ !!= @CODE@ : 177 tōvaz:tōva
 	NMN_TŌVAZ-SG	;
 	NMN_TŌVAZ-PL	;
 LEXICON NMN_TŌVAZ-SG !!= @CODE@ : 177
-+TYÄ: #;
+NMN_ĀMBAZ-SG     ; !!= @CODE@ : 173
 LEXICON NMN_TŌVAZ-PL !!= @CODE@ : 177
-+TYÄ: #;
+NMN_ĀMBAZ-PL     ; !!= @CODE@ : 173
 
 
-LEXICON NMN_PŪORAZ !!= @CODE@ pūoraz: 178
+LEXICON NMN_PŪORAZ !!= @CODE@ pūoraz:pūora 178
 	NMN_PŪORAZ-SG	;
 	NMN_PŪORAZ-PL	;
 LEXICON NMN_PŪORAZ-SG !!= @CODE@ pūoraz: 178
-+TYÄ: #;
+NMN_ĀMBAZ-SG     ; !!= @CODE@ : 173
 LEXICON NMN_PŪORAZ-PL !!= @CODE@ pūoraz: 178
-+TYÄ: #;
+NMN_ĀMBAZ-PL     ; !!= @CODE@ : 173
 
 
 
@@ -3263,18 +3272,21 @@ LEXICON NMN_OUKI !!= @CODE@ : 197
 	NMN_OUKI-SG	;
 	NMN_OUKI-PL	;
 LEXICON NMN_OUKI-SG !!= @CODE@ : 197
-+TYÄ: #;
+NMN_AIGI-SG ;
 LEXICON NMN_OUKI-PL !!= @CODE@ : 197
-+TYÄ: #;
-
+NMN_AIGI-PL ;
 
 LEXICON NMN_PAŖĪ !!= @CODE@ : 198
 	NMN_PAŖĪ-SG	;
 	NMN_PAŖĪ-PL	;
 LEXICON NMN_PAŖĪ-SG !!= @CODE@ : 198
-+TYÄ: #;
+NMN_TŪĻI-SG     ; !!= @CODE@ : 199
 LEXICON NMN_PAŖĪ-PL !!= @CODE@ : 198
-+TYÄ: #;
+!NMN_TŪĻI-PL     ; !!= @CODE@ : 199
+:z 	PL-INS_DÕKS-STEM ;
+:ž 	PL-ELA/INE_ist ;
+:ž 	PL-ILL_iz ;
+:ž 	PL-PAR_i ; !!= @CODE@ paŗrīži ?
 
 
 

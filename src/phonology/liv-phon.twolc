@@ -122,6 +122,7 @@ Rules
 !! __@RULENAME@__  
 ǭ:a <=> # Cns* _  ( i ) :Cns+ Vow: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
 
+
 "ē:e in first syllable"
 !! __@RULENAME@__  
 ē:e <=> # Cns* _  ( :i ) :Cns+ Vow: [ %^VowsShI1:0 | %^Stress1to2:0 | %^VowsSh1:0 ] ;
@@ -201,6 +202,12 @@ a:ā <=> _ [i g | :Cns+] (Vow:) %^VowsLI1:0 ;
 !€# kand%^VowsLI1õd
 !€0 kāndõd
 
+"o:ō in first syllable"
+!! __@RULENAME@__  
+o:ō <=> _ [i g | (u:) :Cns+] (Vow:) %^VowsLI1:0 ;
+!€# ouki%^VowsLI1z
+!€0 ō0ki0z
+
 !! raise vowels
 "ē:ī in kēļ 215"
 !! __@RULENAME@__  
@@ -211,10 +218,15 @@ a:ā <=> _ [i g | :Cns+] (Vow:) %^VowsLI1:0 ;
 "ā:õ "
 !! __@RULENAME@__  
 ā:õ <=>  _ ( %^ConsL:0 ) %^Stress2to1:0 [ # | %> ] ;
-     # Cns* [ Vow | ʼ: | :ʼ ]+ Cns (0:Cns) _ z: %^Stress2to1:0  ;
+     # Cns* [ Vow | ʼ: | :ʼ ]+ [ Cns (0:Cns)| Cns+ ] _ z: %^Stress2to1:0  ;
 !# Cns* Vow ( 0: ) :Cns+ _ %^Stress2to1:0 [ # | %> ] ;
 !€  rik0āz%^Stress2to1%^ConsRM
 !0  rikkõ000
+
+"a:õ "
+!! __@RULENAME@__
+a:õ <=>  _ ( %^ConsL:0 ) %^Stress2to1:0 [ # | %> ] ;
+     # Cns* [ Vow: | ʼ: | :ʼ ]+ [ Cns (0:Cns)| Cns+ ] _ [ %^Stress1to2:0  (%^ConsL:) ] [ # | %> ]  ;
 
 "ū:õ "
 !! __@RULENAME@__  
@@ -228,7 +240,7 @@ a:ā <=> _ [i g | :Cns+] (Vow:) %^VowsLI1:0 ;
 
 "ā:0"
 !! __@RULENAME@__  
-ā:0 <=> # Cns* [ Vow | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+ā:0 <=> # Cns* [ Vow | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 | %^ConsSh:) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 ! # Cns* Vow ( ʼ: | :ʼ ) [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
        # Cns* [ Vow | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ Cns: %^StodRM: %^VowsRM: %^ConsRM: ;
 !€# maʼigāz%^StodRM%^VowsRM%^ConsRM>īst
@@ -267,7 +279,9 @@ i:0 <=>  # Cns* [ e: | ȯ: (0:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ;
 
 "u:0 in second position of first-syllable diphthong"
 !! __@RULENAME@__  
-u:0 <=> # Cns:* [ õ: | ä: ]  _ Cns:+ (Vow:) %^VowsLI1:0 ;
+u:0 <=> # Cns:* [ õ: | ä: | o: ]  _ Cns:+ (Vow:) %^VowsLI1:0 ;
+!€# ouki%^VowsLI1z
+!€0 ō0ki0z
 
 "o:0 in second position of first-syllable diphthong"
 !! __@RULENAME@__  
