@@ -1835,12 +1835,12 @@ __72__
  LEXICON NMN_NÕTKĀZ  : 170
  LEXICON NMN_NÕTKĀZ-SG  : 170
  	NMN_MAIGĀZ-SG ;  : 169
+
  LEXICON NMN_NÕTKĀZ-PL  : 170
          NMN_RIKĀZ-PL    ;  rikāz: 171
 
-
  LEXICON NMN_RIKĀZ  rikāz: 171
- LEXICON NMN_RIKĀZ-SG  rikāz: 171
+ LEXICON NMN_RIKĀZ-SG  rikāz:rikkā 171
 
  LEXICON NMN_RIKĀZ-PL  rikāz: 171
 
@@ -1850,34 +1850,45 @@ __72__
  LEXICON NMN_BIKŠĀZ-PL  : 172
 
 
- LEXICON NMN_ĀMBAZ  : 173
+ LEXICON NMN_ĀMBAZ  : 173 āmbaz:āmba
 
 
  LEXICON NMN_ĀMBAZ-PL  : 173
 
 
- LEXICON NMN_PŪŖAZ  : 174
+ LEXICON NMN_PŪŖAZ  : 174 pūŗaz:pūŗa
  LEXICON NMN_PŪŖAZ-SG  : 174
+ NMN_ĀMBAZ-SG     ;  : 173 
  LEXICON NMN_PŪŖAZ-PL  : 174
+ NMN_ĀMBAZ-PL     ;  : 173
 
 
- LEXICON NMN_PǬĻAZ  : 175
+ LEXICON NMN_PǬĻAZ  : 175 pǭļaz:pǭļa
  LEXICON NMN_PǬĻAZ-SG  : 175
+ !NMN_ĀMBAZ-SG     ;  : 173
+
  LEXICON NMN_PǬĻAZ-PL  : 175
+ NMN_ĀMBAZ-PL     ;  : 173
 
 
- LEXICON NMN_RĒNAZ  : 176
+ LEXICON NMN_RĒNAZ  : 176 rēnaz:rēna
  LEXICON NMN_RĒNAZ-SG  : 176
+ NMN_ĀMBAZ-SG     ;  : 173
  LEXICON NMN_RĒNAZ-PL  : 176
+ NMN_ĀMBAZ-PL     ;  : 173
 
- LEXICON NMN_TŌVAZ  : 177
+ LEXICON NMN_TŌVAZ  : 177 tōvaz:tōva
  LEXICON NMN_TŌVAZ-SG  : 177
+ NMN_ĀMBAZ-SG     ;  : 173
  LEXICON NMN_TŌVAZ-PL  : 177
+ NMN_ĀMBAZ-PL     ;  : 173
 
 
- LEXICON NMN_PŪORAZ  pūoraz: 178
+ LEXICON NMN_PŪORAZ  pūoraz:pūora 178
  LEXICON NMN_PŪORAZ-SG  pūoraz: 178
+ NMN_ĀMBAZ-SG     ;  : 173
  LEXICON NMN_PŪORAZ-PL  pūoraz: 178
+ NMN_ĀMBAZ-PL     ;  : 173
 
 
 
@@ -1951,10 +1962,12 @@ __16__
  LEXICON NMN_OUKI-SG  : 197
  LEXICON NMN_OUKI-PL  : 197
 
-
  LEXICON NMN_PAŖĪ  : 198
  LEXICON NMN_PAŖĪ-SG  : 198
+ NMN_TŪĻI-SG     ;  : 199
  LEXICON NMN_PAŖĪ-PL  : 198
+ !NMN_TŪĻI-PL     ;  : 199
+ :ž 	PL-PAR_i ;  paŗrīži ?
 
 
 
@@ -2778,6 +2791,7 @@ __ā:a in first syllable__
 
 __ǭ:a in first syllable__  
 
+
 __ē:e in first syllable__  
 
 __ū:u in first syllable__  
@@ -2816,11 +2830,15 @@ __a:ǭ in first syllable__
 
 __a:ā in first syllable__  
 
+__o:ō in first syllable__  
+
 raise vowels
 __ē:ī in kēļ 215__  
 
 Destressing in second syllable
 __ā:õ __  
+
+__a:õ __
 
 __ū:õ __  
 
