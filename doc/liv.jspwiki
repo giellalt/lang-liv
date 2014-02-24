@@ -213,6 +213,12 @@ And following triggers to control variation
  *  %^VowsLI1      = Vowel lengthening
  *  %^VowsLU1      = 
  *  %^VowsL1       =
+ * %^LongV2Õin2    long vowel to õ in second syllable
+
+ * %^Vow2Iin2    vowel to i or ī in second syllable
+
+
+
  *  %^DiphthL1     =
  *  %^D2Ž          = The *ti => *si
  *  %^D2ZERO       The d => 0
@@ -1846,8 +1852,10 @@ __72__
 
 
  LEXICON NMN_BIKŠĀZ  : 172
- LEXICON NMN_BIKŠĀZ-SG  : 172
+ LEXICON NMN_BIKŠĀZ-SG  : 172 bikšāz:bikšā
+ 	NMN_RIKĀZ-SG    ;  : 171
  LEXICON NMN_BIKŠĀZ-PL  : 172
+ !        NMN_RIKĀZ-PL    ;  : 171
 
 
  LEXICON NMN_ĀMBAZ  : 173 āmbaz:āmba
@@ -1856,7 +1864,7 @@ __72__
  LEXICON NMN_ĀMBAZ-PL  : 173
 
 
- LEXICON NMN_PŪŖAZ  : 174 pūŗaz:pūŗa
+ LEXICON NMN_PŪŖAZ  : 174 pūŗaz:pūŗŗa
  LEXICON NMN_PŪŖAZ-SG  : 174
  NMN_ĀMBAZ-SG     ;  : 173 
  LEXICON NMN_PŪŖAZ-PL  : 174
@@ -2203,9 +2211,12 @@ above as pair in SG-ELA/INE_st
 
 
 
+
 Is this correct?
 
 Is this correct?
+
+
 
 
 
@@ -2757,17 +2768,24 @@ Quotative
  * %^VowsL1:0     vowel lengthening 
  * %^DiphthL1:0   
 
+ * %^LongV2Õin2:0    long vowel to õ in second syllable
+
+ * %^Vow2Iin2:0    vowel to i or ī in second syllable
+
 vowel metathesis
 
 
- * %^DiphthL1:0   lengthen consonant
-
- * %^DiphthL1:0   laps:läpš
 
 
- * %^DiphthL1:0   Hyphen in  constructions 
- * %^DiphthL1:0   morpheme boundary
- * %^DiphthL1:0   Word boundary for both lexicalised and dynamic compounds
+ * %^Vow2Iin2:0    lengthen consonant
+
+
+ * %^Vow2Iin2:0    laps:läpš
+
+
+ * %^Vow2Iin2:0    Hyphen in  constructions 
+ * %^Vow2Iin2:0    morpheme boundary
+ * %^Vow2Iin2:0    Word boundary for both lexicalised and dynamic compounds
 
 
 
@@ -2788,6 +2806,8 @@ vowel metathesis
 
 
 __ā:a in first syllable__  
+
+__ā:ī in second syllable plural__
 
 __ǭ:a in first syllable__  
 

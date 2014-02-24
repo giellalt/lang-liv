@@ -48,17 +48,24 @@
  * %^VowsL1:0     vowel lengthening 
  * %^DiphthL1:0   
 
+ * %^LongV2Õin2:0    long vowel to õ in second syllable
+
+ * %^Vow2Iin2:0    vowel to i or ī in second syllable
+
 vowel metathesis
 
 
- * %^DiphthL1:0   lengthen consonant
-
- * %^DiphthL1:0   laps:läpš
 
 
- * %^DiphthL1:0   Hyphen in  constructions 
- * %^DiphthL1:0   morpheme boundary
- * %^DiphthL1:0   Word boundary for both lexicalised and dynamic compounds
+ * %^Vow2Iin2:0    lengthen consonant
+
+
+ * %^Vow2Iin2:0    laps:läpš
+
+
+ * %^Vow2Iin2:0    Hyphen in  constructions 
+ * %^Vow2Iin2:0    morpheme boundary
+ * %^Vow2Iin2:0    Word boundary for both lexicalised and dynamic compounds
 
 
 
@@ -79,6 +86,8 @@ vowel metathesis
 
 
 __ā:a in first syllable__  
+
+__ā:ī in second syllable plural__
 
 __ǭ:a in first syllable__  
 

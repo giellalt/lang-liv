@@ -2978,9 +2978,9 @@ LEXICON NMN_RIKĀZ-SG !!= @CODE@ rikāz:rikkā 171
 
 LEXICON NMN_RIKĀZ-PL !!= @CODE@ rikāz: 171
 :%^Stress2to1        PL-INS_DÕKS-STEM ;
-:%^ConsSh%^VowsRM        PL-ELA/INE_īst ;
-:%^ConsSh%^VowsRM        PL-ILL_īž ;
-:%^ConsSh%^VowsRM        PL-PAR_īdi ;
+:%^ConsSh%^Vow2Iin2        PL-ELA/INE_st ;
+:%^ConsSh%^Vow2Iin2        PL-ILL_ž ;
+:%^ConsSh%^Vow2Iin2        PL-PAR_di ;
 
 
 LEXICON NMN_BIKŠĀZ !!= @CODE@ : 172
@@ -2989,7 +2989,11 @@ LEXICON NMN_BIKŠĀZ !!= @CODE@ : 172
 LEXICON NMN_BIKŠĀZ-SG !!= @CODE@ : 172 bikšāz:bikšā
 	NMN_RIKĀZ-SG    ; !!= @CODE@ : 171
 LEXICON NMN_BIKŠĀZ-PL !!= @CODE@ : 172
-        NMN_RIKĀZ-PL    ; !!= @CODE@ : 171
+!        NMN_RIKĀZ-PL    ; !!= @CODE@ : 171
+:%^Stress2to1        PL-INS_DÕKS-STEM ;
+:%^Vow2Iin2        PL-ELA/INE_st ;
+:%^Vow2Iin2        PL-ILL_ž ;
+:%^Vow2Iin2        PL-PAR_di ;
 
 
 LEXICON NMN_ĀMBAZ !!= @CODE@ : 173 āmbaz:āmba
@@ -3984,6 +3988,10 @@ LEXICON PL-DAT_õdõn
 +Pl+Dat:%>õdõn K ;
 
 !
+LEXICON PL-ELA/INE_st
+	PL-ELA_st	;
+	PL-INE_s	;
+
 LEXICON PL-ELA/INE_õst
 	PL-ELA_õst	;
 	PL-INE_õs	;
@@ -4017,6 +4025,9 @@ LEXICON PL-ELA/INE_št
 	PL-INE_š	;
 
 !
+LEXICON PL-ELA_st
++Pl+Ela:%>st K ;
+
 LEXICON PL-ELA_õst
 +Pl+Ela:%>õst K ;
 
@@ -4074,6 +4085,9 @@ LEXICON PL-INE_iš
 
 LEXICON PL-INE_īš
 +Pl+Ine:%>īš K ;
+
+LEXICON PL-INE_s
++Pl+Ine:%>s K ;
 
 LEXICON PL-INE_õs
 +Pl+Ine:%>õs K ;
