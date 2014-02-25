@@ -1659,9 +1659,22 @@ LEXICON NMN_TĪERA !!= @CODE@ tīera:tīera 54
 	NMN_TĪERA-SG ;
 	NMN_TĪERA-PL ;
 LEXICON NMN_TĪERA-SG !!= @CODE@ tīera:tīera 54
-+TYÄ: #;
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA/INE_st ;
+:%^StodRM        SG-GEN ;
+:%^Stress1to2%^VowsRM    SG-ILL_õ ;
+! SG-INE ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^Stress1to2%^VowsRM    SG-PAR_õ ;
+
 LEXICON NMN_TĪERA-PL !!= @CODE@ tīera:tīera 54
-+TYÄ: #;
+:%^StodRM        PL-INS_DÕKS-STEM ;
+:%^Stress1to2%^VowsRM        PL-ELA/INE_išt ;
+:%^Stress1to2%^VowsRM        PL-ILL_iž ;
+!       PL-INE ;
+:%^Stress1to2%^VowsRM        PL-PAR_idi ;
+
 
 LEXICON NMN_KRǬIPA !!= @CODE@ krǭipa:krǭipa 55
 	NMN_KRǬIPA-SG ;
@@ -2334,9 +2347,20 @@ LEXICON NMN_SIELDÕ !!= @CODE@ : 118
 	NMN_SIELDÕ-SG	;
 	NMN_SIELDÕ-PL	;
 LEXICON NMN_SIELDÕ-SG !!= @CODE@ : 118
-+TYÄ: #;
+        SG-DAT_n        ;
+        SG-ELA_st       ;
+        SG-GEN  ;
+        SG-ILL_ZERO     ;
+        SG-ILL_z        ;
+        SG-INS_ks       ;
+        SG-NOM  ;
+        SG-PAR_ZERO  ;
+
 LEXICON NMN_SIELDÕ-PL !!= @CODE@ : 118
-+TYÄ: #;
+:%^VowsRM            PL-ELA/INE_ist          ;
+:%^VowsRM            PL-ILL_iž       ;
+                     PL-INS_DÕKS-STEM        ;
+:%^VowsRM            PL-PAR_idi      ;
 
 
 LEXICON NMN_NǬʼGÕ !!= @CODE@ nǭʼgõ:nǭgõ 119
@@ -3039,14 +3063,15 @@ LEXICON NMN_PǬĻAZ !!= @CODE@ : 175 pǭļaz:pǭļļa
 	NMN_PǬĻAZ-PL	;
 LEXICON NMN_PǬĻAZ-SG !!= @CODE@ : 175
 !NMN_ĀMBAZ-SG     ; !!= @CODE@ : 173
-:%^VowsSh1%^VowsRM%>õ        SG-DAT_n ;
-:%^VowsSh1%^VowsRM%>õ       	SG-ELA/INE_st ;
-:%^Stress1to2%^ConsL        SG-GEN ;
-:%^VowsSh1%^VowsRM%>õ  	SG-ILL_ZERO ;
-:%^VowsSh1%^VowsRM%>õ  	SG-ILL_z ;
-:%^VowsSh1%^VowsRM%>õ        SG-INS_ks ;
-:z	SG-NOM  ;
-:z    	SG-PAR_t ;
+:%^Stress1to2        SG-DAT_n ;
+:%^Stress1to2       	SG-ELA/INE_st ;
+:%^Stress1to2        SG-GEN ;
+:%^Stress1to2          SG-ILL_ZERO ;
+!:%^VowsSh1%^VowsRM%>õ  	SG-ILL_ZERO ;
+:%^Stress1to2  	SG-ILL_z ;
+:%^Stress1to2        SG-INS_ks ;
+:%^ConsShz	SG-NOM  ;
+:%^ConsShz    	SG-PAR_t ;
 
 LEXICON NMN_PǬĻAZ-PL !!= @CODE@ : 175
 NMN_ĀMBAZ-PL     ; !!= @CODE@ : 173
@@ -3566,7 +3591,7 @@ LEXICON NMN_SŪR-SG
 :		SG-ELA/INE_stõ	;
 :		SG-GEN	;
 :		SG-ILL_õ	;
-:		SG-INS_kõks	;
+:		SG-INS_õks	;
 :	SG-NOM	;
 :		SG-PAR_tõ ;
 
