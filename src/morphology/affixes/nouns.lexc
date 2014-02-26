@@ -138,14 +138,20 @@ LEXICON N_PADĀ-PL !!= @CODE@ padā:padā 39
 +N:	NMN_PADĀ-PL   ;
 
 LEXICON N_SÕBRĀ !!= @CODE@ sõbrā:sõbrā 40
-+N:	NMN_PADĀ	;
+	NMN_SÕBRĀ-SG	;
+	NMN_SÕBRĀ-PL	;
+LEXICON N_SÕBRĀ-SG !!= @CODE@ sõbrā:sõbrā 40
++N:	NMN_SÕBRĀ-SG  ;
 LEXICON N_SÕBRĀ-PL !!= @CODE@ sõbrā:sõbrā 40
-+N:	NMN_PADĀ-PL  ;
++N:	NMN_SÕBRĀ-PL  ;
 
 LEXICON N_KÄPĀ !!= @CODE@ käpā:käpā 41
-+N:     NMN_PADĀ  ;
+     N_KÄPĀ-SG  ;
+     N_KÄPĀ-PL  ;
+LEXICON N_KÄPĀ-SG !!= @CODE@ käpā:käpā 41
++N:     NMN_KÄPĀ-SG  ;
 LEXICON N_KÄPĀ-PL !!= @CODE@ käpā:käpā 41
-+N:     NMN_PADĀ-PL  ;
++N:     NMN_KÄPĀ-PL  ;
 
 LEXICON N_MAKSĀ !!= @CODE@ maksā:maksā 42
 +N:     NMN_PADĀ  ;
@@ -476,20 +482,20 @@ LEXICON N_IRM-PL !!= @CODE@ : 125
 +N:     NMN_IRM-PL   ;
 
 LEXICON N_KIM !!= @CODE@ : 126
-+N:	NMN_IRM	;
++N:	NMN_KIM	;
 LEXICON N_KIM-SG !!= @CODE@ : 126
-+N:     NMN_IRM-SG   ;
++N:     NMN_KIM-SG   ;
 LEXICON N_KIM-PL !!= @CODE@ : 126
-+N:     NMN_IRM-PL   ;
++N:     NMN_KIM-PL   ;
 
 LEXICON N_VȮŅ !!= @CODE@ : 127
 +N:	NMN_VȮŅ	;
 
 LEXICON N_VAʼIT !!= @CODE@ vaʼit:vait 128
-+N:	NMN_IRM	;
++N:	NMN_VAʼIT	;
 
 LEXICON N_VAʼIT-PL	!!= @CODE@ vaʼit:vait 128
-+N:     NMN_IRM-PL   ;
++N:     NMN_VAʼIT-PL   ;
 
 LEXICON N_AMĀT !!= @CODE@ : 129
 +N:	NMN_AMĀT	;
@@ -1492,41 +1498,70 @@ LEXICON NMN_PADĀ-SG
 :%^StodRM        SG-ELA/INE_st ;
 :%^StodRM        SG-GEN ;
 :%^Stress2to1    SG-ILL_ZERO ;
-! SG-INE ;
 :%^StodRM        SG-INS_ks ;
 :%^StodRM        SG-NOM  ;
 :%^Stress2to1    SG-PAR_ZERO ;
 
 LEXICON NMN_PADĀ-PL
 :%^StodRM        PL-INS_DÕKS-STEM ;
-:%^Stress2to1%^VowsRM        PL-ELA/INE_īst ;
-:%^Stress2to1%^VowsRM        PL-ILL_īž ;
-:%^Stress2to1%^VowsRM        PL-INE_īš ;
-:%^Stress2to1%^VowsRM        PL-PAR_īdi ;
+:%^Vow2Iin2      PL-ELA/INE_st ;
+:%^Vow2Iin2      PL-ILL_ž ;
+:%^Vow2Iin2      PL-INE_š ;
+:%^Vow2Iin2      PL-PAR_di ;
 
 !! 40
 LEXICON NMN_SÕBRĀ
  	NMN_PADĀ	;
 LEXICON NMN_SÕBRĀ-SG
-        NMN_PADĀ-SG     ;
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA/INE_st ;
+:%^StodRM        SG-GEN ;
+:%^Stress2to1    SG-ILL_ZERO ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^Stress2to1    SG-PAR_ZERO ;
+
 LEXICON NMN_SÕBRĀ-PL
 	NMN_PADĀ-PL     ;
 
 !! 41
 LEXICON NMN_KÄPĀ
- 	NMN_PADĀ	;
+	NMN_KÄPĀ-SG ;
+	NMN_KÄPĀ-PL ;
 LEXICON NMN_KÄPĀ-SG
-        NMN_PADĀ-SG     ;
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA/INE_st ;
+:%^StodRM        SG-GEN ;
+:%^ConsL%^Stress2to1    SG-ILL_ZERO ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^ConsL%^Stress2to1    SG-PAR_ZERO ;
+
 LEXICON NMN_KÄPĀ-PL
-	NMN_PADĀ-PL     ;
+:%^StodRM        PL-INS_DÕKS-STEM ;
+:%^Stress2to1%^VowsRM        PL-ELA/INE_īst ;
+:%^Stress2to1%^VowsRM        PL-ILL_īž ;
+:%^Stress2to1%^VowsRM        PL-INE_īš ;
+:%^Stress2to1%^VowsRM        PL-PAR_īdi ;
 
 !! 42
 LEXICON NMN_MAKSĀ
  	NMN_PADĀ	;
 LEXICON NMN_MAKSĀ-SG
-        NMN_PADĀ-SG     ;
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA/INE_st ;
+:%^StodRM        SG-GEN ;
+:%^Stress2to1    SG-ILL_ZERO ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^Stress2to1    SG-PAR_ZERO ;
+
 LEXICON NMN_MAKSĀ-PL
-	NMN_PADĀ-PL     ;
+:%^StodRM        PL-INS_DÕKS-STEM ;
+:%^Stress2to1%^VowsRM        PL-ELA/INE_īst ;
+:%^Stress2to1%^VowsRM        PL-ILL_īž ;
+:%^Stress2to1%^VowsRM        PL-INE_īš ;
+:%^Stress2to1%^VowsRM        PL-PAR_īdi ;
 
 !! 43
 LEXICON NMN_KĒRA
@@ -1593,10 +1628,9 @@ LEXICON NMN_ĀITA-SG
 
 LEXICON NMN_ĀITA-PL
 :%^StodRM        PL-INS_DÕKS-STEM ;
-:%^Stress1to2%^VowsRM        PL-ELA/INE_išt ;
-:%^Stress1to2%^VowsRM        PL-ILL_iž ;
-!       PL-INE ;
-:%^Stress1to2%^VowsRM        PL-PAR_idi ;
+:%^Vow2Iin2        PL-ELA/INE_st ;
+:%^Vow2Iin2        PL-ILL_ž ;
+:%^Vow2Iin2        PL-PAR_di ;
 
 
 LEXICON NMN_ŪŠKA !!= @CODE@ ūška:ūška 47
@@ -1670,7 +1704,7 @@ LEXICON NMN_TĪERA-SG !!= @CODE@ tīera:tīera 54
 
 LEXICON NMN_TĪERA-PL !!= @CODE@ tīera:tīera 54
 :%^StodRM        PL-INS_DÕKS-STEM ;
-:%^Stress1to2%^VowsRM        PL-ELA/INE_išt ;
+:%^Stress1to2%^ConsL        PL-ELA/INE_išt ;
 :%^Stress1to2%^VowsRM        PL-ILL_iž ;
 !       PL-INE ;
 :%^Stress1to2%^VowsRM        PL-PAR_idi ;
@@ -2447,6 +2481,26 @@ LEXICON NMN_IRM
         NMN_IRM-PL     ;
 
 LEXICON NMN_IRM-SG
+        SG-DAT_õn ;
+       	SG-ELA/INE_stõ ;
+       	SG-GEN ;
+   	SG-ILL_õ ;
+        SG-INS_õks ;
+        SG-NOM  ;
+    	SG-PAR_õ ;
+
+LEXICON NMN_IRM-PL
+ 	PL-INS_ÕDÕKS-STEM ;
+	PL-ELA/INE_ist ;
+ 	PL-ILL_iž ;
+ 	PL-PAR_idi ;
+!!
+
+!! 126
+LEXICON NMN_KIM
+	NMN_KIM-SG	;
+	NMN_KIM-PL	;
+LEXICON NMN_KIM-SG
 :%{XC%}        SG-DAT_õn ;
         	SG-ELA/INE_stõ ;
         	SG-GEN ;
@@ -2456,37 +2510,48 @@ LEXICON NMN_IRM-SG
         	SG-NOM  ;
 :%{XC%}    	SG-PAR_õ ;
 
-LEXICON NMN_IRM-PL
+LEXICON NMN_KIM-PL
 :%{XC%} 	PL-INS_ÕDÕKS-STEM ;
 :%{XC%} 	PL-ELA/INE_ist ;
 :%{XC%} 	PL-ILL_iž ;
 :%{XC%} 	PL-PAR_idi ;
 !!
-
-!! 126
-LEXICON NMN_KIM
-	NMN_IRM	;
-LEXICON NMN_KIM-SG
-	NMN_IRM-SG	;
-LEXICON NMN_KIM-PL
-	NMN_IRM-PL	;
-!!
 LEXICON NMN_VȮŅ !!= @CODE@ : 127
 	NMN_VȮŅ-SG	;
 	NMN_VȮŅ-PL	;
 LEXICON NMN_VȮŅ-SG !!= @CODE@ : 127
-+TYÄ: #;
-LEXICON NMN_VȮŅ-PL !!= @CODE@ : 127
-+TYÄ: #;
+        SG-DAT_õn ;
+        SG-ELA/INE_st ;
+        SG-GEN ;
+        SG-ILL_õ ;
+        SG-INS_õks ;
+        SG-NOM  ;
+        SG-PAR_õ ;
 
+LEXICON NMN_VȮŅ-PL !!= @CODE@ : 127
+        PL-INS_ÕDÕKS-STEM ;
+        PL-ELA/INE_ist ;
+        PL-ILL_iž ;
+        PL-PAR_idi ;
 
 LEXICON NMN_VAʼIT !!= @CODE@ vaʼit:vait 128
 	NMN_VAʼIT-SG	;
 	NMN_VAʼIT-PL	;
 LEXICON NMN_VAʼIT-SG !!= @CODE@ vaʼit:vait 128
-+TYÄ: #;
+        SG-DAT_õn ;
+        SG-ELA/INE_stõ ;
+        SG-GEN ;
+        SG-ILL_õ ;
+        SG-INS_õks ;
+        SG-NOM  ;
+        SG-PAR_õ ;
+
 LEXICON NMN_VAʼIT-PL !!= @CODE@ vaʼit:vait 128
-+TYÄ: #;
+:%{XC%}         PL-INS_ÕDÕKS-STEM ;
+:%{XC%}         PL-ELA/INE_ist ;
+:%{XC%}         PL-ILL_iž ;
+:%{XC%}         PL-PAR_idi ;
+
 
 
 !! 129, 130, 131
@@ -2499,7 +2564,6 @@ LEXICON NMN_AMĀT-SG
        	SG-ELA/INE_st ;
         SG-GEN ;
   	SG-ILL_õ ;
-! SG-INE ;
         SG-INS_õks ;
 	SG-NOM  ;
     	SG-PAR_õ ;
@@ -2514,47 +2578,92 @@ LEXICON NMN_KULTŪR !!= @CODE@ : 130
 	NMN_KULTŪR-SG	;
 	NMN_KULTŪR-PL	;
 LEXICON NMN_KULTŪR-SG !!= @CODE@ : 130
-+TYÄ: #;
-LEXICON NMN_KULTŪR-PL !!= @CODE@ : 130
-+TYÄ: #;
+        SG-DAT_õn ;
+        SG-ELA/INE_st ;
+        SG-GEN ;
+        SG-ILL_õ ;
+        SG-INS_õks ;
+        SG-NOM  ;
+        SG-PAR_õ ;
 
+LEXICON NMN_KULTŪR-PL !!= @CODE@ : 130
+        PL-INS_ÕDÕKS-STEM ;
+        PL-ELA/INE_ist ;
+        PL-ILL_iž ;
+        PL-PAR_idi ;
 
 LEXICON NMN_SAʼGDIT !!= @CODE@ saʼgdit:sagdit 131
 	NMN_SAʼGDIT-SG	;
 	NMN_SAʼGDIT-PL	;
 LEXICON NMN_SAʼGDIT-SG !!= @CODE@ saʼgdit:sagdit 131
-+TYÄ: #;
-LEXICON NMN_SAʼGDIT-PL !!= @CODE@ saʼgdit:sagdit 131
-+TYÄ: #;
+        SG-DAT_õn ;
+        SG-ELA/INE_st ;
+        SG-GEN ;
+        SG-ILL_õ ;
+        SG-INS_õks ;
+        SG-NOM  ;
+        SG-PAR_õ ;
 
+LEXICON NMN_SAʼGDIT-PL !!= @CODE@ saʼgdit:sagdit 131
+        PL-INS_ÕDÕKS-STEM ;
+        PL-ELA/INE_ist ;
+        PL-ILL_iž ;
+        PL-PAR_idi ;
 
 !! 132
 LEXICON NMN_VIĻȚ !!= @CODE@ : 132
 	NMN_VIĻȚ-SG	;
 	NMN_VIĻȚ-PL	;
 LEXICON NMN_VIĻȚ-SG !!= @CODE@ : 132
-+TYÄ: #;
+        SG-DAT_õn ;
+        SG-ELA/INE_štõ ;
+        SG-GEN ;
+        SG-ILL_õ ;
+        SG-INS_õks ;
+        SG-NOM  ;
+        SG-PAR_õ ;
+
 LEXICON NMN_VIĻȚ-PL !!= @CODE@ : 132
-+TYÄ: #;
+        PL-INS_ÕDÕKS-STEM ;
+        PL-ELA/INE_ist ;
+        PL-ILL_iž ;
+        PL-PAR_idi ;
 
 LEXICON NMN_EĻ !!= @CODE@ : 133
 	NMN_EĻ-SG	;
 	NMN_EĻ-PL	;
 LEXICON NMN_EĻ-SG !!= @CODE@ : 133
-+TYÄ: #;
-LEXICON NMN_EĻ-PL !!= @CODE@ : 133
-+TYÄ: #;
+        SG-DAT_õn ;
+        SG-ELA/INE_st ;
+        SG-GEN ;
+        SG-ILL_õ ;
+        SG-INS_õks ;
+        SG-NOM  ;
+        SG-PAR_õ ;
 
+LEXICON NMN_EĻ-PL !!= @CODE@ : 133
+        PL-INS_ÕDÕKS-STEM ;
+        PL-ELA/INE_ist ;
+        PL-ILL_iž ;
+        PL-PAR_idi ;
 
 LEXICON NMN_BLĒʼḐ !!= @CODE@ blēʼḑ:blēḑ 134
 	NMN_BLĒʼḐ-SG	;
 	NMN_BLĒʼḐ-PL	;
 LEXICON NMN_BLĒʼḐ-SG !!= @CODE@ blēʼḑ:blēḑ 134
-+TYÄ: #;
+        SG-DAT_õn ;
+        SG-ELA/INE_st ;
+        SG-GEN ;
+        SG-ILL_õ ;
+        SG-INS_õks ;
+        SG-NOM  ;
+        SG-PAR_õ ;
+
 LEXICON NMN_BLĒʼḐ-PL !!= @CODE@ blēʼḑ:blēḑ 134
-+TYÄ: #;
-
-
+        PL-INS_ÕDÕKS-STEM ;
+        PL-ELA/INE_ist ;
+        PL-ILL_iž ;
+        PL-PAR_idi ;
 
 !! 135
 LEXICON NMN_FAKT
@@ -3159,13 +3268,64 @@ LEXICON NMN_PŪʼDÕZ-PL
 	NMN_VȬRÕZ-PL	;
 !! 184
 LEXICON NMN_VĪETŠÕZ !!= @CODE@ : 184
-+TYÄ: # ;
-LEXICON NMN_VĪETŠÕZ-PL !!= @CODE@ : 184
-+TYÄ: # ;
+        NMN_VĪETŠÕZ-SG     ;
+        NMN_VĪETŠÕZ-PL     ;
+
+LEXICON NMN_VĪETŠÕZ-SG
+:        SG-DAT_n ;
+:               SG-ELA/INE_st ;
+:        SG-GEN ;
+:       SG-ILL_ZERO ;
+:       SG-ILL_z ;
+:        SG-INS_ks ;
+:z      SG-NOM  ;
+:z      SG-PAR_t ;
+
+LEXICON NMN_VĪETŠÕZ-PL
+:       PL-INS_DÕKS-STEM ;
+:%^VowsRM       PL-ELA/INE_ist ;
+:%^VowsRM       PL-ILL_iž ;
+:%^VowsRM       PL-PAR_idi ;
+
 LEXICON NMN_LǬʼTŠÕZ !!= @CODE@ lǭʼtšõz:lǭtšõz 185
-+TYÄ: # ;
+        NMN_LǬʼTŠÕZ-SG     ;
+        NMN_LǬʼTŠÕZ-PL     ;
+
+LEXICON NMN_LǬʼTŠÕZ-SG
+:        SG-DAT_n ;
+:               SG-ELA/INE_st ;
+:        SG-GEN ;
+:       SG-ILL_ZERO ;
+:       SG-ILL_z ;
+:        SG-INS_ks ;
+:z      SG-NOM  ;
+:z      SG-PAR_t ;
+
+LEXICON NMN_LǬʼTŠÕZ-PL
+:       PL-INS_DÕKS-STEM ;
+:%^VowsRM       PL-ELA/INE_ist ;
+:%^VowsRM       PL-ILL_iž ;
+:%^VowsRM       PL-PAR_idi ;
+
 LEXICON NMN_SĒJI !!= @CODE@ : 186
-+TYÄ: # ;
+	NMN_SĒJI-SG ;
+	NMN_SĒJI-PL ;
+LEXICON NMN_SĒJI-SG !!= @CODE@ : 186
+:zõ      SG-DAT_n ;
+:z       SG-ELA/INE_õst ;
+:z       SG-GEN ;
+:z  	 SG-ILL_õ ;
+:z       SG-INS_õks	;
+	 SG-NOM  ;
+:z    	 SG-PAR_t ;
+    	 SG-PAR_ZERO ;
+
+LEXICON NMN_SĒJI-PL !!= @CODE@ : 186
+       PL-INS_DÕKS-STEM ;
+       PL-ELA/INE_sti ;
+       PL-ILL_ž ;
+       PL-PAR_di ;
+
 
 LEXICON NMN_AKKIJI !!= @CODE@ : 187
 !! __123__
@@ -3793,9 +3953,20 @@ LEXICON NMN_ǬʼRÕN !!= @CODE@ ǭʼrõn:ǭrõn 236
  NMN_ǬʼRÕN-PL ;
 
 LEXICON NMN_ǬʼRÕN-SG !!= @CODE@ ǭʼrõn:ǭrõn 236
-        NMN_TIDĀR-SG ;
+     SG-DAT_õn       ;
+     SG-ELA/INE_õst      ;
+     SG-GEN  ;
+     SG-ILL_õ        ;
+     SG-INS_õks      ;
+     SG-NOM  ;
+     SG-PAR_t        ;
+
 LEXICON NMN_ǬʼRÕN-PL !!= @CODE@ ǭʼrõn:ǭrõn 236
-        NMN_TIDĀR-PL  ;
+        PL-INS_DÕKS-STEM ;
+:%^PalatalizeLeft PL-ELA/INE_ist ;
+:%^PalatalizeLeft PL-ILL_iž ;
+:%^PalatalizeLeft PL-PAR_i ;
+
 
 LEXICON NMN_KĪNDÕR !!= @CODE@ kīndõr:kīndõr 237
         NMN_KĪNDÕR-SG  ;
@@ -3813,7 +3984,7 @@ LEXICON NMN_KĪNDÕR-SG
 LEXICON NMN_KĪNDÕR-PL !!= @CODE@ kīndõr:kīndõr 237
      PL-INS_DÕKS-STEM   ;
      PL-ELA/INE_ist         ;
-     PL-ILL_iž          ;
+:%^VowsõToi     PL-ILL_iž          ;
      PL-PAR_i           ;
 
 LEXICON NMN_BÄʼZMÕR !!= @CODE@ bäʼzmõr:bäzmõr 238
