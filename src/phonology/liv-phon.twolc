@@ -83,6 +83,8 @@ K1:k       !!= * @CODE@ this k is not effected by gradation
 
 %^VowsL1aToǭ:0
 
+%^VowsõToi:0 !! * @CODE@ kīndõr:kīndiriž
+
 %- !!  * @CODE@ Hyphen in  constructions 
 %> !!  * @CODE@ morpheme boundary
 #   !!  * @CODE@ Word boundary for both lexicalised and dynamic compounds
@@ -131,6 +133,12 @@ Rules
 !# Cns* Vow [ ʼ: | :ʼ ] [ :Cns | Cns: ] _ (%^ConsSh:) %^Vow2Iin2: ;
 !€# rikkā%^ConsSh%^Vow2Iin2>di
 !€# rik0ī000di
+
+"a:i in second syllable plural"
+!! __@RULENAME@__
+a:i <=>  _ ( %^ConsSh: ) %^Vow2Iin2: ; 
+!€# āita%^Vow2Iin2>di
+!€# āiti00di
 
 "ǭ:a in first syllable"
 !! __@RULENAME@__  
@@ -249,6 +257,7 @@ a:õ <=>  _ ( %^ConsL:0 ) %^Stress2to1:0 [ # | %> ] ;
 "õ:i"
 !! __@RULENAME@__
  õ:i <=> # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: ] %^PalatalizeLeft: ;
+         # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
 
 !! Vowel loss
 
@@ -356,7 +365,9 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !€# pūol0a%^Stress1to2%^ConsL
 !€# pȯ0llõ00
 
-
+"0:p"
+!! __@RULENAME@__
+ 0:p <=> Vow: p _ Vow: %^ConsL: ;
 
 
 
