@@ -82,9 +82,11 @@ Stem lexica
  LEXICON N_PADĀ-PL  padā:padā 39
 
  LEXICON N_SÕBRĀ  sõbrā:sõbrā 40
+ LEXICON N_SÕBRĀ-SG  sõbrā:sõbrā 40
  LEXICON N_SÕBRĀ-PL  sõbrā:sõbrā 40
 
  LEXICON N_KÄPĀ  käpā:käpā 41
+ LEXICON N_KÄPĀ-SG  käpā:käpā 41
  LEXICON N_KÄPĀ-PL  käpā:käpā 41
 
  LEXICON N_MAKSĀ  maksā:maksā 42
@@ -731,9 +733,12 @@ tēšti
 
 40
 
+
 41
 
+
 42
+
 
 43
 
@@ -1133,14 +1138,17 @@ tēšti
 
 
 126
+
  LEXICON NMN_VȮŅ  : 127
  LEXICON NMN_VȮŅ-SG  : 127
- LEXICON NMN_VȮŅ-PL  : 127
 
+ LEXICON NMN_VȮŅ-PL  : 127
 
  LEXICON NMN_VAʼIT  vaʼit:vait 128
  LEXICON NMN_VAʼIT-SG  vaʼit:vait 128
+
  LEXICON NMN_VAʼIT-PL  vaʼit:vait 128
+
 
 
 129, 130, 131
@@ -1148,29 +1156,29 @@ tēšti
 
  LEXICON NMN_KULTŪR  : 130
  LEXICON NMN_KULTŪR-SG  : 130
- LEXICON NMN_KULTŪR-PL  : 130
 
+ LEXICON NMN_KULTŪR-PL  : 130
 
  LEXICON NMN_SAʼGDIT  saʼgdit:sagdit 131
  LEXICON NMN_SAʼGDIT-SG  saʼgdit:sagdit 131
- LEXICON NMN_SAʼGDIT-PL  saʼgdit:sagdit 131
 
+ LEXICON NMN_SAʼGDIT-PL  saʼgdit:sagdit 131
 
 132
  LEXICON NMN_VIĻȚ  : 132
  LEXICON NMN_VIĻȚ-SG  : 132
+
  LEXICON NMN_VIĻȚ-PL  : 132
 
  LEXICON NMN_EĻ  : 133
  LEXICON NMN_EĻ-SG  : 133
- LEXICON NMN_EĻ-PL  : 133
 
+ LEXICON NMN_EĻ-PL  : 133
 
  LEXICON NMN_BLĒʼḐ  blēʼḑ:blēḑ 134
  LEXICON NMN_BLĒʼḐ-SG  blēʼḑ:blēḑ 134
+
  LEXICON NMN_BLĒʼḐ-PL  blēʼḑ:blēḑ 134
-
-
 
 135
 
@@ -1416,9 +1424,18 @@ vȭrõz:vȭrõ
 183
 184
  LEXICON NMN_VĪETŠÕZ  : 184
- LEXICON NMN_VĪETŠÕZ-PL  : 184
+
+
+
  LEXICON NMN_LǬʼTŠÕZ  lǭʼtšõz:lǭtšõz 185
+
+
+
  LEXICON NMN_SĒJI  : 186
+ LEXICON NMN_SĒJI-SG  : 186
+
+ LEXICON NMN_SĒJI-PL  : 186
+
 
  LEXICON NMN_AKKIJI  : 187
 __123__
@@ -1641,7 +1658,9 @@ __567__
  LEXICON NMN_ǬʼRÕN  ǭʼrõn:ǭrõn 236
 
  LEXICON NMN_ǬʼRÕN-SG  ǭʼrõn:ǭrõn 236
+
  LEXICON NMN_ǬʼRÕN-PL  ǭʼrõn:ǭrõn 236
+
 
  LEXICON NMN_KĪNDÕR  kīndõr:kīndõr 237
 
