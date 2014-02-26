@@ -8909,31 +8909,6 @@
    </e>
    <e exclude="fst">
       <lg>
-         <l>birkov (20 pundõ)</l>
-         <stg>
-            <st Contlex="PHRASE_">birkov (20 pundõ)</st>
-         </stg>
-         <stress>birkov (20 pundõ)</stress>
-      </lg>
-      <pos>Phrase</pos>
-      <mg>
-         <defNative/>
-         <tg xml:lang="eng">
-            <t pos="Phrase">YY</t>
-         </tg>
-         <tg xml:lang="est">
-            <t pos="Phrase">perkapund (20 laevanaela)</t>
-         </tg>
-         <tg xml:lang="fin">
-            <t pos="Phrase"/>
-         </tg>
-         <tg xml:lang="lav">
-            <t pos="Phrase">birkavs (20 podi)</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
          <l>blēʼḑ rištīng</l>
          <stg>
             <st Contlex="PHRASE_">blēʼḑ rištīng</st>
@@ -8950,7 +8925,7 @@
             <t pos="Phrase">kelm inimene</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">petollinen ihminen</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">blēdīgs cilvēks</t>
@@ -8975,10 +8950,64 @@
             <t pos="Phrase">koerust teha</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">tehdä kepposia</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">darīt blēņas</t>
+         </tg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
+         <l>blekstõ ažā</l>
+         <stg>
+            <st Contlex="PHRASE_">blekstõ ažā</st>
+         </stg>
+         <stress>blekstõ ažā</stress>
+      </lg>
+      <pos>Phrase</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="Phrase">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="Phrase">plekist asi</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Phrase">pellistä tehty esine</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="Phrase">skārda priekšmets</t>
+         </tg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
+         <l>blikštiņțõ siļmi</l>
+         <stg>
+            <st Contlex="PHRASE_">blikštiņțõ siļmi</st>
+         </stg>
+         <stress>blikštiņțõ siļmi</stress>
+      </lg>
+      <pos>Phrase</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="Phrase">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="Phrase">silmi pilgutada</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Phrase">räpyttää silmiään</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="Phrase">mirkšķināt acis</t>
          </tg>
       </mg>
    </e>
@@ -8994,7 +9023,6 @@
       <mg>
          <m>
             <head/>
-            <semRel>&gt; saʼgdi</semRel>
          </m>
          <tg xml:lang="eng">
             <t pos="Phrase">YY</t>
@@ -9003,10 +9031,38 @@
             <t pos="Phrase">tihe pilv</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">sankka pilvi</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">biezs mākonis</t>
+         </tg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
+         <l>blǭʼțõks rõk</l>
+         <stg>
+            <st Contlex="PHRASE_">blǭʼțõks rõk</st>
+         </stg>
+         <stress>blǭʼțõks rõk</stress>
+      </lg>
+      <pos>Phrase</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="Phrase">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="Phrase">lobajutt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Phrase">pöty</t>
+            <t pos="Phrase">roskapuhe</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="Phrase">pļāpu runas</t>
          </tg>
       </mg>
    </e>
@@ -9028,7 +9084,7 @@
             <t pos="Phrase">boheemlik elu</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">boheemielämä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">bohēmiska dzīve</t>
@@ -9053,7 +9109,7 @@
             <t pos="Phrase">rõugeid panna</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">rokottaa isorokkoa vastaan</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">potēt pret bakām</t>
@@ -9078,7 +9134,7 @@
             <t pos="Phrase">palderjanitilgad</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">valeriaanatipat</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">baldriāna pilieni</t>
@@ -9103,7 +9159,7 @@
             <t pos="Phrase">kole ilm</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">karmea sää</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">bargs laiks</t>
@@ -9153,7 +9209,7 @@
             <t pos="Phrase">üle parda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">yli laidan</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">pār bortu</t>
@@ -9162,11 +9218,11 @@
    </e>
    <e exclude="fst">
       <lg>
-         <l>boʼŗgõ kandõ</l>
+         <l>boʼŗlimizt umārd</l>
          <stg>
-            <st Contlex="PHRASE_">boʼŗgõ kandõ</st>
+            <st Contlex="PHRASE_">boʼŗlimizt umārd</st>
          </stg>
-         <stress>boʼŗgõ kandõ</stress>
+         <stress>boʼŗlimizt umārd</stress>
       </lg>
       <pos>Phrase</pos>
       <mg>
@@ -9175,63 +9231,13 @@
             <t pos="Phrase">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Phrase">mütta kanda</t>
+            <t pos="Phrase">ussitanud õunad</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">matoiset omenat</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Phrase">nest dukuru</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l>īʼediz botīļkabālõks kūonda kațki</l>
-         <stg>
-            <st Contlex="PHRASE_">īʼediz botīļkabālõks kūonda kațki</st>
-         </stg>
-         <stress>īʼediz botīļkabālõks kūonda kațki</stress>
-      </lg>
-      <pos>Phrase</pos>
-      <mg>
-         <defNative/>
-         <tg xml:lang="eng">
-            <t pos="Phrase">YY</t>
-         </tg>
-         <tg xml:lang="est">
-            <t pos="Phrase">lõikas pudelikilluga kanna katki</t>
-         </tg>
-         <tg xml:lang="fin">
-            <t pos="Phrase"/>
-         </tg>
-         <tg xml:lang="lav">
-            <t pos="Phrase">ar pudeles lausku sagrieza papēdi</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l>boutõ tīʼedõ</l>
-         <stg>
-            <st Contlex="PHRASE_">boutõ tīʼedõ</st>
-         </stg>
-         <stress>boutõ tīʼedõ</stress>
-      </lg>
-      <pos>Phrase</pos>
-      <mg>
-         <defNative/>
-         <tg xml:lang="eng">
-            <t pos="Phrase">YY</t>
-         </tg>
-         <tg xml:lang="est">
-            <t pos="Phrase">pauti teha</t>
-         </tg>
-         <tg xml:lang="fin">
-            <t pos="Phrase"/>
-         </tg>
-         <tg xml:lang="lav">
-            <t pos="Phrase">veikt pagriezienu pār štagu</t>
+            <t pos="Phrase">tārpaini āboli</t>
          </tg>
       </mg>
    </e>
@@ -9250,13 +9256,16 @@
             <t pos="Phrase">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Phrase">tursuda, paiste minna</t>
+            <t pos="Phrase">tursuda</t>
+            <t pos="Phrase">paiste minna</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">turvota</t>
+            <t pos="Phrase">pöhöttyä</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Phrase">uztūkt, sapampt</t>
+            <t pos="Phrase">uztūkt</t>
+            <t pos="Phrase">sapampt</t>
          </tg>
       </mg>
    </e>
@@ -9278,7 +9287,7 @@
             <t pos="Phrase">laevade ehituskoht</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">laivojen rakennuspaikka</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">kuģu būvniecības vieta</t>
@@ -9303,7 +9312,7 @@
             <t pos="Phrase">karvad turris</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">karvat pörhöllään</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">saboztas spalvas</t>
@@ -9353,7 +9362,7 @@
             <t pos="Phrase">praksub ja lõhkeb</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">räsähtää ja halkeaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">brakšķ un lūzt</t>
@@ -9378,7 +9387,7 @@
             <t pos="Phrase">vaba kui linnuke</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">vapaa kuin taivaan lintunen</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">brīvs kā putniņš</t>
@@ -9403,7 +9412,8 @@
             <t pos="Phrase">välja praakida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">hylätä</t>
+            <t pos="Phrase">karsia</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">izbrāķēt</t>
@@ -9412,11 +9422,11 @@
    </e>
    <e exclude="fst">
       <lg>
-         <l>broukõb kȭrõks</l>
+         <l>broukõ kȭrõks</l>
          <stg>
-            <st Contlex="PHRASE_">broukõb kȭrõks</st>
+            <st Contlex="PHRASE_">broukõ kȭrõks</st>
          </stg>
-         <stress>broukõb kȭrõks</stress>
+         <stress>broukõ kȭrõks</stress>
       </lg>
       <pos>Phrase</pos>
       <mg>
@@ -9425,13 +9435,13 @@
             <t pos="Phrase">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Phrase">sõidab rattaga ringi</t>
+            <t pos="Phrase">sõita rattaga ringi</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">ajella polkupyörällä</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Phrase">braukā ar riteni</t>
+            <t pos="Phrase">braukāt ar riteni</t>
          </tg>
       </mg>
    </e>
@@ -9453,7 +9463,7 @@
             <t pos="Phrase">raasida lehti</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">riipiä lehtiä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">notraukt lapas</t>
