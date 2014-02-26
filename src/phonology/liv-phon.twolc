@@ -240,6 +240,7 @@ o:ō <=> _ [i g | (u:) :Cns+] (Vow:) %^VowsLI1:0 ;
 "ā:õ "
 !! __@RULENAME@__  
 ā:õ <=>  _ ( %^ConsL:0 ) %^Stress2to1:0 [ # | %> ] ;
+        _ ( %^ConsL:0 ) %^LongV2Õin2:0 ;
      # Cns* [ Vow | ʼ: | :ʼ ]+ [ Cns (0:Cns)| Cns+ ] _ z: %^Stress2to1:0  ;
 !# Cns* Vow ( 0: ) :Cns+ _ %^Stress2to1:0 [ # | %> ] ;
 !€  rik0āz%^Stress2to1%^ConsRM
@@ -258,6 +259,10 @@ a:õ <=>  _ ( %^ConsL:0 ) %^Stress2to1:0 [ # | %> ] ;
 !! __@RULENAME@__
  õ:i <=> # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: ] %^PalatalizeLeft: ;
          # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
+!€# ǭʼrõn%^PalatalizeLeft
+!€0 ǭʼriņ0
+
+
 
 !! Vowel loss
 
@@ -370,7 +375,6 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
  0:p <=> Vow: p _ Vow: %^ConsL: ;
 
 
-
 "%{XC%}:Cx"
 !! __@RULENAME@__
  %{XC%}:Cx <=> 
@@ -414,6 +418,8 @@ l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | �
 n:ņ <=> _ ( Vow: ) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
 !€# Vē0na%^PalatalizeLeft%^VowsRMõ
 !€0 Vein000õ
+!€# ǭʼrõn%^PalatalizeLeft
+!€0 ǭʼriņ0
         _ %^PalatalizeLeft:0 ; !! sēņ:sēn 220
 
 "r:ŗ"
