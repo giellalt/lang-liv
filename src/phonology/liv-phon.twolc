@@ -134,9 +134,15 @@ Rules
 !€# rikkā%^ConsSh%^Vow2Iin2>di
 !€# rik0ī000di
 
+"ū:ī in second syllable plural"
+!! __@RULENAME@__
+ū:ī <=>  _ ( %^ConsSh: ) %^Vow2Iin2: ;
+!€# ruzū%^Vow2Iin2>di
+!€# ruzī000di
+
 "a:i in second syllable plural"
 !! __@RULENAME@__
-a:i <=>  _ ( %^ConsSh: ) %^Vow2Iin2: ; 
+a:i <=>  _ ( %^ConsSh: |%^VowsSh1: %^PalatalizeLeft: ) %^Vow2Iin2: ; 
 !€# āita%^Vow2Iin2>di
 !€# āiti00di
 
@@ -239,8 +245,8 @@ o:ō <=> _ [i g | (u:) :Cns+] (Vow:) %^VowsLI1:0 ;
 !! Destressing in second syllable
 "ā:õ "
 !! __@RULENAME@__  
-ā:õ <=>  _ ( %^ConsL:0 ) %^Stress2to1:0 [ # | %> ] ;
-        _ ( %^ConsL:0 ) %^LongV2Õin2:0 ;
+ā:õ <=>  _ ( %^ConsL: ) %^Stress2to1:0 [ # | %> ] ;
+        _ ( %^ConsL: ) %^LongV2Õin2: ;
      # Cns* [ Vow | ʼ: | :ʼ ]+ [ Cns (0:Cns)| Cns+ ] _ z: %^Stress2to1:0  ;
 !# Cns* Vow ( 0: ) :Cns+ _ %^Stress2to1:0 [ # | %> ] ;
 !€  rik0āz%^Stress2to1%^ConsRM
@@ -380,7 +386,13 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
  %{XC%}:Cx <=> 
 !# Cns* Vow ( ʼ: ) Cx _ Vow: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] 
   # Cns* [ a | ä | õ | u | i ] ( ʼ: ) Cx _ [ %> õ | %> i ] ;
-         where Cx in (p t k b d g l ļ m n ņ r ŗ š v z ž ) ;
+         where Cx in (t k b d g l ļ m n ņ r ŗ š v z ž ) ;
+
+"%{XC%}:p"
+!! __@RULENAME@__ 2014-02-27
+ %{XC%}:p <=> p _ %> ;
+!€# kep%{XC%}>õ
+!€0 kepp0õ
 
 !"%{XC%}:š"
 !!! __@RULENAME@__ 2014-01-18 "%{XC%}:Cx" not working
@@ -415,7 +427,7 @@ l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | �
 
 "n:ņ palatalization"
 !! __@RULENAME@__  
-n:ņ <=> _ ( Vow: ) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
+n:ņ <=> _ ( Vow: ) (%^VowsSh1:) %^PalatalizeLeft:0 ( %^VowsRM:0 | %^Vow2Iin2:) [ # | %> ] ;
 !€# Vē0na%^PalatalizeLeft%^VowsRMõ
 !€0 Vein000õ
 !€# ǭʼrõn%^PalatalizeLeft
