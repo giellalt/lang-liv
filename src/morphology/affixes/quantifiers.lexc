@@ -18,17 +18,17 @@ LEXICON NUM_PADĀ !!= @CODE@ padā:padā 39
 +Num:	NMN_PADĀ	;
 
 LEXICON NUM_KĒRA !!= @CODE@ kēra:kēra 43
-+Num:	CASES	;
++Num:	NMN_KĒRA	;
 
 LEXICON NUM_OKŠ !!= @CODE@ : 68
 +Num:	CASES	;
 
 
 LEXICON NUM_VAʼG !!= @CODE@ vaʼg:vag 72
-+Num:	CASES	;
++Num:	NMN_VAʼG	;
 
 LEXICON NUM_KUʼŽ !!= @CODE@ kuʼž:kuž 89
-+Num:	CASES	;
++Num:	NMN_KUʼŽ	;
 
 LEXICON NUM_RUZŪ !!= @CODE@ : 90
 +Num:	CASES	;
@@ -38,13 +38,13 @@ LEXICON NUM_SIELDÕ
 +Num:	CASES	;
 
 LEXICON NUM_NǬʼGÕ !!= @CODE@ nǭʼgõ:nǭgõ 119
-+Num:	CASES	;
++Num:	NMN_NǬʼGÕ	;
 
 LEXICON NUM_IRM !!= @CODE@ irm: 125
 +Num:	CASES	;
 
-LEXICON NUM_KIM !!= @CODE@ : 126
-+Num:	CASES	;
+LEXICON NUM_KIM !!= @CODE@ : 126 kim:kim
++Num:	NMN_KIM	;
 
 
 LEXICON NUM_FAKT !!= @CODE@ fakt: 135
@@ -60,7 +60,7 @@ LEXICON NUM_TUOISTÕNZ !!= @CODE@ : 164
 +Num:	CASES	;
 
 LEXICON NUM_ĪʼDÕKSMÕZ !!= @CODE@ ī'dõksmõz:īdõksmõz 165
-+Num:	CASES	;
++Num:	NMN_ĪʼDÕKSMÕZ	;
 
 
 LEXICON NUM_NAI !!= @CODE@ nai: 191
@@ -74,25 +74,25 @@ LEXICON NUM_SĒMI !!= @CODE@ sēmi: 201
 
 
 LEXICON NUM_ÄʼBȚÕKS !!= @CODE@ ä'bțõks:äbțõks 208
-+Num:	CASES	;
++Num:	NMN_ÄʼBȚÕKS	;
 
 LEXICON NUM_TŪĻ !!= @CODE@ : 214
-+Num:	CASES	;
++Num:	NMN_TŪĻ	;
 
 LEXICON NUM_PŪOL !!= @CODE@ : 216
-+Num:	CASES	;
++Num:	NMN_PŪOL	;
 
 LEXICON NUM_ĪKŠ !!= @CODE@ : 217
-+Num:	CASES	;
++Num:	NMN_ĪKŠ	;
 
 LEXICON NUM_KAKŠ !!= @CODE@ : 218
-+Num:	CASES	;
++Num:	NMN_KAKŠ	;
 
 LEXICON NUM_ŪŽ !!= @CODE@ : 219
-+Num:	CASES	;
++Num:	NMN_ŪŽ	;
 
 LEXICON NUM_APPÕN !!= @CODE@ appõn:appõn 235
-+Num:	CASES	;
++Num:	NMN_APPÕN	;
 
 
 

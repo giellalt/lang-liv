@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kim: # Noun 126 'eng /est kümme/fin' - full paradigm
+     kim+Num+Sg+Nom: kim
+     kim+Num+Sg+Gen: kim
+     kim+Num+Sg+Par: kimmõ
+     kim+Num+Sg+Dat: kimmõn
+     kim+Num+Sg+Ins: kimmõks
+     kim+Num+Sg+Ill: kimmõ
+     kim+Num+Sg+Ela: kimstõ
+     kim+Num+Pl+Nom: kimmõd
+     kim+Num+Pl+Gen: kimmõd
+     kim+Num+Pl+Par: kimmidi
+     kim+Num+Pl+Dat: kimmõdõn
+     kim+Num+Pl+Ins: kimmõdõks
+     kim+Num+Pl+Ill: kimmiž
+     kim+Num+Pl+Ela: kimmist
+
