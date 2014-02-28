@@ -875,9 +875,11 @@ tēšti
  LEXICON NMN_KÕʼL-SG  kõʼl:kõl 73
  LEXICON NMN_KÕʼL-PL  kõʼl:kõl 73
 
- LEXICON NMN_SUʼG  suʼg:sug 74
- LEXICON NMN_SUʼG-SG  suʼg:sug 74
- LEXICON NMN_SUʼG-PL  suʼg:sug 74
+ LEXICON NMN_SUʼG  suʼg:suʼg 74
+ LEXICON NMN_SUʼG-SG  suʼg:suʼg 74
+
+ LEXICON NMN_SUʼG-PL  suʼg:suʼg 74
+
 
  LEXICON NMN_JOʼUG  joʼug:joug 75
  LEXICON NMN_JOʼUG-SG  joʼug:joug 75
@@ -1303,6 +1305,7 @@ __87__
  LEXICON NMN_ĒTAM-SG  : 156
  LEXICON NMN_ĒTAM-PL  : 156
 
+
  LEXICON NMN_SIDĀM  : 157
 
 
@@ -1349,7 +1352,10 @@ __72__
 
  LEXICON NMN_MĪEZ  : 166
  LEXICON NMN_MĪEZ-SG  : 166
+
  LEXICON NMN_MĪEZ-PL  : 166
+ :%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_šti ;  
+ :%^StodRM%^VowsRM%^ConsRM        PL-PAR_ḑi ;  
 
 
  LEXICON NMN_ROʼVZ  : 167
