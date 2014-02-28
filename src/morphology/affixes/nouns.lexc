@@ -1516,9 +1516,9 @@ LEXICON NMN_RŌDA-SG
 
 LEXICON NMN_RŌDA-PL
         PL-INS_DÕKS-STEM ;
-:%^VowsRM        PL-ELA/INE_išt ;
-:%^VowsRM        PL-ILL_iž ;
-:%^VowsShU%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
+        PL-ELA/INE_Ist ;
+        PL-ILL_Iž ;
+:%^VowsSh1%^PalatalizeLeft        PL-PAR_I ;
 
 !! 39, 40, 41, 42
 LEXICON NMN_PADĀ
@@ -1949,13 +1949,24 @@ LEXICON NMN_KÕʼL-SG !!= @CODE@ kõʼl:kõl 73
 LEXICON NMN_KÕʼL-PL !!= @CODE@ kõʼl:kõl 73
 +TYÄ: #;
 
-LEXICON NMN_SUʼG !!= @CODE@ suʼg:sug 74
+LEXICON NMN_SUʼG !!= @CODE@ suʼg:suʼg 74
 	NMN_SUʼG-SG ;
 	NMN_SUʼG-PL ;
-LEXICON NMN_SUʼG-SG !!= @CODE@ suʼg:sug 74
-+TYÄ: #;
-LEXICON NMN_SUʼG-PL !!= @CODE@ suʼg:sug 74
-+TYÄ: #;
+LEXICON NMN_SUʼG-SG !!= @CODE@ suʼg:suʼg 74
+:%{XC%} SG-DAT_õn ;
+        SG-ELA/INE_stõ ;
+                SG-GEN ;
+:%{XC%} SG-ILL_õ ;
+       SG-INS_kõks ;
+                SG-NOM  ;
+:%{XC%}        SG-PAR_õ ;
+
+LEXICON NMN_SUʼG-PL !!= @CODE@ suʼg:suʼg 74
+:%^StodRMū      PL-INS_DÕKS-STEM ;
+        PL-ELA/INE_šti ;
+        PL-ILL_ži ;
+:%^StodRM        PL-PAR_īdi ;
+
 
 LEXICON NMN_JOʼUG !!= @CODE@ joʼug:joug 75
 	NMN_JOʼUG-SG ;
@@ -3121,7 +3132,11 @@ LEXICON NMN_ĒTAM !!= @CODE@ : 156
 LEXICON NMN_ĒTAM-SG !!= @CODE@ : 156
         NMN_AZŪM-SG ;
 LEXICON NMN_ĒTAM-PL !!= @CODE@ : 156
-        NMN_AZŪM-PL ;
+:%^VowsShI1%^VowsMRM        PL-INS_ÕDÕKS-STEM ;
+:%^VowsShI1%^VowsMRM        PL-ELA/INE_ist ;
+:%^VowsShI1%^VowsMRM        PL-ILL_iž ;
+:%^VowsShI1%^VowsMRM        PL-PAR_idi ;
+
 
 LEXICON NMN_SIDĀM !!= @CODE@ : 157
         NMN_SIDĀM-SG     ;
@@ -3243,9 +3258,20 @@ LEXICON NMN_MĪEZ !!= @CODE@ : 166
 	NMN_MĪEZ-SG	;
 	NMN_MĪEZ-PL	;
 LEXICON NMN_MĪEZ-SG !!= @CODE@ : 166
-+TYÄ: #;
+        SG-DAT_n ;
+        SG-ELA/INE_stõ ;
+        SG-GEN ;
+:%^Stress2to1        SG-ILL_ZERO ;
+:z        SG-ILL_õ ;
+        SG-INS_kõks ;
+:%^StodRMz        SG-NOM  ;
+:%^StodRMz        SG-PAR_t ;
+
 LEXICON NMN_MĪEZ-PL !!= @CODE@ : 166
-+TYÄ: #;
+:%^StodRM%^ConsRM        PL-INS_DKÕKS-STEM ;
+:%^StodRM%^VowsRM%^ConsRM        PL-ELA/INE_šti ; !!= @CODE@ 
+:%^StodRM%^VowsRM%^ConsRM        PL-ILL_ži ;
+:%^StodRM%^VowsRM%^ConsRM        PL-PAR_ḑi ; !!= @CODE@ 
 
 
 LEXICON NMN_ROʼVZ !!= @CODE@ : 167
