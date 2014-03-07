@@ -4837,7 +4837,10 @@
             <re>hääl</re>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A"/>
+            <tCtn>
+               <t pos="A">hyvin matala</t>
+               <re>ääni</re>
+            </tCtn>
          </tg>
          <tg xml:lang="lav">
             <t pos="A">ļoti zema</t>
