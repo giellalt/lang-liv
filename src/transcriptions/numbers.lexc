@@ -70,18 +70,18 @@ LEXICON TEENSM
 :1 TEENM ;
 
 LEXICON TEENM
-ӈопой:1 LOHKAIM ;
-сидя:2 LOHKAIM ;
-няхарʼ:3 LOHKAIM ;
-тет:4 LOHKAIM ;
-самляӈг:5 LOHKAIM ;
-матʼ:6 LOHKAIM ;
-сиʼив:7 LOHKAIM ;
-сидндет:8 LOHKAIM ;
-хасуюʼ:9 LOHKAIM ;
+ikš:1 LOHKAIM ;
+kakš:2 LOHKAIM ;
+kuolm:3 LOHKAIM ;
+nēļa:4 LOHKAIM ;
+vīž:5 LOHKAIM ;
+kūž:6 LOHKAIM ;
+seis:7 LOHKAIM ;
+kǭdõks:8 LOHKAIM ;
+īdõks:9 LOHKAIM ;
 
 LEXICON LOHKAIM
-яӈгня: MILJON ;
+tuoistõn: MILJON ;
 
 LEXICON TENSM
 kim:1%0 MILJON ;
@@ -178,23 +178,19 @@ LEXICON TEENST
 :1 TEENT ;
 
 LEXICON TEENT
-юʼ:%0 THOUSANDS ;
-ӈопой:1 LOHKAIT ;
-
-сидя:2 LOHKAIT ;
-няхарʼ:3 LOHKAIT ;
-тет:4 LOHKAIT ;
-
-самляӈг:5 LOHKAIT ;
-матʼ:6 LOHKAIT ;
-сиʼив:7 LOHKAIT ;
-
-
-сидндет:8 LOHKAIT ;
-хасуюʼ:9 LOHKAIT ;
+kim:%0 THOUSANDS ;
+ikš:1 LOHKAIT ;
+kakš:2 LOHKAIT ;
+kuolm:3 LOHKAIT ;
+nēļa:4 LOHKAIT ;
+vīž:5 LOHKAIT ;
+kūž:6 LOHKAIT ;
+seis:7 LOHKAIT ;
+kǭdõks:8 LOHKAIT ;
+īdõks:9 LOHKAIT ;
 
 LEXICON LOHKAIT
-яӈгня: THOUSANDS ;
+tuoistõn: THOUSANDS ;
 
 LEXICON TENST
 ikš:1 LÅGEVT ;
@@ -265,46 +261,19 @@ TEENS ;
 :%0%0 # ;
 
 LEXICON TEENS
-ikštuoistõn:11 # ;
-kakštuoistõn:12 # ;
-kuolmtuoistõn:13 # ;
-nēļatuoistõn:14 # ;
-vīžtuoistõn :15 # ;
-kūžtuoistõn:16 # ;
-seistuoistõn:17 # ;
-kǭdõkstuoistõn:18 # ;
-īdõkstuoistõn:19 # ;
-!:1 TEEN ;
-!яӈгня:1 TEEN2 ;
+ikš:11 LOHKAI ;
+kakš:12 LOHKAI ;
+kuolm:13 LOHKAI ;
+nēļa:14 LOHKAI ;
+vīž :15 LOHKAI ;
+kūž:16 LOHKAI ;
+seis:17 LOHKAI ;
+kǭdõks:18 LOHKAI ;
+īdõks:19 LOHKAI ;
 
-LEXICON TEEN
-ӈопой:1 LOHKAI ;
-сидя:2 LOHKAI ;
-няхарʼ:3 LOHKAI ;
-тет:4 LOHKAI ;
-самляӈг:5 LOHKAI ;
-матʼ:6 LOHKAI ;
-сиʼив:7 LOHKAI ;
-сидндет:8 LOHKAI ;
-хасуюʼ:9 LOHKAI ;
-
-! LEXICON TEEN2
-! ӈопой:1 # ;
-! 
-! сидя:2 # ;
-! няхарʼ:3 # ;
-! тет:4 # ;
-! 
-! самляӈг:5 # ;
-! матʼ:6 # ;
-! сиʼив:7 # ;
-! 
-! 
-! сидндет:8 # ;
-! хасуюʼ:9 # ;
 
 LEXICON LOHKAI
-% яӈгня: # ;
+tuoistõn: # ;
 
 LEXICON TENS
 % kim:1%0 # ;
