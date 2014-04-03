@@ -326,7 +326,7 @@ LEXICON N_SUʼŽ !!= @CODE@ suʼž:suž 86
 LEXICON N_KEʼŽ !!= @CODE@ keʼž:kež aim 87
 +N:        NMN_KEʼŽ   ;
 
-LEXICON N_VEʼŽ !!= @CODE@ veʼž:vež 88
+LEXICON N_VEʼŽ !!= @CODE@ veʼž:veʼž 88
 +N:	NMN_VEʼŽ	;
 
 LEXICON N_KUʼŽ !!= @CODE@ kuʼž:kuž 89
@@ -2179,18 +2179,43 @@ LEXICON NMN_KEʼŽ !!= @CODE@ keʼž:kež aim 87
 	NMN_KEʼŽ-SG	;
 	NMN_KEʼŽ-PL	;
 LEXICON NMN_KEʼŽ-SG !!= @CODE@ keʼž:kež aim 87
-+TYÄ: #;
+:%{XC%}        SG-DAT_õn ;
+:        SG-ELA/INE_stõ ;
+:        SG-GEN ;
+:%{XC%}    SG-ILL_õ ;
+! SG-INE ;
+:        SG-INS_kõks ;
+:        SG-NOM  ;
+:%{XC%}    SG-PAR_õ ;
+
 LEXICON NMN_KEʼŽ-PL !!= @CODE@ keʼž:kež aim 87
-+TYÄ: #;
+:%^StodRMū        PL-INS_DÕKS-STEM ;
+:%^StodRM        PL-ELA/INE_īst ;
+:%^StodRM        PL-ILL_īž ;
+!       PL-INE ;
+:%^StodRM        PL-PAR_īdi ;
+
 
 
 LEXICON NMN_VEʼŽ !!= @CODE@ veʼž:vež 88
 	NMN_VEʼŽ-SG	;
 	NMN_VEʼŽ-PL	;
-LEXICON NMN_VEʼŽ-SG !!= @CODE@ veʼž:vež 88
-+TYÄ: #;
-LEXICON NMN_VEʼŽ-PL !!= @CODE@ veʼž:vež 88
-+TYÄ: #;
+LEXICON NMN_VEʼŽ-SG !!= @CODE@ veʼž:veʼd 88
+:%{XC%}        SG-DAT_õn ;
+:%^PreI        SG-ELA/INE_stõ ;
+:%^PreI        SG-GEN ;
+:%^PreI%{XC%}    SG-ILL_õ ;
+! SG-INE ;
+:%^PreI        SG-INS_kõks ;
+:%^D2Ž        SG-NOM  ;
+:%^PreI%^StodRM%^D2ZERO    SG-PAR_tā ;
+
+LEXICON NMN_VEʼŽ-PL !!= @CODE@ veʼž:veʼd 88
+:%^PreI%^StodRMū        PL-INS_DÕKS-STEM ;
+:%^StodRM%^D2Ž        PL-ELA/INE_īst ;
+:%^StodRM%^D2Ž        PL-ILL_īz ;
+:%^D2Ž%{XC%}        PL-PAR_i ;
+
 
 
 LEXICON NMN_KUʼŽ !!= @CODE@ kuʼž:kuž 89

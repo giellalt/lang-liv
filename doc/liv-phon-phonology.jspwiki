@@ -21,7 +21,8 @@
 
 ! Triggers
  *  %^Tense:0  = Tense stem will have stød if proper stem type
-
+ *  %^D2T:0    d:t veʼž:veʼd:vietā
+ *  %^PreI:0   i:0 veʼž:veʼd:vietā
 
  * K1:k        this k is not effected by gradation
  * %^NoGrad:0   This will be placed after a stem to break Gradation
@@ -203,7 +204,9 @@ __%{XC%}:Cx__
 
 __%{XC%}:p__ 2014-02-27
 
-__%{XC%}:p__ 2014-01-18 "%{XC%}:Cx" not working
+__%{XC%}:ž__ 2014-02-27
+
+__%{XC%}:ž__ 2014-01-18 "%{XC%}:Cx" not working
 
 __Stod removal left__  
 
@@ -230,10 +233,14 @@ __d:ț __
 
 __d:ž __  
 
+__d:ž __
+
+
+
 !Consonant loss
 
 __d:0__  
-      Vow: (Cns:+)  _ (%^VowsLI1:) %^D2ZERO:0 ;   
+      Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
 
 __T loss before subsequent morpheme with underlying initial d__  
 
