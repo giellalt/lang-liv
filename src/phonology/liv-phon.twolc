@@ -32,7 +32,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  !!= * @CODE@
 
 !! ! Triggers
  %^Tense:0 !!= * @CODE@ = Tense stem will have stød if proper stem type
-
+ %^D2T:0   !!= * @CODE@ d:t veʼž:veʼd:vietā
+ %^PreI:0  !!= * @CODE@ i:0 veʼž:veʼd:vietā
 
 K1:k       !!= * @CODE@ this k is not effected by gradation
 %^NoGrad:0 !!= * @CODE@  This will be placed after a stem to break Gradation
@@ -209,6 +210,9 @@ u:ū <=> # Cns* _  ( i: ) :Cns+ (Vow:) %^VowsLI1:0 ;
 "0:i after shortened vowel or diphthong"
 !! __@RULENAME@__  
 0:i <=> # Cns* [ ē: | ū: o: ] _ :Cns+ Vow: (Cns:) %^VowsShI1:0 ;
+         _ e ( ʼ: | :ʼ ) Cns: %^PreI: ;
+!€# v0eʼd%^PreI
+!€0 vieʼd0
 
 "0:u after shortened vowel or diphthong"
 !! __@RULENAME@__  
@@ -397,17 +401,25 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !€# kep%{XC%}>õ
 !€0 kepp0õ
 
+"%{XC%}:ž"
+!! __@RULENAME@__ 2014-02-27
+ %{XC%}:ž <=>
+  # Cns* [ a | ä | õ | u | i | e ] ( ʼ: ) :ž (%^D2Ž:) _ [ %> õ |  %> i ] ;
+! :ž _ %> ;
+!€# veʼd%^D2Ž%{XC%}>i
+!€0 veʼž0ž0i
+
 !"%{XC%}:š"
 !!! __@RULENAME@__ 2014-01-18 "%{XC%}:Cx" not working
 ! %{XC%}:š <=> š _ %> ;
 
 "Stod removal left"
 !! __@RULENAME@__  
- ʼ:0 <=  # Cns* Vow _ [ CnsWithStod :0* | i g ] Vow: %^StodRM:0 ; 
+ ʼ:0 <=  # Cns* :0* Vow _ [ CnsWithStod :0* | i g ] ( Vow: ) %^StodRM:0 ; 
 
 "Stod removal right"
 !! __@RULENAME@__  
- ʼ:0 =>  # Cns* Vow _ [ CnsWithStod :0* | i g ] Vow: %^StodRM:0 ; 
+ ʼ:0 =>  # Cns* :0* Vow _ [ CnsWithStod :0* | i g ] (Vow:) %^StodRM:0 ; 
 ! 2013-06-26 for looser voikko stød can disappear everywhere
  _ ;
 ! Vow _ CnsWithStod: ( :CnsWithStod )  Vow: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
@@ -454,6 +466,9 @@ r:ŗ <=> _ %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
 d:t <=>
        Vow: ( ʼ: | :ʼ ) [ s k: | d d: | t t: | k k:  | t s | n d | ŗ š t: | r t: | 0:u [ t: | d ] ] (Vow:) ( %^ConsSh:0 |%^Stress1to2:) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
        [ ž | :z | :s | :š ] %> _ ; !! nominative plural 
+       _ (%^PreI:) (%^StodRM:) %^D2T:  ;
+!€# v0eʼd%^PreI%^StodRM%^D2T
+!€0 vie0t
 
 "d:ț "
 !! __@RULENAME@__  
@@ -462,14 +477,21 @@ d:ț <=> [ ț: ] Vow: ( %^ConsSh:0 ) %^VowsRM:0  ( %^ConsRM:0 ) %> _ õ d ;
 "d:ž "
 !! __@RULENAME@__  
 d:ž <=>
-       :Vow Cns:* _ (%^VowsLI1:) %^D2Ž:0 ;
+       :Vow ( ʼ: | :ʼ ) Cns:* _ (%^PreI:) (%^StodRM:) (%^VowsLI1:) %^D2Ž:0 ;
+
+!"ž:d "
+!!! __@RULENAME@__
+! ž:d <=>
+!       :Vow Cns:* _ (%^VowsLI1:|%^StodRM) %^Ž2D:0 ;
+
+
 
 !! !Consonant loss
 
 "d:0"
 !! __@RULENAME@__  
 d:0 <=>
-     Vow: (Cns:+)  _ (%^VowsLI1:) %^D2ZERO:0 ;  !!= @CODE@ 
+     Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;  !!= @CODE@ 
       Cns* Vow ( ʼ: ) d _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
 
 "t:0"
