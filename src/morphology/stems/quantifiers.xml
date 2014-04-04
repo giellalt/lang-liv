@@ -415,7 +415,7 @@
   <e>
     <lg>
       <l pos="Num">īʼdtuoistõnz</l>
-
+        <l_ref pos="Num">ikštuoistõnz</l_ref>
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">īʼd#tuoistõnz</st>
       </stg>
@@ -426,11 +426,6 @@
     <pos>Num</pos>
 
     <mg>
-      <m>
-        <head/>
-
-        <semRel>= ikš|tuoistõnz</semRel>
-      </m>
 
       <tg xml:lang="eng">
         <t pos="Num">YY</t>
@@ -521,7 +516,7 @@
   <e>
     <lg>
       <l pos="Num">ikštuoistõnz</l>
-
+        <l_ref pos="Num">īʼdtuoistõnz</l_ref>
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">ikš#tuoistõnz</st>
       </stg>
@@ -532,11 +527,6 @@
     <pos>Num</pos>
 
     <mg>
-      <m>
-        <head/>
-
-        <semRel>= īʼd|tuoistõnz</semRel>
-      </m>
 
       <tg xml:lang="eng">
         <t pos="Num">YY</t>
@@ -661,7 +651,7 @@
   <e exclude="fst">
     <lg>
       <l pos="Num">kakšsaʼddõ</l>
-
+        <l_ref pos="Num">kakšsadā</l_ref>
       <stg>
         <st Contlex="NUM_PADĀ">kakš##saʼddõ</st>
       </stg>
@@ -675,7 +665,6 @@
       <m>
         <head/>
 
-        <semRel>&gt; kakš||sadā</semRel>
       </m>
 
       <tg xml:lang="eng">
@@ -836,7 +825,7 @@
   <e exclude="fst">
     <lg>
       <l pos="Num">kimmõzjaʼg</l>
-
+        <l_ref pos="Num">kimmõzjagū</l_ref>
       <stg>
         <st Contlex="NUM_SUʼG">kimmõz##jaʼg</st>
       </stg>
@@ -850,7 +839,6 @@
       <m>
         <head/>
 
-        <semRel>≈ kimmõz|jagū</semRel>
       </m>
 
       <tg xml:lang="eng">
@@ -874,7 +862,7 @@
   <e exclude="fst">
     <lg>
       <l pos="Num">kimmõzjagū</l>
-
+        <l_ref pos="Num">kimmõzjaʼg</l_ref>
       <stg>
         <st Contlex="NUM_RUZŪ">kimmõz##jagū</st>
       </stg>
@@ -888,7 +876,7 @@
       <m>
         <head/>
 
-        <semRel>≈ kimmõz|jaʼg</semRel>
+
       </m>
 
       <tg xml:lang="eng">
@@ -1490,7 +1478,7 @@
   <e>
     <lg>
       <l pos="Num">kuolmi</l>
-
+        <l_ref pos="Num">kuolmõz</l_ref>
       <stg>
         <st Contlex="NUM_TŪĻI">kuolmi</st>
       </stg>
@@ -1504,7 +1492,7 @@
       <m>
         <head/>
 
-        <semRel>&gt; kuolmõz</semRel>
+
       </m>
 
       <tg xml:lang="eng">
@@ -2378,7 +2366,7 @@
   <e>
     <lg>
       <l pos="Num">neļļõzjaʼg</l>
-
+        <l_ref pos="Num">neļļõzjagū</l_ref>
       <stg>
         <st Contlex="NUM_VAʼG">neļļõz#jaʼg</st>
       </stg>
@@ -2392,7 +2380,7 @@
       <m>
         <head/>
 
-        <semRel>≈ neļļõz|jagū</semRel>
+
       </m>
 
       <tg xml:lang="eng">
@@ -2416,6 +2404,7 @@
   <e>
     <lg>
       <l pos="Num">neļļõzjagū</l>
+        <l_ref pos="Num">neļļõzjaʼg</l_ref>
 
       <stg>
         <st Contlex="NUM_RUZŪ">neļļõz#jagū</st>
@@ -2430,7 +2419,6 @@
       <m>
         <head/>
 
-        <semRel>≈ neļļõz|jaʼg</semRel>
       </m>
 
       <tg xml:lang="eng">
@@ -2454,7 +2442,7 @@
   <e>
     <lg>
       <l pos="Num">pǭrkimdõ</l>
-
+        <l_ref pos="Num">pǭrkimgõn</l_ref>
       <stg>
         <st Contlex="NUM_SIELDÕ">pǭr#kimdõ</st>
       </stg>
@@ -2468,7 +2456,7 @@
       <m>
         <head/>
 
-        <semRel>= pǭr|kimgõn</semRel>
+
       </m>
 
       <tg xml:lang="eng">
@@ -2494,7 +2482,7 @@
       <l pos="Num">pǭrkimgõn</l>
 
       <stg>
-        <st Contlex="NUM_APPÕN">pǭr#kimgõn</st>
+        <st Contlex="QNT_APPÕN">pǭr#kimgõn</st>
       </stg>
 
       <stress>pǭr|kimgõn</stress>
@@ -2528,7 +2516,7 @@
       <l pos="Num">pūol</l>
 
       <stg>
-        <st Contlex="NUM_PŪOL">pūol</st>
+        <st Contlex="QNT_PŪOL">pūol</st>
       </stg>
 
       <stress>pūol 2</stress>
@@ -2594,7 +2582,7 @@
   <e>
     <lg>
       <l pos="Num">pūoļ</l>
-
+        <l_ref pos="Num">&gt; pūol</l_ref>
       <stg>
         <st Contlex="NUM_TŪĻ">pūoļ</st>
       </stg>
@@ -2608,7 +2596,7 @@
       <m>
         <head/>
 
-        <semRel>&gt; pūol 2</semRel>
+
       </m>
 
       <tg xml:lang="eng">
@@ -2802,7 +2790,7 @@
   <e>
     <lg>
       <l pos="Num">seismi</l>
-
+        <l_ref pos="Num">seismõz</l_ref>
       <stg>
         <st Contlex="NUM_TŪĻI">seismi</st>
       </stg>
@@ -2816,7 +2804,7 @@
       <m>
         <head/>
 
-        <semRel>&gt; seismõz</semRel>
+
       </m>
 
       <tg xml:lang="eng">
@@ -2874,7 +2862,7 @@
   <e>
     <lg>
       <l pos="Num">seismõztuoistõnz</l>
-
+        <l_ref pos="Num">seistuoistõnz</l_ref>
       <stg>
         <st Contlex="NUM_TUOISTÕNZ">seismõz#tuoistõnz</st>
       </stg>
@@ -2888,7 +2876,7 @@
       <m>
         <head/>
 
-        <semRel>&gt; seis|tuoistõnz</semRel>
+
       </m>
 
       <tg xml:lang="eng">
@@ -2980,7 +2968,7 @@
   <e exclude="fst">
     <lg>
       <l pos="Num">seissaʼddõ</l>
-
+        <l_ref pos="Num">seissadā</l_ref>
       <stg>
         <st Contlex="NUM_PADĀ">seis##saʼddõ</st>
       </stg>
@@ -2994,7 +2982,7 @@
       <m>
         <head/>
 
-        <semRel>&gt; seis|sadā</semRel>
+
       </m>
 
       <tg xml:lang="eng">
@@ -3531,7 +3519,7 @@
   <e exclude="fst">
     <lg>
       <l pos="Num">vīžsaʼddõ</l>
-
+      <l_ref pos="Num">vīžsadā</l_ref>
       <stg>
         <st Contlex="NUM_PADĀ">vīž##saʼddõ</st>
       </stg>
@@ -3542,11 +3530,6 @@
     <pos>Num</pos>
 
     <mg>
-      <m>
-        <head/>
-
-        <semRel>&gt; vīž||sadā</semRel>
-      </m>
 
       <tg xml:lang="eng">
         <t pos="Num">YY</t>

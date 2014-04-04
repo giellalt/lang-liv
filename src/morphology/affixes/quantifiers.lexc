@@ -10,8 +10,11 @@ LEXICON QntCases
 +Qnt:   CASES  ;
 !        -    Nouns  ;
 
+LEXICON QNT_APPÕN !!= @CODE@ : 216
++Qnt:     NMN_APPÕN   ;
+
 LEXICON QNT_PŪOL !!= @CODE@ : 216
-+Qnt:     CASES   ;
++Qnt:     NMN_PŪOL   ;
 
 !! !! Stem lexica
 LEXICON NUM_PADĀ !!= @CODE@ padā:padā 39
