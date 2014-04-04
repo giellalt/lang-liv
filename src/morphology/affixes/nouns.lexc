@@ -1717,9 +1717,20 @@ LEXICON NMN_SĒMḐA !!= @CODE@ sēmḑa:sēmḑa 53
 	NMN_SĒMḐA-SG ;
 	NMN_SĒMḐA-PL ;
 LEXICON NMN_SĒMḐA-SG !!= @CODE@ sēmḑa:sēmḑa 53
-+TYÄ: #;
+        SG-DAT_n ;
+        SG-ELA/INE_st ;
+        SG-GEN ;
+:%^Stress1to2%^VowsRM    SG-ILL_õ ;
+        SG-INS_ks ;
+        SG-NOM  ;
+:%^Stress1to2%^VowsRM    SG-PAR_i ;
+
 LEXICON NMN_SĒMḐA-PL !!= @CODE@ sēmḑa:sēmḑa 53
-+TYÄ: #;
+        PL-INS_DÕKS-STEM ;
+:%^VowsRM        PL-ELA/INE_ist ;
+:%^VowsRM        PL-ILL_iž ;
+:%^VowsRM        PL-PAR_idi ;
+
 
 LEXICON NMN_TĪERA !!= @CODE@ tīera:tīera 54
 	NMN_TĪERA-SG ;
@@ -1732,7 +1743,7 @@ LEXICON NMN_TĪERA-SG !!= @CODE@ tīera:tīera 54
 ! SG-INE ;
 :%^StodRM        SG-INS_ks ;
 :%^StodRM        SG-NOM  ;
-:%^Stress1to2%^VowsRM    SG-PAR_õ ;
+:%^Stress1to2%^VowsRM    SG-PAR_i ;
 
 LEXICON NMN_TĪERA-PL !!= @CODE@ tīera:tīera 54
 :%^StodRM        PL-INS_DÕKS-STEM ;
@@ -1746,17 +1757,39 @@ LEXICON NMN_KRǬIPA !!= @CODE@ krǭipa:krǭipa 55
 	NMN_KRǬIPA-SG ;
 	NMN_KRǬIPA-PL ;
 LEXICON NMN_KRǬIPA-SG !!= @CODE@ krǭipa:krǭipa 55
-+TYÄ: #;
-LEXICON NMN_KRǬIPA-PL !!= @CODE@ krǭipa:krǭipa 55
-+TYÄ: #;
+        SG-DAT_n ;
+        SG-ELA/INE_st ;
+	SG-GEN ;
+:%^VowsRM        SG-ILL_õ ;
+        SG-INS_ks ;
+        SG-NOM  ;
+:%^VowsRM        SG-PAR_õ ;
 
-LEXICON NMN_LILLA !!= @CODE@ kuțā:kuțā 57
+LEXICON NMN_KRǬIPA-PL !!= @CODE@ krǭipa:krǭipa 55
+        PL-INS_DÕKS-STEM ;
+:%^VowsRM        PL-ELA/INE_išt ;
+:%^VowsRM        PL-ILL_iž ;
+:%^VowsRM        PL-PAR_idi ;
+
+
+LEXICON NMN_LILLA !!= @CODE@ lilla:lilla 56
 	NMN_LILLA-SG ;
 	NMN_LILLA-PL ;
-LEXICON NMN_LILLA-SG !!= @CODE@ kuțā:kuțā 57
-+TYÄ: #;
-LEXICON NMN_LILLA-PL !!= @CODE@ kuțā:kuțā 57
-+TYÄ: #;
+LEXICON NMN_LILLA-SG !!= @CODE@ lilla:lilla 56
+        SG-DAT_n ;
+        SG-ELA/INE_st ;
+        SG-GEN ;
+        SG-ILL_z ;
+        SG-INS_ks ;
+        SG-NOM  ;
+        SG-PAR_ZERO ;
+
+LEXICON NMN_LILLA-PL !!= @CODE@ lilla:lilla 56
+        PL-INS_DÕKS-STEM ;
+:%^VowsRM        PL-ELA/INE_išt ;
+:%^VowsRM        PL-ILL_iž ;
+:%^VowsRM        PL-PAR_idi ;
+
 
 LEXICON NMN_KUȚĀ !!= @CODE@ kuțā:kuțā 57
 	NMN_KUȚĀ-SG ;
@@ -4436,6 +4469,8 @@ LEXICON SG-NOM
 +Sg+Nom: K ;
 LEXICON SG-PAR_ZERO
 +Sg+Par: K ;
+LEXICON SG-PAR_i
++Sg+Par:%>i K ;
 LEXICON SG-PAR_õ
 +Sg+Par:%>õ K ;
 LEXICON SG-PAR_dõ
