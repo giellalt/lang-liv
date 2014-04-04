@@ -2057,7 +2057,6 @@ LEXICON NMN_TUP-SG !!= @CODE@ tup:tup 79
 :        SG-ELA/INE_stõ ;
 :        SG-GEN ;
 :%{XC%}    SG-ILL_õ ;
-! SG-INE ;
 :%{XC%}   SG-INS_õks ;
 :        SG-NOM  ;
 :%{XC%}    SG-PAR_õ ;
@@ -3137,13 +3136,24 @@ LEXICON NMN_LĪEM-PL !!= @CODE@ : 151
 +TYÄ: #;
 
 
-LEXICON NMN_AʼM !!= @CODE@ aʼm:am 152
+LEXICON NMN_AʼM !!= @CODE@ aʼm:aʼm 152
 	NMN_AʼM-SG	;
 	NMN_AʼM-PL	;
-LEXICON NMN_AʼM-SG !!= @CODE@ aʼm:am 152
-+TYÄ: #;
-LEXICON NMN_AʼM-PL !!= @CODE@ aʼm:am 152
-+TYÄ: #;
+LEXICON NMN_AʼM-SG !!= @CODE@ aʼm:aʼm 152
+:%{XC%}        SG-DAT_õn ;
+        SG-ELA/INE_stõ ;
+        SG-GEN ;
+:%{XC%}    SG-ILL_õ ;
+        SG-INS_kõks ;
+        SG-NOM  ;
+ 	SG-PAR_tõ ;
+
+LEXICON NMN_AʼM-PL !!= @CODE@ aʼm:aʼm 152
+:%{XC%}        PL-INS_ÕDÕKS-STEM ;
+:%{XC%}        PL-ELA/INE_ist ;
+:%{XC%}        PL-ILL_iž ;
+:%{XC%}        PL-PAR_idi ;
+
 
 
 LEXICON NMN_AZŪM !!= @CODE@ : 153 azūm:aʼzūm
