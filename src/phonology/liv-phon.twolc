@@ -393,7 +393,7 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
  %{XC%}:Cx <=> 
 !# Cns* Vow ( ʼ: ) Cx _ Vow: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] 
   # Cns* [ a | ä | õ | u | i ] ( ʼ: ) Cx _ [ %> õ | %> i ] ;
-         where Cx in (t k b d g l ļ m n ņ r ŗ š v z ž ) ;
+         where Cx in (t b d g l ļ m n ņ r ŗ š v z ž ) ;
 
 "%{XC%}:p"
 !! __@RULENAME@__ 2014-02-27
@@ -412,6 +412,12 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !"%{XC%}:š"
 !!! __@RULENAME@__ 2014-01-18 "%{XC%}:Cx" not working
 ! %{XC%}:š <=> š _ %> ;
+
+"%{XC%}:k"
+!! __@RULENAME@__ 2014-02-27
+ %{XC%}:k <=> k _ %> ;
+!€# rok%{XC%}>õ
+!€0 rokk0õ
 
 "Stod removal left"
 !! __@RULENAME@__  
