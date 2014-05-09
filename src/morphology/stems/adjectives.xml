@@ -15691,6 +15691,32 @@
    </e>
    <e>
       <lg>
+         <l pos="A">luʼgdõb</l>
+         <stg>
+            <st Contlex="A_ȬʼDÕG">luʼgdõb</st>
+         </stg>
+         <stress>luʼgdõb</stress>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="A">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="A">loetav</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">luettava</t>
+            <t pos="A">lukuinen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="A">salasāms</t>
+            <t pos="A">lasāms</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l pos="A">luʼggõmõt</l>
          <stg>
             <st Contlex="A_-ZERO">luʼggõmõt</st>
@@ -16193,6 +16219,31 @@
          </tg>
          <tg xml:lang="lav">
             <t pos="A">priecīgs</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">läpātõn</l>
+         <stg>
+            <st Contlex="A_APPÕN">läpātõn</st>
+         </stg>
+         <stress>läpātõn</stress>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="A">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="A">läpastanud</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">tunkkainen</t>
+            <t pos="A">ummehtunut</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="A">sasmacis</t>
          </tg>
       </mg>
    </e>
@@ -29393,6 +29444,30 @@
          <tg xml:lang="lav">
             <t pos="A">apdāvināts</t>
             <t pos="A">talantīgs</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">taptõb</l>
+         <stg>
+            <st Contlex="A_KǬRAND">taptõb</st>
+         </stg>
+         <stress>taptõb</stress>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="A">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="A"/>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">teurastettava</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="A">kaujams</t>
          </tg>
       </mg>
    </e>
