@@ -67,7 +67,10 @@ K1:k       !!= * @CODE@ this k is not effected by gradation
 !! vowel metathesis
 %^VowsMetath:0
 
-
+!! VOWEL SHORTENING
+ %^VowShIn1:0	!!= * @CODE@ This causes vowel shortening in 1. syll
+                !!= * @CODE@ accompanied by coda consonant lengthening
+ %^A2ÕIn2:0       !!= * @CODE@ This causes 2. syll a => õ
 
 %^StodRM:0
 
@@ -173,7 +176,10 @@ a:i <=>  _ ( %^ConsSh: |%^VowsSh1: %^PalatalizeLeft: ) %^Vow2Iin2: ;
 
 "ī:i in first syllable"
 !! __@RULENAME@__  
-ī:i <=> # Cns* _  ( i ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+ī:i <=> # Cns* _  ( i | e ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+      # Cns* _ Vow:* Cns:+ (0:Cns) Vow: %^VowShIn1:0 (%^A2ÕIn2:0) ; 
+!€# tīer0a%^VowShIn1%^A2ÕIn2
+!€0 tierrõ00
 
 "ȭ:õ in first syllable"
 !! __@RULENAME@__  
@@ -261,7 +267,9 @@ o:ō <=> _ [i g | (u:) :Cns+] (Vow:) %^VowsLI1:0 ;
 "a:õ "
 !! __@RULENAME@__
 a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
-     # Cns* [ Vow: | ʼ: | :ʼ ]+ [ Cns (0:Cns)| Cns+ ] _ [ %^Stress1to2:0  (%^ConsL:) ] [ # | %> ]  ;
+     # Cns* [ Vow: | ʼ: | :ʼ ]+ [ Cns (0:Cns)| Cns+ ] _ [ %^Stress1to2:0  (%^ConsL:) | (%^VowShIn1:) %^A2ÕIn2: ] [ # | %> ]  ;
+!€# tīer0a%^VowShIn1%^A2ÕIn2
+!€0 tierrõ00
 
 "ū:õ "
 !! __@RULENAME@__  
@@ -305,7 +313,7 @@ a:0 <=> # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) 
 !€0 jarr0000õ
 !€# pūol0a%^Stress1to2%^ConsL%^VowsRMõ
 !€# pȯ0ll0000õ
-
+     _ (%^VowShIn1:) %^VowsRM: ;
 
 "õ:0"
 !! __@RULENAME@__  
@@ -369,7 +377,8 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 "lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ"
 !! __@RULENAME@__  
  0:Cx <=> 
- # Cns* Vow: (o:) ( ʼ: ) Cx _ Vow: (Cns:) [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
+ # Cns* Vow:+ ( ʼ: ) Cx _ Vow: (Cns:) [ %^VowShIn1: (%^A2ÕIn2: ) | ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
+! # Cns* Vow: (o:) ( ʼ: ) Cx _ Vow: (Cns:) [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] ;
  # Cns* Vow ( ʼ: ) Cx _ [ %^ConsL:0 ] ;
 ! Cx _ Vow: %^ConsL:0  [ # | %> | %^VowsRM:0 %> :Vow ] ;
 ! Cx _ Vow: %^Stress2to1:0 [ # | %> | %^VowsRM:0 %> :Vow ] ;
@@ -386,7 +395,6 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 "0:p"
 !! __@RULENAME@__
  0:p <=> Vow: p _ Vow: %^ConsL: ;
-
 
 "%{XC%}:Cx"
 !! __@RULENAME@__
