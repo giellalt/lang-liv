@@ -206,6 +206,9 @@ And following triggers to control variation
  *  %^D2T    d:t veʼž:veʼd:vietā
  *  %^PreI   i:0 veʼž:veʼd:vietā
 
+ *  %^VowShIn1	 This causes vowel shortening in 1. syll
+ *                  accompanied by coda consonant lengthening
+ *  %^A2ÕIn2        This causes 2. syll a => õ
 2013-02-01 
  *  %^Stress1to2   =
  *  %^Stress2to1   =
@@ -469,7 +472,7 @@ modifiers that do not decline
 
  LEXICON A_VARĪKŠ  varīkš: 209
 
- LEXICON A_ŪŽ  : 219
+ LEXICON A_ŪŽ  : 219 ūž:ūd
 
  LEXICON A_JŪŖ  jūŗ:jūr 221
 
@@ -2131,9 +2134,11 @@ __567__
  LEXICON NMN_KAKŠ-PL  : 218
 
 
- LEXICON NMN_ŪŽ  : 219
+ LEXICON NMN_ŪŽ  : 219 ūž:ūd
  LEXICON NMN_ŪŽ-SG  : 219
+
  LEXICON NMN_ŪŽ-PL  : 219
+
 
 
  LEXICON NMN_SĒŅ  sēņ:sēn 220
@@ -2852,21 +2857,24 @@ Quotative
 
 vowel metathesis
 
+VOWEL SHORTENING
+ *  %^VowShIn1:0	 This causes vowel shortening in 1. syll
+ *                  accompanied by coda consonant lengthening
+ *  %^A2ÕIn2:0        This causes 2. syll a => õ
 
 
-
- * %^Vow2Iin2:0    lengthen consonant
-
-
-* %^Vow2Iin2:0    Vow in middle ētam:eitmõd
- * %^Vow2Iin2:0    laps:läpš
+ *  %^A2ÕIn2:0        lengthen consonant
 
 
-* %^Vow2Iin2:0    kīndõr:kīndiriž
+*  %^A2ÕIn2:0        Vow in middle ētam:eitmõd
+ *  %^A2ÕIn2:0        laps:läpš
 
- * %^Vow2Iin2:0    Hyphen in  constructions 
- * %^Vow2Iin2:0    morpheme boundary
- * %^Vow2Iin2:0    Word boundary for both lexicalised and dynamic compounds
+
+*  %^A2ÕIn2:0        kīndõr:kīndiriž
+
+ *  %^A2ÕIn2:0        Hyphen in  constructions 
+ *  %^A2ÕIn2:0        morpheme boundary
+ *  %^A2ÕIn2:0        Word boundary for both lexicalised and dynamic compounds
 
 
 
@@ -2961,7 +2969,6 @@ __ī:0__
 
 __a:0__  
 
-
 __õ:0__  
 
 __i:0 in first syllable__  
@@ -2995,7 +3002,6 @@ simultaneous to reducing vowel of second syllable
 __lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ__  
 
 __0:p__
-
 
 __%{XC%}:Cx__
 

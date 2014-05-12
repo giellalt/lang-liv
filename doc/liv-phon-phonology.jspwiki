@@ -55,21 +55,24 @@
 
 vowel metathesis
 
+VOWEL SHORTENING
+ *  %^VowShIn1:0	 This causes vowel shortening in 1. syll
+ *                  accompanied by coda consonant lengthening
+ *  %^A2ÕIn2:0        This causes 2. syll a => õ
 
 
-
- * %^Vow2Iin2:0    lengthen consonant
-
-
-* %^Vow2Iin2:0    Vow in middle ētam:eitmõd
- * %^Vow2Iin2:0    laps:läpš
+ *  %^A2ÕIn2:0        lengthen consonant
 
 
-* %^Vow2Iin2:0    kīndõr:kīndiriž
+*  %^A2ÕIn2:0        Vow in middle ētam:eitmõd
+ *  %^A2ÕIn2:0        laps:läpš
 
- * %^Vow2Iin2:0    Hyphen in  constructions 
- * %^Vow2Iin2:0    morpheme boundary
- * %^Vow2Iin2:0    Word boundary for both lexicalised and dynamic compounds
+
+*  %^A2ÕIn2:0        kīndõr:kīndiriž
+
+ *  %^A2ÕIn2:0        Hyphen in  constructions 
+ *  %^A2ÕIn2:0        morpheme boundary
+ *  %^A2ÕIn2:0        Word boundary for both lexicalised and dynamic compounds
 
 
 
@@ -164,7 +167,6 @@ __ī:0__
 
 __a:0__  
 
-
 __õ:0__  
 
 __i:0 in first syllable__  
@@ -198,7 +200,6 @@ simultaneous to reducing vowel of second syllable
 __lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ__  
 
 __0:p__
-
 
 __%{XC%}:Cx__
 
