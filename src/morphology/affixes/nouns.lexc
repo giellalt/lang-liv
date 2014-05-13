@@ -4036,7 +4036,7 @@ LEXICON NMN_ŪŽ-SG !!= @CODE@ : 219
     	      SG-PAR_tõ ;
 
 LEXICON NMN_ŪŽ-PL !!= @CODE@ : 219
-:%^ConsRM        PL-INS_DKÕKS-STEM ;
+        PL-INS_ZEROKÕKS-STEM ;
 :%^D2Ž        PL-ELA/INE_ist ;
 :%^D2Ž        PL-ILL_iz ;
 :%^D2Ž        PL-PAR_i ;
@@ -4375,6 +4375,13 @@ LEXICON PL-INS_ÕDÕKS-STEM
      PL-INS_õdõks      ;
      PL-NOM_õd         ;
 
+LEXICON PL-INS_ZEROKÕKS-STEM
+     PL-DAT_õn       ;
+     PL-GEN_ZERO         ;
+     PL-INS_kõks      ;
+     PL-NOM_ZERO         ;
+
+
 
 LEXICON NTag
 +N:	CASES	;
@@ -4519,7 +4526,7 @@ LEXICON SG-PAR_ța
 LEXICON PL-DAT_dõn
 +Pl+Dat:%>dõn K ;
 
-LEXICON PL-DAT_õn !!= * __@CODE@__ This is peculiar to NMN_PŪOL-PL 216
+LEXICON PL-DAT_õn !!= * __@CODE@__ This is peculiar to NMN_PŪOL-PL 216,219
 +Pl+Dat:%>õn K ;
 
 LEXICON PL-DAT_õdõn
@@ -4604,6 +4611,9 @@ LEXICON PL-ELA_šti
 +Pl+Ela:%>šti K ;
 !
 
+LEXICON PL-GEN_ZERO
++Pl+Gen:%> K ;
+
 LEXICON PL-GEN_d
 +Pl+Gen:%>d K ;
 
@@ -4677,12 +4687,17 @@ LEXICON PL-INS_dkõks
 LEXICON PL-INS_kõks !!= * __@CODE@__ This is peculiar to NMN_PŪOL-PL  216
 +Pl+Ins:%>kõks K ;
 
+LEXICON PL-INS_õks
++Pl+Ins:%>õks K ;
+
 LEXICON PL-NOM_d
 +Pl+Nom:%>d K ;
 LEXICON PL-NOM_õd
 +Pl+Nom:%>õd K ;
 !LEXICON PL-NOM_t
 !+Pl+Nom:%>t K ;
+LEXICON PL-NOM_ZERO
++Pl+Nom:%> K ;
 
 LEXICON PL-PAR
 +Pl+Par: K ;
