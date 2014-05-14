@@ -127,10 +127,19 @@ Rules
 
 !! !Shortening in first syllable
 
+
 !! 
+"ǟ:ä in first syllable"
+!! __@RULENAME@__
+ǟ:ä <=> # Cns* _ ( i ) Cns Cns:* (Vow:) [ %^VowShIn1:0 ] ;
+!€# kǟnga%^VowShIn1%^A2ÕIn2
+!€0 kängõ00
+
 "ā:a in first syllable"
 !! __@RULENAME@__  
-ā:a <=> # Cns* _  ( i ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 ] ;
+ā:a <=> # Cns* _  ( i ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 | %^VowShIn1:0 ] ;
+!€# āļdža%^VowShIn1%^A2ÕIn2
+!€0 aļdžõ00
 
 "ā:ī in second syllable plural"
 !! __@RULENAME@__
@@ -277,7 +286,7 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 
 "õ:i"
 !! __@RULENAME@__
- õ:i <=> # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: ] %^PalatalizeLeft: ;
+ õ:i <=> # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: ] %^PalatalizeLeft: ;
          # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
 !€# ǭʼrõn%^PalatalizeLeft
 !€0 ǭʼriņ0
@@ -313,7 +322,9 @@ a:0 <=> # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) 
 !€0 jarr0000õ
 !€# pūol0a%^Stress1to2%^ConsL%^VowsRMõ
 !€# pȯ0ll0000õ
-     _ (%^VowShIn1:) %^VowsRM: ;
+     _ (%^VowShIn1:) (%^PalatalizeLeft:) %^VowsRM: ; !%^Vow2Iin2: might also be good
+!€# kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi
+!€0 keņg0000i
 
 "õ:0"
 !! __@RULENAME@__  
@@ -451,8 +462,10 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !! __@RULENAME@__  
 l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vow: (%^Stress1to2:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
-	_ %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
+	_ %^PalatalizeLeft:0 ; !! kēļ:kēl 215
+!€# äʼddõl%^PalatalizeLeft%>i
+!€0 äʼddiļ00i
 
 "n:ņ palatalization"
 !! __@RULENAME@__  
@@ -462,10 +475,17 @@ n:ņ <=> _ ( Vow: ) (%^VowsSh1:) %^PalatalizeLeft:0 ( %^VowsRM:0 | %^Vow2Iin2:) 
 !€# ǭʼrõn%^PalatalizeLeft
 !€0 ǭʼriņ0
         _ %^PalatalizeLeft:0 ; !! sēņ:sēn 220
+       _ g ( Vow: ) (%^VowShIn1:) %^PalatalizeLeft: ;
+!€# kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi
+!€0 keņg0000i
+   
 
 "r:ŗ"
 !! __@RULENAME@__  
 r:ŗ <=> _ %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
+       _ g ( Vow: ) ( %^VowShIn1: ) %^PalatalizeLeft: ;
+!€# ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi
+!€0 eŗg0000i
 
 
 ! First syllable short second syllable long
@@ -537,6 +557,13 @@ s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 "ǟ:ē palatalization"
 !! __@RULENAME@__  
 ǟ:ē <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
+
+"ǟ:e short and palatalization"
+!! __@RULENAME@__
+ǟ:e <=> # Cns* _ Cns:+ ( Vow: ) %^VowShIn1: %^PalatalizeLeft: ;
+!€# kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi
+!€0 keņg0000i
+
 
 "a:ä palatalization"
 !! __@RULENAME@__  
