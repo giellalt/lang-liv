@@ -92,6 +92,9 @@ VOWEL SHORTENING
 !Shortening in first syllable
 
 
+
+__ǟ:ä in first syllable__
+
 __ā:a in first syllable__  
 
 __ā:ī in second syllable plural__
@@ -218,11 +221,12 @@ __Stod removal right__
 
 
 __l:ļ__  
-kēļ:kēl 215
 This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
+kēļ:kēl 215
 
 __n:ņ palatalization__  
 sēņ:sēn 220
+
 
 __r:ŗ__  
 jūŗ:jūr 221
@@ -256,6 +260,9 @@ __s:š palatalization__
 }}}
 
 __ǟ:ē palatalization__  
+
+__ǟ:e short and palatalization__
+
 
 __a:ä palatalization__  
 
