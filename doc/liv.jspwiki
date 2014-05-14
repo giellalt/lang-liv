@@ -438,7 +438,7 @@ modifiers that do not decline
 
  LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
 
- LEXICON A_SĒJI  : 186
+ LEXICON A_SĒJI  : 186 āndaji:āndaji sēji:sēji
 
  LEXICON A_AKKIJI  akkiji:akkiji 187
 
@@ -558,6 +558,8 @@ Stem lexica
  LEXICON N_AŽĀ-PL  ažā:ažā 26
 
  LEXICON N_ĀĻDŽA  āļdža:āļdža 27
+ LEXICON N_ĀĻDŽA-SG  āļdža:āļdža 27
+ LEXICON N_ĀĻDŽA-PL  āļdža:āļdža 27
 
  LEXICON N_SUKĀ  sukā:sukā 28
 
@@ -1015,6 +1017,7 @@ __jõugõ:jõugõ__
  LEXICON N_LĒʼMI-PL	 lēʼmi:lēʼmi 202
 
  LEXICON N_ALĪZ  : 203
+ LEXICON N_ALĪZ-SG  : 203
  LEXICON N_ALĪZ-PL  : 203
 
  LEXICON N_NȬŖKÕZ  : 204
@@ -1189,6 +1192,7 @@ tēšti
 
  LEXICON NMN_ĀĻDŽA  āļdža:āļdža 27
  LEXICON NMN_ĀĻDŽA-SG  āļdža:āļdža 27
+
  LEXICON NMN_ĀĻDŽA-PL  āļdža:āļdža 27
 
  LEXICON NMN_SUKĀ  sukā:sukā 28
@@ -2065,7 +2069,10 @@ __567__
 
  LEXICON NMN_ALĪZ  : 203
  LEXICON NMN_ALĪZ-SG  : 203
+
  LEXICON NMN_ALĪZ-PL  : 203
+
+
 
  LEXICON NMN_NȬŖKÕZ  : 204
  LEXICON NMN_NȬŖKÕZ-SG  : 204
@@ -2898,6 +2905,9 @@ VOWEL SHORTENING
 !Shortening in first syllable
 
 
+
+__ǟ:ä in first syllable__
+
 __ā:a in first syllable__  
 
 __ā:ī in second syllable plural__
@@ -3024,11 +3034,12 @@ __Stod removal right__
 
 
 __l:ļ__  
-kēļ:kēl 215
 This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
+kēļ:kēl 215
 
 __n:ņ palatalization__  
 sēņ:sēn 220
+
 
 __r:ŗ__  
 jūŗ:jūr 221
@@ -3062,6 +3073,9 @@ __s:š palatalization__
 }}}
 
 __ǟ:ē palatalization__  
+
+__ǟ:e short and palatalization__
+
 
 __a:ä palatalization__  
 

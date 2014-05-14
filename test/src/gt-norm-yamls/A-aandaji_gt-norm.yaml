@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - āndaji: # Noun 186 'eng /est andja/fin' - full paradigm
+     āndaji+A+Sg+Nom: āndaji
+     āndaji+A+Sg+Gen: āndajiz
+     āndaji+A+Sg+Par: āndajizt
+     āndaji+A+Sg+Dat: āndajizõn
+     āndaji+A+Sg+Ins: āndajizõks
+     āndaji+A+Sg+Ill: āndajizõ
+     āndaji+A+Sg+Ela: āndajizõst
+     āndaji+A+Pl+Nom: āndajid
+     āndaji+A+Pl+Gen: āndajid
+     āndaji+A+Pl+Par: āndajidi
+     āndaji+A+Pl+Dat: āndajidõn
+     āndaji+A+Pl+Ins: āndajidõks
+     āndaji+A+Pl+Ill: āndajiž
+     āndaji+A+Pl+Ela: āndajisti
+
