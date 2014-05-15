@@ -16486,6 +16486,31 @@
    </e>
    <e>
       <lg>
+         <l pos="A">maitõn</l>
+         <stg>
+            <st Contlex="A_APPÕN">maitõn</st>
+         </stg>
+         <stress>maitõn</stress>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="A">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="A">riknenud</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">pilaantunut</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="A">samaitājies</t>
+            <t pos="A">sabojājies</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l pos="A">maitsi</l>
          <stg>
             <st Contlex="A_TŪĻI">maitsi</st>
@@ -32053,7 +32078,7 @@
       <lg>
          <l pos="A">ūž</l>
          <stg>
-            <st Contlex="A_ŪŽ">ūd</st>
+            <st Contlex="A_ŪŽ">ūž</st>
          </stg>
          <stress>ūž</stress>
       </lg>
