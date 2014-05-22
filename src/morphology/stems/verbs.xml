@@ -50512,11 +50512,13 @@
             <t pos="V" val="TV">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="V" val="TV">tammetada</t>
-            <t pos="V" val="TV">toornahka parkainesse panna ja selles parkida</t>
+            <tCtn>
+               <t pos="V" val="TV">tammetada</t>
+               <re>toornahka parkainesse panna ja selles parkida</re>
+            </tCtn>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V" val="TV"/>
+            <t pos="V" val="TV">liottaa</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="V" val="TV">miecēt</t>
