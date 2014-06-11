@@ -273,6 +273,9 @@ LEXICON Root
    Punctuation		;  !!= * @CODE@ 
 !   wordToNumeral	;  
    EXCEPTIONS		;  !!= * @CODE@ 
+!
+ A_NEWWORDS ; !!= * @CODE@ This is for feeding new adjectives
+ N_NEWWORDS ; !!= * @CODE@ This is for feeding new nouns
 
 !! Words that are not inflected
 
