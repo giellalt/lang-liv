@@ -24,6 +24,8 @@ GT_LEXC_SRCS=\
 			 stems/acro.lexc          \
 			 stems/exceptions.lexc    \
 			 stems/punct.lexc         \
+			 stems/adjectives_newwords.lexc    \
+			 stems/nouns_newwords.lexc    \
 			 affixes/adjectives.lexc  \
 			 affixes/adpositions.lexc \
 			 affixes/conjunctors.lexc \
