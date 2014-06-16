@@ -71343,10 +71343,12 @@
             <t pos="Phrase">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Phrase">pooleli, pooleldi tehtud</t>
+            <t pos="Phrase">pooleli tehtud</t>
+            <t pos="Phrase">pooleldi tehtud</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">puolittain tehty</t>
+            <t pos="Phrase">osittain tehty</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">pa pusei izdarīts</t>
@@ -71380,11 +71382,11 @@
    </e>
    <e exclude="fst">
       <lg>
-         <l>jegāl pūol ~ aʼmši pūolši</l>
+         <l>jegāl pūol</l>
          <stg>
-            <st Contlex="PHRASE_">jegāl pūol ~ aʼmši pūolši</st>
+            <st Contlex="PHRASE_">jegāl pūol</st>
          </stg>
-         <stress>jegāl pūol ~ aʼmši pūolši</stress>
+         <stress>jegāl pūol</stress>
       </lg>
       <pos>Phrase</pos>
       <mg>
@@ -71396,7 +71398,34 @@
             <t pos="Phrase">igal pool</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">kaikkialla</t>
+            <t pos="Phrase">joka suunnalla</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="Phrase">visur</t>
+         </tg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
+         <l>aʼmši pūolši</l>
+         <stg>
+            <st Contlex="PHRASE_">aʼmši pūolši</st>
+         </stg>
+         <stress>aʼmši pūolši</stress>
+      </lg>
+      <pos>Phrase</pos>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="Phrase">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="Phrase">igal pool</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Phrase">kaikkialla</t>
+            <t pos="Phrase">joka suunnalla</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">visur</t>
@@ -71421,7 +71450,7 @@
             <t pos="Phrase">ema poolt sugulane</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">sukulainen äidin puolelta</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">radinieks no mātes puses</t>
@@ -71465,7 +71494,6 @@
       <mg>
          <m>
             <head/>
-            <semRel>~ pūoldõ</semRel>
          </m>
          <tg xml:lang="eng">
             <t pos="Phrase">YY</t>
@@ -71499,10 +71527,12 @@
             <t pos="Phrase">kesköö ajal</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">keskiyöllä</t>
+            <t pos="Phrase">keskiyön aikaan</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Phrase">pusnakts laikā, ap pusnakti</t>
+            <t pos="Phrase">pusnakts laikā</t>
+            <t pos="Phrase">ap pusnakti</t>
          </tg>
       </mg>
    </e>
@@ -71524,7 +71554,7 @@
             <t pos="Phrase">keskealine mees</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">keski-ikäinen mies</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">pusmūža vīrs</t>
@@ -71649,7 +71679,8 @@
             <t pos="Phrase">keskööni</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">keskiyöhön asti</t>
+            <t pos="Phrase">keskiyön saakka</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">līdz pusnaktij</t>
@@ -71674,7 +71705,8 @@
             <t pos="Phrase">ühelt poolt</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">toisaalta</t>
+            <t pos="Phrase">yhdeltä puolen</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">no vienas puses</t>
@@ -71699,7 +71731,8 @@
             <t pos="Phrase">teiselt poolt</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">toisaalta</t>
+            <t pos="Phrase">toiselta puolen</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">no otras puses</t>
@@ -71724,10 +71757,11 @@
             <t pos="Phrase">parempoolne</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">oikeanpuoleinen</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Phrase">labais, labās puses-</t>
+            <t pos="Phrase">labais</t>
+            <t pos="Phrase">labās puses-</t>
          </tg>
       </mg>
    </e>
@@ -71749,10 +71783,11 @@
             <t pos="Phrase">vasakpoolne</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">vasemmanpuoleinen</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Phrase">kreisais, kreisās puses-</t>
+            <t pos="Phrase">kreisais</t>
+            <t pos="Phrase">kreisās puses-</t>
          </tg>
       </mg>
    </e>
@@ -71777,7 +71812,7 @@
             <t pos="Phrase">pooleks murda</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">murtaa puoliksi</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">pārlauzt uz pusēm</t>
@@ -71802,7 +71837,8 @@
             <t pos="Phrase">rehepeks</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Phrase"/>
+            <t pos="Phrase">riihenpuinti</t>
+            <t pos="Phrase">viljanpuinti</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Phrase">rijas kulšana</t>
