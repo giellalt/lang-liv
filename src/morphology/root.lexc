@@ -28,113 +28,113 @@ Multichar_Symbols
 
 !! (It is highly suggested to follow existing GIELLATEKNO standards when adding new tags).
 
-+TYÄ !!= * @CODE@ = This automatically encourages workers to want to correct something
++TYÄ !!≈ * __@CODE@__ = This automatically encourages workers to want to correct something
 
 !! !!The parts-of-speech are:
- +A 	 !!= * @CODE@ = adjective
- +Adp 	 !!= * @CODE@ = adposition
- +Adv 	 !!= * @CODE@ = adverb
- +CS 	 !!= * @CODE@ = subordinating conjunction
- +CC 	 !!= * @CODE@ = coordinating conjunction
- +Interj !!= * @CODE@ = interjection 
- +N 	 !!= * @CODE@ = noun
- +Num 	 !!= * @CODE@ = numeral
- +Pcle 	 !!= * @CODE@ = particle
- +Pr 	 !!= * @CODE@ = preposition
- +Po 	 !!= * @CODE@ = postposition
- +Pron 	 !!= * @CODE@ = pronoun
- +Qnt 	 !!= * @CODE@ = quantifier
- +V 	 !!= * @CODE@ = verb
+ +A 	 !!≈ * __@CODE@__ = adjective
+ +Adp 	 !!≈ * __@CODE@__ = adposition
+ +Adv 	 !!≈ * __@CODE@__ = adverb
+ +CS 	 !!≈ * __@CODE@__ = subordinating conjunction
+ +CC 	 !!≈ * __@CODE@__ = coordinating conjunction
+ +Interj !!≈ * __@CODE@__ = interjection 
+ +N 	 !!≈ * __@CODE@__ = noun
+ +Num 	 !!≈ * __@CODE@__ = numeral
+ +Pcle 	 !!≈ * __@CODE@__ = particle
+ +Pr 	 !!≈ * __@CODE@__ = preposition
+ +Po 	 !!≈ * __@CODE@__ = postposition
+ +Pron 	 !!≈ * __@CODE@__ = pronoun
+ +Qnt 	 !!≈ * __@CODE@__ = quantifier
+ +V 	 !!≈ * __@CODE@__ = verb
 
 !! !!Parts of speech are further split up into:
 
 !! Nouns
 
- +Prop  !!= * @CODE@ = proper
+ +Prop  !!≈ * __@CODE@__ = proper
 
 !! !!Pronouns
 
- +Dem   !!= * @CODE@ = demonstrative
- +Indef !!= * @CODE@ = indefinite
- +Interr !!= * @CODE@ = interrogative
- +Pers   !!= * @CODE@ = personal
- +Recipr !!= * @CODE@ = reciprocal
- +Refl   !!= * @CODE@ = reflexive
- +Rel    !!= * @CODE@ = relative
+ +Dem   !!≈ * __@CODE@__ = demonstrative
+ +Indef !!≈ * __@CODE@__ = indefinite
+ +Interr !!≈ * __@CODE@__ = interrogative
+ +Pers   !!≈ * __@CODE@__ = personal
+ +Recipr !!≈ * __@CODE@__ = reciprocal
+ +Refl   !!≈ * __@CODE@__ = reflexive
+ +Rel    !!≈ * __@CODE@__ = relative
 
 !! Nominals are inflected for Number and Case
 
 !! !!Number
- +Sg !!= * @CODE@ = singular
- +Pl !!= * @CODE@ = plural
+ +Sg !!≈ * __@CODE@__ = singular
+ +Pl !!≈ * __@CODE@__ = plural
 
 !! !!Case
- +Abe !!= * @CODE@ = abessive
- +Abl !!= * @CODE@ = ablative case
- +Ade !!= * @CODE@ = adessive
- +All !!= * @CODE@ = allative
- +Dat !!= * @CODE@ = dative case
- +Ela !!= * @CODE@ = elative
- +Ess !!= * @CODE@ = essive
- +Exe !!= * @CODE@ = essive
- +Gen !!= * @CODE@ = genitive case
- +Ill !!= * @CODE@ = illative
- +Ine !!= * @CODE@ = inessive
- +Ins !!= * @CODE@ = instrumental -KÕKS
- +Instr !!= * @CODE@ = instructive -IN
- +Lat !!= * @CODE@ = Lative
- +Nom !!= * @CODE@ = nominative case
- +Par !!= * @CODE@ = partitive
- +Prl !!= * @CODE@ = prolative 
- +Tra !!= * @CODE@ = translative
- +Voc !!= * @CODE@ = Vocative
+ +Abe !!≈ * __@CODE@__ = abessive
+ +Abl !!≈ * __@CODE@__ = ablative case
+ +Ade !!≈ * __@CODE@__ = adessive
+ +All !!≈ * __@CODE@__ = allative
+ +Dat !!≈ * __@CODE@__ = dative case
+ +Ela !!≈ * __@CODE@__ = elative
+ +Ess !!≈ * __@CODE@__ = essive
+ +Exe !!≈ * __@CODE@__ = essive
+ +Gen !!≈ * __@CODE@__ = genitive case
+ +Ill !!≈ * __@CODE@__ = illative
+ +Ine !!≈ * __@CODE@__ = inessive
+ +Ins !!≈ * __@CODE@__ = instrumental -KÕKS
+ +Instr !!≈ * __@CODE@__ = instructive -IN
+ +Lat !!≈ * __@CODE@__ = Lative
+ +Nom !!≈ * __@CODE@__ = nominative case
+ +Par !!≈ * __@CODE@__ = partitive
+ +Prl !!≈ * __@CODE@__ = prolative 
+ +Tra !!≈ * __@CODE@__ = translative
+ +Voc !!≈ * __@CODE@__ = Vocative
 
 
 !! The possession is marked as such:
 
- +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3 !!= * @CODE@ 
+ +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3 !!≈ * __@CODE@__ 
 
 !! The comparative forms are:
 
-+Pos +Comp +Superl !!= * @CODE@ 
++Pos +Comp +Superl !!≈ * __@CODE@__ 
 
 !! Numerals are classified under:
 
- +Attr +Card !!= * @CODE@ 
- +Ord        !!= * @CODE@ 
+ +Attr +Card !!≈ * __@CODE@__ 
+ +Ord        !!≈ * __@CODE@__ 
 
 !! Verb moods are:
- +Cond !!= * @CODE@ = conditional 
- +Ind !!= * @CODE@ = indicative
- +Imprt !!= * @CODE@ = imperative
- +Jus !!= * @CODE@ = jussitive
- +Quo !!= * @CODE@ = quotative, quoted speech
+ +Cond !!≈ * __@CODE@__ = conditional 
+ +Ind !!≈ * __@CODE@__ = indicative
+ +Imprt !!≈ * __@CODE@__ = imperative
+ +Jus !!≈ * __@CODE@__ = jussitive
+ +Quo !!≈ * __@CODE@__ = quotative, quoted speech
 !! Tenses
  +Prs +Prt
 !! Voice
- +Act !!= * @CODE@ = active
- +Pss !!= * @CODE@ = passive
+ +Act !!≈ * __@CODE@__ = active
+ +Pss !!≈ * __@CODE@__ = passive
 !! Verb personal forms are:
- +Sg1 !!= * @CODE@ = first person singular conjugation
- +Sg2 !!= * @CODE@ = second person singular conjugation
- +Sg3 !!= * @CODE@ = third person singular conjugation
- +Pl1 !!= * @CODE@ = first person plural conjugation
- +Pl2 !!= * @CODE@ = second person plural conjugation
- +Pl3 !!= * @CODE@ = third person plural conjugation
+ +Sg1 !!≈ * __@CODE@__ = first person singular conjugation
+ +Sg2 !!≈ * __@CODE@__ = second person singular conjugation
+ +Sg3 !!≈ * __@CODE@__ = third person singular conjugation
+ +Pl1 !!≈ * __@CODE@__ = first person plural conjugation
+ +Pl2 !!≈ * __@CODE@__ = second person plural conjugation
+ +Pl3 !!≈ * __@CODE@__ = third person plural conjugation
 !! Other verb forms are
- +ConNeg !!= * @CODE@ = connegative, main verb complement to Neg, 
- +Ger !!= * @CODE@ = gerund 
- +Inf    !!= * @CODE@ = infinitive
- +Neg    !!= * @CODE@ = verb of negation эзь, аволь, иля
- +Prc !!= * @CODE@ = participle
+ +ConNeg !!≈ * __@CODE@__ = connegative, main verb complement to Neg, 
+ +Ger !!≈ * __@CODE@__ = gerund 
+ +Inf    !!≈ * __@CODE@__ = infinitive
+ +Neg    !!≈ * __@CODE@__ = verb of negation эзь, аволь, иля
+ +Prc !!≈ * __@CODE@__ = participle
 
- +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess  !!= * @CODE@ 
+ +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess  !!≈ * __@CODE@__ 
 
 !! !!Verbs are syntactically split according to transitivity:
 
- +TV !!= * @CODE@ = Transitive verb
- +IV !!= * @CODE@ = Intransitive verb
- +Aux !!= * @CODE@ = Auxiliary verb
+ +TV !!≈ * __@CODE@__ = Transitive verb
+ +IV !!≈ * __@CODE@__ = Intransitive verb
+ +Aux !!≈ * __@CODE@__ = Auxiliary verb
 
 !! !!Usage extents are marked using following tags:
  +Err/Sub   
@@ -142,60 +142,60 @@ Multichar_Symbols
 
 
 !! Abbreviated words are classified with:
- +ABBR +ACR !!= * @CODE@ 
+ +ABBR +ACR !!≈ * __@CODE@__ 
  
 !! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT !!= * @CODE@ 
++CLB +PUNCT +LEFT +RIGHT !!≈ * __@CODE@__ 
 
 !! Special multiword units are analysed with:
- +Multi !!= * @CODE@ 
+ +Multi !!≈ * __@CODE@__ 
 !! Non-dictionary words can be recognised with:
- +Guess  !!= * @CODE@ 
+ +Guess  !!≈ * __@CODE@__ 
 
 !! Question and Focus particles:
- +Qst +Foc !!= * @CODE@ 
+ +Qst +Foc !!≈ * __@CODE@__ 
 
 
 !! Semantics are classified with
 
- +Sem/Mal    !!= * @CODE@  Male, 
- +Sem/Fem    !!= * @CODE@  Female, 
- +Sem/Sur    !!= * @CODE@  Surname, 
- +Sem/Patr   !!= * @CODE@  Patronym, 
- +Sem/Plc    !!= * @CODE@  Place name, 
- +Sem/Org    !!= * @CODE@  name of organization, 
- +Sem/Obj    !!= * @CODE@ 
- +Sem/Ani    !!= * @CODE@  name of animal, 
- +Sem/Rvr    !!= * @CODE@  name of river or water way, media of transportation,  +Sem/Anim   !!= * @CODE@  Animate, 
- +Sem/Inanim !!= * @CODE@  Inanimate, 
- +Sem/Hum    !!= * @CODE@  Human, 
- +Sem/NonHum !!= * @CODE@  Nonhuman, 
- +Sem/Kin    !!= * @CODE@  Kinship term (reflected in special PxSg2 forms), 
- +Sem/Divinity !!= * @CODE@  Divinity (god personified), 
- +Sem/Constellation !!= * @CODE@  Constellation, 
- +Sem/Plant 	    !!= * @CODE@  Plant, 
- +Sem/Group 	    !!= * @CODE@  Group, 
- +Sem/Body  	    !!= * @CODE@ Body.
- +Sem/Build 	    !!= * @CODE@  Building, 
- +Sem/Clth	    !!= * @CODE@  clothing, 
- +Sem/Edu 	    !!= * @CODE@  Education, 
- +Sem/Event 	    !!= * @CODE@  Event, 
- +Sem/Measr 	    !!= * @CODE@  Measure, 
- +Sem/Route	    !!= * @CODE@  Name of a route, 
- +Sem/Time  	    !!= * @CODE@  Time, 
- +Sem/Txt  	    !!= * @CODE@  Name of a text, 
- +Sem/Veh	    !!= * @CODE@  vehicle, 
- +Sem/Wpn	    !!= * @CODE@  weapon, 
- +Sem/Wthr	    !!= * @CODE@ Weather, 
+ +Sem/Mal    !!≈ * __@CODE@__  Male, 
+ +Sem/Fem    !!≈ * __@CODE@__  Female, 
+ +Sem/Sur    !!≈ * __@CODE@__  Surname, 
+ +Sem/Patr   !!≈ * __@CODE@__  Patronym, 
+ +Sem/Plc    !!≈ * __@CODE@__  Place name, 
+ +Sem/Org    !!≈ * __@CODE@__  name of organization, 
+ +Sem/Obj    !!≈ * __@CODE@__ 
+ +Sem/Ani    !!≈ * __@CODE@__  name of animal, 
+ +Sem/Rvr    !!≈ * __@CODE@__  name of river or water way, media of transportation,  +Sem/Anim   !!≈ * __@CODE@__  Animate, 
+ +Sem/Inanim !!≈ * __@CODE@__  Inanimate, 
+ +Sem/Hum    !!≈ * __@CODE@__  Human, 
+ +Sem/NonHum !!≈ * __@CODE@__  Nonhuman, 
+ +Sem/Kin    !!≈ * __@CODE@__  Kinship term (reflected in special PxSg2 forms), 
+ +Sem/Divinity !!≈ * __@CODE@__  Divinity (god personified), 
+ +Sem/Constellation !!≈ * __@CODE@__  Constellation, 
+ +Sem/Plant 	    !!≈ * __@CODE@__  Plant, 
+ +Sem/Group 	    !!≈ * __@CODE@__  Group, 
+ +Sem/Body  	    !!≈ * __@CODE@__ Body.
+ +Sem/Build 	    !!≈ * __@CODE@__  Building, 
+ +Sem/Clth	    !!≈ * __@CODE@__  clothing, 
+ +Sem/Edu 	    !!≈ * __@CODE@__  Education, 
+ +Sem/Event 	    !!≈ * __@CODE@__  Event, 
+ +Sem/Measr 	    !!≈ * __@CODE@__  Measure, 
+ +Sem/Route	    !!≈ * __@CODE@__  Name of a route, 
+ +Sem/Time  	    !!≈ * __@CODE@__  Time, 
+ +Sem/Txt  	    !!≈ * __@CODE@__  Name of a text, 
+ +Sem/Veh	    !!≈ * __@CODE@__  vehicle, 
+ +Sem/Wpn	    !!≈ * __@CODE@__  weapon, 
+ +Sem/Wthr	    !!≈ * __@CODE@__ Weather, 
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
 
- +V→N +V→V +V→A   !!= * @CODE@
- +Der/xxx	      !!= * @CODE@
- +Der/A	      !!= * @CODE@ for example present participle to adjective
- +Der/VN      !!= * @CODE@ 
+ +V→N +V→V +V→A   !!≈ * __@CODE@__
+ +Der/xxx	      !!≈ * __@CODE@__
+ +Der/A	      !!≈ * __@CODE@__ for example present participle to adjective
+ +Der/VN      !!≈ * __@CODE@__ 
 
 !! !!!Morphophonology
 ! ---------------
@@ -207,46 +207,46 @@ Multichar_Symbols
  %{XC%} !! *@CODE@ for consonant lengthening
 
 !! And following triggers to control variation
- {front} {back} !!= * @CODE@
- %^Tense !!= * @CODE@ = Tense stem will have stød if proper stem type
- %^ConsL !!= * @CODE@ = Consonant lengthening
- %^1Sh2L !!= * @CODE@ =
- %^D2T   !!= * @CODE@ d:t veʼž:veʼd:vietā
- %^PreI  !!= * @CODE@ i:0 veʼž:veʼd:vietā
+ {front} {back} !!≈ * __@CODE@__
+ %^Tense !!≈ * __@CODE@__ = Tense stem will have stød if proper stem type
+ %^ConsL !!≈ * __@CODE@__ = Consonant lengthening
+ %^1Sh2L !!≈ * __@CODE@__ =
+ %^D2T   !!≈ * __@CODE@__ d:t veʼž:veʼd:vietā
+ %^PreI  !!≈ * __@CODE@__ i:0 veʼž:veʼd:vietā
 
- %^VowShIn1	!!= * @CODE@ This causes vowel shortening in 1. syll
-                !!= * @CODE@ accompanied by coda consonant lengthening
- %^A2ÕIn2       !!= * @CODE@ This causes 2. syll a => õ
+ %^VowShIn1	!!≈ * __@CODE@__ This causes vowel shortening in 1. syll
+                !!≈ * __@CODE@__ accompanied by coda consonant lengthening
+ %^A2ÕIn2       !!≈ * __@CODE@__ This causes 2. syll a => õ
 !! 2013-02-01 
  %^ConsSh
- %^Stress1to2  !!= * @CODE@ =
- %^Stress2to1  !!= * @CODE@ =
- %^VowsSh1     !!= * @CODE@ = vowel shortening in first syllable
- %^VowsShU1    !!= * @CODE@ =
- %^VowsShI1    !!= * @CODE@ =
- %^DiphthSh1   !!= * @CODE@ =
- %^VowsLI1     !!= * @CODE@ = Vowel lengthening
- %^VowsLU1     !!= * @CODE@ = 
- %^VowsL1      !!= * @CODE@ =
-%^LongV2Õin2   !!= * @CODE@ = long vowel to õ in second syllable
+ %^Stress1to2  !!≈ * __@CODE@__ =
+ %^Stress2to1  !!≈ * __@CODE@__ =
+ %^VowsSh1     !!≈ * __@CODE@__ = vowel shortening in first syllable
+ %^VowsShU1    !!≈ * __@CODE@__ =
+ %^VowsShI1    !!≈ * __@CODE@__ =
+ %^DiphthSh1   !!≈ * __@CODE@__ =
+ %^VowsLI1     !!≈ * __@CODE@__ = Vowel lengthening
+ %^VowsLU1     !!≈ * __@CODE@__ = 
+ %^VowsL1      !!≈ * __@CODE@__ =
+%^LongV2Õin2   !!≈ * __@CODE@__ = long vowel to õ in second syllable
 
-%^Vow2Iin2   !!= * @CODE@ = vowel to i or ī in second syllable
+%^Vow2Iin2   !!≈ * __@CODE@__ = vowel to i or ī in second syllable
 
-%^VowsõToi !! * @CODE@ kīndõr:kīndiriž
+%^VowsõToi !!≈ * __@CODE@__ kīndõr:kīndiriž
 
 
- %^DiphthL1    !!= * @CODE@ =
- %^D2Ž         !!= * @CODE@ = The *ti => *si
- %^D2ZERO      !!= * @CODE@ The d => 0
+ %^DiphthL1    !!≈ * __@CODE@__ =
+ %^D2Ž         !!≈ * __@CODE@__ = The *ti => *si
+ %^D2ZERO      !!≈ * __@CODE@__ The d => 0
 
- %^RVows   !!= * @CODE@ = Vowel raising
- %^VowsMetath     !!= * @CODE@ = vowel metathesis in verbs
-%^VowsMRM !! * @CODE@ Vow in middle ētam:eitmõd
- %^VowsRM	  !!= * @CODE@ = 
- %^ConsRM	  !!= * @CODE@ = 
- %^StodRM         !!= * @CODE@ = for removing Stød
- %^PalatalizeLeft !!= * @CODE@ = 
- %^VowsL1aToǭ     !!= * @CODE@ = a >> ǭ
+ %^RVows   !!≈ * __@CODE@__ = Vowel raising
+ %^VowsMetath     !!≈ * __@CODE@__ = vowel metathesis in verbs
+%^VowsMRM !!≈ * __@CODE@__ Vow in middle ētam:eitmõd
+ %^VowsRM	  !!≈ * __@CODE@__ = 
+ %^ConsRM	  !!≈ * __@CODE@__ = 
+ %^StodRM         !!≈ * __@CODE@__ = for removing Stød
+ %^PalatalizeLeft !!≈ * __@CODE@__ = 
+ %^VowsL1aToǭ     !!≈ * __@CODE@__ = a >> ǭ
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
@@ -256,52 +256,52 @@ LEXICON Root
 !! The word forms in Livonian start from the lexeme roots of basic
 !! word classes
 
-   adjectives  ;	   !!= * @CODE@ 
-   adpositions    ;	   !!= * @CODE@ 
-   adverbs  ;		   !!= * @CODE@ 
-   conjunctors	;	   !!= * @CODE@ 
-   interjections  ;	   !!= * @CODE@ 
-   nouns   ;		   !!= * @CODE@ 
-   particles   ;	   !!= * @CODE@ 
-   pronouns    ;	   !!= * @CODE@ 
-   propernouns    ;	   !!= * @CODE@ 
-   quantifiers    ;	   !!= * @CODE@ 
-   verbs   ;		   !!= * @CODE@ 
-					   !!= * @CODE@ 
-   Abbreviation	;	   !!= * @CODE@ 
-   Acronym		;	   !!= * @CODE@ 
-   Punctuation		;  !!= * @CODE@ 
+   adjectives  ;	   !!≈ * __@CODE@__ 
+   adpositions    ;	   !!≈ * __@CODE@__ 
+   adverbs  ;		   !!≈ * __@CODE@__ 
+   conjunctors	;	   !!≈ * __@CODE@__ 
+   interjections  ;	   !!≈ * __@CODE@__ 
+   nouns   ;		   !!≈ * __@CODE@__ 
+   particles   ;	   !!≈ * __@CODE@__ 
+   pronouns    ;	   !!≈ * __@CODE@__ 
+   propernouns    ;	   !!≈ * __@CODE@__ 
+   quantifiers    ;	   !!≈ * __@CODE@__ 
+   verbs   ;		   !!≈ * __@CODE@__ 
+					   !!≈ * __@CODE@__ 
+   Abbreviation	;	   !!≈ * __@CODE@__ 
+   Acronym		;	   !!≈ * __@CODE@__ 
+   Punctuation		;  !!≈ * __@CODE@__ 
 !   wordToNumeral	;  
-   EXCEPTIONS		;  !!= * @CODE@ 
+   EXCEPTIONS		;  !!≈ * __@CODE@__ 
 !
- A_NEWWORDS ; !!= * @CODE@ This is for feeding new adjectives
- N_NEWWORDS ; !!= * @CODE@ This is for feeding new nouns
+ A_NEWWORDS ; !!≈ * __@CODE@__ This is for feeding new adjectives
+ N_NEWWORDS ; !!≈ * __@CODE@__ This is for feeding new nouns
 
 !! Words that are not inflected
 
-LEXICON ADV_  !!= * @CODE@ 
+LEXICON ADV_  !!≈ * __@CODE@__ 
 +Adv: #	;
 
-LEXICON ADV_KĒRATÕKS  !!= * @CODE@ 
+LEXICON ADV_KĒRATÕKS  !!≈ * __@CODE@__ 
 +Adv: # ;
 
-LEXICON ADV_KǬRAND  !!= * @CODE@ 
+LEXICON ADV_KǬRAND  !!≈ * __@CODE@__ 
 +Adv: # ;
 
-LEXICON ADV_IRM  !!= * @CODE@ 
+LEXICON ADV_IRM  !!≈ * __@CODE@__ 
 +Adv: # ;
 
-LEXICON INTERJ_  !!= * @CODE@ 
+LEXICON INTERJ_  !!≈ * __@CODE@__ 
 +Interj: #	;
 
-LEXICON PCLE-MOD_  !!= * @CODE@ 
+LEXICON PCLE-MOD_  !!≈ * __@CODE@__ 
 +Pcle: #      ;
 
-LEXICON PCLE_  !!= * @CODE@
+LEXICON PCLE_  !!≈ * __@CODE@__
 +Pcle: #      ;
 
 
-LEXICON K  !!= * @CODE@ is the clitic lexicon, but no clitica here, only #.
+LEXICON K  !!≈ * __@CODE@__ is the clitic lexicon, but no clitica here, only #.
 # ;
 
 ! vim: set ft=xfst-lexc:

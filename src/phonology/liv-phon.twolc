@@ -334,7 +334,7 @@ a:0 <=> # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) 
 "i:0 in first syllable"
 !! __@RULENAME@__  
 i:0 <=>  # Cns* [ e: | ȯ: (0:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ; 
- # Cns:* Vow:+ (ʼ:) [ CnsWithStod :0* | i g ] _ (%^StodRM:) (%^ConsSh:) %^VowsRM: ;
+ # Cns:* Vow:+ (ʼ:) [ CnsWithStod :0* | i g | Cns:+ Cns: ] _ (%^StodRM:) (%^ConsSh:) %^VowsRM: ;
 
 
 "u:0 in second position of first-syllable diphthong"
