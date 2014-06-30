@@ -2034,6 +2034,7 @@ __61__
  * __LEXICON NMN_NAI-PL__ : 188
 
 192
+  * Yaml:__A-aqigi__
 
 
  * __LEXICON NMN_PUʼNNI__ puʼnni:punni 193
@@ -2090,10 +2091,14 @@ __567__
  * __LEXICON NMN_SĒMI-PL__ : 201
 
  * __LEXICON NMN_LĒʼMI__ lēʼmi:lēmi 202
+* Yaml: __A-aqrlimi__
+
+ * __LEXICON NMN_LĒʼMI-SG__ lēʼmi:lēmi 202
 
  * __LEXICON NMN_LĒʼMI-PL__ lēʼmi:lēmi 202
 
  * __LEXICON NMN_ALĪZ__ : 203
+* Yaml: __N-aliiz__
  * __LEXICON NMN_ALĪZ-SG__ : 203
 
  * __LEXICON NMN_ALĪZ-PL__ : 203
@@ -2101,19 +2106,24 @@ __567__
 
 
  * __LEXICON NMN_NȬŖKÕZ__ : 204
+* Yaml: __N-nwwrkwz__
  * __LEXICON NMN_NȬŖKÕZ-SG__ : 204
  * __LEXICON NMN_NȬŖKÕZ-PL__ : 204
 
 
  * __LEXICON NMN_KATŪKS__ : 205
+* Yaml: __N-katuuks__
  * __LEXICON NMN_KATŪKS-PL__ : 205
  * __LEXICON NMN_ĀNDÕKS__ āndõks: 206
+* Yaml: __N-aandwks__
  * __LEXICON NMN_ĀNDÕKS-PL__ āndõks: 206
  * __LEXICON NMN_KĒRATÕKS__ kēratõks:kēratõks 207
+* Yaml: __N-keeratwks__
 
  * __LEXICON NMN_KĒRATÕKS-PL__ kēratõks:kēratõks 207
 
  * __LEXICON NMN_ÄʼBȚÕKS__ äʼbțõks:äbțõks 208
+* Yaml: __N-aeqbtwks__
 
  * __LEXICON NMN_ÄʼBȚÕKS-SG__ äʼbțõks:äbțõks 208
 
@@ -2121,29 +2131,31 @@ __567__
 
 
  * __LEXICON NMN_VARĪKŠ__ : 209
-* Yaml: __krwbiizh__
+* Yaml: __A-krwbiizh, N-variiksh__
  * __LEXICON NMN_VARĪKŠ-SG__ : 209
 
  * __LEXICON NMN_VARĪKŠ-PL__ : 209
 
 
 
- * __LEXICON NMN_UKŠ__ : 210
+ * __LEXICON NMN_UKŠ__ : 210 ukš:uks
+* Yaml: __N-uksh__
  * __LEXICON NMN_UKŠ-SG__ : 210
  * __LEXICON NMN_UKŠ-PL__ : 210
 
 
-
-
 211
+* Yaml: __N-laepsh__ läpš:laps
 
  * __LEXICON NMN_LÄPŠ-PL__ läpš:laps 211
 
 212
  * __LEXICON NMN_RIŠTĪNG-SG__ : 212
+* Yaml: __N-rishtiing__
  * __LEXICON NMN_ROʼVZT-PL__ roʼvzt:roʼvz 212
 
- * __LEXICON NMN_TUʼĻ__ : 213
+ * __LEXICON NMN_TUʼĻ__ : 213 tuʼļ:tuʼl
+* Yaml: __N-tuqlj__
  * __LEXICON NMN_TUʼĻ-SG__ : 213
  * __LEXICON NMN_TUʼĻ-PL__ : 213
 
@@ -2999,7 +3011,6 @@ __ū:õ __
 __õ:i__
 
 
-
 Vowel loss
 
 __ā:0__  
@@ -3058,6 +3069,8 @@ __Stod removal left__
 
 __Stod removal right__  
 
+
+__z:ž__
 
 
 __l:ļ__  
