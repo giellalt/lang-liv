@@ -206,7 +206,7 @@ e:ē<=> # Cns* _  ( i: ) :Cns+ Vow: %^VowsLI1:0 ;
 
 "u:ū in first syllable"
 !! __@RULENAME@__  
-u:ū <=> # Cns* _  ( i: ) :Cns+ (Vow:) %^VowsLI1:0 ;
+u:ū <=> # Cns* _  ( i: | ʼ: | :ʼ ) :Cns+ (Vow:) %^VowsLI1:0 ;
 !€# ul%^VowsLI1>õd
 !€0 ūl00õd
 
@@ -286,11 +286,12 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 
 "õ:i"
 !! __@RULENAME@__
- õ:i <=> # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: ] %^PalatalizeLeft: ;
+ õ:i <=> # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: ] %^PalatalizeLeft: ;
          # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
 !€# ǭʼrõn%^PalatalizeLeft
 !€0 ǭʼriņ0
-
+!€# nȭŗkõz%^PalatalizeLeft%>ist
+!€0 nȭŗkiz00ist
 
 
 !! Vowel loss
@@ -457,15 +458,22 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !         # Cns* :Vow _ [ g: | d: | l: ] Vow: %^Stress2to1:0 %^VowsRM:0  %^ConsRM:0  ;
 !         # Cns* :Vow _ [ g: | d: | l: ] Vow: %^Stress2to1:0 %^VowsRM:0 %> [ ḑ i | ž i | š t i ] ;
 
- 
+"z:ž"
+!! __@RULENAME@__
+ z:ž <=> _ %^PalatalizeLeft:0 ; !! 
+!€# alīz%^PalatalizeLeft%>i
+!€0 alīž00i
+
 "l:ļ"
 !! __@RULENAME@__  
 l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vow: (%^Stress1to2:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
-	_ %^PalatalizeLeft:0 ; !! kēļ:kēl 215
+	_ (%^StodRM:) %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !€# äʼddõl%^PalatalizeLeft%>i
 !€0 äʼddiļ00i
+!€# tuʼl%^StodRM%^PalatalizeLeft%>īž
+!€# tu0ļ000īž
 
 "n:ņ palatalization"
 !! __@RULENAME@__  
