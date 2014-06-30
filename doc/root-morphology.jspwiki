@@ -13,171 +13,171 @@ in this system in terms of following symbols.
 
 (It is highly suggested to follow existing GIELLATEKNO standards when adding new tags).
 
- * +TYÄ  = This automatically encourages workers to want to correct something
+ * __+TYÄ__ = This automatically encourages workers to want to correct something
 
 !!The parts-of-speech are:
- *  +A 	  = adjective
- *  +Adp 	  = adposition
- *  +Adv 	  = adverb
- *  +CS 	  = subordinating conjunction
- *  +CC 	  = coordinating conjunction
- *  +Interj  = interjection 
- *  +N 	  = noun
- *  +Num 	  = numeral
- *  +Pcle 	  = particle
- *  +Pr 	  = preposition
- *  +Po 	  = postposition
- *  +Pron 	  = pronoun
- *  +Qnt 	  = quantifier
- *  +V 	  = verb
+ * __+A 	__ = adjective
+ * __+Adp 	__ = adposition
+ * __+Adv 	__ = adverb
+ * __+CS 	__ = subordinating conjunction
+ * __+CC 	__ = coordinating conjunction
+ * __+Interj__ = interjection 
+ * __+N 	__ = noun
+ * __+Num 	__ = numeral
+ * __+Pcle 	__ = particle
+ * __+Pr 	__ = preposition
+ * __+Po 	__ = postposition
+ * __+Pron 	__ = pronoun
+ * __+Qnt 	__ = quantifier
+ * __+V 	__ = verb
 
 !!Parts of speech are further split up into:
 
 Nouns
 
- *  +Prop   = proper
+ * __+Prop__ = proper
 
 !!Pronouns
 
- *  +Dem    = demonstrative
- *  +Indef  = indefinite
- *  +Interr  = interrogative
- *  +Pers    = personal
- *  +Recipr  = reciprocal
- *  +Refl    = reflexive
- *  +Rel     = relative
+ * __+Dem__ = demonstrative
+ * __+Indef__ = indefinite
+ * __+Interr__ = interrogative
+ * __+Pers__ = personal
+ * __+Recipr__ = reciprocal
+ * __+Refl__ = reflexive
+ * __+Rel__ = relative
 
 Nominals are inflected for Number and Case
 
 !!Number
- *  +Sg  = singular
- *  +Pl  = plural
+ * __+Sg__ = singular
+ * __+Pl__ = plural
 
 !!Case
- *  +Abe  = abessive
- *  +Abl  = ablative case
- *  +Ade  = adessive
- *  +All  = allative
- *  +Dat  = dative case
- *  +Ela  = elative
- *  +Ess  = essive
- *  +Exe  = essive
- *  +Gen  = genitive case
- *  +Ill  = illative
- *  +Ine  = inessive
- *  +Ins  = instrumental -KÕKS
- *  +Instr  = instructive -IN
- *  +Lat  = Lative
- *  +Nom  = nominative case
- *  +Par  = partitive
- *  +Prl  = prolative 
- *  +Tra  = translative
- *  +Voc  = Vocative
+ * __+Abe__ = abessive
+ * __+Abl__ = ablative case
+ * __+Ade__ = adessive
+ * __+All__ = allative
+ * __+Dat__ = dative case
+ * __+Ela__ = elative
+ * __+Ess__ = essive
+ * __+Exe__ = essive
+ * __+Gen__ = genitive case
+ * __+Ill__ = illative
+ * __+Ine__ = inessive
+ * __+Ins__ = instrumental -KÕKS
+ * __+Instr__ = instructive -IN
+ * __+Lat__ = Lative
+ * __+Nom__ = nominative case
+ * __+Par__ = partitive
+ * __+Prl__ = prolative 
+ * __+Tra__ = translative
+ * __+Voc__ = Vocative
 
 
 The possession is marked as such:
 
- *  +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3  
+ * __+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3__ 
 
 The comparative forms are:
 
- * +Pos +Comp +Superl  
+ * __+Pos +Comp +Superl__ 
 
 Numerals are classified under:
 
- *  +Attr +Card  
- *  +Ord         
+ * __+Attr +Card__ 
+ * __+Ord__ 
 
 Verb moods are:
- *  +Cond  = conditional 
- *  +Ind  = indicative
- *  +Imprt  = imperative
- *  +Jus  = jussitive
- *  +Quo  = quotative, quoted speech
+ * __+Cond__ = conditional 
+ * __+Ind__ = indicative
+ * __+Imprt__ = imperative
+ * __+Jus__ = jussitive
+ * __+Quo__ = quotative, quoted speech
 Tenses
 Voice
- *  +Act  = active
- *  +Pss  = passive
+ * __+Act__ = active
+ * __+Pss__ = passive
 Verb personal forms are:
- *  +Sg1  = first person singular conjugation
- *  +Sg2  = second person singular conjugation
- *  +Sg3  = third person singular conjugation
- *  +Pl1  = first person plural conjugation
- *  +Pl2  = second person plural conjugation
- *  +Pl3  = third person plural conjugation
+ * __+Sg1__ = first person singular conjugation
+ * __+Sg2__ = second person singular conjugation
+ * __+Sg3__ = third person singular conjugation
+ * __+Pl1__ = first person plural conjugation
+ * __+Pl2__ = second person plural conjugation
+ * __+Pl3__ = third person plural conjugation
 Other verb forms are
- *  +ConNeg  = connegative, main verb complement to Neg, 
- *  +Ger  = gerund 
- *  +Inf     = infinitive
- *  +Neg     = verb of negation эзь, аволь, иля
- *  +Prc  = participle
+ * __+ConNeg__ = connegative, main verb complement to Neg, 
+ * __+Ger__ = gerund 
+ * __+Inf__ = infinitive
+ * __+Neg__ = verb of negation эзь, аволь, иля
+ * __+Prc__ = participle
 
- *  +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess   
+ * __+ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess__ 
 
 !!Verbs are syntactically split according to transitivity:
 
- *  +TV  = Transitive verb
- *  +IV  = Intransitive verb
- *  +Aux  = Auxiliary verb
+ * __+TV__ = Transitive verb
+ * __+IV__ = Intransitive verb
+ * __+Aux__ = Auxiliary verb
 
 !!Usage extents are marked using following tags:
 
 
 Abbreviated words are classified with:
- *  +ABBR +ACR  
+ * __+ABBR +ACR__ 
 
 Special symbols are classified with:
- * +CLB +PUNCT +LEFT +RIGHT  
+ * __+CLB +PUNCT +LEFT +RIGHT__ 
 
 Special multiword units are analysed with:
- *  +Multi  
+ * __+Multi__ 
 Non-dictionary words can be recognised with:
- *  +Guess   
+ * __+Guess__ 
 
 Question and Focus particles:
- *  +Qst +Foc  
+ * __+Qst +Foc__ 
 
 
 Semantics are classified with
 
- *  +Sem/Mal      Male, 
- *  +Sem/Fem      Female, 
- *  +Sem/Sur      Surname, 
- *  +Sem/Patr     Patronym, 
- *  +Sem/Plc      Place name, 
- *  +Sem/Org      name of organization, 
- *  +Sem/Obj     
- *  +Sem/Ani      name of animal, 
- *  +Sem/Rvr      Animate, 
- *  +Sem/Inanim   Inanimate, 
- *  +Sem/Hum      Human, 
- *  +Sem/NonHum   Nonhuman, 
- *  +Sem/Kin      Kinship term (reflected in special PxSg2 forms), 
- *  +Sem/Divinity   Divinity (god personified), 
- *  +Sem/Constellation   Constellation, 
- *  +Sem/Plant 	      Plant, 
- *  +Sem/Group 	      Group, 
- *  +Sem/Body  	     Body.
- *  +Sem/Build 	      Building, 
- *  +Sem/Clth	      clothing, 
- *  +Sem/Edu 	      Education, 
- *  +Sem/Event 	      Event, 
- *  +Sem/Measr 	      Measure, 
- *  +Sem/Route	      Name of a route, 
- *  +Sem/Time  	      Time, 
- *  +Sem/Txt  	      Name of a text, 
- *  +Sem/Veh	      vehicle, 
- *  +Sem/Wpn	      weapon, 
- *  +Sem/Wthr	     Weather, 
+ * __+Sem/Mal__  Male, 
+ * __+Sem/Fem__  Female, 
+ * __+Sem/Sur__  Surname, 
+ * __+Sem/Patr__  Patronym, 
+ * __+Sem/Plc__  Place name, 
+ * __+Sem/Org__  name of organization, 
+ * __+Sem/Obj__ 
+ * __+Sem/Ani__  name of animal, 
+ * __+Sem/Rvr__  Animate, 
+ * __+Sem/Inanim__  Inanimate, 
+ * __+Sem/Hum__  Human, 
+ * __+Sem/NonHum__  Nonhuman, 
+ * __+Sem/Kin__  Kinship term (reflected in special PxSg2 forms), 
+ * __+Sem/Divinity__  Divinity (god personified), 
+ * __+Sem/Constellation__  Constellation, 
+ * __+Sem/Plant 	__  Plant, 
+ * __+Sem/Group 	__  Group, 
+ * __+Sem/Body 	__ Body.
+ * __+Sem/Build 	__  Building, 
+ * __+Sem/Clth	__  clothing, 
+ * __+Sem/Edu 	__  Education, 
+ * __+Sem/Event 	__  Event, 
+ * __+Sem/Measr 	__  Measure, 
+ * __+Sem/Route	__  Name of a route, 
+ * __+Sem/Time 	__  Time, 
+ * __+Sem/Txt 	__  Name of a text, 
+ * __+Sem/Veh	__  vehicle, 
+ * __+Sem/Wpn	__  weapon, 
+ * __+Sem/Wthr	__ Weather, 
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
- *  +V→N +V→V +V→A   
- *  +Der/xxx	      
- *  +Der/A	       for example present participle to adjective
- *  +Der/VN       
+ * __+V→N +V→V +V→A__
+ * __+Der/xxx	__
+ * __+Der/A	__ for example present participle to adjective
+ * __+Der/VN__ 
 
 !!!Morphophonology
 
@@ -188,45 +188,45 @@ symbols in the lexicon files:
 * {aä} {oö} {uü}  for consonant lengthening
 
 And following triggers to control variation
- *  {front} {back} 
- *  %^Tense  = Tense stem will have stød if proper stem type
- *  %^ConsL  = Consonant lengthening
- *  %^1Sh2L  =
- *  %^D2T    d:t veʼž:veʼd:vietā
- *  %^PreI   i:0 veʼž:veʼd:vietā
+ * __{front} {back}__
+ * __%^Tense__ = Tense stem will have stød if proper stem type
+ * __%^ConsL__ = Consonant lengthening
+ * __%^1Sh2L__ =
+ * __%^D2T__ d:t veʼž:veʼd:vietā
+ * __%^PreI__ i:0 veʼž:veʼd:vietā
 
- *  %^VowShIn1	 This causes vowel shortening in 1. syll
- *                  accompanied by coda consonant lengthening
- *  %^A2ÕIn2        This causes 2. syll a => õ
+ * __%^VowShIn1	__ This causes vowel shortening in 1. syll
+ * ____ accompanied by coda consonant lengthening
+ * __%^A2ÕIn2__ This causes 2. syll a => õ
 2013-02-01 
- *  %^Stress1to2   =
- *  %^Stress2to1   =
- *  %^VowsSh1      = vowel shortening in first syllable
- *  %^VowsShU1     =
- *  %^VowsShI1     =
- *  %^DiphthSh1    =
- *  %^VowsLI1      = Vowel lengthening
- *  %^VowsLU1      = 
- *  %^VowsL1       =
- * %^LongV2Õin2    = long vowel to õ in second syllable
+ * __%^Stress1to2__ =
+ * __%^Stress2to1__ =
+ * __%^VowsSh1__ = vowel shortening in first syllable
+ * __%^VowsShU1__ =
+ * __%^VowsShI1__ =
+ * __%^DiphthSh1__ =
+ * __%^VowsLI1__ = Vowel lengthening
+ * __%^VowsLU1__ = 
+ * __%^VowsL1__ =
+ * __%^LongV2Õin2__ = long vowel to õ in second syllable
 
- * %^Vow2Iin2    = vowel to i or ī in second syllable
+ * __%^Vow2Iin2__ = vowel to i or ī in second syllable
 
-* %^Vow2Iin2    kīndõr:kīndiriž
+ * __%^VowsõToi__ kīndõr:kīndiriž
 
 
- *  %^DiphthL1     =
- *  %^D2Ž          = The *ti => *si
- *  %^D2ZERO       The d => 0
+ * __%^DiphthL1__ =
+ * __%^D2Ž__ = The *ti => *si
+ * __%^D2ZERO__ The d => 0
 
- *  %^RVows    = Vowel raising
- *  %^VowsMetath      = vowel metathesis in verbs
-*  %^VowsMetath      Vow in middle ētam:eitmõd
- *  %^VowsRM	   = 
- *  %^ConsRM	   = 
- *  %^StodRM          = for removing Stød
- *  %^PalatalizeLeft  = 
- *  %^VowsL1aToǭ      = a >> ǭ
+ * __%^RVows__ = Vowel raising
+ * __%^VowsMetath__ = vowel metathesis in verbs
+ * __%^VowsMRM__ Vow in middle ētam:eitmõd
+ * __%^VowsRM	__ = 
+ * __%^ConsRM	__ = 
+ * __%^StodRM__ = for removing Stød
+ * __%^PalatalizeLeft__ = 
+ * __%^VowsL1aToǭ__ = a >> ǭ
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
@@ -234,41 +234,41 @@ flag diacritics to restrict morhpological combinatorics:
 The word forms in Livonian start from the lexeme roots of basic
 word classes
 
- *    adjectives  ;	    
- *    adpositions    ;	    
- *    adverbs  ;		    
- *    conjunctors	;	    
- *    interjections  ;	    
- *    nouns   ;		    
- *    particles   ;	    
- *    pronouns    ;	    
- *    propernouns    ;	    
- *    quantifiers    ;	    
- *    verbs   ;		    
- * 					    
- *    Abbreviation	;	    
- *    Acronym		;	    
- *    Punctuation		;   
- *    EXCEPTIONS		;   
- *  A_NEWWORDS ;  This is for feeding new adjectives
- *  N_NEWWORDS ;  This is for feeding new nouns
+ * __adjectives ;	__ 
+ * __adpositions ;	__ 
+ * __adverbs ;		__ 
+ * __conjunctors	;	__ 
+ * __interjections ;	__ 
+ * __nouns ;		__ 
+ * __particles ;	__ 
+ * __pronouns ;	__ 
+ * __propernouns ;	__ 
+ * __quantifiers ;	__ 
+ * __verbs ;		__ 
+ * __					__ 
+ * __Abbreviation	;	__ 
+ * __Acronym		;	__ 
+ * __Punctuation		;__ 
+ * __EXCEPTIONS		;__ 
+ * __A_NEWWORDS ;__ This is for feeding new adjectives
+ * __N_NEWWORDS ;__ This is for feeding new nouns
 
 Words that are not inflected
 
- * LEXICON ADV_   
+ * __LEXICON ADV___ 
 
- * LEXICON ADV_KĒRATÕKS   
+ * __LEXICON ADV_KĒRATÕKS__ 
 
- * LEXICON ADV_KǬRAND   
+ * __LEXICON ADV_KǬRAND__ 
 
- * LEXICON ADV_IRM   
+ * __LEXICON ADV_IRM__ 
 
- * LEXICON INTERJ_   
+ * __LEXICON INTERJ___ 
 
- * LEXICON PCLE-MOD_   
+ * __LEXICON PCLE-MOD___ 
 
- * LEXICON PCLE_  
+ * __LEXICON PCLE___
 
 
- * LEXICON K   is the clitic lexicon, but no clitica here, only #.
+ * __LEXICON K__ is the clitic lexicon, but no clitica here, only #.
 
