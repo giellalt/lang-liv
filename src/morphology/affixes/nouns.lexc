@@ -4358,6 +4358,7 @@ LEXICON NMN_NAI-PL !!≈ * __@CODE@__ : 188
 
 !! 192
 LEXICON NMN_AʼIGI
+!!= * Yaml:__A-aqigi__
         NMN_AʼIGI-SG     ;
         NMN_AʼIGI-PL     ;
 
@@ -4516,23 +4517,39 @@ LEXICON NMN_SĒMI-PL !!≈ * __@CODE@__ : 201
         NMN_TŪĻI-PL   ;
 
 LEXICON NMN_LĒʼMI !!≈ * __@CODE@__ lēʼmi:lēmi 202
-	NMN_TŪĻI   ;
+!! * Yaml: __A-aqrlimi__
+ NMN_LĒʼMI-SG ;
+ NMN_LĒʼMI-PL ;
+
+LEXICON NMN_LĒʼMI-SG      !!≈ * __@CODE@__ lēʼmi:lēmi 202
+:z        SG-DAT_õn ;
+:z              SG-ELA/INE_õst ;
+:z        SG-GEN ;
+:z      SG-ILL_õ ;
+! SG-INE ;
+:z        SG-INS_õks ;
+        SG-NOM  ;
+:z      SG-PAR_t ;
 	SG-PAR_t   ;
 
 LEXICON NMN_LĒʼMI-PL      !!≈ * __@CODE@__ lēʼmi:lēmi 202
-        NMN_TŪĻI-PL   ;
+:z      PL-INS_DÕKS-STEM ;
+:ž      PL-ELA/INE_ist ;
+:ž      PL-ILL_iz ;
+:ž      PL-PAR_i ;
 
 LEXICON NMN_ALĪZ !!≈ * __@CODE@__ : 203
+!! * Yaml: __N-aliiz__
 	NMN_ALĪZ-SG	;
 	NMN_ALĪZ-PL	;
 LEXICON NMN_ALĪZ-SG !!≈ * __@CODE@__ : 203
-:               SG-DAT_õn       ;
-:               SG-ELA/INE_õst  ;
-:               SG-GEN  ;
-:               SG-ILL_õ        ;
-:               SG-INS_õks      ;
-:               SG-NOM  ;
-:               SG-PAR_t ;
+               SG-DAT_õn       ;
+               SG-ELA/INE_õst  ;
+               SG-GEN  ;
+               SG-ILL_õ        ;
+               SG-INS_õks      ;
+               SG-NOM  ;
+               SG-PAR_t ;
 
 LEXICON NMN_ALĪZ-PL !!≈ * __@CODE@__ : 203
 :     PL-INS_DÕKS-STEM   ;
@@ -4543,16 +4560,17 @@ LEXICON NMN_ALĪZ-PL !!≈ * __@CODE@__ : 203
 
 
 LEXICON NMN_NȬŖKÕZ !!≈ * __@CODE@__ : 204
+!! * Yaml: __N-nwwrkwz__
 	NMN_NȬŖKÕZ-SG	;
 	NMN_NȬŖKÕZ-PL	;
 LEXICON NMN_NȬŖKÕZ-SG !!≈ * __@CODE@__ : 204
-:                       SG-DAT_õn       ;
-:                       SG-ELA/INE_õst  ;
-:                       SG-GEN  ;
-:                       SG-ILL_õ        ;
-:                       SG-INS_õks      ;
-:%^PalatalizeLeft       SG-NOM  ;
-:                       SG-PAR_tā ;
+       SG-DAT_õn       ;
+       SG-ELA/INE_õst  ;
+       SG-GEN  ;
+       SG-ILL_õ        ;
+       SG-INS_õks      ;
+       SG-NOM  ;
+       SG-PAR_t ;
 LEXICON NMN_NȬŖKÕZ-PL !!≈ * __@CODE@__ : 204
 :     PL-INS_DÕKS-STEM   ;
 :%^PalatalizeLeft     PL-ELA/INE_ist   ;
@@ -4561,24 +4579,27 @@ LEXICON NMN_NȬŖKÕZ-PL !!≈ * __@CODE@__ : 204
 
 
 LEXICON NMN_KATŪKS !!≈ * __@CODE@__ : 205
+!! * Yaml: __N-katuuks__
 	NMN_KĒRATÕKS   ;
 LEXICON NMN_KATŪKS-PL !!≈ * __@CODE@__ : 205
 	NMN_KĒRATÕKS-PL ;
 LEXICON NMN_ĀNDÕKS !!≈ * __@CODE@__ āndõks: 206
+!! * Yaml: __N-aandwks__
 	NMN_KĒRATÕKS   ;
 LEXICON NMN_ĀNDÕKS-PL !!≈ * __@CODE@__ āndõks: 206
 	NMN_KĒRATÕKS-PL	  ;
 LEXICON NMN_KĒRATÕKS !!≈ * __@CODE@__ kēratõks:kēratõks 207
+!! * Yaml: __N-keeratwks__
  NMN_KĒRATÕKS-SG     ;
  NMN_KĒRATÕKS-PL     ;
 LEXICON NMN_KĒRATÕKS-SG
-:		SG-DAT_õn	;
-:		SG-ELA/INE_õst	;
-:		SG-GEN	;
-:		SG-ILL_õ	;
-:		SG-INS_õks	;
-:		SG-NOM	;
-:		SG-PAR_t ;
+	SG-DAT_õn	;
+	SG-ELA/INE_õst	;
+	SG-GEN	;
+	SG-ILL_õ	;
+	SG-INS_õks	;
+	SG-NOM	;
+	SG-PAR_t ;
 
 LEXICON NMN_KĒRATÕKS-PL !!≈ * __@CODE@__ kēratõks:kēratõks 207
 :     PL-INS_DÕKS-STEM   ;
@@ -4587,6 +4608,7 @@ LEXICON NMN_KĒRATÕKS-PL !!≈ * __@CODE@__ kēratõks:kēratõks 207
 :%^PalatalizeLeft     PL-PAR_i   ;
 
 LEXICON NMN_ÄʼBȚÕKS !!≈ * __@CODE@__ äʼbțõks:äbțõks 208
+!! * Yaml: __N-aeqbtwks__
 	NMN_ÄʼBȚÕKS-SG	;
 	NMN_ÄʼBȚÕKS-PL	;
 
@@ -4607,7 +4629,7 @@ LEXICON NMN_ÄʼBȚÕKS-PL !!≈ * __@CODE@__ äʼbțõks:äbțõks 208
 
 
 LEXICON NMN_VARĪKŠ !!≈ * __@CODE@__ : 209
-!! * Yaml: __krwbiizh__
+!! * Yaml: __A-krwbiizh, N-variiksh__
 	NMN_VARĪKŠ-SG	;
 	NMN_VARĪKŠ-PL	;
 LEXICON NMN_VARĪKŠ-SG !!≈ * __@CODE@__ : 209
@@ -4627,7 +4649,8 @@ LEXICON NMN_VARĪKŠ-PL !!≈ * __@CODE@__ : 209
 
 
 
-LEXICON NMN_UKŠ !!≈ * __@CODE@__ : 210
+LEXICON NMN_UKŠ !!≈ * __@CODE@__ : 210 ukš:uks
+!! * Yaml: __N-uksh__
 	NMN_UKŠ-SG	;
 	NMN_UKŠ-PL	;
 LEXICON NMN_UKŠ-SG !!≈ * __@CODE@__ : 210
@@ -4645,20 +4668,19 @@ LEXICON NMN_UKŠ-PL !!≈ * __@CODE@__ : 210
 :%^PalatalizeLeft     PL-PAR_i   ;
 
 
-
-
 !! 211
 LEXICON NMN_LÄPŠ
+!! * Yaml: __N-laepsh__ läpš:laps
  NMN_LÄPŠ-SG     ;
  NMN_LÄPŠ-PL     ;
 LEXICON NMN_LÄPŠ-SG
-:			SG-DAT_õn	;
-:			SG-ELA/INE_õst	;
-:			SG-GEN	;
-:			SG-ILL_õ	;
-:			SG-INS_õks	;
+	SG-DAT_õn	;
+	SG-ELA/INE_õst	;
+	SG-GEN	;
+	SG-ILL_õ	;
+	SG-INS_õks	;
 :%^PalatalizeLeft	SG-NOM	;
-:			SG-PAR_tā ;
+	SG-PAR_tā ;
 
 LEXICON NMN_LÄPŠ-PL !!≈ * __@CODE@__ läpš:laps 211
 :     PL-INS_DKÕKS-STEM   ;
@@ -4668,35 +4690,38 @@ LEXICON NMN_LÄPŠ-PL !!≈ * __@CODE@__ läpš:laps 211
 
 !! 212
 LEXICON NMN_RIŠTĪNG-SG !!≈ * __@CODE@__ : 212
-:%^RVows                SG-DAT_õn       ;
-:%^RVows                SG-ELA/INE_stõ  ;
-:%^RVows                SG-GEN  ;
-:%^RVows                SG-ILL_õ        ;
-:%^RVows                SG-INS_kõks     ;
-:%^PalatalizeLeft       SG-NOM  ;
-:%^RVows                SG-PAR_dõ ;
+!! * Yaml: __N-rishtiing__
+NMN_SIDĀM-SG ;
+!:%^RVows                SG-DAT_õn       ;
+!:%^RVows                SG-ELA/INE_stõ  ;
+!:%^RVows                SG-GEN  ;
+!:%^RVows                SG-ILL_õ        ;
+!:%^RVows                SG-INS_kõks     ;
+!:%^PalatalizeLeft       SG-NOM  ;
+!:%^RVows                SG-PAR_dõ ;
 LEXICON NMN_ROʼVZT-PL !!≈ * __@CODE@__ roʼvzt:roʼvz 212
 :     PL-INS_DKÕKS-STEM   ;
 :%^PalatalizeLeft     PL-ELA/INE_īst   ;
 :%^PalatalizeLeft     PL-ILL_īz   ;
 :%^PalatalizeLeft     PL-PAR_i   ;
 
-LEXICON NMN_TUʼĻ !!≈ * __@CODE@__ : 213
+LEXICON NMN_TUʼĻ !!≈ * __@CODE@__ : 213 tuʼļ:tuʼl
+!! * Yaml: __N-tuqlj__
 	NMN_TUʼĻ-SG	;
 	NMN_TUʼĻ-PL	;
 LEXICON NMN_TUʼĻ-SG !!≈ * __@CODE@__ : 213
-:%^RVows                SG-DAT_õn       ;
+:%{XC%}                SG-DAT_õn       ;
 :%^RVows                SG-ELA/INE_stõ  ;
-:%^RVows                SG-GEN  ;
-:%^RVows                SG-ILL_õ        ;
+                SG-GEN  ;
+:%{XC%}        SG-ILL_õ        ;
 :%^RVows                SG-INS_kõks     ;
 :%^PalatalizeLeft       SG-NOM  ;
-:%^RVows                SG-PAR_dõ ;
+:%^VowsLI1%^StodRM                SG-PAR_da ;
 LEXICON NMN_TUʼĻ-PL !!≈ * __@CODE@__ : 213
-:%^RVows     PL-INS_DKÕKS-STEM   ;
+     PL-INS_DKÕKS-STEM   ;
 :%^PalatalizeLeft     PL-ELA/INE_šti   ;
-:%^PalatalizeLeft     PL-ILL_iž   ;
-:%^PalatalizeLeft     PL-PAR_i   ;
+:%^StodRM%^PalatalizeLeft     PL-ILL_īž   ;
+:%^PalatalizeLeft     PL-PAR_ḑi   ;
 
 LEXICON NMN_TŪĻ !!≈ * __@CODE@__ tūļ:tūl 214
 	NMN_KĒĻ	;
