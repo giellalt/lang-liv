@@ -1514,6 +1514,7 @@ LEXICON NMN_SĪLMA-PL
 
 !! 35
 LEXICON NMN_KǞNGA !!≈ * __@CODE@__ kǟnga:kǟnga 35
+!! * Yaml: __N-aeaerga__
 	NMN_KǞNGA-SG ;
 	NMN_KǞNGA-PL ;
 LEXICON NMN_KǞNGA-SG !!≈ * __@CODE@__ kǟnga:kǟnga 35
@@ -3785,7 +3786,7 @@ LEXICON NMN_TŪOITÕG-PL
 
 !! 159
 LEXICON NMN_KǬRAND
-!! * Yaml: __armtõb__
+!! * Yaml: __armtõb, N-aandam__
 !! __221__
        NMN_ȬʼDÕG	;
 
@@ -3983,6 +3984,7 @@ LEXICON NMN_KÄBRĀZ-PL !!≈ * __@CODE@__ : 168
 
 
 LEXICON NMN_MAIGĀZ !!≈ * __@CODE@__ : 169 maigāz:maʼigāz
+!! * Yaml: __A-maigaaz__
 	NMN_MAIGĀZ-SG	;
 	NMN_MAIGĀZ-PL	;
 LEXICON NMN_MAIGĀZ-SG !!≈ * __@CODE@__ : 169
@@ -4266,7 +4268,7 @@ LEXICON NMN_AKKIJI-PL !!≈ * __@CODE@__ : 187
 
 LEXICON NMN_LĒʼJI !!≈ * __@CODE@__ lēʼji:lēji 188
 !! __61__
-!! * Yaml: __leeqji__
+!! * Yaml: __A-aeqbtiji, leeqji__
 	NMN_LĒʼJI-SG ;
 	NMN_LĒʼJI-PL ;
 LEXICON NMN_LĒʼJI-SG !!≈ * __@CODE@__ : 188
@@ -4511,10 +4513,22 @@ LEXICON NMN_AʼBLI-PL !!≈ * __@CODE@__ aʼbli:abli 200
 	NMN_TŪĻI-PL  ;
 
 LEXICON NMN_SĒMI !!≈ * __@CODE@__ : 201
-        NMN_TŪĻI   ;
-        SG-PAR_t   ;	
+!! * Yaml: __A-ooqgi__
+ NMN_SĒMI-SG ;
+ NMN_SĒMI-PL ;
+LEXICON NMN_SĒMI-SG !!≈ * __@CODE@__ : 201
+:z        SG-DAT_õn ;
+:z              SG-ELA/INE_õst ;
+:z        SG-GEN ;
+:z      SG-ILL_õ ;
+:z        SG-INS_õks ;
+        SG-NOM  ;
+:z      SG-PAR_t ;
 LEXICON NMN_SĒMI-PL !!≈ * __@CODE@__ : 201
-        NMN_TŪĻI-PL   ;
+:z      PL-INS_DÕKS-STEM ;
+:ž      PL-ELA/INE_ist ;
+:ž      PL-ILL_iz ;
+:ž      PL-PAR_i ;
 
 LEXICON NMN_LĒʼMI !!≈ * __@CODE@__ lēʼmi:lēmi 202
 !! * Yaml: __A-aqrlimi__
@@ -4811,6 +4825,7 @@ LEXICON NMN_KAKŠ-PL !!≈ * __@CODE@__ : 218
 
 
 LEXICON NMN_ŪŽ !!≈ * __@CODE@__ : 219 ūž:ūd
+!! * Yaml: __A-uuzh__
 	NMN_ŪŽ-SG	;
 	NMN_ŪŽ-PL	;
 LEXICON NMN_ŪŽ-SG !!≈ * __@CODE@__ : 219

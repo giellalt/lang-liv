@@ -131,7 +131,7 @@ Rules
 !! 
 "ǟ:ä in first syllable"
 !! __@RULENAME@__
-ǟ:ä <=> # Cns* _ ( i ) Cns Cns:* (Vow:) [ %^VowShIn1:0 ] ;
+ǟ:ä <=> # Cns* _ ( i ) Cns Cns:* (Vow:) [ %^VowShIn1:0 ] (%^A2ÕIn2:) [ %> | # ] ;
 !€# kǟnga%^VowShIn1%^A2ÕIn2
 !€0 kängõ00
 
@@ -441,11 +441,11 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 
 "Stod removal left"
 !! __@RULENAME@__  
- ʼ:0 <=  # Cns* :0* Vow _ [ CnsWithStod :0* | i g ] ( Vow: ) %^StodRM:0 ; 
+ ʼ:0 <=  # Cns* :0* Vow _ [ CnsWithStod :0* | i g (Vow: Cns:) | o Cns ] ( Vow: ) %^StodRM:0 ; 
 
 "Stod removal right"
 !! __@RULENAME@__  
- ʼ:0 =>  # Cns* :0* Vow _ [ CnsWithStod :0* | i g ] (Vow:) %^StodRM:0 ; 
+ ʼ:0 =>  # Cns* :0* Vow _ [ CnsWithStod :0* | i g (Vow: Cns:) | o Cns ] (Vow:) %^StodRM:0 ; 
 ! 2013-06-26 for looser voikko stød can disappear everywhere
  _ ;
 ! Vow _ CnsWithStod: ( :CnsWithStod )  Vow: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
