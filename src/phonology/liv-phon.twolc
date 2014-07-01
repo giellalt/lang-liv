@@ -286,8 +286,10 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 
 "õ:i"
 !! __@RULENAME@__
- õ:i <=> # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: ] %^PalatalizeLeft: ;
-         # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
+ õ:i <=> [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: ] %^PalatalizeLeft: ;
+! # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: ] %^PalatalizeLeft: ;
+         [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
+!         # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
 !€# ǭʼrõn%^PalatalizeLeft
 !€0 ǭʼriņ0
 !€# nȭŗkõz%^PalatalizeLeft%>ist
@@ -575,5 +577,5 @@ s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 
 "a:ä palatalization"
 !! __@RULENAME@__  
-a:ä <=> # Cns*  _ ( 0: ) :Cns+ %^PalatalizeLeft:0 [ # | %> ] ;
+a:ä <=> # Cns*  _ ( 0: | ʼ: ) :Cns+ [%^PalatalizeLeft:0 | Vow: %^PalatalizeLeft:0 %^VowsRM:] [ # | %> ] ;
 
