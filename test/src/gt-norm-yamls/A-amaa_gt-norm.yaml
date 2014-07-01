@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - amā: # Noun 19 'eng /est kõik/fin' - full paradigm
+     amā+A+Sg+Nom: amā
+     amā+A+Sg+Gen: amā
+     amā+A+Sg+Par: [aʼmmõ, ammõ]
+     amā+A+Sg+Dat: amān
+     amā+A+Sg+Ins: amāks
+     amā+A+Sg+Ill: [aʼmmõ, ammõ]
+     amā+A+Sg+Ela: amāst
+     amā+A+Pl+Nom: amād
+     amā+A+Pl+Gen: amād
+     amā+A+Pl+Par: [äʼmḑi, ämḑi]
+     amā+A+Pl+Dat: amādõn
+     amā+A+Pl+Ins: amādõks
+     amā+A+Pl+Ill: [äʼmži, ämži]
+     amā+A+Pl+Ela: [äʼmšti, ämšti]
+

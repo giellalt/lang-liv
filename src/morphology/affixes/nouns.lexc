@@ -1190,12 +1190,26 @@ LEXICON NMN_KALĀ-PL
 :%^VowsRM        PL-PAR_ḑi ;
 
 !! 19
-LEXICON NMN_TUBĀ
-	 NMN_KALĀ	;
+LEXICON NMN_TUBĀ !!= * __@CODE@__ tubā:tuʼbā
+ NMN_TUBĀ-SG ;
+ NMN_TUBĀ-PL ;
 LEXICON NMN_TUBĀ-SG
-        NMN_KALĀ-SG     ;
+!! * Yaml: __A-amaa__
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA/INE_st ;
+:%^StodRM        SG-GEN ;
+:%^Stress2to1    SG-ILL_ZERO ;
+! SG-INE ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^Stress2to1    SG-PAR_ZERO ;
+
 LEXICON NMN_TUBĀ-PL
-	NMN_KALĀ-PL     ;
+:%^StodRM        PL-INS_DÕKS-STEM ;
+:%^PalatalizeLeft%^VowsRM        PL-ELA/INE_šti ;
+:%^PalatalizeLeft%^VowsRM        PL-ILL_ži ;
+:%^PalatalizeLeft%^VowsRM        PL-PAR_ḑi ;
+
 !! 20
 LEXICON NMN_AIGĀ
 	NMN_AIGĀ-SG	;
@@ -1522,7 +1536,6 @@ LEXICON NMN_KǞNGA-SG !!≈ * __@CODE@__ kǟnga:kǟnga 35
 :        SG-ELA/INE_st ;
 :        SG-GEN ;
 :%^VowShIn1%^A2ÕIn2    SG-ILL_ZERO ;
-:%^A2ÕIn2    SG-ILL_ZERO ;
 :        SG-INS_ks ;
 :        SG-NOM  ;
 :%^VowShIn1%^A2ÕIn2    SG-PAR_ZERO ;
@@ -2585,25 +2598,23 @@ LEXICON NMN_RADIO-PL !!≈ * __@CODE@__ : 91
         PL-ILL_iž ;
         PL-PAR_di ;
 
-
-
 LEXICON NMN_ANG !!≈ * __@CODE@__ : 92
+!!= * Yaml: __N-ang__
 	NMN_ANG-SG	;
 	NMN_ANG-PL	;
 LEXICON NMN_ANG-SG !!≈ * __@CODE@__ : 92
-        SG-DAT_n ;
-        SG-ELA/INE_st ;
+        SG-DAT_õn ;
+        SG-ELA/INE_stõ ;
         SG-GEN ;
-        SG-ILL_ZERO ;
-        SG-ILL_z ;
-        SG-INS_ks ;
+        SG-ILL_õ ;
+        SG-INS_kõks ;
         SG-NOM  ;
-        SG-PAR_ZERO ;
+        SG-PAR_õ ;
 LEXICON NMN_ANG-PL !!≈ * __@CODE@__ : 92
-        PL-INS_DÕKS-STEM ;
-        PL-ELA/INE_ist ;
-        PL-ILL_iž ;
-        PL-PAR_di ;
+:%^VowsLI1        PL-INS_ÕDÕKS-STEM ;
+:%^VowsLI1        PL-ELA/INE_ist ;
+:%^VowsLI1        PL-ILL_iž ;
+        PL-PAR_ḑi ;
 
 LEXICON NMN_KOUV !!≈ * __@CODE@__ : 93
 	NMN_KOUV-SG	;
@@ -3164,19 +3175,23 @@ LEXICON NMN_SOʼV-PL !!≈ * __@CODE@__ : 122
         PL-PAR_ḑi ;
 
 LEXICON NMN_KǬJ !!≈ * __@CODE@__ : 123
+!!= * Yaml: __N-armij__
 	NMN_KǬJ-SG	;
 	NMN_KǬJ-PL	;
 LEXICON NMN_KǬJ-SG !!≈ * __@CODE@__ : 123
         SG-DAT_õn ;
-        SG-ELA/INE_stõ ;
+!        SG-ELA/INE_stõ ; KǬJ
+        SG-ELA/INE_st ;
         SG-GEN ;
         SG-ILL_õ ;
         SG-INS_õks ;
         SG-NOM  ;
-        SG-PAR_õ ;
+!        SG-PAR_õ ; KǬJ
+        SG-PAR_t ;
 
 LEXICON NMN_KǬJ-PL !!≈ * __@CODE@__ : 123
-        PL-INS_DKÕKS-STEM ;
+!        PL-INS_DKÕKS-STEM ; KǬJ
+        PL-INS_DÕKS-STEM ;
         PL-ELA/INE_šti ;
         PL-ILL_ži ;
         PL-PAR_ḑi ;
@@ -3786,7 +3801,7 @@ LEXICON NMN_TŪOITÕG-PL
 
 !! 159
 LEXICON NMN_KǬRAND
-!! * Yaml: __armtõb, N-aandam__
+!! * Yaml: __armtõb, N-aandam, N-akaatwb__
 !! __221__
        NMN_ȬʼDÕG	;
 
@@ -4266,7 +4281,7 @@ LEXICON NMN_AKKIJI-PL !!≈ * __@CODE@__ : 187
        PL-PAR_di ;
 
 
-LEXICON NMN_LĒʼJI !!≈ * __@CODE@__ lēʼji:lēji 188
+LEXICON NMN_LĒʼJI !!≈ * __@CODE@__ lēʼji:lēʼji 188
 !! __61__
 !! * Yaml: __A-aeqbtiji, leeqji__
 	NMN_LĒʼJI-SG ;
@@ -4975,10 +4990,24 @@ LEXICON NMN_DULLÕNZ-PL !!≈ * __@CODE@__ dullõnz:dullõn 227
  NMN_UMĀRZ-PL	  ;
 
 LEXICON NMN_AʼBBÕNZ !!≈ * __@CODE@__ aʼbbõnz:aʼbbõn 228
-        NMN_UMĀRZ ;
+!!= * Yaml: __N-aqbbwnz__
+ NMN_AʼBBÕNZ-SG ;
+ NMN_AʼBBÕNZ-PL ;
+LEXICON NMN_AʼBBÕNZ-SG !!≈ * __@CODE@__ aʼbbõnz:aʼbbõn 228
+        SG-DAT_õn ;
+        SG-ELA/INE_õst ;
+        SG-GEN ;
+        SG-ILL_õ ;
+        SG-INS_õks ;
+:z      SG-NOM  ;
+:z      SG-PAR_t ;
 
 LEXICON NMN_AʼBBÕNZ-PL !!≈ * __@CODE@__ aʼbbõnz:aʼbbõn 228
-        NMN_UMĀRZ-PL       ;
+        PL-INS_DÕKS-STEM ;
+:%^PalatalizeLeft PL-ELA/INE_ist ;
+:%^PalatalizeLeft PL-ILL_iž ;
+:%^PalatalizeLeft PL-PAR_i ;
+
 !!
 LEXICON NMN_AŅGÕRZ !!≈ * __@CODE@__ : aņgõrz:aņgõr 229
         NMN_AŅGÕRZ-SG  ;
@@ -4994,9 +5023,9 @@ LEXICON NMN_AŅGÕRZ-SG
 
 LEXICON NMN_AŅGÕRZ-PL !!≈ * __@CODE@__ : aņgõrz:aņgõr 229
      PL-INS_DÕKS-STEM    ;
-     PL-ELA/INE_ist       ;
-     PL-ILL_iž        ;
-     PL-PAR_i         ;
+:%^VowsõToi     PL-ELA/INE_ist       ;
+:%^VowsõToi     PL-ILL_iž        ;
+:%^VowsõToi     PL-PAR_i         ;
 
 LEXICON NMN_KAʼGGÕRZ !!≈ * __@CODE@__ kaʼggõrz:kaʼggõr 230
         NMN_AŅGÕRZ   ;
