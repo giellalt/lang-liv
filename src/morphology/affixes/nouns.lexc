@@ -1,15 +1,16 @@
-!! !!! Noun inflection
+!! !!! Livonian noun inflection
 ! ---------------
-!! Livonian nouns inflect in cases.
 
-! PROBLEMS with dictionary lexica
-LEXICON N_
+
+!! !!PROBLEMS with dictionary lexica
+
+LEXICON N_  !!≈ * __@CODE@__ 
 +TYÄ: # ;
-LEXICON N_¤51
+LEXICON N_¤51  !!≈ * __@CODE@__   
 +TYÄ: # ;
-LEXICON N_37
+LEXICON N_37  !!≈ * __@CODE@__ 
 +TYÄ: # ;
-LEXICON N_¤29
+LEXICON N_¤29  !!≈ * __@CODE@__ 
 +TYÄ: # ;
 
 !! !! Stem lexica
@@ -40,15 +41,19 @@ LEXICON N_TEI !!≈ * __@CODE@__ contains tei:tei 17
 
 LEXICON N_KALĀ  !!≈ * __@CODE@__ contains  kalā:kaʼlā 18
 +N:	NMN_KALĀ   ;
+
 LEXICON N_KALĀ-SG  !!≈ * __@CODE@__ contains  kalā:kaʼlā 18
 +N:	NMN_KALĀ-SG    ;
+
 LEXICON N_KALĀ-PL  !!≈ * __@CODE@__ contains  kalā:kaʼlā 18
 +N:	NMN_KALĀ-PL    ;
 
 LEXICON N_TUBĀ !!≈ * __@CODE@__ tubā:tuʼbā 19
 +N: 	NMN_TUBĀ	;
+
 LEXICON N_TUBĀ-SG !!≈ * __@CODE@__ tubā:tuʼbā 19
 +N:	NMN_TUBĀ-SG   ;
+
 LEXICON N_TUBĀ-PL !!≈ * __@CODE@__ tubā:tuʼbā 19
 +N:	NMN_TUBĀ-PL   ;
 
@@ -64,8 +69,10 @@ LEXICON N_PŪOGA !!≈ * __@CODE@__ pūoga:pūoga 22
 LEXICON N_LǬJA !!≈ * __@CODE@__ lǭja:lǭja 23
 	N_LǬJA-SG	;
 	N_LǬJA-PL	;
+
 LEXICON N_LǬJA-SG !!≈ * __@CODE@__ lǭja:lǭja 23
 +N:     NMN_LǬJA-SG   ;
+
 LEXICON N_LǬJA-PL !!≈ * __@CODE@__ lǭja:lǭja 23
 +N:     NMN_LǬJA-PL   ;
 
@@ -87,8 +94,10 @@ LEXICON N_AŽĀ-PL !!≈ * __@CODE@__ ažā:ažā 26
 LEXICON N_ĀĻDŽA !!≈ * __@CODE@__ āļdža:āļdža 27
 	N_ĀĻDŽA-SG       ;
         N_ĀĻDŽA-PL       ;
+
 LEXICON N_ĀĻDŽA-SG !!≈ * __@CODE@__ āļdža:āļdža 27
 +N:     NMN_ĀĻDŽA-SG   ;
+
 LEXICON N_ĀĻDŽA-PL !!≈ * __@CODE@__ āļdža:āļdža 27
 +N:     NMN_ĀĻDŽA-PL   ;
 
@@ -116,8 +125,10 @@ LEXICON N_LĀNGA !!≈ * __@CODE@__ lānga:lānga 33
 LEXICON N_SĪLMA !!≈ * __@CODE@__ sīlma:sīlma 34
 	N_SĪLMA-SG ;
 	N_SĪLMA-PL ;
+
 LEXICON N_SĪLMA-SG
 +N:	NMN_SĪLMA-SG	;
+
 LEXICON N_SĪLMA-PL !!≈ * __@CODE@__ sīlma:sīlma 34
 +N:     NMN_SĪLMA-PL   ;
 
@@ -126,6 +137,7 @@ LEXICON N_KǞNGA !!≈ * __@CODE@__ kǟnga:kǟnga 35
 
 LEXICON N_ĀINA !!≈ * __@CODE@__ āina:āina 36
 +N:	NMN_ĀINA	;
+
 LEXICON N_ĀINA-PL !!≈ * __@CODE@__ āina:āina 36
 +N:     NMN_ĀINA-PL   ;
 
@@ -134,29 +146,36 @@ LEXICON N_VĒNA !!≈ * __@CODE@__ vēna:vēna 37
 
 LEXICON N_RŌDA !!≈ * __@CODE@__ rōda:rōda 38
 +N:	NMN_RŌDA	;
+
 LEXICON N_RŌDA-PL !!≈ * __@CODE@__ rōda:rōda 38
 +N:     NMN_RŌDA-PL   ;
 
 LEXICON N_PADĀ !!≈ * __@CODE@__ padā:padā 39
 +N:	NMN_PADĀ   ;
+
 LEXICON N_PADĀ-SG !!≈ * __@CODE@__ padā:padā 39
 +N:	NMN_PADĀ-SG   ;
+
 LEXICON N_PADĀ-PL !!≈ * __@CODE@__ padā:padā 39
 +N:	NMN_PADĀ-PL   ;
 
 LEXICON N_SÕBRĀ !!≈ * __@CODE@__ sõbrā:sõbrā 40
 	NMN_SÕBRĀ-SG	;
 	NMN_SÕBRĀ-PL	;
+
 LEXICON N_SÕBRĀ-SG !!≈ * __@CODE@__ sõbrā:sõbrā 40
 +N:	NMN_SÕBRĀ-SG  ;
+
 LEXICON N_SÕBRĀ-PL !!≈ * __@CODE@__ sõbrā:sõbrā 40
 +N:	NMN_SÕBRĀ-PL  ;
 
 LEXICON N_KÄPĀ !!≈ * __@CODE@__ käpā:käpā 41
      N_KÄPĀ-SG  ;
      N_KÄPĀ-PL  ;
+
 LEXICON N_KÄPĀ-SG !!≈ * __@CODE@__ käpā:käpā 41
 +N:     NMN_KÄPĀ-SG  ;
+
 LEXICON N_KÄPĀ-PL !!≈ * __@CODE@__ käpā:käpā 41
 +N:     NMN_KÄPĀ-PL  ;
 
@@ -5263,7 +5282,6 @@ LEXICON	PL-CASES
 ! PL-NOM	;
  PL-PAR	;
 
-!!≈ * __@CODE@__ #:0   nouns   ;
 
 !! !!NUMBER AND CASE
 
@@ -5416,17 +5434,17 @@ LEXICON PL-ELA/INE_išt
 
 LEXICON PL-ELA/INE_sti
 	PL-ELA_sti	;
-	PL-INE_si	; !! Is this correct?
+	PL-INE_si	; ! Is this correct?
 
 LEXICON PL-ELA/INE_šti
 	PL-ELA_šti	;
-	PL-INE_š	; !! Is this correct?
+	PL-INE_š	; ! Is this correct?
 
 LEXICON PL-ELA/INE_št
 	PL-ELA_št	;
 	PL-INE_š	;
 
-!
+
 LEXICON PL-ELA_st
 +Pl+Ela:%>st K ;
 
