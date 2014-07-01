@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - äʼbțiji: # Noun 187 'eng helpful/est abivalmis/fin avulias' - full paradigm
+     äʼbțiji+A+Sg+Nom: [äʼbțiji, äbțiji]
+     äʼbțiji+A+Sg+Gen: [äʼbțijiz, äbțijiz]
+     äʼbțiji+A+Sg+Par: [äʼbțijizt, äbțijizt]
+     äʼbțiji+A+Sg+Dat: [äʼbțijizõn, äbțijizõn]
+     äʼbțiji+A+Sg+Ins: [äʼbțijizõks, äbțijizõks]
+     äʼbțiji+A+Sg+Ill: [äʼbțijizõ, äbțijizõ]
+     äʼbțiji+A+Sg+Ela: [äʼbțijizõst, äbțijizõst]
+     äʼbțiji+A+Pl+Nom: [äʼbțijid, äbțijid]
+     äʼbțiji+A+Pl+Gen: [äʼbțijid, äbțijid]
+     äʼbțiji+A+Pl+Par: [äʼbțijidi, äbțijidi]
+     äʼbțiji+A+Pl+Dat: [äʼbțijidõn, äbțijidõn]
+     äʼbțiji+A+Pl+Ins: [äʼbțijidõks, äbțijidõks]
+     äʼbțiji+A+Pl+Ill: [äʼbțijiž, äbțijiž]
+     äʼbțiji+A+Pl+Ela: [äʼbțijisti, äbțijisti]
+
