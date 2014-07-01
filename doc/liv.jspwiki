@@ -16,8 +16,7 @@ Morphology
 
 
 
-Analysis of the symbols symbols
-----------------
+!!List of the multichar symbols 
 
 The morphological analyses of wordforms in Livonian are presented
 in this system in terms of following symbols.
@@ -42,11 +41,11 @@ in this system in terms of following symbols.
  * __+Qnt 	__ = quantifier
  * __+V 	__ = verb
 
-!!Parts of speech are further split up into:
+Parts of speech are further split up into:
 
-Nouns
+!!Nouns
 
- * __+Prop__ = proper
+ * __+Prop__ = proper nouns
 
 !!Pronouns
 
@@ -86,29 +85,43 @@ Nominals are inflected for Number and Case
  * __+Voc__ = Vocative
 
 
-The possession is marked as such:
+Possession is marked as such:
 
- * __+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3__ 
+ * __+PxSg1__ 
+ * __+PxSg2__ 
+ * __+PxSg3__ 
+ * __+PxPl1__ 
+ * __+PxPl2__ 
+ * __+PxPl3__ 
 
 The comparative forms are:
 
- * __+Pos +Comp +Superl__ 
+ * __+Pos__ 
+ * __+Comp__ 
+ * __+Superl__ 
 
 Numerals are classified under:
 
- * __+Attr +Card__ 
+ * __+Attr__ 
+ * __+Card__ 
  * __+Ord__ 
 
 Verb moods are:
  * __+Cond__ = conditional 
  * __+Ind__ = indicative
  * __+Imprt__ = imperative
+ * __+ImprtII__ 
  * __+Jus__ = jussitive
  * __+Quo__ = quotative, quoted speech
+
 Tenses
+ * __+Prs__ 
+ * __+Prt__ 
+
 Voice
  * __+Act__ = active
  * __+Pss__ = passive
+
 Verb personal forms are:
  * __+Sg1__ = first person singular conjugation
  * __+Sg2__ = second person singular conjugation
@@ -116,37 +129,49 @@ Verb personal forms are:
  * __+Pl1__ = first person plural conjugation
  * __+Pl2__ = second person plural conjugation
  * __+Pl3__ = third person plural conjugation
+
 Other verb forms are
  * __+ConNeg__ = connegative, main verb complement to Neg, 
  * __+Ger__ = gerund 
  * __+Inf__ = infinitive
  * __+Neg__ = verb of negation эзь, аволь, иля
- * __+Prc__ = participle
-
- * __+ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess__ 
+ * __+Prc__ = participle CHECK! how is this used ?
+ * __+PrsPrc	__ 
+ * __+PrfPrc	__ 
+ * __+Sup	__ 
+ * __+VGen	__ 
+ * __+VAbess__ 
+ * __+Aux__ = Auxiliary verb
 
 !!Verbs are syntactically split according to transitivity:
 
  * __+TV__ = Transitive verb
  * __+IV__ = Intransitive verb
- * __+Aux__ = Auxiliary verb
 
 !!Usage extents are marked using following tags:
+ * __+Err/Sub__ 
+ * __+Use/-Spell__ 
 
 
 Abbreviated words are classified with:
- * __+ABBR +ACR__ 
+ * __+ABBR__ containing period
+ * __+ACR__ acronyms, not containing period
 
 Special symbols are classified with:
- * __+CLB +PUNCT +LEFT +RIGHT__ 
+ * __+CLB__ 
+ * __+PUNCT__ 
+ * __+LEFT__ 
+ * __+RIGHT__ 
 
 Special multiword units are analysed with:
  * __+Multi__ 
+
 Non-dictionary words can be recognised with:
  * __+Guess__ 
 
 Question and Focus particles:
- * __+Qst +Foc__ 
+ * __+Qst__ 
+ * __+Foc__ 
 
 
 Semantics are classified with
@@ -157,9 +182,10 @@ Semantics are classified with
  * __+Sem/Patr__  Patronym, 
  * __+Sem/Plc__  Place name, 
  * __+Sem/Org__  name of organization, 
- * __+Sem/Obj__ 
+ * __+Sem/Obj__  objects (things, that is)
  * __+Sem/Ani__  name of animal, 
- * __+Sem/Rvr__  Animate, 
+ * __+Sem/Rvr__  name of river or water way, media of transportation,  
+ * __+Sem/Anim__  Animate, 
  * __+Sem/Inanim__  Inanimate, 
  * __+Sem/Hum__  Human, 
  * __+Sem/NonHum__  Nonhuman, 
@@ -185,7 +211,9 @@ Semantics are classified with
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
- * __+V→N +V→V +V→A__
+ * __+V→N__ 
+ * __+V→V__ 
+ * __+V→A__
  * __+Der/xxx	__
  * __+Der/A	__ for example present participle to adjective
  * __+Der/VN__ 
@@ -195,21 +223,23 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
-  {aä} {oö} {uü} 
-* {aä} {oö} {uü}  for consonant lengthening
+ * {aä} back/front a 
+ * {oö} back/front o 
+ *  {uü}  back/front u
+*  {uü}  for consonant lengthening
 
 And following triggers to control variation
- * __{front} {back}__
+ * {front} = front vowels 
+ * {back} = back vowels
  * __%^Tense__ = Tense stem will have stød if proper stem type
  * __%^ConsL__ = Consonant lengthening
  * __%^1Sh2L__ =
  * __%^D2T__ d:t veʼž:veʼd:vietā
  * __%^PreI__ i:0 veʼž:veʼd:vietā
-
  * __%^VowShIn1	__ This causes vowel shortening in 1. syll
- * ____ accompanied by coda consonant lengthening
+accompanied by coda consonant lengthening
  * __%^A2ÕIn2__ This causes 2. syll a => õ
-2013-02-01 
+ * __%^ConsSh__ =
  * __%^Stress1to2__ =
  * __%^Stress2to1__ =
  * __%^VowsSh1__ = vowel shortening in first syllable
@@ -220,16 +250,11 @@ And following triggers to control variation
  * __%^VowsLU1__ = 
  * __%^VowsL1__ =
  * __%^LongV2Õin2__ = long vowel to õ in second syllable
-
  * __%^Vow2Iin2__ = vowel to i or ī in second syllable
-
  * __%^VowsõToi__ kīndõr:kīndiriž
-
-
  * __%^DiphthL1__ =
  * __%^D2Ž__ = The *ti => *si
  * __%^D2ZERO__ The d => 0
-
  * __%^RVows__ = Vowel raising
  * __%^VowsMetath__ = vowel metathesis in verbs
  * __%^VowsMRM__ Vow in middle ētam:eitmõd
@@ -239,8 +264,15 @@ And following triggers to control variation
  * __%^PalatalizeLeft__ = 
  * __%^VowsL1aToǭ__ = a >> ǭ
 
-We have manually optimised the structure of our lexicon using following
+We have manually optimised the structure of our lexicon using the following
 flag diacritics to restrict morhpological combinatorics:
+
+ * __@P.NeedNoun.ON@__ 
+ * __@D.NeedNoun.ON@__ 
+ * __@C.NeedNoun@__ 
+
+
+!!Root lexicon
 
 The word forms in Livonian start from the lexeme roots of basic
 word classes
@@ -256,7 +288,6 @@ word classes
  * __propernouns ;	__ 
  * __quantifiers ;	__ 
  * __verbs ;		__ 
- * __					__ 
  * __Abbreviation	;	__ 
  * __Acronym		;	__ 
  * __Punctuation		;__ 
@@ -264,21 +295,23 @@ word classes
  * __A_NEWWORDS ;__ This is for feeding new adjectives
  * __N_NEWWORDS ;__ This is for feeding new nouns
 
-Words that are not inflected
+Lexica for words that are not inflected 
 
- * __LEXICON ADV___ 
+These are but here for the time being
 
- * __LEXICON ADV_KĒRATÕKS__ 
+adverb lexicon
 
- * __LEXICON ADV_KǬRAND__ 
+ * LEXICON ADV_KĒRATÕKS 
 
- * __LEXICON ADV_IRM__ 
+ * LEXICON ADV_KǬRAND 
 
- * __LEXICON INTERJ___ 
+ * LEXICON ADV_IRM 
 
- * __LEXICON PCLE-MOD___ 
+Interjections lexicon
 
- * __LEXICON PCLE___
+pcle-mod lexicon
+
+pcle-lexicon
 
 
  * __LEXICON K__ is the clitic lexicon, but no clitica here, only #.
@@ -509,9 +542,15 @@ modifiers that do not decline
 
 
 
-Noun inflection
-Livonian nouns inflect in cases.
+Livonian noun inflection
 
+
+!!PROBLEMS with dictionary lexica
+
+ * __LEXICON N___ 
+ * __LEXICON N_¤51__   
+ * __LEXICON N_37__ 
+ * __LEXICON N_¤29__ 
 
 Stem lexica
  * __LEXICON N_PŪ__ contains pū: 12
@@ -532,11 +571,15 @@ Stem lexica
  * __LEXICON N_TEI__ contains tei:tei 17
 
  * __LEXICON N_KALĀ__ contains  kalā:kaʼlā 18
+
  * __LEXICON N_KALĀ-SG__ contains  kalā:kaʼlā 18
+
  * __LEXICON N_KALĀ-PL__ contains  kalā:kaʼlā 18
 
  * __LEXICON N_TUBĀ__ tubā:tuʼbā 19
+
  * __LEXICON N_TUBĀ-SG__ tubā:tuʼbā 19
+
  * __LEXICON N_TUBĀ-PL__ tubā:tuʼbā 19
 
  * __LEXICON N_AIGĀ__ aigā:aigā 20
@@ -546,7 +589,9 @@ Stem lexica
  * __LEXICON N_PŪOGA__ pūoga:pūoga 22
 
  * __LEXICON N_LǬJA__ lǭja:lǭja 23
+
  * __LEXICON N_LǬJA-SG__ lǭja:lǭja 23
+
  * __LEXICON N_LǬJA-PL__ lǭja:lǭja 23
 
  * __LEXICON N_PǞVA__ pǟva:pǟva 24
@@ -560,7 +605,9 @@ Stem lexica
  * __LEXICON N_AŽĀ-PL__ ažā:ažā 26
 
  * __LEXICON N_ĀĻDŽA__ āļdža:āļdža 27
+
  * __LEXICON N_ĀĻDŽA-SG__ āļdža:āļdža 27
+
  * __LEXICON N_ĀĻDŽA-PL__ āļdža:āļdža 27
 
  * __LEXICON N_SUKĀ__ sukā:sukā 28
@@ -578,28 +625,38 @@ Stem lexica
  * __LEXICON N_LĀNGA__ lānga:lānga 33
 
  * __LEXICON N_SĪLMA__ sīlma:sīlma 34
+
+
  * __LEXICON N_SĪLMA-PL__ sīlma:sīlma 34
 
  * __LEXICON N_KǞNGA__ kǟnga:kǟnga 35
 
  * __LEXICON N_ĀINA__ āina:āina 36
+
  * __LEXICON N_ĀINA-PL__ āina:āina 36
 
  * __LEXICON N_VĒNA__ vēna:vēna 37
 
  * __LEXICON N_RŌDA__ rōda:rōda 38
+
  * __LEXICON N_RŌDA-PL__ rōda:rōda 38
 
  * __LEXICON N_PADĀ__ padā:padā 39
+
  * __LEXICON N_PADĀ-SG__ padā:padā 39
+
  * __LEXICON N_PADĀ-PL__ padā:padā 39
 
  * __LEXICON N_SÕBRĀ__ sõbrā:sõbrā 40
+
  * __LEXICON N_SÕBRĀ-SG__ sõbrā:sõbrā 40
+
  * __LEXICON N_SÕBRĀ-PL__ sõbrā:sõbrā 40
 
  * __LEXICON N_KÄPĀ__ käpā:käpā 41
+
  * __LEXICON N_KÄPĀ-SG__ käpā:käpā 41
+
  * __LEXICON N_KÄPĀ-PL__ käpā:käpā 41
 
  * __LEXICON N_MAKSĀ__ maksā:maksā 42
@@ -2313,7 +2370,6 @@ __567__
 
 
 
- * ____ #:0   nouns   ;
 
 !!NUMBER AND CASE
 
@@ -2350,9 +2406,8 @@ above as pair in SG-ELA/INE_st
 
 
 
-Is this correct?
 
-Is this correct?
+
 
 
 
