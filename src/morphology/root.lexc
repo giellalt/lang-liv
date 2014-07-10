@@ -20,7 +20,7 @@
 
 Multichar_Symbols
 
-!! !!List of the multichar symbols 
+!! !!List of the multichar symbols
 ! --------------------------------
 
 !! The morphological analyses of wordforms in Livonian are presented
@@ -36,7 +36,7 @@ Multichar_Symbols
  +Adv 	 !!≈ * __@CODE@__ = adverb
  +CS 	 !!≈ * __@CODE@__ = subordinating conjunction
  +CC 	 !!≈ * __@CODE@__ = coordinating conjunction
- +Interj !!≈ * __@CODE@__ = interjection 
+ +Interj !!≈ * __@CODE@__ = interjection
  +N 	 !!≈ * __@CODE@__ = noun
  +Num 	 !!≈ * __@CODE@__ = numeral
  +Pcle 	 !!≈ * __@CODE@__ = particle
@@ -85,48 +85,48 @@ Multichar_Symbols
  +Lat !!≈ * __@CODE@__ = Lative
  +Nom !!≈ * __@CODE@__ = nominative case
  +Par !!≈ * __@CODE@__ = partitive
- +Prl !!≈ * __@CODE@__ = prolative 
+ +Prl !!≈ * __@CODE@__ = prolative
  +Tra !!≈ * __@CODE@__ = translative
  +Voc !!≈ * __@CODE@__ = Vocative
 
 
 !! Possession is marked as such:
 
-+PxSg1  !!≈ * __@CODE@__ 
-+PxSg2  !!≈ * __@CODE@__ 
-+PxSg3  !!≈ * __@CODE@__ 
-+PxPl1  !!≈ * __@CODE@__ 
-+PxPl2  !!≈ * __@CODE@__ 
-+PxPl3 !!≈ * __@CODE@__ 
++PxSg1  !!≈ * __@CODE@__
++PxSg2  !!≈ * __@CODE@__
++PxSg3  !!≈ * __@CODE@__
++PxPl1  !!≈ * __@CODE@__
++PxPl2  !!≈ * __@CODE@__
++PxPl3 !!≈ * __@CODE@__
 
 !! The comparative forms are:
 
-+Pos  !!≈ * __@CODE@__ 
-+Comp  !!≈ * __@CODE@__ 
-+Superl !!≈ * __@CODE@__ 
++Pos  !!≈ * __@CODE@__
++Comp  !!≈ * __@CODE@__
++Superl !!≈ * __@CODE@__
 
 !! Numerals are classified under:
 
- +Attr   !!≈ * __@CODE@__ 
- +Card   !!≈ * __@CODE@__ 
- +Ord        !!≈ * __@CODE@__ 
+ +Attr   !!≈ * __@CODE@__
+ +Card   !!≈ * __@CODE@__
+ +Ord        !!≈ * __@CODE@__
 
 !! Verb moods are:
- +Cond !!≈ * __@CODE@__ = conditional 
+ +Cond !!≈ * __@CODE@__ = conditional
  +Ind !!≈ * __@CODE@__ = indicative
  +Imprt !!≈ * __@CODE@__ = imperative
- +ImprtII   !!≈ * __@CODE@__ 
+ +ImprtII   !!≈ * __@CODE@__
  +Jus !!≈ * __@CODE@__ = jussitive
  +Quo !!≈ * __@CODE@__ = quotative, quoted speech
 
 !! Tenses
- +Prs  !!≈ * __@CODE@__ 
- +Prt !!≈ * __@CODE@__ 
- 
+ +Prs  !!≈ * __@CODE@__
+ +Prt !!≈ * __@CODE@__
+
 !! Voice
  +Act !!≈ * __@CODE@__ = active
  +Pss !!≈ * __@CODE@__ = passive
- 
+
 !! Verb personal forms are:
  +Sg1 !!≈ * __@CODE@__ = first person singular conjugation
  +Sg2 !!≈ * __@CODE@__ = second person singular conjugation
@@ -134,18 +134,18 @@ Multichar_Symbols
  +Pl1 !!≈ * __@CODE@__ = first person plural conjugation
  +Pl2 !!≈ * __@CODE@__ = second person plural conjugation
  +Pl3 !!≈ * __@CODE@__ = third person plural conjugation
- 
+
 !! Other verb forms are
- +ConNeg !!≈ * __@CODE@__ = connegative, main verb complement to Neg, 
- +Ger !!≈ * __@CODE@__ = gerund 
+ +ConNeg !!≈ * __@CODE@__ = connegative, main verb complement to Neg,
+ +Ger !!≈ * __@CODE@__ = gerund
  +Inf    !!≈ * __@CODE@__ = infinitive
  +Neg    !!≈ * __@CODE@__ = verb of negation эзь, аволь, иля
  +Prc !!≈ * __@CODE@__ = participle CHECK! how is this used ?
-+PrsPrc	   !!≈ * __@CODE@__ 
-+PrfPrc	   !!≈ * __@CODE@__ 
-+Sup	   !!≈ * __@CODE@__ 
-+VGen	   !!≈ * __@CODE@__ 
-+VAbess  !!≈ * __@CODE@__ 
++PrsPrc	   !!≈ * __@CODE@__
++PrfPrc	   !!≈ * __@CODE@__
++Sup	   !!≈ * __@CODE@__
++VGen	   !!≈ * __@CODE@__
++VAbess  !!≈ * __@CODE@__
 +Aux !!≈ * __@CODE@__ = Auxiliary verb
 
 !! !!Verbs are syntactically split according to transitivity:
@@ -154,74 +154,74 @@ Multichar_Symbols
  +IV !!≈ * __@CODE@__ = Intransitive verb
 
 !! !!Usage extents are marked using following tags:
- +Err/Sub    !!≈ * __@CODE@__ 
- +Use/-Spell  !!≈ * __@CODE@__ 
+ +Err/Sub    !!≈ * __@CODE@__
+ +Use/-Spell  !!≈ * __@CODE@__
 
 
 !! Abbreviated words are classified with:
  +ABBR  !!≈ * __@CODE@__ containing period
  +ACR !!≈ * __@CODE@__ acronyms, not containing period
- 
+
 !! Special symbols are classified with:
-+CLB !!≈ * __@CODE@__ 
-+PUNCT !!≈ * __@CODE@__ 
-+LEFT !!≈ * __@CODE@__ 
-+RIGHT !!≈ * __@CODE@__ 
++CLB !!≈ * __@CODE@__
++PUNCT !!≈ * __@CODE@__
++LEFT !!≈ * __@CODE@__
++RIGHT !!≈ * __@CODE@__
 
 !! Special multiword units are analysed with:
- +Multi !!≈ * __@CODE@__ 
- 
+ +Multi !!≈ * __@CODE@__
+
 !! Non-dictionary words can be recognised with:
- +Guess  !!≈ * __@CODE@__ 
+ +Guess  !!≈ * __@CODE@__
 
 !! Question and Focus particles:
- +Qst  !!≈ * __@CODE@__ 
- +Foc !!≈ * __@CODE@__ 
+ +Qst  !!≈ * __@CODE@__
+ +Foc !!≈ * __@CODE@__
 
 
 !! Semantics are classified with
 
- +Sem/Mal    !!≈ * __@CODE@__  Male, 
- +Sem/Fem    !!≈ * __@CODE@__  Female, 
- +Sem/Sur    !!≈ * __@CODE@__  Surname, 
- +Sem/Patr   !!≈ * __@CODE@__  Patronym, 
- +Sem/Plc    !!≈ * __@CODE@__  Place name, 
- +Sem/Org    !!≈ * __@CODE@__  name of organization, 
+ +Sem/Mal    !!≈ * __@CODE@__  Male,
+ +Sem/Fem    !!≈ * __@CODE@__  Female,
+ +Sem/Sur    !!≈ * __@CODE@__  Surname,
+ +Sem/Patr   !!≈ * __@CODE@__  Patronym,
+ +Sem/Plc    !!≈ * __@CODE@__  Place name,
+ +Sem/Org    !!≈ * __@CODE@__  name of organization,
  +Sem/Obj    !!≈ * __@CODE@__  objects (things, that is)
- +Sem/Ani    !!≈ * __@CODE@__  name of animal, 
- +Sem/Rvr    !!≈ * __@CODE@__  name of river or water way, media of transportation,  
- +Sem/Anim   !!≈ * __@CODE@__  Animate, 
- +Sem/Inanim !!≈ * __@CODE@__  Inanimate, 
- +Sem/Hum    !!≈ * __@CODE@__  Human, 
- +Sem/NonHum !!≈ * __@CODE@__  Nonhuman, 
- +Sem/Kin    !!≈ * __@CODE@__  Kinship term (reflected in special PxSg2 forms), 
- +Sem/Divinity !!≈ * __@CODE@__  Divinity (god personified), 
- +Sem/Constellation !!≈ * __@CODE@__  Constellation, 
- +Sem/Plant 	    !!≈ * __@CODE@__  Plant, 
- +Sem/Group 	    !!≈ * __@CODE@__  Group, 
+ +Sem/Ani    !!≈ * __@CODE@__  name of animal,
+ +Sem/Rvr    !!≈ * __@CODE@__  name of river or water way, media of transportation,
+ +Sem/Anim   !!≈ * __@CODE@__  Animate,
+ +Sem/Inanim !!≈ * __@CODE@__  Inanimate,
+ +Sem/Hum    !!≈ * __@CODE@__  Human,
+ +Sem/NonHum !!≈ * __@CODE@__  Nonhuman,
+ +Sem/Kin    !!≈ * __@CODE@__  Kinship term (reflected in special PxSg2 forms),
+ +Sem/Divinity !!≈ * __@CODE@__  Divinity (god personified),
+ +Sem/Constellation !!≈ * __@CODE@__  Constellation,
+ +Sem/Plant 	    !!≈ * __@CODE@__  Plant,
+ +Sem/Group 	    !!≈ * __@CODE@__  Group,
  +Sem/Body  	    !!≈ * __@CODE@__ Body.
- +Sem/Build 	    !!≈ * __@CODE@__  Building, 
- +Sem/Clth	    !!≈ * __@CODE@__  clothing, 
- +Sem/Edu 	    !!≈ * __@CODE@__  Education, 
- +Sem/Event 	    !!≈ * __@CODE@__  Event, 
- +Sem/Measr 	    !!≈ * __@CODE@__  Measure, 
- +Sem/Route	    !!≈ * __@CODE@__  Name of a route, 
- +Sem/Time  	    !!≈ * __@CODE@__  Time, 
- +Sem/Txt  	    !!≈ * __@CODE@__  Name of a text, 
- +Sem/Veh	    !!≈ * __@CODE@__  vehicle, 
- +Sem/Wpn	    !!≈ * __@CODE@__  weapon, 
- +Sem/Wthr	    !!≈ * __@CODE@__ Weather, 
+ +Sem/Build 	    !!≈ * __@CODE@__  Building,
+ +Sem/Clth	    !!≈ * __@CODE@__  clothing,
+ +Sem/Edu 	    !!≈ * __@CODE@__  Education,
+ +Sem/Event 	    !!≈ * __@CODE@__  Event,
+ +Sem/Measr 	    !!≈ * __@CODE@__  Measure,
+ +Sem/Route	    !!≈ * __@CODE@__  Name of a route,
+ +Sem/Time  	    !!≈ * __@CODE@__  Time,
+ +Sem/Txt  	    !!≈ * __@CODE@__  Name of a text,
+ +Sem/Veh	    !!≈ * __@CODE@__  vehicle,
+ +Sem/Wpn	    !!≈ * __@CODE@__  weapon,
+ +Sem/Wthr	    !!≈ * __@CODE@__ Weather,
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
 
- +V→N  !!≈ * __@CODE@__ 
- +V→V  !!≈ * __@CODE@__ 
+ +V→N  !!≈ * __@CODE@__
+ +V→V  !!≈ * __@CODE@__
  +V→A   !!≈ * __@CODE@__
  +Der/xxx	      !!≈ * __@CODE@__
  +Der/A	      !!≈ * __@CODE@__ for example present participle to adjective
- +Der/VN      !!≈ * __@CODE@__ 
+ +Der/VN      !!≈ * __@CODE@__
 
 !! !!!Morphophonology
 ! ---------------
@@ -229,13 +229,13 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 
- {aä}  !!≈ * @CODE@ back/front a 
- {oö}  !!≈ * @CODE@ back/front o 
+ {aä}  !!≈ * @CODE@ back/front a
+ {oö}  !!≈ * @CODE@ back/front o
  {uü} !!= * @CODE@ back/front u
  %{XC%} !! * @CODE@ for consonant lengthening
 
 !! And following triggers to control variation
- {front}   !!≈ * @CODE@ = front vowels 
+ {front}   !!≈ * @CODE@ = front vowels
  {back}  !!≈ * @CODE@ = back vowels
  %^Tense !!≈ * __@CODE@__ = Tense stem will have stød if proper stem type
  %^ConsL !!≈ * __@CODE@__ = Consonant lengthening
@@ -245,7 +245,7 @@ Multichar_Symbols
  %^VowShIn1	!!≈ * __@CODE@__ This causes vowel shortening in 1. syll
                 !! accompanied by coda consonant lengthening
  %^A2ÕIn2       !!≈ * __@CODE@__ This causes 2. syll a => õ
-! 2013-02-01 
+! 2013-02-01
  %^ConsSh  !!≈ * __@CODE@__ =
  %^Stress1to2  !!≈ * __@CODE@__ =
  %^Stress2to1  !!≈ * __@CODE@__ =
@@ -254,7 +254,7 @@ Multichar_Symbols
  %^VowsShI1    !!≈ * __@CODE@__ =
  %^DiphthSh1   !!≈ * __@CODE@__ =
  %^VowsLI1     !!≈ * __@CODE@__ = Vowel lengthening
- %^VowsLU1     !!≈ * __@CODE@__ = 
+ %^VowsLU1     !!≈ * __@CODE@__ =
  %^VowsL1      !!≈ * __@CODE@__ =
 %^LongV2Õin2   !!≈ * __@CODE@__ = long vowel to õ in second syllable
 %^Vow2Iin2   !!≈ * __@CODE@__ = vowel to i or ī in second syllable
@@ -265,18 +265,18 @@ Multichar_Symbols
  %^RVows   !!≈ * __@CODE@__ = Vowel raising
  %^VowsMetath     !!≈ * __@CODE@__ = vowel metathesis in verbs
 %^VowsMRM !!≈ * __@CODE@__ Vow in middle ētam:eitmõd
- %^VowsRM	  !!≈ * __@CODE@__ = 
- %^ConsRM	  !!≈ * __@CODE@__ = 
+ %^VowsRM	  !!≈ * __@CODE@__ =
+ %^ConsRM	  !!≈ * __@CODE@__ =
  %^StodRM         !!≈ * __@CODE@__ = for removing Stød
- %^PalatalizeLeft !!≈ * __@CODE@__ = 
+ %^PalatalizeLeft !!≈ * __@CODE@__ =
  %^VowsL1aToǭ     !!≈ * __@CODE@__ = a >> ǭ
 
 !! We have manually optimised the structure of our lexicon using the following
 !! flag diacritics to restrict morhpological combinatorics:
 
-@P.NeedNoun.ON@  !!≈ * __@CODE@__ 
-@D.NeedNoun.ON@  !!≈ * __@CODE@__ 
- @C.NeedNoun@  !!≈ * __@CODE@__ 
+@P.NeedNoun.ON@  !!≈ * __@CODE@__
+@D.NeedNoun.ON@  !!≈ * __@CODE@__
+ @C.NeedNoun@  !!≈ * __@CODE@__
 
 
 !! !!Root lexicon
@@ -285,39 +285,39 @@ LEXICON Root
 !! The word forms in Livonian start from the lexeme roots of basic
 !! word classes
 
-   adjectives  ;	   !!≈ * __@CODE@__ 
-   adpositions    ;	   !!≈ * __@CODE@__ 
-   adverbs  ;		   !!≈ * __@CODE@__ 
-   conjunctors	;	   !!≈ * __@CODE@__ 
-   interjections  ;	   !!≈ * __@CODE@__ 
-   nouns   ;		   !!≈ * __@CODE@__ 
-   particles   ;	   !!≈ * __@CODE@__ 
-   pronouns    ;	   !!≈ * __@CODE@__ 
-   propernouns    ;	   !!≈ * __@CODE@__ 
-   quantifiers    ;	   !!≈ * __@CODE@__ 
-   verbs   ;		   !!≈ * __@CODE@__ 
-   Abbreviation	;	   !!≈ * __@CODE@__ 
-   Acronym		;	   !!≈ * __@CODE@__ 
-   Punctuation		;  !!≈ * __@CODE@__ 
-!   wordToNumeral	;  
-   EXCEPTIONS		;  !!≈ * __@CODE@__ 
+   adjectives  ;	   !!≈ * __@CODE@__
+   adpositions    ;	   !!≈ * __@CODE@__
+   adverbs  ;		   !!≈ * __@CODE@__
+   conjunctors	;	   !!≈ * __@CODE@__
+   interjections  ;	   !!≈ * __@CODE@__
+   nouns   ;		   !!≈ * __@CODE@__
+   particles   ;	   !!≈ * __@CODE@__
+   pronouns    ;	   !!≈ * __@CODE@__
+   propernouns    ;	   !!≈ * __@CODE@__
+   quantifiers    ;	   !!≈ * __@CODE@__
+   verbs   ;		   !!≈ * __@CODE@__
+   Abbreviation	;	   !!≈ * __@CODE@__
+   Acronym		;	   !!≈ * __@CODE@__
+   Punctuation		;  !!≈ * __@CODE@__
+!   wordToNumeral	;
+   EXCEPTIONS		;  !!≈ * __@CODE@__
  A_NEWWORDS ; !!≈ * __@CODE@__ This is for feeding new adjectives
  N_NEWWORDS ; !!≈ * __@CODE@__ This is for feeding new nouns
 
-!! !! Lexica for words that are not inflected 
+!! !! Lexica for words that are not inflected
 
 !! These are but here for the time being
 
 LEXICON ADV_  !! adverb lexicon
 +Adv: #	;
 
-LEXICON ADV_KĒRATÕKS  !!≈ * @CODE@ 
+LEXICON ADV_KĒRATÕKS  !!≈ * @CODE@
 +Adv: # ;
 
-LEXICON ADV_KǬRAND  !!≈ * @CODE@ 
+LEXICON ADV_KǬRAND  !!≈ * @CODE@
 +Adv: # ;
 
-LEXICON ADV_IRM  !!≈ * @CODE@ 
+LEXICON ADV_IRM  !!≈ * @CODE@
 +Adv: # ;
 
 LEXICON INTERJ_  !! Interjections lexicon
