@@ -16,7 +16,7 @@ Morphology
 
 
 
-!!List of the multichar symbols 
+!!List of the multichar symbols
 
 The morphological analyses of wordforms in Livonian are presented
 in this system in terms of following symbols.
@@ -31,7 +31,7 @@ in this system in terms of following symbols.
  * __+Adv 	__ = adverb
  * __+CS 	__ = subordinating conjunction
  * __+CC 	__ = coordinating conjunction
- * __+Interj__ = interjection 
+ * __+Interj__ = interjection
  * __+N 	__ = noun
  * __+Num 	__ = numeral
  * __+Pcle 	__ = particle
@@ -80,43 +80,43 @@ Nominals are inflected for Number and Case
  * __+Lat__ = Lative
  * __+Nom__ = nominative case
  * __+Par__ = partitive
- * __+Prl__ = prolative 
+ * __+Prl__ = prolative
  * __+Tra__ = translative
  * __+Voc__ = Vocative
 
 
 Possession is marked as such:
 
- * __+PxSg1__ 
- * __+PxSg2__ 
- * __+PxSg3__ 
- * __+PxPl1__ 
- * __+PxPl2__ 
- * __+PxPl3__ 
+ * __+PxSg1__
+ * __+PxSg2__
+ * __+PxSg3__
+ * __+PxPl1__
+ * __+PxPl2__
+ * __+PxPl3__
 
 The comparative forms are:
 
- * __+Pos__ 
- * __+Comp__ 
- * __+Superl__ 
+ * __+Pos__
+ * __+Comp__
+ * __+Superl__
 
 Numerals are classified under:
 
- * __+Attr__ 
- * __+Card__ 
- * __+Ord__ 
+ * __+Attr__
+ * __+Card__
+ * __+Ord__
 
 Verb moods are:
- * __+Cond__ = conditional 
+ * __+Cond__ = conditional
  * __+Ind__ = indicative
  * __+Imprt__ = imperative
- * __+ImprtII__ 
+ * __+ImprtII__
  * __+Jus__ = jussitive
  * __+Quo__ = quotative, quoted speech
 
 Tenses
- * __+Prs__ 
- * __+Prt__ 
+ * __+Prs__
+ * __+Prt__
 
 Voice
  * __+Act__ = active
@@ -131,16 +131,16 @@ Verb personal forms are:
  * __+Pl3__ = third person plural conjugation
 
 Other verb forms are
- * __+ConNeg__ = connegative, main verb complement to Neg, 
- * __+Ger__ = gerund 
+ * __+ConNeg__ = connegative, main verb complement to Neg,
+ * __+Ger__ = gerund
  * __+Inf__ = infinitive
  * __+Neg__ = verb of negation эзь, аволь, иля
  * __+Prc__ = participle CHECK! how is this used ?
- * __+PrsPrc	__ 
- * __+PrfPrc	__ 
- * __+Sup	__ 
- * __+VGen	__ 
- * __+VAbess__ 
+ * __+PrsPrc	__
+ * __+PrfPrc	__
+ * __+Sup	__
+ * __+VGen	__
+ * __+VAbess__
  * __+Aux__ = Auxiliary verb
 
 !!Verbs are syntactically split according to transitivity:
@@ -149,8 +149,8 @@ Other verb forms are
  * __+IV__ = Intransitive verb
 
 !!Usage extents are marked using following tags:
- * __+Err/Sub__ 
- * __+Use/-Spell__ 
+ * __+Err/Sub__
+ * __+Use/-Spell__
 
 
 Abbreviated words are classified with:
@@ -158,78 +158,78 @@ Abbreviated words are classified with:
  * __+ACR__ acronyms, not containing period
 
 Special symbols are classified with:
- * __+CLB__ 
- * __+PUNCT__ 
- * __+LEFT__ 
- * __+RIGHT__ 
+ * __+CLB__
+ * __+PUNCT__
+ * __+LEFT__
+ * __+RIGHT__
 
 Special multiword units are analysed with:
- * __+Multi__ 
+ * __+Multi__
 
 Non-dictionary words can be recognised with:
- * __+Guess__ 
+ * __+Guess__
 
 Question and Focus particles:
- * __+Qst__ 
- * __+Foc__ 
+ * __+Qst__
+ * __+Foc__
 
 
 Semantics are classified with
 
- * __+Sem/Mal__  Male, 
- * __+Sem/Fem__  Female, 
- * __+Sem/Sur__  Surname, 
- * __+Sem/Patr__  Patronym, 
- * __+Sem/Plc__  Place name, 
- * __+Sem/Org__  name of organization, 
+ * __+Sem/Mal__  Male,
+ * __+Sem/Fem__  Female,
+ * __+Sem/Sur__  Surname,
+ * __+Sem/Patr__  Patronym,
+ * __+Sem/Plc__  Place name,
+ * __+Sem/Org__  name of organization,
  * __+Sem/Obj__  objects (things, that is)
- * __+Sem/Ani__  name of animal, 
- * __+Sem/Rvr__  name of river or water way, media of transportation,  
- * __+Sem/Anim__  Animate, 
- * __+Sem/Inanim__  Inanimate, 
- * __+Sem/Hum__  Human, 
- * __+Sem/NonHum__  Nonhuman, 
- * __+Sem/Kin__  Kinship term (reflected in special PxSg2 forms), 
- * __+Sem/Divinity__  Divinity (god personified), 
- * __+Sem/Constellation__  Constellation, 
- * __+Sem/Plant 	__  Plant, 
- * __+Sem/Group 	__  Group, 
+ * __+Sem/Ani__  name of animal,
+ * __+Sem/Rvr__  name of river or water way, media of transportation,
+ * __+Sem/Anim__  Animate,
+ * __+Sem/Inanim__  Inanimate,
+ * __+Sem/Hum__  Human,
+ * __+Sem/NonHum__  Nonhuman,
+ * __+Sem/Kin__  Kinship term (reflected in special PxSg2 forms),
+ * __+Sem/Divinity__  Divinity (god personified),
+ * __+Sem/Constellation__  Constellation,
+ * __+Sem/Plant 	__  Plant,
+ * __+Sem/Group 	__  Group,
  * __+Sem/Body 	__ Body.
- * __+Sem/Build 	__  Building, 
- * __+Sem/Clth	__  clothing, 
- * __+Sem/Edu 	__  Education, 
- * __+Sem/Event 	__  Event, 
- * __+Sem/Measr 	__  Measure, 
- * __+Sem/Route	__  Name of a route, 
- * __+Sem/Time 	__  Time, 
- * __+Sem/Txt 	__  Name of a text, 
- * __+Sem/Veh	__  vehicle, 
- * __+Sem/Wpn	__  weapon, 
- * __+Sem/Wthr	__ Weather, 
+ * __+Sem/Build 	__  Building,
+ * __+Sem/Clth	__  clothing,
+ * __+Sem/Edu 	__  Education,
+ * __+Sem/Event 	__  Event,
+ * __+Sem/Measr 	__  Measure,
+ * __+Sem/Route	__  Name of a route,
+ * __+Sem/Time 	__  Time,
+ * __+Sem/Txt 	__  Name of a text,
+ * __+Sem/Veh	__  vehicle,
+ * __+Sem/Wpn	__  weapon,
+ * __+Sem/Wthr	__ Weather,
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
- * __+V→N__ 
- * __+V→V__ 
+ * __+V→N__
+ * __+V→V__
  * __+V→A__
  * __+Der/xxx	__
  * __+Der/A	__ for example present participle to adjective
- * __+Der/VN__ 
+ * __+Der/VN__
 
 !!!Morphophonology
 
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
- * {aä} back/front a 
- * {oö} back/front o 
+ * {aä} back/front a
+ * {oö} back/front o
  *  {uü}  back/front u
 *  {uü}  for consonant lengthening
 
 And following triggers to control variation
- * {front} = front vowels 
+ * {front} = front vowels
  * {back} = back vowels
  * __%^Tense__ = Tense stem will have stød if proper stem type
  * __%^ConsL__ = Consonant lengthening
@@ -247,7 +247,7 @@ accompanied by coda consonant lengthening
  * __%^VowsShI1__ =
  * __%^DiphthSh1__ =
  * __%^VowsLI1__ = Vowel lengthening
- * __%^VowsLU1__ = 
+ * __%^VowsLU1__ =
  * __%^VowsL1__ =
  * __%^LongV2Õin2__ = long vowel to õ in second syllable
  * __%^Vow2Iin2__ = vowel to i or ī in second syllable
@@ -258,18 +258,18 @@ accompanied by coda consonant lengthening
  * __%^RVows__ = Vowel raising
  * __%^VowsMetath__ = vowel metathesis in verbs
  * __%^VowsMRM__ Vow in middle ētam:eitmõd
- * __%^VowsRM	__ = 
- * __%^ConsRM	__ = 
+ * __%^VowsRM	__ =
+ * __%^ConsRM	__ =
  * __%^StodRM__ = for removing Stød
- * __%^PalatalizeLeft__ = 
+ * __%^PalatalizeLeft__ =
  * __%^VowsL1aToǭ__ = a >> ǭ
 
 We have manually optimised the structure of our lexicon using the following
 flag diacritics to restrict morhpological combinatorics:
 
- * __@P.NeedNoun.ON@__ 
- * __@D.NeedNoun.ON@__ 
- * __@C.NeedNoun@__ 
+ * __@P.NeedNoun.ON@__
+ * __@D.NeedNoun.ON@__
+ * __@C.NeedNoun@__
 
 
 !!Root lexicon
@@ -277,35 +277,35 @@ flag diacritics to restrict morhpological combinatorics:
 The word forms in Livonian start from the lexeme roots of basic
 word classes
 
- * __adjectives ;	__ 
- * __adpositions ;	__ 
- * __adverbs ;		__ 
- * __conjunctors	;	__ 
- * __interjections ;	__ 
- * __nouns ;		__ 
- * __particles ;	__ 
- * __pronouns ;	__ 
- * __propernouns ;	__ 
- * __quantifiers ;	__ 
- * __verbs ;		__ 
- * __Abbreviation	;	__ 
- * __Acronym		;	__ 
- * __Punctuation		;__ 
- * __EXCEPTIONS		;__ 
+ * __adjectives ;	__
+ * __adpositions ;	__
+ * __adverbs ;		__
+ * __conjunctors	;	__
+ * __interjections ;	__
+ * __nouns ;		__
+ * __particles ;	__
+ * __pronouns ;	__
+ * __propernouns ;	__
+ * __quantifiers ;	__
+ * __verbs ;		__
+ * __Abbreviation	;	__
+ * __Acronym		;	__
+ * __Punctuation		;__
+ * __EXCEPTIONS		;__
  * __A_NEWWORDS ;__ This is for feeding new adjectives
  * __N_NEWWORDS ;__ This is for feeding new nouns
 
-Lexica for words that are not inflected 
+Lexica for words that are not inflected
 
 These are but here for the time being
 
 adverb lexicon
 
- * LEXICON ADV_KĒRATÕKS 
+ * LEXICON ADV_KĒRATÕKS
 
- * LEXICON ADV_KǬRAND 
+ * LEXICON ADV_KǬRAND
 
- * LEXICON ADV_IRM 
+ * LEXICON ADV_IRM
 
 Interjections lexicon
 
