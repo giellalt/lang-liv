@@ -85,10 +85,13 @@ LEXICON N_PǞVA-PL !!≈ * __@CODE@__ pǟva:pǟva 24
 LEXICON N_IZĀ !!≈ * __@CODE@__ izā:izā 25
 +N:	NMN_IZĀ	;
 
-LEXICON N_AŽĀ !!≈ * __@CODE@__ ažā:ažā 26
-+N:	NMN_AŽĀ	;
+LEXICON N_AŽĀ !!≈ * __@CODE@__ ažā:aʼžā 26
+	N_AŽĀ-SG	;
+	N_AŽĀ-PL	;
 
-LEXICON N_AŽĀ-PL !!≈ * __@CODE@__ ažā:ažā 26
+LEXICON N_AŽĀ-SG !!≈ * __@CODE@__ ažā:aʼžā 26
++N:     NMN_AŽĀ-SG   ;
+LEXICON N_AŽĀ-PL !!≈ * __@CODE@__ ažā:aʼžā 26
 +N:     NMN_AŽĀ-PL   ;
 
 LEXICON N_ĀĻDŽA !!≈ * __@CODE@__ āļdža:āļdža 27
@@ -849,16 +852,22 @@ LEXICON N_TŪĻI !!≈ * __@CODE@__ : 199
 LEXICON N_TŪĻI-PL !!≈ * __@CODE@__ : 199
 +N:	NMN_TŪĻI-PL   ;
 
-LEXICON N_AʼBLI !!≈ * __@CODE@__ aʼbli:abli 200
+LEXICON N_AʼBLI !!≈ * __@CODE@__ aʼbli:aʼbli 200
 !! ~567
- NMN_AʼBLI ;
+ N_AʼBLI-SG ;
+ N_AʼBLI-PL ;
 
-LEXICON N_AʼBLI-PL !!≈ * __@CODE@__ aʼbli:abli 200
- NMN_AʼBLI-PL ;
+LEXICON N_AʼBLI-SG !!≈ * __@CODE@__ aʼbli:aʼbli 200
++N: NMN_AʼBLI-SG ;
+LEXICON N_AʼBLI-PL !!≈ * __@CODE@__ aʼbli:aʼbli 200
++N: NMN_AʼBLI-PL ;
 
 LEXICON N_SĒMI !!≈ * __@CODE@__ : 201
-+N:	NMN_SĒMI	;
+	N_SĒMI-SG	;
+	N_SĒMI-PL	;
 
+LEXICON N_SĒMI-SG !!≈ * __@CODE@__ : 201
++N:     NMN_SĒMI-SG   ;
 LEXICON N_SĒMI-PL !!≈ * __@CODE@__ : 201
 +N:     NMN_SĒMI-PL   ;
 
@@ -981,9 +990,12 @@ LEXICON N_DULLÕNZ-PL !!≈ * __@CODE@__ dullõnz:dullõn 227
 +N:	NMN_DULLÕNZ-PL	  ;
 
 LEXICON N_AʼBBÕNZ !!≈ * __@CODE@__ aʼbbõnz:aʼbbõn 228
-	N_UMĀRZ	;
+	N_AʼBBÕNZ-SG	;
+	N_AʼBBÕNZ-PL	;
+LEXICON N_AʼBBÕNZ-SG !!≈ * __@CODE@__ aʼbbõnz:aʼbbõn 228
++N:	NMN_AʼBBÕNZ-SG       ;
 LEXICON N_AʼBBÕNZ-PL !!≈ * __@CODE@__ aʼbbõnz:aʼbbõn 228
-	N_UMĀRZ-PL       ;
++N:	NMN_AʼBBÕNZ-PL       ;
 
 LEXICON N_AŅGÕRZ !!≈ * __@CODE@__ : aņgõrz:aņgõr 229
 +N:	NMN_AŅGÕRZ  ;
@@ -1368,16 +1380,15 @@ LEXICON NMN_AŽĀ-SG
 :%^StodRM        SG-GEN ;
 :%^Stress2to1    SG-ILL_ZERO ;
 ! SG-INE ;
-:%^StodRM        SG-INS_õks ;
+:%^StodRM        SG-INS_ks ;
 :%^StodRM        SG-NOM  ;
 :%^Stress2to1    SG-PAR_ZERO ;
 
 LEXICON NMN_AŽĀ-PL
-:%^StodRM        PL-INS_DKÕKS-STEM ;
-:%^Stress2to1%^VowsRM        PL-ELA/INE_šti ;
-:%^Stress2to1%^VowsRM        PL-ILL_ži ;
-!       PL-INE ;
-:%^Stress2to1%^VowsRM        PL-PAR_ḑi ;
+:%^StodRM        PL-INS_DÕKS-STEM ;
+:%^StodRM        PL-ELA/INE_Ist ;
+:%^StodRM        PL-ILL_Iz ;
+:%^StodRM%^VowsRM        PL-PAR_ḑi ;
 
 LEXICON NMN_ĀĻDŽA !!≈ * __@CODE@__ āļdža:āļdža 27
 	NMN_ĀĻDŽA-SG ;
@@ -1558,7 +1569,6 @@ LEXICON NMN_KǞNGA-SG !!≈ * __@CODE@__ kǟnga:kǟnga 35
 :        SG-INS_ks ;
 :        SG-NOM  ;
 :%^VowShIn1%^A2ÕIn2    SG-PAR_ZERO ;
-:%^A2ÕIn2    SG-PAR_ZERO ;
 
 LEXICON NMN_KǞNGA-PL !!≈ * __@CODE@__ kǟnga:kǟnga 35
 :        PL-INS_DÕKS-STEM ;
@@ -4538,12 +4548,16 @@ LEXICON NMN_TŪĻI-PL
 :ž 	PL-ILL_iz ;
 :ž 	PL-PAR_i ;
 !!
-LEXICON NMN_AʼBLI !!≈ * __@CODE@__ aʼbli:abli 200
+LEXICON NMN_AʼBLI !!≈ * __@CODE@__ aʼbli:aʼbli 200
 !! __567__
 !! * Yaml: __aainagi__
-	NMN_TŪĻI   ;
+	NMN_AʼBLI-SG   ;
+	NMN_AʼBLI-PL   ;
 
-LEXICON NMN_AʼBLI-PL !!≈ * __@CODE@__ aʼbli:abli 200
+LEXICON NMN_AʼBLI-SG !!≈ * __@CODE@__ aʼbli:aʼbli 200
+	NMN_TŪĻI-SG  ;
+
+LEXICON NMN_AʼBLI-PL !!≈ * __@CODE@__ aʼbli:aʼbli 200
 	NMN_TŪĻI-PL  ;
 
 LEXICON NMN_SĒMI !!≈ * __@CODE@__ : 201
