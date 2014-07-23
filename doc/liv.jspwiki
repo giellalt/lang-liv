@@ -600,9 +600,10 @@ Stem lexica
 
  * __LEXICON N_IZĀ__ izā:izā 25
 
- * __LEXICON N_AŽĀ__ ažā:ažā 26
+ * __LEXICON N_AŽĀ__ ažā:aʼžā 26
 
- * __LEXICON N_AŽĀ-PL__ ažā:ažā 26
+ * __LEXICON N_AŽĀ-SG__ ažā:aʼžā 26
+ * __LEXICON N_AŽĀ-PL__ ažā:aʼžā 26
 
  * __LEXICON N_ĀĻDŽA__ āļdža:āļdža 27
 
@@ -1062,13 +1063,15 @@ __jõugõ:jõugõ__
 ~422
  * __LEXICON N_TŪĻI-PL__ : 199
 
- * __LEXICON N_AʼBLI__ aʼbli:abli 200
+ * __LEXICON N_AʼBLI__ aʼbli:aʼbli 200
 ~567
 
- * __LEXICON N_AʼBLI-PL__ aʼbli:abli 200
+ * __LEXICON N_AʼBLI-SG__ aʼbli:aʼbli 200
+ * __LEXICON N_AʼBLI-PL__ aʼbli:aʼbli 200
 
  * __LEXICON N_SĒMI__ : 201
 
+ * __LEXICON N_SĒMI-SG__ : 201
  * __LEXICON N_SĒMI-PL__ : 201
 
  * __LEXICON N_LĒʼMI__ lēʼmi:lēʼmi 202
@@ -1143,6 +1146,7 @@ __jõugõ:jõugõ__
  * __LEXICON N_DULLÕNZ-PL__ dullõnz:dullõn 227
 
  * __LEXICON N_AʼBBÕNZ__ aʼbbõnz:aʼbbõn 228
+ * __LEXICON N_AʼBBÕNZ-SG__ aʼbbõnz:aʼbbõn 228
  * __LEXICON N_AʼBBÕNZ-PL__ aʼbbõnz:aʼbbõn 228
 
  * __LEXICON N_AŅGÕRZ__ : aņgõrz:aņgõr 229
@@ -2144,11 +2148,13 @@ __16__
 199
 
 
- * __LEXICON NMN_AʼBLI__ aʼbli:abli 200
+ * __LEXICON NMN_AʼBLI__ aʼbli:aʼbli 200
 __567__
 * Yaml: __aainagi__
 
- * __LEXICON NMN_AʼBLI-PL__ aʼbli:abli 200
+ * __LEXICON NMN_AʼBLI-SG__ aʼbli:aʼbli 200
+
+ * __LEXICON NMN_AʼBLI-PL__ aʼbli:aʼbli 200
 
  * __LEXICON NMN_SĒMI__ : 201
 * Yaml: __A-ooqgi__
