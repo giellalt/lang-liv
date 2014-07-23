@@ -769,8 +769,11 @@ LEXICON N_VȬRÕZ-SG !!≈ * __@CODE@__ vȭrõz:vȭrõ 180
 LEXICON N_VȬRÕZ-PL !!≈ * __@CODE@__ vȭrõz:vȭrõ 180
 +N:     NMN_VȬRÕZ-PL   ;
 
-LEXICON N_ARĀGÕZ !!≈ * __@CODE@__ : 181
-+N:	NMN_ARĀGÕZ	;
+LEXICON N_ARĀGÕZ !!≈ * __@CODE@__ : 181 arāgõz:arāgõ
+	N_ARĀGÕZ-SG	;
+	N_ARĀGÕZ-PL	;
+LEXICON N_ARĀGÕZ-SG !!≈ * __@CODE@__ : 181
++N:     NMN_ARĀGÕZ-SG   ;
 LEXICON N_ARĀGÕZ-PL !!≈ * __@CODE@__ : 181
 +N:     NMN_ARĀGÕZ-PL   ;
 
@@ -1388,7 +1391,7 @@ LEXICON NMN_AŽĀ-PL
 :%^StodRM        PL-INS_DÕKS-STEM ;
 :%^StodRM        PL-ELA/INE_Ist ;
 :%^StodRM        PL-ILL_Iz ;
-:%^StodRM%^VowsRM        PL-PAR_ḑi ;
+:%^VowsRM        PL-PAR_ḑi ;
 
 LEXICON NMN_ĀĻDŽA !!≈ * __@CODE@__ āļdža:āļdža 27
 	NMN_ĀĻDŽA-SG ;
