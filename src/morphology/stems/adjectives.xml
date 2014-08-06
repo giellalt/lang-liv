@@ -2880,7 +2880,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="A">helpful</t>
+            <t pos="A">YY</t>
          </tg>
          <tg xml:lang="est">
             <t pos="A">abivalmis</t>
@@ -12932,6 +12932,30 @@
          </tg>
          <tg xml:lang="lav">
             <t pos="A">trejāds</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">kūolõn</l>
+         <stg>
+            <st Contlex="A_APPÕN">kūolõn</st>
+         </stg>
+         <stress>kūolõn 2</stress>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="A">dead</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="A">surnud</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">kuollut</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="A">miris</t>
          </tg>
       </mg>
    </e>
@@ -27040,6 +27064,30 @@
    </e>
    <e>
       <lg>
+         <l pos="A">sīedõb</l>
+         <stg>
+            <st Contlex="A_KǬRAND">sīedõb</st>
+         </stg>
+         <stress>sīedõb 2</stress>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="A">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="A">söödav</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">syötävä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="A">ēdams</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l pos="A">siegābõn</l>
          <stg>
             <st Contlex="A_KĪNDÕR">siegābõn</st>
@@ -27659,7 +27707,7 @@
             <t pos="A">sininen</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="A">▫ zils</t>
+            <t pos="A">zils</t>
          </tg>
       </mg>
       <mg>
@@ -32079,7 +32127,7 @@
       <lg>
          <l pos="A">ūž</l>
          <stg>
-            <st Contlex="A_ŪŽ">ūd</st>
+            <st Contlex="A_ŪŽ">ūž</st>
          </stg>
          <stress>ūž</stress>
       </lg>
