@@ -215,8 +215,13 @@ LEXICON N_ŪŠKA !!≈ * __@CODE@__ ūška:ūška 47
 LEXICON N_MȬKA !!≈ * __@CODE@__ mȭka:mȭka 48
 +N:	NMN_MȬKA	;
 
-LEXICON N_DADŽĀ !!≈ * __@CODE@__ dadžā:dadžā 49
-+N:	NMN_DADŽĀ	;
+LEXICON N_DADŽĀ !!≈ * __@CODE@__ dadžā:daʼdžā 49
+	N_DADŽĀ-SG	;
+	N_DADŽĀ-PL	;
+LEXICON N_DADŽĀ-SG !!≈ * __@CODE@__ dadžā:daʼdžā 49
++N:	NMN_DADŽĀ-SG	;
+LEXICON N_DADŽĀ-PL !!≈ * __@CODE@__ dadžā:daʼdžā 49
++N:	NMN_DADŽĀ-PL	;
 
 LEXICON N_SUŠĀ !!≈ * __@CODE@__ sušā:sušā 50
 +N:	NMN_SUŠĀ	;
@@ -565,8 +570,14 @@ LEXICON N_VIĻȚ-PL !!≈ * __@CODE@__ : 132
 LEXICON N_EĻ !!≈ * __@CODE@__ : 133
 +N:	NMN_EĻ	;
 
-LEXICON N_BLĒʼḐ !!≈ * __@CODE@__ blēʼḑ:blēḑ 134
-+N:	NMN_BLĒʼḐ	;
+LEXICON N_BLĒʼḐ !!≈ * __@CODE@__ blēʼḑ:blēʼḑ 134
+	NMN_BLĒʼḐ-SG	;
+	NMN_BLĒʼḐ-PL	;
+
+LEXICON N_BLĒʼḐ-SG !!≈ * __@CODE@__ blēʼḑ:blēʼḑ 134
++N:	NMN_BLĒʼḐ-SG	;
+LEXICON N_BLĒʼḐ-PL !!≈ * __@CODE@__ blēʼḑ:blēʼḑ 134
++N:	NMN_BLĒʼḐ-PL	;
 
 LEXICON N_FAKT !!≈ * __@CODE@__ : 135
 +N:	NMN_FAKT	;
@@ -979,8 +990,13 @@ LEXICON N_SŪR !!≈ * __@CODE@__ : 222
 LEXICON N_SĒR !!≈ * __@CODE@__ : 223
 +N:	NMN_SĒR	;
 
-LEXICON N_BIRKOV !!≈ * __@CODE@__ : 224
-+N:	NMN_BIRKOV	;
+LEXICON N_BIRKOV !!≈ * __@CODE@__ : 224 birkov:birkov
+ N_BIRKOV-SG	 ;
+ N_BIRKOV-PL	 ;
+LEXICON N_BIRKOV-SG !!≈ * __@CODE@__ : 224	birkov:birkov
++N:	NMN_BIRKOV-SG	;
+LEXICON N_BIRKOV-PL !!≈ * __@CODE@__ : 224	birkov:birkov
++N:	NMN_BIRKOV-PL	;
 
 LEXICON N_SALĀJ !!≈ * __@CODE@__ : 225
 +N:	NMN_SALĀJ	;
@@ -1839,10 +1855,10 @@ LEXICON NMN_MȬKA-PL !!≈ * __@CODE@__ mȭka:mȭka 48
 :%^Vow2Iin2        PL-ILL_ž ;
 :%^Vow2Iin2        PL-PAR_di ;
 
-LEXICON NMN_DADŽĀ !!≈ * __@CODE@__ dadžā:dadžā 49
+LEXICON NMN_DADŽĀ !!≈ * __@CODE@__ dadžā:daʼdžā 49
 	NMN_DADŽĀ-SG ;
 	NMN_DADŽĀ-PL ;
-LEXICON NMN_DADŽĀ-SG !!≈ * __@CODE@__ dadžā:dadžā 49
+LEXICON NMN_DADŽĀ-SG !!≈ * __@CODE@__ dadžā:daʼdžā 49
 :%^StodRM        SG-DAT_n ;
 :%^StodRM        SG-ELA/INE_st ;
 :%^StodRM        SG-GEN ;
@@ -1852,11 +1868,11 @@ LEXICON NMN_DADŽĀ-SG !!≈ * __@CODE@__ dadžā:dadžā 49
 :%^StodRM        SG-NOM  ;
 :%^Stress1to2%^VowsRM    SG-PAR_õ ;
 
-LEXICON NMN_DADŽĀ-PL !!≈ * __@CODE@__ dadžā:dadžā 49
+LEXICON NMN_DADŽĀ-PL !!≈ * __@CODE@__ dadžā:daʼdžā 49
 :%^StodRM        PL-INS_DÕKS-STEM ;
-:%^Vow2Iin2        PL-ELA/INE_st ;
-:%^Vow2Iin2        PL-ILL_ž ;
-:%^Vow2Iin2        PL-PAR_di ;
+:%^StodRM%^Vow2Iin2        PL-ELA/INE_st ;
+:%^StodRM%^Vow2Iin2        PL-ILL_z ;
+:%^StodRM%^Vow2Iin2        PL-PAR_di ;
 
 LEXICON NMN_SUŠĀ !!≈ * __@CODE@__ sušā:sušā 50
 	NMN_SUŠĀ-SG ;
@@ -3434,19 +3450,19 @@ LEXICON NMN_EĻ-PL !!≈ * __@CODE@__ : 133
         PL-ILL_iž ;
         PL-PAR_idi ;
 
-LEXICON NMN_BLĒʼḐ !!≈ * __@CODE@__ blēʼḑ:blēḑ 134
+LEXICON NMN_BLĒʼḐ !!≈ * __@CODE@__ blēʼḑ:blēʼḑ 134
 	NMN_BLĒʼḐ-SG	;
 	NMN_BLĒʼḐ-PL	;
-LEXICON NMN_BLĒʼḐ-SG !!≈ * __@CODE@__ blēʼḑ:blēḑ 134
+LEXICON NMN_BLĒʼḐ-SG !!≈ * __@CODE@__ blēʼḑ:blēʼḑ 134
         SG-DAT_õn ;
-        SG-ELA/INE_st ;
+        SG-ELA/INE_štõ ;
         SG-GEN ;
         SG-ILL_õ ;
         SG-INS_õks ;
         SG-NOM  ;
         SG-PAR_õ ;
 
-LEXICON NMN_BLĒʼḐ-PL !!≈ * __@CODE@__ blēʼḑ:blēḑ 134
+LEXICON NMN_BLĒʼḐ-PL !!≈ * __@CODE@__ blēʼḑ:blēʼḑ 134
         PL-INS_ÕDÕKS-STEM ;
         PL-ELA/INE_ist ;
         PL-ILL_iž ;
@@ -4969,7 +4985,7 @@ LEXICON NMN_SĒR-PL !!≈ * __@CODE@__ : 223
 :     PL-PAR_i   ;
 
 
-LEXICON NMN_BIRKOV !!≈ * __@CODE@__ : 224
+LEXICON NMN_BIRKOV !!≈ * __@CODE@__ : 224 birkov:birkov
 	NMN_BIRKOV-SG	;
 	NMN_BIRKOV-PL	;
 LEXICON NMN_BIRKOV-SG !!≈ * __@CODE@__ : 224
