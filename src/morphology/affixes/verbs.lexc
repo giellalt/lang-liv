@@ -573,33 +573,39 @@ LEXICON V-01_NǞʼDÕ !!= @CODE@ 4
 :%^VowsRM	PSSPRFPRCSG    ;
 !!5
 
-LEXICON V-01_SĪEDÕ !!= @CODE@ : 7
+LEXICON V-01_SĪEDÕ !!= @CODE@ : 7 sīedõ:sīe
 !! * Yaml: __siiedw__
-:ǭd   GER_sõ   ;
-:ǭ   INF_dõ	  ;
-:ǭ   SUP-STEM_mõ	  ; 
-:ǭ   INDPRSSG1-STEM    ;
-:ǭ   INDCONNEGSG    ;
+:d   GER_sõ   ;
+   INF_dõ	  ;
+   SUP_mõ       ;
+   INDPRSPL1    ;
+   INDPRSPL2_tõ    ;
+   INDPRSPL3    ;
+   INDCONNEGPL1 ;
+   INDCONNEGPL2 ;
+   INDCONNEGPL3 ;
+   INDPRSSG1-STEM    ;
+   INDCONNEGSG    ;
 !! Prt
-:a INDPRT_i    ;
+: INDPRT_i    ;
 ! Cond
-:ǭ COND ;
+ COND ;
 !! Imprt
-:ǭ	IMPRTSG2    ;
-:ǭ	IMPRTPL1	;
-:ǭ	IMPRTPL2	;
-:ǭ	IMPRTCONNEG ;
+	IMPRTSG2    ;
+	IMPRTPL1	;
+	IMPRTPL2	;
+	IMPRTCONNEG ;
 
 !! Jus
-:ǭ JUS_gõ	;
+ JUS_gõ	;
 !! Qvo
-:ǭ QUO-STEM_ji	;
+ QUO-STEM_ji	;
 
 !! participles
-:ǭ ACTPRSPRC ;
-:ǭ ACTPRFPRC_nd ;
-:ǭ PSSPRSPRC ;
-:ǭ PSSPRFPRCSG    ;
+ ACTPRSPRC ;
+ ACTPRFPRC_nd ;
+ PSSPRSPRC ;
+ PSSPRFPRCSG    ;
 
 +ActPrfPrc:n NMN_SĪEND	   ;
 !! 8
@@ -834,9 +840,11 @@ LEXICON Persons
 
 !! Nonfinites
 LEXICON GER_s
++Ger:%>s   K ;
 +Ger+Ine:%>s   K ;
 
 LEXICON GER_sõ
++Ger:%>sõ   K ;
 +Ger+Ine:%>sõ   K ;
 
 LEXICON INF_ZERO
@@ -1113,12 +1121,12 @@ LEXICON IMPRTCONNEG
 
 !! Jussative
 LEXICON JUS_g
-+Jus+Sg:%>g             K    ;
-+Jus+Pl:%>gõd             K    ;
++Jus+Sg3:%>g             K    ;
++Jus+Pl3:%>gõd             K    ;
 
 LEXICON JUS_gõ
-+Jus+Sg:%>gõ             K    ;
-+Jus+Pl:%>gõd             K    ;
++Jus+Sg3:%>gõ             K    ;
++Jus+Pl3:%>gõd             K    ;
 
 !! Quotative
 LEXICON QUO-STEM_ji
@@ -1130,12 +1138,12 @@ LEXICON QUO-STEM_iji
 +Der/VN:imi		N_AʼBLI	;
 
 LEXICON QUO_ji
-+Quo+Sg:%>ji           K    ;
-+Quo+Pl:%>jid           K    ;
++Quo+Sg3:%>ji           K    ;
++Quo+Pl3:%>jid           K    ;
 
 LEXICON QUO_iji
-+Quo+Sg:%>iji           K    ;
-+Quo+Pl:%>ijid           K    ;
++Quo+Sg3:%>iji           K    ;
++Quo+Pl3:%>ijid           K    ;
 
 ! vim: set ft=xfst-lexc:
 
