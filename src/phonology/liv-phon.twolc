@@ -300,7 +300,10 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 
 "ā:0"
 !! __@RULENAME@__  
-ā:0 <=> # Cns* [ Vow | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 | %^ConsSh:) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+ā:0 <=> # Cns*  [Vow: | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 | %^ConsSh: |%^PalatalizeLeft:) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+!€# aʼmā%^PalatalizeLeft%^VowsRM%>ḑi
+!€# ä0m0000ḑi
+
 ! # Cns* Vow ( ʼ: | :ʼ ) [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
        # Cns* [ Vow | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ Cns: %^StodRM: %^VowsRM: %^ConsRM: ;
 !€# maʼigāz%^StodRM%^VowsRM%^ConsRM>īst
@@ -324,7 +327,7 @@ a:0 <=> # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) 
 !€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !€0 jarr0000õ
 !€# pūol0a%^Stress1to2%^ConsL%^VowsRMõ
-!€# pȯ0ll0000õ
+!€0 pȯ0ll0000õ
      _ (%^VowShIn1:) (%^PalatalizeLeft:) %^VowsRM: ; !%^Vow2Iin2: might also be good
 !€# kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi
 !€0 keņg0000i
@@ -332,6 +335,8 @@ a:0 <=> # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) 
 "õ:0"
 !! __@RULENAME@__  
 õ:0 <=>  [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 | ( %^StodRM:0 ) %^ConsSh:0 | %^VowsLI1:0 ] %^VowsRM:0 ;
+!€# kittõ%^ConsSh%^VowsRM%>dõd
+!€0 kit00000tõd
 !          Vow %> _ [ d | n | k s | s t ] ;
 
 "i:0 in first syllable"
@@ -509,6 +514,8 @@ r:ŗ <=> _ %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
 !! __@RULENAME@__  
 d:t <=>
        Vow: ( ʼ: | :ʼ ) [ s k: | d d: | t t: | k k:  | t s | n d | ŗ š t: | r t: | 0:u [ t: | d ] ] (Vow:) ( %^ConsSh:0 |%^Stress1to2:) %^VowsRM:0 ( %^ConsRM:0 ) %> _ õ d ;
+!€# kittõ%^ConsSh%^VowsRM%>dõd
+!€0 kit00000tõd
        [ ž | :z | :s | :š ] %> _ ; !! nominative plural 
        _ (%^PreI:) (%^StodRM:) %^D2T:  ;
 !€# v0eʼd%^PreI%^StodRM%^D2T
@@ -543,13 +550,15 @@ d:0 <=>
 t:0 <=>
     [ Cns:+ | Vow: 0:u ] _ Vow: ( %^Stress1to2:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
     # Cns* Vow ( ʼ: ) t _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
+!€# kittõ%^ConsSh%^VowsRM%>dõd
+!€0 kit00000tõd
 
 "k:0"
 !! __@RULENAME@__  
 k:0 <=> s _ Vow: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
        # Cns* Vow ( ʼ: ) k _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
 !€# rikkā%^ConsSh%^Vow2Iin2di
-!€# rik0ī00di
+!€0 rik0ī00di
 
 "ț:0"
 !! __@RULENAME@__  
@@ -577,5 +586,7 @@ s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 
 "a:ä palatalization"
 !! __@RULENAME@__  
-a:ä <=> # Cns*  _ ( 0: | ʼ: ) :Cns+ [%^PalatalizeLeft:0 | Vow: %^PalatalizeLeft:0 %^VowsRM:] [ # | %> ] ;
+a:ä <=> # Cns*  _ ( 0: | ʼ: ) :Cns+ [%^PalatalizeLeft:0 | Vow: %^PalatalizeLeft:0 %^VowsRM: ] [ # | %> ] ;
 
+!€# aʼmā%^PalatalizeLeft%^VowsRM%>ḑi
+!€# ä0m0000ḑi

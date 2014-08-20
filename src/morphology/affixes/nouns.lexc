@@ -139,7 +139,11 @@ LEXICON N_KǞNGA !!≈ * __@CODE@__ kǟnga:kǟnga 35
 +N:	NMN_KǞNGA	;
 
 LEXICON N_ĀINA !!≈ * __@CODE@__ āina:āina 36
-+N:	NMN_ĀINA	;
+	N_ĀINA-SG	;
+	N_ĀINA-PL	;
+
+LEXICON N_ĀINA-SG !!≈ * __@CODE@__ āina:āina 36
++N:     NMN_ĀINA-SG   ;
 
 LEXICON N_ĀINA-PL !!≈ * __@CODE@__ āina:āina 36
 +N:     NMN_ĀINA-PL   ;
@@ -163,8 +167,8 @@ LEXICON N_PADĀ-PL !!≈ * __@CODE@__ padā:padā 39
 +N:	NMN_PADĀ-PL   ;
 
 LEXICON N_SÕBRĀ !!≈ * __@CODE@__ sõbrā:sõbrā 40
-	NMN_SÕBRĀ-SG	;
-	NMN_SÕBRĀ-PL	;
+	N_SÕBRĀ-SG	;
+	N_SÕBRĀ-PL	;
 
 LEXICON N_SÕBRĀ-SG !!≈ * __@CODE@__ sõbrā:sõbrā 40
 +N:	NMN_SÕBRĀ-SG  ;
@@ -1046,15 +1050,21 @@ LEXICON N_ǬʼRÕN-PL !!≈ * __@CODE@__ ǭʼrõn:ǭrõn 236
         N_TIDĀR-PL  ;
 
 LEXICON N_KĪNDÕR !!≈ * __@CODE@__ kīndõr:kīndõr 237
-+N:        NMN_KĪNDÕR  ;
+        N_KĪNDÕR-SG  ;
+        N_KĪNDÕR-PL  ;
 
+LEXICON N_KĪNDÕR-SG !!≈ * __@CODE@__ kīndõr:kīndõr 237
++N:        NMN_KĪNDÕR-SG  ;
 LEXICON N_KĪNDÕR-PL !!≈ * __@CODE@__ kīndõr:kīndõr 237
 +N:        NMN_KĪNDÕR-PL  ;
 
-LEXICON N_BÄʼZMÕR !!≈ * __@CODE@__ bäʼzmõr:bäzmõr 238
-	N_KĪNDÕR  ;
-LEXICON N_BÄʼZMÕR-PL !!≈ * __@CODE@__ bäʼzmõr:bäzmõr 238
-	N_KĪNDÕR-PL  ;
+LEXICON N_BÄʼZMÕR !!≈ * __@CODE@__ bäʼzmõr:bäʼzmõr 238
+	N_BÄʼZMÕR-SG  ;
+	N_BÄʼZMÕR-PL  ;
+LEXICON N_BÄʼZMÕR-SG !!≈ * __@CODE@__ bäʼzmõr:bäʼzmõr 238
++N:	NMN_BÄʼZMÕR-SG  ;
+LEXICON N_BÄʼZMÕR-PL !!≈ * __@CODE@__ bäʼzmõr:bäʼzmõr 238
++N:	NMN_BÄʼZMÕR-PL  ;
 
 LEXICON N_TARĪĻ !!≈ * __@CODE@__ tarīļ:tarīļ 239
 +N:	NMN_TARĪĻ  ;
@@ -5196,11 +5206,24 @@ LEXICON NMN_KĪNDÕR-PL !!≈ * __@CODE@__ kīndõr:kīndõr 237
 :%^VowsõToi     PL-ILL_iž          ;
      PL-PAR_i           ;
 
-LEXICON NMN_BÄʼZMÕR !!≈ * __@CODE@__ bäʼzmõr:bäzmõr 238
-        NMN_KĪNDÕR  ;
+LEXICON NMN_BÄʼZMÕR
+ NMN_BÄʼZMÕR-SG ;
+ NMN_BÄʼZMÕR-PL ;
+LEXICON NMN_BÄʼZMÕR-SG !!≈ * __@CODE@__ bäʼzmõr:bäʼzmõr 238
+     SG-DAT_õn    ;
+     SG-ELA/INE_õst    ;
+     SG-GEN    ;
+     SG-ILL_õ    ;
+     SG-INS_õks    ;
+     SG-NOM    ;
+     SG-PAR_t    ;
 
-LEXICON NMN_BÄʼZMÕR-PL !!≈ * __@CODE@__ bäʼzmõr:bäzmõr 238
-        NMN_KĪNDÕR-PL  ;
+LEXICON NMN_BÄʼZMÕR-PL !!≈ * __@CODE@__ bäʼzmõr:bäʼzmõr 238
+     PL-INS_DÕKS-STEM   ;
+     PL-ELA/INE_ist         ;
+     PL-ILL_iž          ;
+     PL-PAR_i           ;
+
 
 LEXICON NMN_TARĪĻ !!≈ * __@CODE@__ tarīļ:tarīļ 239
         NMN_TARĪĻ-SG  ;
