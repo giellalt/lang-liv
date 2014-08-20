@@ -49,7 +49,8 @@ LEXICON N_KALĀ-PL  !!≈ * __@CODE@__ contains  kalā:kaʼlā 18
 +N:	NMN_KALĀ-PL    ;
 
 LEXICON N_TUBĀ !!≈ * __@CODE@__ tubā:tuʼbā 19
-+N: 	NMN_TUBĀ	;
+ 	N_TUBĀ-SG	;
+ 	N_TUBĀ-PL	;
 
 LEXICON N_TUBĀ-SG !!≈ * __@CODE@__ tubā:tuʼbā 19
 +N:	NMN_TUBĀ-SG   ;
@@ -879,8 +880,11 @@ LEXICON N_SĒMI-PL !!≈ * __@CODE@__ : 201
 +N:     NMN_SĒMI-PL   ;
 
 LEXICON N_LĒʼMI !!≈ * __@CODE@__ lēʼmi:lēʼmi 202
-+N:	NMN_LĒʼMI	;
+	N_LĒʼMI-SG	;
+	N_LĒʼMI-PL	;
 
+LEXICON N_LĒʼMI-SG	!!≈ * __@CODE@__ lēʼmi:lēʼmi 202
++N:     NMN_LĒʼMI-SG   ;
 LEXICON N_LĒʼMI-PL	!!≈ * __@CODE@__ lēʼmi:lēʼmi 202
 +N:     NMN_LĒʼMI-PL   ;
 
@@ -4591,21 +4595,20 @@ LEXICON NMN_SĒMI-PL !!≈ * __@CODE@__ : 201
 :ž      PL-ILL_iz ;
 :ž      PL-PAR_i ;
 
-LEXICON NMN_LĒʼMI !!≈ * __@CODE@__ lēʼmi:lēmi 202
+LEXICON NMN_LĒʼMI !!≈ * __@CODE@__ lēʼmi:lēʼmi 202
 !! * Yaml: __A-aqrlimi__
  NMN_LĒʼMI-SG ;
  NMN_LĒʼMI-PL ;
 
-LEXICON NMN_LĒʼMI-SG      !!≈ * __@CODE@__ lēʼmi:lēmi 202
+LEXICON NMN_LĒʼMI-SG      !!≈ * __@CODE@__ lēʼmi:lēʼmi 202
 :z        SG-DAT_õn ;
 :z              SG-ELA/INE_õst ;
 :z        SG-GEN ;
 :z      SG-ILL_õ ;
-! SG-INE ;
 :z        SG-INS_õks ;
         SG-NOM  ;
 :z      SG-PAR_t ;
-	SG-PAR_t   ;
+	SG-PAR_t   ; !!≈ * __@CODE@__ Should this work for A-aqrlimi ?
 
 LEXICON NMN_LĒʼMI-PL      !!≈ * __@CODE@__ lēʼmi:lēmi 202
 :z      PL-INS_DÕKS-STEM ;
