@@ -294,6 +294,9 @@ word classes
  * __EXCEPTIONS		;__
  * __A_NEWWORDS ;__ This is for feeding new adjectives
  * __N_NEWWORDS ;__ This is for feeding new nouns
+ * __PROP_NEWWORDS ;__ This is for feeding new propernouns
+ * __V_NEWWORDS ;__ This is for feeding new verbs
+ * __QUESTIONABLEMISC_NEWWORDS ;__ This is for feeding new words of questionable status
 
 Lexica for words that are not inflected
 
@@ -2484,7 +2487,9 @@ A trigger for z:ž will be required
 
 Verb inflection
 ---------------
-The UNDEFINED language verbs inflect in persons.
+The LIVONIAN language verbs inflect in persons.
+
+CONJUGATION TYPE MISSING
 
 CONJUGATION TYPE MISSING
 
