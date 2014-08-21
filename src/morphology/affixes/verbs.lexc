@@ -678,21 +678,31 @@ LEXICON V-01_JEʼLLÕ
 :%^Stress2to1 INF_ZERO      ;
 :%^StodRM%^ConsSh%^VowsRM%>ā SUP-STEM_m        ;
 :%^StodRM%^ConsSh%^VowsRM%>ā   INDPRSSG1-STEM    ;
-:%^ConsSh   INDCONNEGSG    ;
+:%^ConsSh%^VowsRM   INDCONNEGSG    ;
 :%^StodRM%^ConsSh%^VowsRM%>ī INDPRT_z ;
 !+Ind+Sg+ConNeg:	K    ;
 
-!+Cond+Sg3:õks	K    ;
- COND ;
+!! Cond
+:%^StodRM%^ConsSh%^VowsRM%>ā COND ;
+!! Imprt
+:%^StodRM%^ConsSh%^VowsRM%>ā        IMPRTSG2    ;
+:%^StodRM%^ConsSh%^VowsRM%>ā        IMPRTPL1        ;
+:%^StodRM%^ConsSh%^VowsRM%>ā        IMPRTPL2        ;
+:%^StodRM%^ConsSh%^VowsRM%>ā        IMPRTCONNEG ;
+       IMPRTCONNEGSG2 ;
+!! Jus
+:%^StodRM%^ConsSh%^VowsRM%>ā JUS_g ;
+!! Qvo
+:%^StodRM%^ConsSh%^VowsRM%>ā QUO-STEM_ji    ;
 
-!+Imprt+Sg2:  	K    ;
-!+Imprt+ConNeg:	K    ;
-!+Imprt+Pl2:õgid	K    ;
-!+Jus+Sg3:õg		K    ;
-!+Quo+Sg:iji		K    ;
-!+Act+PrfPrc+Sg:õn	K    ;
-:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
-+PssPrfPrc:tõd			NMN_TAPTÕD ;
+!! participles
+ ACTPRSPRC ;
+ ACTPRFPRC_n ;
+:%^ConsSh%^VowsRM PSSPRSPRC ;
+:%^ConsSh%^VowsRM PSSPRFPRCSG    ;
+
+!:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+!+PssPrfPrc:tõd			NMN_TAPTÕD ;
 
 !!
 LEXICON V-01_MÄNGÕ
@@ -902,6 +912,7 @@ LEXICON ACTPRSPRC
 +ActPrsPrc+Der/A:%>b	A_SIDĀM    ;
 
 LEXICON	ACTPRFPRC_n
+!+ActPrfPrc:%>n	K    ;
 +ActPrfPrc+Sg:%>n	K    ;
 +ActPrfPrc+Pl:%>nd	K    ;
 
@@ -917,6 +928,7 @@ LEXICON PSSPRSPRC
 
 LEXICON PSSPRFPRCSG
 +PssPrfPrc+Sg:%>dõd    K    ;
++PssPrfPrc:%>dõd	   NMN_TAPTÕD ; !! 2014-08-21
 
 !! Finites
 
@@ -1122,6 +1134,9 @@ LEXICON IMPRTPL2
 
 LEXICON IMPRTCONNEG
 +Imprt+ConNeg:      K    ;
+
+LEXICON IMPRTCONNEGSG2
++Imprt+ConNeg+Sg2:      K    ;
 
 !! Jussative
 LEXICON JUS_g
