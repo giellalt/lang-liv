@@ -303,6 +303,9 @@ LEXICON Root
    EXCEPTIONS		;  !!≈ * __@CODE@__
  A_NEWWORDS ; !!≈ * __@CODE@__ This is for feeding new adjectives
  N_NEWWORDS ; !!≈ * __@CODE@__ This is for feeding new nouns
+ PROP_NEWWORDS ; !!≈ * __@CODE@__ This is for feeding new propernouns
+ V_NEWWORDS ; !!≈ * __@CODE@__ This is for feeding new verbs
+ QUESTIONABLEMISC_NEWWORDS ; !!≈ * __@CODE@__ This is for feeding new words of questionable status
 
 !! !! Lexica for words that are not inflected
 
