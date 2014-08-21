@@ -453,13 +453,13 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 
 "Stod removal left"
 !! __@RULENAME@__  
- ʼ:0 <=  # Cns* :0* Vow _ [ CnsWithStod Cns* :0* | i g (Vow: Cns:) | o Cns ] ( Vow: | ū: Cns: ) %^StodRM:0 ; 
+ ʼ:0 <=  # Cns* :0* Vow _ [ CnsWithStod Cns:* :0* | i g (Vow: Cns:) | o Cns ] ( Vow: | ū: Cns: ) %^StodRM:0 ; 
 !€# daʼdzā%^Stress1to2%^VowsRM%>õ
 !€0 daʼdz0000õ
 
 "Stod removal right"
 !! __@RULENAME@__  
- ʼ:0 =>  # Cns* :0* Vow _ [ CnsWithStod :0* | i g (Vow: Cns:) | o Cns ] (Vow: | ū: Cns: ) %^StodRM:0 ; 
+ ʼ:0 =>  # Cns* :0* Vow _ [ CnsWithStod Cns:* :0* | i g (Vow: Cns:) | o Cns ] (Vow: | ū: Cns: ) %^StodRM:0 ; 
 ! 2013-06-26 for looser voikko stød can disappear everywhere
  _ ;
 ! Vow _ CnsWithStod: ( :CnsWithStod )  Vow: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
