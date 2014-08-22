@@ -1,5013 +1,4095 @@
-<?xml version="1.0" encoding="utf-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="liv">
-  <e>
-    <lg>
-      <l>aʼbkõks</l>
-
-      <stg>
-        <st Contlex="POSTP_">aʼbkõks</st>
-      </stg>
-
-      <stress>aʼbkõks</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">abil</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">avulla</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">ar palīdzību</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>āigal</l>
-
-      <stg>
-        <st Contlex="POSTP_">āigal</st>
-      </stg>
-
-      <stress>āigal 3</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">jooksul</t>
-        <t pos="POSTP">kestel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">aikana</t>
-        <t pos="POSTP">kuluessa</t>
-        <t pos="POSTP">kestäessä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">laikā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>aigās</l>
-
-      <stg>
-        <st Contlex="POSTP_">aigās</st>
-      </stg>
-
-      <stress>aigās</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">ääres</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">ääressä</t>
-        <t pos="POSTP">vieressä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pie malas</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>aigāst</l>
-
-      <stg>
-        <st Contlex="POSTP_">aigāst</st>
-      </stg>
-
-      <stress>aigāst</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">äärest</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">äärestä</t>
-        <t pos="POSTP">vierestä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no malas</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>aigiz</l>
-
-      <stg>
-        <st Contlex="POSTP_">aigiz</st>
-      </stg>
-
-      <stress>aigiz</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">ajal</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">aikana</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">laikā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>aʼigõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">aʼigõ</st>
-      </stg>
-
-      <stress>aʼigõ 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">äärde</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">viereen</t>
-        <t pos="POSTP">ääreen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">blakus (virziens)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>alā</l>
-
-      <stg>
-        <st Contlex="POSTP_">alā</st>
-      </stg>
-
-      <stress>alā 3</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">alla</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">alle</t>
-        <t pos="POSTP">alas</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">zem (virziens)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>aldõst</l>
-
-      <stg>
-        <st Contlex="POSTP_">aldõst</st>
-      </stg>
-
-      <stress>aldõst</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">alt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">alta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no apakšas</t>
-        <t pos="POSTP">pa apakšu</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>allõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">allõ</st>
-      </stg>
-
-      <stress>allõ 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">under</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">all</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">alla</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">zem</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>aʼlmõl</l>
-
-      <stg>
-        <st Contlex="PREP_">aʼlmõl</st>
-      </stg>
-
-      <stress>aʼlmõl 3</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">alla</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">alle</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">zem</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">allpool</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">alapuolella</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">lejpus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>aʼlmõld</l>
-
-      <stg>
-        <st Contlex="PREP_">aʼlmõld</st>
-      </stg>
-
-      <stress>aʼlmõld 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">altpoolt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">alapuolelta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">no apakšas</t>
-        <t pos="PREP">no lejas</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>arāks</l>
-
-      <stg>
-        <st Contlex="PREP_">arāks</st>
-      </stg>
-
-      <stress>arāks 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">põiki</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">poikittain</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">šķērsām</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>ārdiņ</l>
-
-      <stg>
-        <st Contlex="POSTP_">ārdiņ</st>
-      </stg>
-
-      <stress>ārdiņ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">tõttu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">takia</t>
-        <t pos="POSTP">vuoksi</t>
-        <t pos="POSTP">tähden</t>
-        <t pos="POSTP">johdosta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">dēļ</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>aʼzmõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">aʼzmõ</st>
-      </stg>
-
-      <stress>aʼzmõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">asemele</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">tilalle</t>
-        <t pos="POSTP">sijaan</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">vietā (virziens)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>aʼzmõl</l>
-
-      <stg>
-        <st Contlex="POSTP_">aʼzmõl</st>
-      </stg>
-
-      <stress>aʼzmõl</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">asemel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">sijalla</t>
-        <t pos="POSTP">tilalla</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">vietā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>äʼb-</l>
-
-      <stg>
-        <st Contlex="PREP_">äʼb-</st>
-      </stg>
-
-      <stress>äʼb-</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">eba-</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">epä-</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">ne-</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>äts</l>
-
-      <stg>
-        <st Contlex="PREP_">äts</st>
-      </stg>
-
-      <stress>äts</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">ükskõik</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">samantekevää</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">kaut</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>bäs</l>
-
-      <stg>
-        <st Contlex="PREP_">bäs</st>
-      </stg>
-
-      <stress>bäs</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>&gt; ilmõ</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">ilma</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">ilman</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">bez</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>īlma</l>
-
-      <stg>
-        <st Contlex="PREP_">īlma</st>
-      </stg>
-
-      <stress>īlma 3</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>= ilmõ 1 (a)</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">ilma</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">ilman</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">bez</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>ilmõ</l>
-
-      <stg>
-        <st Contlex="PREP_">ilmõ</st>
-      </stg>
-
-      <stress>ilmõ 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">ilma</t>
-        <t pos="PREP">ilmaasjata</t>
-        <t pos="PREP">ilmaaegu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">aiheetta</t>
-        <t pos="PREP">syyttä</t>
-        <t pos="PREP">turhaan</t>
-        <t pos="PREP">suotta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">velti</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>iʼlmõl</l>
-
-      <stg>
-        <st Contlex="PREP_">iʼlmõl</st>
-      </stg>
-
-      <stress>iʼlmõl 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">ülemalpool</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">ylempänä</t>
-        <t pos="PREP">yläpuolellä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">virs</t>
-        <t pos="PREP">augstāk</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>iʼļ</l>
-
-      <stg>
-        <st Contlex="PREP_">iʼļ</st>
-      </stg>
-
-      <stress>iʼļ 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">about</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">kohta</t>
-        <t pos="PREP">pärast</t>
-        <t pos="PREP">üle</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t>-sta</t>
-        <t>-stä</t>
-        <t>suhteen</t>
-        <t>nähden</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">par</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">mööda</t>
-        <t pos="PREP">vastu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">-lle</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pa</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">over</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">üle</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">ylitse</t>
-        <t pos="PREP">yli</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pāri</t>
-        <t pos="PREP">pār</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>immõr</l>
-
-      <stg>
-        <st Contlex="PREP_">immõr</st>
-      </stg>
-
-      <stress>immõr 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">ümber</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">ympäri</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">ap (virziens)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>immõr</l>
-
-      <stg>
-        <st Contlex="POSTP_">immõr</st>
-      </stg>
-
-      <stress>immõr 3</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">ümber</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">ympärille</t>
-        <t pos="PREP">ympärillä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">ap</t>
-        <t pos="POSTP">apkārt</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">ringis</t>
-        <t pos="POSTP">paiku</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">paikkeilla</t>
-        <t pos="POSTP">tienoilla</t>
-        <t pos="POSTP">maissa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">ap</t>
-        <t pos="POSTP">aptuveni</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jagūks</l>
-
-      <stg>
-        <st Contlex="POSTP_">jagūks</st>
-      </stg>
-
-      <stress>jagūks</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">jaoks</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">varten</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">labad</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jeʼddõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">jeʼddõ</st>
-      </stg>
-
-      <stress>jeʼddõ 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">ette</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">eteen</t>
-        <t pos="POSTP">edelle</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">priekšā (virziens)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jeʼdmõl</l>
-
-      <stg>
-        <st Contlex="PREP_">jeʼdmõl</st>
-      </stg>
-
-      <stress>jeʼdmõl 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">enne</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">ennen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pirms</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jeʼds</l>
-
-      <stg>
-        <st Contlex="PREP_">jeʼds</st>
-      </stg>
-
-      <stress>jeʼds 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">enne</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">ennen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pirms</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jeʼds</l>
-
-      <stg>
-        <st Contlex="POSTP_">jeʼds</st>
-      </stg>
-
-      <stress>jeʼds 3</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">ees</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">edessä</t>
-        <t pos="POSTP">edellä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">priekšā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jeʼdsõ</l>
-
-      <stg>
-        <st Contlex="PREP_">jeʼdsõ</st>
-      </stg>
-
-      <stress>jeʼdsõ 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">enne</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">ennen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pirms</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jeʼdstõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">jeʼdstõ</st>
-      </stg>
-
-      <stress>jeʼdstõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">eest</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">edestä</t>
-        <t pos="POSTP">edeltä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no priekšas</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">eest</t>
-        <t pos="POSTP">asemel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">puolesta</t>
-        <t pos="POSTP">edestä</t>
-        <t pos="POSTP">sijasta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">par</t>
-        <t pos="POSTP">vietā</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">meelest</t>
-        <t pos="POSTP">järgi</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">mielestä</t>
-        <t pos="POSTP">mukaan</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pēc</t>
-        <t pos="POSTP">-prāt</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jo</l>
-
-      <stg>
-        <st Contlex="PREP_">jo</st>
-      </stg>
-
-      <stress>jo</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">enam (eessõna keskvõrde moodustamiseks)</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">enemmän (prepositio komparatiivin muodostamiseksi)</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">vairāk (prievārds pārākās pakāpes veidošanai)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jūʼrõ</l>
-
-      <stg>
-        <st Contlex="PREP_">jūʼrõ</st>
-      </stg>
-
-      <stress>jūʼrõ 3</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">juurde</t>
-        <t pos="PREP">lisaks</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">lisää</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">klāt</t>
-        <t pos="PREP">pie</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jūʼrõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">jūʼrõ</st>
-      </stg>
-
-      <stress>jūʼrõ 4</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ jūʼr</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">juurde</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">luokse</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pie</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jūsõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">jūsõ</st>
-      </stg>
-
-      <stress>jūsõ 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ jūs</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">juures</t>
-        <t pos="POSTP">kallal</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">luona</t>
-        <t pos="POSTP">parissa</t>
-        <t pos="POSTP">ääressä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pie</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>jūstõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">jūstõ</st>
-      </stg>
-
-      <stress>jūstõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ jūst</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">juurest</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">luota</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>käʼddõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">käʼddõ</st>
-      </stg>
-
-      <stress>käʼddõ 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kätte</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">käsiin</t>
-        <t pos="POSTP">valtaan</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">rokās (virziens)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>käʼdkouți</l>
-
-      <stg>
-        <st Contlex="POSTP_">käʼd#kouți</st>
-      </stg>
-
-      <stress>käʼd|kouți 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kaudu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">kautta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">caur</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>käʼds</l>
-
-      <stg>
-        <st Contlex="POSTP_">käʼds</st>
-      </stg>
-
-      <stress>käʼds 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ käʼdsõ</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">käes</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">käsissä</t>
-        <t pos="POSTP">vallassa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">rokās</t>
-        <t pos="POSTP">pie</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>käʼdst</l>
-
-      <stg>
-        <st Contlex="POSTP_">käʼdst</st>
-      </stg>
-
-      <stress>käʼdst</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ käʼdstõ</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">käest</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">kädestä</t>
-        <t pos="POSTP">käsistä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no rokas</t>
-        <t pos="POSTP">no rokām</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kilgõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">kilgõ</st>
-      </stg>
-
-      <stress>kilgõ 4</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kõrvale</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">viereen</t>
-        <t pos="POSTP">vierelle</t>
-        <t pos="POSTP">rinnalle</t>
-        <t pos="POSTP">äärelle</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">blakus</t>
-        <t pos="POSTP">pie</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kilgsõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">kilgsõ</st>
-      </stg>
-
-      <stress>kilgsõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">küljes</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">kiinni</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pie</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kõrval</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">vieressä</t>
-        <t pos="POSTP">vierellä</t>
-        <t pos="POSTP">rinnalla</t>
-        <t pos="POSTP">äärellä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">blakus</t>
-        <t pos="POSTP">līdzās</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kilgstõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">kilgstõ</st>
-      </stg>
-
-      <stress>kilgstõ 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kõrvalt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">vierestä</t>
-        <t pos="POSTP">viereltä</t>
-        <t pos="POSTP">rinnalta</t>
-        <t pos="POSTP">ääreltä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no (vietas, kas atrodas blakus)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kīļta</l>
-
-      <stg>
-        <st Contlex="PREP_">kīļta</st>
-      </stg>
-
-      <stress>kīļta 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">külg-</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">sivu-</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">sānu-</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kouți</l>
-
-      <stg>
-        <st Contlex="POSTP_">kouți</st>
-      </stg>
-
-      <stress>kouți</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kaudu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">kautta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">caur</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">pidi</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">pitkin</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kuʼbs</l>
-
-      <stg>
-        <st Contlex="PREP_">kuʼbs</st>
-      </stg>
-
-      <stress>kuʼbs 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ kuʼbsõ</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">koos</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">kanssa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">kopā ar</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kūoral</l>
-
-      <stg>
-        <st Contlex="POSTP_">kūoral</st>
-      </stg>
-
-      <stress>kūoral</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kõrval</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">vieressä</t>
-        <t pos="POSTP">vierellä</t>
-        <t pos="POSTP">rinnalla</t>
-        <t pos="POSTP">äärellä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">blakus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kūorald</l>
-
-      <stg>
-        <st Contlex="POSTP_">kūorald</st>
-      </stg>
-
-      <stress>kūorald</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kõrvalt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">vierestä</t>
-        <t pos="POSTP">viereltä</t>
-        <t pos="POSTP">rinnalta</t>
-        <t pos="POSTP">ääreltä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no vietas, kas atrodas blakus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kūorõks</l>
-
-      <stg>
-        <st Contlex="POSTP_">kūorõks</st>
-      </stg>
-
-      <stress>kūorõks</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kõrval</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">vieressä</t>
-        <t pos="POSTP">vierellä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">blakus</t>
-        <t pos="POSTP">blakām</t>
-        <t pos="POSTP">līdzās</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kuorrõl</l>
-
-      <stg>
-        <st Contlex="POSTP_">kuorrõl</st>
-      </stg>
-
-      <stress>kuorrõl 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kõrvale</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">viereen</t>
-        <t pos="POSTP">vierelle</t>
-        <t pos="POSTP">rinnalle</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">blakus (virziens)</t>
-        <t pos="POSTP">blakām (virziens)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>kūožõl</l>
-
-      <stg>
-        <st Contlex="POSTP_">kūožõl</st>
-      </stg>
-
-      <stress>kūožõl</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kohakuti</t>
-        <t pos="POSTP">kohale</t>
-        <t pos="POSTP">kohal</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">kohdakkain</t>
-        <t pos="POSTP">kohdalla</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">iepretim</t>
-        <t pos="POSTP">blakus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>leʼb</l>
-
-      <stg>
-        <st Contlex="PREP_">leʼb</st>
-      </stg>
-
-      <stress>leʼb</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">läbi</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">läpi</t>
-        <t pos="PREP">lävitse</t>
-        <t pos="PREP">välistä</t>
-        <t pos="PREP">kautta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">caur</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>leʼbbõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">leʼbbõ</st>
-      </stg>
-
-      <stress>leʼbbõ 3</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">läbi</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">läpi</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">cauru</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>leʼžgõl</l>
-
-      <stg>
-        <st Contlex="POSTP_">leʼžgõl</st>
-      </stg>
-
-      <stress>leʼžgõl 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">ligidal</t>
-        <t pos="POSTP">lähedal</t>
-        <t pos="POSTP">läheduses</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">lähellä</t>
-        <t pos="POSTP">likellä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">tuvumā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>leʼžgõld</l>
-
-      <stg>
-        <st Contlex="POSTP_">leʼžgõld</st>
-      </stg>
-
-      <stress>leʼžgõld 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">ligidalt</t>
-        <t pos="POSTP">lähedalt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">likeltä</t>
-        <t pos="POSTP">läheltä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no tuvuma</t>
-        <t pos="POSTP">no tuvienes</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>leʼžgõlõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">leʼžgõlõ</st>
-      </stg>
-
-      <stress>leʼžgõlõ 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">ligidale</t>
-        <t pos="POSTP">lähedale</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">lähelle</t>
-        <t pos="POSTP">likelle</t>
-        <t pos="POSTP">läheisyyteen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">tuvumā (virziens)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>mǭʼzõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">mǭʼzõ</st>
-      </stg>
-
-      <stress>mǭʼzõ 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">maha</t>
-        <t pos="POSTP">alla</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">maahan</t>
-        <t pos="POSTP">alas</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">nost</t>
-        <t pos="POSTP">zemē</t>
-        <t pos="POSTP">no-</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>mūodõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">mūodõ</st>
-      </stg>
-
-      <stress>mūodõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">moodi</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">lailla</t>
-        <t pos="POSTP">tavalla</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">veidā</t>
-        <t pos="POSTP">modē</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>niʼmsõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">niʼmsõ</st>
-      </stg>
-
-      <stress>niʼmsõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">nimel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">nimissä</t>
-        <t pos="POSTP">puolesta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">vārdā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pa</l>
-
-      <stg>
-        <st Contlex="PREP_">pa</st>
-      </stg>
-
-      <stress>pa 1</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">-ks</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">-ksi</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">par</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pa</l>
-
-      <stg>
-        <st Contlex="PREP_">pa</st>
-      </stg>
-
-      <stress>pa 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">-haaval</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">kerrallaan</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pa</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-      
-      <tg xml:lang="est">
-        <t pos="ADV">liiga</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">liian</t>
-        <t pos="PREP">liiaksi</t>
-      </tg>
-      
-      <tg xml:lang="lav">
-        <t pos="ADV">par</t>
-        <t pos="ADV">pārāk</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pǟl</l>
-
-      <stg>
-        <st Contlex="POSTP_">pǟl</st>
-      </stg>
-
-      <stress>pǟl</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">on</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">peal</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päällä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">uz (vieta)</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">for</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">peale</t>
-        <t pos="POSTP">ajaks</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">ilmaisee tapahtuman kestoa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">uz (laiks)</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kallal</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">kimpussa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">virsū</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pǟldõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">pǟldõ</st>
-      </stg>
-
-      <stress>pǟldõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>= pǟldõst</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">pealt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päältä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pǟldõst</l>
-
-      <stg>
-        <st Contlex="POSTP_">pǟldõst</st>
-      </stg>
-
-      <stress>pǟldõst</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>= pǟldõ</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">pealt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päältä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pǟlõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">pǟlõ</st>
-      </stg>
-
-      <stress>pǟlõ 4</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">peale</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päälle</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">uz (virziens)</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">järele</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">perään</t>
-        <t pos="POSTP">jälkeen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pēc</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">peale</t>
-        <t pos="POSTP">alates</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">jälkeen</t>
-        <t pos="POSTP">lähtien</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pēc</t>
-        <t pos="POSTP">vēlāk</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pǟʼzõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">pǟʼzõ</st>
-      </stg>
-
-      <stress>pǟʼzõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">pähe</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">sijasta</t>
-        <t pos="POSTP">asemasta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">vietā</t>
-        <t pos="POSTP">kā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>perīņ</l>
-
-      <stg>
-        <st Contlex="PREP_">perīņ</st>
-      </stg>
-
-      <stress>perīņ 2</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">päri</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">pitkin</t>
-        <t pos="PREP">myöten</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>piʼddõzmīedõ</l>
-
-      <stg>
-        <st Contlex="PREP_">piʼddõz#mīedõ</st>
-      </stg>
-
-      <stress>piʼddõz|mīedõ</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">rööbiti</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">rinnakkaisesti</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">līdztekus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>piʼds</l>
-
-      <stg>
-        <st Contlex="PREP_">piʼds</st>
-      </stg>
-
-      <stress>piʼds</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">along</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">mööda</t>
-        <t pos="PREP">pihta</t>
-        <t pos="PREP">piki</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">pitkin</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pierāst</l>
-
-      <stg>
-        <st Contlex="POSTP_">pierāst</st>
-      </stg>
-
-      <stress>pierāst 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">pärast</t>
-        <t pos="POSTP">tõttu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">takia</t>
-        <t pos="POSTP">vuoksi</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">dēļ</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">jaoks</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">varten</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">priekš</t>
-        <t pos="POSTP">nolūkam</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>= pieʼrrõ 4</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">järgi</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">mukaan</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">atbilstoši</t>
-        <t pos="POSTP">atbilstīgi</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">päralt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">käytössä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">priekš</t>
-        <t pos="POSTP">rīcībā</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">eest</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">-sta</t>
-        <t pos="POSTP">-stä</t>
-        <t pos="POSTP">edestä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">par</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pieʼrrõ</l>
-
-      <stg>
-        <st Contlex="PREP_">pieʼrrõ</st>
-      </stg>
-
-      <stress>pieʼrrõ 3</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">pärast</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">jälkeen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pēc</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pieʼrrõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">pieʼrrõ</st>
-      </stg>
-
-      <stress>pieʼrrõ 4</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>= pierāst 2 (c)</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">järgi</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">mukaan</t>
-        <t pos="POSTP">mukaisesti</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">atbilstoši</t>
-        <t pos="POSTP">atbilstīgi</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">moodi</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">kaltainen</t>
-        <t pos="POSTP">tapainen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">līdzīgi</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">järel</t>
-        <t pos="POSTP">pärast</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">jälkeen</t>
-        <t pos="POSTP">päästä</t>
-        <t pos="POSTP">kuluttua</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pēc</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pūol</l>
-
-      <stg>
-        <st Contlex="POSTP_">pūol</st>
-      </stg>
-
-      <stress>pūol 4</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">pool</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päin</t>
-        <t pos="POSTP">puolella</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pusē</t>
-        <t pos="POSTP">malā</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">poole</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päin</t>
-        <t pos="POSTP">puoleen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">uz pusi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pūold</l>
-
-      <stg>
-        <st Contlex="POSTP_">pūold</st>
-      </stg>
-
-      <stress>pūold</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">poolt</t>
-        <t pos="POSTP">suunast</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päin</t>
-        <t pos="POSTP">puolelta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no puses</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">poolt</t>
-        <t pos="POSTP">eest</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">puolellaan</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">par</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pūolõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">pūolõ</st>
-      </stg>
-
-      <stress>pūolõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">poole</t>
-        <t pos="POSTP">juurde</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päin</t>
-        <t pos="POSTP">luokse</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">uz pusi</t>
-        <t pos="POSTP">pie</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">poole</t>
-        <t pos="POSTP">suunda</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päin</t>
-        <t pos="POSTP">suuntaan</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">uz pusi</t>
-        <t pos="POSTP">virzienā</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">poole</t>
-        <t pos="POSTP">suunas</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päin</t>
-        <t pos="POSTP">puolella</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">uz pusi</t>
-        <t pos="POSTP">pusē</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>pūolstõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">pūolstõ</st>
-      </stg>
-
-      <stress>pūolstõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">poolest</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">puolesta</t>
-        <t pos="POSTP">suhteen</t>
-        <t pos="POSTP">suhteessa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">ziņā</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">poolt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">puolelta</t>
-        <t pos="POSTP">puolesta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no puses</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">poolt</t>
-        <t pos="POSTP">eest</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">puolesta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">par</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>sidāmõl</l>
-
-      <stg>
-        <st Contlex="POSTP_">sidāmõl</st>
-      </stg>
-
-      <stress>sidāmõl 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">keskel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">keskellä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">vidū</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>sidāmõld</l>
-
-      <stg>
-        <st Contlex="POSTP_">sidāmõld</st>
-      </stg>
-
-      <stress>sidāmõld</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">keskelt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">keskeltä</t>
-        <t pos="POSTP">joukosta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no vidus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>sidāmõlõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">sidāmõlõ</st>
-      </stg>
-
-      <stress>sidāmõlõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ sidāmõl</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">keskele</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">keskelle</t>
-        <t pos="POSTP">joukkoon</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">uz vidu</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>sidāmõs</l>
-
-      <stg>
-        <st Contlex="POSTP_">sidāmõs</st>
-      </stg>
-
-      <stress>sidāmõs</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">keskel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">joukossa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">vidū</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>sidāmt</l>
-
-      <stg>
-        <st Contlex="POSTP_">sidāmt</st>
-      </stg>
-
-      <stress>sidāmt 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>~ sidāmtõ</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">keskel</t>
-        <t pos="POSTP">keskele</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">keskellä</t>
-        <t pos="POSTP">joukossa</t>
-        <t pos="POSTP">keskelle</t>
-        <t pos="POSTP">joukkoon</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">vidū</t>
-        <t pos="POSTP">starpā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>siegās</l>
-
-      <stg>
-        <st Contlex="POSTP_">siegās</st>
-      </stg>
-
-      <stress>siegās</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">seas</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">joukossa</t>
-        <t pos="POSTP">seassa</t>
-        <t pos="POSTP">keskuudessa</t>
-        <t pos="POSTP">keskellä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">starp</t>
-        <t pos="POSTP">vidū</t>
-        <t pos="POSTP">skaitā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>siegāst</l>
-
-      <stg>
-        <st Contlex="POSTP_">siegāst</st>
-      </stg>
-
-      <stress>siegāst</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">seast</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">joukosta</t>
-        <t pos="POSTP">seasta</t>
-        <t pos="POSTP">keskuudesta</t>
-        <t pos="POSTP">keskeltä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no vidus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>sieʼggõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">sieʼggõ</st>
-      </stg>
-
-      <stress>sieʼggõ 4</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">sekka</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">joukkoon</t>
-        <t pos="POSTP">sekaan</t>
-        <t pos="POSTP">keskuuteen</t>
-        <t pos="POSTP">keskelle</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">starp</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">sekka</t>
-        <t pos="POSTP">hulka</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">joukkoon</t>
-        <t pos="POSTP">pariin</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pulkā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>sizāl</l>
-
-      <stg>
-        <st Contlex="POSTP_">sizāl</st>
-      </stg>
-
-      <stress>sizāl 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">sees</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">sisässä</t>
-        <t pos="POSTP">sisällä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">iekšā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>sizāldõst</l>
-
-      <stg>
-        <st Contlex="POSTP_">sizāldõst</st>
-      </stg>
-
-      <stress>sizāldõst</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">seest</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">sisästä</t>
-        <t pos="POSTP">sisältä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no iekšpuses</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>siʼzzõl</l>
-
-      <stg>
-        <st Contlex="POSTP_">siʼzzõl</st>
-      </stg>
-
-      <stress>siʼzzõl 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">into</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">sisse</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <tCtn>
-          <t pos="POSTP">sisään</t>
-          
-          <t pos="POSTP">sisälle</t>
-
-          <re>käytetään illatiivissa</re>
-        </tCtn>
-      </tg>
-
-      <tg xml:lang="lav">
-        <tCtn>
-          <t pos="POSTP">iekšā</t>
-          
-          <t pos="POSTP">iekš</t>
-
-          <re>virziens</re>
-        </tCtn>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>sǭņõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">sǭņõ</st>
-      </stg>
-
-      <stress>sǭņõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">up to</t>
-
-        <t pos="PREP">until</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">kuni</t>
-        <t pos="POSTP">saadik</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">asti</t>
-
-        <t pos="POSTP">saakka</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">līdz</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tagā</l>
-
-      <stg>
-        <st Contlex="POSTP_">tagā</st>
-      </stg>
-
-      <stress>tagā 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">taga</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">takana</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">aiz</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tagān</l>
-
-      <stg>
-        <st Contlex="POSTP_">tagān</st>
-      </stg>
-
-      <stress>tagān 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">järele</t>
-        <t pos="POSTP">järel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">jälkeen</t>
-        <t pos="POSTP">perässä</t>
-        <t pos="POSTP">jäljessä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">aiz</t>
-        <t pos="POSTP">pēc</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">taha</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">taakse</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">aizmugurē</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tagānd</l>
-
-      <stg>
-        <st Contlex="POSTP_">tagānd</st>
-      </stg>
-
-      <stress>tagānd 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP"></t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">tagant</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">takaa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no aizmugures</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tagāndõst</l>
-
-      <stg>
-        <st Contlex="POSTP_">tagāndõst</st>
-      </stg>
-
-      <stress>tagāndõst</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>= tagānd 2</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">tagant</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">takaa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no aizmugures</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tagānõz</l>
-
-      <stg>
-        <st Contlex="POSTP_">tagānõz</st>
-      </stg>
-
-      <stress>tagānõz</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">taha</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">taakse</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">aizmugurē</t>
-        <t pos="POSTP">aiz</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tāʼgižpēḑõn</l>
-
-      <stg>
-        <st Contlex="POSTP_">tāʼgiž#pēḑõn</st>
-      </stg>
-
-      <stress>tāʼgiž|pēḑõn 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">tagasi</t>
-        <t pos="POSTP">varem</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">takaperin</t>
-        <t pos="POSTP">sitten</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pirms</t>
-        <t pos="POSTP">atpakaļ</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tuoizpūolõ</l>
-
-      <stg>
-        <st Contlex="PREP_">tuoiz#pūolõ</st>
-      </stg>
-
-      <stress>tuoiz|pūolõ</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">teisele poole</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">toiselle puolelle</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">uz otru pusi</t>
-        <t pos="PREP">otrpus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tuoizpūolsõ</l>
-
-      <stg>
-        <st Contlex="PREP_">tuoiz#pūolsõ</st>
-      </stg>
-
-      <stress>tuoiz|pūolsõ</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">teisel pool</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">toisella puolella</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">otrā pusē</t>
-        <t pos="PREP">otrpus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tuoizpūolstõ</l>
-
-      <stg>
-        <st Contlex="PREP_">tuoiz#pūolstõ</st>
-      </stg>
-
-      <stress>tuoiz|pūolstõ</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">teiselt poolt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">toiselta puolelta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">no otras puses</t>
-        <t pos="PREP">no vietas otrpus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tūolapūol</l>
-
-      <stg>
-        <st Contlex="PREP_">tūola#pūol</st>
-      </stg>
-
-      <stress>tūola|pūol</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">beyond</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">sealpool</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">tuolla puolen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">viņpus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tūolapūoldõ</l>
-
-      <stg>
-        <st Contlex="PREP_">tūola#pūoldõ</st>
-      </stg>
-
-      <stress>tūola|pūoldõ</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">sealtpoolt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">tuolta puolen</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">no turienes</t>
-        <t pos="PREP">no tās puses</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tūolapūolõ</l>
-
-      <stg>
-        <st Contlex="PREP_">tūola#pūolõ</st>
-      </stg>
-
-      <stress>tūola|pūolõ</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">sinnapoole</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">sinnepäin</t>
-        <t pos="PREP">tuonnepäin</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">turp</t>
-        <t pos="PREP">uz to pusi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>tutkāmõl</l>
-
-      <stg>
-        <st Contlex="POSTP_">tutkāmõl</st>
-      </stg>
-
-      <stress>tutkāmõl</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">otsas</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">päässä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">galā</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vaʼil</l>
-
-      <stg>
-        <st Contlex="POSTP_">vaʼil</st>
-      </stg>
-
-      <stress>vaʼil</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">vahel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">välissä</t>
-        <t pos="POSTP">välillä</t>
-        <t pos="POSTP">kesken</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">starp</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">seas</t>
-        <t pos="POSTP">keskel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">joukossa</t>
-        <t pos="POSTP">seassa</t>
-        <t pos="POSTP">keskuudessa</t>
-        <t pos="POSTP">keskellä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">vidū</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vaʼild</l>
-
-      <stg>
-        <st Contlex="POSTP_">vaʼild</st>
-      </stg>
-
-      <stress>vaʼild</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">vahelt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">välistä</t>
-        <t pos="POSTP">väliltä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no starpas</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">seast</t>
-        <t pos="POSTP">keskelt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">joukosta</t>
-        <t pos="POSTP">seasta</t>
-        <t pos="POSTP">keskuudesta</t>
-        <t pos="POSTP">keskeltä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no vidus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vaʼildõst</l>
-
-      <stg>
-        <st Contlex="POSTP_">vaʼildõst</st>
-      </stg>
-
-      <stress>vaʼildõst 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">vahelt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">välistä</t>
-        <t pos="POSTP">väliltä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no starpas</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">seast</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">seasta</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no vidus</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vaʼilõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">vaʼilõ</st>
-      </stg>
-
-      <stress>vaʼilõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">keskele</t>
-        <t pos="POSTP">vahele</t>
-        <t pos="POSTP">hulka</t>
-        <t pos="POSTP">sekka</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">keskelle</t>
-        <t pos="POSTP">joukkoon</t>
-        <t pos="POSTP">välille</t>
-        <t pos="POSTP">väliin</t>
-        <t pos="POSTP">sekaan</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">starpā (virziens)</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">keskel</t>
-        <t pos="POSTP">vahel</t>
-        <t pos="POSTP">hulgas</t>
-        <t pos="POSTP">seas</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">keskellä</t>
-        <t pos="POSTP">välissä</t>
-        <t pos="POSTP">välillä</t>
-        <t pos="POSTP">parissa</t>
-        <t pos="POSTP">joukossa</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">starp</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vaʼisõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">vaʼisõ</st>
-      </stg>
-
-      <stress>vaʼisõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">vahel</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">välissä</t>
-        <t pos="POSTP">välillä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">starp</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vaʼistõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">vaʼistõ</st>
-      </stg>
-
-      <stress>vaʼistõ 2</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">vahelt</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">välistä</t>
-        <t pos="POSTP">väliltä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no starpas</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vaʼizõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">vaʼizõ</st>
-      </stg>
-
-      <stress>vaʼizõ</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">vahele</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">välille</t>
-        <t pos="POSTP">väliin</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">starpā (virziens)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vast</l>
-
-      <stg>
-        <st Contlex="PREP_">vast</st>
-      </stg>
-
-      <stress>vast</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">vastu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">vasten</t>
-        <t pos="PREP">vastoin</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pret</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vastõ</l>
-
-      <stg>
-        <st Contlex="POSTP_">vastõ</st>
-      </stg>
-
-      <stress>vastõ 3</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">vastu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">vastaan</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">pret</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="POSTP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">vastas</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">vastapäätä</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">iepretim</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vastõ</l>
-
-      <stg>
-        <st Contlex="PREP_">vastõ</st>
-      </stg>
-
-      <stress>vastõ 4</stress>
-    </lg>
-
-    <pos>PREP</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>≈ vast</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="PREP">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="PREP">vastu</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="PREP">vasten</t>
-        <t pos="PREP">vastoin</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="PREP">pret</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l>vastõst</l>
-
-      <stg>
-        <st Contlex="POSTP_">vastõst</st>
-      </stg>
-
-      <stress>vastõst</stress>
-    </lg>
-
-    <pos>Po</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Pr">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="POSTP">vastast</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="POSTP">vastapäätä päin</t>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="POSTP">no vietas iepretim</t>
-      </tg>
-    </mg>
-  </e>
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="liv"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <e>
+      <lg>
+         <l>aʼbkõks</l>
+         <stg>
+            <st Contlex="POSTP_">aʼbkõks</st>
+         </stg>
+         <stress>aʼbkõks</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">abil</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">avulla</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">ar palīdzību</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>āigal</l>
+         <stg>
+            <st Contlex="POSTP_">āigal</st>
+         </stg>
+         <stress>āigal 3</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">jooksul</t>
+            <t pos="POSTP">kestel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">aikana</t>
+            <t pos="POSTP">kuluessa</t>
+            <t pos="POSTP">kestäessä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">laikā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>aigās</l>
+         <stg>
+            <st Contlex="POSTP_">aigās</st>
+         </stg>
+         <stress>aigās</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">ääres</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">ääressä</t>
+            <t pos="POSTP">vieressä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pie malas</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>aigāst</l>
+         <stg>
+            <st Contlex="POSTP_">aigāst</st>
+         </stg>
+         <stress>aigāst</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">äärest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">äärestä</t>
+            <t pos="POSTP">vierestä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no malas</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>aigiz</l>
+         <stg>
+            <st Contlex="POSTP_">aigiz</st>
+         </stg>
+         <stress>aigiz</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">ajal</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">aikana</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">laikā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>aʼigõ</l>
+         <stg>
+            <st Contlex="POSTP_">aʼigõ</st>
+         </stg>
+         <stress>aʼigõ 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">äärde</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">viereen</t>
+            <t pos="POSTP">ääreen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">blakus (virziens)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>alā</l>
+         <stg>
+            <st Contlex="POSTP_">alā</st>
+         </stg>
+         <stress>alā 3</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">alla</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">alle</t>
+            <t pos="POSTP">alas</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">zem (virziens)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>aldõst</l>
+         <stg>
+            <st Contlex="POSTP_">aldõst</st>
+         </stg>
+         <stress>aldõst</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">alt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">alta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no apakšas</t>
+            <t pos="POSTP">pa apakšu</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>allõ</l>
+         <stg>
+            <st Contlex="POSTP_">allõ</st>
+         </stg>
+         <stress>allõ 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">under</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">all</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">alla</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">zem</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>aʼlmõl</l>
+         <stg>
+            <st Contlex="PREP_">aʼlmõl</st>
+         </stg>
+         <stress>aʼlmõl 3</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">alla</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">alle</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">zem</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">allpool</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">alapuolella</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">lejpus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>aʼlmõld</l>
+         <stg>
+            <st Contlex="PREP_">aʼlmõld</st>
+         </stg>
+         <stress>aʼlmõld 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">altpoolt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">alapuolelta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">no apakšas</t>
+            <t pos="PREP">no lejas</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>arāks</l>
+         <stg>
+            <st Contlex="PREP_">arāks</st>
+         </stg>
+         <stress>arāks 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">põiki</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">poikittain</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">šķērsām</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ārdiņ</l>
+         <stg>
+            <st Contlex="POSTP_">ārdiņ</st>
+         </stg>
+         <stress>ārdiņ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">tõttu</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">takia</t>
+            <t pos="POSTP">vuoksi</t>
+            <t pos="POSTP">tähden</t>
+            <t pos="POSTP">johdosta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">dēļ</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>aʼzmõ</l>
+         <stg>
+            <st Contlex="POSTP_">aʼzmõ</st>
+         </stg>
+         <stress>aʼzmõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">asemele</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">tilalle</t>
+            <t pos="POSTP">sijaan</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">vietā (virziens)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>aʼzmõl</l>
+         <stg>
+            <st Contlex="POSTP_">aʼzmõl</st>
+         </stg>
+         <stress>aʼzmõl</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">asemel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">sijalla</t>
+            <t pos="POSTP">tilalla</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">vietā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>äʼb-</l>
+         <stg>
+            <st Contlex="PREP_">äʼb-</st>
+         </stg>
+         <stress>äʼb-</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">eba-</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">epä-</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">ne-</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>äts</l>
+         <stg>
+            <st Contlex="PREP_">äts</st>
+         </stg>
+         <stress>äts</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">ükskõik</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">samantekevää</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">kaut</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>bäs</l>
+         <stg>
+            <st Contlex="PREP_">bäs</st>
+         </stg>
+         <stress>bäs</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>&gt; ilmõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">ilma</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">ilman</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">bez</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>īlma</l>
+         <stg>
+            <st Contlex="PREP_">īlma</st>
+         </stg>
+         <stress>īlma 3</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= ilmõ 1 (a)</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">ilma</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">ilman</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">bez</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ilmõ</l>
+         <stg>
+            <st Contlex="PREP_">ilmõ</st>
+         </stg>
+         <stress>ilmõ 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">ilma</t>
+            <t pos="PREP">ilmaasjata</t>
+            <t pos="PREP">ilmaaegu</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">aiheetta</t>
+            <t pos="PREP">syyttä</t>
+            <t pos="PREP">turhaan</t>
+            <t pos="PREP">suotta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">velti</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>iʼlmõl</l>
+         <stg>
+            <st Contlex="PREP_">iʼlmõl</st>
+         </stg>
+         <stress>iʼlmõl 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">ülemalpool</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">ylempänä</t>
+            <t pos="PREP">yläpuolellä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">virs</t>
+            <t pos="PREP">augstāk</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>iʼļ</l>
+         <stg>
+            <st Contlex="PREP_">iʼļ</st>
+         </stg>
+         <stress>iʼļ 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">about</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">kohta</t>
+            <t pos="PREP">pärast</t>
+            <t pos="PREP">üle</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t>-sta</t>
+            <t>-stä</t>
+            <t>suhteen</t>
+            <t>nähden</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">par</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">mööda</t>
+            <t pos="PREP">vastu</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">-lle</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pa</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">over</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">üle</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">ylitse</t>
+            <t pos="PREP">yli</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pāri</t>
+            <t pos="PREP">pār</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>immõr</l>
+         <stg>
+            <st Contlex="PREP_">immõr</st>
+         </stg>
+         <stress>immõr 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">ümber</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">ympäri</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">ap (virziens)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>immõr</l>
+         <stg>
+            <st Contlex="POSTP_">immõr</st>
+         </stg>
+         <stress>immõr 3</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">ümber</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">ympärille</t>
+            <t pos="PREP">ympärillä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">ap</t>
+            <t pos="POSTP">apkārt</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">ringis</t>
+            <t pos="POSTP">paiku</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">paikkeilla</t>
+            <t pos="POSTP">tienoilla</t>
+            <t pos="POSTP">maissa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">ap</t>
+            <t pos="POSTP">aptuveni</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jagūks</l>
+         <stg>
+            <st Contlex="POSTP_">jagūks</st>
+         </stg>
+         <stress>jagūks</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">jaoks</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">varten</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">labad</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jeʼddõ</l>
+         <stg>
+            <st Contlex="POSTP_">jeʼddõ</st>
+         </stg>
+         <stress>jeʼddõ 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">ette</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">eteen</t>
+            <t pos="POSTP">edelle</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">priekšā (virziens)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jeʼdmõl</l>
+         <stg>
+            <st Contlex="PREP_">jeʼdmõl</st>
+         </stg>
+         <stress>jeʼdmõl 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">enne</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">ennen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pirms</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jeʼds</l>
+         <stg>
+            <st Contlex="PREP_">jeʼds</st>
+         </stg>
+         <stress>jeʼds 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">enne</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">ennen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pirms</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jeʼds</l>
+         <stg>
+            <st Contlex="POSTP_">jeʼds</st>
+         </stg>
+         <stress>jeʼds 3</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">ees</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">edessä</t>
+            <t pos="POSTP">edellä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">priekšā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jeʼdsõ</l>
+         <stg>
+            <st Contlex="PREP_">jeʼdsõ</st>
+         </stg>
+         <stress>jeʼdsõ 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">enne</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">ennen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pirms</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jeʼdstõ</l>
+         <stg>
+            <st Contlex="POSTP_">jeʼdstõ</st>
+         </stg>
+         <stress>jeʼdstõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">eest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">edestä</t>
+            <t pos="POSTP">edeltä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no priekšas</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">eest</t>
+            <t pos="POSTP">asemel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">puolesta</t>
+            <t pos="POSTP">edestä</t>
+            <t pos="POSTP">sijasta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">par</t>
+            <t pos="POSTP">vietā</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">meelest</t>
+            <t pos="POSTP">järgi</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">mielestä</t>
+            <t pos="POSTP">mukaan</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pēc</t>
+            <t pos="POSTP">-prāt</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jo</l>
+         <stg>
+            <st Contlex="PREP_">jo</st>
+         </stg>
+         <stress>jo</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">enam</t>
+            <te>eessõna keskvõrde moodustamiseks</te>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">enemmän</t>
+            <te>prepositio komparatiivin muodostamiseksi</te>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">vairāk</t>
+            <te>prievārds pārākās pakāpes veidošanai</te>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jūʼrõ</l>
+         <stg>
+            <st Contlex="PREP_">jūʼrõ</st>
+         </stg>
+         <stress>jūʼrõ 3</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">juurde</t>
+            <t pos="PREP">lisaks</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">lisää</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">klāt</t>
+            <t pos="PREP">pie</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jūʼrõ</l>
+         <stg>
+            <st Contlex="POSTP_">jūʼrõ</st>
+         </stg>
+         <stress>jūʼrõ 4</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ jūʼr</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">juurde</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">luokse</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pie</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jūʼr</l>
+         <stg>
+            <st Contlex="POSTP_">jūʼr</st>
+         </stg>
+         <stress>jūʼr</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ jūʼrõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">juurde</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">luokse</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pie</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jūsõ</l>
+         <stg>
+            <st Contlex="POSTP_">jūsõ</st>
+         </stg>
+         <stress>jūsõ 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ jūs</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">juures</t>
+            <t pos="POSTP">kallal</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">luona</t>
+            <t pos="POSTP">parissa</t>
+            <t pos="POSTP">ääressä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pie</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jūs</l>
+         <stg>
+            <st Contlex="POSTP_">jūs</st>
+         </stg>
+         <stress>jūs</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ jūsõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">juures</t>
+            <t pos="POSTP">kallal</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">luona</t>
+            <t pos="POSTP">parissa</t>
+            <t pos="POSTP">ääressä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pie</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jūstõ</l>
+         <stg>
+            <st Contlex="POSTP_">jūstõ</st>
+         </stg>
+         <stress>jūstõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ jūst</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">juurest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">luota</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>jūst</l>
+         <stg>
+            <st Contlex="POSTP_">jūst</st>
+         </stg>
+         <stress>jūst</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ jūstõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">juurest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">luota</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>käʼddõ</l>
+         <stg>
+            <st Contlex="POSTP_">käʼddõ</st>
+         </stg>
+         <stress>käʼddõ 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kätte</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">käsiin</t>
+            <t pos="POSTP">valtaan</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">rokās (virziens)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>käʼdkouți</l>
+         <stg>
+            <st Contlex="POSTP_">käʼd#kouți</st>
+         </stg>
+         <stress>käʼd|kouți 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kaudu</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">kautta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">caur</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>käʼds</l>
+         <stg>
+            <st Contlex="POSTP_">käʼds</st>
+         </stg>
+         <stress>käʼds 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ käʼdsõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">käes</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">käsissä</t>
+            <t pos="POSTP">vallassa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">rokās</t>
+            <t pos="POSTP">pie</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>käʼdsõ</l>
+         <stg>
+            <st Contlex="POSTP_">käʼdsõ</st>
+         </stg>
+         <stress>käʼdsõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ käʼds</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">käes</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">käsissä</t>
+            <t pos="POSTP">vallassa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">rokās</t>
+            <t pos="POSTP">pie</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>käʼdst</l>
+         <stg>
+            <st Contlex="POSTP_">käʼdst</st>
+         </stg>
+         <stress>käʼdst</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ käʼdstõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">käest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">kädestä</t>
+            <t pos="POSTP">käsistä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no rokas</t>
+            <t pos="POSTP">no rokām</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>käʼdstõ</l>
+         <stg>
+            <st Contlex="POSTP_">käʼdstõ</st>
+         </stg>
+         <stress>käʼdstõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ käʼdst</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">käest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">kädestä</t>
+            <t pos="POSTP">käsistä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no rokas</t>
+            <t pos="POSTP">no rokām</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kilgõ</l>
+         <stg>
+            <st Contlex="POSTP_">kilgõ</st>
+         </stg>
+         <stress>kilgõ 4</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kõrvale</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">viereen</t>
+            <t pos="POSTP">vierelle</t>
+            <t pos="POSTP">rinnalle</t>
+            <t pos="POSTP">äärelle</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">blakus</t>
+            <t pos="POSTP">pie</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kilgsõ</l>
+         <stg>
+            <st Contlex="POSTP_">kilgsõ</st>
+         </stg>
+         <stress>kilgsõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">küljes</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">kiinni</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pie</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kõrval</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">vieressä</t>
+            <t pos="POSTP">vierellä</t>
+            <t pos="POSTP">rinnalla</t>
+            <t pos="POSTP">äärellä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">blakus</t>
+            <t pos="POSTP">līdzās</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kilgstõ</l>
+         <stg>
+            <st Contlex="POSTP_">kilgstõ</st>
+         </stg>
+         <stress>kilgstõ 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kõrvalt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">vierestä</t>
+            <t pos="POSTP">viereltä</t>
+            <t pos="POSTP">rinnalta</t>
+            <t pos="POSTP">ääreltä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no</t>
+            <te>vietas, kas atrodas blakus</te>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kīļta</l>
+         <stg>
+            <st Contlex="PREP_">kīļta</st>
+         </stg>
+         <stress>kīļta 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">külg-</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">sivu-</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">sānu-</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kouți</l>
+         <stg>
+            <st Contlex="POSTP_">kouți</st>
+         </stg>
+         <stress>kouți</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kaudu</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">kautta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">caur</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">pidi</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">pitkin</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kuʼbs</l>
+         <stg>
+            <st Contlex="PREP_">kuʼbs</st>
+         </stg>
+         <stress>kuʼbs 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ kuʼbsõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">koos</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">kanssa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">kopā ar</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kuʼbsõ</l>
+         <stg>
+            <st Contlex="PREP_">kuʼbsõ</st>
+         </stg>
+         <stress>kuʼbsõ</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ kuʼbs</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">koos</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">kanssa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">kopā ar</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kūoral</l>
+         <stg>
+            <st Contlex="POSTP_">kūoral</st>
+         </stg>
+         <stress>kūoral</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kõrval</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">vieressä</t>
+            <t pos="POSTP">vierellä</t>
+            <t pos="POSTP">rinnalla</t>
+            <t pos="POSTP">äärellä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">blakus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kūorald</l>
+         <stg>
+            <st Contlex="POSTP_">kūorald</st>
+         </stg>
+         <stress>kūorald</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kõrvalt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">vierestä</t>
+            <t pos="POSTP">viereltä</t>
+            <t pos="POSTP">rinnalta</t>
+            <t pos="POSTP">ääreltä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no</t>
+            <te>vietas, kas atrodas blakus</te>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kūorõks</l>
+         <stg>
+            <st Contlex="POSTP_">kūorõks</st>
+         </stg>
+         <stress>kūorõks</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kõrval</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">vieressä</t>
+            <t pos="POSTP">vierellä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">blakus</t>
+            <t pos="POSTP">blakām</t>
+            <t pos="POSTP">līdzās</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kuorrõl</l>
+         <stg>
+            <st Contlex="POSTP_">kuorrõl</st>
+         </stg>
+         <stress>kuorrõl 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kõrvale</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">viereen</t>
+            <t pos="POSTP">vierelle</t>
+            <t pos="POSTP">rinnalle</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">blakus</t>
+            <te>virziens</te>
+            <t pos="POSTP">blakām</t>
+            <te>virziens</te>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>kūožõl</l>
+         <stg>
+            <st Contlex="POSTP_">kūožõl</st>
+         </stg>
+         <stress>kūožõl</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kohakuti</t>
+            <t pos="POSTP">kohale</t>
+            <t pos="POSTP">kohal</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">kohdakkain</t>
+            <t pos="POSTP">kohdalla</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">iepretim</t>
+            <t pos="POSTP">blakus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>leʼb</l>
+         <stg>
+            <st Contlex="PREP_">leʼb</st>
+         </stg>
+         <stress>leʼb</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">läbi</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">läpi</t>
+            <t pos="PREP">lävitse</t>
+            <t pos="PREP">välistä</t>
+            <t pos="PREP">kautta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">caur</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>leʼbbõ</l>
+         <stg>
+            <st Contlex="POSTP_">leʼbbõ</st>
+         </stg>
+         <stress>leʼbbõ 3</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">läbi</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">läpi</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">cauru</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>leʼžgõl</l>
+         <stg>
+            <st Contlex="POSTP_">leʼžgõl</st>
+         </stg>
+         <stress>leʼžgõl 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">ligidal</t>
+            <t pos="POSTP">lähedal</t>
+            <t pos="POSTP">läheduses</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">lähellä</t>
+            <t pos="POSTP">likellä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">tuvumā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>leʼžgõld</l>
+         <stg>
+            <st Contlex="POSTP_">leʼžgõld</st>
+         </stg>
+         <stress>leʼžgõld 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">ligidalt</t>
+            <t pos="POSTP">lähedalt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">likeltä</t>
+            <t pos="POSTP">läheltä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no tuvuma</t>
+            <t pos="POSTP">no tuvienes</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>leʼžgõlõ</l>
+         <stg>
+            <st Contlex="POSTP_">leʼžgõlõ</st>
+         </stg>
+         <stress>leʼžgõlõ 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">ligidale</t>
+            <t pos="POSTP">lähedale</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">lähelle</t>
+            <t pos="POSTP">likelle</t>
+            <t pos="POSTP">läheisyyteen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">tuvumā (virziens)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mǭʼzõ</l>
+         <stg>
+            <st Contlex="POSTP_">mǭʼzõ</st>
+         </stg>
+         <stress>mǭʼzõ 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">maha</t>
+            <t pos="POSTP">alla</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">maahan</t>
+            <t pos="POSTP">alas</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">nost</t>
+            <t pos="POSTP">zemē</t>
+            <t pos="POSTP">no-</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>mūodõ</l>
+         <stg>
+            <st Contlex="POSTP_">mūodõ</st>
+         </stg>
+         <stress>mūodõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">moodi</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">lailla</t>
+            <t pos="POSTP">tavalla</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">veidā</t>
+            <t pos="POSTP">modē</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>niʼmsõ</l>
+         <stg>
+            <st Contlex="POSTP_">niʼmsõ</st>
+         </stg>
+         <stress>niʼmsõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">nimel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">nimissä</t>
+            <t pos="POSTP">puolesta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">vārdā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pa</l>
+         <stg>
+            <st Contlex="PREP_">pa</st>
+         </stg>
+         <stress>pa 1</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">-ks</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">-ksi</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">par</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pa</l>
+         <stg>
+            <st Contlex="PREP_">pa</st>
+         </stg>
+         <stress>pa 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">-haaval</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">kerrallaan</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pa</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="ADV">liiga</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">liian</t>
+            <t pos="PREP">liiaksi</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="ADV">par</t>
+            <t pos="ADV">pārāk</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pǟl</l>
+         <stg>
+            <st Contlex="POSTP_">pǟl</st>
+         </stg>
+         <stress>pǟl</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">on</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">peal</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päällä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">uz (vieta)</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">for</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">peale</t>
+            <t pos="POSTP">ajaks</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">ilmaisee tapahtuman kestoa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">uz (laiks)</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kallal</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">kimpussa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">virsū</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pǟld</l>
+         <stg>
+            <st Contlex="POSTP_">pǟld</st>
+         </stg>
+         <stress>pǟld</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= pǟldõst</semRel>
+            <semRel>= pǟldõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">pealt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päältä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pǟldõ</l>
+         <stg>
+            <st Contlex="POSTP_">pǟldõ</st>
+         </stg>
+         <stress>pǟldõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= pǟldõst</semRel>
+            <semRel>= pǟld</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">pealt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päältä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pǟldõst</l>
+         <stg>
+            <st Contlex="POSTP_">pǟldõst</st>
+         </stg>
+         <stress>pǟldõst</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= pǟldõ</semRel>
+            <semRel>= pǟld</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">pealt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päältä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pǟlõ</l>
+         <stg>
+            <st Contlex="POSTP_">pǟlõ</st>
+         </stg>
+         <stress>pǟlõ 4</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">peale</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päälle</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">uz (virziens)</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">järele</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">perään</t>
+            <t pos="POSTP">jälkeen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pēc</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">peale</t>
+            <t pos="POSTP">alates</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">jälkeen</t>
+            <t pos="POSTP">lähtien</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pēc</t>
+            <t pos="POSTP">vēlāk</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pǟʼzõ</l>
+         <stg>
+            <st Contlex="POSTP_">pǟʼzõ</st>
+         </stg>
+         <stress>pǟʼzõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">pähe</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">sijasta</t>
+            <t pos="POSTP">asemasta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">vietā</t>
+            <t pos="POSTP">kā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>perīņ</l>
+         <stg>
+            <st Contlex="PREP_">perīņ</st>
+         </stg>
+         <stress>perīņ 2</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">päri</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">pitkin</t>
+            <t pos="PREP">myöten</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>piʼddõzmīedõ</l>
+         <stg>
+            <st Contlex="PREP_">piʼddõz#mīedõ</st>
+         </stg>
+         <stress>piʼddõz|mīedõ</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">rööbiti</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">rinnakkaisesti</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">līdztekus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>piʼds</l>
+         <stg>
+            <st Contlex="PREP_">piʼds</st>
+         </stg>
+         <stress>piʼds</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">along</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">mööda</t>
+            <t pos="PREP">pihta</t>
+            <t pos="PREP">piki</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">pitkin</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pierāst</l>
+         <stg>
+            <st Contlex="POSTP_">pierāst</st>
+         </stg>
+         <stress>pierāst 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">pärast</t>
+            <t pos="POSTP">tõttu</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">takia</t>
+            <t pos="POSTP">vuoksi</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">dēļ</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">jaoks</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">varten</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">priekš</t>
+            <t pos="POSTP">nolūkam</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= pieʼrrõ 4</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">järgi</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">mukaan</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">atbilstoši</t>
+            <t pos="POSTP">atbilstīgi</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">päralt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">käytössä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">priekš</t>
+            <t pos="POSTP">rīcībā</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">eest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">-sta</t>
+            <t pos="POSTP">-stä</t>
+            <t pos="POSTP">edestä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">par</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pieʼrrõ</l>
+         <stg>
+            <st Contlex="PREP_">pieʼrrõ</st>
+         </stg>
+         <stress>pieʼrrõ 3</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">pärast</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">jälkeen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pēc</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pieʼrrõ</l>
+         <stg>
+            <st Contlex="POSTP_">pieʼrrõ</st>
+         </stg>
+         <stress>pieʼrrõ 4</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= pierāst 2 (c)</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">järgi</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">mukaan</t>
+            <t pos="POSTP">mukaisesti</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">atbilstoši</t>
+            <t pos="POSTP">atbilstīgi</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">moodi</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">kaltainen</t>
+            <t pos="POSTP">tapainen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">līdzīgi</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">järel</t>
+            <t pos="POSTP">pärast</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">jälkeen</t>
+            <t pos="POSTP">päästä</t>
+            <t pos="POSTP">kuluttua</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pēc</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pūol</l>
+         <stg>
+            <st Contlex="POSTP_">pūol</st>
+         </stg>
+         <stress>pūol 4</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">pool</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päin</t>
+            <t pos="POSTP">puolella</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pusē</t>
+            <t pos="POSTP">malā</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">poole</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päin</t>
+            <t pos="POSTP">puoleen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">uz pusi</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pūold</l>
+         <stg>
+            <st Contlex="POSTP_">pūold</st>
+         </stg>
+         <stress>pūold</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">poolt</t>
+            <t pos="POSTP">suunast</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päin</t>
+            <t pos="POSTP">puolelta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no puses</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">poolt</t>
+            <t pos="POSTP">eest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">puolellaan</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">par</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pūolõ</l>
+         <stg>
+            <st Contlex="POSTP_">pūolõ</st>
+         </stg>
+         <stress>pūolõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">poole</t>
+            <t pos="POSTP">juurde</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päin</t>
+            <t pos="POSTP">luokse</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">uz pusi</t>
+            <t pos="POSTP">pie</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">poole</t>
+            <t pos="POSTP">suunda</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päin</t>
+            <t pos="POSTP">suuntaan</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">uz pusi</t>
+            <t pos="POSTP">virzienā</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">poole</t>
+            <t pos="POSTP">suunas</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päin</t>
+            <t pos="POSTP">puolella</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">uz pusi</t>
+            <t pos="POSTP">pusē</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>pūolstõ</l>
+         <stg>
+            <st Contlex="POSTP_">pūolstõ</st>
+         </stg>
+         <stress>pūolstõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">poolest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">puolesta</t>
+            <t pos="POSTP">suhteen</t>
+            <t pos="POSTP">suhteessa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">ziņā</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">poolt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">puolelta</t>
+            <t pos="POSTP">puolesta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no puses</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">poolt</t>
+            <t pos="POSTP">eest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">puolesta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">par</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sidāmõl</l>
+         <stg>
+            <st Contlex="POSTP_">sidāmõl</st>
+         </stg>
+         <stress>sidāmõl 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">keskel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">keskellä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">vidū</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sidāmõld</l>
+         <stg>
+            <st Contlex="POSTP_">sidāmõld</st>
+         </stg>
+         <stress>sidāmõld</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">keskelt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">keskeltä</t>
+            <t pos="POSTP">joukosta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no vidus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sidāmõlõ</l>
+         <stg>
+            <st Contlex="POSTP_">sidāmõlõ</st>
+         </stg>
+         <stress>sidāmõlõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ sidāmõl</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">keskele</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">keskelle</t>
+            <t pos="POSTP">joukkoon</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">uz vidu</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sidāmõl</l>
+         <stg>
+            <st Contlex="POSTP_">sidāmõl</st>
+         </stg>
+         <stress>sidāmõl</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ sidāmõlõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">keskele</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">keskelle</t>
+            <t pos="POSTP">joukkoon</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">uz vidu</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sidāmõs</l>
+         <stg>
+            <st Contlex="POSTP_">sidāmõs</st>
+         </stg>
+         <stress>sidāmõs</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">keskel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">joukossa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">vidū</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sidāmt</l>
+         <stg>
+            <st Contlex="POSTP_">sidāmt</st>
+         </stg>
+         <stress>sidāmt 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ sidāmtõ</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">keskel</t>
+            <t pos="POSTP">keskele</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">keskellä</t>
+            <t pos="POSTP">joukossa</t>
+            <t pos="POSTP">keskelle</t>
+            <t pos="POSTP">joukkoon</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">vidū</t>
+            <t pos="POSTP">starpā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sidāmtõ</l>
+         <stg>
+            <st Contlex="POSTP_">sidāmtõ</st>
+         </stg>
+         <stress>sidāmtõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>~ sidāmt</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">keskel</t>
+            <t pos="POSTP">keskele</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">keskellä</t>
+            <t pos="POSTP">joukossa</t>
+            <t pos="POSTP">keskelle</t>
+            <t pos="POSTP">joukkoon</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">vidū</t>
+            <t pos="POSTP">starpā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>siegās</l>
+         <stg>
+            <st Contlex="POSTP_">siegās</st>
+         </stg>
+         <stress>siegās</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">seas</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">joukossa</t>
+            <t pos="POSTP">seassa</t>
+            <t pos="POSTP">keskuudessa</t>
+            <t pos="POSTP">keskellä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">starp</t>
+            <t pos="POSTP">vidū</t>
+            <t pos="POSTP">skaitā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>siegāst</l>
+         <stg>
+            <st Contlex="POSTP_">siegāst</st>
+         </stg>
+         <stress>siegāst</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">seast</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">joukosta</t>
+            <t pos="POSTP">seasta</t>
+            <t pos="POSTP">keskuudesta</t>
+            <t pos="POSTP">keskeltä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no vidus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sieʼggõ</l>
+         <stg>
+            <st Contlex="POSTP_">sieʼggõ</st>
+         </stg>
+         <stress>sieʼggõ 4</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">sekka</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">joukkoon</t>
+            <t pos="POSTP">sekaan</t>
+            <t pos="POSTP">keskuuteen</t>
+            <t pos="POSTP">keskelle</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">starp</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">sekka</t>
+            <t pos="POSTP">hulka</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">joukkoon</t>
+            <t pos="POSTP">pariin</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pulkā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sizāl</l>
+         <stg>
+            <st Contlex="POSTP_">sizāl</st>
+         </stg>
+         <stress>sizāl 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">sees</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">sisässä</t>
+            <t pos="POSTP">sisällä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">iekšā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sizāldõst</l>
+         <stg>
+            <st Contlex="POSTP_">sizāldõst</st>
+         </stg>
+         <stress>sizāldõst</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">seest</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">sisästä</t>
+            <t pos="POSTP">sisältä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no iekšpuses</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>siʼzzõl</l>
+         <stg>
+            <st Contlex="POSTP_">siʼzzõl</st>
+         </stg>
+         <stress>siʼzzõl 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">into</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">sisse</t>
+         </tg>
+         <tg xml:lang="fin">
+            <tCtn>
+               <t pos="POSTP">sisään</t>
+               <t pos="POSTP">sisälle</t>
+               <re>käytetään illatiivissa</re>
+            </tCtn>
+         </tg>
+         <tg xml:lang="lav">
+            <tCtn>
+               <t pos="POSTP">iekšā</t>
+               <t pos="POSTP">iekš</t>
+               <re>virziens</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>sǭņõ</l>
+         <stg>
+            <st Contlex="POSTP_">sǭņõ</st>
+         </stg>
+         <stress>sǭņõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">up to</t>
+            <t pos="PREP">until</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">kuni</t>
+            <t pos="POSTP">saadik</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">asti</t>
+            <t pos="POSTP">saakka</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">līdz</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tagā</l>
+         <stg>
+            <st Contlex="POSTP_">tagā</st>
+         </stg>
+         <stress>tagā 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">taga</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">takana</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">aiz</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tagān</l>
+         <stg>
+            <st Contlex="POSTP_">tagān</st>
+         </stg>
+         <stress>tagān 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">järele</t>
+            <t pos="POSTP">järel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">jälkeen</t>
+            <t pos="POSTP">perässä</t>
+            <t pos="POSTP">jäljessä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">aiz</t>
+            <t pos="POSTP">pēc</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">taha</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">taakse</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">aizmugurē</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tagānd</l>
+         <stg>
+            <st Contlex="POSTP_">tagānd</st>
+         </stg>
+         <stress>tagānd 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP"/>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">tagant</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">takaa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no aizmugures</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tagāndõst</l>
+         <stg>
+            <st Contlex="POSTP_">tagāndõst</st>
+         </stg>
+         <stress>tagāndõst</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>= tagānd 2</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">tagant</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">takaa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no aizmugures</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tagānõz</l>
+         <stg>
+            <st Contlex="POSTP_">tagānõz</st>
+         </stg>
+         <stress>tagānõz</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">taha</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">taakse</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">aizmugurē</t>
+            <t pos="POSTP">aiz</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tāʼgižpēḑõn</l>
+         <stg>
+            <st Contlex="POSTP_">tāʼgiž#pēḑõn</st>
+         </stg>
+         <stress>tāʼgiž|pēḑõn 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">tagasi</t>
+            <t pos="POSTP">varem</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">takaperin</t>
+            <t pos="POSTP">sitten</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pirms</t>
+            <t pos="POSTP">atpakaļ</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tuoizpūolõ</l>
+         <stg>
+            <st Contlex="PREP_">tuoiz#pūolõ</st>
+         </stg>
+         <stress>tuoiz|pūolõ</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">teisele poole</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">toiselle puolelle</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">uz otru pusi</t>
+            <t pos="PREP">otrpus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tuoizpūolsõ</l>
+         <stg>
+            <st Contlex="PREP_">tuoiz#pūolsõ</st>
+         </stg>
+         <stress>tuoiz|pūolsõ</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">teisel pool</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">toisella puolella</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">otrā pusē</t>
+            <t pos="PREP">otrpus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tuoizpūolstõ</l>
+         <stg>
+            <st Contlex="PREP_">tuoiz#pūolstõ</st>
+         </stg>
+         <stress>tuoiz|pūolstõ</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">teiselt poolt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">toiselta puolelta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">no otras puses</t>
+            <t pos="PREP">no vietas otrpus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tūolapūol</l>
+         <stg>
+            <st Contlex="PREP_">tūola#pūol</st>
+         </stg>
+         <stress>tūola|pūol</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">beyond</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">sealpool</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">tuolla puolen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">viņpus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tūolapūoldõ</l>
+         <stg>
+            <st Contlex="PREP_">tūola#pūoldõ</st>
+         </stg>
+         <stress>tūola|pūoldõ</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">sealtpoolt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">tuolta puolen</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">no turienes</t>
+            <t pos="PREP">no tās puses</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tūolapūolõ</l>
+         <stg>
+            <st Contlex="PREP_">tūola#pūolõ</st>
+         </stg>
+         <stress>tūola|pūolõ</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">sinnapoole</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">sinnepäin</t>
+            <t pos="PREP">tuonnepäin</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">turp</t>
+            <t pos="PREP">uz to pusi</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>tutkāmõl</l>
+         <stg>
+            <st Contlex="POSTP_">tutkāmõl</st>
+         </stg>
+         <stress>tutkāmõl</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">otsas</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">päässä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">galā</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vaʼil</l>
+         <stg>
+            <st Contlex="POSTP_">vaʼil</st>
+         </stg>
+         <stress>vaʼil</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">vahel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">välissä</t>
+            <t pos="POSTP">välillä</t>
+            <t pos="POSTP">kesken</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">starp</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">seas</t>
+            <t pos="POSTP">keskel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">joukossa</t>
+            <t pos="POSTP">seassa</t>
+            <t pos="POSTP">keskuudessa</t>
+            <t pos="POSTP">keskellä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">vidū</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vaʼild</l>
+         <stg>
+            <st Contlex="POSTP_">vaʼild</st>
+         </stg>
+         <stress>vaʼild</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">vahelt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">välistä</t>
+            <t pos="POSTP">väliltä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no starpas</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">seast</t>
+            <t pos="POSTP">keskelt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">joukosta</t>
+            <t pos="POSTP">seasta</t>
+            <t pos="POSTP">keskuudesta</t>
+            <t pos="POSTP">keskeltä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no vidus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vaʼildõst</l>
+         <stg>
+            <st Contlex="POSTP_">vaʼildõst</st>
+         </stg>
+         <stress>vaʼildõst 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">vahelt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">välistä</t>
+            <t pos="POSTP">väliltä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no starpas</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">seast</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">seasta</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no vidus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vaʼilõ</l>
+         <stg>
+            <st Contlex="POSTP_">vaʼilõ</st>
+         </stg>
+         <stress>vaʼilõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">keskele</t>
+            <t pos="POSTP">vahele</t>
+            <t pos="POSTP">hulka</t>
+            <t pos="POSTP">sekka</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">keskelle</t>
+            <t pos="POSTP">joukkoon</t>
+            <t pos="POSTP">välille</t>
+            <t pos="POSTP">väliin</t>
+            <t pos="POSTP">sekaan</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">starpā (virziens)</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">keskel</t>
+            <t pos="POSTP">vahel</t>
+            <t pos="POSTP">hulgas</t>
+            <t pos="POSTP">seas</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">keskellä</t>
+            <t pos="POSTP">välissä</t>
+            <t pos="POSTP">välillä</t>
+            <t pos="POSTP">parissa</t>
+            <t pos="POSTP">joukossa</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">starp</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vaʼisõ</l>
+         <stg>
+            <st Contlex="POSTP_">vaʼisõ</st>
+         </stg>
+         <stress>vaʼisõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">vahel</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">välissä</t>
+            <t pos="POSTP">välillä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">starp</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vaʼistõ</l>
+         <stg>
+            <st Contlex="POSTP_">vaʼistõ</st>
+         </stg>
+         <stress>vaʼistõ 2</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">vahelt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">välistä</t>
+            <t pos="POSTP">väliltä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no starpas</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vaʼizõ</l>
+         <stg>
+            <st Contlex="POSTP_">vaʼizõ</st>
+         </stg>
+         <stress>vaʼizõ</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">vahele</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">välille</t>
+            <t pos="POSTP">väliin</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">starpā (virziens)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vast</l>
+         <stg>
+            <st Contlex="PREP_">vast</st>
+         </stg>
+         <stress>vast</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">vastu</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">vasten</t>
+            <t pos="PREP">vastoin</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pret</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vastõ</l>
+         <stg>
+            <st Contlex="POSTP_">vastõ</st>
+         </stg>
+         <stress>vastõ 3</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">vastu</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">vastaan</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">pret</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="POSTP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">vastas</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">vastapäätä</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">iepretim</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vastõ</l>
+         <stg>
+            <st Contlex="PREP_">vastõ</st>
+         </stg>
+         <stress>vastõ 4</stress>
+      </lg>
+      <pos>PREP</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel>≈ vast</semRel>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="PREP">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="PREP">vastu</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="PREP">vasten</t>
+            <t pos="PREP">vastoin</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="PREP">pret</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vastõst</l>
+         <stg>
+            <st Contlex="POSTP_">vastõst</st>
+         </stg>
+         <stress>vastõst</stress>
+      </lg>
+      <pos>Po</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="Pr">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="POSTP">vastast</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="POSTP">vastapäätä päin</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="POSTP">no vietas iepretim</t>
+         </tg>
+      </mg>
+   </e>
 </r>
