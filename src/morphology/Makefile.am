@@ -25,6 +25,7 @@ GT_LEXC_SRCS=\
 			 stems/exceptions.lexc    \
 			 stems/punct.lexc         \
 			 stems/adjectives_newwords.lexc    \
+			 stems/adverbs_newwords.lexc    \
 			 stems/nouns_newwords.lexc    \
 			 stems/propernouns_newwords.lexc    \
 			 stems/verbs_newwords.lexc    \
