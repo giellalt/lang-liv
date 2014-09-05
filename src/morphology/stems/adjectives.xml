@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xml:lang="liv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="liv">
   <e>
     <lg>
       <l pos="A">-pēļi</l>
@@ -35,7 +31,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">-pēʼḑi</l>
@@ -69,7 +64,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">-vȯitõ</l>
@@ -103,7 +97,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">Vāldamieʼrsūomõ</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">Vāldamieʼr#sūomõ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">Itämerensuomalainen</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">Läänemeresoome</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">Baltijas jūras somu</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">agār</l>
@@ -137,7 +159,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">agāņi</l>
@@ -169,7 +190,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aigi</l>
@@ -205,7 +225,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aigāmǭļi</l>
@@ -237,7 +256,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">akadēmli</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">akadēmli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">akadeemiline</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">akateeminen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">akadēmisks</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">aktuāl</l>
@@ -269,7 +316,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aktīv</l>
@@ -301,7 +347,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">akurāt</l>
@@ -337,7 +382,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">alābi</l>
@@ -369,7 +413,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">alāli</l>
@@ -403,7 +446,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">alāntli</l>
@@ -437,7 +479,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">alāstli</l>
@@ -473,7 +514,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">alāz</l>
@@ -529,7 +569,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">amā</l>
@@ -571,7 +610,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">amāiʼmli</l>
@@ -605,7 +643,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">amāpūoļi</l>
@@ -637,7 +674,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">amāsuʼgli</l>
@@ -673,7 +709,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">amāsuʼglimi</l>
@@ -709,7 +744,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">amāveʼggi</l>
@@ -743,7 +777,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">analōgli</l>
@@ -777,7 +810,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">anekdōtili</l>
@@ -809,7 +841,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">appõn</l>
@@ -845,7 +876,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">apātõksi</l>
@@ -879,7 +909,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">armkaʼdli</l>
@@ -911,7 +940,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">armli</l>
@@ -943,7 +971,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">armtõb</l>
@@ -975,7 +1002,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">armtõmõt</l>
@@ -1007,7 +1033,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">armzi</l>
@@ -1067,7 +1092,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">arābiji</l>
@@ -1103,7 +1127,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aššõ</l>
@@ -1137,7 +1160,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ažāli</l>
@@ -1211,7 +1233,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ažālim</l>
@@ -1243,7 +1264,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼbbõrz</l>
@@ -1273,7 +1293,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼbni</l>
@@ -1309,7 +1328,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼigi</l>
@@ -1345,7 +1363,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼlli</l>
@@ -1383,7 +1400,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼllimi</l>
@@ -1415,7 +1431,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼlmi</l>
@@ -1447,7 +1462,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼmti</l>
@@ -1481,7 +1495,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼrgiļ</l>
@@ -1537,7 +1550,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼrgiļi</l>
@@ -1569,7 +1581,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">aʼrlimi</l>
@@ -1607,7 +1618,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">blēʼḑ</l>
@@ -1639,7 +1649,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">blīvõz</l>
@@ -1675,7 +1684,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">bohēmi</l>
@@ -1707,7 +1715,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">boklimi</l>
@@ -1739,7 +1746,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">bolā</l>
@@ -1783,7 +1789,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">brī</l>
@@ -1841,7 +1846,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">brūni</l>
@@ -1873,7 +1877,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">brūnliki</l>
@@ -1905,7 +1908,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">bunglimi</l>
@@ -1981,7 +1983,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">bõmbõn</l>
@@ -2017,7 +2018,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">būomvilli</l>
@@ -2049,7 +2049,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">būoŗi</l>
@@ -2085,7 +2084,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">bǟr</l>
@@ -2121,7 +2119,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">bǭʼrgõ</l>
@@ -2157,7 +2154,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">dagāržpēḑi</l>
@@ -2193,7 +2189,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">daʼnktõ</l>
@@ -2227,7 +2222,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">dikțõ</l>
@@ -2261,7 +2255,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">dopāz</l>
@@ -2293,7 +2286,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">dräʼggõn</l>
@@ -2345,7 +2337,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">drūm</l>
@@ -2383,7 +2374,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">drūʼošõ</l>
@@ -2421,7 +2411,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">dullõnz</l>
@@ -2453,7 +2442,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">dumpiji</l>
@@ -2487,7 +2475,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">dumā</l>
@@ -2531,7 +2518,66 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">dēņ</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">dēņ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">taani</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">tanskalainen</t>
+
+        <t pos="A">tanskalais-</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">dāņu</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="A">dēņkēļi</l>
+
+      <stg>
+        <st Contlex="A_TŪĻI">dēņ#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">taanikeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">tanskankielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">dāņu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">dōŗa</l>
@@ -2569,7 +2615,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">dūšig</l>
@@ -2637,7 +2682,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eitliji</l>
@@ -2689,7 +2733,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eldi</l>
@@ -2723,7 +2766,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">elementārli</l>
@@ -2755,7 +2797,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">energli</l>
@@ -2789,7 +2830,66 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">engliš</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">engliš</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">inglise</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">englantilainen</t>
+
+        <t pos="A">englantilais-</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">angļu</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="A">engliškēļi</l>
+
+      <stg>
+        <st Contlex="A_TŪĻI">engliš#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">ingliskeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">englanninkielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">angļu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">erk</l>
@@ -2821,7 +2921,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">etnili</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">etnili</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">etniline</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">etninen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">etnisks</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">etnogrāfili</l>
@@ -2853,7 +2981,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eņtši</l>
@@ -2891,7 +3018,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eņtškazātõd</l>
@@ -2923,7 +3049,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eņtškudātõd</l>
@@ -2957,7 +3082,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eņtšsuʼgli</l>
@@ -2995,7 +3119,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eņtšsuʼglimi</l>
@@ -3029,7 +3152,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eņtšvaʼili</l>
@@ -3063,7 +3185,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eņtšvāldali</l>
@@ -3117,7 +3238,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eņtšvīți</l>
@@ -3179,7 +3299,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eņtšāigali</l>
@@ -3215,7 +3334,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">eʼgļi</l>
@@ -3249,7 +3367,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">eʼžmizkõrdi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">eʼžmiz#kõrdi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">esmakordne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">ensikertainen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">pirmreizējs</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">eʼḑḑi</l>
@@ -3285,7 +3431,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">feodāl</l>
@@ -3317,7 +3462,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">fizikāli</l>
@@ -3349,7 +3493,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">fonētli</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">fonētli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">foneetiline</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">foneettinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">fonētisks</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">gadāgi</l>
@@ -3381,7 +3553,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">giftig</l>
@@ -3417,7 +3588,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">glittõn</l>
@@ -3449,7 +3619,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">glumā</l>
@@ -3481,7 +3650,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">glǭzi</l>
@@ -3513,7 +3681,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">gorā</l>
@@ -3557,7 +3724,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">grabā</l>
@@ -3595,7 +3761,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">gramatili</l>
@@ -3631,7 +3796,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">granti</l>
@@ -3663,7 +3827,37 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">griekõ</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">griekõ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">kreeka</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">kreikkalainen</t>
+
+        <t pos="A">kreikkalais-</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">grieķu</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">grinā</l>
@@ -3697,7 +3891,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">groʼbļimi</l>
@@ -3751,7 +3944,66 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">grēkõ</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">grēkõ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">kreeka</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">kreikkalainen</t>
+
+        <t pos="A">kreikkalais-</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">grieķu</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="A">grēkõkēļi</l>
+
+      <stg>
+        <st Contlex="A_TŪĻI">grēkõ#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">kreekakeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">kreikankielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">grieķu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">gīrbaļi</l>
@@ -3787,7 +4039,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ideali</l>
@@ -3821,7 +4072,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">idāpūoļi</l>
@@ -3853,7 +4103,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">igāb</l>
@@ -3887,7 +4136,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">igāli</l>
@@ -3921,7 +4169,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">igāni</l>
@@ -3953,7 +4200,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ikšaʼmmi</l>
@@ -3989,7 +4235,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ikšlimi</l>
@@ -4027,7 +4272,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ikštäudi</l>
@@ -4059,7 +4303,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ilmõsītõ</l>
@@ -4091,7 +4334,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ilāli</l>
@@ -4127,7 +4369,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ilāpieʼrri</l>
@@ -4163,7 +4404,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">immõrgoutlimi</l>
@@ -4195,7 +4435,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">immõrkīerdõd</l>
@@ -4231,7 +4470,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">imāb</l>
@@ -4267,7 +4505,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">imūli</l>
@@ -4299,7 +4536,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">indi</l>
@@ -4331,7 +4567,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">indzi</l>
@@ -4363,7 +4598,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">interesant</l>
@@ -4397,7 +4631,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">irdi</l>
@@ -4429,7 +4662,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">irdzi</l>
@@ -4467,7 +4699,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">irmõz</l>
@@ -4501,7 +4732,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">irrõn</l>
@@ -4537,7 +4767,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">istōrili</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">istōrili</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">ajalooline</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">historiallinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">vēsturisks</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">itki</l>
@@ -4573,7 +4831,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">izāli</l>
@@ -4605,7 +4862,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">izāndi</l>
@@ -4637,7 +4893,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">iʼggi</l>
@@ -4671,7 +4926,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">iʼldi</l>
@@ -4733,7 +4987,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">iʼlmi</l>
@@ -4767,7 +5020,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">iʼmli</l>
@@ -4799,7 +5051,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">iʼzzi</l>
@@ -4833,7 +5084,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">iʼļaʼmmi</l>
@@ -4869,7 +5119,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">iʼļlǟʼdõb</l>
@@ -4907,7 +5156,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">iʼļļi</l>
@@ -4941,7 +5189,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">iʼļļimi</l>
@@ -4975,7 +5222,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jaļgi</l>
@@ -5029,7 +5275,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jaʼgdõb</l>
@@ -5061,7 +5306,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jaʼmdi</l>
@@ -5119,7 +5363,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jaʼmdõ</l>
@@ -5185,7 +5428,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jaʼmdõmaʼglimi</l>
@@ -5217,7 +5459,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jaʼmdõvȯitõ</l>
@@ -5253,7 +5494,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jegāpǟvaļi</l>
@@ -5289,7 +5529,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jegāsuʼglimi</l>
@@ -5323,7 +5562,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeiji</l>
@@ -5357,7 +5595,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeksiji</l>
@@ -5391,7 +5628,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeksli</l>
@@ -5425,7 +5661,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeksõn</l>
@@ -5459,7 +5694,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jelāb</l>
@@ -5523,7 +5757,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jelājli</l>
@@ -5555,7 +5788,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼddõnēji</l>
@@ -5587,7 +5819,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼddõpēʼḑi</l>
@@ -5619,7 +5850,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼdlõmi</l>
@@ -5657,7 +5887,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼdmõlaigi</l>
@@ -5691,7 +5920,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼdmõli</l>
@@ -5733,7 +5961,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼdmõlsuodā</l>
@@ -5767,7 +5994,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼdspīʼliji</l>
@@ -5801,7 +6027,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼldzi</l>
@@ -5835,7 +6060,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼllõn</l>
@@ -5871,7 +6095,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼlsõ</l>
@@ -5905,7 +6128,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼltõb</l>
@@ -5937,7 +6159,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼltõb</l>
@@ -5969,7 +6190,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼmmi</l>
@@ -6021,7 +6241,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jeʼnglimi</l>
@@ -6053,7 +6272,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jolǟndz</l>
@@ -6085,7 +6303,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">joudzi</l>
@@ -6123,7 +6340,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">joutõm</l>
@@ -6161,7 +6377,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">joʼugarri</l>
@@ -6195,7 +6410,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">joʼuļiki</l>
@@ -6227,7 +6441,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">joʼvvi</l>
@@ -6259,7 +6472,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">joʼvļiki</l>
@@ -6291,7 +6503,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jukšlimi</l>
@@ -6323,7 +6534,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">julgi</l>
@@ -6367,7 +6577,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">julgli</l>
@@ -6403,7 +6612,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">julgõ</l>
@@ -6443,7 +6651,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jumāli</l>
@@ -6475,7 +6682,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jumālkartli</l>
@@ -6509,7 +6715,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jumālvastli</l>
@@ -6541,7 +6746,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jurg</l>
@@ -6597,7 +6801,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jutā</l>
@@ -6631,7 +6834,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">juļgi</l>
@@ -6665,7 +6867,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">järsk</l>
@@ -6697,7 +6898,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jõugi</l>
@@ -6729,7 +6929,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jõugõkǭrali</l>
@@ -6767,7 +6966,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jõvā</l>
@@ -6823,7 +7021,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jõvāmēļi</l>
@@ -6885,7 +7082,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jõvāpūoļi</l>
@@ -6919,7 +7115,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jõvāsidāmli</l>
@@ -6951,7 +7146,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jūobõn</l>
@@ -6989,7 +7183,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jūokšõb</l>
@@ -7021,7 +7214,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jūrlimi</l>
@@ -7055,7 +7247,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">jǭʼdõn</l>
@@ -7087,7 +7278,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kabāļi</l>
@@ -7121,7 +7311,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kakškõrdi</l>
@@ -7153,7 +7342,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kalki</l>
@@ -7185,7 +7373,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kandlimi</l>
@@ -7217,7 +7404,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kandzi</l>
@@ -7249,7 +7435,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kangti</l>
@@ -7337,7 +7522,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kangtõ</l>
@@ -7411,7 +7595,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kanāsoʼugdõ</l>
@@ -7443,7 +7626,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaprīz</l>
@@ -7479,7 +7661,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kardi</l>
@@ -7511,7 +7692,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kardi</l>
@@ -7545,7 +7725,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">karri</l>
@@ -7587,7 +7766,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kartli</l>
@@ -7619,7 +7797,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kartõb</l>
@@ -7651,7 +7828,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kastūgi</l>
@@ -7683,7 +7859,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">katkāstõd</l>
@@ -7715,7 +7890,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kazātõmõt</l>
@@ -7749,7 +7923,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaņmi</l>
@@ -7781,7 +7954,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaņīpi</l>
@@ -7815,7 +7987,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaņțlimi</l>
@@ -7875,7 +8046,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kațki</l>
@@ -7911,7 +8081,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaʼd</l>
@@ -7943,7 +8112,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaʼdli</l>
@@ -7979,7 +8147,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaʼdmēļi</l>
@@ -8015,7 +8182,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaʼdstõb</l>
@@ -8047,7 +8213,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaʼjkõrz</l>
@@ -8079,7 +8244,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaʼjli</l>
@@ -8111,7 +8275,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaʼrdi</l>
@@ -8189,7 +8352,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaʼzli</l>
@@ -8221,7 +8383,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kaʼžži</l>
@@ -8253,7 +8414,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">keppi</l>
@@ -8289,7 +8449,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">keppiji</l>
@@ -8325,7 +8484,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kesti</l>
@@ -8383,7 +8541,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">keʼžži</l>
@@ -8417,7 +8574,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kierdi</l>
@@ -8525,7 +8681,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kierdim</l>
@@ -8557,7 +8712,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kievādi</l>
@@ -8589,7 +8743,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kievām</l>
@@ -8623,7 +8776,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kievāmim</l>
@@ -8657,7 +8809,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kievāmmēļi</l>
@@ -8689,7 +8840,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kilmõn</l>
@@ -8729,7 +8879,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kilālizlõpsnā</l>
@@ -8761,7 +8910,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kimīļ</l>
@@ -8793,7 +8941,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kitsāz</l>
@@ -8827,7 +8974,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kiužiji</l>
@@ -8867,7 +9013,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kiļgi</l>
@@ -8907,7 +9052,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kiʼbḑi</l>
@@ -8991,7 +9135,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kiʼbḑi</l>
@@ -9027,7 +9170,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kiʼldzi</l>
@@ -9085,7 +9227,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kiʼlliji</l>
@@ -9119,7 +9260,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kiʼvlimi</l>
@@ -9153,7 +9293,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">klīen</l>
@@ -9191,7 +9330,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">klǭr</l>
@@ -9231,7 +9369,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">knap</l>
@@ -9271,7 +9408,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">knaš</l>
@@ -9361,7 +9497,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">knubā</l>
@@ -9393,7 +9528,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kolāz</l>
@@ -9425,7 +9559,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kolūz</l>
@@ -9457,7 +9590,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kommi</l>
@@ -9489,7 +9621,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">konsekvent</l>
@@ -9521,7 +9652,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">konstanti</l>
@@ -9555,7 +9685,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kougi</l>
@@ -9589,7 +9718,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kougõnnēji</l>
@@ -9621,7 +9749,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">koutļi</l>
@@ -9653,7 +9780,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kovāl</l>
@@ -9705,7 +9831,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">koʼggõrz</l>
@@ -9739,7 +9864,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kroʼblimi</l>
@@ -9779,7 +9903,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kräbīļ</l>
@@ -9811,7 +9934,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">krämpi</l>
@@ -9845,7 +9967,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">krõbīž</l>
@@ -9905,7 +10026,66 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">krīʼevõ</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">krīevõ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">vene</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">venäläinen</t>
+
+        <t pos="A">venäläis-</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">krievu</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="A">krīʼevõkēļi</l>
+
+      <stg>
+        <st Contlex="A_TŪĻI">krīevõ#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">venekeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">venäjänkielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">krievu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">krǭipi</l>
@@ -9939,7 +10119,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kubbõkõlbiji</l>
@@ -9979,7 +10158,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kudātõd</l>
@@ -10015,7 +10193,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuijõǭʼdõrz</l>
@@ -10053,7 +10230,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuldi</l>
@@ -10087,7 +10263,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">kultūristōrili</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">kultūr#istōrili</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">kultuurilooline</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">kulttuurihistoriallinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">kultūrvēsturisks</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">kunāgi</l>
@@ -10119,7 +10323,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuodāli</l>
@@ -10155,7 +10358,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmjaļgi</l>
@@ -10189,7 +10391,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmkabāli</l>
@@ -10225,7 +10426,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmkūi</l>
@@ -10257,7 +10457,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmkūli</l>
@@ -10291,7 +10490,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmkǭrali</l>
@@ -10325,7 +10523,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmkȭrdali</l>
@@ -10357,7 +10554,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmnūrkali</l>
@@ -10389,7 +10585,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmpēļi</l>
@@ -10421,7 +10616,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmpūoļi</l>
@@ -10453,7 +10647,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuolmvīți</l>
@@ -10487,7 +10680,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuorbõn</l>
@@ -10525,7 +10717,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuordi</l>
@@ -10561,7 +10752,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuordõ</l>
@@ -10603,7 +10793,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuoʼddi</l>
@@ -10635,7 +10824,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuoʼdli</l>
@@ -10669,7 +10857,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuplā</l>
@@ -10703,7 +10890,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kurli</l>
@@ -10735,7 +10921,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kurā</l>
@@ -10773,7 +10958,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kurāpūoļi</l>
@@ -10809,7 +10993,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuʼbbi</l>
@@ -10841,7 +11024,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuʼbbiji</l>
@@ -10873,7 +11055,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuʼdlimi</l>
@@ -10905,7 +11086,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuʼdtõd</l>
@@ -10937,7 +11117,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kuʼŗŗi</l>
@@ -10971,7 +11150,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">käbrāz</l>
@@ -11009,7 +11187,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kätāmīedõ</l>
@@ -11043,7 +11220,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">käʼddõsǭdõb</l>
@@ -11075,7 +11251,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">käʼdgouți</l>
@@ -11109,7 +11284,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">käʼdpieʼrri</l>
@@ -11143,7 +11317,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">käʼrzi</l>
@@ -11183,7 +11356,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kõlbõmõt</l>
@@ -11215,7 +11387,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kõlā-kõlā</l>
@@ -11249,7 +11420,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kõnklimi</l>
@@ -11281,7 +11451,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kõrdi</l>
@@ -11313,7 +11482,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kõuvi</l>
@@ -11349,7 +11517,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kõʼl</l>
@@ -11387,7 +11554,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kõʼuri</l>
@@ -11425,7 +11591,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kõʼurõ</l>
@@ -11463,7 +11628,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kõʼzzi</l>
@@ -11521,7 +11685,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kāltsa</l>
@@ -11555,7 +11718,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kāndatli</l>
@@ -11589,7 +11751,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kāndatõb</l>
@@ -11621,7 +11782,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kāndatõb</l>
@@ -11653,7 +11813,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kāndatõmõt</l>
@@ -11685,7 +11844,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kārtabi</l>
@@ -11719,7 +11877,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kērabi</l>
@@ -11777,7 +11934,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kēriņi</l>
@@ -11809,7 +11965,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kēļi</l>
@@ -11841,7 +11996,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kēņigli</l>
@@ -11873,7 +12027,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīebi</l>
@@ -11907,7 +12060,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīelli</l>
@@ -11939,7 +12091,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīeltõd</l>
@@ -11971,7 +12122,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīeri</l>
@@ -12005,7 +12155,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīerlimi</l>
@@ -12063,7 +12212,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīlma</l>
@@ -12095,7 +12243,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīlmaveʼrri</l>
@@ -12129,7 +12276,66 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">kīnõ</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">kīnõ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">hiina</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">kiinalainen</t>
+
+        <t pos="A">kiinalais-</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">ķīniešu</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="A">kīnõkēļi</l>
+
+      <stg>
+        <st Contlex="A_TŪĻI">kīnõ#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">hiinakeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">kiinankielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">ķīniešu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">kīskli</l>
@@ -12161,7 +12367,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kītõb</l>
@@ -12193,7 +12398,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīviji</l>
@@ -12225,7 +12429,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīļaz</l>
@@ -12261,7 +12464,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kīņḑõļi</l>
@@ -12293,7 +12495,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kōgaznǟʼdzi</l>
@@ -12327,7 +12528,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kōgazulātõb</l>
@@ -12361,7 +12561,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kōgaŗi</l>
@@ -12393,7 +12592,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kōgi</l>
@@ -12429,7 +12627,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kōgim</l>
@@ -12461,7 +12658,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kōgiņvȯʼddõltõd</l>
@@ -12493,7 +12689,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kōgiņāigali</l>
@@ -12549,7 +12744,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kōltsakõz</l>
@@ -12587,7 +12781,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kōnõsvīți</l>
@@ -12619,7 +12812,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūdklas</l>
@@ -12653,7 +12845,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūi</l>
@@ -12685,7 +12876,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūja</l>
@@ -12737,7 +12927,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">kūjastõd</l>
 
+      <stg>
+        <st Contlex="A_TAPTÕD">kūjastõd</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A">suitsetatud</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">savustettu</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">žāvēts</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">kūldakarrõ</l>
@@ -12769,7 +12987,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūldli</l>
@@ -12801,7 +13018,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūldzi</l>
@@ -12841,7 +13057,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūlzi</l>
@@ -12879,7 +13094,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūlõmõt</l>
@@ -12913,7 +13127,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūmi</l>
@@ -12945,7 +13158,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūoli</l>
@@ -12981,7 +13193,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūoliji</l>
@@ -13017,7 +13228,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūolõn</l>
@@ -13049,7 +13259,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūorali</l>
@@ -13085,7 +13294,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūožli</l>
@@ -13125,7 +13333,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūožpēļi</l>
@@ -13165,7 +13372,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūteʼbbi</l>
@@ -13197,7 +13403,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūzi</l>
@@ -13229,7 +13434,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūʼjlimi</l>
@@ -13267,7 +13471,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūʼoḑi</l>
@@ -13299,7 +13502,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūʼoḑizsidāmli</l>
@@ -13333,7 +13535,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kūʼoḑõni</l>
@@ -13367,7 +13568,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǟrani</l>
@@ -13401,7 +13601,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭraz</l>
@@ -13433,7 +13632,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdistimi</l>
@@ -13465,7 +13663,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdjaļgi</l>
@@ -13499,7 +13696,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdkiļgi</l>
@@ -13531,7 +13727,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">kǭʼdkēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">kǭʼd#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">kakskeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">kaksikielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">divvalodīgs</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">kǭʼdkēļi</l>
@@ -13569,7 +13793,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdkūi</l>
@@ -13603,7 +13826,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdkȭrdali</l>
@@ -13637,7 +13859,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdli</l>
@@ -13675,7 +13896,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdlimi</l>
@@ -13711,7 +13931,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdmõtli</l>
@@ -13745,7 +13964,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdnädīļi</l>
@@ -13777,7 +13995,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdpumpi</l>
@@ -13809,7 +14026,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdpēļi</l>
@@ -13845,7 +14061,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdpūoļi</l>
@@ -13879,7 +14094,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdti</l>
@@ -13915,7 +14129,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdtierāli</l>
@@ -13947,7 +14160,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdõksstuņḑi</l>
@@ -13979,7 +14191,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdāigasti</l>
@@ -14013,7 +14224,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kǭʼdštõb</l>
@@ -14049,7 +14259,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kȭlbatõb</l>
@@ -14151,7 +14360,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kȭli</l>
@@ -14185,7 +14393,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kȭrdali</l>
@@ -14221,7 +14428,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kȭrdali</l>
@@ -14257,7 +14463,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kȭrkaz</l>
@@ -14319,7 +14524,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">kȭŗka</l>
@@ -14381,7 +14585,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ladūz</l>
@@ -14415,7 +14618,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laid</l>
@@ -14497,7 +14699,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laigā</l>
@@ -14531,7 +14732,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laigāaʼiglimi</l>
@@ -14563,7 +14763,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laigāli</l>
@@ -14597,7 +14796,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laigāpūʼoji</l>
@@ -14629,7 +14827,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laigāvȯiti</l>
@@ -14663,7 +14860,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laigīm</l>
@@ -14695,7 +14891,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laik</l>
@@ -14735,7 +14930,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laintlimi</l>
@@ -14769,7 +14963,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lajā</l>
@@ -14809,7 +15002,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lakkõn</l>
@@ -14843,7 +15035,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">lapkēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">lap#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">saamikeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">saamenkielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">sāmu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">lapsli</l>
@@ -14879,7 +15099,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lapsvīți</l>
@@ -14915,7 +15134,66 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">latīņ</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">latīņ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">ladina</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">latinalainen</t>
+
+        <t pos="A">latinalais-</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">latīņu</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="A">latīņkēļi</l>
+
+      <stg>
+        <st Contlex="A_TŪĻI">latīņ#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">ladinakeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">latinankielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">latīņu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">laʼgdi</l>
@@ -14949,7 +15227,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laʼgdõ</l>
@@ -14987,7 +15264,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laʼigit</l>
@@ -15021,7 +15297,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laʼigli</l>
@@ -15053,7 +15328,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">laʼiglimi</l>
@@ -15089,7 +15363,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">leiškēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">leiš#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">leedukeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">liettuankielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">lietuviešu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">lejāli</l>
@@ -15147,7 +15449,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lem</l>
@@ -15179,7 +15480,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lemp</l>
@@ -15215,7 +15515,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lemveʼrlimi</l>
@@ -15247,7 +15546,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leņtš</l>
@@ -15281,7 +15579,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lețkēļi</l>
@@ -15313,7 +15610,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lețli</l>
@@ -15347,7 +15643,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leʼbkaʼzzõn</l>
@@ -15379,7 +15674,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leʼbkaʼžži</l>
@@ -15415,7 +15709,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leʼbleʼbbi</l>
@@ -15453,7 +15746,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leʼbvīdõb</l>
@@ -15487,7 +15779,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leʼjji</l>
@@ -15519,7 +15810,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leʼžgli</l>
@@ -15551,7 +15841,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leʼžgõli</l>
@@ -15585,7 +15874,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leʼžgõlimi</l>
@@ -15619,7 +15907,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">leʼžgõlnēji</l>
@@ -15655,7 +15942,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">liepli</l>
@@ -15691,7 +15977,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lieppi</l>
@@ -15723,7 +16008,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lieʼggi</l>
@@ -15759,7 +16043,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">likkiji</l>
@@ -15793,7 +16076,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">likkõmõt</l>
@@ -15825,7 +16107,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">liktāb</l>
@@ -15859,7 +16140,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lilla</l>
@@ -15893,7 +16173,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lindbrī</l>
@@ -15927,7 +16206,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lindsipšlimi</l>
@@ -15961,7 +16239,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lipšāb</l>
@@ -15993,7 +16270,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">liʼbḑi</l>
@@ -16045,7 +16321,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">liʼbḑizkēļi</l>
@@ -16079,7 +16354,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">liʼmmi</l>
@@ -16117,7 +16391,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lodžā</l>
@@ -16153,7 +16426,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lomākõz</l>
@@ -16187,7 +16459,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">loppõn</l>
@@ -16221,7 +16492,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">loptāmõt</l>
@@ -16259,7 +16529,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lotšõn</l>
@@ -16293,7 +16562,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lougli</l>
@@ -16353,7 +16621,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">loʼddõr</l>
@@ -16385,7 +16652,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">loʼḑ</l>
@@ -16419,7 +16685,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">loʼḑ</l>
@@ -16451,7 +16716,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luini</l>
@@ -16507,7 +16771,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lumīzvālda</l>
@@ -16543,7 +16806,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lunklimi</l>
@@ -16577,7 +16839,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luoik</l>
@@ -16611,7 +16872,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luoiki</l>
@@ -16665,7 +16925,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luoiklimi</l>
@@ -16699,7 +16958,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lušti</l>
@@ -16737,7 +16995,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luštīg</l>
@@ -16779,7 +17036,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luštīgõl</l>
@@ -16811,7 +17067,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luʼgdõb</l>
@@ -16847,7 +17102,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luʼggõmõt</l>
@@ -16883,7 +17137,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luʼmmi</l>
@@ -16915,7 +17168,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luʼmvālda</l>
@@ -16951,7 +17203,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">luʼņḑžiji</l>
@@ -16985,7 +17236,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">läkā</l>
@@ -17021,7 +17271,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lämmi</l>
@@ -17055,7 +17304,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">läppõn</l>
@@ -17093,7 +17341,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">läpātõn</l>
@@ -17127,7 +17374,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lõbāz</l>
@@ -17161,7 +17407,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lõpsnā</l>
@@ -17195,7 +17440,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lāiska</l>
@@ -17229,7 +17473,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lāistaji</l>
@@ -17267,7 +17510,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lāitaji</l>
@@ -17301,7 +17543,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lāitamõt</l>
@@ -17333,7 +17574,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lāška</l>
@@ -17369,7 +17609,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">līebzi</l>
@@ -17407,7 +17646,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">līemzi</l>
@@ -17441,7 +17679,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">līezlimi</l>
@@ -17473,7 +17710,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">līngaz</l>
@@ -17517,7 +17753,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">līti</l>
@@ -17549,7 +17784,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lītizjaļgi</l>
@@ -17581,7 +17815,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lītiztabāŗi</l>
@@ -17613,7 +17846,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lītizāigali</l>
@@ -17645,7 +17877,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lītnēji</l>
@@ -17681,7 +17912,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">līvõkēļi</l>
@@ -17715,7 +17945,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">līʼebi</l>
@@ -17763,7 +17992,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">līʼedpūoļi</l>
@@ -17795,7 +18023,37 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">lōnkaz</l>
 
+      <stg>
+        <st Contlex="A_ĀMBAZ">lōnka</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">lombakas</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">ontuva</t>
+
+        <t pos="A">nilkku</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">klibs</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">lōrkatõks</l>
@@ -17831,7 +18089,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lūi</l>
@@ -17887,7 +18144,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lūki</l>
@@ -17919,7 +18175,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lūoli</l>
@@ -17951,7 +18206,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lūos</l>
@@ -17985,7 +18239,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lūotõmõt</l>
@@ -18019,7 +18272,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lǟlam</l>
@@ -18099,7 +18351,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lǟlammēļi</l>
@@ -18131,7 +18382,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lǟlamvīți</l>
@@ -18163,7 +18413,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lǟʼnd</l>
@@ -18195,7 +18444,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lǟʼndzāigastli</l>
@@ -18229,7 +18477,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lǟʼndzīe</l>
@@ -18261,7 +18508,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lǭʼigi</l>
@@ -18299,7 +18545,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lǭʼiglimi</l>
@@ -18337,7 +18582,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lȭigali</l>
@@ -18369,7 +18613,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">lȭinagmǭļi</l>
@@ -18403,7 +18646,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">madāli</l>
@@ -18435,7 +18677,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">madāltiji</l>
@@ -18467,7 +18708,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">maigāz</l>
@@ -18501,7 +18741,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">maistǭtli</l>
@@ -18533,7 +18772,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">maitsi</l>
@@ -18567,7 +18805,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">maitõn</l>
@@ -18601,7 +18838,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">makstõd</l>
@@ -18637,7 +18873,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">maʼgnetli</l>
@@ -18669,7 +18904,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">maʼgḑi</l>
@@ -18725,7 +18959,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">maʼgḑiappõn</l>
@@ -18757,7 +18990,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">maʼgḑizvīți</l>
@@ -18789,7 +19021,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">maʼgḑõ</l>
@@ -18825,7 +19056,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">merk</l>
@@ -18865,7 +19095,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mettõrpitkit</l>
@@ -18899,7 +19128,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">metālli</l>
@@ -18935,7 +19163,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">meʼžži</l>
@@ -18995,7 +19222,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mieʼddi</l>
@@ -19027,7 +19253,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mieʼrlimi</l>
@@ -19061,7 +19286,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mieʼrnaʼigi</l>
@@ -19095,7 +19319,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">miklā</l>
@@ -19129,7 +19352,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">militārli</l>
@@ -19161,7 +19383,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mingi</l>
@@ -19195,7 +19416,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mingi-äʼbmingi</l>
@@ -19233,7 +19453,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mingisuʼglimi</l>
@@ -19265,7 +19484,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">missuʼglimi</l>
@@ -19297,7 +19515,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mitmõsuʼgli</l>
@@ -19331,7 +19548,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mittõtäuž</l>
@@ -19365,7 +19581,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">miʼnni</l>
@@ -19401,7 +19616,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">miʼnvastāli</l>
@@ -19435,7 +19649,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">modǟrn</l>
@@ -19471,7 +19684,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">morāli</l>
@@ -19503,7 +19715,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muini</l>
@@ -19539,7 +19750,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muinizaigi</l>
@@ -19571,7 +19781,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muiniznīžli</l>
@@ -19605,7 +19814,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muinizēsti</l>
@@ -19637,7 +19845,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mulli</l>
@@ -19669,7 +19876,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">munāvīți</l>
@@ -19703,7 +19909,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">murāgli</l>
@@ -19757,7 +19962,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">murāstõn</l>
@@ -19793,7 +19997,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">murīzmēļi</l>
@@ -19825,7 +20028,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muslikki</l>
@@ -19865,7 +20067,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mustlikki</l>
@@ -19903,7 +20104,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mustā</l>
@@ -19961,7 +20161,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mustāibūkslimi</l>
@@ -19993,7 +20192,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muzikāli</l>
@@ -20025,7 +20223,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muŗgi</l>
@@ -20057,7 +20254,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muʼidliji</l>
@@ -20089,7 +20285,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muʼrri</l>
@@ -20127,7 +20322,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muʼrtõmõt</l>
@@ -20159,7 +20353,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">muʼļki</l>
@@ -20195,7 +20388,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">märgi</l>
@@ -20251,7 +20443,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">märgõn</l>
@@ -20283,7 +20474,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mätskõz</l>
@@ -20323,7 +20513,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mätāļi</l>
@@ -20357,7 +20546,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mäʼdaigi</l>
@@ -20395,7 +20583,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mäʼddi</l>
@@ -20429,7 +20616,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mäʼdsuʼglimi</l>
@@ -20463,7 +20649,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mäʼglimi</l>
@@ -20497,7 +20682,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mäʼrri</l>
@@ -20531,7 +20715,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõiti</l>
@@ -20563,7 +20746,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõltsi</l>
@@ -20599,7 +20781,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõltslikki</l>
@@ -20631,7 +20812,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõtli</l>
@@ -20663,7 +20843,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõtlõmõt</l>
@@ -20697,7 +20876,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõtmõt</l>
@@ -20729,7 +20907,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõtslimi</l>
@@ -20761,7 +20938,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõttõltõd</l>
@@ -20793,7 +20969,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõʼggiji</l>
@@ -20825,7 +21000,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mõʼŗžiji</l>
@@ -20857,7 +21031,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mīeldzi</l>
@@ -20893,7 +21066,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mīeldõb</l>
@@ -20931,7 +21103,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mīelpieʼrri</l>
@@ -20989,7 +21160,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mīʼeli</l>
@@ -21023,7 +21193,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mīʼerig</l>
@@ -21059,7 +21228,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūkēļi</l>
@@ -21097,7 +21265,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūldali</l>
@@ -21135,7 +21302,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūndasuʼglimi</l>
@@ -21167,7 +21333,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūodig</l>
@@ -21217,7 +21382,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūodzig</l>
@@ -21267,7 +21431,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūpi</l>
@@ -21299,7 +21462,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūrdaji</l>
@@ -21331,7 +21493,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūrdamõt</l>
@@ -21363,7 +21524,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūsuʼglimi</l>
@@ -21397,7 +21557,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mūʼodrig</l>
@@ -21429,7 +21588,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mǟʼdõn</l>
@@ -21463,7 +21621,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mǟʼmi</l>
@@ -21499,7 +21656,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mǟʼmõ</l>
@@ -21535,7 +21691,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mǭi</l>
@@ -21589,7 +21744,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mǭnaʼlli</l>
@@ -21621,7 +21775,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mǭpēļi</l>
@@ -21653,7 +21806,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mǭpūoļi</l>
@@ -21687,7 +21839,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mǭzõr</l>
@@ -21721,7 +21872,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mȯistli</l>
@@ -21805,7 +21955,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mȯʼjji</l>
@@ -21837,7 +21986,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mȯʼjli</l>
@@ -21871,7 +22019,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">mȯʼlmõdpūoļi</l>
@@ -21903,7 +22050,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">naivi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">naivi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">naiivne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">naiivi</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">naivs</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">naizli</l>
@@ -21935,7 +22110,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">narmi</l>
@@ -21969,7 +22143,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">natsionāl</l>
@@ -22001,7 +22174,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">negatīv</l>
@@ -22033,7 +22205,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">neitsli</l>
@@ -22065,7 +22236,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">neʼinuttõd</l>
@@ -22097,7 +22267,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">niʼzzi</l>
@@ -22131,7 +22300,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">normāl</l>
@@ -22165,7 +22333,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">norvēgkēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">norvēg#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">norrakeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">norjankielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">norvēģu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">noʼugi</l>
@@ -22203,7 +22399,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nukkõr</l>
@@ -22237,7 +22432,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nurklimi</l>
@@ -22269,7 +22463,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nädīļi</l>
@@ -22307,7 +22500,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nägāļi</l>
@@ -22345,7 +22537,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nägūz</l>
@@ -22381,7 +22572,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">närbõn</l>
@@ -22439,7 +22629,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">närvi</l>
@@ -22471,7 +22660,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nätski</l>
@@ -22511,7 +22699,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nõrkõn</l>
@@ -22543,7 +22730,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nõrī</l>
@@ -22575,7 +22761,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nõtkāz</l>
@@ -22607,7 +22792,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nõʼddõr</l>
@@ -22645,7 +22829,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nõʼddõruskli</l>
@@ -22679,7 +22862,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nõʼggiļi</l>
@@ -22715,7 +22897,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nõʼŗŗi</l>
@@ -22747,7 +22928,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nēļaistmõli</l>
@@ -22779,7 +22959,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nēļajaļgi</l>
@@ -22811,7 +22990,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nēļakaņțlimi</l>
@@ -22843,7 +23021,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nēļakūi</l>
@@ -22875,7 +23052,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nēļakȭrdali</l>
@@ -22907,7 +23083,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nēļanūrkali</l>
@@ -22939,7 +23114,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nēļaāigastli</l>
@@ -22971,7 +23145,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nīlba</l>
@@ -23005,7 +23178,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nīski</l>
@@ -23037,7 +23209,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nīstõn</l>
@@ -23097,7 +23268,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nōbõl</l>
@@ -23133,7 +23303,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nūoŗ</l>
@@ -23169,7 +23338,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nǟlga</l>
@@ -23203,7 +23371,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nǟlgaļi</l>
@@ -23235,7 +23402,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nǟlgaļi</l>
@@ -23267,7 +23433,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nǟmõt</l>
@@ -23299,7 +23464,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nǟʼdõb</l>
@@ -23333,7 +23497,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nǭļaz</l>
@@ -23367,7 +23530,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nǭʼgi</l>
@@ -23401,7 +23563,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nȭrka</l>
@@ -23437,7 +23598,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nȭŗka</l>
@@ -23473,7 +23633,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">nȭŗkaz</l>
@@ -23507,7 +23666,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">objektīvi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">objektīvi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">objektiivne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">objektiivinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">objektīvs</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">obligāt</l>
@@ -23539,7 +23726,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">obāz</l>
@@ -23575,7 +23761,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">obāļi</l>
@@ -23611,7 +23796,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oksāli</l>
@@ -23645,7 +23829,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oudõn</l>
@@ -23677,7 +23860,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ouki</l>
@@ -23713,7 +23895,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oukli</l>
@@ -23745,7 +23926,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ouklimi</l>
@@ -23783,7 +23963,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ovār</l>
@@ -23823,7 +24002,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ovār</l>
@@ -23857,7 +24035,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ovāri</l>
@@ -23895,7 +24072,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ovārim</l>
@@ -23935,7 +24111,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvkartli</l>
@@ -23967,7 +24142,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvli</l>
@@ -23999,7 +24173,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvstõb</l>
@@ -24061,7 +24234,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvstõd</l>
@@ -24103,7 +24275,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvtõb</l>
@@ -24167,7 +24338,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvtõd</l>
@@ -24209,7 +24379,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvtǭʼji</l>
@@ -24241,7 +24410,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvvi</l>
@@ -24277,7 +24445,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvvǟrtli</l>
@@ -24309,7 +24476,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">oʼvzli</l>
@@ -24341,7 +24507,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pagāni</l>
@@ -24373,7 +24538,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pai</l>
@@ -24411,7 +24575,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paindli</l>
@@ -24443,7 +24606,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paistõn</l>
@@ -24477,7 +24639,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pakkiļi</l>
@@ -24513,7 +24674,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pakli</l>
@@ -24547,7 +24707,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pakāndi</l>
@@ -24609,7 +24768,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paldīņi</l>
@@ -24641,7 +24799,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paldīņizaigi</l>
@@ -24677,7 +24834,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paldīņizāigali</l>
@@ -24713,7 +24869,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paldīņli</l>
@@ -24745,7 +24900,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paralel</l>
@@ -24777,7 +24931,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">parām</l>
@@ -24809,7 +24962,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">parāmmēļi</l>
@@ -24843,7 +24995,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">parāz</l>
@@ -24879,7 +25030,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">parāzāigali</l>
@@ -24919,7 +25069,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paski</l>
@@ -24975,7 +25124,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">patli</l>
@@ -25007,7 +25155,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paļļõjalgi</l>
@@ -25039,7 +25186,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paļļõsǟrlimi</l>
@@ -25071,7 +25217,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paņlimi</l>
@@ -25103,7 +25248,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paŗī</l>
@@ -25137,7 +25281,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paŗīm</l>
@@ -25169,7 +25312,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paššiji</l>
@@ -25203,7 +25345,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">paʼglimi</l>
@@ -25235,7 +25376,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">pedagōgli</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">pedagōgli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">pedagoogiline</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">pedagoginen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">pedagoģisks</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">periōdli</l>
@@ -25269,7 +25438,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">personāli</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">personāli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">personaalne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">henkilökohtainen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">personāls</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">perīņi</l>
@@ -25305,7 +25502,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">peʼbbõrz</l>
@@ -25361,7 +25557,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">peʼrri</l>
@@ -25417,7 +25612,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pidātõb</l>
@@ -25453,7 +25647,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">piedāgi</l>
@@ -25489,7 +25682,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pierāndmǭli</l>
@@ -25527,7 +25719,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pietli</l>
@@ -25561,7 +25752,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pieʼrri</l>
@@ -25593,7 +25783,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pieʼrrõlȭinagstaigi</l>
@@ -25625,7 +25814,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pieʼrrõlȭinagstāigali</l>
@@ -25661,7 +25849,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pieʼrrõsuodā</l>
@@ -25693,7 +25880,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pieʼrrõsuodāaigi</l>
@@ -25729,7 +25915,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pieʼrrõsuodāāigali</l>
@@ -25765,7 +25950,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pikki</l>
@@ -25797,7 +25981,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pilkli</l>
@@ -25829,7 +26012,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pippõri</l>
@@ -25861,7 +26043,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pipāļikki</l>
@@ -25895,7 +26076,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pistlimi</l>
@@ -25951,7 +26131,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pitklimi</l>
@@ -25985,7 +26164,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pitkā</l>
@@ -26019,7 +26197,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pitkāli</l>
@@ -26075,7 +26252,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pitkāmēļi</l>
@@ -26107,7 +26283,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pitkāvīți</l>
@@ -26139,7 +26314,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pitkīm</l>
@@ -26173,7 +26347,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pivā</l>
@@ -26205,7 +26378,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pivāli</l>
@@ -26257,7 +26429,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pivālim</l>
@@ -26289,7 +26460,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">piļļi</l>
@@ -26323,7 +26493,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">piški</l>
@@ -26357,7 +26526,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">piškīm</l>
@@ -26389,7 +26557,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">piʼmdi</l>
@@ -26425,7 +26592,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">piʼmdõ</l>
@@ -26485,7 +26651,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pleklimi</l>
@@ -26519,7 +26684,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ploʼggi</l>
@@ -26555,7 +26719,37 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">populāri</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">populāri</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">populaarne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">populaari</t>
+
+        <t pos="A">suosittu</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">populārs</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">possõn</l>
@@ -26597,7 +26791,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pozitīv</l>
@@ -26629,7 +26822,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">poțāsiʼņņi</l>
@@ -26661,7 +26853,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">prantsuzkēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">prantsuz#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">prantsuskeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">ranskankielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">franču valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">priš</l>
@@ -26717,7 +26937,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">profesionāli</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">profesionāli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">professionaalne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">professionaalinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">profesionāls</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">prost</l>
@@ -26753,7 +27001,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">puini</l>
@@ -26795,7 +27042,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">punīzplagāli</l>
@@ -26827,7 +27073,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">punīzpȯski</l>
@@ -26859,7 +27104,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">puțklimi</l>
@@ -26891,7 +27135,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">puʼdõstveʼrri</l>
@@ -26923,7 +27166,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">puʼnlikki</l>
@@ -26957,7 +27199,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">puʼnlikīzbrūni</l>
@@ -26989,7 +27230,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">puʼnni</l>
@@ -27043,7 +27283,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pästāmõt</l>
@@ -27075,7 +27314,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">põnkti</l>
@@ -27111,7 +27349,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">põrmi</l>
@@ -27145,7 +27382,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">põzāgi</l>
@@ -27181,7 +27417,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pāikali</l>
@@ -27213,7 +27448,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pāinatli</l>
@@ -27247,7 +27481,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pēļi</l>
@@ -27279,7 +27512,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pīenti</l>
@@ -27331,7 +27563,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pīentõ</l>
@@ -27379,7 +27610,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pīenõsttundiji</l>
@@ -27411,7 +27641,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pīkstiji</l>
@@ -27443,7 +27672,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pīndali</l>
@@ -27479,7 +27707,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pīrgaļi</l>
@@ -27511,7 +27738,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pīʼemdõ</l>
@@ -27543,7 +27769,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pīʼep</l>
@@ -27575,7 +27800,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pīʼldzi</l>
@@ -27659,7 +27883,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pļänk</l>
@@ -27697,7 +27920,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūi</l>
@@ -27729,7 +27951,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūiklimi</l>
@@ -27763,7 +27984,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūmpa</l>
@@ -27797,7 +28017,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūoligāli</l>
@@ -27829,7 +28048,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūolimmõrgoutlimi</l>
@@ -27861,7 +28079,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūolkaʼzzõn</l>
@@ -27893,7 +28110,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūolmēļi</l>
@@ -27929,7 +28145,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūolpiʼmdõ</l>
@@ -27961,7 +28176,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūoltäuž</l>
@@ -27993,7 +28207,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūoltīʼedõd</l>
@@ -28029,7 +28242,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūoltūorõz</l>
@@ -28065,7 +28277,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūoļi</l>
@@ -28097,7 +28308,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūtõb</l>
@@ -28131,7 +28341,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūʼdõstvīerda</l>
@@ -28163,7 +28372,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūʼdõz</l>
@@ -28263,7 +28471,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūʼglimi</l>
@@ -28297,7 +28504,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūʼojmi</l>
@@ -28333,7 +28539,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pūʼojpūoļi</l>
@@ -28369,7 +28574,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pǟgiņtǭžlimi</l>
@@ -28401,7 +28605,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pǟlõtikkiji</l>
@@ -28433,7 +28636,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pǟmi</l>
@@ -28465,7 +28667,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pǟvaļi</l>
@@ -28499,7 +28700,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pǭr</l>
@@ -28535,7 +28735,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pǭļaz</l>
@@ -28573,7 +28772,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pǭʼmi</l>
@@ -28611,7 +28809,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pǭʼmizpūoļi</l>
@@ -28643,7 +28840,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pȭda</l>
@@ -28683,7 +28879,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pȭdi</l>
@@ -28719,7 +28914,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pȭrandaʼlli</l>
@@ -28751,7 +28945,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pȭrna</l>
@@ -28789,7 +28982,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pȭzlimi</l>
@@ -28821,7 +29013,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pȯlgimizvǟrtli</l>
@@ -28857,7 +29048,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pȯlgli</l>
@@ -28889,7 +29079,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">pȯlgtõb</l>
@@ -28925,7 +29114,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rabā</l>
@@ -28961,7 +29149,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">raiklimi</l>
@@ -28993,7 +29180,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">raņțpūjaļgi</l>
@@ -29029,7 +29215,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">raʼbdõ</l>
@@ -29065,7 +29250,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">raʼnk</l>
@@ -29099,7 +29283,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">raʼzzi</l>
@@ -29145,7 +29328,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">reāl</l>
@@ -29183,7 +29365,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rikkõmõt</l>
@@ -29221,7 +29402,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">riktig</l>
@@ -29257,7 +29437,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rikābõn</l>
@@ -29291,7 +29470,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rikāli</l>
@@ -29329,7 +29507,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rikāz</l>
@@ -29381,7 +29558,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rištuskli</l>
@@ -29419,7 +29595,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rištīngli</l>
@@ -29451,7 +29626,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">riʼggi</l>
@@ -29485,7 +29659,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">riʼmtõ</l>
@@ -29523,7 +29696,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">roppi</l>
@@ -29609,7 +29781,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">roudi</l>
@@ -29641,7 +29812,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">roʼvdvaiʼdli</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">roʼvd#vaiʼdli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">rahvusvaheline</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">kansainvälinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">starptautisks</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">roʼvli</l>
@@ -29675,7 +29874,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">roʼvvi</l>
@@ -29709,7 +29907,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">roʼvvõdvaʼili</l>
@@ -29741,7 +29938,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rubīžaʼigi</l>
@@ -29777,7 +29973,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rubīžtaʼggi</l>
@@ -29809,7 +30004,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rudā</l>
@@ -29847,7 +30041,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rujā</l>
@@ -29879,7 +30072,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rujāli</l>
@@ -29919,7 +30111,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rumāli</l>
@@ -30015,7 +30206,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ruoiktõb</l>
@@ -30047,7 +30237,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rušk</l>
@@ -30113,7 +30302,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ruški</l>
@@ -30151,7 +30339,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">räppi</l>
@@ -30191,7 +30378,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rõkki</l>
@@ -30225,7 +30411,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rõʼuti</l>
@@ -30257,7 +30442,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rāndapūoli</l>
@@ -30289,7 +30473,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rēʼgiji</l>
@@ -30327,7 +30510,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rīemli</l>
@@ -30365,7 +30547,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rīeveļi</l>
@@ -30399,7 +30580,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rīț</l>
@@ -30435,7 +30615,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rōza</l>
@@ -30467,7 +30646,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rōzalikki</l>
@@ -30503,7 +30681,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rūogkuldi</l>
@@ -30539,7 +30716,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rūoguldi</l>
@@ -30573,7 +30749,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rūosti</l>
@@ -30605,7 +30780,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rūotš</l>
@@ -30639,7 +30813,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">rūotškēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">rūotš#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">rootsikeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">ruotsinkielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">zviedru valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">rūožlimi</l>
@@ -30671,7 +30873,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rūtlimi</l>
@@ -30703,7 +30904,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rǭgi</l>
@@ -30735,7 +30935,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rǭʼi</l>
@@ -30767,7 +30966,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rǭʼvi</l>
@@ -30799,7 +30997,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rȭmli</l>
@@ -30837,7 +31034,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rȭmzi</l>
@@ -30875,7 +31071,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">rȭskõ</l>
@@ -30909,7 +31104,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sadākȭrdali</l>
@@ -30941,7 +31135,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">saksā</l>
@@ -30975,7 +31168,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">saksākēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">saksā#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">saksakeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">saksankielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">vācu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">saksāli</l>
@@ -31007,7 +31228,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">salkõn</l>
@@ -31039,7 +31259,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">salā</l>
@@ -31091,7 +31310,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">samāti</l>
@@ -31125,7 +31343,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sangdi</l>
@@ -31159,7 +31376,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sangdõ</l>
@@ -31309,7 +31525,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sangdõvȯitõ</l>
@@ -31341,7 +31556,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sarlimi</l>
@@ -31373,7 +31587,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sarri</l>
@@ -31409,7 +31622,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">saņț</l>
@@ -31447,7 +31659,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">saʼgdi</l>
@@ -31479,7 +31690,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">saʼgdõ</l>
@@ -31517,7 +31727,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">saʼlli</l>
@@ -31549,7 +31758,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">semḑi</l>
@@ -31583,7 +31791,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setkēļi</l>
@@ -31615,7 +31822,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setkȭrdali</l>
@@ -31647,7 +31853,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setmiņkȭrdali</l>
@@ -31679,7 +31884,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setmiņsuʼgli</l>
@@ -31713,7 +31917,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setmiņtūʼonti</l>
@@ -31747,7 +31950,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setmiņtǭžlimi</l>
@@ -31781,7 +31983,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setmiņāigastli</l>
@@ -31813,7 +32014,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setpǟvaļi</l>
@@ -31845,7 +32045,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setsuʼglimi</l>
@@ -31877,7 +32076,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setzilblimi</l>
@@ -31913,7 +32111,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setāigastlimi</l>
@@ -31945,7 +32142,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">setēļi</l>
@@ -31977,7 +32173,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">seļtšli</l>
@@ -32009,7 +32204,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sidāli</l>
@@ -32071,7 +32265,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sidāmi</l>
@@ -32109,7 +32302,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sidāmli</l>
@@ -32143,7 +32335,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sidāmtāigali</l>
@@ -32175,7 +32366,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siedāvīți</l>
@@ -32211,7 +32401,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siegābõn</l>
@@ -32247,7 +32436,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sieldi</l>
@@ -32307,7 +32495,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sieldõ</l>
@@ -32455,7 +32642,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sieʼggi</l>
@@ -32487,7 +32673,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">silmõzpāistaji</l>
@@ -32519,7 +32704,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sindõn</l>
@@ -32551,7 +32735,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sipšli</l>
@@ -32589,7 +32772,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sipšlimi</l>
@@ -32627,7 +32809,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sirmi</l>
@@ -32659,7 +32840,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sitk</l>
@@ -32697,7 +32877,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sitkõz</l>
@@ -32729,7 +32908,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sizāldpēʼḑi</l>
@@ -32765,7 +32943,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sizāli</l>
@@ -32801,7 +32978,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sizālpēʼḑi</l>
@@ -32839,7 +33015,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siļgi</l>
@@ -32875,7 +33050,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siļmi</l>
@@ -32915,7 +33089,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siņīzsiļmi</l>
@@ -32947,7 +33120,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sižāli</l>
@@ -32989,7 +33161,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siʼgži</l>
@@ -33025,7 +33196,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siʼgžlimi</l>
@@ -33061,7 +33231,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siʼldzi</l>
@@ -33093,7 +33262,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siʼnni</l>
@@ -33127,7 +33295,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siʼnsuʼglimi</l>
@@ -33161,7 +33328,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siʼnvannʼit</l>
@@ -33195,7 +33361,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siʼņliki</l>
@@ -33227,7 +33392,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siʼņņi</l>
@@ -33291,7 +33455,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">siʼžži</l>
@@ -33323,7 +33486,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">skitsõn</l>
@@ -33357,7 +33519,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">skǭrgiļi</l>
@@ -33389,7 +33550,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">slikțõ</l>
@@ -33427,7 +33587,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">smagā</l>
@@ -33465,7 +33624,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">smekīg</l>
@@ -33497,7 +33655,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">smouļ</l>
@@ -33533,7 +33690,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">smīdõr</l>
@@ -33573,7 +33729,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">smǭršig</l>
@@ -33619,7 +33774,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">soppi</l>
@@ -33655,7 +33809,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">sotsiāli</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">sotsiāli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">sotsiaalne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">sosiaalinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">sociāls</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">soʼggi</l>
@@ -33693,7 +33875,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">soʼglimi</l>
@@ -33731,7 +33912,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">soʼugdi</l>
@@ -33763,7 +33943,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">soʼugdõ</l>
@@ -33801,7 +33980,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">soʼvdõn</l>
@@ -33837,7 +34015,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">soʼvvi</l>
@@ -33873,7 +34050,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">spetsiāl</l>
@@ -33907,7 +34083,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">spitskõ</l>
@@ -33941,7 +34116,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">spitš</l>
@@ -33979,7 +34153,66 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">spāņ</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">spāņ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">hispaania</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">espanjalainen</t>
+
+        <t pos="A">espanjalais-</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">spāņu</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="A">spāņkēļi</l>
+
+      <stg>
+        <st Contlex="A_TŪĻI">spāņ#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">hispaaniakeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">espanjankielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">spāņu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">spīʼḑiji</l>
@@ -34011,7 +34244,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">strīpli</l>
@@ -34047,7 +34279,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">strīplimi</l>
@@ -34083,7 +34314,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">suoļmi</l>
@@ -34115,7 +34345,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">suoļmli</l>
@@ -34149,7 +34378,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">suoḑīkšiji</l>
@@ -34183,7 +34411,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">suʼglimi</l>
@@ -34219,7 +34446,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">särni</l>
@@ -34255,7 +34481,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">säʼvvi</l>
@@ -34287,7 +34512,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sõbrāli</l>
@@ -34319,7 +34543,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sõbrīm</l>
@@ -34351,7 +34574,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sõnākūldzi</l>
@@ -34385,7 +34607,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sõnāstsõʼnni</l>
@@ -34419,7 +34640,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sõʼgļimi</l>
@@ -34451,7 +34671,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sõʼvvi</l>
@@ -34483,7 +34702,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sēmḑali</l>
@@ -34517,7 +34735,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sīedõb</l>
@@ -34549,7 +34766,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sīend</l>
@@ -34581,7 +34797,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sīesuʼglimi</l>
@@ -34617,7 +34832,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sīeāigali</l>
@@ -34651,7 +34865,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sīʼkstõ</l>
@@ -34691,7 +34904,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sīʼkstõ</l>
@@ -34727,7 +34939,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūli</l>
@@ -34779,7 +34990,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūoi</l>
@@ -34813,7 +35023,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūoli</l>
@@ -34845,7 +35054,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūomõ</l>
@@ -34879,7 +35087,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūomõ-uʼgrõ</l>
@@ -34911,7 +35118,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">sūomõkēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">sūomõ#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">soomekeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">suomenkielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">somu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">sūongi</l>
@@ -34943,7 +35178,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūoņi</l>
@@ -34977,7 +35211,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūr</l>
@@ -35053,7 +35286,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūrdõvīți</l>
@@ -35085,7 +35317,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūrkaʼzli</l>
@@ -35119,7 +35350,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūrli</l>
@@ -35173,7 +35403,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūrliki</l>
@@ -35205,7 +35434,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūrmi</l>
@@ -35237,7 +35465,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūrsuʼgli</l>
@@ -35271,7 +35498,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūsõnāli</l>
@@ -35307,7 +35533,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūŗim</l>
@@ -35341,7 +35566,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sūʼokõl</l>
@@ -35373,7 +35597,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sǭmaļi</l>
@@ -35405,7 +35628,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">sȭitaji</l>
@@ -35439,7 +35661,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tajā</l>
@@ -35473,7 +35694,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">talāntli</l>
@@ -35507,7 +35727,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">taptõb</l>
@@ -35539,7 +35758,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tazāmēļi</l>
@@ -35575,7 +35793,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">taʼggi</l>
@@ -35609,7 +35826,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">taʼzzi</l>
@@ -35671,7 +35887,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tergiļ</l>
@@ -35711,7 +35926,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">teʼblimi</l>
@@ -35747,7 +35961,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tieroudi</l>
@@ -35781,7 +35994,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tierāb</l>
@@ -35821,7 +36033,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tierābi</l>
@@ -35855,7 +36066,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tieudli</l>
@@ -35887,7 +36097,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tieudtõb</l>
@@ -35923,7 +36132,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tieudzli</l>
@@ -35955,7 +36163,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tieʼgli</l>
@@ -35987,7 +36194,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tijā</l>
@@ -36113,7 +36319,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tijāli</l>
@@ -36145,7 +36350,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tilp</l>
@@ -36177,7 +36381,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">tirkkēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">tirk#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">türgikeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">turkinkielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">turku valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">tiʼg</l>
@@ -36237,7 +36469,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tiʼnni</l>
@@ -36273,7 +36504,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tossi</l>
@@ -36307,7 +36537,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">touvi</l>
@@ -36343,7 +36572,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">touvõsiʼņņi</l>
@@ -36375,7 +36603,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">toļp</l>
@@ -36427,7 +36654,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">toņ</l>
@@ -36459,7 +36685,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">transitīv</l>
@@ -36497,7 +36722,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">trapšā</l>
@@ -36531,7 +36755,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tsaklimi</l>
@@ -36565,7 +36788,37 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">tsigīņkēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">tsigīņ#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">mustlaskeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">romanikielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">čigānu valodas-</t>
+
+        <t pos="A">romu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">tsukkõŗi</l>
@@ -36597,7 +36850,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tumši</l>
@@ -36635,7 +36887,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tumšõ</l>
@@ -36669,7 +36920,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tuoisti</l>
@@ -36705,7 +36955,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tuoʼdli</l>
@@ -36741,7 +36990,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tuʼlbi</l>
@@ -36787,7 +37035,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tuʼlbõ</l>
@@ -36833,7 +37080,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tuʼļļi</l>
@@ -36871,7 +37117,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tämmi</l>
@@ -36907,7 +37152,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tämpi</l>
@@ -36939,7 +37183,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">täudli</l>
@@ -36999,7 +37242,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">täudlimi</l>
@@ -37037,7 +37279,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">täudzi</l>
@@ -37073,7 +37314,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">täuž</l>
@@ -37131,7 +37371,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">täʼddi</l>
@@ -37167,7 +37406,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">täʼmmi</l>
@@ -37205,7 +37443,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tõrri</l>
@@ -37237,7 +37474,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tõurim</l>
@@ -37269,7 +37505,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tõurõz</l>
@@ -37301,7 +37536,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tõvā</l>
@@ -37357,7 +37591,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tārpali</l>
@@ -37391,7 +37624,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tēriņtõb</l>
@@ -37423,7 +37655,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tēʼdži</l>
@@ -37457,7 +37688,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tīera</l>
@@ -37519,7 +37749,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tīʼedõb</l>
@@ -37551,7 +37780,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tīʼeslimi</l>
@@ -37585,7 +37813,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tšougõn</l>
@@ -37621,7 +37848,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tšoļki</l>
@@ -37655,7 +37881,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tšōgõn</l>
@@ -37691,7 +37916,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tūima</l>
@@ -37773,7 +37997,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tūorõz</l>
@@ -37861,7 +38084,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tūoļi</l>
@@ -37897,7 +38119,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tūoņi</l>
@@ -37933,7 +38154,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tūrgi</l>
@@ -37969,7 +38189,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tūļi</l>
@@ -38001,7 +38220,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tǟʼdzi</l>
@@ -38039,7 +38257,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tǭžlimi</l>
@@ -38071,7 +38288,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tǭʼdõb</l>
@@ -38103,7 +38319,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tȭlza</l>
@@ -38159,7 +38374,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">tȭlzamēļi</l>
@@ -38191,7 +38405,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">uidi</l>
@@ -38225,7 +38438,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">uidloppõn</l>
@@ -38281,7 +38493,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ukkõlǟʼnd</l>
@@ -38319,7 +38530,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ukāz</l>
@@ -38353,7 +38563,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ul</l>
@@ -38393,7 +38602,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">umbi</l>
@@ -38493,7 +38701,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">umbõkērabi</l>
@@ -38525,7 +38732,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">unikāl</l>
 
+      <stg>
+        <st Contlex="A_TIDĀR">unikāl</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">unikaalne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">uniikki</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">unikāls</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">untlig</l>
@@ -38561,7 +38796,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">uskli</l>
@@ -38595,7 +38829,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ustõb</l>
@@ -38627,7 +38860,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ustātõb</l>
@@ -38659,7 +38891,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">uļļi</l>
@@ -38693,7 +38924,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">uʼddi</l>
@@ -38725,7 +38955,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">uʼmmi</l>
@@ -38769,7 +38998,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">uʼmmõ</l>
@@ -38813,7 +39041,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">uʼņņi</l>
@@ -38847,7 +39074,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">va</l>
@@ -38881,7 +39107,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vabā</l>
@@ -38913,7 +39138,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vabāilā</l>
@@ -38947,7 +39171,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vagā</l>
@@ -38985,7 +39208,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vagāmēļi</l>
@@ -39019,7 +39241,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vagāmīez</l>
@@ -39051,7 +39272,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaigā</l>
@@ -39083,7 +39303,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaimli</l>
@@ -39117,7 +39336,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vajāgli</l>
@@ -39149,7 +39367,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vanā</l>
@@ -39183,7 +39400,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">varāli</l>
@@ -39219,7 +39435,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vasti</l>
@@ -39277,7 +39492,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vastli</l>
@@ -39317,7 +39531,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vastõ</l>
@@ -39357,7 +39570,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vastõkuostāji</l>
@@ -39389,7 +39601,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vastāli</l>
@@ -39423,7 +39634,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vastūkspēḑi</l>
@@ -39457,7 +39667,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaļmõz</l>
@@ -39491,7 +39700,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaņīmi</l>
@@ -39523,7 +39731,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaški</l>
@@ -39555,7 +39762,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaʼili</l>
@@ -39613,7 +39819,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaʼimi</l>
@@ -39681,7 +39886,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaʼitõb</l>
@@ -39717,7 +39921,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaʼldziklilla</l>
@@ -39749,7 +39952,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaʼldzlikki</l>
@@ -39781,7 +39983,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaʼnbõn</l>
@@ -39817,7 +40018,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaʼnliki</l>
@@ -39853,7 +40053,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vaʼrri</l>
@@ -39889,7 +40088,64 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">vegetārli</l>
 
+      <stg>
+        <st Contlex="A_AʼBLI">vegetārli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">taimne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">vegetaarinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">veģetārisks</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="A">vegānli</l>
+
+      <stg>
+        <st Contlex="A_AʼBLI">vegānli</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">vegaaninen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">vegānisks</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">vegīm</l>
@@ -39921,7 +40177,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vegīzmīʼeli</l>
@@ -39953,7 +40208,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">veiti</l>
@@ -39989,7 +40243,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vertli</l>
@@ -40023,7 +40276,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">veʼggi</l>
@@ -40063,7 +40315,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">veʼggimi</l>
@@ -40101,7 +40352,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">veʼgtli</l>
@@ -40133,7 +40383,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">veʼrri</l>
@@ -40165,7 +40414,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vielli</l>
@@ -40201,7 +40449,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vieʼdaʼlli</l>
@@ -40233,7 +40480,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vieʼddõl</l>
@@ -40269,7 +40515,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vieʼdlimi</l>
@@ -40301,7 +40546,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vigāli</l>
@@ -40333,7 +40577,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">villi</l>
@@ -40387,7 +40630,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vingõr</l>
@@ -40423,7 +40665,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">virgzi</l>
@@ -40455,7 +40696,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vizā</l>
@@ -40557,7 +40797,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vizās</l>
@@ -40597,7 +40836,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">viš</l>
@@ -40633,7 +40871,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">viʼjji</l>
@@ -40665,7 +40902,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">viʼl</l>
@@ -40705,7 +40941,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vulgārli</l>
@@ -40743,7 +40978,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vändi</l>
@@ -40779,7 +41013,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">väng</l>
@@ -40813,7 +41046,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vängi</l>
@@ -40845,7 +41077,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">väʼgvāldali</l>
@@ -40877,7 +41108,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">võibi</l>
@@ -40913,7 +41143,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">võidõb</l>
@@ -40945,7 +41174,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">võimõt</l>
@@ -40977,7 +41205,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">võʼlli</l>
@@ -41011,7 +41238,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vālda</l>
@@ -41069,7 +41295,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vāldiņ</l>
@@ -41105,7 +41330,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vērtig</l>
@@ -41141,7 +41365,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vēļa</l>
@@ -41181,7 +41404,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vīdnūrkali</l>
@@ -41213,7 +41435,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vīdtūʼrlimi</l>
@@ -41245,7 +41466,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vīpšlimi</l>
@@ -41277,7 +41497,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vītšli</l>
@@ -41311,7 +41530,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vīți</l>
@@ -41353,7 +41571,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vīțli</l>
@@ -41391,7 +41608,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vīʼegiji</l>
@@ -41427,7 +41643,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vīʼri</l>
@@ -41459,7 +41674,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vīʼrliki</l>
@@ -41493,7 +41707,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǟrtli</l>
@@ -41547,7 +41760,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǟʼki</l>
@@ -41587,7 +41799,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǟʼrgli</l>
@@ -41619,7 +41830,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǟʼrgtimizli</l>
@@ -41653,7 +41863,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǟʼrgõmēļi</l>
@@ -41685,7 +41894,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǭjali</l>
@@ -41719,7 +41927,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǭʼi</l>
@@ -41751,7 +41958,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǭʼji</l>
@@ -41783,7 +41989,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǭʼji</l>
@@ -41815,7 +42020,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǭʼjli</l>
@@ -41897,7 +42101,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vǭʼrgõl</l>
@@ -41929,7 +42132,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȭrkēļi</l>
@@ -41971,7 +42173,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȭrõmǭ</l>
@@ -42007,7 +42208,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȭrõz</l>
@@ -42039,7 +42239,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȯiti</l>
@@ -42075,7 +42274,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȯiti</l>
@@ -42113,7 +42311,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȯitõ</l>
@@ -42149,7 +42346,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȯndzi</l>
@@ -42181,7 +42377,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȯzābi</l>
@@ -42215,7 +42410,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȯļgi</l>
@@ -42253,7 +42447,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȯʼldzi</l>
@@ -42285,7 +42478,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȯʼzzi</l>
@@ -42341,7 +42533,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">vȱrna</l>
@@ -42381,7 +42572,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">zirmi</l>
@@ -42415,7 +42605,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">zumpõn</l>
@@ -42471,7 +42660,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">zuļți</l>
@@ -42509,7 +42697,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">zäppi</l>
@@ -42543,7 +42730,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">zēpi</l>
@@ -42575,7 +42761,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">zīmi</l>
@@ -42611,7 +42796,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">zīʼmi</l>
@@ -42647,7 +42831,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">zīḑi</l>
@@ -42681,7 +42864,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ädāli</l>
@@ -42715,7 +42897,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ämār</l>
@@ -42749,7 +42930,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ändi</l>
@@ -42785,7 +42965,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ändõstpäuvi</l>
@@ -42817,7 +42996,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ärblimi</l>
@@ -42849,7 +43027,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ätsmingi</l>
@@ -42905,7 +43082,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbaŗštõb</l>
@@ -42937,7 +43113,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbeldi</l>
@@ -42971,7 +43146,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbirdzi</l>
@@ -43005,7 +43179,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbjeʼldzi</l>
@@ -43037,7 +43210,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbjoudzi</l>
@@ -43071,7 +43243,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbjõvā</l>
@@ -43125,7 +43296,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbjõvāilāli</l>
@@ -43157,7 +43327,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkažīn</l>
@@ -43189,7 +43358,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkaʼddiji</l>
@@ -43223,7 +43391,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkaʼzli</l>
@@ -43281,7 +43448,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkistiji</l>
@@ -43313,7 +43479,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbknaš</l>
@@ -43345,7 +43510,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkonsekvent</l>
@@ -43377,7 +43541,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkõlbzi</l>
@@ -43409,7 +43572,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkāndatiji</l>
@@ -43441,7 +43603,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkāndatõb</l>
@@ -43473,7 +43634,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkūldzi</l>
@@ -43511,7 +43671,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkūli</l>
@@ -43545,7 +43704,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkūoliji</l>
@@ -43577,7 +43735,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkȭlbatõb</l>
@@ -43657,7 +43814,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbkȭrdali</l>
@@ -43709,7 +43865,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbliepli</l>
@@ -43741,7 +43896,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbliktõb</l>
@@ -43777,7 +43931,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbluʼgdõb</l>
@@ -43811,7 +43964,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼblõpsnā</l>
@@ -43845,7 +43997,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbmingi</l>
@@ -43881,7 +44032,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbmīeldõb</l>
@@ -43915,7 +44065,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbmȯistli</l>
@@ -43971,7 +44120,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼboʼvli</l>
@@ -44003,7 +44151,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbpraktili</l>
@@ -44035,7 +44182,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbpūŗtõb</l>
@@ -44067,7 +44213,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbpūʼdõz</l>
@@ -44151,7 +44296,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbrištīngli</l>
@@ -44183,7 +44327,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbrõkki</l>
@@ -44215,7 +44358,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbrõkāndtõb</l>
@@ -44247,7 +44389,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbsieldi</l>
@@ -44283,7 +44424,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbsieldõ</l>
@@ -44319,7 +44459,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbsindzi</l>
@@ -44355,7 +44494,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbsīedõb</l>
@@ -44387,7 +44525,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbsīli</l>
@@ -44423,7 +44560,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbsǟdzi</l>
@@ -44475,7 +44611,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbtaʼzzi</l>
@@ -44509,7 +44644,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbtieʼnli</l>
@@ -44547,7 +44681,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbtieʼnniji</l>
@@ -44585,7 +44718,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbtundtõb</l>
@@ -44617,7 +44749,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbtäudi</l>
@@ -44683,7 +44814,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbtäudli</l>
@@ -44749,7 +44879,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbtäudzi</l>
@@ -44785,7 +44914,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbtäutõb</l>
@@ -44837,7 +44965,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbtǭʼdõb</l>
@@ -44871,7 +44998,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbuidi</l>
@@ -44909,7 +45035,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbustõb</l>
@@ -44943,7 +45068,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbuʼndõb</l>
@@ -44975,7 +45099,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbvaimli</l>
@@ -45009,7 +45132,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbvajāgli</l>
@@ -45043,7 +45165,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbvastātõb</l>
@@ -45075,7 +45196,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbvaļmõz</l>
@@ -45107,7 +45227,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbvõidõb</l>
@@ -45139,7 +45258,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbvȯndzi</l>
@@ -45171,7 +45289,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbvȯʼddõltõd</l>
@@ -45205,7 +45322,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbõigi</l>
@@ -45259,7 +45375,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbīʼdlimi</l>
@@ -45295,7 +45410,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">äʼbțiji</l>
@@ -45329,7 +45443,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">õigi</l>
@@ -45427,7 +45540,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">õigistõb</l>
@@ -45459,7 +45571,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">õʼbdi</l>
@@ -45491,7 +45602,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">õʼbdõkǭrali</l>
@@ -45523,7 +45633,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">õʼldzi</l>
@@ -45561,7 +45670,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">õʼldzõ</l>
@@ -45603,7 +45711,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">āibaļi</l>
@@ -45635,7 +45742,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">āigali</l>
@@ -45669,7 +45775,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">āigasti</l>
@@ -45701,7 +45806,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">āigastli</l>
@@ -45735,7 +45839,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">āinagi</l>
@@ -45767,7 +45870,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">āndaji</l>
@@ -45801,7 +45903,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ārga</l>
@@ -45835,7 +45936,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ārmakstiji</l>
@@ -45871,7 +45971,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ārmaz</l>
@@ -45903,7 +46002,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">āņdig</l>
@@ -45937,7 +46035,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ēji</l>
@@ -45971,7 +46068,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ēsti</l>
@@ -46005,7 +46101,35 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">ēstikēļi</l>
 
+      <stg>
+        <st Contlex="A_TŪĻI">ēsti#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">eestikeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">vironkielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">igauņu valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">ēņtštakīeldiji</l>
@@ -46039,7 +46163,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īlmali</l>
@@ -46071,7 +46194,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īpiž</l>
@@ -46105,7 +46227,66 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">īrõ</l>
 
+      <stg>
+        <st Contlex="A_-ZERO">īrõ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">iiri</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">irlantilainen</t>
+
+        <t pos="A">irlantilais-</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">īru</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="A">īrõkēļi</l>
+
+      <stg>
+        <st Contlex="A_TŪĻI">īrõ#kēļi</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="A">iirikeelne</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">iirinkielinen</t>
+      </tg>
+
+      <tg xml:lang="lav">
+        <t pos="A">īru valodas-</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="A">īʼdi</l>
@@ -46137,7 +46318,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdkabāļi</l>
@@ -46171,7 +46351,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdkuʼbbi</l>
@@ -46203,7 +46382,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdkõrdi</l>
@@ -46241,7 +46419,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdkȭrdali</l>
@@ -46279,7 +46456,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdli</l>
@@ -46317,7 +46493,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdlimi</l>
@@ -46399,7 +46574,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdmēļi</l>
@@ -46431,7 +46605,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdpēļi</l>
@@ -46463,7 +46636,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdpūoļi</l>
@@ -46497,7 +46669,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdsuʼglimi</l>
@@ -46529,7 +46700,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼdvastāli</l>
@@ -46601,7 +46771,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼti</l>
@@ -46661,7 +46830,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼžpīʼlõb</l>
@@ -46695,7 +46863,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼžtīedabi</l>
@@ -46727,7 +46894,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">īʼžtīedaji</l>
@@ -46759,7 +46925,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ņäugõz</l>
@@ -46791,7 +46956,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ōḑig</l>
@@ -46825,7 +46989,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">škīedõri</l>
@@ -46861,7 +47024,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">škīelsīlma</l>
@@ -46893,7 +47055,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">šnärbõl</l>
@@ -46931,7 +47092,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">švakkõ</l>
@@ -46969,7 +47129,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">šūmi</l>
@@ -47003,7 +47162,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ūigali</l>
@@ -47039,7 +47197,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ūnd</l>
@@ -47075,7 +47232,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ūomõgpūoļi</l>
@@ -47137,7 +47293,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ūoņdžili</l>
@@ -47169,7 +47324,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ūrmastõn</l>
@@ -47205,7 +47359,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ūrmatõn</l>
@@ -47241,7 +47394,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ūž</l>
@@ -47273,7 +47425,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ūžim</l>
@@ -47305,7 +47456,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ūʼogi</l>
@@ -47337,7 +47487,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ǭra</l>
@@ -47371,7 +47520,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ǭrali</l>
@@ -47427,7 +47575,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ǭļaz</l>
@@ -47465,7 +47612,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ǭʼdõrz</l>
@@ -47497,7 +47643,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ǭʼdõz</l>
@@ -47531,7 +47676,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ǭʼgi</l>
@@ -47563,7 +47707,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ǭʼrni</l>
@@ -47597,7 +47740,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ǭʼrõndsiʼņņi</l>
@@ -47635,7 +47777,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="A">ȭgiji</l>
@@ -47667,7 +47808,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="N">boʼŗlimi</l>
@@ -47701,7 +47841,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="N">kǭdkõrdi</l>
