@@ -14,7 +14,7 @@ LEXICON Root
 
 LEXICON CARDINAL-NUMERALS
 HUNDREDSM ;		     ! 200M
-sadā:1 HUNDREDM ; ! 100M
+1:sadā HUNDREDM ; ! 100M
 TENSM ;		         ! 20-99M
 TEENSM ;	         ! 10-19M
 1MILJON ;            ! 1M
@@ -22,11 +22,11 @@ ONESM ;		         ! 1-9M
 1GIGA ;            	 ! 1G
 ONESG ;		         ! 1-9G
 HUNDREDST ;	         ! 200000-999999
-sadā:1 HUNDREDT ; ! 100000-100999
+1:sadā HUNDREDT ; ! 100000-100999
 TENST ;			     ! 20000-99999,10000-10999
 TEENST ;		     ! 11000-19999
 ONEST ;			     ! 2000-9999
-tūontõ:1 THOUSAND ; ! 1000-1999
+1:tūontõ THOUSAND ; ! 1000-1999
 
 UNDERTHOUSAND ;		 ! 100-999
 TENS ;			     ! 20-99
@@ -34,92 +34,89 @@ TEENS ;			     ! 10-19
 ONES ;			     ! 1-9
 
 LEXICON ONESG
-ikš% : 1GIGA ;
-kakš% :2 GIGA ;
-kuolm% :3 GIGA ;
-nēļa% :4 GIGA ;
-vīž% :5 GIGA ;
-kūž% :6 GIGA ;
-seis% :7 GIGA ;
-kǭdõks% :8 GIGA ;
-īdõks% :9 GIGA ;
+:ikš%  1GIGA ;
+2:kakš%  GIGA ;
+3:kuolm%  GIGA ;
+4:nēļa%  GIGA ;
+5:vīž%  GIGA ;
+6:kūž%  GIGA ;
+7:seis%  GIGA ;
+8:kǭdõks%  GIGA ;
+9:īdõks%  GIGA ;
 
 LEXICON 1GIGA
-miljard% :1 OVERMILLIONS ;
+1:miljard%   OVERMILLIONS ;
 
 LEXICON GIGA
-miljard% : OVERMILLIONS ;
+:miljard%  OVERMILLIONS ;
 
 LEXICON HUNDREDSM
-
-kakš:2 CUODIM ;
-kuolm:3 CUODIM ;
-nēļa:4 CUODIM ;
-vīž:5 CUODIM ;
-kūž:6 CUODIM ;
-seis:7 CUODIM ;
-kǭdõks:8 CUODIM ;
-īdõks:9 CUODIM ;
+2:kakš%  CUODIM ;
+3:kuolm%  CUODIM ;
+4:nēļa%  CUODIM ;
+5:vīž%  CUODIM ;
+6:kūž%  CUODIM ;
+7:seis%  CUODIM ;
+8:kǭdõks%  CUODIM ;
+9:īdõks%  CUODIM ;
 
 LEXICON CUODIM
-sadā: HUNDREDM ; !200, not 100
+:sadā%  HUNDREDM ; !200, not 100
 
 LEXICON HUNDREDM
 TENSM ;
 TEENSM ;
-:%0 ONESM ;
-% :%0%0 MILJON ;
+%0: ONESM ;
+%0%0:%   MILJON ;
 
 LEXICON TEENSM
-:1 TEENM ;
+1: TEENM ;
 
 LEXICON TEENM
-ikš:1 LOHKAIM ;
-kakš:2 LOHKAIM ;
-kuolm:3 LOHKAIM ;
-nēļa:4 LOHKAIM ;
-vīž:5 LOHKAIM ;
-kūž:6 LOHKAIM ;
-seis:7 LOHKAIM ;
-kǭdõks:8 LOHKAIM ;
-īdõks:9 LOHKAIM ;
+1:ikš LOHKAIM ;
+2:kakš  LOHKAIM ;
+3:kuolm  LOHKAIM ;
+4:nēļa  LOHKAIM ;
+5:vīž  LOHKAIM ;
+6:kūž  LOHKAIM ;
+7:seis  LOHKAIM ;
+8:kǭdõks  LOHKAIM ;
+9:īdõks  LOHKAIM ;
 
 LEXICON LOHKAIM
-tuoistõn% : MILJON ;
+:tuoistõn%   MILJON ;
 
 LEXICON TENSM
-kim% :1%0 MILJON ;
-
-kakš:2 LÅGEVM ;
-kuolm:3 LÅGEVM ;
-nēļa:4 LÅGEVM ;
-vīž:5 LÅGEVM ;
-kūž:6 LÅGEVM ;
-seis:7 LÅGEVM ;
-kǭdõks:8 LÅGEVM ;
-īdõks:9 LÅGEVM ;
+1%0:kim  MILJON ;
+2:kakš  LÅGEVM ;
+3:kuolm  LÅGEVM ;
+4:nēļa  LÅGEVM ;
+5:vīž  LÅGEVM ;
+6:kūž  LÅGEVM ;
+7:seis  LÅGEVM ;
+8:kǭdõks  LÅGEVM ;
+9:īdõks  LÅGEVM ;
 
 LEXICON LÅGEVM
-kimdõ% :%0 MILJON ;
-kimdõ: ONESM ;
+%0:kimdõ%  MILJON ;
+:kimdõ%  ONESM ;
 
 LEXICON ONESM
-ikš% :  1MILJON ;
-
-kakš% :2 MILJON ;
-kuolm% :3 MILJON ;
-nēļa% :4 MILJON ;
-vīž% :5 MILJON ;
-kūž% :6 MILJON ;
-seis% :7 MILJON ;
-kǭdõks% :8 MILJON ;
-īdõks% :9 MILJON ;
+:ikš%   1MILJON ;
+2:kakš%  MILJON ;
+3:kuolm%  MILJON ;
+4:nēļa%  MILJON ;
+5:vīž%  MILJON ;
+6:kūž%  MILJON ;
+7:seis%  MILJON ;
+8:kǭdõks%  MILJON ;
+9:īdõks%  MILJON ;
 
 LEXICON 1MILJON
-miljon% :1 OVERTHOUSANDS ;
+1:miljon%  OVERTHOUSANDS ;
 
 LEXICON MILJON
-miljon% : OVERTHOUSANDS ;
+:miljon%  OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -127,113 +124,113 @@ miljon% : OVERTHOUSANDS ;
 
 LEXICON OVERMILLIONS
 HUNDREDSM ;
-sadā:1 HUNDREDM ;
-% :%0 TENSM ;
-:%0 TEENSM ;
-:%0%0 1MILJON ;
-:%0%0 ONESM ;
-:%0%0%0 HUNDREDST ;		        ! x00.000.000
-sadā:%0%0%01 HUNDREDT ;    ! 100.000.000
-:%0%0%0%0 TENST ;		        !  20.000.000
-:%0%0%0%0 TEENST ;		    !  10.000.000
-:%0%0%0%0%0 ONEST ;		    !   2.000.000
-tūontõ:%0%0%0%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0%0%0%0 UNDERTHOUSAND ;	
-% :%0%0%0%0%0%0%0 TENS ;
-:%0%0%0%0%0%0%0 TEENS ;
-:%0%0%0%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0%0%0%0 # ;	     !  x000000
+1:sadā HUNDREDM ;
+%0:%  TENSM ;
+%0: TEENSM ;
+%0%0: 1MILJON ;
+%0%0: ONESM ;
+%0%0%0: HUNDREDST ;		        ! x00.000.000
+%0%0%01:sadā HUNDREDT ;    ! 100.000.000
+%0%0%0%0: TENST ;		        !  20.000.000
+%0%0%0%0: TEENST ;		    !  10.000.000
+%0%0%0%0%0: ONEST ;		    !   2.000.000
+%0%0%0%0%01:tūontõ THOUSAND ;	!   1.000.000
+%0%0%0%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0%0%0%0:%  TENS ;
+%0%0%0%0%0%0%0: TEENS ;
+%0%0%0%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0%0%0%0: # ;	     !  x000000
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		        ! x00.000.000
-sadā:1 HUNDREDT ;    ! 100.000.000
-:%0 TENST ;		        !  20.000.000
-:%0 TEENST ;		    !  10.000.000
-:%0%0 ONEST ;		    !   2.000.000
-tūontõ:%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0 UNDERTHOUSAND ;	
-% :%0%0%0%0 TENS ;
-:%0%0%0%0 TEENS ;
-:%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 # ;	     !  x000000
+1:sadā HUNDREDT ;    ! 100.000.000
+%0: TENST ;		        !  20.000.000
+%0: TEENST ;		    !  10.000.000
+%0%0: ONEST ;		    !   2.000.000
+%0%01:tūontõ THOUSAND ;	!   1.000.000
+%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0:%  TENS ;
+%0%0%0%0: TEENS ;
+%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0: # ;	     !  x000000
 
 LEXICON HUNDREDST
 
-kakš:2 CUODIT ;
-kuolm:3 CUODIT ; ! 300000-399999
-nēļa:4 CUODIT ; ! 400000-499999
-vīž:5 CUODIT ; ! 500000-599999
-kūž:6 CUODIT ; ! 600000-699999
-seis:7 CUODIT ; ! 
-kǭdõks:8 CUODIT ; ! 800000-899999
-īdõks:9 CUODIT ; ! 900000-999999
+2:kakš CUODIT ;
+3:kuolm CUODIT ; ! 300000-399999
+4:nēļa CUODIT ; ! 400000-499999
+5:vīž CUODIT ; ! 500000-599999
+6:kūž CUODIT ; ! 600000-699999
+7:seis CUODIT ; ! 
+8:kǭdõks CUODIT ; ! 800000-899999
+9:īdõks CUODIT ; ! 900000-999999
 
 LEXICON CUODIT
-sadā% : HUNDREDT ;	! 200000-199999
+:sadā%   HUNDREDT ;	! 200000-199999
 
 LEXICON HUNDREDT	     ! X = 1-9, Y = 0-9
 TENST ;			     ! X2XYYY, X10YYY
 TEENST ;		     ! X1XYYY
-ikš% :%01 THOUSANDS ;
-:%0 ONEST ;		     ! XX0YYY
-% :%0%0 THOUSANDS ;	 ! X00YYY
+%01:ikš%   THOUSANDS ;
+%0: ONEST ;		     ! XX0YYY
+%0%0:%  THOUSANDS ;	 ! X00YYY
 
 LEXICON TEENST
-:1 TEENT ;
+1: TEENT ;
 
 LEXICON TEENT
-kim% :%0 THOUSANDS ;
-ikš:1 LOHKAIT ;
-kakš:2 LOHKAIT ;
-kuolm:3 LOHKAIT ;
-nēļa:4 LOHKAIT ;
-vīž:5 LOHKAIT ;
-kūž:6 LOHKAIT ;
-seis:7 LOHKAIT ;
-kǭdõks:8 LOHKAIT ;
-īdõks:9 LOHKAIT ;
+%0:kim%  THOUSANDS ;
+1:ikš LOHKAIT ;
+2:kakš  LOHKAIT ;
+3:kuolm  LOHKAIT ;
+4:nēļa  LOHKAIT ;
+5:vīž  LOHKAIT ;
+6:kūž  LOHKAIT ;
+7:seis  LOHKAIT ;
+8:kǭdõks  LOHKAIT ;
+9:īdõks  LOHKAIT ;
 
 LEXICON LOHKAIT
-tuoistõn% : THOUSANDS ;
+:tuoistõn%  THOUSANDS ;
 
 LEXICON TENST
-ikš:1 LÅGEVT ;
-kakš:2 LÅGEVT ;
-kuolm:3 LÅGEVT ;
-nēļa:4 LÅGEVT ;
-vīž:5 LÅGEVT ;
-kūž:6 LÅGEVT ;
-seis:7 LÅGEVT ;
-kǭdõks:8 LÅGEVT ;
-īdõks:9 LÅGEVT ;
+1:ikš LÅGEVT ;
+2:kakš  LÅGEVT ;
+3:kuolm  LÅGEVT ;
+4:nēļa  LÅGEVT ;
+5:vīž  LÅGEVT ;
+6:kūž  LÅGEVT ;
+7:seis  LÅGEVT ;
+8:kǭdõks  LÅGEVT ;
+9:īdõks  LÅGEVT ;
 
 LEXICON LÅGEVT
-kimdõ% :%0 THOUSANDS ;
-!tūontõ:1 THOUSAND ;
-kimdõ% : ONEST ;
+%0:kimdõ%  THOUSANDS ;
+!1:tūontõ THOUSAND ;
+:kimdõ%   ONEST ;
 
 LEXICON ONEST
-tūontõ:1 THOUSAND ;
-kakš% :2 THOUSANDS ;
-kuolm% :3 THOUSANDS ;
-nēļa% :4 THOUSANDS ;
-vīž% :5 THOUSANDS ;
-kūž% :6 THOUSANDS ;
-seis% :7 THOUSANDS ;
-kǭdõks% :8 THOUSANDS ;
-īdõks% :9 THOUSANDS ;
+1:tūontõ THOUSAND ;
+2:kakš%  THOUSANDS ;
+3:kuolm%  THOUSANDS ;
+4:nēļa%  THOUSANDS ;
+5:vīž%  THOUSANDS ;
+6:kūž%  THOUSANDS ;
+7:seis%  THOUSANDS ;
+8:kǭdõks%  THOUSANDS ;
+9:īdõks%  THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-!% tūontõd: THOUSAND ;
-tūontõ: THOUSAND ;
+!:% tūontõd THOUSAND ;
+:tūontõ THOUSAND ;
 
 
 LEXICON THOUSAND
-% : UNDERTHOUSAND ;	   ! 1100-1999
-% :%0 TENS ;	   ! 1020-1099
-% :%0 TEENS ;	   ! 1010-1019
-% :%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 # ;	   ! 1000
+:%  UNDERTHOUSAND ;	   ! 1100-1999
+%0:%  TENS ;	   ! 1020-1099
+%0:%  TEENS ;	   ! 1010-1019
+%0%0:%  ONES ;	   ! 1001-1009
+%0%0%0: # ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -241,76 +238,78 @@ LEXICON THOUSAND
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-sadā:1 HUNDRED ;
+1:sadā HUNDRED ;
 
 
 LEXICON HUNDREDS
-kakš:2 CUODI ;
-kuolm:3 CUODI ;
-nēļa:4 CUODI ;
-vīž:5 CUODI ;
-kūž:6 CUODI ;
-seis:7 CUODI ;
-kǭdõks:8 CUODI ;
-īdõks:9 CUODI ;
+2:kakš  CUODI ;
+3:kuolm  CUODI ;
+4:nēļa  CUODI ;
+5:vīž  CUODI ;
+6:kūž  CUODI ;
+7:seis  CUODI ;
+8:kǭdõks  CUODI ;
+9:īdõks  CUODI ;
 
 LEXICON CUODI
-!% saddõ: HUNDRED ;
-sadā: HUNDRED ;
+!:% saddõ HUNDRED ;
+:sadā HUNDRED ;
 
 LEXICON HUNDRED
-% : TENS ;
+:%  TENS ;
 TEENS ;
-:%0 ONES ;
-:%0%0 # ;
+%0: ONES ;
+%0%0: # ;
 
 LEXICON TEENS
-ikš:11 LOHKAI ;
-kakš:12 LOHKAI ;
-kuolm:13 LOHKAI ;
-nēļa:14 LOHKAI ;
-vīž :15 LOHKAI ;
-kūž:16 LOHKAI ;
-seis:17 LOHKAI ;
-kǭdõks:18 LOHKAI ;
-īdõks:19 LOHKAI ;
+11:ikš LOHKAI ;
+12:kakš  LOHKAI ;
+13:kuolm  LOHKAI ;
+14:nēļa  LOHKAI ;
+15:vīž  LOHKAI ;
+16:kūž  LOHKAI ;
+17:seis  LOHKAI ;
+18:kǭdõks  LOHKAI ;
+19:īdõks  LOHKAI ;
+
 
 
 LEXICON LOHKAI
-tuoistõn: # ;
+:tuoistõn  # ;
 
 LEXICON TENS
-kim:1%0 # ;
-kakš:2 LÅGEV ;
-kuolm:3 LÅGEV ;
-nēļa:4 LÅGEV ;
-vīž:5 LÅGEV ;
-kūž:6 LÅGEV ;
-seis:7 LÅGEV ;
-kǭdõks:8 LÅGEV ;
-īdõks:9 LÅGEV ;
+1%0:kim  # ;
+
+2:kakš  LÅGEV ;
+3:kuolm  LÅGEV ;
+4:nēļa  LÅGEV ;
+5:vīž  LÅGEV ;
+6:kūž  LÅGEV ;
+7:seis  LÅGEV ;
+8:kǭdõks  LÅGEV ;
+9:īdõks  LÅGEV ;
 
 LEXICON LÅGEV
-kimdõ:%0 # ;
-kimdõ% : ONES ;
+%0:kimdõ # ;
+:kimdõ%  ONES ;
 
 
 LEXICON ONES
-ikš:1 # ;
-kakš:2 # ;
-kuolm:3 # ;
-nēļa:4 # ;
-vīž:5 # ;
-kūž:6 # ;
-seis:7 # ;
-kǭdõks:8 # ;
-īdõks:9 # ;
+1:ikš # ;
+2:kakš  # ;
+3:kuolm  # ;
+4:nēļa  # ;
+5:vīž  # ;
+6:kūž  # ;
+7:seis  # ;
+8:kǭdõks  # ;
+9:īdõks  # ;
 
 
 !! Starting work with ordinals
 LEXICON ORDINAL-NUMERALS
 ORD-HUNDREDSM ;		     ! 200M
-sadāz:1 ORD-HUNDREDM ; ! 100M
+1:sadāz ORD-HUNDREDM ; ! 100M
 ORD-TENSM ;		         ! 20-99M
 ORD-TEENSM ;	         ! 10-19M
 ORD-1MILJON ;            ! 1M
@@ -318,11 +317,11 @@ ORD-ONESM ;		         ! 1-9M
 ORD-1GIGA ;            	 ! 1G
 ORD-ONESG ;		         ! 1-9G
 ORD-HUNDREDST ;	         ! 200000-999999
-sadāz:1 ORD-HUNDREDT ; ! 100000-100999
+1:sadāz ORD-HUNDREDT ; ! 100000-100999
 ORD-TENST ;			     ! 20000-99999,10000-10999
 ORD-TEENST ;		     ! 11000-19999
 ORD-ONEST ;			     ! 2000-9999
-tūontõz:1 ORD-THOUSAND ; ! 1000-1999
+1:tūontõz ORD-THOUSAND ; ! 1000-1999
 
 ORD-UNDERTHOUSAND ;		 ! 100-999
 ORD-TENS ;			     ! 20-99
@@ -330,93 +329,92 @@ ORD-TEENS ;			     ! 10-19
 ORD-ONES ;			     ! 1-9
 
 LEXICON ORD-ONESG
-īʼdõz% : ORD-1GIGA ;
-kǭʼdõz% :2 ORD-GIGA ;
-kuolmõz% :3 ORD-GIGA ;
-nēļļõz% :4 ORD-GIGA ;
-vīdõz% :5 ORD-GIGA ;
-kūdõz% :6 ORD-GIGA ;
-seismõz% :7 ORD-GIGA ;
-kǭdõksmõz% :8 ORD-GIGA ;
-īdõksmõz% :9 ORD-GIGA ;
+:īʼdõz%  ORD-1GIGA ;
+2:kǭʼdõz%  ORD-GIGA ;
+3:kuolmõz%   ORD-GIGA ;
+4:nēļļõz%   ORD-GIGA ;
+5:vīdõz%   ORD-GIGA ;
+6:kūdõz%  ORD-GIGA ;
+7:seismõz%  ORD-GIGA ;
+8:kǭdõksmõz%  ORD-GIGA ;
+9:īdõksmõz%  ORD-GIGA ;
 
 LEXICON ORD-1GIGA
-miljardõz% :1 ORD-OVERMILLIONS ;
+1:miljardõz%  ORD-OVERMILLIONS ;
 
 LEXICON ORD-GIGA
-miljardõz% : ORD-OVERMILLIONS ;
+:miljardõz%  ORD-OVERMILLIONS ;
 
 LEXICON ORD-HUNDREDSM
 
-kǭʼd:2 ORD-CUODIM ;
-kuolm:3 ORD-CUODIM ;
-nēļa:4 ORD-CUODIM ;
-vīd:5 ORD-CUODIM ;
-kūd:6 ORD-CUODIM ;
-seis:7 ORD-CUODIM ;
-kǭdõks:8 ORD-CUODIM ;
-īdõks:9 ORD-CUODIM ;
+2:kǭʼd ORD-CUODIM ;
+3:kuolm  ORD-CUODIM ;
+4:nēļa  ORD-CUODIM ;
+5:vīd  ORD-CUODIM ;
+6:kūd ORD-CUODIM ;
+7:seis ORD-CUODIM ;
+8:kǭdõks ORD-CUODIM ;
+9:īdõks ORD-CUODIM ;
 
 LEXICON ORD-CUODIM
-sadāz: ORD-HUNDREDM ; !200, not 100
+:sadāz ORD-HUNDREDM ; !200, not 100
 
 LEXICON ORD-HUNDREDM
-% : ORD-TENSM ;
+:%  ORD-TENSM ;
 ORD-TEENSM ;
-:%0 ORD-ONESM ;
-% :%0%0 ORD-MILJON ;
+%0: ORD-ONESM ;
+%0%0:%  ORD-MILJON ;
 
 LEXICON ORD-TEENSM
-:1 ORD-TEENM ;
+1: ORD-TEENM ;
 
 LEXICON ORD-TEENM
-ikš:1 ORD-LOHKAIM ;
-īʼd:1 ORD-LOHKAIM ;
-kǭʼd:2 ORD-LOHKAIM ;
-kuolm:3 ORD-LOHKAIM ;
-nēļa:4 ORD-LOHKAIM ;
-vīd:5 ORD-LOHKAIM ;
-kūd:6 ORD-LOHKAIM ;
-seis:7 ORD-LOHKAIM ;
-kǭdõks:8 ORD-LOHKAIM ;
-īdõks:9 ORD-LOHKAIM ;
+1:ikš  ORD-LOHKAIM ;
+1:īʼd  ORD-LOHKAIM ;
+2:kǭʼd ORD-LOHKAIM ;
+3:kuolm  ORD-LOHKAIM ;
+4:nēļa ORD-LOHKAIM ;
+5:vīd ORD-LOHKAIM ;
+6:kūd ORD-LOHKAIM ;
+7:seis ORD-LOHKAIM ;
+8:kǭdõks  ORD-LOHKAIM ;
+9:īdõks  ORD-LOHKAIM ;
 
 LEXICON ORD-LOHKAIM
-tuoistõnz% : ORD-MILJON ;
+:tuoistõnz%  ORD-MILJON ;
 
 LEXICON ORD-TENSM
-kimmõz% :1%0 ORD-MILJON ;
-
-kǭʼd:2 ORD-LÅGEVM ;
-kuolm:3 ORD-LÅGEVM ;
-nēļa:4 ORD-LÅGEVM ;
-vīd:5 ORD-LÅGEVM ;
-kūd:6 ORD-LÅGEVM ;
-seis:7 ORD-LÅGEVM ;
-kǭdõks:8 ORD-LÅGEVM ;
-īdõks:9 ORD-LÅGEVM ;
+1%0:kimmõz%   ORD-MILJON ;
+2:kǭʼd ORD-LÅGEVM ;
+3:kuolm  ORD-LÅGEVM ;
+4:nēļa ORD-LÅGEVM ;
+5:vīd ORD-LÅGEVM ;
+6:kūd ORD-LÅGEVM ;
+7:seis ORD-LÅGEVM ;
+8:kǭdõks  ORD-LÅGEVM ;
+9:īdõks  ORD-LÅGEVM ;
 
 LEXICON ORD-LÅGEVM
-kimdõz% :%0 ORD-MILJON ;
-kimdõz: ORD-ONESM ;
+%0:kimdõz%   ORD-MILJON ;
+:kimdõz  ORD-ONESM ;
 
 LEXICON ORD-ONESM
-īʼdõz% :  ORD-1MILJON ;
+:īʼdõz%   ORD-1MILJON ;
 
-kǭʼd% :2 ORD-MILJON ;
-kuolm% :3 ORD-MILJON ;
-nēļa% :4 ORD-MILJON ;
-vīd% :5 ORD-MILJON ;
-kūd% :6 ORD-MILJON ;
-seis% :7 ORD-MILJON ;
-kǭdõks% :8 ORD-MILJON ;
-īdõks% :9 ORD-MILJON ;
+2:kǭʼd%  ORD-MILJON ;
+3:kuolm%   ORD-MILJON ;
+4:nēļa%   ORD-MILJON ;
+5:vīd%  ORD-MILJON ;
+6:kūd%  ORD-MILJON ;
+7:seis%  ORD-MILJON ;
+8:kǭdõks%  ORD-MILJON ;
+9:īdõks%   ORD-MILJON ;
 
 LEXICON ORD-1MILJON
-miljonõz% :1 ORD-OVERTHOUSANDS ;
+1:miljonõz%   ORD-OVERTHOUSANDS ;
 
 LEXICON ORD-MILJON
-miljonõz% : ORD-OVERTHOUSANDS ;
+:miljonõz%   ORD-OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -424,112 +422,113 @@ miljonõz% : ORD-OVERTHOUSANDS ;
 
 LEXICON ORD-OVERMILLIONS
 ORD-HUNDREDSM ;
-sadāz:1 ORD-HUNDREDM ;
-% :%0 ORD-TENSM ;
-:%0 ORD-TEENSM ;
-:%0%0 ORD-1MILJON ;
-:%0%0 ORD-ONESM ;
-:%0%0%0 ORD-HUNDREDST ;		        ! x00.000.000
-sadāz:%0%0%01 ORD-HUNDREDT ;    ! 100.000.000
-:%0%0%0%0 ORD-TENST ;		        !  20.000.000
-:%0%0%0%0 ORD-TEENST ;		    !  10.000.000
-:%0%0%0%0%0 ORD-ONEST ;		    !   2.000.000
-tūʼontõz:%0%0%0%0%01 ORD-THOUSAND ;	!   1.000.000
-:%0%0%0%0%0%0 ORD-UNDERTHOUSAND ;	
-% :%0%0%0%0%0%0%0 ORD-TENS ;
-:%0%0%0%0%0%0%0 ORD-TEENS ;
-:%0%0%0%0%0%0%0%0 ORD-ONES ;
-:%0%0%0%0%0%0%0%0%0 # ;	     !  x000000
+1:sadāz  ORD-HUNDREDM ;
+%0:%  ORD-TENSM ;
+%0: ORD-TEENSM ;
+%0%0: ORD-1MILJON ;
+%0%0: ORD-ONESM ;
+%0%0%0: ORD-HUNDREDST ;		        ! x00.000.000
+%0%0%01:sadāz ORD-HUNDREDT ;    ! 100.000.000
+%0%0%0%0: ORD-TENST ;		        !  20.000.000
+%0%0%0%0: ORD-TEENST ;		    !  10.000.000
+%0%0%0%0%0: ORD-ONEST ;		    !   2.000.000
+%0%0%0%0%01:tūʼontõz ORD-THOUSAND ;	!   1.000.000
+%0%0%0%0%0%0: ORD-UNDERTHOUSAND ;	
+%0%0%0%0%0%0%0:%  ORD-TENS ;
+%0%0%0%0%0%0%0: ORD-TEENS ;
+%0%0%0%0%0%0%0%0: ORD-ONES ;
+%0%0%0%0%0%0%0%0%0: # ;	     !  x000000
 
 LEXICON ORD-OVERTHOUSANDS
 ORD-HUNDREDST ;		        ! x00.000.000
-sadāz:1 ORD-HUNDREDT ;    ! 100.000.000
-:%0 ORD-TENST ;		        !  20.000.000
-:%0 ORD-TEENST ;		    !  10.000.000
-:%0%0 ORD-ONEST ;		    !   2.000.000
-tūʼontõz:%0%01 ORD-THOUSAND ;	!   1.000.000
-:%0%0%0 ORD-UNDERTHOUSAND ;	
-% :%0%0%0%0 ORD-TENS ;
-:%0%0%0%0 ORD-TEENS ;
-:%0%0%0%0%0 ORD-ONES ;
-:%0%0%0%0%0%0 # ;	     !  x000000
+1:sadāz ORD-HUNDREDT ;    ! 100.000.000
+%0: ORD-TENST ;		        !  20.000.000
+%0: ORD-TEENST ;		    !  10.000.000
+%0%0: ORD-ONEST ;		    !   2.000.000
+%0%01:tūʼontõz ORD-THOUSAND ;	!   1.000.000
+%0%0%0: ORD-UNDERTHOUSAND ;	
+%0%0%0%0:%0 ORD-TENS ;
+%0%0%0%0: ORD-TEENS ;
+%0%0%0%0%0: ORD-ONES ;
+%0%0%0%0%0%0: # ;	     !  x000000
 
 LEXICON ORD-HUNDREDST
 
-kǭʼd:2 ORD-CUODIT ;
-kuolm:3 ORD-CUODIT ; ! 300000-399999
-nēļa:4 ORD-CUODIT ; ! 400000-499999
-vīd:5 ORD-CUODIT ; ! 500000-599999
-kūd:6 ORD-CUODIT ; ! 600000-699999
-seis:7 ORD-CUODIT ; ! 
-kǭdõks:8 ORD-CUODIT ; ! 800000-899999
-īdõks:9 ORD-CUODIT ; ! 900000-999999
+2:kǭʼd ORD-CUODIT ;
+3:kuolm ORD-CUODIT ; ! 300000-399999
+4:nēļa ORD-CUODIT ; ! 400000-499999
+5:vīd ORD-CUODIT ; ! 500000-599999
+6:kūd ORD-CUODIT ; ! 600000-699999
+7:seis ORD-CUODIT ; ! 
+8:kǭdõks ORD-CUODIT ; ! 800000-899999
+9:īdõks ORD-CUODIT ; ! 900000-999999
 
 LEXICON ORD-CUODIT
-sadāz% : ORD-HUNDREDT ;	! 200000-199999
+:sadāz%  ORD-HUNDREDT ;	! 200000-199999
 
 LEXICON ORD-HUNDREDT	     ! X = 1-9, Y = 0-9
 ORD-TENST ;			     ! X2XYYY, X10YYY
 ORD-TEENST ;		     ! X1XYYY
-ikš% :%01 ORD-THOUSANDS ;
-:%0 ORD-ONEST ;		     ! XX0YYY
-% :%0%0 ORD-THOUSANDS ;	 ! X00YYY
+%01:ikš%  ORD-THOUSANDS ;
+%0: ORD-ONEST ;		     ! XX0YYY
+%0%0:%  ORD-THOUSANDS ;	 ! X00YYY
 
 LEXICON ORD-TEENST
-:1 ORD-TEENT ;
+1: ORD-TEENT ;
 
 LEXICON ORD-TEENT
-kimmõz% :%0 ORD-THOUSANDS ;
-ikš:1 ORD-LOHKAIT ;
-īʼd:1 ORD-LOHKAIT ;
-kǭʼd:2 ORD-LOHKAIT ;
-kuolm:3 ORD-LOHKAIT ;
-nēļa:4 ORD-LOHKAIT ;
-vīd:5 ORD-LOHKAIT ;
-kūd:6 ORD-LOHKAIT ;
-seis:7 ORD-LOHKAIT ;
-kǭdõks:8 ORD-LOHKAIT ;
-īdõks:9 ORD-LOHKAIT ;
+%0:kimmõz%   ORD-THOUSANDS ;
+1:ikš ORD-LOHKAIT ;
+1:īʼd ORD-LOHKAIT ;
+2:kǭʼd ORD-LOHKAIT ;
+3:kuolm  ORD-LOHKAIT ;
+4:nēļa ORD-LOHKAIT ;
+5:vīd ORD-LOHKAIT ;
+6:kūd ORD-LOHKAIT ;
+7:seis ORD-LOHKAIT ;
+8:kǭdõks  ORD-LOHKAIT ;
+9:īdõks  ORD-LOHKAIT ;
 
 LEXICON ORD-LOHKAIT
-tuoistõnz% : ORD-THOUSANDS ;
+:tuoistõnz%   ORD-THOUSANDS ;
 
 LEXICON ORD-TENST
-ikš:1 ORD-LÅGEVT ;
-kǭʼd:2 ORD-LÅGEVT ;
-kuolm:3 ORD-LÅGEVT ;
-nēļa:4 ORD-LÅGEVT ;
-vīd:5 ORD-LÅGEVT ;
-kūd:6 ORD-LÅGEVT ;
-seis:7 ORD-LÅGEVT ;
-kǭdõks:8 ORD-LÅGEVT ;
-īdõks:9 ORD-LÅGEVT ;
+1:ikš ORD-LÅGEVT ;
+
+2:kǭʼd ORD-LÅGEVT ;
+3:kuolm  ORD-LÅGEVT ;
+4:nēļa ORD-LÅGEVT ;
+5:vīd ORD-LÅGEVT ;
+6:kūd ORD-LÅGEVT ;
+7:seis ORD-LÅGEVT ;
+8:kǭdõks  ORD-LÅGEVT ;
+9:īdõks  ORD-LÅGEVT ;
 
 LEXICON ORD-LÅGEVT
-kimdõz% :%0 ORD-THOUSANDS ;
-kimdõz% : ORD-ONEST ;
+%0:kimdõz%   ORD-THOUSANDS ;
+:kimdõz%   ORD-ONEST ;
 
 LEXICON ORD-ONEST
-tūʼontõz% :1 ORD-THOUSAND ;
-kǭʼdõz% :2 ORD-THOUSANDS ;
-kuolmõz% :3 ORD-THOUSANDS ;
-nēļļõz% :4 ORD-THOUSANDS ;
-vīdõz% :5 ORD-THOUSANDS ;
-kūdõz% :6 ORD-THOUSANDS ;
-seismõz% :7 ORD-THOUSANDS ;
-kǭdõksmõz% :8 ORD-THOUSANDS ;
-īdõksmõz% :9 ORD-THOUSANDS ;
+1:tūʼontõz%  ORD-THOUSAND ;
+2:kǭʼdõz%  ORD-THOUSANDS ;
+3:kuolmõz%  ORD-THOUSANDS ;
+4:nēļļõz%  ORD-THOUSANDS ;
+5:vīdõz%  ORD-THOUSANDS ;
+6:kūdõz%  ORD-THOUSANDS ;
+7:seismõz%  ORD-THOUSANDS ;
+8:kǭdõksmõz%  ORD-THOUSANDS ;
+9:īdõksmõz%  ORD-THOUSANDS ;
 
 LEXICON ORD-THOUSANDS      ! x > 1
-tūʼontõz% : ORD-THOUSAND ;
+:tūʼontõz%   ORD-THOUSAND ;
 
 
 LEXICON ORD-THOUSAND
 : ORD-UNDERTHOUSAND ;	   ! 1100-1999
-:%0 ORD-TENS ;	   ! 1020-1099
-:%0 ORD-TEENS ;	   ! 1010-1019
-:%0%0 ORD-ONES ;	   ! 1001-1009
-:%0%0%0 ORD-END ;	   ! 1000
+%0: ORD-TENS ;	   ! 1020-1099
+%0: ORD-TEENS ;	   ! 1010-1019
+%0%0: ORD-ONES ;	   ! 1001-1009
+%0%0%0: ORD-END ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -537,75 +536,75 @@ LEXICON ORD-THOUSAND
 
 LEXICON ORD-UNDERTHOUSAND
 ORD-HUNDREDS ;
-sadāz:1 ORD-HUNDRED ;
+1:sadāz ORD-HUNDRED ;
 
 
 LEXICON ORD-HUNDREDS
-kǭʼd:2 ORD-CUODI ;
-kuolm:3 ORD-CUODI ;
-nēļa:4 ORD-CUODI ;
-vīd:5 ORD-CUODI ;
-kūd:6 ORD-CUODI ;
-seis:7 ORD-CUODI ;
-kǭdõks:8 ORD-CUODI ;
-īdõks:9 ORD-CUODI ;
+2:kǭʼd ORD-CUODI ;
+3:kuolm  ORD-CUODI ;
+4:nēļa ORD-CUODI ;
+5:vīd ORD-CUODI ;
+6:kūd ORD-CUODI ;
+7:seis ORD-CUODI ;
+8:kǭdõks  ORD-CUODI ;
+9:īdõks  ORD-CUODI ;
 
 LEXICON ORD-CUODI
-sadāz% : ORD-HUNDRED ;
+:sadāz%   ORD-HUNDRED ;
 
 LEXICON ORD-HUNDRED
 ORD-TENS ;
 ORD-TEENS ;
-:%0 ORD-ONES ;
-:%0%0 ORD-END ;
+%0: ORD-ONES ;
+%0%0: ORD-END ;
 
 LEXICON ORD-TEENS
-ikš:11 ORD-LOHKAI ;
-īʼd:11 ORD-LOHKAI ;
-kǭʼd:12 ORD-LOHKAI ;
-kuolm:13 ORD-LOHKAI ;
-nēļa:14 ORD-LOHKAI ;
-vīd:15 ORD-LOHKAI ;
-kūd:16 ORD-LOHKAI ;
-seismõz:17 ORD-LOHKAI ;
-seis:17 ORD-LOHKAI ;
-kǭʼdõks:18 ORD-LOHKAI ;
-īʼdõks:19 ORD-LOHKAI ;
+11:ikš ORD-LOHKAI ;
+11:īʼd ORD-LOHKAI ;
+12:kǭʼd ORD-LOHKAI ;
+13:kuolm  ORD-LOHKAI ;
+14:nēļa ORD-LOHKAI ;
+15:vīd ORD-LOHKAI ;
+16:kūd ORD-LOHKAI ;
+17:seis ORD-LOHKAI ;
+18:kǭdõks  ORD-LOHKAI ;
+19:īdõks  ORD-LOHKAI ;
 
 
 LEXICON ORD-LOHKAI
-tuoistõnz: ORD-END ;
+:tuoistõnz ORD-END ;
 
 LEXICON ORD-TENS
-kimmõz:1%0 ORD-END ;
-kǭʼd:2 ORD-LÅGEV ;
-kuolm:3 ORD-LÅGEV ;
-nēļa:4 ORD-LÅGEV ;
-vīd:5 ORD-LÅGEV ;
-kūd:6 ORD-LÅGEV ;
-seis:7 ORD-LÅGEV ;
-kǭdõks:8 ORD-LÅGEV ;
-īdõks:9 ORD-LÅGEV ;
+1%0:kimmõz  ORD-END ;
+
+2:kǭʼd ORD-LÅGEV ;
+3:kuolm  ORD-LÅGEV ;
+4:nēļa ORD-LÅGEV ;
+5:vīd ORD-LÅGEV ;
+6:kūd ORD-LÅGEV ;
+7:seis ORD-LÅGEV ;
+8:kǭdõks  ORD-LÅGEV ;
+9:īdõks  ORD-LÅGEV ;
 
 LEXICON ORD-LÅGEV
-kimdõz:%0 ORD-END ;
-kimdõz% : ORD-ONES ;
+%0:kimdõz  ORD-END ;
+:kimdõz%  ORD-ONES ;
 
 
 LEXICON ORD-ONES
-eʼžmi:1 ORD-END ;
-tuoi:2 ORD-END ;
-kuolmõz:3 ORD-END ;
-kuolmi:3 ORD-END ;
-neļļõz:4 ORD-END ;
-vīdõz:5 ORD-END ;
-kūdõz:6 ORD-END ;
-seismõz:7 ORD-END ;
-seismi:7 ORD-END ;
-kǭʼdõksmõz:8 ORD-END ;
-īʼdõksmõz:9 ORD-END ;
+1:eʼžmi ORD-END ;
+2:tuoi ORD-END ;
+3:kuolmõz ORD-END ;
+3:kuolmi ORD-END ;
+4:neļļõz ORD-END ;
+5:vīdõz ORD-END ;
+6:kūdõz ORD-END ;
+7:seismõz ORD-END ;
+7:seismi ORD-END ;
+8:kǭʼdõksmõz ORD-END ;
+9:īʼdõksmõz ORD-END ;
 !
 
 
 LEXICON ORD-END
-:%. # ;
+%.: # ;
