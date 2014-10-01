@@ -571,8 +571,8 @@ LEXICON N_EĻ !!≈ * __@CODE@__ : 133
 +N:	NMN_EĻ	;
 
 LEXICON N_BLĒʼḐ !!≈ * __@CODE@__ blēʼḑ:blēʼḑ 134
-	NMN_BLĒʼḐ-SG	;
-	NMN_BLĒʼḐ-PL	;
+	N_BLĒʼḐ-SG	;
+	N_BLĒʼḐ-PL	;
 
 LEXICON N_BLĒʼḐ-SG !!≈ * __@CODE@__ blēʼḑ:blēʼḑ 134
 +N:	NMN_BLĒʼḐ-SG	;
@@ -2245,18 +2245,18 @@ LEXICON NMN_DUŅTŠ !!≈ * __@CODE@__ : 70
 	NMN_DUŅTŠ-SG ;
 	NMN_DUŅTŠ-PL ;
 LEXICON NMN_DUŅTŠ-SG !!≈ * __@CODE@__ : 70
-:%{XC%} SG-DAT_õn ;
-:%{XC%}        SG-ELA/INE_õst ;
-                SG-GEN ;
-:%{XC%} SG-ILL_õ ;
-:%{XC%}        SG-INS_õks ;
-                SG-NOM  ;
-:%{XC%}        SG-PAR_õ ;
+ 	SG-DAT_õn ;
+        SG-ELA/INE_õst ;
+        SG-GEN ;
+	SG-ILL_õ ;
+        SG-INS_õks ;
+        SG-NOM  ;
+        SG-PAR_õ ;
 LEXICON NMN_DUŅTŠ-PL !!≈ * __@CODE@__ : 70
-:ī      PL-INS_DÕKS-STEM ;
-        PL-ELA/INE_īst ;
-        PL-ILL_īz ;
-        PL-PAR_īdi ;
+:%^VowsLI1i PL-INS_DÕKS-STEM ;
+:%^VowsLI1 PL-ELA/INE_ist ;
+:%^VowsLI1 PL-ILL_iz ;
+:%^VowsLI1 PL-PAR_idi ;
 
 LEXICON NMN_TORĪ !!≈ * __@CODE@__ : 71
 	NMN_TORĪ-SG ;
@@ -2900,19 +2900,19 @@ LEXICON NMN_DAŅTŠ !!≈ * __@CODE@__ : 105
 	NMN_DAŅTŠ-SG	;
 	NMN_DAŅTŠ-PL	;
 LEXICON NMN_DAŅTŠ-SG !!≈ * __@CODE@__ : 105
-:%{XC%}              SG-DAT_õn   ;
-        SG-ELA/INE_štõ  ;
+        SG-DAT_õn   ;
+        SG-ELA/INE_õst  ;
         SG-GEN      ;
-:%{XC%}              SG-ILL_õ    ;
-:%{XC%}              SG-INS_õks  ;
+        SG-ILL_õ    ;
+        SG-INS_õks  ;
         SG-NOM      ;
-:%{XC%}              SG-PAR_õ    ;
+        SG-PAR_õ    ;
 
 LEXICON NMN_DAŅTŠ-PL !!≈ * __@CODE@__ : 105
-:%^VowsL1aToǭ PL-INS_ÕDÕKS-STEM       ;
-:%^VowsL1aToǭ PL-ELA/INE_ist  ;
-:%^VowsL1aToǭ PL-ILL_iž       ;
-:%^VowsL1aToǭ PL-PAR_idi      ;
+:%^VowsLI1 	PL-INS_ÕDÕKS-STEM       ;
+:%^VowsLI1 	PL-ELA/INE_ist  ;
+:%^VowsLI1	PL-ILL_iž       ;
+:%^VowsLI1	PL-PAR_idi      ;
 
 
 LEXICON NMN_KOUŠ !!≈ * __@CODE@__ : 106
@@ -5003,18 +5003,18 @@ LEXICON NMN_BIRKOV !!≈ * __@CODE@__ : 224 birkov:birkov
 	NMN_BIRKOV-SG	;
 	NMN_BIRKOV-PL	;
 LEXICON NMN_BIRKOV-SG !!≈ * __@CODE@__ : 224
-:               SG-DAT_õn       ;
-:               SG-ELA/INE_stõ  ;
+:               SG-DAT_n       ;
+:               SG-ELA/INE_st  ;
 :               SG-GEN  ;
 :               SG-ILL_õ        ;
-:               SG-INS_õks      ;
+:               SG-INS_ks      ;
 :       SG-NOM  ;
-:               SG-PAR_tõ ;
+:               SG-PAR_t ;
 LEXICON NMN_BIRKOV-PL !!≈ * __@CODE@__ : 224
 :     PL-INS_DKÕKS-STEM   ;
 :     PL-ELA/INE_šti   ;
-:     PL-ILL_iž   ;
-:     PL-PAR_i   ;
+:     PL-ILL_ži   ;
+:     PL-PAR_ḑi   ;
 
 
 
