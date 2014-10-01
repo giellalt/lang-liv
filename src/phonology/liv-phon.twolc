@@ -420,12 +420,14 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 "0:p"
 !! __@RULENAME@__
  0:p <=> Vow: p _ Vow: %^ConsL: ;
+!€# käp0ā%^ConsL%^LongV2Õin2
+!€0 käppõ00
 
 "%{XC%}:Cx"
 !! __@RULENAME@__
  %{XC%}:Cx <=> 
 !# Cns* Vow ( ʼ: ) Cx _ Vow: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] 
-  # Cns* [ a | ä | õ | u | i ] ( ʼ: ) Cx _ [ %> õ | %> i ] ;
+  # Cns* [ a | ä | e | õ | u | i ] ( ʼ: ) Cx _ [ %> õ | %> i ] ;
          where Cx in (t b d g l ļ m n ņ r ŗ š v z ž ) ;
 
 "%{XC%}:p"
@@ -454,13 +456,13 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 
 "Stod removal left"
 !! __@RULENAME@__  
- ʼ:0 <=  # Cns* :0* Vow _ [ CnsWithStod Cns:* :0* | i g (Vow: Cns:) | o Cns ] ( Vow: | ū: Cns: ) %^StodRM:0 ; 
+ ʼ:0 <=  # Cns* :0* Vow _ [ CnsWithStod Cns:* :0* | [ i | u ] g (Vow: Cns:) | o Cns ] ( Vow: | ū: Cns: ) %^StodRM:0 ; 
 !€# daʼdzā%^Stress1to2%^VowsRM%>õ
 !€0 daʼdz0000õ
 
 "Stod removal right"
 !! __@RULENAME@__  
- ʼ:0 =>  # Cns* :0* Vow _ [ CnsWithStod Cns:* :0* | i g (Vow: Cns:) | o Cns ] (Vow: | ū: Cns: ) %^StodRM:0 ; 
+ ʼ:0 =>  # Cns* :0* Vow _ [ CnsWithStod Cns:* :0* | [ i | u ] g (Vow: Cns:) | o Cns ] (Vow: | ū: Cns: ) %^StodRM:0 ; 
 ! 2013-06-26 for looser voikko stød can disappear everywhere
  _ ;
 ! Vow _ CnsWithStod: ( :CnsWithStod )  Vow: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
@@ -475,9 +477,11 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 
 "z:ž"
 !! __@RULENAME@__
- z:ž <=> _ %^PalatalizeLeft:0 ; !! 
+ z:ž <=> _ (Vow:0) %^PalatalizeLeft:0 ; !! 
 !€# alīz%^PalatalizeLeft%>i
 !€0 alīž00i
+!€# izā%^PalatalizeLeft%^VowsRM%>ḑi
+!€# iž0000ḑi
 
 "l:ļ"
 !! __@RULENAME@__  
