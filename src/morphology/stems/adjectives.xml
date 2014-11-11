@@ -18479,37 +18479,6 @@
   </e>
   <e>
     <lg>
-      <l pos="A">lǟʼndzīe</l>
-
-      <stg>
-        <st Contlex="A_TĪE">lǟʼndz#īe</st>
-      </stg>
-
-      <stress>lǟʼndz|īe</stress>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="A">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="A">möödunud ööl</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="A"/>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="A">pagājušonakt</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
       <l pos="A">lǭʼigi</l>
 
       <stg>
@@ -21418,7 +21387,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">kaunis</t>
+
+        <t pos="A">söpö</t>
+
+        <te>eläimistä</te>
       </tg>
 
       <tg xml:lang="lav">
@@ -24536,43 +24509,6 @@
 
       <tg xml:lang="lav">
         <t pos="A">pagānisks</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="A">pai</l>
-
-      <stg>
-        <st Contlex="A_BRĪ">pai</st>
-      </stg>
-
-      <stress>pai</stress>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel>= jõvā|läpš</semRel>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="A">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="A">pailaps</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="A"/>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="A">labs bērns</t>
-
-        <t pos="A">paibērns</t>
       </tg>
     </mg>
   </e>
@@ -39240,37 +39176,6 @@
 
       <tg xml:lang="lav">
         <t pos="A">šķīsts</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="A">vagāmīez</l>
-
-      <stg>
-        <st Contlex="A_MĪEZ">vagā#mīe</st>
-      </stg>
-
-      <stress>vagā|mīez</stress>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="A">YY</t>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="A">vagur inimene</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="A"/>
-      </tg>
-
-      <tg xml:lang="lav">
-        <t pos="A">kluss cilvēks</t>
       </tg>
     </mg>
   </e>
