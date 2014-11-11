@@ -50521,7 +50521,7 @@
             </tCtn>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V" val="TV">liottaa</t>
+            <t pos="V" val="TV">parkita</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="V" val="TV">miecēt</t>
@@ -50551,7 +50551,7 @@
             <t pos="V" val="TV">toornahka parkainesse panna ja selles parkida</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="V" val="TV"/>
+            <t pos="V" val="TV">parkita</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="V" val="TV">miecēt</t>
@@ -58097,25 +58097,6 @@
          </tg>
          <tg xml:lang="lav">
             <t pos="V" val="TV">latot</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="V" type="Aux">vȯʼl</l>
-         <stg>
-            <st Contlex="V-AUX_VȰLDA">vȯʼl</st>
-         </stg>
-         <stress>vȯʼl 2</stress>
-      </lg>
-      <pos>V-Aux</pos>
-      <mg>
-         <defNative/>
-         <tg xml:lang="eng">
-            <t pos="V" type="Aux">YY</t>
-         </tg>
-         <tg xml:lang="fin">
-            <t pos="V" type="Aux"/>
          </tg>
       </mg>
    </e>
