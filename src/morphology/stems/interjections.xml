@@ -1400,13 +1400,16 @@
             <t pos="Interj">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Interj">ptruu (käsk hobusele peatumiseks)</t>
+            <t pos="Interj">ptruu</t>
+            <te>käsk hobusele peatumiseks</te>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Interj"/>
+            <t pos="Interj">ptruu</t>
+            <te>käsky hevoselle pysähtyä</te>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Interj">tprū (pavēle zirga apturēšanai)</t>
+            <t pos="Interj">tprū</t>
+            <te>pavēle zirga apturēšanai</te>
          </tg>
       </mg>
    </e>
@@ -1457,7 +1460,8 @@
             <t pos="Interj">röhh-röhh</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Interj"/>
+            <t pos="Interj">röh-röh</t>
+            <te>sian ääni</te>
          </tg>
          <tg xml:lang="lav">
             <t pos="Interj">ruk-ruk</t>
@@ -1562,13 +1566,16 @@
             <t pos="Interj">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Interj">tere, tervitus</t>
+            <t pos="Interj">tere</t>
+            <t pos="Interj">tervitus</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Interj"/>
+            <t pos="Interj">hei</t>
+            <t pos="Interj">terve</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Interj">sveiks, sveiki</t>
+            <t pos="Interj">sveiks</t>
+            <t pos="Interj">sveiki</t>
          </tg>
       </mg>
    </e>
@@ -1592,7 +1599,8 @@
             <t pos="Interj">kõss</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Interj"/>
+            <t pos="Interj">hus-hus</t>
+            <te>ajaa pois eläintä, lasta jne.</te>
          </tg>
          <tg xml:lang="lav">
             <t pos="Interj">tiš</t>
@@ -1616,13 +1624,16 @@
             <t pos="Interj">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Interj">kae, näe</t>
+            <t pos="Interj">kae</t>
+            <t pos="Interj">näe</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Interj"/>
+            <t pos="Interj">katso!</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Interj">re, skat, lūk</t>
+            <t pos="Interj">re</t>
+            <t pos="Interj">skat</t>
+            <t pos="Interj">lūk</t>
          </tg>
       </mg>
    </e>
@@ -1854,7 +1865,7 @@
             <t pos="Interj">auh</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Interj"/>
+            <t pos="Interj">vau</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="Interj">vau</t>
@@ -1905,13 +1916,15 @@
             <t pos="Interj">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Interj">oot, pea</t>
+            <t pos="Interj">oot</t>
+            <t pos="Interj">pea</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Interj"/>
+            <t pos="Interj">odota!</t>
+            <t pos="Interj">pysähdy!</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Interj">▫ pag</t>
+            <t pos="Interj">pag</t>
          </tg>
       </mg>
    </e>
