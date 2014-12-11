@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - käbrāz: # Noun 168 'eng /est käbe/fin' - full paradigm
+     käbrāz+A+Sg+Nom: käbrāz
+     käbrāz+A+Sg+Gen: käbrā
+     käbrāz+A+Sg+Par: käbrāzt
+     käbrāz+A+Sg+Dat: käbrān
+     käbrāz+A+Sg+Ins: käbrāks
+     käbrāz+A+Sg+Ill: [käʼbrõz, käʼbrõ, käbrõz, käbrõ]
+     käbrāz+A+Sg+Ela: käbrāst
+     käbrāz+A+Pl+Nom: käbrād
+     käbrāz+A+Pl+Gen: käbrād
+     käbrāz+A+Pl+Par: käbrīdi
+     käbrāz+A+Pl+Dat: käbrādõn
+     käbrāz+A+Pl+Ins: käbrādõks
+     käbrāz+A+Pl+Ill: käbrīž
+     käbrāz+A+Pl+Ela: käbrīst
+
