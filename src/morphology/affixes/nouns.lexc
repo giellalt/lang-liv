@@ -39,6 +39,16 @@ LEXICON N_BRĪ !!≈ * __@CODE@__ contains brī:brī 16
 LEXICON N_TEI !!≈ * __@CODE@__ contains tei:tei 17
 +N:	NMN_TEI	;
 
+LEXICON N_KUŖĒ  !!≈ * __@CODE@__ contains  kuŗē:kuʼŗŗē 18
++N:     NMN_KUŖĒ   ;
+
+LEXICON N_KUŖĒ-SG  !!≈ * __@CODE@__ contains  kuŗē:kuʼŗŗē 18
++N:     NMN_KUŖĒ-SG    ;
+
+LEXICON N_KUŖĒ-PL  !!≈ * __@CODE@__ contains  kuŗē:kuʼŗŗē 18
++N:     NMN_KUŖĒ-PL    ;
+
+
 LEXICON N_KALĀ  !!≈ * __@CODE@__ contains  kalā:kaʼlā 18
 +N:	NMN_KALĀ   ;
 
@@ -64,6 +74,9 @@ LEXICON N_AIGĀ !!≈ * __@CODE@__ aigā:aigā 20
 LEXICON N_LĒBA !!≈ * __@CODE@__ lēba:lēba 21
 +N:	NMN_LĒBA	;
 
+LEXICON N_KŪJA !!≈ * __@CODE@__ kūja:lēba 21
++N:	NMN_KŪJA	;
+
 LEXICON N_PŪOGA !!≈ * __@CODE@__ pūoga:pūoga 22
 +N:	NMN_PŪOGA	;
 
@@ -85,6 +98,9 @@ LEXICON N_PǞVA-PL !!≈ * __@CODE@__ pǟva:pǟva 24
 
 LEXICON N_IZĀ !!≈ * __@CODE@__ izā:izā 25
 +N:	NMN_IZĀ	;
+
+LEXICON N_PIEZĀ !!≈ * __@CODE@__ piezā:pieʼzzā 25
++N:	NMN_PIEZĀ	;
 
 LEXICON N_AŽĀ !!≈ * __@CODE@__ ažā:aʼžā 26
 	N_AŽĀ-SG	;
@@ -729,6 +745,7 @@ LEXICON N_ROʼVZ-PL !!≈ * __@CODE@__ : 167 roʼvz:roʼv
 +N:	NMN_ROʼVZ-PL	;
 
 LEXICON N_KÄBRĀZ !!≈ * __@CODE@__ : 168
+!!= * Yaml: __A-kaebraaz__
 +N:	NMN_KÄBRĀZ	;
 
 LEXICON N_MAIGĀZ !!≈ * __@CODE@__ : 169
@@ -896,6 +913,7 @@ LEXICON N_SĒMI-PL !!≈ * __@CODE@__ : 201
 +N:     NMN_SĒMI-PL   ;
 
 LEXICON N_LĒʼMI !!≈ * __@CODE@__ lēʼmi:lēʼmi 202
+!!= Yaml: __A-aqrlimi__
 	N_LĒʼMI-SG	;
 	N_LĒʼMI-PL	;
 
@@ -1119,7 +1137,8 @@ LEXICON N_GOLĀTÕKS !!≈ * __@CODE@__ golātõks:golātõks 244 found in Liv-e
 
 !! !!Nominal inflection
 !! !! Inflection lexica
-LEXICON NMN_PŪ
+LEXICON NMN_PŪ !!≈ * __@CODE@__ pū:pū 12
+!! Stem change: None
 	NMN_PŪ-SG	;
 	NMN_PŪ-PL	;
 
@@ -1141,6 +1160,8 @@ LEXICON NMN_PŪ-PL
  PL-PAR_ḑi ;
 
 LEXICON NMN_RǬʼ
+!! 13
+!! Stem	change:	None
 	NMN_RǬʼ-PL ;
         SG-DAT_n ;
         SG-ELA/INE_stõ ;
@@ -1160,6 +1181,8 @@ LEXICON NMN_RǬʼ-PL
 
 LEXICON NMN_PǞ
 !! 14
+!! Stem	change:	Yes (vowel ǟ:ē)
+!!= * Yaml: __N-paeae__
 	NMN_PǞ-PL	:
         SG-DAT_n ;
         SG-ELA/INE_stõ ;
@@ -1177,7 +1200,7 @@ LEXICON NMN_PǞ-PL
 !       PL-INE ;
 :%^PalatalizeLeft        PL-PAR_ḑi ;
 
-LEXICON NMN_TĪE !! Work to be done 2013-03-04
+LEXICON NMN_TĪE !!= * __@CODE@__ tīe:tīʼe
 !! 15
 	NMN_TĪE-SG	;
 	NMN_TĪE-PL	;
@@ -1199,6 +1222,8 @@ LEXICON NMN_TĪE-PL
 
 LEXICON NMN_BRĪ
 !! 16
+!!= * Yaml: __N-mai__
+!! Stem change: None
 	NMN_BRĪ-PL	;
         SG-DAT_õn ;
         SG-ELA/INE_õst ;
@@ -1218,6 +1243,7 @@ LEXICON NMN_BRĪ-PL
 
 LEXICON NMN_TEI
 !! 17
+!! Stem change: Yes (Vowel change)
 	NMN_TEI-SG	;
 	NMN_TEI-PL	;
 
@@ -1236,9 +1262,31 @@ LEXICON NMN_TEI-PL
 :%^VowsLI1        PL-ILL_ži ;
 :%^VowsLI1	PL-PAR_ḑi ;
 
+LEXICON NMN_KUŖĒ
+!! 18
+!! kuŗē:kuʼŗŗē
+	NMN_KUŖĒ-SG	;
+	NMN_KUŖĒ-PL	;
 
-!! 18,19
-LEXICON NMN_KALĀ
+LEXICON NMN_KUŖĒ-SG
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA/INE_st ;
+:%^StodRM        SG-GEN ;
+:%^Stress2to1    SG-ILL_ZERO ;
+! SG-INE ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^Stress2to1    SG-PAR_ZERO ;
+
+LEXICON NMN_KUŖĒ-PL
+:%^StodRM        PL-INS_DÕKS-STEM ;
+:%^VowsRM        PL-ELA/INE_šti ;
+:%^VowsRM        PL-ILL_ži ;
+:%^VowsRM        PL-PAR_ḑi ;
+
+!! 18
+LEXICON NMN_KALĀ !!= * __@CODE@__ kalā:kaʼllā
+!! Stem change: Yes
 	NMN_KALĀ-SG	;
 	NMN_KALĀ-PL	;
 
@@ -1259,11 +1307,13 @@ LEXICON NMN_KALĀ-PL
 :%^VowsRM        PL-PAR_ḑi ;
 
 !! 19
-LEXICON NMN_TUBĀ !!= * __@CODE@__ tubā:tuʼbā
+LEXICON NMN_TUBĀ !!= * __@CODE@__ tubā:tuʼbbā
+!! * Yaml: __A-amaa, N-tubaa__
+!! Stem change:	 Yes
+!! Stød
  NMN_TUBĀ-SG ;
  NMN_TUBĀ-PL ;
 LEXICON NMN_TUBĀ-SG
-!! * Yaml: __A-amaa__
 :%^StodRM        SG-DAT_n ;
 :%^StodRM        SG-ELA/INE_st ;
 :%^StodRM        SG-GEN ;
@@ -1280,7 +1330,9 @@ LEXICON NMN_TUBĀ-PL
 :%^PalatalizeLeft%^VowsRM        PL-PAR_ḑi ;
 
 !! 20
-LEXICON NMN_AIGĀ
+LEXICON NMN_AIGĀ !!= * __@CODE@__ aigā:aʼigā
+!! * Yaml: __N-aigaa__
+
 	NMN_AIGĀ-SG	;
 	NMN_AIGĀ-PL	;
 LEXICON NMN_AIGĀ-SG
@@ -1299,7 +1351,8 @@ LEXICON NMN_AIGĀ-PL
 !       PL-INE ;
 :%^VowsRM        PL-PAR_ḑi ;
 !! 21
-LEXICON NMN_LĒBA
+LEXICON NMN_LĒBA !!= * __@CODE@__ lēba:leiba
+!! * Yaml: __N-leeba__
 	NMN_LĒBA-SG	;
 	NMN_LĒBA-PL	;
 
@@ -1318,8 +1371,33 @@ LEXICON NMN_LĒBA-PL
 :%^VowsShI1%^VowsRM        PL-ILL_ži ;
 :%^VowsShI1%^VowsRM        PL-PAR_ḑi ;
 
+!! 21
+LEXICON NMN_KŪJA !!= * __@CODE@__ kūja:leiba
+!! * Yaml: ____
+	NMN_KŪJA-SG	;
+	NMN_KŪJA-PL	;
+
+LEXICON NMN_KŪJA-SG
+        SG-DAT_n ;
+        SG-ELA/INE_st ;
+        SG-GEN ;
+:%^VowsShI1%^VowsRM    SG-ILL_õ ;
+        SG-INS_ks ;
+        SG-NOM  ;
+:%^VowsShI1%^VowsRM    SG-PAR_õ ;
+
+LEXICON NMN_KŪJA-PL
+        PL-INS_DÕKS-STEM ;
+:%^VowsShI1%^VowsRM        PL-ELA/INE_šti ;
+:%^VowsShI1%^VowsRM        PL-ILL_ži ;
+:%^VowsShI1%^VowsRM        PL-PAR_ḑi ;
+
 !! 22
-LEXICON NMN_PŪOGA
+LEXICON NMN_PŪOGA !!= * __@CODE@__ pūoga:pūoga
+!!= * Yaml: __N-puuoga__ 
+!! Stem change: Yes (Vowel ūo:ȯi)
+!! Stød: None
+
 	NMN_PŪOGA-SG	;
 	NMN_PŪOGA-PL	;
 
@@ -1341,7 +1419,8 @@ LEXICON NMN_PŪOGA-PL
 :%^Stress2to1%^VowsRM        PL-PAR_ḑi ;
 
 !! 23
-LEXICON NMN_LǬJA
+LEXICON NMN_LǬJA !!= * __@CODE@__ lǭja:lǭija
+!! Stem change: Yes ()
 	NMN_LǬJA-SG	;
 	NMN_LǬJA-PL	;
 
@@ -1363,7 +1442,8 @@ LEXICON NMN_LǬJA-PL
 :%^Stress2to1%^VowsRM        PL-PAR_ḑi ;
 
 !! 24
-LEXICON NMN_PǞVA
+LEXICON NMN_PǞVA !!= * __@CODE@__ pǟva:päuva
+!! Stem change: Yes
 	NMN_PǞVA-SG	;
 	NMN_PǞVA-PL	;
 
@@ -1385,7 +1465,9 @@ LEXICON NMN_PǞVA-PL
 :%^Stress2to1%^VowsRM        PL-PAR_ḑi ;
 
 !! 25
-LEXICON NMN_IZĀ
+LEXICON NMN_IZĀ !!= * __@CODE@__ izā:iʼzzā
+!!= * Yaml: __N-izaa, N-__
+!! Stem change: yes
 	NMN_IZĀ-SG	;
 	NMN_IZĀ-PL	;
 
@@ -1406,8 +1488,34 @@ LEXICON NMN_IZĀ-PL
 :%^PalatalizeLeft%^VowsRM        PL-PAR_ḑi ;
 !! 
 
+!! 25
+LEXICON NMN_PIEZĀ !!= * __@CODE@__ piezā:pieʼzzā
+!!= * Yaml: __N-piezaa__
+!! Stem change: yes
+!! Stød: Yes
+	NMN_PIEZĀ-SG	;
+	NMN_PIEZĀ-PL	;
+
+LEXICON NMN_PIEZĀ-SG
+:%^StodRM        SG-DAT_n ;
+:%^StodRM        SG-ELA/INE_st ;
+:%^StodRM        SG-GEN ;
+:%^Stress2to1    SG-ILL_ZERO ;
+! SG-INE ;
+:%^StodRM        SG-INS_ks ;
+:%^StodRM        SG-NOM  ;
+:%^Stress2to1    SG-PAR_ZERO ;
+
+LEXICON NMN_PIEZĀ-PL
+:%^StodRM        PL-INS_DÕKS-STEM ;
+:%^StodRM        PL-ELA/INE_Ist ;
+:%^StodRM        PL-ILL_Iž ;
+:%^PalatalizeLeft%^VowsRM        PL-PAR_ḑi ;
+!! 
+
 !!26
-LEXICON NMN_AŽĀ !!≈ * __@CODE@__ ažā:aʼžā 26
+LEXICON NMN_AŽĀ !!≈ * __@CODE@__ ažā:aʼžžā 26
+!! Stem change: Yes
 	NMN_AŽĀ-SG	;
 	NMN_AŽĀ-PL	;
 
@@ -1428,6 +1536,8 @@ LEXICON NMN_AŽĀ-PL !!≈ * __@CODE@__ ažā:aʼžā 26
 :%^VowsRM        PL-PAR_ḑi ;
 
 LEXICON NMN_ĀĻDŽA !!≈ * __@CODE@__ āļdža:āļdža 27
+!!= * __N-aaldzha__ 
+!! Stem change: Yes (Vowel)
 	NMN_ĀĻDŽA-SG ;
 	NMN_ĀĻDŽA-PL ;
 LEXICON NMN_ĀĻDŽA-SG !!≈ * __@CODE@__ āļdža:āļdža 27
@@ -1445,10 +1555,11 @@ LEXICON NMN_ĀĻDŽA-PL !!≈ * __@CODE@__ āļdža:āļdža 27
 :%^VowsRM        PL-ILL_iz ;
 :%^VowShIn1%^VowsRM        PL-PAR_ḑi ;
 
-LEXICON NMN_SUKĀ !!≈ * __@CODE@__ sukā:sukā 28
+LEXICON NMN_SUKĀ !!≈ * __@CODE@__ sukā:sukkā 28
+!! Stem change: Yes
  NMN_SUKĀ-SG ;
  NMN_SUKĀ-PL ;
-LEXICON NMN_SUKĀ-SG !!≈ * __@CODE@__ sukā:sukā 28
+LEXICON NMN_SUKĀ-SG !!≈ * __@CODE@__ sukā:sukkā 28
 :%^StodRM        SG-DAT_n ;
 :%^StodRM        SG-ELA/INE_st ;
 :%^StodRM        SG-GEN ;
@@ -1457,16 +1568,18 @@ LEXICON NMN_SUKĀ-SG !!≈ * __@CODE@__ sukā:sukā 28
 :%^StodRM        SG-NOM  ;
 :%^VowShIn1%^A2ÕIn2    SG-PAR_ZERO ;
 
-LEXICON NMN_SUKĀ-PL !!≈ * __@CODE@__ sukā:sukā 28
+LEXICON NMN_SUKĀ-PL !!≈ * __@CODE@__ sukā:sukkā 28
 :%^StodRM        PL-INS_DÕKS-STEM ;
 :%^VowsRM        PL-ELA/INE_ist ;
 :%^VowsRM        PL-ILL_iz ;
 :%^VowShIn1%^VowsRM        PL-PAR_ḑi ;
 
-LEXICON NMN_LIEPĀ !!≈ * __@CODE@__ liepā:liepā 29
+LEXICON NMN_LIEPĀ !!≈ * __@CODE@__ liepā:lieppā 29
+!! Stem change:	Yes  
+!! Stød: None
  NMN_LIEPĀ-SG ;
  NMN_LIEPĀ-PL ;
-LEXICON NMN_LIEPĀ-SG !!≈ * __@CODE@__ liepā:liepā 29
+LEXICON NMN_LIEPĀ-SG !!≈ * __@CODE@__ liepā:lieppā 29
 :%^StodRM        SG-DAT_n ;
 :%^StodRM        SG-ELA/INE_st ;
 :%^StodRM        SG-GEN ;
@@ -1475,13 +1588,15 @@ LEXICON NMN_LIEPĀ-SG !!≈ * __@CODE@__ liepā:liepā 29
 :%^StodRM        SG-NOM  ;
 :%^VowShIn1%^A2ÕIn2    SG-PAR_ZERO ;
 
-LEXICON NMN_LIEPĀ-PL !!≈ * __@CODE@__ liepā:liepā 29
+LEXICON NMN_LIEPĀ-PL !!≈ * __@CODE@__ liepā:lieppā 29
 :%^StodRM        PL-INS_DÕKS-STEM ;
 :%^VowsRM        PL-ELA/INE_ist ;
 :%^VowsRM        PL-ILL_iz ;
 :%^VowShIn1%^VowsRM        PL-PAR_ḑi ;
 
 LEXICON NMN_OKSĀ !!≈ * __@CODE@__ oksā:oksā 30
+!! Stem change: None
+!! Stød: None
 	NMN_OKSĀ-SG ;
 	NMN_OKSĀ-PL ;
 LEXICON NMN_OKSĀ-SG !!≈ * __@CODE@__ oksā:oksā 30
@@ -1500,6 +1615,8 @@ LEXICON NMN_OKSĀ-PL !!≈ * __@CODE@__ oksā:oksā 30
 :%^VowShIn1%^VowsRM        PL-PAR_ḑi ;
 
 LEXICON NMN_VȰNTSA !!≈ * __@CODE@__ vȱntsa:vȱntsa 31
+!! Stem	change:	Yes (Vowel)
+!! Stød: None
 	NMN_VȰNTSA-SG ;
 	NMN_VȰNTSA-PL ;
 LEXICON NMN_VȰNTSA-SG !!≈ * __@CODE@__ vȱntsa:vȱntsa 31
@@ -1518,6 +1635,8 @@ LEXICON NMN_VȰNTSA-PL !!≈ * __@CODE@__ vȱntsa:vȱntsa 31
 :%^VowShIn1%^VowsRM        PL-PAR_ḑi ;
 
 LEXICON NMN_LIESTĀ !!≈ * __@CODE@__ liestā:liestā 32
+!! Stem	change:	   Yes
+!! Stød: None
 	NMN_LIESTĀ-SG ;
 	NMN_LIESTĀ-PL ;
 LEXICON NMN_LIESTĀ-SG !!≈ * __@CODE@__ liestā:liestā 32
@@ -1537,6 +1656,9 @@ LEXICON NMN_LIESTĀ-PL !!≈ * __@CODE@__ liestā:liestā 32
 
 !! 33
 LEXICON NMN_ĀIGA
+!!= * Yaml: __N-aaiga__
+!! Stem	change:	Yes (Vowel)
+!! Stød: None
         NMN_ĀIGA-SG     ;
         NMN_ĀIGA-PL     ;
 LEXICON NMN_ĀIGA-SG
@@ -1558,6 +1680,9 @@ LEXICON NMN_ĀIGA-PL
 
 !! 33b LĀNGA
 LEXICON NMN_LĀNGA
+!!= * Yaml: __N-laanga__
+!! Stem	change:	Yes (Vowel)
+!! Stød: None
         NMN_LĀNGA-SG     ;
         NMN_LĀNGA-PL     ;
 LEXICON NMN_LĀNGA-SG
@@ -1579,11 +1704,21 @@ LEXICON NMN_LĀNGA-PL
 :%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
 
 !! 34
-LEXICON NMN_SĪLMA
-	NMN_ĀIGA	;
+LEXICON NMN_SĪLMA !!= * __@CODE@__ sīlma:sīlma
+!!= * Yaml: __N-siilma__
+!! Stem change:	Yes (Vowel)
+!! Stød: None
+	NMN_SĪLMA-SG	;
+	NMN_SĪLMA-PL	;
 
 LEXICON NMN_SĪLMA-SG
-	NMN_ĀIGA-SG	;
+:        SG-DAT_n ;
+:        SG-ELA/INE_st ;
+:        SG-GEN ;
+:%^Stress1to2%^VowsRM    SG-ILL_õ ;
+:        SG-INS_ks ;
+:        SG-NOM  ;
+:%^Stress1to2%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_SĪLMA-PL
 :        PL-INS_DÕKS-STEM ;
@@ -1595,7 +1730,8 @@ LEXICON NMN_SĪLMA-PL
 
 !! 35
 LEXICON NMN_KǞNGA !!≈ * __@CODE@__ kǟnga:kǟnga 35
-!! * Yaml: __N-aeaerga__
+!! * Yaml: __N-aeaerga, N-aeaerga__
+!! Stem change: Yes
 	NMN_KǞNGA-SG ;
 	NMN_KǞNGA-PL ;
 LEXICON NMN_KǞNGA-SG !!≈ * __@CODE@__ kǟnga:kǟnga 35
@@ -1616,6 +1752,8 @@ LEXICON NMN_KǞNGA-PL !!≈ * __@CODE@__ kǟnga:kǟnga 35
 :%^VowShIn1%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
 
 LEXICON NMN_ĀINA !!≈ * __@CODE@__ āina:āina 36
+!! * Yaml: __N-aaina__
+!! Stem change: Yes (Vowel)
 	NMN_ĀINA-SG ;
 	NMN_ĀINA-PL ;
 LEXICON NMN_ĀINA-SG !!≈ * __@CODE@__ āina:āina 36
@@ -1635,7 +1773,9 @@ LEXICON NMN_ĀINA-PL !!≈ * __@CODE@__ āina:āina 36
 
 
 !! 37
-LEXICON NMN_VĒNA
+LEXICON NMN_VĒNA !!≈ * __@CODE@__ vēna:veina
+!! * Yaml: __N-veena__
+!! Stem change: Yes (Vowel)
 	NMN_VĒNA-SG	;
 	NMN_VĒNA-PL	;
 LEXICON NMN_VĒNA-SG
@@ -1657,7 +1797,8 @@ LEXICON NMN_VĒNA-PL
 :%^VowsRM        PL-PAR_i ;
 
 !! 38
-LEXICON NMN_RŌDA
+LEXICON NMN_RŌDA  !!≈ * __@CODE@__ rōda:rouda
+!! Stem change: Yes (Vowel)
 	NMN_RŌDA-SG	;
 	NMN_RŌDA-PL	;
 
@@ -1677,7 +1818,9 @@ LEXICON NMN_RŌDA-PL
 :%^VowsSh1%^PalatalizeLeft        PL-PAR_I ;
 
 !! 39, 40, 41, 42
-LEXICON NMN_PADĀ
+LEXICON NMN_PADĀ  !!≈ * __@CODE@__ padā:paʼddā
+!! Stem change: Yes
+!! Stød: Yes
 	NMN_PADĀ-SG	;
 	NMN_PADĀ-PL	;
 
@@ -1713,7 +1856,8 @@ LEXICON NMN_SÕBRĀ-PL
 	NMN_PADĀ-PL     ;
 
 !! 41
-LEXICON NMN_KÄPĀ
+LEXICON NMN_KÄPĀ !!= * __@CODE@__ käpā:käpā
+!!= * Yaml: __N-kaepaa__
 	NMN_KÄPĀ-SG ;
 	NMN_KÄPĀ-PL ;
 LEXICON NMN_KÄPĀ-SG
@@ -1723,7 +1867,9 @@ LEXICON NMN_KÄPĀ-SG
 :%^ConsL%^LongV2Õin2    SG-ILL_ZERO ;
 :%^StodRM        SG-INS_ks ;
 :%^StodRM        SG-NOM  ;
-:%^ConsL%^LongV2Õin2    SG-PAR_ZERO ;
+!:%^ConsL%^LongV2Õin2    SG-PAR_ZERO ;
+:%^LongV2Õin2    SG-PAR_ZERO ;
+:%^ConsL    SG-PAR_ZERO ;
 
 LEXICON NMN_KÄPĀ-PL
 :%^StodRM        PL-INS_DÕKS-STEM ;
@@ -3588,7 +3734,7 @@ LEXICON NMN_ĀIGAST-PL
  	PL-ILL_iž ;
  	PL-PAR_idi ;
 !! 141
-LEXICON NMN_ANALĪZ
+LEXICON NMN_ANALĪZ !!
 !! __87__
 !! * Yaml: __N-analiiz__ analīz+N+Sg+Ela => analīzõst
 !! Change in stem: None
@@ -4068,14 +4214,15 @@ LEXICON NMN_ROʼVZ-PL !!≈ * __@CODE@__ : 167
 
 
 LEXICON NMN_KÄBRĀZ !!≈ * __@CODE@__ : 168 käbrāz:käʼbrāz
+!!= * Yaml: __A-kaebraaz__
 	NMN_KÄBRĀZ-SG	;
 	NMN_KÄBRĀZ-PL	;
 LEXICON NMN_KÄBRĀZ-SG !!≈ * __@CODE@__ : 168
 :%^StodRM%^ConsRM        SG-DAT_n ;
 :%^StodRM%^ConsRM        SG-ELA/INE_st ;
 :%^StodRM%^ConsRM        SG-GEN ;
-:%^Stress2to1        SG-ILL_ZERO ;
-:%^Stress2to1%^ConsRM        SG-ILL_ZERO ;
+:%^Stress2to1        	 SG-ILL_ZERO ;
+:%^Stress2to1%^ConsRM    SG-ILL_ZERO ;
 :%^StodRM%^ConsRM        SG-INS_ks ;
 :%^StodRM        SG-NOM  ;
 :%^StodRM        SG-PAR_t ;
@@ -4333,6 +4480,7 @@ LEXICON NMN_LǬʼTŠÕZ-PL
 
 LEXICON NMN_SĒJI !!≈ * __@CODE@__ : 186
 !!= * Yaml:__A-aandaji, N-seeji__
+!! Stem change: None
 	NMN_SĒJI-SG ;
 	NMN_SĒJI-PL ;
 LEXICON NMN_SĒJI-SG !!≈ * __@CODE@__ : 186
@@ -4354,6 +4502,7 @@ LEXICON NMN_SĒJI-PL !!≈ * __@CODE@__ : 186
 LEXICON NMN_AKKIJI !!≈ * __@CODE@__ : 187
 !! __123__
 !! * Yaml: __N-akkiji__
+!! Stem change: None
 	NMN_AKKIJI-SG ;
 	NMN_AKKIJI-PL ;
 LEXICON NMN_AKKIJI-SG !!≈ * __@CODE@__ : 187
@@ -4540,23 +4689,25 @@ LEXICON NMN_KUKKI-PL !!≈ * __@CODE@__ kukki: 195
 
 LEXICON NMN_AIGI !!≈ * __@CODE@__ aigi:aigi 196
 !! __16__
+!!= * Yaml: __A-aigi__
+!! Stem change: Yes (vowel length in 1st syllable)
 	NMN_AIGI-SG	;
 	NMN_AIGI-PL	;
 LEXICON NMN_AIGI-SG !!≈ * __@CODE@__ aigi:aigi 196
-:%^VowsLI1%^StodRM%^ConsShz        SG-DAT_õn ;
-:%^VowsLI1%^StodRM%^ConsShz       	SG-ELA/INE_õst ;
-:%^VowsLI1%^StodRM%^ConsShz        SG-GEN ;
-:%^VowsLI1%^StodRM%^ConsShz  	SG-ILL_õ ;
+:%^VowsLI1z        SG-DAT_õn ;
+:%^VowsLI1z       	SG-ELA/INE_õst ;
+:%^VowsLI1z        SG-GEN ;
+:%^VowsLI1z  	SG-ILL_õ ;
 ! SG-INE ;
-:%^VowsLI1%^StodRM%^ConsSh%^VowsRMz        SG-INS_õks ;
+:%^VowsLI1z        SG-INS_õks ;
 	SG-NOM  ;
-:%^VowsLI1%^StodRM%^ConsSh%^VowsRMz    	SG-PAR_t ;
+:%^VowsLI1z    	SG-PAR_t ;
 
 LEXICON NMN_AIGI-PL !!≈ * __@CODE@__ aigi:aigi 196
 :z 	PL-INS_DÕKS-STEM ;
-:%^VowsLI1%^StodRM%^ConsShž 	PL-ELA/INE_ist ;
-:%^VowsLI1%^StodRM%^ConsShž 	PL-ILL_iz ;
-:%^VowsLI1%^StodRM%^ConsShž 	PL-PAR_i ;
+:%^VowsLI1ž 	PL-ELA/INE_ist ;
+:%^VowsLI1ž 	PL-ILL_iz ;
+:%^VowsLI1ž 	PL-PAR_i ;
 
 
 LEXICON NMN_OUKI !!≈ * __@CODE@__ : 197
@@ -4613,6 +4764,7 @@ LEXICON NMN_TŪĻI-PL
 LEXICON NMN_AʼBLI !!≈ * __@CODE@__ aʼbli:aʼbli 200
 !! __567__
 !! * Yaml: __aainagi__
+!! Stem change: None
 	NMN_AʼBLI-SG   ;
 	NMN_AʼBLI-PL   ;
 
@@ -4647,13 +4799,13 @@ LEXICON NMN_LĒʼMI !!≈ * __@CODE@__ lēʼmi:lēʼmi 202
 
 LEXICON NMN_LĒʼMI-SG      !!≈ * __@CODE@__ lēʼmi:lēʼmi 202
 :z        SG-DAT_õn ;
-:z              SG-ELA/INE_õst ;
+:z        SG-ELA/INE_õst ;
 :z        SG-GEN ;
-:z      SG-ILL_õ ;
+:z        SG-ILL_õ ;
 :z        SG-INS_õks ;
-        SG-NOM  ;
-:z      SG-PAR_t ;
-	SG-PAR_t   ; !!≈ * __@CODE@__ Should this work for A-aqrlimi ?
+          SG-NOM  ;
+:z        SG-PAR_t ;
+	  SG-PAR_t   ; !!≈ * __@CODE@__ Should this work for A-aqrlimi ?
 
 LEXICON NMN_LĒʼMI-PL      !!≈ * __@CODE@__ lēʼmi:lēmi 202
 :z      PL-INS_DÕKS-STEM ;
