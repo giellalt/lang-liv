@@ -38,7 +38,7 @@
  * %^D2ZERO:0  The d => 0
 
 ! Vowel raising
-
+ * %^LowerVows:0  lower vowel
  * %^RVows:0      raise vowel
  * %^VowsSh1:0    vowel shortening in first syllable
  * %^VowsShU1:0   
@@ -105,14 +105,12 @@ __a:i in second syllable plural__
 
 __ǭ:a in first syllable__  
 
-
 __ē:e in first syllable__  
 
 __ū:u in first syllable__  
 
 __ū:ȯ in first syllable__  
-{{{
-}}}
+
 
 __ī:i in first syllable__  
 
@@ -147,8 +145,13 @@ __a:ā in first syllable__
 
 __o:ō in first syllable__  
 
+__o:i__
+
 raise vowels
 __ē:ī in kēļ 215__  
+
+LOWER VOWELS
+__ī:ē in tīe 15__
 
 Destressing in second syllable
 __ā:õ __  
@@ -160,7 +163,7 @@ __ū:õ __
 __õ:i__
 
 
-Vowel loss
+VOWEL LOSS
 
 __ā:0__  
 
@@ -171,10 +174,11 @@ __ī:0__
 
 __a:0__  
 
+__e:0__
+
 __õ:0__  
 
 __i:0 in first syllable__  
-
 
 __u:0 in second position of first-syllable diphthong__  
 
@@ -268,4 +272,5 @@ __ǟ:e short and palatalization__
 
 
 __a:ä palatalization__  
+
 
