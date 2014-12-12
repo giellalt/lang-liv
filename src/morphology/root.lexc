@@ -463,7 +463,8 @@ Multichar_Symbols
  %^DiphthL1    !!≈ * __@CODE@__ =
  %^D2Ž         !!≈ * __@CODE@__ = The *ti => *si
  %^D2ZERO      !!≈ * __@CODE@__ The d => 0
- %^RVows   !!≈ * __@CODE@__ = Vowel raising
+ %^LowerVows   !!= * @CODE@ lower vowel
+ %^RVows       !!≈ * __@CODE@__ = Vowel raising
  %^VowsMetath     !!≈ * __@CODE@__ = vowel metathesis in verbs
 %^VowsMRM !!≈ * __@CODE@__ Vow in middle ētam:eitmõd
  %^VowsRM	  !!≈ * __@CODE@__ =

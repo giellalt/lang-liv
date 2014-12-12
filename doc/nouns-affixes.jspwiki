@@ -26,6 +26,13 @@ Stem lexica
 
  * __LEXICON N_TEI__ contains tei:tei 17
 
+ * __LEXICON N_KUŖĒ__ contains  kuŗē:kuʼŗŗē 18
+
+ * __LEXICON N_KUŖĒ-SG__ contains  kuŗē:kuʼŗŗē 18
+
+ * __LEXICON N_KUŖĒ-PL__ contains  kuŗē:kuʼŗŗē 18
+
+
  * __LEXICON N_KALĀ__ contains  kalā:kaʼlā 18
 
  * __LEXICON N_KALĀ-SG__ contains  kalā:kaʼlā 18
@@ -40,7 +47,9 @@ Stem lexica
 
  * __LEXICON N_AIGĀ__ aigā:aigā 20
 
- * __LEXICON N_LĒBA__ lēba:lēba 21
+ * __LEXICON N_LĒBA__ lēba:leiba 21
+
+ * __LEXICON N_KŪJA__ kūja:lēba 21
 
  * __LEXICON N_PŪOGA__ pūoga:pūoga 22
 
@@ -55,6 +64,8 @@ Stem lexica
  * __LEXICON N_PǞVA-PL__ pǟva:pǟva 24
 
  * __LEXICON N_IZĀ__ izā:izā 25
+
+ * __LEXICON N_PIEZĀ__ piezā:pieʼzzā 25
 
  * __LEXICON N_AŽĀ__ ažā:aʼžā 26
 
@@ -674,126 +685,249 @@ __jõugõ:jõugõ__
 
 !!Nominal inflection
 Inflection lexica
+ * __LEXICON NMN_PŪ__ pū:pū 12
+  * Yaml: __N-puu__
+Stem change: None
 
 
+
+13
+* Yaml: __N-rooq__
+Stem	change:	None
 
 
 
 14
+  * Yaml: __N-paeae__
+Stem	change:	Yes 
+ Vowel raising ǟ:ē +Pl +Ela/+Ill/+Par
+Stød: Yes
 
 
-Work to be done 2013-03-04
+
+ * __LEXICON NMN_TĪE __ tīe:tīʼe
 15
+  * Yaml: __N-paeae__
+Stem change: Yes
+ Vowel lowering īe:ē +Pl +Ela/+Ill/+Par
+Stød: Yes
+ * __        SG-ILL_zõ ; __ 2014.12.12 Stød loss problem,
+		    	should be tīʼezõ
 
 tēšti
 
 16
+  * Yaml: __N-mai__
+Stem change: None
 
 
+ * __LEXICON NMN_TEI  __ tei:tei
 17
+  * Yaml: __N-tei__ Pass 2014.12.12
+Stem change: Yes 
+ Vowel change: ei:ē
 
 
 
+ * __LEXICON NMN_KUŖĒ __ kuŗē:kuʼŗ
+18
+  * Yaml: __N-kurree??__
+kuŗē:kuʼŗ
 
-18,19
+
+
+18
+ * __LEXICON NMN_KALĀ __ kalā:kaʼl
+  * Yaml: __N-kalaa__ Pass: 2014.12.12
+Stem change: Yes
+  Consonant lengthening
+  Consonant palatalization
+  Vowel change in 2nd syllable ā:õ/0
+Stød: Yes
 
 
 
 19
- * __LEXICON NMN_TUBĀ __ tubā:tuʼbā
-* Yaml: __A-amaa__
+ * __LEXICON NMN_TUBĀ __ tubā:tuʼb
+* Yaml: __A-amaa, N-tubaa__ Pass: 2014.12.12
+Stem change:	 Yes
+  Vowel change in word-final position a:õ/0
+Stød
 
 
 20
+ * __LEXICON NMN_AIGĀ __ aigā:aʼig
+* Yaml: __N-aigaa__ 
+Stem change: Yes
+  vowel in 2nd syllable ā:õ/0
+Stød: Yes
+
+
+ * __LEXICON NMN_LĒBA __ lēba:leib
+21
+* Yaml: __N-leeba__ Passed: 2014.12.12
+Stem change: Yes
+  vowel change ei:e
+Stød: None
+
+
 
 21
+ * __LEXICON NMN_KŪJA __ kūja:leiba
+* Yaml: ____
+No information
 
 
 
 22
+ * __LEXICON NMN_PŪOGA __ pūoga:pūog
+  * Yaml: __N-puuoga__ Passed: 
+Stem change: Yes
+  Vowel change in 1st syllable ūo:ȯi
+  Vowel change in word-final position a:õ/0
+Stød: None
+
 
 
 
 23
+ * __LEXICON NMN_LǬJA __ lǭja:lǭija
+  * Yaml: __N-looja__ Passed: 2014.12.12
+Stem change: Yes
+  Vowel change in 1st syllable ǭ:a
+  Consonant change ij:j
+Stød: None
 
 
 
 24
+ * __LEXICON NMN_PǞVA __ pǟva:pǟuva
+  * Yaml: __N-paeaeva__ Passed: 2014.12.12
+Stem change: Yes
+ Vowel change ǟ:äu
+Stød: None
+
+
+
+ * __LEXICON NMN_IZĀ __ izā:iʼzzā
+25
+  * Yaml: __N-izaa__
+Stem change: yes
+ Vowel loss ā:0
+Stød: Yes
+
 
 
 
 25
+ * __LEXICON NMN_PIEZĀ __ piezā:pieʼzzā
+  * Yaml: __N-piezaa__
+Stem change: yes
+Stød: Yes
 
 
 
 
- * __LEXICON NMN_AŽĀ__ ažā:aʼžā 26
+ * __LEXICON NMN_AŽĀ__ ažā:aʼžžā 26
+Stem change: Yes
 
  * __LEXICON NMN_AŽĀ-SG__ ažā:aʼžā 26
 
  * __LEXICON NMN_AŽĀ-PL__ ažā:aʼžā 26
 
  * __LEXICON NMN_ĀĻDŽA__ āļdža:āļdža 27
+  * __N-aaldzha__ 
+Stem change: Yes (Vowel)
  * __LEXICON NMN_ĀĻDŽA-SG__ āļdža:āļdža 27
 
  * __LEXICON NMN_ĀĻDŽA-PL__ āļdža:āļdža 27
 
- * __LEXICON NMN_SUKĀ__ sukā:sukā 28
- * __LEXICON NMN_SUKĀ-SG__ sukā:sukā 28
+ * __LEXICON NMN_SUKĀ__ sukā:sukkā 28
+Stem change: Yes
+ * __LEXICON NMN_SUKĀ-SG__ sukā:sukkā 28
 
- * __LEXICON NMN_SUKĀ-PL__ sukā:sukā 28
+ * __LEXICON NMN_SUKĀ-PL__ sukā:sukkā 28
 
- * __LEXICON NMN_LIEPĀ__ liepā:liepā 29
- * __LEXICON NMN_LIEPĀ-SG__ liepā:liepā 29
+ * __LEXICON NMN_LIEPĀ__ liepā:lieppā 29
+Stem change:	Yes  
+Stød: None
+ * __LEXICON NMN_LIEPĀ-SG__ liepā:lieppā 29
 
- * __LEXICON NMN_LIEPĀ-PL__ liepā:liepā 29
+ * __LEXICON NMN_LIEPĀ-PL__ liepā:lieppā 29
 
  * __LEXICON NMN_OKSĀ__ oksā:oksā 30
+Stem change: None
+Stød: None
  * __LEXICON NMN_OKSĀ-SG__ oksā:oksā 30
 
  * __LEXICON NMN_OKSĀ-PL__ oksā:oksā 30
 
  * __LEXICON NMN_VȰNTSA__ vȱntsa:vȱntsa 31
+Stem	change:	Yes (Vowel)
+Stød: None
  * __LEXICON NMN_VȰNTSA-SG__ vȱntsa:vȱntsa 31
 
  * __LEXICON NMN_VȰNTSA-PL__ vȱntsa:vȱntsa 31
 
  * __LEXICON NMN_LIESTĀ__ liestā:liestā 32
+Stem	change:	   Yes
+Stød: None
  * __LEXICON NMN_LIESTĀ-SG__ liestā:liestā 32
 
  * __LEXICON NMN_LIESTĀ-PL__ liestā:liestā 32
 
 33
+  * Yaml: __N-aaiga__
+Stem	change:	Yes (Vowel)
+Stød: None
 
 
 33b LĀNGA
+  * Yaml: __N-laanga__
+Stem	change:	Yes (Vowel)
+Stød: None
 
 
 34
+ * __LEXICON NMN_SĪLMA __ sīlma:sīlma
+  * Yaml: __N-siilma__
+Stem change:	Yes (Vowel)
+Stød: None
 
 
 
 35
  * __LEXICON NMN_KǞNGA__ kǟnga:kǟnga 35
-* Yaml: __N-aeaerga__
+* Yaml: __N-aeaerga, N-aeaerga__
+Stem change: Yes
  * __LEXICON NMN_KǞNGA-SG__ kǟnga:kǟnga 35
 
  * __LEXICON NMN_KǞNGA-PL__ kǟnga:kǟnga 35
 
  * __LEXICON NMN_ĀINA__ āina:āina 36
+* Yaml: __N-aaina__
+Stem change: Yes (Vowel)
  * __LEXICON NMN_ĀINA-SG__ āina:āina 36
 
  * __LEXICON NMN_ĀINA-PL__ āina:āina 36
 
 
 37
+ * __LEXICON NMN_VĒNA__ vēna:veina
+* Yaml: __N-veena__
+Stem change: Yes (Vowel)
 
 
 38
+ * __LEXICON NMN_RŌDA__ rōda:rouda
+Stem change: Yes (Vowel)
 
 
 
 39, 40, 41, 42
+ * __LEXICON NMN_PADĀ__ padā:paʼddā
+Stem change: Yes
+Stød: Yes
 
 
 
@@ -1498,12 +1632,15 @@ __72__
  * __NMN_ĀMBAZ-PL ;__ : 173
 
 
- * __LEXICON NMN_PǬĻAZ__ : 175 pǭļaz:pǭļļa
+ * __LEXICON NMN_PǬĻAZ__ : 175 pǭļaz:pǭļ
+  * Yaml: __A-poolaz__
+Stød: None
+Sg Nom=Gen: No
  * __LEXICON NMN_PǬĻAZ-SG__ : 175
  * __!NMN_ĀMBAZ-SG ;__ : 173
 
  * __LEXICON NMN_PǬĻAZ-PL__ : 175
- * __NMN_ĀMBAZ-PL ;__ : 173
+ * __!NMN_ĀMBAZ-PL ;__ : 173
 
 
  * __LEXICON NMN_RĒNAZ__ : 176 rēnaz:rēna
@@ -1539,6 +1676,12 @@ vȭrõz:vȭrõ
 182
 
 183
+ * __LEXICON NMN_PŪʼDÕZ __ pūʼdõz:pūʼdõ
+  * Yaml: __A-puuqdwz__
+Stød: Yes
+Sg Nom=Gen: No
+
+
 184
  * __LEXICON NMN_VĪETŠÕZ__ : 184
 
@@ -1550,6 +1693,7 @@ vȭrõz:vȭrõ
 
  * __LEXICON NMN_SĒJI__ : 186
   * Yaml:__A-aandaji, N-seeji__
+Stem change: None
  * __LEXICON NMN_SĒJI-SG__ : 186
 
  * __LEXICON NMN_SĒJI-PL__ : 186
@@ -1558,6 +1702,7 @@ vȭrõz:vȭrõ
  * __LEXICON NMN_AKKIJI__ : 187
 __123__
 * Yaml: __N-akkiji__
+Stem change: None
  * __LEXICON NMN_AKKIJI-SG__ : 187
 
  * __LEXICON NMN_AKKIJI-PL__ : 187
@@ -1589,9 +1734,12 @@ __61__
   * Yaml:__A-aqigi__
 
 
- * __LEXICON NMN_PUʼNNI__ puʼnni:punni 193
+ * __LEXICON NMN_PUʼNNI__ puʼnni:puʼn 193
 __127__
- * __LEXICON NMN_PUʼNNI-SG__ puʼnni:punni 193
+  * Yaml: __N-puqnni__ Passed: 2014.12.12
+Stød: Yes
+Sg Nom=Gen: No
+ * __LEXICON NMN_PUʼNNI-SG__ puʼnni:puʼn 193
 
  * __LEXICON NMN_PUʼNNI-PL__ puʼnni:punni 193
 
@@ -1611,6 +1759,8 @@ __33__
 
  * __LEXICON NMN_AIGI__ aigi:aigi 196
 __16__
+  * Yaml: __A-aigi__
+Stem change: Yes (vowel length in 1st syllable)
  * __LEXICON NMN_AIGI-SG__ aigi:aigi 196
 
  * __LEXICON NMN_AIGI-PL__ aigi:aigi 196
@@ -1636,6 +1786,7 @@ __16__
  * __LEXICON NMN_AʼBLI__ aʼbli:aʼbli 200
 __567__
 * Yaml: __aainagi__
+Stem change: None
 
  * __LEXICON NMN_AʼBLI-SG__ aʼbli:aʼbli 200
 
