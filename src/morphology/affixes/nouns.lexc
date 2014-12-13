@@ -425,7 +425,7 @@ LEXICON N_LAINT !!≈ * __@CODE@__ : 97
 LEXICON N_LOUL !!≈ * __@CODE@__ : 98
 +N:	NMN_LOUL	;
 
-LEXICON N_UL !!≈ * __@CODE@__ : 99
+LEXICON N_UL !!≈ * __@CODE@__ : 99 ul:ul
 +N:	NMN_UL	;
 
 LEXICON N_PAN !!≈ * __@CODE@__ : 100
@@ -1663,48 +1663,53 @@ LEXICON NMN_VȰNTSA-PL !!≈ * __@CODE@__ vȱntsa:vȱntsa 31
 :%^VowShIn1%^VowsRM        PL-PAR_ḑi ;
 
 LEXICON NMN_LIESTĀ !!≈ * __@CODE@__ liestā:liestā 32
+!!= * Yaml: __N-liestaa__ Passed: 
 !! Stem	change:	   Yes
+!!  Diphthong straightening
+!!  ??Palatalization?? of s:š 
 !! Stød: None
 	NMN_LIESTĀ-SG ;
 	NMN_LIESTĀ-PL ;
 LEXICON NMN_LIESTĀ-SG !!≈ * __@CODE@__ liestā:liestā 32
-:%^StodRM        SG-DAT_n ;
-:%^StodRM        SG-ELA/INE_st ;
-:%^StodRM        SG-GEN ;
-:%^VowShIn1%^A2ÕIn2    SG-ILL_ZERO ;
-:%^StodRM        SG-INS_ks ;
-:%^StodRM        SG-NOM  ;
-:%^VowShIn1%^A2ÕIn2    SG-PAR_ZERO ;
+:        SG-DAT_n ;
+:        SG-ELA/INE_st ;
+:        SG-GEN ;
+:%^VowsRM    SG-ILL_õ ;
+:        SG-INS_ks ;
+:        SG-NOM  ;
+:%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_LIESTĀ-PL !!≈ * __@CODE@__ liestā:liestā 32
-:%^StodRM        PL-INS_DÕKS-STEM ;
-:%^VowsRM        PL-ELA/INE_ist ;
-:%^VowsRM        PL-ILL_iz ;
-:%^VowShIn1%^VowsRM        PL-PAR_ḑi ;
+:        PL-INS_DÕKS-STEM ;
+:        PL-ELA/INE_Ist ;
+:        PL-ILL_Iž ;
+:%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
+!:%^VowShIn1%^VowsRM        PL-PAR_i ;
 
 !! 33
-LEXICON NMN_ĀIGA
-!!= * Yaml: __N-aaiga__
-!! Stem	change:	Yes (Vowel)
+LEXICON NMN_ĀIGA !!≈ * __@CODE@__ āiga:āig
+!!= * Yaml: __N-aaiga__ Passed: 2014.12.13
+!! Stem	change:	Yes
+!!  Vowel length in first syllable
 !! Stød: None
         NMN_ĀIGA-SG     ;
         NMN_ĀIGA-PL     ;
 LEXICON NMN_ĀIGA-SG
-:        SG-DAT_n ;
-:        SG-ELA/INE_st ;
-:        SG-GEN ;
-:%^Stress1to2%^VowsRM    SG-ILL_õ ;
-:        SG-INS_ks ;
-:        SG-NOM  ;
-:%^Stress1to2%^VowsRM    SG-PAR_õ ;
+:a        SG-DAT_n ;
+:a        SG-ELA/INE_st ;
+:a        SG-GEN ;
+:%^VowShIn1    SG-ILL_õ ;
+:a        SG-INS_ks ;
+:a        SG-NOM  ;
+:%^VowShIn1    SG-PAR_õ ;
 
 LEXICON NMN_ĀIGA-PL
-:        PL-INS_DÕKS-STEM ;
-:%^Stress1to2%^VowsRM        PL-ELA/INE_šti ;
-:%^VowsRM        PL-ELA/INE_ist ;
-:%^Stress1to2%^VowsRM        PL-ILL_ži ;
+:a        PL-INS_DÕKS-STEM ;
+:%^VowShIn1        PL-ELA/INE_šti ;
+:        PL-ELA/INE_ist ;
+:%^VowShIn1        PL-ILL_ži ;
 :%^VowsRM        PL-ILL_iž ;
-:%^Stress1to2%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
+:%^VowShIn1        PL-PAR_i ;
 
 !! 33b LĀNGA
 LEXICON NMN_LĀNGA
@@ -2125,24 +2130,27 @@ LEXICON NMN_SĒMḐA-PL !!≈ * __@CODE@__ sēmḑa:sēmḑa 53
 :%^VowsRM        PL-PAR_idi ;
 
 
-LEXICON NMN_TĪERA !!≈ * __@CODE@__ tīera:tīera 54
+LEXICON NMN_TĪERA !!≈ * __@CODE@__ tīera:tīer 54
+!!= * Yaml: __A-tiiera__ Passed: 2014.12.12
+!! Stem	    change:	 Yes
+!! Stød: None
+!! Sg Nom=Gen: Yes
 	NMN_TĪERA-SG ;
 	NMN_TĪERA-PL ;
-LEXICON NMN_TĪERA-SG !!≈ * __@CODE@__ tīera:tīera 54
-        SG-DAT_n ;
-        SG-ELA/INE_st ;
-        SG-GEN ;
-:%^Stress1to2%^ConsL    SG-ILL_ZERO ;
-:%^VowShIn1%^A2ÕIn2        SG-INS_ks ;
-        SG-NOM  ;
-:%^VowShIn1%^A2ÕIn2    SG-PAR_ZERO ;
+LEXICON NMN_TĪERA-SG !!≈ * __@CODE@__ tīera:tīer 54
+:a        SG-DAT_n ;
+:a        SG-ELA/INE_st ;
+:a        SG-GEN ;
+:%{XC%}    SG-ILL_õ ;
+:%{XC%}%^VowShIn1        SG-INS_õks ;
+:a        SG-NOM  ;
+:%{XC%}%^VowShIn1    SG-PAR_õ ;
 
-LEXICON NMN_TĪERA-PL !!≈ * __@CODE@__ tīera:tīera 54
-:%^VowShIn1%^A2ÕIn2        PL-INS_DÕKS-STEM ;
-:%^VowShIn1%^VowsRM        PL-ELA/INE_ist ;
-:%^VowShIn1%^VowsRM        PL-ILL_iž ;
-!       PL-INE ;
-:%^VowShIn1%^VowsRM        PL-PAR_idi ;
+LEXICON NMN_TĪERA-PL !!≈ * __@CODE@__ tīera:tīer 54
+:%{XC%}%^VowShIn1õ        PL-INS_DÕKS-STEM ;
+:%{XC%}%^VowShIn1        PL-ELA/INE_ist ;
+:%{XC%}%^VowShIn1        PL-ILL_iž ;
+:%{XC%}%^VowShIn1        PL-PAR_idi ;
 
 
 LEXICON NMN_KRǬIPA !!≈ * __@CODE@__ krǭipa:krǭipa 55
@@ -2964,7 +2972,7 @@ LEXICON NMN_LOUL-PL !!≈ * __@CODE@__ : 98
 :%^VowsLI1      PL-INS_ÕDÕKS-STEM ;
 :%^VowsLI1      PL-PAR_idi        ;
 
-LEXICON NMN_UL !!≈ * __@CODE@__ : 99
+LEXICON NMN_UL !!≈ * __@CODE@__ : 99 ul:ul
 	NMN_UL-SG	;
 	NMN_UL-PL	;
 LEXICON NMN_UL-SG !!≈ * __@CODE@__ : 99
@@ -3704,6 +3712,10 @@ LEXICON NMN_NEITST-PL !!≈ * __@CODE@__ neitst:neits 137
         PL-PAR_idi ;
 
 LEXICON NMN_SĪEND !!≈ * __@CODE@__ sīend:sīen 138
+!!= * Yaml: __A-siiend__ Passed:
+!! Stem	    change: No
+!! Stød: None
+!! Sg Nom=Gen: No
 	NMN_SĪEND-SG	;
 	NMN_SĪEND-PL	;
 LEXICON NMN_SĪEND-SG !!≈ * __@CODE@__ : 138
@@ -3819,7 +3831,8 @@ LEXICON NMN_JAĻKŠ-PL
  	PL-ILL_iz ;
  	PL-PAR_idi ;
 !!
-LEXICON NMN_VIŠ !!≈ * __@CODE@__ : 144
+LEXICON NMN_VIŠ !!≈ * __@CODE@__ : 144 viš:viš
+!!= * Yaml: __A-vish__
 	NMN_VIŠ-SG	;
 	NMN_VIŠ-PL	;
 LEXICON NMN_VIŠ-SG !!≈ * __@CODE@__ : 144
@@ -4304,25 +4317,28 @@ LEXICON NMN_NÕTKĀZ-SG !!≈ * __@CODE@__ : 170
 LEXICON NMN_NÕTKĀZ-PL !!≈ * __@CODE@__ : 170
         NMN_RIKĀZ-PL    ; !!≈ * __@CODE@__ rikāz: 171
 
-LEXICON NMN_RIKĀZ !!≈ * __@CODE@__ rikāz: 171
-!!= * Yaml: __A-rikaaz__
+LEXICON NMN_RIKĀZ !!≈ * __@CODE@__ rikāz:rik 171
+!!= * Yaml: __A-rikaaz__ Passed: 
+!! Stem change: Yes
+!! Stød: None
+!! Sg Nom=Gen: No
 	NMN_RIKĀZ-SG	;
 	NMN_RIKĀZ-PL	;
-LEXICON NMN_RIKĀZ-SG !!≈ * __@CODE@__ rikāz:rikkā 171
-:%^Stress2to1        SG-DAT_n ;
-:%^ConsSh        SG-ELA/INE_st ;
-:%^Stress2to1        SG-GEN ;
-:%^Stress2to1        SG-ILL_ZERO ;
-:%^Stress2to1%>z        SG-ILL_ZERO ;
-:%^Stress2to1        SG-INS_ks ;
-:%^ConsShz        SG-NOM  ;
+LEXICON NMN_RIKĀZ-SG !!≈ * __@CODE@__ rikāz:rik 171
+:%{XC%}%>õ        SG-DAT_n ;
+:ā        SG-ELA/INE_st ;
+:%{XC%}%>õ        SG-GEN ;
+:%{XC%}%>õ        SG-ILL_ZERO ;
+:%{XC%}%>õz        SG-ILL_ZERO ;
+:%{XC%}%>õ        SG-INS_ks ;
+:āz        SG-NOM  ;
 :%^ConsShz        SG-PAR_t ;
 
 LEXICON NMN_RIKĀZ-PL !!≈ * __@CODE@__ rikāz: 171
-:%^Stress2to1        PL-INS_DÕKS-STEM ;
-:%^ConsSh%^Vow2Iin2        PL-ELA/INE_st ;
-:%^ConsSh%^Vow2Iin2        PL-ILL_ž ;
-:%^ConsSh%^Vow2Iin2        PL-PAR_di ;
+:%{XC%}%>õ        PL-INS_DÕKS-STEM ;
+:ī        PL-ELA/INE_st ;
+:ī        PL-ILL_ž ;
+:ī        PL-PAR_di ;
 
 
 LEXICON NMN_BIKŠĀZ !!≈ * __@CODE@__ : 172
@@ -4428,8 +4444,10 @@ LEXICON NMN_MÕTKÕZ-PL
 	NMN_VȬRÕZ-PL	;
 
 
+LEXICON NMN_VȬRÕZ	!!= * __@CODE@__ vȭrõz:vȭrõ
 !! 180
-LEXICON NMN_VȬRÕZ	!! vȭrõz:vȭrõ
+!!= * Yaml: __A-vwwrwz__ Passed: 2014.12.12
+!! Sg Nom=Gen: No
         NMN_VȬRÕZ-SG     ;
         NMN_VȬRÕZ-PL     ;
 
