@@ -114,7 +114,7 @@ Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž B C Č 
 
 Letters = Vow Cns ;
 
-Dummy = %^ConsSh %^LowerVows %^PalatalizeLeft %^StodRM %^VowsSh1 %^VowsRM ;
+Dummy = %^ConsSh %^LowerVows %^PalatalizeLeft %^StodRM %^VowsSh1 %^VowShIn1 %^VowsRM ;
 
 !Definitions
 !
@@ -142,6 +142,12 @@ Rules
 ā:a <=> # Cns* _  ( i ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 | %^VowShIn1:0 ] ;
 !€# āļdža%^VowShIn1%^A2ÕIn2
 !€0 aļdžõ00
+
+"ȱ:ȯ"
+!! __@RULENAME@__
+ȱ:ȯ <=> # Cns* _ Cns:+ (Vow:) %^VowShIn1: ;
+!€# vȱntsa%^VowShIn1%^VowsRM%>õ
+!€0 vȯnts0000õ
 
 "ā:ī in second syllable plural"
 !! __@RULENAME@__
@@ -392,9 +398,12 @@ i:0 <=>  # Cns* [ e: | ȯ: (0:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ;
          Vow: _ j Vow: %^ConsSh: ;
 !€# lǭija%^ConsSh
 !€0 lǭ0ja0
-         _ e s: t Vow: %^PalatalizeLeft: %^VowsRM: ;
-!€# liestā%^PalatalizeLeft%^VowsRM%>i
-!€0 l0ešt0000i
+       # Cns*  _ e Cns:+ (Vow: ) %^VowShIn1:  ;
+!€# liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i
+!€0 l0ešt00000i
+       # Cns* Vow: _ s: k Vow: %^ConsSh: ;
+!€# ūiska%^ConsSh
+!€0 ū0ška0
 
 "u:0 in second position of first-syllable diphthong"
 !! __@RULENAME@__  
@@ -554,6 +563,9 @@ n:ņ <=> _ ( Vow: ) (%^VowsSh1:) %^PalatalizeLeft:0 ( %^VowsRM:0 | %^Vow2Iin2:) 
 !€0 Vein000õ
 !€# ǭʼrõn%^PalatalizeLeft
 !€0 ǭʼriņ0
+       _ t s: Vow: %^VowShIn1: %^PalatalizeLeft: ;
+!€# vȱntsa%^VowShIn1%^PalatalizeLeft%^VowsRM%>ti
+!€0 vȯņtš00000ti
         _ %^PalatalizeLeft:0 ; !! sēņ:sēn 220
        _ g ( Vow: ) (%^VowShIn1:) %^PalatalizeLeft: ;
 !€# kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi
@@ -632,9 +644,9 @@ k:0 <=> s _ Vow: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
 "s:š palatalization"
 !! __@RULENAME@__  
 s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
-       _ t Vow:  %^PalatalizeLeft:0 %^VowsRM:0 [ # | %> ] ;
-!€# liestā%^PalatalizeLeft%^VowsRM%>i
-!€0 l0ešt0000i
+       _ (t) Vow: Dummy:*  %^PalatalizeLeft:0   ;
+!€# liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i
+!€0 l0ešt00000i
         # Cns* ȯ:  0: i: _ Cns:* (Vow:) %^VowsLI1:0 ;
 !€# pȯ0is%^VowsLI1õd
 !€0 pūo0š0õd
