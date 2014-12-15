@@ -21371,7 +21371,7 @@
             <t pos="A">haudunud</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A"/>
+            <t pos="A">hautunut</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="A">izsutis</t>
@@ -22180,7 +22180,7 @@
          </tg>
       </mg>
    </e>
-    <e>
+   <e>
       <lg>
          <l pos="A">paralēl</l>
          <stg>
@@ -22437,7 +22437,8 @@
             <t pos="A">pangene</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A"/>
+            <t pos="A">ämpärillinen</t>
+            <t pos="A">ämpärin suuruinen määrä</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="A">spaiņu-</t>
@@ -29226,7 +29227,14 @@
             <t pos="A">nadine</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A"/>
+            <tCtn>
+               <t pos="A">huono</t>
+               <re>vaateesta, tekstiilistä</re>
+            </tCtn>
+            <tCtn>
+               <t pos="A">kehno</t>
+               <re>vaateesta, tekstiilistä</re>
+            </tCtn>
          </tg>
          <tg xml:lang="lav">
             <t pos="A">skrandains</t>
@@ -33231,7 +33239,9 @@
             <t pos="A">raisku läinud</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A"/>
+            <t pos="A">mennyt pilalle</t>
+            <t pos="A">joutunut hukkaan</t>
+            <t pos="A">mennyt rappiolle</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="A">gājis bojā</t>
@@ -34983,7 +34993,8 @@
             <t pos="A">ergu unega</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A"/>
+            <t pos="A">huonouninen</t>
+            <t pos="A">henkilö, joka nukkuu katkonaisesti</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="A">ar cauru miegu</t>
@@ -40657,7 +40668,8 @@
             <t pos="A">äranäritud</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A"/>
+            <t pos="A">jyrsitty</t>
+            <t pos="A">kaluttu</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="A">nošņāpts</t>
@@ -40981,7 +40993,7 @@
             <t pos="A">ohteline</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A"/>
+            <t pos="A">vihneinen</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="A">akotains</t>
