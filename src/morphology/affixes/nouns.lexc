@@ -4675,29 +4675,27 @@ LEXICON NMN_LÄʼBḐI-PL !!≈ * __@CODE@__ : 188
 :ž       PL-PAR_i ;
        PL-PAR_di ;
 
-LEXICON NMN_NAI !!≈ * __@CODE@__ : 191
+LEXICON NMN_NAI !!≈ * __@CODE@__ : 191 nai:nai
+!! Vowel length
+!! Sg Nom=Gen: No
+!! Stød: None
         NMN_NAI-SG ;
         NMN_NAI-PL ;
 LEXICON NMN_NAI-SG !!≈ * __@CODE@__ : 188
 :zõ      SG-DAT_n ;
 :z       SG-ELA/INE_õst ;
-         SG-ELA/INE_st ;
+         SG-ELA/INE_stõ ;
 :z       SG-GEN ;
 :z       SG-ILL_õ ;
 :z       SG-INS_õks     ;
          SG-NOM  ;
 :z       SG-PAR_t ;
-         SG-PAR_ZERO ;
 
 LEXICON NMN_NAI-PL !!≈ * __@CODE@__ : 188
-:z     PL-INS_DÕKS-STEM ;
-       PL-INS_DÕKS-STEM ;
+:z     PL-INS_DKÕKS-STEM ;
 :ž     PL-ELA/INE_ist ;
-       PL-ELA/INE_sti ;
 :ži    PL-ILL_z ;
-       PL-ILL_ž ;
 :ž       PL-PAR_i ;
-       PL-PAR_di ;
 
 !! 192
 LEXICON NMN_AʼIGI
