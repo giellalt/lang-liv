@@ -114,7 +114,7 @@ Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž B C Č 
 
 Letters = Vow Cns ;
 
-Dummy = %^ConsSh %^LowerVows %^PalatalizeLeft %^StodRM %^VowsSh1 %^VowShIn1 %^VowsRM ;
+Dummy = %^ConsSh %^LowerVows %^PalatalizeLeft %^StodRM %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ;
 
 !Definitions
 !
@@ -201,7 +201,9 @@ a:i <=>  _ ( %^ConsSh: |%^VowsSh1: %^PalatalizeLeft: ) %^Vow2Iin2: ;
 
 "ȭ:õ in first syllable"
 !! __@RULENAME@__  
-ȭ:õ <=> # Cns* _  ( i ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+ȭ:õ <=> # Cns* _  ( i | u: ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+!€# mȭuka%^VowsSh1%^VowsRM%>õ
+!€0 mõuk0000õ
 
 "ō:o in first syllable"
 !! __@RULENAME@__  
@@ -407,7 +409,7 @@ i:0 <=>  # Cns* [ e: | ȯ: (0:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ;
 
 "u:0 in second position of first-syllable diphthong"
 !! __@RULENAME@__  
-u:0 <=> # Cns:* [ õ: | ä: | o: ]  _ Cns:+ (Vow:) %^VowsLI1:0 ;
+u:0 <=> # Cns:* [ õ: | ȭ: | ä: | o: ]  _ Cns:+ ( Vow: ) %^VowsLI1:0 ;
 !€# ouki%^VowsLI1z
 !€0 ō0ki0z
          Vow: _ v Vow: %^ConsSh: ;
