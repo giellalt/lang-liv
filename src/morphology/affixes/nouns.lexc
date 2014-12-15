@@ -2031,27 +2031,27 @@ LEXICON NMN_ŪŠKA-PL !!≈ * __@CODE@__ ūška:ūiska 47
 :%^ConsSh        PL-PAR_Idi ;
 
 LEXICON NMN_MȬKA !!≈ * __@CODE@__ mȭka:mȭuka 48
-!!≈ * Yaml: __N-mwwka__ Passed:
+!!≈ * Yaml: __N-mwwka__ Passed: 2014.12.15
 !! Stem change: Yes
 !!  vowel length
 !! Stød: None
 	NMN_MȬKA-SG ;
 	NMN_MȬKA-PL ;
 LEXICON NMN_MȬKA-SG !!≈ * __@CODE@__ mȭka:mȭuka 48
-:%^ConsSh        SG-DAT_n ;
-:%^ConsSh        SG-ELA/INE_st ;
-:%^ConsSh        SG-GEN ;
+:%^VowsLI1        SG-DAT_n ;
+:%^VowsLI1        SG-ELA/INE_st ;
+:%^VowsLI1        SG-GEN ;
 :%^VowsSh1%^VowsRM    SG-ILL_õ ;
 ! SG-INE ;
-:%^ConsSh        SG-INS_ks ;
-:%^ConsSh        SG-NOM  ;
+:%^VowsLI1        SG-INS_ks ;
+:%^VowsLI1        SG-NOM  ;
 :%^VowsSh1%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_MȬKA-PL !!≈ * __@CODE@__ mȭka:mȭuka 48
-:%^ConsSh        PL-INS_DÕKS-STEM ;
-:%^ConsSh%^VowsRM        PL-ELA/INE_st ;
-:%^ConsSh%^VowsRM        PL-ILL_ž ;
-:%^ConsSh%^VowsRM        PL-PAR_di ;
+:%^VowsLI1        PL-INS_DÕKS-STEM ;
+:%^VowsLI1%^VowsRM        PL-ELA/INE_ist ;
+:%^VowsLI1%^VowsRM        PL-ILL_iž ;
+:%^VowsLI1%^VowsRM        PL-PAR_idi ;
 
 LEXICON NMN_DADŽĀ !!≈ * __@CODE@__ dadžā:daʼdžā 49
 	NMN_DADŽĀ-SG ;
