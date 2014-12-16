@@ -2224,6 +2224,10 @@ LEXICON NMN_KUȚĀ-PL !!≈ * __@CODE@__ kuțā:kuțā 57
 :%^VowsRM        PL-PAR_idi ;
 
 LEXICON NMN_NĒTŠA !!≈ * __@CODE@__ nētša:nētša 58
+!!= * Yaml: __N-neetsha__ Passed: 2014.12.15
+!! Stem change Yes
+!!  final vowel loss
+!! Stød: None
 	NMN_NĒTŠA-SG ;
 	NMN_NĒTŠA-PL ;
 LEXICON NMN_NĒTŠA-SG !!≈ * __@CODE@__ nētša:nētša 58
@@ -2233,11 +2237,11 @@ LEXICON NMN_NĒTŠA-SG !!≈ * __@CODE@__ nētša:nētša 58
         SG-ILL_z ;
         SG-INS_ks ;
         SG-NOM  ;
-        SG-PAR_ZERO ;
+:z        SG-PAR_t ;
 LEXICON NMN_NĒTŠA-PL !!≈ * __@CODE@__ nētša:nētša 58
         PL-INS_DÕKS-STEM ;
-:%^VowsRM        PL-ELA/INE_išt ;
-:%^VowsRM        PL-ILL_iž ;
+:%^VowsRM        PL-ELA/INE_ist ;
+:%^VowsRM        PL-ILL_iz ;
 :%^VowsRM        PL-PAR_idi ;
 
 !! 59
@@ -3038,22 +3042,25 @@ LEXICON NMN_TÄM-PL
 :%^VowsL1aToǭ PL-PAR_idi      ;
 
 !! 102
-LEXICON NMN_NIŖȚ !!≈ * __@CODE@__ : 102
+LEXICON NMN_NIŖȚ !!≈ * __@CODE@__ : 102 niŗț:niŗț
+!!= * Yaml: __N-nirt__ Passed:
+!! First-syllable Vowel lengthening in Pl
+!! Stød: None
 	NMN_NIŖȚ-SG	;
 	NMN_NIŖȚ-PL	;
 LEXICON NMN_NIŖȚ-SG !!≈ * __@CODE@__ : 102
-:%{XC%}              SG-DAT_õn   ;
-                      SG-ELA/INE_stõ  ;
-                      SG-GEN      ;
-:%{XC%}              SG-ILL_õ    ;
-:%{XC%}              SG-INS_õks  ;
-:%^PalatalizeLeft     SG-NOM      ;
-:%{XC%}              SG-PAR_õ    ;
+     SG-DAT_õn   ;
+     SG-ELA/INE_štõ  ;
+     SG-GEN      ;
+     SG-ILL_õ    ;
+     SG-INS_õks  ;
+     SG-NOM      ;
+     SG-PAR_õ    ;
 LEXICON NMN_NIŖȚ-PL !!≈ * __@CODE@__ : 102
-:%^VowsL1aToǭ PL-INS_ÕDÕKS-STEM       ;
-:%^VowsL1aToǭ PL-ELA/INE_ist  ;
-:%^VowsL1aToǭ PL-ILL_iž       ;
-:%^VowsL1aToǭ PL-PAR_idi      ;
+:%^VowsLI1 PL-INS_ÕDÕKS-STEM       ;
+:%^VowsLI1 PL-ELA/INE_ist  ;
+:%^VowsLI1 PL-ILL_iž       ;
+:%^VowsLI1 PL-PAR_idi      ;
 
 
 LEXICON NMN_KUĻ !!≈ * __@CODE@__ : 103
@@ -4676,6 +4683,7 @@ LEXICON NMN_LÄʼBḐI-PL !!≈ * __@CODE@__ : 188
        PL-PAR_di ;
 
 LEXICON NMN_NAI !!≈ * __@CODE@__ : 191 nai:nai
+!!= * Yaml: __N-nai__ Passed: 2014.12.15
 !! Vowel length
 !! Sg Nom=Gen: No
 !! Stød: None

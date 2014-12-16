@@ -254,7 +254,7 @@ u:ū <=> # Cns* _  ( i: | ʼ: | :ʼ ) :Cns+ (Vow:) %^VowsLI1:0 ;
 !! __@RULENAME@__  
 0:o <=> # Cns*  ȯ: _ (i:) Cns:+ (Vow:) [ %^VowsLI1:0 ] ;
 
-
+!! !VOWEL LENGTHENING
 
 "a:ǭ in first syllable"
 !! __@RULENAME@__  
@@ -267,6 +267,12 @@ a:ǭ <=> _ :Cns+ %^VowsL1aToǭ:0 ;
 a:ā <=> _ [i g | :Cns+ | i z ] (Vow:) %^VowsLI1:0 ;
 !€# kand%^VowsLI1õd
 !€0 kāndõd
+
+"i:ī in first syllable"
+!! __@RULENAME@__
+i:ī <=> _ Cns:+  (Vow:) %^VowsLI1:0 ;
+!€# niŗț%^VowsLI1%>õ
+!€0 nīŗț00õ
 
 "o:ō in first syllable"
 !! __@RULENAME@__  
