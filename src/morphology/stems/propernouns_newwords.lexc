@@ -30,8 +30,8 @@ Aļask:Aļask PROP_FAKT "(eng) /(est) Alaska/(fin) Alaska/(lav) Aļaska" ;
 Andalūzij:Andalūzij PROP_KǬJ "(eng) /(est) Andaluusia/(fin) Andalusia/(lav) Andalūzija" ;
 Argentīn:Argentīn PROP_ANALĪZ "(eng) /(est) Argentina/(fin) Argentiina/(lav) Argentīna" ;
 Asīrij:Asīrij PROP_KǬJ "(eng) /(est) Assüüria/(fin) Assyria/(lav) Asīrija" ;
-Veʼžgõreirop:Veʼžgõr#eirop PROP_VȮŅ "(eng) /(est) Lääne-Euroopa/(fin) Länsi-Eurooppa/(lav) Rietumeiropa" ;
-Mǭgõreirop:Mǭgõr#eirop PROP_VȮŅ "(eng) /(est) Ida-Euroopa/(fin) Itä-Eurooppa/(lav) Austrumeiropa" ;
+Veʼžgõreirōp:Veʼžgõr#eirōp PROP_IRM "(eng) /(est) Lääne-Euroopa/(fin) Länsi-Eurooppa/(lav) Rietumeiropa" ;
+Mǭgõreirōp:Mǭgõr#eirōp PROP_IRM "(eng) /(est) Ida-Euroopa/(fin) Itä-Eurooppa/(lav) Austrumeiropa" ;
 Babilōnij:Babilōnij PROP_KǬJ "(eng) /(est) Babüloonia/(fin) Babylonia/(lav) Babilonija" ;
 Baltij:Baltij PROP_KǬJ "(eng) /(est) /(fin) Baltia/(lav) Baltija" ;
 Baškīrij:Baškīrij PROP_KǬJ "(eng) /(est) Baškiiria/(fin) Baškiria/(lav) Baškīrija" ;
@@ -47,9 +47,9 @@ Lǟndāzij:Lǟnd#āzij PROP_KǬJ "(eng) /(est) Kagu-Aasia/(fin) Kaakkois-Aasia/(
 Lȭinagāzij:Lȭinag#āzij PROP_KǬJ "(eng) /(est) Lõuna-Aasia/(fin) Etelä-Aasia/(lav) Dienvidāzija" ;
 Mǭgõrāzij:Mǭgõr#āzij PROP_KǬJ "(eng) /(est) Ida-Aasia/(fin) Itä-Aasia/(lav) Austrumāzija" ;
 Pūʼojāzij:Pūʼoj#āzij PROP_KǬJ "(eng) /(est) Põhja-Aasia/(fin) Pohjois-Aasia/(lav) Ziemeļāzija" ;
-Pūʼojeirop:Pūʼoj#eirop PROP_VȮŅ "(eng) /(est) Põhja-Euroopa/(fin) Pohjois-Eurooppa/(lav) Ziemeļeiropa" ;
-Lȭinageirop:Lȭinag#eirop PROP_VȮŅ "(eng) /(est) Lõuna-Euroopa/(fin) Etelä-Eurooppa/(lav) Dienvideiropa" ;
-Sidāmeirop:Sidām#eirop PROP_VȮŅ "(eng) /(est) Kesk-Euroopa/(fin) Keski-Eurooppa/(lav) Centrāleiropa" ;
+Pūʼojeirōp:Pūʼoj#eirōp PROP_IRM "(eng) /(est) Põhja-Euroopa/(fin) Pohjois-Eurooppa/(lav) Ziemeļeiropa" ;
+Lȭinageirōp:Lȭinag#eirōp PROP_IRM "(eng) /(est) Lõuna-Euroopa/(fin) Etelä-Eurooppa/(lav) Dienvideiropa" ;
+Sidāmeirōp:Sidām#eirōp PROP_IRM "(eng) /(est) Kesk-Euroopa/(fin) Keski-Eurooppa/(lav) Centrāleiropa" ;
 Mǭgõrāfrik:Mǭgõr#āfrik PROP_AMĀT "(eng) /(est) Ida-Aafrika/(fin) Itä-Afrikka/(lav) Austrumāfrika" ;
 Lȭinagāfrik:Lȭinag#āfrik PROP_AMĀT "(eng) /(est) Lõuna-Aafrika/(fin) Etelä-Afrikka/(lav) Dienvidāfrika" ;
 Veʼžgõrāfrik:Veʼžgõr#āfrik PROP_AMĀT "(eng) /(est) Lääne-Aafrika/(fin) Länsi-Afrikka/(lav) Rietumāfrika" ;
@@ -96,5 +96,9 @@ Kīev:Kīev PROP_AMĀT "(eng) /(est) Kiiev/(fin) Kiova/(lav) Kijeva" ;
 Bizantij:Bizantij PROP_KǬJ "(eng) /(est) Bütsants/(fin) Bysantin valtakunta/(lav) Bizantija" ;
 Latgalmǭ:Latgal#mǭ PROP_PŪ "(eng) /(est) Latgale/(fin) Latgale/(lav) Latgale" ;
 Weimar:Weimar PROP_PĒGAL "(eng) /(est) Weimar/(fin) Weimar/(lav) Veimāra" ;
+Zürich:Zürich PROP_ĀIGAST "(eng) /(est) Zürich/(fin) Zürich/(lav) Cīrihe" ;
+Daugavpils:Daugavpils PROP_ĀIGAST "(eng) /(est) Daugavpils; Väinalinn/(fin) Daugavpils; Väinänlinna/(lav) Daugavpils" ;
+Prantšmǭ:Prantš#mǭ PROP_PŪ "(eng) /(est) Prantsusmaa/(fin) Ranska/(lav) Francija" ;
+Petrograd:Petrograd PROP_IRM "(eng) /(est) Petrograd/(fin) Petrograd/(lav) Petrograda" ;
 
 !
