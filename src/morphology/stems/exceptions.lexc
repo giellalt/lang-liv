@@ -8,9 +8,10 @@
 LEXICON EXCEPTIONS
 
 !! the verbs of negation have partial inflection:
-!!€ äʼb
-!!€ iʼzt
-!!€ aʼlgid
+!!€ äʼb:    äb+V+Neg+Act+Ind+Prs+Sg1
+!!€ iʼzt:   äb+V+Neg+Act+Ind+Prt+Pl2
+!!€ iʼzt:   äb+V+Neg+Act+Ind+Prt+Pl3
+!!€ aʼlgid: äb+V+Neg+Act+Imprt+Pl2
 äb+V+Neg+Act+Ind+Prs+Sg1:äb        K ;
 äb+V+Neg+Act+Ind+Prs+Sg1:äʼb        K ;
 äb+V+Neg+Act+Ind+Prs+Sg3:äb        K ;
@@ -31,13 +32,13 @@ LEXICON EXCEPTIONS
 äb+V+Neg+Act+Jus+Sg3:aʼlgõ         K ;
 
 !! Some verbs only have few word-forms left:
-!!€ piḑīm
-!!€ piḑīks
+!!€ piḑīm:
+!!€ piḑīks:
 
 
 !! The verb lǟʼdõ has irregular forms:
-!!€ lekš
-!!€ li
+!!€ lekš:
+!!€ li:
 lǟʼdõ+V:lǟʼ	INF_dõ	;
 lǟʼdõ+V:lǟʼd	GER_sõ	;
 lǟʼdõ+V:lǟʼ	SUP-STEM_mõ	;
@@ -47,8 +48,8 @@ lǟʼdõ+V:lekš        INDPRTPL2_tā   ;
 lǟʼdõ+V:lekš        INDPRTPL3_tā   ;
 
 !! The verb vȱlda has irregular forms:
-!!€ uʼm
-!!€ ūo
+!!€ uʼm:
+!!€ ūo:
 vȱlda+V:vȱl   INF_da	;
 vȱlda+V:vȯld    GER_sõ  ;
 vȱlda+V:vȯʼl     SUP_mõ  ;
