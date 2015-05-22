@@ -171,6 +171,31 @@ Multichar_Symbols
 !! Special multiword units are analysed with:
  +Multi !!≈ * __@CODE@__
 
+!! !Normative/prescriptive compounding tags
+
+!! (to govern compound behaviour for the speller, ie what a compound SHOULD BE):
+
+!! The first part of the component may be ..
+
++CmpN/Sg       !!≈ * @CODE@ Sg
++CmpN/SgN      !!≈ * @CODE@ SgNominative
++CmpN/SgG      !!≈ * @CODE@ SgGenitive
++CmpN/PlG      !!≈ * @CODE@ PlGenitive
+
+
+!! This entry / word can ...
+
++CmpNP/All       !!≈ * @CODE@ - ... be in all positions, __default__, this tag does not have to be written
++CmpNP/First     !!≈ * @CODE@ - ... only be first part in a compound or alone
++CmpNP/Pref      !!≈ * @CODE@ - ... only __first__ part in a compound, NEVER alone
++CmpNP/Last      !!≈ * @CODE@ - ... only be last part in a compound or alone
++CmpNP/Suff      !!≈ * @CODE@ - ... only __last__ part in a compound, NEVER alone
++CmpNP/None      !!≈ * @CODE@ - ... not take part in compounds
++CmpNP/Only      !!≈ * @CODE@ - ... only be part of a compound, i.e. can never
+                !!                  be used alone, but can appear in any position
+
+
+
 !! Non-dictionary words can be recognised with:
  +Guess  !!≈ * __@CODE@__
 
@@ -557,6 +582,8 @@ LEXICON PCLE-MOD_  !! pcle-mod lexicon
 LEXICON PCLE_  !! pcle-lexicon
 +Pcle: #      ;
 
+LEXICON PREFIX_
++CmpNP/Pref: adjectives ; !! This is used in compounding, e.g. äʼb-:äʼb
 
 LEXICON K  !!≈ * __@CODE@__ is the clitic lexicon, but no clitica here, only #.
 # ;
