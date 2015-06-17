@@ -461,6 +461,9 @@ Multichar_Symbols
  %{XC%} !! * @CODE@ for consonant lengthening
 
 !! And following triggers to control variation
+ %^Ē2ĪE  !!= * @CODE@ kēļ kīel
+
+
  {front}   !!≈ * @CODE@ = front vowels
  {back}  !!≈ * @CODE@ = back vowels
  %^Tense !!≈ * __@CODE@__ = Tense stem will have stød if proper stem type
