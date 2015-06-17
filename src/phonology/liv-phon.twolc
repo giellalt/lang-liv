@@ -31,6 +31,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  !!= * @CODE@
 %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž
 
 !! ! Triggers
+ %^PenVV2V:0 !!= * @CODE@ penultimate vowel shortening
+
  %^Tense:0 !!= * @CODE@ = Tense stem will have stød if proper stem type
  %^D2T:0   !!= * @CODE@ d:t veʼž:veʼd:vietā
  %^PreI:0  !!= * @CODE@ i:0 veʼž:veʼd:vietā
@@ -115,7 +117,7 @@ Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž B C Č 
 
 Letters = Vow Cns ;
 
-Dummy = %^ConsSh %^LowerVows %^PalatalizeLeft %^StodRM %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ;
+Dummy = %^ConsSh %^LowerVows %^PalatalizeLeft %^StodRM %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM %^PenVV2V ;
 
 !Definitions
 !
@@ -143,6 +145,10 @@ Rules
 ā:a <=> # Cns* _  ( i ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 | %^VowShIn1:0 ] ;
 !€# āļdža%^VowShIn1%^A2ÕIn2
 !€0 aļdžõ00
+     # Cns* _ ( i ) Cns:+ Vow: %^PenVV2V: ;
+!€# āita%^PenVV2V%^VowsRM%>õ
+!€0 ait000%>õ
+
 
 "ȱ:ȯ"
 !! __@RULENAME@__
@@ -538,8 +544,9 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !! __@RULENAME@__  
  ʼ:0 =>  _ \[ .#. ]* %^StodRM:0 ;
 !# Cns* :0* Vow _ [ CnsWithStod Cns:* :0* | [ i | u ] g (Vow: Cns:) | o Cns ] (Vow: | ū: Cns: ) %^StodRM:0 ; 
-! 2013-06-26 for looser voikko stød can disappear everywhere
- _ ;
+! 2013-06-26 for looser voikko stød can disappear everywhere 
+! _ ; a filter does this removal 2015-06-17
+
 ! Vow _ CnsWithStod: ( :CnsWithStod )  Vow: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !# Cns* :Vow _ :CnsWithStod+  Vow: %^Stress2to1:0 [ # | %> | %^VowsRM:0  %> ] ;
 !€# ka0l0ā%^Stress2to1

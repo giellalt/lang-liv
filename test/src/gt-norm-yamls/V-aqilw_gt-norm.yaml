@@ -16,27 +16,26 @@ Tests:
 # Then: run analyser, then correct.
 
 
-  Verb - aʼilõ: # Verb 51 'eng /est joosta/fin' - full paradigm
-     aʼilõ+V+Inf: [aʼilõ, ailõ]
-     aʼilõ+V+Ger: [aʼilõs, ailõs]
-     aʼilõ+V+Sup: [aʼilõm, ailõm]
-     aʼilõ+V+Sup+Ine: [aʼilõmõs, ailõmõs]
-     aʼilõ+V+Sup+Ela: [aʼilõmõst, ailõmõst]
-     aʼilõ+V+Sup+Tra: [aʼilõmõks, ailõmõks]
-     aʼilõ+V+Sup+Abe: [aʼilõmõt, ailõmõt]
-     aʼilõ+V+Ind+Prs+Sg3: [aʼilõb, ailõb]
-     aʼilõ+V+Ind+Prs+Pl2: [aʼilõt, ailõt]
-     aʼilõ+V+Ind+Prs+Pl3: [aʼilõbõd, ailõbõd]
-     aʼilõ+V+Ind+Prt+Sg3: [aʼiliz, ailiz]
-     aʼilõ+V+Ind+Prt+Pl2: [[aʼilizt, aʼiliztõ], [ailizt, aʼiliztõ]]
-     aʼilõ+V+Ind+Prt+Pl3: [[aʼilizt, aʼiliztõ], [ailizt, aʼiliztõ]]
-     aʼilõ+V+Ind+ConNeg+Sg: [aʼil, ail]
-     aʼilõ+V+Cond+Sg3: [aʼilõks, ailõks]
-     aʼilõ+V+Imprt+Sg2: [aʼil, ail]
-     aʼilõ+V+Imprt+ConNeg+Sg2: [aʼil, ail]
-     aʼilõ+V+Imprt+Pl2: [aʼilõgid, ailõgid]
-     aʼilõ+V+Jus+Sg3: [aʼilõg, ailõg]
-     aʼilõ+V+Quo+Sg3: [aʼiliji, ailiji]
-     aʼilõ+V+ActPrfPrc: [aʼilõn, ailõn]
-     aʼilõ+V+PssPrfPrc: [aʼildõd, aildõd]
-
+  Verb - ailõ: # Verb 51 'eng /est joosta/fin' - full paradigm
+     ailõ+V+Inf: ailõ
+     ailõ+V+Ger: ailõs
+     ailõ+V+Sup: ailõm
+     ailõ+V+Sup+Ine: ailõmõs
+     ailõ+V+Sup+Ela: ailõmõst
+     ailõ+V+Sup+Tra: ailõmõks
+     ailõ+V+Sup+Abe: ailõmõt
+     ailõ+V+Ind+Prs+Sg3: ailõb
+     ailõ+V+Ind+Prs+Pl2: ailõt
+     ailõ+V+Ind+Prs+Pl3: ailõbõd
+     ailõ+V+Ind+Prt+Sg3: ailiz
+     ailõ+V+Ind+Prt+Pl2: [ailizt, ailiztõ]
+     ailõ+V+Ind+Prt+Pl3: [ailizt, ailiztõ]
+     ailõ+V+Ind+ConNeg+Sg: ail
+     ailõ+V+Cond+Sg3: ailõks
+     ailõ+V+Imprt+Sg2: ail
+     ailõ+V+Imprt+ConNeg+Sg2: ail
+     ailõ+V+Imprt+Pl2: ailõgid
+     ailõ+V+Jus+Sg3: ailõg
+     ailõ+V+Quo+Sg3: ailiji
+     ailõ+V+ActPrfPrc: ailõn
+     ailõ+V+PssPrfPrc: aildõd
