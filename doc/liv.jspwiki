@@ -329,6 +329,9 @@ symbols in the lexicon files:
 *  {uü}  for consonant lengthening
 
 And following triggers to control variation
+ *  %^Ē2ĪE   kēļ kīel
+
+
  * {front} = front vowels
  * {back} = back vowels
  * __%^Tense__ = Tense stem will have stød if proper stem type
@@ -2590,7 +2593,7 @@ Stem change: None
  * __LEXICON NMN_TŪĻ__ tūļ:tūl 214
  * __LEXICON NMN_KĒĻ__ kēļ:kēl 215
 
- * __LEXICON NMN_KĒĻ-PL__ kēļ:kēl 211
+ * __LEXICON NMN_KĒĻ-PL__ kēļ:kēl 215
 
  * __LEXICON NMN_PŪOL__ : 216
  * __LEXICON NMN_PŪOL-SG__ : 216
@@ -2610,6 +2613,7 @@ Stem change: None
 
  * __LEXICON NMN_ŪŽ__ : 219 ūž:ūd
 * Yaml: __A-uuzh__
+word-final consonant palatalization (ž): Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
  * __LEXICON NMN_ŪŽ-SG__ : 219
 
  * __LEXICON NMN_ŪŽ-PL__ : 219
@@ -2617,12 +2621,20 @@ Stem change: None
 
 
  * __LEXICON NMN_SĒŅ__ sēņ:sēn 220
+Sg_Nom = consonant-final 1-syllable word
+word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
+Diphthong realized as mid long vowel: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
- * __LEXICON NMN_SĒŅ-PL__ kēļ:kēl 211
+ * __LEXICON NMN_SĒŅ-PL__ sēņ:sēn 211
 
 
- * __LEXICON NMN_JŪŖ__ jūŗ:jūr 221
+ * __LEXICON NMN_JŪŖ__ : jūŗ:jūr 221 
+Sg_Nom = consonant-final 1-syllable word
+word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
+ * __LEXICON NMN_JŪŖ-SG__ jūŗ:jūr 221
+
  * __LEXICON NMN_JŪŖ-PL__ : 221
+ * __PL-INS_DKÕKS-STEM ;		__ jūrd
 
  * __LEXICON NMN_SŪR__ : 222
 
@@ -3318,6 +3330,7 @@ Quotative
  *  %^Tense:0  = Tense stem will have stød if proper stem type
  *  %^D2T:0    d:t veʼž:veʼd:vietā
  *  %^PreI:0   i:0 veʼž:veʼd:vietā
+ *  %^Ē2ĪE:0   kēļ kīel
 
  * K1:k        this k is not effected by gradation
  * %^NoGrad:0   This will be placed after a stem to break Gradation
