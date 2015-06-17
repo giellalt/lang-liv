@@ -34,6 +34,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  !!= * @CODE@
  %^Tense:0 !!= * @CODE@ = Tense stem will have stød if proper stem type
  %^D2T:0   !!= * @CODE@ d:t veʼž:veʼd:vietā
  %^PreI:0  !!= * @CODE@ i:0 veʼž:veʼd:vietā
+ %^Ē2ĪE:0  !!= * @CODE@ kēļ kīel
 
 K1:k       !!= * @CODE@ this k is not effected by gradation
 %^NoGrad:0 !!= * @CODE@  This will be placed after a stem to break Gradation
@@ -289,8 +290,10 @@ o:ō <=> _ [i g | (u:) :Cns+] (Vow:) %^VowsLI1:0 ;
 !! raise vowels
 "ē:ī in kēļ 215"
 !! __@RULENAME@__  
-ē:ī <=> # Cns* _ ( :e ) Cns %^RVows:0 ;
+ē:ī <=> # Cns* _ ( :e ) Cns %^Ē2ĪE: ;
 ! requires 0:e
+!€# kē0l%^Ē2ĪE
+!€0 kīel0
 
 !! LOWER VOWELS
 "ī:ē in tīe 15"
@@ -434,7 +437,9 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 
 "0:e in vowel raising kēļ"
 !! __@RULENAME@__  
-0:e <=> Cns* ē: _ Cns %^RVows:0 ;
+0:e <=> Cns* ē: _ Cns %^Ē2ĪE: ;
+!€# kē0l%^Ē2ĪE
+!€0 kīel0
 
 "0:õ in vowel metathesis"
 !! __@RULENAME@__  

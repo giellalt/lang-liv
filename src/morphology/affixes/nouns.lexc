@@ -5098,16 +5098,16 @@ LEXICON NMN_KĒĻ !!≈ * __@CODE@__ kēļ:kēl 215
  NMN_KĒĻ-SG     ;
  NMN_KĒĻ-PL     ;
 LEXICON NMN_KĒĻ-SG
-:%^RVows		SG-DAT_õn	;
-:%^RVows		SG-ELA/INE_stõ	;
-:%^RVows		SG-GEN	;
-:%^RVows		SG-ILL_õ	;
-:%^RVows		SG-INS_kõks	;
+:%^Ē2ĪE		SG-DAT_õn	;
+:%^Ē2ĪE		SG-ELA/INE_stõ	;
+:%^Ē2ĪE		SG-GEN	;
+:%^Ē2ĪE		SG-ILL_õ	;
+:%^Ē2ĪE		SG-INS_kõks	;
 :%^PalatalizeLeft	SG-NOM	;
-:%^RVows		SG-PAR_dõ ;
+:%^Ē2ĪE		SG-PAR_dõ ;
 
-LEXICON NMN_KĒĻ-PL !!≈ * __@CODE@__ kēļ:kēl 211
-:%^RVows     PL-INS_DKÕKS-STEM   ;
+LEXICON NMN_KĒĻ-PL !!≈ * __@CODE@__ kēļ:kēl 215
+:%^Ē2ĪE     PL-INS_DKÕKS-STEM   ;
 :%^PalatalizeLeft     PL-ELA/INE_šti   ;
 :%^PalatalizeLeft     PL-ILL_iž   ;
 :%^PalatalizeLeft     PL-PAR_i   ;
@@ -5181,6 +5181,7 @@ LEXICON NMN_KAKŠ-PL !!≈ * __@CODE@__ : 218
 
 LEXICON NMN_ŪŽ !!≈ * __@CODE@__ : 219 ūž:ūd
 !! * Yaml: __A-uuzh__
+!! word-final consonant palatalization (ž): Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 	NMN_ŪŽ-SG	;
 	NMN_ŪŽ-PL	;
 LEXICON NMN_ŪŽ-SG !!≈ * __@CODE@__ : 219
@@ -5201,28 +5202,46 @@ LEXICON NMN_ŪŽ-PL !!≈ * __@CODE@__ : 219
 
 
 LEXICON NMN_SĒŅ !!≈ * __@CODE@__ sēņ:sēn 220
+!! Sg_Nom = consonant-final 1-syllable word
+!! word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
+!! Diphthong realized as mid long vowel: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
  NMN_SĒŅ-SG     ;
  NMN_SĒŅ-PL     ;
 LEXICON NMN_SĒŅ-SG
-:%^RVows		SG-DAT_õn	;
-:%^RVows		SG-ELA/INE_stõ	;
-:%^RVows		SG-GEN	;
-:%^RVows		SG-ILL_õ	;
-:%^RVows		SG-INS_kõks	;
+:%^Ē2ĪE		SG-DAT_õn	;
+:%^Ē2ĪE		SG-ELA/INE_stõ	;
+:%^Ē2ĪE		SG-GEN	;
+:%^Ē2ĪE		SG-ILL_õ	;
+:%^Ē2ĪE		SG-INS_kõks	;
 :%^PalatalizeLeft	SG-NOM	;
-:%^RVows		SG-PAR_tõ ;
+:%^Ē2ĪE		SG-PAR_tõ ;
 
-LEXICON NMN_SĒŅ-PL !!≈ * __@CODE@__ kēļ:kēl 211
-:%^RVows     PL-INS_DKÕKS-STEM   ;
+LEXICON NMN_SĒŅ-PL !!≈ * __@CODE@__ sēņ:sēn 211
+:%^Ē2ĪE     PL-INS_DKÕKS-STEM   ;
 :%^PalatalizeLeft     PL-ELA/INE_šti   ;
 :%^PalatalizeLeft     PL-ILL_iž   ;
 :%^PalatalizeLeft     PL-PAR_i   ;
 
 
-LEXICON NMN_JŪŖ !!≈ * __@CODE@__ jūŗ:jūr 221
-	NMN_SĒŅ	;
+LEXICON NMN_JŪŖ !!≈ * __@CODE@__ : jūŗ:jūr 221 
+!! Sg_Nom = consonant-final 1-syllable word
+!! word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
+ NMN_JŪŖ-SG     ;
+ NMN_JŪŖ-PL     ;
+LEXICON NMN_JŪŖ-SG !!≈ * __@CODE@__ jūŗ:jūr 221
+         SG-DAT_õn       ;
+         SG-ELA/INE_stõ  ;
+         SG-GEN  ;
+         SG-ILL_õ        ;
+         SG-INS_kõks     ;
+:%^PalatalizeLeft       SG-NOM  ;
+         SG-PAR_tõ ;
+
 LEXICON NMN_JŪŖ-PL !!≈ * __@CODE@__ : 221
-	NMN_SĒŅ-PL ;
+ PL-INS_DKÕKS-STEM   ;		!!≈ * __@CODE@__ jūrd
+:%^PalatalizeLeft     PL-ELA/INE_šti   ;
+:%^PalatalizeLeft     PL-ILL_iž   ;
+:%^PalatalizeLeft     PL-PAR_i   ;
 
 LEXICON NMN_SŪR !!≈ * __@CODE@__ : 222
  NMN_SŪR-SG     ;
