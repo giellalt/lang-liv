@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-dict-gt-norm.hfst
+    Morph: ../../../src/analyser-dict-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-dict-gt-norm.xfst
+    Morph: ../../../src/analyser-dict-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - äbțõks: # Noun 208 'eng /est vahend/fin' - full paradigm
+     äbțõks+N+Sg+Nom: äʼbțõks
+     äbțõks+N+Sg+Gen: äʼbțõks
+     äbțõks+N+Sg+Par: äʼbțõkst
+     äbțõks+N+Sg+Dat: äʼbțõksõn
+     äbțõks+N+Sg+Ins: äʼbțõksõks
+     äbțõks+N+Sg+Ill: äʼbțõksõ
+     äbțõks+N+Sg+Ela: äʼbțõksõst
+     äbțõks+N+Pl+Nom: äʼbțõkst
+     äbțõks+N+Pl+Gen: äʼbțõkst
+     äbțõks+N+Pl+Par: äʼbțõkši
+     äbțõks+N+Pl+Dat: äʼbțõkstõn
+     äbțõks+N+Pl+Ins: äʼbțõkstõks
+     äbțõks+N+Pl+Ill: äʼbțõkšiz
+     äbțõks+N+Pl+Ela: äʼbțõkšist
+
