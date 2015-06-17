@@ -461,6 +461,8 @@ Multichar_Symbols
  %{XC%} !! * @CODE@ for consonant lengthening
 
 !! And following triggers to control variation
+ %^PenVV2V !!= * @CODE@ penultimate vowel shortening
+
  %^Ē2ĪE  !!= * @CODE@ kēļ kīel
 
 

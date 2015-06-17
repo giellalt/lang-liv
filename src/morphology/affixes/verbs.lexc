@@ -385,11 +385,11 @@ LEXICON TV_ARRÕ
 
 LEXICON IV_AʼILÕ
 !! aʼilõ:aʼilõ 51
-+V+IV: V-01_KŪLÕ ;
++V+IV: V-01_AʼILÕ ;
 
 LEXICON TV_AʼILÕ
 !! aʼilõ:aʼilõ 51
-+V+TV: V-01_KŪLÕ ;
++V+TV: V-01_AʼILÕ ;
 
 LEXICON TV_SVAʼRRÕ
 !! svaʼrrõ:svaʼrrõ 52
@@ -793,16 +793,59 @@ LEXICON V-01_AIGÕ
 
 !!
 LEXICON V-01_KŪLÕ
-! This is mutual for 49-57
+! This is mutual for 49-50, 52-57
  GER_s   ;
- INF_ZERO	  ;
- SUP-STEM_m	  ; 
+ INF_ZERO         ;
+ SUP-STEM_m       ;
 : INDPRSSG1-STEM    ;
-:%^ConsSh	INDCONNEGSG    ;
+:%^ConsSh       INDCONNEGSG    ;
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
 !! +ActPrfPrc
-+ActPrfPrc:n	NMN_KŪOLÕN	;
++ActPrfPrc:n    NMN_KŪOLÕN      ;
+
+!!
+LEXICON V-01_AʼILÕ
+! This is mutual for 51
+ GER_s   ;
+!! Ger, Ger_Ine
+
+ INF_ZERO	  ; !!≈ * __@CODE@__ aʼilõ
+!! Inf
+
+ SUP-STEM_m	  ; !!≈ * __@CODE@__ aʼilõ-
+!! Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
+!! Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
+!! Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
+
+: INDPRSSG1-STEM    ;	!!≈ * __@CODE@__ aʼilõ-
+!! Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
+
+:%^VowsRM	INDCONNEGSG    ; !!≈ * __@CODE@__ aʼil-
+!! Ind+ConNeg+Sg
+
+:%^VowsRM%>i INDPRT_z    ; !!≈ * __@CODE@__ aʼili-
+!! Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
+
+ COND		; !!≈ * __@CODE@__ aʼilõ-
+!! Cond...
+:%^VowsRM IMPRTSG2/IMPRTCONNEGSG2 ;
+!! Imprt+Sg2, Imprt+ConNeg+Sg2
+
+IMPRT-ELSE ;
+!! Imprt+Pl1, Imprt+Pl2, Imprt+ConNeg
+
+JUS_g ;
+!! Jus+Sg3, Jus+Pl3
+
+:%^VowsRM QUO-STEM_iji ;
+!! Quo+Sg3, Quo+Pl3, Der/VN -mi
+
+ ACTPRFPRC_n ; !!≈ * __@CODE@__ aʼilõ%>n
+!! +ActPrfPrc
+
+:%^VowsRM PSSPRSPRC ;	!!≈ * __@CODE@__ aʼil-
+:%^VowsRM PSSPRFPRCSG ; !!≈ * __@CODE@__ aʼil-
 
 
 !!
@@ -912,9 +955,10 @@ LEXICON ACTPRSPRC
 +ActPrsPrc+Der/A:%>b	A_SIDĀM    ;
 
 LEXICON	ACTPRFPRC_n
-!+ActPrfPrc:%>n	K    ;
++Use/NG+ActPrfPrc:%>n	K    ;
 +ActPrfPrc+Sg:%>n	K    ;
 +ActPrfPrc+Pl:%>nd	K    ;
++ActPrfPrc:%>n  NMN_KŪOLÕN      ; 
 
 LEXICON ACTPRFPRC_nd
 +ActPrfPrc+Sg:%>nd      K    ;
@@ -927,6 +971,7 @@ LEXICON PSSPRSPRC
 +PssPrsPrc+Pl:%>dõbõd      K    ;
 
 LEXICON PSSPRFPRCSG
++Use/NG+PssPrfPrc:%>dõd    K    ;
 +PssPrfPrc+Sg:%>dõd    K    ;
 +PssPrfPrc:%>dõd	   NMN_TAPTÕD ; !! 2014-08-21
 
@@ -1123,6 +1168,15 @@ LEXICON CONDPL3
  +Cond+Pl3:%>kstõ    K	;
 
 !! Imperative
+LEXICON IMPRT-ELSE
+IMPRTPL1 ;
+IMPRTPL2 ;
+IMPRTCONNEG ;
+
+LEXICON IMPRTSG2/IMPRTCONNEGSG2
+IMPRTSG2 ;
+IMPRTCONNEGSG2 ;
+
 LEXICON IMPRTSG2
 +Imprt+Sg2: K ;
 
