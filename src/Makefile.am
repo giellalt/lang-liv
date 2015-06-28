@@ -64,10 +64,12 @@ endif # CAN_FOMA
 #### Add language-specific build rules here: ####
 
 analyser-%.hfst: analyser-%.tmp.hfst                        \
-					filters/remove-modifier-letter-apostrophe.hfst   
+					filters/remove-modifier-letter-apostrophe.hfst   \
+					filters/remove-letter-o-with-ogonek-and-macron.hfst   
 	$(AM_V_RGX2FST)$(PRINTF) "                               \
 				@\"$<\"                                      \
 			.o. @\"filters/remove-modifier-letter-apostrophe.hfst\"   \
+			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.hfst\"   \
 			;" \
 		| $(HFST_REGEXP2FST) $(HFST_FLAGS) -S --xerox-composition=ON \
 		| $(HFST_INVERT) \
@@ -75,20 +77,24 @@ analyser-%.hfst: analyser-%.tmp.hfst                        \
 
 # We need to specify -gt- to avoid applying the filters to the raw fst:
 generator-gt-%.hfst: generator-gt-%.tmp.hfst                \
-					filters/remove-modifier-letter-apostrophe.hfst   
+					filters/remove-modifier-letter-apostrophe.hfst   \
+					filters/remove-letter-o-with-ogonek-and-macron.hfst   
 	$(AM_V_RGX2FST)$(PRINTF) "                               \
 				@\"$<\"                                      \
 			.o. @\"filters/remove-modifier-letter-apostrophe.hfst\"   \
+			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.hfst\"   \
 			;" \
 		| $(HFST_REGEXP2FST) $(HFST_FLAGS) -S --xerox-composition=ON \
 		> $@
 
 # We need to specify -gt- to avoid applying the filters to the raw fst:
 analyser-gt-%.xfst: analyser-gt-%.tmp.xfst                  \
-					filters/remove-modifier-letter-apostrophe.xfst   
+					filters/remove-modifier-letter-apostrophe.xfst   \
+					filters/remove-letter-o-with-ogonek-and-macron.xfst   
 	$(AM_V_XFST)$(PRINTF) "read regex                        \
 				@\"$<\"                                      \
 			.o. @\"filters/remove-modifier-letter-apostrophe.xfst\"   \
+			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.xfst\"   \
 			;\n\
 		 save stack $@\n\
 		 quit\n" | $(XFST) $(VERBOSITY)
@@ -96,20 +102,24 @@ analyser-gt-%.xfst: analyser-gt-%.tmp.xfst                  \
 # Special case for the disamb analyser, since it follows the same filename
 # pattern as the raw fst:
 analyser-disamb-gt-%.xfst: analyser-disamb-gt-%.tmp.xfst    \
-					filters/remove-modifier-letter-apostrophe.xfst   
+					filters/remove-modifier-letter-apostrophe.xfst   \
+					filters/remove-letter-o-with-ogonek-and-macron.xfst   
 	$(AM_V_XFST)$(PRINTF) "read regex                        \
 				@\"$<\"                                      \
 			.o. @\"filters/remove-modifier-letter-apostrophe.xfst\"   \
+			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.xfst\"   \
 			;\n\
 		 save stack $@\n\
 		 quit\n" | $(XFST) $(VERBOSITY)
 
 generator-%.xfst: generator-%.tmp.xfst                      \
-					filters/remove-modifier-letter-apostrophe.xfst   
+					filters/remove-modifier-letter-apostrophe.xfst   \
+					filters/remove-letter-o-with-ogonek-and-macron.xfst   
 
 	$(AM_V_XFST)$(PRINTF) "read regex                        \
 				@\"$<\"                                      \
 			.o. @\"filters/remove-modifier-letter-apostrophe.xfst\"   \
+			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.xfst\"   \
 			;\n\
 		 invert net\n\
 		 save stack $@\n\

@@ -16,6 +16,29 @@ SUBDIRS = . fstbased listbased
 # analyser-speller-gt-norm.xfst: analyser-speller-gt-norm.tmp.xfst
 #	build rules
 
+generator-speller-gt-norm.hfst: generator-speller-gt-norm.tmp.hfst \
+				$(top_builddir)/src/filters/remove-modifier-letter-apostrophe.hfst   \
+				$(top_builddir)/src/filters/remove-letter-o-with-ogonek-and-macron.hfst            
+	$(AM_V_HXFST)$(PRINTF) "read regex                                       \
+			@\"$<\"                                                          \
+		.o. @\"$(top_builddir)/src/filters/remove-letter-o-with-ogonek-and-macron.hfst\" \
+		.o. @\"$(top_builddir)/src/filters/remove-modifier-letter-apostrophe.hfst\"   \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(HFST_XFST) $(VERBOSITY)
+
+analyser-speller-gt-norm.xfst: analyser-speller-gt-norm.tmp.xfst \
+				$(top_builddir)/src/filters/remove-modifier-letter-apostrophe.xfst   \
+				$(top_builddir)/src/filters/remove-letter-o-with-ogonek-and-macron.xfst            
+	$(AM_V_XFST)$(PRINTF) "read regex                                        \
+			@\"$<\"                                                          \
+		.o. @\"$(top_builddir)/src/filters/remove-letter-o-with-ogonek-and-macron.xfst\" \
+		.o. @\"$(top_builddir)/src/filters/remove-modifier-letter-apostrophe.xfst\"   \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+
 
 # END: Local processing
 #########################################
