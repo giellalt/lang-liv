@@ -1,0 +1,17 @@
+# File that reduces Livonian enriched 
+# U+01EC LATIN CAPITAL LETTER O WITH OGONEK AND MACRON 
+# to U+014C LATIN CAPITAL LETTER O WITH MACRON
+# AND
+# U+01ED LATIN SMALL LETTER O WITH OGONEK AND MACRON 
+# to U+014D LATIN SMALL LETTER O WITH MACRON
+# dictionary orthography to ordinary orthography
+
+
+Ǭ -> Ō,
+ǭ -> ō
+;
+
+# Explanation:
+# lexical side -> input
+# Or, in other words:
+# pedagogic -> normative

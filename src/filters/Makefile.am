@@ -21,7 +21,8 @@
 # List any local filter regex files here:
 GIELLA_FILTER_LOCAL_REGEX_SRCS=\
 					downcase_UCletters.regex	\
-					remove-modifier-letter-apostrophe.regex
+					remove-modifier-letter-apostrophe.regex	\
+					remove-letter-o-with-ogonek-and-macron.regex
 
 # List any local filter xfscript files here:
 GIELLA_FILTER_LOCAL_XFSCRIPT_SRCS=
