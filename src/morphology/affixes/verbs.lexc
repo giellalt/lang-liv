@@ -611,7 +611,7 @@ LEXICON V-01_SĪEDÕ !!= @CODE@ : 7 sīedõ:sīe
  PSSPRSPRC ;
  PSSPRFPRCSG    ;
 
-+ActPrfPrc:n NMN_SĪEND	   ;
++Act+PrfPrc:n NMN_SĪEND	   ;
 !! 8
 LEXICON V-01_SǬDÕ
 !! sǭdõ:s
@@ -702,7 +702,7 @@ LEXICON V-01_JEʼLLÕ
 :%^ConsSh%^VowsRM PSSPRFPRCSG    ;
 
 !:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
-!+PssPrfPrc:tõd			NMN_TAPTÕD ;
+!+Pss+PrfPrc:tõd			NMN_TAPTÕD ;
 
 !!
 LEXICON V-01_MÄNGÕ
@@ -801,8 +801,8 @@ LEXICON V-01_KŪLÕ
 :%^ConsSh       INDCONNEGSG    ;
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
-!! +ActPrfPrc
-+ActPrfPrc:n    NMN_KŪOLÕN      ;
+!! +Act+PrfPrc
++Act+PrfPrc:n    NMN_KŪOLÕN      ;
 
 !!
 LEXICON V-01_AʼILÕ
@@ -842,7 +842,7 @@ JUS_g ;
 !! Quo+Sg3, Quo+Pl3, Der/VN -mi
 
  ACTPRFPRC_n ; !!≈ * __@CODE@__ aʼilõ%>n
-!! +ActPrfPrc
+!! +Act+PrfPrc
 
 :%^VowsRM PSSPRSPRC ;	!!≈ * __@CODE@__ aʼil-
 :%^VowsRM PSSPRFPRCSG ; !!≈ * __@CODE@__ aʼil-
@@ -950,30 +950,30 @@ LEXICON SUP_mõ
 +Sup+Tra:%>mõks K   ;
 
 LEXICON ACTPRSPRC
-+ActPrsPrc+Sg:%>b	K    ;
-+ActPrsPrc+Pl:%>bõd	K    ;
-+ActPrsPrc+Der/A:%>b	A_SIDĀM    ;
++Act+PrsPrc+Sg:%>b	K    ;
++Act+PrsPrc+Pl:%>bõd	K    ;
++Act+PrsPrc+Der/A:%>b	A_SIDĀM    ;
 
 LEXICON	ACTPRFPRC_n
-+Use/NG+ActPrfPrc:%>n	K    ;
-+ActPrfPrc+Sg:%>n	K    ;
-+ActPrfPrc+Pl:%>nd	K    ;
-+ActPrfPrc:%>n  NMN_KŪOLÕN      ; 
++Use/NG+Act+PrfPrc:%>n	K    ;
++Act+PrfPrc+Sg:%>n	K    ;
++Act+PrfPrc+Pl:%>nd	K    ;
++Act+PrfPrc:%>n  NMN_KŪOLÕN      ; 
 
 LEXICON ACTPRFPRC_nd
-+ActPrfPrc+Sg:%>nd      K    ;
-+ActPrfPrc+Pl:%>nd     K    ; !! Are the singular and plural homonyms?
++Act+PrfPrc+Sg:%>nd      K    ;
++Act+PrfPrc+Pl:%>nd     K    ; !! Are the singular and plural homonyms?
 
 
 
 LEXICON PSSPRSPRC
-+PssPrsPrc+Sg:%>dõb        K    ;
-+PssPrsPrc+Pl:%>dõbõd      K    ;
++Pss+PrsPrc+Sg:%>dõb        K    ;
++Pss+PrsPrc+Pl:%>dõbõd      K    ;
 
 LEXICON PSSPRFPRCSG
-+Use/NG+PssPrfPrc:%>dõd    K    ;
-+PssPrfPrc+Sg:%>dõd    K    ;
-+PssPrfPrc:%>dõd	   NMN_TAPTÕD ; !! 2014-08-21
++Use/NG+Pss+PrfPrc:%>dõd    K    ;
++Pss+PrfPrc+Sg:%>dõd    K    ;
++Pss+PrfPrc:%>dõd	   NMN_TAPTÕD ; !! 2014-08-21
 
 !! Finites
 
