@@ -16,7 +16,7 @@ SUBDIRS = . fstbased listbased
 # analyser-speller-gt-norm.xfst: analyser-speller-gt-norm.tmp.xfst
 #	build rules
 
-generator-speller-gt-norm.hfst: generator-speller-gt-norm.tmp.hfst \
+generator-speller-gt-norm.hfst: analyser-speller-gt-norm.tmp.hfst \
 				$(top_builddir)/src/filters/remove-modifier-letter-apostrophe.hfst   \
 				$(top_builddir)/src/filters/remove-letter-o-with-ogonek-and-macron.hfst            
 	$(AM_V_HXFST)$(PRINTF) "read regex                                       \
