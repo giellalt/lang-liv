@@ -42,13 +42,13 @@
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="Conj">if</t>
+            <t pos="CS">if</t>
          </tg>
          <tg xml:lang="est">
             <t pos="CS">kui</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Conj">jos</t>
+            <t pos="CS">jos</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="CS">ja</t>
@@ -63,21 +63,20 @@
          </stg>
          <stress>äʼb ..., äʼb</stress>
       </lg>
-      <pos>Conj</pos>
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="Conj">YY</t>
+            <t pos="CC">YY</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Conj">ei ... ega</t>
+            <t pos="CC">ei ... ega</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Conj">ei ... eikä</t>
-            <t pos="Conj">ei ... ei</t>
+            <t pos="CC">ei ... eikä</t>
+            <t pos="CC">ei ... ei</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Conj">ne ..., ne</t>
+            <t pos="CC">ne ..., ne</t>
          </tg>
       </mg>
    </e>
@@ -214,13 +213,13 @@
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="Conj">when</t>
+            <t pos="CS">when</t>
          </tg>
          <tg xml:lang="est">
             <t pos="CS">kui</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Conj">kun</t>
+            <t pos="CS">kun</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="CS">kad</t>
@@ -239,13 +238,13 @@
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="Conj">that</t>
+            <t pos="CS">that</t>
          </tg>
          <tg xml:lang="est">
             <t pos="CS">et</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Conj">että</t>
+            <t pos="CS">että</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="CS">ka</t>
@@ -315,13 +314,13 @@
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="Conj">till</t>
+            <t pos="CS">till</t>
          </tg>
          <tg xml:lang="est">
             <t pos="CS">kuni</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Conj">kunnes</t>
+            <t pos="CS">kunnes</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="CS">kamēr</t>
@@ -363,7 +362,6 @@
          </stg>
          <stress>mis|jūs</stress>
       </lg>
-      <pos>Conj</pos>
       <mg>
          <defNative/>
          <tg xml:lang="eng">
@@ -419,13 +417,13 @@
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="Conj">like</t>
+            <t pos="CS">like</t>
          </tg>
          <tg xml:lang="est">
             <t pos="CS">nagu</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Conj">kuten</t>
+            <t pos="CS">kuten</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="CS">kā</t>
@@ -446,14 +444,14 @@
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="Conj">YY</t>
+            <t pos="CS">YY</t>
          </tg>
          <tg xml:lang="est">
             <t pos="CS">nagu</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Conj">kuin</t>
-            <t pos="Conj">niin kuin</t>
+            <t pos="CS">kuin</t>
+            <t pos="CS">niin kuin</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="CS">kā</t>
@@ -473,14 +471,14 @@
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="Conj">YY</t>
+            <t pos="CS">like</t>
          </tg>
          <tg xml:lang="est">
             <t pos="CS">nagu</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Conj">kuin</t>
-            <t pos="Conj">niin kuin</t>
+            <t pos="CS">kuin</t>
+            <t pos="CS">niin kuin</t>
          </tg>
          <tg xml:lang="lav">
             <t pos="CS">kā</t>
@@ -500,17 +498,17 @@
       <mg>
          <defNative/>
          <tg xml:lang="eng">
-            <t pos="Conj">but</t>
+            <t pos="CC">but</t>
          </tg>
          <tg xml:lang="est">
-            <t pos="Conj">ainult</t>
-            <t pos="Conj">vaid</t>
+            <t pos="CC">ainult</t>
+            <t pos="CC">vaid</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="Conj">vaan</t>
+            <t pos="CC">vaan</t>
          </tg>
          <tg xml:lang="lav">
-            <t pos="Conj">tikai</t>
+            <t pos="CC">tikai</t>
          </tg>
       </mg>
       <mg>
