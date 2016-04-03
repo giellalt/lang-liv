@@ -15,7 +15,6 @@
       <orig>āigast|tūʼontõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -49,13 +48,12 @@
       <orig>dutš</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Num">dozen</t>
       </tg>
 
       <tg xml:lang="est">
@@ -74,34 +72,33 @@
 
   <e>
     <lg>
-      <l pos="Num">eʼžmi</l>
+      <l pos="Det">eʼžmi</l>
 
       <stg>
-        <st Contlex="NUM_SĒMI">eʼžmi</st>
+        <st Contlex="DET_SĒMI">eʼžmi</st>
       </stg>
 
       <orig>eʼžmi</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">esimene</t>
+        <t pos="Det">esimene</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">ensimmäinen</t>
+        <t pos="Det">ensimmäinen</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">pirmais</t>
+        <t pos="Det">pirmais</t>
       </tg>
     </mg>
   </e>
@@ -117,7 +114,6 @@
       <orig>īʼdõks</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -151,7 +147,6 @@
       <orig>īʼdõks|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -176,68 +171,66 @@
 
   <e>
     <lg>
-      <l pos="Num">īʼdõkskimdõz</l>
+      <l pos="Det">īʼdõkskimdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">īʼdõks#kimdõz</st>
+        <st Contlex="DET_VĪDÕZ">īʼdõks#kimdõz</st>
       </stg>
 
       <orig>īʼdõks|kimdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">üheksakümnes</t>
+        <t pos="Det">üheksakümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">yhdeksäskymmenes</t>
+        <t pos="Det">yhdeksäskymmenes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">deviņdesmitais</t>
+        <t pos="Det">deviņdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">īʼdõksmõz</l>
+      <l pos="Det">īʼdõksmõz</l>
 
       <stg>
-        <st Contlex="NUM_ĪʼDÕKSMÕZ">īʼdõksmõz</st>
+        <st Contlex="DET_ĪʼDÕKSMÕZ">īʼdõksmõz</st>
       </stg>
 
       <orig>īʼdõksmõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">üheksas</t>
+        <t pos="Det">üheksas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">yhdeksäs</t>
+        <t pos="Det">yhdeksäs</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">devītais</t>
+        <t pos="Det">devītais</t>
       </tg>
     </mg>
   </e>
@@ -253,7 +246,6 @@
       <orig>īʼdõks||sadā</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -278,34 +270,33 @@
 
   <e>
     <lg>
-      <l pos="Num">īʼdõkssadāz</l>
+      <l pos="Det">īʼdõkssadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">īʼdõks#sadāz</st>
+        <st Contlex="DET_VĪDÕZ">īʼdõks#sadāz</st>
       </stg>
 
       <orig>īʼdõks|sadāz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">üheksasajas</t>
+        <t pos="Det">üheksasajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">yhdeksässadas</t>
+        <t pos="Det">yhdeksässadas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">deviņsimtais</t>
+        <t pos="Det">deviņsimtais</t>
       </tg>
     </mg>
   </e>
@@ -321,7 +312,6 @@
       <orig>īʼdõks||saʼddõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -355,7 +345,6 @@
       <orig>īʼdõks||tuoistõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -380,67 +369,65 @@
 
   <e>
     <lg>
-      <l pos="Num">īʼdõkstuoistõnz</l>
+      <l pos="Det">īʼdõkstuoistõnz</l>
 
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">īʼdõks#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">īʼdõks#tuoistõnz</st>
       </stg>
 
       <orig>īʼdõks|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">üheksateistkümnes</t>
+        <t pos="Det">üheksateistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">yhdeksästoista</t>
+        <t pos="Det">yhdeksästoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">deviņpadsmitais</t>
+        <t pos="Det">deviņpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">īʼdtuoistõnz</l>
-        <l_ref pos="Num">ikštuoistõnz</l_ref>
+      <l pos="Det">īʼdtuoistõnz</l>
+        <l_ref pos="Det">ikštuoistõnz</l_ref>
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">īʼd#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">īʼd#tuoistõnz</st>
       </stg>
 
       <orig>īʼd|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">üheteistkümnes</t>
+        <t pos="Det">üheteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">yhdestoista</t>
+        <t pos="Det">yhdestoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">vienpadsmitais</t>
+        <t pos="Det">vienpadsmitais</t>
       </tg>
     </mg>
   </e>
@@ -456,7 +443,6 @@
       <orig>ikš 1</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -490,7 +476,6 @@
       <orig>ikš|tuoistõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -515,33 +500,32 @@
 
   <e>
     <lg>
-      <l pos="Num">ikštuoistõnz</l>
-        <l_ref pos="Num">īʼdtuoistõnz</l_ref>
+      <l pos="Det">ikštuoistõnz</l>
+        <l_ref pos="Det">īʼdtuoistõnz</l_ref>
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">ikš#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">ikš#tuoistõnz</st>
       </stg>
 
       <orig>ikš|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">üheteistkümnes</t>
+        <t pos="Det">üheteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">yhdestoista</t>
+        <t pos="Det">yhdestoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">vienpadsmitais</t>
+        <t pos="Det">vienpadsmitais</t>
       </tg>
     </mg>
   </e>
@@ -557,7 +541,6 @@
       <orig>kakš</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -591,7 +574,6 @@
       <orig>kakš|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -625,7 +607,6 @@
       <orig>kakš||sadā</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -659,7 +640,6 @@
       <orig>kakš||saʼddõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -696,7 +676,6 @@
       <orig>kakš|tuoistõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -730,7 +709,6 @@
       <orig>kim</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -764,7 +742,6 @@
       <orig>kimgõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -790,50 +767,48 @@
 
   <e>
     <lg>
-      <l pos="Num">kimmõz</l>
+      <l pos="Det">kimmõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kimmõz</st>
+        <st Contlex="DET_VĪDÕZ">kimmõz</st>
       </stg>
 
       <orig>kimmõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kümnes</t>
+        <t pos="Det">kümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kymmenes</t>
+        <t pos="Det">kymmenes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">desmitais</t>
+        <t pos="Det">desmitais</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Num">kimmõzjaʼg</l>
-        <l_ref pos="Num">kimmõzjagū</l_ref>
+      <l pos="N">kimmõzjaʼg</l>
+        <l_ref pos="N">kimmõzjagū</l_ref>
       <stg>
-        <st Contlex="NUM_SUʼG">kimmõz##jaʼg</st>
+        <st Contlex="N_SUʼG">kimmõz##jaʼg</st>
       </stg>
 
       <orig>kimmõz||jaʼg</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -842,35 +817,34 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="N">tenth</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kümnendik</t>
+        <t pos="N">kümnendik</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kymmenesosa</t>
+        <t pos="N">kymmenesosa</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">desmitdaļa</t>
+        <t pos="N">desmitdaļa</t>
       </tg>
     </mg>
   </e>
 
   <e exclude="fst">
     <lg>
-      <l pos="Num">kimmõzjagū</l>
-        <l_ref pos="Num">kimmõzjaʼg</l_ref>
+      <l pos="N">kimmõzjagū</l>
+        <l_ref pos="N">kimmõzjaʼg</l_ref>
       <stg>
-        <st Contlex="NUM_RUZŪ">kimmõz##jagū</st>
+        <st Contlex="N_RUZŪ">kimmõz##jagū</st>
       </stg>
 
       <orig>kimmõz||jagū</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -880,53 +854,52 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="N">tenth</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kümnendik</t>
+        <t pos="N">kümnendik</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kymmenesosa</t>
+        <t pos="N">kymmenesosa</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">desmitdaļa</t>
+        <t pos="N">desmitdaļa</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kǭʼdkimdõz</l>
+      <l pos="Det">kǭʼdkimdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kǭʼd#kimdõz</st>
+        <st Contlex="DET_VĪDÕZ">kǭʼd#kimdõz</st>
       </stg>
 
       <orig>kǭʼd|kimdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kahekümnes</t>
+        <t pos="Det">kahekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kahdeskymmenes</t>
+        <t pos="Det">kahdeskymmenes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">divdesmitais</t>
+        <t pos="Det">divdesmitais</t>
       </tg>
     </mg>
   </e>
@@ -942,7 +915,6 @@
       <orig>kǭʼdõks</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -976,7 +948,6 @@
       <orig>kǭʼdõks|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1001,68 +972,66 @@
 
   <e>
     <lg>
-      <l pos="Num">kǭʼdõkskimdõz</l>
+      <l pos="Det">kǭʼdõkskimdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kǭʼdõks#kimdõz</st>
+        <st Contlex="DET_VĪDÕZ">kǭʼdõks#kimdõz</st>
       </stg>
 
       <orig>kǭʼdõks|kimdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kaheksakümnes</t>
+        <t pos="Det">kaheksakümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kahdeksaskymmenes</t>
+        <t pos="Det">kahdeksaskymmenes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">astoņdesmitais</t>
+        <t pos="Det">astoņdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kǭʼdõksmõz</l>
+      <l pos="Det">kǭʼdõksmõz</l>
 
       <stg>
-        <st Contlex="NUM_ĪʼDÕKSMÕZ">kǭʼdõksmõz</st>
+        <st Contlex="DET_ĪʼDÕKSMÕZ">kǭʼdõksmõz</st>
       </stg>
 
       <orig>kǭʼdõksmõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kaheksas</t>
+        <t pos="Det">kaheksas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kahdeksas</t>
+        <t pos="Det">kahdeksas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">astotais</t>
+        <t pos="Det">astotais</t>
       </tg>
     </mg>
   </e>
@@ -1078,7 +1047,6 @@
       <orig>kǭʼdõks||sadā</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1103,34 +1071,33 @@
 
   <e>
     <lg>
-      <l pos="Num">kǭʼdõkssadāz</l>
+      <l pos="Det">kǭʼdõkssadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kǭʼdõks#sadāz</st>
+        <st Contlex="DET_VĪDÕZ">kǭʼdõks#sadāz</st>
       </stg>
 
       <orig>kǭʼdõks|sadāz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kaheksasajas</t>
+        <t pos="Det">kaheksasajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kahdeksassadas</t>
+        <t pos="Det">kahdeksassadas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">astoņsimtais</t>
+        <t pos="Det">astoņsimtais</t>
       </tg>
     </mg>
   </e>
@@ -1146,7 +1113,6 @@
       <orig>kǭʼdõks|saʼddõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1180,7 +1146,6 @@
       <orig>kǭʼdõks|tuoistõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1205,238 +1170,231 @@
 
   <e>
     <lg>
-      <l pos="Num">kǭʼdõkstuoistõnz</l>
+      <l pos="Det">kǭʼdõkstuoistõnz</l>
 
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">kǭʼdõks#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">kǭʼdõks#tuoistõnz</st>
       </stg>
 
       <orig>kǭʼdõks|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kaheksateistkümnes</t>
+        <t pos="Det">kaheksateistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kahdeksastoista</t>
+        <t pos="Det">kahdeksastoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">astoņpadsmitais</t>
+        <t pos="Det">astoņpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kǭʼdsadāz</l>
+      <l pos="Det">kǭʼdsadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kǭʼd#sadāz</st>
+        <st Contlex="DET_VĪDÕZ">kǭʼd#sadāz</st>
       </stg>
 
       <orig>kǭʼd|sadāz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kahesajas</t>
+        <t pos="Det">kahesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kahdessadas</t>
+        <t pos="Det">kahdessadas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">divsimtais</t>
+        <t pos="Det">divsimtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kǭʼdtuoistõnz</l>
+      <l pos="Det">kǭʼdtuoistõnz</l>
 
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">kǭʼd#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">kǭʼd#tuoistõnz</st>
       </stg>
 
       <orig>kǭʼd|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kaheteistkümnes</t>
+        <t pos="Det">kaheteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kahdestoista</t>
+        <t pos="Det">kahdestoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">divpadsmitais</t>
+        <t pos="Det">divpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kūdkimdõz</l>
+      <l pos="Det">kūdkimdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kūd#kimdõz</st>
+        <st Contlex="DET_VĪDÕZ">kūd#kimdõz</st>
       </stg>
 
       <orig>kūd|kimdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kuuekümnes</t>
+        <t pos="Det">kuuekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kuudeskymmenes</t>
+        <t pos="Det">kuudeskymmenes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">sešdesmitais</t>
+        <t pos="Det">sešdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kūdõz</l>
+      <l pos="Det">kūdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kūdõz</st>
+        <st Contlex="DET_VĪDÕZ">kūdõz</st>
       </stg>
 
       <orig>kūdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kuues</t>
+        <t pos="Det">kuues</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kuudes</t>
+        <t pos="Det">kuudes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">sestais</t>
+        <t pos="Det">sestais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kūdsadāz</l>
+      <l pos="Det">kūdsadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kūd#sadāz</st>
+        <st Contlex="DET_VĪDÕZ">kūd#sadāz</st>
       </stg>
 
       <orig>kūd|sadāz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kuuesajas</t>
+        <t pos="Det">kuuesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kuudessadas</t>
+        <t pos="Det">kuudessadas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">sešsimtais</t>
+        <t pos="Det">sešsimtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kūdtuoistõnz</l>
+      <l pos="Det">kūdtuoistõnz</l>
 
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">kūd#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">kūd#tuoistõnz</st>
       </stg>
 
       <orig>kūd|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kuueteistkümnes</t>
+        <t pos="Det">kuueteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kuudestoista</t>
+        <t pos="Det">kuudestoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">sešpadsmitais</t>
+        <t pos="Det">sešpadsmitais</t>
       </tg>
     </mg>
   </e>
@@ -1452,7 +1410,6 @@
       <orig>kuolm</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1477,16 +1434,15 @@
 
   <e>
     <lg>
-      <l pos="Num">kuolmi</l>
-        <l_ref pos="Num">kuolmõz</l_ref>
+      <l pos="Det">kuolmi</l>
+        <l_ref pos="Det">kuolmõz</l_ref>
       <stg>
-        <st Contlex="NUM_TŪĻI">kuolmi</st>
+        <st Contlex="DET_TŪĻI">kuolmi</st>
       </stg>
 
       <orig>kuolmi</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -1496,15 +1452,15 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Num">third</t>
+        <t pos="Det">third</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kolmas</t>
+        <t pos="Det">kolmas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kolmas</t>
+        <t pos="Det">kolmas</t>
       </tg>
 
       <tg xml:lang="lav">
@@ -1524,7 +1480,6 @@
       <orig>kuolm|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1549,68 +1504,66 @@
 
   <e>
     <lg>
-      <l pos="Num">kuolmkimdõz</l>
+      <l pos="Det">kuolmkimdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kuolm#kimdõz</st>
+        <st Contlex="DET_VĪDÕZ">kuolm#kimdõz</st>
       </stg>
 
       <orig>kuolm|kimdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kolmekümnes</t>
+        <t pos="Det">kolmekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kolmaskymmenes</t>
+        <t pos="Det">kolmaskymmenes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">trīsdesmitais</t>
+        <t pos="Det">trīsdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">kuolmõz</l>
+      <l pos="Det">kuolmõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kuolmõz</st>
+        <st Contlex="DET_VĪDÕZ">kuolmõz</st>
       </stg>
 
       <orig>kuolmõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">third</t>
+        <t pos="Det">third</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kolmas</t>
+        <t pos="Det">kolmas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kolmas</t>
+        <t pos="Det">kolmas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">trešais</t>
+        <t pos="Det">trešais</t>
       </tg>
     </mg>
   </e>
@@ -1626,7 +1579,6 @@
       <orig>kuolm||sadā</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1651,34 +1603,33 @@
 
   <e>
     <lg>
-      <l pos="Num">kuolmsadāz</l>
+      <l pos="Det">kuolmsadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">kuolm#sadāz</st>
+        <st Contlex="DET_VĪDÕZ">kuolm#sadāz</st>
       </stg>
 
       <orig>kuolm|sadāz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kolmesajas</t>
+        <t pos="Det">kolmesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kolmassadas</t>
+        <t pos="Det">kolmassadas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">trīssimtais</t>
+        <t pos="Det">trīssimtais</t>
       </tg>
     </mg>
   </e>
@@ -1694,7 +1645,6 @@
       <orig>kuolm||saʼddõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1728,7 +1678,6 @@
       <orig>kuolm|tuoistõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1753,34 +1702,33 @@
 
   <e>
     <lg>
-      <l pos="Num">kuolmtuoistõnz</l>
+      <l pos="Det">kuolmtuoistõnz</l>
 
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">kuolm#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">kuolm#tuoistõnz</st>
       </stg>
 
       <orig>kuolm|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">kolmeteistkümnes</t>
+        <t pos="Det">kolmeteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kolmastoista</t>
+        <t pos="Det">kolmastoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">trīspadsmitais</t>
+        <t pos="Det">trīspadsmitais</t>
       </tg>
     </mg>
   </e>
@@ -1796,7 +1744,6 @@
       <orig>kūž</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1830,7 +1777,6 @@
       <orig>kūž|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1864,7 +1810,6 @@
       <orig>kūž||sadā</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1898,7 +1843,6 @@
       <orig>kūž|saʼddõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1932,7 +1876,6 @@
       <orig>kūž|tuoistõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -1966,7 +1909,6 @@
       <orig>miljard</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2000,7 +1942,6 @@
       <orig>miljon</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2034,7 +1975,6 @@
       <orig>mits|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2068,7 +2008,6 @@
       <orig>nēļa</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2102,7 +2041,6 @@
       <orig>nēļa|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2127,34 +2065,33 @@
 
   <e>
     <lg>
-      <l pos="Num">nēļakimdõz</l>
+      <l pos="Det">nēļakimdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">nēļa#kimdõz</st>
+        <st Contlex="DET_VĪDÕZ">nēļa#kimdõz</st>
       </stg>
 
       <orig>nēļa|kimdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">neljakümnes</t>
+        <t pos="Det">neljakümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">neljäskymmenes</t>
+        <t pos="Det">neljäskymmenes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">četrdesmitais</t>
+        <t pos="Det">četrdesmitais</t>
       </tg>
     </mg>
   </e>
@@ -2170,7 +2107,6 @@
       <orig>nēļa|sadā</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2195,34 +2131,33 @@
 
   <e>
     <lg>
-      <l pos="Num">nēļasadāz</l>
+      <l pos="Det">nēļasadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">nēļa#sadāz</st>
+        <st Contlex="DET_VĪDÕZ">nēļa#sadāz</st>
       </stg>
 
       <orig>nēļa|sadāz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">neljasajas</t>
+        <t pos="Det">neljasajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">neljässadas</t>
+        <t pos="Det">neljässadas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">četrsimtais</t>
+        <t pos="Det">četrsimtais</t>
       </tg>
     </mg>
   </e>
@@ -2238,7 +2173,6 @@
       <orig>nēļa|saʼddõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2272,7 +2206,6 @@
       <orig>nēļa|tuoistõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2297,84 +2230,81 @@
 
   <e>
     <lg>
-      <l pos="Num">nēļatuoistõnz</l>
+      <l pos="Det">nēļatuoistõnz</l>
 
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">nēļa#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">nēļa#tuoistõnz</st>
       </stg>
 
       <orig>nēļa|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">neljateistkümnes</t>
+        <t pos="Det">neljateistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">neljästoista</t>
+        <t pos="Det">neljästoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">četrpadsmitais</t>
+        <t pos="Det">četrpadsmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">neļļõz</l>
+      <l pos="Det">neļļõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">neļļõz</st>
+        <st Contlex="DET_VĪDÕZ">neļļõz</st>
       </stg>
 
       <orig>neļļõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">neljas</t>
+        <t pos="Det">neljas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">neljäs</t>
+        <t pos="Det">neljäs</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">ceturtais</t>
+        <t pos="Det">ceturtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">neļļõzjaʼg</l>
-        <l_ref pos="Num">neļļõzjagū</l_ref>
+      <l pos="N">neļļõzjaʼg</l>
+        <l_ref pos="N">neļļõzjagū</l_ref>
       <stg>
-        <st Contlex="NUM_VAʼG">neļļõz#jaʼg</st>
+        <st Contlex="N_VAʼG">neļļõz#jaʼg</st>
       </stg>
 
       <orig>neļļõz|jaʼg</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2384,36 +2314,36 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="N">fourth</t>
+        <t pos="N">quarter</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">neljandik</t>
+        <t pos="N">neljandik</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">neljännes</t>
+        <t pos="N">neljännes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">ceturtdaļa</t>
+        <t pos="N">ceturtdaļa</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">neļļõzjagū</l>
-        <l_ref pos="Num">neļļõzjaʼg</l_ref>
+      <l pos="N">neļļõzjagū</l>
+        <l_ref pos="N">neļļõzjaʼg</l_ref>
 
       <stg>
-        <st Contlex="NUM_RUZŪ">neļļõz#jagū</st>
+        <st Contlex="N_RUZŪ">neļļõz#jagū</st>
       </stg>
 
       <orig>neļļõz|jagū</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2422,19 +2352,20 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="N">fourth</t>
+        <t pos="N">quarter</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">neljandik</t>
+        <t pos="N">neljandik</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">neljännes</t>
+        <t pos="N">neljännes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">ceturtdaļa</t>
+        <t pos="N">ceturtdaļa</t>
       </tg>
     </mg>
   </e>
@@ -2450,7 +2381,6 @@
       <orig>pǭr|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2488,7 +2418,6 @@
       <orig>pǭr|kimgõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2522,7 +2451,6 @@
       <orig>pūol 2</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2556,7 +2484,6 @@
       <orig>pūol|tūoizta</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2590,7 +2517,6 @@
       <orig>pūoļ 2</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2628,7 +2554,6 @@
       <orig>sadā</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2653,34 +2578,33 @@
 
   <e>
     <lg>
-      <l pos="Num">sadāz</l>
+      <l pos="Det">sadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">sadāz</st>
+        <st Contlex="DET_VĪDÕZ">sadāz</st>
       </stg>
 
       <orig>sadāz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">sajas</t>
+        <t pos="Det">sajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">sadas</t>
+        <t pos="Det">sadas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">simtais</t>
+        <t pos="Det">simtais</t>
       </tg>
     </mg>
   </e>
@@ -2696,7 +2620,6 @@
       <orig>seis</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2730,7 +2653,6 @@
       <orig>seis|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2755,50 +2677,48 @@
 
   <e>
     <lg>
-      <l pos="Num">seiskimdõz</l>
+      <l pos="Det">seiskimdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">seis#kimdõz</st>
+        <st Contlex="DET_VĪDÕZ">seis#kimdõz</st>
       </stg>
 
       <orig>seis|kimdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">seitsmekümnes</t>
+        <t pos="Det">seitsmekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">seitsemäskymmenes</t>
+        <t pos="Det">seitsemäskymmenes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">septiņdesmitais</t>
+        <t pos="Det">septiņdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">seismi</l>
-        <l_ref pos="Num">seismõz</l_ref>
+      <l pos="Det">seismi</l>
+        <l_ref pos="Det">seismõz</l_ref>
       <stg>
-        <st Contlex="NUM_TŪĻI">seismi</st>
+        <st Contlex="DET_TŪĻI">seismi</st>
       </stg>
 
       <orig>seismi</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2808,69 +2728,67 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">seitsmes</t>
+        <t pos="Det">seitsmes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">seitsemäs</t>
+        <t pos="Det">seitsemäs</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">septītais</t>
+        <t pos="Det">septītais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">seismõz</l>
+      <l pos="Det">seismõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">seismõz</st>
+        <st Contlex="DET_VĪDÕZ">seismõz</st>
       </stg>
 
       <orig>seismõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">seitsmes</t>
+        <t pos="Det">seitsmes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">seitsemäs</t>
+        <t pos="Det">seitsemäs</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">septītais</t>
+        <t pos="Det">septītais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">seismõztuoistõnz</l>
-        <l_ref pos="Num">seistuoistõnz</l_ref>
+      <l pos="Det">seismõztuoistõnz</l>
+        <l_ref pos="Det">seistuoistõnz</l_ref>
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">seismõz#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">seismõz#tuoistõnz</st>
       </stg>
 
       <orig>seismõz|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -2880,19 +2798,19 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">seitsmeteiskümnes</t>
+        <t pos="Det">seitsmeteiskümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">seitsemästoista</t>
+        <t pos="Det">seitsemästoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">septiņpadsmitais</t>
+        <t pos="Det">septiņpadsmitais</t>
       </tg>
     </mg>
   </e>
@@ -2908,7 +2826,6 @@
       <orig>seis|sadā</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -2933,34 +2850,33 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="Num">seissadāz</l>
+      <l pos="Det">seissadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">seis##sadāz</st>
+        <st Contlex="DET_VĪDÕZ">seis##sadāz</st>
       </stg>
 
       <orig>seis||sadāz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">seitsmesajas</t>
+        <t pos="Det">seitsmesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">seitsemässadas</t>
+        <t pos="Det">seitsemässadas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">septiņsimtais</t>
+        <t pos="Det">septiņsimtais</t>
       </tg>
     </mg>
   </e>
@@ -2976,7 +2892,6 @@
       <orig>seis||saʼddõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
       <m>
@@ -3014,7 +2929,6 @@
       <orig>seis|tuoistõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -3039,34 +2953,33 @@
 
   <e>
     <lg>
-      <l pos="Num">seistuoistõnz</l>
+      <l pos="Det">seistuoistõnz</l>
 
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">seis#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">seis#tuoistõnz</st>
       </stg>
 
       <orig>seis|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">seitsmeteistkümnes</t>
+        <t pos="Det">seitsmeteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">seitsemästoista</t>
+        <t pos="Det">seitsemästoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">septiņpadsmitais</t>
+        <t pos="Det">septiņpadsmitais</t>
       </tg>
     </mg>
   </e>
@@ -3082,7 +2995,6 @@
       <orig>set|kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -3107,36 +3019,35 @@
 
   <e>
     <lg>
-      <l pos="Num">setmõz</l>
+      <l pos="Det">setmõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">setmõz</st>
+        <st Contlex="DET_VĪDÕZ">setmõz</st>
       </stg>
 
       <orig>setmõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">setmes</t>
-        <t pos="Num">nii mitmes</t>
+        <t pos="Det">setmes</t>
+        <t pos="Det">nii mitmes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">kuinka mones</t>
-        <t pos="Num">monesko</t>
+        <t pos="Det">kuinka mones</t>
+        <t pos="Det">monesko</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">jau kurais</t>
+        <t pos="Det">jau kurais</t>
       </tg>
     </mg>
   </e>
@@ -3152,7 +3063,6 @@
       <orig>set|saʼddõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -3177,35 +3087,34 @@
 
   <e>
     <lg>
-      <l pos="Num">tuoi</l>
+      <l pos="Det">tuoi</l>
 
       <stg>
-        <st Contlex="NUM_NAI">tuoi</st>
+        <st Contlex="DET_NAI">tuoi</st>
       </stg>
 
       <orig>tuoi</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">second</t>
+        <t pos="Det">second</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">teine</t>
+        <t pos="Det">teine</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">toinen</t>
+        <t pos="Det">toinen</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">otrs</t>
-        <t pos="Num">cits</t>
+        <t pos="Det">otrs</t>
+        <t pos="Det">cits</t>
       </tg>
     </mg>
   </e>
@@ -3221,7 +3130,6 @@
       <orig>tūʼontõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -3246,170 +3154,165 @@
 
   <e>
     <lg>
-      <l pos="Num">tūʼontõz</l>
+      <l pos="Det">tūʼontõz</l>
 
       <stg>
-        <st Contlex="NUM_ĪʼDÕKSMÕZ">tūʼontõz</st>
+        <st Contlex="DET_ĪʼDÕKSMÕZ">tūʼontõz</st>
       </stg>
 
       <orig>tūʼontõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">tuhandes</t>
+        <t pos="Det">tuhandes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">tuhannes</t>
+        <t pos="Det">tuhannes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">tūkstošais</t>
+        <t pos="Det">tūkstošais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">vīdkimdõz</l>
+      <l pos="Det">vīdkimdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">vīd#kimdõz</st>
+        <st Contlex="DET_VĪDÕZ">vīd#kimdõz</st>
       </stg>
 
       <orig>vīd|kimdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">viiekümnes</t>
+        <t pos="Det">viiekümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">viideskymmenes</t>
+        <t pos="Det">viideskymmenes</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">piecdesmitais</t>
+        <t pos="Det">piecdesmitais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">vīdõz</l>
+      <l pos="Det">vīdõz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">vīdõz</st>
+        <st Contlex="DET_VĪDÕZ">vīdõz</st>
       </stg>
 
       <orig>vīdõz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">viies</t>
+        <t pos="Det">viies</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">viides</t>
+        <t pos="Det">viides</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">piektais</t>
+        <t pos="Det">piektais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">vīdsadāz</l>
+      <l pos="Det">vīdsadāz</l>
 
       <stg>
-        <st Contlex="NUM_VĪDÕZ">vīd#sadāz</st>
+        <st Contlex="DET_VĪDÕZ">vīd#sadāz</st>
       </stg>
 
       <orig>vīd|sadāz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">viiesajas</t>
+        <t pos="Det">viiesajas</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">viidessadas</t>
+        <t pos="Det">viidessadas</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">piecsimtais</t>
+        <t pos="Det">piecsimtais</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Num">vīdtuoistõnz</l>
+      <l pos="Det">vīdtuoistõnz</l>
 
       <stg>
-        <st Contlex="NUM_TUOISTÕNZ">vīd#tuoistõnz</st>
+        <st Contlex="DET_TUOISTÕNZ">vīd#tuoistõnz</st>
       </stg>
 
       <orig>vīd|tuoistõnz</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Num">YY</t>
+        <t pos="Det">YY</t>
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Num">viieteistkümnes</t>
+        <t pos="Det">viieteistkümnes</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Num">viidestoista</t>
+        <t pos="Det">viidestoista</t>
       </tg>
 
       <tg xml:lang="lav">
-        <t pos="Num">piecpadsmitais</t>
+        <t pos="Det">piecpadsmitais</t>
       </tg>
     </mg>
   </e>
@@ -3425,7 +3328,6 @@
       <orig>vīž</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -3459,7 +3361,6 @@
       <orig>vīž||kimdõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -3493,7 +3394,6 @@
       <orig>vīž||sadā</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>
@@ -3527,7 +3427,6 @@
       <orig>vīž||saʼddõ</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
 
@@ -3560,7 +3459,6 @@
       <orig>vīž|tuoistõn</orig>
     </lg>
 
-    <pos>Num</pos>
 
     <mg>
         <defNative/>

@@ -1,0 +1,90 @@
+!! Determiner inflection
+!! ----------------------
+!! Livonian determiners inflect in the same cases as other
+!! nominals.
+
+!! !! Stem lexica
+LEXICON DET_PADĀ !!= @CODE@ padā:padā 39
++Det:	NMN_PADĀ	;
+
+LEXICON DET_KĒRA !!= @CODE@ kēra:kēra 43
++Det:	NMN_KĒRA	;
+
+LEXICON DET_OKŠ !!= @CODE@ : 68
++Det:	NMN_OKŠ	;
+
+
+LEXICON DET_VAʼG !!= @CODE@ vaʼg:vag 72
++Det:	NMN_VAʼG	;
+
+LEXICON DET_KUʼŽ !!= @CODE@ kuʼž:kuž 89
++Det:	NMN_KUʼŽ	;
+
+LEXICON DET_RUZŪ !!= @CODE@ : 90
++Det:	NMN_RUZŪ	;
+
+!!= @CODE@ : 118
+LEXICON DET_SIELDÕ
++Det:	NMN_SIELDÕ	;
+
+LEXICON DET_NǬʼGÕ !!= @CODE@ nǭʼgõ:nǭgõ 119
++Det:	NMN_NǬʼGÕ	;
+
+LEXICON DET_IRM !!= @CODE@ irm: 125
++Det:	NMN_IRM	;
+
+LEXICON DET_KIM !!= @CODE@ : 126 kim:kim
++Det:	NMN_KIM	;
+
+
+LEXICON DET_FAKT !!= @CODE@ fakt: 135
++Det:	NMN_FAKT	;
+
+LEXICON DET_ĀIGAST !!= @CODE@ āigast: 140
++Det:	NMN_ĀIGAST	;
+
+LEXICON DET_VĪDÕZ !!= @CODE@ vīdõz: 163
++Det:	NMN_VĪDÕZ	;
+
+LEXICON DET_TUOISTÕNZ !!= @CODE@ : 164
++Det:	NMN_TUOISTÕNZ	;
+
+LEXICON DET_ĪʼDÕKSMÕZ !!= @CODE@ ī'dõksmõz:īdõksmõz 165
++Det:	NMN_ĪʼDÕKSMÕZ	;
+
+
+LEXICON DET_NAI !!= @CODE@ nai: 191
++Det:	NMN_NAI	;
+
+LEXICON DET_TŪĻI !!= @CODE@ tūļi: 199
++Det:	NMN_TŪĻI	;
+
+LEXICON DET_SĒMI !!= @CODE@ sēmi: 201
++Det:	NMN_SĒMI	;
+
+
+LEXICON DET_ÄʼBȚÕKS !!= @CODE@ ä'bțõks:äbțõks 208
++Det:	NMN_ÄʼBȚÕKS	;
+
+LEXICON DET_TŪĻ !!= @CODE@ : 214
++Det:	NMN_TŪĻ	;
+
+LEXICON DET_PŪOL !!= @CODE@ : 216
++Det:	NMN_PŪOL	;
+
+LEXICON DET_ĪKŠ !!= @CODE@ : 217
++Det:	NMN_ĪKŠ	;
+
+LEXICON DET_KAKŠ !!= @CODE@ : 218
++Det:	NMN_KAKŠ	;
+
+LEXICON DET_ŪŽ !!= @CODE@ : 219
++Det:	NMN_ŪŽ	;
+
+LEXICON DET_APPÕN !!= @CODE@ appõn:appõn 235
++Det:	NMN_APPÕN	;
+
+
+
+! vim: set ft=xfst-lexc:
+
