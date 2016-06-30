@@ -297,14 +297,6 @@ Question and Focus particles:
 
 
 Semantics are classified with
- * __! +Sem/Kin__  Kinship term (reflected in special PxSg2 forms),
- * __! +Sem/Divinity__  Divinity (god personified),
- * __! +Sem/Constellation__  Constellation,
- * __! +Sem/Kin	__ Kin term
- * __! +Sem/Patr 	__  Patronym
- * __! +Sem/Rvr__  name of river or water way, media of transportation,
- * __! +Sem/Inanim__  Inanimate,
- * __! +Sem/NonHum__  Nonhuman,
 
 
 
@@ -964,7 +956,6 @@ kand:kand
  * __LEXICON N_VEIS__ : 108
 
  * __LEXICON N_PȮIS__ : 109 pȯis:pȯis
-   * Yaml: __N-pois__
 
  * __LEXICON N_KIĻG__ : 110
 
@@ -1133,7 +1124,6 @@ __jõugõ:jõugõ__
  * __LEXICON N_ROʼVZ-PL__ : 167 roʼvz:roʼv
 
  * __LEXICON N_KÄBRĀZ__ : 168
-   * Yaml: __A-kaebraaz__
 
  * __LEXICON N_MAIGĀZ__ : 169
 
@@ -1232,7 +1222,6 @@ __jõugõ:jõugõ__
  * __LEXICON N_SĒMI-PL__ : 201
 
  * __LEXICON N_LĒʼMI__ lēʼmi:lēʼmi 202
-  Yaml: __A-aqrlimi__
 
  * __LEXICON N_LĒʼMI-SG	__ lēʼmi:lēʼmi 202
  * __LEXICON N_LĒʼMI-PL	__ lēʼmi:lēʼmi 202
@@ -1365,7 +1354,6 @@ __jõugõ:jõugõ__
 !!Nominal inflection
 Inflection lexica
  * __LEXICON NMN_PŪ__ pū:pū 12
-   * Yaml: __N-puu__
 Stem change: None
 
 
@@ -1377,7 +1365,6 @@ Stem	change:	None
 
 
 14
-   * Yaml: __N-paeae__
 Stem	change:	Yes 
  Vowel raising ǟ:ē +Pl +Ela/+Ill/+Par
 Stød: Yes
@@ -1386,7 +1373,6 @@ Stød: Yes
 
  * __LEXICON NMN_TĪE__ tīe:tīʼe
 15
-   * Yaml: __N-paeae__
 Stem change: Yes
  Vowel lowering īe:ē +Pl +Ela/+Ill/+Par
 Stød: Yes
@@ -1396,13 +1382,11 @@ Stød: Yes
 tēšti
 
 16
-   * Yaml: __N-mai__
 Stem change: None
 
 
  * __LEXICON NMN_TEI__ tei:tei
 17
-   * Yaml: __N-tei__ Pass 2014.12.12
 Stem change: Yes 
  Vowel change: ei:ē
 
@@ -1410,14 +1394,12 @@ Stem change: Yes
 
  * __LEXICON NMN_KUŖĒ__ kuŗē:kuʼŗ
 18
-   * Yaml: __N-kurree??__
 kuŗē:kuʼŗ
 
 
 
 18
  * __LEXICON NMN_KALĀ__ kalā:kaʼl
-   * Yaml: __N-kalaa__ Pass: 2014.12.12
 Stem change: Yes
   Consonant lengthening
   Consonant palatalization
@@ -1453,14 +1435,12 @@ Stød: None
 
 21
  * __LEXICON NMN_KŪJA__ kūja:leiba
-  * Yaml: 
 No information
 
 
 
 22
  * __LEXICON NMN_PŪOGA__ pūoga:pūog
-   * Yaml: __N-puuoga__ Passed: 
 Stem change: Yes
   Vowel change in 1st syllable ūo:ȯi
   Vowel change in word-final position a:õ/0
@@ -1471,7 +1451,6 @@ Stød: None
 
 23
  * __LEXICON NMN_LǬJA__ lǭja:lǭija
-   * Yaml: __N-looja__ Passed: 2014.12.12
 Stem change: Yes
   Vowel change in 1st syllable ǭ:a
   Consonant change ij:j
@@ -1481,7 +1460,6 @@ Stød: None
 
 24
  * __LEXICON NMN_PǞVA__ pǟva:pǟuva
-   * Yaml: __N-paeaeva__ Passed: 2014.12.12
 Stem change: Yes
  Vowel change ǟ:äu
 Stød: None
@@ -1490,7 +1468,6 @@ Stød: None
 
  * __LEXICON NMN_IZĀ__ izā:iʼzzā
 25
-   * Yaml: __N-izaa__
 Stem change: yes
  Vowel loss ā:0
 Stød: Yes
@@ -1500,7 +1477,6 @@ Stød: Yes
 
 25
  * __LEXICON NMN_PIEZĀ__ piezā:pieʼzzā
-   * Yaml: __N-piezaa__
 Stem change: yes
 Stød: Yes
 
@@ -1515,7 +1491,6 @@ Stem change: Yes
  * __LEXICON NMN_AŽĀ-PL__ ažā:aʼžā 26
 
  * __LEXICON NMN_ĀĻDŽA__ āļdža:āļdža 27
-  * __N-aaldzha__ 
 Stem change: Yes (Vowel)
  * __LEXICON NMN_ĀĻDŽA-SG__ āļdža:āļdža 27
 
@@ -1528,7 +1503,6 @@ Stem change: Yes
  * __LEXICON NMN_SUKĀ-PL__ sukā:sukkā 28
 
  * __LEXICON NMN_LIEPĀ__ liepā:liep 29
-   * Yaml: __N-liepaa__ Passed:
 Stem change: Yes
  consonant length
 Stød: None
@@ -1537,7 +1511,6 @@ Stød: None
  * __LEXICON NMN_LIEPĀ-PL__ liepā:lieppā 29
 
  * __LEXICON NMN_OKSĀ__ oksā:oksā 30
-   * Yaml: __N-oksaa__ Passed:
 Stem change: Yes
  palatalization s:š
 Stød: None
@@ -1546,7 +1519,6 @@ Stød: None
  * __LEXICON NMN_OKSĀ-PL__ oksā:oksā 30
 
  * __LEXICON NMN_VȰNTSA__ vȱntsa:vȱntsa 31
-   * Yaml: __N-voontsa__ Passed: 2014.12.13
 Stem change:    Yes
  Vowel length
  ??Palatalization?? of s:š
@@ -1556,7 +1528,6 @@ Stød: None
  * __LEXICON NMN_VȰNTSA-PL__ vȱntsa:vȱntsa 31
 
  * __LEXICON NMN_LIESTĀ__ liestā:liestā 32
-   * Yaml: __N-liestaa__ Passed: 2014.12.13
 Stem	change:	   Yes
  Diphthong straightening
  ??Palatalization?? of s:š 
@@ -1567,21 +1538,18 @@ Stød: None
 
 33
  * __LEXICON NMN_ĀIGA__ āiga:āig
-   * Yaml: __N-aaiga__ Passed: 2014.12.13
 Stem	change:	Yes
  Vowel length in first syllable
 Stød: None
 
 
 33b LĀNGA
-   * Yaml: __N-laanga__
 Stem	change:	Yes (Vowel)
 Stød: None
 
 
 34
  * __LEXICON NMN_SĪLMA__ sīlma:sīlma
-   * Yaml: __N-siilma__
 Stem change:	Yes (Vowel)
 Stød: None
 
@@ -1627,7 +1595,6 @@ Stød: Yes
 
 41
  * __LEXICON NMN_KÄPĀ__ käpā:käpā
-   * Yaml: __N-kaepaa__
 
 
 42
@@ -1652,7 +1619,6 @@ Stød: Yes
 
 
  * __LEXICON NMN_ŪŠKA__ ūška:ūiska 47
-   * Yaml: __N-uushka__ Passed:
 Stem change: Yes
  vowel length
 Stød: None
@@ -1661,7 +1627,6 @@ Stød: None
  * __LEXICON NMN_ŪŠKA-PL__ ūška:ūiska 47
 
  * __LEXICON NMN_MȬKA__ mȭka:mȭuka 48
-   * Yaml: __N-mwwka__ Passed: 2014.12.15
 Stem change: Yes
  vowel length
 Stød: None
@@ -1693,7 +1658,6 @@ Stød: None
 
 
  * __LEXICON NMN_TĪERA__ tīera:tīer 54
-   * Yaml: __A-tiiera__ Passed: 2014.12.12
 Stem	    change:	 Yes
 Stød: None
 Sg Nom=Gen: Yes
@@ -1719,7 +1683,6 @@ Sg Nom=Gen: Yes
  * __LEXICON NMN_KUȚĀ-PL__ kuțā:kuțā 57
 
  * __LEXICON NMN_NĒTŠA__ nētša:nētša 58
-  * Yaml: __N-neetsha__ Passed: 2014.12.15
 Stem change Yes
  final vowel loss
 Stød: None
@@ -1888,7 +1851,6 @@ Stød: None
  * __LEXICON NMN_RADIO-PL__ : 91
 
  * __LEXICON NMN_ANG__ : 92
-   * Yaml: __N-ang__
  * __LEXICON NMN_ANG-SG__ : 92
  * __LEXICON NMN_ANG-PL__ : 92
 
@@ -1934,7 +1896,6 @@ Stød: None
 
 102
  * __LEXICON NMN_NIŖȚ__ : 102 niŗț:niŗț
-  * Yaml: __N-nirt__ Passed:
 First-syllable Vowel lengthening in Pl
 Stød: None
  * __LEXICON NMN_NIŖȚ-SG__ : 102
@@ -2058,7 +2019,6 @@ Stød: None
  * __LEXICON NMN_SOʼV-PL__ : 122
 
  * __LEXICON NMN_KǬJ__ : 123
-   * Yaml: __N-armij__
  * __LEXICON NMN_KǬJ-SG__ : 123
 
  * __LEXICON NMN_KǬJ-PL__ : 123
@@ -2130,7 +2090,6 @@ Stød: None
  * __LEXICON NMN_NEITST-PL__ neitst:neits 137
 
  * __LEXICON NMN_SĪEND__ sīend:sīen 138
-   * Yaml: __A-siiend__ Passed:
 Stem	    change: No
 Stød: None
 Sg Nom=Gen: No
@@ -2166,7 +2125,6 @@ belongs elsewhere __N-kalendaar__ kalendār+N+Sg+Ela => kalendārst
 
 
  * __LEXICON NMN_VIŠ__ : 144 viš:viš
-   * Yaml: __A-vish__
  * __LEXICON NMN_VIŠ-SG__ : 144
 
  * __LEXICON NMN_VIŠ-PL__ : 144
@@ -2298,7 +2256,6 @@ __72__
 
 
  * __LEXICON NMN_KÄBRĀZ__ : 168 käbrāz:käʼbrāz
-   * Yaml: __A-kaebraaz__
  * __LEXICON NMN_KÄBRĀZ-SG__ : 168
 
  * __LEXICON NMN_KÄBRĀZ-PL__ : 168
@@ -2316,14 +2273,12 @@ __72__
 
  * __LEXICON NMN_NÕTKĀZ__ : 170 nõtkāz:nõtkā
  * __LEXICON NMN_NÕTKĀZ-SG__ : 170
- * __!	NMN_MAIGĀZ-SG ;__ : 169
 
 
  * __LEXICON NMN_NÕTKĀZ-PL__ : 170
  * __NMN_RIKĀZ-PL ;__ rikāz: 171
 
  * __LEXICON NMN_RIKĀZ__ rikāz:rik 171
-   * Yaml: __A-rikaaz__ Passed: 
 Stem change: Yes
 Stød: None
 Sg Nom=Gen: No
@@ -2352,14 +2307,11 @@ Sg Nom=Gen: No
 
 
  * __LEXICON NMN_PǬĻAZ__ : 175 pǭļaz:pǭļ
-   * Yaml: __A-poolaz__
 Stød: None
 Sg Nom=Gen: No
  * __LEXICON NMN_PǬĻAZ-SG__ : 175
- * __!NMN_ĀMBAZ-SG ;__ : 173
 
  * __LEXICON NMN_PǬĻAZ-PL__ : 175
- * __!NMN_ĀMBAZ-PL ;__ : 173
 
 
  * __LEXICON NMN_RĒNAZ__ : 176 rēnaz:rēna
@@ -2388,7 +2340,6 @@ Sg Nom=Gen: No
 
  * __LEXICON NMN_VȬRÕZ	__ vȭrõz:vȭrõ
 180
-   * Yaml: __A-vwwrwz__ Passed: 2014.12.12
 Sg Nom=Gen: No
 
 
@@ -2398,7 +2349,6 @@ Sg Nom=Gen: No
 
 183
  * __LEXICON NMN_PŪʼDÕZ__ pūʼdõz:pūʼdõ
-   * Yaml: __A-puuqdwz__ Passed: 2014.12.12
 Stød: Yes
 Sg Nom=Gen: No
 
@@ -2413,7 +2363,6 @@ Sg Nom=Gen: No
 
 
  * __LEXICON NMN_SĒJI__ : 186
-   * Yaml:__A-aandaji, N-seeji__
 Stem change: None
  * __LEXICON NMN_SĒJI-SG__ : 186
 
@@ -2447,7 +2396,6 @@ __61__
  * __LEXICON NMN_LÄʼBḐI-PL__ : 188
 
  * __LEXICON NMN_NAI__ : 191 nai:nai
-  * Yaml: __N-nai__ Passed: 2014.12.15
 Vowel length
 Sg Nom=Gen: No
 Stød: None
@@ -2456,12 +2404,10 @@ Stød: None
  * __LEXICON NMN_NAI-PL__ : 188
 
 192
-   * Yaml:__A-aqigi__
 
 
  * __LEXICON NMN_PUʼNNI__ puʼnni:puʼn 193
 __127__
-   * Yaml: __N-puqnni__ Passed: 2014.12.12
 Stød: Yes
 Sg Nom=Gen: No
  * __LEXICON NMN_PUʼNNI-SG__ puʼnni:puʼn 193
@@ -2484,7 +2430,6 @@ __33__
 
  * __LEXICON NMN_AIGI__ aigi:aigi 196
 __16__
-   * Yaml: __A-aigi__
 Stem change: Yes (vowel length in 1st syllable)
  * __LEXICON NMN_AIGI-SG__ aigi:aigi 196
 
@@ -2497,10 +2442,8 @@ Stem change: Yes (vowel length in 1st syllable)
 
  * __LEXICON NMN_PAŖĪ__ : 198 paŗī:paŗŗī
  * __LEXICON NMN_PAŖĪ-SG__ : 198
- * __!NMN_TŪĻI-SG ;__ : 199
 
  * __LEXICON NMN_PAŖĪ-PL__ : 198
- * __!NMN_TŪĻI-PL ;__ : 199
  * __:ž 	PL-PAR_i ;__ paŗrīži ?
 
 
@@ -2666,7 +2609,6 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
  * __LEXICON NMN_DULLÕNZ-PL__ dullõnz:dullõn 227
 
  * __LEXICON NMN_AʼBBÕNZ__ aʼbbõnz:aʼbbõn 228
-   * Yaml: __N-aqbbwnz__
  * __LEXICON NMN_AʼBBÕNZ-SG__ aʼbbõnz:aʼbbõn 228
 
  * __LEXICON NMN_AʼBBÕNZ-PL__ aʼbbõnz:aʼbbõn 228
@@ -2835,7 +2777,6 @@ A trigger for z:ž will be required
 
 
 
-   vim: set ft=xfst-lexc:
 
 Verb inflection
 The LIVONIAN language verbs inflect in persons.
@@ -3774,7 +3715,6 @@ __veʼd%^D2Ž%{XC%}>i examples:__
 
 __veʼž0ž0i examples:__
 
-__%{XC%}:ž__ 2014-01-18 "%{XC%}:Cx" not working
 
 __%{XC%}:k__ 2014-02-27
 
@@ -3863,7 +3803,6 @@ __d:ț __
 
 __d:ž __  
 
-__d:ž __
 
 
 
