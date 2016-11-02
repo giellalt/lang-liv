@@ -23,7 +23,9 @@ GIELLA_FILTER_LOCAL_REGEX_SRCS=\
 					downcase_UCletters.regex	\
 					remove-norm-comp-tags.regex               \
 					remove-modifier-letter-apostrophe.regex	\
-					remove-letter-o-with-ogonek-and-macron.regex
+					remove-letter-o-with-ogonek-and-macron.regex \
+					split-CmpNP-tags.regex \
+					convert_to_flags-CmpNP-tags.regex
 
 # List any local filter xfscript files here:
 GIELLA_FILTER_LOCAL_XFSCRIPT_SRCS=
