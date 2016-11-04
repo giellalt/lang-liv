@@ -63,82 +63,121 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
-analyser-%.hfst: analyser-%.tmp.hfst                        \
-					filters/remove-modifier-letter-apostrophe.hfst   \
-					filters/remove-letter-o-with-ogonek-and-macron.hfst   
-	$(AM_V_RGX2FST)$(PRINTF) "                               \
-				@\"$<\"                                      \
-			.o. @\"filters/remove-modifier-letter-apostrophe.hfst\"   \
-			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.hfst\"   \
-			;" \
-		| $(HFST_REGEXP2FST) $(HFST_FLAGS) -S --xerox-composition=ON \
-		| $(HFST_INVERT) \
-		> $@
+# We need to add processing of language-specific tags in the analyser:
+analyser-gt-desc.%: analyser-gt-desc.tmp.% \
+					filters/remove-derivation-position-tags.% \
+					filters/remove-norm-comp-tags.%             \
+					filters/remove-modifier-letter-apostrophe.%   \
+					filters/remove-letter-o-with-ogonek-and-macron.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-norm-comp-tags.$*\"           \
+			.o. @\"$<\"                                         \
+			.o. @\"filters/remove-modifier-letter-apostrophe.$*\" \
+			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.$*\"   \
+			;\n\
+		 $(INVERT_HFST)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
 
-# We need to specify -gt- to avoid applying the filters to the raw fst:
-generator-gt-%.hfst: generator-gt-%.tmp.hfst                \
-					filters/remove-modifier-letter-apostrophe.hfst   \
-					filters/remove-letter-o-with-ogonek-and-macron.hfst   
-	$(AM_V_RGX2FST)$(PRINTF) "                               \
-				@\"$<\"                                      \
-			.o. @\"filters/remove-modifier-letter-apostrophe.hfst\"   \
-			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.hfst\"   \
-			;" \
-		| $(HFST_REGEXP2FST) $(HFST_FLAGS) -S --xerox-composition=ON \
-		> $@
+# And also for the normative analyser (foma and hfst):
+analyser-gt-norm.%: analyser-gt-norm.tmp.% \
+					filters/remove-illegal-derivation-strings-flagbased.% \
+					filters/insert-default-compounding-tags.%             \
+					filters/insert-default_left_compounding-tags.%        \
+					filters/block-illegal_compound-strings.%              \
+					filters/split-CmpN-tags.%                             \
+					filters/convert_to_flags-CmpNP-tags.%                 \
+					filters/split-CmpNP-tags.%                            \
+					filters/remove-modifier-letter-apostrophe.%           \
+					filters/remove-letter-o-with-ogonek-and-macron.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+				@\"filters/block-illegal_compound-strings.$*\"              \
+			.o. @\"filters/split-CmpN-tags.$*\"                             \
+			.o. @\"filters/insert-default_left_compounding-tags.$*\"        \
+			.o. @\"filters/insert-default-compounding-tags.$*\"             \
+			.o. @\"filters/remove-illegal-derivation-strings-flagbased.$*\" \
+			.o. @\"filters/convert_to_flags-CmpNP-tags.$*\"                 \
+			.o. @\"filters/split-CmpNP-tags.$*\"                            \
+			.o. @\"$<\"                                                     \
+			.o. @\"filters/remove-modifier-letter-apostrophe.$*\"           \
+			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.$*\"      \
+			;\n\
+		 twosided flag-diacritics\n\
+		 $(INVERT_HFST)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
 
-# We need to specify -gt- to avoid applying the filters to the raw fst:
-analyser-gt-%.xfst: analyser-gt-%.tmp.xfst                  \
-					filters/remove-modifier-letter-apostrophe.xfst   \
-					filters/remove-letter-o-with-ogonek-and-macron.xfst   
-	$(AM_V_XFST)$(PRINTF) "read regex                        \
-				@\"$<\"                                      \
-			.o. @\"filters/remove-modifier-letter-apostrophe.xfst\"   \
-			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.xfst\"   \
+# The operation 'twosided flag-diacritics" crashes Xerox badly, so we do with
+# a simpler, less restrictive normative fst when building with Xerox:
+analyser-gt-norm.xfst: analyser-gt-norm.tmp.xfst \
+					filters/remove-norm-comp-tags.xfst             \
+					filters/remove-derivation-position-tags.xfst   \
+					filters/remove-illegal-derivation-strings.xfst \
+					filters/remove-modifier-letter-apostrophe.xfst \
+					filters/remove-letter-o-with-ogonek-and-macron.xfst
+	$(AM_V_XFST)$(PRINTF) "read regex \
+				@\"filters/remove-norm-comp-tags.xfst\"                  \
+			.o. @\"filters/remove-derivation-position-tags.xfst\"        \
+			.o. @\"filters/remove-illegal-derivation-strings.xfst\"      \
+			.o. @\"$<\"                                                  \
+			.o. @\"filters/remove-modifier-letter-apostrophe.xfst\"      \
+			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.xfst\" \
 			;\n\
 		 save stack $@\n\
 		 quit\n" | $(XFST) $(VERBOSITY)
 
 # Special case for the disamb analyser, since it follows the same filename
 # pattern as the raw fst:
-analyser-disamb-gt-%.xfst: analyser-disamb-gt-%.tmp.xfst    \
-					filters/remove-modifier-letter-apostrophe.xfst   \
-					filters/remove-letter-o-with-ogonek-and-macron.xfst   
-	$(AM_V_XFST)$(PRINTF) "read regex                        \
-				@\"$<\"                                      \
-			.o. @\"filters/remove-modifier-letter-apostrophe.xfst\"   \
-			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.xfst\"   \
+analyser-disamb-gt-desc.%: analyser-disamb-gt-desc.tmp.% \
+					filters/remove-derivation-position-tags.%       \
+					filters/remove-norm-comp-tags.%                 \
+					filters/remove-modifier-letter-apostrophe.%     \
+					filters/remove-letter-o-with-ogonek-and-macron.%   
+	$(AM_V_XFST)$(PRINTF) "read regex \
+				@\"filters/remove-derivation-position-tags.$*\"        \
+			.o. @\"filters/remove-norm-comp-tags.$*\"                  \
+			.o. @\"$<\"                                                \
+			.o. @\"filters/remove-modifier-letter-apostrophe.$*\"      \
+			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.$*\" \
 			;\n\
+		 $(INVERT_HFST)\
 		 save stack $@\n\
-		 quit\n" | $(XFST) $(VERBOSITY)
+		 quit\n" | $(XFST_TOOL)
 
-generator-%.xfst: generator-%.tmp.xfst                      \
-					filters/remove-modifier-letter-apostrophe.xfst   \
-					filters/remove-letter-o-with-ogonek-and-macron.xfst   
-
-	$(AM_V_XFST)$(PRINTF) "read regex                        \
-				@\"$<\"                                      \
-			.o. @\"filters/remove-modifier-letter-apostrophe.xfst\"   \
-			.o. @\"filters/remove-letter-o-with-ogonek-and-macron.xfst\"   \
+# We need to add processing of language-specific tags in the generator:
+define giella_generators
+generator-gt-%.$(1): generator-gt-%.tmp.$(1) \
+					 filters/remove-derivation-position-tags.$(1) \
+					 filters/remove-norm-comp-tags.$(1)             \
+					 filters/remove-modifier-letter-apostrophe.$(1) \
+					 filters/remove-o-with-ogonek-and-macron.$(1)
+	$$(AM_V_XFST_TOOL)$$(PRINTF) "read regex \
+				@\"filters/remove-derivation-position-tags.$(1)\"   \
+			.o. @\"filters/remove-norm-comp-tags.$(1)\"             \
+			.o. @\"$$<\"                                            \
+			.o. @\"filters/remove-o-with-ogonek-and-macron.$(1)\"   \
+			.o. @\"filters/remove-modifier-letter-apostrophe.$(1)\" \
 			;\n\
-		 invert net\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST) $(VERBOSITY)
+		 $$(INVERT_XFST)$$(INVERT_FOMA)\
+		 save stack $$@\n\
+		 quit\n" | $$(XFST_TOOL)
+endef
+$(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
 
 # Do NOT apply the accent removal filters to the normative
 # dictionary generator (both hfst and xfst):
-generator-dict-gt-norm.hfst: generator-dict-gt-norm.tmp.hfst
-	$(AM_V_CP)cp -f $< $@
-
-generator-dict-gt-norm.xfst: generator-dict-gt-norm.tmp.xfst
-	$(AM_V_XFST)$(PRINTF) "\
-		 load stack $<\n\
-		 invert net\n\
+generator-dict-gt-norm.%: generator-dict-gt-norm.tmp.% \
+					filters/remove-derivation-position-tags.% \
+					filters/remove-norm-comp-tags.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "\read regex \
+				@\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-norm-comp-tags.$*\"           \
+			.o. @\"$<\"                                         \
+			;\n\
+		 $(INVERT_XFST)$(INVERT_FOMA)\
 		 save stack $@\n\
-		 quit\n" | $(XFST) $(VERBOSITY)
-
-
-
+		 quit\n" | $(XFST_TOOL)
 
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
