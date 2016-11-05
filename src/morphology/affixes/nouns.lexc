@@ -406,12 +406,12 @@ LEXICON N_KOUV !!≈ * __@CODE@__ : 93
 
 LEXICON N_KAND !!≈ * __@CODE@__ : 94
 !! kand:kand
-	N_KAND-PL   ;
-	N_KAND-SG   ;
+  N_KAND-PL ;
+  N_KAND-SG ;
 LEXICON N_KAND-SG !!≈ * __@CODE@__ : 94
-+N:	NMN_KAND-SG	;
+ +N: NMN_KAND-SG ;
 LEXICON N_KAND-PL !!≈ * __@CODE@__ : 94
-+N:	NMN_KAND-PL	;
+ +N: NMN_KAND-PL ;
 
 LEXICON N_PȮRT !!≈ * __@CODE@__ : 95
 +N:	NMN_PȮRT	;
@@ -480,12 +480,12 @@ LEXICON N_VȮĻG !!≈ * __@CODE@__ : 111
 LEXICON N_TÄUŽ !!≈ * __@CODE@__ täuž:täud adres 112
 !! N_SgGen/d-Nom/ž-Par//ta
 !! __täuž:täud__
-	N_TÄUŽ-SG	;
-	N_TÄUŽ-PL	;
+  N_TÄUŽ-SG ;
+  N_TÄUŽ-PL ;
 LEXICON N_TÄUŽ-SG !!≈ * __@CODE@__ : 116
-+N:	NMN_TÄUŽ-SG	;
+ +N: NMN_TÄUŽ-SG ;
 LEXICON N_TÄUŽ-PL !!≈ * __@CODE@__ : 116
-+N:	NMN_TÄUŽ-PL	;
+ +N: NMN_TÄUŽ-PL ;
 
 
 LEXICON N_VAŖŽ !!≈ * __@CODE@__ : 113
