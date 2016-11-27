@@ -1,0 +1,727 @@
+diff -r src/filters/Makefile /home/ciprian/main/langs/liv/src/filters/Makefile
+146,148c146,148
+< #am__append_1 = $(patsubst %.regex,%.hfst,$(REGEX_SRCS)) \
+< #	$(patsubst %.xfscript,%.hfst,$(XFSCRIPT_SRCS)) \
+< #	$(patsubst %.lexc,%.hfst,$(LEXC_SRCS))
+---
+> am__append_1 = $(patsubst %.regex,%.hfst,$(REGEX_SRCS)) \
+> 	$(patsubst %.xfscript,%.hfst,$(XFSCRIPT_SRCS)) \
+> 	$(patsubst %.lexc,%.hfst,$(LEXC_SRCS))
+197c197
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+203,205c203,205
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+222,224c222,224
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+226c226
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+228,229c228,229
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+286c286
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+322,325c322,325
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src/filters
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src/filters
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src/filters
+> abs_srcdir = /home/ciprian/main/langs/liv/src/filters
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+350c350
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
+965,973c965,973
+< #sigma.txt: $(top_builddir)/src/morphology/lexicon.hfst
+< #	$(AM_V_GEN)$(HFST_SUMMARIZE) -v $^ \
+< #		| grep -A1 '^sigma set' \
+< #		| grep -v '^sigma set' \
+< #		| sed 's/, /\\\\\\/g' \
+< #		| perl -pe 's/\\\\\\/\n/g' \
+< #		| grep -v '^$$' \
+< #		| egrep -v '(@_EPSILON_SYMBOL_@|@_IDENTITY_SYMBOL_@|@_UNKNOWN_SYMBOL_@)' \
+< #		> $@
+---
+> sigma.txt: $(top_builddir)/src/morphology/lexicon.hfst
+> 	$(AM_V_GEN)$(HFST_SUMMARIZE) -v $^ \
+> 		| grep -A1 '^sigma set' \
+> 		| grep -v '^sigma set' \
+> 		| sed 's/, /\\\\\\/g' \
+> 		| perl -pe 's/\\\\\\/\n/g' \
+> 		| grep -v '^$$' \
+> 		| egrep -v '(@_EPSILON_SYMBOL_@|@_IDENTITY_SYMBOL_@|@_UNKNOWN_SYMBOL_@)' \
+> 		> $@
+977,992c977,992
+< sigma.txt: $(top_builddir)/src/morphology/lexicon.xfst
+< 	$(AM_V_GEN)$(XFST) -q \
+< 			-e "load stack $^" \
+< 			-e "print sigma" \
+< 			-stop \
+< 		| grep -v '^Size' \
+< 		| sed 's/^Sigma: //' \
+< 		| sed 's/       //' \
+< 		| sed 's/" "/XXXXX/g' \
+< 		| tr ' ' '\n' \
+< 		| sed 's/XXXXX/ /g' \
+< 		| grep -v '^$$' \
+< 		| sed 's/^"\(.\)"$$/\1/' \
+< 		| sed 's/%\"/"/' \
+< 		| LCALL=C sort \
+< 		> $@
+---
+> #sigma.txt: $(top_builddir)/src/morphology/lexicon.xfst
+> #	$(AM_V_GEN)$(XFST) -q \
+> #			-e "load stack $^" \
+> #			-e "print sigma" \
+> #			-stop \
+> #		| grep -v '^Size' \
+> #		| sed 's/^Sigma: //' \
+> #		| sed 's/       //' \
+> #		| sed 's/" "/XXXXX/g' \
+> #		| tr ' ' '\n' \
+> #		| sed 's/XXXXX/ /g' \
+> #		| grep -v '^$$' \
+> #		| sed 's/^"\(.\)"$$/\1/' \
+> #		| sed 's/%\"/"/' \
+> #		| LCALL=C sort \
+> #		> $@
+995,996c995,996
+< #sigma.txt:
+< #	touch $@
+---
+> ##sigma.txt:
+> ##	touch $@
+diff -r src/hyphenation/Makefile /home/ciprian/main/langs/liv/src/hyphenation/Makefile
+152,155c152,155
+< #am__append_1 = $(patsubst \
+< #	%.xfscript,%.lookup.hfst,$(GT_HYPHENATION_SRCS)) \
+< #	$(patsubst \
+< #	%.xfscript,%.compose.hfst,$(GT_HYPHENATION_SRCS))
+---
+> am__append_1 = $(patsubst \
+> 	%.xfscript,%.lookup.hfst,$(GT_HYPHENATION_SRCS)) \
+> 	$(patsubst \
+> 	%.xfscript,%.compose.hfst,$(GT_HYPHENATION_SRCS))
+200c200
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+206,208c206,208
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+225,227c225,227
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+229c229
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+231,232c231,232
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+289c289
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+325,328c325,328
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src/hyphenation
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src/hyphenation
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src/hyphenation
+> abs_srcdir = /home/ciprian/main/langs/liv/src/hyphenation
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+353c353
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
+diff -r src/Makefile /home/ciprian/main/langs/liv/src/Makefile
+215,216c215,216
+< #am__append_3 = 
+< #am__append_4 = 
+---
+> am__append_3 = 
+> am__append_4 = 
+225,237c225,237
+< #am__append_7 = generator-raw-gt-desc.hfst analyser-raw-gt-desc.hfst
+< #am__append_8 = analyser-gt-desc.hfstol \
+< #			  analyser-gt-norm.hfstol \
+< #			  analyser-disamb-gt-desc.hfstol
+< 
+< ##am__append_9 = analyser-gramcheck-gt-desc.hfstol
+< #am__append_10 = generator-gt-desc.hfstol \
+< #			   generator-gt-norm.hfstol 
+< 
+< ##am__append_11 = analyser-raw-gt-glossing.hfst
+< ##am__append_12 = analyser-gt-glossing.hfstol
+< ##am__append_13 = generator-gt-glossing.hfstol
+< ##am__append_14 = morpher-gt-desc.hfstol
+---
+> am__append_7 = generator-raw-gt-desc.hfst analyser-raw-gt-desc.hfst
+> am__append_8 = analyser-gt-desc.hfstol \
+> 			  analyser-gt-norm.hfstol \
+> 			  analyser-disamb-gt-desc.hfstol
+> 
+> #am__append_9 = analyser-gramcheck-gt-desc.hfstol
+> am__append_10 = generator-gt-desc.hfstol \
+> 			   generator-gt-norm.hfstol 
+> 
+> #am__append_11 = analyser-raw-gt-glossing.hfst
+> #am__append_12 = analyser-gt-glossing.hfstol
+> #am__append_13 = generator-gt-glossing.hfstol
+> #am__append_14 = morpher-gt-desc.hfstol
+277,279c277,279
+< ##am__append_29 = analyser-oahpa-gt-norm.hfstol
+< ##am__append_30 = generator-oahpa-gt-norm.hfstol \
+< ##					$(DIALECT_TARGETS_HFST)
+---
+> #am__append_29 = analyser-oahpa-gt-norm.hfstol
+> #am__append_30 = generator-oahpa-gt-norm.hfstol \
+> #					$(DIALECT_TARGETS_HFST)
+289,290c289,290
+< ##am__append_35 = analyser-oahpa-gt-error.hfstol
+< ##am__append_36 = analyser-raw-gt-error.hfst
+---
+> #am__append_35 = analyser-oahpa-gt-error.hfstol
+> #am__append_36 = analyser-raw-gt-error.hfst
+293c293
+< ##am__append_39 = analyser-oahpa-gt-downcaseerror.hfstol
+---
+> #am__append_39 = analyser-oahpa-gt-downcaseerror.hfstol
+300,301c300,301
+< am__append_44 = analyser-dict-gt-desc.xfst \
+< 				   analyser-dict-gt-desc-mobile.xfst
+---
+> #am__append_44 = analyser-dict-gt-desc.xfst \
+> #				   analyser-dict-gt-desc-mobile.xfst
+303c303
+< am__append_45 = generator-dict-gt-norm.xfst
+---
+> #am__append_45 = generator-dict-gt-norm.xfst
+306,307c306,307
+< ##am__append_46 = $(addsuffix .hfstol,$(ALT_WS_ANALYSERS_TMP))
+< ##am__append_47 = $(addsuffix .hfstol,$(ALT_WS_GENERATORS_TMP))
+---
+> #am__append_46 = $(addsuffix .hfstol,$(ALT_WS_ANALYSERS_TMP))
+> #am__append_47 = $(addsuffix .hfstol,$(ALT_WS_GENERATORS_TMP))
+315,316c315,316
+< ##am__append_50 = $(addsuffix .hfstol,$(ALT_ORTH_ANALYSERS_TMP))
+< ##am__append_51 = $(addsuffix .hfstol,$(ALT_ORTH_GENERATORS_TMP))
+---
+> #am__append_50 = $(addsuffix .hfstol,$(ALT_ORTH_ANALYSERS_TMP))
+> #am__append_51 = $(addsuffix .hfstol,$(ALT_ORTH_GENERATORS_TMP))
+461c461
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+467,469c467,469
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+486,488c486,488
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+490c490
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+492,493c492,493
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+550c550
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+586,589c586,589
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src
+> abs_srcdir = /home/ciprian/main/langs/liv/src
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+614c614
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
+672c672
+< ##COMPOSE_INTERSECT_FLAG = --fast
+---
+> #COMPOSE_INTERSECT_FLAG = --fast
+diff -r src/morphology/Makefile /home/ciprian/main/langs/liv/src/morphology/Makefile
+148,149c148,149
+< #am__append_3 = lexicon.hfst
+< ##am__append_4 = lexicon.rev.hfst
+---
+> am__append_3 = lexicon.hfst
+> #am__append_4 = lexicon.rev.hfst
+153,155c153,155
+< #am__append_7 = $(patsubst \
+< #	%.lexc,%.hfst,$(GT_LOCAL_SRCS)) $(patsubst \
+< #	%.xfscript,%.hfst,$(GT_LOCAL_XFSCRIPT_SRCS))
+---
+> am__append_7 = $(patsubst \
+> 	%.lexc,%.hfst,$(GT_LOCAL_SRCS)) $(patsubst \
+> 	%.xfscript,%.hfst,$(GT_LOCAL_XFSCRIPT_SRCS))
+162c162
+< ##am__append_10 = lexicon-L2.hfst
+---
+> #am__append_10 = lexicon-L2.hfst
+207c207
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+213,215c213,215
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+232,234c232,234
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+236c236
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+238,239c238,239
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+296c296
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+332,335c332,335
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src/morphology
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src/morphology
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src/morphology
+> abs_srcdir = /home/ciprian/main/langs/liv/src/morphology
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+360c360
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
+Only in /home/ciprian/main/langs/liv/src/orthography: downcase-derived_proper-strings.hfstscript
+diff -r src/orthography/Makefile /home/ciprian/main/langs/liv/src/orthography/Makefile
+153,160c153,160
+< #am__append_1 = $(patsubst \
+< #	%.xfscript,%.lookup.hfst,$(GT_ORTHOGRAPHIC_XFSCRIPT_SRCS)) \
+< #	$(patsubst \
+< #	%.xfscript,%.compose.hfst,$(GT_ORTHOGRAPHIC_XFSCRIPT_SRCS)) \
+< #	$(patsubst \
+< #	%.regex,%.lookup.hfst,$(GT_ORTHOGRAPHIC_REGEX_SRCS)) \
+< #	$(patsubst \
+< #	%.regex,%.compose.hfst,$(GT_ORTHOGRAPHIC_REGEX_SRCS))
+---
+> am__append_1 = $(patsubst \
+> 	%.xfscript,%.lookup.hfst,$(GT_ORTHOGRAPHIC_XFSCRIPT_SRCS)) \
+> 	$(patsubst \
+> 	%.xfscript,%.compose.hfst,$(GT_ORTHOGRAPHIC_XFSCRIPT_SRCS)) \
+> 	$(patsubst \
+> 	%.regex,%.lookup.hfst,$(GT_ORTHOGRAPHIC_REGEX_SRCS)) \
+> 	$(patsubst \
+> 	%.regex,%.compose.hfst,$(GT_ORTHOGRAPHIC_REGEX_SRCS))
+220c220
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+226,228c226,228
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+245,247c245,247
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+249c249
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+251,252c251,252
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+309c309
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+345,348c345,348
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src/orthography
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src/orthography
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src/orthography
+> abs_srcdir = /home/ciprian/main/langs/liv/src/orthography
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+373c373
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
+diff -r src/phonetics/Makefile /home/ciprian/main/langs/liv/src/phonetics/Makefile
+154,157c154,157
+< ##am__append_1 = $(patsubst \
+< ##	%.xfscript,%.lookup.hfst,$(GT_PHONETICS_SRCS)) \
+< ##	$(patsubst \
+< ##	%.xfscript,%.compose.hfst,$(GT_PHONETICS_SRCS))
+---
+> #am__append_1 = $(patsubst \
+> #	%.xfscript,%.lookup.hfst,$(GT_PHONETICS_SRCS)) \
+> #	$(patsubst \
+> #	%.xfscript,%.compose.hfst,$(GT_PHONETICS_SRCS))
+203c203
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+209,211c209,211
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+228,230c228,230
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+232c232
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+234,235c234,235
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+292c292
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+328,331c328,331
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src/phonetics
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src/phonetics
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src/phonetics
+> abs_srcdir = /home/ciprian/main/langs/liv/src/phonetics
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+356c356
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
+diff -r src/phonology/Makefile /home/ciprian/main/langs/liv/src/phonology/Makefile
+159,162c159,162
+< #am__append_1 = $(addsuffix .compose.hfst, $(basename \
+< #	$(GT_PHONOLOGY_SRCS))) $(addsuffix \
+< #	.lookup.hfst, $(basename $(GT_PHONOLOGY_SRCS)))
+< ##am__append_2 = $(addsuffix .rev.hfst, $(basename $(GT_PHONOLOGY_SRCS)))
+---
+> am__append_1 = $(addsuffix .compose.hfst, $(basename \
+> 	$(GT_PHONOLOGY_SRCS))) $(addsuffix \
+> 	.lookup.hfst, $(basename $(GT_PHONOLOGY_SRCS)))
+> #am__append_2 = $(addsuffix .rev.hfst, $(basename $(GT_PHONOLOGY_SRCS)))
+169,172c169,172
+< ##am__append_5 =  \
+< ##	$(GTLANG)-phon-L2.compose.hfst \
+< ##	$(GTLANG)-phon-L2.lookup.hfst
+< ###am__append_6 = $(GTLANG)-phon-L2.rev.hfst
+---
+> #am__append_5 =  \
+> #	$(GTLANG)-phon-L2.compose.hfst \
+> #	$(GTLANG)-phon-L2.lookup.hfst
+> ##am__append_6 = $(GTLANG)-phon-L2.rev.hfst
+220c220
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+226,228c226,228
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+245,247c245,247
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+249c249
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+251,252c251,252
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+309c309
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+345,348c345,348
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src/phonology
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src/phonology
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src/phonology
+> abs_srcdir = /home/ciprian/main/langs/liv/src/phonology
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+373c373
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
+diff -r src/syntax/Makefile /home/ciprian/main/langs/liv/src/syntax/Makefile
+206c206
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+212,214c212,214
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+231,233c231,233
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+235c235
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+237,238c237,238
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+295c295
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+331,334c331,334
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src/syntax
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src/syntax
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src/syntax
+> abs_srcdir = /home/ciprian/main/langs/liv/src/syntax
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+359c359
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
+diff -r src/tagsets/Makefile /home/ciprian/main/langs/liv/src/tagsets/Makefile
+143c143
+< #am__append_1 = $(patsubst %.regex,%.hfst,$(GT_ALL_TAGSET_RGX_SRCS))
+---
+> am__append_1 = $(patsubst %.regex,%.hfst,$(GT_ALL_TAGSET_RGX_SRCS))
+185c185
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+191,193c191,193
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+210,212c210,212
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+214c214
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+216,217c216,217
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+274c274
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+310,313c310,313
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src/tagsets
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src/tagsets
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src/tagsets
+> abs_srcdir = /home/ciprian/main/langs/liv/src/tagsets
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+338c338
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
+diff -r src/transcriptions/Makefile /home/ciprian/main/langs/liv/src/transcriptions/Makefile
+159,162c159,162
+< #am__append_1 = $(addsuffix \
+< #	.hfstol,$(DIGIT2TXT)) \
+< #	$(addsuffix \
+< #	.hfstol,$(TXT2DIGIT))
+---
+> am__append_1 = $(addsuffix \
+> 	.hfstol,$(DIGIT2TXT)) \
+> 	$(addsuffix \
+> 	.hfstol,$(TXT2DIGIT))
+213c213
+< ACLOCAL = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing aclocal-1.15
+---
+> ACLOCAL = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing aclocal-1.15
+219,221c219,221
+< AUTOCONF = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoconf
+< AUTOHEADER = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing autoheader
+< AUTOMAKE = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing automake-1.15
+---
+> AUTOCONF = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoconf
+> AUTOHEADER = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing autoheader
+> AUTOMAKE = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing automake-1.15
+238,240c238,240
+< GIELLA_CORE = /home/neahtta/gtsvn//giella-core
+< GIELLA_CORE_VERSION = /home/neahtta/gtsvn//giella-core/scripts/gt-version.sh
+< GIELLA_LIBS = no
+---
+> GIELLA_CORE = /home/ciprian/main/giella-core
+> GIELLA_CORE_VERSION = /home/ciprian/main/giella-core/scripts/gt-version.sh
+> GIELLA_LIBS = /home/ciprian/main/giella-libs
+242c242
+< GIELLA_SHARED = /home/neahtta/gtsvn//giella-shared
+---
+> GIELLA_SHARED = /home/ciprian/main/giella-shared
+244,245c244,245
+< GTCORE = /home/neahtta/gtsvn//giella-core
+< GTCORESH = /home/neahtta/gtsvn//giella-core/scripts/gt-core.sh
+---
+> GTCORE = /home/ciprian/main/giella-core
+> GTCORESH = /home/ciprian/main/giella-core/scripts/gt-core.sh
+302c302
+< MAKEINFO = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/missing makeinfo
+---
+> MAKEINFO = ${SHELL} /home/ciprian/main/langs/liv/build-aux/missing makeinfo
+338,341c338,341
+< abs_builddir = /home/neahtta/gtsvn/langs/liv/src/transcriptions
+< abs_srcdir = /home/neahtta/gtsvn/langs/liv/src/transcriptions
+< abs_top_builddir = /home/neahtta/gtsvn/langs/liv
+< abs_top_srcdir = /home/neahtta/gtsvn/langs/liv
+---
+> abs_builddir = /home/ciprian/main/langs/liv/src/transcriptions
+> abs_srcdir = /home/ciprian/main/langs/liv/src/transcriptions
+> abs_top_builddir = /home/ciprian/main/langs/liv
+> abs_top_srcdir = /home/ciprian/main/langs/liv
+366c366
+< install_sh = ${SHELL} /home/neahtta/gtsvn/langs/liv/build-aux/install-sh
+---
+> install_sh = ${SHELL} /home/ciprian/main/langs/liv/build-aux/install-sh
