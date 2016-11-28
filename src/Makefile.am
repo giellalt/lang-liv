@@ -170,7 +170,7 @@ $(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
 generator-dict-gt-norm.%: generator-dict-gt-norm.tmp.% \
 					filters/remove-derivation-position-tags.% \
 					filters/remove-norm-comp-tags.%
-	$(AM_V_XFST_TOOL)$(PRINTF) "\read regex \
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 				@\"filters/remove-derivation-position-tags.$*\" \
 			.o. @\"filters/remove-norm-comp-tags.$*\"           \
 			.o. @\"$<\"                                         \
