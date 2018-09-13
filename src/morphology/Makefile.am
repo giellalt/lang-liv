@@ -26,7 +26,6 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/abbreviations.lexc \
 			 stems/acronyms.lexc      \
 			 stems/exceptions.lexc    \
-			 stems/punctuation.lexc   \
 			 stems/adjectives_newwords.lexc       \
 			 stems/adverbs_newwords.lexc          \
 			 stems/nouns_newwords.lexc            \
@@ -70,7 +69,8 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/pronouns.lexc      \
 			 $(srcdir)/stems/propernouns.lexc   \
 			 $(srcdir)/stems/quantifiers.lexc   \
-			 $(srcdir)/stems/verbs.lexc
+			 $(srcdir)/stems/verbs.lexc \
+			 generated_files/punctuation.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
