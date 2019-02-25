@@ -3,336 +3,336 @@
 !! Livonian adjectives compare.
 
 LEXICON A_-ZERO !! modifiers that do not decline
-+A: # ;
+ # ;
 
 LEXICON A_
-+A+Pos:0        CASES   ;
-+A+Comp:er       CASES   ;
-+A+Superl:est      CASES   ;
++Pos:0        CASES   ;
++Comp:er       CASES   ;
++Superl:est      CASES   ;
 
 !! !!Stem lexica
 
 LEXICON A_PŪ !!= @CODE@ contains pū: 12
-+A:	NMN_PŪ	;
+ NMN_PŪ	;
 
 LEXICON A_TĪE !!= @CODE@ contains tīe:tīe 15
-+A:	NMN_TĪE	;
+ NMN_TĪE	;
 	
 LEXICON A_BRĪ !!= @CODE@ contains brī:brī 16
-+A:	NMN_BRĪ	;
+ NMN_BRĪ	;
 	
 LEXICON A_KALĀ  !!= @CODE@ contains  kalā:kaʼlā 18
-+A: NMN_KALĀ ;
+ NMN_KALĀ ;
 
 LEXICON A_TUBĀ !!= @CODE@ tubā:tuʼbā 19
-+A:	NMN_TUBĀ	;
+ NMN_TUBĀ	;
 
 LEXICON A_AIGĀ !!= @CODE@ aigā:aigā 20
-+A:	NMN_AIGĀ	;
+ NMN_AIGĀ	;
 
 LEXICON A_LĒBA !!= @CODE@ lēba:lēba 21
-+A:	NMN_LĒBA	;
+ NMN_LĒBA	;
 
 LEXICON A_KŪJA !!= @CODE@ kūja:??lēba 21
-+A:	NMN_KŪJA	;
+ NMN_KŪJA	;
 
 LEXICON A_IZĀ !!= @CODE@ izā:izā 25
-+A:	NMN_IZĀ	;
+ NMN_IZĀ	;
 
 LEXICON A_OKSĀ !!= @CODE@ oksā:oksā 30
-+A:	NMN_OKSĀ	;
+ NMN_OKSĀ	;
 
 LEXICON A_ĀIGA !!= @CODE@ āiga:āiga 33
-+A:	NMN_ĀIGA	;
+ NMN_ĀIGA	;
 
 LEXICON A_SĪLMA !!= @CODE@ sīlma:sīlma 34
-+A:	NMN_SĪLMA	;
+ NMN_SĪLMA	;
 
 LEXICON A_PADĀ !!= @CODE@ padā:padā 39
-+A:	NMN_PADĀ	;
+ NMN_PADĀ	;
 
 LEXICON A_KÄPĀ !!= @CODE@ käpā:käpā 41
-+A:	NMN_KÄPĀ	;
+ NMN_KÄPĀ	;
 
 LEXICON A_MAKSĀ !!= @CODE@ maksā:maksā 42
-+A:	NMN_MAKSĀ	;
+ NMN_MAKSĀ	;
 
 LEXICON A_KĒRA !!= @CODE@ kēra:kēra 43
-+A:	NMN_KĒRA	;
+ NMN_KĒRA	;
 
 LEXICON A_JǬRA !!= @CODE@ jǭra:jǭra 44
-+A:	NMN_JǬRA	;
+ NMN_JǬRA	;
 
 LEXICON A_PŪOLA !!= @CODE@ pūola:pūola 45
-+A:	NMN_PŪOLA	;
+ NMN_PŪOLA	;
 
 LEXICON A_ĀITA !!= @CODE@ āita:āita 46
-+A:	NMN_ĀITA	;
+ NMN_ĀITA	;
 
 LEXICON A_ŪŠKA !!= @CODE@ ūška:ūška 47
-+A:	NMN_ŪŠKA	;
+ NMN_ŪŠKA	;
 
 LEXICON A_MȬKA !!= @CODE@ mȭka:mȭka 48
-+A:	NMN_MȬKA	;
+ NMN_MȬKA	;
 
 LEXICON A_DADŽĀ !!= @CODE@ dadžā:dadžā 49
-+A:	NMN_DADŽĀ	;
+ NMN_DADŽĀ	;
 
 LEXICON A_TĪERA !!= @CODE@ tīera:tīera 54
-+A:	NMN_TĪERA	;
+ NMN_TĪERA	;
 
 LEXICON A_LILLA !!= @CODE@ kuțā:kuțā 57
-+A:	NMN_LILLA	;
+ NMN_LILLA	;
 
 LEXICON A_KUȚĀ
-+A:	NMN_KUȚĀ	;
+ NMN_KUȚĀ	;
 
 LEXICON A_KIʼV !!= @CODE@ kiʼv:kiv 59
-+A:	NMN_KIʼV	;
+ NMN_KIʼV	;
 
 LEXICON A_PIʼŅ !!= @CODE@ piʼņ:piņ 64
-+A:	NMN_PIʼŅ	;
+ NMN_PIʼŅ	;
 
 LEXICON A_OKŠ !!= @CODE@ : 68
-+A:	NMN_OKŠ	;
+ NMN_OKŠ	;
 
 LEXICON A_KAŠ !!= @CODE@ : 69
-+A:	NMN_KAŠ	;
+ NMN_KAŠ	;
 
 LEXICON A_TORĪ !!= @CODE@ torī: 71
-+A:	NMN_TORĪ	;
+ NMN_TORĪ	;
 
 LEXICON A_KÕʼL !!= @CODE@ kõʼl:kõl 73
-+A:	NMN_KÕʼL	;
+ NMN_KÕʼL	;
 
 LEXICON A_NIʼM !!= @CODE@ niʼm:nim 76
-+A:	NMN_NIʼM	;
+ NMN_NIʼM	;
 
 LEXICON A_KAND !!= @CODE@ kand: 94
-+A:	NMN_KAND	;
+ NMN_KAND	;
 
 LEXICON A_UL !!= @CODE@ ul: 99
-+A:	NMN_UL	;
+ NMN_UL	;
 
 LEXICON A_NIŖȚ !!= @CODE@ niŗț: 102
-+A:	NMN_NIŖȚ	;
+ NMN_NIŖȚ	;
 
 LEXICON A_DAŅTŠ !!= @CODE@ daņtš: 105
-+A:	NMN_DAŅTŠ	;
+ NMN_DAŅTŠ	;
 
 LEXICON A_TÄUŽ !!= @CODE@ täuž: adres 112
-+A:	NMN_TÄUŽ	;
+ NMN_TÄUŽ	;
 
 LEXICON A_SIELDÕ !!= @CODE@ sieldõ: 118
-+A:	NMN_SIELDÕ	;
+ NMN_SIELDÕ	;
 
 LEXICON A_NǬʼGÕ !!= @CODE@ nǭʼgõ:nǭgõ 119
-+A:	NMN_NǬʼGÕ	;
+ NMN_NǬʼGÕ	;
 
 LEXICON A_AŠŠÕ !!= @CODE@ : 120
-+A:	NMN_AŠŠÕ	;
+ NMN_AŠŠÕ	;
 
 LEXICON A_DRŪʼOŠÕ !!= @CODE@ drūʼošõ:drūošõ 121
-+A:	NMN_DRŪʼOŠÕ	;
+ NMN_DRŪʼOŠÕ	;
 
 LEXICON A_IRM !!= @CODE@ : 125
-+A:	NMN_IRM	;
+ NMN_IRM	;
 
 LEXICON A_KIM !!= @CODE@ : 126
-+A:	NMN_KIM	;
+ NMN_KIM	;
 
 LEXICON A_VAʼIT !!= @CODE@ vaʼit:vait 128
-+A:	NMN_VAʼIT	;
+ NMN_VAʼIT	;
 
 LEXICON A_AMĀT !!= @CODE@ : 129
-+A:	NMN_AMĀT	;
+ NMN_AMĀT	;
 
 LEXICON A_SAʼGDIT !!= @CODE@ saʼgdit:sagdit 131
-+A:	NMN_SAʼGDIT	;
+ NMN_SAʼGDIT	;
 
 LEXICON A_VIĻȚ !!= @CODE@ : 132
-+A:	NMN_VIĻȚ	;
+ NMN_VIĻȚ	;
 
 LEXICON A_EĻ !!= @CODE@ eļ: 133
-+A:	NMN_EĻ	;
+ NMN_EĻ	;
 
 LEXICON A_BLĒʼḐ !!= @CODE@ blēʼḑ:blēḑ 134
-+A:	NMN_BLĒʼḐ	;
+ NMN_BLĒʼḐ	;
 
 LEXICON A_FAKT !!= @CODE@ : 135
-+A:	NMN_FAKT	;
+ NMN_FAKT	;
 
 LEXICON A_SĪEND !!= @CODE@ sīend: 138
-+A:	NMN_SĪEND	;
+ NMN_SĪEND	;
 
 LEXICON A_LǞʼND !!= @CODE@ lǟʼnd:lǟnd 139
-+A:	NMN_LǞʼND	;
+ NMN_LǞʼND	;
 
 LEXICON A_ĀIGAST !!= @CODE@ āigast: 140
-+A:	NMN_ĀIGAST	;
+ NMN_ĀIGAST	;
 
 LEXICON A_ANALĪZ !!= @CODE@ analīz: 141
-+A:	NMN_ANALĪZ	;
+ NMN_ANALĪZ	;
 
 LEXICON A_NĪʼEM !!= @CODE@ nīʼem:nīem 142
-+A:	NMN_NĪʼEM	;
+ NMN_NĪʼEM	;
 
 LEXICON A_VIŠ !!= @CODE@ : 144
-+A:	NMN_VIŠ	;
+ NMN_VIŠ	;
 
 LEXICON A_SIDĀM !!= @CODE@ : 157
-+A:	NMN_SIDĀM	;
+ NMN_SIDĀM	;
 
 LEXICON A_TŪOITÕG !!= @CODE@ : 158
-+A:	NMN_TŪOITÕG	;
+ NMN_TŪOITÕG	;
 
 LEXICON A_KǬRAND !!= @CODE@ kǭrand: 159
 !! * Yaml: __armtõb__
-+A:	NMN_KǬRAND	;
+ NMN_KǬRAND	;
 
 LEXICON A_ȬʼDÕG !!= @CODE@ ȭʼdõg:ȭdõg 160
-+A:	NMN_ȬʼDÕG	;
+ NMN_ȬʼDÕG	;
 
 LEXICON A_TAPTÕD !!= @CODE@ taptõd: 161
-+A:	NMN_TAPTÕD	;
+ NMN_TAPTÕD	;
 
 LEXICON A_TĪʼEDÕD !!= @CODE@ tīʼedõd:tīedõd 162
-+A:	NMN_TĪʼEDÕD	;
+ NMN_TĪʼEDÕD	;
 
 LEXICON A_MĪEZ !!= @CODE@ : 166
-+A:	NMN_MĪEZ	;
+ NMN_MĪEZ	;
 
 LEXICON A_KÄBRĀZ !!= @CODE@ : 168
-+A:	NMN_KÄBRĀZ	;
+ NMN_KÄBRĀZ	;
 
 LEXICON A_MAIGĀZ !!= @CODE@ : 169
-+A:	NMN_MAIGĀZ	;
+ NMN_MAIGĀZ	;
 
 LEXICON A_NÕTKĀZ !!= @CODE@ : 170
-+A:	NMN_NÕTKĀZ	;
+ NMN_NÕTKĀZ	;
 
 LEXICON A_RIKĀZ !!= @CODE@ : 171
-+A:	NMN_RIKĀZ	;
+ NMN_RIKĀZ	;
 
 LEXICON A_ĀMBAZ !!= @CODE@ āmbaz:āmba 173
-+A:	NMN_ĀMBAZ	;
+ NMN_ĀMBAZ	;
 
 LEXICON A_PŪŖAZ !!= @CODE@ : 174
-+A:	NMN_PŪŖAZ	;
+ NMN_PŪŖAZ	;
 
 LEXICON A_PǬĻAZ !!= @CODE@ : 175
-+A:	NMN_PǬĻAZ	;
+ NMN_PǬĻAZ	;
 
 LEXICON A_MÕTKÕZ !!= @CODE@ mõtkõz: 179
-+A:	NMN_MÕTKÕZ	;
+ NMN_MÕTKÕZ	;
 
 LEXICON A_VȬRÕZ !!= @CODE@ vȭrõz: 180
-+A:	NMN_VȬRÕZ	;
+ NMN_VȬRÕZ	;
 
 LEXICON A_ARĀGÕZ !!= @CODE@ : 181
-+A:	NMN_ARĀGÕZ	;
+ NMN_ARĀGÕZ	;
 
 LEXICON A_ÄʼGGÕZ !!= @CODE@ ä'ggõz:äggõz 182
-+A:	NMN_ÄʼGGÕZ	;
+ NMN_ÄʼGGÕZ	;
 
 LEXICON A_PŪʼDÕZ !!= @CODE@ pūʼdõz:pūdõz 183
-+A:	NMN_PŪʼDÕZ	;
+ NMN_PŪʼDÕZ	;
 
 LEXICON A_SĒJI !!= @CODE@ : 186 āndaji:āndaji sēji:sēji
-+A:	NMN_SĒJI	;
+ NMN_SĒJI	;
 
 LEXICON A_AKKIJI !!= @CODE@ akkiji:akkiji 187
-+A:	NMN_AKKIJI	;
+ NMN_AKKIJI	;
 
 LEXICON A_LĒʼJI !!= @CODE@ lēʼji:lēʼji 188
-+A:	NMN_LĒʼJI	;
+ NMN_LĒʼJI	;
 
 LEXICON A_AʼIGI !!= @CODE@ aʼigi:aigi 192
-+A:	NMN_AʼIGI	;
+ NMN_AʼIGI	;
 
 LEXICON A_PUʼNNI !!= @CODE@ pu'nni:punni 193
-+A:	NMN_PUʼNNI	;
+ NMN_PUʼNNI	;
 
 LEXICON A_KAȚKI !!= @CODE@ : 194
-+A:	NMN_KAȚKI	;
+ NMN_KAȚKI	;
 
 LEXICON A_KUKKI !!= @CODE@ : 195
-+A:	NMN_KUKKI	;
+ NMN_KUKKI	;
 
 LEXICON A_AIGI !!= @CODE@ aigi:aigi 196
-+A:	NMN_AIGI	;
+ NMN_AIGI	;
 
 LEXICON A_OUKI !!= @CODE@ : 197
-+A:	NMN_OUKI	;
+ NMN_OUKI	;
 
 LEXICON A_PAŖĪ !!= @CODE@ : 198
-+A:	NMN_PAŖĪ	;
+ NMN_PAŖĪ	;
 
 LEXICON A_TŪĻI !!= @CODE@ : 199
-+A:	NMN_TŪĻI	;
+ NMN_TŪĻI	;
 
 LEXICON A_AʼBLI !!= @CODE@ aʼbli:abli 200
-+A:	NMN_AʼBLI	;
+ NMN_AʼBLI	;
 
 LEXICON A_SĒMI !!= @CODE@ : 201
-+A:	NMN_SĒMI	;
+ NMN_SĒMI	;
 
 LEXICON A_LĒʼMI !!= @CODE@ lē'mi:lēʼmi 202
-+A:	NMN_LĒʼMI	;
+ NMN_LĒʼMI	;
 
 LEXICON A_ALĪZ !!= @CODE@ : 203
-+A:	NMN_ALĪZ	;
+ NMN_ALĪZ	;
 
 LEXICON A_KĒRATÕKS !!= @CODE@ : 207
-+A:	NMN_KĒRATÕKS	;
+ NMN_KĒRATÕKS	;
 
 LEXICON A_VARĪKŠ !!= @CODE@ varīkš: 209
-+A:	NMN_VARĪKŠ	;
+ NMN_VARĪKŠ	;
 
 LEXICON A_ŪŽ !!= @CODE@ : 219 ūž:ūd
-+A:	NMN_ŪŽ	;
+ NMN_ŪŽ	;
 
 LEXICON A_JŪŖ !!= @CODE@ jūŗ:jūr 221
-+A:	NMN_JŪŖ	;
+ NMN_JŪŖ	;
 
 LEXICON A_SŪR !!= @CODE@ sūr:sūr 222
-+A:	NMN_SŪR	;
+ NMN_SŪR	;
 
 LEXICON A_SALĀJ !!= @CODE@ : 225
-+A:	NMN_SALĀJ	;
+ NMN_SALĀJ	;
 
 LEXICON A_UMĀRZ !!= @CODE@ umārz:umār 226
-+A:	NMN_UMĀRZ   ;
+ NMN_UMĀRZ   ;
 
 LEXICON A_DULLÕNZ !!= @CODE@ dullõnz:dullõn 227
-+A:	NMN_DULLÕNZ	;
+ NMN_DULLÕNZ	;
 
 LEXICON A_AŅGÕRZ !!= @CODE@ : aņgõrz:aņgõr 229
 	NMN_UMĀRZ	;
 
 LEXICON A_TIDĀR !!= @CODE@ tidār:tidār 233
-+A:	NMN_TIDĀR	;
+ NMN_TIDĀR	;
 
 LEXICON A_APPÕN !!= @CODE@ appõn:appõn 235
-+A:	NMN_APPÕN	;
+ NMN_APPÕN	;
 
 LEXICON A_ǬʼRÕN !!= @CODE@ ǭʼrõn:ǭrõn 236
-+A:	NMN_ǬʼRÕN	;
+ NMN_ǬʼRÕN	;
 
 LEXICON A_KĪNDÕR !!= @CODE@ kīndõr:kīndõr 237
-+A:	NMN_KĪNDÕR	;
+ NMN_KĪNDÕR	;
 
 LEXICON A_BÄʼZMÕR !!= @CODE@ bäʼzmõr:bäzmõr 238
-+A:	NMN_BÄʼZMÕR	;
+ NMN_BÄʼZMÕR	;
 
 LEXICON A_TARĪĻ !!= @CODE@ tarīļ:tarīļ 239
-+A:	NMN_TARĪĻ	;
+ NMN_TARĪĻ	;
 
 LEXICON A_ĀNKAŖ !!= @CODE@ ānkaŗ:ānkaŗ 240
-+A:	NMN_ĀNKAŖ	;
+ NMN_ĀNKAŖ	;
 
 LEXICON A_ǬʼBIĻ !!= @CODE@ ǭʼbiļ:ǭbiļ 242
-+A:	NMN_ǬʼBIĻ	;
+ NMN_ǬʼBIĻ	;
 
 
 
