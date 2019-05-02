@@ -155,6 +155,7 @@ Other verb forms are
 
 Abbreviated words are classified with:
  * __+ABBR__ containing period
+ * +Symbol = independent symbols in the text stream, like £, €, ©
  * __+ACR__ acronyms, not containing period
 
 Special symbols are classified with:
@@ -411,6 +412,7 @@ word classes
  * __Abbreviation	;	__
  * __Acronym		;	__
  * __Punctuation		;__
+ * __Symbols ; 	__
  * __EXCEPTIONS		;__
  * __A_NEWWORDS ;__ This is for feeding new adjectives
  * __ADV_NEWWORDS ;__ This is for feeding new adverbs
