@@ -450,6 +450,16 @@ Multichar_Symbols
  +Der/A	      !!≈ * __@CODE@__ for example present participle to adjective
  +Der/VN      !!≈ * __@CODE@__
 
+
+        !! !!Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ ; @CODE@ : Literal »
+ «7     !!≈ ; @CODE@ : Literal «
+        !! {{{
+ %[%>%] !!= @CODE@ - Literal >
+ %[%<%] !!= @CODE@ - Literal <
+        !! }}}
+
+
 !! !!!Morphophonology
 ! ---------------
 
