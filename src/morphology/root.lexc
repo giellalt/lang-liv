@@ -28,7 +28,7 @@ Multichar_Symbols
 
 !! (It is highly suggested to follow existing GIELLATEKNO standards when adding new tags).
 
-+TYÄ !!≈ * __@CODE@__ = This automatically encourages workers to want to correct something
+!+TYÄ !!≈ * __@CODE@__ = Is removed from code
 
 !! !!The parts-of-speech are:
  +A 	 !!≈ * __@CODE@__ = adjective
@@ -579,25 +579,25 @@ LEXICON Root
 !! These are but here for the time being
 
 LEXICON ADV_  !! adverb lexicon
-+Adv: #	;
+: #	;
 
 LEXICON ADV_KĒRATÕKS  !!≈ * @CODE@
-+Adv: # ;
+: # ;
 
 LEXICON ADV_KǬRAND  !!≈ * @CODE@
-+Adv: # ;
+: # ;
 
 LEXICON ADV_IRM  !!≈ * @CODE@
-+Adv: # ;
+: # ;
 
 LEXICON INTERJ_  !! Interjections lexicon
 +Interj: #	;
 
 LEXICON PCLE-MOD_  !! pcle-mod lexicon
-+Pcle: #      ;
+: #      ;
 
 LEXICON PCLE_  !! pcle-lexicon
-+Pcle: #      ;
+: #      ;
 
 LEXICON PREFIX_
 +CmpNP/Pref: adjectives ; !! This is used in compounding, e.g. äʼb-:äʼb

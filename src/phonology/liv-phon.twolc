@@ -21,6 +21,14 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  !!= * @CODE@
 ǭ:ō
 Ǭ:Ō
 
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+        !! {{{
+ %[%>%] !!= @CODE@ - Literal >
+ %[%<%] !!= @CODE@ - Literal <
+        !! }}}
+
 !  for consonant lengthening
 
 %{XC%}:p %{XC%}:t %{XC%}:k
