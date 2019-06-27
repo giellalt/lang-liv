@@ -300,6 +300,16 @@ source and target part-of-speech.
  * __+Der/A	__ for example present participle to adjective
  * __+Der/VN__
 
+
+!!Symbols that need to be escaped on the lower side (towards twolc):
+ ; »7 : Literal »
+ ; «7 : Literal «
+{{{
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+}}}
+
+
 !!!Morphophonology
 
 To represent phonologic variations in word forms we use the following
