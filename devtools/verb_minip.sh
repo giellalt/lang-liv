@@ -21,8 +21,8 @@ for lemma in $(cat $L_FILE);
 do
  for form in $(cat $P_FILE);
  do
-    echo "${lemma}${form}" | $LOOKUP $GTHOME/langs/liv/src/generator-gt-norm.xfst
-#    echo "${lemma}${form}" | $LOOKUP $GTHOME/langs/liv/src/generator-gt-desc.xfst
+    echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-liv/src/generator-gt-norm.xfst
+#    echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-liv/src/generator-gt-desc.xfst
  done
 done
 
