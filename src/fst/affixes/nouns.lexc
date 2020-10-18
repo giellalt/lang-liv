@@ -2480,17 +2480,22 @@ LEXICON NMN_VAʼG !!≈ * __@CODE@__ vaʼg:vag 72
 	NMN_VAʼG-PL ;
 LEXICON NMN_VAʼG-SG !!≈ * __@CODE@__ vaʼg:vag 72
 :%{XC%} SG-DAT_õn ;
-:%{XC%}        SG-ELA/INE_õst ;
+: SG-ELA/INE_stõ ;
++Err/Orth:%{XC%}        SG-ELA/INE_õst ; !2014
                 SG-GEN ;
 :%{XC%} SG-ILL_õ ;
 :%{XC%}        SG-INS_õks ;
                 SG-NOM  ;
 :%{XC%}        SG-PAR_õ ;
 LEXICON NMN_VAʼG-PL !!≈ * __@CODE@__ vaʼg:vag 72
-:ī      PL-INS_DÕKS-STEM ;
-        PL-ELA/INE_īst ;
-        PL-ILL_īz ;
-        PL-PAR_īdi ;
+:%^StodRMū      PL-INS_DÕKS-STEM ;
++Err/Orth:ī      PL-INS_DÕKS-STEM ; ! 2014
+        PL-ELA/INE_šti ;
++Err/Orth:        PL-ELA/INE_īst ;! 2014
+        PL-ILL_ži ;
++Err/Orth:        PL-ILL_īz ;! 2014
+	PL-PAR_ḑi ;
++Err/Orth:        PL-PAR_īdi ;!2014
 
 LEXICON NMN_KÕʼL !!≈ * __@CODE@__ kõʼl:kõl 73
 	NMN_KÕʼL-SG ;
@@ -4586,9 +4591,14 @@ LEXICON NMN_SĒJI-SG !!≈ * __@CODE@__ : 186
 :z    	 SG-PAR_t ;
 
 LEXICON NMN_SĒJI-PL !!≈ * __@CODE@__ : 186
-       PL-INS_DÕKS-STEM ;
-       PL-ELA/INE_sti ;
-       PL-ILL_ž ;
+       PL-INS_ZTÕKS-STEM ;
++Err/Orth:       PL-INS_DÕKS-STEM ;!2014
+       PL-ELA/INE_žist ;
++Err/Orth:       PL-ELA/INE_sti ;! 2014
+       PL-ILL_žiz ;
+       PL-ILL_ži ;
++Err/Orth:       PL-ILL_ž ;! 2014
+       PL-PAR_ži ;
        PL-PAR_di ;
 
 
@@ -5359,7 +5369,8 @@ LEXICON NMN_AʼBBÕNZ-SG !!≈ * __@CODE@__ aʼbbõnz:aʼbbõn 228
         SG-ILL_õ ;
         SG-INS_õks ;
 :z      SG-NOM  ;
-:z      SG-PAR_t ;
+:      SG-PAR_t ;
++Err/Orth:z      SG-PAR_t ;! 2014
 
 LEXICON NMN_AʼBBÕNZ-PL !!≈ * __@CODE@__ aʼbbõnz:aʼbbõn 228
         PL-INS_DÕKS-STEM ;
@@ -5596,6 +5607,12 @@ LEXICON PL-INS_ÕDÕKS-STEM
      PL-INS_õdõks      ;
      PL-NOM_õd         ;
 
+LEXICON PL-INS_ZTÕKS-STEM
+     PL-DAT_ztõn       ;
+     PL-GEN_zt         ;
+     PL-INS_ztõks      ;
+     PL-NOM_zt         ;
+
 LEXICON PL-INS_ZEROKÕKS-STEM
      PL-DAT_õn       ;
      PL-GEN_ZERO         ;
@@ -5679,11 +5696,12 @@ LEXICON SG-INE_õs
 
 LEXICON SG-ELA/INE_stõ
 	SG-ELA_stõ	;
-	SG-INE_s	; !! above as pair in SG-ELA/INE_st
+:       SG-INE_sõ        ; 
++Err/Orth:	SG-INE_s	; !! above as pair in SG-ELA/INE_st; 2014 jaska
 LEXICON SG-ELA_stõ
 +Sg+Ela:%>stõ K ;
-!LEXICON SG-INE_s
-!+Sg+Ine:%>s K ;
+LEXICON SG-INE_sõ
++Sg+Ine:%>sõ K ;
 
 LEXICON SG-GEN
 +Sg+Gen: K ;
@@ -5752,6 +5770,9 @@ LEXICON PL-DAT_õn !!≈ * __@CODE@__ This is peculiar to NMN_PŪOL-PL 216,219
 LEXICON PL-DAT_õdõn
 +Pl+Dat:%>õdõn K ;
 
+LEXICON PL-DAT_ztõn
++Pl+Dat:%>ztõn K ;
+
 !
 LEXICON PL-ELA/INE_st
 	PL-ELA_st	;
@@ -5791,11 +5812,16 @@ LEXICON PL-ELA/INE_sti
 
 LEXICON PL-ELA/INE_šti
 	PL-ELA_šti	;
-	PL-INE_š	; ! Is this correct?
+	PL-INE_ši	; ! VAʼG
+!	PL-INE_š	; ! Is this correct?
 
 LEXICON PL-ELA/INE_št
 	PL-ELA_št	;
 	PL-INE_š	;
+
+LEXICON PL-ELA/INE_žist
+	PL-ELA_žist	;
+	PL-INE_žis	;
 
 
 LEXICON PL-ELA_st
@@ -5809,6 +5835,9 @@ LEXICON PL-ELA_Ist
 
 LEXICON PL-ELA_ist
 +Pl+Ela:%>ist K ;
+
+LEXICON PL-ELA_žist
++Pl+Ela:%>žist K ;
 
 LEXICON PL-ELA_īst
 +Pl+Ela:%>īst K ;
@@ -5840,6 +5869,9 @@ LEXICON PL-GEN_d
 LEXICON PL-GEN_õd
 +Pl+Gen:%>õd K ;
 
+LEXICON PL-GEN_zt
++Pl+Gen:%>zt K ;
+
 
 LEXICON PL-ILL_z
 +Pl+Ill:%>z K ;
@@ -5858,6 +5890,9 @@ LEXICON PL-ILL_ʼži
 LEXICON PL-ILL_ži
 +Pl+Ill:%>ži K ;
 
+LEXICON PL-ILL_žiz
++Pl+Ill:%>žiz K ;
+
 LEXICON PL-ILL_Iž
 +Pl+Ill:%^Vow2Iin2%>ž K ;
 LEXICON PL-ILL_iž
@@ -5870,6 +5905,9 @@ LEXICON PL-INE_Iš
 
 LEXICON PL-INE_iš
 +Pl+Ine:%>iš K ;
+
+LEXICON PL-INE_žis
++Pl+Ine:%>žis K ;
 
 LEXICON PL-INE_īš
 +Pl+Ine:%>īš K ;
@@ -5892,6 +5930,9 @@ LEXICON PL-INE_īs
 LEXICON PL-INE_si
 +Pl+Ine:%>si K ;
 
+LEXICON PL-INE_ši
++Pl+Ine:%>ši K ;
+
 LEXICON PL-INE_š
 +Pl+Ine:%>š K ;
 
@@ -5904,6 +5945,9 @@ LEXICON PL-INS_õdõks
 LEXICON PL-INS_dkõks
 +Pl+Ins:%>dkõks K ;
 
+LEXICON PL-INS_ztõks
++Pl+Ins:%>ztõks K ;
+
 LEXICON PL-INS_kõks !!≈ * __@CODE@__ This is peculiar to NMN_PŪOL-PL  216
 +Pl+Ins:%>kõks K ;
 
@@ -5914,6 +5958,10 @@ LEXICON PL-NOM_d
 +Pl+Nom:%>d K ;
 LEXICON PL-NOM_õd
 +Pl+Nom:%>õd K ;
+LEXICON PL-NOM_ūd
++Pl+Nom:%>ūd K ;
+LEXICON PL-NOM_zt
++Pl+Nom:%>zt K ;
 !LEXICON PL-NOM_t
 !+Pl+Nom:%>t K ;
 LEXICON PL-NOM_ZERO
@@ -5939,6 +5987,9 @@ LEXICON PL-PAR_idi
 
 LEXICON PL-PAR_īdi
 +Pl+Par:%>īdi K ;
+
+LEXICON PL-PAR_ži
++Pl+Par:%>ži K ;
 
 LEXICON PL-PAR_ḑi
 +Pl+Par:%>ḑi K ;
