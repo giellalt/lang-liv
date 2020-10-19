@@ -34,9 +34,9 @@ LEXICON TV_VĪDÕ
 !! 3 vīdõ:vī
 +TV: V-01_VĪDÕ ;
 
-LEXICON IV_NǞʼDÕ
+!LEXICON IV_NǞʼDÕ
 !! 4 nǟʼdõ:nǟʼ
-+IV: V-01_NǞʼDÕ ;
+!+IV: V-01_NǞʼDÕ ;
 
 LEXICON TV_NǞʼDÕ
 !! 4 nǟʼdõ:nǟʼ
@@ -76,9 +76,9 @@ LEXICON V-AUX_SǬDÕ
 !! 8 sǭdõ:s
 +Aux: V-01_SǬDÕ ;
 
-LEXICON IV_JŪODÕ
+!LEXICON IV_JŪODÕ
 !! 9 jūodõ:jūo
-+IV: V-01_JŪODÕ ;
+!+IV: V-01_JŪODÕ ;
 
 LEXICON TV_JŪODÕ
 !! 9 jūodõ:jūo
@@ -180,17 +180,17 @@ LEXICON TV_TÄUTÕ
 !! 21 täutõ:tǟta
 +TV: V-01_MÄNGÕ ;
 
-LEXICON IV_PȮĻTÕ
+!LEXICON IV_PȮĻTÕ
 !! 22 pȯļtõ:pūoļta
-+IV: V-01_MÄNGÕ ;
+!+IV: V-01_MÄNGÕ ;
 
 LEXICON TV_PȮĻTÕ
 !! 22 pȯļtõ:pūoļta
 +TV: V-01_MÄNGÕ ;
 
-LEXICON IV_MȮISTÕ
+!LEXICON IV_MȮISTÕ
 !! 23 mȯistõ:mūošta
-+IV: V-01_MÄNGÕ ;
+!+IV: V-01_MÄNGÕ ;
 
 LEXICON TV_MȮISTÕ
 !! 23 mȯistõ:mūošta
@@ -417,9 +417,9 @@ LEXICON TV_ÄʼBȚÕ
 !! äʼbțõ:äʼbț 54
 +TV: V-01_KŪLÕ ;
 
-LEXICON V_KŪLDÕ
+!LEXICON V_KŪLDÕ
 !! kūldõ:kūld 55
- V-01_KŪLÕ ;
+! V-01_KŪLÕ ;
 
 LEXICON V-AUX_KŪLDÕ
 !! kūldõ:kūld 55
@@ -449,9 +449,9 @@ LEXICON TV_ĪʼEDÕ
 !! īʼedõ:īed 57
 +TV: V-01_KŪLÕ ;
 
-LEXICON V_UMBLÕ
+!LEXICON V_UMBLÕ
 !! umblõ:umblõ 58
- V-01_UMBLÕ ;
+! V-01_UMBLÕ ;
 
 LEXICON IV_UMBLÕ
 !! umblõ: 58
@@ -489,17 +489,17 @@ LEXICON TV_NAʼGRÕ
 !! naʼgrõ: 60
 +TV: V-01_UMBLÕ ;
 
-LEXICON V-AUX_ALĀ
+!LEXICON V-AUX_ALĀ
 !! 62 alā:alā
-+Aux: K ;
+!+Aux: K ;
 
 LEXICON V-AUX_ÄʼB
 !! 62 äʼb:ä
 +Neg: K ;
 
-LEXICON V-AUX_IʼZ
+!LEXICON V-AUX_IʼZ
 !! 62 iʼz:ä
-+Neg: K ;
+!+Neg: K ;
 
 LEXICON TV_SÄ
 !! 63 sä:sä
@@ -882,18 +882,18 @@ LEXICON V-01_UMBLÕ
 
 
 
-LEXICON VTag
-	Persons	;
+!LEXICON VTag
+!	Persons	;
 
-LEXICON Persons
-+1sg:en   #   ;
-+2sg:et   #   ;
-+3sg:e    #   ;
-+1pl:ien  #   ;
-+2pl:iet  #   ;
-+3pl:iet  #   ;
-+inf:0    #   ;
-!#:0   Nouns   ;
+!LEXICON Persons
+!+1sg:en   #   ;
+!+2sg:et   #   ;
+!+3sg:e    #   ;
+!+1pl:ien  #   ;
+!+2pl:iet  #   ;
+!+3pl:iet  #   ;
+!+inf:0    #   ;
+!!#:0   Nouns   ;
 
 !! Nonfinites
 LEXICON GER_s
@@ -977,12 +977,12 @@ LEXICON PSSPRFPRCSG
 
 !! Finites
 
-LEXICON INDPRS
+!LEXICON INDPRS
 !! Indicative present
-  INDPRSSG1-STEM	;
-  INDPRSPL1	;
-  INDPRSPL2	;
-  INDPRSPL3	;
+!  INDPRSSG1-STEM	;
+!  INDPRSPL1	;
+!  INDPRSPL2	;
+!  INDPRSPL3	;
 
 LEXICON INDPRS_tõ
 !! Indicative present

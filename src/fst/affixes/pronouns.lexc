@@ -6,9 +6,9 @@
 LEXICON PRON_
 +Pron:	#	;
 
-LEXICON PronCases
-+Pron:   CASES  ;
-!        -    Nouns  ;
+!LEXICON PronCases
+!+Pron:   CASES  ;
+!!        -    Nouns  ;
 
 LEXICON PRON_MIS !!= @CODE@ mis:mi 1
 +Pron+Interr:ss SG-DAT_õn ;
