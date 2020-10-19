@@ -3,11 +3,11 @@
 !! The UNDEFINED language adjectives compare.
 
 ! aigiz 188
-LEXICON Po-aigiz
-	PoTag	;
+!LEXICON Po-aigiz
+!	PoTag	;
 
-LEXICON PoTag
-+Po:0        CASES   ;
+!LEXICON PoTag
+!+Po:0        CASES   ;
 
 LEXICON POSTP_
 +Adp+Po: # ;

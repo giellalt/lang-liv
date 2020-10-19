@@ -3,12 +3,12 @@
 !! Livonian quantifiers inflect in the same cases as other
 !! nominals.
 
-LEXICON QntTag
-	QntCases	;
+!LEXICON QntTag
+!	QntCases	;
 
-LEXICON QntCases
-+Qnt:   CASES  ;
-!        -    Nouns  ;
+!LEXICON QntCases
+!+Qnt:   CASES  ;
+!!        -    Nouns  ;
 
 LEXICON QNT_APPÕN !!= @CODE@ : 216
 +Qnt:     NMN_APPÕN   ;
@@ -27,14 +27,14 @@ LEXICON NUM_OKŠ !!= @CODE@ : 68
 +Num:	CASES	;
 
 
-LEXICON NUM_VAʼG !!= @CODE@ vaʼg:vag 72
-+Num:	NMN_VAʼG	;
+!LEXICON NUM_VAʼG !!= @CODE@ vaʼg:vag 72
+!+Num:	NMN_VAʼG	;
 
-LEXICON NUM_KUʼŽ !!= @CODE@ kuʼž:kuž 89
-+Num:	NMN_KUʼŽ	;
+!LEXICON NUM_KUʼŽ !!= @CODE@ kuʼž:kuž 89
+!+Num:	NMN_KUʼŽ	;
 
-LEXICON NUM_RUZŪ !!= @CODE@ : 90
-+Num:	CASES	;
+!LEXICON NUM_RUZŪ !!= @CODE@ : 90
+!+Num:	CASES	;
 
 !!= @CODE@ : 118
 LEXICON NUM_SIELDÕ
@@ -56,24 +56,24 @@ LEXICON NUM_FAKT !!= @CODE@ fakt: 135
 LEXICON NUM_ĀIGAST !!= @CODE@ āigast: 140
 +Num:	CASES	;
 
-LEXICON NUM_VĪDÕZ !!= @CODE@ vīdõz: 163
-+Num:	CASES	;
+!LEXICON NUM_VĪDÕZ !!= @CODE@ vīdõz: 163
+!+Num:	CASES	;
 
-LEXICON NUM_TUOISTÕNZ !!= @CODE@ : 164
-+Num:	CASES	;
+!LEXICON NUM_TUOISTÕNZ !!= @CODE@ : 164
+!+Num:	CASES	;
 
-LEXICON NUM_ĪʼDÕKSMÕZ !!= @CODE@ ī'dõksmõz:īdõksmõz 165
-+Num:	NMN_ĪʼDÕKSMÕZ	;
+!LEXICON NUM_ĪʼDÕKSMÕZ !!= @CODE@ ī'dõksmõz:īdõksmõz 165
+!+Num:	NMN_ĪʼDÕKSMÕZ	;
 
 
 LEXICON NUM_NAI !!= @CODE@ nai: 191
 +Num:	CASES	;
 
-LEXICON NUM_TŪĻI !!= @CODE@ tūļi: 199
-+Num:	CASES	;
+!LEXICON NUM_TŪĻI !!= @CODE@ tūļi: 199
+!+Num:	CASES	;
 
-LEXICON NUM_SĒMI !!= @CODE@ sēmi: 201
-+Num:	CASES	;
+!LEXICON NUM_SĒMI !!= @CODE@ sēmi: 201
+!+Num:	CASES	;
 
 
 LEXICON NUM_ÄʼBȚÕKS !!= @CODE@ ä'bțõks:äbțõks 208
@@ -82,8 +82,8 @@ LEXICON NUM_ÄʼBȚÕKS !!= @CODE@ ä'bțõks:äbțõks 208
 LEXICON NUM_TŪĻ !!= @CODE@ : 214
 +Num:	NMN_TŪĻ	;
 
-LEXICON NUM_PŪOL !!= @CODE@ : 216
-+Num:	NMN_PŪOL	;
+!LEXICON NUM_PŪOL !!= @CODE@ : 216
+!+Num:	NMN_PŪOL	;
 
 LEXICON NUM_ĪKŠ !!= @CODE@ : 217
 +Num:	NMN_ĪKŠ	;
