@@ -51,8 +51,8 @@ LEXICON PROP_LĒBA !!= @CODE@ lēba:lēba 21
 LEXICON PROP_PŪOGA !!= @CODE@ pūoga:pūoga 22
  NMN_PŪOGA 	;
 
-LEXICON PROP_LǬJA !!= @CODE@ lǭja:lǭja 23
- NMN_LǬJA 	;
+!LEXICON PROP_LǬJA !!= @CODE@ lǭja:lǭja 23
+! NMN_LǬJA 	;
 
 LEXICON PROP_PǞVA !!= @CODE@ pǟva:pǟva 24
  NMN_PǞVA ;
@@ -69,8 +69,8 @@ LEXICON PROP_ĀĻDŽA !!= @CODE@ āļdža:āļdža 27
 LEXICON PROP_SUKĀ !!= @CODE@ sukā:sukā 28
  NMN_SUKĀ ;
 
-LEXICON PROP_LIEPĀ !!= @CODE@ liepā:liepā 29
- NMN_LIEPĀ ;
+!LEXICON PROP_LIEPĀ !!= @CODE@ liepā:liepā 29
+! NMN_LIEPĀ ;
 
 LEXICON PROP_OKSĀ !!= @CODE@ oksā:oksā 30
  NMN_OKSĀ ;
@@ -78,20 +78,20 @@ LEXICON PROP_OKSĀ !!= @CODE@ oksā:oksā 30
 LEXICON PROP_VȰNTSA !!= @CODE@ vȱntsa:vȱntsa 31
  NMN_VȰNTSA ;
 
-LEXICON PROP_LIESTĀ !!= @CODE@ liestā:liestā 32
- NMN_LIESTĀ ;
+!LEXICON PROP_LIESTĀ !!= @CODE@ liestā:liestā 32
+! NMN_LIESTĀ ;
 
 LEXICON PROP_ĀIGA !!= @CODE@ āiga:āiga 33
  NMN_ĀIGA ;
 
-LEXICON PROP_LĀNGA !!= @CODE@ lānga:lānga 33
- NMN_LĀNGA ;
+!LEXICON PROP_LĀNGA !!= @CODE@ lānga:lānga 33
+! NMN_LĀNGA ;
 
 LEXICON PROP_SĪLMA !!= @CODE@ sīlma:sīlma 34
  NMN_SĪLMA ;
 
-LEXICON PROP_KǞNGA !!= @CODE@ kǟnga:kǟnga 35
- NMN_KǞNGA ;
+!LEXICON PROP_KǞNGA !!= @CODE@ kǟnga:kǟnga 35
+! NMN_KǞNGA ;
 
 LEXICON PROP_ĀINA !!= @CODE@ āina:āina 36
  NMN_ĀINA ;
@@ -150,17 +150,17 @@ LEXICON PROP_TŠŪRTŠA !!= @CODE@ tšūrtša:tšūrtša 52
 LEXICON PROP_SĒMḐA !!= @CODE@ sēmḑa:sēmḑa 53
  NMN_SĒMḐA ;
 
-LEXICON PROP_TĪERA !!= @CODE@ tīera:tīera 54
- NMN_TĪERA ;
+!LEXICON PROP_TĪERA !!= @CODE@ tīera:tīera 54
+! NMN_TĪERA ;
 
 LEXICON PROP_KRǬIPA !!= @CODE@ krǭipa:krǭipa 55
  NMN_KRǬIPA ;
 
-LEXICON PROP_LILLA !!= @CODE@ kuțā:kuțā 57
- NMN_LILLA ;
+!LEXICON PROP_LILLA !!= @CODE@ kuțā:kuțā 57
+! NMN_LILLA ;
 
-LEXICON PROP_KUȚĀ
- NMN_KUȚĀ ;
+!LEXICON PROP_KUȚĀ
+! NMN_KUȚĀ ;
 
 LEXICON PROP_NĒTŠA !!= @CODE@ nētša:nētša 58
  NMN_NĒTŠA ;
@@ -355,8 +355,8 @@ LEXICON PROP_SIELDÕ
 LEXICON PROP_NǬʼGÕ !!= @CODE@ nǭʼgõ:nǭgõ 119
  NMN_NǬʼGÕ ;
 
-LEXICON PROP_AŠŠÕ !!= @CODE@ : 120
- NMN_AŠŠÕ ;
+!LEXICON PROP_AŠŠÕ !!= @CODE@ : 120
+! NMN_AŠŠÕ ;
 !!= @CODE@ drūʼošõ:drūošõ 121
 LEXICON PROP_DRŪʼOŠÕ
  NMN_DRŪʼOŠÕ ;
@@ -420,8 +420,8 @@ LEXICON PROP_NEITST
 LEXICON PROP_SĪEND
  NMN_SĪEND ;
 !!= @CODE@ lǟʼnd:lǟnd 139
-LEXICON PROP_LǞʼND
- NMN_LǞʼND ;
+!LEXICON PROP_LǞʼND
+! NMN_LǞʼND ;
 
 LEXICON PROP_ĀIGAST !!= @CODE@ : 140
  NMN_ĀIGAST ;
@@ -445,29 +445,29 @@ LEXICON PROP_RŪʼTŠ !!= @CODE@ rūʼtš:rūʼtš 145
  NMN_RŪʼTŠ	;
 
 !!= @CODE@ tēʼḑ:tēḑ 146
-LEXICON PROP_TĒʼḐ
- NMN_TĒʼḐ ;
+!LEXICON PROP_TĒʼḐ
+! NMN_TĒʼḐ ;
 !!= @CODE@ lēʼḑ:lēḑ 147
-LEXICON PROP_LĒʼḐ
- NMN_LĒʼḐ ;
+!LEXICON PROP_LĒʼḐ
+! NMN_LĒʼḐ ;
 !!= @CODE@ : 148
-LEXICON PROP_KĪNTŠ
- NMN_KĪNTŠ ;
+!LEXICON PROP_KĪNTŠ
+! NMN_KĪNTŠ ;
 !!= @CODE@ : 149
-LEXICON PROP_KǬŅTŠ
- NMN_KǬŅTŠ ;
+!LEXICON PROP_KǬŅTŠ
+! NMN_KǬŅTŠ ;
 !!= @CODE@ : 150
-LEXICON PROP_LĒŅTŠ
- NMN_LĒŅTŠ ;
+!LEXICON PROP_LĒŅTŠ
+! NMN_LĒŅTŠ ;
 !!= @CODE@ : 151
-LEXICON PROP_LĪEM
- NMN_LĪEM ;
+!LEXICON PROP_LĪEM
+! NMN_LĪEM ;
 !!= @CODE@ aʼm:am 152
-LEXICON PROP_AʼM
- NMN_AʼM ;
+!LEXICON PROP_AʼM
+! NMN_AʼM ;
 
-LEXICON PROP_AZŪM !!= @CODE@ : 153
- NMN_AZŪM ;
+!LEXICON PROP_AZŪM !!= @CODE@ : 153
+! NMN_AZŪM ;
 
 LEXICON PROP_VÕȚĪM !!= @CODE@ : 154
  NMN_VÕȚĪM ;
@@ -557,8 +557,8 @@ LEXICON PROP_MÕTKÕZ
 LEXICON PROP_VȬRÕZ
  NMN_VȬRÕZ ;
 
-LEXICON PROP_ARĀGÕZ !!= @CODE@ : 181
- NMN_ARĀGÕZ ;
+!LEXICON PROP_ARĀGÕZ !!= @CODE@ : 181
+! NMN_ARĀGÕZ ;
 
 LEXICON PROP_ÄʼGGÕZ !!= @CODE@ äʼggõz:äggõz 182
  NMN_ÄʼGGÕZ ;
@@ -591,8 +591,8 @@ LEXICON PROP_VĪETŠÕZ !!= @CODE@ : 184
 LEXICON PROP_NAI
  NMN_NAI ;
 
-LEXICON PROP_AʼIGI !!= @CODE@ aʼigi:aigi 192
- NMN_AʼIGI ;
+!LEXICON PROP_AʼIGI !!= @CODE@ aʼigi:aigi 192
+! NMN_AʼIGI ;
 
 
 
@@ -628,8 +628,8 @@ LEXICON PROP_SĒMI
 LEXICON PROP_LĒʼMI
  NMN_LĒʼMI ;
 
-LEXICON PROP_ALĪZ !!= @CODE@ : 203
- NMN_ALĪZ ;
+!LEXICON PROP_ALĪZ !!= @CODE@ : 203
+! NMN_ALĪZ ;
 
 LEXICON PROP_NȬŖKÕZ !!= @CODE@ : 204
  NMN_NȬŖKÕZ ;
@@ -653,14 +653,13 @@ LEXICON PROP_ĀNDÕKS !!= @CODE@ : 206
 !LEXICON PROP_UKŠ
 ! NMN_UKŠ ;
 !!= @CODE@ : 211
-LEXICON PROP_LÄPŠ
- NMN_LÄPŠ ;
+!LEXICON PROP_LÄPŠ
+! NMN_LÄPŠ ;
 
-LEXICON PROP_TUʼĻ !!= @CODE@ : 213
- NMN_TUʼĻ ;
-
-LEXICON PROP_TŪĻ !!= @CODE@ : 214
- NMN_TŪĻ ;
+!LEXICON PROP_TUʼĻ !!= @CODE@ : 213
+! NMN_TUʼĻ ;
+!LEXICON PROP_TŪĻ !!= @CODE@ : 214
+! NMN_TŪĻ ;
 
 !LEXICON PROP_KĒĻ !!= @CODE@ : 215
 ! NMN_KĒĻ ;
@@ -704,11 +703,11 @@ LEXICON PROP_UMĀRZ !!= @CODE@ umārz:umār 226
 LEXICON PROP_DULLÕNZ !!= @CODE@ dullõnz:dullõn 227
  NMN_UMĀRZ	;
 
-LEXICON PROP_AʼBBÕNZ !!= @CODE@ aʼbbõnz:aʼbbõn 228
- NMN_UMĀRZ	;
+!LEXICON PROP_AʼBBÕNZ !!= @CODE@ aʼbbõnz:aʼbbõn 228
+! NMN_UMĀRZ	;
 
-LEXICON PROP_AŅGÕRZ !!= @CODE@ : aņgõrz:aņgõr 229
- NMN_UMĀRZ	;
+!LEXICON PROP_AŅGÕRZ !!= @CODE@ : aņgõrz:aņgõr 229
+! NMN_UMĀRZ	;
 
 LEXICON PROP_KAʼGGÕRZ !!= @CODE@ kaʼggõrz:kaʼggõr 230
  NMN_UMĀRZ	;

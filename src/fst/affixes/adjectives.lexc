@@ -15,8 +15,8 @@ LEXICON A_
 LEXICON A_PŪ !!= @CODE@ contains pū: 12
  NMN_PŪ	;
 
-LEXICON A_TĪE !!= @CODE@ contains tīe:tīe 15
- NMN_TĪE	;
+!LEXICON A_TĪE !!= @CODE@ contains tīe:tīe 15
+! NMN_TĪE	;
 	
 LEXICON A_BRĪ !!= @CODE@ contains brī:brī 16
  NMN_BRĪ	;
@@ -30,8 +30,8 @@ LEXICON A_TUBĀ !!= @CODE@ tubā:tuʼbā 19
 LEXICON A_AIGĀ !!= @CODE@ aigā:aigā 20
  NMN_AIGĀ	;
 
-LEXICON A_LĒBA !!= @CODE@ lēba:lēba 21
- NMN_LĒBA	;
+!LEXICON A_LĒBA !!= @CODE@ lēba:lēba 21
+! NMN_LĒBA	;
 
 LEXICON A_KŪJA !!= @CODE@ kūja:??lēba 21
  NMN_KŪJA	;
@@ -84,8 +84,8 @@ LEXICON A_TĪERA !!= @CODE@ tīera:tīera 54
 LEXICON A_LILLA !!= @CODE@ kuțā:kuțā 57
  NMN_LILLA	;
 
-LEXICON A_KUȚĀ
- NMN_KUȚĀ	;
+!LEXICON A_KUȚĀ
+! NMN_KUȚĀ	;
 
 LEXICON A_KIʼV !!= @CODE@ kiʼv:kiv 59
  NMN_KIʼV	;
@@ -199,8 +199,8 @@ LEXICON A_TAPTÕD !!= @CODE@ taptõd: 161
 LEXICON A_TĪʼEDÕD !!= @CODE@ tīʼedõd:tīedõd 162
  NMN_TĪʼEDÕD	;
 
-LEXICON A_MĪEZ !!= @CODE@ : 166
- NMN_MĪEZ	;
+!LEXICON A_MĪEZ !!= @CODE@ : 166
+! NMN_MĪEZ	;
 
 LEXICON A_KÄBRĀZ !!= @CODE@ : 168
  NMN_KÄBRĀZ	;
@@ -298,11 +298,11 @@ LEXICON A_JŪŖ !!= @CODE@ jūŗ:jūr 221
 LEXICON A_SŪR !!= @CODE@ sūr:sūr 222
  NMN_SŪR	;
 
-LEXICON A_SALĀJ !!= @CODE@ : 225
- NMN_SALĀJ	;
+!LEXICON A_SALĀJ !!= @CODE@ : 225
+! NMN_SALĀJ	;
 
-LEXICON A_UMĀRZ !!= @CODE@ umārz:umār 226
- NMN_UMĀRZ   ;
+!LEXICON A_UMĀRZ !!= @CODE@ umārz:umār 226
+! NMN_UMĀRZ   ;
 
 LEXICON A_DULLÕNZ !!= @CODE@ dullõnz:dullõn 227
  NMN_DULLÕNZ	;
