@@ -30,7 +30,7 @@
  *  %^Tense:0  = Tense stem will have stød if proper stem type
  *  %^D2T:0    d:t veʼž:veʼd:vietā
  *  %^PreI:0   i:0 veʼž:veʼd:vietā
- *  %^Ē2ĪE:0   kēļ kīel
+ *  %^ĪE2Ē:0   kēļ kīel
 
  * K1:k        this k is not effected by gradation
  * %^NoGrad:0   This will be placed after a stem to break Gradation
@@ -240,19 +240,16 @@ __pūog%^VowsSh1%^PalatalizeLeft%>õ examples:__
 
 __pȯig0000õ examples:__
 
-raise vowels
-__ē:ī in kēļ 215__  
-
-__kē0l%^Ē2ĪE examples:__
-
-__kīel0 examples:__
-
 LOWER VOWELS
 __ī:ē in tīe 15__
 
 __tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:__
 
 __tē000000šti examples:__
+
+__kīel%^ĪE2Ē%^PalatalizeLeft examples:__
+
+__kē0ļ00 examples:__
 
 Destressing in second syllable
 __ā:õ __  
@@ -326,10 +323,12 @@ __kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:__
 __keņg0000i examples:__
 
 __e:0__
+* __tīʼe%^LowerVows%^StodRM%^VowsRM%>šti __
+* __tē000000šti __
+kēļ+N+Sg+Nom
+* __kīel%^ĪE2Ē%^PalatalizeLeft __
+* __kē0l00 __
 
-__tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:__
-
-__tē000000šti examples:__
 
 __õ:0__  
 
@@ -379,11 +378,6 @@ __pȯ0llõ00 examples:__
 
 !Zero to vowel
 
-__0:e in vowel raising kēļ__  
-
-__kē0l%^Ē2ĪE examples:__
-
-__kīel0 examples:__
 
 __0:õ in vowel metathesis__  
 
@@ -446,8 +440,9 @@ __Stod removal left__
 __daʼdzā%^Stress1to2%^VowsRM%>õ examples:__
 
 __daʼdz0000õ examples:__
-
-__Stod removal right__  
+aʼb#sõʼnā+N+Sg+Nom: 
+* __aʼb#sõʼn%^StodRMā __
+* __aʼb#sõ0n0ā __
 
 
 __ka0l0ā%^Stress2to1 examples:__
@@ -465,6 +460,9 @@ __alīž00i examples:__
 __izā%^PalatalizeLeft%^VowsRM%>ḑi examples:__
 
 __iž0000ḑi examples:__
+
+__d:ḑ__  
+lēʼḑ:līʼed 147
 
 __l:ļ__  
 This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.

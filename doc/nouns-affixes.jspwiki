@@ -431,7 +431,7 @@ __jõugõ:jõugõ__
  * __LEXICON N_TUOISTÕNZ__ : 164
 
 
- * __LEXICON N_MĪEZ__ : 166
+ * __LEXICON N_MĪEZ__ mīez:m 166
 
  * __LEXICON N_ROʼVZ__ : 167 roʼvz:roʼv
  * __LEXICON N_ROʼVZ-SG__ : 167 roʼvz:roʼv
@@ -758,7 +758,7 @@ Stød: None
 
 
 
- * __LEXICON NMN_IZĀ__ izā:iʼzzā
+ * __LEXICON NMN_IZĀ__ izā:iʼz
 25
 Stem change: yes
  Vowel loss ā:0
@@ -873,7 +873,7 @@ Stem change: Yes (Vowel)
 
 
 39, 40, 41, 42
- * __LEXICON NMN_PADĀ__ padā:paʼddā
+ * __LEXICON NMN_PADĀ__ padā:paʼd
 Stem change: Yes
 Stød: Yes
 
@@ -1082,7 +1082,7 @@ Stød: None
 
 
  * __LEXICON NMN_MIEʼR__ mieʼr:mier 82
- * __LEXICON NMN_MIEʼR-SG__ mieʼr:mier 82
+ * __LEXICON NMN_MIEʼR-SG__ mieʼr:mieʼr 82
 
  * __LEXICON NMN_MIEʼR-PL__ mieʼr:mier 82
 
@@ -1421,9 +1421,44 @@ belongs elsewhere __N-kalendaar__ kalendār+N+Sg+Ela => kalendārst
  * __LEXICON NMN_TĒʼḐ-SG__ tēʼḑ:tēḑ 146
  * __LEXICON NMN_TĒʼḐ-PL__ tēʼḑ:tēḑ 146
 
- * __LEXICON NMN_LĒʼḐ__ lēʼḑ:lēḑ 147
- * __LEXICON NMN_LĒʼḐ-SG__ lēʼḑ:lēḑ 147
- * __LEXICON NMN_LĒʼḐ-PL__ lēʼḑ:lēḑ 147
+ * __LEXICON NMN_LĒʼḐ__ lēʼḑ:līʼed 147
+ * __LEXICON NMN_LĒʼḐ-SG__ lēʼḑ:līʼed 147
+ * __LEXICON NMN_LĒʼḐ-PL__ lēʼḑ:līʼed 147
+
+__āigalē’ḑ # examples:__
+
+__āigalē’ḑ+N+Sg+Nom examples:__
+
+__āigalē’ḑ+N+Sg+Gen examples:__
+
+__āigalē’ḑ+N+Sg+Dat examples:__
+
+__āigalē’ḑ+N+Sg+Par examples:__
+
+__āigalē’ḑ+N+Sg+Ins examples:__
+
+__āigalē’ḑ+N+Sg+Ill examples:__
+
+__āigalē’ḑ+N+Sg+Ine examples:__
+
+__āigalē’ḑ+N+Sg+Ela examples:__
+
+__āigalē’ḑ+N+Pl+Nom examples:__
+
+__āigalē’ḑ+N+Pl+Gen examples:__
+
+__āigalē’ḑ+N+Pl+Dat examples:__
+
+__āigalē’ḑ+N+Pl+Par examples:__
+
+__āigalē’ḑ+N+Pl+Ins examples:__
+
+__āigalē’ḑ+N+Pl+Ill examples:__
+
+__āigalē’ḑ+N+Pl+Ine examples:__
+
+__āigalē’ḑ+N+Pl+Ela examples:__
+
 
  * __LEXICON NMN_KĪNTŠ__ : 148
  * __LEXICON NMN_KĪNTŠ-SG__ : 148
@@ -1524,11 +1559,11 @@ __72__
 
 
  * __LEXICON NMN_MĪEZ__ : 166
- * __LEXICON NMN_MĪEZ-SG__ : 166
+ * __LEXICON NMN_MĪEZ-SG__ mīez:m 166
 
  * __LEXICON NMN_MĪEZ-PL__ : 166
- * __:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_šti ;__ 
- * __:%^StodRM%^VowsRM%^ConsRM PL-PAR_ḑi ;__ 
+ * __:ēʼ PL-ELA/INE_šti ;__ 
+ * __:ēʼ PL-PAR_ḑi ;__ 
 
 
  * __LEXICON NMN_ROʼVZ-SG__ : 167
@@ -1804,7 +1839,7 @@ Stem change: None
 
 212
 * Yaml: __N-rishtiing__
- * __LEXICON NMN_ROʼVZT-PL__ roʼvzt:roʼvz 212
+ * __LEXICON NMN_ROʼVZT-PL__ roʼvzt:roʼvzt 212
 
  * __LEXICON NMN_TUʼĻ__ : 213 tuʼļ:tuʼl
 * Yaml: __N-tuqlj__
@@ -1812,9 +1847,9 @@ Stem change: None
  * __LEXICON NMN_TUʼĻ-PL__ : 213
 
  * __LEXICON NMN_TŪĻ__ tūļ:tūl 214
- * __LEXICON NMN_KĒĻ__ kēļ:kēl 215
+ * __LEXICON NMN_KĒĻ__ kēļ:kīel 215
 
- * __LEXICON NMN_KĒĻ-PL__ kēļ:kēl 215
+ * __LEXICON NMN_KĒĻ-PL__ kēļ:kīel 215
 
  * __LEXICON NMN_PŪOL__ : 216
  * __LEXICON NMN_PŪOL-SG__ : 216
@@ -1958,6 +1993,7 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
 
 
+
 SG-DAT	;
 SG-ELA	;
 SG-ILL	;
@@ -1990,7 +2026,10 @@ above as pair in SG-ELA/INE_st; 2014 jaska
 
 
 
+
  * __LEXICON PL-DAT_õn__ This is peculiar to NMN_PŪOL-PL 216,219
+
+
 
 
 

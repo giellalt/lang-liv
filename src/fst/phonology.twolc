@@ -44,7 +44,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  !!= * @CODE@
  %^Tense:0 !!= * @CODE@ = Tense stem will have stød if proper stem type
  %^D2T:0   !!= * @CODE@ d:t veʼž:veʼd:vietā
  %^PreI:0  !!= * @CODE@ i:0 veʼž:veʼd:vietā
- %^Ē2ĪE:0  !!= * @CODE@ kēļ kīel
+ %^ĪE2Ē:0  !!= * @CODE@ kēļ kīel
 
 K1:k       !!= * @CODE@ this k is not effected by gradation
 %^NoGrad:0 !!= * @CODE@  This will be placed after a stem to break Gradation
@@ -125,7 +125,7 @@ Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž B C Č 
 
 Letters = Vow Cns ;
 
-Dummy = %^ConsSh %^LowerVows %^PalatalizeLeft %^StodRM %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM %^PenVV2V ;
+Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ;
 
 !Definitions
 !
@@ -228,7 +228,7 @@ a:i <=>  _ ( %^ConsSh: |%^VowsSh1: %^PalatalizeLeft: ) %^Vow2Iin2: ;
 
 "e:ē in first syllable"
 !! __@RULENAME@__  
-e:ē <=> # Cns* _  ( i: ) :Cns+ Vow: %^VowsLI1:0 ;
+e:ē <=> # Cns* _  ( i: ) :Cns+ (Vow:) %^VowsLI1:0 ;
 !!€# leiba%^VowsLI1%>st
 !!€0 lē0ba00st
         # Cns* _   i: %^VowsLI1:0 ;
@@ -244,7 +244,7 @@ u:ū <=> # Cns* _  ( i: | ʼ: | :ʼ ) :Cns+ (Vow:) %^VowsLI1:0 ;
 
 "õ:ȭ in first syllable"
 !! __@RULENAME@__  
-õ:ȭ <=> # Cns* _  ( u: ) :Cns+ Vow: %^VowsLI1:0 ;
+õ:ȭ <=> # Cns* _  ( u: ) :Cns+ (Vow:) %^VowsLI1:0 ;
 
 "ȯ:ū in first syllable"
 !! __@RULENAME@__  
@@ -279,7 +279,7 @@ a:ǭ <=> _ :Cns+ %^VowsL1aToǭ:0 ;
 
 "a:ā in first syllable"
 !! __@RULENAME@__  
-a:ā <=> _ [i g | :Cns+ | i z ] (Vow:) %^VowsLI1:0 ;
+a:ā <=> _ [i [d|g |k|l| m |n|s| z] | :Cns+ ] (Vow:) %^VowsLI1:0 ;
 !!€# kand%^VowsLI1õd
 !!€0 kāndõd
 
@@ -288,6 +288,7 @@ a:ā <=> _ [i g | :Cns+ | i z ] (Vow:) %^VowsLI1:0 ;
 i:ī <=> Cns _ Cns:+  (Vow:) %^VowsLI1:0 ;
 !!€# niŗț%^VowsLI1%>õ
 !!€0 nīŗț00õ
+   _ e (ʼ:) Cns: %^VowsLI1:0 ;
 
 "o:ō in first syllable"
 !! __@RULENAME@__  
@@ -301,20 +302,16 @@ o:ō <=> _ [i g | (u:) :Cns+] (Vow:) %^VowsLI1:0 ;
 !!€# pūog%^VowsSh1%^PalatalizeLeft%>õ
 !!€0 pȯig0000õ
 
-!! raise vowels
-"ē:ī in kēļ 215"
-!! __@RULENAME@__  
-ē:ī <=> # Cns* _ ( :e ) Cns %^Ē2ĪE: ;
-! requires 0:e
-!!€# kē0l%^Ē2ĪE
-!!€0 kīel0
-
 !! LOWER VOWELS
 "ī:ē in tīe 15"
 !! __@RULENAME@__
 ī:ē <=> _ (ʼ:) Vow:  %^LowerVows: ;
 !!€# tīʼe%^LowerVows%^StodRM%^VowsRM%>šti
 !!€0 tē000000šti
+ # Cns* _ (ʼ:) ( e: ) Cns: %^ĪE2Ē: ;
+! requires 0:e
+!!€0 kīel%^ĪE2Ē%^PalatalizeLeft
+!!€# kē0ļ00
 
 !! Destressing in second syllable
 "ā:õ "
@@ -400,8 +397,13 @@ a:0 <=>   _ Dummy:* %^VowsRM: ;
 "e:0"
 !! __@RULENAME@__
  e:0 <=> _ Dummy:* %^VowsRM: ;
-!!€# tīʼe%^LowerVows%^StodRM%^VowsRM%>šti
-!!€0 tē000000šti
+!!€ tīʼe%^LowerVows%^StodRM%^VowsRM%>šti
+!!€ tē000000šti
+      _ Cns: %^ĪE2Ē: ;
+!! kēļ+N+Sg+Nom
+!!€ kīel%^ĪE2Ē%^PalatalizeLeft
+!!€ kē0l00
+
 
 "õ:0"
 !! __@RULENAME@__  
@@ -449,11 +451,6 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 
 !! !Zero to vowel
 
-"0:e in vowel raising kēļ"
-!! __@RULENAME@__  
-0:e <=> Cns* ē: _ Cns %^Ē2ĪE: ;
-!!€# kē0l%^Ē2ĪE
-!!€0 kīel0
 
 "0:õ in vowel metathesis"
 !! __@RULENAME@__  
@@ -543,14 +540,17 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 
 "Stod removal left"
 !! __@RULENAME@__  
- ʼ:0 <= _ \[ .#. ]* %^StodRM:0 ;
+ ʼ:0 <=> Vow: _ \[ .#. | # ]* %^StodRM:0 ;
+ ! comment: 2020-10-21: without surrounding full stops, # is the character used in the stem
 !  # Cns* :0* Vow _ [ CnsWithStod Cns:* [ :0* | Vow: z: ]| [ i | u ] g (Vow: Cns:) | o Cns ] ( Vow: | ū: Cns: ) %^StodRM:0 ; 
 !!€# daʼdzā%^Stress1to2%^VowsRM%>õ
 !!€0 daʼdz0000õ
-
-"Stod removal right"
-!! __@RULENAME@__  
- ʼ:0 =>  _ \[ .#. ]* %^StodRM:0 ;
+!! aʼb#sõʼnā+N+Sg+Nom: 
+!!€ aʼb#sõʼn%^StodRMā
+!!€ aʼb#sõ0n0ā
+!"Stod removal right"
+!!! __@RULENAME@__  
+! ʼ:0 =>  Vow: _ \[ .#. ]* %^StodRM:0 ;
 !# Cns* :0* Vow _ [ CnsWithStod Cns:* :0* | [ i | u ] g (Vow: Cns:) | o Cns ] (Vow: | ū: Cns: ) %^StodRM:0 ; 
 ! 2013-06-26 for looser voikko stød can disappear everywhere 
 ! _ ; a filter does this removal 2015-06-17
@@ -567,18 +567,23 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 
 "z:ž"
 !! __@RULENAME@__
- z:ž <=> _ (Vow:0) %^PalatalizeLeft:0 ; !! 
+ z:ž <=> _ (Vow:0|t) %^PalatalizeLeft:0 ; !! 
 !!€# alīz%^PalatalizeLeft%>i
 !!€0 alīž00i
 !!€# izā%^PalatalizeLeft%^VowsRM%>ḑi
 !!€# iž0000ḑi
+
+"d:ḑ"
+!! __@RULENAME@__  
+d:ḑ <=>
+      Vow: _ (%^ĪE2Ē:) (%^StodRM:) %^PalatalizeLeft:0 ; !! lēʼḑ:līʼed 147
 
 "l:ļ"
 !! __@RULENAME@__  
 l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vow: (%^Stress1to2:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
-	_ (%^StodRM:) %^PalatalizeLeft:0 ; !! kēļ:kēl 215
+	_ (%^ĪE2Ē:) (%^StodRM:) %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !!€# äʼddõl%^PalatalizeLeft%>i
 !!€0 äʼddiļ00i
 !!€# tuʼl%^StodRM%^PalatalizeLeft%>īž
@@ -697,3 +702,4 @@ a:ä <=> # Cns*  _ ( 0: | ʼ: ) [p:|m:]+ [%^PalatalizeLeft:0 | Vow: %^Palatalize
 !!€# aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi
 !!€# äʼm00000ḑi
 
+!echo 'a ʼ b # s õ ʼ:0 n ^StodRM:0 ā' | hfst-pair-test src/fst/phonology.compose.hfst
