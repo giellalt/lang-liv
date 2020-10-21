@@ -3454,8 +3454,7 @@ LEXICON NMN_KǬJ !!≈ * __@CODE@__ : 123
 	NMN_KǬJ-PL	;
 LEXICON NMN_KǬJ-SG !!≈ * __@CODE@__ : 123
         SG-DAT_õn ;
-!        SG-ELA/INE_stõ ; KǬJ
-        SG-ELA/INE_st ;
+        SG-ELA/INE_stõ ; !KǬJ
         SG-GEN ;
         SG-ILL_õ ;
         SG-INS_õks ;
@@ -3704,19 +3703,19 @@ LEXICON NMN_TAS !!≈ * __@CODE@__ : 136
 	NMN_TAS-SG	;
 	NMN_TAS-PL	;
 LEXICON NMN_TAS-SG !!≈ * __@CODE@__ : 136
-        SG-DAT_õn ;
-        SG-ELA/INE_õst ;
+:%{XC%}        SG-DAT_õn ;
+:%{XC%}        SG-ELA/INE_õst ;
         SG-GEN ;
-        SG-ILL_õ ;
-        SG-INS_õks ;
+:%{XC%}        SG-ILL_õ ;
+:%{XC%}        SG-INS_õks ;
         SG-NOM  ;
-        SG-PAR_õ ;
+:%{XC%}        SG-PAR_õ ;
 
 LEXICON NMN_TAS-PL !!≈ * __@CODE@__ : 136
-        PL-INS_ÕDÕKS-STEM ;
-	PL-ELA/INE_ist ;
-        PL-ILL_iž ;
-        PL-PAR_idi ;
+:%{XC%}        PL-INS_ÕDÕKS-STEM ;
+:%{XC%}	PL-ELA/INE_ist ;
+:%{XC%}        PL-ILL_iž ;
+:%{XC%}        PL-PAR_idi ;
 
 LEXICON NMN_NEITST !!≈ * __@CODE@__ neitst:neits 137
 	NMN_NEITST-SG	;
