@@ -798,11 +798,18 @@ LEXICON V-01_KŪLÕ
  INF_ZERO         ;
  SUP-STEM_m       ;
 : INDPRSSG1-STEM    ;
-:%^ConsSh       INDCONNEGSG    ;
+:%^ConsSh%^VowsRM       INDCONNEGSG    ;
+!:%^ConsSh       INDCONNEGSG    ;
 !! Prt
 :%^VowsRM%>i INDPRT_z    ;
 !! +Act+PrfPrc
 +Act+PrfPrc:n    NMN_KŪOLÕN      ;
+!! Cond
+ COND ;
+:%^ConsSh%^VowsRM IMPRTSG2/IMPRTCONNEGSG2 ;
+ IMPRT-ELSE ;
+ JUS_g ;
+:%^VowsRM QUO_iji ; 
 
 !!
 LEXICON V-01_AʼILÕ
