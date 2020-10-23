@@ -21,17 +21,9 @@ generator-speller-gt-norm.hfst: analyser-speller-gt-norm.tmp.hfst \
 		 save stack $@\n\
 		 quit\n" | $(HFST_XFST) $(VERBOSITY)
 
-analyser-speller-gt-norm.xfst: analyser-speller-gt-norm.tmp.xfst \
-				$(top_builddir)/src/filters/remove-modifier-letter-apostrophe.xfst   \
-				$(top_builddir)/src/filters/remove-letter-o-with-ogonek-and-macron.xfst            
-	$(AM_V_XFST)$(PRINTF) "read regex                                        \
-			@\"$<\"                                                          \
-		.o. @\"$(top_builddir)/src/filters/remove-letter-o-with-ogonek-and-macron.xfst\" \
-		.o. @\"$(top_builddir)/src/filters/remove-modifier-letter-apostrophe.xfst\"   \
-			;\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST) $(VERBOSITY)
-
+		;\n\
+		save stack $@\n\
+		quit\n" | $(XFST_TOOL)
 
 
 # END: Local processing
