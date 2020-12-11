@@ -28,6 +28,7 @@ do
   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-liv/src/generator-gt-desc.xfst
   # echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-liv/src/generator-gt-norm.xfst
  done
+ rm -f $L_FILE
 done
 
 
