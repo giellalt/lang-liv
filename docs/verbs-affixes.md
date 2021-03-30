@@ -1,0 +1,507 @@
+Verb inflection
+The LIVONIAN language verbs inflect in persons.
+
+CONJUGATION TYPE MISSING
+
+CONJUGATION TYPE MISSING
+
+1 lǟʼdõ:lǟʼ
+
+1 lǟʼdõ:lǟʼ
+
+2 tǭʼdõ:tǭʼ
+
+3 vīdõ:vī
+
+3 vīdõ:vī
+
+3 vīdõ:vī
+
+4 nǟʼdõ:nǟʼ
+
+4 nǟʼdõ:nǟʼ
+* Yaml: **naeaeqdw**
+
+5 kǟʼdõ:kǟʼ
+
+6 tīʼedõ:tīʼe
+
+
+7 sīedõ:sīe
+
+7 sīedõ:sīe
+
+7 sīedõ:sīe
+
+8 sǭdõ:s
+
+8 sǭdõ:s
+
+8 sǭdõ:s
+
+9 jūodõ:jūo
+
+9 jūodõ:jūo
+
+10 vȱlda:
+
+10 vȱlda:
+
+11 tūlda:
+
+12 pānda:
+
+12 pānda:
+
+12 pānda:
+
+13 jeʼllõ:jeʼlā
+
+13 jeʼllõ:jeʼllõ
+
+18 astõ:astõ
+
+18 astõ:astõ
+
+19 võttõ:võttõ
+
+24 vieʼddõ:vieʼddõ
+
+24 vieʼddõ:vieʼddõ
+
+25 maksõ:maksõ
+
+25 maksõ:maksõ
+
+26 tappõ:tappõ
+
+14 mängõ:mǟnga
+
+15 killõ:kīla
+
+16 pallõ:pǭla
+
+17 loulõ:lōla
+
+20 laittõ:lāita
+
+20 laittõ:lāita
+
+21 täutõ:tǟta
+
+21 täutõ:tǟta
+
+22 pȯļtõ:pūoļta
+
+22 pȯļtõ:pūoļta
+
+23 mȯistõ:mūošta
+
+23 mȯistõ:mūošta
+
+27 andõ:ānda
+
+27 andõ:ānda
+
+28 tieudõ:tīeda
+
+28 tieudõ:tīeda
+
+29-48 follow same pattern
+luʼggõ:luʼggõ 29
+
+luʼggõ:lugū 29
+
+muʼdžõ:mudžū 30
+
+muʼdžõ:mudžū 30
+
+vakțõ:vakțū 31
+
+vakțõ:vakțū 31
+
+kittõ:kitū 32
+
+kittõ:kitū 32
+
+riʼddõ:ridū 33
+
+riʼddõ:ridū 33
+
+riʼddõ:ridū 33
+
+kutsõ:kutsū 34
+
+kutsõ:kutsū 34
+
+laskõ:laskū 35
+
+laskõ:laskū 35
+
+laskõ:laskū 35
+
+akkõ:akū 36
+Should ss be s and šš be š? 2013-02-19
+
+akkõ:akū 36
+
+
+aigõ:āigõ 37
+
+aigõ:āigõ 37
+
+aigõ:āigõ 37
+
+kuoŗŗõ:kūoŗõ 38
+
+vannõ:vǭnõ 39
+
+
+pȯļļõ:pūoļõ 40
+
+
+pȯimõ:pūoimõ 41
+
+pȯimõ:pūoimõ 41
+
+ouŗõ:ōŗõ 42
+
+keijõ:kējõ 43
+
+keijõ:kējõ 43
+
+
+aŗštõ:āŗštõ 44
+
+aŗštõ:āŗštõ 44
+
+pȯrtõ:pūortõ 45
+
+outõ:ōtõ 46
+
+tundõ:tūndõ 47
+
+tundõ:tūndõ 47
+
+tundõ:tūndõ 47
+
+oudõ:ōdõ 48
+
+
+kūlõ:kūlõ 49
+
+kūlõ:kūlõ 49
+
+arrõ:arrõ 50
+
+arrõ:arrõ 50
+
+aʼilõ:aʼilõ 51
+
+aʼilõ:aʼilõ 51
+
+svaʼrrõ:svaʼrrõ 52
+
+kītõ:kīt 53
+
+kītõ:kīt 53
+~701
+
+kītõ:kīt 53
+
+
+äʼbțõ:äʼbț 54
+
+äʼbțõ:äʼbț 54
+
+kūldõ:kūld 55
+
+kūldõ:kūld 55
+
+kūldõ:kūld 55
+
+kūldõ:kūld 55
+
+kīskõ:kīsk 56
+
+īʼedõ:īed 57
+
+īʼedõ:īed 57
+
+īʼedõ:īed 57
+
+umblõ:umblõ 58
+
+umblõ: 58
+
+umblõ: 58
+
+mõtlõ: 59
+
+mõtlõ: 59
+
+mõtlõ: 59
+
+mǟʼdlõ: 60
+
+mǟʼdlõ: 60
+
+naʼgrõ: 60
+
+naʼgrõ: 60
+
+62 alā:alā
+
+62 äʼb:ä
+
+62 iʼz:ä
+
+63 sä:sä
+
+64 piḑīks:piḑī
+
+## After transitive, intransitive, auxiliary and such tags have been added
+1
+
+2
+
+3
+This is mutual for 3: 
+vīdõ:vī
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+
+ LEXICON V-01_NǞʼDÕ  4
+This is mutual for ??: 
+4 nǟʼdõ:nǟʼ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+ LEXICON V-01_SĪEDÕ  : 7 sīedõ:sīe
+* Yaml: **siiedw**
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+8
+sǭdõ:s
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+9
+9
+jūodõ:vī
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+10
+
+13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
+
+Cond
+Imprt
+Jus
+Qvo
+
+participles
+
+
+14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+
+
+29
+ LEXICON	V-01_LUʼGGÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+
+This is mutual for 37-48
+
+Prt
+
+participles
+
+
+Prt
++Act+PrfPrc
+Cond
+
+Ger, Ger_Ine
+
+ * __INF_ZERO	 ;__ aʼilõ
+Inf
+
+ * __SUP-STEM_m	 ;__ aʼilõ-
+Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
+Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
+Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
+
+ * **: INDPRSSG1-STEM ;	** aʼilõ-
+Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
+
+ * **:%^VowsRM	INDCONNEGSG ;** aʼil-
+Ind+ConNeg+Sg
+
+ * __:%^VowsRM%>i INDPRT_z ;__ aʼili-
+Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
+
+ * **COND		;** aʼilõ-
+Cond...
+Imprt+Sg2, Imprt+ConNeg+Sg2
+
+Imprt+Pl1, Imprt+Pl2, Imprt+ConNeg
+
+Jus+Sg3, Jus+Pl3
+
+Quo+Sg3, Quo+Pl3, Der/VN -mi
+
+ * __ACTPRFPRC_n ;__ aʼilõ%>n
++Act+PrfPrc
+
+ * **:%^VowsRM PSSPRSPRC ;	** aʼil-
+ * **:%^VowsRM PSSPRFPRCSG ;** aʼil-
+
+
+58, 
+This is mutual for 58-61: 
+umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+
+
+
+
+
+Nonfinites
+
+
+
+
+
+
+
+
+
+
+
+Are the singular and plural homonyms?
+
+
+
+
+2014-08-21
+
+Finites
+
+Indicative present
+
+Indicative present
+
+Indicative preterite in i
+
+Indicative preterite in z
+
+Indicative preterite in ž
+
+
+
+Conditional present
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conditional
+
+
+
+
+
+
+Imperative
+
+
+
+
+
+
+
+Jussative
+
+
+Quotative
+
+
+
+
+

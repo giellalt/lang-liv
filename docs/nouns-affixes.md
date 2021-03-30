@@ -1,0 +1,2104 @@
+Livonian noun inflection
+
+
+## PROBLEMS with dictionary lexica
+
+ * **LEXICON N**_ 
+ * __LEXICON N_¤29__ 
+
+Stem lexica
+ * __LEXICON N_PŪ__ contains pū: 12
+~156
+
+ * __LEXICON N_PŪ-PL__ contains pū: 12
+
+ * __LEXICON N_RǬʼ__ contains rǭʼ:rǭʼ 13
+
+ * __LEXICON N_PǞ__ contains pǟ:pǟ 14
+
+ * __LEXICON N_TĪE__ contains tīe:tīe 15
+
+ * __LEXICON N_TĪE-PL__ contains tīe:tīe 15
+
+ * __LEXICON N_BRĪ__ contains brī:brī 16
+
+ * __LEXICON N_TEI__ contains tei:tei 17
+
+ * __LEXICON N_KUŖĒ__ contains  kuŗē:kuʼŗŗē 18
+
+
+
+
+ * __LEXICON N_KALĀ__ contains  kalā:kaʼlā 18
+
+ * __LEXICON N_KALĀ-SG__ contains  kalā:kaʼlā 18
+
+ * __LEXICON N_KALĀ-PL__ contains  kalā:kaʼlā 18
+
+ * __LEXICON N_TUBĀ__ tubā:tuʼbā 19
+
+ * __LEXICON N_TUBĀ-SG__ tubā:tuʼbā 19
+
+ * __LEXICON N_TUBĀ-PL__ tubā:tuʼbā 19
+
+ * __LEXICON N_AIGĀ__ aigā:aigā 20
+
+ * __LEXICON N_LĒBA__ lēba:leiba 21
+
+ * __LEXICON N_KŪJA__ kūja:lēba 21
+
+ * __LEXICON N_PŪOGA__ pūoga:pūoga 22
+
+ * __LEXICON N_LǬJA__ lǭja:lǭja 23
+
+ * __LEXICON N_LǬJA-SG__ lǭja:lǭja 23
+
+ * __LEXICON N_LǬJA-PL__ lǭja:lǭja 23
+
+ * __LEXICON N_PǞVA__ pǟva:pǟva 24
+
+ * __LEXICON N_PǞVA-PL__ pǟva:pǟva 24
+
+ * __LEXICON N_IZĀ__ izā:izā 25
+
+ * __LEXICON N_PIEZĀ__ piezā:pieʼzzā 25
+
+ * __LEXICON N_AŽĀ__ ažā:aʼžā 26
+
+ * __LEXICON N_AŽĀ-SG__ ažā:aʼžā 26
+ * __LEXICON N_AŽĀ-PL__ ažā:aʼžā 26
+
+ * __LEXICON N_ĀĻDŽA__ āļdža:āļdža 27
+
+ * __LEXICON N_ĀĻDŽA-SG__ āļdža:āļdža 27
+
+ * __LEXICON N_ĀĻDŽA-PL__ āļdža:āļdža 27
+
+ * __LEXICON N_SUKĀ__ sukā:sukā 28
+
+ * __LEXICON N_LIEPĀ__ liepā:liepā 29
+
+ * __LEXICON N_OKSĀ__ oksā:oksā 30
+
+ * __LEXICON N_VȰNTSA__ vȱntsa:vȱntsa 31
+
+ * __LEXICON N_LIESTĀ__ liestā:liestā 32
+
+ * __LEXICON N_ĀIGA__ āiga:āiga 33
+
+ * __LEXICON N_LĀNGA__ lānga:lānga 33
+
+ * __LEXICON N_SĪLMA__ sīlma:sīlma 34
+
+
+ * __LEXICON N_SĪLMA-PL__ sīlma:sīlma 34
+
+ * __LEXICON N_KǞNGA__ kǟnga:kǟnga 35
+
+ * __LEXICON N_ĀINA__ āina:āina 36
+
+ * __LEXICON N_ĀINA-SG__ āina:āina 36
+
+ * __LEXICON N_ĀINA-PL__ āina:āina 36
+
+ * __LEXICON N_VĒNA__ vēna:vēna 37
+
+ * __LEXICON N_RŌDA__ rōda:rōda 38
+
+ * __LEXICON N_RŌDA-PL__ rōda:rōda 38
+
+ * __LEXICON N_PADĀ__ padā:padā 39
+
+ * __LEXICON N_PADĀ-SG__ padā:padā 39
+
+ * __LEXICON N_PADĀ-PL__ padā:padā 39
+
+ * __LEXICON N_SÕBRĀ__ sõbrā:sõbrā 40
+
+ * __LEXICON N_SÕBRĀ-SG__ sõbrā:sõbrā 40
+
+ * __LEXICON N_SÕBRĀ-PL__ sõbrā:sõbrā 40
+
+ * __LEXICON N_KÄPĀ__ käpā:käpā 41
+
+ * __LEXICON N_KÄPĀ-SG__ käpā:käpā 41
+
+ * __LEXICON N_KÄPĀ-PL__ käpā:käpā 41
+
+ * __LEXICON N_MAKSĀ__ maksā:maksā 42
+
+ * __LEXICON N_KĒRA__ kēra:kēra 43
+
+ * __LEXICON N_JǬRA__ jǭra:jǭra 44
+
+ * __LEXICON N_PŪOLA__ pūola:pūola 45
+
+ * __LEXICON N_ĀITA__ āita:āita 46
+
+ * __LEXICON N_ĀITA-PL__ āita:āita 46
+
+ * __LEXICON N_ŪŠKA__ ūška:ūška 47
+
+ * __LEXICON N_MȬKA__ mȭka:mȭka 48
+
+ * __LEXICON N_DADŽĀ__ dadžā:daʼdžā 49
+ * __LEXICON N_DADŽĀ-SG__ dadžā:daʼdžā 49
+ * __LEXICON N_DADŽĀ-PL__ dadžā:daʼdžā 49
+
+ * __LEXICON N_SUŠĀ__ sušā:sušā 50
+
+ * __LEXICON N_KUPŠĀ__ kupšā:kupšā 51
+
+ * __LEXICON N_TŠŪRTŠA__ tšūrtša:tšūrtša 52
+
+ * __LEXICON N_SĒMḐA__ sēmḑa:sēmḑa 53
+
+
+ * __LEXICON N_KRǬIPA__ krǭipa:krǭipa 55
+
+ * __LEXICON N_LILLA__ kuțā:kuțā 57
+
+ * __LEXICON N_KUȚĀ__ kuțā:kuțā 57
+
+ * __LEXICON N_NĒTŠA__ nētša:nētša 58
+
+ * __LEXICON N_KIʼV__ kiʼv:kiv 59
+
+ * __LEXICON N_KUOʼIG__ kuoʼig:kuoʼig 60
+
+ * __LEXICON N_KEP__ kep:kep aʼb 61
+ * __LEXICON N_KEP-SG__ kep:kep aʼb 61
+ * __LEXICON N_KEP-PL__ kep:kep aʼb 61
+
+ * __LEXICON N_KRUȚK__ : 62
+
+ * __LEXICON N_KRÄMP__ : 63
+
+ * __LEXICON N_PIʼŅ__ piʼņ:piņ 64
+ * __LEXICON N_PIʼŅ-SG__ piʼņ:piņ 64
+ * __LEXICON N_PIʼŅ-PL__ piʼņ:piņ 64
+
+ * __LEXICON N_KUOȚ__ : 65
+ * __LEXICON N_KUOȚ-PL__ : 65
+
+ * __LEXICON N_VAKȚ__ : 66
+
+ * __LEXICON N_REŅ__ : 67
+
+ * __LEXICON N_OKŠ__ : 68
+
+ * __LEXICON N_KAŠ__ : 69
+
+ * __LEXICON N_DUŅTŠ__ : 70
+
+ * __LEXICON N_TORĪ__ : 71
+
+ * __LEXICON N_VAʼG__ vaʼg:vag 72
+ * __LEXICON N_VAʼG-PL__ vaʼg:vag 72
+
+ * __LEXICON N_KÕʼL__ kõʼl:kõl 73
+
+ * __LEXICON N_SUʼG__ suʼg:sug 74
+
+ * __LEXICON N_JOʼUG__ joʼug:joug 75
+
+ * __LEXICON N_NIʼM__ niʼm:nim 76
+ * __LEXICON N_NIʼM-PL__ niʼm:nim 76
+
+ * __LEXICON N_USK__ usk: 77
+
+ * __LEXICON N_VAŠK__ : 78
+
+ * __LEXICON N_TUP__ tup:tup 79
+ * __LEXICON N_TUP-SG__ tup:tup 79
+ * __LEXICON N_TUP-PL__ tup:tup 79
+
+ * __LEXICON N_MAKS__ : 80
+ * __LEXICON N_MAKS-PL__ : 80
+
+ * __LEXICON N_LUʼM__ luʼm:lum 81
+
+ * __LEXICON N_MIEʼR__ mieʼr:mier 82
+
+ * __LEXICON N_MEʼR__ meʼr:mer 83
+
+ * __LEXICON N_MUʼR__ muʼr:mur 84
+
+ * __LEXICON N_KUOʼD__ kuoʼd:kuod aig 85
+
+ * __LEXICON N_SUʼŽ__ suʼž:suž 86
+
+ * __LEXICON N_KEʼŽ__ keʼž:kež aim 87
+
+ * __LEXICON N_VEʼŽ__ veʼž:veʼž 88
+
+ * __LEXICON N_KUʼŽ__ kuʼž:kuž 89
+
+ * __LEXICON N_RUZŪ__ : 90
+
+ * __LEXICON N_RADIO__ : 91
+
+ * __LEXICON N_ANG__ : 92
+
+ * __LEXICON N_KOUV__ : 93
+
+ * __LEXICON N_KAND__ : 94
+kand:kand
+ * __LEXICON N_KAND-SG__ : 94
+ * __LEXICON N_KAND-PL__ : 94
+
+ * __LEXICON N_PȮRT__ : 95
+
+ * __LEXICON N_NUŖM__ : 96
+
+ * __LEXICON N_LAINT__ : 97
+
+ * __LEXICON N_LOUL__ : 98
+
+ * __LEXICON N_UL__ : 99 ul:ul
+
+ * __LEXICON N_PAN__ : 100
+
+ * __LEXICON N_TÄM__ täm:tam 101 
+
+
+
+ * __LEXICON N_NIŖȚ__ : 102
+
+ * __LEXICON N_KUĻ__ : 103
+
+ * __LEXICON N_PAŅ__ : 104
+
+ * __LEXICON N_DAŅTŠ__ : 105
+
+ * __LEXICON N_KOUŠ__ : 106
+
+ * __LEXICON N_SPLEIŠ__ : 107
+
+ * __LEXICON N_VEIS__ : 108
+
+ * __LEXICON N_PȮIS__ : 109 pȯis:pȯis
+
+ * __LEXICON N_KIĻG__ : 110
+
+ * __LEXICON N_VȮĻG__ : 111
+
+ * __LEXICON N_TÄUŽ__ täuž:täud adres 112
+N_SgGen/d-Nom/ž-Par//ta
+**täuž:täud**
+ * __LEXICON N_TÄUŽ-SG__ : 116
+ * __LEXICON N_TÄUŽ-PL__ : 116
+
+
+ * __LEXICON N_VAŖŽ__ : 113
+
+ * __LEXICON N_PIERZ__ : 114
+
+ * __LEXICON N_VÕRGÕ__ : 115
+
+ * __LEXICON N_JÕUGÕ__ : 116
+N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
+**jõugõ:jõugõ**
+ * __LEXICON N_JÕUGÕ-SG__ : 116
+ * __LEXICON N_JÕUGÕ-PL__ : 116
+
+ * __LEXICON N_VȬIDAG__ : 117
+
+ * __LEXICON N_SIELDÕ__ : 118
+ * __LEXICON N_SIELDÕ-PL__ : 118
+
+ * __LEXICON N_NǬʼGÕ__ nǭʼgõ:nǭgõ 119
+ * __LEXICON N_NǬʼGÕ-PL	__ nǭʼgõ:nǭgõ 119
+
+ * __LEXICON N_AŠŠÕ-PL__ : 120
+
+
+ * __LEXICON N_SOʼV__ : 122
+ * __LEXICON N_SOʼV-PL__ : 122
+
+ * __LEXICON N_KǬJ__ : 123
+ * __LEXICON N_KǬJ-PL__ : 123
+
+ * __LEXICON N_ǬʼJ__ ǭʼj:ǭj 124
+
+ * __LEXICON N_IRM__ : 125
+ * __LEXICON N_IRM-PL__ : 125
+
+ * __LEXICON N_KIM__ : 126
+ * __LEXICON N_KIM-SG__ : 126
+ * __LEXICON N_KIM-PL__ : 126
+
+ * __LEXICON N_VȮŅ__ : 127
+
+ * __LEXICON N_VAʼIT__ vaʼit:vait 128
+
+ * __LEXICON N_VAʼIT-PL	__ vaʼit:vait 128
+
+ * __LEXICON N_AMĀT__ : 129
+
+ * __LEXICON N_AMĀT-PL__ : 129
+
+ * __LEXICON N_KULTŪR__ : 130
+
+ * __LEXICON N_SAʼGDIT__ saʼgdit:sagdit 131
+
+ * __LEXICON N_VIĻȚ__ : 132
+ * __LEXICON N_VIĻȚ-PL__ : 132
+
+
+ * __LEXICON N_EĻ__ : 133
+
+ * __LEXICON N_BLĒʼḐ__ blēʼḑ:blēʼḑ 134
+
+ * __LEXICON N_BLĒʼḐ-SG__ blēʼḑ:blēʼḑ 134
+ * __LEXICON N_BLĒʼḐ-PL__ blēʼḑ:blēʼḑ 134
+
+ * __LEXICON N_FAKT__ : 135
+ * __LEXICON N_FAKT-PL__ : 135
+
+ * __LEXICON N_TAS__ : 136
+
+ * __LEXICON N_NEITST__ neitst:neits 137
+
+
+
+ * __LEXICON N_ĀIGAST__ : 140
+ * __LEXICON N_ĀIGAST-PL__ : 140
+
+ * __LEXICON N_ANALĪZ__ : 141
+
+ * __LEXICON N_NĪʼEM__ nīʼem:nīem 142
+
+ * __LEXICON N_JAĻKŠ__ : 143
+
+ * __LEXICON N_JAĻKŠ-PL	__ : 143
+
+ * __LEXICON N_VIŠ__ : 144 viš:viš
+ * __LEXICON N_VIŠ-SG__ : 144
+ * __LEXICON N_VIŠ-PL__ : 144
+
+ * __LEXICON N_RŪʼTŠ__ rūʼtš:rūtš 145
+
+ * __LEXICON N_RŪʼTŠ-PL__ rūʼtš:rūtš 145
+
+ * __LEXICON N_TĒʼḐ__ tēʼḑ:tēḑ 146
+
+ * __LEXICON N_LĒʼḐ__ lēʼḑ:lēḑ 147
+ * __LEXICON N_LĒʼḐ-PL__ lēʼḑ:lēḑ 147
+
+ * __LEXICON N_KĪNTŠ__ : 148
+
+ * __LEXICON N_KǬŅTŠ__ : 149
+
+ * __LEXICON N_LĒŅTŠ__ : 150
+
+ * __LEXICON N_LĪEM__ : 151
+
+ * __LEXICON N_AʼM__ aʼm:am 152
+
+ * __LEXICON N_AZŪM__ : 153 azūm:aʼzūm
+ * __LEXICON N_AZŪM-SG__ : 153
+ * __LEXICON N_AZŪM-PL__ : 153
+
+ * __LEXICON N_VÕȚĪM__ võțīm:võțīm 154 
+ * __LEXICON N_VÕȚĪM-SG__ : 154
+ * __LEXICON N_VÕȚĪM-PL__ : 154
+
+ * __LEXICON N_KǬŅIM__ : 155
+ * __LEXICON N_KǬŅIM-SG__ : 155
+ * __LEXICON N_KǬŅIM-PL__ : 155
+
+ * __LEXICON N_ĒTAM__ : 156
+ * __LEXICON N_ĒTAM-SG__ : 156
+ * __LEXICON N_ĒTAM-PL__ : 156
+
+ * __LEXICON N_SIDĀM__ : 157
+ * __LEXICON N_SIDĀM-PL	__ : 157
+
+ * __LEXICON N_TŪOITÕG__ : 158
+
+ * __LEXICON N_KǬRAND__ : 159
+* Yaml: **armtõb**
+ * __LEXICON N_KǬRAND-SG__ : 159
+ * __LEXICON N_KǬRAND-PL__ : 159
+
+ * __LEXICON N_ȬʼDÕG__ ȭʼdõg:ȭdõg 160
+
+ * __LEXICON N_TAPTÕD__ : 161
+
+
+
+ * __LEXICON N_TUOISTÕNZ__ : 164
+
+
+ * __LEXICON N_MĪEZ__ mīez:m 166
+
+ * __LEXICON N_ROʼVZ__ : 167 roʼvz:roʼv
+ * __LEXICON N_ROʼVZ-SG__ : 167 roʼvz:roʼv
+ * __LEXICON N_ROʼVZ-PL__ : 167 roʼvz:roʼv
+
+
+
+
+ * __LEXICON N_NÕTKĀZ__ : 170
+
+ * __LEXICON N_RIKĀZ-PL__ rikāz: 171
+
+ * __LEXICON N_BIKŠĀZ-SG__ : 172
+ * __LEXICON N_BIKŠĀZ-PL__ : 172
+
+ * __LEXICON N_ĀMBAZ__ : 173
+ * __LEXICON N_ĀMBAZ-PL__ : 173
+
+ * __LEXICON N_PŪŖAZ__ : 174
+
+
+ * __LEXICON N_RĒNAZ-PL	__ : 176
+
+ * __LEXICON N_TŌVAZ__ : 177
+
+ * __LEXICON N_PŪORAZ__ pūoraz: 178
+
+ * __LEXICON N_MÕTKÕZ__ mõtkõz: 179
+ * __LEXICON N_MÕTKÕZ-PL__ mõtkõz: 179
+
+ * __LEXICON N_VȬRÕZ__ vȭrõz:vȭrõ 180
+ * __LEXICON N_VȬRÕZ-SG__ vȭrõz:vȭrõ 180
+ * __LEXICON N_VȬRÕZ-PL__ vȭrõz:vȭrõ 180
+
+ * __LEXICON N_ARĀGÕZ__ : 181 arāgõz:arāgõ
+ * __LEXICON N_ARĀGÕZ-SG__ : 181
+ * __LEXICON N_ARĀGÕZ-PL__ : 181
+
+ * __LEXICON N_ÄʼGGÕZ__ äʼggõz:äggõz 182
+ * __LEXICON N_ÄʼGGÕZ-PL__ äʼggõz:äggõz 182
+
+ * __LEXICON N_PŪʼDÕZ__ pūʼdõz:pūdõz 183
+
+ * __LEXICON N_PŪʼDÕZ-PL__ pūʼdõz:pūdõz 183
+
+ * __LEXICON N_VĪETŠÕZ__ : 184
+ * __LEXICON N_VĪETŠÕZ-PL__ : 184
+
+ * __LEXICON N_LǬʼTŠÕZ__ lǭʼtšõz:lǭtšõz 185
+
+ * __LEXICON N_SĒJI__ : 186
+
+ * __LEXICON N_AKKIJI__ akkiji:akkiji 187
+ * __LEXICON N_AKKIJI-SG__ : 187
+ * __LEXICON N_AKKIJI-PL__ : 187
+
+ * __LEXICON N_LĒʼJI__ lēʼji:lēji 188
+ * __LEXICON	N_LĒʼJI-SG__ lēʼji:lēji 188
+ * __LEXICON	N_LĒʼJI-PL__ lēʼji:lēji 188
+
+ * __LEXICON N_TUĻĻI__ : 189
+
+ * __LEXICON N_LÄʼBḐI__ läʼbḑi:läbḑi 190
+
+ * __LEXICON N_NAI__ : 191
+
+ * __LEXICON N_AʼIGI__ aʼigi:aigi 192
+ * __LEXICON N_AʼIGI-PL	__ aʼigi:aigi 192
+
+ * __LEXICON N_PUʼNNI__ puʼnni:punni 193
+ * __LEXICON N_PUʼNNI-PL__ puʼnni:punni 193
+
+ * __LEXICON N_KAȚKI__ kațki: 194
+
+ * __LEXICON N_KUKKI__ kukki: 195
+
+
+
+
+ * __LEXICON N_TŪĻI__ : 199
+~422
+ * __LEXICON N_TŪĻI-PL__ : 199
+
+ * __LEXICON N_AʼBLI__ aʼbli:aʼbli 200
+~567
+
+ * __LEXICON N_AʼBLI-SG__ aʼbli:aʼbli 200
+ * __LEXICON N_AʼBLI-PL__ aʼbli:aʼbli 200
+
+ * __LEXICON N_SĒMI__ : 201
+
+ * __LEXICON N_SĒMI-SG__ : 201
+ * __LEXICON N_SĒMI-PL__ : 201
+
+ * __LEXICON N_LĒʼMI__ lēʼmi:lēʼmi 202
+
+ * __LEXICON N_LĒʼMI-SG	__ lēʼmi:lēʼmi 202
+ * __LEXICON N_LĒʼMI-PL	__ lēʼmi:lēʼmi 202
+
+ * __LEXICON N_ALĪZ__ : 203
+ * __LEXICON N_ALĪZ-SG__ : 203
+ * __LEXICON N_ALĪZ-PL__ : 203
+
+ * __LEXICON N_NȬŖKÕZ__ : 204
+
+ * __LEXICON N_KATŪKS__ : 205
+
+ * __LEXICON N_KATŪKS-PL__ : 205
+
+ * __LEXICON N_ĀNDÕKS__ āndõks: 206
+ * __LEXICON N_ĀNDÕKS-PL__ āndõks: 206
+
+ * __LEXICON N_KĒRATÕKS__ kēratõks:kēratõks 207
+
+ * __LEXICON N_ÄʼBȚÕKS__ äʼbțõks:äbțõks 208
+ * __LEXICON N_ÄʼBȚÕKS-PL__ äʼbțõks:äbțõks 208
+
+ * __LEXICON N_VARĪKŠ__ : 209
+
+
+ * __LEXICON N_UKŠ__ : 210
+
+ * __LEXICON N_LÄPŠ__ läpš:laps 211
+ * __LEXICON N_LÄPŠ-PL__ läpš:laps 211
+
+
+ * __LEXICON N_ROʼVZT-PL__ roʼvzt:roʼvz 212
+
+ * __LEXICON N_TUʼĻ__ : 213
+
+ * __LEXICON N_TŪĻ__ : 214
+
+ * __LEXICON N_KĒĻ__ kēļ:kēl 215
+
+ * __LEXICON N_PŪOL__ : 216 pūol:pūol
+
+ * __LEXICON N_PŪOL-PL__ : 216
+
+ * __LEXICON N_ĪKŠ__ : 217
+
+
+
+ * __LEXICON N_SĒŅ__ sēņ:sēn 220
+
+ * __LEXICON N_JŪŖ__ jūŗ:jūr 221
+ * __LEXICON N_JŪŖ-PL__ : 221
+
+ * __LEXICON N_SŪR__ : 222
+
+ * __LEXICON N_SĒR__ : 223
+
+ * __LEXICON N_BIRKOV__ : 224 birkov:birkov
+ * __LEXICON N_BIRKOV-SG__ : 224	birkov:birkov
+ * __LEXICON N_BIRKOV-PL__ : 224	birkov:birkov
+
+ * __LEXICON N_SALĀJ__ : 225
+
+ * __LEXICON N_UMĀRZ__ umārz:umār 226
+
+
+ * __LEXICON N_AʼBBÕNZ__ aʼbbõnz:aʼbbõn 228
+ * __LEXICON N_AʼBBÕNZ-SG__ aʼbbõnz:aʼbbõn 228
+ * __LEXICON N_AʼBBÕNZ-PL__ aʼbbõnz:aʼbbõn 228
+
+ * __LEXICON N_AŅGÕRZ__ : aņgõrz:aņgõr 229
+ * __LEXICON N_AŅGÕRZ-PL__ : aņgõrz:aņgõr 229
+
+ * __LEXICON N_KAʼGGÕRZ__ kaʼggõrz:kaʼggõr 230
+
+ * __LEXICON N_PǞGIŅŽ__ pǟgiņž:pǟgiņ 231
+
+ * __LEXICON N_VAGĀŖ__ vagāŗ:vagār 232
+
+ * __LEXICON N_TIDĀR__ tidār:tidār 233
+ * __LEXICON N_TIDĀR-PL__ tidār:tidār 233
+
+ * __LEXICON N_PĒGAL__ pēgal:pēgal 234
+ * __LEXICON N_PĒGAL-PL__ pēgal:pēgal 234
+
+ * __LEXICON N_APPÕN__ appõn:appõn 235
+ * __LEXICON N_APPÕN-SG__ appõn:appõn 235
+ * __LEXICON N_APPÕN-PL__ appõn:appõn 235
+
+ * __LEXICON N_ǬʼRÕN__ ǭʼrõn:ǭrõn 236
+ * __LEXICON N_ǬʼRÕN-PL__ ǭʼrõn:ǭrõn 236
+
+ * __LEXICON N_KĪNDÕR__ kīndõr:kīndõr 237
+
+ * __LEXICON N_KĪNDÕR-SG__ kīndõr:kīndõr 237
+ * __LEXICON N_KĪNDÕR-PL__ kīndõr:kīndõr 237
+
+ * __LEXICON N_BÄʼZMÕR__ bäʼzmõr:bäʼzmõr 238
+ * __LEXICON N_BÄʼZMÕR-SG__ bäʼzmõr:bäʼzmõr 238
+ * __LEXICON N_BÄʼZMÕR-PL__ bäʼzmõr:bäʼzmõr 238
+
+ * __LEXICON N_TARĪĻ__ tarīļ:tarīļ 239
+ * __LEXICON N_TARĪĻ-PL__ tarīļ:tarīļ 239
+
+ * __LEXICON N_ĀNKAŖ__ ānkaŗ:ānkaŗ 240
+ * __LEXICON N_ĀNKAŖ-PL__ ānkaŗ:ānkaŗ 240
+
+ * __LEXICON N_VIRPÕĻ__ virpõļ:virpõļ 241
+
+ * __LEXICON N_ǬʼBIĻ__ ǭʼbiļ:ǭbiļ 242
+ * __LEXICON N_ǬʼBIĻ-PL__ ǭʼbiļ:ǭbiļ 242
+
+ * __LEXICON N_GOLĀTÕKS__ golātõks:golātõks 244 found in Liv-est-lat dictionary
+
+
+
+
+## Nominal inflection
+Inflection lexica
+ * __LEXICON NMN_PŪ__ pū:pū 12
+Stem change: None
+
+
+
+13
+* Yaml: **N-rooq**
+Stem	change:	None
+
+
+
+14
+Stem	change:	Yes 
+ Vowel raising ǟ:ē +Pl +Ela/+Ill/+Par
+Stød: Yes
+
+
+
+ * __LEXICON NMN_TĪE__ tīe:tīʼe
+15
+Stem change: Yes
+ Vowel lowering īe:ē +Pl +Ela/+Ill/+Par
+Stød: Yes
+ * __SG-ILL_zõ ;__ 2014.12.12 Stød loss problem,
+		    	should be tīʼezõ
+
+tēšti
+
+16
+Stem change: None
+
+
+ * __LEXICON NMN_TEI__ tei:tei
+17
+Stem change: Yes 
+ Vowel change: ei:ē
+
+
+
+ * __LEXICON NMN_KUŖĒ__ kuŗē:kuʼŗ
+18
+kuŗē:kuʼŗ
+
+SG-INE ;
+
+
+18
+ * __LEXICON NMN_KALĀ__ kalā:kaʼl
+Stem change: Yes
+  Consonant lengthening
+  Consonant palatalization
+  Vowel change in 2nd syllable ā:õ/0
+Stød: Yes
+
+
+
+19
+ * __LEXICON NMN_TUBĀ__ tubā:tuʼb
+* Yaml: **A-amaa, N-tubaa** Pass: 2014.12.12
+Stem change:	 Yes
+  Vowel change in word-final position a:õ/0
+Stød
+
+
+20
+ * __LEXICON NMN_AIGĀ__ aigā:aʼig
+* Yaml: **N-aigaa** 
+Stem change: Yes
+  vowel in 2nd syllable ā:õ/0
+Stød: Yes
+
+
+ * __LEXICON NMN_LĒBA__ lēba:leib
+21
+* Yaml: **N-leeba** Passed: 2014.12.12
+Stem change: Yes
+  vowel change ei:e
+Stød: None
+
+
+
+21
+ * __LEXICON NMN_KŪJA__ kūja:leiba
+No information
+
+
+
+22
+ * __LEXICON NMN_PŪOGA__ pūoga:pūog
+Stem change: Yes
+  Vowel change in 1st syllable ūo:ȯi
+  Vowel change in word-final position a:õ/0
+Stød: None
+
+
+
+
+23
+Stem change: Yes
+  Vowel change in 1st syllable ǭ:a
+  Consonant change ij:j
+Stød: None
+
+
+
+24
+ * __LEXICON NMN_PǞVA__ pǟva:pǟuva
+Stem change: Yes
+ Vowel change ǟ:äu
+Stød: None
+
+
+
+ * __LEXICON NMN_IZĀ__ izā:iʼz
+25
+Stem change: yes
+ Vowel loss ā:0
+Stød: Yes
+
+
+
+
+25
+ * __LEXICON NMN_PIEZĀ__ piezā:pieʼzzā
+Stem change: yes
+Stød: Yes
+
+
+
+
+Stem change: Yes
+
+ * __LEXICON NMN_AŽĀ-SG__ ažā:aʼžā 26
+
+ * __LEXICON NMN_AŽĀ-PL__ ažā:aʼžā 26
+
+Stem change: Yes (Vowel)
+ * __LEXICON NMN_ĀĻDŽA-SG__ āļdža:āļdža 27
+
+ * __LEXICON NMN_ĀĻDŽA-PL__ āļdža:āļdža 27
+
+ * __LEXICON NMN_SUKĀ__ sukā:sukkā 28
+Stem change: Yes
+ * __LEXICON NMN_SUKĀ-SG__ sukā:sukkā 28
+
+ * __LEXICON NMN_SUKĀ-PL__ sukā:sukkā 28
+
+ * __LEXICON NMN_LIEPĀ__ liepā:liep 29
+Stem change: Yes
+ consonant length
+Stød: None
+ * __LEXICON NMN_LIEPĀ-SG__ liepā:lieppā 29
+
+ * __LEXICON NMN_LIEPĀ-PL__ liepā:lieppā 29
+
+ * __LEXICON NMN_OKSĀ__ oksā:oksā 30
+Stem change: Yes
+ palatalization s:š
+Stød: None
+ * __LEXICON NMN_OKSĀ-SG__ oksā:oksā 30
+
+ * __LEXICON NMN_OKSĀ-PL__ oksā:oksā 30
+
+ * __LEXICON NMN_VȰNTSA__ vȱntsa:vȱntsa 31
+Stem change:    Yes
+ Vowel length
+ ??Palatalization?? of s:š
+Stød: None
+ * __LEXICON NMN_VȰNTSA-SG__ vȱntsa:vȱntsa 31
+
+ * __LEXICON NMN_VȰNTSA-PL__ vȱntsa:vȱntsa 31
+
+ * __LEXICON NMN_LIESTĀ__ liestā:liestā 32
+Stem	change:	   Yes
+ Diphthong straightening
+ ??Palatalization?? of s:š 
+Stød: None
+ * __LEXICON NMN_LIESTĀ-SG__ liestā:liestā 32
+
+ * __LEXICON NMN_LIESTĀ-PL__ liestā:liestā 32
+
+33
+ * __LEXICON NMN_ĀIGA__ āiga:āig
+Stem	change:	Yes
+ Vowel length in first syllable
+Stød: None
+
+
+33b LĀNGA
+Stem	change:	Yes (Vowel)
+Stød: None
+
+
+34
+ * __LEXICON NMN_SĪLMA__ sīlma:sīlma
+Stem change:	Yes (Vowel)
+Stød: None
+
+
+
+35
+ * __LEXICON NMN_KǞNGA__ kǟnga:kǟnga 35
+* Yaml: **N-aeaerga, N-aeaerga**
+Stem change: Yes
+ * __LEXICON NMN_KǞNGA-SG__ kǟnga:kǟnga 35
+
+ * __LEXICON NMN_KǞNGA-PL__ kǟnga:kǟnga 35
+
+* Yaml: **N-aaina**
+Stem change: Yes (Vowel)
+ * __LEXICON NMN_ĀINA-SG__ āina:āina 36
+
+ * __LEXICON NMN_ĀINA-PL__ āina:āina 36
+
+
+37
+ * __LEXICON NMN_VĒNA__ vēna:veina
+* Yaml: **N-veena**
+Stem change: Yes (Vowel)
+
+
+38
+ * __LEXICON NMN_RŌDA__ rōda:rouda
+Stem change: Yes (Vowel)
+
+
+
+39, 40, 41, 42
+ * __LEXICON NMN_PADĀ__ padā:paʼd
+Stem change: Yes
+Stød: Yes
+
+
+
+40
+
+
+41
+ * __LEXICON NMN_KÄPĀ__ käpā:käpā
+
+
+42
+
+
+43
+
+44 
+
+
+45
+ * __LEXICON NMN_PŪOLA__ pūola:pūola 45
+ * __LEXICON NMN_PŪOLA-SG__ pūola:pūola 45
+
+ * __LEXICON NMN_PŪOLA-PL__ pūola:pūola 45
+
+
+
+46
+
+
+
+
+ * __LEXICON NMN_ŪŠKA__ ūška:ūiska 47
+Stem change: Yes
+ vowel length
+Stød: None
+ * __LEXICON NMN_ŪŠKA-SG__ ūška:ūiska 47
+
+ * __LEXICON NMN_ŪŠKA-PL__ ūška:ūiska 47
+
+ * __LEXICON NMN_MȬKA__ mȭka:mȭuka 48
+Stem change: Yes
+ vowel length
+Stød: None
+ * __LEXICON NMN_MȬKA-SG__ mȭka:mȭuka 48
+
+ * __LEXICON NMN_MȬKA-PL__ mȭka:mȭuka 48
+
+ * __LEXICON NMN_DADŽĀ__ dadžā:daʼdžā 49
+ * __LEXICON NMN_DADŽĀ-SG__ dadžā:daʼdžā 49
+
+ * __LEXICON NMN_DADŽĀ-PL__ dadžā:daʼdžā 49
+
+ * __LEXICON NMN_SUŠĀ__ sušā:sušā 50
+ * __LEXICON NMN_SUŠĀ-SG__ sušā:sušā 50
+ * __LEXICON NMN_SUŠĀ-PL__ sušā:sušā 50
+
+ * __LEXICON NMN_KUPŠĀ__ kupšā:kupšā 51
+ * __LEXICON NMN_KUPŠĀ-SG__ kupšā:kupšā 51
+ * __LEXICON NMN_KUPŠĀ-PL__ kupšā:kupšā 51
+
+ * __LEXICON NMN_TŠŪRTŠA__ tšūrtša:tšūrtša 52
+ * __LEXICON NMN_TŠŪRTŠA-SG__ tšūrtša:tšūrtša 52
+ * __LEXICON NMN_TŠŪRTŠA-PL__ tšūrtša:tšūrtša 52
+
+ * __LEXICON NMN_SĒMḐA__ sēmḑa:sēmḑa 53
+ * __LEXICON NMN_SĒMḐA-SG__ sēmḑa:sēmḑa 53
+
+ * __LEXICON NMN_SĒMḐA-PL__ sēmḑa:sēmḑa 53
+
+
+ * __LEXICON NMN_TĪERA__ tīera:tīer 54
+Stem	    change:	 Yes
+Stød: None
+Sg Nom=Gen: Yes
+ * __LEXICON NMN_TĪERA-SG__ tīera:tīer 54
+
+ * __LEXICON NMN_TĪERA-PL__ tīera:tīer 54
+
+
+ * __LEXICON NMN_KRǬIPA__ krǭipa:krǭipa 55
+ * __LEXICON NMN_KRǬIPA-SG__ krǭipa:krǭipa 55
+
+ * __LEXICON NMN_KRǬIPA-PL__ krǭipa:krǭipa 55
+
+
+ * __LEXICON NMN_LILLA__ lilla:lilla 56
+ * __LEXICON NMN_LILLA-SG__ lilla:lilla 56
+
+ * __LEXICON NMN_LILLA-PL__ lilla:lilla 56
+
+
+ * __LEXICON NMN_KUȚĀ__ kuțā:kuțā 57
+ * __LEXICON NMN_KUȚĀ-SG__ kuțā:kuțā 57
+ * __LEXICON NMN_KUȚĀ-PL__ kuțā:kuțā 57
+
+ * __LEXICON NMN_NĒTŠA__ nētša:nētša 58
+Stem change Yes
+ final vowel loss
+Stød: None
+ * __LEXICON NMN_NĒTŠA-SG__ nētša:nētša 58
+ * __LEXICON NMN_NĒTŠA-PL__ nētša:nētša 58
+
+59
+
+
+60
+
+
+
+ * __LEXICON NMN_KEP-SG__ kep:kep aʼb 61
+
+ * __LEXICON NMN_KEP-PL__ kep:kep aʼb 61
+
+
+ * __LEXICON NMN_KRUȚK__ : 62
+ * __LEXICON NMN_KRUȚK-SG__ : 62
+ * __LEXICON NMN_KRUȚK-PL__ : 62
+
+ * __LEXICON NMN_KRÄMP__ : 63
+ * __LEXICON NMN_KRÄMP-SG__ : 63
+ * __LEXICON NMN_KRÄMP-PL__ : 63
+
+ * __LEXICON NMN_PIʼŅ__ piʼņ:piņ 64
+ * __LEXICON NMN_PIʼŅ-SG__ piʼņ:piņ 64
+
+ * __LEXICON NMN_PIʼŅ-PL__ piʼņ:piņ 64
+
+ * __LEXICON NMN_KUOȚ__ : 65
+ * __LEXICON NMN_KUOȚ-SG__ : 65
+ * __LEXICON NMN_KUOȚ-PL__ : 65
+
+ * __LEXICON NMN_VAKȚ__ : 66
+ * __LEXICON NMN_VAKȚ-SG__ : 66
+ * __LEXICON NMN_VAKȚ-PL__ : 66
+
+ * __LEXICON NMN_REŅ__ : 67
+ * __LEXICON NMN_REŅ-SG__ : 67
+ * __LEXICON NMN_REŅ-PL__ : 67
+
+ * __LEXICON NMN_OKŠ__ : 68
+ * __LEXICON NMN_OKŠ-SG__ : 68
+ * __LEXICON NMN_OKŠ-PL__ : 68
+
+ * __LEXICON NMN_KAŠ__ : 69
+ * __LEXICON NMN_KAŠ-SG__ : 69
+
+ * __LEXICON NMN_KAŠ-PL__ : 69
+
+ * __LEXICON NMN_DUŅTŠ__ : 70
+ * __LEXICON NMN_DUŅTŠ-SG__ : 70
+ * __LEXICON NMN_DUŅTŠ-PL__ : 70
+
+ * __LEXICON NMN_TORĪ__ : 71
+ * __LEXICON NMN_TORĪ-SG__ : 71
+ * __LEXICON NMN_TORĪ-PL__ : 71
+
+ * __LEXICON NMN_VAʼG__ vaʼg:vag 72
+ * __LEXICON NMN_VAʼG-SG__ vaʼg:vag 72
+ * __LEXICON NMN_VAʼG-PL__ vaʼg:vag 72
+
+ * __LEXICON NMN_KÕʼL__ kõʼl:kõl 73
+ * __LEXICON NMN_KÕʼL-SG__ kõʼl:kõl 73
+ * __LEXICON NMN_KÕʼL-PL__ kõʼl:kõl 73
+
+ * __LEXICON NMN_SUʼG__ suʼg:suʼg 74
+ * __LEXICON NMN_SUʼG-SG__ suʼg:suʼg 74
+
+ * __LEXICON NMN_SUʼG-PL__ suʼg:suʼg 74
+
+
+ * __LEXICON NMN_JOʼUG__ joʼug:joʼug 75
+ * __LEXICON NMN_JOʼUG-SG__ joʼug:joʼug 75
+ * __LEXICON NMN_JOʼUG-PL__ joʼug:joug 75
+
+76
+
+
+
+ * __LEXICON NMN_USK__ usk: 77
+ * __LEXICON NMN_USK-SG__ usk: 77
+ * __LEXICON NMN_USK-PL__ usk: 77
+
+ * __LEXICON NMN_VAŠK__ : 78
+ * __LEXICON NMN_VAŠK-SG__ : 78
+ * __LEXICON NMN_VAŠK-PL__ : 78
+
+
+ * __LEXICON NMN_TUP__ tup:tup 79
+ * __LEXICON NMN_TUP-SG__ tup:tup 79
+
+ * __LEXICON NMN_TUP-PL__ tup:tup 79
+
+
+ * __LEXICON NMN_MAKS__ : 80
+ * __LEXICON NMN_MAKS-SG__ : 80
+
+ * __LEXICON NMN_MAKS-PL__ : 80
+
+
+ * __LEXICON NMN_LUʼM__ luʼm:lum 81
+ * __LEXICON NMN_LUʼM-SG__ luʼm:lum 81
+
+ * __LEXICON NMN_LUʼM-PL__ luʼm:lum 81
+
+
+ * __LEXICON NMN_MIEʼR__ mieʼr:mier 82
+ * __LEXICON NMN_MIEʼR-SG__ mieʼr:mieʼr 82
+
+ * __LEXICON NMN_MIEʼR-PL__ mieʼr:mier 82
+
+ * __LEXICON NMN_MEʼR__ meʼr:mer 83
+ * __LEXICON NMN_MEʼR-SG__ meʼr:mer 83
+
+ * __LEXICON NMN_MEʼR-PL__ meʼr:mer 83
+
+
+ * __LEXICON NMN_MUʼR__ muʼr:mur 84
+ * __LEXICON NMN_MUʼR-SG__ muʼr:mur 84
+
+ * __LEXICON NMN_MUʼR-PL__ muʼr:mur 84
+
+ * __LEXICON NMN_KUOʼD__ kuoʼd:kuod aig 85
+ * __LEXICON NMN_KUOʼD-SG__ kuoʼd:kuod aig 85
+
+ * __LEXICON NMN_KUOʼD-PL__ kuoʼd:kuod aig 85
+
+ * __LEXICON NMN_SUʼŽ__ suʼž:suž 86
+ * __LEXICON NMN_SUʼŽ-SG__ suʼž:suž 86
+
+ * __LEXICON NMN_SUʼŽ-PL__ suʼž:suž 86
+
+
+ * __LEXICON NMN_KEʼŽ__ keʼž:kež aim 87
+ * __LEXICON NMN_KEʼŽ-SG__ keʼž:kež aim 87
+
+ * __LEXICON NMN_KEʼŽ-PL__ keʼž:kež aim 87
+
+
+
+ * __LEXICON NMN_VEʼŽ__ veʼž:vež 88
+ * __LEXICON NMN_VEʼŽ-SG__ veʼž:veʼd 88
+
+ * __LEXICON NMN_VEʼŽ-PL__ veʼž:veʼd 88
+
+
+
+ * __LEXICON NMN_KUʼŽ__ kuʼž:kuž 89
+ * __LEXICON NMN_KUʼŽ-SG__ kuʼž:kuž 89
+ * __LEXICON NMN_KUʼŽ-PL__ kuʼž:kuž 89
+
+ * __LEXICON NMN_RUZŪ__ : 90
+ * __LEXICON NMN_RUZŪ-SG__ : 90
+
+ * __LEXICON NMN_RUZŪ-PL__ : 90
+
+
+
+ * __LEXICON NMN_RADIO__ : 91
+ * __LEXICON NMN_RADIO-SG__ : 91
+
+ * __LEXICON NMN_RADIO-PL__ : 91
+
+ * __LEXICON NMN_ANG__ : 92
+ * __LEXICON NMN_ANG-SG__ : 92
+ * __LEXICON NMN_ANG-PL__ : 92
+
+ * __LEXICON NMN_KOUV__ : 93
+ * __LEXICON NMN_KOUV-SG__ : 93
+ * __LEXICON NMN_KOUV-PL__ : 93
+
+
+
+ * __LEXICON NMN_KAND__ : 94
+ * __LEXICON NMN_KAND-SG__ : 94
+ * __LEXICON NMN_KAND-PL__ : 94
+
+ * __LEXICON NMN_PȮRT__ : 95
+ * __LEXICON NMN_PȮRT-SG__ : 95
+ * __LEXICON NMN_PȮRT-PL__ : 95
+
+
+ * __LEXICON NMN_NUŖM__ : 96
+ * __LEXICON NMN_NUŖM-SG__ : 96
+ * __LEXICON NMN_NUŖM-PL__ : 96
+
+
+ * __LEXICON NMN_LAINT__ : 97
+ * __LEXICON NMN_LAINT-SG__ : 97
+ * __LEXICON NMN_LAINT-PL__ : 97
+
+ * __LEXICON NMN_LOUL__ : 98
+ * __LEXICON NMN_LOUL-SG__ : 98
+ * __LEXICON NMN_LOUL-PL__ : 98
+
+ * __LEXICON NMN_UL__ : 99 ul:ul
+ * __LEXICON NMN_UL-SG__ : 99
+ * __LEXICON NMN_UL-PL__ : 99
+
+ * __LEXICON NMN_PAN__ : 100
+ * __LEXICON NMN_PAN-SG__ : 100
+ * __LEXICON NMN_PAN-PL__ : 100
+
+
+
+
+102
+ * __LEXICON NMN_NIŖȚ__ : 102 niŗț:niŗț
+First-syllable Vowel lengthening in Pl
+Stød: None
+ * __LEXICON NMN_NIŖȚ-SG__ : 102
+ * __LEXICON NMN_NIŖȚ-PL__ : 102
+
+
+ * __LEXICON NMN_KUĻ__ : 103
+ * __LEXICON NMN_KUĻ-SG__ : 103
+ * __LEXICON NMN_KUĻ-PL__ : 103
+
+
+ * __LEXICON NMN_PAŅ__ : 104
+ * __LEXICON NMN_PAŅ-SG__ : 104
+
+
+ * __LEXICON NMN_PAŅ-PL__ : 104
+
+ * __LEXICON NMN_DAŅTŠ__ : 105
+ * __LEXICON NMN_DAŅTŠ-SG__ : 105
+
+ * __LEXICON NMN_DAŅTŠ-PL__ : 105
+
+
+ * __LEXICON NMN_KOUŠ__ : 106
+ * __LEXICON NMN_KOUŠ-SG__ : 106
+ * __LEXICON NMN_KOUŠ-PL__ : 106
+
+
+ * __LEXICON NMN_SPLEIŠ__ : 107
+ * __LEXICON NMN_SPLEIŠ-SG__ : 107
+ * __LEXICON NMN_SPLEIŠ-PL__ : 107
+
+
+ * __LEXICON NMN_VEIS__ : 108
+ * __LEXICON NMN_VEIS-SG__ : 108
+
+ * __LEXICON NMN_VEIS-PL__ : 108
+
+
+ * __LEXICON NMN_PȮIS-SG__ : 109
+
+ * __LEXICON NMN_PȮIS-PL__ : 109
+
+
+ * __LEXICON NMN_KIĻG__ : 110
+ * __LEXICON NMN_KIĻG-SG__ : 110
+ * __LEXICON NMN_KIĻG-PL__ : 110
+
+ * __LEXICON NMN_VȮĻG__ : 111
+ * __LEXICON NMN_VȮĻG-SG__ : 111
+ * __LEXICON NMN_VȮĻG-PL__ : 111
+
+
+ * __LEXICON NMN_TÄUŽ__ täuž: adres 112
+
+ * __LEXICON NMN_TÄUŽ-SG__ : 116
+
+
+ * __LEXICON NMN_TÄUŽ-PL__ : 116
+
+
+ * __LEXICON NMN_VAŖŽ__ : 113
+ * __LEXICON NMN_VAŖŽ-SG__ : 113
+ * __LEXICON NMN_VAŖŽ-PL__ : 113
+
+
+ * __LEXICON NMN_PIERZ__ : 114
+ * __LEXICON NMN_PIERZ-SG__ : 114
+ * __LEXICON NMN_PIERZ-PL__ : 114
+
+
+ * __LEXICON NMN_VÕRGÕ__ : 115
+ * __LEXICON NMN_VÕRGÕ-SG__ : 115
+ * __LEXICON NMN_VÕRGÕ-PL__ : 115
+
+
+ * __LEXICON NMN_JÕUGÕ-SG__ : 116
+
+
+ * __LEXICON NMN_JÕUGÕ-PL__ : 116
+
+
+ * __LEXICON NMN_VȬIDAG__ : 117
+ * __LEXICON NMN_VȬIDAG-SG__ : 117
+
+ * __LEXICON NMN_VȬIDAG-PL__ : 117
+
+
+ * __LEXICON NMN_SIELDÕ__ : 118
+ * __LEXICON NMN_SIELDÕ-SG__ : 118
+
+ * __LEXICON NMN_SIELDÕ-PL__ : 118
+
+
+ * __LEXICON NMN_NǬʼGÕ__ nǭʼgõ:nǭgõ 119
+ * __LEXICON NMN_NǬʼGÕ-SG__ nǭʼgõ:nǭgõ 119
+
+ * __LEXICON NMN_NǬʼGÕ-PL__ nǭʼgõ:nǭgõ 119
+
+
+
+ * __LEXICON NMN_AŠŠÕ__ : 120
+ * __LEXICON NMN_AŠŠÕ-SG__ : 120
+
+ * __LEXICON NMN_AŠŠÕ-PL__ : 120
+
+
+
+ * __LEXICON NMN_DRŪʼOŠÕ__ drūʼošõ:drūošõ 121
+ * __LEXICON NMN_DRŪʼOŠÕ-SG__ drūʼošõ:drūošõ 121
+
+ * __LEXICON NMN_DRŪʼOŠÕ-PL__ drūʼošõ:drūošõ 121
+
+
+
+ * __LEXICON NMN_SOʼV__ : 122
+ * __LEXICON NMN_SOʼV-SG__ : 122
+
+ * __LEXICON NMN_SOʼV-PL__ : 122
+
+ * __LEXICON NMN_KǬJ__ : 123
+ * __LEXICON NMN_KǬJ-SG__ : 123
+
+ * __LEXICON NMN_KǬJ-PL__ : 123
+
+
+
+ * __LEXICON NMN_ǬʼJ__ ǭʼj:ǭj 124
+ * __LEXICON NMN_ǬʼJ-SG__ ǭʼj:ǭj 124
+
+ * __LEXICON NMN_ǬʼJ-PL__ ǭʼj:ǭj 124
+
+125, 126, 128
+
+
+
+126
+
+ * __LEXICON NMN_VȮŅ__ : 127
+ * __LEXICON NMN_VȮŅ-SG__ : 127
+
+ * __LEXICON NMN_VȮŅ-PL__ : 127
+
+ * __LEXICON NMN_VAʼIT__ vaʼit:vait 128
+ * __LEXICON NMN_VAʼIT-SG__ vaʼit:vait 128
+
+ * __LEXICON NMN_VAʼIT-PL__ vaʼit:vait 128
+
+
+
+129, 130, 131
+
+
+ * __LEXICON NMN_KULTŪR__ : 130
+ * __LEXICON NMN_KULTŪR-SG__ : 130
+
+ * __LEXICON NMN_KULTŪR-PL__ : 130
+
+ * __LEXICON NMN_SAʼGDIT__ saʼgdit:sagdit 131
+ * __LEXICON NMN_SAʼGDIT-SG__ saʼgdit:sagdit 131
+
+ * __LEXICON NMN_SAʼGDIT-PL__ saʼgdit:sagdit 131
+
+132
+ * __LEXICON NMN_VIĻȚ__ : 132
+ * __LEXICON NMN_VIĻȚ-SG__ : 132
+
+ * __LEXICON NMN_VIĻȚ-PL__ : 132
+
+ * __LEXICON NMN_EĻ__ : 133
+ * __LEXICON NMN_EĻ-SG__ : 133
+
+ * __LEXICON NMN_EĻ-PL__ : 133
+
+ * __LEXICON NMN_BLĒʼḐ__ blēʼḑ:blēʼḑ 134
+ * __LEXICON NMN_BLĒʼḐ-SG__ blēʼḑ:blēʼḑ 134
+
+ * __LEXICON NMN_BLĒʼḐ-PL__ blēʼḑ:blēʼḑ 134
+
+135
+
+
+ * __LEXICON NMN_TAS__ : 136
+ * __LEXICON NMN_TAS-SG__ : 136
+
+ * __LEXICON NMN_TAS-PL__ : 136
+
+ * __LEXICON NMN_NEITST__ neitst:neits 137
+ * __LEXICON NMN_NEITST-SG__ neitst:neits 137
+ * __LEXICON NMN_NEITST-PL__ neitst:neits 137
+
+ * __LEXICON NMN_SĪEND__ sīend:sīen 138
+Stem	    change: No
+Stød: None
+Sg Nom=Gen: No
+ * __LEXICON NMN_SĪEND-SG__ : 138
+
+ * __LEXICON NMN_SĪEND-PL__ : 138
+
+ * __LEXICON NMN_LǞʼND__ lǟʼnd:lǟnd 139
+ * __LEXICON NMN_LǞʼND-SG__ lǟʼnd:lǟnd 139
+ * __LEXICON NMN_LǞʼND-PL__ lǟʼnd:lǟnd 139
+
+
+140, 141, 142
+**241**
+
+
+141
+**87**
+* Yaml: **N-analiiz** analīz+N+Sg+Ela => analīzõst
+Change in stem: None
++Sg+Ela preceded by -õ-
+consonant-final stem, long vowel in ultimate syllable
+belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
+
+
+
+
+142
+
+
+
+143, 144, 145
+
+
+ * __LEXICON NMN_VIŠ__ : 144 viš:viš
+ * __LEXICON NMN_VIŠ-SG__ : 144
+
+ * __LEXICON NMN_VIŠ-PL__ : 144
+
+
+145
+
+ * __LEXICON NMN_TĒʼḐ__ tēʼḑ:tēḑ 146
+ * __LEXICON NMN_TĒʼḐ-SG__ tēʼḑ:tēḑ 146
+ * __LEXICON NMN_TĒʼḐ-PL__ tēʼḑ:tēḑ 146
+
+ * __LEXICON NMN_LĒʼḐ__ lēʼḑ:līʼed 147
+ * __LEXICON NMN_LĒʼḐ-SG__ lēʼḑ:līʼed 147
+ * __LEXICON NMN_LĒʼḐ-PL__ lēʼḑ:līʼed 147
+
+*āigalē’ḑ # examples:*
+
+*āigalē’ḑ+N+Sg+Nom examples:*
+
+*āigalē’ḑ+N+Sg+Gen examples:*
+
+*āigalē’ḑ+N+Sg+Dat examples:*
+
+*āigalē’ḑ+N+Sg+Par examples:*
+
+*āigalē’ḑ+N+Sg+Ins examples:*
+
+*āigalē’ḑ+N+Sg+Ill examples:*
+
+*āigalē’ḑ+N+Sg+Ine examples:*
+
+*āigalē’ḑ+N+Sg+Ela examples:*
+
+*āigalē’ḑ+N+Pl+Nom examples:*
+
+*āigalē’ḑ+N+Pl+Gen examples:*
+
+*āigalē’ḑ+N+Pl+Dat examples:*
+
+*āigalē’ḑ+N+Pl+Par examples:*
+
+*āigalē’ḑ+N+Pl+Ins examples:*
+
+*āigalē’ḑ+N+Pl+Ill examples:*
+
+*āigalē’ḑ+N+Pl+Ine examples:*
+
+*āigalē’ḑ+N+Pl+Ela examples:*
+
+
+ * __LEXICON NMN_KĪNTŠ__ : 148
+ * __LEXICON NMN_KĪNTŠ-SG__ : 148
+
+ * __LEXICON NMN_KĪNTŠ-PL__ : 148
+
+ * __LEXICON NMN_KǬŅTŠ__ : 149
+ * __LEXICON NMN_KǬŅTŠ-SG__ : 149
+ * __LEXICON NMN_KǬŅTŠ-PL__ : 149
+
+ * __LEXICON NMN_LĒŅTŠ__ : 150
+ * __LEXICON NMN_LĒŅTŠ-SG__ : 150
+ * __LEXICON NMN_LĒŅTŠ-PL__ : 150
+
+ * __LEXICON NMN_LĪEM__ : 151
+ * __LEXICON NMN_LĪEM-SG__ : 151
+ * __LEXICON NMN_LĪEM-PL__ : 151
+
+ * __LEXICON NMN_AʼM__ aʼm:aʼm 152
+ * __LEXICON NMN_AʼM-SG__ aʼm:aʼm 152
+
+ * __LEXICON NMN_AʼM-PL__ aʼm:aʼm 152
+
+
+
+
+ * __LEXICON NMN_AZŪM-SG__ : 153
+
+ * __LEXICON NMN_AZŪM-PL__ : 153
+
+
+ * __LEXICON NMN_VÕȚĪM-SG__ : 154
+
+ * __LEXICON NMN_VÕȚĪM-PL__ : 154
+
+
+ * __LEXICON NMN_KǬŅIM-SG__ : 155
+ * __LEXICON NMN_KǬŅIM-PL__ : 155
+
+ * __LEXICON NMN_ĒTAM__ : 156
+ * __LEXICON NMN_ĒTAM-SG__ : 156
+ * __LEXICON NMN_ĒTAM-PL__ : 156
+
+
+ * __LEXICON NMN_SIDĀM__ : 157
+
+
+ * __LEXICON NMN_SIDĀM-PL__ : 157
+
+
+158
+
+
+
+159
+* Yaml: **armtõb, N-aandam, N-akaatwb**
+**221**
+
+
+160
+**72**
+
+
+ * __LEXICON NMN_TAPTÕD__ taptõd:taptõd 161
+ * __LEXICON NMN_TAPTÕD-SG__ : 161
+
+ * __LEXICON NMN_TAPTÕD-PL__ : 161
+
+
+ * __LEXICON NMN_TĪʼEDÕD__ tīʼedõd:tīedõd 162
+ * __LEXICON NMN_TĪʼEDÕD-SG__ tīʼedõd:tīedõd 162
+ * __LEXICON NMN_TĪʼEDÕD-PL__ tīʼedõd:tīedõd 162
+
+ * __LEXICON NMN_VĪDÕZ__ : 163
+ * __LEXICON NMN_VĪDÕZ-SG__ vīdõz: 162
+
+ * __LEXICON NMN_VĪDÕZ-PL__ vīdõz: 162
+ * __:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;__ not same as 2012
+ * __:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;__ not same as 2012
+
+
+ * __LEXICON NMN_TUOISTÕNZ__ : 164
+ * __LEXICON NMN_TUOISTÕNZ-SG__ : 164
+
+ * __LEXICON NMN_TUOISTÕNZ-PL__ : 164
+ * __:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;__ not same as 2012
+ * __:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;__ not same as 2012
+
+
+ * __LEXICON NMN_ĪʼDÕKSMÕZ__ īʼdõksmõz:īdõksmõz 165
+ * __LEXICON NMN_ĪʼDÕKSMÕZ-SG__ īʼdõksmõz:īdõksmõz 165
+
+ * __LEXICON NMN_ĪʼDÕKSMÕZ-PL__ īʼdõksmõz:īdõksmõz 165
+
+ * __:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;__ not same as 2012
+ * __:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;__ not same as 2012
+
+
+
+ * __LEXICON NMN_MĪEZ__ : 166
+ * __LEXICON NMN_MĪEZ-SG__ mīez:m 166
+
+ * __LEXICON NMN_MĪEZ-PL__ : 166
+ * __:ēʼ PL-ELA/INE_šti ;__ 
+ * __:ēʼ PL-PAR_ḑi ;__ 
+
+
+ * __LEXICON NMN_ROʼVZ-SG__ : 167
+ * __LEXICON NMN_ROʼVZ-PL__ : 167
+
+
+
+ * __LEXICON NMN_KÄBRĀZ__ : 168 käbrāz:käʼbrāz
+ * __LEXICON NMN_KÄBRĀZ-SG__ : 168
+
+ * __LEXICON NMN_KÄBRĀZ-PL__ : 168
+ * __:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;__ not same as 2012
+ * __:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;__ not same as 2012
+
+
+ * __LEXICON NMN_MAIGĀZ__ : 169 maigāz:maʼigāz
+* Yaml: **A-maigaaz**
+ * __LEXICON NMN_MAIGĀZ-SG__ : 169
+
+ * __LEXICON NMN_MAIGĀZ-PL__ : 169
+ * __:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;__ not same as 2012
+ * __:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;__ not same as 2012
+
+ * __LEXICON NMN_NÕTKĀZ__ : 170 nõtkāz:nõtkā
+ * __LEXICON NMN_NÕTKĀZ-SG__ : 170
+
+
+ * __LEXICON NMN_NÕTKĀZ-PL__ : 170
+ * __NMN_RIKĀZ-PL ;__ rikāz: 171
+
+ * __LEXICON NMN_RIKĀZ__ rikāz:rik 171
+Stem change: Yes
+Stød: None
+Sg Nom=Gen: No
+ * __LEXICON NMN_RIKĀZ-SG__ rikāz:rik 171
+
+ * __LEXICON NMN_RIKĀZ-PL__ rikāz: 171
+
+
+ * __LEXICON NMN_BIKŠĀZ-SG__ : 172 bikšāz:bikšā
+ * __	NMN_RIKĀZ-SG ;__ : 171
+ * __LEXICON NMN_BIKŠĀZ-PL__ : 172
+
+
+ * __LEXICON NMN_ĀMBAZ__ : 173 āmbaz:āmba
+
+
+ * __LEXICON NMN_ĀMBAZ-PL__ : 173
+
+
+ * __LEXICON NMN_PŪŖAZ__ : 174 pūŗaz:pūŗŗa
+ * __LEXICON NMN_PŪŖAZ-SG__ : 174
+ * __NMN_ĀMBAZ-SG ;__ : 173 
+ * __LEXICON NMN_PŪŖAZ-PL__ : 174
+ * __NMN_ĀMBAZ-PL ;__ : 173
+
+
+ * __LEXICON NMN_PǬĻAZ__ : 175 pǭļaz:pǭļ
+Stød: None
+Sg Nom=Gen: No
+ * __LEXICON NMN_PǬĻAZ-SG__ : 175
+
+ * __LEXICON NMN_PǬĻAZ-PL__ : 175
+
+
+ * __LEXICON NMN_RĒNAZ-PL__ : 176
+ * __NMN_ĀMBAZ-PL ;__ : 173
+
+ * __LEXICON NMN_TŌVAZ__ : 177 tōvaz:tōva
+ * __LEXICON NMN_TŌVAZ-SG__ : 177
+ * __NMN_ĀMBAZ-SG ;__ : 173
+ * __LEXICON NMN_TŌVAZ-PL__ : 177
+ * __NMN_ĀMBAZ-PL ;__ : 173
+
+
+ * __LEXICON NMN_PŪORAZ__ pūoraz:pūora 178
+ * __LEXICON NMN_PŪORAZ-SG__ pūoraz: 178
+ * __NMN_ĀMBAZ-SG ;__ : 173
+ * __LEXICON NMN_PŪORAZ-PL__ pūoraz: 178
+ * __NMN_ĀMBAZ-PL ;__ : 173
+
+
+
+179
+
+
+ * __LEXICON NMN_VȬRÕZ	__ vȭrõz:vȭrõ
+180
+Sg Nom=Gen: No
+
+
+181
+
+182
+
+183
+ * __LEXICON NMN_PŪʼDÕZ__ pūʼdõz:pūʼdõ
+Stød: Yes
+Sg Nom=Gen: No
+
+
+184
+ * __LEXICON NMN_VĪETŠÕZ__ : 184
+
+
+
+ * __LEXICON NMN_LǬʼTŠÕZ__ lǭʼtšõz:lǭtšõz 185
+
+
+
+ * __LEXICON NMN_SĒJI__ : 186
+Stem change: None
+ * __LEXICON NMN_SĒJI-SG__ : 186
+
+ * __LEXICON NMN_SĒJI-PL__ : 186
+
+
+ * __LEXICON NMN_AKKIJI__ : 187
+**123**
+* Yaml: **N-akkiji**
+Stem change: None
+ * __LEXICON NMN_AKKIJI-SG__ : 187
+
+ * __LEXICON NMN_AKKIJI-PL__ : 187
+
+
+ * __LEXICON NMN_LĒʼJI__ lēʼji:lēʼji 188
+**61**
+* Yaml: **A-aeqbtiji, leeqji**
+ * __LEXICON NMN_LĒʼJI-SG__ : 188
+
+ * __LEXICON NMN_LĒʼJI-PL__ : 188
+
+ * __LEXICON NMN_TUĻĻI__ : 189
+ * __LEXICON NMN_TUĻĻI-SG__ : 188
+
+ * __LEXICON NMN_TUĻĻI-PL__ : 188
+
+ * __LEXICON NMN_LÄʼBḐI__ läʼbḑi:läbḑi 190
+ * __LEXICON NMN_LÄʼBḐI-SG__ : 188
+
+ * __LEXICON NMN_LÄʼBḐI-PL__ : 188
+
+ * __LEXICON NMN_NAI__ : 191 nai:nai
+Vowel length
+Sg Nom=Gen: No
+Stød: None
+ * __LEXICON NMN_NAI-SG__ : 188
+
+ * __LEXICON NMN_NAI-PL__ : 188
+
+192
+
+
+ * __LEXICON NMN_PUʼNNI__ puʼnni:puʼn 193
+**127**
+Stød: Yes
+Sg Nom=Gen: No
+ * __LEXICON NMN_PUʼNNI-SG__ puʼnni:puʼn 193
+
+ * __LEXICON NMN_PUʼNNI-PL__ puʼnni:punni 193
+
+
+ * __LEXICON NMN_KAȚKI__ kațki: 194
+**12**
+ * __LEXICON NMN_KAȚKI-SG__ kațki: 194
+ * __LEXICON NMN_KAȚKI-PL__ kațki: 194
+
+
+ * __LEXICON NMN_KUKKI__ kukki: 195
+**33**
+ * __LEXICON NMN_KUKKI-SG__ kukki: 195
+
+ * __LEXICON NMN_KUKKI-PL__ kukki: 195
+
+
+ * __LEXICON NMN_AIGI__ aigi:aigi 196
+**16**
+Stem change: Yes (vowel length in 1st syllable)
+ * __LEXICON NMN_AIGI-SG__ aigi:aigi 196
+
+ * __LEXICON NMN_AIGI-PL__ aigi:aigi 196
+
+
+ * __LEXICON NMN_OUKI__ : 197
+ * __LEXICON NMN_OUKI-SG__ : 197
+ * __LEXICON NMN_OUKI-PL__ : 197
+
+ * __LEXICON NMN_PAŖĪ__ : 198 paŗī:paŗŗī
+ * __LEXICON NMN_PAŖĪ-SG__ : 198
+
+ * __LEXICON NMN_PAŖĪ-PL__ : 198
+ * __:ž 	PL-PAR_i ;__ paŗrīži ?
+
+
+
+199
+
+
+ * __LEXICON NMN_AʼBLI__ aʼbli:aʼbli 200
+**567**
+* Yaml: **aainagi**
+Stem change: None
+
+ * __LEXICON NMN_AʼBLI-SG__ aʼbli:aʼbli 200
+
+ * __LEXICON NMN_AʼBLI-PL__ aʼbli:aʼbli 200
+
+ * __LEXICON NMN_SĒMI__ : 201
+* Yaml: **A-ooqgi**
+ * __LEXICON NMN_SĒMI-SG__ : 201
+ * __LEXICON NMN_SĒMI-PL__ : 201
+
+ * __LEXICON NMN_LĒʼMI__ lēʼmi:lēʼmi 202
+* Yaml: **A-aqrlimi**
+
+ * __LEXICON NMN_LĒʼMI-SG__ lēʼmi:lēʼmi 202
+ * __	 SG-PAR_t ;__ Should this work for A-aqrlimi ?
+
+ * __LEXICON NMN_LĒʼMI-PL__ lēʼmi:lēmi 202
+
+ * __LEXICON NMN_ALĪZ__ : 203
+* Yaml: **N-aliiz**
+ * __LEXICON NMN_ALĪZ-SG__ : 203
+
+ * __LEXICON NMN_ALĪZ-PL__ : 203
+
+
+
+ * __LEXICON NMN_NȬŖKÕZ__ : 204
+* Yaml: **N-nwwrkwz**
+ * __LEXICON NMN_NȬŖKÕZ-SG__ : 204
+ * __LEXICON NMN_NȬŖKÕZ-PL__ : 204
+
+
+ * __LEXICON NMN_KATŪKS__ : 205
+* Yaml: **N-katuuks**
+ * __LEXICON NMN_KATŪKS-PL__ : 205
+ * __LEXICON NMN_ĀNDÕKS__ āndõks: 206
+* Yaml: **N-aandwks**
+ * __LEXICON NMN_ĀNDÕKS-PL__ āndõks: 206
+ * __LEXICON NMN_KĒRATÕKS__ kēratõks:kēratõks 207
+* Yaml: **N-keeratwks**
+
+ * __LEXICON NMN_KĒRATÕKS-PL__ kēratõks:kēratõks 207
+
+ * __LEXICON NMN_ÄʼBȚÕKS__ äʼbțõks:äbțõks 208
+* Yaml: **N-aeqbtwks**
+
+ * __LEXICON NMN_ÄʼBȚÕKS-SG__ äʼbțõks:äbțõks 208
+
+ * __LEXICON NMN_ÄʼBȚÕKS-PL__ äʼbțõks:äbțõks 208
+
+
+ * __LEXICON NMN_VARĪKŠ__ : 209
+* Yaml: **A-krwbiizh, N-variiksh**
+ * __LEXICON NMN_VARĪKŠ-SG__ : 209
+
+ * __LEXICON NMN_VARĪKŠ-PL__ : 209
+
+
+
+ * __LEXICON NMN_UKŠ__ : 210 ukš:uks
+* Yaml: **N-uksh**
+ * __LEXICON NMN_UKŠ-SG__ : 210
+ * __LEXICON NMN_UKŠ-PL__ : 210
+
+
+211
+* Yaml: **N-laepsh** läpš:laps
+
+ * __LEXICON NMN_LÄPŠ-PL__ läpš:laps 211
+
+212
+* Yaml: **N-rishtiing**
+ * __LEXICON NMN_ROʼVZT-PL__ roʼvzt:roʼvzt 212
+
+ * __LEXICON NMN_TUʼĻ__ : 213 tuʼļ:tuʼl
+* Yaml: **N-tuqlj**
+ * __LEXICON NMN_TUʼĻ-SG__ : 213
+ * __LEXICON NMN_TUʼĻ-PL__ : 213
+
+ * __LEXICON NMN_TŪĻ__ tūļ:tūl 214
+ * __LEXICON NMN_KĒĻ__ kēļ:kīel 215
+
+ * __LEXICON NMN_KĒĻ-PL__ kēļ:kīel 215
+
+ * __LEXICON NMN_PŪOL__ : 216
+ * __LEXICON NMN_PŪOL-SG__ : 216
+
+ * __LEXICON NMN_PŪOL-PL__ : 216
+
+
+ * __LEXICON NMN_ĪKŠ__ : 217
+ * __LEXICON NMN_ĪKŠ-SG__ : 217
+ * __LEXICON NMN_ĪKŠ-PL__ : 217
+
+
+ * __LEXICON NMN_KAKŠ__ : 218
+ * __LEXICON NMN_KAKŠ-SG__ : 218
+ * __LEXICON NMN_KAKŠ-PL__ : 218
+
+
+ * __LEXICON NMN_ŪŽ__ : 219 ūž:ūd
+* Yaml: **A-uuzh**
+word-final consonant palatalization (ž): Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
+ * __LEXICON NMN_ŪŽ-SG__ : 219
+
+ * __LEXICON NMN_ŪŽ-PL__ : 219
+
+
+
+ * __LEXICON NMN_SĒŅ__ sēņ:sēn 220
+Sg_Nom = consonant-final 1-syllable word
+word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
+Diphthong realized as mid long vowel: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
+
+ * __LEXICON NMN_SĒŅ-PL__ sēņ:sēn 211
+
+
+ * __LEXICON NMN_JŪŖ__ : jūŗ:jūr 221 
+Sg_Nom = consonant-final 1-syllable word
+word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
+ * __LEXICON NMN_JŪŖ-SG__ jūŗ:jūr 221
+
+ * __LEXICON NMN_JŪŖ-PL__ : 221
+ * __PL-INS_DKÕKS-STEM ;		__ jūrd
+
+ * __LEXICON NMN_SŪR__ : 222
+
+ * __LEXICON NMN_SŪR-PL__ sūr:sūr 211
+
+ * __LEXICON NMN_SĒR__ : 223
+ * __LEXICON NMN_SĒR-SG__ : 223
+ * __LEXICON NMN_SĒR-PL__ : 223
+
+
+ * __LEXICON NMN_BIRKOV__ : 224 birkov:birkov
+ * __LEXICON NMN_BIRKOV-SG__ : 224
+ * __LEXICON NMN_BIRKOV-PL__ : 224
+
+
+
+225
+
+
+
+ * __LEXICON NMN_UMĀRZ__ 226 umārz:umār
+
+
+226, 227, 228
+ * __LEXICON NMN_DULLÕNZ__ dullõnz:dullõn 227
+ * __LEXICON NMN_DULLÕNZ-SG__ dullõnz:dullõn 227
+
+ * __LEXICON NMN_DULLÕNZ-PL__ dullõnz:dullõn 227
+
+ * __LEXICON NMN_AʼBBÕNZ-SG__ aʼbbõnz:aʼbbõn 228
+
+ * __LEXICON NMN_AʼBBÕNZ-PL__ aʼbbõnz:aʼbbõn 228
+
+ * __LEXICON NMN_AŅGÕRZ__ : aņgõrz:aņgõr 229
+
+ * __LEXICON NMN_AŅGÕRZ-PL__ : aņgõrz:aņgõr 229
+
+ * __LEXICON NMN_KAʼGGÕRZ__ kaʼggõrz:kaʼggõr 230
+
+
+ * __LEXICON NMN_PǞGIŅŽ__ pǟgiņž:pǟgiņ 231
+
+ * __LEXICON NMN_PǞGIŅŽ-PL__ pǟgiņž:pǟgiņ 231
+ * __LEXICON NMN_VAGĀŖ__ vagāŗ:vagār 232
+
+ * __LEXICON NMN_VAGĀŖ-PL__ vagāŗ:vagār 232
+
+ * __LEXICON NMN_KŪOLÕN__ kūolõn:kūolõn 232
+
+ * __LEXICON NMN_KŪOLÕN-PL__ kūolõn:kūolõn 232
+
+233
+
+
+ * __LEXICON NMN_PĒGAL__ pēgal:pēgal 234
+
+
+ * __LEXICON NMN_APPÕN__ appõn:appõn 235
+
+ * __LEXICON NMN_APPÕN-PL__ appõn:appõn 235
+
+ * __LEXICON NMN_ǬʼRÕN__ ǭʼrõn:ǭrõn 236
+
+ * __LEXICON NMN_ǬʼRÕN-SG__ ǭʼrõn:ǭrõn 236
+
+ * __LEXICON NMN_ǬʼRÕN-PL__ ǭʼrõn:ǭrõn 236
+
+
+ * __LEXICON NMN_KĪNDÕR__ kīndõr:kīndõr 237
+
+
+ * __LEXICON NMN_KĪNDÕR-PL__ kīndõr:kīndõr 237
+
+ * __LEXICON NMN_BÄʼZMÕR-SG__ bäʼzmõr:bäʼzmõr 238
+
+ * __LEXICON NMN_BÄʼZMÕR-PL__ bäʼzmõr:bäʼzmõr 238
+
+
+ * __LEXICON NMN_TARĪĻ__ tarīļ:tarīļ 239
+
+ * __LEXICON NMN_TARĪĻ-PL__ tarīļ:tarīļ 239
+
+ * __LEXICON NMN_ĀNKAŖ__ ānkaŗ:ānkaŗ 240
+
+
+
+
+ * __LEXICON NMN_ǬʼBIĻ__ ǭʼbiļ:ǭbiļ 242
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SG-DAT	;
+SG-ELA	;
+SG-ILL	;
+SG-INS	;
+SG-PAR	;
+
+
+
+## NUMBER AND CASE
+
+
+
+
+
+
+
+
+above as pair in SG-ELA/INE_st; 2014 jaska
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON PL-DAT_õn__ This is peculiar to NMN_PŪOL-PL 216,219
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON PL-INS_kõks__ This is peculiar to NMN_PŪOL-PL  216
+
+
+
+
+
+
+
+
+
+
+
+
+
+A trigger for z:ž will be required
+
+
+
+
