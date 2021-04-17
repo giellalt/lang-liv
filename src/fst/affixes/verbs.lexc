@@ -40,7 +40,7 @@ LEXICON TV_VĪDÕ
 
 LEXICON TV_NǞʼDÕ
 !! 4 nǟʼdõ:nǟʼ
-!! * Yaml: __naeaeqdw__
+!! * Yaml: **naeaeqdw**
 +TV: V-01_NǞʼDÕ ;
 
 LEXICON IV_KǞʼDÕ
@@ -509,7 +509,7 @@ LEXICON V-AUX_PIḐĪKS
 !! 64 piḑīks:piḑī
 : K ;
 
-!! !!After transitive, intransitive, auxiliary and such tags have been added
+!! ## After transitive, intransitive, auxiliary and such tags have been added
 !! 1
 
 !! 2
@@ -578,7 +578,7 @@ LEXICON V-01_NǞʼDÕ !!= @CODE@ 4
 !!5
 
 LEXICON V-01_SĪEDÕ !!= @CODE@ : 7 sīedõ:sīe
-!! * Yaml: __siiedw__
+!! * Yaml: **siiedw**
 :d   GER_sõ   ;
    INF_dõ	  ;
    SUP_mõ       ;
@@ -817,24 +817,24 @@ LEXICON V-01_AʼILÕ
  GER_s   ;
 !! Ger, Ger_Ine
 
- INF_ZERO	  ; !!≈ * __@CODE@__ aʼilõ
+ INF_ZERO	  ; !!≈ * **@CODE@** aʼilõ
 !! Inf
 
- SUP-STEM_m	  ; !!≈ * __@CODE@__ aʼilõ-
+ SUP-STEM_m	  ; !!≈ * **@CODE@** aʼilõ-
 !! Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
 !! Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
 !! Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
 
-: INDPRSSG1-STEM    ;	!!≈ * __@CODE@__ aʼilõ-
+: INDPRSSG1-STEM    ;	!!≈ * **@CODE@** aʼilõ-
 !! Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
 
-:%^VowsRM	INDCONNEGSG    ; !!≈ * __@CODE@__ aʼil-
+:%^VowsRM	INDCONNEGSG    ; !!≈ * **@CODE@** aʼil-
 !! Ind+ConNeg+Sg
 
-:%^VowsRM%>i INDPRT_z    ; !!≈ * __@CODE@__ aʼili-
+:%^VowsRM%>i INDPRT_z    ; !!≈ * **@CODE@** aʼili-
 !! Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
 
- COND		; !!≈ * __@CODE@__ aʼilõ-
+ COND		; !!≈ * **@CODE@** aʼilõ-
 !! Cond...
 :%^VowsRM IMPRTSG2/IMPRTCONNEGSG2 ;
 !! Imprt+Sg2, Imprt+ConNeg+Sg2
@@ -848,11 +848,11 @@ JUS_g ;
 :%^VowsRM QUO-STEM_iji ;
 !! Quo+Sg3, Quo+Pl3, Der/VN -mi
 
- ACTPRFPRC_n ; !!≈ * __@CODE@__ aʼilõ%>n
+ ACTPRFPRC_n ; !!≈ * **@CODE@** aʼilõ%>n
 !! +Act+PrfPrc
 
-:%^VowsRM PSSPRSPRC ;	!!≈ * __@CODE@__ aʼil-
-:%^VowsRM PSSPRFPRCSG ; !!≈ * __@CODE@__ aʼil-
+:%^VowsRM PSSPRSPRC ;	!!≈ * **@CODE@** aʼil-
+:%^VowsRM PSSPRFPRCSG ; !!≈ * **@CODE@** aʼil-
 
 
 !!
