@@ -8,10 +8,10 @@
 # dir/filename.lexc => filename-dir.md
 
 MD_PAGES=\
-		  root-morphology.md 	 \
+		  root-morphology.md         \
 		  adjectives-affixes.md      \
-		  nouns-affixes.md 	\
-		  verbs-affixes.md \
+		  nouns-affixes.md           \
+		  verbs-affixes.md           \
 		  phonology-morphology.md 
 # clitics-morphology.md       \
 # compounding-morphology.md   \
@@ -35,4 +35,5 @@ MD_PAGES=\
 # verbs-stems.md              \
 # adjectives-oahpa-affixes.md \
 # propernouns-affixes.md      
+
 include $(top_srcdir)/../giella-core/am-shared/docs-dir-include.am

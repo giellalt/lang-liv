@@ -405,10 +405,10 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 MD_PAGES = \
-		  root-morphology.md 	 \
+		  root-morphology.md         \
 		  adjectives-affixes.md      \
-		  nouns-affixes.md 	\
-		  verbs-affixes.md \
+		  nouns-affixes.md           \
+		  verbs-affixes.md           \
 		  phonology-morphology.md 
 
 
