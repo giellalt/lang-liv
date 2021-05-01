@@ -359,24 +359,24 @@ Cond
 
 Ger, Ger_Ine
 
- * **INF_ZERO	 ;** aʼilõ
+ * **INF_ZERO ;** aʼilõ
 Inf
 
- * **SUP-STEM_m	 ;** aʼilõ-
+ * **SUP-STEM_m ;** aʼilõ-
 Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
 Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
 Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
 
- * **: INDPRSSG1-STEM ;	** aʼilõ-
+ * **: INDPRSSG1-STEM ;** aʼilõ-
 Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
 
- * **:%^VowsRM	INDCONNEGSG ;** aʼil-
+ * **:%^VowsRM INDCONNEGSG ;** aʼil-
 Ind+ConNeg+Sg
 
  * **:%^VowsRM%>i INDPRT_z ;** aʼili-
 Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
 
- * **COND		;** aʼilõ-
+ * **COND ;** aʼilõ-
 Cond...
 Imprt+Sg2, Imprt+ConNeg+Sg2
 
@@ -389,7 +389,7 @@ Quo+Sg3, Quo+Pl3, Der/VN -mi
  * **ACTPRFPRC_n ;** aʼilõ%>n
 +Act+PrfPrc
 
- * **:%^VowsRM PSSPRSPRC ;	** aʼil-
+ * **:%^VowsRM PSSPRSPRC ;** aʼil-
  * **:%^VowsRM PSSPRFPRCSG ;** aʼil-
 
 

@@ -14,20 +14,20 @@ in this system in terms of the symbols declared below.
 
 
 ## The parts-of-speech are:
- * **+A 	** = adjective
- * **+Adp 	** = adposition
- * **+Adv 	** = adverb
- * **+CS 	** = subordinating conjunction
- * **+CC 	** = coordinating conjunction
+ * **+A** = adjective
+ * **+Adp** = adposition
+ * **+Adv** = adverb
+ * **+CS** = subordinating conjunction
+ * **+CC** = coordinating conjunction
  * **+Interj** = interjection
- * **+N 	** = noun
- * **+Num 	** = numeral
- * **+Pcle 	** = particle
- * **+Pr 	** = preposition
- * **+Po 	** = postposition
- * **+Pron 	** = pronoun
- * **+Qnt 	** = quantifier
- * **+V 	** = verb
+ * **+N** = noun
+ * **+Num** = numeral
+ * **+Pcle** = particle
+ * **+Pr** = preposition
+ * **+Po** = postposition
+ * **+Pron** = pronoun
+ * **+Qnt** = quantifier
+ * **+V** = verb
 
 Parts of speech are further split up into:
 
@@ -124,10 +124,10 @@ Other verb forms are
  * **+Inf** = infinitive
  * **+Neg** = verb of negation эзь, аволь, иля
  * **+Prc** = participle CHECK! how is this used ?
- * **+PrsPrc	**
- * **+PrfPrc	**
- * **+Sup	**
- * **+VGen	**
+ * **+PrsPrc**
+ * **+PrfPrc**
+ * **+Sup**
+ * **+VGen**
  * **+VAbess**
  * **+Aux** = Auxiliary verb
 
@@ -296,8 +296,8 @@ source and target part-of-speech.
  * **+V→N**
  * **+V→V**
  * **+V→A**
- * **+Der/xxx	**
- * **+Der/A	** for example present participle to adjective
+ * **+Der/xxx**
+ * **+Der/A** for example present participle to adjective
  * **+Der/VN**
 
 
@@ -333,7 +333,7 @@ And following triggers to control variation
  * **%^1Sh2L** =
  * **%^D2T** d:t veʼž:veʼd:vietā
  * **%^PreI** i:0 veʼž:veʼd:vietā
- * **%^VowShIn1	** This causes vowel shortening in 1. syll
+ * **%^VowShIn1** This causes vowel shortening in 1. syll
 accompanied by coda consonant lengthening
  * **%^A2ÕIn2** This causes 2. syll a => õ
  * **%^ConsSh** =
@@ -356,8 +356,8 @@ accompanied by coda consonant lengthening
  * **%^RVows** = Vowel raising
  * **%^VowsMetath** = vowel metathesis in verbs
  * **%^VowsMRM** Vow in middle ētam:eitmõd
- * **%^VowsRM	** =
- * **%^ConsRM	** =
+ * **%^VowsRM** =
+ * **%^ConsRM** =
  * **%^StodRM** = for removing Stød
  * **%^PalatalizeLeft** =
  * **%^VowsL1aToǭ** = a >> ǭ
@@ -397,22 +397,22 @@ given the proper use of these flags.
 The word forms in Livonian start from the lexeme roots of basic
 word classes
 
- * **adjectives ;	**
- * **adpositions ;	**
- * **adverbs ;		**
- * **conjunctors	;	**
- * **interjections ;	**
- * **nouns ;		**
- * **particles ;	**
- * **pronouns ;	**
- * **propernouns ;	**
- * **quantifiers ;	**
- * **verbs ;		**
- * **Abbreviation	;	**
- * **Acronym		;	**
- * **Punctuation		;**
- * **Symbols ; 	**
- * **EXCEPTIONS		;**
+ * **adjectives ;**
+ * **adpositions ;**
+ * **adverbs ;**
+ * **conjunctors ;**
+ * **interjections ;**
+ * **nouns ;**
+ * **particles ;**
+ * **pronouns ;**
+ * **propernouns ;**
+ * **quantifiers ;**
+ * **verbs ;**
+ * **Abbreviation ;**
+ * **Acronym ;**
+ * **Punctuation ;**
+ * **Symbols ;**
+ * **EXCEPTIONS ;**
  * **A_NEWWORDS ;** This is for feeding new adjectives
  * **ADV_NEWWORDS ;** This is for feeding new adverbs
  * **N_NEWWORDS ;** This is for feeding new nouns

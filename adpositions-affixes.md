@@ -1,0 +1,10 @@
+Adjective inflection
+The UNDEFINED language adjectives compare.
+
+
+
+
+
+
+
+

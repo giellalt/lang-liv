@@ -1,669 +1,3 @@
-
-Morphology
-
-# INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF LIVONIAN.
-
-
-
-## List of the multichar symbols
-
-The morphological analyses of wordforms in Livonian are presented
-in this system in terms of the symbols declared below.
-
-(It is highly suggested to follow existing GiellaLT standards when adding new tags).
-
-
-## The parts-of-speech are:
- * **+A 	** = adjective
- * **+Adp 	** = adposition
- * **+Adv 	** = adverb
- * **+CS 	** = subordinating conjunction
- * **+CC 	** = coordinating conjunction
- * **+Interj** = interjection
- * **+N 	** = noun
- * **+Num 	** = numeral
- * **+Pcle 	** = particle
- * **+Pr 	** = preposition
- * **+Po 	** = postposition
- * **+Pron 	** = pronoun
- * **+Qnt 	** = quantifier
- * **+V 	** = verb
-
-Parts of speech are further split up into:
-
-## Nouns
-
- * **+Prop** = proper nouns
-
-## Pronouns
-
- * **+Dem** = demonstrative
- * **+Indef** = indefinite
- * **+Interr** = interrogative
- * **+Pers** = personal
- * **+Recipr** = reciprocal
- * **+Refl** = reflexive
- * **+Rel** = relative
-
-Nominals are inflected for Number and Case
-
-## Number
- * **+Sg** = singular
- * **+Pl** = plural
-
-## Case
- * **+Abe** = abessive
- * **+Abl** = ablative case
- * **+Ade** = adessive
- * **+All** = allative
- * **+Dat** = dative case
- * **+Ela** = elative
- * **+Ess** = essive
- * **+Exe** = essive
- * **+Gen** = genitive case
- * **+Ill** = illative
- * **+Ine** = inessive
- * **+Ins** = instrumental -KÕKS
- * **+Instr** = instructive -IN
- * **+Lat** = Lative
- * **+Nom** = nominative case
- * **+Par** = partitive
- * **+Prl** = prolative
- * **+Tra** = translative
- * **+Voc** = Vocative
-
-
-Possession is marked as such:
-
- * **+PxSg1**
- * **+PxSg2**
- * **+PxSg3**
- * **+PxPl1**
- * **+PxPl2**
- * **+PxPl3**
-
-The comparative forms are:
-
- * **+Pos**
- * **+Comp**
- * **+Superl**
-
-Numerals are classified under:
-
- * **+Attr**
- * **+Card**
- * **+Ord**
-
-Verb moods are:
- * **+Cond** = conditional
- * **+Ind** = indicative
- * **+Imprt** = imperative
- * **+ImprtII**
- * **+Jus** = jussitive
- * **+Quo** = quotative, quoted speech
-
-Tenses
- * **+Prs**
- * **+Prt**
-
-Voice
- * **+Act** = active
- * **+Pss** = passive
-
-Verb personal forms are:
- * **+Sg1** = first person singular conjugation
- * **+Sg2** = second person singular conjugation
- * **+Sg3** = third person singular conjugation
- * **+Pl1** = first person plural conjugation
- * **+Pl2** = second person plural conjugation
- * **+Pl3** = third person plural conjugation
-
-Other verb forms are
- * **+ConNeg** = connegative, main verb complement to Neg,
- * **+Ger** = gerund
- * **+Inf** = infinitive
- * **+Neg** = verb of negation эзь, аволь, иля
- * **+Prc** = participle CHECK! how is this used ?
- * **+PrsPrc	**
- * **+PrfPrc	**
- * **+Sup	**
- * **+VGen	**
- * **+VAbess**
- * **+Aux** = Auxiliary verb
-
-## Verbs are syntactically split according to transitivity:
-
- * **+TV** = Transitive verb
- * **+IV** = Intransitive verb
-
-## Usage extents are marked using following tags:
- * **+Err/Orth**
- * **+Use/-Spell**
- * **+Use/NG** no generation
-
-
-Abbreviated words are classified with:
- * **+ABBR** containing period
- * +Symbol = independent symbols in the text stream, like £, €, ©
- * **+ACR** acronyms, not containing period
-
-Special symbols are classified with:
- * **+CLB**
- * **+PUNCT**
- * **+LEFT**
- * **+RIGHT**
-
-Special multiword units are analysed with:
- * **+Multi**
-
-### Normative/prescriptive compounding tags
-
-(to govern compound behaviour for the speller, ie what a compound SHOULD BE):
-
-The first part of the component may be ..
-
- * +CmpN/Sg Sg
- * +CmpN/SgN SgNominative
- * +CmpN/SgG SgGenitive
- * +CmpN/PlG PlGenitive
-
-
-This entry / word can ...
-
- * +CmpNP/All - ... be in all positions, **default**, this tag does not have to be written
- * +CmpNP/First - ... only be first part in a compound or alone
- * +CmpNP/Pref - ... only **first** part in a compound, NEVER alone
- * +CmpNP/Last - ... only be last part in a compound or alone
- * +CmpNP/Suff - ... only **last** part in a compound, NEVER alone
- * +CmpNP/None - ... not take part in compounds
- * +CmpNP/Only - ... only be part of a compound, i.e. can never
-                 be used alone, but can appear in any position
-
-
-
-Non-dictionary words can be recognised with:
- * **+Guess**
-
-Question and Focus particles:
- * **+Qst**
- * **+Foc**
-
-
- * **+Sem/Act** Activity
- * **+Sem/Amount** Amount
- * **+Sem/Ani** Animate
- * **+Sem/Aniprod** Animal Product
- * **+Sem/Body** Bodypart
- * **+Sem/Body-abstr** siellu, vuoig?a, jierbmi
- * **+Sem/Build** Building
- * **+Sem/Build-part** Part of Bulding, like the closet
- * **+Sem/Cat** Category
- * **+Sem/Clth** Clothes
- * **+Sem/Clth-jewl** Jewelery
- * **+Sem/Clth-part** part of clothes, boallu, sávdnji...
- * **+Sem/Ctain** Container
- * **+Sem/Ctain-abstr** Abstract container like bank account
- * **+Sem/Ctain-clth**
- * **+Sem/Curr** Currency like dollár, Not Money
- * **+Sem/Dance** Dance
- * **+Sem/Dir** Direction like GPS-kursa
- * **+Sem/Domain** Domain like politics, reindeerherding (a system of actions)
- * **+Sem/Drink** Drink
- * **+Sem/Dummytag** Dummytag
- * **+Sem/Edu** Educational event
- * **+Sem/Event** Event
- * **+Sem/Feat** Feature, like Árvu
- * **+Sem/Feat-phys** Physiological feature, ivdni, fárda
- * **+Sem/Feat-psych** Psychological feauture
- * **+Sem/Feat-measr** Psychological feauture
- * **+Sem/Fem** Female name
- * **+Sem/Food** Food
- * **+Sem/Food-med** Medicine
- * **+Sem/Furn** Furniture
- * **+Sem/Game** Game
- * **+Sem/Geom** Geometrical object
- * **+Sem/Group** Animal or Human Group
- * **+Sem/Hum** Human
- * **+Sem/Hum-abstr** Human abstract
- * **+Sem/Ideol** Ideology
- * **+Sem/Lang** Language
- * **+Sem/Mal** Male name
- * **+Sem/Mat** Material for producing things
- * **+Sem/Measr** Measure
- * **+Sem/Money** Has to do with money, like wages, not Curr(ency)
- * **+Sem/Obj** Object
- * **+Sem/Obj-clo** Cloth
- * **+Sem/Obj-cogn** Cloth
- * **+Sem/Obj-el** (Electrical) machine or apparatus
- * **+Sem/Obj-ling** Object with something written on it
- * **+Sem/Obj-rope** flexible ropelike object
- * **+Sem/Obj-surfc** Surface object
- * **+Sem/Org** Organisation
- * **+Sem/Part** Feature, oassi, bealli
- * **+Sem/Perc-cogn** Cognative perception
- * **+Sem/Perc-emo** Emotional perception
- * **+Sem/Perc-phys** Physical perception
- * **+Sem/Perc-psych** Physical perception
- * **+Sem/Plant** Plant
- * **+Sem/Plant-part** Plant part
- * **+Sem/Plc** Place
- * **+Sem/Plc-abstr** Abstract place
- * **+Sem/Plc-elevate** Place
- * **+Sem/Plc-line** Place
- * **+Sem/Plc-water** Place
- * **+Sem/Pos** Position (as in social position job)
- * **+Sem/Process** Process
- * **+Sem/Prod** Product
- * **+Sem/Prod-audio** Audio product
- * **+Sem/Prod-cogn** Cognition product
- * **+Sem/Prod-ling** Linguistic product
- * **+Sem/Prod-vis** Visual product
- * **+Sem/Rel** Relation
- * **+Sem/Route** Name of a Route
- * **+Sem/Rule** Rule or convention
- * **+Sem/Semcon** Semantic concept
- * **+Sem/Sign** Sign (e.g. numbers, punctuation) 
- * **+Sem/Sport** Sport
- * **+Sem/State** 
- * **+Sem/State-sick** Illness
- * **+Sem/Substnc** Substance, like Air and Water
- * **+Sem/Sur** Surname
- * **+Sem/Symbol** Symbol
- * **+Sem/Time** Time
- * **+Sem/Tool** Prototypical tool for repairing things
- * **+Sem/Tool-catch** Tool used for catching (e.g. fish)
- * **+Sem/Tool-clean** Tool used for cleaning
- * **+Sem/Tool-it** Tool used in IT
- * **+Sem/Tool-measr** Tool used for measuring
- * **+Sem/Tool-music** Music instrument
- * **+Sem/Tool-write** Writing tool
- * **+Sem/Txt** Text (girji, lávlla...)
- * **+Sem/Veh** Vehicle
- * **+Sem/Wpn** Weapon
- * **+Sem/Wthr** The Weather or the state of ground
-
-
-
-
-
-Semantics are classified with
-
-
-
-Derivations are classified under the morphophonetic form of the suffix, the
-source and target part-of-speech.
-
- * **+V→N**
- * **+V→V**
- * **+V→A**
- * **+Der/xxx	**
- * **+Der/A	** for example present participle to adjective
- * **+Der/VN**
-
-
-## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
-```
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
-```
-
-
-# Morphophonology
-
-To represent phonologic variations in word forms we use the following
-symbols in the lexicon files:
-
- * {aä} back/front a
- * {oö} back/front o
- *  {uü}  back/front u
-*  {uü}  for consonant lengthening
-
-And following triggers to control variation
- *  %^PenVV2V  penultimate vowel shortening
-
- *  %^ĪE2Ē   kēļ:kīel
-
-
- * {front} = front vowels
- * {back} = back vowels
- * **%^Tense** = Tense stem will have stød if proper stem type
- * **%^ConsL** = Consonant lengthening
- * **%^1Sh2L** =
- * **%^D2T** d:t veʼž:veʼd:vietā
- * **%^PreI** i:0 veʼž:veʼd:vietā
- * **%^VowShIn1	** This causes vowel shortening in 1. syll
-accompanied by coda consonant lengthening
- * **%^A2ÕIn2** This causes 2. syll a => õ
- * **%^ConsSh** =
- * **%^Stress1to2** =
- * **%^Stress2to1** =
- * **%^VowsSh1** = vowel shortening in first syllable
- * **%^VowsShU1** =
- * **%^VowsShI1** =
- * **%^DiphthSh1** =
- * **%^VowsLI1** = Vowel lengthening
- * **%^VowsLU1** =
- * **%^VowsL1** =
- * **%^LongV2Õin2** = long vowel to õ in second syllable
- * **%^Vow2Iin2** = vowel to i or ī in second syllable
- * **%^VowsõToi** kīndõr:kīndiriž
- * **%^DiphthL1** =
- * **%^D2Ž** = The *ti => *si
- * **%^D2ZERO** The d => 0
- *  %^LowerVows    lower vowel
- * **%^RVows** = Vowel raising
- * **%^VowsMetath** = vowel metathesis in verbs
- * **%^VowsMRM** Vow in middle ētam:eitmõd
- * **%^VowsRM	** =
- * **%^ConsRM	** =
- * **%^StodRM** = for removing Stød
- * **%^PalatalizeLeft** =
- * **%^VowsL1aToǭ** = a >> ǭ
-
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
-
-
-
-## Root lexicon
-
-The word forms in Livonian start from the lexeme roots of basic
-word classes
-
- * **adjectives ;	**
- * **adpositions ;	**
- * **adverbs ;		**
- * **conjunctors	;	**
- * **interjections ;	**
- * **nouns ;		**
- * **particles ;	**
- * **pronouns ;	**
- * **propernouns ;	**
- * **quantifiers ;	**
- * **verbs ;		**
- * **Abbreviation	;	**
- * **Acronym		;	**
- * **Punctuation		;**
- * **Symbols ; 	**
- * **EXCEPTIONS		;**
- * **A_NEWWORDS ;** This is for feeding new adjectives
- * **ADV_NEWWORDS ;** This is for feeding new adverbs
- * **N_NEWWORDS ;** This is for feeding new nouns
- * **PROP_NEWWORDS ;** This is for feeding new propernouns
- * **V_NEWWORDS ;** This is for feeding new verbs
- * **QUESTIONABLEMISC_NEWWORDS ;** This is for feeding new words of questionable status
-
-Lexica for words that are not inflected
-
-These are but here for the time being
-
-adverb lexicon
-
- * LEXICON ADV_KĒRATÕKS
-
- * LEXICON ADV_KǬRAND
-
- * LEXICON ADV_IRM
-
-Interjections lexicon
-
-pcle-mod lexicon
-
-pcle-lexicon
-
-This is used in compounding, e.g. äʼb-:äʼb
-
- * **LEXICON K** is the clitic lexicon, but no clitica here, only #.
-
-# Adjective inflection
-
-Livonian adjectives compare.
-
-modifiers that do not decline
-
-
-## Stem lexica
-
- LEXICON A_PŪ  contains pū: 12
-
-
- LEXICON A_BRĪ  contains brī:brī 16
-
- LEXICON A_KALĀ   contains  kalā:kaʼlā 18
-
- LEXICON A_TUBĀ  tubā:tuʼbā 19
-
- LEXICON A_AIGĀ  aigā:aigā 20
-
-
- LEXICON A_KŪJA  kūja:??lēba 21
-
- LEXICON A_IZĀ  izā:izā 25
-
- LEXICON A_OKSĀ  oksā:oksā 30
-
- LEXICON A_ĀIGA  āiga:āiga 33
-
- LEXICON A_SĪLMA  sīlma:sīlma 34
-
- LEXICON A_PADĀ  padā:padā 39
-
- LEXICON A_KÄPĀ  käpā:käpā 41
-
- LEXICON A_MAKSĀ  maksā:maksā 42
-
- LEXICON A_KĒRA  kēra:kēra 43
-
- LEXICON A_JǬRA  jǭra:jǭra 44
-
-
- LEXICON A_ĀITA  āita:āita 46
-
- LEXICON A_ŪŠKA  ūška:ūška 47
-
- LEXICON A_MȬKA  mȭka:mȭka 48
-
- LEXICON A_DADŽĀ  dadžā:dadžā 49
-
- LEXICON A_TĪERA  tīera:tīera 54
-
- LEXICON A_LILLA  kuțā:kuțā 57
-
-
- LEXICON A_KIʼV  kiʼv:kiv 59
-
- LEXICON A_PIʼŅ  piʼņ:piņ 64
-
- LEXICON A_OKŠ  : 68
-
- LEXICON A_KAŠ  : 69
-
- LEXICON A_TORĪ  torī: 71
-
- LEXICON A_KÕʼL  kõʼl:kõl 73
-
- LEXICON A_NIʼM  niʼm:nim 76
-
- LEXICON A_KAND  kand: 94
-
- LEXICON A_UL  ul: 99
-
- LEXICON A_NIŖȚ  niŗț: 102
-
- LEXICON A_DAŅTŠ  daņtš: 105
-
- LEXICON A_TÄUŽ  täuž: adres 112
-
- LEXICON A_SIELDÕ  sieldõ: 118
-
- LEXICON A_NǬʼGÕ  nǭʼgõ:nǭgõ 119
-
- LEXICON A_AŠŠÕ  : 120
-
- LEXICON A_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
-
- LEXICON A_IRM  : 125
-
- LEXICON A_KIM  : 126
-
- LEXICON A_VAʼIT  vaʼit:vait 128
-
- LEXICON A_AMĀT  : 129
-
- LEXICON A_SAʼGDIT  saʼgdit:sagdit 131
-
- LEXICON A_VIĻȚ  : 132
-
- LEXICON A_EĻ  eļ: 133
-
- LEXICON A_BLĒʼḐ  blēʼḑ:blēḑ 134
-
- LEXICON A_FAKT  : 135
-
- LEXICON A_SĪEND  sīend: 138
-
- LEXICON A_LǞʼND  lǟʼnd:lǟnd 139
-
- LEXICON A_ĀIGAST  āigast: 140
-
- LEXICON A_ANALĪZ  analīz: 141
-
- LEXICON A_NĪʼEM  nīʼem:nīem 142
-
- LEXICON A_VIŠ  : 144
-
- LEXICON A_SIDĀM  : 157
-
- LEXICON A_TŪOITÕG  : 158
-
- LEXICON A_KǬRAND  kǭrand: 159
-* Yaml: **armtõb**
-
- LEXICON A_ȬʼDÕG  ȭʼdõg:ȭdõg 160
-
- LEXICON A_TAPTÕD  taptõd: 161
-
- LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
-
-
- LEXICON A_KÄBRĀZ  : 168
-
- LEXICON A_MAIGĀZ  : 169
-
- LEXICON A_NÕTKĀZ  : 170
-
- LEXICON A_RIKĀZ  : 171
-
- LEXICON A_ĀMBAZ  āmbaz:āmba 173
-
- LEXICON A_PŪŖAZ  : 174
-
- LEXICON A_PǬĻAZ  : 175
-
- LEXICON A_MÕTKÕZ  mõtkõz: 179
-
- LEXICON A_VȬRÕZ  vȭrõz: 180
-
- LEXICON A_ARĀGÕZ  : 181
-
- LEXICON A_ÄʼGGÕZ  ä'ggõz:äggõz 182
-
- LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
-
- LEXICON A_SĒJI  : 186 āndaji:āndaji sēji:sēji
-
- LEXICON A_AKKIJI  akkiji:akkiji 187
-
- LEXICON A_LĒʼJI  lēʼji:lēʼji 188
-
- LEXICON A_AʼIGI  aʼigi:aigi 192
-
- LEXICON A_PUʼNNI  pu'nni:punni 193
-
- LEXICON A_KAȚKI  : 194
-
- LEXICON A_KUKKI  : 195
-
- LEXICON A_AIGI  aigi:aigi 196
-
- LEXICON A_OUKI  : 197
-
- LEXICON A_PAŖĪ  : 198
-
- LEXICON A_TŪĻI  : 199
-
- LEXICON A_AʼBLI  aʼbli:abli 200
-
- LEXICON A_SĒMI  : 201
-
- LEXICON A_LĒʼMI  lē'mi:lēʼmi 202
-
- LEXICON A_ALĪZ  : 203
-
- LEXICON A_KĒRATÕKS  : 207
-
- LEXICON A_VARĪKŠ  varīkš: 209
-
- LEXICON A_ŪŽ  : 219 ūž:ūd
-
- LEXICON A_JŪŖ  jūŗ:jūr 221
-
- LEXICON A_SŪR  sūr:sūr 222
-
-
-
- LEXICON A_DULLÕNZ  dullõnz:dullõn 227
-
- LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
-
- LEXICON A_TIDĀR  tidār:tidār 233
-
- LEXICON A_APPÕN  appõn:appõn 235
-
- LEXICON A_ǬʼRÕN  ǭʼrõn:ǭrõn 236
-
- LEXICON A_KĪNDÕR  kīndõr:kīndõr 237
-
- LEXICON A_BÄʼZMÕR  bäʼzmõr:bäzmõr 238
-
- LEXICON A_TARĪĻ  tarīļ:tarīļ 239
-
- LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
-
- LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
-
-
-
-
-
-
 Livonian noun inflection
 
 
@@ -974,7 +308,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_SIELDÕ-PL** : 118
 
  * **LEXICON N_NǬʼGÕ** nǭʼgõ:nǭgõ 119
- * **LEXICON N_NǬʼGÕ-PL	** nǭʼgõ:nǭgõ 119
+ * **LEXICON N_NǬʼGÕ-PL** nǭʼgõ:nǭgõ 119
 
  * **LEXICON N_AŠŠÕ-PL** : 120
 
@@ -998,7 +332,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
  * **LEXICON N_VAʼIT** vaʼit:vait 128
 
- * **LEXICON N_VAʼIT-PL	** vaʼit:vait 128
+ * **LEXICON N_VAʼIT-PL** vaʼit:vait 128
 
  * **LEXICON N_AMĀT** : 129
 
@@ -1037,7 +371,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
  * **LEXICON N_JAĻKŠ** : 143
 
- * **LEXICON N_JAĻKŠ-PL	** : 143
+ * **LEXICON N_JAĻKŠ-PL** : 143
 
  * **LEXICON N_VIŠ** : 144 viš:viš
  * **LEXICON N_VIŠ-SG** : 144
@@ -1079,7 +413,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_ĒTAM-PL** : 156
 
  * **LEXICON N_SIDĀM** : 157
- * **LEXICON N_SIDĀM-PL	** : 157
+ * **LEXICON N_SIDĀM-PL** : 157
 
  * **LEXICON N_TŪOITÕG** : 158
 
@@ -1119,7 +453,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_PŪŖAZ** : 174
 
 
- * **LEXICON N_RĒNAZ-PL	** : 176
+ * **LEXICON N_RĒNAZ-PL** : 176
 
  * **LEXICON N_TŌVAZ** : 177
 
@@ -1155,8 +489,8 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_AKKIJI-PL** : 187
 
  * **LEXICON N_LĒʼJI** lēʼji:lēji 188
- * **LEXICON	N_LĒʼJI-SG** lēʼji:lēji 188
- * **LEXICON	N_LĒʼJI-PL** lēʼji:lēji 188
+ * **LEXICON N_LĒʼJI-SG** lēʼji:lēji 188
+ * **LEXICON N_LĒʼJI-PL** lēʼji:lēji 188
 
  * **LEXICON N_TUĻĻI** : 189
 
@@ -1165,7 +499,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_NAI** : 191
 
  * **LEXICON N_AʼIGI** aʼigi:aigi 192
- * **LEXICON N_AʼIGI-PL	** aʼigi:aigi 192
+ * **LEXICON N_AʼIGI-PL** aʼigi:aigi 192
 
  * **LEXICON N_PUʼNNI** puʼnni:punni 193
  * **LEXICON N_PUʼNNI-PL** puʼnni:punni 193
@@ -1194,8 +528,8 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
  * **LEXICON N_LĒʼMI** lēʼmi:lēʼmi 202
 
- * **LEXICON N_LĒʼMI-SG	** lēʼmi:lēʼmi 202
- * **LEXICON N_LĒʼMI-PL	** lēʼmi:lēʼmi 202
+ * **LEXICON N_LĒʼMI-SG** lēʼmi:lēʼmi 202
+ * **LEXICON N_LĒʼMI-PL** lēʼmi:lēʼmi 202
 
  * **LEXICON N_ALĪZ** : 203
  * **LEXICON N_ALĪZ-SG** : 203
@@ -2270,7 +1604,7 @@ Sg Nom=Gen: No
 
 
  * **LEXICON NMN_BIKŠĀZ-SG** : 172 bikšāz:bikšā
- * **	NMN_RIKĀZ-SG ;** : 171
+ * **NMN_RIKĀZ-SG ;** : 171
  * **LEXICON NMN_BIKŠĀZ-PL** : 172
 
 
@@ -2316,7 +1650,7 @@ Sg Nom=Gen: No
 179
 
 
- * **LEXICON NMN_VȬRÕZ	** vȭrõz:vȭrõ
+ * **LEXICON NMN_VȬRÕZ** vȭrõz:vȭrõ
 180
 Sg Nom=Gen: No
 
@@ -2422,7 +1756,7 @@ Stem change: Yes (vowel length in 1st syllable)
  * **LEXICON NMN_PAŖĪ-SG** : 198
 
  * **LEXICON NMN_PAŖĪ-PL** : 198
- * **:ž 	PL-PAR_i ;** paŗrīži ?
+ * **:ž PL-PAR_i ;** paŗrīži ?
 
 
 
@@ -2447,7 +1781,7 @@ Stem change: None
 * Yaml: **A-aqrlimi**
 
  * **LEXICON NMN_LĒʼMI-SG** lēʼmi:lēʼmi 202
- * **	 SG-PAR_t ;** Should this work for A-aqrlimi ?
+ * **SG-PAR_t ;** Should this work for A-aqrlimi ?
 
  * **LEXICON NMN_LĒʼMI-PL** lēʼmi:lēmi 202
 
@@ -2556,7 +1890,7 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
  * **LEXICON NMN_JŪŖ-SG** jūŗ:jūr 221
 
  * **LEXICON NMN_JŪŖ-PL** : 221
- * **PL-INS_DKÕKS-STEM ;		** jūrd
+ * **PL-INS_DKÕKS-STEM ;** jūrd
 
  * **LEXICON NMN_SŪR** : 222
 
@@ -2764,6 +2098,627 @@ above as pair in SG-ELA/INE_st; 2014 jaska
 
 
 A trigger for z:ž will be required
+
+
+
+
+Proper noun inflection
+Livonian proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+Stem lexica
+ LEXICON PROP_PŪ  contains pū: 12
+
+ LEXICON PROP_PŪ-SG  contains pū: 12
+
+
+
+
+
+
+ LEXICON PROP_KALĀ   contains  kalā:kalā 18
+
+ LEXICON PROP_KALĀ-SG   contains  kalā:kalā 18
+
+ LEXICON PROP_TUBĀ  tubā:tubā 19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON PROP_VĒNA  vēna:vēna 37
+
+
+ LEXICON PROP_PADĀ  padā:padā 39
+
+
+
+
+
+ LEXICON PROP_JǬRA  jǭra:jǭra 44
+
+ LEXICON PROP_JǬRA-PL  jǭra:jǭra 44
+
+
+ LEXICON PROP_ĀITA  āita:āita 46
+
+ LEXICON PROP_ŪŠKA  ūška:ūška 47
+
+
+ LEXICON PROP_DADŽĀ  dadžā:dadžā 49
+
+
+
+
+
+
+ LEXICON PROP_KRǬIPA  krǭipa:krǭipa 55
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON PROP_DUŅTŠ  : 70
+
+
+ LEXICON PROP_NIʼM  niʼm:niʼm 76
+
+ LEXICON PROP_NIʼM-PL  niʼm:niʼm 76
+
+
+ LEXICON PROP_TUP  tup:tup 79
+
+
+
+
+
+
+ LEXICON PROP_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+
+
+
+ LEXICON PROP_KǬJ  : 123
+
+
+ LEXICON PROP_KIM  : 126
+
+ LEXICON PROP_KIM-SG  : 126
+
+
+ LEXICON PROP_VAʼIT  vaʼit:vait 128
+
+ LEXICON PROP_AMĀT  : 129
+
+ LEXICON PROP_KULTŪR  : 130
+
+ LEXICON PROP_VIĻȚ  : 132
+
+
+ LEXICON PROP_FAKT  fakt:fakt 135
+
+ LEXICON PROP_FAKT-SG  fakt:fakt 135
+
+
+ LEXICON PROP_ĀIGAST  : 140
+
+ LEXICON PROP_ANALĪZ  : 141
+
+
+ LEXICON PROP_NĪʼEM-SG  nīʼem:nīʼem 142
+
+ LEXICON PROP_JAĻKŠ  : 143
+
+
+ LEXICON PROP_RŪʼTŠ  rūʼtš:rūʼtš 145
+
+
+
+
+
+ LEXICON PROP_SIDĀM  : 157
+
+ LEXICON PROP_TŪOITÕG  : 158
+
+ LEXICON PROP_TŪOITÕG-SG  : 158
+
+ LEXICON PROP_KǬRAND  : 159
+
+ LEXICON PROP_KǬRAND-SG  : 159
+
+ LEXICON PROP_ȬʼDÕG  ȭʼdõg:ȭʼdõg 160
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON PROP_ĀNDÕKS  : 206
+
+
+
+
+ LEXICON PROP_PŪOL  : 216
+
+
+
+
+
+
+ LEXICON PROP_SŪR  : 222
+
+
+ LEXICON PROP_BIRKOV  : 224
+
+
+ LEXICON PROP_SALĀJ-SG  : 225
+
+
+
+
+
+
+
+
+ LEXICON PROP_TIDĀR  tidār:tidār 233
+
+
+ LEXICON PROP_TIDĀR-PL  tidār:tidār 233
+
+ LEXICON PROP_PĒGAL  pēgal:pēgal 234
+
+ LEXICON PROP_APPÕN  appõn:appõn 235
+
+
+ LEXICON PROP_KĪNDÕR  kīndõr:kīndõr 237
+
+
+
+
+
+
+
+
+
+
+
+Prounoun inflection
+Livonian pronouns inflect in the same cases as regular
+nouns.
+
+
+       -    Nouns  ;
+
+ LEXICON PRON_MIS  mis:mi 1
+
+
+ LEXICON PRON_JEGĀ  jegā:jeʼgā 2
+
+
+ LEXICON PRON_MŪ  mū:m 3
+
+ LEXICON PRON_SE  se:s 4
+
+ LEXICON PRON_TÄMĀ  tämā:t 5
+
+ LEXICON PRON_NE  ne:n 4 & 5
+
+ LEXICON PRON_MINĀ  6 minā:m
+
+ LEXICON PRON_MĒG  mēg:m 6
+
+ LEXICON PRON_SINĀ  sinā:s 7
+
+ LEXICON PRON_TĒG  tēg:t 7
+
+ LEXICON PRON_KIS  kis:kī 8
+
+
+ LEXICON PRON_ĪʼŽ  9
+
+ LEXICON PRON_MIDĀGÕD  midāgõd:midāg 10
+
+
+ LEXICON PRON_MITS  11
+
+Stem lexica
+ LEXICON PRON_TUBĀ  tubā:tubā 19
+
+ LEXICON PRON_TUBĀ-PL  tubā:tubā 19
+
+ LEXICON PRON_ĀITA  āita:āita 46
+
+ LEXICON PRON_ĀIGAST  āigast: 140
+
+ LEXICON PRON_AZŪM-PL  azūm: 153
+
+ LEXICON PRON_VĪDÕZ  vīdõz: 163
+
+
+
+
+ LEXICON PRON_ĪKŠ  : 217
+
+
+
+
+# Conjunctions
+
+These need to be corrected
+
+
+Livonian conjunctors
+
+
+Livonian subjunctors
+
+
+
+Quantifier inflection
+Livonian quantifiers inflect in the same cases as other
+nominals.
+
+
+       -    Nouns  ;
+
+ LEXICON QNT_APPÕN  : 216
+
+ LEXICON QNT_PŪOL  : 216
+
+Stem lexica
+ LEXICON NUM_PADĀ  padā:padā 39
+
+ LEXICON NUM_KĒRA  kēra:kēra 43
+
+ LEXICON NUM_OKŠ  : 68
+
+
+
+
+
+
+ LEXICON NUM_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+
+ LEXICON NUM_IRM  irm: 125
+
+ LEXICON NUM_KIM  : 126 kim:kim
+
+
+ LEXICON NUM_FAKT  fakt: 135
+
+ LEXICON NUM_ĀIGAST  āigast: 140
+
+
+
+
+
+ LEXICON NUM_NAI  nai: 191
+
+
+
+
+ LEXICON NUM_ÄʼBȚÕKS  ä'bțõks:äbțõks 208
+
+ LEXICON NUM_TŪĻ  : 214
+
+
+ LEXICON NUM_ĪKŠ  : 217
+
+ LEXICON NUM_KAKŠ  : 218
+
+ LEXICON NUM_ŪŽ  : 219
+
+ LEXICON NUM_APPÕN  appõn:appõn 235
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Determiner inflection
+Livonian determiners inflect in the same cases as other
+nominals.
+
+Stem lexica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON DET_VĪDÕZ  vīdõz: 163
+
+ LEXICON DET_TUOISTÕNZ  : 164
+
+ LEXICON DET_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
+
+
+ LEXICON DET_NAI  nai: 191
+
+ LEXICON DET_TŪĻI  tūļi: 199
+
+ LEXICON DET_SĒMI  sēmi: 201
+
+
+
+
+
+
+
+
+
+
+
+
+# Adjective inflection
+
+Livonian adjectives compare.
+
+modifiers that do not decline
+
+
+## Stem lexica
+
+ LEXICON A_PŪ  contains pū: 12
+
+
+ LEXICON A_BRĪ  contains brī:brī 16
+
+ LEXICON A_KALĀ   contains  kalā:kaʼlā 18
+
+ LEXICON A_TUBĀ  tubā:tuʼbā 19
+
+ LEXICON A_AIGĀ  aigā:aigā 20
+
+
+ LEXICON A_KŪJA  kūja:??lēba 21
+
+ LEXICON A_IZĀ  izā:izā 25
+
+ LEXICON A_OKSĀ  oksā:oksā 30
+
+ LEXICON A_ĀIGA  āiga:āiga 33
+
+ LEXICON A_SĪLMA  sīlma:sīlma 34
+
+ LEXICON A_PADĀ  padā:padā 39
+
+ LEXICON A_KÄPĀ  käpā:käpā 41
+
+ LEXICON A_MAKSĀ  maksā:maksā 42
+
+ LEXICON A_KĒRA  kēra:kēra 43
+
+ LEXICON A_JǬRA  jǭra:jǭra 44
+
+
+ LEXICON A_ĀITA  āita:āita 46
+
+ LEXICON A_ŪŠKA  ūška:ūška 47
+
+ LEXICON A_MȬKA  mȭka:mȭka 48
+
+ LEXICON A_DADŽĀ  dadžā:dadžā 49
+
+ LEXICON A_TĪERA  tīera:tīera 54
+
+ LEXICON A_LILLA  kuțā:kuțā 57
+
+
+ LEXICON A_KIʼV  kiʼv:kiv 59
+
+ LEXICON A_PIʼŅ  piʼņ:piņ 64
+
+ LEXICON A_OKŠ  : 68
+
+ LEXICON A_KAŠ  : 69
+
+ LEXICON A_TORĪ  torī: 71
+
+ LEXICON A_KÕʼL  kõʼl:kõl 73
+
+ LEXICON A_NIʼM  niʼm:nim 76
+
+ LEXICON A_KAND  kand: 94
+
+ LEXICON A_UL  ul: 99
+
+ LEXICON A_NIŖȚ  niŗț: 102
+
+ LEXICON A_DAŅTŠ  daņtš: 105
+
+ LEXICON A_TÄUŽ  täuž: adres 112
+
+ LEXICON A_SIELDÕ  sieldõ: 118
+
+ LEXICON A_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+
+ LEXICON A_AŠŠÕ  : 120
+
+ LEXICON A_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
+
+ LEXICON A_IRM  : 125
+
+ LEXICON A_KIM  : 126
+
+ LEXICON A_VAʼIT  vaʼit:vait 128
+
+ LEXICON A_AMĀT  : 129
+
+ LEXICON A_SAʼGDIT  saʼgdit:sagdit 131
+
+ LEXICON A_VIĻȚ  : 132
+
+ LEXICON A_EĻ  eļ: 133
+
+ LEXICON A_BLĒʼḐ  blēʼḑ:blēḑ 134
+
+ LEXICON A_FAKT  : 135
+
+ LEXICON A_SĪEND  sīend: 138
+
+ LEXICON A_LǞʼND  lǟʼnd:lǟnd 139
+
+ LEXICON A_ĀIGAST  āigast: 140
+
+ LEXICON A_ANALĪZ  analīz: 141
+
+ LEXICON A_NĪʼEM  nīʼem:nīem 142
+
+ LEXICON A_VIŠ  : 144
+
+ LEXICON A_SIDĀM  : 157
+
+ LEXICON A_TŪOITÕG  : 158
+
+ LEXICON A_KǬRAND  kǭrand: 159
+* Yaml: **armtõb**
+
+ LEXICON A_ȬʼDÕG  ȭʼdõg:ȭdõg 160
+
+ LEXICON A_TAPTÕD  taptõd: 161
+
+ LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
+
+
+ LEXICON A_KÄBRĀZ  : 168
+
+ LEXICON A_MAIGĀZ  : 169
+
+ LEXICON A_NÕTKĀZ  : 170
+
+ LEXICON A_RIKĀZ  : 171
+
+ LEXICON A_ĀMBAZ  āmbaz:āmba 173
+
+ LEXICON A_PŪŖAZ  : 174
+
+ LEXICON A_PǬĻAZ  : 175
+
+ LEXICON A_MÕTKÕZ  mõtkõz: 179
+
+ LEXICON A_VȬRÕZ  vȭrõz: 180
+
+ LEXICON A_ARĀGÕZ  : 181
+
+ LEXICON A_ÄʼGGÕZ  ä'ggõz:äggõz 182
+
+ LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
+
+ LEXICON A_SĒJI  : 186 āndaji:āndaji sēji:sēji
+
+ LEXICON A_AKKIJI  akkiji:akkiji 187
+
+ LEXICON A_LĒʼJI  lēʼji:lēʼji 188
+
+ LEXICON A_AʼIGI  aʼigi:aigi 192
+
+ LEXICON A_PUʼNNI  pu'nni:punni 193
+
+ LEXICON A_KAȚKI  : 194
+
+ LEXICON A_KUKKI  : 195
+
+ LEXICON A_AIGI  aigi:aigi 196
+
+ LEXICON A_OUKI  : 197
+
+ LEXICON A_PAŖĪ  : 198
+
+ LEXICON A_TŪĻI  : 199
+
+ LEXICON A_AʼBLI  aʼbli:abli 200
+
+ LEXICON A_SĒMI  : 201
+
+ LEXICON A_LĒʼMI  lē'mi:lēʼmi 202
+
+ LEXICON A_ALĪZ  : 203
+
+ LEXICON A_KĒRATÕKS  : 207
+
+ LEXICON A_VARĪKŠ  varīkš: 209
+
+ LEXICON A_ŪŽ  : 219 ūž:ūd
+
+ LEXICON A_JŪŖ  jūŗ:jūr 221
+
+ LEXICON A_SŪR  sūr:sūr 222
+
+
+
+ LEXICON A_DULLÕNZ  dullõnz:dullõn 227
+
+ LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
+
+ LEXICON A_TIDĀR  tidār:tidār 233
+
+ LEXICON A_APPÕN  appõn:appõn 235
+
+ LEXICON A_ǬʼRÕN  ǭʼrõn:ǭrõn 236
+
+ LEXICON A_KĪNDÕR  kīndõr:kīndõr 237
+
+ LEXICON A_BÄʼZMÕR  bäʼzmõr:bäzmõr 238
+
+ LEXICON A_TARĪĻ  tarīļ:tarīļ 239
+
+ LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
+
+ LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
+
+
 
 
 
@@ -3129,24 +3084,24 @@ Cond
 
 Ger, Ger_Ine
 
- * **INF_ZERO	 ;** aʼilõ
+ * **INF_ZERO ;** aʼilõ
 Inf
 
- * **SUP-STEM_m	 ;** aʼilõ-
+ * **SUP-STEM_m ;** aʼilõ-
 Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
 Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
 Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
 
- * **: INDPRSSG1-STEM ;	** aʼilõ-
+ * **: INDPRSSG1-STEM ;** aʼilõ-
 Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
 
- * **:%^VowsRM	INDCONNEGSG ;** aʼil-
+ * **:%^VowsRM INDCONNEGSG ;** aʼil-
 Ind+ConNeg+Sg
 
  * **:%^VowsRM%>i INDPRT_z ;** aʼili-
 Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
 
- * **COND		;** aʼilõ-
+ * **COND ;** aʼilõ-
 Cond...
 Imprt+Sg2, Imprt+ConNeg+Sg2
 
@@ -3159,7 +3114,7 @@ Quo+Sg3, Quo+Pl3, Der/VN -mi
  * **ACTPRFPRC_n ;** aʼilõ%>n
 +Act+PrfPrc
 
- * **:%^VowsRM PSSPRSPRC ;	** aʼil-
+ * **:%^VowsRM PSSPRSPRC ;** aʼil-
  * **:%^VowsRM PSSPRFPRCSG ;** aʼil-
 
 
@@ -3270,6 +3225,16 @@ Jussative
 
 
 Quotative
+
+
+
+
+
+Adjective inflection
+The UNDEFINED language adjectives compare.
+
+
+
 
 
 
@@ -3849,4 +3814,654 @@ nominative plural
 *aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
 
 *äʼm00000ḑi examples:*
+
+
+Morphology
+
+# INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF LIVONIAN.
+
+
+
+## List of the multichar symbols
+
+The morphological analyses of wordforms in Livonian are presented
+in this system in terms of the symbols declared below.
+
+(It is highly suggested to follow existing GiellaLT standards when adding new tags).
+
+
+## The parts-of-speech are:
+ * **+A** = adjective
+ * **+Adp** = adposition
+ * **+Adv** = adverb
+ * **+CS** = subordinating conjunction
+ * **+CC** = coordinating conjunction
+ * **+Interj** = interjection
+ * **+N** = noun
+ * **+Num** = numeral
+ * **+Pcle** = particle
+ * **+Pr** = preposition
+ * **+Po** = postposition
+ * **+Pron** = pronoun
+ * **+Qnt** = quantifier
+ * **+V** = verb
+
+Parts of speech are further split up into:
+
+## Nouns
+
+ * **+Prop** = proper nouns
+
+## Pronouns
+
+ * **+Dem** = demonstrative
+ * **+Indef** = indefinite
+ * **+Interr** = interrogative
+ * **+Pers** = personal
+ * **+Recipr** = reciprocal
+ * **+Refl** = reflexive
+ * **+Rel** = relative
+
+Nominals are inflected for Number and Case
+
+## Number
+ * **+Sg** = singular
+ * **+Pl** = plural
+
+## Case
+ * **+Abe** = abessive
+ * **+Abl** = ablative case
+ * **+Ade** = adessive
+ * **+All** = allative
+ * **+Dat** = dative case
+ * **+Ela** = elative
+ * **+Ess** = essive
+ * **+Exe** = essive
+ * **+Gen** = genitive case
+ * **+Ill** = illative
+ * **+Ine** = inessive
+ * **+Ins** = instrumental -KÕKS
+ * **+Instr** = instructive -IN
+ * **+Lat** = Lative
+ * **+Nom** = nominative case
+ * **+Par** = partitive
+ * **+Prl** = prolative
+ * **+Tra** = translative
+ * **+Voc** = Vocative
+
+
+Possession is marked as such:
+
+ * **+PxSg1**
+ * **+PxSg2**
+ * **+PxSg3**
+ * **+PxPl1**
+ * **+PxPl2**
+ * **+PxPl3**
+
+The comparative forms are:
+
+ * **+Pos**
+ * **+Comp**
+ * **+Superl**
+
+Numerals are classified under:
+
+ * **+Attr**
+ * **+Card**
+ * **+Ord**
+
+Verb moods are:
+ * **+Cond** = conditional
+ * **+Ind** = indicative
+ * **+Imprt** = imperative
+ * **+ImprtII**
+ * **+Jus** = jussitive
+ * **+Quo** = quotative, quoted speech
+
+Tenses
+ * **+Prs**
+ * **+Prt**
+
+Voice
+ * **+Act** = active
+ * **+Pss** = passive
+
+Verb personal forms are:
+ * **+Sg1** = first person singular conjugation
+ * **+Sg2** = second person singular conjugation
+ * **+Sg3** = third person singular conjugation
+ * **+Pl1** = first person plural conjugation
+ * **+Pl2** = second person plural conjugation
+ * **+Pl3** = third person plural conjugation
+
+Other verb forms are
+ * **+ConNeg** = connegative, main verb complement to Neg,
+ * **+Ger** = gerund
+ * **+Inf** = infinitive
+ * **+Neg** = verb of negation эзь, аволь, иля
+ * **+Prc** = participle CHECK! how is this used ?
+ * **+PrsPrc**
+ * **+PrfPrc**
+ * **+Sup**
+ * **+VGen**
+ * **+VAbess**
+ * **+Aux** = Auxiliary verb
+
+## Verbs are syntactically split according to transitivity:
+
+ * **+TV** = Transitive verb
+ * **+IV** = Intransitive verb
+
+## Usage extents are marked using following tags:
+ * **+Err/Orth**
+ * **+Use/-Spell**
+ * **+Use/NG** no generation
+
+
+Abbreviated words are classified with:
+ * **+ABBR** containing period
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+ * **+ACR** acronyms, not containing period
+
+Special symbols are classified with:
+ * **+CLB**
+ * **+PUNCT**
+ * **+LEFT**
+ * **+RIGHT**
+
+Special multiword units are analysed with:
+ * **+Multi**
+
+### Normative/prescriptive compounding tags
+
+(to govern compound behaviour for the speller, ie what a compound SHOULD BE):
+
+The first part of the component may be ..
+
+ * +CmpN/Sg Sg
+ * +CmpN/SgN SgNominative
+ * +CmpN/SgG SgGenitive
+ * +CmpN/PlG PlGenitive
+
+
+This entry / word can ...
+
+ * +CmpNP/All - ... be in all positions, **default**, this tag does not have to be written
+ * +CmpNP/First - ... only be first part in a compound or alone
+ * +CmpNP/Pref - ... only **first** part in a compound, NEVER alone
+ * +CmpNP/Last - ... only be last part in a compound or alone
+ * +CmpNP/Suff - ... only **last** part in a compound, NEVER alone
+ * +CmpNP/None - ... not take part in compounds
+ * +CmpNP/Only - ... only be part of a compound, i.e. can never
+                 be used alone, but can appear in any position
+
+
+
+Non-dictionary words can be recognised with:
+ * **+Guess**
+
+Question and Focus particles:
+ * **+Qst**
+ * **+Foc**
+
+
+ * **+Sem/Act** Activity
+ * **+Sem/Amount** Amount
+ * **+Sem/Ani** Animate
+ * **+Sem/Aniprod** Animal Product
+ * **+Sem/Body** Bodypart
+ * **+Sem/Body-abstr** siellu, vuoig?a, jierbmi
+ * **+Sem/Build** Building
+ * **+Sem/Build-part** Part of Bulding, like the closet
+ * **+Sem/Cat** Category
+ * **+Sem/Clth** Clothes
+ * **+Sem/Clth-jewl** Jewelery
+ * **+Sem/Clth-part** part of clothes, boallu, sávdnji...
+ * **+Sem/Ctain** Container
+ * **+Sem/Ctain-abstr** Abstract container like bank account
+ * **+Sem/Ctain-clth**
+ * **+Sem/Curr** Currency like dollár, Not Money
+ * **+Sem/Dance** Dance
+ * **+Sem/Dir** Direction like GPS-kursa
+ * **+Sem/Domain** Domain like politics, reindeerherding (a system of actions)
+ * **+Sem/Drink** Drink
+ * **+Sem/Dummytag** Dummytag
+ * **+Sem/Edu** Educational event
+ * **+Sem/Event** Event
+ * **+Sem/Feat** Feature, like Árvu
+ * **+Sem/Feat-phys** Physiological feature, ivdni, fárda
+ * **+Sem/Feat-psych** Psychological feauture
+ * **+Sem/Feat-measr** Psychological feauture
+ * **+Sem/Fem** Female name
+ * **+Sem/Food** Food
+ * **+Sem/Food-med** Medicine
+ * **+Sem/Furn** Furniture
+ * **+Sem/Game** Game
+ * **+Sem/Geom** Geometrical object
+ * **+Sem/Group** Animal or Human Group
+ * **+Sem/Hum** Human
+ * **+Sem/Hum-abstr** Human abstract
+ * **+Sem/Ideol** Ideology
+ * **+Sem/Lang** Language
+ * **+Sem/Mal** Male name
+ * **+Sem/Mat** Material for producing things
+ * **+Sem/Measr** Measure
+ * **+Sem/Money** Has to do with money, like wages, not Curr(ency)
+ * **+Sem/Obj** Object
+ * **+Sem/Obj-clo** Cloth
+ * **+Sem/Obj-cogn** Cloth
+ * **+Sem/Obj-el** (Electrical) machine or apparatus
+ * **+Sem/Obj-ling** Object with something written on it
+ * **+Sem/Obj-rope** flexible ropelike object
+ * **+Sem/Obj-surfc** Surface object
+ * **+Sem/Org** Organisation
+ * **+Sem/Part** Feature, oassi, bealli
+ * **+Sem/Perc-cogn** Cognative perception
+ * **+Sem/Perc-emo** Emotional perception
+ * **+Sem/Perc-phys** Physical perception
+ * **+Sem/Perc-psych** Physical perception
+ * **+Sem/Plant** Plant
+ * **+Sem/Plant-part** Plant part
+ * **+Sem/Plc** Place
+ * **+Sem/Plc-abstr** Abstract place
+ * **+Sem/Plc-elevate** Place
+ * **+Sem/Plc-line** Place
+ * **+Sem/Plc-water** Place
+ * **+Sem/Pos** Position (as in social position job)
+ * **+Sem/Process** Process
+ * **+Sem/Prod** Product
+ * **+Sem/Prod-audio** Audio product
+ * **+Sem/Prod-cogn** Cognition product
+ * **+Sem/Prod-ling** Linguistic product
+ * **+Sem/Prod-vis** Visual product
+ * **+Sem/Rel** Relation
+ * **+Sem/Route** Name of a Route
+ * **+Sem/Rule** Rule or convention
+ * **+Sem/Semcon** Semantic concept
+ * **+Sem/Sign** Sign (e.g. numbers, punctuation) 
+ * **+Sem/Sport** Sport
+ * **+Sem/State** 
+ * **+Sem/State-sick** Illness
+ * **+Sem/Substnc** Substance, like Air and Water
+ * **+Sem/Sur** Surname
+ * **+Sem/Symbol** Symbol
+ * **+Sem/Time** Time
+ * **+Sem/Tool** Prototypical tool for repairing things
+ * **+Sem/Tool-catch** Tool used for catching (e.g. fish)
+ * **+Sem/Tool-clean** Tool used for cleaning
+ * **+Sem/Tool-it** Tool used in IT
+ * **+Sem/Tool-measr** Tool used for measuring
+ * **+Sem/Tool-music** Music instrument
+ * **+Sem/Tool-write** Writing tool
+ * **+Sem/Txt** Text (girji, lávlla...)
+ * **+Sem/Veh** Vehicle
+ * **+Sem/Wpn** Weapon
+ * **+Sem/Wthr** The Weather or the state of ground
+
+
+
+
+
+Semantics are classified with
+
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+
+ * **+V→N**
+ * **+V→V**
+ * **+V→A**
+ * **+Der/xxx**
+ * **+Der/A** for example present participle to adjective
+ * **+Der/VN**
+
+
+## Symbols that need to be escaped on the lower side (towards twolc):
+ * **»7**:  Literal »
+ * **«7**:  Literal «
+```
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+```
+
+
+# Morphophonology
+
+To represent phonologic variations in word forms we use the following
+symbols in the lexicon files:
+
+ * {aä} back/front a
+ * {oö} back/front o
+ *  {uü}  back/front u
+*  {uü}  for consonant lengthening
+
+And following triggers to control variation
+ *  %^PenVV2V  penultimate vowel shortening
+
+ *  %^ĪE2Ē   kēļ:kīel
+
+
+ * {front} = front vowels
+ * {back} = back vowels
+ * **%^Tense** = Tense stem will have stød if proper stem type
+ * **%^ConsL** = Consonant lengthening
+ * **%^1Sh2L** =
+ * **%^D2T** d:t veʼž:veʼd:vietā
+ * **%^PreI** i:0 veʼž:veʼd:vietā
+ * **%^VowShIn1** This causes vowel shortening in 1. syll
+accompanied by coda consonant lengthening
+ * **%^A2ÕIn2** This causes 2. syll a => õ
+ * **%^ConsSh** =
+ * **%^Stress1to2** =
+ * **%^Stress2to1** =
+ * **%^VowsSh1** = vowel shortening in first syllable
+ * **%^VowsShU1** =
+ * **%^VowsShI1** =
+ * **%^DiphthSh1** =
+ * **%^VowsLI1** = Vowel lengthening
+ * **%^VowsLU1** =
+ * **%^VowsL1** =
+ * **%^LongV2Õin2** = long vowel to õ in second syllable
+ * **%^Vow2Iin2** = vowel to i or ī in second syllable
+ * **%^VowsõToi** kīndõr:kīndiriž
+ * **%^DiphthL1** =
+ * **%^D2Ž** = The *ti => *si
+ * **%^D2ZERO** The d => 0
+ *  %^LowerVows    lower vowel
+ * **%^RVows** = Vowel raising
+ * **%^VowsMetath** = vowel metathesis in verbs
+ * **%^VowsMRM** Vow in middle ētam:eitmõd
+ * **%^VowsRM** =
+ * **%^ConsRM** =
+ * **%^StodRM** = for removing Stød
+ * **%^PalatalizeLeft** =
+ * **%^VowsL1aToǭ** = a >> ǭ
+
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+ |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+ |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+ |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+ |  @P.CmpPref.FALSE@ | Block these words from making further compounds
+ |  @D.CmpLast.TRUE@ | Block such words from entering R
+ |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+ |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+ |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+ |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+ |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+ |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+
+
+## Root lexicon
+
+The word forms in Livonian start from the lexeme roots of basic
+word classes
+
+ * **adjectives ;**
+ * **adpositions ;**
+ * **adverbs ;**
+ * **conjunctors ;**
+ * **interjections ;**
+ * **nouns ;**
+ * **particles ;**
+ * **pronouns ;**
+ * **propernouns ;**
+ * **quantifiers ;**
+ * **verbs ;**
+ * **Abbreviation ;**
+ * **Acronym ;**
+ * **Punctuation ;**
+ * **Symbols ;**
+ * **EXCEPTIONS ;**
+ * **A_NEWWORDS ;** This is for feeding new adjectives
+ * **ADV_NEWWORDS ;** This is for feeding new adverbs
+ * **N_NEWWORDS ;** This is for feeding new nouns
+ * **PROP_NEWWORDS ;** This is for feeding new propernouns
+ * **V_NEWWORDS ;** This is for feeding new verbs
+ * **QUESTIONABLEMISC_NEWWORDS ;** This is for feeding new words of questionable status
+
+Lexica for words that are not inflected
+
+These are but here for the time being
+
+adverb lexicon
+
+ * LEXICON ADV_KĒRATÕKS
+
+ * LEXICON ADV_KǬRAND
+
+ * LEXICON ADV_IRM
+
+Interjections lexicon
+
+pcle-mod lexicon
+
+pcle-lexicon
+
+This is used in compounding, e.g. äʼb-:äʼb
+
+ * **LEXICON K** is the clitic lexicon, but no clitica here, only #.
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ V_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+Acronyms
+Livonian acronyms ...
+
+
+
+
+
+
+
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ ADV_ "(eng) /(est) /(fin) /(lav)" ;
+
+
+ADD NEW ADVERBS BELOW
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ N_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+ADD NEW NOUNS BELOW
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
+
+
+the verbs of negation have partial inflection:
+* *äʼb:* `äb+V+Neg+Act+Ind+Prs+Sg1`
+* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl2`
+* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl3`
+* *aʼlgid:* `äb+V+Neg+Act+Imprt+Pl2`
+
+Some verbs only have few word-forms left:
+* *piḑīm:*
+* *piḑīks:*
+
+
+The verb lǟʼdõ has irregular forms:
+* *lekš:*
+* *li:*
+
+The verb vȱlda has irregular forms:
+* *uʼm:*
+* *ūo:*
+
+
+
+### PROPER NOUNS
+
+### NOUNS partitive for morfa demo
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ A_ "(eng) /(est) /(fin) /(lav)" ;
+
+
+ADD NEW ADJECTIVES BELOW
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ V_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+Add new verbs below
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting work with ordinals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We describe here how abbreviations are in Liv are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 

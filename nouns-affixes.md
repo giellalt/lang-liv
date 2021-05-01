@@ -308,7 +308,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_SIELDÕ-PL** : 118
 
  * **LEXICON N_NǬʼGÕ** nǭʼgõ:nǭgõ 119
- * **LEXICON N_NǬʼGÕ-PL	** nǭʼgõ:nǭgõ 119
+ * **LEXICON N_NǬʼGÕ-PL** nǭʼgõ:nǭgõ 119
 
  * **LEXICON N_AŠŠÕ-PL** : 120
 
@@ -332,7 +332,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
  * **LEXICON N_VAʼIT** vaʼit:vait 128
 
- * **LEXICON N_VAʼIT-PL	** vaʼit:vait 128
+ * **LEXICON N_VAʼIT-PL** vaʼit:vait 128
 
  * **LEXICON N_AMĀT** : 129
 
@@ -371,7 +371,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
  * **LEXICON N_JAĻKŠ** : 143
 
- * **LEXICON N_JAĻKŠ-PL	** : 143
+ * **LEXICON N_JAĻKŠ-PL** : 143
 
  * **LEXICON N_VIŠ** : 144 viš:viš
  * **LEXICON N_VIŠ-SG** : 144
@@ -413,7 +413,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_ĒTAM-PL** : 156
 
  * **LEXICON N_SIDĀM** : 157
- * **LEXICON N_SIDĀM-PL	** : 157
+ * **LEXICON N_SIDĀM-PL** : 157
 
  * **LEXICON N_TŪOITÕG** : 158
 
@@ -453,7 +453,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_PŪŖAZ** : 174
 
 
- * **LEXICON N_RĒNAZ-PL	** : 176
+ * **LEXICON N_RĒNAZ-PL** : 176
 
  * **LEXICON N_TŌVAZ** : 177
 
@@ -489,8 +489,8 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_AKKIJI-PL** : 187
 
  * **LEXICON N_LĒʼJI** lēʼji:lēji 188
- * **LEXICON	N_LĒʼJI-SG** lēʼji:lēji 188
- * **LEXICON	N_LĒʼJI-PL** lēʼji:lēji 188
+ * **LEXICON N_LĒʼJI-SG** lēʼji:lēji 188
+ * **LEXICON N_LĒʼJI-PL** lēʼji:lēji 188
 
  * **LEXICON N_TUĻĻI** : 189
 
@@ -499,7 +499,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
  * **LEXICON N_NAI** : 191
 
  * **LEXICON N_AʼIGI** aʼigi:aigi 192
- * **LEXICON N_AʼIGI-PL	** aʼigi:aigi 192
+ * **LEXICON N_AʼIGI-PL** aʼigi:aigi 192
 
  * **LEXICON N_PUʼNNI** puʼnni:punni 193
  * **LEXICON N_PUʼNNI-PL** puʼnni:punni 193
@@ -528,8 +528,8 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
  * **LEXICON N_LĒʼMI** lēʼmi:lēʼmi 202
 
- * **LEXICON N_LĒʼMI-SG	** lēʼmi:lēʼmi 202
- * **LEXICON N_LĒʼMI-PL	** lēʼmi:lēʼmi 202
+ * **LEXICON N_LĒʼMI-SG** lēʼmi:lēʼmi 202
+ * **LEXICON N_LĒʼMI-PL** lēʼmi:lēʼmi 202
 
  * **LEXICON N_ALĪZ** : 203
  * **LEXICON N_ALĪZ-SG** : 203
@@ -1604,7 +1604,7 @@ Sg Nom=Gen: No
 
 
  * **LEXICON NMN_BIKŠĀZ-SG** : 172 bikšāz:bikšā
- * **	NMN_RIKĀZ-SG ;** : 171
+ * **NMN_RIKĀZ-SG ;** : 171
  * **LEXICON NMN_BIKŠĀZ-PL** : 172
 
 
@@ -1650,7 +1650,7 @@ Sg Nom=Gen: No
 179
 
 
- * **LEXICON NMN_VȬRÕZ	** vȭrõz:vȭrõ
+ * **LEXICON NMN_VȬRÕZ** vȭrõz:vȭrõ
 180
 Sg Nom=Gen: No
 
@@ -1756,7 +1756,7 @@ Stem change: Yes (vowel length in 1st syllable)
  * **LEXICON NMN_PAŖĪ-SG** : 198
 
  * **LEXICON NMN_PAŖĪ-PL** : 198
- * **:ž 	PL-PAR_i ;** paŗrīži ?
+ * **:ž PL-PAR_i ;** paŗrīži ?
 
 
 
@@ -1781,7 +1781,7 @@ Stem change: None
 * Yaml: **A-aqrlimi**
 
  * **LEXICON NMN_LĒʼMI-SG** lēʼmi:lēʼmi 202
- * **	 SG-PAR_t ;** Should this work for A-aqrlimi ?
+ * **SG-PAR_t ;** Should this work for A-aqrlimi ?
 
  * **LEXICON NMN_LĒʼMI-PL** lēʼmi:lēmi 202
 
@@ -1890,7 +1890,7 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
  * **LEXICON NMN_JŪŖ-SG** jūŗ:jūr 221
 
  * **LEXICON NMN_JŪŖ-PL** : 221
- * **PL-INS_DKÕKS-STEM ;		** jūrd
+ * **PL-INS_DKÕKS-STEM ;** jūrd
 
  * **LEXICON NMN_SŪR** : 222
 
