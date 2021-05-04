@@ -14,20 +14,20 @@ in this system in terms of the symbols declared below.
 
 
 ## The parts-of-speech are:
- * **+A 	** = adjective
- * **+Adp 	** = adposition
- * **+Adv 	** = adverb
- * **+CS 	** = subordinating conjunction
- * **+CC 	** = coordinating conjunction
+ * **+A** = adjective
+ * **+Adp** = adposition
+ * **+Adv** = adverb
+ * **+CS** = subordinating conjunction
+ * **+CC** = coordinating conjunction
  * **+Interj** = interjection
- * **+N 	** = noun
- * **+Num 	** = numeral
- * **+Pcle 	** = particle
- * **+Pr 	** = preposition
- * **+Po 	** = postposition
- * **+Pron 	** = pronoun
- * **+Qnt 	** = quantifier
- * **+V 	** = verb
+ * **+N** = noun
+ * **+Num** = numeral
+ * **+Pcle** = particle
+ * **+Pr** = preposition
+ * **+Po** = postposition
+ * **+Pron** = pronoun
+ * **+Qnt** = quantifier
+ * **+V** = verb
 
 Parts of speech are further split up into:
 
@@ -124,10 +124,10 @@ Other verb forms are
  * **+Inf** = infinitive
  * **+Neg** = verb of negation эзь, аволь, иля
  * **+Prc** = participle CHECK! how is this used ?
- * **+PrsPrc	**
- * **+PrfPrc	**
- * **+Sup	**
- * **+VGen	**
+ * **+PrsPrc**
+ * **+PrfPrc**
+ * **+Sup**
+ * **+VGen**
  * **+VAbess**
  * **+Aux** = Auxiliary verb
 
@@ -296,14 +296,14 @@ source and target part-of-speech.
  * **+V→N**
  * **+V→V**
  * **+V→A**
- * **+Der/xxx	**
- * **+Der/A	** for example present participle to adjective
+ * **+Der/xxx**
+ * **+Der/A** for example present participle to adjective
  * **+Der/VN**
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
-* **»7**:  Literal »
-* **«7**:  Literal «
+ * **»7**:  Literal »
+ * **«7**:  Literal «
 ```
   %[%>%]  - Literal >
   %[%<%]  - Literal <
@@ -333,7 +333,7 @@ And following triggers to control variation
  * **%^1Sh2L** =
  * **%^D2T** d:t veʼž:veʼd:vietā
  * **%^PreI** i:0 veʼž:veʼd:vietā
- * **%^VowShIn1	** This causes vowel shortening in 1. syll
+ * **%^VowShIn1** This causes vowel shortening in 1. syll
 accompanied by coda consonant lengthening
  * **%^A2ÕIn2** This causes 2. syll a => õ
  * **%^ConsSh** =
@@ -356,8 +356,8 @@ accompanied by coda consonant lengthening
  * **%^RVows** = Vowel raising
  * **%^VowsMetath** = vowel metathesis in verbs
  * **%^VowsMRM** Vow in middle ētam:eitmõd
- * **%^VowsRM	** =
- * **%^ConsRM	** =
+ * **%^VowsRM** =
+ * **%^ConsRM** =
  * **%^StodRM** = for removing Stød
  * **%^PalatalizeLeft** =
  * **%^VowsL1aToǭ** = a >> ǭ
@@ -366,29 +366,29 @@ accompanied by coda consonant lengthening
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
-|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+ |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
-|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@ | Block these words from making further compounds
-|  @D.CmpLast.TRUE@ | Block such words from entering R
-|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+ |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+ |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+ |  @P.CmpPref.FALSE@ | Block these words from making further compounds
+ |  @D.CmpLast.TRUE@ | Block such words from entering R
+ |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+ |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+ |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+ |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
-|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+ |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+ |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 
 
@@ -397,28 +397,28 @@ given the proper use of these flags.
 The word forms in Livonian start from the lexeme roots of basic
 word classes
 
- * **adjectives ;	**
- * **adpositions ;	**
- * **adverbs ;		**
- * **conjunctors	;	**
- * **interjections ;	**
- * **nouns ;		**
- * **particles ;	**
- * **pronouns ;	**
- * **propernouns ;	**
- * **quantifiers ;	**
- * **verbs ;		**
- * **Abbreviation	;	**
- * **Acronym		;	**
- * **Punctuation		;**
- * **Symbols ; 	**
- * **EXCEPTIONS		;**
- * __A_NEWWORDS ;__ This is for feeding new adjectives
- * __ADV_NEWWORDS ;__ This is for feeding new adverbs
- * __N_NEWWORDS ;__ This is for feeding new nouns
- * __PROP_NEWWORDS ;__ This is for feeding new propernouns
- * __V_NEWWORDS ;__ This is for feeding new verbs
- * __QUESTIONABLEMISC_NEWWORDS ;__ This is for feeding new words of questionable status
+ * **adjectives ;**
+ * **adpositions ;**
+ * **adverbs ;**
+ * **conjunctors ;**
+ * **interjections ;**
+ * **nouns ;**
+ * **particles ;**
+ * **pronouns ;**
+ * **propernouns ;**
+ * **quantifiers ;**
+ * **verbs ;**
+ * **Abbreviation ;**
+ * **Acronym ;**
+ * **Punctuation ;**
+ * **Symbols ;**
+ * **EXCEPTIONS ;**
+ * **A_NEWWORDS ;** This is for feeding new adjectives
+ * **ADV_NEWWORDS ;** This is for feeding new adverbs
+ * **N_NEWWORDS ;** This is for feeding new nouns
+ * **PROP_NEWWORDS ;** This is for feeding new propernouns
+ * **V_NEWWORDS ;** This is for feeding new verbs
+ * **QUESTIONABLEMISC_NEWWORDS ;** This is for feeding new words of questionable status
 
 Lexica for words that are not inflected
 

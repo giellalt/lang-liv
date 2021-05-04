@@ -252,7 +252,7 @@ LOWER VOWELS
 *kē0ļ00 examples:*
 
 Destressing in second syllable
-**ā:õ**  
+**ā:õ **  
 
 *käp0ā%^ConsL%^LongV2Õin2 examples:*
 
@@ -260,13 +260,13 @@ Destressing in second syllable
 * *rik0āz%^Stress2to1%^ConsRM*
 * *rikkõ000*
 
-**a:õ**
+**a:õ **
 
 *tīer0a%^VowShIn1%^A2ÕIn2 examples:*
 
 *tierrõ00 examples:*
 
-**ū:õ**  
+**ū:õ **  
 
 **õ:i**
 
@@ -510,7 +510,7 @@ jūŗ:jūr 221
 
 
 
-**d:t**  
+**d:t **  
 
 *kittõ%^ConsSh%^VowsRM%>dõd examples:*
 
@@ -521,9 +521,9 @@ nominative plural
 
 *vie0t examples:*
 
-**d:ț**  
+**d:ț **  
 
-**d:ž**  
+**d:ž **  
 
 
 
