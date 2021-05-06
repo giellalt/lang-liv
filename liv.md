@@ -1,3 +1,672 @@
+Acronyms
+Livonian acronyms ...
+
+
+
+
+
+
+
+
+
+
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
+
+
+the verbs of negation have partial inflection:
+* *äʼb:* `äb+V+Neg+Act+Ind+Prs+Sg1`
+* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl2`
+* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl3`
+* *aʼlgid:* `äb+V+Neg+Act+Imprt+Pl2`
+
+Some verbs only have few word-forms left:
+* *piḑīm:*
+* *piḑīks:*
+
+
+The verb lǟʼdõ has irregular forms:
+* *lekš:*
+* *li:*
+
+The verb vȱlda has irregular forms:
+* *uʼm:*
+* *ūo:*
+
+
+
+### PROPER NOUNS
+
+### NOUNS partitive for morfa demo
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ ADV_ "(eng) /(est) /(fin) /(lav)" ;
+
+
+ADD NEW ADVERBS BELOW
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ N_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+ADD NEW NOUNS BELOW
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ V_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+Add new verbs below
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ V_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ A_ "(eng) /(est) /(fin) /(lav)" ;
+
+
+ADD NEW ADJECTIVES BELOW
+
+
+
+
+# The Livonian morphophonological/twolc rules file 
+
+
+## Alphabet
+
+ * a b c d e f g h i j k l m n o p q r s t u v w x y z   
+ * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
+ * ḑ ļ ņ ŗ š ț ž									      
+ * Ḑ Ļ Ņ Ŗ Š Ț Ž									      
+ * õ ä ö ȯ											      
+ * Õ Ä Ö Ȯ											      
+ * ā ē ī ō ū ǟ ǭ ȭ ȱ								      
+ * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
+
+
+ʼ Stød
+
+
+```
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+```
+
+
+
+###  Triggers
+ *  %^PenVV2V:0  penultimate vowel shortening
+
+ *  %^Tense:0  = Tense stem will have stød if proper stem type
+ *  %^D2T:0    d:t veʼž:veʼd:vietā
+ *  %^PreI:0   i:0 veʼž:veʼd:vietā
+ *  %^ĪE2Ē:0   kēļ kīel
+
+ * K1:k        this k is not effected by gradation
+ * %^NoGrad:0   This will be placed after a stem to break Gradation
+
+
+ * %^WGStem:0  this weakens the stem ompel to ommel
+
+
+ * %^TS:0  The ti => si
+
+ * %^D2Ž:0  The *ti => *si
+
+ * %^D2ZERO:0  The d => 0
+
+###  Vowel raising
+ * %^LowerVows:0  lower vowel
+ * %^RVows:0      raise vowel
+ * %^VowsSh1:0    vowel shortening in first syllable
+ * %^VowsShU1:0   
+ * %^VowsShI1:0   
+ * %^DiphthSh1:0  
+ * %^VowsLI1:0    vowel lengthening that is followed by "i" when short
+ * %^VowsLU1:0    vowel lengthening that is followed by "u" when short
+ * %^VowsL1:0     vowel lengthening 
+ * %^DiphthL1:0   
+
+ * %^LongV2Õin2:0    long vowel to õ in second syllable
+
+ * %^Vow2Iin2:0    vowel to i or ī in second syllable
+
+vowel metathesis
+
+VOWEL SHORTENING
+ *  %^VowShIn1:0	 This causes vowel shortening in 1. syll
+ *                  accompanied by coda consonant lengthening
+ *  %^A2ÕIn2:0        This causes 2. syll a => õ
+
+
+ *  %^A2ÕIn2:0        lengthen consonant
+
+
+*  %^A2ÕIn2:0        Vow in middle ētam:eitmõd
+ *  %^A2ÕIn2:0        laps:läpš
+
+
+*  %^A2ÕIn2:0        kīndõr:kīndiriž
+
+ *  %^A2ÕIn2:0        Hyphen in  constructions 
+ *  %^A2ÕIn2:0        morpheme boundary
+ *  %^A2ÕIn2:0        Word boundary for both lexicalised and dynamic compounds
+
+
+
+# Sets
+
+
+
+
+
+
+
+
+# Rule section
+
+## Vowel rules
+
+### Shortening in first syllable
+
+
+
+**ǟ:ä in first syllable**
+
+*kǟnga%^VowShIn1%^A2ÕIn2 examples:*
+
+*kängõ00 examples:*
+
+**ā:a in first syllable**  
+
+*āļdža%^VowShIn1%^A2ÕIn2 examples:*
+
+*aļdžõ00 examples:*
+
+*āita%^PenVV2V%^VowsRM%>õ examples:*
+
+*ait000%>õ examples:*
+
+
+**ȱ:ȯ**
+
+*vȱntsa%^VowShIn1%^VowsRM%>õ examples:*
+
+*vȯnts0000õ examples:*
+
+**ā:ī in second syllable plural**
+
+*rikkā%^ConsSh%^Vow2Iin2>di examples:*
+
+*rik0ī000di examples:*
+
+**ū:ī in second syllable plural**
+
+*ruzū%^Vow2Iin2>di examples:*
+
+*ruzī000di examples:*
+
+**a:i in second syllable plural**
+
+*āita%^Vow2Iin2>di examples:*
+
+*āiti00di examples:*
+
+**ǭ:a in first syllable**  
+
+**ē:e in first syllable**  
+
+**ū:u in first syllable**  
+
+**ū:ȯ in first syllable**  
+
+*pūol0a%^Stress1to2%^ConsL examples:*
+
+*pȯ0llõ00 examples:*
+
+*pūoga%^VowsSh1%^PalatalizeLeft%^VowsRM%>õ examples:*
+
+*pȯig00000õ examples:*
+
+
+**ī:i in first syllable**  
+
+*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+
+*tierrõ00 examples:*
+
+**ȭ:õ in first syllable**  
+
+*mȭuka%^VowsSh1%^VowsRM%>õ examples:*
+
+*mõuk0000õ examples:*
+
+**ō:o in first syllable**  
+
+lengthen vowels
+
+**e:ē in first syllable**  
+
+*leiba%^VowsLI1%>st examples:*
+
+*lē0ba00st examples:*
+
+*tei%^VowsLI1%>ḑi examples:*
+
+*tē000ḑi examples:*
+
+**u:ū in first syllable**  
+
+*ul%^VowsLI1>õd examples:*
+
+*ūl00õd examples:*
+
+
+**õ:ȭ in first syllable**  
+
+**ȯ:ū in first syllable**  
+
+**ä:ǟ in first syllable**  
+
+**0:i after shortened vowel or diphthong**  
+
+*v0eʼd%^PreI examples:*
+
+*vieʼd0 examples:*
+
+**0:u after shortened vowel or diphthong**  
+
+**0:o after shortened vowel or diphthong**  
+
+### VOWEL LENGTHENING
+
+**a:ǭ in first syllable**  
+
+*tam%^VowsL1aToǭõd examples:*
+
+*tǭm0õd examples:*
+
+**a:ā in first syllable**  
+
+*kand%^VowsLI1õd examples:*
+
+*kāndõd examples:*
+
+**i:ī in first syllable**
+
+*niŗț%^VowsLI1%>õ examples:*
+
+*nīŗț00õ examples:*
+
+**o:ō in first syllable**  
+
+*ouki%^VowsLI1z examples:*
+
+*ō0ki0z examples:*
+
+**o:i**
+
+*pūog%^VowsSh1%^PalatalizeLeft%>õ examples:*
+
+*pȯig0000õ examples:*
+
+LOWER VOWELS
+**ī:ē in tīe 15**
+
+*tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:*
+
+*tē000000šti examples:*
+
+*kīel%^ĪE2Ē%^PalatalizeLeft examples:*
+
+*kē0ļ00 examples:*
+
+Destressing in second syllable
+**ā:õ **  
+
+*käp0ā%^ConsL%^LongV2Õin2 examples:*
+
+*käppõ00 examples:*
+* *rik0āz%^Stress2to1%^ConsRM*
+* *rikkõ000*
+
+**a:õ **
+
+*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+
+*tierrõ00 examples:*
+
+**ū:õ **  
+
+**õ:i**
+
+*ǭʼrõn%^PalatalizeLeft examples:*
+
+*ǭʼriņ0 examples:*
+
+*nȭŗkõz%^PalatalizeLeft%>ist examples:*
+
+*nȭŗkiz00ist examples:*
+
+
+VOWEL LOSS
+
+**ā:0**  
+
+*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
+
+*äʼm000000ži examples:*
+
+*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
+
+*ä0m00000ḑi examples:*
+
+*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
+
+*daʼdz0000õ examples:*
+
+
+*maʼigāz%^StodRM%^VowsRM%^ConsRM>īst examples:*
+
+*ma0ig000000īst examples:*
+
+**ū:0**  
+
+**ī:0**  
+
+*sīe%>i examples:*
+
+*s0e0i examples:*
+
+**a:0**  
+
+*jǭr0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
+
+*jarr0000õ examples:*
+
+*pūol0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
+
+*pȯ0ll0000õ examples:*
+
+*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+
+*keņg0000i examples:*
+
+**e:0**
+* *tīʼe%^LowerVows%^StodRM%^VowsRM%>šti*
+* *tē000000šti*
+kēļ+N+Sg+Nom
+* *kīel%^ĪE2Ē%^PalatalizeLeft*
+* *kē0l00*
+
+
+**õ:0**  
+
+*kittõ%^ConsSh%^VowsRM%>dõd examples:*
+
+*kit00000tõd examples:*
+
+**i:0 in first syllable**  
+
+*leiba%^VowsLI1%>st examples:*
+
+*lē0ba00st examples:*
+
+*tei%^VowsLI1%>ḑi examples:*
+
+*tē000ḑi examples:*
+
+*lǭija%^ConsSh examples:*
+
+*lǭ0ja0 examples:*
+
+*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
+
+*l0ešt00000i examples:*
+
+*ūiska%^ConsSh examples:*
+
+*ū0ška0 examples:*
+
+**u:0 in second position of first-syllable diphthong**  
+
+*ouki%^VowsLI1z examples:*
+
+*ō0ki0z examples:*
+
+*pǟuva%^ConsSh examples:*
+
+*pǟ0va0 examples:*
+
+**o:0 in second position of first-syllable diphthong**  
+```
+
+*pūol0a%^Stress1to2%^ConsL examples:*
+
+*pȯ0llõ00 examples:*
+```
+
+### Zero to vowel
+
+
+**0:õ in vowel metathesis**  
+
+
+## Consonant rules
+
+### Consonant loss 
+**shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb**  
+
+*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
+
+*äʼm000000ži examples:*
+
+**z:0**
+* *rik0āz%^Stress2to1%^ConsRM*
+
+### Consonant lengthening
+
+Lengthening consonantism between first and second vowel center
+simultaneous to reducing vowel of second syllable
+
+**lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ**  
+* *je0l0ā%^Stress2to1*
+* *ka0l0ā%^Stress2to1*
+* *rik0āz%^Stress2to1%^ConsRM*
+
+*pūol0a%^Stress1to2%^ConsL examples:*
+
+*pȯ0llõ00 examples:*
+
+**0:p**
+
+*käp0ā%^ConsL%^LongV2Õin2 examples:*
+
+*käppõ00 examples:*
+
+**%{XC%}:Cx**
+
+**%{XC%}:p** 2014-02-27
+
+*kep%{XC%}>õ examples:*
+
+*kepp0õ examples:*
+
+**%{XC%}:s** 2020-10-21
+tas+N+Sg+Ill
+* *tas{XC}>õ*
+* *tass>õ*
+
+**%{XC%}:ž** 2014-02-27
+
+*veʼd%^D2Ž%{XC%}>i examples:*
+
+*veʼž0ž0i examples:*
+
+
+**%{XC%}:k** 2014-02-27
+
+*rok%{XC%}>õ examples:*
+
+*rokk0õ examples:*
+
+**Stod removal left**  
+
+*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
+
+*daʼdz0000õ examples:*
+aʼb#sõʼnā+N+Sg+Nom: 
+* *aʼb#sõʼn%^StodRMā*
+* *aʼb#sõ0n0ā*
+
+
+*ka0l0ā%^Stress2to1 examples:*
+
+*kaʼllõ0 examples:*
+
+
+**z:ž**
+
+
+*alīz%^PalatalizeLeft%>i examples:*
+
+*alīž00i examples:*
+
+*izā%^PalatalizeLeft%^VowsRM%>ḑi examples:*
+
+*iž0000ḑi examples:*
+
+**d:ḑ**  
+lēʼḑ:līʼed 147
+
+**l:ļ**  
+This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
+kēļ:kēl 215
+
+*äʼddõl%^PalatalizeLeft%>i examples:*
+
+*äʼddiļ00i examples:*
+
+*tuʼl%^StodRM%^PalatalizeLeft%>īž examples:*
+
+*tu0ļ000īž examples:*
+
+**n:ņ palatalization**  
+
+*Vē0na%^PalatalizeLeft%^VowsRMõ examples:*
+
+*Vein000õ examples:*
+
+*ǭʼrõn%^PalatalizeLeft examples:*
+
+*ǭʼriņ0 examples:*
+
+*vȱntsa%^VowShIn1%^PalatalizeLeft%^VowsRM%>ti examples:*
+
+*vȯņtš00000ti examples:*
+sēņ:sēn 220
+
+*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+
+*keņg0000i examples:*
+
+
+**r:ŗ**  
+jūŗ:jūr 221
+
+*ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+
+*eŗg0000i examples:*
+
+
+
+**d:t **  
+
+*kittõ%^ConsSh%^VowsRM%>dõd examples:*
+
+*kit00000tõd examples:*
+nominative plural 
+
+*v0eʼd%^PreI%^StodRM%^D2T examples:*
+
+*vie0t examples:*
+
+**d:ț **  
+
+**d:ž **  
+
+
+
+
+### Consonant loss
+
+**d:0**  
+      Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
+
+**T loss before subsequent morpheme with underlying initial d**  
+
+*kittõ%^ConsSh%^VowsRM%>dõd examples:*
+
+*kit00000tõd examples:*
+
+**k:0**  
+
+*rikkā%^ConsSh%^Vow2Iin2di examples:*
+
+*rik0ī00di examples:*
+
+**ț:0**  
+
+**s:š palatalization**  
+
+*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
+
+*l0ešt00000i examples:*
+
+*pȯ0is%^VowsLI1õd examples:*
+
+*pūo0š0õd examples:*
+
+**ǟ:ē palatalization**  
+
+**ǟ:e short and palatalization**
+
+*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+
+*keņg0000i examples:*
+
+
+**a:ä palatalization**  
+
+
+*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
+
+*äʼm00000ḑi examples:*
+
+
+# Symbol affixes
+
+
+
+
+
 Livonian noun inflection
 
 
@@ -2102,6 +2771,108 @@ A trigger for z:ž will be required
 
 
 
+Determiner inflection
+Livonian determiners inflect in the same cases as other
+nominals.
+
+Stem lexica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON DET_VĪDÕZ  vīdõz: 163
+
+ LEXICON DET_TUOISTÕNZ  : 164
+
+ LEXICON DET_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
+
+
+ LEXICON DET_NAI  nai: 191
+
+ LEXICON DET_TŪĻI  tūļi: 199
+
+ LEXICON DET_SĒMI  sēmi: 201
+
+
+
+
+
+
+
+
+
+
+
+
+Quantifier inflection
+Livonian quantifiers inflect in the same cases as other
+nominals.
+
+
+       -    Nouns  ;
+
+ LEXICON QNT_APPÕN  : 216
+
+ LEXICON QNT_PŪOL  : 216
+
+Stem lexica
+ LEXICON NUM_PADĀ  padā:padā 39
+
+ LEXICON NUM_KĒRA  kēra:kēra 43
+
+ LEXICON NUM_OKŠ  : 68
+
+
+
+
+
+
+ LEXICON NUM_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+
+ LEXICON NUM_IRM  irm: 125
+
+ LEXICON NUM_KIM  : 126 kim:kim
+
+
+ LEXICON NUM_FAKT  fakt: 135
+
+ LEXICON NUM_ĀIGAST  āigast: 140
+
+
+
+
+
+ LEXICON NUM_NAI  nai: 191
+
+
+
+
+ LEXICON NUM_ÄʼBȚÕKS  ä'bțõks:äbțõks 208
+
+ LEXICON NUM_TŪĻ  : 214
+
+
+ LEXICON NUM_ĪKŠ  : 217
+
+ LEXICON NUM_KAKŠ  : 218
+
+ LEXICON NUM_ŪŽ  : 219
+
+ LEXICON NUM_APPÕN  appõn:appõn 235
+
+
+
+
 Proper noun inflection
 Livonian proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
@@ -2314,409 +3085,6 @@ Stem lexica
 
 
 
-
-
-
-
-
-
-Prounoun inflection
-Livonian pronouns inflect in the same cases as regular
-nouns.
-
-
-       -    Nouns  ;
-
- LEXICON PRON_MIS  mis:mi 1
-
-
- LEXICON PRON_JEGĀ  jegā:jeʼgā 2
-
-
- LEXICON PRON_MŪ  mū:m 3
-
- LEXICON PRON_SE  se:s 4
-
- LEXICON PRON_TÄMĀ  tämā:t 5
-
- LEXICON PRON_NE  ne:n 4 & 5
-
- LEXICON PRON_MINĀ  6 minā:m
-
- LEXICON PRON_MĒG  mēg:m 6
-
- LEXICON PRON_SINĀ  sinā:s 7
-
- LEXICON PRON_TĒG  tēg:t 7
-
- LEXICON PRON_KIS  kis:kī 8
-
-
- LEXICON PRON_ĪʼŽ  9
-
- LEXICON PRON_MIDĀGÕD  midāgõd:midāg 10
-
-
- LEXICON PRON_MITS  11
-
-Stem lexica
- LEXICON PRON_TUBĀ  tubā:tubā 19
-
- LEXICON PRON_TUBĀ-PL  tubā:tubā 19
-
- LEXICON PRON_ĀITA  āita:āita 46
-
- LEXICON PRON_ĀIGAST  āigast: 140
-
- LEXICON PRON_AZŪM-PL  azūm: 153
-
- LEXICON PRON_VĪDÕZ  vīdõz: 163
-
-
-
-
- LEXICON PRON_ĪKŠ  : 217
-
-
-
-
-# Conjunctions
-
-These need to be corrected
-
-
-Livonian conjunctors
-
-
-Livonian subjunctors
-
-
-
-Quantifier inflection
-Livonian quantifiers inflect in the same cases as other
-nominals.
-
-
-       -    Nouns  ;
-
- LEXICON QNT_APPÕN  : 216
-
- LEXICON QNT_PŪOL  : 216
-
-Stem lexica
- LEXICON NUM_PADĀ  padā:padā 39
-
- LEXICON NUM_KĒRA  kēra:kēra 43
-
- LEXICON NUM_OKŠ  : 68
-
-
-
-
-
-
- LEXICON NUM_NǬʼGÕ  nǭʼgõ:nǭgõ 119
-
- LEXICON NUM_IRM  irm: 125
-
- LEXICON NUM_KIM  : 126 kim:kim
-
-
- LEXICON NUM_FAKT  fakt: 135
-
- LEXICON NUM_ĀIGAST  āigast: 140
-
-
-
-
-
- LEXICON NUM_NAI  nai: 191
-
-
-
-
- LEXICON NUM_ÄʼBȚÕKS  ä'bțõks:äbțõks 208
-
- LEXICON NUM_TŪĻ  : 214
-
-
- LEXICON NUM_ĪKŠ  : 217
-
- LEXICON NUM_KAKŠ  : 218
-
- LEXICON NUM_ŪŽ  : 219
-
- LEXICON NUM_APPÕN  appõn:appõn 235
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-Determiner inflection
-Livonian determiners inflect in the same cases as other
-nominals.
-
-Stem lexica
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- LEXICON DET_VĪDÕZ  vīdõz: 163
-
- LEXICON DET_TUOISTÕNZ  : 164
-
- LEXICON DET_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
-
-
- LEXICON DET_NAI  nai: 191
-
- LEXICON DET_TŪĻI  tūļi: 199
-
- LEXICON DET_SĒMI  sēmi: 201
-
-
-
-
-
-
-
-
-
-
-
-
-# Adjective inflection
-
-Livonian adjectives compare.
-
-modifiers that do not decline
-
-
-## Stem lexica
-
- LEXICON A_PŪ  contains pū: 12
-
-
- LEXICON A_BRĪ  contains brī:brī 16
-
- LEXICON A_KALĀ   contains  kalā:kaʼlā 18
-
- LEXICON A_TUBĀ  tubā:tuʼbā 19
-
- LEXICON A_AIGĀ  aigā:aigā 20
-
-
- LEXICON A_KŪJA  kūja:??lēba 21
-
- LEXICON A_IZĀ  izā:izā 25
-
- LEXICON A_OKSĀ  oksā:oksā 30
-
- LEXICON A_ĀIGA  āiga:āiga 33
-
- LEXICON A_SĪLMA  sīlma:sīlma 34
-
- LEXICON A_PADĀ  padā:padā 39
-
- LEXICON A_KÄPĀ  käpā:käpā 41
-
- LEXICON A_MAKSĀ  maksā:maksā 42
-
- LEXICON A_KĒRA  kēra:kēra 43
-
- LEXICON A_JǬRA  jǭra:jǭra 44
-
-
- LEXICON A_ĀITA  āita:āita 46
-
- LEXICON A_ŪŠKA  ūška:ūška 47
-
- LEXICON A_MȬKA  mȭka:mȭka 48
-
- LEXICON A_DADŽĀ  dadžā:dadžā 49
-
- LEXICON A_TĪERA  tīera:tīera 54
-
- LEXICON A_LILLA  kuțā:kuțā 57
-
-
- LEXICON A_KIʼV  kiʼv:kiv 59
-
- LEXICON A_PIʼŅ  piʼņ:piņ 64
-
- LEXICON A_OKŠ  : 68
-
- LEXICON A_KAŠ  : 69
-
- LEXICON A_TORĪ  torī: 71
-
- LEXICON A_KÕʼL  kõʼl:kõl 73
-
- LEXICON A_NIʼM  niʼm:nim 76
-
- LEXICON A_KAND  kand: 94
-
- LEXICON A_UL  ul: 99
-
- LEXICON A_NIŖȚ  niŗț: 102
-
- LEXICON A_DAŅTŠ  daņtš: 105
-
- LEXICON A_TÄUŽ  täuž: adres 112
-
- LEXICON A_SIELDÕ  sieldõ: 118
-
- LEXICON A_NǬʼGÕ  nǭʼgõ:nǭgõ 119
-
- LEXICON A_AŠŠÕ  : 120
-
- LEXICON A_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
-
- LEXICON A_IRM  : 125
-
- LEXICON A_KIM  : 126
-
- LEXICON A_VAʼIT  vaʼit:vait 128
-
- LEXICON A_AMĀT  : 129
-
- LEXICON A_SAʼGDIT  saʼgdit:sagdit 131
-
- LEXICON A_VIĻȚ  : 132
-
- LEXICON A_EĻ  eļ: 133
-
- LEXICON A_BLĒʼḐ  blēʼḑ:blēḑ 134
-
- LEXICON A_FAKT  : 135
-
- LEXICON A_SĪEND  sīend: 138
-
- LEXICON A_LǞʼND  lǟʼnd:lǟnd 139
-
- LEXICON A_ĀIGAST  āigast: 140
-
- LEXICON A_ANALĪZ  analīz: 141
-
- LEXICON A_NĪʼEM  nīʼem:nīem 142
-
- LEXICON A_VIŠ  : 144
-
- LEXICON A_SIDĀM  : 157
-
- LEXICON A_TŪOITÕG  : 158
-
- LEXICON A_KǬRAND  kǭrand: 159
-* Yaml: **armtõb**
-
- LEXICON A_ȬʼDÕG  ȭʼdõg:ȭdõg 160
-
- LEXICON A_TAPTÕD  taptõd: 161
-
- LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
-
-
- LEXICON A_KÄBRĀZ  : 168
-
- LEXICON A_MAIGĀZ  : 169
-
- LEXICON A_NÕTKĀZ  : 170
-
- LEXICON A_RIKĀZ  : 171
-
- LEXICON A_ĀMBAZ  āmbaz:āmba 173
-
- LEXICON A_PŪŖAZ  : 174
-
- LEXICON A_PǬĻAZ  : 175
-
- LEXICON A_MÕTKÕZ  mõtkõz: 179
-
- LEXICON A_VȬRÕZ  vȭrõz: 180
-
- LEXICON A_ARĀGÕZ  : 181
-
- LEXICON A_ÄʼGGÕZ  ä'ggõz:äggõz 182
-
- LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
-
- LEXICON A_SĒJI  : 186 āndaji:āndaji sēji:sēji
-
- LEXICON A_AKKIJI  akkiji:akkiji 187
-
- LEXICON A_LĒʼJI  lēʼji:lēʼji 188
-
- LEXICON A_AʼIGI  aʼigi:aigi 192
-
- LEXICON A_PUʼNNI  pu'nni:punni 193
-
- LEXICON A_KAȚKI  : 194
-
- LEXICON A_KUKKI  : 195
-
- LEXICON A_AIGI  aigi:aigi 196
-
- LEXICON A_OUKI  : 197
-
- LEXICON A_PAŖĪ  : 198
-
- LEXICON A_TŪĻI  : 199
-
- LEXICON A_AʼBLI  aʼbli:abli 200
-
- LEXICON A_SĒMI  : 201
-
- LEXICON A_LĒʼMI  lē'mi:lēʼmi 202
-
- LEXICON A_ALĪZ  : 203
-
- LEXICON A_KĒRATÕKS  : 207
-
- LEXICON A_VARĪKŠ  varīkš: 209
-
- LEXICON A_ŪŽ  : 219 ūž:ūd
-
- LEXICON A_JŪŖ  jūŗ:jūr 221
-
- LEXICON A_SŪR  sūr:sūr 222
-
-
-
- LEXICON A_DULLÕNZ  dullõnz:dullõn 227
-
- LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
-
- LEXICON A_TIDĀR  tidār:tidār 233
-
- LEXICON A_APPÕN  appõn:appõn 235
-
- LEXICON A_ǬʼRÕN  ǭʼrõn:ǭrõn 236
-
- LEXICON A_KĪNDÕR  kīndõr:kīndõr 237
-
- LEXICON A_BÄʼZMÕR  bäʼzmõr:bäzmõr 238
-
- LEXICON A_TARĪĻ  tarīļ:tarīļ 239
-
- LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
-
- LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
 
 
 
@@ -3230,6 +3598,18 @@ Quotative
 
 
 
+# Conjunctions
+
+These need to be corrected
+
+
+Livonian conjunctors
+
+
+Livonian subjunctors
+
+
+
 Adjective inflection
 The UNDEFINED language adjectives compare.
 
@@ -3240,580 +3620,287 @@ The UNDEFINED language adjectives compare.
 
 
 
+# Adjective inflection
 
-# The Livonian morphophonological/twolc rules file 
+Livonian adjectives compare.
 
+modifiers that do not decline
 
-## Alphabet
 
- * a b c d e f g h i j k l m n o p q r s t u v w x y z   
- * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
- * ḑ ļ ņ ŗ š ț ž									      
- * Ḑ Ļ Ņ Ŗ Š Ț Ž									      
- * õ ä ö ȯ											      
- * Õ Ä Ö Ȯ											      
- * ā ē ī ō ū ǟ ǭ ȭ ȱ								      
- * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
+## Stem lexica
 
+ LEXICON A_PŪ  contains pū: 12
 
-ʼ Stød
 
+ LEXICON A_BRĪ  contains brī:brī 16
 
-```
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
-```
+ LEXICON A_KALĀ   contains  kalā:kaʼlā 18
 
+ LEXICON A_TUBĀ  tubā:tuʼbā 19
 
+ LEXICON A_AIGĀ  aigā:aigā 20
 
-###  Triggers
- *  %^PenVV2V:0  penultimate vowel shortening
 
- *  %^Tense:0  = Tense stem will have stød if proper stem type
- *  %^D2T:0    d:t veʼž:veʼd:vietā
- *  %^PreI:0   i:0 veʼž:veʼd:vietā
- *  %^ĪE2Ē:0   kēļ kīel
+ LEXICON A_KŪJA  kūja:??lēba 21
 
- * K1:k        this k is not effected by gradation
- * %^NoGrad:0   This will be placed after a stem to break Gradation
+ LEXICON A_IZĀ  izā:izā 25
 
+ LEXICON A_OKSĀ  oksā:oksā 30
 
- * %^WGStem:0  this weakens the stem ompel to ommel
+ LEXICON A_ĀIGA  āiga:āiga 33
 
+ LEXICON A_SĪLMA  sīlma:sīlma 34
 
- * %^TS:0  The ti => si
+ LEXICON A_PADĀ  padā:padā 39
 
- * %^D2Ž:0  The *ti => *si
+ LEXICON A_KÄPĀ  käpā:käpā 41
 
- * %^D2ZERO:0  The d => 0
+ LEXICON A_MAKSĀ  maksā:maksā 42
 
-###  Vowel raising
- * %^LowerVows:0  lower vowel
- * %^RVows:0      raise vowel
- * %^VowsSh1:0    vowel shortening in first syllable
- * %^VowsShU1:0   
- * %^VowsShI1:0   
- * %^DiphthSh1:0  
- * %^VowsLI1:0    vowel lengthening that is followed by "i" when short
- * %^VowsLU1:0    vowel lengthening that is followed by "u" when short
- * %^VowsL1:0     vowel lengthening 
- * %^DiphthL1:0   
+ LEXICON A_KĒRA  kēra:kēra 43
 
- * %^LongV2Õin2:0    long vowel to õ in second syllable
+ LEXICON A_JǬRA  jǭra:jǭra 44
 
- * %^Vow2Iin2:0    vowel to i or ī in second syllable
 
-vowel metathesis
+ LEXICON A_ĀITA  āita:āita 46
 
-VOWEL SHORTENING
- *  %^VowShIn1:0	 This causes vowel shortening in 1. syll
- *                  accompanied by coda consonant lengthening
- *  %^A2ÕIn2:0        This causes 2. syll a => õ
+ LEXICON A_ŪŠKA  ūška:ūška 47
 
+ LEXICON A_MȬKA  mȭka:mȭka 48
 
- *  %^A2ÕIn2:0        lengthen consonant
+ LEXICON A_DADŽĀ  dadžā:dadžā 49
 
+ LEXICON A_TĪERA  tīera:tīera 54
 
-*  %^A2ÕIn2:0        Vow in middle ētam:eitmõd
- *  %^A2ÕIn2:0        laps:läpš
+ LEXICON A_LILLA  kuțā:kuțā 57
 
 
-*  %^A2ÕIn2:0        kīndõr:kīndiriž
+ LEXICON A_KIʼV  kiʼv:kiv 59
 
- *  %^A2ÕIn2:0        Hyphen in  constructions 
- *  %^A2ÕIn2:0        morpheme boundary
- *  %^A2ÕIn2:0        Word boundary for both lexicalised and dynamic compounds
+ LEXICON A_PIʼŅ  piʼņ:piņ 64
 
+ LEXICON A_OKŠ  : 68
 
+ LEXICON A_KAŠ  : 69
 
-# Sets
+ LEXICON A_TORĪ  torī: 71
 
+ LEXICON A_KÕʼL  kõʼl:kõl 73
 
+ LEXICON A_NIʼM  niʼm:nim 76
 
+ LEXICON A_KAND  kand: 94
 
+ LEXICON A_UL  ul: 99
 
+ LEXICON A_NIŖȚ  niŗț: 102
 
+ LEXICON A_DAŅTŠ  daņtš: 105
 
+ LEXICON A_TÄUŽ  täuž: adres 112
 
-# Rule section
+ LEXICON A_SIELDÕ  sieldõ: 118
 
-## Vowel rules
+ LEXICON A_NǬʼGÕ  nǭʼgõ:nǭgõ 119
 
-### Shortening in first syllable
+ LEXICON A_AŠŠÕ  : 120
 
+ LEXICON A_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
 
+ LEXICON A_IRM  : 125
 
-**ǟ:ä in first syllable**
+ LEXICON A_KIM  : 126
 
-*kǟnga%^VowShIn1%^A2ÕIn2 examples:*
+ LEXICON A_VAʼIT  vaʼit:vait 128
 
-*kängõ00 examples:*
+ LEXICON A_AMĀT  : 129
 
-**ā:a in first syllable**  
+ LEXICON A_SAʼGDIT  saʼgdit:sagdit 131
 
-*āļdža%^VowShIn1%^A2ÕIn2 examples:*
+ LEXICON A_VIĻȚ  : 132
 
-*aļdžõ00 examples:*
+ LEXICON A_EĻ  eļ: 133
 
-*āita%^PenVV2V%^VowsRM%>õ examples:*
+ LEXICON A_BLĒʼḐ  blēʼḑ:blēḑ 134
 
-*ait000%>õ examples:*
+ LEXICON A_FAKT  : 135
 
+ LEXICON A_SĪEND  sīend: 138
 
-**ȱ:ȯ**
+ LEXICON A_LǞʼND  lǟʼnd:lǟnd 139
 
-*vȱntsa%^VowShIn1%^VowsRM%>õ examples:*
+ LEXICON A_ĀIGAST  āigast: 140
 
-*vȯnts0000õ examples:*
+ LEXICON A_ANALĪZ  analīz: 141
 
-**ā:ī in second syllable plural**
+ LEXICON A_NĪʼEM  nīʼem:nīem 142
 
-*rikkā%^ConsSh%^Vow2Iin2>di examples:*
+ LEXICON A_VIŠ  : 144
 
-*rik0ī000di examples:*
+ LEXICON A_SIDĀM  : 157
 
-**ū:ī in second syllable plural**
+ LEXICON A_TŪOITÕG  : 158
 
-*ruzū%^Vow2Iin2>di examples:*
+ LEXICON A_KǬRAND  kǭrand: 159
+* Yaml: **armtõb**
 
-*ruzī000di examples:*
+ LEXICON A_ȬʼDÕG  ȭʼdõg:ȭdõg 160
 
-**a:i in second syllable plural**
+ LEXICON A_TAPTÕD  taptõd: 161
 
-*āita%^Vow2Iin2>di examples:*
+ LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
 
-*āiti00di examples:*
 
-**ǭ:a in first syllable**  
+ LEXICON A_KÄBRĀZ  : 168
 
-**ē:e in first syllable**  
+ LEXICON A_MAIGĀZ  : 169
 
-**ū:u in first syllable**  
+ LEXICON A_NÕTKĀZ  : 170
 
-**ū:ȯ in first syllable**  
+ LEXICON A_RIKĀZ  : 171
 
-*pūol0a%^Stress1to2%^ConsL examples:*
+ LEXICON A_ĀMBAZ  āmbaz:āmba 173
 
-*pȯ0llõ00 examples:*
+ LEXICON A_PŪŖAZ  : 174
 
-*pūoga%^VowsSh1%^PalatalizeLeft%^VowsRM%>õ examples:*
+ LEXICON A_PǬĻAZ  : 175
 
-*pȯig00000õ examples:*
+ LEXICON A_MÕTKÕZ  mõtkõz: 179
 
+ LEXICON A_VȬRÕZ  vȭrõz: 180
 
-**ī:i in first syllable**  
+ LEXICON A_ARĀGÕZ  : 181
 
-*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+ LEXICON A_ÄʼGGÕZ  ä'ggõz:äggõz 182
 
-*tierrõ00 examples:*
+ LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
 
-**ȭ:õ in first syllable**  
+ LEXICON A_SĒJI  : 186 āndaji:āndaji sēji:sēji
 
-*mȭuka%^VowsSh1%^VowsRM%>õ examples:*
+ LEXICON A_AKKIJI  akkiji:akkiji 187
 
-*mõuk0000õ examples:*
+ LEXICON A_LĒʼJI  lēʼji:lēʼji 188
 
-**ō:o in first syllable**  
+ LEXICON A_AʼIGI  aʼigi:aigi 192
 
-lengthen vowels
+ LEXICON A_PUʼNNI  pu'nni:punni 193
 
-**e:ē in first syllable**  
+ LEXICON A_KAȚKI  : 194
 
-*leiba%^VowsLI1%>st examples:*
+ LEXICON A_KUKKI  : 195
 
-*lē0ba00st examples:*
+ LEXICON A_AIGI  aigi:aigi 196
 
-*tei%^VowsLI1%>ḑi examples:*
+ LEXICON A_OUKI  : 197
 
-*tē000ḑi examples:*
+ LEXICON A_PAŖĪ  : 198
 
-**u:ū in first syllable**  
+ LEXICON A_TŪĻI  : 199
 
-*ul%^VowsLI1>õd examples:*
+ LEXICON A_AʼBLI  aʼbli:abli 200
 
-*ūl00õd examples:*
+ LEXICON A_SĒMI  : 201
 
+ LEXICON A_LĒʼMI  lē'mi:lēʼmi 202
 
-**õ:ȭ in first syllable**  
+ LEXICON A_ALĪZ  : 203
 
-**ȯ:ū in first syllable**  
+ LEXICON A_KĒRATÕKS  : 207
 
-**ä:ǟ in first syllable**  
+ LEXICON A_VARĪKŠ  varīkš: 209
 
-**0:i after shortened vowel or diphthong**  
+ LEXICON A_ŪŽ  : 219 ūž:ūd
 
-*v0eʼd%^PreI examples:*
+ LEXICON A_JŪŖ  jūŗ:jūr 221
 
-*vieʼd0 examples:*
+ LEXICON A_SŪR  sūr:sūr 222
 
-**0:u after shortened vowel or diphthong**  
 
-**0:o after shortened vowel or diphthong**  
 
-### VOWEL LENGTHENING
+ LEXICON A_DULLÕNZ  dullõnz:dullõn 227
 
-**a:ǭ in first syllable**  
+ LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
 
-*tam%^VowsL1aToǭõd examples:*
+ LEXICON A_TIDĀR  tidār:tidār 233
 
-*tǭm0õd examples:*
+ LEXICON A_APPÕN  appõn:appõn 235
 
-**a:ā in first syllable**  
+ LEXICON A_ǬʼRÕN  ǭʼrõn:ǭrõn 236
 
-*kand%^VowsLI1õd examples:*
+ LEXICON A_KĪNDÕR  kīndõr:kīndõr 237
 
-*kāndõd examples:*
+ LEXICON A_BÄʼZMÕR  bäʼzmõr:bäzmõr 238
 
-**i:ī in first syllable**
+ LEXICON A_TARĪĻ  tarīļ:tarīļ 239
 
-*niŗț%^VowsLI1%>õ examples:*
+ LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
 
-*nīŗț00õ examples:*
+ LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
 
-**o:ō in first syllable**  
 
-*ouki%^VowsLI1z examples:*
 
-*ō0ki0z examples:*
 
-**o:i**
 
-*pūog%^VowsSh1%^PalatalizeLeft%>õ examples:*
 
-*pȯig0000õ examples:*
+Prounoun inflection
+Livonian pronouns inflect in the same cases as regular
+nouns.
 
-LOWER VOWELS
-**ī:ē in tīe 15**
 
-*tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:*
+       -    Nouns  ;
 
-*tē000000šti examples:*
+ LEXICON PRON_MIS  mis:mi 1
 
-*kīel%^ĪE2Ē%^PalatalizeLeft examples:*
 
-*kē0ļ00 examples:*
+ LEXICON PRON_JEGĀ  jegā:jeʼgā 2
 
-Destressing in second syllable
-**ā:õ **  
 
-*käp0ā%^ConsL%^LongV2Õin2 examples:*
+ LEXICON PRON_MŪ  mū:m 3
 
-*käppõ00 examples:*
-* *rik0āz%^Stress2to1%^ConsRM*
-* *rikkõ000*
+ LEXICON PRON_SE  se:s 4
 
-**a:õ **
+ LEXICON PRON_TÄMĀ  tämā:t 5
 
-*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+ LEXICON PRON_NE  ne:n 4 & 5
 
-*tierrõ00 examples:*
+ LEXICON PRON_MINĀ  6 minā:m
 
-**ū:õ **  
+ LEXICON PRON_MĒG  mēg:m 6
 
-**õ:i**
+ LEXICON PRON_SINĀ  sinā:s 7
 
-*ǭʼrõn%^PalatalizeLeft examples:*
+ LEXICON PRON_TĒG  tēg:t 7
 
-*ǭʼriņ0 examples:*
+ LEXICON PRON_KIS  kis:kī 8
 
-*nȭŗkõz%^PalatalizeLeft%>ist examples:*
 
-*nȭŗkiz00ist examples:*
+ LEXICON PRON_ĪʼŽ  9
 
+ LEXICON PRON_MIDĀGÕD  midāgõd:midāg 10
 
-VOWEL LOSS
 
-**ā:0**  
+ LEXICON PRON_MITS  11
 
-*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
+Stem lexica
+ LEXICON PRON_TUBĀ  tubā:tubā 19
 
-*äʼm000000ži examples:*
+ LEXICON PRON_TUBĀ-PL  tubā:tubā 19
 
-*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
+ LEXICON PRON_ĀITA  āita:āita 46
 
-*ä0m00000ḑi examples:*
+ LEXICON PRON_ĀIGAST  āigast: 140
 
-*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
+ LEXICON PRON_AZŪM-PL  azūm: 153
 
-*daʼdz0000õ examples:*
+ LEXICON PRON_VĪDÕZ  vīdõz: 163
 
 
-*maʼigāz%^StodRM%^VowsRM%^ConsRM>īst examples:*
 
-*ma0ig000000īst examples:*
 
-**ū:0**  
+ LEXICON PRON_ĪKŠ  : 217
 
-**ī:0**  
 
-*sīe%>i examples:*
 
-*s0e0i examples:*
-
-**a:0**  
-
-*jǭr0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
-
-*jarr0000õ examples:*
-
-*pūol0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
-
-*pȯ0ll0000õ examples:*
-
-*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
-
-*keņg0000i examples:*
-
-**e:0**
-* *tīʼe%^LowerVows%^StodRM%^VowsRM%>šti*
-* *tē000000šti*
-kēļ+N+Sg+Nom
-* *kīel%^ĪE2Ē%^PalatalizeLeft*
-* *kē0l00*
-
-
-**õ:0**  
-
-*kittõ%^ConsSh%^VowsRM%>dõd examples:*
-
-*kit00000tõd examples:*
-
-**i:0 in first syllable**  
-
-*leiba%^VowsLI1%>st examples:*
-
-*lē0ba00st examples:*
-
-*tei%^VowsLI1%>ḑi examples:*
-
-*tē000ḑi examples:*
-
-*lǭija%^ConsSh examples:*
-
-*lǭ0ja0 examples:*
-
-*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
-
-*l0ešt00000i examples:*
-
-*ūiska%^ConsSh examples:*
-
-*ū0ška0 examples:*
-
-**u:0 in second position of first-syllable diphthong**  
-
-*ouki%^VowsLI1z examples:*
-
-*ō0ki0z examples:*
-
-*pǟuva%^ConsSh examples:*
-
-*pǟ0va0 examples:*
-
-**o:0 in second position of first-syllable diphthong**  
-```
-
-*pūol0a%^Stress1to2%^ConsL examples:*
-
-*pȯ0llõ00 examples:*
-```
-
-### Zero to vowel
-
-
-**0:õ in vowel metathesis**  
-
-
-## Consonant rules
-
-### Consonant loss 
-**shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb**  
-
-*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
-
-*äʼm000000ži examples:*
-
-**z:0**
-* *rik0āz%^Stress2to1%^ConsRM*
-
-### Consonant lengthening
-
-Lengthening consonantism between first and second vowel center
-simultaneous to reducing vowel of second syllable
-
-**lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ**  
-* *je0l0ā%^Stress2to1*
-* *ka0l0ā%^Stress2to1*
-* *rik0āz%^Stress2to1%^ConsRM*
-
-*pūol0a%^Stress1to2%^ConsL examples:*
-
-*pȯ0llõ00 examples:*
-
-**0:p**
-
-*käp0ā%^ConsL%^LongV2Õin2 examples:*
-
-*käppõ00 examples:*
-
-**%{XC%}:Cx**
-
-**%{XC%}:p** 2014-02-27
-
-*kep%{XC%}>õ examples:*
-
-*kepp0õ examples:*
-
-**%{XC%}:s** 2020-10-21
-tas+N+Sg+Ill
-* *tas{XC}>õ*
-* *tass>õ*
-
-**%{XC%}:ž** 2014-02-27
-
-*veʼd%^D2Ž%{XC%}>i examples:*
-
-*veʼž0ž0i examples:*
-
-
-**%{XC%}:k** 2014-02-27
-
-*rok%{XC%}>õ examples:*
-
-*rokk0õ examples:*
-
-**Stod removal left**  
-
-*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
-
-*daʼdz0000õ examples:*
-aʼb#sõʼnā+N+Sg+Nom: 
-* *aʼb#sõʼn%^StodRMā*
-* *aʼb#sõ0n0ā*
-
-
-*ka0l0ā%^Stress2to1 examples:*
-
-*kaʼllõ0 examples:*
-
-
-**z:ž**
-
-
-*alīz%^PalatalizeLeft%>i examples:*
-
-*alīž00i examples:*
-
-*izā%^PalatalizeLeft%^VowsRM%>ḑi examples:*
-
-*iž0000ḑi examples:*
-
-**d:ḑ**  
-lēʼḑ:līʼed 147
-
-**l:ļ**  
-This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
-kēļ:kēl 215
-
-*äʼddõl%^PalatalizeLeft%>i examples:*
-
-*äʼddiļ00i examples:*
-
-*tuʼl%^StodRM%^PalatalizeLeft%>īž examples:*
-
-*tu0ļ000īž examples:*
-
-**n:ņ palatalization**  
-
-*Vē0na%^PalatalizeLeft%^VowsRMõ examples:*
-
-*Vein000õ examples:*
-
-*ǭʼrõn%^PalatalizeLeft examples:*
-
-*ǭʼriņ0 examples:*
-
-*vȱntsa%^VowShIn1%^PalatalizeLeft%^VowsRM%>ti examples:*
-
-*vȯņtš00000ti examples:*
-sēņ:sēn 220
-
-*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
-
-*keņg0000i examples:*
-
-
-**r:ŗ**  
-jūŗ:jūr 221
-
-*ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
-
-*eŗg0000i examples:*
-
-
-
-**d:t **  
-
-*kittõ%^ConsSh%^VowsRM%>dõd examples:*
-
-*kit00000tõd examples:*
-nominative plural 
-
-*v0eʼd%^PreI%^StodRM%^D2T examples:*
-
-*vie0t examples:*
-
-**d:ț **  
-
-**d:ž **  
-
-
-
-
-### Consonant loss
-
-**d:0**  
-      Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
-
-**T loss before subsequent morpheme with underlying initial d**  
-
-*kittõ%^ConsSh%^VowsRM%>dõd examples:*
-
-*kit00000tõd examples:*
-
-**k:0**  
-
-*rikkā%^ConsSh%^Vow2Iin2di examples:*
-
-*rik0ī00di examples:*
-
-**ț:0**  
-
-**s:š palatalization**  
-
-*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
-
-*l0ešt00000i examples:*
-
-*pȯ0is%^VowsLI1õd examples:*
-
-*pūo0š0õd examples:*
-
-**ǟ:ē palatalization**  
-
-**ǟ:e short and palatalization**
-
-*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
-
-*keņg0000i examples:*
-
-
-**a:ä palatalization**  
-
-
-*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
-
-*äʼm00000ḑi examples:*
 
 
 Morphology
@@ -4259,91 +4346,20 @@ This is used in compounding, e.g. äʼb-:äʼb
 
  * **LEXICON K** is the clitic lexicon, but no clitica here, only #.
 
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
- V_ "(eng) ear/(est) /(fin) /(lav)" ;
-
-
-Acronyms
-Livonian acronyms ...
 
 
 
+We describe here how abbreviations are in Liv are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-
-
-
-
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
- ADV_ "(eng) /(est) /(fin) /(lav)" ;
-
-
-ADD NEW ADVERBS BELOW
-
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
- N_ "(eng) ear/(est) /(fin) /(lav)" ;
-
-
-ADD NEW NOUNS BELOW
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
- PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
-
-
-
-Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-
-the verbs of negation have partial inflection:
-* *äʼb:* `äb+V+Neg+Act+Ind+Prs+Sg1`
-* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl2`
-* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl3`
-* *aʼlgid:* `äb+V+Neg+Act+Imprt+Pl2`
-
-Some verbs only have few word-forms left:
-* *piḑīm:*
-* *piḑīks:*
-
-
-The verb lǟʼdõ has irregular forms:
-* *lekš:*
-* *li:*
-
-The verb vȱlda has irregular forms:
-* *uʼm:*
-* *ūo:*
-
-
-
-### PROPER NOUNS
-
-### NOUNS partitive for morfa demo
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
- A_ "(eng) /(est) /(fin) /(lav)" ;
-
-
-ADD NEW ADJECTIVES BELOW
-
-
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
- V_ "(eng) ear/(est) /(fin) /(lav)" ;
-
-
-Add new verbs below
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -4447,21 +4463,5 @@ Starting work with ordinals
 
 
 
-
-
-
-
-
-We describe here how abbreviations are in Liv are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
 
 
