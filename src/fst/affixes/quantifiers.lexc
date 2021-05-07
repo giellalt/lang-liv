@@ -1,14 +1,13 @@
-!! Quantifier inflection
+!! # Quantifier inflection
 ! ----------------------
-!! Livonian quantifiers inflect in the same cases as other
-!! nominals.
+!! This file documents the file on Livonian quantifier morphology.
 
 !LEXICON QntTag
 !	QntCases	;
 
 !LEXICON QntCases
 !+Qnt:   CASES  ;
-!!        -    Nouns  ;
+!        -    Nouns  ;
 
 LEXICON QNT_APPÕN !!= @CODE@ : 216
 +Qnt:     NMN_APPÕN   ;

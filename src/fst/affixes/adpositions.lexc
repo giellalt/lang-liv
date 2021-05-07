@@ -1,6 +1,6 @@
-!! Adjective inflection
+!! # Adjective inflection
 ! --------------------
-!! The UNDEFINED language adjectives compare.
+!! This file documents `affixes/adpositions.lexc`
 
 ! aigiz 188
 !LEXICON Po-aigiz
@@ -10,10 +10,12 @@
 !+Po:0        CASES   ;
 
 LEXICON POSTP_
-: # ;
+!! **LEXICON @LEXNAME@ = points to #
+ # ;
 
 LEXICON	 PREP_
-: # ;
+!! **LEXICON @LEXNAME@ = points to #
+ # ;
 
 
 

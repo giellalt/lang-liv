@@ -1,10 +1,15 @@
-!! Livonian noun inflection
+!! # Livonian noun inflection
 ! ---------------
+
+!! This file documents `affixes/nouns.lexc`, the Livonian noun inflection file.
+
+
+!! ## Ad hoc lexica
 
 LEXICON PL-INS_KÕKS-STEM
 # ; ! fix
 
-!! ## PROBLEMS with dictionary lexica
+!! PROBLEMS with dictionary lexica
 
 LEXICON N_  !!≈ * **@CODE@** 
 : # ;
@@ -15,7 +20,7 @@ LEXICON N_  !!≈ * **@CODE@**
 LEXICON N_¤29  !!≈ * **@CODE@** 
 : # ;
 
-!! Stem lexica
+!! ## Stem lexica
 LEXICON N_PŪ !!≈ * **@CODE@** contains pū: 12
 !! ~156
  NMN_PŪ ;

@@ -1,9 +1,10 @@
-!! Determiner inflection
+!! # Determiner inflection
 ! ----------------------
-!! Livonian determiners inflect in the same cases as other
-!! nominals.
+!! This file documents `affixes/determiners.lexc`, the language model for
+!! Livonian determiner inflection.
 
-!! Stem lexica
+
+!! ## Stem lexica
 !LEXICON DET_PADĀ !!= @CODE@ padā:padā 39
 !+Det:	NMN_PADĀ	;
 

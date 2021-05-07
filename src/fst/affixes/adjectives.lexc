@@ -1,14 +1,18 @@
 !! # Adjective inflection
 
-!! Livonian adjectives compare.
+!! This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
 
-LEXICON A_-ZERO !! modifiers that do not decline
+!! ## Indeclneables
+
+LEXICON A_-ZERO 
+!! **LEXICON @LEXNAME@ =  modifiers that do not decline, goes to #
  # ;
 
 LEXICON A_
+!! **LEXICON @LEXNAME@ = gives Pos tag.
 +Pos:0        CASES   ;
-+Comp:er       CASES   ;
-+Superl:est      CASES   ;
+!+Comp:er       CASES   ;
+!+Superl:est      CASES   ;
 
 !! ## Stem lexica
 

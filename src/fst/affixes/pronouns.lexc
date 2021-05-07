@@ -1,14 +1,15 @@
-!! Prounoun inflection
+!! # Prounoun inflection
 ! ----------------------
-!! Livonian pronouns inflect in the same cases as regular
-!! nouns.
+!! This file documents `affixes/pronouns.lexc`, 
+§§ the file on Livonian pronoun  inflection
 
 LEXICON PRON_
+!! **LEXICON @LEXNAME@ = goes to # only.
 :	#	;
 
 !LEXICON PronCases
 !+Pron:   CASES  ;
-!!        -    Nouns  ;
+!        -    Nouns  ;
 
 LEXICON PRON_MIS !!= @CODE@ mis:mi 1
 +Interr:ss SG-DAT_õn ;
