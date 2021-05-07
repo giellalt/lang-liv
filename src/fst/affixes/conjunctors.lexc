@@ -1,14 +1,19 @@
 !! # Conjunctions
 
-LEXICON CONJ_ !! These need to be corrected
+!! This file documents `affixes/conjunctors.lexc`
+
+LEXICON CONJ_ 
+!! **LEXICON @LEXNAME@ = These need to be corrected, it points to #.
 : # ;
 
 
-LEXICON CC_ !! Livonian conjunctors
+LEXICON CC_ 
+!! **LEXICON @LEXNAME@ =  Livonian conjunctors, points to #
 : # ;
 
 
-LEXICON CS_ !! Livonian subjunctors
+LEXICON CS_ 
+!! **LEXICON @LEXNAME@ =  Livonian subjunctors, points to #
 : # ;
 
 

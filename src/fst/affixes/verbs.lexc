@@ -1,512 +1,515 @@
-!! Verb inflection
+!! # Livonian Verb inflection
 ! ---------------
-!! The LIVONIAN language verbs inflect in persons.
+!! This file documents the verb inflection of Livonian.
 
+
+!! ## Verb stem classes
 LEXICON V_
-!! CONJUGATION TYPE MISSING
+!! **LEXICON @LEXNAME@ = CONJUGATION TYPE MISSING
 : # ;
 
 LEXICON TV_
-!! CONJUGATION TYPE MISSING
+!!  **LEXICON @LEXNAME@ = CONJUGATION TYPE MISSING
 +TV: K ;
 
 LEXICON V-AUX_LǞʼDÕ
-!! 1 lǟʼdõ:lǟʼ
+!!  **LEXICON @LEXNAME@ = 1 lǟʼdõ:lǟʼ
 : K ;
 
 LEXICON IV_LǞʼDÕ
-!! 1 lǟʼdõ:lǟʼ
+!!  **LEXICON @LEXNAME@ = 1 lǟʼdõ:lǟʼ
 +IV: K ;
 
 LEXICON TV_TǬʼDÕ
-!! 2 tǭʼdõ:tǭʼ
+!!  **LEXICON @LEXNAME@ = 2 tǭʼdõ:tǭʼ
 +TV: V-01_TǬʼDÕ ;
 
 LEXICON V-AUX_VĪDÕ
-!! 3 vīdõ:vī
+!!  **LEXICON @LEXNAME@ = 3 vīdõ:vī
 : V-01_VĪDÕ ;
 
 LEXICON IV_VĪDÕ
-!! 3 vīdõ:vī
+!!  **LEXICON @LEXNAME@ = 3 vīdõ:vī
 +IV: V-01_VĪDÕ ;
 
 LEXICON TV_VĪDÕ
-!! 3 vīdõ:vī
+!!  **LEXICON @LEXNAME@ = 3 vīdõ:vī
 +TV: V-01_VĪDÕ ;
 
 !LEXICON IV_NǞʼDÕ
-!! 4 nǟʼdõ:nǟʼ
+! 4 nǟʼdõ:nǟʼ
 !+IV: V-01_NǞʼDÕ ;
 
 LEXICON TV_NǞʼDÕ
-!! 4 nǟʼdõ:nǟʼ
+!!  **LEXICON @LEXNAME@ = 4 nǟʼdõ:nǟʼ
 !! * Yaml: **naeaeqdw**
 +TV: V-01_NǞʼDÕ ;
 
 LEXICON IV_KǞʼDÕ
-!! 5 kǟʼdõ:kǟʼ
+!!  **LEXICON @LEXNAME@ = 5 kǟʼdõ:kǟʼ
 +IV: K ;
 
 LEXICON TV_TĪʼEDÕ
-!! 6 tīʼedõ:tīʼe
+!!  **LEXICON @LEXNAME@ = 6 tīʼedõ:tīʼe
 +TV: K ;
 
 
 LEXICON V-AUX_SĪEDÕ
-!! 7 sīedõ:sīe
+!!  **LEXICON @LEXNAME@ = 7 sīedõ:sīe
 : V-01_SĪEDÕ ;
 
 LEXICON IV_SĪEDÕ
-!! 7 sīedõ:sīe
+!!  **LEXICON @LEXNAME@ = 7 sīedõ:sīe
 +IV: V-01_SĪEDÕ ;
 
 LEXICON TV_SĪEDÕ
-!! 7 sīedõ:sīe
+!!  **LEXICON @LEXNAME@ = 7 sīedõ:sīe
 +TV: V-01_SĪEDÕ ;
 
 LEXICON IV_SǬDÕ
-!! 8 sǭdõ:s
+!!  **LEXICON @LEXNAME@ = 8 sǭdõ:s
 +IV: V-01_SǬDÕ ;
 
 LEXICON TV_SǬDÕ
-!! 8 sǭdõ:s
+!!  **LEXICON @LEXNAME@ = 8 sǭdõ:s
 +TV: V-01_SǬDÕ ;
 
 LEXICON V-AUX_SǬDÕ
-!! 8 sǭdõ:s
+!!  **LEXICON @LEXNAME@ = 8 sǭdõ:s
 : V-01_SǬDÕ ;
 
 !LEXICON IV_JŪODÕ
-!! 9 jūodõ:jūo
+! 9 jūodõ:jūo
 !+IV: V-01_JŪODÕ ;
 
 LEXICON TV_JŪODÕ
-!! 9 jūodõ:jūo
+!!  **LEXICON @LEXNAME@ = 9 jūodõ:jūo
 +TV: V-01_JŪODÕ ;
 
 LEXICON V-AUX_VȰLDA
-!! 10 vȱlda:
+!!  **LEXICON @LEXNAME@ =  10 vȱlda: goes to **K**
 : K ;
 
 LEXICON IV_VȰLDA
-!! 10 vȱlda:
+!!  **LEXICON @LEXNAME@ = 10 vȱlda:
 +IV: K ;
 
 LEXICON IV_TŪLDA
-!! 11 tūlda:
+!!  **LEXICON @LEXNAME@ = 11 tūlda:
 +IV: K ;
 
 LEXICON V-AUX_PĀNDA
-!! 12 pānda:
+!!  **LEXICON @LEXNAME@ = 12 pānda:
 : K ;
 
 LEXICON IV_PĀNDA
-!! 12 pānda:
+!!  **LEXICON @LEXNAME@ = 12 pānda:
 +IV: K ;
 
 LEXICON TV_PĀNDA
-!! 12 pānda:
+!!  **LEXICON @LEXNAME@ = 12 pānda:
 +TV: K ;
 
 LEXICON IV_JEʼLLÕ
-!! 13 jeʼllõ:jeʼlā
+!!  **LEXICON @LEXNAME@ = 13 jeʼllõ:jeʼlā
 +IV: V-01_JEʼLLÕ ;
 
 LEXICON TV_JEʼLLÕ
-!! 13 jeʼllõ:jeʼllõ
+!! **LEXICON @LEXNAME@ =  13 jeʼllõ:jeʼllõ
 +TV: V-01_JEʼLLÕ ;
 
 LEXICON IV_ASTÕ
-!! 18 astõ:astõ
+!!  **LEXICON @LEXNAME@ = 18 astõ:astõ
 +IV: V-01_JEʼLLÕ ;
 
 LEXICON TV_ASTÕ
-!! 18 astõ:astõ
+!! **LEXICON @LEXNAME@ =  18 astõ:astõ
 +TV: V-01_JEʼLLÕ ;
 
 LEXICON TV_VÕTTÕ
-!! 19 võttõ:võttõ
+!!  **LEXICON @LEXNAME@ = 19 võttõ:võttõ
 +TV: V-01_JEʼLLÕ ;
 
 LEXICON IV_VIEʼDDÕ
-!! 24 vieʼddõ:vieʼddõ
+!!  **LEXICON @LEXNAME@ = 24 vieʼddõ:vieʼddõ
 +IV: V-01_JEʼLLÕ ;
 
 LEXICON TV_VIEʼDDÕ
-!! 24 vieʼddõ:vieʼddõ
+!!  **LEXICON @LEXNAME@ = 24 vieʼddõ:vieʼddõ
 +TV: V-01_JEʼLLÕ ;
 
 LEXICON IV_MAKSÕ
-!! 25 maksõ:maksõ
+!!  **LEXICON @LEXNAME@ = 25 maksõ:maksõ
 +IV: V-01_JEʼLLÕ ;
 
 LEXICON TV_MAKSÕ
-!! 25 maksõ:maksõ
+!!  **LEXICON @LEXNAME@ = 25 maksõ:maksõ
 +TV: V-01_JEʼLLÕ ;
 
 LEXICON TV_TAPPÕ
-!! 26 tappõ:tappõ
+!!  **LEXICON @LEXNAME@ = 26 tappõ:tappõ
 +TV: V-01_JEʼLLÕ ;
 
 LEXICON IV_MÄNGÕ
-!! 14 mängõ:mǟnga
+!!  **LEXICON @LEXNAME@ = 14 mängõ:mǟnga
 +IV: V-01_MÄNGÕ ;
 
 LEXICON TV_KILLÕ
-!! 15 killõ:kīla
+!!  **LEXICON @LEXNAME@ = 15 killõ:kīla
 +TV: V-01_MÄNGÕ ;
 
 LEXICON TV_PALLÕ
-!! 16 pallõ:pǭla
+!!  **LEXICON @LEXNAME@ = 16 pallõ:pǭla
 +TV: V-01_MÄNGÕ ;
 
 LEXICON TV_LOULÕ
-!! 17 loulõ:lōla
+!!  **LEXICON @LEXNAME@ = 17 loulõ:lōla
 +TV: V-01_MÄNGÕ ;
 
 LEXICON IV_LAITÕ
-!! 20 laittõ:lāita
+!!  **LEXICON @LEXNAME@ = 20 laittõ:lāita
 +IV: V-01_MÄNGÕ ;
 
 LEXICON TV_LAITÕ
-!! 20 laittõ:lāita
+!!  **LEXICON @LEXNAME@ = 20 laittõ:lāita
 +TV: V-01_MÄNGÕ ;
 
 LEXICON IV_TÄUTÕ
-!! 21 täutõ:tǟta
+!!  **LEXICON @LEXNAME@ = 21 täutõ:tǟta
 +IV: V-01_MÄNGÕ ;
 
 LEXICON TV_TÄUTÕ
-!! 21 täutõ:tǟta
+!!  **LEXICON @LEXNAME@ = 21 täutõ:tǟta
 +TV: V-01_MÄNGÕ ;
 
 !LEXICON IV_PȮĻTÕ
-!! 22 pȯļtõ:pūoļta
+! 22 pȯļtõ:pūoļta
 !+IV: V-01_MÄNGÕ ;
 
 LEXICON TV_PȮĻTÕ
-!! 22 pȯļtõ:pūoļta
+!!  **LEXICON @LEXNAME@ = 22 pȯļtõ:pūoļta
 +TV: V-01_MÄNGÕ ;
 
 !LEXICON IV_MȮISTÕ
-!! 23 mȯistõ:mūošta
+! 23 mȯistõ:mūošta
 !+IV: V-01_MÄNGÕ ;
 
 LEXICON TV_MȮISTÕ
-!! 23 mȯistõ:mūošta
+!!  **LEXICON @LEXNAME@ = 23 mȯistõ:mūošta
 +TV: V-01_MÄNGÕ ;
 
 LEXICON IV_ANDÕ
-!! 27 andõ:ānda
+!!  **LEXICON @LEXNAME@ = 27 andõ:ānda
 +IV: V-01_MÄNGÕ ;
 
 LEXICON TV_ANDÕ
-!! 27 andõ:ānda
+!!  **LEXICON @LEXNAME@ = 27 andõ:ānda
 +TV: V-01_MÄNGÕ ;
 
 LEXICON IV_TIEUDÕ
-!! 28 tieudõ:tīeda
+!!  **LEXICON @LEXNAME@ = 28 tieudõ:tīeda
 +IV: V-01_MÄNGÕ ;
 
 LEXICON TV_TIEUDÕ
-!! 28 tieudõ:tīeda
+!!  **LEXICON @LEXNAME@ = 28 tieudõ:tīeda
 +TV: V-01_MÄNGÕ ;
 
 !! 29-48 follow same pattern
+
 LEXICON IV_LUʼGGÕ
-!! luʼggõ:luʼggõ 29
+!!  **LEXICON @LEXNAME@ = luʼggõ:luʼggõ 29
 +IV:     V-01_LUʼGGÕ ;
 
 LEXICON TV_LUʼGGÕ
-!! luʼggõ:lugū 29
+!!  **LEXICON @LEXNAME@ = luʼggõ:lugū 29
 +TV:     V-01_LUʼGGÕ ;
 
 LEXICON IV_MUʼDŽÕ
-!! muʼdžõ:mudžū 30
+!!  **LEXICON @LEXNAME@ = muʼdžõ:mudžū 30
 +IV:     V-01_LUʼGGÕ ;
 
 LEXICON TV_MUʼDŽÕ
-!! muʼdžõ:mudžū 30
+!!  **LEXICON @LEXNAME@ = muʼdžõ:mudžū 30
 +TV:     V-01_LUʼGGÕ ;
 
 LEXICON IV_VAKȚÕ
-!! vakțõ:vakțū 31
+!!  **LEXICON @LEXNAME@ = vakțõ:vakțū 31
 +IV:     V-01_LUʼGGÕ      ;
 
 LEXICON TV_VAKȚÕ
-!! vakțõ:vakțū 31
+!! **LEXICON @LEXNAME@ =  vakțõ:vakțū 31
 +TV:	V-01_LUʼGGÕ	;
 
 LEXICON IV_KITTÕ
-!! kittõ:kitū 32
+!!  **LEXICON @LEXNAME@ = kittõ:kitū 32
 +IV:     V-01_LUʼGGÕ ;
 
 LEXICON TV_KITTÕ
-!! kittõ:kitū 32
+!!  **LEXICON @LEXNAME@ = kittõ:kitū 32
 +TV:     V-01_LUʼGGÕ ;
 
 LEXICON V-AUX_RIʼDDÕ
-!! riʼddõ:ridū 33
+!!  **LEXICON @LEXNAME@ = riʼddõ:ridū 33
 :     V-01_LUʼGGÕ ;
 
 LEXICON IV_RIʼDDÕ
-!! riʼddõ:ridū 33
+!!  **LEXICON @LEXNAME@ = riʼddõ:ridū 33
 +IV:     V-01_LUʼGGÕ ;
 
 LEXICON TV_RIʼDDÕ
-!! riʼddõ:ridū 33
+!!  **LEXICON @LEXNAME@ = riʼddõ:ridū 33
 +TV:     V-01_LUʼGGÕ ;
 
 LEXICON IV_KUTSÕ
-!! kutsõ:kutsū 34
+!!  **LEXICON @LEXNAME@ = kutsõ:kutsū 34
 +IV:     V-01_LUʼGGÕ ;
 
 LEXICON TV_KUTSÕ
-!! kutsõ:kutsū 34
+!!  **LEXICON @LEXNAME@ = kutsõ:kutsū 34
 +TV:     V-01_LUʼGGÕ ;
 
 LEXICON V-AUX_LASKÕ
-!! laskõ:laskū 35
+!!  **LEXICON @LEXNAME@ = laskõ:laskū 35
 :     V-01_LUʼGGÕ ;
 
 LEXICON IV_LASKÕ
-!! laskõ:laskū 35
+!!  **LEXICON @LEXNAME@ = laskõ:laskū 35
 +IV:     V-01_LUʼGGÕ ;
 
 LEXICON TV_LASKÕ
-!! laskõ:laskū 35
+!!  **LEXICON @LEXNAME@ = laskõ:laskū 35
 +TV:     V-01_LUʼGGÕ ;
 
 LEXICON IV_AKKÕ
-!! akkõ:akū 36
+!!  **LEXICON @LEXNAME@ = akkõ:akū 36
 !! Should ss be s and šš be š? 2013-02-19
 +IV:     V-01_LUʼGGÕ ;
 
 LEXICON TV_AKKÕ
-!! akkõ:akū 36
+!!  **LEXICON @LEXNAME@ = akkõ:akū 36
 +TV:     V-01_LUʼGGÕ ;
 
 
 LEXICON V-AUX_AIGÕ
-!! aigõ:āigõ 37
+!!  **LEXICON @LEXNAME@ = aigõ:āigõ 37
 :	V-01_AIGÕ ;
 
 LEXICON IV_AIGÕ
-!! aigõ:āigõ 37
+!!  **LEXICON @LEXNAME@ = aigõ:āigõ 37
 +IV:  V-01_AIGÕ ;
 
 LEXICON TV_AIGÕ
-!! aigõ:āigõ 37
+!!  **LEXICON @LEXNAME@ = aigõ:āigõ 37
 +TV:  V-01_AIGÕ ;
 
 LEXICON TV_KUOŖŖÕ
-!! kuoŗŗõ:kūoŗõ 38
+!!  **LEXICON @LEXNAME@ = kuoŗŗõ:kūoŗõ 38
 +TV:     V-01_AIGÕ       ;
 
 LEXICON TV_VANNÕ
-!! vannõ:vǭnõ 39
+!!  **LEXICON @LEXNAME@ = vannõ:vǭnõ 39
 +TV:     V-01_AIGÕ       ;
 
 
 LEXICON IV_PȮĻĻÕ
-!! pȯļļõ:pūoļõ 40
+!!  **LEXICON @LEXNAME@ = pȯļļõ:pūoļõ 40
 +IV:     V-01_AIGÕ       ;
 
 
 LEXICON IV_PȮIMÕ
-!! pȯimõ:pūoimõ 41
+!!  **LEXICON @LEXNAME@ = pȯimõ:pūoimõ 41
 +IV:     V-01_AIGÕ       ;
 
 LEXICON TV_PȮIMÕ
-!! pȯimõ:pūoimõ 41
+!!  **LEXICON @LEXNAME@ = pȯimõ:pūoimõ 41
 +TV:     V-01_AIGÕ       ;
 
 LEXICON IV_OUŖÕ
-!! ouŗõ:ōŗõ 42
+!!  **LEXICON @LEXNAME@ = ouŗõ:ōŗõ 42
 +IV:     V-01_AIGÕ       ;
 
 LEXICON IV_KEIJÕ
-!! keijõ:kējõ 43
+!!  **LEXICON @LEXNAME@ = keijõ:kējõ 43
 +IV:     V-01_AIGÕ       ;
 
 LEXICON TV_KEIJÕ
-!! keijõ:kējõ 43
+!!  **LEXICON @LEXNAME@ = keijõ:kējõ 43
 +TV:     V-01_AIGÕ       ;
 
 
 LEXICON IV_AŖŠTÕ
-!! aŗštõ:āŗštõ 44
+!!  **LEXICON @LEXNAME@ = aŗštõ:āŗštõ 44
 +IV:     V-01_AIGÕ       ;
 
 LEXICON TV_AŖŠTÕ
-!! aŗštõ:āŗštõ 44
+!!  **LEXICON @LEXNAME@ = aŗštõ:āŗštõ 44
 +TV:	V-01_AIGÕ	;
 
 LEXICON TV_PȮRTÕ
-!! pȯrtõ:pūortõ 45
+!!  **LEXICON @LEXNAME@ = pȯrtõ:pūortõ 45
 +TV:     V-01_AIGÕ       ;
 
 LEXICON TV_OUTÕ
-!! outõ:ōtõ 46
+!!  **LEXICON @LEXNAME@ = outõ:ōtõ 46
 +TV:     V-01_AIGÕ       ;
 
 LEXICON V-AUX_TUNDÕ
-!! tundõ:tūndõ 47
+!!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
 :    V-01_AIGÕ       ;
 
 LEXICON IV_TUNDÕ
-!! tundõ:tūndõ 47
+!!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
 +IV:	V-01_AIGÕ	;
 
 LEXICON TV_TUNDÕ
-!! tundõ:tūndõ 47
+!!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
 +TV:     V-01_AIGÕ       ;
 
 LEXICON TV_OUDÕ
-!! oudõ:ōdõ 48
+!!  **LEXICON @LEXNAME@ = oudõ:ōdõ 48
 +TV:	V-01_AIGÕ	;
 
 
 LEXICON IV_KŪLÕ
-!! kūlõ:kūlõ 49
+!!  **LEXICON @LEXNAME@ = kūlõ:kūlõ 49
 +IV: V-01_KŪLÕ ;
 
 LEXICON TV_KŪLÕ
-!! kūlõ:kūlõ 49
+!!  **LEXICON @LEXNAME@ = kūlõ:kūlõ 49
 +TV: V-01_KŪLÕ ;
 
 LEXICON IV_ARRÕ
-!! arrõ:arrõ 50
+!!  **LEXICON @LEXNAME@ = arrõ:arrõ 50
 +IV: V-01_KŪLÕ ;
 
 LEXICON TV_ARRÕ
-!! arrõ:arrõ 50
+!!  **LEXICON @LEXNAME@ = arrõ:arrõ 50
 +TV: V-01_KŪLÕ ;
 
 LEXICON IV_AʼILÕ
-!! aʼilõ:aʼilõ 51
+!!  **LEXICON @LEXNAME@ = aʼilõ:aʼilõ 51
 +IV: V-01_AʼILÕ ;
 
 LEXICON TV_AʼILÕ
-!! aʼilõ:aʼilõ 51
+!!  **LEXICON @LEXNAME@ = aʼilõ:aʼilõ 51
 +TV: V-01_AʼILÕ ;
 
 LEXICON TV_SVAʼRRÕ
-!! svaʼrrõ:svaʼrrõ 52
+!!  **LEXICON @LEXNAME@ = svaʼrrõ:svaʼrrõ 52
 +TV: V-01_KŪLÕ ;
 
 LEXICON V-AUX_KĪTÕ
-!! kītõ:kīt 53
+!!  **LEXICON @LEXNAME@ = kītõ:kīt 53
 : V-01_KŪLÕ ;
 
 LEXICON IV_KĪTÕ
-!! kītõ:kīt 53
+!!  **LEXICON @LEXNAME@ = kītõ:kīt 53
 !! ~701
 +IV: V-01_KŪLÕ ;
 
 LEXICON TV_KĪTÕ
-!! kītõ:kīt 53
+!!  **LEXICON @LEXNAME@ = kītõ:kīt 53
 +TV: V-01_KŪLÕ ;
 
 
 LEXICON IV_ÄʼBȚÕ
-!! äʼbțõ:äʼbț 54
+!!  **LEXICON @LEXNAME@ = äʼbțõ:äʼbț 54
 +IV: V-01_KŪLÕ ;
 
 LEXICON TV_ÄʼBȚÕ
-!! äʼbțõ:äʼbț 54
+!!  **LEXICON @LEXNAME@ = äʼbțõ:äʼbț 54
 +TV: V-01_KŪLÕ ;
 
 !LEXICON V_KŪLDÕ
-!! kūldõ:kūld 55
+! kūldõ:kūld 55
 ! V-01_KŪLÕ ;
 
 LEXICON V-AUX_KŪLDÕ
-!! kūldõ:kūld 55
+!!  **LEXICON @LEXNAME@ = kūldõ:kūld 55
 : V-01_KŪLÕ ;
 
 LEXICON IV_KŪLDÕ
-!! kūldõ:kūld 55
+!!  **LEXICON @LEXNAME@ = kūldõ:kūld 55
 +IV: V-01_KŪLÕ ;
 
 LEXICON TV_KŪLDÕ
-!! kūldõ:kūld 55
+!!  **LEXICON @LEXNAME@ = kūldõ:kūld 55
 +TV: V-01_KŪLÕ ;
 
 LEXICON TV_KĪSKÕ
-!! kīskõ:kīsk 56
+!!  **LEXICON @LEXNAME@ = kīskõ:kīsk 56
 +TV: V-01_KŪLÕ ;
 
 LEXICON V-AUX_ĪʼEDÕ
-!! īʼedõ:īed 57
+!!  **LEXICON @LEXNAME@ = īʼedõ:īed 57
 : V-01_KŪLÕ ;
 
 LEXICON IV_ĪʼEDÕ
-!! īʼedõ:īed 57
+!!  **LEXICON @LEXNAME@ = īʼedõ:īed 57
 +IV: V-01_KŪLÕ ;
 
 LEXICON TV_ĪʼEDÕ
-!! īʼedõ:īed 57
+!!  **LEXICON @LEXNAME@ = īʼedõ:īed 57
 +TV: V-01_KŪLÕ ;
 
 !LEXICON V_UMBLÕ
-!! umblõ:umblõ 58
+! umblõ:umblõ 58
 ! V-01_UMBLÕ ;
 
 LEXICON IV_UMBLÕ
-!! umblõ: 58
+!!  **LEXICON @LEXNAME@ = umblõ: 58
 +IV: V-01_UMBLÕ ;
 
 LEXICON TV_UMBLÕ
-!! umblõ: 58
+!!  **LEXICON @LEXNAME@ = umblõ: 58
 +TV: V-01_UMBLÕ ;
 
 LEXICON V-AUX_MÕTLÕ
-!! mõtlõ: 59
+!!  **LEXICON @LEXNAME@ = mõtlõ: 59
 : V-01_UMBLÕ ;
 
 LEXICON IV_MÕTLÕ
-!! mõtlõ: 59
+!!  **LEXICON @LEXNAME@ = mõtlõ: 59
 +IV: V-01_UMBLÕ ;
 
 LEXICON TV_MÕTLÕ
-!! mõtlõ: 59
+!!  **LEXICON @LEXNAME@ = mõtlõ: 59
 +TV: V-01_UMBLÕ ;
 
 LEXICON IV_MǞʼDLÕ
-!! mǟʼdlõ: 60
+!!  **LEXICON @LEXNAME@ = mǟʼdlõ: 60
 +IV: V-01_UMBLÕ ;
 
 LEXICON TV_MǞʼDLÕ
-!! mǟʼdlõ: 60
+!!  **LEXICON @LEXNAME@ = mǟʼdlõ: 60
 +TV: V-01_UMBLÕ ;
 
 LEXICON IV_NAʼGRÕ
-!! naʼgrõ: 60
+!!  **LEXICON @LEXNAME@ = naʼgrõ: 60
 +IV: V-01_UMBLÕ ;
 
 LEXICON TV_NAʼGRÕ
-!! naʼgrõ: 60
+!!  **LEXICON @LEXNAME@ = naʼgrõ: 60
 +TV: V-01_UMBLÕ ;
 
 !LEXICON V-AUX_ALĀ
-!! 62 alā:alā
+! 62 alā:alā
 !: K ;
 
 LEXICON V-AUX_ÄʼB
-!! 62 äʼb:ä
+!!  **LEXICON @LEXNAME@ = 62 äʼb:ä
 +Neg: K ;
 
 !LEXICON V-AUX_IʼZ
-!! 62 iʼz:ä
+! 62 iʼz:ä
 !+Neg: K ;
 
 LEXICON TV_SÄ
-!! 63 sä:sä
+!!  **LEXICON @LEXNAME@ = 63 sä:sä
 +TV: K ;
 
 LEXICON V-AUX_PIḐĪKS
-!! 64 piḑīks:piḑī
+!!  **LEXICON @LEXNAME@ = 64 piḑīks:piḑī
 : K ;
 
 !! ## After transitive, intransitive, auxiliary and such tags have been added
@@ -518,7 +521,7 @@ LEXICON V-01_TǬʼDÕ
 
 !! 3
 LEXICON V-01_VĪDÕ
-!! This is mutual for 3: 
+!!  **LEXICON @LEXNAME@ = This is mutual for 3: 
 !! vīdõ:vī
 :d   GER_sõ   ;
    INF_dõ	  ;
@@ -547,8 +550,8 @@ LEXICON V-01_VĪDÕ
 :%^VowsRM	PSSPRFPRCSG    ;
 
 
-LEXICON V-01_NǞʼDÕ !!= @CODE@ 4
-!! This is mutual for ??: 
+LEXICON V-01_NǞʼDÕ 
+!!  **LEXICON @LEXNAME@ = This is mutual for ??: 
 !! 4 nǟʼdõ:nǟʼ
 :d   GER_sõ   ;
    INF_dõ	  ;
@@ -577,7 +580,8 @@ LEXICON V-01_NǞʼDÕ !!= @CODE@ 4
 :%^VowsRM	PSSPRFPRCSG    ;
 !!5
 
-LEXICON V-01_SĪEDÕ !!= @CODE@ : 7 sīedõ:sīe
+LEXICON V-01_SĪEDÕ 
+!!  **LEXICON @LEXNAME@ = : 7 sīedõ:sīe
 !! * Yaml: **siiedw**
 :d   GER_sõ   ;
    INF_dõ	  ;
@@ -673,7 +677,7 @@ LEXICON V-01_JŪODÕ
 
 !!
 LEXICON V-01_JEʼLLÕ
-!! 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
+!!  **LEXICON @LEXNAME@ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
 :%^Stress2to1 GER_s     ;
 :%^Stress2to1 INF_ZERO      ;
 :%^StodRM%^ConsSh%^VowsRM%>ā SUP-STEM_m        ;
@@ -706,7 +710,7 @@ LEXICON V-01_JEʼLLÕ
 
 !!
 LEXICON V-01_MÄNGÕ
-!! 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+!!  **LEXICON @LEXNAME@ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
  GER_s     ;
 :%^Stress2to1 INF_ZERO      ;
 :%^Stress2to1 SUP-STEM_m        ;
@@ -791,9 +795,9 @@ LEXICON V-01_AIGÕ
 :%^Stress1to2 JUS_g	;
 :%^Stress1to2%^VowsRM QUO-STEM_iji	;		
 
-!!
+
 LEXICON V-01_KŪLÕ
-! This is mutual for 49-50, 52-57
+!! **LEXICON @LEXNAME@ =  This is mutual for 49-50, 52-57
  GER_s   ;
  INF_ZERO         ;
  SUP-STEM_m       ;
@@ -811,9 +815,9 @@ LEXICON V-01_KŪLÕ
  JUS_g ;
 :%^VowsRM QUO_iji ; 
 
-!!
+
 LEXICON V-01_AʼILÕ
-! This is mutual for 51
+!! **LEXICON @LEXNAME@ =  This is mutual for 51
  GER_s   ;
 !! Ger, Ger_Ine
 
@@ -855,10 +859,9 @@ JUS_g ;
 :%^VowsRM PSSPRFPRCSG ; !!≈ * **@CODE@** aʼil-
 
 
-!!
-!! 58, 
+
 LEXICON V-01_UMBLÕ
-!! This is mutual for 58-61: 
+!!  **LEXICON @LEXNAME@ = This is mutual for 58-61: 
 !! umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
    GER_s   ;
    INF_ZERO	  ;
@@ -902,25 +905,32 @@ LEXICON V-01_UMBLÕ
 !+inf:0    #   ;
 !!#:0   Nouns   ;
 
-!! Nonfinites
+!! ### Nonfinites
+
 LEXICON GER_s
+!! **LEXICON @LEXNAME@ = 
 +Ger:%>s   K ;
 +Ger+Ine:%>s   K ;
 
 LEXICON GER_sõ
-+Ger:%>sõ   K ;
+!! **LEXICON @LEXNAME@ = 
+ +Ger:%>sõ   K ;
 +Ger+Ine:%>sõ   K ;
 
 LEXICON INF_ZERO
+!! **LEXICON @LEXNAME@ = 
 +Inf:	K	;
 
 LEXICON INF_dõ
+!! **LEXICON @LEXNAME@ = 
 +Inf:%>dõ    K   ;
 
 LEXICON INF_da
+!! **LEXICON @LEXNAME@ = 
 +Inf:%>da    K   ;
 
 LEXICON SUP-STEM_m
+!! **LEXICON @LEXNAME@ = 
    SUP_m	;
    INDPRSPL1    ;
    INDPRSPL2    ;
@@ -930,6 +940,7 @@ LEXICON SUP-STEM_m
    INDCONNEGPL3	;
 
 LEXICON SUP_m
+!! **LEXICON @LEXNAME@ = 
 +Sup:%>m K   ;
 +Sup+Abe:%>mõt K   ;
 +Sup+Ela:%>mõst K   ;
@@ -939,6 +950,7 @@ LEXICON SUP_m
 +Sup+Tra:%>mõks K   ;
 
 LEXICON	SUP-STEM_mõ
+!! **LEXICON @LEXNAME@ = 
    SUP_mõ	;
    INDPRSPL1    ;
    INDPRSPL2    ;
@@ -948,6 +960,7 @@ LEXICON	SUP-STEM_mõ
    INDCONNEGPL3 ;
 
 LEXICON SUP_mõ
+!! **LEXICON @LEXNAME@ = 
 +Sup:%>mõ K   ;
 +Sup+Abe:%>mõt K   ;
 +Sup+Ela:%>mõst K   ;
@@ -957,49 +970,54 @@ LEXICON SUP_mõ
 +Sup+Tra:%>mõks K   ;
 
 LEXICON ACTPRSPRC
+!!  **LEXICON @LEXNAME@ = 
 +Act+PrsPrc+Sg:%>b	K    ;
 +Act+PrsPrc+Pl:%>bõd	K    ;
 +Act+PrsPrc+Der/A:%>b	A_SIDĀM    ;
 
 LEXICON	ACTPRFPRC_n
+!! **LEXICON @LEXNAME@ = 
 +Use/NG+Act+PrfPrc:%>n	K    ;
 +Act+PrfPrc+Sg:%>n	K    ;
 +Act+PrfPrc+Pl:%>nd	K    ;
 +Act+PrfPrc:%>n  NMN_KŪOLÕN      ; 
 
 LEXICON ACTPRFPRC_nd
+!! **LEXICON @LEXNAME@ = 
 +Act+PrfPrc+Sg:%>nd      K    ;
 +Act+PrfPrc+Pl:%>nd     K    ; !! Are the singular and plural homonyms?
 
 
 
 LEXICON PSSPRSPRC
+!! **LEXICON @LEXNAME@ = 
 +Pss+PrsPrc+Sg:%>dõb        K    ;
 +Pss+PrsPrc+Pl:%>dõbõd      K    ;
 
 LEXICON PSSPRFPRCSG
+!! **LEXICON @LEXNAME@ = 
 +Use/NG+Pss+PrfPrc:%>dõd    K    ;
 +Pss+PrfPrc+Sg:%>dõd    K    ;
 +Pss+PrfPrc:%>dõd	   NMN_TAPTÕD ; !! 2014-08-21
 
-!! Finites
+!! ### Finites
 
 !LEXICON INDPRS
-!! Indicative present
+! Indicative present
 !  INDPRSSG1-STEM	;
 !  INDPRSPL1	;
 !  INDPRSPL2	;
 !  INDPRSPL3	;
 
 LEXICON INDPRS_tõ
-!! Indicative present
+!!  **LEXICON @LEXNAME@ = Indicative present
   INDPRSSG1-STEM	;
   INDPRSPL1	;
   INDPRSPL2_tõ	;
   INDPRSPL3	;
 
 LEXICON INDPRT_i
-!! Indicative preterite in i
+!!  **LEXICON @LEXNAME@ = Indicative preterite in i
  INDPRTSG1_i    ;
  INDPRTSG2_i    ;
  INDPRTSG3_i    ;
@@ -1008,7 +1026,7 @@ LEXICON INDPRT_i
  INDPRTPL3_i    ;
 
 LEXICON INDPRT_z
-!! Indicative preterite in z
+!!  **LEXICON @LEXNAME@ = Indicative preterite in z
  INDPRTSG1_z    ;
  INDPRTSG2_z    ;
  INDPRTSG3_z    ;
@@ -1017,7 +1035,7 @@ LEXICON INDPRT_z
  INDPRTPL3_z    ;
 
 LEXICON INDPRT_ž
-!! Indicative preterite in ž
+!!  **LEXICON @LEXNAME@ = Indicative preterite in ž
  INDPRTSG1_ž    ;
  INDPRTSG2_ž    ;
  INDPRTSG3_ž    ;
@@ -1026,13 +1044,14 @@ LEXICON INDPRT_ž
  INDPRTPL3_ž    ;
 
 LEXICON INDPRTSG3-STEM_tõ
+!! **LEXICON @LEXNAME@ = 
  INDPRTSG3    ;
  INDPRTPL2_tõ    ;
  INDPRTPL3_tõ    ;
 
 
 LEXICON COND
-!! Conditional present
+!!  **LEXICON @LEXNAME@ = Conditional present
   CONDSG1	;
   CONDSG2	;
   CONDSG3	;
@@ -1041,11 +1060,13 @@ LEXICON COND
   CONDPL3	;
 
 
- ! Indicative present
+!! ### Indicative present
+
 LEXICON INDPRSSG1-STEM
-	INDPRSSG1	;
-	INDPRSSG2	;
-	INDPRSSG3	;
+!!  **LEXICON @LEXNAME@ = 
+	INDPRSSG1	; !!≈ * @CODE@ 
+	INDPRSSG2	; !!≈ * @CODE@ 
+	INDPRSSG3	; !!≈ * @CODE@ these three lexica point to lexica with the actual suffixes.
 
 LEXICON INDPRSSG1
  +Ind+Prs+Sg1:%>b    K	;
