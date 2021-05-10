@@ -1,7 +1,7 @@
 # Liv documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-liv)](https://raw.githubusercontent.com/giellalt/lang-liv/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-liv)](https://raw.githubusercontent.com/giellalt/lang-liv/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/issues)
 [![Build status](https://github.com/giellalt/lang-liv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-liv/actions)
 
