@@ -1,15 +1,15 @@
-# Liv documentation
+# Livonian documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-liv)](https://raw.githubusercontent.com/giellalt/lang-liv/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/issues)
 [![Build status](https://github.com/giellalt/lang-liv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-liv/actions)
 
-This page documents the work on the **Liv language model**. 
+This page documents the work on the [Livonian language model](http://github.com/giellalt/lang-liv). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
 
 # In-source documentation
 
