@@ -987,6 +987,10 @@ LEXICON ACTPRFPRC_nd
 +Act+PrfPrc+Sg:%>nd      K    ;
 +Act+PrfPrc+Pl:%>nd     K    ; !! Are the singular and plural homonyms?
 
+LEXICON ACTPRFPRC_SG-nd/PL-nõd
+!! **LEXICON @LEXNAME@ = 
++Act+PrfPrc+Sg:%>nd      K    ;
++Act+PrfPrc+Pl:%>nõd     K    ; !! Are the singular and plural homonyms?
 
 
 LEXICON PSSPRSPRC
