@@ -1,9 +1,12 @@
 # Adjective inflection
 
-Livonian adjectives compare.
+This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
 
-modifiers that do not decline
+## Indeclneables
 
+**LEXICON A_-ZERO =  modifiers that do not decline, goes to #
+
+**LEXICON A_ = gives Pos tag.
 
 ## Stem lexica
 

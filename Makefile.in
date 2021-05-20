@@ -14,10 +14,7 @@
 
 @SET_MAKE@
 
-# List all md files that should be created from source files in the
-# MD_PAGES variable. The filename pattern is as follows:
-#
-# dir/filename.lexc => filename-dir.md
+# The generated docs are automatically detected by the automake script
 
 # *.gt.* designates the tagset being used.
 # At the end of the makefile, there is support for automatic compilation of
@@ -51,7 +48,6 @@
 # hfst-multiply
 # hfst-pair-test
 # hfst-pmatch
-# hfst-prune-alphabet
 # hfst-push-weights
 # hfst-remove-epsilons
 # hfst-shuffle
@@ -405,13 +401,6 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-MD_PAGES = \
-		  root-morphology.md         \
-		  adjectives-affixes.md      \
-		  nouns-affixes.md           \
-		  verbs-affixes.md           \
-		  phonology-morphology.md 
-
 
 # Variables:
 ALLINONE_MD_PAGE = $(srcdir)/$(GTLANG).md
@@ -510,6 +499,11 @@ AM_V_PM2FST_0 = @echo "  HPM2FST  $@";
 AM_V_PROJECT = $(AM_V_PROJECT_@AM_V@)
 AM_V_PROJECT_ = $(AM_V_PROJECT_@AM_DEFAULT_V@)
 AM_V_PROJECT_0 = @echo "  HPROJECT $@";
+
+# hfst-prune-alphabet
+AM_V_HPRUNE = $(AM_V_HPRUNE_@AM_V@)
+AM_V_HPRUNE_ = $(AM_V_HPRUNE_@AM_DEFAULT_V@)
+AM_V_HPRUNE_0 = @echo "  HPRUNE   $@";
 
 # hfst-reverse
 AM_V_REVERSE = $(AM_V_REVERSE_@AM_V@)
@@ -878,8 +872,15 @@ $(srcdir)/%-transcriptions-src.md: $(top_srcdir)/src/transcriptions/%.twolc
 $(srcdir)/%-grammarcheckers-tools.md: $(top_srcdir)/tools/grammarcheckers/%.cg3
 	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
 
+$(srcdir)/%-apertium-mt-tools.md: $(top_srcdir)/tools/mt/apertium/%.cg3
+	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
+
+$(srcdir)/%-tts-tools.md: $(top_srcdir)/tools/tts/%.cg3
+	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
+
 generated-markdowns.sources:
-	$(AM_V_GEN)fgrep -rl --include '*.lexc' --include '*.twolc' --include '*.twolc' \
+	$(AM_V_GEN)fgrep -rl \
+		--include '*.lexc' --include '*.twolc' --include '*.cg3' \
 		--exclude 'Makefile*' --exclude '*.pmscript' --exclude '*.xfscript'\
 		--exclude lexicon.tmp.lexc \
 		'!! ' $(top_srcdir)/src/* $(top_srcdir)/tools/* |\
@@ -922,7 +923,7 @@ $(ALLINONE_MD_PAGE): generate-markdown generated-markdowns.targets
 
 $(LINKS): generate-markdown generated-markdowns.targets
 	$(AM_V_GEN)cat generated-markdowns.targets |\
-				LC_COLLATE=C sed 's/[a-z0-9._-]*/* [&]\(&\)/g' \
+				LC_COLLATE=C sed 's/[a-zA-Z0-9._-]*/* [&]\(&\)/g' \
 				> $@
 
 # FIXME: some temporary stuff to have index page
@@ -935,33 +936,12 @@ $(INDEX): $(HEADER) $(LINKS)
 clean-local:
 	$(AM_V_at)-rm -rf $(builddir)/build
 	$(AM_V_at)-rm -rf $(srcdir)/build
-
-maintainerclean-local:
-	$(AM_V_at)-rm -rf $(ALLINONE_MD_PAGE)
+	$(AM_V_at)-rm -f $(doc_DATA)
+	$(AM_V_at)-rm -f *-src.md
+	$(AM_V_at)-rm -f *-tools.md
+	$(AM_V_at)-rm -f generated-markdowns.*
 
 # vim: set ft=automake:
-# clitics-morphology.md       \
-# compounding-morphology.md   \
-# abbreviations-stems.md      \
-# acronyms-stems.md           \
-# adjectives-oahpa-stems.md   \
-# adjectives-stems.md         \
-# adpositions-stems.md        \
-# adverbs-stems.md            \
-# conjunctions-stems.md       \
-# interjections-stems.md      \
-# nouns-oahpa-stems.md        \
-# nouns-stems.md              \
-# numerals-stems.md           \
-# particles-stems.md          \
-# pronouns-stems.md           \
-# propernouns-stems.md        \
-# punctuation-stems.md        \
-# smi-propernouns-stems.md    \
-# subjunctions-stems.md       \
-# verbs-stems.md              \
-# adjectives-oahpa-affixes.md \
-# propernouns-affixes.md      
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

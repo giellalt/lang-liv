@@ -1,12 +1,17 @@
-Livonian noun inflection
+# Livonian noun inflection
+
+This file documents `affixes/nouns.lexc`, the Livonian noun inflection file.
 
 
-## PROBLEMS with dictionary lexica
+## Ad hoc lexica
+
+
+PROBLEMS with dictionary lexica
 
  * **LEXICON N_** 
  * **LEXICON N_¤29** 
 
-Stem lexica
+## Stem lexica
  * **LEXICON N_PŪ** contains pū: 12
 ~156
 

@@ -1,7 +1,10 @@
-Proper noun inflection
+# Proper noun inflection
+This file documents `affixes/propernouns.lexc`, the file for inflection of propernouns.
+
 Livonian proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
+**LEXICON PROP_ = this lexicon goes to K only
 
 
 Stem lexica

@@ -1,9 +1,7 @@
-Quantifier inflection
-Livonian quantifiers inflect in the same cases as other
-nominals.
+# Quantifier inflection
+This file documents the file on Livonian quantifier morphology.
 
 
-       -    Nouns  ;
 
  LEXICON QNT_APPÕN  : 216
 

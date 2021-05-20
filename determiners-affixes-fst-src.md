@@ -1,8 +1,9 @@
-Determiner inflection
-Livonian determiners inflect in the same cases as other
-nominals.
+# Determiner inflection
+This file documents `affixes/determiners.lexc`, the language model for
+Livonian determiner inflection.
 
-Stem lexica
+
+## Stem lexica
 
 
 

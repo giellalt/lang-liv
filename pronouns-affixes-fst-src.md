@@ -1,9 +1,9 @@
-Prounoun inflection
-Livonian pronouns inflect in the same cases as regular
-nouns.
+# Prounoun inflection
+This file documents `affixes/pronouns.lexc`,
+the file on Livonian pronoun  inflection
 
+**LEXICON PRON_ = goes to # only.
 
-       -    Nouns  ;
 
  LEXICON PRON_MIS  mis:mi 1
 

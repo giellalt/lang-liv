@@ -1,3 +1,610 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Sets for POS sub-categories
+
+
+
+
+
+* Sets for Semantic tags
+
+
+
+
+
+* Sets for Morphosyntactic properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Sets for verbs
+
+
+    - V is all readings with a V tag in them, REAL-V should
+be the ones without an N tag following the V.  
+The REAL-V set thus awaits a fix to the preprocess V ... N bug.
+
+
+
+* The set COPULAS is for predicative constructions
+
+
+
+
+
+
+
+* NP sets defined according to their morphosyntactic features
+
+
+
+
+
+
+
+* The PRE-NP-HEAD family of sets
+
+These sets model noun phrases (NPs). The idea is to first define whatever can
+occur in front of the head of the NP, and thereafter negate that with the
+expression **WORD - premodifiers**.
+
+
+
+
+
+
+
+
+
+
+
+
+The set **NOT-NPMOD** is used to find barriers between NPs.
+Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
+meaning: Scan to the first noun, ignoring anything that can be
+part of the noun phrase of that noun (i.e., "scan to the next NP head")
+
+
+
+
+
+
+* Miscellaneous sets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Border sets and their complements
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Syntactic sets
+
+
+
+
+These were the set types.
+
+
+
+## HABITIVE MAPPING
+
+
+* **hab1** 
+
+
+* **hab2** 
+
+* **hab3** (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+
+
+* **habNomLeft** 
+
+
+* **hab4** 	
+
+
+
+* **hab6** 
+
+* **hab7** 
+
+* **hab8** This is not HAB
+* **hab5**  This is not HAB
+
+
+
+* **habDain** (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
+
+
+
+
+* **habGen** (<hab> @<ADVL) hab for Gen; if Gen is located in the end of the sentence and Nom is sentence initial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **spred<obj** (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
+
+
+* **Hab<spred** (@<SPRED) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
+
+* **Hab>Advlcase<spred** (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween HAB and <ext>.
+
+* **Nom>Advlcase<spred** (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween Nom and <ext> @<SUBJ.
+
+* **<spred** (<ext> @<SUBJ) for Nom; if copulas to the left, and some kind of adverb, N Loc, time related word or Po to the left of it. OR: if Ill or @Pron< to the left, followed by copulas and the before mentioned to the left of copulas. 
+
+* **<spred** (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
+
+
+* **<spredQst1** (<ext> @<SUBJ) for Nom in a typically question sentence; if A) Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. B) same as a, only the Qst-pcle is attached to copulas. C) Qst to the left, with copulas to its left, but not if two Nom:s are found somewhere to the right. D) copulas to the left, and BOS to the left. E) Loc or Ill to the left, and Loc or Hab to the left of this, Qst and copulas to the left. F) Num @>N to the left, Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. NOTE) for all these rules; human, Loc or Sem/Plc not allowed to the right.
+
+* **<spredQst2** (@<SPRED) for Nom; in a typically question sentence; differs from <spredQst1 by not beeing as restricted to the right. Though you are not allowed to be Pers or human.
+
+* **Nom<spredQst** (@<SPRED) for Nom; in a typically question sentence. Differs from <spredQst2 by letting Nom be found between SPRED and copulas
+
+
+
+* **<spred** (@<SPRED) for A Nom or N Nom if; the subject Nom is on the same side of copulas as you: on the right side of copulas
+
+* **<spredVeara** (@<SPRED) for veara + Nom; if genitive immediately to the right, and intransitive mainverb to the right of genitive
+
+* **leftCop<spred** (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left. 
+
+* **<spredLocEXPERIMENT** (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
+
+
+* **NumTime** (@<SPRED) for A Nom
+
+* **<spredSg** (@<SPRED) for Sg Nom	
+
+* **<spredPg** (@<SPRED) for Pl Nom	
+
+* **<spred** (@<SPRED) for Nom; if copulas to the left, and Nom or sentence boundary to the left of copulas. First one to the right is EOS.
+
+* **<spred** (@<SPRED) for N Ess
+
+* **spredEss>** (@SPRED>) for N Ess; if copulas to the right of you, and if an NP with nom-case first one to your left.
+
+* **HABSpredSg>** (@SPRED>) for Nom; if habitive first one to the left, followed by copulas.
+
+* **GalleSpred>** (@SPRED>) for Num Nom; if sentence initial
+
+* **spredSgMII>** (@SPRED>)
+
+* **r492>** (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
+
+
+
+* **AdjSpredSg>** (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
+
+* **SpredSg>Hab** (@SPRED>) for Nom; if you are sentence initial, copulas is located to the right, and there is a habitive to the right of copulas
+
+
+
+* **Spred>SubjInf** (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
+
+* **spredCoord** (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
+
+
+
+
+
+
+* **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left) 
+
+* **subj>Du** (@SUBJ>) for dual nominatives, including Coll Nom. VFIN + Du3 to the right. 
+* **subj>Pl** (@SUBJ>) for plural nominatives, including Coll and Sem/Group. VFIN + Pl3 to the right.
+
+* **subj>Pl** (@SUBJ>) for plural nominatives
+
+
+* **subj>Sgnr2** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
+
+* **<subjSg** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **f<advl** (@-F<ADVL) for infinite adverbials
+
+* **f<advl** (@-F<ADVL) for infinite adverbials
+
+
+
+* **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-booundaries. Mainverb to the right.
+
+
+
+
+* **-fobj>** (@-FOBJ>) for Acc 
+
+* **-fobj>** (@-FOBJ>) for Acc
+
+
+
+
+* **advl>mainV** (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
+
+
+* **<advl** (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
+
+
+
+
+* **<advlPoPr** (@<ADVL) if mainverb to the left.
+* **advlPoPr>** (@<ADVL) if mainverb to the right.
+
+
+
+* **advlEss>** (@<ADVL) for weather and time Ess, if FMAINV to the left.
+
+
+
+
+
+
+* **advl>inbetween** (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
+
+* **comma<advlEOS** (@<ADVL) if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
+
+
+
+* **advlBOS>** (@ADVL>) if; you are N Ill and found sentnece initially. First one to your right is a clause.
+
+
+* **<advlPoEOS** (@<ADVL) for Po; if you are found at the very end of a sentence. A mainverb is needed to the right though.
+
+
+
+* **cleanupILL<advl** (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
+
+
+
+
+
+
+
+
+
+
+
+* **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
+
+
+### sma object
+
+
+
+
+
+
+
+
+
+* **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
+* **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
+
+
+
+
+
+## SUBJ MAPPING - leftovers
+
+## OBJ MAPPING - leftovers
+
+
+## HNOUN MAPPING
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Acronyms
 Livonian acronyms ...
 
@@ -49,7 +656,6 @@ added to the xml source files.
 
 ADD NEW ADVERBS BELOW
 
-
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
  N_ "(eng) ear/(est) /(fin) /(lav)" ;
@@ -86,7 +692,9 @@ ADD NEW ADJECTIVES BELOW
 
 
 
-# The Livonian morphophonological/twolc rules file 
+# Livonian morphophonology
+
+This file documents `fst/phonology.twolc`. We first show alphabet and sets, thereafter rules.
 
 
 ## Alphabet
@@ -99,37 +707,38 @@ ADD NEW ADJECTIVES BELOW
  * Õ Ä Ö Ȯ											      
  * ā ē ī ō ū ǟ ǭ ȭ ȱ								      
  * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
+* ʼ Stød
 
 
-ʼ Stød
+### Literal quotes and angles
+They must be escaped (cf morpheme boundaries further down):
 
-
-```
+»7
+«7
   %[%>%]  - Literal >
   %[%<%]  - Literal <
-```
 
+### Archiphonemes for consonant lengthening
 
+ * %{XC%}:p %{XC%}:t %{XC%}:k		      
+ * %{XC%}:b %{XC%}:d %{XC%}:g		      
+ * %{XC%}:l %{XC%}:ļ				      
+ * %{XC%}:m %{XC%}:n %{XC%}:ņ		      
+ * %{XC%}:r %{XC%}:ŗ				      
+ * %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž   
 
 ###  Triggers
- *  %^PenVV2V:0  penultimate vowel shortening
 
+ *  %^PenVV2V:0  penultimate vowel shortening
  *  %^Tense:0  = Tense stem will have stød if proper stem type
  *  %^D2T:0    d:t veʼž:veʼd:vietā
  *  %^PreI:0   i:0 veʼž:veʼd:vietā
  *  %^ĪE2Ē:0   kēļ kīel
-
  * K1:k        this k is not effected by gradation
  * %^NoGrad:0   This will be placed after a stem to break Gradation
-
-
  * %^WGStem:0  this weakens the stem ompel to ommel
-
-
- * %^TS:0  The ti => si
-
- * %^D2Ž:0  The *ti => *si
-
+ * %^TS:0      The ti => si
+ * %^D2Ž:0     The *ti => *si
  * %^D2ZERO:0  The d => 0
 
 ###  Vowel raising
@@ -143,40 +752,50 @@ ADD NEW ADJECTIVES BELOW
  * %^VowsLU1:0    vowel lengthening that is followed by "u" when short
  * %^VowsL1:0     vowel lengthening 
  * %^DiphthL1:0   
-
  * %^LongV2Õin2:0    long vowel to õ in second syllable
-
  * %^Vow2Iin2:0    vowel to i or ī in second syllable
 
-vowel metathesis
+### Vowel metathesis
+ * %^VowsMetath:0   
 
-VOWEL SHORTENING
+### VOWEL SHORTENING
  *  %^VowShIn1:0	 This causes vowel shortening in 1. syll
  *                  accompanied by coda consonant lengthening
  *  %^A2ÕIn2:0        This causes 2. syll a => õ
-
-
- *  %^A2ÕIn2:0        lengthen consonant
-
-
-*  %^A2ÕIn2:0        Vow in middle ētam:eitmõd
- *  %^A2ÕIn2:0        laps:läpš
-
-
-*  %^A2ÕIn2:0        kīndõr:kīndiriž
-
- *  %^A2ÕIn2:0        Hyphen in  constructions 
- *  %^A2ÕIn2:0        morpheme boundary
- *  %^A2ÕIn2:0        Word boundary for both lexicalised and dynamic compounds
-
-
-
-# Sets
+ * %^StodRM:0   
+ * %^ConsSh:0   
+ * %^ConsSh:0   lengthen consonant
+ * %^1Sh2L:0   
+ * %^Stress1to2:0   
+ * %^Stress2to1:0   
+ * %^VowsMRM:0 Vow in middle ētam:eitmõd
+ * %^VowsRM:0   
+ * %^ConsRM:0   
+ * %^ConsRM:0   laps:läpš
+ * %^VowsL1aToǭ:0   
+* %^VowsL1aToǭ:0   kīndõr:kīndiriž
+ * %^VowsL1aToǭ:0   Hyphen in  constructions 
+ * %^VowsL1aToǭ:0   morpheme boundary
+ * %^VowsL1aToǭ:0   Word boundary for both lexicalised and dynamic compounds
 
 
 
+## Sets
 
 
+ * VowBack = a o u A O U ; 
+ * VowFront = ä ö y ü Ä Ö Y Ü ; 
+ * VowNeutral = e i E I ; 
+ * VowNonHigh = a o ä ö e A O Ä Ö E ; 
+ * VowLong = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī Ā Ō Ū Ǟ Ǭ Ȭ Ȱ Ȫ Ȳ Ǖ Ē Ī ; 
+ * VowShort = a o u ä ǫ õ ȯ ö y ü e i A O U Ä Ǫ Õ Ȯ Ö Y Ü E I ; 
+ * Vow = VowLong VowShort ; 
+ * CnsWithStod = b d g j l ļ m n ņ r ŗ v z ž ; 
+ * Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
+   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
+ * Letters = Vow Cns ; 
+ * Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V 
+   %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
 
 
 
@@ -188,13 +807,13 @@ VOWEL SHORTENING
 
 
 
-**ǟ:ä in first syllable**
+**Rule: ǟ:ä in first syllable**
 
 *kǟnga%^VowShIn1%^A2ÕIn2 examples:*
 
 *kängõ00 examples:*
 
-**ā:a in first syllable**  
+**Rule: ā:a in first syllable**
 
 *āļdža%^VowShIn1%^A2ÕIn2 examples:*
 
@@ -205,37 +824,37 @@ VOWEL SHORTENING
 *ait000%>õ examples:*
 
 
-**ȱ:ȯ**
+**Rule: ȱ:ȯ**
 
 *vȱntsa%^VowShIn1%^VowsRM%>õ examples:*
 
 *vȯnts0000õ examples:*
 
-**ā:ī in second syllable plural**
+**Rule: ā:ī in second syllable plural**
 
 *rikkā%^ConsSh%^Vow2Iin2>di examples:*
 
 *rik0ī000di examples:*
 
-**ū:ī in second syllable plural**
+**Rule: ū:ī in second syllable plural**
 
 *ruzū%^Vow2Iin2>di examples:*
 
 *ruzī000di examples:*
 
-**a:i in second syllable plural**
+**Rule: a:i in second syllable plural**
 
 *āita%^Vow2Iin2>di examples:*
 
 *āiti00di examples:*
 
-**ǭ:a in first syllable**  
+**Rule: ǭ:a in first syllable**
 
-**ē:e in first syllable**  
+**Rule: ē:e in first syllable**
 
-**ū:u in first syllable**  
+**Rule: ū:u in first syllable**
 
-**ū:ȯ in first syllable**  
+**Rule: ū:ȯ in first syllable**
 
 *pūol0a%^Stress1to2%^ConsL examples:*
 
@@ -246,23 +865,23 @@ VOWEL SHORTENING
 *pȯig00000õ examples:*
 
 
-**ī:i in first syllable**  
+**Rule: ī:i in first syllable**
 
 *tīer0a%^VowShIn1%^A2ÕIn2 examples:*
 
 *tierrõ00 examples:*
 
-**ȭ:õ in first syllable**  
+**Rule: ȭ:õ in first syllable**
 
 *mȭuka%^VowsSh1%^VowsRM%>õ examples:*
 
 *mõuk0000õ examples:*
 
-**ō:o in first syllable**  
+**Rule: ō:o in first syllable**
 
 lengthen vowels
 
-**e:ē in first syllable**  
+**Rule: e:ē in first syllable**
 
 *leiba%^VowsLI1%>st examples:*
 
@@ -272,63 +891,63 @@ lengthen vowels
 
 *tē000ḑi examples:*
 
-**u:ū in first syllable**  
+**Rule: u:ū in first syllable**
 
 *ul%^VowsLI1>õd examples:*
 
 *ūl00õd examples:*
 
 
-**õ:ȭ in first syllable**  
+**Rule: õ:ȭ in first syllable**
 
-**ȯ:ū in first syllable**  
+**Rule: ȯ:ū in first syllable**
 
-**ä:ǟ in first syllable**  
+**Rule: ä:ǟ in first syllable**
 
-**0:i after shortened vowel or diphthong**  
+**Rule: 0:i after shortened vowel or diphthong**
 
 *v0eʼd%^PreI examples:*
 
 *vieʼd0 examples:*
 
-**0:u after shortened vowel or diphthong**  
+**Rule: 0:u after shortened vowel or diphthong**
 
-**0:o after shortened vowel or diphthong**  
+**Rule: 0:o after shortened vowel or diphthong**
 
 ### VOWEL LENGTHENING
 
-**a:ǭ in first syllable**  
+**Rule: a:ǭ in first syllable**
 
 *tam%^VowsL1aToǭõd examples:*
 
 *tǭm0õd examples:*
 
-**a:ā in first syllable**  
+**Rule: a:ā in first syllable**
 
 *kand%^VowsLI1õd examples:*
 
 *kāndõd examples:*
 
-**i:ī in first syllable**
+**Rule: i:ī in first syllable**
 
 *niŗț%^VowsLI1%>õ examples:*
 
 *nīŗț00õ examples:*
 
-**o:ō in first syllable**  
+**Rule: o:ō in first syllable**
 
 *ouki%^VowsLI1z examples:*
 
 *ō0ki0z examples:*
 
-**o:i**
+**Rule: o:i**
 
 *pūog%^VowsSh1%^PalatalizeLeft%>õ examples:*
 
 *pȯig0000õ examples:*
 
 LOWER VOWELS
-**ī:ē in tīe 15**
+**Rule: ī:ē in tīe 15**
 
 *tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:*
 
@@ -339,7 +958,7 @@ LOWER VOWELS
 *kē0ļ00 examples:*
 
 Destressing in second syllable
-**ā:õ **  
+**Rule: ā:õ **
 
 *käp0ā%^ConsL%^LongV2Õin2 examples:*
 
@@ -347,15 +966,15 @@ Destressing in second syllable
 * *rik0āz%^Stress2to1%^ConsRM*
 * *rikkõ000*
 
-**a:õ **
+**Rule: a:õ **
 
 *tīer0a%^VowShIn1%^A2ÕIn2 examples:*
 
 *tierrõ00 examples:*
 
-**ū:õ **  
+**Rule: ū:õ **
 
-**õ:i**
+**Rule: õ:i**
 
 *ǭʼrõn%^PalatalizeLeft examples:*
 
@@ -368,7 +987,7 @@ Destressing in second syllable
 
 VOWEL LOSS
 
-**ā:0**  
+**Rule: ā:0**
 
 *aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
 
@@ -387,15 +1006,15 @@ VOWEL LOSS
 
 *ma0ig000000īst examples:*
 
-**ū:0**  
+**Rule: ū:0**
 
-**ī:0**  
+**Rule: ī:0**
 
 *sīe%>i examples:*
 
 *s0e0i examples:*
 
-**a:0**  
+**Rule: a:0**
 
 *jǭr0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
 
@@ -409,7 +1028,7 @@ VOWEL LOSS
 
 *keņg0000i examples:*
 
-**e:0**
+**Rule: e:0**
 * *tīʼe%^LowerVows%^StodRM%^VowsRM%>šti*
 * *tē000000šti*
 kēļ+N+Sg+Nom
@@ -417,13 +1036,13 @@ kēļ+N+Sg+Nom
 * *kē0l00*
 
 
-**õ:0**  
+**Rule: õ:0**
 
 *kittõ%^ConsSh%^VowsRM%>dõd examples:*
 
 *kit00000tõd examples:*
 
-**i:0 in first syllable**  
+**Rule: i:0 in first syllable**
 
 *leiba%^VowsLI1%>st examples:*
 
@@ -445,7 +1064,7 @@ kēļ+N+Sg+Nom
 
 *ū0ška0 examples:*
 
-**u:0 in second position of first-syllable diphthong**  
+**Rule: u:0 in second position of first-syllable diphthong**
 
 *ouki%^VowsLI1z examples:*
 
@@ -455,7 +1074,7 @@ kēļ+N+Sg+Nom
 
 *pǟ0va0 examples:*
 
-**o:0 in second position of first-syllable diphthong**  
+**Rule: o:0 in second position of first-syllable diphthong**
 ```
 
 *pūol0a%^Stress1to2%^ConsL examples:*
@@ -466,19 +1085,19 @@ kēļ+N+Sg+Nom
 ### Zero to vowel
 
 
-**0:õ in vowel metathesis**  
+**Rule: 0:õ in vowel metathesis**
 
 
 ## Consonant rules
 
 ### Consonant loss 
-**shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb**  
+**Rule: shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb**
 
 *aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
 
 *äʼm000000ži examples:*
 
-**z:0**
+**Rule: z:0**
 * *rik0āz%^Stress2to1%^ConsRM*
 
 ### Consonant lengthening
@@ -486,7 +1105,7 @@ kēļ+N+Sg+Nom
 Lengthening consonantism between first and second vowel center
 simultaneous to reducing vowel of second syllable
 
-**lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ**  
+**Rule: lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ**
 * *je0l0ā%^Stress2to1*
 * *ka0l0ā%^Stress2to1*
 * *rik0āz%^Stress2to1%^ConsRM*
@@ -495,13 +1114,13 @@ simultaneous to reducing vowel of second syllable
 
 *pȯ0llõ00 examples:*
 
-**0:p**
+**Rule: 0:p**
 
 *käp0ā%^ConsL%^LongV2Õin2 examples:*
 
 *käppõ00 examples:*
 
-**%{XC%}:Cx**
+**Rule: %{XC%}:Cx**
 
 **%{XC%}:p** 2014-02-27
 
@@ -527,7 +1146,7 @@ tas+N+Sg+Ill
 
 *rokk0õ examples:*
 
-**Stod removal left**  
+**Rule: Stod removal left**
 
 *daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
 
@@ -542,7 +1161,7 @@ aʼb#sõʼnā+N+Sg+Nom:
 *kaʼllõ0 examples:*
 
 
-**z:ž**
+**Rule: z:ž**
 
 
 *alīz%^PalatalizeLeft%>i examples:*
@@ -553,10 +1172,10 @@ aʼb#sõʼnā+N+Sg+Nom:
 
 *iž0000ḑi examples:*
 
-**d:ḑ**  
+**Rule: d:ḑ**
 lēʼḑ:līʼed 147
 
-**l:ļ**  
+**Rule: l:ļ**
 This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 kēļ:kēl 215
 
@@ -568,7 +1187,7 @@ kēļ:kēl 215
 
 *tu0ļ000īž examples:*
 
-**n:ņ palatalization**  
+**Rule: n:ņ palatalization**
 
 *Vē0na%^PalatalizeLeft%^VowsRMõ examples:*
 
@@ -588,7 +1207,7 @@ sēņ:sēn 220
 *keņg0000i examples:*
 
 
-**r:ŗ**  
+**Rule: r:ŗ**
 jūŗ:jūr 221
 
 *ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
@@ -597,7 +1216,7 @@ jūŗ:jūr 221
 
 
 
-**d:t **  
+**Rule: d:t**
 
 *kittõ%^ConsSh%^VowsRM%>dõd examples:*
 
@@ -608,16 +1227,16 @@ nominative plural
 
 *vie0t examples:*
 
-**d:ț **  
+**Rule: d:ț**
 
-**d:ž **  
-
-
+**Rule: d:ž**
 
 
-### Consonant loss
 
-**d:0**  
+
+### Rules for consonant loss
+
+**Rule: d:0**
       Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
 
 **T loss before subsequent morpheme with underlying initial d**  
@@ -626,15 +1245,15 @@ nominative plural
 
 *kit00000tõd examples:*
 
-**k:0**  
+**Rule: k:0**
 
 *rikkā%^ConsSh%^Vow2Iin2di examples:*
 
 *rik0ī00di examples:*
 
-**ț:0**  
+**Rule: ț:0**
 
-**s:š palatalization**  
+**Rule: s:š palatalization**
 
 *liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
 
@@ -644,16 +1263,16 @@ nominative plural
 
 *pūo0š0õd examples:*
 
-**ǟ:ē palatalization**  
+**Rule: ǟ:ē palatalization**
 
-**ǟ:e short and palatalization**
+**Rule: ǟ:e short and palatalization**
 
 *kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
 
 *keņg0000i examples:*
 
 
-**a:ä palatalization**  
+**Rule: a:ä palatalization**
 
 
 *aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
@@ -663,19 +1282,29 @@ nominative plural
 
 # Symbol affixes
 
+**LEXICON Noun_symbols_possibly_inflected = 
+
+**LEXICON Noun_symbols_never_inflected = 
+
+**LEXICON SYMBOL_connector = 
+
+**LEXICON SYMBOL_NO_suff = 
+
+**LEXICON SYMBOL_suff = 
+# Livonian noun inflection
+
+This file documents `affixes/nouns.lexc`, the Livonian noun inflection file.
 
 
+## Ad hoc lexica
 
 
-Livonian noun inflection
-
-
-## PROBLEMS with dictionary lexica
+PROBLEMS with dictionary lexica
 
  * **LEXICON N_** 
  * **LEXICON N_¤29** 
 
-Stem lexica
+## Stem lexica
  * **LEXICON N_PŪ** contains pū: 12
 ~156
 
@@ -2771,11 +3400,12 @@ A trigger for z:ž will be required
 
 
 
-Determiner inflection
-Livonian determiners inflect in the same cases as other
-nominals.
+# Determiner inflection
+This file documents `affixes/determiners.lexc`, the language model for
+Livonian determiner inflection.
 
-Stem lexica
+
+## Stem lexica
 
 
 
@@ -2814,12 +3444,10 @@ Stem lexica
 
 
 
-Quantifier inflection
-Livonian quantifiers inflect in the same cases as other
-nominals.
+# Quantifier inflection
+This file documents the file on Livonian quantifier morphology.
 
 
-       -    Nouns  ;
 
  LEXICON QNT_APPÕN  : 216
 
@@ -2873,10 +3501,13 @@ Stem lexica
 
 
 
-Proper noun inflection
+# Proper noun inflection
+This file documents `affixes/propernouns.lexc`, the file for inflection of propernouns.
+
 Livonian proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
+**LEXICON PROP_ = this lexicon goes to K only
 
 
 Stem lexica
@@ -3091,267 +3722,262 @@ Stem lexica
 
 
 
-Verb inflection
-The LIVONIAN language verbs inflect in persons.
+# Livonian Verb inflection
+This file documents the verb inflection of Livonian.
 
-CONJUGATION TYPE MISSING
 
-CONJUGATION TYPE MISSING
+## Verb stem classes
+**LEXICON V_ = CONJUGATION TYPE MISSING
 
-1 lǟʼdõ:lǟʼ
+ **LEXICON TV_ = CONJUGATION TYPE MISSING
 
-1 lǟʼdõ:lǟʼ
+ **LEXICON V-AUX_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
 
-2 tǭʼdõ:tǭʼ
+ **LEXICON IV_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
 
-3 vīdõ:vī
+ **LEXICON TV_TǬʼDÕ = 2 tǭʼdõ:tǭʼ
 
-3 vīdõ:vī
+ **LEXICON V-AUX_VĪDÕ = 3 vīdõ:vī
 
-3 vīdõ:vī
+ **LEXICON IV_VĪDÕ = 3 vīdõ:vī
 
-4 nǟʼdõ:nǟʼ
+ **LEXICON TV_VĪDÕ = 3 vīdõ:vī
 
-4 nǟʼdõ:nǟʼ
+
+ **LEXICON TV_NǞʼDÕ = 4 nǟʼdõ:nǟʼ
 * Yaml: **naeaeqdw**
 
-5 kǟʼdõ:kǟʼ
+ **LEXICON IV_KǞʼDÕ = 5 kǟʼdõ:kǟʼ
 
-6 tīʼedõ:tīʼe
+ **LEXICON TV_TĪʼEDÕ = 6 tīʼedõ:tīʼe
 
 
-7 sīedõ:sīe
+ **LEXICON V-AUX_SĪEDÕ = 7 sīedõ:sīe
 
-7 sīedõ:sīe
+ **LEXICON IV_SĪEDÕ = 7 sīedõ:sīe
 
-7 sīedõ:sīe
+ **LEXICON TV_SĪEDÕ = 7 sīedõ:sīe
 
-8 sǭdõ:s
+ **LEXICON IV_SǬDÕ = 8 sǭdõ:s
 
-8 sǭdõ:s
+ **LEXICON TV_SǬDÕ = 8 sǭdõ:s
 
-8 sǭdõ:s
+ **LEXICON V-AUX_SǬDÕ = 8 sǭdõ:s
 
-9 jūodõ:jūo
 
-9 jūodõ:jūo
+ **LEXICON TV_JŪODÕ = 9 jūodõ:jūo
 
-10 vȱlda:
+ **LEXICON V-AUX_VȰLDA =  10 vȱlda: goes to **K**
 
-10 vȱlda:
+ **LEXICON IV_VȰLDA = 10 vȱlda:
 
-11 tūlda:
+ **LEXICON IV_TŪLDA = 11 tūlda:
 
-12 pānda:
+ **LEXICON V-AUX_PĀNDA = 12 pānda:
 
-12 pānda:
+ **LEXICON IV_PĀNDA = 12 pānda:
 
-12 pānda:
+ **LEXICON TV_PĀNDA = 12 pānda:
 
-13 jeʼllõ:jeʼlā
+ **LEXICON IV_JEʼLLÕ = 13 jeʼllõ:jeʼlā
 
-13 jeʼllõ:jeʼllõ
+**LEXICON TV_JEʼLLÕ =  13 jeʼllõ:jeʼllõ
 
-18 astõ:astõ
+ **LEXICON IV_ASTÕ = 18 astõ:astõ
 
-18 astõ:astõ
+**LEXICON TV_ASTÕ =  18 astõ:astõ
 
-19 võttõ:võttõ
+ **LEXICON TV_VÕTTÕ = 19 võttõ:võttõ
 
-24 vieʼddõ:vieʼddõ
+ **LEXICON IV_VIEʼDDÕ = 24 vieʼddõ:vieʼddõ
 
-24 vieʼddõ:vieʼddõ
+ **LEXICON TV_VIEʼDDÕ = 24 vieʼddõ:vieʼddõ
 
-25 maksõ:maksõ
+ **LEXICON IV_MAKSÕ = 25 maksõ:maksõ
 
-25 maksõ:maksõ
+ **LEXICON TV_MAKSÕ = 25 maksõ:maksõ
 
-26 tappõ:tappõ
+ **LEXICON TV_TAPPÕ = 26 tappõ:tappõ
 
-14 mängõ:mǟnga
+ **LEXICON IV_MÄNGÕ = 14 mängõ:mǟnga
 
-15 killõ:kīla
+ **LEXICON TV_KILLÕ = 15 killõ:kīla
 
-16 pallõ:pǭla
+ **LEXICON TV_PALLÕ = 16 pallõ:pǭla
 
-17 loulõ:lōla
+ **LEXICON TV_LOULÕ = 17 loulõ:lōla
 
-20 laittõ:lāita
+ **LEXICON IV_LAITÕ = 20 laittõ:lāita
 
-20 laittõ:lāita
+ **LEXICON TV_LAITÕ = 20 laittõ:lāita
 
-21 täutõ:tǟta
+ **LEXICON IV_TÄUTÕ = 21 täutõ:tǟta
 
-21 täutõ:tǟta
+ **LEXICON TV_TÄUTÕ = 21 täutõ:tǟta
 
-22 pȯļtõ:pūoļta
 
-22 pȯļtõ:pūoļta
+ **LEXICON TV_PȮĻTÕ = 22 pȯļtõ:pūoļta
 
-23 mȯistõ:mūošta
 
-23 mȯistõ:mūošta
+ **LEXICON TV_MȮISTÕ = 23 mȯistõ:mūošta
 
-27 andõ:ānda
+ **LEXICON IV_ANDÕ = 27 andõ:ānda
 
-27 andõ:ānda
+ **LEXICON TV_ANDÕ = 27 andõ:ānda
 
-28 tieudõ:tīeda
+ **LEXICON IV_TIEUDÕ = 28 tieudõ:tīeda
 
-28 tieudõ:tīeda
+ **LEXICON TV_TIEUDÕ = 28 tieudõ:tīeda
 
 29-48 follow same pattern
-luʼggõ:luʼggõ 29
 
-luʼggõ:lugū 29
+ **LEXICON IV_LUʼGGÕ = luʼggõ:luʼggõ 29
 
-muʼdžõ:mudžū 30
+ **LEXICON TV_LUʼGGÕ = luʼggõ:lugū 29
 
-muʼdžõ:mudžū 30
+ **LEXICON IV_MUʼDŽÕ = muʼdžõ:mudžū 30
 
-vakțõ:vakțū 31
+ **LEXICON TV_MUʼDŽÕ = muʼdžõ:mudžū 30
 
-vakțõ:vakțū 31
+ **LEXICON IV_VAKȚÕ = vakțõ:vakțū 31
 
-kittõ:kitū 32
+**LEXICON TV_VAKȚÕ =  vakțõ:vakțū 31
 
-kittõ:kitū 32
+ **LEXICON IV_KITTÕ = kittõ:kitū 32
 
-riʼddõ:ridū 33
+ **LEXICON TV_KITTÕ = kittõ:kitū 32
 
-riʼddõ:ridū 33
+ **LEXICON V-AUX_RIʼDDÕ = riʼddõ:ridū 33
 
-riʼddõ:ridū 33
+ **LEXICON IV_RIʼDDÕ = riʼddõ:ridū 33
 
-kutsõ:kutsū 34
+ **LEXICON TV_RIʼDDÕ = riʼddõ:ridū 33
 
-kutsõ:kutsū 34
+ **LEXICON IV_KUTSÕ = kutsõ:kutsū 34
 
-laskõ:laskū 35
+ **LEXICON TV_KUTSÕ = kutsõ:kutsū 34
 
-laskõ:laskū 35
+ **LEXICON V-AUX_LASKÕ = laskõ:laskū 35
 
-laskõ:laskū 35
+ **LEXICON IV_LASKÕ = laskõ:laskū 35
 
-akkõ:akū 36
+ **LEXICON TV_LASKÕ = laskõ:laskū 35
+
+ **LEXICON IV_AKKÕ = akkõ:akū 36
 Should ss be s and šš be š? 2013-02-19
 
-akkõ:akū 36
+ **LEXICON TV_AKKÕ = akkõ:akū 36
 
 
-aigõ:āigõ 37
+ **LEXICON V-AUX_AIGÕ = aigõ:āigõ 37
 
-aigõ:āigõ 37
+ **LEXICON IV_AIGÕ = aigõ:āigõ 37
 
-aigõ:āigõ 37
+ **LEXICON TV_AIGÕ = aigõ:āigõ 37
 
-kuoŗŗõ:kūoŗõ 38
+ **LEXICON TV_KUOŖŖÕ = kuoŗŗõ:kūoŗõ 38
 
-vannõ:vǭnõ 39
-
-
-pȯļļõ:pūoļõ 40
+ **LEXICON TV_VANNÕ = vannõ:vǭnõ 39
 
 
-pȯimõ:pūoimõ 41
-
-pȯimõ:pūoimõ 41
-
-ouŗõ:ōŗõ 42
-
-keijõ:kējõ 43
-
-keijõ:kējõ 43
+ **LEXICON IV_PȮĻĻÕ = pȯļļõ:pūoļõ 40
 
 
-aŗštõ:āŗštõ 44
+ **LEXICON IV_PȮIMÕ = pȯimõ:pūoimõ 41
 
-aŗštõ:āŗštõ 44
+ **LEXICON TV_PȮIMÕ = pȯimõ:pūoimõ 41
 
-pȯrtõ:pūortõ 45
+ **LEXICON IV_OUŖÕ = ouŗõ:ōŗõ 42
 
-outõ:ōtõ 46
+ **LEXICON IV_KEIJÕ = keijõ:kējõ 43
 
-tundõ:tūndõ 47
-
-tundõ:tūndõ 47
-
-tundõ:tūndõ 47
-
-oudõ:ōdõ 48
+ **LEXICON TV_KEIJÕ = keijõ:kējõ 43
 
 
-kūlõ:kūlõ 49
+ **LEXICON IV_AŖŠTÕ = aŗštõ:āŗštõ 44
 
-kūlõ:kūlõ 49
+ **LEXICON TV_AŖŠTÕ = aŗštõ:āŗštõ 44
 
-arrõ:arrõ 50
+ **LEXICON TV_PȮRTÕ = pȯrtõ:pūortõ 45
 
-arrõ:arrõ 50
+ **LEXICON TV_OUTÕ = outõ:ōtõ 46
 
-aʼilõ:aʼilõ 51
+ **LEXICON V-AUX_TUNDÕ = tundõ:tūndõ 47
 
-aʼilõ:aʼilõ 51
+ **LEXICON IV_TUNDÕ = tundõ:tūndõ 47
 
-svaʼrrõ:svaʼrrõ 52
+ **LEXICON TV_TUNDÕ = tundõ:tūndõ 47
 
-kītõ:kīt 53
+ **LEXICON TV_OUDÕ = oudõ:ōdõ 48
 
-kītõ:kīt 53
+
+ **LEXICON IV_KŪLÕ = kūlõ:kūlõ 49
+
+ **LEXICON TV_KŪLÕ = kūlõ:kūlõ 49
+
+ **LEXICON IV_ARRÕ = arrõ:arrõ 50
+
+ **LEXICON TV_ARRÕ = arrõ:arrõ 50
+
+ **LEXICON IV_AʼILÕ = aʼilõ:aʼilõ 51
+
+ **LEXICON TV_AʼILÕ = aʼilõ:aʼilõ 51
+
+ **LEXICON TV_SVAʼRRÕ = svaʼrrõ:svaʼrrõ 52
+
+ **LEXICON V-AUX_KĪTÕ = kītõ:kīt 53
+
+ **LEXICON IV_KĪTÕ = kītõ:kīt 53
 ~701
 
-kītõ:kīt 53
+ **LEXICON TV_KĪTÕ = kītõ:kīt 53
 
 
-äʼbțõ:äʼbț 54
+ **LEXICON IV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
 
-äʼbțõ:äʼbț 54
+ **LEXICON TV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
 
-kūldõ:kūld 55
 
-kūldõ:kūld 55
+ **LEXICON V-AUX_KŪLDÕ = kūldõ:kūld 55
 
-kūldõ:kūld 55
+ **LEXICON IV_KŪLDÕ = kūldõ:kūld 55
 
-kūldõ:kūld 55
+ **LEXICON TV_KŪLDÕ = kūldõ:kūld 55
 
-kīskõ:kīsk 56
+ **LEXICON TV_KĪSKÕ = kīskõ:kīsk 56
 
-īʼedõ:īed 57
+ **LEXICON V-AUX_ĪʼEDÕ = īʼedõ:īed 57
 
-īʼedõ:īed 57
+ **LEXICON IV_ĪʼEDÕ = īʼedõ:īed 57
 
-īʼedõ:īed 57
+ **LEXICON TV_ĪʼEDÕ = īʼedõ:īed 57
 
-umblõ:umblõ 58
 
-umblõ: 58
+ **LEXICON IV_UMBLÕ = umblõ: 58
 
-umblõ: 58
+ **LEXICON TV_UMBLÕ = umblõ: 58
 
-mõtlõ: 59
+ **LEXICON V-AUX_MÕTLÕ = mõtlõ: 59
 
-mõtlõ: 59
+ **LEXICON IV_MÕTLÕ = mõtlõ: 59
 
-mõtlõ: 59
+ **LEXICON TV_MÕTLÕ = mõtlõ: 59
 
-mǟʼdlõ: 60
+ **LEXICON IV_MǞʼDLÕ = mǟʼdlõ: 60
 
-mǟʼdlõ: 60
+ **LEXICON TV_MǞʼDLÕ = mǟʼdlõ: 60
 
-naʼgrõ: 60
+ **LEXICON IV_NAʼGRÕ = naʼgrõ: 60
 
-naʼgrõ: 60
+ **LEXICON TV_NAʼGRÕ = naʼgrõ: 60
 
-62 alā:alā
 
-62 äʼb:ä
+ **LEXICON V-AUX_ÄʼB = 62 äʼb:ä
 
-62 iʼz:ä
 
-63 sä:sä
+ **LEXICON TV_SÄ = 63 sä:sä
 
-64 piḑīks:piḑī
+ **LEXICON V-AUX_PIḐĪKS = 64 piḑīks:piḑī
 
 ## After transitive, intransitive, auxiliary and such tags have been added
 1
@@ -3359,7 +3985,7 @@ naʼgrõ: 60
 2
 
 3
-This is mutual for 3: 
+ **LEXICON V-01_VĪDÕ = This is mutual for 3: 
 vīdõ:vī
 Prt
 Imprt
@@ -3370,8 +3996,7 @@ Qvo
 participles
 
 
- LEXICON V-01_NǞʼDÕ  4
-This is mutual for ??: 
+ **LEXICON V-01_NǞʼDÕ = This is mutual for ??: 
 4 nǟʼdõ:nǟʼ
 Prt
 Imprt
@@ -3381,7 +4006,7 @@ Qvo
 
 participles
 
- LEXICON V-01_SĪEDÕ  : 7 sīedõ:sīe
+ **LEXICON V-01_SĪEDÕ = : 7 sīedõ:sīe
 * Yaml: **siiedw**
 Prt
 Imprt
@@ -3412,7 +4037,7 @@ Qvo
 participles
 10
 
-13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
+ **LEXICON V-01_JEʼLLÕ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
 
 Cond
 Imprt
@@ -3422,7 +4047,7 @@ Qvo
 participles
 
 
-14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+ **LEXICON V-01_MÄNGÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
 
 
 
@@ -3446,10 +4071,14 @@ Prt
 participles
 
 
+
+**LEXICON V-01_KŪLÕ =  This is mutual for 49-50, 52-57
 Prt
 +Act+PrfPrc
 Cond
 
+
+**LEXICON V-01_AʼILÕ =  This is mutual for 51
 Ger, Ger_Ine
 
  * **INF_ZERO ;** aʼilõ
@@ -3486,8 +4115,8 @@ Quo+Sg3, Quo+Pl3, Der/VN -mi
  * **:%^VowsRM PSSPRFPRCSG ;** aʼil-
 
 
-58, 
-This is mutual for 58-61: 
+
+ **LEXICON V-01_UMBLÕ = This is mutual for 58-61: 
 umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
 Prt
 Imprt
@@ -3502,42 +4131,65 @@ participles
 
 
 
-Nonfinites
+### Nonfinites
 
+**LEXICON GER_s = 
 
+**LEXICON GER_sõ = 
 
+**LEXICON INF_ZERO = 
 
+**LEXICON INF_dõ = 
 
+**LEXICON INF_da = 
 
+**LEXICON SUP-STEM_m = 
 
+**LEXICON SUP_m = 
 
+**LEXICON SUP_m = 
 
+**LEXICON SUP_mõ = 
 
+ **LEXICON ACTPRSPRC = 
 
+**LEXICON ACTPRSPRC = 
+
+**LEXICON ACTPRFPRC_nd = 
+Are the singular and plural homonyms?
+
+**LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
 Are the singular and plural homonyms?
 
 
+**LEXICON PSSPRSPRC = 
 
-
+**LEXICON PSSPRFPRCSG = 
 2014-08-21
 
-Finites
-
-Indicative present
-
-Indicative present
-
-Indicative preterite in i
-
-Indicative preterite in z
-
-Indicative preterite in ž
+### Finites
 
 
+ **LEXICON INDPRS_tõ = Indicative present
 
-Conditional present
+ **LEXICON INDPRT_i = Indicative preterite in i
+
+ **LEXICON INDPRT_z = Indicative preterite in z
+
+ **LEXICON INDPRT_ž = Indicative preterite in ž
+
+**LEXICON INDPRTSG3-STEM_tõ = 
 
 
+ **LEXICON COND = Conditional present
+
+
+### Indicative present
+
+ **LEXICON INDPRSSG1-STEM = 
+ * INDPRSSG1 ; 
+ * INDPRSSG2 ; 
+ * INDPRSSG3 ; these three lexica point to lexica with the actual suffixes.
 
 
 
@@ -3600,32 +4252,39 @@ Quotative
 
 # Conjunctions
 
-These need to be corrected
+This file documents `affixes/conjunctors.lexc`
+
+**LEXICON CONJ_ = These need to be corrected, it points to #.
 
 
-Livonian conjunctors
+**LEXICON CC_ =  Livonian conjunctors, points to #
 
 
-Livonian subjunctors
-
-
-
-Adjective inflection
-The UNDEFINED language adjectives compare.
+**LEXICON CS_ =  Livonian subjunctors, points to #
 
 
 
+# Adjective inflection
+This file documents `affixes/adpositions.lexc`
 
+
+
+**LEXICON POSTP_ = points to #
+
+**LEXICON POSTP_ = points to #
 
 
 
 
 # Adjective inflection
 
-Livonian adjectives compare.
+This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
 
-modifiers that do not decline
+## Indeclneables
 
+**LEXICON A_-ZERO =  modifiers that do not decline, goes to #
+
+**LEXICON A_ = gives Pos tag.
 
 ## Stem lexica
 
@@ -3842,12 +4501,12 @@ modifiers that do not decline
 
 
 
-Prounoun inflection
-Livonian pronouns inflect in the same cases as regular
-nouns.
+# Prounoun inflection
+This file documents `affixes/pronouns.lexc`,
+the file on Livonian pronoun  inflection
 
+**LEXICON PRON_ = goes to # only.
 
-       -    Nouns  ;
 
  LEXICON PRON_MIS  mis:mi 1
 
@@ -4457,6 +5116,417 @@ Starting work with ordinals
 
 
 
+
+
+
+
+
+
+
+
+
+      [ L A N G U A G E ]  G R A M M A R   C H E C K E R
+
+
+
+
+
+
+
+
+
+# DELIMITERS
+
+
+# TAGS AND SETS
+
+
+
+## Tags
+
+
+This section lists all the tags inherited from the fst, and used as tags
+in the syntactic analysis. The next section, **Sets**, contains sets defined
+on the basis of the tags listed here, those set names are not visible in the output.
+
+
+
+
+### Beginning and end of sentence
+BOS
+EOS
+
+
+
+### Parts of speech tags
+
+N
+A
+Adv
+V
+Pron
+CS
+CC
+CC-CS
+Po
+Pr
+Pcle
+Num
+Interj
+ABBR
+ACR
+CLB
+LEFT
+RIGHT
+WEB
+QMARK
+PPUNCT
+PUNCT
+
+COMMA
+¶
+
+
+
+### Tags for POS sub-categories
+
+Pers
+Dem
+Interr
+Indef
+Recipr
+Refl
+Rel
+Coll
+NomAg
+Prop
+Allegro
+Arab
+Romertall
+
+
+### Tags for morphosyntactic properties
+
+Nom
+Acc
+Gen
+Ill
+Loc
+Com
+Ess
+Ess
+Sg
+Du
+Pl
+Cmp/SplitR
+Cmp/SgNom Cmp/SgGen
+Cmp/SgGen
+PxSg1
+PxSg2
+PxSg3
+PxDu1
+PxDu2
+PxDu3
+PxPl1
+PxPl2
+PxPl3
+Px
+
+Comp
+Superl
+Attr
+Ord
+Qst
+IV
+TV
+Prt
+Prs
+Ind
+Pot
+Cond
+Imprt
+ImprtII
+Sg1
+Sg2
+Sg3
+Du1
+Du2
+Du3
+Pl1
+Pl2
+Pl3
+Inf
+ConNeg
+Neg
+PrfPrc
+VGen
+PrsPrc
+Ger
+Sup
+Actio
+VAbess
+
+
+
+Err/Orth
+
+
+
+### Semantic tags
+
+Sem/Act
+Sem/Ani
+Sem/Atr
+Sem/Body
+Sem/Clth
+Sem/Domain
+Sem/Feat-phys
+Sem/Fem
+Sem/Group
+Sem/Lang
+Sem/Mal
+Sem/Measr
+Sem/Money
+Sem/Obj
+Sem/Obj-el
+Sem/Org
+Sem/Perc-emo
+Sem/Plc
+Sem/Sign
+Sem/State-sick
+Sem/Sur
+Sem/Time
+Sem/Txt
+
+HUMAN
+
+HAB-ACTOR
+HAB-ACTOR-NOT-HUMAN
+
+
+PROP-ATTR
+PROP-SUR
+
+
+
+TIME-N-SET
+
+
+###  Syntactic tags
+
+@+FAUXV
+@+FMAINV
+@-FAUXV
+@-FMAINV
+@-FSUBJ>
+@-F<OBJ
+@-FOBJ>
+@-FSPRED<OBJ
+@-F<ADVL
+@-FADVL>
+@-F<SPRED
+@-F<OPRED
+@-FSPRED>
+@-FOPRED>
+@>ADVL
+@ADVL<
+@<ADVL
+@ADVL>
+@ADVL
+@HAB>
+@<HAB
+@>N
+@Interj
+@N<
+@>A
+@P<
+@>P
+@HNOUN
+@INTERJ
+@>Num
+@Pron<
+@>Pron
+@Num<
+@OBJ
+@<OBJ
+@OBJ>
+@OPRED
+@<OPRED
+@OPRED>
+@PCLE
+@COMP-CS<
+@SPRED
+@<SPRED
+@SPRED>
+@SUBJ
+@<SUBJ
+@SUBJ>
+SUBJ
+SPRED
+OPRED
+@PPRED
+@APP
+@APP-N<
+@APP-Pron<
+@APP>Pron
+@APP-Num<
+@APP-ADVL<
+@VOC
+@CVP
+@CNP
+OBJ
+<OBJ
+OBJ>
+<OBJ-OTHERS
+OBJ>-OTHERS
+SYN-V
+@X
+
+
+
+
+
+## Sets containing sets of lists and tags
+
+This part of the file lists a large number of sets based partly upon the tags defined above, and
+partly upon lexemes drawn from the lexicon.
+See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
+
+
+
+### Sets for Single-word sets
+
+INITIAL
+
+
+### Sets for word or not
+
+WORD
+REAL-WORD
+REAL-WORD-NOT-ABBR
+NOT-COMMA
+
+
+### Case sets
+
+ADLVCASE
+
+CASE-AGREEMENT
+CASE
+
+NOT-NOM
+NOT-GEN
+NOT-ACC
+
+### Verb sets
+
+
+NOT-V
+
+### Sets for finiteness and mood
+
+REAL-NEG
+
+MOOD-V
+
+NOT-PRFPRC
+
+
+### Sets for person
+
+SG1-V
+SG2-V
+SG3-V
+DU1-V
+DU2-V
+DU3-V
+PL1-V
+PL2-V
+PL3-V
+
+
+
+
+
+### Pronoun sets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Adjectival sets and their complements
+
+
+
+
+### Adverbial sets and their complements
+
+
+
+
+### Sets of elements with common syntactic behaviour
+
+
+### NP sets defined according to their morphosyntactic features
+
+
+
+
+
+
+
+
+### The PRE-NP-HEAD family of sets
+
+These sets model noun phrases (NPs). The idea is to first define whatever can
+occur in front of the head of the NP, and thereafter negate that with the
+expression **WORD - premodifiers**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Border sets and their complements
+
+
+
+
+
+
+
+
+
+
+
+### Grammarchecker sets
 
 
 
