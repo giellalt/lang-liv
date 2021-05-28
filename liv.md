@@ -3890,7 +3890,9 @@ This file documents `affixes/conjunctors.lexc`
 
 # Livonian morphophonology
 
-This file documents `fst/phonology.twolc`. We first show alphabet and sets, thereafter rules.
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-liv/blob/main/src/fst/phonology.twolc) 
+
+We first show alphabet and sets, thereafter rules.
 
 
 ## Alphabet
