@@ -30,3 +30,5 @@ The verb vȱlda has irregular forms:
 ### PROPER NOUNS
 
 ### NOUNS partitive for morfa demo
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/exceptions.lexc)</small>

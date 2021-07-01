@@ -10,3 +10,5 @@ This file documents `affixes/adpositions.lexc`
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adpositions.lexc)</small>

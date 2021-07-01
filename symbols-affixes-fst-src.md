@@ -10,3 +10,5 @@
 **LEXICON SYMBOL_NO_suff = 
 
 **LEXICON SYMBOL_suff = 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/symbols.lexc)</small>

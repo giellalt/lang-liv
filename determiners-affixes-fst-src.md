@@ -42,3 +42,5 @@ Livonian determiner inflection.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/determiners.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/determiners.lexc)</small>

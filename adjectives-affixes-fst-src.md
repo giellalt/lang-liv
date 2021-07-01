@@ -223,3 +223,5 @@ This file documents `affixes/adjectives.lexc`, the file for Livonian adjective i
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adjectives.lexc)</small>

@@ -73,19 +73,19 @@ They must be escaped (cf morpheme boundaries further down):
  *  %^A2ÕIn2:0        This causes 2. syll a => õ
  * %^StodRM:0   
  * %^ConsSh:0   
- * %^ConsSh:0   lengthen consonant
+* %^ConsSh:0   lengthen consonant
  * %^1Sh2L:0   
  * %^Stress1to2:0   
  * %^Stress2to1:0   
  * %^VowsMRM:0 Vow in middle ētam:eitmõd
  * %^VowsRM:0   
  * %^ConsRM:0   
- * %^ConsRM:0   laps:läpš
+* %^ConsRM:0   laps:läpš
  * %^VowsL1aToǭ:0   
 * %^VowsL1aToǭ:0   kīndõr:kīndiriž
- * %^VowsL1aToǭ:0   Hyphen in  constructions 
- * %^VowsL1aToǭ:0   morpheme boundary
- * %^VowsL1aToǭ:0   Word boundary for both lexicalised and dynamic compounds
+* %^VowsL1aToǭ:0   Hyphen in  constructions 
+* %^VowsL1aToǭ:0   morpheme boundary
+* %^VowsL1aToǭ:0   Word boundary for both lexicalised and dynamic compounds
 
 
 
@@ -588,3 +588,5 @@ nominative plural
 
 *äʼm00000ḑi examples:*
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/phonology.twolc)</small>

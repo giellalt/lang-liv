@@ -177,7 +177,7 @@ This entry / word can ...
  * +CmpNP/Suff - ... only **last** part in a compound, NEVER alone
  * +CmpNP/None - ... not take part in compounds
  * +CmpNP/Only - ... only be part of a compound, i.e. can never
-                 be used alone, but can appear in any position
+be used alone, but can appear in any position
 
 
 
@@ -442,3 +442,5 @@ This is used in compounding, e.g. äʼb-:äʼb
 
  * **LEXICON K** is the clitic lexicon, but no clitica here, only #.
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/root.lexc)</small>

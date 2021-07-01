@@ -12,3 +12,5 @@ This file documents `affixes/conjunctors.lexc`
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/conjunctors.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/conjunctors.lexc)</small>

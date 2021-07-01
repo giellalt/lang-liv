@@ -663,7 +663,7 @@ Stem	change:	None
 
 14
 Stem	change:	Yes 
- Vowel raising ǟ:ē +Pl +Ela/+Ill/+Par
+Vowel raising ǟ:ē +Pl +Ela/+Ill/+Par
 Stød: Yes
 
 
@@ -671,7 +671,7 @@ Stød: Yes
  * **LEXICON NMN_TĪE** tīe:tīʼe
 15
 Stem change: Yes
- Vowel lowering īe:ē +Pl +Ela/+Ill/+Par
+Vowel lowering īe:ē +Pl +Ela/+Ill/+Par
 Stød: Yes
  * **SG-ILL_zõ ;** 2014.12.12 Stød loss problem,
 		    	should be tīʼezõ
@@ -685,7 +685,7 @@ Stem change: None
  * **LEXICON NMN_TEI** tei:tei
 17
 Stem change: Yes 
- Vowel change: ei:ē
+Vowel change: ei:ē
 
 
 
@@ -699,9 +699,9 @@ SG-INE ;
 18
  * **LEXICON NMN_KALĀ** kalā:kaʼl
 Stem change: Yes
-  Consonant lengthening
-  Consonant palatalization
-  Vowel change in 2nd syllable ā:õ/0
+Consonant lengthening
+Consonant palatalization
+Vowel change in 2nd syllable ā:õ/0
 Stød: Yes
 
 
@@ -710,7 +710,7 @@ Stød: Yes
  * **LEXICON NMN_TUBĀ** tubā:tuʼb
 * Yaml: **A-amaa, N-tubaa** Pass: 2014.12.12
 Stem change:	 Yes
-  Vowel change in word-final position a:õ/0
+Vowel change in word-final position a:õ/0
 Stød
 
 
@@ -718,7 +718,7 @@ Stød
  * **LEXICON NMN_AIGĀ** aigā:aʼig
 * Yaml: **N-aigaa** 
 Stem change: Yes
-  vowel in 2nd syllable ā:õ/0
+vowel in 2nd syllable ā:õ/0
 Stød: Yes
 
 
@@ -726,7 +726,7 @@ Stød: Yes
 21
 * Yaml: **N-leeba** Passed: 2014.12.12
 Stem change: Yes
-  vowel change ei:e
+vowel change ei:e
 Stød: None
 
 
@@ -740,8 +740,8 @@ No information
 22
  * **LEXICON NMN_PŪOGA** pūoga:pūog
 Stem change: Yes
-  Vowel change in 1st syllable ūo:ȯi
-  Vowel change in word-final position a:õ/0
+Vowel change in 1st syllable ūo:ȯi
+Vowel change in word-final position a:õ/0
 Stød: None
 
 
@@ -749,8 +749,8 @@ Stød: None
 
 23
 Stem change: Yes
-  Vowel change in 1st syllable ǭ:a
-  Consonant change ij:j
+Vowel change in 1st syllable ǭ:a
+Consonant change ij:j
 Stød: None
 
 
@@ -758,7 +758,7 @@ Stød: None
 24
  * **LEXICON NMN_PǞVA** pǟva:pǟuva
 Stem change: Yes
- Vowel change ǟ:äu
+Vowel change ǟ:äu
 Stød: None
 
 
@@ -766,7 +766,7 @@ Stød: None
  * **LEXICON NMN_IZĀ** izā:iʼz
 25
 Stem change: yes
- Vowel loss ā:0
+Vowel loss ā:0
 Stød: Yes
 
 
@@ -799,7 +799,7 @@ Stem change: Yes
 
  * **LEXICON NMN_LIEPĀ** liepā:liep 29
 Stem change: Yes
- consonant length
+consonant length
 Stød: None
  * **LEXICON NMN_LIEPĀ-SG** liepā:lieppā 29
 
@@ -807,7 +807,7 @@ Stød: None
 
  * **LEXICON NMN_OKSĀ** oksā:oksā 30
 Stem change: Yes
- palatalization s:š
+palatalization s:š
 Stød: None
  * **LEXICON NMN_OKSĀ-SG** oksā:oksā 30
 
@@ -815,8 +815,8 @@ Stød: None
 
  * **LEXICON NMN_VȰNTSA** vȱntsa:vȱntsa 31
 Stem change:    Yes
- Vowel length
- ??Palatalization?? of s:š
+Vowel length
+??Palatalization?? of s:š
 Stød: None
  * **LEXICON NMN_VȰNTSA-SG** vȱntsa:vȱntsa 31
 
@@ -824,8 +824,8 @@ Stød: None
 
  * **LEXICON NMN_LIESTĀ** liestā:liestā 32
 Stem	change:	   Yes
- Diphthong straightening
- ??Palatalization?? of s:š 
+Diphthong straightening
+??Palatalization?? of s:š 
 Stød: None
  * **LEXICON NMN_LIESTĀ-SG** liestā:liestā 32
 
@@ -834,7 +834,7 @@ Stød: None
 33
  * **LEXICON NMN_ĀIGA** āiga:āig
 Stem	change:	Yes
- Vowel length in first syllable
+Vowel length in first syllable
 Stød: None
 
 
@@ -914,7 +914,7 @@ Stød: Yes
 
  * **LEXICON NMN_ŪŠKA** ūška:ūiska 47
 Stem change: Yes
- vowel length
+vowel length
 Stød: None
  * **LEXICON NMN_ŪŠKA-SG** ūška:ūiska 47
 
@@ -922,7 +922,7 @@ Stød: None
 
  * **LEXICON NMN_MȬKA** mȭka:mȭuka 48
 Stem change: Yes
- vowel length
+vowel length
 Stød: None
  * **LEXICON NMN_MȬKA-SG** mȭka:mȭuka 48
 
@@ -978,7 +978,7 @@ Sg Nom=Gen: Yes
 
  * **LEXICON NMN_NĒTŠA** nētša:nētša 58
 Stem change Yes
- final vowel loss
+final vowel loss
 Stød: None
  * **LEXICON NMN_NĒTŠA-SG** nētša:nētša 58
  * **LEXICON NMN_NĒTŠA-PL** nētša:nētša 58
@@ -2107,3 +2107,5 @@ A trigger for z:ž will be required
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/nouns.lexc)</small>
