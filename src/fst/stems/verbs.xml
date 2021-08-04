@@ -1438,7 +1438,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">at</l>
          <stg>
@@ -1468,7 +1468,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">attõ</l>
          <stg>
@@ -53291,7 +53291,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">um</l>
          <stg>
@@ -59157,7 +59157,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯlks</l>
          <stg>
@@ -59212,7 +59212,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯlksmõ</l>
          <stg>
@@ -59240,7 +59240,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯlkst</l>
          <stg>
@@ -59271,7 +59271,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯlkstõ</l>
          <stg>
@@ -59317,7 +59317,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯlkõ</l>
          <stg>
@@ -59381,7 +59381,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯnd</l>
          <stg>
@@ -59409,7 +59409,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯnnõd</l>
          <stg>
@@ -59503,7 +59503,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯļļi</l>
          <stg>
@@ -59529,7 +59529,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯļļid</l>
          <stg>
@@ -59647,7 +59647,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯl</l>
          <stg>
@@ -59672,7 +59672,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯlgid</l>
          <stg>
@@ -59722,7 +59722,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯļ</l>
          <stg>
@@ -59750,7 +59750,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯļd</l>
          <stg>
@@ -59775,7 +59775,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">vȯļtõ</l>
          <stg>
@@ -59854,9 +59854,9 @@
    </e>
    <e>
       <lg>
-         <l pos="V" val="IV">vȱlda</l>
+         <l pos="V" type="Aux">vȱlda</l>
          <stg>
-            <st Contlex="IV_VȰLDA">vȱlda</st>
+            <st Contlex="V-AUX_VȰLDA">0</st>
          </stg>
          <orig>vȱlda</orig>
       </lg>
@@ -61469,7 +61469,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">ātõ</l>
          <stg>
@@ -63360,7 +63360,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">ūo</l>
          <stg>
@@ -63396,7 +63396,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">ūod</l>
          <stg>
@@ -63450,7 +63450,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">ūom</l>
          <stg>
@@ -63478,7 +63478,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e except="fst">
       <lg>
          <l pos="V" type="Aux">ūotõ</l>
          <stg>

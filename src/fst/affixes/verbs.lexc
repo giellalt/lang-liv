@@ -87,11 +87,44 @@ LEXICON TV_JŪODÕ
 +TV: V-01_JŪODÕ ;
 
 LEXICON V-AUX_VȰLDA
-!!  **LEXICON @LEXNAME@ =  10 vȱlda: goes to **K**
-: K ;
+!!  **LEXICON @LEXNAME@ =  10 vȱlda:ZERO
++Ind+Prs+Sg1:uʼm K ;
++Ind+Prs+Sg2:ūod K ;
++Ind+Prs+Sg3:uʼm K ;
++Ind+Prs+Pl1:ūomõ K ;
++Ind+Prs+Pl2:ūotõ K ;
++Ind+Prs+Pl3:ātõ K ;
++Ind+Prs+Pl3:attõ K ;
++Ind+Conneg+Sg:ūo K ;
++Ind+Conneg+Pl1:ūomõ K ;
++Ind+Conneg+Pl2:ūotõ K ;
++Ind+Conneg+Pl3:ūotõ K ;
++Ind+Prt+Sg1:vȯʼļ K ;
++Ind+Prt+Sg2:vȯʼļd K ;
++Ind+Prt+Sg3:vȯʼļ K ;
++Ind+Prt+Pl1:vȯʼļmõ K ;
++Ind+Prt+Pl2:vȯʼļtõ K ;
++Ind+Prt+Pl3:vȯʼļtõ K ;
++Cnd+Conneg:vȯlks K ;
++Cnd+Sg1:vȯlks K ;
++Cnd+Sg2:vȯlkst K ;
++Cnd+Sg3:vȯlks K ;
++Cnd+Pl1:vȯlksmõ K ;
++Cnd+Pl2:vȯlkstõ K ;
++Cnd+Pl3:vȯlkstõ K ;
++Jus+Sg:vȯlkõ K ;
++Jus+Conneg+Sg:vȯlkõ K ;
++Jus+Pl:vȯlkõ K ;
++Jus+Conneg+Pl:vȯlkõ K ;
++Quo+Sg:vȯʼļļi K ;
++Quo+Pl:vȯʼļļi K ;
++Ind+PrcPrs+Sg:vȯnd K ;
++Ind+PrcPrs+Pl:vȯnnõd K ;
++Imprt+Pl2:vȯʼlgid K ;
+
 
 LEXICON IV_VȰLDA
-!!  **LEXICON @LEXNAME@ = 10 vȱlda:
+!!  **LEXICON @LEXNAME@ = 10 vȱlda: goes to **K**
 +IV: K ;
 
 LEXICON IV_TŪLDA
@@ -850,7 +883,7 @@ JUS_g ;
 !! Jus+Sg3, Jus+Pl3
 
 :%^VowsRM QUO-STEM_iji ;
-!! Quo+Sg3, Quo+Pl3, Der/VN -mi
+!! Quo+Sg3, Quo+Pl3, +NomAct -mi
 
  ACTPRFPRC_n ; !!≈ * **@CODE@** aʼilõ%>n
 !! +Act+PrfPrc
@@ -1236,11 +1269,13 @@ LEXICON JUS_gõ
 !! Quotative
 LEXICON QUO-STEM_ji
 	QUO_ji	;
-+Der/VN:mi		N_AʼBLI	;
-
++NomAct:mi		N_AʼBLI	;
++NomAg:ji N_SĒJI ; !CHECKME 2021-08-04
+!N_AKKIJI vs N_SĒJI
 LEXICON QUO-STEM_iji
 	QUO_iji	;
-+Der/VN:imi		N_AʼBLI	;
++NomAct:imi		N_AʼBLI	;
++NomAg:iji N_AKKIJI ; !CHECKME 2021-08-04
 
 LEXICON QUO_ji
 +Quo+Sg3:%>ji           K    ;

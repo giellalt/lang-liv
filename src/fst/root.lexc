@@ -443,6 +443,7 @@ Multichar_Symbols
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
++Der
 
  +V→N  !!≈ * **@CODE@**
  +V→V  !!≈ * **@CODE@**
@@ -450,6 +451,8 @@ Multichar_Symbols
  +Der/xxx	      !!≈ * **@CODE@**
  +Der/A	      !!≈ * **@CODE@** for example present participle to adjective
  +Der/VN      !!≈ * **@CODE@**
+ +NomAct      !!≈ * **@CODE@**
+ +NomAg      !!≈ * **@CODE@**
 
 
         !! ## Symbols that need to be escaped on the lower side (towards twolc):
