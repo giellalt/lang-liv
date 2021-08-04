@@ -43,9 +43,10 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_JŪODÕ = 9 jūodõ:jūo
 
-**LEXICON V-AUX_VȰLDA =  10 vȱlda: goes to **K**
+**LEXICON V-AUX_VȰLDA =  10 vȱlda:ZERO
 
-**LEXICON IV_VȰLDA = 10 vȱlda:
+
+**LEXICON IV_VȰLDA = 10 vȱlda: goes to **K**
 
 **LEXICON IV_TŪLDA = 11 tūlda:
 
@@ -382,7 +383,7 @@ Imprt+Pl1, Imprt+Pl2, Imprt+ConNeg
 
 Jus+Sg3, Jus+Pl3
 
-Quo+Sg3, Quo+Pl3, Der/VN -mi
+Quo+Sg3, Quo+Pl3, +NomAct -mi
 
  * **ACTPRFPRC_n ;** aʼilõ%>n
 +Act+PrfPrc
@@ -521,7 +522,6 @@ Jussative
 
 
 Quotative
-
 
 
 

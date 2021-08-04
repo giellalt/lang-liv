@@ -299,6 +299,8 @@ source and target part-of-speech.
  * **+Der/xxx**
  * **+Der/A** for example present participle to adjective
  * **+Der/VN**
+ * **+NomAct**
+ * **+NomAg**
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
