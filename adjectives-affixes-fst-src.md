@@ -19,7 +19,7 @@ This file documents `affixes/adjectives.lexc`, the file for Livonian adjective i
 
  LEXICON A_TUBĀ  tubā:tuʼbā 19
 
- LEXICON A_AIGĀ  aigā:aigā 20
+ LEXICON A_AIGĀ  aigā:aʼig 20
 
 
  LEXICON A_KŪJA  kūja:??lēba 21
