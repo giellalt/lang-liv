@@ -1269,13 +1269,13 @@ LEXICON JUS_gõ
 !! Quotative
 LEXICON QUO-STEM_ji
 	QUO_ji	;
-+NomAct:mi		N_AʼBLI	;
-+NomAg:ji N_SĒJI ; !CHECKME 2021-08-04
++NomAct+N:mi		N_AʼBLI	;
++NomAg+N:ji N_SĒJI ; !CHECKME 2021-08-04
 !N_AKKIJI vs N_SĒJI
 LEXICON QUO-STEM_iji
 	QUO_iji	;
-+NomAct:imi		N_AʼBLI	;
-+NomAg:iji N_AKKIJI ; !CHECKME 2021-08-04
++NomAct+N:imi		N_AʼBLI	;
++NomAg+N:iji N_AKKIJI ; !CHECKME 2021-08-04
 
 LEXICON QUO_ji
 +Quo+Sg3:%>ji           K    ;

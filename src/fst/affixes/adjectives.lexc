@@ -27,12 +27,14 @@ LEXICON A_BRĪ !!= @CODE@ contains brī:brī 16
 	
 LEXICON A_KALĀ  !!= @CODE@ contains  kalā:kaʼlā 18
  NMN_KALĀ ;
++Comp:%^StodRM%^PalatalizeLeft%^VowsRM%>īmi NMN_AʼBLI ;
 
 LEXICON A_TUBĀ !!= @CODE@ tubā:tuʼbā 19
  NMN_TUBĀ	;
 
-LEXICON A_AIGĀ !!= @CODE@ aigā:aigā 20
+LEXICON A_AIGĀ !!= @CODE@ aigā:aʼig 20
  NMN_AIGĀ	;
++Comp:%^StodRM%>īm NMN_SIDĀM ;
 
 !LEXICON A_LĒBA !!= @CODE@ lēba:lēba 21
 ! NMN_LĒBA	;
@@ -186,6 +188,7 @@ LEXICON A_VIŠ !!= @CODE@ : 144
 
 LEXICON A_SIDĀM !!= @CODE@ : 157
  NMN_SIDĀM	;
++Comp:%>im NMN_KǬRAND ;
 
 LEXICON A_TŪOITÕG !!= @CODE@ : 158
  NMN_TŪOITÕG	;
@@ -259,6 +262,7 @@ LEXICON A_PUʼNNI !!= @CODE@ pu'nni:punni 193
 
 LEXICON A_KAȚKI !!= @CODE@ : 194
  NMN_KAȚKI	;
++Comp:%^StodRMīm NMN_SIDĀM ;
 
 LEXICON A_KUKKI !!= @CODE@ : 195
  NMN_KUKKI	;
@@ -274,15 +278,18 @@ LEXICON A_PAŖĪ !!= @CODE@ : 198
 
 LEXICON A_TŪĻI !!= @CODE@ : 199
  NMN_TŪĻI	;
++Comp:%>m NMN_KǬRAND ;
 
 LEXICON A_AʼBLI !!= @CODE@ aʼbli:abli 200
  NMN_AʼBLI	;
++Comp:m NMN_TŪOITÕG ;
 
 LEXICON A_SĒMI !!= @CODE@ : 201
  NMN_SĒMI	;
 
 LEXICON A_LĒʼMI !!= @CODE@ lē'mi:lēʼmi 202
  NMN_LĒʼMI	;
++Comp:mi NMN_LĒʼMI ;
 
 LEXICON A_ALĪZ !!= @CODE@ : 203
  NMN_ALĪZ	;
@@ -301,6 +308,7 @@ LEXICON A_JŪŖ !!= @CODE@ jūŗ:jūr 221
 
 LEXICON A_SŪR !!= @CODE@ sūr:sūr 222
  NMN_SŪR	;
++Comp:%^PalatalizeLeft%>im NMN_TŪOITÕG ;
 
 !LEXICON A_SALĀJ !!= @CODE@ : 225
 ! NMN_SALĀJ	;

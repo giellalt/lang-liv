@@ -1,0 +1,70 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-dict-gt-norm.hfst
+    Morph: ../../../src/analyser-dict-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-dict-gt-norm.xfst
+    Morph: ../../../src/analyser-dict-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - lǟʼdõ: # Verb 1 'eng /est /fin lähteä' - full paradigm
+     lǟʼdõ+V+Inf: lǟʼdõ
+     lǟʼdõ+V+Ger: lǟʼdsõ
+     lǟʼdõ+V+Sup: lǟʼmõ
+     lǟʼdõ+V+Deb: lǟʼmõst
+     lǟʼdõ+V+Ind+Prs+Sg1: lǟʼb
+     lǟʼdõ+V+Ind+Prs+Sg2: lǟʼd
+     lǟʼdõ+V+Ind+Prs+Sg3: lǟʼb
+     lǟʼdõ+V+Ind+Prs+Pl1: lǟʼmõ
+     lǟʼdõ+V+Ind+Prs+Pl2: lǟʼtõ
+     lǟʼdõ+V+Ind+Prs+Pl3: lǟʼbõd
+     lǟʼdõ+V+Ind+Prt+Sg1: lekš
+     lǟʼdõ+V+Ind+Prt+Sg2: lekšt
+     lǟʼdõ+V+Ind+Prt+Sg3: lekš
+     lǟʼdõ+V+Ind+Prt+Pl1: lekšmõ
+     lǟʼdõ+V+Ind+Prt+Pl1: lekšmā
+     lǟʼdõ+V+Ind+Prt+Pl2: lekštõ
+     lǟʼdõ+V+Ind+Prt+Pl2: lekštā
+     lǟʼdõ+V+Ind+Prt+Pl3: lekštõ
+     lǟʼdõ+V+Ind+Prt+Pl3: lekštā
+     lǟʼdõ+V+Ind+Conneg+Sg: lǟʼ
+     lǟʼdõ+V+Ind+Conneg+Pl1: lǟʼmõ
+     lǟʼdõ+V+Ind+Conneg+Pl2: lǟʼtõ
+     lǟʼdõ+V+Ind+Conneg+Pl3: lǟʼtõ
+     lǟʼdõ+V+Cond+Sg1: lǟʼks
+     lǟʼdõ+V+Cond+Sg2: lǟʼkst
+     lǟʼdõ+V+Cond+Sg3: lǟʼks
+     lǟʼdõ+V+Cond+Pl1: lǟʼksmõ
+     lǟʼdõ+V+Cond+Pl2: lǟʼkstõ
+     lǟʼdõ+V+Cond+Pl3: lǟʼkstõ
+     lǟʼdõ+V+Cond+Conneg+Sg: lǟʼks
+     lǟʼdõ+V+Cond+Conneg+Pl1: lǟʼksmõ
+     lǟʼdõ+V+Cond+Conneg+Pl2: lǟʼkstõ
+     lǟʼdõ+V+Cond+Conneg+Pl3: lǟʼkstõ
+     lǟʼdõ+V+Imprt+Sg2: li
+     lǟʼdõ+V+Imprt+Conneg+Sg2: li
+     lǟʼdõ+V+Imprt+Pl2: ligīd
+     lǟʼdõ+V+Imprt+Conneg+Pl2: ligīd
+     lǟʼdõ+V+Jus+Sg: läkkõ
+     lǟʼdõ+V+Jus+Conneg+Sg: läkkõ
+     lǟʼdõ+V+Jus+Pl: läkkõd
+     lǟʼdõ+V+Jus+Conneg+Pl: läkkõd
+     lǟʼdõ+V+Quo+Sg: lēʼji
+     lǟʼdõ+V+Quo+Conneg+Sg: lēʼji
+     lǟʼdõ+V+Quo+Pl: lēʼjid
+     lǟʼdõ+V+Quo+Conneg+Pl: lēʼjid
+     lǟʼdõ+V+Act+PrfPrc+Sg: lǟʼnd
+     lǟʼdõ+V+Act+PrfPrc+Pl: lǟʼnõd
+     lǟʼdõ+V+Pss+PrfPrc: lǟʼdõd
+     lǟʼdõ+V+Pss+PrsPrc: lǟʼdõb
+     lǟʼdõ+V+NomAg: lēʼji
+     lǟʼdõ+V+NomAct: lēʼmi
