@@ -671,7 +671,7 @@ Some verbs only have few word-forms left:
 * *piḑīks:*
 
 
-The verb lǟʼdõ has irregular forms:
+The verb lǟdõ has irregular forms:
 * *lekš:*
 * *li:*
 
@@ -761,7 +761,7 @@ Nominals are inflected for Number and Case
  * **+Dat** = dative case
  * **+Ela** = elative
  * **+Ess** = essive
- * **+Exe** = essive
+ * **+Exe** = exessive
  * **+Gen** = genitive case
  * **+Ill** = illative
  * **+Ine** = inessive
@@ -2424,6 +2424,8 @@ nouns, but with a colon (':') as separator.
 
 
 Stem lexica
+ LEXICON PROP_TOP_PŪ  contains pū: 12
+
  LEXICON PROP_PŪ  contains pū: 12
 
  LEXICON PROP_PŪ-SG  contains pū: 12
@@ -4872,6 +4874,7 @@ SG-PAR	;
 
 
 ## NUMBER AND CASE
+
 
 
 

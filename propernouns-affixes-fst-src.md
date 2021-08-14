@@ -8,6 +8,8 @@ nouns, but with a colon (':') as separator.
 
 
 Stem lexica
+ LEXICON PROP_TOP_PŪ  contains pū: 12
+
  LEXICON PROP_PŪ  contains pū: 12
 
  LEXICON PROP_PŪ-SG  contains pū: 12

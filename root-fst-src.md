@@ -59,7 +59,7 @@ Nominals are inflected for Number and Case
  * **+Dat** = dative case
  * **+Ela** = elative
  * **+Ess** = essive
- * **+Exe** = essive
+ * **+Exe** = exessive
  * **+Gen** = genitive case
  * **+Ill** = illative
  * **+Ine** = inessive

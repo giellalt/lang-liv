@@ -17,7 +17,7 @@ Some verbs only have few word-forms left:
 * *piḑīks:*
 
 
-The verb lǟʼdõ has irregular forms:
+The verb lǟdõ has irregular forms:
 * *lekš:*
 * *li:*
 

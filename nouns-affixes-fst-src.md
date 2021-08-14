@@ -2016,6 +2016,7 @@ SG-PAR	;
 
 
 
+
 above as pair in SG-ELA/INE_st; 2014 jaska
 
 
