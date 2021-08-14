@@ -12,21 +12,14 @@ LEXICON EXCEPTIONS
 !!€ iʼzt:   äb+V+Neg+Act+Ind+Prt+Pl2
 !!€ iʼzt:   äb+V+Neg+Act+Ind+Prt+Pl3
 !!€ aʼlgid: äb+V+Neg+Act+Imprt+Pl2
-äb+V+Neg+Act+Ind+Prs+Sg1:äb        K ;
 äb+V+Neg+Act+Ind+Prs+Sg1:äʼb        K ;
-äb+V+Neg+Act+Ind+Prs+Sg3:äb        K ;
 äb+V+Neg+Act+Ind+Prs+Sg3:äʼb        K ;
-äb+V+Neg+Act+Ind+Prs+Pl1:äb        K ;
 äb+V+Neg+Act+Ind+Prs+Pl1:äʼb        K ;
 äb+V+Neg+Act+Ind+Prs+Pl2:ät        K ;
-äb+V+Neg+Act+Ind+Prs+Pl3:äb        K ;
 äb+V+Neg+Act+Ind+Prs+Pl3:äʼb        K ;
-äb+V+Neg+Act+Ind+Prt+Sg3:iz        K ;
 äb+V+Neg+Act+Ind+Prt+Sg3:iʼz        K ;
-äb+V+Neg+Act+Ind+Prt+Pl2:izt       K ;
 äb+V+Neg+Act+Ind+Prt+Pl2:iʼzt       K ;
 äb+V+Neg+Act+Ind+Prt+Pl3:iʼzt       K ;
-äb+V+Neg+Act+Ind+Prt+Pl3:izt       K ;
 äb+V+Neg+Act+Imprt+Sg2:alā         K ;
 äb+V+Neg+Act+Imprt+Pl2:aʼlgid      K ;
 äb+V+Neg+Act+Jus+Sg3:aʼlgõ         K ;
@@ -36,17 +29,17 @@ LEXICON EXCEPTIONS
 !!€ piḑīks:
 
 
-!! The verb lǟʼdõ has irregular forms:
+!! The verb lǟdõ has irregular forms:
 !!€ lekš:
 !!€ li:
-lǟʼdõ+V:lǟʼ	INF_dõ	;
-lǟʼdõ+V:lǟʼd	GER_sõ	;
-lǟʼdõ+V:lǟʼ	SUP-STEM_mõ	;
-lǟʼdõ+V:lǟʼ	INDPRS_tõ 	;
-lǟʼdõ+V:lǟʼ	ACTPRFPRC_SG-nd/PL-nõd 	;
-lǟʼdõ+V:lekš    INDPRTSG3-STEM_tõ   ;
-lǟʼdõ+V:lekš        INDPRTPL2_tā   ;
-lǟʼdõ+V:lekš        INDPRTPL3_tā   ;
+lǟdõ+V:lǟʼ	INF_dõ	;
+lǟdõ+V:lǟʼd	GER_sõ	;
+lǟdõ+V:lǟʼ	SUP-STEM_mõ	;
+lǟdõ+V:lǟʼ	INDPRS_tõ 	;
+lǟdõ+V:lǟʼ	ACTPRFPRC_SG-nd/PL-nõd 	;
+lǟdõ+V:lekš    INDPRTSG3-STEM_tõ   ;
+lǟdõ+V:lekš        INDPRTPL2_tā   ;
+lǟdõ+V:lekš        INDPRTPL3_tā   ;
 
 !! The verb vȱlda has irregular forms:
 !!€ uʼm:
@@ -63,6 +56,8 @@ vȱlda+V:ūo        INDPRSPL2_tõ   ;
 
 !! ### PROPER NOUNS
 Pētõr:Pētõr PROP_ "" ;
+Kurmō+N+Prop:Kurmō PROP_TOP_PŪ ;
+Sōrmō+N+Prop:Sǭrmǭ PROP_TOP_PŪ ;
 
 !! ### NOUNS partitive for morfa demo
-veʼž+N+Sg+Par:vietā K ;
+vež+N+Sg+Par:vietā K ;

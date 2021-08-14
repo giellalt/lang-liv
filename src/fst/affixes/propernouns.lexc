@@ -16,6 +16,12 @@ LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
 :%' PROP_ ;
 
 !! Stem lexica
+LEXICON PROP_TOP_PŪ !!= @CODE@ contains pū: 12
+ NMN_PŪ-SG	;
+ SG-ABL ;
+ SG-ADE ;
+ SG-ALL ;
+
 LEXICON PROP_PŪ !!= @CODE@ contains pū: 12
  NMN_PŪ	;
 
