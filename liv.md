@@ -606,7 +606,101 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-liv/blob/main/../src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-liv/blob/main/../src/cg3/functions.cg3)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
+
+
+the verbs of negation have partial inflection:
+* *äʼb:* `äb+V+Neg+Act+Ind+Prs+Sg1`
+* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl2`
+* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl3`
+* *aʼlgid:* `äb+V+Neg+Act+Imprt+Pl2`
+
+Some verbs only have few word-forms left:
+* *piḑīm:*
+* *piḑīks:*
+
+
+The verb lǟdõ has irregular forms:
+* *lekš:*
+* *li:*
+
+The verb vȱlda has irregular forms:
+* *uʼm:*
+* *ūo:*
+
+
+
+### PROPER NOUNS
+
+### NOUNS partitive for morfa demo
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/exceptions.lexc)</small>Acronyms
+Livonian acronyms ...
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/acronyms.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+A_ "(eng) /(est) /(fin) /(lav)" ;
+
+
+ADD NEW ADJECTIVES BELOW
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/propernouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ADV_ "(eng) /(est) /(fin) /(lav)" ;
+
+
+ADD NEW ADVERBS BELOW
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+N_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+ADD NEW NOUNS BELOW
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+V_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+Add new verbs below
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+V_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/questionablemisc_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/questionablemisc_newwords.lexc)</small>
 # Livonian morphophonology
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-liv/blob/main/src/fst/phonology.twolc) 
@@ -3308,231 +3402,7 @@ A trigger for z:ž will be required
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/nouns.lexc)</small># Proper noun inflection
-This file documents `affixes/propernouns.lexc`, the file for inflection of propernouns.
-
-Livonian proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-**LEXICON PROP_ = this lexicon goes to K only
-
-
-Stem lexica
- LEXICON PROP_TOP_PŪ  contains pū: 12
-
- LEXICON PROP_PŪ  contains pū: 12
-
- LEXICON PROP_PŪ-SG  contains pū: 12
-
-
-
-
-
-
- LEXICON PROP_KALĀ   contains  kalā:kalā 18
-
- LEXICON PROP_KALĀ-SG   contains  kalā:kalā 18
-
- LEXICON PROP_TUBĀ  tubā:tubā 19
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- LEXICON PROP_VĒNA  vēna:vēna 37
-
-
- LEXICON PROP_PADĀ  padā:padā 39
-
-
-
-
-
- LEXICON PROP_JǬRA  jǭra:jǭra 44
-
- LEXICON PROP_JǬRA-PL  jǭra:jǭra 44
-
-
- LEXICON PROP_ĀITA  āita:āita 46
-
- LEXICON PROP_ŪŠKA  ūška:ūška 47
-
-
- LEXICON PROP_DADŽĀ  dadžā:dadžā 49
-
-
-
-
-
-
- LEXICON PROP_KRǬIPA  krǭipa:krǭipa 55
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- LEXICON PROP_DUŅTŠ  : 70
-
-
- LEXICON PROP_NIʼM  niʼm:niʼm 76
-
- LEXICON PROP_NIʼM-PL  niʼm:niʼm 76
-
-
- LEXICON PROP_TUP  tup:tup 79
-
-
-
-
-
-
- LEXICON PROP_NǬʼGÕ  nǭʼgõ:nǭgõ 119
-
-
-
- LEXICON PROP_KǬJ  : 123
-
-
- LEXICON PROP_KIM  : 126
-
- LEXICON PROP_KIM-SG  : 126
-
-
- LEXICON PROP_VAʼIT  vaʼit:vait 128
-
- LEXICON PROP_AMĀT  : 129
-
- LEXICON PROP_KULTŪR  : 130
-
- LEXICON PROP_VIĻȚ  : 132
-
-
- LEXICON PROP_FAKT  fakt:fakt 135
-
- LEXICON PROP_FAKT-SG  fakt:fakt 135
-
-
- LEXICON PROP_ĀIGAST  : 140
-
- LEXICON PROP_ANALĪZ  : 141
-
-
- LEXICON PROP_NĪʼEM-SG  nīʼem:nīʼem 142
-
- LEXICON PROP_JAĻKŠ  : 143
-
-
- LEXICON PROP_RŪʼTŠ  rūʼtš:rūʼtš 145
-
-
-
-
-
- LEXICON PROP_SIDĀM  : 157
-
- LEXICON PROP_TŪOITÕG  : 158
-
- LEXICON PROP_TŪOITÕG-SG  : 158
-
- LEXICON PROP_KǬRAND  : 159
-
- LEXICON PROP_KǬRAND-SG  : 159
-
- LEXICON PROP_ȬʼDÕG  ȭʼdõg:ȭʼdõg 160
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- LEXICON PROP_ĀNDÕKS  : 206
-
-
-
-
- LEXICON PROP_PŪOL  : 216
-
-
-
-
-
-
- LEXICON PROP_SŪR  : 222
-
-
- LEXICON PROP_BIRKOV  : 224
-
-
- LEXICON PROP_SALĀJ-SG  : 225
-
-
-
-
-
-
-
-
- LEXICON PROP_TIDĀR  tidār:tidār 233
-
-
- LEXICON PROP_TIDĀR-PL  tidār:tidār 233
-
- LEXICON PROP_PĒGAL  pēgal:pēgal 234
-
- LEXICON PROP_APPÕN  appõn:appõn 235
-
-
- LEXICON PROP_KĪNDÕR  kīndõr:kīndõr 237
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/propernouns.lexc)</small># Quantifier inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/nouns.lexc)</small># Quantifier inflection
 This file documents the file on Livonian quantifier morphology.
 
 
@@ -3590,44 +3460,238 @@ Stem lexica
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/quantifiers.lexc)</small># Determiner inflection
-This file documents `affixes/determiners.lexc`, the language model for
-Livonian determiner inflection.
+<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/quantifiers.lexc)</small>
+# Symbol affixes
 
+**LEXICON Noun_symbols_possibly_inflected = 
+
+**LEXICON Noun_symbols_never_inflected = 
+
+**LEXICON SYMBOL_connector = 
+
+**LEXICON SYMBOL_NO_suff = 
+
+**LEXICON SYMBOL_suff = 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/symbols.lexc)</small># Adjective inflection
+
+This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
+
+## Indeclneables
+
+**LEXICON A_-ZERO =  modifiers that do not decline, goes to #
+
+**LEXICON A_ = gives Pos tag.
 
 ## Stem lexica
 
+ LEXICON A_PŪ  contains pū: 12
+
+
+ LEXICON A_BRĪ  contains brī:brī 16
+
+ LEXICON A_KALĀ   contains  kalā:kaʼlā 18
+
+ LEXICON A_TUBĀ  tubā:tuʼbā 19
+
+ LEXICON A_AIGĀ  aigā:aʼig 20
+
+
+ LEXICON A_KŪJA  kūja:??lēba 21
+
+ LEXICON A_IZĀ  izā:izā 25
+
+ LEXICON A_OKSĀ  oksā:oksā 30
+
+ LEXICON A_ĀIGA  āiga:āiga 33
+
+ LEXICON A_SĪLMA  sīlma:sīlma 34
+
+ LEXICON A_PADĀ  padā:padā 39
+
+ LEXICON A_KÄPĀ  käpā:käpā 41
+
+ LEXICON A_MAKSĀ  maksā:maksā 42
+
+ LEXICON A_KĒRA  kēra:kēra 43
+
+ LEXICON A_JǬRA  jǭra:jǭra 44
+
+
+ LEXICON A_ĀITA  āita:āita 46
+
+ LEXICON A_ŪŠKA  ūška:ūška 47
+
+ LEXICON A_MȬKA  mȭka:mȭka 48
+
+ LEXICON A_DADŽĀ  dadžā:dadžā 49
+
+ LEXICON A_TĪERA  tīera:tīera 54
+
+ LEXICON A_LILLA  kuțā:kuțā 57
+
+
+ LEXICON A_KIʼV  kiʼv:kiv 59
+
+ LEXICON A_PIʼŅ  piʼņ:piņ 64
+
+ LEXICON A_OKŠ  : 68
+
+ LEXICON A_KAŠ  : 69
+
+ LEXICON A_TORĪ  torī: 71
+
+ LEXICON A_KÕʼL  kõʼl:kõl 73
+
+ LEXICON A_NIʼM  niʼm:nim 76
+
+ LEXICON A_KAND  kand: 94
+
+ LEXICON A_UL  ul: 99
+
+ LEXICON A_NIŖȚ  niŗț: 102
+
+ LEXICON A_DAŅTŠ  daņtš: 105
+
+ LEXICON A_TÄUŽ  täuž: adres 112
+
+ LEXICON A_SIELDÕ  sieldõ: 118
+
+ LEXICON A_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+
+ LEXICON A_AŠŠÕ  : 120
+
+ LEXICON A_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
+
+ LEXICON A_IRM  : 125
+
+ LEXICON A_KIM  : 126
+
+ LEXICON A_VAʼIT  vaʼit:vait 128
+
+ LEXICON A_AMĀT  : 129
+
+ LEXICON A_SAʼGDIT  saʼgdit:sagdit 131
+
+ LEXICON A_VIĻȚ  : 132
+
+ LEXICON A_EĻ  eļ: 133
+
+ LEXICON A_BLĒʼḐ  blēʼḑ:blēḑ 134
+
+ LEXICON A_FAKT  : 135
+
+ LEXICON A_SĪEND  sīend: 138
+
+ LEXICON A_LǞʼND  lǟʼnd:lǟnd 139
+
+ LEXICON A_ĀIGAST  āigast: 140
+
+ LEXICON A_ANALĪZ  analīz: 141
+
+ LEXICON A_NĪʼEM  nīʼem:nīem 142
+
+ LEXICON A_VIŠ  : 144
+
+ LEXICON A_SIDĀM  : 157
+
+ LEXICON A_TŪOITÕG  : 158
+
+ LEXICON A_KǬRAND  kǭrand: 159
+* Yaml: **armtõb**
+
+ LEXICON A_ȬʼDÕG  ȭʼdõg:ȭdõg 160
+
+ LEXICON A_TAPTÕD  taptõd: 161
+
+ LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
+
+
+ LEXICON A_KÄBRĀZ  : 168
+
+ LEXICON A_MAIGĀZ  : 169
+
+ LEXICON A_NÕTKĀZ  : 170
+
+ LEXICON A_RIKĀZ  : 171
+
+ LEXICON A_ĀMBAZ  āmbaz:āmba 173
+
+ LEXICON A_PŪŖAZ  : 174
+
+ LEXICON A_PǬĻAZ  : 175
+
+ LEXICON A_MÕTKÕZ  mõtkõz: 179
+
+ LEXICON A_VȬRÕZ  vȭrõz: 180
+
+ LEXICON A_ARĀGÕZ  : 181
+
+ LEXICON A_ÄʼGGÕZ  ä'ggõz:äggõz 182
+
+ LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
+
+ LEXICON A_SĒJI  : 186 āndaji:āndaji sēji:sēji
+
+ LEXICON A_AKKIJI  akkiji:akkiji 187
+
+ LEXICON A_LĒʼJI  lēʼji:lēʼji 188
+
+ LEXICON A_AʼIGI  aʼigi:aigi 192
+
+ LEXICON A_PUʼNNI  pu'nni:punni 193
+
+ LEXICON A_KAȚKI  : 194
+
+ LEXICON A_KUKKI  : 195
+
+ LEXICON A_AIGI  aigi:aigi 196
+
+ LEXICON A_OUKI  : 197
+
+ LEXICON A_PAŖĪ  : 198
+
+ LEXICON A_TŪĻI  : 199
+
+ LEXICON A_AʼBLI  aʼbli:abli 200
+
+ LEXICON A_SĒMI  : 201
+
+ LEXICON A_LĒʼMI  lē'mi:lēʼmi 202
+
+ LEXICON A_ALĪZ  : 203
+
+ LEXICON A_KĒRATÕKS  : 207
+
+ LEXICON A_VARĪKŠ  varīkš: 209
+
+ LEXICON A_ŪŽ  : 219 ūž:ūd
+
+ LEXICON A_JŪŖ  jūŗ:jūr 221
+
+ LEXICON A_SŪR  sūr:sūr 222
 
 
 
+ LEXICON A_DULLÕNZ  dullõnz:dullõn 227
 
+ LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
 
+ LEXICON A_TIDĀR  tidār:tidār 233
 
+ LEXICON A_APPÕN  appõn:appõn 235
 
+ LEXICON A_ǬʼRÕN  ǭʼrõn:ǭrõn 236
 
+ LEXICON A_KĪNDÕR  kīndõr:kīndõr 237
 
+ LEXICON A_BÄʼZMÕR  bäʼzmõr:bäzmõr 238
 
+ LEXICON A_TARĪĻ  tarīļ:tarīļ 239
 
+ LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
 
-
- LEXICON DET_VĪDÕZ  vīdõz: 163
-
- LEXICON DET_TUOISTÕNZ  : 164
-
- LEXICON DET_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
-
-
- LEXICON DET_NAI  nai: 191
-
- LEXICON DET_TŪĻI  tūļi: 199
-
- LEXICON DET_SĒMI  sēmi: 201
-
-
-
-
-
-
+ LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
 
 
 
@@ -3635,7 +3699,7 @@ Livonian determiner inflection.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/determiners.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/determiners.lexc)</small># Livonian Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adjectives.lexc)</small># Livonian Verb inflection
 This file documents the verb inflection of Livonian.
 
 
@@ -4164,259 +4228,7 @@ Quotative
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/verbs.lexc)</small># Adjective inflection
-
-This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
-
-## Indeclneables
-
-**LEXICON A_-ZERO =  modifiers that do not decline, goes to #
-
-**LEXICON A_ = gives Pos tag.
-
-## Stem lexica
-
- LEXICON A_PŪ  contains pū: 12
-
-
- LEXICON A_BRĪ  contains brī:brī 16
-
- LEXICON A_KALĀ   contains  kalā:kaʼlā 18
-
- LEXICON A_TUBĀ  tubā:tuʼbā 19
-
- LEXICON A_AIGĀ  aigā:aʼig 20
-
-
- LEXICON A_KŪJA  kūja:??lēba 21
-
- LEXICON A_IZĀ  izā:izā 25
-
- LEXICON A_OKSĀ  oksā:oksā 30
-
- LEXICON A_ĀIGA  āiga:āiga 33
-
- LEXICON A_SĪLMA  sīlma:sīlma 34
-
- LEXICON A_PADĀ  padā:padā 39
-
- LEXICON A_KÄPĀ  käpā:käpā 41
-
- LEXICON A_MAKSĀ  maksā:maksā 42
-
- LEXICON A_KĒRA  kēra:kēra 43
-
- LEXICON A_JǬRA  jǭra:jǭra 44
-
-
- LEXICON A_ĀITA  āita:āita 46
-
- LEXICON A_ŪŠKA  ūška:ūška 47
-
- LEXICON A_MȬKA  mȭka:mȭka 48
-
- LEXICON A_DADŽĀ  dadžā:dadžā 49
-
- LEXICON A_TĪERA  tīera:tīera 54
-
- LEXICON A_LILLA  kuțā:kuțā 57
-
-
- LEXICON A_KIʼV  kiʼv:kiv 59
-
- LEXICON A_PIʼŅ  piʼņ:piņ 64
-
- LEXICON A_OKŠ  : 68
-
- LEXICON A_KAŠ  : 69
-
- LEXICON A_TORĪ  torī: 71
-
- LEXICON A_KÕʼL  kõʼl:kõl 73
-
- LEXICON A_NIʼM  niʼm:nim 76
-
- LEXICON A_KAND  kand: 94
-
- LEXICON A_UL  ul: 99
-
- LEXICON A_NIŖȚ  niŗț: 102
-
- LEXICON A_DAŅTŠ  daņtš: 105
-
- LEXICON A_TÄUŽ  täuž: adres 112
-
- LEXICON A_SIELDÕ  sieldõ: 118
-
- LEXICON A_NǬʼGÕ  nǭʼgõ:nǭgõ 119
-
- LEXICON A_AŠŠÕ  : 120
-
- LEXICON A_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
-
- LEXICON A_IRM  : 125
-
- LEXICON A_KIM  : 126
-
- LEXICON A_VAʼIT  vaʼit:vait 128
-
- LEXICON A_AMĀT  : 129
-
- LEXICON A_SAʼGDIT  saʼgdit:sagdit 131
-
- LEXICON A_VIĻȚ  : 132
-
- LEXICON A_EĻ  eļ: 133
-
- LEXICON A_BLĒʼḐ  blēʼḑ:blēḑ 134
-
- LEXICON A_FAKT  : 135
-
- LEXICON A_SĪEND  sīend: 138
-
- LEXICON A_LǞʼND  lǟʼnd:lǟnd 139
-
- LEXICON A_ĀIGAST  āigast: 140
-
- LEXICON A_ANALĪZ  analīz: 141
-
- LEXICON A_NĪʼEM  nīʼem:nīem 142
-
- LEXICON A_VIŠ  : 144
-
- LEXICON A_SIDĀM  : 157
-
- LEXICON A_TŪOITÕG  : 158
-
- LEXICON A_KǬRAND  kǭrand: 159
-* Yaml: **armtõb**
-
- LEXICON A_ȬʼDÕG  ȭʼdõg:ȭdõg 160
-
- LEXICON A_TAPTÕD  taptõd: 161
-
- LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
-
-
- LEXICON A_KÄBRĀZ  : 168
-
- LEXICON A_MAIGĀZ  : 169
-
- LEXICON A_NÕTKĀZ  : 170
-
- LEXICON A_RIKĀZ  : 171
-
- LEXICON A_ĀMBAZ  āmbaz:āmba 173
-
- LEXICON A_PŪŖAZ  : 174
-
- LEXICON A_PǬĻAZ  : 175
-
- LEXICON A_MÕTKÕZ  mõtkõz: 179
-
- LEXICON A_VȬRÕZ  vȭrõz: 180
-
- LEXICON A_ARĀGÕZ  : 181
-
- LEXICON A_ÄʼGGÕZ  ä'ggõz:äggõz 182
-
- LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
-
- LEXICON A_SĒJI  : 186 āndaji:āndaji sēji:sēji
-
- LEXICON A_AKKIJI  akkiji:akkiji 187
-
- LEXICON A_LĒʼJI  lēʼji:lēʼji 188
-
- LEXICON A_AʼIGI  aʼigi:aigi 192
-
- LEXICON A_PUʼNNI  pu'nni:punni 193
-
- LEXICON A_KAȚKI  : 194
-
- LEXICON A_KUKKI  : 195
-
- LEXICON A_AIGI  aigi:aigi 196
-
- LEXICON A_OUKI  : 197
-
- LEXICON A_PAŖĪ  : 198
-
- LEXICON A_TŪĻI  : 199
-
- LEXICON A_AʼBLI  aʼbli:abli 200
-
- LEXICON A_SĒMI  : 201
-
- LEXICON A_LĒʼMI  lē'mi:lēʼmi 202
-
- LEXICON A_ALĪZ  : 203
-
- LEXICON A_KĒRATÕKS  : 207
-
- LEXICON A_VARĪKŠ  varīkš: 209
-
- LEXICON A_ŪŽ  : 219 ūž:ūd
-
- LEXICON A_JŪŖ  jūŗ:jūr 221
-
- LEXICON A_SŪR  sūr:sūr 222
-
-
-
- LEXICON A_DULLÕNZ  dullõnz:dullõn 227
-
- LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
-
- LEXICON A_TIDĀR  tidār:tidār 233
-
- LEXICON A_APPÕN  appõn:appõn 235
-
- LEXICON A_ǬʼRÕN  ǭʼrõn:ǭrõn 236
-
- LEXICON A_KĪNDÕR  kīndõr:kīndõr 237
-
- LEXICON A_BÄʼZMÕR  bäʼzmõr:bäzmõr 238
-
- LEXICON A_TARĪĻ  tarīļ:tarīļ 239
-
- LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
-
- LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adjectives.lexc)</small># Adjective inflection
-This file documents `affixes/adpositions.lexc`
-
-
-
-**LEXICON POSTP_ = points to #
-
-**LEXICON POSTP_ = points to #
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adpositions.lexc)</small>
-# Symbol affixes
-
-**LEXICON Noun_symbols_possibly_inflected = 
-
-**LEXICON Noun_symbols_never_inflected = 
-
-**LEXICON SYMBOL_connector = 
-
-**LEXICON SYMBOL_NO_suff = 
-
-**LEXICON SYMBOL_suff = 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/symbols.lexc)</small># Conjunctions
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/verbs.lexc)</small># Conjunctions
 
 This file documents `affixes/conjunctors.lexc`
 
@@ -4431,7 +4243,231 @@ This file documents `affixes/conjunctors.lexc`
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/conjunctors.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/conjunctors.lexc)</small># Prounoun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/conjunctors.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/conjunctors.lexc)</small># Proper noun inflection
+This file documents `affixes/propernouns.lexc`, the file for inflection of propernouns.
+
+Livonian proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+**LEXICON PROP_ = this lexicon goes to K only
+
+
+Stem lexica
+ LEXICON PROP_TOP_PŪ  contains pū: 12
+
+ LEXICON PROP_PŪ  contains pū: 12
+
+ LEXICON PROP_PŪ-SG  contains pū: 12
+
+
+
+
+
+
+ LEXICON PROP_KALĀ   contains  kalā:kalā 18
+
+ LEXICON PROP_KALĀ-SG   contains  kalā:kalā 18
+
+ LEXICON PROP_TUBĀ  tubā:tubā 19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON PROP_VĒNA  vēna:vēna 37
+
+
+ LEXICON PROP_PADĀ  padā:padā 39
+
+
+
+
+
+ LEXICON PROP_JǬRA  jǭra:jǭra 44
+
+ LEXICON PROP_JǬRA-PL  jǭra:jǭra 44
+
+
+ LEXICON PROP_ĀITA  āita:āita 46
+
+ LEXICON PROP_ŪŠKA  ūška:ūška 47
+
+
+ LEXICON PROP_DADŽĀ  dadžā:dadžā 49
+
+
+
+
+
+
+ LEXICON PROP_KRǬIPA  krǭipa:krǭipa 55
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON PROP_DUŅTŠ  : 70
+
+
+ LEXICON PROP_NIʼM  niʼm:niʼm 76
+
+ LEXICON PROP_NIʼM-PL  niʼm:niʼm 76
+
+
+ LEXICON PROP_TUP  tup:tup 79
+
+
+
+
+
+
+ LEXICON PROP_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+
+
+
+ LEXICON PROP_KǬJ  : 123
+
+
+ LEXICON PROP_KIM  : 126
+
+ LEXICON PROP_KIM-SG  : 126
+
+
+ LEXICON PROP_VAʼIT  vaʼit:vait 128
+
+ LEXICON PROP_AMĀT  : 129
+
+ LEXICON PROP_KULTŪR  : 130
+
+ LEXICON PROP_VIĻȚ  : 132
+
+
+ LEXICON PROP_FAKT  fakt:fakt 135
+
+ LEXICON PROP_FAKT-SG  fakt:fakt 135
+
+
+ LEXICON PROP_ĀIGAST  : 140
+
+ LEXICON PROP_ANALĪZ  : 141
+
+
+ LEXICON PROP_NĪʼEM-SG  nīʼem:nīʼem 142
+
+ LEXICON PROP_JAĻKŠ  : 143
+
+
+ LEXICON PROP_RŪʼTŠ  rūʼtš:rūʼtš 145
+
+
+
+
+
+ LEXICON PROP_SIDĀM  : 157
+
+ LEXICON PROP_TŪOITÕG  : 158
+
+ LEXICON PROP_TŪOITÕG-SG  : 158
+
+ LEXICON PROP_KǬRAND  : 159
+
+ LEXICON PROP_KǬRAND-SG  : 159
+
+ LEXICON PROP_ȬʼDÕG  ȭʼdõg:ȭʼdõg 160
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON PROP_ĀNDÕKS  : 206
+
+
+
+
+ LEXICON PROP_PŪOL  : 216
+
+
+
+
+
+
+ LEXICON PROP_SŪR  : 222
+
+
+ LEXICON PROP_BIRKOV  : 224
+
+
+ LEXICON PROP_SALĀJ-SG  : 225
+
+
+
+
+
+
+
+
+ LEXICON PROP_TIDĀR  tidār:tidār 233
+
+
+ LEXICON PROP_TIDĀR-PL  tidār:tidār 233
+
+ LEXICON PROP_PĒGAL  pēgal:pēgal 234
+
+ LEXICON PROP_APPÕN  appõn:appõn 235
+
+
+ LEXICON PROP_KĪNDÕR  kīndõr:kīndõr 237
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/propernouns.lexc)</small># Prounoun inflection
 This file documents `affixes/pronouns.lexc`,
 the file on Livonian pronoun  inflection
 
@@ -4492,7 +4528,65 @@ Stem lexica
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/pronouns.lexc)</small># Adjective inflection
+This file documents `affixes/adpositions.lexc`
+
+
+
+**LEXICON POSTP_ = points to #
+
+**LEXICON POSTP_ = points to #
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adpositions.lexc)</small># Determiner inflection
+This file documents `affixes/determiners.lexc`, the language model for
+Livonian determiner inflection.
+
+
+## Stem lexica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON DET_VĪDÕZ  vīdõz: 163
+
+ LEXICON DET_TUOISTÕNZ  : 164
+
+ LEXICON DET_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
+
+
+ LEXICON DET_NAI  nai: 191
+
+ LEXICON DET_TŪĻI  tūļi: 199
+
+ LEXICON DET_SĒMI  sēmi: 201
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/determiners.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/determiners.lexc)</small>
 Morphology
 
 # INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF LIVONIAN.
@@ -4939,101 +5033,24 @@ This is used in compounding, e.g. äʼb-:äʼb
  * **LEXICON K** is the clitic lexicon, but no clitica here, only #.
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/root.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-V_ "(eng) ear/(est) /(fin) /(lav)" ;
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/root.lexc)</small>
 
 
-Add new verbs below
+We describe here how abbreviations are in Liv are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>Acronyms
-Livonian acronyms ...
-
-
-
-
-
-
-
-
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/acronyms.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-V_ "(eng) ear/(est) /(fin) /(lav)" ;
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/questionablemisc_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/questionablemisc_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-ADV_ "(eng) /(est) /(fin) /(lav)" ;
-
-
-ADD NEW ADVERBS BELOW
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-
-the verbs of negation have partial inflection:
-* *äʼb:* `äb+V+Neg+Act+Ind+Prs+Sg1`
-* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl2`
-* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl3`
-* *aʼlgid:* `äb+V+Neg+Act+Imprt+Pl2`
-
-Some verbs only have few word-forms left:
-* *piḑīm:*
-* *piḑīks:*
-
-
-The verb lǟdõ has irregular forms:
-* *lekš:*
-* *li:*
-
-The verb vȱlda has irregular forms:
-* *uʼm:*
-* *ūo:*
-
-
-
-### PROPER NOUNS
-
-### NOUNS partitive for morfa demo
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/exceptions.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-A_ "(eng) /(est) /(fin) /(lav)" ;
-
-
-ADD NEW ADJECTIVES BELOW
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/propernouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-N_ "(eng) ear/(est) /(fin) /(lav)" ;
-
-
-ADD NEW NOUNS BELOW
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 
 
@@ -5138,23 +5155,6 @@ Starting work with ordinals
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in Liv are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
