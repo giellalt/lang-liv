@@ -77,7 +77,7 @@ They must be escaped (cf morpheme boundaries further down):
  * %^1Sh2L:0   
  * %^Stress1to2:0   
  * %^Stress2to1:0   
- * %^VowsMRM:0 Vow in middle ētam:eitmõd
+* %^VowsMRM:0ētam:eitmõd Vow in middle ētam:eitmõd
  * %^VowsRM:0   
  * %^ConsRM:0   
 * %^ConsRM:0   laps:läpš
@@ -92,19 +92,19 @@ They must be escaped (cf morpheme boundaries further down):
 ## Sets
 
 
- * VowBack = a o u A O U ; 
- * VowFront = ä ö y ü Ä Ö Y Ü ; 
- * VowNeutral = e i E I ; 
- * VowNonHigh = a o ä ö e A O Ä Ö E ; 
- * VowLong = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī Ā Ō Ū Ǟ Ǭ Ȭ Ȱ Ȫ Ȳ Ǖ Ē Ī ; 
- * VowShort = a o u ä ǫ õ ȯ ö y ü e i A O U Ä Ǫ Õ Ȯ Ö Y Ü E I ; 
- * Vow = VowLong VowShort ; 
- * CnsWithStod = b d g j l ļ m n ņ r ŗ v z ž ; 
- * Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
-   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
- * Letters = Vow Cns ; 
- * Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V 
-   %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
+* VowBack = a o u A O U ; 
+* VowFront = ä ö y ü Ä Ö Y Ü ; 
+* VowNeutral = e i E I ; 
+* VowNonHigh = a o ä ö e A O Ä Ö E ; 
+* VowLong = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī Ā Ō Ū Ǟ Ǭ Ȭ Ȱ Ȫ Ȳ Ǖ Ē Ī ; 
+* VowShort = a o u ä ǫ õ ȯ ö y ü e i A O U Ä Ǫ Õ Ȯ Ö Y Ü E I ; 
+* Vow = VowLong VowShort ; 
+* CnsWithStod = b d g j l ļ m n ņ r ŗ v z ž ; 
+* Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
+  B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
+* Letters = Vow Cns ; 
+* Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V 
+  %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
 
 
 

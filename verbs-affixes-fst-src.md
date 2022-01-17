@@ -358,24 +358,24 @@ Cond
 **LEXICON V-01_AʼILÕ =  This is mutual for 51
 Ger, Ger_Ine
 
- * **INF_ZERO ;** aʼilõ
+* **INF_ZERO ;aʼilõ** aʼilõ
 Inf
 
- * **SUP-STEM_m ;** aʼilõ-
+* **SUP-STEM_m ;aʼilõ-** aʼilõ-
 Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
 Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
 Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
 
- * **: INDPRSSG1-STEM ;** aʼilõ-
+* **: INDPRSSG1-STEM ;aʼilõ-** aʼilõ-
 Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
 
- * **:%^VowsRM INDCONNEGSG ;** aʼil-
+* **:%^VowsRM INDCONNEGSG ;aʼil-** aʼil-
 Ind+ConNeg+Sg
 
- * **:%^VowsRM%>i INDPRT_z ;** aʼili-
+* **:%^VowsRM%>i INDPRT_z ;aʼili-** aʼili-
 Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
 
- * **COND ;** aʼilõ-
+* **COND ;aʼilõ-** aʼilõ-
 Cond...
 Imprt+Sg2, Imprt+ConNeg+Sg2
 
@@ -385,11 +385,11 @@ Jus+Sg3, Jus+Pl3
 
 Quo+Sg3, Quo+Pl3, +NomAct -mi
 
- * **ACTPRFPRC_n ;** aʼilõ%>n
+* **ACTPRFPRC_n ;aʼilõ%>n** aʼilõ%>n
 +Act+PrfPrc
 
- * **:%^VowsRM PSSPRSPRC ;** aʼil-
- * **:%^VowsRM PSSPRFPRCSG ;** aʼil-
+* **:%^VowsRM PSSPRSPRC ;aʼil-** aʼil-
+* **:%^VowsRM PSSPRFPRCSG ;aʼil-** aʼil-
 
 
 
@@ -464,9 +464,9 @@ Are the singular and plural homonyms?
 ### Indicative present
 
 **LEXICON INDPRSSG1-STEM = 
- * INDPRSSG1 ; 
- * INDPRSSG2 ; 
- * INDPRSSG3 ; these three lexica point to lexica with the actual suffixes.
+* INDPRSSG1 ; 
+* INDPRSSG2 ; 
+* INDPRSSG3 ;suffixes. these three lexica point to lexica with the actual suffixes.
 
 
 
