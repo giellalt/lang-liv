@@ -7,6 +7,15 @@
 
 This page documents the work on the [Livonian language model](http://github.com/giellalt/lang-liv). 
 
+The lexicon is medium-sized (15000 entries).
+
+The analyser is in use in a morphologically enriched Livonian
+dictionary. 
+
+For questions, contact Renata Blumberga or Jack Rueter.
+
+* Generation of [paradigms|http://giellatekno.uit.no/cgi/p-liv.fi.html]
+
 # Project documentation
 
 * (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
