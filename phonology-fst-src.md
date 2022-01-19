@@ -8,14 +8,14 @@ We first show alphabet and sets, thereafter rules.
 
 ## Alphabet
 
- * a b c d e f g h i j k l m n o p q r s t u v w x y z   
- * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
- * ḑ ļ ņ ŗ š ț ž									      
- * Ḑ Ļ Ņ Ŗ Š Ț Ž									      
- * õ ä ö ȯ											      
- * Õ Ä Ö Ȯ											      
- * ā ē ī ō ū ǟ ǭ ȭ ȱ								      
- * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
+* a b c d e f g h i j k l m n o p q r s t u v w x y z   
+* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
+* ḑ ļ ņ ŗ š ț ž									      
+* Ḑ Ļ Ņ Ŗ Š Ț Ž									      
+* õ ä ö ȯ											      
+* Õ Ä Ö Ȯ											      
+* ā ē ī ō ū ǟ ǭ ȭ ȱ								      
+* Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
 * ʼ Stød
 
 
@@ -24,64 +24,64 @@ They must be escaped (cf morpheme boundaries further down):
 
 »7
 «7
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
 
 ### Archiphonemes for consonant lengthening
 
- * %{XC%}:p %{XC%}:t %{XC%}:k		      
- * %{XC%}:b %{XC%}:d %{XC%}:g		      
- * %{XC%}:l %{XC%}:ļ				      
- * %{XC%}:m %{XC%}:n %{XC%}:ņ		      
- * %{XC%}:r %{XC%}:ŗ				      
- * %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž   
+* %{XC%}:p %{XC%}:t %{XC%}:k		      
+* %{XC%}:b %{XC%}:d %{XC%}:g		      
+* %{XC%}:l %{XC%}:ļ				      
+* %{XC%}:m %{XC%}:n %{XC%}:ņ		      
+* %{XC%}:r %{XC%}:ŗ				      
+* %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž   
 
 ###  Triggers
 
- *  %^PenVV2V:0  penultimate vowel shortening
- *  %^Tense:0  = Tense stem will have stød if proper stem type
- *  %^D2T:0    d:t veʼž:veʼd:vietā
- *  %^PreI:0   i:0 veʼž:veʼd:vietā
- *  %^ĪE2Ē:0   kēļ kīel
- * K1:k        this k is not effected by gradation
- * %^NoGrad:0   This will be placed after a stem to break Gradation
- * %^WGStem:0  this weakens the stem ompel to ommel
- * %^TS:0      The ti => si
- * %^D2Ž:0     The *ti => *si
- * %^D2ZERO:0  The d => 0
+*  %^PenVV2V:0  penultimate vowel shortening
+*  %^Tense:0  = Tense stem will have stød if proper stem type
+*  %^D2T:0    d:t veʼž:veʼd:vietā
+*  %^PreI:0   i:0 veʼž:veʼd:vietā
+*  %^ĪE2Ē:0   kēļ kīel
+* K1:k        this k is not effected by gradation
+* %^NoGrad:0   This will be placed after a stem to break Gradation
+* %^WGStem:0  this weakens the stem ompel to ommel
+* %^TS:0      The ti => si
+* %^D2Ž:0     The *ti => *si
+* %^D2ZERO:0  The d => 0
 
 ###  Vowel raising
- * %^LowerVows:0  lower vowel
- * %^RVows:0      raise vowel
- * %^VowsSh1:0    vowel shortening in first syllable
- * %^VowsShU1:0   
- * %^VowsShI1:0   
- * %^DiphthSh1:0  
- * %^VowsLI1:0    vowel lengthening that is followed by "i" when short
- * %^VowsLU1:0    vowel lengthening that is followed by "u" when short
- * %^VowsL1:0     vowel lengthening 
- * %^DiphthL1:0   
- * %^LongV2Õin2:0    long vowel to õ in second syllable
- * %^Vow2Iin2:0    vowel to i or ī in second syllable
+* %^LowerVows:0  lower vowel
+* %^RVows:0      raise vowel
+* %^VowsSh1:0    vowel shortening in first syllable
+* %^VowsShU1:0   
+* %^VowsShI1:0   
+* %^DiphthSh1:0  
+* %^VowsLI1:0    vowel lengthening that is followed by "i" when short
+* %^VowsLU1:0    vowel lengthening that is followed by "u" when short
+* %^VowsL1:0     vowel lengthening 
+* %^DiphthL1:0   
+* %^LongV2Õin2:0    long vowel to õ in second syllable
+* %^Vow2Iin2:0    vowel to i or ī in second syllable
 
 ### Vowel metathesis
- * %^VowsMetath:0   
+* %^VowsMetath:0   
 
 ### VOWEL SHORTENING
- *  %^VowShIn1:0	 This causes vowel shortening in 1. syll
- *                  accompanied by coda consonant lengthening
- *  %^A2ÕIn2:0        This causes 2. syll a => õ
- * %^StodRM:0   
- * %^ConsSh:0   
+*  %^VowShIn1:0	 This causes vowel shortening in 1. syll
+*                  accompanied by coda consonant lengthening
+*  %^A2ÕIn2:0        This causes 2. syll a => õ
+* %^StodRM:0   
+* %^ConsSh:0   
 * %^ConsSh:0   lengthen consonant
- * %^1Sh2L:0   
- * %^Stress1to2:0   
- * %^Stress2to1:0   
-* %^VowsMRM:0ētam:eitmõd Vow in middle ētam:eitmõd
- * %^VowsRM:0   
- * %^ConsRM:0   
+* %^1Sh2L:0   
+* %^Stress1to2:0   
+* %^Stress2to1:0   
+* %^VowsMRM:0 Vow in middle ētam:eitmõd
+* %^VowsRM:0   
+* %^ConsRM:0   
 * %^ConsRM:0   laps:läpš
- * %^VowsL1aToǭ:0   
+* %^VowsL1aToǭ:0   
 * %^VowsL1aToǭ:0   kīndõr:kīndiriž
 * %^VowsL1aToǭ:0   Hyphen in  constructions 
 * %^VowsL1aToǭ:0   morpheme boundary
@@ -546,7 +546,7 @@ nominative plural
 ### Rules for consonant loss
 
 **Rule: d:0**
-      Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
+     Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
 
 **T loss before subsequent morpheme with underlying initial d**  
 
