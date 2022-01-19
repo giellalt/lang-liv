@@ -14,7 +14,7 @@ dictionary.
 
 For questions, contact Renata Blumberga or Jack Rueter.
 
-* Generation of [paradigms|http://giellatekno.uit.no/cgi/p-liv.fi.html]
+* Generation of [paradigms](http://giellatekno.uit.no/cgi/p-liv.fi.html)
 
 # Project documentation
 
