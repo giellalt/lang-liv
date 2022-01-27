@@ -607,6 +607,597 @@ These were the set types.
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-liv/blob/main/../src/cg3/functions.cg3)</small>
+# Livonian morphophonology
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-liv/blob/main/src/fst/phonology.twolc) 
+
+We first show alphabet and sets, thereafter rules.
+
+
+## Alphabet
+
+* a b c d e f g h i j k l m n o p q r s t u v w x y z   
+* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
+* ḑ ļ ņ ŗ š ț ž									      
+* Ḑ Ļ Ņ Ŗ Š Ț Ž									      
+* õ ä ö ȯ											      
+* Õ Ä Ö Ȯ											      
+* ā ē ī ō ū ǟ ǭ ȭ ȱ								      
+* Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
+* ʼ Stød
+
+
+### Literal quotes and angles
+They must be escaped (cf morpheme boundaries further down):
+
+»7
+«7
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
+
+### Archiphonemes for consonant lengthening
+
+* %{XC%}:p %{XC%}:t %{XC%}:k		      
+* %{XC%}:b %{XC%}:d %{XC%}:g		      
+* %{XC%}:l %{XC%}:ļ				      
+* %{XC%}:m %{XC%}:n %{XC%}:ņ		      
+* %{XC%}:r %{XC%}:ŗ				      
+* %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž   
+
+###  Triggers
+
+*  %^PenVV2V:0  penultimate vowel shortening
+*  %^Tense:0  = Tense stem will have stød if proper stem type
+*  %^D2T:0    d:t veʼž:veʼd:vietā
+*  %^PreI:0   i:0 veʼž:veʼd:vietā
+*  %^ĪE2Ē:0   kēļ kīel
+* K1:k        this k is not effected by gradation
+* %^NoGrad:0   This will be placed after a stem to break Gradation
+* %^WGStem:0  this weakens the stem ompel to ommel
+* %^TS:0      The ti => si
+* %^D2Ž:0     The *ti => *si
+* %^D2ZERO:0  The d => 0
+
+###  Vowel raising
+* %^LowerVows:0  lower vowel
+* %^RVows:0      raise vowel
+* %^VowsSh1:0    vowel shortening in first syllable
+* %^VowsShU1:0   
+* %^VowsShI1:0   
+* %^DiphthSh1:0  
+* %^VowsLI1:0    vowel lengthening that is followed by "i" when short
+* %^VowsLU1:0    vowel lengthening that is followed by "u" when short
+* %^VowsL1:0     vowel lengthening 
+* %^DiphthL1:0   
+* %^LongV2Õin2:0    long vowel to õ in second syllable
+* %^Vow2Iin2:0    vowel to i or ī in second syllable
+
+### Vowel metathesis
+* %^VowsMetath:0   
+
+### VOWEL SHORTENING
+*  %^VowShIn1:0	 This causes vowel shortening in 1. syll
+*                  accompanied by coda consonant lengthening
+*  %^A2ÕIn2:0        This causes 2. syll a => õ
+* %^StodRM:0   
+* %^ConsSh:0   
+* %^ConsSh:0   lengthen consonant
+* %^1Sh2L:0   
+* %^Stress1to2:0   
+* %^Stress2to1:0   
+* %^VowsMRM:0 Vow in middle ētam:eitmõd
+* %^VowsRM:0   
+* %^ConsRM:0   
+* %^ConsRM:0   laps:läpš
+* %^VowsL1aToǭ:0   
+* %^VowsL1aToǭ:0   kīndõr:kīndiriž
+* %^VowsL1aToǭ:0   Hyphen in  constructions 
+* %^VowsL1aToǭ:0   morpheme boundary
+* %^VowsL1aToǭ:0   Word boundary for both lexicalised and dynamic compounds
+
+
+
+## Sets
+
+
+* VowBack = a o u A O U ; 
+* VowFront = ä ö y ü Ä Ö Y Ü ; 
+* VowNeutral = e i E I ; 
+* VowNonHigh = a o ä ö e A O Ä Ö E ; 
+* VowLong = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī Ā Ō Ū Ǟ Ǭ Ȭ Ȱ Ȫ Ȳ Ǖ Ē Ī ; 
+* VowShort = a o u ä ǫ õ ȯ ö y ü e i A O U Ä Ǫ Õ Ȯ Ö Y Ü E I ; 
+* Vow = VowLong VowShort ; 
+* CnsWithStod = b d g j l ļ m n ņ r ŗ v z ž ; 
+* Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
+  B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
+* Letters = Vow Cns ; 
+* Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V 
+  %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
+
+
+
+# Rule section
+
+## Vowel rules
+
+### Shortening in first syllable
+
+
+
+**Rule: ǟ:ä in first syllable**
+
+*kǟnga%^VowShIn1%^A2ÕIn2 examples:*
+
+*kängõ00 examples:*
+
+**Rule: ā:a in first syllable**
+
+*āļdža%^VowShIn1%^A2ÕIn2 examples:*
+
+*aļdžõ00 examples:*
+
+*āita%^PenVV2V%^VowsRM%>õ examples:*
+
+*ait000%>õ examples:*
+
+
+**Rule: ȱ:ȯ**
+
+*vȱntsa%^VowShIn1%^VowsRM%>õ examples:*
+
+*vȯnts0000õ examples:*
+
+**Rule: ā:ī in second syllable plural**
+
+*rikkā%^ConsSh%^Vow2Iin2>di examples:*
+
+*rik0ī000di examples:*
+
+**Rule: ū:ī in second syllable plural**
+
+*ruzū%^Vow2Iin2>di examples:*
+
+*ruzī000di examples:*
+
+**Rule: a:i in second syllable plural**
+
+*āita%^Vow2Iin2>di examples:*
+
+*āiti00di examples:*
+
+**Rule: ǭ:a in first syllable**
+
+**Rule: ē:e in first syllable**
+
+**Rule: ū:u in first syllable**
+
+**Rule: ū:ȯ in first syllable**
+
+*pūol0a%^Stress1to2%^ConsL examples:*
+
+*pȯ0llõ00 examples:*
+
+*pūoga%^VowsSh1%^PalatalizeLeft%^VowsRM%>õ examples:*
+
+*pȯig00000õ examples:*
+
+
+**Rule: ī:i in first syllable**
+
+*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+
+*tierrõ00 examples:*
+
+**Rule: ȭ:õ in first syllable**
+
+*mȭuka%^VowsSh1%^VowsRM%>õ examples:*
+
+*mõuk0000õ examples:*
+
+**Rule: ō:o in first syllable**
+
+lengthen vowels
+
+**Rule: e:ē in first syllable**
+
+*leiba%^VowsLI1%>st examples:*
+
+*lē0ba00st examples:*
+
+*tei%^VowsLI1%>ḑi examples:*
+
+*tē000ḑi examples:*
+
+**Rule: u:ū in first syllable**
+
+*ul%^VowsLI1>õd examples:*
+
+*ūl00õd examples:*
+
+
+**Rule: õ:ȭ in first syllable**
+
+**Rule: ȯ:ū in first syllable**
+
+**Rule: ä:ǟ in first syllable**
+
+**Rule: 0:i after shortened vowel or diphthong**
+
+*v0eʼd%^PreI examples:*
+
+*vieʼd0 examples:*
+
+**Rule: 0:u after shortened vowel or diphthong**
+
+**Rule: 0:o after shortened vowel or diphthong**
+
+### VOWEL LENGTHENING
+
+**Rule: a:ǭ in first syllable**
+
+*tam%^VowsL1aToǭõd examples:*
+
+*tǭm0õd examples:*
+
+**Rule: a:ā in first syllable**
+
+*kand%^VowsLI1õd examples:*
+
+*kāndõd examples:*
+
+**Rule: i:ī in first syllable**
+
+*niŗț%^VowsLI1%>õ examples:*
+
+*nīŗț00õ examples:*
+
+**Rule: o:ō in first syllable**
+
+*ouki%^VowsLI1z examples:*
+
+*ō0ki0z examples:*
+
+**Rule: o:i**
+
+*pūog%^VowsSh1%^PalatalizeLeft%>õ examples:*
+
+*pȯig0000õ examples:*
+
+LOWER VOWELS
+**Rule: ī:ē in tīe 15**
+
+*tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:*
+
+*tē000000šti examples:*
+
+*kīel%^ĪE2Ē%^PalatalizeLeft examples:*
+
+*kē0ļ00 examples:*
+
+Destressing in second syllable
+**Rule: ā:õ **
+
+*käp0ā%^ConsL%^LongV2Õin2 examples:*
+
+*käppõ00 examples:*
+* *rik0āz%^Stress2to1%^ConsRM*
+* *rikkõ000*
+
+**Rule: a:õ **
+
+*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+
+*tierrõ00 examples:*
+
+**Rule: ū:õ **
+
+**Rule: õ:i**
+
+*ǭʼrõn%^PalatalizeLeft examples:*
+
+*ǭʼriņ0 examples:*
+
+*nȭŗkõz%^PalatalizeLeft%>ist examples:*
+
+*nȭŗkiz00ist examples:*
+
+
+VOWEL LOSS
+
+**Rule: ā:0**
+
+*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
+
+*äʼm000000ži examples:*
+
+*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
+
+*ä0m00000ḑi examples:*
+
+*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
+
+*daʼdz0000õ examples:*
+
+
+*maʼigāz%^StodRM%^VowsRM%^ConsRM>īst examples:*
+
+*ma0ig000000īst examples:*
+
+**Rule: ū:0**
+
+**Rule: ī:0**
+
+*sīe%>i examples:*
+
+*s0e0i examples:*
+
+**Rule: a:0**
+
+*jǭr0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
+
+*jarr0000õ examples:*
+
+*pūol0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
+
+*pȯ0ll0000õ examples:*
+
+*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+
+*keņg0000i examples:*
+
+**Rule: e:0**
+* *tīʼe%^LowerVows%^StodRM%^VowsRM%>šti*
+* *tē000000šti*
+kēļ+N+Sg+Nom
+* *kīel%^ĪE2Ē%^PalatalizeLeft*
+* *kē0l00*
+
+
+**Rule: õ:0**
+
+*kittõ%^ConsSh%^VowsRM%>dõd examples:*
+
+*kit00000tõd examples:*
+
+**Rule: i:0 in first syllable**
+
+*leiba%^VowsLI1%>st examples:*
+
+*lē0ba00st examples:*
+
+*tei%^VowsLI1%>ḑi examples:*
+
+*tē000ḑi examples:*
+
+*lǭija%^ConsSh examples:*
+
+*lǭ0ja0 examples:*
+
+*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
+
+*l0ešt00000i examples:*
+
+*ūiska%^ConsSh examples:*
+
+*ū0ška0 examples:*
+
+**Rule: u:0 in second position of first-syllable diphthong**
+
+*ouki%^VowsLI1z examples:*
+
+*ō0ki0z examples:*
+
+*pǟuva%^ConsSh examples:*
+
+*pǟ0va0 examples:*
+
+**Rule: o:0 in second position of first-syllable diphthong**
+```
+
+*pūol0a%^Stress1to2%^ConsL examples:*
+
+*pȯ0llõ00 examples:*
+```
+
+### Zero to vowel
+
+
+**Rule: 0:õ in vowel metathesis**
+
+
+## Consonant rules
+
+### Consonant loss 
+**Rule: shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb**
+
+*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
+
+*äʼm000000ži examples:*
+
+**Rule: z:0**
+* *rik0āz%^Stress2to1%^ConsRM*
+
+### Consonant lengthening
+
+Lengthening consonantism between first and second vowel center
+simultaneous to reducing vowel of second syllable
+
+**Rule: lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ**
+* *je0l0ā%^Stress2to1*
+* *ka0l0ā%^Stress2to1*
+* *rik0āz%^Stress2to1%^ConsRM*
+
+*pūol0a%^Stress1to2%^ConsL examples:*
+
+*pȯ0llõ00 examples:*
+
+**Rule: 0:p**
+
+*käp0ā%^ConsL%^LongV2Õin2 examples:*
+
+*käppõ00 examples:*
+
+**Rule: %{XC%}:Cx**
+
+**%{XC%}:p** 2014-02-27
+
+*kep%{XC%}>õ examples:*
+
+*kepp0õ examples:*
+
+**%{XC%}:s** 2020-10-21
+tas+N+Sg+Ill
+* *tas{XC}>õ*
+* *tass>õ*
+
+**%{XC%}:ž** 2014-02-27
+
+*veʼd%^D2Ž%{XC%}>i examples:*
+
+*veʼž0ž0i examples:*
+
+
+**%{XC%}:k** 2014-02-27
+
+*rok%{XC%}>õ examples:*
+
+*rokk0õ examples:*
+
+**Rule: Stod removal left**
+
+*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
+
+*daʼdz0000õ examples:*
+aʼb#sõʼnā+N+Sg+Nom: 
+* *aʼb#sõʼn%^StodRMā*
+* *aʼb#sõ0n0ā*
+
+
+*ka0l0ā%^Stress2to1 examples:*
+
+*kaʼllõ0 examples:*
+
+
+**Rule: z:ž**
+
+
+*alīz%^PalatalizeLeft%>i examples:*
+
+*alīž00i examples:*
+
+*izā%^PalatalizeLeft%^VowsRM%>ḑi examples:*
+
+*iž0000ḑi examples:*
+
+**Rule: d:ḑ**
+lēʼḑ:līʼed 147
+
+**Rule: l:ļ**
+This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
+kēļ:kēl 215
+
+*äʼddõl%^PalatalizeLeft%>i examples:*
+
+*äʼddiļ00i examples:*
+
+*tuʼl%^StodRM%^PalatalizeLeft%>īž examples:*
+
+*tu0ļ000īž examples:*
+
+**Rule: n:ņ palatalization**
+
+*Vē0na%^PalatalizeLeft%^VowsRMõ examples:*
+
+*Vein000õ examples:*
+
+*ǭʼrõn%^PalatalizeLeft examples:*
+
+*ǭʼriņ0 examples:*
+
+*vȱntsa%^VowShIn1%^PalatalizeLeft%^VowsRM%>ti examples:*
+
+*vȯņtš00000ti examples:*
+sēņ:sēn 220
+
+*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+
+*keņg0000i examples:*
+
+
+**Rule: r:ŗ**
+jūŗ:jūr 221
+
+*ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+
+*eŗg0000i examples:*
+
+
+
+**Rule: d:t**
+
+*kittõ%^ConsSh%^VowsRM%>dõd examples:*
+
+*kit00000tõd examples:*
+nominative plural 
+
+*v0eʼd%^PreI%^StodRM%^D2T examples:*
+
+*vie0t examples:*
+
+**Rule: d:ț**
+
+**Rule: d:ž**
+
+
+
+
+### Rules for consonant loss
+
+**Rule: d:0**
+     Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
+
+**T loss before subsequent morpheme with underlying initial d**  
+
+*kittõ%^ConsSh%^VowsRM%>dõd examples:*
+
+*kit00000tõd examples:*
+
+**Rule: k:0**
+
+*rikkā%^ConsSh%^Vow2Iin2di examples:*
+
+*rik0ī00di examples:*
+
+**Rule: ț:0**
+
+**Rule: s:š palatalization**
+
+*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
+
+*l0ešt00000i examples:*
+
+*pȯ0is%^VowsLI1õd examples:*
+
+*pūo0š0õd examples:*
+
+**Rule: ǟ:ē palatalization**
+
+**Rule: ǟ:e short and palatalization**
+
+*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+
+*keņg0000i examples:*
+
+
+**Rule: a:ä palatalization**
+
+
+*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
+
+*äʼm00000ḑi examples:*
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/phonology.twolc)</small>
 Morphology
 
 # INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF LIVONIAN.
@@ -1066,80 +1657,986 @@ This is used in compounding, e.g. äʼb-:äʼb
 
 **LEXICON SYMBOL_suff = 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/symbols.lexc)</small># Conjunctions
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/symbols.lexc)</small># Proper noun inflection
+This file documents `affixes/propernouns.lexc`, the file for inflection of propernouns.
 
-This file documents `affixes/conjunctors.lexc`
+Livonian proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
-**LEXICON CONJ_ = These need to be corrected, it points to #.
+**LEXICON PROP_ = this lexicon goes to K only
 
-
-**LEXICON CC_ =  Livonian conjunctors, points to #
-
-
-**LEXICON CS_ =  Livonian subjunctors, points to #
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/conjunctors.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/conjunctors.lexc)</small># Quantifier inflection
-This file documents the file on Livonian quantifier morphology.
-
-
-
-LEXICON QNT_APPÕN  : 216
-
-LEXICON QNT_PŪOL  : 216
 
 Stem lexica
-LEXICON NUM_PADĀ  padā:padā 39
+LEXICON PROP_TOP_PŪ  contains pū: 12
 
-LEXICON NUM_KĒRA  kēra:kēra 43
+LEXICON PROP_PŪ  contains pū: 12
 
-LEXICON NUM_OKŠ  : 68
-
-
-
-
-
-
-LEXICON NUM_NǬʼGÕ  nǭʼgõ:nǭgõ 119
-
-LEXICON NUM_IRM  irm: 125
-
-LEXICON NUM_KIM  : 126 kim:kim
-
-
-LEXICON NUM_FAKT  fakt: 135
-
-LEXICON NUM_ĀIGAST  āigast: 140
+LEXICON PROP_PŪ-SG  contains pū: 12
 
 
 
 
 
-LEXICON NUM_NAI  nai: 191
+
+LEXICON PROP_KALĀ   contains  kalā:kalā 18
+
+LEXICON PROP_KALĀ-SG   contains  kalā:kalā 18
+
+LEXICON PROP_TUBĀ  tubā:tubā 19
 
 
 
 
-LEXICON NUM_ÄʼBȚÕKS  ä'bțõks:äbțõks 208
-
-LEXICON NUM_TŪĻ  : 214
 
 
-LEXICON NUM_ĪKŠ  : 217
 
-LEXICON NUM_KAKŠ  : 218
 
-LEXICON NUM_ŪŽ  : 219
 
-LEXICON NUM_APPÕN  appõn:appõn 235
+
+
+
+
+
+
+
+
+
+LEXICON PROP_VĒNA  vēna:vēna 37
+
+
+LEXICON PROP_PADĀ  padā:padā 39
+
+
+
+
+
+LEXICON PROP_JǬRA  jǭra:jǭra 44
+
+LEXICON PROP_JǬRA-PL  jǭra:jǭra 44
+
+
+LEXICON PROP_ĀITA  āita:āita 46
+
+LEXICON PROP_ŪŠKA  ūška:ūška 47
+
+
+LEXICON PROP_DADŽĀ  dadžā:dadžā 49
+
+
+
+
+
+
+LEXICON PROP_KRǬIPA  krǭipa:krǭipa 55
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEXICON PROP_DUŅTŠ  : 70
+
+
+LEXICON PROP_NIʼM  niʼm:niʼm 76
+
+LEXICON PROP_NIʼM-PL  niʼm:niʼm 76
+
+
+LEXICON PROP_TUP  tup:tup 79
+
+
+
+
+
+
+LEXICON PROP_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+
+
+
+LEXICON PROP_KǬJ  : 123
+
+
+LEXICON PROP_KIM  : 126
+
+LEXICON PROP_KIM-SG  : 126
+
+
+LEXICON PROP_VAʼIT  vaʼit:vait 128
+
+LEXICON PROP_AMĀT  : 129
+
+LEXICON PROP_KULTŪR  : 130
+
+LEXICON PROP_VIĻȚ  : 132
+
+
+LEXICON PROP_FAKT  fakt:fakt 135
+
+LEXICON PROP_FAKT-SG  fakt:fakt 135
+
+
+LEXICON PROP_ĀIGAST  : 140
+
+LEXICON PROP_ANALĪZ  : 141
+
+
+LEXICON PROP_NĪʼEM-SG  nīʼem:nīʼem 142
+
+LEXICON PROP_JAĻKŠ  : 143
+
+
+LEXICON PROP_RŪʼTŠ  rūʼtš:rūʼtš 145
+
+
+
+
+
+LEXICON PROP_SIDĀM  : 157
+
+LEXICON PROP_TŪOITÕG  : 158
+
+LEXICON PROP_TŪOITÕG-SG  : 158
+
+LEXICON PROP_KǬRAND  : 159
+
+LEXICON PROP_KǬRAND-SG  : 159
+
+LEXICON PROP_ȬʼDÕG  ȭʼdõg:ȭʼdõg 160
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEXICON PROP_ĀNDÕKS  : 206
+
+
+
+
+LEXICON PROP_PŪOL  : 216
+
+
+
+
+
+
+LEXICON PROP_SŪR  : 222
+
+
+LEXICON PROP_BIRKOV  : 224
+
+
+LEXICON PROP_SALĀJ-SG  : 225
+
+
+
+
+
+
+
+
+LEXICON PROP_TIDĀR  tidār:tidār 233
+
+
+LEXICON PROP_TIDĀR-PL  tidār:tidār 233
+
+LEXICON PROP_PĒGAL  pēgal:pēgal 234
+
+LEXICON PROP_APPÕN  appõn:appõn 235
+
+
+LEXICON PROP_KĪNDÕR  kīndõr:kīndõr 237
+
+
+
+
+
+
+
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/quantifiers.lexc)</small># Livonian noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/propernouns.lexc)</small># Livonian Verb inflection
+This file documents the verb inflection of Livonian.
+
+
+## Verb stem classes
+**LEXICON V_ = CONJUGATION TYPE MISSING
+
+**LEXICON TV_ = CONJUGATION TYPE MISSING
+
+**LEXICON V-AUX_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
+
+**LEXICON IV_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
+
+**LEXICON TV_TǬʼDÕ = 2 tǭʼdõ:tǭʼ
+
+**LEXICON V-AUX_VĪDÕ = 3 vīdõ:vī
+
+**LEXICON IV_VĪDÕ = 3 vīdõ:vī
+
+**LEXICON TV_VĪDÕ = 3 vīdõ:vī
+
+
+**LEXICON TV_NǞʼDÕ = 4 nǟʼdõ:nǟʼ
+* Yaml: **naeaeqdw**
+
+**LEXICON IV_KǞʼDÕ = 5 kǟʼdõ:kǟʼ
+
+**LEXICON TV_TĪʼEDÕ = 6 tīʼedõ:tīʼe
+
+
+**LEXICON V-AUX_SĪEDÕ = 7 sīedõ:sīe
+
+**LEXICON IV_SĪEDÕ = 7 sīedõ:sīe
+
+**LEXICON TV_SĪEDÕ = 7 sīedõ:sīe
+
+**LEXICON IV_SǬDÕ = 8 sǭdõ:s
+
+**LEXICON TV_SǬDÕ = 8 sǭdõ:s
+
+**LEXICON V-AUX_SǬDÕ = 8 sǭdõ:s
+
+
+**LEXICON TV_JŪODÕ = 9 jūodõ:jūo
+
+**LEXICON V-AUX_VȰLDA =  10 vȱlda:ZERO
+
+
+**LEXICON IV_VȰLDA = 10 vȱlda: goes to **K**
+
+**LEXICON IV_TŪLDA = 11 tūlda:
+
+**LEXICON V-AUX_PĀNDA = 12 pānda:
+
+**LEXICON IV_PĀNDA = 12 pānda:
+
+**LEXICON TV_PĀNDA = 12 pānda:
+
+**LEXICON IV_JEʼLLÕ = 13 jeʼllõ:jeʼlā
+
+**LEXICON TV_JEʼLLÕ =  13 jeʼllõ:jeʼllõ
+
+**LEXICON IV_ASTÕ = 18 astõ:astõ
+
+**LEXICON TV_ASTÕ =  18 astõ:astõ
+
+**LEXICON TV_VÕTTÕ = 19 võttõ:võttõ
+
+**LEXICON IV_VIEʼDDÕ = 24 vieʼddõ:vieʼddõ
+
+**LEXICON TV_VIEʼDDÕ = 24 vieʼddõ:vieʼddõ
+
+**LEXICON IV_MAKSÕ = 25 maksõ:maksõ
+
+**LEXICON TV_MAKSÕ = 25 maksõ:maksõ
+
+**LEXICON TV_TAPPÕ = 26 tappõ:tappõ
+
+**LEXICON IV_MÄNGÕ = 14 mängõ:mǟnga
+
+**LEXICON TV_KILLÕ = 15 killõ:kīla
+
+**LEXICON TV_PALLÕ = 16 pallõ:pǭla
+
+**LEXICON TV_LOULÕ = 17 loulõ:lōla
+
+**LEXICON IV_LAITÕ = 20 laittõ:lāita
+
+**LEXICON TV_LAITÕ = 20 laittõ:lāita
+
+**LEXICON IV_TÄUTÕ = 21 täutõ:tǟta
+
+**LEXICON TV_TÄUTÕ = 21 täutõ:tǟta
+
+
+**LEXICON TV_PȮĻTÕ = 22 pȯļtõ:pūoļta
+
+
+**LEXICON TV_MȮISTÕ = 23 mȯistõ:mūošta
+
+**LEXICON IV_ANDÕ = 27 andõ:ānda
+
+**LEXICON TV_ANDÕ = 27 andõ:ānda
+
+**LEXICON IV_TIEUDÕ = 28 tieudõ:tīeda
+
+**LEXICON TV_TIEUDÕ = 28 tieudõ:tīeda
+
+29-48 follow same pattern
+
+**LEXICON IV_LUʼGGÕ = luʼggõ:luʼggõ 29
+
+**LEXICON TV_LUʼGGÕ = luʼggõ:lugū 29
+
+**LEXICON IV_MUʼDŽÕ = muʼdžõ:mudžū 30
+
+**LEXICON TV_MUʼDŽÕ = muʼdžõ:mudžū 30
+
+**LEXICON IV_VAKȚÕ = vakțõ:vakțū 31
+
+**LEXICON TV_VAKȚÕ =  vakțõ:vakțū 31
+
+**LEXICON IV_KITTÕ = kittõ:kitū 32
+
+**LEXICON TV_KITTÕ = kittõ:kitū 32
+
+**LEXICON V-AUX_RIʼDDÕ = riʼddõ:ridū 33
+
+**LEXICON IV_RIʼDDÕ = riʼddõ:ridū 33
+
+**LEXICON TV_RIʼDDÕ = riʼddõ:ridū 33
+
+**LEXICON IV_KUTSÕ = kutsõ:kutsū 34
+
+**LEXICON TV_KUTSÕ = kutsõ:kutsū 34
+
+**LEXICON V-AUX_LASKÕ = laskõ:laskū 35
+
+**LEXICON IV_LASKÕ = laskõ:laskū 35
+
+**LEXICON TV_LASKÕ = laskõ:laskū 35
+
+**LEXICON IV_AKKÕ = akkõ:akū 36
+Should ss be s and šš be š? 2013-02-19
+
+**LEXICON TV_AKKÕ = akkõ:akū 36
+
+
+**LEXICON V-AUX_AIGÕ = aigõ:āigõ 37
+
+**LEXICON IV_AIGÕ = aigõ:āigõ 37
+
+**LEXICON TV_AIGÕ = aigõ:āigõ 37
+
+**LEXICON TV_KUOŖŖÕ = kuoŗŗõ:kūoŗõ 38
+
+**LEXICON TV_VANNÕ = vannõ:vǭnõ 39
+
+
+**LEXICON IV_PȮĻĻÕ = pȯļļõ:pūoļõ 40
+
+
+**LEXICON IV_PȮIMÕ = pȯimõ:pūoimõ 41
+
+**LEXICON TV_PȮIMÕ = pȯimõ:pūoimõ 41
+
+**LEXICON IV_OUŖÕ = ouŗõ:ōŗõ 42
+
+**LEXICON IV_KEIJÕ = keijõ:kējõ 43
+
+**LEXICON TV_KEIJÕ = keijõ:kējõ 43
+
+
+**LEXICON IV_AŖŠTÕ = aŗštõ:āŗštõ 44
+
+**LEXICON TV_AŖŠTÕ = aŗštõ:āŗštõ 44
+
+**LEXICON TV_PȮRTÕ = pȯrtõ:pūortõ 45
+
+**LEXICON TV_OUTÕ = outõ:ōtõ 46
+
+**LEXICON V-AUX_TUNDÕ = tundõ:tūndõ 47
+
+**LEXICON IV_TUNDÕ = tundõ:tūndõ 47
+
+**LEXICON TV_TUNDÕ = tundõ:tūndõ 47
+
+**LEXICON TV_OUDÕ = oudõ:ōdõ 48
+
+
+**LEXICON IV_KŪLÕ = kūlõ:kūlõ 49
+
+**LEXICON TV_KŪLÕ = kūlõ:kūlõ 49
+
+**LEXICON IV_ARRÕ = arrõ:arrõ 50
+
+**LEXICON TV_ARRÕ = arrõ:arrõ 50
+
+**LEXICON IV_AʼILÕ = aʼilõ:aʼilõ 51
+
+**LEXICON TV_AʼILÕ = aʼilõ:aʼilõ 51
+
+**LEXICON TV_SVAʼRRÕ = svaʼrrõ:svaʼrrõ 52
+
+**LEXICON V-AUX_KĪTÕ = kītõ:kīt 53
+
+**LEXICON IV_KĪTÕ = kītõ:kīt 53
+~701
+
+**LEXICON TV_KĪTÕ = kītõ:kīt 53
+
+
+**LEXICON IV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
+
+**LEXICON TV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
+
+
+**LEXICON V-AUX_KŪLDÕ = kūldõ:kūld 55
+
+**LEXICON IV_KŪLDÕ = kūldõ:kūld 55
+
+**LEXICON TV_KŪLDÕ = kūldõ:kūld 55
+
+**LEXICON TV_KĪSKÕ = kīskõ:kīsk 56
+
+**LEXICON V-AUX_ĪʼEDÕ = īʼedõ:īed 57
+
+**LEXICON IV_ĪʼEDÕ = īʼedõ:īed 57
+
+**LEXICON TV_ĪʼEDÕ = īʼedõ:īed 57
+
+
+**LEXICON IV_UMBLÕ = umblõ: 58
+
+**LEXICON TV_UMBLÕ = umblõ: 58
+
+**LEXICON V-AUX_MÕTLÕ = mõtlõ: 59
+
+**LEXICON IV_MÕTLÕ = mõtlõ: 59
+
+**LEXICON TV_MÕTLÕ = mõtlõ: 59
+
+**LEXICON IV_MǞʼDLÕ = mǟʼdlõ: 60
+
+**LEXICON TV_MǞʼDLÕ = mǟʼdlõ: 60
+
+**LEXICON IV_NAʼGRÕ = naʼgrõ: 60
+
+**LEXICON TV_NAʼGRÕ = naʼgrõ: 60
+
+
+**LEXICON V-AUX_ÄʼB = 62 äʼb:ä
+
+
+**LEXICON TV_SÄ = 63 sä:sä
+
+**LEXICON V-AUX_PIḐĪKS = 64 piḑīks:piḑī
+
+## After transitive, intransitive, auxiliary and such tags have been added
+1
+
+2
+
+3
+**LEXICON V-01_VĪDÕ = This is mutual for 3: 
+vīdõ:vī
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+
+**LEXICON V-01_NǞʼDÕ = This is mutual for ??: 
+4 nǟʼdõ:nǟʼ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+**LEXICON V-01_SĪEDÕ = : 7 sīedõ:sīe
+* Yaml: **siiedw**
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+8
+sǭdõ:s
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+9
+9
+jūodõ:vī
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+10
+
+**LEXICON V-01_JEʼLLÕ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
+
+Cond
+Imprt
+Jus
+Qvo
+
+participles
+
+
+**LEXICON V-01_MÄNGÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+
+
+29
+LEXICON	V-01_LUʼGGÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+
+This is mutual for 37-48
+
+Prt
+
+participles
+
+
+
+**LEXICON V-01_KŪLÕ =  This is mutual for 49-50, 52-57
+Prt
++Act+PrfPrc
+Cond
+
+
+**LEXICON V-01_AʼILÕ =  This is mutual for 51
+Ger, Ger_Ine
+
+* **INF_ZERO ;** aʼilõ
+Inf
+
+* **SUP-STEM_m ;** aʼilõ-
+Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
+Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
+Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
+
+* **: INDPRSSG1-STEM ;** aʼilõ-
+Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
+
+* **:%^VowsRM INDCONNEGSG ;** aʼil-
+Ind+ConNeg+Sg
+
+* **:%^VowsRM%>i INDPRT_z ;** aʼili-
+Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
+
+* **COND ;** aʼilõ-
+Cond...
+Imprt+Sg2, Imprt+ConNeg+Sg2
+
+Imprt+Pl1, Imprt+Pl2, Imprt+ConNeg
+
+Jus+Sg3, Jus+Pl3
+
+Quo+Sg3, Quo+Pl3, +NomAct -mi
+
+* **ACTPRFPRC_n ;** aʼilõ%>n
++Act+PrfPrc
+
+* **:%^VowsRM PSSPRSPRC ;** aʼil-
+* **:%^VowsRM PSSPRFPRCSG ;** aʼil-
+
+
+
+**LEXICON V-01_UMBLÕ = This is mutual for 58-61: 
+umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+
+
+
+
+
+### Nonfinites
+
+**LEXICON GER_s = 
+
+**LEXICON GER_sõ = 
+
+**LEXICON INF_ZERO = 
+
+**LEXICON INF_dõ = 
+
+**LEXICON INF_da = 
+
+**LEXICON SUP-STEM_m = 
+
+**LEXICON SUP_m = 
+
+**LEXICON SUP_m = 
+
+**LEXICON SUP_mõ = 
+
+**LEXICON ACTPRSPRC = 
+
+**LEXICON ACTPRSPRC = 
+
+**LEXICON ACTPRFPRC_nd = 
+Are the singular and plural homonyms?
+
+**LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
+Are the singular and plural homonyms?
+
+
+**LEXICON PSSPRSPRC = 
+
+**LEXICON PSSPRFPRCSG = 
+2014-08-21
+
+### Finites
+
+
+**LEXICON INDPRS_tõ = Indicative present
+
+**LEXICON INDPRT_i = Indicative preterite in i
+
+**LEXICON INDPRT_z = Indicative preterite in z
+
+**LEXICON INDPRT_ž = Indicative preterite in ž
+
+**LEXICON INDPRTSG3-STEM_tõ = 
+
+
+**LEXICON COND = Conditional present
+
+
+### Indicative present
+
+**LEXICON INDPRSSG1-STEM = 
+* INDPRSSG1 ; 
+* INDPRSSG2 ; 
+* INDPRSSG3 ; these three lexica point to lexica with the actual suffixes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conditional
+
+
+
+
+
+
+Imperative
+
+
+
+
+
+
+
+Jussative
+
+
+Quotative
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/verbs.lexc)</small># Adjective inflection
+
+This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
+
+## Indeclneables
+
+**LEXICON A_-ZERO =  modifiers that do not decline, goes to #
+
+**LEXICON A_ = gives Pos tag.
+
+## Stem lexica
+
+LEXICON A_PŪ  contains pū: 12
+
+
+LEXICON A_BRĪ  contains brī:brī 16
+
+LEXICON A_KALĀ   contains  kalā:kaʼlā 18
+
+LEXICON A_TUBĀ  tubā:tuʼbā 19
+
+LEXICON A_AIGĀ  aigā:aʼig 20
+
+
+LEXICON A_KŪJA  kūja:??lēba 21
+
+LEXICON A_IZĀ  izā:izā 25
+
+LEXICON A_OKSĀ  oksā:oksā 30
+
+LEXICON A_ĀIGA  āiga:āiga 33
+
+LEXICON A_SĪLMA  sīlma:sīlma 34
+
+LEXICON A_PADĀ  padā:padā 39
+
+LEXICON A_KÄPĀ  käpā:käpā 41
+
+LEXICON A_MAKSĀ  maksā:maksā 42
+
+LEXICON A_KĒRA  kēra:kēra 43
+
+LEXICON A_JǬRA  jǭra:jǭra 44
+
+
+LEXICON A_ĀITA  āita:āita 46
+
+LEXICON A_ŪŠKA  ūška:ūška 47
+
+LEXICON A_MȬKA  mȭka:mȭka 48
+
+LEXICON A_DADŽĀ  dadžā:dadžā 49
+
+LEXICON A_TĪERA  tīera:tīera 54
+
+LEXICON A_LILLA  kuțā:kuțā 57
+
+
+LEXICON A_KIʼV  kiʼv:kiv 59
+
+LEXICON A_PIʼŅ  piʼņ:piņ 64
+
+LEXICON A_OKŠ  : 68
+
+LEXICON A_KAŠ  : 69
+
+LEXICON A_TORĪ  torī: 71
+
+LEXICON A_KÕʼL  kõʼl:kõl 73
+
+LEXICON A_NIʼM  niʼm:nim 76
+
+LEXICON A_KAND  kand: 94
+
+LEXICON A_UL  ul: 99
+
+LEXICON A_NIŖȚ  niŗț: 102
+
+LEXICON A_DAŅTŠ  daņtš: 105
+
+LEXICON A_TÄUŽ  täuž: adres 112
+
+LEXICON A_SIELDÕ  sieldõ: 118
+
+LEXICON A_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+
+LEXICON A_AŠŠÕ  : 120
+
+LEXICON A_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
+
+LEXICON A_IRM  : 125
+
+LEXICON A_KIM  : 126
+
+LEXICON A_VAʼIT  vaʼit:vait 128
+
+LEXICON A_AMĀT  : 129
+
+LEXICON A_SAʼGDIT  saʼgdit:sagdit 131
+
+LEXICON A_VIĻȚ  : 132
+
+LEXICON A_EĻ  eļ: 133
+
+LEXICON A_BLĒʼḐ  blēʼḑ:blēḑ 134
+
+LEXICON A_FAKT  : 135
+
+LEXICON A_SĪEND  sīend: 138
+
+LEXICON A_LǞʼND  lǟʼnd:lǟnd 139
+
+LEXICON A_ĀIGAST  āigast: 140
+
+LEXICON A_ANALĪZ  analīz: 141
+
+LEXICON A_NĪʼEM  nīʼem:nīem 142
+
+LEXICON A_VIŠ  : 144
+
+LEXICON A_SIDĀM  : 157
+
+LEXICON A_TŪOITÕG  : 158
+
+LEXICON A_KǬRAND  kǭrand: 159
+* Yaml: **armtõb**
+
+LEXICON A_ȬʼDÕG  ȭʼdõg:ȭdõg 160
+
+LEXICON A_TAPTÕD  taptõd: 161
+
+LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
+
+
+LEXICON A_KÄBRĀZ  : 168
+
+LEXICON A_MAIGĀZ  : 169
+
+LEXICON A_NÕTKĀZ  : 170
+
+LEXICON A_RIKĀZ  : 171
+
+LEXICON A_ĀMBAZ  āmbaz:āmba 173
+
+LEXICON A_PŪŖAZ  : 174
+
+LEXICON A_PǬĻAZ  : 175
+
+LEXICON A_MÕTKÕZ  mõtkõz: 179
+
+LEXICON A_VȬRÕZ  vȭrõz: 180
+
+LEXICON A_ARĀGÕZ  : 181
+
+LEXICON A_ÄʼGGÕZ  ä'ggõz:äggõz 182
+
+LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
+
+LEXICON A_SĒJI  : 186 āndaji:āndaji sēji:sēji
+
+LEXICON A_AKKIJI  akkiji:akkiji 187
+
+LEXICON A_LĒʼJI  lēʼji:lēʼji 188
+
+LEXICON A_AʼIGI  aʼigi:aigi 192
+
+LEXICON A_PUʼNNI  pu'nni:punni 193
+
+LEXICON A_KAȚKI  : 194
+
+LEXICON A_KUKKI  : 195
+
+LEXICON A_AIGI  aigi:aigi 196
+
+LEXICON A_OUKI  : 197
+
+LEXICON A_PAŖĪ  : 198
+
+LEXICON A_TŪĻI  : 199
+
+LEXICON A_AʼBLI  aʼbli:abli 200
+
+LEXICON A_SĒMI  : 201
+
+LEXICON A_LĒʼMI  lē'mi:lēʼmi 202
+
+LEXICON A_ALĪZ  : 203
+
+LEXICON A_KĒRATÕKS  : 207
+
+LEXICON A_VARĪKŠ  varīkš: 209
+
+LEXICON A_ŪŽ  : 219 ūž:ūd
+
+LEXICON A_JŪŖ  jūŗ:jūr 221
+
+LEXICON A_SŪR  sūr:sūr 222
+
+
+
+LEXICON A_DULLÕNZ  dullõnz:dullõn 227
+
+LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
+
+LEXICON A_TIDĀR  tidār:tidār 233
+
+LEXICON A_APPÕN  appõn:appõn 235
+
+LEXICON A_ǬʼRÕN  ǭʼrõn:ǭrõn 236
+
+LEXICON A_KĪNDÕR  kīndõr:kīndõr 237
+
+LEXICON A_BÄʼZMÕR  bäʼzmõr:bäzmõr 238
+
+LEXICON A_TARĪĻ  tarīļ:tarīļ 239
+
+LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
+
+LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adjectives.lexc)</small># Livonian noun inflection
 
 This file documents `affixes/nouns.lexc`, the Livonian noun inflection file.
 
@@ -3250,278 +4747,7 @@ A trigger for z:ž will be required
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/nouns.lexc)</small># Determiner inflection
-This file documents `affixes/determiners.lexc`, the language model for
-Livonian determiner inflection.
-
-
-## Stem lexica
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LEXICON DET_VĪDÕZ  vīdõz: 163
-
-LEXICON DET_TUOISTÕNZ  : 164
-
-LEXICON DET_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
-
-
-LEXICON DET_NAI  nai: 191
-
-LEXICON DET_TŪĻI  tūļi: 199
-
-LEXICON DET_SĒMI  sēmi: 201
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/determiners.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/determiners.lexc)</small># Adjective inflection
-
-This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
-
-## Indeclneables
-
-**LEXICON A_-ZERO =  modifiers that do not decline, goes to #
-
-**LEXICON A_ = gives Pos tag.
-
-## Stem lexica
-
-LEXICON A_PŪ  contains pū: 12
-
-
-LEXICON A_BRĪ  contains brī:brī 16
-
-LEXICON A_KALĀ   contains  kalā:kaʼlā 18
-
-LEXICON A_TUBĀ  tubā:tuʼbā 19
-
-LEXICON A_AIGĀ  aigā:aʼig 20
-
-
-LEXICON A_KŪJA  kūja:??lēba 21
-
-LEXICON A_IZĀ  izā:izā 25
-
-LEXICON A_OKSĀ  oksā:oksā 30
-
-LEXICON A_ĀIGA  āiga:āiga 33
-
-LEXICON A_SĪLMA  sīlma:sīlma 34
-
-LEXICON A_PADĀ  padā:padā 39
-
-LEXICON A_KÄPĀ  käpā:käpā 41
-
-LEXICON A_MAKSĀ  maksā:maksā 42
-
-LEXICON A_KĒRA  kēra:kēra 43
-
-LEXICON A_JǬRA  jǭra:jǭra 44
-
-
-LEXICON A_ĀITA  āita:āita 46
-
-LEXICON A_ŪŠKA  ūška:ūška 47
-
-LEXICON A_MȬKA  mȭka:mȭka 48
-
-LEXICON A_DADŽĀ  dadžā:dadžā 49
-
-LEXICON A_TĪERA  tīera:tīera 54
-
-LEXICON A_LILLA  kuțā:kuțā 57
-
-
-LEXICON A_KIʼV  kiʼv:kiv 59
-
-LEXICON A_PIʼŅ  piʼņ:piņ 64
-
-LEXICON A_OKŠ  : 68
-
-LEXICON A_KAŠ  : 69
-
-LEXICON A_TORĪ  torī: 71
-
-LEXICON A_KÕʼL  kõʼl:kõl 73
-
-LEXICON A_NIʼM  niʼm:nim 76
-
-LEXICON A_KAND  kand: 94
-
-LEXICON A_UL  ul: 99
-
-LEXICON A_NIŖȚ  niŗț: 102
-
-LEXICON A_DAŅTŠ  daņtš: 105
-
-LEXICON A_TÄUŽ  täuž: adres 112
-
-LEXICON A_SIELDÕ  sieldõ: 118
-
-LEXICON A_NǬʼGÕ  nǭʼgõ:nǭgõ 119
-
-LEXICON A_AŠŠÕ  : 120
-
-LEXICON A_DRŪʼOŠÕ  drūʼošõ:drūošõ 121
-
-LEXICON A_IRM  : 125
-
-LEXICON A_KIM  : 126
-
-LEXICON A_VAʼIT  vaʼit:vait 128
-
-LEXICON A_AMĀT  : 129
-
-LEXICON A_SAʼGDIT  saʼgdit:sagdit 131
-
-LEXICON A_VIĻȚ  : 132
-
-LEXICON A_EĻ  eļ: 133
-
-LEXICON A_BLĒʼḐ  blēʼḑ:blēḑ 134
-
-LEXICON A_FAKT  : 135
-
-LEXICON A_SĪEND  sīend: 138
-
-LEXICON A_LǞʼND  lǟʼnd:lǟnd 139
-
-LEXICON A_ĀIGAST  āigast: 140
-
-LEXICON A_ANALĪZ  analīz: 141
-
-LEXICON A_NĪʼEM  nīʼem:nīem 142
-
-LEXICON A_VIŠ  : 144
-
-LEXICON A_SIDĀM  : 157
-
-LEXICON A_TŪOITÕG  : 158
-
-LEXICON A_KǬRAND  kǭrand: 159
-* Yaml: **armtõb**
-
-LEXICON A_ȬʼDÕG  ȭʼdõg:ȭdõg 160
-
-LEXICON A_TAPTÕD  taptõd: 161
-
-LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
-
-
-LEXICON A_KÄBRĀZ  : 168
-
-LEXICON A_MAIGĀZ  : 169
-
-LEXICON A_NÕTKĀZ  : 170
-
-LEXICON A_RIKĀZ  : 171
-
-LEXICON A_ĀMBAZ  āmbaz:āmba 173
-
-LEXICON A_PŪŖAZ  : 174
-
-LEXICON A_PǬĻAZ  : 175
-
-LEXICON A_MÕTKÕZ  mõtkõz: 179
-
-LEXICON A_VȬRÕZ  vȭrõz: 180
-
-LEXICON A_ARĀGÕZ  : 181
-
-LEXICON A_ÄʼGGÕZ  ä'ggõz:äggõz 182
-
-LEXICON A_PŪʼDÕZ  pūʼdõz:pūdõz 183
-
-LEXICON A_SĒJI  : 186 āndaji:āndaji sēji:sēji
-
-LEXICON A_AKKIJI  akkiji:akkiji 187
-
-LEXICON A_LĒʼJI  lēʼji:lēʼji 188
-
-LEXICON A_AʼIGI  aʼigi:aigi 192
-
-LEXICON A_PUʼNNI  pu'nni:punni 193
-
-LEXICON A_KAȚKI  : 194
-
-LEXICON A_KUKKI  : 195
-
-LEXICON A_AIGI  aigi:aigi 196
-
-LEXICON A_OUKI  : 197
-
-LEXICON A_PAŖĪ  : 198
-
-LEXICON A_TŪĻI  : 199
-
-LEXICON A_AʼBLI  aʼbli:abli 200
-
-LEXICON A_SĒMI  : 201
-
-LEXICON A_LĒʼMI  lē'mi:lēʼmi 202
-
-LEXICON A_ALĪZ  : 203
-
-LEXICON A_KĒRATÕKS  : 207
-
-LEXICON A_VARĪKŠ  varīkš: 209
-
-LEXICON A_ŪŽ  : 219 ūž:ūd
-
-LEXICON A_JŪŖ  jūŗ:jūr 221
-
-LEXICON A_SŪR  sūr:sūr 222
-
-
-
-LEXICON A_DULLÕNZ  dullõnz:dullõn 227
-
-LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
-
-LEXICON A_TIDĀR  tidār:tidār 233
-
-LEXICON A_APPÕN  appõn:appõn 235
-
-LEXICON A_ǬʼRÕN  ǭʼrõn:ǭrõn 236
-
-LEXICON A_KĪNDÕR  kīndõr:kīndõr 237
-
-LEXICON A_BÄʼZMÕR  bäʼzmõr:bäzmõr 238
-
-LEXICON A_TARĪĻ  tarīļ:tarīļ 239
-
-LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
-
-LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adjectives.lexc)</small># Prounoun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/nouns.lexc)</small># Prounoun inflection
 This file documents `affixes/pronouns.lexc`,
 the file on Livonian pronoun  inflection
 
@@ -3582,536 +4808,125 @@ LEXICON PRON_ĪKŠ  : 217
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/pronouns.lexc)</small># Livonian Verb inflection
-This file documents the verb inflection of Livonian.
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/pronouns.lexc)</small># Determiner inflection
+This file documents `affixes/determiners.lexc`, the language model for
+Livonian determiner inflection.
 
 
-## Verb stem classes
-**LEXICON V_ = CONJUGATION TYPE MISSING
+## Stem lexica
 
-**LEXICON TV_ = CONJUGATION TYPE MISSING
 
-**LEXICON V-AUX_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
 
-**LEXICON IV_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
 
-**LEXICON TV_TǬʼDÕ = 2 tǭʼdõ:tǭʼ
 
-**LEXICON V-AUX_VĪDÕ = 3 vīdõ:vī
 
-**LEXICON IV_VĪDÕ = 3 vīdõ:vī
 
-**LEXICON TV_VĪDÕ = 3 vīdõ:vī
 
 
-**LEXICON TV_NǞʼDÕ = 4 nǟʼdõ:nǟʼ
-* Yaml: **naeaeqdw**
 
-**LEXICON IV_KǞʼDÕ = 5 kǟʼdõ:kǟʼ
 
-**LEXICON TV_TĪʼEDÕ = 6 tīʼedõ:tīʼe
 
 
-**LEXICON V-AUX_SĪEDÕ = 7 sīedõ:sīe
 
-**LEXICON IV_SĪEDÕ = 7 sīedõ:sīe
+LEXICON DET_VĪDÕZ  vīdõz: 163
 
-**LEXICON TV_SĪEDÕ = 7 sīedõ:sīe
+LEXICON DET_TUOISTÕNZ  : 164
 
-**LEXICON IV_SǬDÕ = 8 sǭdõ:s
+LEXICON DET_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
 
-**LEXICON TV_SǬDÕ = 8 sǭdõ:s
 
-**LEXICON V-AUX_SǬDÕ = 8 sǭdõ:s
+LEXICON DET_NAI  nai: 191
 
+LEXICON DET_TŪĻI  tūļi: 199
 
-**LEXICON TV_JŪODÕ = 9 jūodõ:jūo
+LEXICON DET_SĒMI  sēmi: 201
 
-**LEXICON V-AUX_VȰLDA =  10 vȱlda:ZERO
 
 
-**LEXICON IV_VȰLDA = 10 vȱlda: goes to **K**
 
-**LEXICON IV_TŪLDA = 11 tūlda:
 
-**LEXICON V-AUX_PĀNDA = 12 pānda:
 
-**LEXICON IV_PĀNDA = 12 pānda:
 
-**LEXICON TV_PĀNDA = 12 pānda:
 
-**LEXICON IV_JEʼLLÕ = 13 jeʼllõ:jeʼlā
-
-**LEXICON TV_JEʼLLÕ =  13 jeʼllõ:jeʼllõ
-
-**LEXICON IV_ASTÕ = 18 astõ:astõ
-
-**LEXICON TV_ASTÕ =  18 astõ:astõ
-
-**LEXICON TV_VÕTTÕ = 19 võttõ:võttõ
-
-**LEXICON IV_VIEʼDDÕ = 24 vieʼddõ:vieʼddõ
-
-**LEXICON TV_VIEʼDDÕ = 24 vieʼddõ:vieʼddõ
-
-**LEXICON IV_MAKSÕ = 25 maksõ:maksõ
-
-**LEXICON TV_MAKSÕ = 25 maksõ:maksõ
-
-**LEXICON TV_TAPPÕ = 26 tappõ:tappõ
-
-**LEXICON IV_MÄNGÕ = 14 mängõ:mǟnga
-
-**LEXICON TV_KILLÕ = 15 killõ:kīla
-
-**LEXICON TV_PALLÕ = 16 pallõ:pǭla
-
-**LEXICON TV_LOULÕ = 17 loulõ:lōla
-
-**LEXICON IV_LAITÕ = 20 laittõ:lāita
-
-**LEXICON TV_LAITÕ = 20 laittõ:lāita
-
-**LEXICON IV_TÄUTÕ = 21 täutõ:tǟta
-
-**LEXICON TV_TÄUTÕ = 21 täutõ:tǟta
-
-
-**LEXICON TV_PȮĻTÕ = 22 pȯļtõ:pūoļta
-
-
-**LEXICON TV_MȮISTÕ = 23 mȯistõ:mūošta
-
-**LEXICON IV_ANDÕ = 27 andõ:ānda
-
-**LEXICON TV_ANDÕ = 27 andõ:ānda
-
-**LEXICON IV_TIEUDÕ = 28 tieudõ:tīeda
-
-**LEXICON TV_TIEUDÕ = 28 tieudõ:tīeda
-
-29-48 follow same pattern
-
-**LEXICON IV_LUʼGGÕ = luʼggõ:luʼggõ 29
-
-**LEXICON TV_LUʼGGÕ = luʼggõ:lugū 29
-
-**LEXICON IV_MUʼDŽÕ = muʼdžõ:mudžū 30
-
-**LEXICON TV_MUʼDŽÕ = muʼdžõ:mudžū 30
-
-**LEXICON IV_VAKȚÕ = vakțõ:vakțū 31
-
-**LEXICON TV_VAKȚÕ =  vakțõ:vakțū 31
-
-**LEXICON IV_KITTÕ = kittõ:kitū 32
-
-**LEXICON TV_KITTÕ = kittõ:kitū 32
-
-**LEXICON V-AUX_RIʼDDÕ = riʼddõ:ridū 33
-
-**LEXICON IV_RIʼDDÕ = riʼddõ:ridū 33
-
-**LEXICON TV_RIʼDDÕ = riʼddõ:ridū 33
-
-**LEXICON IV_KUTSÕ = kutsõ:kutsū 34
-
-**LEXICON TV_KUTSÕ = kutsõ:kutsū 34
-
-**LEXICON V-AUX_LASKÕ = laskõ:laskū 35
-
-**LEXICON IV_LASKÕ = laskõ:laskū 35
-
-**LEXICON TV_LASKÕ = laskõ:laskū 35
-
-**LEXICON IV_AKKÕ = akkõ:akū 36
-Should ss be s and šš be š? 2013-02-19
-
-**LEXICON TV_AKKÕ = akkõ:akū 36
-
-
-**LEXICON V-AUX_AIGÕ = aigõ:āigõ 37
-
-**LEXICON IV_AIGÕ = aigõ:āigõ 37
-
-**LEXICON TV_AIGÕ = aigõ:āigõ 37
-
-**LEXICON TV_KUOŖŖÕ = kuoŗŗõ:kūoŗõ 38
-
-**LEXICON TV_VANNÕ = vannõ:vǭnõ 39
-
-
-**LEXICON IV_PȮĻĻÕ = pȯļļõ:pūoļõ 40
-
-
-**LEXICON IV_PȮIMÕ = pȯimõ:pūoimõ 41
-
-**LEXICON TV_PȮIMÕ = pȯimõ:pūoimõ 41
-
-**LEXICON IV_OUŖÕ = ouŗõ:ōŗõ 42
-
-**LEXICON IV_KEIJÕ = keijõ:kējõ 43
-
-**LEXICON TV_KEIJÕ = keijõ:kējõ 43
-
-
-**LEXICON IV_AŖŠTÕ = aŗštõ:āŗštõ 44
-
-**LEXICON TV_AŖŠTÕ = aŗštõ:āŗštõ 44
-
-**LEXICON TV_PȮRTÕ = pȯrtõ:pūortõ 45
-
-**LEXICON TV_OUTÕ = outõ:ōtõ 46
-
-**LEXICON V-AUX_TUNDÕ = tundõ:tūndõ 47
-
-**LEXICON IV_TUNDÕ = tundõ:tūndõ 47
-
-**LEXICON TV_TUNDÕ = tundõ:tūndõ 47
-
-**LEXICON TV_OUDÕ = oudõ:ōdõ 48
-
-
-**LEXICON IV_KŪLÕ = kūlõ:kūlõ 49
-
-**LEXICON TV_KŪLÕ = kūlõ:kūlõ 49
-
-**LEXICON IV_ARRÕ = arrõ:arrõ 50
-
-**LEXICON TV_ARRÕ = arrõ:arrõ 50
-
-**LEXICON IV_AʼILÕ = aʼilõ:aʼilõ 51
-
-**LEXICON TV_AʼILÕ = aʼilõ:aʼilõ 51
-
-**LEXICON TV_SVAʼRRÕ = svaʼrrõ:svaʼrrõ 52
-
-**LEXICON V-AUX_KĪTÕ = kītõ:kīt 53
-
-**LEXICON IV_KĪTÕ = kītõ:kīt 53
-~701
-
-**LEXICON TV_KĪTÕ = kītõ:kīt 53
-
-
-**LEXICON IV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
-
-**LEXICON TV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
-
-
-**LEXICON V-AUX_KŪLDÕ = kūldõ:kūld 55
-
-**LEXICON IV_KŪLDÕ = kūldõ:kūld 55
-
-**LEXICON TV_KŪLDÕ = kūldõ:kūld 55
-
-**LEXICON TV_KĪSKÕ = kīskõ:kīsk 56
-
-**LEXICON V-AUX_ĪʼEDÕ = īʼedõ:īed 57
-
-**LEXICON IV_ĪʼEDÕ = īʼedõ:īed 57
-
-**LEXICON TV_ĪʼEDÕ = īʼedõ:īed 57
-
-
-**LEXICON IV_UMBLÕ = umblõ: 58
-
-**LEXICON TV_UMBLÕ = umblõ: 58
-
-**LEXICON V-AUX_MÕTLÕ = mõtlõ: 59
-
-**LEXICON IV_MÕTLÕ = mõtlõ: 59
-
-**LEXICON TV_MÕTLÕ = mõtlõ: 59
-
-**LEXICON IV_MǞʼDLÕ = mǟʼdlõ: 60
-
-**LEXICON TV_MǞʼDLÕ = mǟʼdlõ: 60
-
-**LEXICON IV_NAʼGRÕ = naʼgrõ: 60
-
-**LEXICON TV_NAʼGRÕ = naʼgrõ: 60
-
-
-**LEXICON V-AUX_ÄʼB = 62 äʼb:ä
-
-
-**LEXICON TV_SÄ = 63 sä:sä
-
-**LEXICON V-AUX_PIḐĪKS = 64 piḑīks:piḑī
-
-## After transitive, intransitive, auxiliary and such tags have been added
-1
-
-2
-
-3
-**LEXICON V-01_VĪDÕ = This is mutual for 3: 
-vīdõ:vī
-Prt
-Imprt
-
-Jus
-Qvo
-
-participles
-
-
-**LEXICON V-01_NǞʼDÕ = This is mutual for ??: 
-4 nǟʼdõ:nǟʼ
-Prt
-Imprt
-
-Jus
-Qvo
-
-participles
-
-**LEXICON V-01_SĪEDÕ = : 7 sīedõ:sīe
-* Yaml: **siiedw**
-Prt
-Imprt
-
-Jus
-Qvo
-
-participles
-
-8
-sǭdõ:s
-Prt
-Imprt
-
-Jus
-Qvo
-
-participles
-9
-9
-jūodõ:vī
-Prt
-Imprt
-
-Jus
-Qvo
-
-participles
-10
-
-**LEXICON V-01_JEʼLLÕ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
-
-Cond
-Imprt
-Jus
-Qvo
-
-participles
-
-
-**LEXICON V-01_MÄNGÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
-
-
-
-29
-LEXICON	V-01_LUʼGGÕ  luʼggõ:luʼggõ 29
-This is mutual for 29-36: 
-luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
-Prt
-ImprtI
-
-Jus
-Kvo
-
-participles
-
-
-This is mutual for 37-48
-
-Prt
-
-participles
-
-
-
-**LEXICON V-01_KŪLÕ =  This is mutual for 49-50, 52-57
-Prt
-+Act+PrfPrc
-Cond
-
-
-**LEXICON V-01_AʼILÕ =  This is mutual for 51
-Ger, Ger_Ine
-
-* **INF_ZERO ;** aʼilõ
-Inf
-
-* **SUP-STEM_m ;** aʼilõ-
-Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
-Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
-Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
-
-* **: INDPRSSG1-STEM ;** aʼilõ-
-Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
-
-* **:%^VowsRM INDCONNEGSG ;** aʼil-
-Ind+ConNeg+Sg
-
-* **:%^VowsRM%>i INDPRT_z ;** aʼili-
-Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
-
-* **COND ;** aʼilõ-
-Cond...
-Imprt+Sg2, Imprt+ConNeg+Sg2
-
-Imprt+Pl1, Imprt+Pl2, Imprt+ConNeg
-
-Jus+Sg3, Jus+Pl3
-
-Quo+Sg3, Quo+Pl3, +NomAct -mi
-
-* **ACTPRFPRC_n ;** aʼilõ%>n
-+Act+PrfPrc
-
-* **:%^VowsRM PSSPRSPRC ;** aʼil-
-* **:%^VowsRM PSSPRFPRCSG ;** aʼil-
-
-
-
-**LEXICON V-01_UMBLÕ = This is mutual for 58-61: 
-umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
-Prt
-Imprt
-
-Jus
-Qvo
-
-participles
-
-
-
-
-
-
-### Nonfinites
-
-**LEXICON GER_s = 
-
-**LEXICON GER_sõ = 
-
-**LEXICON INF_ZERO = 
-
-**LEXICON INF_dõ = 
-
-**LEXICON INF_da = 
-
-**LEXICON SUP-STEM_m = 
-
-**LEXICON SUP_m = 
-
-**LEXICON SUP_m = 
-
-**LEXICON SUP_mõ = 
-
-**LEXICON ACTPRSPRC = 
-
-**LEXICON ACTPRSPRC = 
-
-**LEXICON ACTPRFPRC_nd = 
-Are the singular and plural homonyms?
-
-**LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
-Are the singular and plural homonyms?
-
-
-**LEXICON PSSPRSPRC = 
-
-**LEXICON PSSPRFPRCSG = 
-2014-08-21
-
-### Finites
-
-
-**LEXICON INDPRS_tõ = Indicative present
-
-**LEXICON INDPRT_i = Indicative preterite in i
-
-**LEXICON INDPRT_z = Indicative preterite in z
-
-**LEXICON INDPRT_ž = Indicative preterite in ž
-
-**LEXICON INDPRTSG3-STEM_tõ = 
-
-
-**LEXICON COND = Conditional present
-
-
-### Indicative present
-
-**LEXICON INDPRSSG1-STEM = 
-* INDPRSSG1 ; 
-* INDPRSSG2 ; 
-* INDPRSSG3 ; these three lexica point to lexica with the actual suffixes.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Conditional
-
-
-
-
-
-
-Imperative
-
-
-
-
-
-
-
-Jussative
-
-
-Quotative
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/verbs.lexc)</small># Adjective inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/determiners.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/determiners.lexc)</small># Quantifier inflection
+This file documents the file on Livonian quantifier morphology.
+
+
+
+LEXICON QNT_APPÕN  : 216
+
+LEXICON QNT_PŪOL  : 216
+
+Stem lexica
+LEXICON NUM_PADĀ  padā:padā 39
+
+LEXICON NUM_KĒRA  kēra:kēra 43
+
+LEXICON NUM_OKŠ  : 68
+
+
+
+
+
+
+LEXICON NUM_NǬʼGÕ  nǭʼgõ:nǭgõ 119
+
+LEXICON NUM_IRM  irm: 125
+
+LEXICON NUM_KIM  : 126 kim:kim
+
+
+LEXICON NUM_FAKT  fakt: 135
+
+LEXICON NUM_ĀIGAST  āigast: 140
+
+
+
+
+
+LEXICON NUM_NAI  nai: 191
+
+
+
+
+LEXICON NUM_ÄʼBȚÕKS  ä'bțõks:äbțõks 208
+
+LEXICON NUM_TŪĻ  : 214
+
+
+LEXICON NUM_ĪKŠ  : 217
+
+LEXICON NUM_KAKŠ  : 218
+
+LEXICON NUM_ŪŽ  : 219
+
+LEXICON NUM_APPÕN  appõn:appõn 235
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/quantifiers.lexc)</small># Conjunctions
+
+This file documents `affixes/conjunctors.lexc`
+
+**LEXICON CONJ_ = These need to be corrected, it points to #.
+
+
+**LEXICON CC_ =  Livonian conjunctors, points to #
+
+
+**LEXICON CS_ =  Livonian subjunctors, points to #
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/conjunctors.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/conjunctors.lexc)</small># Adjective inflection
 This file documents `affixes/adpositions.lexc`
 
 
@@ -4124,822 +4939,7 @@ This file documents `affixes/adpositions.lexc`
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adpositions.lexc)</small># Proper noun inflection
-This file documents `affixes/propernouns.lexc`, the file for inflection of propernouns.
-
-Livonian proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-**LEXICON PROP_ = this lexicon goes to K only
-
-
-Stem lexica
-LEXICON PROP_TOP_PŪ  contains pū: 12
-
-LEXICON PROP_PŪ  contains pū: 12
-
-LEXICON PROP_PŪ-SG  contains pū: 12
-
-
-
-
-
-
-LEXICON PROP_KALĀ   contains  kalā:kalā 18
-
-LEXICON PROP_KALĀ-SG   contains  kalā:kalā 18
-
-LEXICON PROP_TUBĀ  tubā:tubā 19
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LEXICON PROP_VĒNA  vēna:vēna 37
-
-
-LEXICON PROP_PADĀ  padā:padā 39
-
-
-
-
-
-LEXICON PROP_JǬRA  jǭra:jǭra 44
-
-LEXICON PROP_JǬRA-PL  jǭra:jǭra 44
-
-
-LEXICON PROP_ĀITA  āita:āita 46
-
-LEXICON PROP_ŪŠKA  ūška:ūška 47
-
-
-LEXICON PROP_DADŽĀ  dadžā:dadžā 49
-
-
-
-
-
-
-LEXICON PROP_KRǬIPA  krǭipa:krǭipa 55
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LEXICON PROP_DUŅTŠ  : 70
-
-
-LEXICON PROP_NIʼM  niʼm:niʼm 76
-
-LEXICON PROP_NIʼM-PL  niʼm:niʼm 76
-
-
-LEXICON PROP_TUP  tup:tup 79
-
-
-
-
-
-
-LEXICON PROP_NǬʼGÕ  nǭʼgõ:nǭgõ 119
-
-
-
-LEXICON PROP_KǬJ  : 123
-
-
-LEXICON PROP_KIM  : 126
-
-LEXICON PROP_KIM-SG  : 126
-
-
-LEXICON PROP_VAʼIT  vaʼit:vait 128
-
-LEXICON PROP_AMĀT  : 129
-
-LEXICON PROP_KULTŪR  : 130
-
-LEXICON PROP_VIĻȚ  : 132
-
-
-LEXICON PROP_FAKT  fakt:fakt 135
-
-LEXICON PROP_FAKT-SG  fakt:fakt 135
-
-
-LEXICON PROP_ĀIGAST  : 140
-
-LEXICON PROP_ANALĪZ  : 141
-
-
-LEXICON PROP_NĪʼEM-SG  nīʼem:nīʼem 142
-
-LEXICON PROP_JAĻKŠ  : 143
-
-
-LEXICON PROP_RŪʼTŠ  rūʼtš:rūʼtš 145
-
-
-
-
-
-LEXICON PROP_SIDĀM  : 157
-
-LEXICON PROP_TŪOITÕG  : 158
-
-LEXICON PROP_TŪOITÕG-SG  : 158
-
-LEXICON PROP_KǬRAND  : 159
-
-LEXICON PROP_KǬRAND-SG  : 159
-
-LEXICON PROP_ȬʼDÕG  ȭʼdõg:ȭʼdõg 160
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LEXICON PROP_ĀNDÕKS  : 206
-
-
-
-
-LEXICON PROP_PŪOL  : 216
-
-
-
-
-
-
-LEXICON PROP_SŪR  : 222
-
-
-LEXICON PROP_BIRKOV  : 224
-
-
-LEXICON PROP_SALĀJ-SG  : 225
-
-
-
-
-
-
-
-
-LEXICON PROP_TIDĀR  tidār:tidār 233
-
-
-LEXICON PROP_TIDĀR-PL  tidār:tidār 233
-
-LEXICON PROP_PĒGAL  pēgal:pēgal 234
-
-LEXICON PROP_APPÕN  appõn:appõn 235
-
-
-LEXICON PROP_KĪNDÕR  kīndõr:kīndõr 237
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/propernouns.lexc)</small>
-# Livonian morphophonology
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-liv/blob/main/src/fst/phonology.twolc) 
-
-We first show alphabet and sets, thereafter rules.
-
-
-## Alphabet
-
-* a b c d e f g h i j k l m n o p q r s t u v w x y z   
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
-* ḑ ļ ņ ŗ š ț ž									      
-* Ḑ Ļ Ņ Ŗ Š Ț Ž									      
-* õ ä ö ȯ											      
-* Õ Ä Ö Ȯ											      
-* ā ē ī ō ū ǟ ǭ ȭ ȱ								      
-* Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
-* ʼ Stød
-
-
-### Literal quotes and angles
-They must be escaped (cf morpheme boundaries further down):
-
-»7
-«7
- %[%>%]  - Literal >
- %[%<%]  - Literal <
-
-### Archiphonemes for consonant lengthening
-
-* %{XC%}:p %{XC%}:t %{XC%}:k		      
-* %{XC%}:b %{XC%}:d %{XC%}:g		      
-* %{XC%}:l %{XC%}:ļ				      
-* %{XC%}:m %{XC%}:n %{XC%}:ņ		      
-* %{XC%}:r %{XC%}:ŗ				      
-* %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž   
-
-###  Triggers
-
-*  %^PenVV2V:0  penultimate vowel shortening
-*  %^Tense:0  = Tense stem will have stød if proper stem type
-*  %^D2T:0    d:t veʼž:veʼd:vietā
-*  %^PreI:0   i:0 veʼž:veʼd:vietā
-*  %^ĪE2Ē:0   kēļ kīel
-* K1:k        this k is not effected by gradation
-* %^NoGrad:0   This will be placed after a stem to break Gradation
-* %^WGStem:0  this weakens the stem ompel to ommel
-* %^TS:0      The ti => si
-* %^D2Ž:0     The *ti => *si
-* %^D2ZERO:0  The d => 0
-
-###  Vowel raising
-* %^LowerVows:0  lower vowel
-* %^RVows:0      raise vowel
-* %^VowsSh1:0    vowel shortening in first syllable
-* %^VowsShU1:0   
-* %^VowsShI1:0   
-* %^DiphthSh1:0  
-* %^VowsLI1:0    vowel lengthening that is followed by "i" when short
-* %^VowsLU1:0    vowel lengthening that is followed by "u" when short
-* %^VowsL1:0     vowel lengthening 
-* %^DiphthL1:0   
-* %^LongV2Õin2:0    long vowel to õ in second syllable
-* %^Vow2Iin2:0    vowel to i or ī in second syllable
-
-### Vowel metathesis
-* %^VowsMetath:0   
-
-### VOWEL SHORTENING
-*  %^VowShIn1:0	 This causes vowel shortening in 1. syll
-*                  accompanied by coda consonant lengthening
-*  %^A2ÕIn2:0        This causes 2. syll a => õ
-* %^StodRM:0   
-* %^ConsSh:0   
-* %^ConsSh:0   lengthen consonant
-* %^1Sh2L:0   
-* %^Stress1to2:0   
-* %^Stress2to1:0   
-* %^VowsMRM:0 Vow in middle ētam:eitmõd
-* %^VowsRM:0   
-* %^ConsRM:0   
-* %^ConsRM:0   laps:läpš
-* %^VowsL1aToǭ:0   
-* %^VowsL1aToǭ:0   kīndõr:kīndiriž
-* %^VowsL1aToǭ:0   Hyphen in  constructions 
-* %^VowsL1aToǭ:0   morpheme boundary
-* %^VowsL1aToǭ:0   Word boundary for both lexicalised and dynamic compounds
-
-
-
-## Sets
-
-
-* VowBack = a o u A O U ; 
-* VowFront = ä ö y ü Ä Ö Y Ü ; 
-* VowNeutral = e i E I ; 
-* VowNonHigh = a o ä ö e A O Ä Ö E ; 
-* VowLong = ā ō ū ǟ ǭ ȭ ȱ ȫ ȳ ǖ ē ī Ā Ō Ū Ǟ Ǭ Ȭ Ȱ Ȫ Ȳ Ǖ Ē Ī ; 
-* VowShort = a o u ä ǫ õ ȯ ö y ü e i A O U Ä Ǫ Õ Ȯ Ö Y Ü E I ; 
-* Vow = VowLong VowShort ; 
-* CnsWithStod = b d g j l ļ m n ņ r ŗ v z ž ; 
-* Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
-  B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
-* Letters = Vow Cns ; 
-* Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V 
-  %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
-
-
-
-# Rule section
-
-## Vowel rules
-
-### Shortening in first syllable
-
-
-
-**Rule: ǟ:ä in first syllable**
-
-*kǟnga%^VowShIn1%^A2ÕIn2 examples:*
-
-*kängõ00 examples:*
-
-**Rule: ā:a in first syllable**
-
-*āļdža%^VowShIn1%^A2ÕIn2 examples:*
-
-*aļdžõ00 examples:*
-
-*āita%^PenVV2V%^VowsRM%>õ examples:*
-
-*ait000%>õ examples:*
-
-
-**Rule: ȱ:ȯ**
-
-*vȱntsa%^VowShIn1%^VowsRM%>õ examples:*
-
-*vȯnts0000õ examples:*
-
-**Rule: ā:ī in second syllable plural**
-
-*rikkā%^ConsSh%^Vow2Iin2>di examples:*
-
-*rik0ī000di examples:*
-
-**Rule: ū:ī in second syllable plural**
-
-*ruzū%^Vow2Iin2>di examples:*
-
-*ruzī000di examples:*
-
-**Rule: a:i in second syllable plural**
-
-*āita%^Vow2Iin2>di examples:*
-
-*āiti00di examples:*
-
-**Rule: ǭ:a in first syllable**
-
-**Rule: ē:e in first syllable**
-
-**Rule: ū:u in first syllable**
-
-**Rule: ū:ȯ in first syllable**
-
-*pūol0a%^Stress1to2%^ConsL examples:*
-
-*pȯ0llõ00 examples:*
-
-*pūoga%^VowsSh1%^PalatalizeLeft%^VowsRM%>õ examples:*
-
-*pȯig00000õ examples:*
-
-
-**Rule: ī:i in first syllable**
-
-*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
-
-*tierrõ00 examples:*
-
-**Rule: ȭ:õ in first syllable**
-
-*mȭuka%^VowsSh1%^VowsRM%>õ examples:*
-
-*mõuk0000õ examples:*
-
-**Rule: ō:o in first syllable**
-
-lengthen vowels
-
-**Rule: e:ē in first syllable**
-
-*leiba%^VowsLI1%>st examples:*
-
-*lē0ba00st examples:*
-
-*tei%^VowsLI1%>ḑi examples:*
-
-*tē000ḑi examples:*
-
-**Rule: u:ū in first syllable**
-
-*ul%^VowsLI1>õd examples:*
-
-*ūl00õd examples:*
-
-
-**Rule: õ:ȭ in first syllable**
-
-**Rule: ȯ:ū in first syllable**
-
-**Rule: ä:ǟ in first syllable**
-
-**Rule: 0:i after shortened vowel or diphthong**
-
-*v0eʼd%^PreI examples:*
-
-*vieʼd0 examples:*
-
-**Rule: 0:u after shortened vowel or diphthong**
-
-**Rule: 0:o after shortened vowel or diphthong**
-
-### VOWEL LENGTHENING
-
-**Rule: a:ǭ in first syllable**
-
-*tam%^VowsL1aToǭõd examples:*
-
-*tǭm0õd examples:*
-
-**Rule: a:ā in first syllable**
-
-*kand%^VowsLI1õd examples:*
-
-*kāndõd examples:*
-
-**Rule: i:ī in first syllable**
-
-*niŗț%^VowsLI1%>õ examples:*
-
-*nīŗț00õ examples:*
-
-**Rule: o:ō in first syllable**
-
-*ouki%^VowsLI1z examples:*
-
-*ō0ki0z examples:*
-
-**Rule: o:i**
-
-*pūog%^VowsSh1%^PalatalizeLeft%>õ examples:*
-
-*pȯig0000õ examples:*
-
-LOWER VOWELS
-**Rule: ī:ē in tīe 15**
-
-*tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:*
-
-*tē000000šti examples:*
-
-*kīel%^ĪE2Ē%^PalatalizeLeft examples:*
-
-*kē0ļ00 examples:*
-
-Destressing in second syllable
-**Rule: ā:õ **
-
-*käp0ā%^ConsL%^LongV2Õin2 examples:*
-
-*käppõ00 examples:*
-* *rik0āz%^Stress2to1%^ConsRM*
-* *rikkõ000*
-
-**Rule: a:õ **
-
-*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
-
-*tierrõ00 examples:*
-
-**Rule: ū:õ **
-
-**Rule: õ:i**
-
-*ǭʼrõn%^PalatalizeLeft examples:*
-
-*ǭʼriņ0 examples:*
-
-*nȭŗkõz%^PalatalizeLeft%>ist examples:*
-
-*nȭŗkiz00ist examples:*
-
-
-VOWEL LOSS
-
-**Rule: ā:0**
-
-*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
-
-*äʼm000000ži examples:*
-
-*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
-
-*ä0m00000ḑi examples:*
-
-*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
-
-*daʼdz0000õ examples:*
-
-
-*maʼigāz%^StodRM%^VowsRM%^ConsRM>īst examples:*
-
-*ma0ig000000īst examples:*
-
-**Rule: ū:0**
-
-**Rule: ī:0**
-
-*sīe%>i examples:*
-
-*s0e0i examples:*
-
-**Rule: a:0**
-
-*jǭr0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
-
-*jarr0000õ examples:*
-
-*pūol0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
-
-*pȯ0ll0000õ examples:*
-
-*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
-
-*keņg0000i examples:*
-
-**Rule: e:0**
-* *tīʼe%^LowerVows%^StodRM%^VowsRM%>šti*
-* *tē000000šti*
-kēļ+N+Sg+Nom
-* *kīel%^ĪE2Ē%^PalatalizeLeft*
-* *kē0l00*
-
-
-**Rule: õ:0**
-
-*kittõ%^ConsSh%^VowsRM%>dõd examples:*
-
-*kit00000tõd examples:*
-
-**Rule: i:0 in first syllable**
-
-*leiba%^VowsLI1%>st examples:*
-
-*lē0ba00st examples:*
-
-*tei%^VowsLI1%>ḑi examples:*
-
-*tē000ḑi examples:*
-
-*lǭija%^ConsSh examples:*
-
-*lǭ0ja0 examples:*
-
-*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
-
-*l0ešt00000i examples:*
-
-*ūiska%^ConsSh examples:*
-
-*ū0ška0 examples:*
-
-**Rule: u:0 in second position of first-syllable diphthong**
-
-*ouki%^VowsLI1z examples:*
-
-*ō0ki0z examples:*
-
-*pǟuva%^ConsSh examples:*
-
-*pǟ0va0 examples:*
-
-**Rule: o:0 in second position of first-syllable diphthong**
-```
-
-*pūol0a%^Stress1to2%^ConsL examples:*
-
-*pȯ0llõ00 examples:*
-```
-
-### Zero to vowel
-
-
-**Rule: 0:õ in vowel metathesis**
-
-
-## Consonant rules
-
-### Consonant loss 
-**Rule: shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb**
-
-*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
-
-*äʼm000000ži examples:*
-
-**Rule: z:0**
-* *rik0āz%^Stress2to1%^ConsRM*
-
-### Consonant lengthening
-
-Lengthening consonantism between first and second vowel center
-simultaneous to reducing vowel of second syllable
-
-**Rule: lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ**
-* *je0l0ā%^Stress2to1*
-* *ka0l0ā%^Stress2to1*
-* *rik0āz%^Stress2to1%^ConsRM*
-
-*pūol0a%^Stress1to2%^ConsL examples:*
-
-*pȯ0llõ00 examples:*
-
-**Rule: 0:p**
-
-*käp0ā%^ConsL%^LongV2Õin2 examples:*
-
-*käppõ00 examples:*
-
-**Rule: %{XC%}:Cx**
-
-**%{XC%}:p** 2014-02-27
-
-*kep%{XC%}>õ examples:*
-
-*kepp0õ examples:*
-
-**%{XC%}:s** 2020-10-21
-tas+N+Sg+Ill
-* *tas{XC}>õ*
-* *tass>õ*
-
-**%{XC%}:ž** 2014-02-27
-
-*veʼd%^D2Ž%{XC%}>i examples:*
-
-*veʼž0ž0i examples:*
-
-
-**%{XC%}:k** 2014-02-27
-
-*rok%{XC%}>õ examples:*
-
-*rokk0õ examples:*
-
-**Rule: Stod removal left**
-
-*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
-
-*daʼdz0000õ examples:*
-aʼb#sõʼnā+N+Sg+Nom: 
-* *aʼb#sõʼn%^StodRMā*
-* *aʼb#sõ0n0ā*
-
-
-*ka0l0ā%^Stress2to1 examples:*
-
-*kaʼllõ0 examples:*
-
-
-**Rule: z:ž**
-
-
-*alīz%^PalatalizeLeft%>i examples:*
-
-*alīž00i examples:*
-
-*izā%^PalatalizeLeft%^VowsRM%>ḑi examples:*
-
-*iž0000ḑi examples:*
-
-**Rule: d:ḑ**
-lēʼḑ:līʼed 147
-
-**Rule: l:ļ**
-This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
-kēļ:kēl 215
-
-*äʼddõl%^PalatalizeLeft%>i examples:*
-
-*äʼddiļ00i examples:*
-
-*tuʼl%^StodRM%^PalatalizeLeft%>īž examples:*
-
-*tu0ļ000īž examples:*
-
-**Rule: n:ņ palatalization**
-
-*Vē0na%^PalatalizeLeft%^VowsRMõ examples:*
-
-*Vein000õ examples:*
-
-*ǭʼrõn%^PalatalizeLeft examples:*
-
-*ǭʼriņ0 examples:*
-
-*vȱntsa%^VowShIn1%^PalatalizeLeft%^VowsRM%>ti examples:*
-
-*vȯņtš00000ti examples:*
-sēņ:sēn 220
-
-*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
-
-*keņg0000i examples:*
-
-
-**Rule: r:ŗ**
-jūŗ:jūr 221
-
-*ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
-
-*eŗg0000i examples:*
-
-
-
-**Rule: d:t**
-
-*kittõ%^ConsSh%^VowsRM%>dõd examples:*
-
-*kit00000tõd examples:*
-nominative plural 
-
-*v0eʼd%^PreI%^StodRM%^D2T examples:*
-
-*vie0t examples:*
-
-**Rule: d:ț**
-
-**Rule: d:ž**
-
-
-
-
-### Rules for consonant loss
-
-**Rule: d:0**
-     Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
-
-**T loss before subsequent morpheme with underlying initial d**  
-
-*kittõ%^ConsSh%^VowsRM%>dõd examples:*
-
-*kit00000tõd examples:*
-
-**Rule: k:0**
-
-*rikkā%^ConsSh%^Vow2Iin2di examples:*
-
-*rik0ī00di examples:*
-
-**Rule: ț:0**
-
-**Rule: s:š palatalization**
-
-*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
-
-*l0ešt00000i examples:*
-
-*pȯ0is%^VowsLI1õd examples:*
-
-*pūo0š0õd examples:*
-
-**Rule: ǟ:ē palatalization**
-
-**Rule: ǟ:e short and palatalization**
-
-*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
-
-*keņg0000i examples:*
-
-
-**Rule: a:ä palatalization**
-
-
-*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
-
-*äʼm00000ḑi examples:*
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/phonology.twolc)</small>This is where new words are added as lexc entries before they are 
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adpositions.lexc)</small>This is where new words are added as lexc entries before they are 
 added to the xml source files.
 PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
 
@@ -4948,14 +4948,15 @@ PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/propernouns_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/propernouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
 added to the xml source files.
-V_ "(eng) ear/(est) /(fin) /(lav)" ;
+A_ "(eng) /(est) /(fin) /(lav)" ;
 
 
-Add new verbs below
+ADD NEW ADJECTIVES BELOW
+
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
 added to the xml source files.
 N_ "(eng) ear/(est) /(fin) /(lav)" ;
 
@@ -4969,7 +4970,29 @@ V_ "(eng) ear/(est) /(fin) /(lav)" ;
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/questionablemisc_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/questionablemisc_newwords.lexc)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+<small>This (part of) documentation was generated from [../src/fst/stems/questionablemisc_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/questionablemisc_newwords.lexc)</small>Acronyms
+Livonian acronyms ...
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/acronyms.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+V_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+
+Add new verbs below
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
 created from lexical data by regular inflection. Usually there should be next
 to none exceptions, it's always better to have a paradigm that covers only
@@ -5004,36 +5027,13 @@ The verb vȱlda has irregular forms:
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/exceptions.lexc)</small>This is where new words are added as lexc entries before they are 
 added to the xml source files.
-A_ "(eng) /(est) /(fin) /(lav)" ;
-
-
-ADD NEW ADJECTIVES BELOW
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
 ADV_ "(eng) /(est) /(fin) /(lav)" ;
 
 
 ADD NEW ADVERBS BELOW
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>Acronyms
-Livonian acronyms ...
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/acronyms.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>
 
 
 We describe here how abbreviations are in Liv are read out, e.g.
