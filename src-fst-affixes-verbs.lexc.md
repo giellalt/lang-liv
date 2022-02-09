@@ -1,7 +1,6 @@
 # Livonian Verb inflection
 This file documents the verb inflection of Livonian.
 
-
 ## Verb stem classes
 **LEXICON V_ = CONJUGATION TYPE MISSING
 
@@ -19,14 +18,12 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_VĪDÕ = 3 vīdõ:vī
 
-
 **LEXICON TV_NǞʼDÕ = 4 nǟʼdõ:nǟʼ
 * Yaml: **naeaeqdw**
 
 **LEXICON IV_KǞʼDÕ = 5 kǟʼdõ:kǟʼ
 
 **LEXICON TV_TĪʼEDÕ = 6 tīʼedõ:tīʼe
-
 
 **LEXICON V-AUX_SĪEDÕ = 7 sīedõ:sīe
 
@@ -40,11 +37,9 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON V-AUX_SǬDÕ = 8 sǭdõ:s
 
-
 **LEXICON TV_JŪODÕ = 9 jūodõ:jūo
 
 **LEXICON V-AUX_VȰLDA =  10 vȱlda:ZERO
-
 
 **LEXICON IV_VȰLDA = 10 vȱlda: goes to **K**
 
@@ -92,9 +87,7 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_TÄUTÕ = 21 täutõ:tǟta
 
-
 **LEXICON TV_PȮĻTÕ = 22 pȯļtõ:pūoļta
-
 
 **LEXICON TV_MȮISTÕ = 23 mȯistõ:mūošta
 
@@ -145,7 +138,6 @@ Should ss be s and šš be š? 2013-02-19
 
 **LEXICON TV_AKKÕ = akkõ:akū 36
 
-
 **LEXICON V-AUX_AIGÕ = aigõ:āigõ 37
 
 **LEXICON IV_AIGÕ = aigõ:āigõ 37
@@ -156,9 +148,7 @@ Should ss be s and šš be š? 2013-02-19
 
 **LEXICON TV_VANNÕ = vannõ:vǭnõ 39
 
-
 **LEXICON IV_PȮĻĻÕ = pȯļļõ:pūoļõ 40
-
 
 **LEXICON IV_PȮIMÕ = pȯimõ:pūoimõ 41
 
@@ -169,7 +159,6 @@ Should ss be s and šš be š? 2013-02-19
 **LEXICON IV_KEIJÕ = keijõ:kējõ 43
 
 **LEXICON TV_KEIJÕ = keijõ:kējõ 43
-
 
 **LEXICON IV_AŖŠTÕ = aŗštõ:āŗštõ 44
 
@@ -186,7 +175,6 @@ Should ss be s and šš be š? 2013-02-19
 **LEXICON TV_TUNDÕ = tundõ:tūndõ 47
 
 **LEXICON TV_OUDÕ = oudõ:ōdõ 48
-
 
 **LEXICON IV_KŪLÕ = kūlõ:kūlõ 49
 
@@ -209,11 +197,9 @@ Should ss be s and šš be š? 2013-02-19
 
 **LEXICON TV_KĪTÕ = kītõ:kīt 53
 
-
 **LEXICON IV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
 
 **LEXICON TV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
-
 
 **LEXICON V-AUX_KŪLDÕ = kūldõ:kūld 55
 
@@ -228,7 +214,6 @@ Should ss be s and šš be š? 2013-02-19
 **LEXICON IV_ĪʼEDÕ = īʼedõ:īed 57
 
 **LEXICON TV_ĪʼEDÕ = īʼedõ:īed 57
-
 
 **LEXICON IV_UMBLÕ = umblõ: 58
 
@@ -248,9 +233,7 @@ Should ss be s and šš be š? 2013-02-19
 
 **LEXICON TV_NAʼGRÕ = naʼgrõ: 60
 
-
 **LEXICON V-AUX_ÄʼB = 62 äʼb:ä
-
 
 **LEXICON TV_SÄ = 63 sä:sä
 
@@ -271,7 +254,6 @@ Jus
 Qvo
 
 participles
-
 
 **LEXICON V-01_NǞʼDÕ = This is mutual for ??: 
 4 nǟʼdõ:nǟʼ
@@ -323,10 +305,7 @@ Qvo
 
 participles
 
-
 **LEXICON V-01_MÄNGÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
-
-
 
 29
 LEXICON	V-01_LUʼGGÕ  luʼggõ:luʼggõ 29
@@ -340,20 +319,16 @@ Kvo
 
 participles
 
-
 This is mutual for 37-48
 
 Prt
 
 participles
 
-
-
 **LEXICON V-01_KŪLÕ =  This is mutual for 49-50, 52-57
 Prt
 +Act+PrfPrc
 Cond
-
 
 **LEXICON V-01_AʼILÕ =  This is mutual for 51
 Ger, Ger_Ine
@@ -391,8 +366,6 @@ Quo+Sg3, Quo+Pl3, +NomAct -mi
 * **:%^VowsRM PSSPRSPRC ;** aʼil-
 * **:%^VowsRM PSSPRFPRCSG ;** aʼil-
 
-
-
 **LEXICON V-01_UMBLÕ = This is mutual for 58-61: 
 umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
 Prt
@@ -402,11 +375,6 @@ Jus
 Qvo
 
 participles
-
-
-
-
-
 
 ### Nonfinites
 
@@ -438,14 +406,12 @@ Are the singular and plural homonyms?
 **LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
 Are the singular and plural homonyms?
 
-
 **LEXICON PSSPRSPRC = 
 
 **LEXICON PSSPRFPRCSG = 
 2014-08-21
 
 ### Finites
-
 
 **LEXICON INDPRS_tõ = Indicative present
 
@@ -457,9 +423,7 @@ Are the singular and plural homonyms?
 
 **LEXICON INDPRTSG3-STEM_tõ = 
 
-
 **LEXICON COND = Conditional present
-
 
 ### Indicative present
 
@@ -468,63 +432,17 @@ Are the singular and plural homonyms?
 * INDPRSSG2 ; 
 * INDPRSSG3 ; these three lexica point to lexica with the actual suffixes.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Conditional
-
-
-
-
-
 
 Imperative
 
-
-
-
-
-
-
 Jussative
-
 
 Quotative
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+

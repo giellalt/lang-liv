@@ -5,7 +5,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-l
 
 We first show alphabet and sets, thereafter rules.
 
-
 ## Alphabet
 
 * a b c d e f g h i j k l m n o p q r s t u v w x y z   
@@ -17,7 +16,6 @@ We first show alphabet and sets, thereafter rules.
 * ā ē ī ō ū ǟ ǭ ȭ ȱ								      
 * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
 * ʼ Stød
-
 
 ### Literal quotes and angles
 They must be escaped (cf morpheme boundaries further down):
@@ -87,10 +85,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %^VowsL1aToǭ:0   morpheme boundary
 * %^VowsL1aToǭ:0   Word boundary for both lexicalised and dynamic compounds
 
-
-
 ## Sets
-
 
 * VowBack = a o u A O U ; 
 * VowFront = ä ö y ü Ä Ö Y Ü ; 
@@ -106,15 +101,11 @@ They must be escaped (cf morpheme boundaries further down):
 * Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V 
   %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
 
-
-
 # Rule section
 
 ## Vowel rules
 
 ### Shortening in first syllable
-
-
 
 **Rule: ǟ:ä in first syllable**
 
@@ -131,7 +122,6 @@ They must be escaped (cf morpheme boundaries further down):
 *āita%^PenVV2V%^VowsRM%>õ examples:*
 
 *ait000%>õ examples:*
-
 
 **Rule: ȱ:ȯ**
 
@@ -173,7 +163,6 @@ They must be escaped (cf morpheme boundaries further down):
 
 *pȯig00000õ examples:*
 
-
 **Rule: ī:i in first syllable**
 
 *tīer0a%^VowShIn1%^A2ÕIn2 examples:*
@@ -205,7 +194,6 @@ lengthen vowels
 *ul%^VowsLI1>õd examples:*
 
 *ūl00õd examples:*
-
 
 **Rule: õ:ȭ in first syllable**
 
@@ -293,7 +281,6 @@ Destressing in second syllable
 
 *nȭŗkiz00ist examples:*
 
-
 VOWEL LOSS
 
 **Rule: ā:0**
@@ -309,7 +296,6 @@ VOWEL LOSS
 *daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
 
 *daʼdz0000õ examples:*
-
 
 *maʼigāz%^StodRM%^VowsRM%^ConsRM>īst examples:*
 
@@ -343,7 +329,6 @@ VOWEL LOSS
 kēļ+N+Sg+Nom
 * *kīel%^ĪE2Ē%^PalatalizeLeft*
 * *kē0l00*
-
 
 **Rule: õ:0**
 
@@ -393,9 +378,7 @@ kēļ+N+Sg+Nom
 
 ### Zero to vowel
 
-
 **Rule: 0:õ in vowel metathesis**
-
 
 ## Consonant rules
 
@@ -448,7 +431,6 @@ tas+N+Sg+Ill
 
 *veʼž0ž0i examples:*
 
-
 **%{XC%}:k** 2014-02-27
 
 *rok%{XC%}>õ examples:*
@@ -464,14 +446,11 @@ aʼb#sõʼnā+N+Sg+Nom:
 * *aʼb#sõʼn%^StodRMā*
 * *aʼb#sõ0n0ā*
 
-
 *ka0l0ā%^Stress2to1 examples:*
 
 *kaʼllõ0 examples:*
 
-
 **Rule: z:ž**
-
 
 *alīz%^PalatalizeLeft%>i examples:*
 
@@ -515,15 +494,12 @@ sēņ:sēn 220
 
 *keņg0000i examples:*
 
-
 **Rule: r:ŗ**
 jūŗ:jūr 221
 
 *ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
 
 *eŗg0000i examples:*
-
-
 
 **Rule: d:t**
 
@@ -539,9 +515,6 @@ nominative plural
 **Rule: d:ț**
 
 **Rule: d:ž**
-
-
-
 
 ### Rules for consonant loss
 
@@ -580,13 +553,15 @@ nominative plural
 
 *keņg0000i examples:*
 
-
 **Rule: a:ä palatalization**
-
 
 *aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
 
 *äʼm00000ḑi examples:*
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-liv/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

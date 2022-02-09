@@ -1,225 +1,24 @@
+# Liv description 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+All documents in one file
 
 
 
 * Sets for POS sub-categories
 
-
-
-
-
 * Sets for Semantic tags
-
-
-
-
 
 * Sets for Morphosyntactic properties
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * Sets for verbs
-
 
 - V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
-
-
 * The set COPULAS is for predicative constructions
 
-
-
-
-
-
-
 * NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
 
 * The PRE-NP-HEAD family of sets
 
@@ -227,90 +26,30 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
 The set **NOT-NPMOD** is used to find barriers between NPs.
 Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
 meaning: Scan to the first noun, ignoring anything that can be
 part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
-
-
-
-
-
 * Miscellaneous sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * Border sets and their complements
 
-
-
-
-
-
-
-
-
-
-
-
-
 * Syntactic sets
-
-
-
 
 These were the set types.
 
-
-
 ## HABITIVE MAPPING
 
-
 * **hab1** 
-
 
 * **hab2** 
 
 * **hab3** (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
 
-
-
 * **habNomLeft** 
 
-
 * **hab4** 	
-
-
 
 * **hab6** 
 
@@ -319,90 +58,11 @@ These were the set types.
 * **hab8** This is not HAB
 * **hab5**  This is not HAB
 
-
-
 * **habDain** (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
-
-
-
 
 * **habGen** (<hab> @<ADVL) hab for Gen; if Gen is located in the end of the sentence and Nom is sentence initial
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **spred<obj** (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
-
 
 * **Hab<spred** (@<SPRED) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
 
@@ -414,14 +74,11 @@ These were the set types.
 
 * **<spred** (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
 
-
 * **<spredQst1** (<ext> @<SUBJ) for Nom in a typically question sentence; if A) Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. B) same as a, only the Qst-pcle is attached to copulas. C) Qst to the left, with copulas to its left, but not if two Nom:s are found somewhere to the right. D) copulas to the left, and BOS to the left. E) Loc or Ill to the left, and Loc or Hab to the left of this, Qst and copulas to the left. F) Num @>N to the left, Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. NOTE) for all these rules; human, Loc or Sem/Plc not allowed to the right.
 
 * **<spredQst2** (@<SPRED) for Nom; in a typically question sentence; differs from <spredQst1 by not beeing as restricted to the right. Though you are not allowed to be Pers or human.
 
 * **Nom<spredQst** (@<SPRED) for Nom; in a typically question sentence. Differs from <spredQst2 by letting Nom be found between SPRED and copulas
-
-
 
 * **<spred** (@<SPRED) for A Nom or N Nom if; the subject Nom is on the same side of copulas as you: on the right side of copulas
 
@@ -430,7 +87,6 @@ These were the set types.
 * **leftCop<spred** (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left. 
 
 * **<spredLocEXPERIMENT** (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
-
 
 * **NumTime** (@<SPRED) for A Nom
 
@@ -452,22 +108,13 @@ These were the set types.
 
 * **r492>** (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
 
-
-
 * **AdjSpredSg>** (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
 
 * **SpredSg>Hab** (@SPRED>) for Nom; if you are sentence initial, copulas is located to the right, and there is a habitive to the right of copulas
 
-
-
 * **Spred>SubjInf** (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
 
 * **spredCoord** (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
-
-
-
-
-
 
 * **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left) 
 
@@ -476,143 +123,64 @@ These were the set types.
 
 * **subj>Pl** (@SUBJ>) for plural nominatives
 
-
 * **subj>Sgnr2** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
 
 * **<subjSg** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **f<advl** (@-F<ADVL) for infinite adverbials
 
 * **f<advl** (@-F<ADVL) for infinite adverbials
-
-
 
 * **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-booundaries. Mainverb to the right.
-
-
-
 
 * **-fobj>** (@-FOBJ>) for Acc 
 
 * **-fobj>** (@-FOBJ>) for Acc
 
-
-
-
 * **advl>mainV** (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
 
-
 * **<advl** (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
-
-
-
 
 * **<advlPoPr** (@<ADVL) if mainverb to the left.
 * **advlPoPr>** (@<ADVL) if mainverb to the right.
 
-
-
 * **advlEss>** (@<ADVL) for weather and time Ess, if FMAINV to the left.
-
-
-
-
-
 
 * **advl>inbetween** (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
 
 * **comma<advlEOS** (@<ADVL) if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
 
-
-
 * **advlBOS>** (@ADVL>) if; you are N Ill and found sentnece initially. First one to your right is a clause.
-
 
 * **<advlPoEOS** (@<ADVL) for Po; if you are found at the very end of a sentence. A mainverb is needed to the right though.
 
-
-
 * **cleanupILL<advl** (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
-
-
-
-
-
-
-
-
-
-
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-
 ### sma object
-
-
-
-
-
-
-
-
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
-
-
-
-
 
 ## SUBJ MAPPING - leftovers
 
 ## OBJ MAPPING - leftovers
 
-
 ## HNOUN MAPPING
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-liv/blob/main/../src/cg3/functions.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-liv/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+
 # Livonian morphophonology
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-liv/blob/main/src/fst/phonology.twolc) 
 
 We first show alphabet and sets, thereafter rules.
-
 
 ## Alphabet
 
@@ -625,7 +193,6 @@ We first show alphabet and sets, thereafter rules.
 * ā ē ī ō ū ǟ ǭ ȭ ȱ								      
 * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
 * ʼ Stød
-
 
 ### Literal quotes and angles
 They must be escaped (cf morpheme boundaries further down):
@@ -695,10 +262,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %^VowsL1aToǭ:0   morpheme boundary
 * %^VowsL1aToǭ:0   Word boundary for both lexicalised and dynamic compounds
 
-
-
 ## Sets
-
 
 * VowBack = a o u A O U ; 
 * VowFront = ä ö y ü Ä Ö Y Ü ; 
@@ -714,15 +278,11 @@ They must be escaped (cf morpheme boundaries further down):
 * Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V 
   %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
 
-
-
 # Rule section
 
 ## Vowel rules
 
 ### Shortening in first syllable
-
-
 
 **Rule: ǟ:ä in first syllable**
 
@@ -739,7 +299,6 @@ They must be escaped (cf morpheme boundaries further down):
 *āita%^PenVV2V%^VowsRM%>õ examples:*
 
 *ait000%>õ examples:*
-
 
 **Rule: ȱ:ȯ**
 
@@ -781,7 +340,6 @@ They must be escaped (cf morpheme boundaries further down):
 
 *pȯig00000õ examples:*
 
-
 **Rule: ī:i in first syllable**
 
 *tīer0a%^VowShIn1%^A2ÕIn2 examples:*
@@ -813,7 +371,6 @@ lengthen vowels
 *ul%^VowsLI1>õd examples:*
 
 *ūl00õd examples:*
-
 
 **Rule: õ:ȭ in first syllable**
 
@@ -901,7 +458,6 @@ Destressing in second syllable
 
 *nȭŗkiz00ist examples:*
 
-
 VOWEL LOSS
 
 **Rule: ā:0**
@@ -917,7 +473,6 @@ VOWEL LOSS
 *daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
 
 *daʼdz0000õ examples:*
-
 
 *maʼigāz%^StodRM%^VowsRM%^ConsRM>īst examples:*
 
@@ -951,7 +506,6 @@ VOWEL LOSS
 kēļ+N+Sg+Nom
 * *kīel%^ĪE2Ē%^PalatalizeLeft*
 * *kē0l00*
-
 
 **Rule: õ:0**
 
@@ -1001,9 +555,7 @@ kēļ+N+Sg+Nom
 
 ### Zero to vowel
 
-
 **Rule: 0:õ in vowel metathesis**
-
 
 ## Consonant rules
 
@@ -1056,7 +608,6 @@ tas+N+Sg+Ill
 
 *veʼž0ž0i examples:*
 
-
 **%{XC%}:k** 2014-02-27
 
 *rok%{XC%}>õ examples:*
@@ -1072,14 +623,11 @@ aʼb#sõʼnā+N+Sg+Nom:
 * *aʼb#sõʼn%^StodRMā*
 * *aʼb#sõ0n0ā*
 
-
 *ka0l0ā%^Stress2to1 examples:*
 
 *kaʼllõ0 examples:*
 
-
 **Rule: z:ž**
-
 
 *alīz%^PalatalizeLeft%>i examples:*
 
@@ -1123,15 +671,12 @@ sēņ:sēn 220
 
 *keņg0000i examples:*
 
-
 **Rule: r:ŗ**
 jūŗ:jūr 221
 
 *ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
 
 *eŗg0000i examples:*
-
-
 
 **Rule: d:t**
 
@@ -1147,9 +692,6 @@ nominative plural
 **Rule: d:ț**
 
 **Rule: d:ž**
-
-
-
 
 ### Rules for consonant loss
 
@@ -1188,51 +730,55 @@ nominative plural
 
 *keņg0000i examples:*
 
-
 **Rule: a:ä palatalization**
-
 
 *aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
 
 *äʼm00000ḑi examples:*
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/phonology.twolc)</small>This is where new words are added as lexc entries before they are 
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-liv/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
 added to the xml source files.
 V_ "(eng) ear/(est) /(fin) /(lav)" ;
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/questionablemisc_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/questionablemisc_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+
+<small>This (part of) documentation was generated from [src/fst/stems/questionablemisc_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/questionablemisc_newwords.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
 added to the xml source files.
 A_ "(eng) /(est) /(fin) /(lav)" ;
 
-
 ADD NEW ADJECTIVES BELOW
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>Acronyms
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/adjectives_newwords.lexc)</small>
+
+---
+
+Acronyms
 Livonian acronyms ...
 
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/acronyms.lexc)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+
+<small>This (part of) documentation was generated from [src/fst/stems/acronyms.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/acronyms.lexc)</small>
+
+---
+
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
 created from lexical data by regular inflection. Usually there should be next
 to none exceptions, it's always better to have a paradigm that covers only
 one or few words than an exception since these will not work nicely with e.g.
 compounding scheme or possibly many end applications.
-
 
 the verbs of negation have partial inflection:
 * *äʼb:* `äb+V+Neg+Act+Ind+Prs+Sg1`
@@ -1244,7 +790,6 @@ Some verbs only have few word-forms left:
 * *piḑīm:*
 * *piḑīks:*
 
-
 The verb lǟdõ has irregular forms:
 * *lekš:*
 * *li:*
@@ -1253,51 +798,67 @@ The verb vȱlda has irregular forms:
 * *uʼm:*
 * *ūo:*
 
-
-
 ### PROPER NOUNS
 
 ### NOUNS partitive for morfa demo
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/exceptions.lexc)</small>This is where new words are added as lexc entries before they are 
+
+<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/exceptions.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
 added to the xml source files.
 ADV_ "(eng) /(est) /(fin) /(lav)" ;
-
 
 ADD NEW ADVERBS BELOW
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/adverbs_newwords.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
 added to the xml source files.
 PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/propernouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+
+<small>This (part of) documentation was generated from [src/fst/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/propernouns_newwords.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
 added to the xml source files.
 V_ "(eng) ear/(est) /(fin) /(lav)" ;
 
-
 Add new verbs below
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
 added to the xml source files.
 N_ "(eng) ear/(est) /(fin) /(lav)" ;
-
 
 ADD NEW NOUNS BELOW
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/stems/nouns_newwords.lexc)</small># Livonian noun inflection
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
+
+---
+
+# Livonian noun inflection
 
 This file documents `affixes/nouns.lexc`, the Livonian noun inflection file.
 
-
 ## Ad hoc lexica
-
 
 PROBLEMS with dictionary lexica
 
@@ -1323,9 +884,6 @@ PROBLEMS with dictionary lexica
 * **LEXICON N_TEI** contains tei:tei 17
 
 * **LEXICON N_KUŖĒ** contains  kuŗē:kuʼŗŗē 18
-
-
-
 
 * **LEXICON N_KALĀ** contains  kalā:kaʼlā 18
 
@@ -1388,7 +946,6 @@ PROBLEMS with dictionary lexica
 
 * **LEXICON N_SĪLMA** sīlma:sīlma 34
 
-
 * **LEXICON N_SĪLMA-PL** sīlma:sīlma 34
 
 * **LEXICON N_KǞNGA** kǟnga:kǟnga 35
@@ -1450,7 +1007,6 @@ PROBLEMS with dictionary lexica
 * **LEXICON N_TŠŪRTŠA** tšūrtša:tšūrtša 52
 
 * **LEXICON N_SĒMḐA** sēmḑa:sēmḑa 53
-
 
 * **LEXICON N_KRǬIPA** krǭipa:krǭipa 55
 
@@ -1559,8 +1115,6 @@ kand:kand
 
 * **LEXICON N_TÄM** täm:tam 101 
 
-
-
 * **LEXICON N_NIŖȚ** : 102
 
 * **LEXICON N_KUĻ** : 103
@@ -1587,7 +1141,6 @@ N_SgGen/d-Nom/ž-Par//ta
 * **LEXICON N_TÄUŽ-SG** : 116
 * **LEXICON N_TÄUŽ-PL** : 116
 
-
 * **LEXICON N_VAŖŽ** : 113
 
 * **LEXICON N_PIERZ** : 114
@@ -1609,7 +1162,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_NǬʼGÕ-PL** nǭʼgõ:nǭgõ 119
 
 * **LEXICON N_AŠŠÕ-PL** : 120
-
 
 * **LEXICON N_SOʼV** : 122
 * **LEXICON N_SOʼV-PL** : 122
@@ -1643,7 +1195,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_VIĻȚ** : 132
 * **LEXICON N_VIĻȚ-PL** : 132
 
-
 * **LEXICON N_EĻ** : 133
 
 * **LEXICON N_BLĒʼḐ** blēʼḑ:blēʼḑ 134
@@ -1657,8 +1208,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_TAS** : 136
 
 * **LEXICON N_NEITST** neitst:neits 137
-
-
 
 * **LEXICON N_ĀIGAST** : 140
 * **LEXICON N_ĀIGAST-PL** : 140
@@ -1724,19 +1273,13 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
 * **LEXICON N_TAPTÕD** : 161
 
-
-
 * **LEXICON N_TUOISTÕNZ** : 164
-
 
 * **LEXICON N_MĪEZ** mīez:m 166
 
 * **LEXICON N_ROʼVZ** : 167 roʼvz:roʼv
 * **LEXICON N_ROʼVZ-SG** : 167 roʼvz:roʼv
 * **LEXICON N_ROʼVZ-PL** : 167 roʼvz:roʼv
-
-
-
 
 * **LEXICON N_NÕTKĀZ** : 170
 
@@ -1749,7 +1292,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_ĀMBAZ-PL** : 173
 
 * **LEXICON N_PŪŖAZ** : 174
-
 
 * **LEXICON N_RĒNAZ-PL** : 176
 
@@ -1806,9 +1348,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
 * **LEXICON N_KUKKI** kukki: 195
 
-
-
-
 * **LEXICON N_TŪĻI** : 199
 ~422
 * **LEXICON N_TŪĻI-PL** : 199
@@ -1849,12 +1388,10 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
 * **LEXICON N_VARĪKŠ** : 209
 
-
 * **LEXICON N_UKŠ** : 210
 
 * **LEXICON N_LÄPŠ** läpš:laps 211
 * **LEXICON N_LÄPŠ-PL** läpš:laps 211
-
 
 * **LEXICON N_ROʼVZT-PL** roʼvzt:roʼvz 212
 
@@ -1869,8 +1406,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_PŪOL-PL** : 216
 
 * **LEXICON N_ĪKŠ** : 217
-
-
 
 * **LEXICON N_SĒŅ** sēņ:sēn 220
 
@@ -1888,7 +1423,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_SALĀJ** : 225
 
 * **LEXICON N_UMĀRZ** umārz:umār 226
-
 
 * **LEXICON N_AʼBBÕNZ** aʼbbõnz:aʼbbõn 228
 * **LEXICON N_AʼBBÕNZ-SG** aʼbbõnz:aʼbbõn 228
@@ -1938,28 +1472,19 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
 * **LEXICON N_GOLĀTÕKS** golātõks:golātõks 244 found in Liv-est-lat dictionary
 
-
-
-
 ## Nominal inflection
 Inflection lexica
 * **LEXICON NMN_PŪ** pū:pū 12
 Stem change: None
 
-
-
 13
 * Yaml: **N-rooq**
 Stem	change:	None
-
-
 
 14
 Stem	change:	Yes 
 Vowel raising ǟ:ē +Pl +Ela/+Ill/+Par
 Stød: Yes
-
-
 
 * **LEXICON NMN_TĪE** tīe:tīʼe
 15
@@ -1974,20 +1499,16 @@ tēšti
 16
 Stem change: None
 
-
 * **LEXICON NMN_TEI** tei:tei
 17
 Stem change: Yes 
 Vowel change: ei:ē
-
-
 
 * **LEXICON NMN_KUŖĒ** kuŗē:kuʼŗ
 18
 kuŗē:kuʼŗ
 
 SG-INE ;
-
 
 18
 * **LEXICON NMN_KALĀ** kalā:kaʼl
@@ -1997,15 +1518,12 @@ Consonant palatalization
 Vowel change in 2nd syllable ā:õ/0
 Stød: Yes
 
-
-
 19
 * **LEXICON NMN_TUBĀ** tubā:tuʼb
 * Yaml: **A-amaa, N-tubaa** Pass: 2014.12.12
 Stem change:	 Yes
 Vowel change in word-final position a:õ/0
 Stød
-
 
 20
 * **LEXICON NMN_AIGĀ** aigā:aʼig
@@ -2014,7 +1532,6 @@ Stem change: Yes
 vowel in 2nd syllable ā:õ/0
 Stød: Yes
 
-
 * **LEXICON NMN_LĒBA** lēba:leib
 21
 * Yaml: **N-leeba** Passed: 2014.12.12
@@ -2022,13 +1539,9 @@ Stem change: Yes
 vowel change ei:e
 Stød: None
 
-
-
 21
 * **LEXICON NMN_KŪJA** kūja:leiba
 No information
-
-
 
 22
 * **LEXICON NMN_PŪOGA** pūoga:pūog
@@ -2037,16 +1550,11 @@ Vowel change in 1st syllable ūo:ȯi
 Vowel change in word-final position a:õ/0
 Stød: None
 
-
-
-
 23
 Stem change: Yes
 Vowel change in 1st syllable ǭ:a
 Consonant change ij:j
 Stød: None
-
-
 
 24
 * **LEXICON NMN_PǞVA** pǟva:pǟuva
@@ -2054,24 +1562,16 @@ Stem change: Yes
 Vowel change ǟ:äu
 Stød: None
 
-
-
 * **LEXICON NMN_IZĀ** izā:iʼz
 25
 Stem change: yes
 Vowel loss ā:0
 Stød: Yes
 
-
-
-
 25
 * **LEXICON NMN_PIEZĀ** piezā:pieʼzzā
 Stem change: yes
 Stød: Yes
-
-
-
 
 Stem change: Yes
 
@@ -2130,18 +1630,14 @@ Stem	change:	Yes
 Vowel length in first syllable
 Stød: None
 
-
 33b LĀNGA
 Stem	change:	Yes (Vowel)
 Stød: None
-
 
 34
 * **LEXICON NMN_SĪLMA** sīlma:sīlma
 Stem change:	Yes (Vowel)
 Stød: None
-
-
 
 35
 * **LEXICON NMN_KǞNGA** kǟnga:kǟnga 35
@@ -2157,40 +1653,30 @@ Stem change: Yes (Vowel)
 
 * **LEXICON NMN_ĀINA-PL** āina:āina 36
 
-
 37
 * **LEXICON NMN_VĒNA** vēna:veina
 * Yaml: **N-veena**
 Stem change: Yes (Vowel)
 
-
 38
 * **LEXICON NMN_RŌDA** rōda:rouda
 Stem change: Yes (Vowel)
-
-
 
 39, 40, 41, 42
 * **LEXICON NMN_PADĀ** padā:paʼd
 Stem change: Yes
 Stød: Yes
 
-
-
 40
-
 
 41
 * **LEXICON NMN_KÄPĀ** käpā:käpā
 
-
 42
-
 
 43
 
 44 
-
 
 45
 * **LEXICON NMN_PŪOLA** pūola:pūola 45
@@ -2198,12 +1684,7 @@ Stød: Yes
 
 * **LEXICON NMN_PŪOLA-PL** pūola:pūola 45
 
-
-
 46
-
-
-
 
 * **LEXICON NMN_ŪŠKA** ūška:ūiska 47
 Stem change: Yes
@@ -2243,7 +1724,6 @@ Stød: None
 
 * **LEXICON NMN_SĒMḐA-PL** sēmḑa:sēmḑa 53
 
-
 * **LEXICON NMN_TĪERA** tīera:tīer 54
 Stem	    change:	 Yes
 Stød: None
@@ -2252,18 +1732,15 @@ Sg Nom=Gen: Yes
 
 * **LEXICON NMN_TĪERA-PL** tīera:tīer 54
 
-
 * **LEXICON NMN_KRǬIPA** krǭipa:krǭipa 55
 * **LEXICON NMN_KRǬIPA-SG** krǭipa:krǭipa 55
 
 * **LEXICON NMN_KRǬIPA-PL** krǭipa:krǭipa 55
 
-
 * **LEXICON NMN_LILLA** lilla:lilla 56
 * **LEXICON NMN_LILLA-SG** lilla:lilla 56
 
 * **LEXICON NMN_LILLA-PL** lilla:lilla 56
-
 
 * **LEXICON NMN_KUȚĀ** kuțā:kuțā 57
 * **LEXICON NMN_KUȚĀ-SG** kuțā:kuțā 57
@@ -2278,15 +1755,11 @@ Stød: None
 
 59
 
-
 60
-
-
 
 * **LEXICON NMN_KEP-SG** kep:kep aʼb 61
 
 * **LEXICON NMN_KEP-PL** kep:kep aʼb 61
-
 
 * **LEXICON NMN_KRUȚK** : 62
 * **LEXICON NMN_KRUȚK-SG** : 62
@@ -2343,14 +1816,11 @@ Stød: None
 
 * **LEXICON NMN_SUʼG-PL** suʼg:suʼg 74
 
-
 * **LEXICON NMN_JOʼUG** joʼug:joʼug 75
 * **LEXICON NMN_JOʼUG-SG** joʼug:joʼug 75
 * **LEXICON NMN_JOʼUG-PL** joʼug:joug 75
 
 76
-
-
 
 * **LEXICON NMN_USK** usk: 77
 * **LEXICON NMN_USK-SG** usk: 77
@@ -2360,24 +1830,20 @@ Stød: None
 * **LEXICON NMN_VAŠK-SG** : 78
 * **LEXICON NMN_VAŠK-PL** : 78
 
-
 * **LEXICON NMN_TUP** tup:tup 79
 * **LEXICON NMN_TUP-SG** tup:tup 79
 
 * **LEXICON NMN_TUP-PL** tup:tup 79
-
 
 * **LEXICON NMN_MAKS** : 80
 * **LEXICON NMN_MAKS-SG** : 80
 
 * **LEXICON NMN_MAKS-PL** : 80
 
-
 * **LEXICON NMN_LUʼM** luʼm:lum 81
 * **LEXICON NMN_LUʼM-SG** luʼm:lum 81
 
 * **LEXICON NMN_LUʼM-PL** luʼm:lum 81
-
 
 * **LEXICON NMN_MIEʼR** mieʼr:mier 82
 * **LEXICON NMN_MIEʼR-SG** mieʼr:mieʼr 82
@@ -2388,7 +1854,6 @@ Stød: None
 * **LEXICON NMN_MEʼR-SG** meʼr:mer 83
 
 * **LEXICON NMN_MEʼR-PL** meʼr:mer 83
-
 
 * **LEXICON NMN_MUʼR** muʼr:mur 84
 * **LEXICON NMN_MUʼR-SG** muʼr:mur 84
@@ -2405,20 +1870,15 @@ Stød: None
 
 * **LEXICON NMN_SUʼŽ-PL** suʼž:suž 86
 
-
 * **LEXICON NMN_KEʼŽ** keʼž:kež aim 87
 * **LEXICON NMN_KEʼŽ-SG** keʼž:kež aim 87
 
 * **LEXICON NMN_KEʼŽ-PL** keʼž:kež aim 87
 
-
-
 * **LEXICON NMN_VEʼŽ** veʼž:vež 88
 * **LEXICON NMN_VEʼŽ-SG** veʼž:veʼd 88
 
 * **LEXICON NMN_VEʼŽ-PL** veʼž:veʼd 88
-
-
 
 * **LEXICON NMN_KUʼŽ** kuʼž:kuž 89
 * **LEXICON NMN_KUʼŽ-SG** kuʼž:kuž 89
@@ -2428,8 +1888,6 @@ Stød: None
 * **LEXICON NMN_RUZŪ-SG** : 90
 
 * **LEXICON NMN_RUZŪ-PL** : 90
-
-
 
 * **LEXICON NMN_RADIO** : 91
 * **LEXICON NMN_RADIO-SG** : 91
@@ -2444,8 +1902,6 @@ Stød: None
 * **LEXICON NMN_KOUV-SG** : 93
 * **LEXICON NMN_KOUV-PL** : 93
 
-
-
 * **LEXICON NMN_KAND** : 94
 * **LEXICON NMN_KAND-SG** : 94
 * **LEXICON NMN_KAND-PL** : 94
@@ -2454,11 +1910,9 @@ Stød: None
 * **LEXICON NMN_PȮRT-SG** : 95
 * **LEXICON NMN_PȮRT-PL** : 95
 
-
 * **LEXICON NMN_NUŖM** : 96
 * **LEXICON NMN_NUŖM-SG** : 96
 * **LEXICON NMN_NUŖM-PL** : 96
-
 
 * **LEXICON NMN_LAINT** : 97
 * **LEXICON NMN_LAINT-SG** : 97
@@ -2476,9 +1930,6 @@ Stød: None
 * **LEXICON NMN_PAN-SG** : 100
 * **LEXICON NMN_PAN-PL** : 100
 
-
-
-
 102
 * **LEXICON NMN_NIŖȚ** : 102 niŗț:niŗț
 First-syllable Vowel lengthening in Pl
@@ -2486,15 +1937,12 @@ Stød: None
 * **LEXICON NMN_NIŖȚ-SG** : 102
 * **LEXICON NMN_NIŖȚ-PL** : 102
 
-
 * **LEXICON NMN_KUĻ** : 103
 * **LEXICON NMN_KUĻ-SG** : 103
 * **LEXICON NMN_KUĻ-PL** : 103
 
-
 * **LEXICON NMN_PAŅ** : 104
 * **LEXICON NMN_PAŅ-SG** : 104
-
 
 * **LEXICON NMN_PAŅ-PL** : 104
 
@@ -2503,27 +1951,22 @@ Stød: None
 
 * **LEXICON NMN_DAŅTŠ-PL** : 105
 
-
 * **LEXICON NMN_KOUŠ** : 106
 * **LEXICON NMN_KOUŠ-SG** : 106
 * **LEXICON NMN_KOUŠ-PL** : 106
 
-
 * **LEXICON NMN_SPLEIŠ** : 107
 * **LEXICON NMN_SPLEIŠ-SG** : 107
 * **LEXICON NMN_SPLEIŠ-PL** : 107
-
 
 * **LEXICON NMN_VEIS** : 108
 * **LEXICON NMN_VEIS-SG** : 108
 
 * **LEXICON NMN_VEIS-PL** : 108
 
-
 * **LEXICON NMN_PȮIS-SG** : 109
 
 * **LEXICON NMN_PȮIS-PL** : 109
-
 
 * **LEXICON NMN_KIĻG** : 110
 * **LEXICON NMN_KIĻG-SG** : 110
@@ -2533,68 +1976,52 @@ Stød: None
 * **LEXICON NMN_VȮĻG-SG** : 111
 * **LEXICON NMN_VȮĻG-PL** : 111
 
-
 * **LEXICON NMN_TÄUŽ** täuž: adres 112
 
 * **LEXICON NMN_TÄUŽ-SG** : 116
 
-
 * **LEXICON NMN_TÄUŽ-PL** : 116
-
 
 * **LEXICON NMN_VAŖŽ** : 113
 * **LEXICON NMN_VAŖŽ-SG** : 113
 * **LEXICON NMN_VAŖŽ-PL** : 113
 
-
 * **LEXICON NMN_PIERZ** : 114
 * **LEXICON NMN_PIERZ-SG** : 114
 * **LEXICON NMN_PIERZ-PL** : 114
-
 
 * **LEXICON NMN_VÕRGÕ** : 115
 * **LEXICON NMN_VÕRGÕ-SG** : 115
 * **LEXICON NMN_VÕRGÕ-PL** : 115
 
-
 * **LEXICON NMN_JÕUGÕ-SG** : 116
 
-
 * **LEXICON NMN_JÕUGÕ-PL** : 116
-
 
 * **LEXICON NMN_VȬIDAG** : 117
 * **LEXICON NMN_VȬIDAG-SG** : 117
 
 * **LEXICON NMN_VȬIDAG-PL** : 117
 
-
 * **LEXICON NMN_SIELDÕ** : 118
 * **LEXICON NMN_SIELDÕ-SG** : 118
 
 * **LEXICON NMN_SIELDÕ-PL** : 118
-
 
 * **LEXICON NMN_NǬʼGÕ** nǭʼgõ:nǭgõ 119
 * **LEXICON NMN_NǬʼGÕ-SG** nǭʼgõ:nǭgõ 119
 
 * **LEXICON NMN_NǬʼGÕ-PL** nǭʼgõ:nǭgõ 119
 
-
-
 * **LEXICON NMN_AŠŠÕ** : 120
 * **LEXICON NMN_AŠŠÕ-SG** : 120
 
 * **LEXICON NMN_AŠŠÕ-PL** : 120
 
-
-
 * **LEXICON NMN_DRŪʼOŠÕ** drūʼošõ:drūošõ 121
 * **LEXICON NMN_DRŪʼOŠÕ-SG** drūʼošõ:drūošõ 121
 
 * **LEXICON NMN_DRŪʼOŠÕ-PL** drūʼošõ:drūošõ 121
-
-
 
 * **LEXICON NMN_SOʼV** : 122
 * **LEXICON NMN_SOʼV-SG** : 122
@@ -2606,16 +2033,12 @@ Stød: None
 
 * **LEXICON NMN_KǬJ-PL** : 123
 
-
-
 * **LEXICON NMN_ǬʼJ** ǭʼj:ǭj 124
 * **LEXICON NMN_ǬʼJ-SG** ǭʼj:ǭj 124
 
 * **LEXICON NMN_ǬʼJ-PL** ǭʼj:ǭj 124
 
 125, 126, 128
-
-
 
 126
 
@@ -2629,10 +2052,7 @@ Stød: None
 
 * **LEXICON NMN_VAʼIT-PL** vaʼit:vait 128
 
-
-
 129, 130, 131
-
 
 * **LEXICON NMN_KULTŪR** : 130
 * **LEXICON NMN_KULTŪR-SG** : 130
@@ -2662,7 +2082,6 @@ Stød: None
 
 135
 
-
 * **LEXICON NMN_TAS** : 136
 * **LEXICON NMN_TAS-SG** : 136
 
@@ -2684,10 +2103,8 @@ Sg Nom=Gen: No
 * **LEXICON NMN_LǞʼND-SG** lǟʼnd:lǟnd 139
 * **LEXICON NMN_LǞʼND-PL** lǟʼnd:lǟnd 139
 
-
 140, 141, 142
 **241**
-
 
 141
 **87**
@@ -2697,21 +2114,14 @@ Change in stem: None
 consonant-final stem, long vowel in ultimate syllable
 belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 
-
-
-
 142
 
-
-
 143, 144, 145
-
 
 * **LEXICON NMN_VIŠ** : 144 viš:viš
 * **LEXICON NMN_VIŠ-SG** : 144
 
 * **LEXICON NMN_VIŠ-PL** : 144
-
 
 145
 
@@ -2757,7 +2167,6 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 
 *āigalē’ḑ+N+Pl+Ela examples:*
 
-
 * **LEXICON NMN_KĪNTŠ** : 148
 * **LEXICON NMN_KĪNTŠ-SG** : 148
 
@@ -2780,18 +2189,13 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 
 * **LEXICON NMN_AʼM-PL** aʼm:aʼm 152
 
-
-
-
 * **LEXICON NMN_AZŪM-SG** : 153
 
 * **LEXICON NMN_AZŪM-PL** : 153
 
-
 * **LEXICON NMN_VÕȚĪM-SG** : 154
 
 * **LEXICON NMN_VÕȚĪM-PL** : 154
-
 
 * **LEXICON NMN_KǬŅIM-SG** : 155
 * **LEXICON NMN_KǬŅIM-PL** : 155
@@ -2800,31 +2204,23 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_ĒTAM-SG** : 156
 * **LEXICON NMN_ĒTAM-PL** : 156
 
-
 * **LEXICON NMN_SIDĀM** : 157
-
 
 * **LEXICON NMN_SIDĀM-PL** : 157
 
-
 158
-
-
 
 159
 * Yaml: **armtõb, N-aandam, N-akaatwb**
 **221**
 
-
 160
 **72**
-
 
 * **LEXICON NMN_TAPTÕD** taptõd:taptõd 161
 * **LEXICON NMN_TAPTÕD-SG** : 161
 
 * **LEXICON NMN_TAPTÕD-PL** : 161
-
 
 * **LEXICON NMN_TĪʼEDÕD** tīʼedõd:tīedõd 162
 * **LEXICON NMN_TĪʼEDÕD-SG** tīʼedõd:tīedõd 162
@@ -2837,14 +2233,12 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
 * **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
 
-
 * **LEXICON NMN_TUOISTÕNZ** : 164
 * **LEXICON NMN_TUOISTÕNZ-SG** : 164
 
 * **LEXICON NMN_TUOISTÕNZ-PL** : 164
 * **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
 * **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
-
 
 * **LEXICON NMN_ĪʼDÕKSMÕZ** īʼdõksmõz:īdõksmõz 165
 * **LEXICON NMN_ĪʼDÕKSMÕZ-SG** īʼdõksmõz:īdõksmõz 165
@@ -2854,8 +2248,6 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
 * **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
 
-
-
 * **LEXICON NMN_MĪEZ** : 166
 * **LEXICON NMN_MĪEZ-SG** mīez:m 166
 
@@ -2863,11 +2255,8 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **:ēʼ PL-ELA/INE_šti ;** 
 * **:ēʼ PL-PAR_ḑi ;** 
 
-
 * **LEXICON NMN_ROʼVZ-SG** : 167
 * **LEXICON NMN_ROʼVZ-PL** : 167
-
-
 
 * **LEXICON NMN_KÄBRĀZ** : 168 käbrāz:käʼbrāz
 * **LEXICON NMN_KÄBRĀZ-SG** : 168
@@ -2875,7 +2264,6 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_KÄBRĀZ-PL** : 168
 * **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
 * **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
-
 
 * **LEXICON NMN_MAIGĀZ** : 169 maigāz:maʼigāz
 * Yaml: **A-maigaaz**
@@ -2888,7 +2276,6 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_NÕTKĀZ** : 170 nõtkāz:nõtkā
 * **LEXICON NMN_NÕTKĀZ-SG** : 170
 
-
 * **LEXICON NMN_NÕTKĀZ-PL** : 170
 * **NMN_RIKĀZ-PL ;** rikāz: 171
 
@@ -2900,17 +2287,13 @@ Sg Nom=Gen: No
 
 * **LEXICON NMN_RIKĀZ-PL** rikāz: 171
 
-
 * **LEXICON NMN_BIKŠĀZ-SG** : 172 bikšāz:bikšā
 * **NMN_RIKĀZ-SG ;** : 171
 * **LEXICON NMN_BIKŠĀZ-PL** : 172
 
-
 * **LEXICON NMN_ĀMBAZ** : 173 āmbaz:āmba
 
-
 * **LEXICON NMN_ĀMBAZ-PL** : 173
-
 
 * **LEXICON NMN_PŪŖAZ** : 174 pūŗaz:pūŗŗa
 * **LEXICON NMN_PŪŖAZ-SG** : 174
@@ -2918,14 +2301,12 @@ Sg Nom=Gen: No
 * **LEXICON NMN_PŪŖAZ-PL** : 174
 * **NMN_ĀMBAZ-PL ;** : 173
 
-
 * **LEXICON NMN_PǬĻAZ** : 175 pǭļaz:pǭļ
 Stød: None
 Sg Nom=Gen: No
 * **LEXICON NMN_PǬĻAZ-SG** : 175
 
 * **LEXICON NMN_PǬĻAZ-PL** : 175
-
 
 * **LEXICON NMN_RĒNAZ-PL** : 176
 * **NMN_ĀMBAZ-PL ;** : 173
@@ -2936,22 +2317,17 @@ Sg Nom=Gen: No
 * **LEXICON NMN_TŌVAZ-PL** : 177
 * **NMN_ĀMBAZ-PL ;** : 173
 
-
 * **LEXICON NMN_PŪORAZ** pūoraz:pūora 178
 * **LEXICON NMN_PŪORAZ-SG** pūoraz: 178
 * **NMN_ĀMBAZ-SG ;** : 173
 * **LEXICON NMN_PŪORAZ-PL** pūoraz: 178
 * **NMN_ĀMBAZ-PL ;** : 173
 
-
-
 179
-
 
 * **LEXICON NMN_VȬRÕZ** vȭrõz:vȭrõ
 180
 Sg Nom=Gen: No
-
 
 181
 
@@ -2962,22 +2338,16 @@ Sg Nom=Gen: No
 Stød: Yes
 Sg Nom=Gen: No
 
-
 184
 * **LEXICON NMN_VĪETŠÕZ** : 184
 
-
-
 * **LEXICON NMN_LǬʼTŠÕZ** lǭʼtšõz:lǭtšõz 185
-
-
 
 * **LEXICON NMN_SĒJI** : 186
 Stem change: None
 * **LEXICON NMN_SĒJI-SG** : 186
 
 * **LEXICON NMN_SĒJI-PL** : 186
-
 
 * **LEXICON NMN_AKKIJI** : 187
 **123**
@@ -2986,7 +2356,6 @@ Stem change: None
 * **LEXICON NMN_AKKIJI-SG** : 187
 
 * **LEXICON NMN_AKKIJI-PL** : 187
-
 
 * **LEXICON NMN_LĒʼJI** lēʼji:lēʼji 188
 **61**
@@ -3015,7 +2384,6 @@ Stød: None
 
 192
 
-
 * **LEXICON NMN_PUʼNNI** puʼnni:puʼn 193
 **127**
 Stød: Yes
@@ -3024,12 +2392,10 @@ Sg Nom=Gen: No
 
 * **LEXICON NMN_PUʼNNI-PL** puʼnni:punni 193
 
-
 * **LEXICON NMN_KAȚKI** kațki: 194
 **12**
 * **LEXICON NMN_KAȚKI-SG** kațki: 194
 * **LEXICON NMN_KAȚKI-PL** kațki: 194
-
 
 * **LEXICON NMN_KUKKI** kukki: 195
 **33**
@@ -3037,14 +2403,12 @@ Sg Nom=Gen: No
 
 * **LEXICON NMN_KUKKI-PL** kukki: 195
 
-
 * **LEXICON NMN_AIGI** aigi:aigi 196
 **16**
 Stem change: Yes (vowel length in 1st syllable)
 * **LEXICON NMN_AIGI-SG** aigi:aigi 196
 
 * **LEXICON NMN_AIGI-PL** aigi:aigi 196
-
 
 * **LEXICON NMN_OUKI** : 197
 * **LEXICON NMN_OUKI-SG** : 197
@@ -3056,10 +2420,7 @@ Stem change: Yes (vowel length in 1st syllable)
 * **LEXICON NMN_PAŖĪ-PL** : 198
 * **:ž PL-PAR_i ;** paŗrīži ?
 
-
-
 199
-
 
 * **LEXICON NMN_AʼBLI** aʼbli:aʼbli 200
 **567**
@@ -3089,13 +2450,10 @@ Stem change: None
 
 * **LEXICON NMN_ALĪZ-PL** : 203
 
-
-
 * **LEXICON NMN_NȬŖKÕZ** : 204
 * Yaml: **N-nwwrkwz**
 * **LEXICON NMN_NȬŖKÕZ-SG** : 204
 * **LEXICON NMN_NȬŖKÕZ-PL** : 204
-
 
 * **LEXICON NMN_KATŪKS** : 205
 * Yaml: **N-katuuks**
@@ -3115,20 +2473,16 @@ Stem change: None
 
 * **LEXICON NMN_ÄʼBȚÕKS-PL** äʼbțõks:äbțõks 208
 
-
 * **LEXICON NMN_VARĪKŠ** : 209
 * Yaml: **A-krwbiizh, N-variiksh**
 * **LEXICON NMN_VARĪKŠ-SG** : 209
 
 * **LEXICON NMN_VARĪKŠ-PL** : 209
 
-
-
 * **LEXICON NMN_UKŠ** : 210 ukš:uks
 * Yaml: **N-uksh**
 * **LEXICON NMN_UKŠ-SG** : 210
 * **LEXICON NMN_UKŠ-PL** : 210
-
 
 211
 * Yaml: **N-laepsh** läpš:laps
@@ -3154,16 +2508,13 @@ Stem change: None
 
 * **LEXICON NMN_PŪOL-PL** : 216
 
-
 * **LEXICON NMN_ĪKŠ** : 217
 * **LEXICON NMN_ĪKŠ-SG** : 217
 * **LEXICON NMN_ĪKŠ-PL** : 217
 
-
 * **LEXICON NMN_KAKŠ** : 218
 * **LEXICON NMN_KAKŠ-SG** : 218
 * **LEXICON NMN_KAKŠ-PL** : 218
-
 
 * **LEXICON NMN_ŪŽ** : 219 ūž:ūd
 * Yaml: **A-uuzh**
@@ -3172,15 +2523,12 @@ word-final consonant palatalization (ž): Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
 * **LEXICON NMN_ŪŽ-PL** : 219
 
-
-
 * **LEXICON NMN_SĒŅ** sēņ:sēn 220
 Sg_Nom = consonant-final 1-syllable word
 word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 Diphthong realized as mid long vowel: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
 * **LEXICON NMN_SĒŅ-PL** sēņ:sēn 211
-
 
 * **LEXICON NMN_JŪŖ** : jūŗ:jūr 221 
 Sg_Nom = consonant-final 1-syllable word
@@ -3198,19 +2546,13 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 * **LEXICON NMN_SĒR-SG** : 223
 * **LEXICON NMN_SĒR-PL** : 223
 
-
 * **LEXICON NMN_BIRKOV** : 224 birkov:birkov
 * **LEXICON NMN_BIRKOV-SG** : 224
 * **LEXICON NMN_BIRKOV-PL** : 224
 
-
-
 225
 
-
-
 * **LEXICON NMN_UMĀRZ** 226 umārz:umār
-
 
 226, 227, 228
 * **LEXICON NMN_DULLÕNZ** dullõnz:dullõn 227
@@ -3228,7 +2570,6 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
 * **LEXICON NMN_KAʼGGÕRZ** kaʼggõrz:kaʼggõr 230
 
-
 * **LEXICON NMN_PǞGIŅŽ** pǟgiņž:pǟgiņ 231
 
 * **LEXICON NMN_PǞGIŅŽ-PL** pǟgiņž:pǟgiņ 231
@@ -3242,9 +2583,7 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
 233
 
-
 * **LEXICON NMN_PĒGAL** pēgal:pēgal 234
-
 
 * **LEXICON NMN_APPÕN** appõn:appõn 235
 
@@ -3256,9 +2595,7 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
 * **LEXICON NMN_ǬʼRÕN-PL** ǭʼrõn:ǭrõn 236
 
-
 * **LEXICON NMN_KĪNDÕR** kīndõr:kīndõr 237
-
 
 * **LEXICON NMN_KĪNDÕR-PL** kīndõr:kīndõr 237
 
@@ -3266,31 +2603,13 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
 * **LEXICON NMN_BÄʼZMÕR-PL** bäʼzmõr:bäʼzmõr 238
 
-
 * **LEXICON NMN_TARĪĻ** tarīļ:tarīļ 239
 
 * **LEXICON NMN_TARĪĻ-PL** tarīļ:tarīļ 239
 
 * **LEXICON NMN_ĀNKAŖ** ānkaŗ:ānkaŗ 240
 
-
-
-
 * **LEXICON NMN_ǬʼBIĻ** ǭʼbiļ:ǭbiļ 242
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 SG-DAT	;
 SG-ELA	;
@@ -3298,142 +2617,40 @@ SG-ILL	;
 SG-INS	;
 SG-PAR	;
 
-
-
 ## NUMBER AND CASE
-
-
-
-
-
-
-
-
 
 above as pair in SG-ELA/INE_st; 2014 jaska
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON PL-DAT_õn** This is peculiar to NMN_PŪOL-PL 216,219
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON PL-INS_kõks** This is peculiar to NMN_PŪOL-PL  216
 
-
-
-
-
-
-
-
-
-
-
-
-
 A trigger for z:ž will be required
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/nouns.lexc)</small># Adjective inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
+# Adjective inflection
 This file documents `affixes/adpositions.lexc`
 
-
-
 **LEXICON POSTP_ = points to #
 
 **LEXICON POSTP_ = points to #
-
-
-
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adpositions.lexc)</small># Determiner inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/adpositions.lexc)</small>
+
+---
+
+# Determiner inflection
 This file documents `affixes/determiners.lexc`, the language model for
 Livonian determiner inflection.
 
-
 ## Stem lexica
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 LEXICON DET_VĪDÕZ  vīdõz: 163
 
@@ -3441,29 +2658,20 @@ LEXICON DET_TUOISTÕNZ  : 164
 
 LEXICON DET_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
 
-
 LEXICON DET_NAI  nai: 191
 
 LEXICON DET_TŪĻI  tūļi: 199
 
 LEXICON DET_SĒMI  sēmi: 201
 
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/determiners.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/determiners.lexc)</small># Quantifier inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/determiners.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/determiners.lexc)</small>
+
+---
+
+# Quantifier inflection
 This file documents the file on Livonian quantifier morphology.
-
-
 
 LEXICON QNT_APPÕN  : 216
 
@@ -3476,35 +2684,21 @@ LEXICON NUM_KĒRA  kēra:kēra 43
 
 LEXICON NUM_OKŠ  : 68
 
-
-
-
-
-
 LEXICON NUM_NǬʼGÕ  nǭʼgõ:nǭgõ 119
 
 LEXICON NUM_IRM  irm: 125
 
 LEXICON NUM_KIM  : 126 kim:kim
 
-
 LEXICON NUM_FAKT  fakt: 135
 
 LEXICON NUM_ĀIGAST  āigast: 140
 
-
-
-
-
 LEXICON NUM_NAI  nai: 191
-
-
-
 
 LEXICON NUM_ÄʼBȚÕKS  ä'bțõks:äbțõks 208
 
 LEXICON NUM_TŪĻ  : 214
-
 
 LEXICON NUM_ĪKŠ  : 217
 
@@ -3514,22 +2708,21 @@ LEXICON NUM_ŪŽ  : 219
 
 LEXICON NUM_APPÕN  appõn:appõn 235
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/quantifiers.lexc)</small># Prounoun inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+
+---
+
+# Prounoun inflection
 This file documents `affixes/pronouns.lexc`,
 the file on Livonian pronoun  inflection
 
 **LEXICON PRON_ = goes to # only.
 
-
 LEXICON PRON_MIS  mis:mi 1
 
-
 LEXICON PRON_JEGĀ  jegā:jeʼgā 2
-
 
 LEXICON PRON_MŪ  mū:m 3
 
@@ -3549,11 +2742,9 @@ LEXICON PRON_TĒG  tēg:t 7
 
 LEXICON PRON_KIS  kis:kī 8
 
-
 LEXICON PRON_ĪʼŽ  9
 
 LEXICON PRON_MIDĀGÕD  midāgõd:midāg 10
-
 
 LEXICON PRON_MITS  11
 
@@ -3570,38 +2761,37 @@ LEXICON PRON_AZŪM-PL  azūm: 153
 
 LEXICON PRON_VĪDÕZ  vīdõz: 163
 
-
-
-
 LEXICON PRON_ĪKŠ  : 217
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/pronouns.lexc)</small># Conjunctions
+
+<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/pronouns.lexc)</small>
+
+---
+
+# Conjunctions
 
 This file documents `affixes/conjunctors.lexc`
 
 **LEXICON CONJ_ = These need to be corrected, it points to #.
 
-
 **LEXICON CC_ =  Livonian conjunctors, points to #
-
 
 **LEXICON CS_ =  Livonian subjunctors, points to #
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/conjunctors.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/conjunctors.lexc)</small># Proper noun inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/conjunctors.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/conjunctors.lexc)</small>
+
+---
+
+# Proper noun inflection
 This file documents `affixes/propernouns.lexc`, the file for inflection of propernouns.
 
 Livonian proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
 **LEXICON PROP_ = this lexicon goes to K only
-
 
 Stem lexica
 LEXICON PROP_TOP_PŪ  contains pū: 12
@@ -3610,101 +2800,43 @@ LEXICON PROP_PŪ  contains pū: 12
 
 LEXICON PROP_PŪ-SG  contains pū: 12
 
-
-
-
-
-
 LEXICON PROP_KALĀ   contains  kalā:kalā 18
 
 LEXICON PROP_KALĀ-SG   contains  kalā:kalā 18
 
 LEXICON PROP_TUBĀ  tubā:tubā 19
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 LEXICON PROP_VĒNA  vēna:vēna 37
 
-
 LEXICON PROP_PADĀ  padā:padā 39
-
-
-
-
 
 LEXICON PROP_JǬRA  jǭra:jǭra 44
 
 LEXICON PROP_JǬRA-PL  jǭra:jǭra 44
 
-
 LEXICON PROP_ĀITA  āita:āita 46
 
 LEXICON PROP_ŪŠKA  ūška:ūška 47
 
-
 LEXICON PROP_DADŽĀ  dadžā:dadžā 49
-
-
-
-
-
 
 LEXICON PROP_KRǬIPA  krǭipa:krǭipa 55
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 LEXICON PROP_DUŅTŠ  : 70
-
 
 LEXICON PROP_NIʼM  niʼm:niʼm 76
 
 LEXICON PROP_NIʼM-PL  niʼm:niʼm 76
 
-
 LEXICON PROP_TUP  tup:tup 79
-
-
-
-
-
 
 LEXICON PROP_NǬʼGÕ  nǭʼgõ:nǭgõ 119
 
-
-
 LEXICON PROP_KǬJ  : 123
-
 
 LEXICON PROP_KIM  : 126
 
 LEXICON PROP_KIM-SG  : 126
-
 
 LEXICON PROP_VAʼIT  vaʼit:vait 128
 
@@ -3714,27 +2846,19 @@ LEXICON PROP_KULTŪR  : 130
 
 LEXICON PROP_VIĻȚ  : 132
 
-
 LEXICON PROP_FAKT  fakt:fakt 135
 
 LEXICON PROP_FAKT-SG  fakt:fakt 135
-
 
 LEXICON PROP_ĀIGAST  : 140
 
 LEXICON PROP_ANALĪZ  : 141
 
-
 LEXICON PROP_NĪʼEM-SG  nīʼem:nīʼem 142
 
 LEXICON PROP_JAĻKŠ  : 143
 
-
 LEXICON PROP_RŪʼTŠ  rūʼtš:rūʼtš 145
-
-
-
-
 
 LEXICON PROP_SIDĀM  : 157
 
@@ -3748,55 +2872,17 @@ LEXICON PROP_KǬRAND-SG  : 159
 
 LEXICON PROP_ȬʼDÕG  ȭʼdõg:ȭʼdõg 160
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 LEXICON PROP_ĀNDÕKS  : 206
-
-
-
 
 LEXICON PROP_PŪOL  : 216
 
-
-
-
-
-
 LEXICON PROP_SŪR  : 222
-
 
 LEXICON PROP_BIRKOV  : 224
 
-
 LEXICON PROP_SALĀJ-SG  : 225
 
-
-
-
-
-
-
-
 LEXICON PROP_TIDĀR  tidār:tidār 233
-
 
 LEXICON PROP_TIDĀR-PL  tidār:tidār 233
 
@@ -3804,21 +2890,15 @@ LEXICON PROP_PĒGAL  pēgal:pēgal 234
 
 LEXICON PROP_APPÕN  appõn:appõn 235
 
-
 LEXICON PROP_KĪNDÕR  kīndõr:kīndõr 237
 
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/propernouns.lexc)</small># Adjective inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+
+# Adjective inflection
 
 This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
 
@@ -3832,7 +2912,6 @@ This file documents `affixes/adjectives.lexc`, the file for Livonian adjective i
 
 LEXICON A_PŪ  contains pū: 12
 
-
 LEXICON A_BRĪ  contains brī:brī 16
 
 LEXICON A_KALĀ   contains  kalā:kaʼlā 18
@@ -3840,7 +2919,6 @@ LEXICON A_KALĀ   contains  kalā:kaʼlā 18
 LEXICON A_TUBĀ  tubā:tuʼbā 19
 
 LEXICON A_AIGĀ  aigā:aʼig 20
-
 
 LEXICON A_KŪJA  kūja:??lēba 21
 
@@ -3862,7 +2940,6 @@ LEXICON A_KĒRA  kēra:kēra 43
 
 LEXICON A_JǬRA  jǭra:jǭra 44
 
-
 LEXICON A_ĀITA  āita:āita 46
 
 LEXICON A_ŪŠKA  ūška:ūška 47
@@ -3874,7 +2951,6 @@ LEXICON A_DADŽĀ  dadžā:dadžā 49
 LEXICON A_TĪERA  tīera:tīera 54
 
 LEXICON A_LILLA  kuțā:kuțā 57
-
 
 LEXICON A_KIʼV  kiʼv:kiv 59
 
@@ -3951,7 +3027,6 @@ LEXICON A_TAPTÕD  taptõd: 161
 
 LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
 
-
 LEXICON A_KÄBRĀZ  : 168
 
 LEXICON A_MAIGĀZ  : 169
@@ -4016,8 +3091,6 @@ LEXICON A_JŪŖ  jūŗ:jūr 221
 
 LEXICON A_SŪR  sūr:sūr 222
 
-
-
 LEXICON A_DULLÕNZ  dullõnz:dullõn 227
 
 LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
@@ -4038,15 +3111,14 @@ LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
 
 LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adjectives.lexc)</small># Livonian Verb inflection
-This file documents the verb inflection of Livonian.
 
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/adjectives.lexc)</small>
+
+---
+
+# Livonian Verb inflection
+This file documents the verb inflection of Livonian.
 
 ## Verb stem classes
 **LEXICON V_ = CONJUGATION TYPE MISSING
@@ -4065,14 +3137,12 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_VĪDÕ = 3 vīdõ:vī
 
-
 **LEXICON TV_NǞʼDÕ = 4 nǟʼdõ:nǟʼ
 * Yaml: **naeaeqdw**
 
 **LEXICON IV_KǞʼDÕ = 5 kǟʼdõ:kǟʼ
 
 **LEXICON TV_TĪʼEDÕ = 6 tīʼedõ:tīʼe
-
 
 **LEXICON V-AUX_SĪEDÕ = 7 sīedõ:sīe
 
@@ -4086,11 +3156,9 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON V-AUX_SǬDÕ = 8 sǭdõ:s
 
-
 **LEXICON TV_JŪODÕ = 9 jūodõ:jūo
 
 **LEXICON V-AUX_VȰLDA =  10 vȱlda:ZERO
-
 
 **LEXICON IV_VȰLDA = 10 vȱlda: goes to **K**
 
@@ -4138,9 +3206,7 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_TÄUTÕ = 21 täutõ:tǟta
 
-
 **LEXICON TV_PȮĻTÕ = 22 pȯļtõ:pūoļta
-
 
 **LEXICON TV_MȮISTÕ = 23 mȯistõ:mūošta
 
@@ -4191,7 +3257,6 @@ Should ss be s and šš be š? 2013-02-19
 
 **LEXICON TV_AKKÕ = akkõ:akū 36
 
-
 **LEXICON V-AUX_AIGÕ = aigõ:āigõ 37
 
 **LEXICON IV_AIGÕ = aigõ:āigõ 37
@@ -4202,9 +3267,7 @@ Should ss be s and šš be š? 2013-02-19
 
 **LEXICON TV_VANNÕ = vannõ:vǭnõ 39
 
-
 **LEXICON IV_PȮĻĻÕ = pȯļļõ:pūoļõ 40
-
 
 **LEXICON IV_PȮIMÕ = pȯimõ:pūoimõ 41
 
@@ -4215,7 +3278,6 @@ Should ss be s and šš be š? 2013-02-19
 **LEXICON IV_KEIJÕ = keijõ:kējõ 43
 
 **LEXICON TV_KEIJÕ = keijõ:kējõ 43
-
 
 **LEXICON IV_AŖŠTÕ = aŗštõ:āŗštõ 44
 
@@ -4232,7 +3294,6 @@ Should ss be s and šš be š? 2013-02-19
 **LEXICON TV_TUNDÕ = tundõ:tūndõ 47
 
 **LEXICON TV_OUDÕ = oudõ:ōdõ 48
-
 
 **LEXICON IV_KŪLÕ = kūlõ:kūlõ 49
 
@@ -4255,11 +3316,9 @@ Should ss be s and šš be š? 2013-02-19
 
 **LEXICON TV_KĪTÕ = kītõ:kīt 53
 
-
 **LEXICON IV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
 
 **LEXICON TV_ÄʼBȚÕ = äʼbțõ:äʼbț 54
-
 
 **LEXICON V-AUX_KŪLDÕ = kūldõ:kūld 55
 
@@ -4274,7 +3333,6 @@ Should ss be s and šš be š? 2013-02-19
 **LEXICON IV_ĪʼEDÕ = īʼedõ:īed 57
 
 **LEXICON TV_ĪʼEDÕ = īʼedõ:īed 57
-
 
 **LEXICON IV_UMBLÕ = umblõ: 58
 
@@ -4294,9 +3352,7 @@ Should ss be s and šš be š? 2013-02-19
 
 **LEXICON TV_NAʼGRÕ = naʼgrõ: 60
 
-
 **LEXICON V-AUX_ÄʼB = 62 äʼb:ä
-
 
 **LEXICON TV_SÄ = 63 sä:sä
 
@@ -4317,7 +3373,6 @@ Jus
 Qvo
 
 participles
-
 
 **LEXICON V-01_NǞʼDÕ = This is mutual for ??: 
 4 nǟʼdõ:nǟʼ
@@ -4369,10 +3424,7 @@ Qvo
 
 participles
 
-
 **LEXICON V-01_MÄNGÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
-
-
 
 29
 LEXICON	V-01_LUʼGGÕ  luʼggõ:luʼggõ 29
@@ -4386,20 +3438,16 @@ Kvo
 
 participles
 
-
 This is mutual for 37-48
 
 Prt
 
 participles
 
-
-
 **LEXICON V-01_KŪLÕ =  This is mutual for 49-50, 52-57
 Prt
 +Act+PrfPrc
 Cond
-
 
 **LEXICON V-01_AʼILÕ =  This is mutual for 51
 Ger, Ger_Ine
@@ -4437,8 +3485,6 @@ Quo+Sg3, Quo+Pl3, +NomAct -mi
 * **:%^VowsRM PSSPRSPRC ;** aʼil-
 * **:%^VowsRM PSSPRFPRCSG ;** aʼil-
 
-
-
 **LEXICON V-01_UMBLÕ = This is mutual for 58-61: 
 umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
 Prt
@@ -4448,11 +3494,6 @@ Jus
 Qvo
 
 participles
-
-
-
-
-
 
 ### Nonfinites
 
@@ -4484,14 +3525,12 @@ Are the singular and plural homonyms?
 **LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
 Are the singular and plural homonyms?
 
-
 **LEXICON PSSPRSPRC = 
 
 **LEXICON PSSPRFPRCSG = 
 2014-08-21
 
 ### Finites
-
 
 **LEXICON INDPRS_tõ = Indicative present
 
@@ -4503,9 +3542,7 @@ Are the singular and plural homonyms?
 
 **LEXICON INDPRTSG3-STEM_tõ = 
 
-
 **LEXICON COND = Conditional present
-
 
 ### Indicative present
 
@@ -4514,66 +3551,21 @@ Are the singular and plural homonyms?
 * INDPRSSG2 ; 
 * INDPRSSG3 ; these three lexica point to lexica with the actual suffixes.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Conditional
-
-
-
-
-
 
 Imperative
 
-
-
-
-
-
-
 Jussative
-
 
 Quotative
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
+
 # Symbol affixes
 
 **LEXICON Noun_symbols_possibly_inflected = 
@@ -4585,13 +3577,17 @@ Quotative
 **LEXICON SYMBOL_NO_suff = 
 
 **LEXICON SYMBOL_suff = 
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/symbols.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/symbols.lexc)</small>
+
+---
+
+
 Morphology
 
 # INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF LIVONIAN.
-
-
 
 ## List of the multichar symbols
 
@@ -4599,7 +3595,6 @@ The morphological analyses of wordforms in Livonian are presented
 in this system in terms of the symbols declared below.
 
 (It is highly suggested to follow existing GiellaLT standards when adding new tags).
-
 
 ## The parts-of-speech are:
 * **+A** = adjective
@@ -4659,7 +3654,6 @@ Nominals are inflected for Number and Case
 * **+Prl** = prolative
 * **+Tra** = translative
 * **+Voc** = Vocative
-
 
 Possession is marked as such:
 
@@ -4729,7 +3723,6 @@ Other verb forms are
 * **+Use/-Spell**
 * **+Use/NG** no generation
 
-
 Abbreviated words are classified with:
 * **+ABBR** containing period
 * +Symbol = independent symbols in the text stream, like £, €, ©
@@ -4755,7 +3748,6 @@ The first part of the component may be ..
 * +CmpN/SgG SgGenitive
 * +CmpN/PlG PlGenitive
 
-
 This entry / word can ...
 
 * +CmpNP/All - ... be in all positions, **default**, this tag does not have to be written
@@ -4767,15 +3759,12 @@ This entry / word can ...
 * +CmpNP/Only - ... only be part of a compound, i.e. can never
 be used alone, but can appear in any position
 
-
-
 Non-dictionary words can be recognised with:
 * **+Guess**
 
 Question and Focus particles:
 * **+Qst**
 * **+Foc**
-
 
 * **+Sem/Act** Activity
 * **+Sem/Amount** Amount
@@ -4870,13 +3859,7 @@ Question and Focus particles:
 * **+Sem/Wpn** Weapon
 * **+Sem/Wthr** The Weather or the state of ground
 
-
-
-
-
 Semantics are classified with
-
-
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -4890,7 +3873,6 @@ source and target part-of-speech.
 * **+NomAct**
 * **+NomAg**
 
-
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
@@ -4898,7 +3880,6 @@ source and target part-of-speech.
  %[%>%]  - Literal >
  %[%<%]  - Literal <
 ```
-
 
 # Morphophonology
 
@@ -4914,7 +3895,6 @@ And following triggers to control variation
 *  %^PenVV2V  penultimate vowel shortening
 
 *  %^ĪE2Ē   kēļ:kīel
-
 
 * {front} = front vowels
 * {back} = back vowels
@@ -4980,8 +3960,6 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
-
 ## Root lexicon
 
 The word forms in Livonian start from the lexeme roots of basic
@@ -5033,70 +4011,10 @@ This is used in compounding, e.g. äʼb-:äʼb
 * **LEXICON K** is the clitic lexicon, but no clitica here, only #.
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/root.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/root.lexc)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -5258,112 +4176,23 @@ raised							_r
 lowered							_o 
 advanced tongue root				_A 
 retracted tongue root			_q
+
 * * *
-<small>This (part of) documentation was generated from [../src/phonetics/txt2ipa.xfscript](http://github.com/giellalt/lang-liv/blob/main/../src/phonetics/txt2ipa.xfscript)</small>
 
+<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-liv/blob/main/src/phonetics/txt2ipa.xfscript)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
 Starting work with ordinals
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-liv/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+---
+
 
 
 We describe here how abbreviations are in Liv are read out, e.g.
@@ -5378,41 +4207,28 @@ For example:
 * esim.:esimerkki # ; 
 * esim.:esimerkiksi # ; 
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-liv/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
-
-
-
-
-
-
-
-
 
 # DELIMITERS
 
-
 # TAGS AND SETS
 
-
-
 ## Tags
-
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
 ### Beginning and end of sentence
 BOS
 EOS
-
-
 
 ### Parts of speech tags
 
@@ -5442,8 +4258,6 @@ PUNCT
 COMMA
 ¶
 
-
-
 ### Tags for POS sub-categories
 
 Pers
@@ -5459,7 +4273,6 @@ Prop
 Allegro
 Arab
 Romertall
-
 
 ### Tags for morphosyntactic properties
 
@@ -5522,11 +4335,7 @@ Sup
 Actio
 VAbess
 
-
-
 Err/Orth
-
-
 
 ### Semantic tags
 
@@ -5559,14 +4368,10 @@ HUMAN
 HAB-ACTOR
 HAB-ACTOR-NOT-HUMAN
 
-
 PROP-ATTR
 PROP-SUR
 
-
-
 TIME-N-SET
-
 
 ###  Syntactic tags
 
@@ -5638,22 +4443,15 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-
-
-
-
 ## Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-
-
 ### Sets for Single-word sets
 
 INITIAL
-
 
 ### Sets for word or not
 
@@ -5661,7 +4459,6 @@ WORD
 REAL-WORD
 REAL-WORD-NOT-ABBR
 NOT-COMMA
-
 
 ### Case sets
 
@@ -5676,7 +4473,6 @@ NOT-ACC
 
 ### Verb sets
 
-
 NOT-V
 
 ### Sets for finiteness and mood
@@ -5686,7 +4482,6 @@ REAL-NEG
 MOOD-V
 
 NOT-PRFPRC
-
 
 ### Sets for person
 
@@ -5700,49 +4495,15 @@ PL1-V
 PL2-V
 PL3-V
 
-
-
-
-
 ### Pronoun sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Adjectival sets and their complements
 
-
-
-
 ### Adverbial sets and their complements
-
-
-
 
 ### Sets of elements with common syntactic behaviour
 
-
 ### NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
-
 
 ### The PRE-NP-HEAD family of sets
 
@@ -5750,86 +4511,34 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Border sets and their complements
-
-
-
-
-
-
-
-
-
-
 
 ### Grammarchecker sets
 
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-liv/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-liv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# Grammar checker tokenisation for liv
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
+```
 $ make
 $ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-
-Issues:
-- [X] Ambiguous input
-- Seems to work fine
-- [X] Ambiguous multiword expessions with ambiguous tokenisation
-- Seems to work – represented within lexc now; hfst-tokenise also
-supports forms on the analyses now
-- [X] Ambiguous multiword expessions need reorganising after CG
-- The module cg-mwesplit takes wordforms from readings and turns them into
-new cohorts
-- [X] Unknown words
-- The set-difference method only works for words without
-flag diacritics (even though we should be working only on the form-side?)
-and leads to binary blow-up: With only lower unknowns, we get 45M;
-lower+upper gives 67M, while no unknowns gives 27M
-- Fixed instead by treating empty analyses as unknown-tokens in
-hfst-tokenise, and outputting unmatched strings with a prefix
-- [ ] Treat input that's within superblanks as unmatched
-- probably requires a change in hfst-tokenise itself
-- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
-- [ ] Try set-difference-unknowns method with regular hfst commands?
+```
 
 More usage examples:
+```
 $ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -5844,9 +4553,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1) unknown word-like forms, and
@@ -5860,14 +4566,11 @@ so far:
 
 TODO: Could use something like this, but built-in's don't include šžđčŋ:
 
-
 Simply give an empty reading when something is unknown:
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -5876,7 +4579,12 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-liv/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for liv
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-liv/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+
+---
+
+# Tokeniser for liv
 
 Usage:
 ```
@@ -5888,12 +4596,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -5908,9 +4611,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1. unknown word-like forms, and
@@ -5929,16 +4629,12 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-
-
 ## Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -5947,4 +4643,8 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-liv/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-liv/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+

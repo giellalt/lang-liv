@@ -3,15 +3,12 @@ Morphology
 
 # INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF LIVONIAN.
 
-
-
 ## List of the multichar symbols
 
 The morphological analyses of wordforms in Livonian are presented
 in this system in terms of the symbols declared below.
 
 (It is highly suggested to follow existing GiellaLT standards when adding new tags).
-
 
 ## The parts-of-speech are:
 * **+A** = adjective
@@ -71,7 +68,6 @@ Nominals are inflected for Number and Case
 * **+Prl** = prolative
 * **+Tra** = translative
 * **+Voc** = Vocative
-
 
 Possession is marked as such:
 
@@ -141,7 +137,6 @@ Other verb forms are
 * **+Use/-Spell**
 * **+Use/NG** no generation
 
-
 Abbreviated words are classified with:
 * **+ABBR** containing period
 * +Symbol = independent symbols in the text stream, like £, €, ©
@@ -167,7 +162,6 @@ The first part of the component may be ..
 * +CmpN/SgG SgGenitive
 * +CmpN/PlG PlGenitive
 
-
 This entry / word can ...
 
 * +CmpNP/All - ... be in all positions, **default**, this tag does not have to be written
@@ -179,15 +173,12 @@ This entry / word can ...
 * +CmpNP/Only - ... only be part of a compound, i.e. can never
 be used alone, but can appear in any position
 
-
-
 Non-dictionary words can be recognised with:
 * **+Guess**
 
 Question and Focus particles:
 * **+Qst**
 * **+Foc**
-
 
 * **+Sem/Act** Activity
 * **+Sem/Amount** Amount
@@ -282,13 +273,7 @@ Question and Focus particles:
 * **+Sem/Wpn** Weapon
 * **+Sem/Wthr** The Weather or the state of ground
 
-
-
-
-
 Semantics are classified with
-
-
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -302,7 +287,6 @@ source and target part-of-speech.
 * **+NomAct**
 * **+NomAg**
 
-
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
@@ -310,7 +294,6 @@ source and target part-of-speech.
  %[%>%]  - Literal >
  %[%<%]  - Literal <
 ```
-
 
 # Morphophonology
 
@@ -326,7 +309,6 @@ And following triggers to control variation
 *  %^PenVV2V  penultimate vowel shortening
 
 *  %^ĪE2Ē   kēļ:kīel
-
 
 * {front} = front vowels
 * {back} = back vowels
@@ -392,8 +374,6 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
-
 ## Root lexicon
 
 The word forms in Livonian start from the lexeme roots of basic
@@ -445,4 +425,8 @@ This is used in compounding, e.g. äʼb-:äʼb
 * **LEXICON K** is the clitic lexicon, but no clitica here, only #.
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/root.lexc)</small>
+
+---
+

@@ -12,7 +12,6 @@ This file documents `affixes/adjectives.lexc`, the file for Livonian adjective i
 
 LEXICON A_PŪ  contains pū: 12
 
-
 LEXICON A_BRĪ  contains brī:brī 16
 
 LEXICON A_KALĀ   contains  kalā:kaʼlā 18
@@ -20,7 +19,6 @@ LEXICON A_KALĀ   contains  kalā:kaʼlā 18
 LEXICON A_TUBĀ  tubā:tuʼbā 19
 
 LEXICON A_AIGĀ  aigā:aʼig 20
-
 
 LEXICON A_KŪJA  kūja:??lēba 21
 
@@ -42,7 +40,6 @@ LEXICON A_KĒRA  kēra:kēra 43
 
 LEXICON A_JǬRA  jǭra:jǭra 44
 
-
 LEXICON A_ĀITA  āita:āita 46
 
 LEXICON A_ŪŠKA  ūška:ūška 47
@@ -54,7 +51,6 @@ LEXICON A_DADŽĀ  dadžā:dadžā 49
 LEXICON A_TĪERA  tīera:tīera 54
 
 LEXICON A_LILLA  kuțā:kuțā 57
-
 
 LEXICON A_KIʼV  kiʼv:kiv 59
 
@@ -131,7 +127,6 @@ LEXICON A_TAPTÕD  taptõd: 161
 
 LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
 
-
 LEXICON A_KÄBRĀZ  : 168
 
 LEXICON A_MAIGĀZ  : 169
@@ -196,8 +191,6 @@ LEXICON A_JŪŖ  jūŗ:jūr 221
 
 LEXICON A_SŪR  sūr:sūr 222
 
-
-
 LEXICON A_DULLÕNZ  dullõnz:dullõn 227
 
 LEXICON A_AŅGÕRZ  : aņgõrz:aņgõr 229
@@ -218,10 +211,9 @@ LEXICON A_ĀNKAŖ  ānkaŗ:ānkaŗ 240
 
 LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-liv/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/adjectives.lexc)</small>
+
+---
+
