@@ -1721,39 +1721,39 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_LĒʼḐ-SG** lēʼḑ:līʼed 147
 * **LEXICON NMN_LĒʼḐ-PL** lēʼḑ:līʼed 147
 
-*āigalē’ḑ # examples:*
+* āigalē’ḑ # examples:*
 
-*āigalē’ḑ+N+Sg+Nom examples:*
+* āigalē’ḑ+N+Sg+Nom examples:*
 
-*āigalē’ḑ+N+Sg+Gen examples:*
+* āigalē’ḑ+N+Sg+Gen examples:*
 
-*āigalē’ḑ+N+Sg+Dat examples:*
+* āigalē’ḑ+N+Sg+Dat examples:*
 
-*āigalē’ḑ+N+Sg+Par examples:*
+* āigalē’ḑ+N+Sg+Par examples:*
 
-*āigalē’ḑ+N+Sg+Ins examples:*
+* āigalē’ḑ+N+Sg+Ins examples:*
 
-*āigalē’ḑ+N+Sg+Ill examples:*
+* āigalē’ḑ+N+Sg+Ill examples:*
 
-*āigalē’ḑ+N+Sg+Ine examples:*
+* āigalē’ḑ+N+Sg+Ine examples:*
 
-*āigalē’ḑ+N+Sg+Ela examples:*
+* āigalē’ḑ+N+Sg+Ela examples:*
 
-*āigalē’ḑ+N+Pl+Nom examples:*
+* āigalē’ḑ+N+Pl+Nom examples:*
 
-*āigalē’ḑ+N+Pl+Gen examples:*
+* āigalē’ḑ+N+Pl+Gen examples:*
 
-*āigalē’ḑ+N+Pl+Dat examples:*
+* āigalē’ḑ+N+Pl+Dat examples:*
 
-*āigalē’ḑ+N+Pl+Par examples:*
+* āigalē’ḑ+N+Pl+Par examples:*
 
-*āigalē’ḑ+N+Pl+Ins examples:*
+* āigalē’ḑ+N+Pl+Ins examples:*
 
-*āigalē’ḑ+N+Pl+Ill examples:*
+* āigalē’ḑ+N+Pl+Ill examples:*
 
-*āigalē’ḑ+N+Pl+Ine examples:*
+* āigalē’ḑ+N+Pl+Ine examples:*
 
-*āigalē’ḑ+N+Pl+Ela examples:*
+* āigalē’ḑ+N+Pl+Ela examples:*
 
 * **LEXICON NMN_KĪNTŠ** : 148
 * **LEXICON NMN_KĪNTŠ-SG** : 148
@@ -3011,43 +3011,43 @@ They must be escaped (cf morpheme boundaries further down):
 
 **Rule: ǟ:ä in first syllable**
 
-*kǟnga%^VowShIn1%^A2ÕIn2 examples:*
+* kǟnga%^VowShIn1%^A2ÕIn2 examples:*
 
-*kängõ00 examples:*
+* kängõ00 examples:*
 
 **Rule: ā:a in first syllable**
 
-*āļdža%^VowShIn1%^A2ÕIn2 examples:*
+* āļdža%^VowShIn1%^A2ÕIn2 examples:*
 
-*aļdžõ00 examples:*
+* aļdžõ00 examples:*
 
-*āita%^PenVV2V%^VowsRM%>õ examples:*
+* āita%^PenVV2V%^VowsRM%>õ examples:*
 
-*ait000%>õ examples:*
+* ait000%>õ examples:*
 
 **Rule: ȱ:ȯ**
 
-*vȱntsa%^VowShIn1%^VowsRM%>õ examples:*
+* vȱntsa%^VowShIn1%^VowsRM%>õ examples:*
 
-*vȯnts0000õ examples:*
+* vȯnts0000õ examples:*
 
 **Rule: ā:ī in second syllable plural**
 
-*rikkā%^ConsSh%^Vow2Iin2>di examples:*
+* rikkā%^ConsSh%^Vow2Iin2>di examples:*
 
-*rik0ī000di examples:*
+* rik0ī000di examples:*
 
 **Rule: ū:ī in second syllable plural**
 
-*ruzū%^Vow2Iin2>di examples:*
+* ruzū%^Vow2Iin2>di examples:*
 
-*ruzī000di examples:*
+* ruzī000di examples:*
 
 **Rule: a:i in second syllable plural**
 
-*āita%^Vow2Iin2>di examples:*
+* āita%^Vow2Iin2>di examples:*
 
-*āiti00di examples:*
+* āiti00di examples:*
 
 **Rule: ǭ:a in first syllable**
 
@@ -3057,25 +3057,25 @@ They must be escaped (cf morpheme boundaries further down):
 
 **Rule: ū:ȯ in first syllable**
 
-*pūol0a%^Stress1to2%^ConsL examples:*
+* pūol0a%^Stress1to2%^ConsL examples:*
 
-*pȯ0llõ00 examples:*
+* pȯ0llõ00 examples:*
 
-*pūoga%^VowsSh1%^PalatalizeLeft%^VowsRM%>õ examples:*
+* pūoga%^VowsSh1%^PalatalizeLeft%^VowsRM%>õ examples:*
 
-*pȯig00000õ examples:*
+* pȯig00000õ examples:*
 
 **Rule: ī:i in first syllable**
 
-*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+* tīer0a%^VowShIn1%^A2ÕIn2 examples:*
 
-*tierrõ00 examples:*
+* tierrõ00 examples:*
 
 **Rule: ȭ:õ in first syllable**
 
-*mȭuka%^VowsSh1%^VowsRM%>õ examples:*
+* mȭuka%^VowsSh1%^VowsRM%>õ examples:*
 
-*mõuk0000õ examples:*
+* mõuk0000õ examples:*
 
 **Rule: ō:o in first syllable**
 
@@ -3083,19 +3083,19 @@ lengthen vowels
 
 **Rule: e:ē in first syllable**
 
-*leiba%^VowsLI1%>st examples:*
+* leiba%^VowsLI1%>st examples:*
 
-*lē0ba00st examples:*
+* lē0ba00st examples:*
 
-*tei%^VowsLI1%>ḑi examples:*
+* tei%^VowsLI1%>ḑi examples:*
 
-*tē000ḑi examples:*
+* tē000ḑi examples:*
 
 **Rule: u:ū in first syllable**
 
-*ul%^VowsLI1>õd examples:*
+* ul%^VowsLI1>õd examples:*
 
-*ūl00õd examples:*
+* ūl00õd examples:*
 
 **Rule: õ:ȭ in first syllable**
 
@@ -3105,9 +3105,9 @@ lengthen vowels
 
 **Rule: 0:i after shortened vowel or diphthong**
 
-*v0eʼd%^PreI examples:*
+* v0eʼd%^PreI examples:*
 
-*vieʼd0 examples:*
+* vieʼd0 examples:*
 
 **Rule: 0:u after shortened vowel or diphthong**
 
@@ -3117,113 +3117,113 @@ lengthen vowels
 
 **Rule: a:ǭ in first syllable**
 
-*tam%^VowsL1aToǭõd examples:*
+* tam%^VowsL1aToǭõd examples:*
 
-*tǭm0õd examples:*
+* tǭm0õd examples:*
 
 **Rule: a:ā in first syllable**
 
-*kand%^VowsLI1õd examples:*
+* kand%^VowsLI1õd examples:*
 
-*kāndõd examples:*
+* kāndõd examples:*
 
 **Rule: i:ī in first syllable**
 
-*niŗț%^VowsLI1%>õ examples:*
+* niŗț%^VowsLI1%>õ examples:*
 
-*nīŗț00õ examples:*
+* nīŗț00õ examples:*
 
 **Rule: o:ō in first syllable**
 
-*ouki%^VowsLI1z examples:*
+* ouki%^VowsLI1z examples:*
 
-*ō0ki0z examples:*
+* ō0ki0z examples:*
 
 **Rule: o:i**
 
-*pūog%^VowsSh1%^PalatalizeLeft%>õ examples:*
+* pūog%^VowsSh1%^PalatalizeLeft%>õ examples:*
 
-*pȯig0000õ examples:*
+* pȯig0000õ examples:*
 
 LOWER VOWELS
 **Rule: ī:ē in tīe 15**
 
-*tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:*
+* tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:*
 
-*tē000000šti examples:*
+* tē000000šti examples:*
 
-*kīel%^ĪE2Ē%^PalatalizeLeft examples:*
+* kīel%^ĪE2Ē%^PalatalizeLeft examples:*
 
-*kē0ļ00 examples:*
+* kē0ļ00 examples:*
 
 Destressing in second syllable
 **Rule: ā:õ **
 
-*käp0ā%^ConsL%^LongV2Õin2 examples:*
+* käp0ā%^ConsL%^LongV2Õin2 examples:*
 
-*käppõ00 examples:*
+* käppõ00 examples:*
 * *rik0āz%^Stress2to1%^ConsRM*
 * *rikkõ000*
 
 **Rule: a:õ **
 
-*tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+* tīer0a%^VowShIn1%^A2ÕIn2 examples:*
 
-*tierrõ00 examples:*
+* tierrõ00 examples:*
 
 **Rule: ū:õ **
 
 **Rule: õ:i**
 
-*ǭʼrõn%^PalatalizeLeft examples:*
+* ǭʼrõn%^PalatalizeLeft examples:*
 
-*ǭʼriņ0 examples:*
+* ǭʼriņ0 examples:*
 
-*nȭŗkõz%^PalatalizeLeft%>ist examples:*
+* nȭŗkõz%^PalatalizeLeft%>ist examples:*
 
-*nȭŗkiz00ist examples:*
+* nȭŗkiz00ist examples:*
 
 VOWEL LOSS
 
 **Rule: ā:0**
 
-*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
+* aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
 
-*äʼm000000ži examples:*
+* äʼm000000ži examples:*
 
-*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
+* aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
 
-*ä0m00000ḑi examples:*
+* ä0m00000ḑi examples:*
 
-*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
+* daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
 
-*daʼdz0000õ examples:*
+* daʼdz0000õ examples:*
 
-*maʼigāz%^StodRM%^VowsRM%^ConsRM>īst examples:*
+* maʼigāz%^StodRM%^VowsRM%^ConsRM>īst examples:*
 
-*ma0ig000000īst examples:*
+* ma0ig000000īst examples:*
 
 **Rule: ū:0**
 
 **Rule: ī:0**
 
-*sīe%>i examples:*
+* sīe%>i examples:*
 
-*s0e0i examples:*
+* s0e0i examples:*
 
 **Rule: a:0**
 
-*jǭr0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
+* jǭr0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
 
-*jarr0000õ examples:*
+* jarr0000õ examples:*
 
-*pūol0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
+* pūol0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
 
-*pȯ0ll0000õ examples:*
+* pȯ0ll0000õ examples:*
 
-*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+* kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
 
-*keņg0000i examples:*
+* keņg0000i examples:*
 
 **Rule: e:0**
 * *tīʼe%^LowerVows%^StodRM%^VowsRM%>šti*
@@ -3234,48 +3234,48 @@ kēļ+N+Sg+Nom
 
 **Rule: õ:0**
 
-*kittõ%^ConsSh%^VowsRM%>dõd examples:*
+* kittõ%^ConsSh%^VowsRM%>dõd examples:*
 
-*kit00000tõd examples:*
+* kit00000tõd examples:*
 
 **Rule: i:0 in first syllable**
 
-*leiba%^VowsLI1%>st examples:*
+* leiba%^VowsLI1%>st examples:*
 
-*lē0ba00st examples:*
+* lē0ba00st examples:*
 
-*tei%^VowsLI1%>ḑi examples:*
+* tei%^VowsLI1%>ḑi examples:*
 
-*tē000ḑi examples:*
+* tē000ḑi examples:*
 
-*lǭija%^ConsSh examples:*
+* lǭija%^ConsSh examples:*
 
-*lǭ0ja0 examples:*
+* lǭ0ja0 examples:*
 
-*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
+* liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
 
-*l0ešt00000i examples:*
+* l0ešt00000i examples:*
 
-*ūiska%^ConsSh examples:*
+* ūiska%^ConsSh examples:*
 
-*ū0ška0 examples:*
+* ū0ška0 examples:*
 
 **Rule: u:0 in second position of first-syllable diphthong**
 
-*ouki%^VowsLI1z examples:*
+* ouki%^VowsLI1z examples:*
 
-*ō0ki0z examples:*
+* ō0ki0z examples:*
 
-*pǟuva%^ConsSh examples:*
+* pǟuva%^ConsSh examples:*
 
-*pǟ0va0 examples:*
+* pǟ0va0 examples:*
 
 **Rule: o:0 in second position of first-syllable diphthong**
 ```
 
-*pūol0a%^Stress1to2%^ConsL examples:*
+* pūol0a%^Stress1to2%^ConsL examples:*
 
-*pȯ0llõ00 examples:*
+* pȯ0llõ00 examples:*
 ```
 
 ### Zero to vowel
@@ -3287,9 +3287,9 @@ kēļ+N+Sg+Nom
 ### Consonant loss 
 **Rule: shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb**
 
-*aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
+* aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
 
-*äʼm000000ži examples:*
+* äʼm000000ži examples:*
 
 **Rule: z:0**
 * *rik0āz%^Stress2to1%^ConsRM*
@@ -3304,23 +3304,23 @@ simultaneous to reducing vowel of second syllable
 * *ka0l0ā%^Stress2to1*
 * *rik0āz%^Stress2to1%^ConsRM*
 
-*pūol0a%^Stress1to2%^ConsL examples:*
+* pūol0a%^Stress1to2%^ConsL examples:*
 
-*pȯ0llõ00 examples:*
+* pȯ0llõ00 examples:*
 
 **Rule: 0:p**
 
-*käp0ā%^ConsL%^LongV2Õin2 examples:*
+* käp0ā%^ConsL%^LongV2Õin2 examples:*
 
-*käppõ00 examples:*
+* käppõ00 examples:*
 
 **Rule: %{XC%}:Cx**
 
 **%{XC%}:p** 2014-02-27
 
-*kep%{XC%}>õ examples:*
+* kep%{XC%}>õ examples:*
 
-*kepp0õ examples:*
+* kepp0õ examples:*
 
 **%{XC%}:s** 2020-10-21
 tas+N+Sg+Ill
@@ -3329,38 +3329,38 @@ tas+N+Sg+Ill
 
 **%{XC%}:ž** 2014-02-27
 
-*veʼd%^D2Ž%{XC%}>i examples:*
+* veʼd%^D2Ž%{XC%}>i examples:*
 
-*veʼž0ž0i examples:*
+* veʼž0ž0i examples:*
 
 **%{XC%}:k** 2014-02-27
 
-*rok%{XC%}>õ examples:*
+* rok%{XC%}>õ examples:*
 
-*rokk0õ examples:*
+* rokk0õ examples:*
 
 **Rule: Stod removal left**
 
-*daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
+* daʼdzā%^Stress1to2%^VowsRM%>õ examples:*
 
-*daʼdz0000õ examples:*
+* daʼdz0000õ examples:*
 aʼb#sõʼnā+N+Sg+Nom: 
 * *aʼb#sõʼn%^StodRMā*
 * *aʼb#sõ0n0ā*
 
-*ka0l0ā%^Stress2to1 examples:*
+* ka0l0ā%^Stress2to1 examples:*
 
-*kaʼllõ0 examples:*
+* kaʼllõ0 examples:*
 
 **Rule: z:ž**
 
-*alīz%^PalatalizeLeft%>i examples:*
+* alīz%^PalatalizeLeft%>i examples:*
 
-*alīž00i examples:*
+* alīž00i examples:*
 
-*izā%^PalatalizeLeft%^VowsRM%>ḑi examples:*
+* izā%^PalatalizeLeft%^VowsRM%>ḑi examples:*
 
-*iž0000ḑi examples:*
+* iž0000ḑi examples:*
 
 **Rule: d:ḑ**
 lēʼḑ:līʼed 147
@@ -3369,50 +3369,50 @@ lēʼḑ:līʼed 147
 This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 kēļ:kēl 215
 
-*äʼddõl%^PalatalizeLeft%>i examples:*
+* äʼddõl%^PalatalizeLeft%>i examples:*
 
-*äʼddiļ00i examples:*
+* äʼddiļ00i examples:*
 
-*tuʼl%^StodRM%^PalatalizeLeft%>īž examples:*
+* tuʼl%^StodRM%^PalatalizeLeft%>īž examples:*
 
-*tu0ļ000īž examples:*
+* tu0ļ000īž examples:*
 
 **Rule: n:ņ palatalization**
 
-*Vē0na%^PalatalizeLeft%^VowsRMõ examples:*
+* Vē0na%^PalatalizeLeft%^VowsRMõ examples:*
 
-*Vein000õ examples:*
+* Vein000õ examples:*
 
-*ǭʼrõn%^PalatalizeLeft examples:*
+* ǭʼrõn%^PalatalizeLeft examples:*
 
-*ǭʼriņ0 examples:*
+* ǭʼriņ0 examples:*
 
-*vȱntsa%^VowShIn1%^PalatalizeLeft%^VowsRM%>ti examples:*
+* vȱntsa%^VowShIn1%^PalatalizeLeft%^VowsRM%>ti examples:*
 
-*vȯņtš00000ti examples:*
+* vȯņtš00000ti examples:*
 sēņ:sēn 220
 
-*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+* kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
 
-*keņg0000i examples:*
+* keņg0000i examples:*
 
 **Rule: r:ŗ**
 jūŗ:jūr 221
 
-*ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+* ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
 
-*eŗg0000i examples:*
+* eŗg0000i examples:*
 
 **Rule: d:t**
 
-*kittõ%^ConsSh%^VowsRM%>dõd examples:*
+* kittõ%^ConsSh%^VowsRM%>dõd examples:*
 
-*kit00000tõd examples:*
+* kit00000tõd examples:*
 nominative plural 
 
-*v0eʼd%^PreI%^StodRM%^D2T examples:*
+* v0eʼd%^PreI%^StodRM%^D2T examples:*
 
-*vie0t examples:*
+* vie0t examples:*
 
 **Rule: d:ț**
 
@@ -3425,41 +3425,41 @@ nominative plural
 
 **T loss before subsequent morpheme with underlying initial d**  
 
-*kittõ%^ConsSh%^VowsRM%>dõd examples:*
+* kittõ%^ConsSh%^VowsRM%>dõd examples:*
 
-*kit00000tõd examples:*
+* kit00000tõd examples:*
 
 **Rule: k:0**
 
-*rikkā%^ConsSh%^Vow2Iin2di examples:*
+* rikkā%^ConsSh%^Vow2Iin2di examples:*
 
-*rik0ī00di examples:*
+* rik0ī00di examples:*
 
 **Rule: ț:0**
 
 **Rule: s:š palatalization**
 
-*liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
+* liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
 
-*l0ešt00000i examples:*
+* l0ešt00000i examples:*
 
-*pȯ0is%^VowsLI1õd examples:*
+* pȯ0is%^VowsLI1õd examples:*
 
-*pūo0š0õd examples:*
+* pūo0š0õd examples:*
 
 **Rule: ǟ:ē palatalization**
 
 **Rule: ǟ:e short and palatalization**
 
-*kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+* kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
 
-*keņg0000i examples:*
+* keņg0000i examples:*
 
 **Rule: a:ä palatalization**
 
-*aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
+* aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi examples:*
 
-*äʼm00000ḑi examples:*
+* äʼm00000ḑi examples:*
 
 * * *
 

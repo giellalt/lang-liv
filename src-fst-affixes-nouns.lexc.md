@@ -1277,39 +1277,39 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_LĒʼḐ-SG** lēʼḑ:līʼed 147
 * **LEXICON NMN_LĒʼḐ-PL** lēʼḑ:līʼed 147
 
-*āigalē’ḑ # examples:*
+* āigalē’ḑ # examples:*
 
-*āigalē’ḑ+N+Sg+Nom examples:*
+* āigalē’ḑ+N+Sg+Nom examples:*
 
-*āigalē’ḑ+N+Sg+Gen examples:*
+* āigalē’ḑ+N+Sg+Gen examples:*
 
-*āigalē’ḑ+N+Sg+Dat examples:*
+* āigalē’ḑ+N+Sg+Dat examples:*
 
-*āigalē’ḑ+N+Sg+Par examples:*
+* āigalē’ḑ+N+Sg+Par examples:*
 
-*āigalē’ḑ+N+Sg+Ins examples:*
+* āigalē’ḑ+N+Sg+Ins examples:*
 
-*āigalē’ḑ+N+Sg+Ill examples:*
+* āigalē’ḑ+N+Sg+Ill examples:*
 
-*āigalē’ḑ+N+Sg+Ine examples:*
+* āigalē’ḑ+N+Sg+Ine examples:*
 
-*āigalē’ḑ+N+Sg+Ela examples:*
+* āigalē’ḑ+N+Sg+Ela examples:*
 
-*āigalē’ḑ+N+Pl+Nom examples:*
+* āigalē’ḑ+N+Pl+Nom examples:*
 
-*āigalē’ḑ+N+Pl+Gen examples:*
+* āigalē’ḑ+N+Pl+Gen examples:*
 
-*āigalē’ḑ+N+Pl+Dat examples:*
+* āigalē’ḑ+N+Pl+Dat examples:*
 
-*āigalē’ḑ+N+Pl+Par examples:*
+* āigalē’ḑ+N+Pl+Par examples:*
 
-*āigalē’ḑ+N+Pl+Ins examples:*
+* āigalē’ḑ+N+Pl+Ins examples:*
 
-*āigalē’ḑ+N+Pl+Ill examples:*
+* āigalē’ḑ+N+Pl+Ill examples:*
 
-*āigalē’ḑ+N+Pl+Ine examples:*
+* āigalē’ḑ+N+Pl+Ine examples:*
 
-*āigalē’ḑ+N+Pl+Ela examples:*
+* āigalē’ḑ+N+Pl+Ela examples:*
 
 * **LEXICON NMN_KĪNTŠ** : 148
 * **LEXICON NMN_KĪNTŠ-SG** : 148
