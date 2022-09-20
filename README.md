@@ -17,6 +17,12 @@ other licencing choices.
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-liv)
 for the Liv language by using the [Divvun Installer](http://divvun.no)
 
+Use and test spellers
+---------------------
+
+The spellers downloadable at the top of this page (the `*.bhfst` files) can be
+used with [divvunspell](https://github.com/divvun/divvunspell).
+
 Documentation
 -------------
 
@@ -27,8 +33,6 @@ Documentation can be found here:
 -   <https://giellalt.uit.no/lang/liv/LivonianDocumentation.html>
     (analyser)
 -   <https://giellalt.uit.no/index.html> (infrastructure)
-
-this is a bla-bla-bla.
 
 Core dependencies
 -----------------
