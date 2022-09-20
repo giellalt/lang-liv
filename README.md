@@ -26,13 +26,10 @@ used with [divvunspell](https://github.com/divvun/divvunspell).
 Documentation
 -------------
 
-Documentation can be found here:
+Documentation can be found at:
 
-- [In source documentation generated with github
-   pages](https://gilellalt.github.io/lang-liv/)
 -   <https://giellalt.uit.no/lang/liv/LivonianDocumentation.html>
-    (analyser)
--   <https://giellalt.uit.no/index.html> (infrastructure)
+-   <https://giellalt.uit.no/index.html>
 
 Core dependencies
 -----------------
