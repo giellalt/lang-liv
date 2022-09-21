@@ -28,7 +28,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/liv/LivonianDocumentation.html>
+- [Language specific documentation](https://giellalt.github.io/lang-liv/)
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
