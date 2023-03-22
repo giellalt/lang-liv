@@ -356,6 +356,8 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_ĀIGAST** : 140
 * **LEXICON N_ĀIGAST-PL** : 140
 
+* **LEXICON N_ADRES** : 140
+
 * **LEXICON N_ANALĪZ** : 141
 
 * **LEXICON N_NĪʼEM** nīʼem:nīem 142
@@ -1249,6 +1251,8 @@ Sg Nom=Gen: No
 
 140, 141, 142
 **241**
+
+**241 was ĀIGAST**
 
 141
 **87**
