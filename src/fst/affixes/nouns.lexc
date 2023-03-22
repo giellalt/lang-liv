@@ -6,8 +6,6 @@
 
 !! ## Ad hoc lexica
 
-LEXICON PL-INS_KÕKS-STEM
-# ; ! fix
 
 !! PROBLEMS with dictionary lexica
 
@@ -623,6 +621,9 @@ LEXICON N_ĀIGAST !!≈ * **@CODE@** : 140
  NMN_ĀIGAST   ;
 LEXICON N_ĀIGAST-PL !!≈ * **@CODE@** : 140
  NMN_ĀIGAST-PL	;
+
+LEXICON N_ADRES !!≈ * **@CODE@** : 140
+ NMN_ADRES ;! wasĀIGAST   
 
 LEXICON N_ANALĪZ !!≈ * **@CODE@** : 141
  	NMN_ANALĪZ ;
@@ -2633,6 +2634,12 @@ LEXICON NMN_TUP-SG !!≈ * **@CODE@** tup:tup 79
 
 LEXICON NMN_TUP-PL !!≈ * **@CODE@** tup:tup 79
 	NMN_NIʼM-PL ;
+:ū        PL-INS_DÕKS-STEM ;
+:        PL-ELA/INE_īst ;
+:%{XC%}%>õ        PL-ELA/INE_st ;
+:        PL-ILL_īž ;
+!       PL-INE ;
+:        PL-PAR_īdi ;
 
 
 LEXICON NMN_MAKS !!≈ * **@CODE@** : 80
@@ -3504,6 +3511,7 @@ LEXICON NMN_IRM
 LEXICON NMN_IRM-SG
         SG-DAT_õn ;
        	SG-ELA/INE_stõ ;
+       	SG-ELA/INE_st ;
        	SG-GEN ;
    	SG-ILL_õ ;
         SG-INS_õks ;
@@ -3803,6 +3811,27 @@ LEXICON NMN_ĀIGAST-PL
  	PL-INS_ÕDÕKS-STEM ;
  	PL-ELA/INE_ist ;
  	PL-ILL_iž ;
+ 	PL-PAR_idi ;
+
+LEXICON NMN_ADRES ! strategy 2023_03_22 bring Vs subset
+!! **241 was ĀIGAST**
+        NMN_ADRES-SG     ;
+        NMN_ADRES-PL     ;
+
+LEXICON NMN_ADRES-SG
+        SG-DAT_õn ;
+       	SG-ELA/INE_õst ;
+        SG-GEN ;
+  	SG-ILL_õ ;
+        SG-INS_õks ;
+	SG-NOM  ;
+    	SG-PAR_õ ;
+
+LEXICON NMN_ADRES-PL
+:%{XC%} 	PL-INS_ÕDÕKS-STEM ;!2023_03_22 distinction CHECKME adressõdõn adressõdõks
+: 	PL-INS_ÕDÕKS-STEM ;!2023_03_22 distinction CHECKME VALTS adresõdõn adresõdõks
+:%{XC%} 	PL-ELA/INE_ist ;!2023_03_22 distinction
+:%{XC%} 	PL-ILL_iž ;
  	PL-PAR_idi ;
 !! 141
 LEXICON NMN_ANALĪZ !!
@@ -4617,6 +4646,7 @@ LEXICON NMN_SĒJI-PL !!≈ * **@CODE@** : 186
        PL-INS_ZTÕKS-STEM ;!UNIMORPH	2019
 +Err/Orth:       PL-INS_DÕKS-STEM ;!2014
        PL-ELA/INE_žist ;!UNIMORPH	2019
+       PL-ELA/INE_st ;!UNIMORPH 2019/2023
 +Err/Orth:       PL-ELA/INE_sti ;! 2014
        PL-ILL_žiz ;!UNIMORPH	2019
        PL-ILL_ži ;!UNIMORPH	2019
@@ -5103,10 +5133,10 @@ LEXICON NMN_LÄPŠ-PL !!≈ * **@CODE@** läpš:laps 211
 !!:%^PalatalizeLeft       SG-NOM  ;
 !!:%^RVows                SG-PAR_dõ ;
 LEXICON NMN_ROʼVZT-PL !!≈ * **@CODE@** roʼvzt:roʼvzt 212
-:     PL-INS_KÕKS-STEM   ;
-:%^PalatalizeLeft     PL-ELA/INE_ist   ;
-:%^PalatalizeLeft     PL-ILL_iž   ;
-:%^PalatalizeLeft     PL-PAR_i   ;
+:     PL-INS_TÕKS-STEM   ;
+:%>t     PL-ELA/INE_ist   ;
+:%>t     PL-ILL_iž   ;
+:%^PalatalizeLeft%>t     PL-PAR_i   ;
 
 LEXICON NMN_TUʼĻ !!≈ * **@CODE@** : 213 tuʼļ:tuʼl
 !! * Yaml: **N-tuqlj**
@@ -5638,6 +5668,12 @@ LEXICON PL-INS_DKÕKS-STEM
      PL-INS_dkõks      ;
      PL-NOM_d         ;
 
+LEXICON PL-INS_TÕKS-STEM
+     PL-DAT_tõn       ;
+     PL-GEN_t         ;
+     PL-INS_tõks      ;
+     PL-NOM_t         ;
+
 LEXICON PL-INS_TKÕKS-STEM
      PL-DAT_tõn       ;
      PL-GEN_t         ;
@@ -6010,8 +6046,8 @@ LEXICON PL-INS_ztõks
 LEXICON PL-INS_kõks !!≈ * **@CODE@** This is peculiar to NMN_PŪOL-PL  216
 +Pl+Ins:%>kõks K ;
 
-!LEXICON PL-INS_õks
-!+Pl+Ins:%>õks K ;
+LEXICON PL-INS_tõks
++Pl+Ins:%>tõks K ;
 
 LEXICON PL-NOM_d
 +Pl+Nom:%>d K ;
