@@ -12,6 +12,54 @@ LEXICON TV_
 !!  **LEXICON @LEXNAME@ = CONJUGATION TYPE MISSING
 +TV: K ;
 
+LEXICON V-AUX_VȰLDA
+!!  **LEXICON @LEXNAME@ =  10 vȱlda:ZERO
++Ind+Prs+Sg1:uʼm K ;
++Ind+Prs+Sg2:ūod K ;
++Ind+Prs+Sg3:uʼm K ;
++Ind+Prs+Pl1:ūomõ K ;
++Ind+Prs+Pl1:ūom K ;
++Ind+Prs+Pl2:ūotõ K ;
++Ind+Prs+Pl3:ātõ K ;
++Ind+Prs+Pl3:attõ K ;
++Ind+Prs+Pl3:āt K ;
++Ind+Prs+Pl3:at K ;
++Ind+Conneg+Sg:ūo K ;
++Ind+Conneg+Pl1:ūomõ K ;
++Ind+Conneg+Pl2:ūotõ K ;
++Ind+Conneg+Pl3:ūotõ K ;
++Ind+Prt+Sg1:vȯʼļ K ;
++Ind+Prt+Sg2:vȯʼļd K ;
++Ind+Prt+Sg3:vȯʼļ K ;
++Ind+Prt+Pl1:vȯʼļmõ K ;
++Ind+Prt+Pl2:vȯʼļtõ K ;
++Ind+Prt+Pl2:vȯʼļțõ K ; ! variant 2023_08_9
++Ind+Prt+Pl3:vȯʼļtõ K ;
++Ind+Prt+Pl3:vȯʼļțõ K ; ! variant 2023_08_9
++Cnd+Conneg:vȯlks K ;
++Cnd+Sg1:vȯlks K ;
++Cnd+Sg2:vȯlkst K ;
++Cnd+Sg3:vȯlks K ;
++Cnd+Pl1:vȯlksmõ K ;
++Cnd+Pl2:vȯlkstõ K ;
++Cnd+Pl3:vȯlkstõ K ;
++Jus+Sg:vȯlkõ K ;
++Jus+Conneg+Sg:vȯlkõ K ;
++Jus+Pl:vȯlkõ K ;
++Jus+Conneg+Pl:vȯlkõ K ;
++Quo+Sg:vȯʼļļi K ;
++Quo+Pl:vȯʼļļi K ;
++Quo+Pl:vȯʼļļid K ;
++Ind+PrcPrs+Sg:vȯnd K ;
++Ind+PrcPrs+Pl:vȯnnõd K ;
++Imprt+Sg2:vȯʼl K ;
++Imprt+Pl2:vȯʼlgid K ;
+
+
+LEXICON IV_VȰLDA
+!!  **LEXICON @LEXNAME@ = 10 vȱlda: goes to **K**
++IV: K ;
+
 LEXICON V-AUX_LǞʼDÕ
 !!  **LEXICON @LEXNAME@ = 1 lǟʼdõ:lǟʼ
 : K ;
@@ -85,47 +133,6 @@ LEXICON V-AUX_SǬDÕ
 LEXICON TV_JŪODÕ
 !!  **LEXICON @LEXNAME@ = 9 jūodõ:jūo
 +TV: V-01_JŪODÕ ;
-
-LEXICON V-AUX_VȰLDA
-!!  **LEXICON @LEXNAME@ =  10 vȱlda:ZERO
-+Ind+Prs+Sg1:uʼm K ;
-+Ind+Prs+Sg2:ūod K ;
-+Ind+Prs+Sg3:uʼm K ;
-+Ind+Prs+Pl1:ūomõ K ;
-+Ind+Prs+Pl2:ūotõ K ;
-+Ind+Prs+Pl3:ātõ K ;
-+Ind+Prs+Pl3:attõ K ;
-+Ind+Conneg+Sg:ūo K ;
-+Ind+Conneg+Pl1:ūomõ K ;
-+Ind+Conneg+Pl2:ūotõ K ;
-+Ind+Conneg+Pl3:ūotõ K ;
-+Ind+Prt+Sg1:vȯʼļ K ;
-+Ind+Prt+Sg2:vȯʼļd K ;
-+Ind+Prt+Sg3:vȯʼļ K ;
-+Ind+Prt+Pl1:vȯʼļmõ K ;
-+Ind+Prt+Pl2:vȯʼļtõ K ;
-+Ind+Prt+Pl3:vȯʼļtõ K ;
-+Cnd+Conneg:vȯlks K ;
-+Cnd+Sg1:vȯlks K ;
-+Cnd+Sg2:vȯlkst K ;
-+Cnd+Sg3:vȯlks K ;
-+Cnd+Pl1:vȯlksmõ K ;
-+Cnd+Pl2:vȯlkstõ K ;
-+Cnd+Pl3:vȯlkstõ K ;
-+Jus+Sg:vȯlkõ K ;
-+Jus+Conneg+Sg:vȯlkõ K ;
-+Jus+Pl:vȯlkõ K ;
-+Jus+Conneg+Pl:vȯlkõ K ;
-+Quo+Sg:vȯʼļļi K ;
-+Quo+Pl:vȯʼļļi K ;
-+Ind+PrcPrs+Sg:vȯnd K ;
-+Ind+PrcPrs+Pl:vȯnnõd K ;
-+Imprt+Pl2:vȯʼlgid K ;
-
-
-LEXICON IV_VȰLDA
-!!  **LEXICON @LEXNAME@ = 10 vȱlda: goes to **K**
-+IV: K ;
 
 LEXICON IV_TŪLDA
 !!  **LEXICON @LEXNAME@ = 11 tūlda:
