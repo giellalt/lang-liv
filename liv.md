@@ -2464,6 +2464,10 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_ = CONJUGATION TYPE MISSING
 
+**LEXICON V-AUX_VȰLDA =  10 vȱlda:ZERO
+
+**LEXICON IV_VȰLDA = 10 vȱlda: goes to **K**
+
 **LEXICON V-AUX_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
 
 **LEXICON IV_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
@@ -2496,10 +2500,6 @@ This file documents the verb inflection of Livonian.
 **LEXICON V-AUX_SǬDÕ = 8 sǭdõ:s
 
 **LEXICON TV_JŪODÕ = 9 jūodõ:jūo
-
-**LEXICON V-AUX_VȰLDA =  10 vȱlda:ZERO
-
-**LEXICON IV_VȰLDA = 10 vȱlda: goes to **K**
 
 **LEXICON IV_TŪLDA = 11 tūlda:
 
