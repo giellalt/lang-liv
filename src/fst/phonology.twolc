@@ -482,14 +482,20 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !0  kaʼllõ0
 !!€  rik0āz%^Stress2to1%^ConsRM
 !0  rikkõ000
-!!€# pūol0a%^Stress1to2%^ConsL
-!!€# pȯ0llõ00
+!!€ pūol0a^Stress1to2^ConsL
+!!€ pȯ0llõ00
 
 "0:p"
 !! **Rule: @RULENAME@**
  0:p <=> Vow: p _ Vow: %^ConsL: ;
-!!€# käp0ā%^ConsL%^LongV2Õin2
-!!€0 käppõ00
+!!€ käp0ā^ConsL^LongV2Õin2
+!!€ käppõ00
+
+"0:s"
+!! **Rule: @RULENAME@**
+ 0:s <=> Vow: s _ (Vow:) %^ConsL: ;
+!!€ mis0^ConsL>õst
+!!€ miss0>õst
 
 "%{XC%}:Cx"
 !! **Rule: @RULENAME@**
