@@ -70,7 +70,8 @@ LEXICON IV_LǞʼDÕ
 
 LEXICON TV_TǬʼDÕ
 !!  **LEXICON @LEXNAME@ = 2 tǭʼdõ:tǭʼ
-+TV: V-01_TǬʼDÕ ;
+: V-01_TǬʼDÕ ;
+!+TV: V-01_TǬʼDÕ ;
 
 LEXICON V-AUX_VĪDÕ
 !!  **LEXICON @LEXNAME@ = 3 vīdõ:vī
@@ -78,11 +79,13 @@ LEXICON V-AUX_VĪDÕ
 
 LEXICON IV_VĪDÕ
 !!  **LEXICON @LEXNAME@ = 3 vīdõ:vī
-+IV: V-01_VĪDÕ ;
+!+IV: V-01_VĪDÕ ;
+: V-01_VĪDÕ ;
 
 LEXICON TV_VĪDÕ
 !!  **LEXICON @LEXNAME@ = 3 vīdõ:vī
-+TV: V-01_VĪDÕ ;
+!+TV: V-01_VĪDÕ ;
+: V-01_VĪDÕ ;
 
 !LEXICON IV_NǞʼDÕ
 ! 4 nǟʼdõ:nǟʼ
@@ -91,15 +94,18 @@ LEXICON TV_VĪDÕ
 LEXICON TV_NǞʼDÕ
 !!  **LEXICON @LEXNAME@ = 4 nǟʼdõ:nǟʼ
 !! * Yaml: **naeaeqdw**
-+TV: V-01_NǞʼDÕ ;
+!+TV: V-01_NǞʼDÕ ;
+: V-01_NǞʼDÕ ;
 
 LEXICON IV_KǞʼDÕ
 !!  **LEXICON @LEXNAME@ = 5 kǟʼdõ:kǟʼ
-+IV: K ;
+!+IV: K ; FIXME 20230902
+: K ;
 
 LEXICON TV_TĪʼEDÕ
 !!  **LEXICON @LEXNAME@ = 6 tīʼedõ:tīʼe
-+TV: K ;
+!+TV: K ; FIXME 20230902
+: K ;
 
 
 LEXICON V-AUX_SĪEDÕ
@@ -108,19 +114,23 @@ LEXICON V-AUX_SĪEDÕ
 
 LEXICON IV_SĪEDÕ
 !!  **LEXICON @LEXNAME@ = 7 sīedõ:sīe
-+IV: V-01_SĪEDÕ ;
+!+IV: V-01_SĪEDÕ ;
+: V-01_SĪEDÕ ;
 
 LEXICON TV_SĪEDÕ
 !!  **LEXICON @LEXNAME@ = 7 sīedõ:sīe
-+TV: V-01_SĪEDÕ ;
+!+TV: V-01_SĪEDÕ ;
+: V-01_SĪEDÕ ;
 
 LEXICON IV_SǬDÕ
 !!  **LEXICON @LEXNAME@ = 8 sǭdõ:s
-+IV: V-01_SǬDÕ ;
+!+IV: V-01_SǬDÕ ;
+: V-01_SǬDÕ ;
 
 LEXICON TV_SǬDÕ
 !!  **LEXICON @LEXNAME@ = 8 sǭdõ:s
-+TV: V-01_SǬDÕ ;
+!+TV: V-01_SǬDÕ ;
+: V-01_SǬDÕ ;
 
 LEXICON V-AUX_SǬDÕ
 !!  **LEXICON @LEXNAME@ = 8 sǭdõ:s
@@ -132,95 +142,114 @@ LEXICON V-AUX_SǬDÕ
 
 LEXICON TV_JŪODÕ
 !!  **LEXICON @LEXNAME@ = 9 jūodõ:jūo
-+TV: V-01_JŪODÕ ;
+!+TV: V-01_JŪODÕ ;
+: V-01_JŪODÕ ;
 
 LEXICON IV_TŪLDA
 !!  **LEXICON @LEXNAME@ = 11 tūlda:
-+IV: K ;
++IV: K ; !FIXME 20230902
 
 LEXICON V-AUX_PĀNDA
 !!  **LEXICON @LEXNAME@ = 12 pānda:
-: K ;
+: K ; !FIXME	20230902
 
 LEXICON IV_PĀNDA
 !!  **LEXICON @LEXNAME@ = 12 pānda:
-+IV: K ;
++IV: K ; !FIXME	20230902
 
 LEXICON TV_PĀNDA
 !!  **LEXICON @LEXNAME@ = 12 pānda:
-+TV: K ;
++TV: K ; !FIXME	20230902
 
 LEXICON IV_JEʼLLÕ
 !!  **LEXICON @LEXNAME@ = 13 jeʼllõ:jeʼlā
-+IV: V-01_JEʼLLÕ ;
+!+IV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON TV_JEʼLLÕ
 !! **LEXICON @LEXNAME@ =  13 jeʼllõ:jeʼllõ
-+TV: V-01_JEʼLLÕ ;
+!+TV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON IV_ASTÕ
 !!  **LEXICON @LEXNAME@ = 18 astõ:astõ
-+IV: V-01_JEʼLLÕ ;
+!+IV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON TV_ASTÕ
 !! **LEXICON @LEXNAME@ =  18 astõ:astõ
-+TV: V-01_JEʼLLÕ ;
+!+TV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON TV_VÕTTÕ
 !!  **LEXICON @LEXNAME@ = 19 võttõ:võttõ
-+TV: V-01_JEʼLLÕ ;
+!+TV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON IV_VIEʼDDÕ
 !!  **LEXICON @LEXNAME@ = 24 vieʼddõ:vieʼddõ
-+IV: V-01_JEʼLLÕ ;
+!+IV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON TV_VIEʼDDÕ
 !!  **LEXICON @LEXNAME@ = 24 vieʼddõ:vieʼddõ
-+TV: V-01_JEʼLLÕ ;
+!+TV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON IV_MAKSÕ
 !!  **LEXICON @LEXNAME@ = 25 maksõ:maksõ
-+IV: V-01_JEʼLLÕ ;
+!+IV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON TV_MAKSÕ
 !!  **LEXICON @LEXNAME@ = 25 maksõ:maksõ
-+TV: V-01_JEʼLLÕ ;
+!+TV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON TV_TAPPÕ
 !!  **LEXICON @LEXNAME@ = 26 tappõ:tappõ
-+TV: V-01_JEʼLLÕ ;
+!+TV: V-01_JEʼLLÕ ;
+: V-01_JEʼLLÕ ;
 
 LEXICON IV_MÄNGÕ
 !!  **LEXICON @LEXNAME@ = 14 mängõ:mǟnga
-+IV: V-01_MÄNGÕ ;
+!+IV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON TV_KILLÕ
 !!  **LEXICON @LEXNAME@ = 15 killõ:kīla
-+TV: V-01_MÄNGÕ ;
+!+TV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON TV_PALLÕ
 !!  **LEXICON @LEXNAME@ = 16 pallõ:pǭla
-+TV: V-01_MÄNGÕ ;
+!+TV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON TV_LOULÕ
 !!  **LEXICON @LEXNAME@ = 17 loulõ:lōla
-+TV: V-01_MÄNGÕ ;
+!+TV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON IV_LAITÕ
 !!  **LEXICON @LEXNAME@ = 20 laittõ:lāita
-+IV: V-01_MÄNGÕ ;
+!+IV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON TV_LAITÕ
 !!  **LEXICON @LEXNAME@ = 20 laittõ:lāita
-+TV: V-01_MÄNGÕ ;
+!+TV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON IV_TÄUTÕ
 !!  **LEXICON @LEXNAME@ = 21 täutõ:tǟta
-+IV: V-01_MÄNGÕ ;
+!+IV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON TV_TÄUTÕ
 !!  **LEXICON @LEXNAME@ = 21 täutõ:tǟta
-+TV: V-01_MÄNGÕ ;
+!+TV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 !LEXICON IV_PȮĻTÕ
 ! 22 pȯļtõ:pūoļta
@@ -228,7 +257,8 @@ LEXICON TV_TÄUTÕ
 
 LEXICON TV_PȮĻTÕ
 !!  **LEXICON @LEXNAME@ = 22 pȯļtõ:pūoļta
-+TV: V-01_MÄNGÕ ;
+!+TV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 !LEXICON IV_MȮISTÕ
 ! 23 mȯistõ:mūošta
@@ -236,98 +266,121 @@ LEXICON TV_PȮĻTÕ
 
 LEXICON TV_MȮISTÕ
 !!  **LEXICON @LEXNAME@ = 23 mȯistõ:mūošta
-+TV: V-01_MÄNGÕ ;
+!+TV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON IV_ANDÕ
 !!  **LEXICON @LEXNAME@ = 27 andõ:ānda
-+IV: V-01_MÄNGÕ ;
+!+IV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON TV_ANDÕ
 !!  **LEXICON @LEXNAME@ = 27 andõ:ānda
-+TV: V-01_MÄNGÕ ;
+!+TV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON IV_TIEUDÕ
 !!  **LEXICON @LEXNAME@ = 28 tieudõ:tīeda
-+IV: V-01_MÄNGÕ ;
+!+IV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 LEXICON TV_TIEUDÕ
 !!  **LEXICON @LEXNAME@ = 28 tieudõ:tīeda
-+TV: V-01_MÄNGÕ ;
+!+TV: V-01_MÄNGÕ ;
+: V-01_MÄNGÕ ;
 
 !! 29-48 follow same pattern
 
 LEXICON IV_LUʼGGÕ
 !!  **LEXICON @LEXNAME@ = luʼggõ:luʼggõ 29
-+IV:     V-01_LUʼGGÕ ;
+!+IV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON TV_LUʼGGÕ
 !!  **LEXICON @LEXNAME@ = luʼggõ:lugū 29
-+TV:     V-01_LUʼGGÕ ;
+!+TV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON IV_MUʼDŽÕ
 !!  **LEXICON @LEXNAME@ = muʼdžõ:mudžū 30
-+IV:     V-01_LUʼGGÕ ;
+!+IV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON TV_MUʼDŽÕ
 !!  **LEXICON @LEXNAME@ = muʼdžõ:mudžū 30
-+TV:     V-01_LUʼGGÕ ;
+!+TV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON IV_VAKȚÕ
 !!  **LEXICON @LEXNAME@ = vakțõ:vakțū 31
-+IV:     V-01_LUʼGGÕ      ;
+!+IV:     V-01_LUʼGGÕ      ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON TV_VAKȚÕ
 !! **LEXICON @LEXNAME@ =  vakțõ:vakțū 31
-+TV:	V-01_LUʼGGÕ	;
+!+TV:	V-01_LUʼGGÕ	;
+:     V-01_LUʼGGÕ ;
 
 LEXICON IV_KITTÕ
 !!  **LEXICON @LEXNAME@ = kittõ:kitū 32
-+IV:     V-01_LUʼGGÕ ;
+!+IV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON TV_KITTÕ
 !!  **LEXICON @LEXNAME@ = kittõ:kitū 32
-+TV:     V-01_LUʼGGÕ ;
+!+TV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON V-AUX_RIʼDDÕ
 !!  **LEXICON @LEXNAME@ = riʼddõ:ridū 33
+!:     V-01_LUʼGGÕ ;
 :     V-01_LUʼGGÕ ;
 
 LEXICON IV_RIʼDDÕ
 !!  **LEXICON @LEXNAME@ = riʼddõ:ridū 33
-+IV:     V-01_LUʼGGÕ ;
+!+IV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON TV_RIʼDDÕ
 !!  **LEXICON @LEXNAME@ = riʼddõ:ridū 33
-+TV:     V-01_LUʼGGÕ ;
+!+TV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON IV_KUTSÕ
 !!  **LEXICON @LEXNAME@ = kutsõ:kutsū 34
-+IV:     V-01_LUʼGGÕ ;
+!+IV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON TV_KUTSÕ
 !!  **LEXICON @LEXNAME@ = kutsõ:kutsū 34
-+TV:     V-01_LUʼGGÕ ;
+!+TV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON V-AUX_LASKÕ
 !!  **LEXICON @LEXNAME@ = laskõ:laskū 35
+!:     V-01_LUʼGGÕ ;
 :     V-01_LUʼGGÕ ;
 
 LEXICON IV_LASKÕ
 !!  **LEXICON @LEXNAME@ = laskõ:laskū 35
-+IV:     V-01_LUʼGGÕ ;
+!+IV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON TV_LASKÕ
 !!  **LEXICON @LEXNAME@ = laskõ:laskū 35
-+TV:     V-01_LUʼGGÕ ;
+!+TV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON IV_AKKÕ
 !!  **LEXICON @LEXNAME@ = akkõ:akū 36
 !! Should ss be s and šš be š? 2013-02-19
-+IV:     V-01_LUʼGGÕ ;
+!+IV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 LEXICON TV_AKKÕ
 !!  **LEXICON @LEXNAME@ = akkõ:akū 36
-+TV:     V-01_LUʼGGÕ ;
+!+TV:     V-01_LUʼGGÕ ;
+:     V-01_LUʼGGÕ ;
 
 
 LEXICON V-AUX_AIGÕ
@@ -336,62 +389,74 @@ LEXICON V-AUX_AIGÕ
 
 LEXICON IV_AIGÕ
 !!  **LEXICON @LEXNAME@ = aigõ:āigõ 37
-+IV:  V-01_AIGÕ ;
+!+IV:  V-01_AIGÕ ;
+:  V-01_AIGÕ ;
 
 LEXICON TV_AIGÕ
 !!  **LEXICON @LEXNAME@ = aigõ:āigõ 37
-+TV:  V-01_AIGÕ ;
+!+TV:  V-01_AIGÕ ;
+:  V-01_AIGÕ ;
 
 LEXICON TV_KUOŖŖÕ
 !!  **LEXICON @LEXNAME@ = kuoŗŗõ:kūoŗõ 38
-+TV:     V-01_AIGÕ       ;
+!+TV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON TV_VANNÕ
 !!  **LEXICON @LEXNAME@ = vannõ:vǭnõ 39
-+TV:     V-01_AIGÕ       ;
-
+!+TV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON IV_PȮĻĻÕ
 !!  **LEXICON @LEXNAME@ = pȯļļõ:pūoļõ 40
-+IV:     V-01_AIGÕ       ;
-
+!+IV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON IV_PȮIMÕ
 !!  **LEXICON @LEXNAME@ = pȯimõ:pūoimõ 41
-+IV:     V-01_AIGÕ       ;
+!+IV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON TV_PȮIMÕ
 !!  **LEXICON @LEXNAME@ = pȯimõ:pūoimõ 41
-+TV:     V-01_AIGÕ       ;
+!+TV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON IV_OUŖÕ
 !!  **LEXICON @LEXNAME@ = ouŗõ:ōŗõ 42
-+IV:     V-01_AIGÕ       ;
+!+IV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON IV_KEIJÕ
 !!  **LEXICON @LEXNAME@ = keijõ:kējõ 43
-+IV:     V-01_AIGÕ       ;
+!+IV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON TV_KEIJÕ
 !!  **LEXICON @LEXNAME@ = keijõ:kējõ 43
-+TV:     V-01_AIGÕ       ;
+!+TV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 
 LEXICON IV_AŖŠTÕ
 !!  **LEXICON @LEXNAME@ = aŗštõ:āŗštõ 44
-+IV:     V-01_AIGÕ       ;
+!+IV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON TV_AŖŠTÕ
 !!  **LEXICON @LEXNAME@ = aŗštõ:āŗštõ 44
-+TV:	V-01_AIGÕ	;
+!+TV:	V-01_AIGÕ	;
+:  V-01_AIGÕ ;
 
 LEXICON TV_PȮRTÕ
 !!  **LEXICON @LEXNAME@ = pȯrtõ:pūortõ 45
-+TV:     V-01_AIGÕ       ;
+!+TV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON TV_OUTÕ
 !!  **LEXICON @LEXNAME@ = outõ:ōtõ 46
-+TV:     V-01_AIGÕ       ;
+!+TV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON V-AUX_TUNDÕ
 !!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
@@ -399,44 +464,54 @@ LEXICON V-AUX_TUNDÕ
 
 LEXICON IV_TUNDÕ
 !!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
-+IV:	V-01_AIGÕ	;
+!+IV:	V-01_AIGÕ	;
+:  V-01_AIGÕ ;
 
 LEXICON TV_TUNDÕ
 !!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
-+TV:     V-01_AIGÕ       ;
+!+TV:     V-01_AIGÕ       ;
+:  V-01_AIGÕ ;
 
 LEXICON TV_OUDÕ
 !!  **LEXICON @LEXNAME@ = oudõ:ōdõ 48
-+TV:	V-01_AIGÕ	;
+!+TV:	V-01_AIGÕ	;
+:  V-01_AIGÕ ;
 
 
 LEXICON IV_KŪLÕ
 !!  **LEXICON @LEXNAME@ = kūlõ:kūlõ 49
-+IV: V-01_KŪLÕ ;
+!+IV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON TV_KŪLÕ
 !!  **LEXICON @LEXNAME@ = kūlõ:kūlõ 49
-+TV: V-01_KŪLÕ ;
+!+TV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON IV_ARRÕ
 !!  **LEXICON @LEXNAME@ = arrõ:arrõ 50
-+IV: V-01_KŪLÕ ;
+!+IV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON TV_ARRÕ
 !!  **LEXICON @LEXNAME@ = arrõ:arrõ 50
-+TV: V-01_KŪLÕ ;
+!+TV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON IV_AʼILÕ
 !!  **LEXICON @LEXNAME@ = aʼilõ:aʼilõ 51
-+IV: V-01_AʼILÕ ;
+!+IV: V-01_AʼILÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON TV_AʼILÕ
 !!  **LEXICON @LEXNAME@ = aʼilõ:aʼilõ 51
-+TV: V-01_AʼILÕ ;
+!+TV: V-01_AʼILÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON TV_SVAʼRRÕ
 !!  **LEXICON @LEXNAME@ = svaʼrrõ:svaʼrrõ 52
-+TV: V-01_KŪLÕ ;
+!+TV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON V-AUX_KĪTÕ
 !!  **LEXICON @LEXNAME@ = kītõ:kīt 53
@@ -445,20 +520,24 @@ LEXICON V-AUX_KĪTÕ
 LEXICON IV_KĪTÕ
 !!  **LEXICON @LEXNAME@ = kītõ:kīt 53
 !! ~701
-+IV: V-01_KŪLÕ ;
+!+IV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON TV_KĪTÕ
 !!  **LEXICON @LEXNAME@ = kītõ:kīt 53
-+TV: V-01_KŪLÕ ;
+!+TV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 
 LEXICON IV_ÄʼBȚÕ
 !!  **LEXICON @LEXNAME@ = äʼbțõ:äʼbț 54
-+IV: V-01_KŪLÕ ;
+!+IV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON TV_ÄʼBȚÕ
 !!  **LEXICON @LEXNAME@ = äʼbțõ:äʼbț 54
-+TV: V-01_KŪLÕ ;
+!+TV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 !LEXICON V_KŪLDÕ
 ! kūldõ:kūld 55
@@ -470,15 +549,18 @@ LEXICON V-AUX_KŪLDÕ
 
 LEXICON IV_KŪLDÕ
 !!  **LEXICON @LEXNAME@ = kūldõ:kūld 55
-+IV: V-01_KŪLÕ ;
+!+IV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON TV_KŪLDÕ
 !!  **LEXICON @LEXNAME@ = kūldõ:kūld 55
-+TV: V-01_KŪLÕ ;
+!+TV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON TV_KĪSKÕ
 !!  **LEXICON @LEXNAME@ = kīskõ:kīsk 56
-+TV: V-01_KŪLÕ ;
+!+TV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON V-AUX_ĪʼEDÕ
 !!  **LEXICON @LEXNAME@ = īʼedõ:īed 57
@@ -486,11 +568,13 @@ LEXICON V-AUX_ĪʼEDÕ
 
 LEXICON IV_ĪʼEDÕ
 !!  **LEXICON @LEXNAME@ = īʼedõ:īed 57
-+IV: V-01_KŪLÕ ;
+!+IV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 LEXICON TV_ĪʼEDÕ
 !!  **LEXICON @LEXNAME@ = īʼedõ:īed 57
-+TV: V-01_KŪLÕ ;
+!+TV: V-01_KŪLÕ ;
+: V-01_KŪLÕ ;
 
 !LEXICON V_UMBLÕ
 ! umblõ:umblõ 58
@@ -498,11 +582,13 @@ LEXICON TV_ĪʼEDÕ
 
 LEXICON IV_UMBLÕ
 !!  **LEXICON @LEXNAME@ = umblõ: 58
-+IV: V-01_UMBLÕ ;
+!+IV: V-01_UMBLÕ ;
+: V-01_UMBLÕ ;
 
 LEXICON TV_UMBLÕ
 !!  **LEXICON @LEXNAME@ = umblõ: 58
-+TV: V-01_UMBLÕ ;
+!+TV: V-01_UMBLÕ ;
+: V-01_UMBLÕ ;
 
 LEXICON V-AUX_MÕTLÕ
 !!  **LEXICON @LEXNAME@ = mõtlõ: 59
@@ -510,27 +596,33 @@ LEXICON V-AUX_MÕTLÕ
 
 LEXICON IV_MÕTLÕ
 !!  **LEXICON @LEXNAME@ = mõtlõ: 59
-+IV: V-01_UMBLÕ ;
+!+IV: V-01_UMBLÕ ;
+: V-01_UMBLÕ ;
 
 LEXICON TV_MÕTLÕ
 !!  **LEXICON @LEXNAME@ = mõtlõ: 59
-+TV: V-01_UMBLÕ ;
+!+TV: V-01_UMBLÕ ;
+: V-01_UMBLÕ ;
 
 LEXICON IV_MǞʼDLÕ
 !!  **LEXICON @LEXNAME@ = mǟʼdlõ: 60
-+IV: V-01_UMBLÕ ;
+!+IV: V-01_UMBLÕ ;
+: V-01_UMBLÕ ;
 
 LEXICON TV_MǞʼDLÕ
 !!  **LEXICON @LEXNAME@ = mǟʼdlõ: 60
-+TV: V-01_UMBLÕ ;
+!+TV: V-01_UMBLÕ ;
+: V-01_UMBLÕ ;
 
 LEXICON IV_NAʼGRÕ
 !!  **LEXICON @LEXNAME@ = naʼgrõ: 60
-+IV: V-01_UMBLÕ ;
+!+IV: V-01_UMBLÕ ;
+: V-01_UMBLÕ ;
 
 LEXICON TV_NAʼGRÕ
 !!  **LEXICON @LEXNAME@ = naʼgrõ: 60
-+TV: V-01_UMBLÕ ;
+!+TV: V-01_UMBLÕ ;
+: V-01_UMBLÕ ;
 
 !LEXICON V-AUX_ALĀ
 ! 62 alā:alā
@@ -546,11 +638,11 @@ LEXICON V-AUX_ÄʼB
 
 LEXICON TV_SÄ
 !!  **LEXICON @LEXNAME@ = 63 sä:sä
-+TV: K ;
++TV: K ; ! FIXME 20230902
 
 LEXICON V-AUX_PIḐĪKS
 !!  **LEXICON @LEXNAME@ = 64 piḑīks:piḑī
-: K ;
+: K ; ! FIXME 20230902
 
 !! ## After transitive, intransitive, auxiliary and such tags have been added
 !! 1
