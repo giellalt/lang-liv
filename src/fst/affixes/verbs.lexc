@@ -557,7 +557,36 @@ LEXICON V-AUX_PIḐĪKS
 
 !! 2
 LEXICON V-01_TǬʼDÕ
- V-01_VĪDÕ ;
+!! tǭʼdõ:tǭʼ
+:d   GER_sõ   ;
+   INF_dõ	  ;
+   SUP-STEM_mõ	  ; 
+   INDPRS_tõ    ;
+   
+   INDCONNEGSG    ;
+   INDCONNEGPL_tõ ;
+!! Prt
+ INDPRT_ž    ;
+! Cond
+: COND ;
+!! Imprt
+	IMPRTSG2    ;
+	IMPRTPL1	;
+	IMPRTPL2	;
+	IMPRTCONNEG ;
+
+
+!! Jus
+ JUS_gõ	;
+!! Qvo
+ QUO-STEM_ji	;
+
+!! participles
+ ACTPRSPRC ;
+ ACTPRFPRC_SG-nd/PL-nõd ;
+:%^VowsRM PSSPRSPRC ;
+:%^VowsRM	PSSPRFPRCSG    ;
+
 
 !! 3
 LEXICON V-01_VĪDÕ
@@ -585,7 +614,8 @@ LEXICON V-01_VĪDÕ
 
 !! participles
  ACTPRSPRC ;
- ACTPRFPRC_nd ;
+ ACTPRFPRC_SG-nd/PL-nõd ;
+
 :%^VowsRM PSSPRSPRC ;
 :%^VowsRM	PSSPRFPRCSG    ;
 
@@ -615,7 +645,7 @@ LEXICON V-01_NǞʼDÕ
 
 !! participles
  ACTPRSPRC ;
- ACTPRFPRC_nd ;
+ ACTPRFPRC_SG-nd/PL-nõd ;
 :%^VowsRM PSSPRSPRC ;
 :%^VowsRM	PSSPRFPRCSG    ;
 !!5
@@ -651,7 +681,7 @@ LEXICON V-01_SĪEDÕ
 
 !! participles
  ACTPRSPRC ;
- ACTPRFPRC_nd ;
+ ACTPRFPRC_SG-nd/PL-nõd ;
  PSSPRSPRC ;
  PSSPRFPRCSG    ;
 
@@ -681,7 +711,7 @@ LEXICON V-01_SǬDÕ
 
 !! participles
 :ǭ ACTPRSPRC ;
-:ǭ ACTPRFPRC_nd ;
+:ǭ  ACTPRFPRC_SG-nd/PL-nõd ;
 :ǭ PSSPRSPRC ;
 :ǭ PSSPRFPRCSG    ;
 !! 9
@@ -710,7 +740,7 @@ LEXICON V-01_JŪODÕ
 
 !! participles
  ACTPRSPRC ;
- ACTPRFPRC_nd ;
+ ACTPRFPRC_SG-nd/PL-nõd ;
  PSSPRSPRC ;
  PSSPRFPRCSG    ;
 !! 10
@@ -767,7 +797,7 @@ LEXICON V-01_MÄNGÕ
 !+Imprt+Pl2:õgid	K    ;
 !+Jus+Sg3:õg		K    ;
 !+Quo+Sg:iji		K    ;
-!+Act+PrfPrc+Sg:õn	K    ;
+ ACTPRFPRC_n ;
 :%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
 
 !!
@@ -1056,9 +1086,23 @@ LEXICON PSSPRFPRCSG
 LEXICON INDPRS_tõ
 !!  **LEXICON @LEXNAME@ = Indicative present
   INDPRSSG1-STEM	;
-  INDPRSPL1	;
+  INDPRSPL1_mõ	;
   INDPRSPL2_tõ	;
-  INDPRSPL3	;
+  INDPRSPL3_tõ	;
+
+LEXICON INDPRS_mõ/tõ/bõd
+!!  **LEXICON @LEXNAME@ = Indicative present
+  INDPRSSG1-STEM	;
+  INDPRSPL1_mõ	;
+  INDPRSPL2_tõ	;
+  INDPRSPL3_bõd	;
+
+LEXICON INDPRS_m/t/bõd
+!!  **LEXICON @LEXNAME@ = Indicative present
+  INDPRSSG1-STEM	;
+  INDPRSPL1_m	;
+  INDPRSPL2_t	;
+  INDPRSPL3_bõd	;
 
 LEXICON INDPRT_i
 !!  **LEXICON @LEXNAME@ = Indicative preterite in i
@@ -1121,17 +1165,32 @@ LEXICON INDPRSSG2
 LEXICON INDPRSSG3
  +Ind+Prs+Sg3:%>b    K	;
 
-LEXICON INDPRSPL1
+LEXICON INDPRSPL1 ! need to depricate 20230902
  +Ind+Prs+Pl1:%>m    K	;
 
-LEXICON INDPRSPL2
+LEXICON INDPRSPL1_m
+ +Ind+Prs+Pl1:%>m    K	;
+
+LEXICON INDPRSPL1_mõ
+ +Ind+Prs+Pl1:%>mõ    K	;
+
+LEXICON INDPRSPL2 ! need to depricate 20230902
+ +Ind+Prs+Pl2:%>t    K	;
+
+LEXICON INDPRSPL2_t
  +Ind+Prs+Pl2:%>t    K	;
 
 LEXICON INDPRSPL2_tõ
  +Ind+Prs+Pl2:%>tõ    K	;
 
-LEXICON INDPRSPL3
+LEXICON INDPRSPL3 ! need to depricate 2030902
  +Ind+Prs+Pl3:%>bõd    K	;
+
+LEXICON INDPRSPL3_bõd
+ +Ind+Prs+Pl3:%>bõd    K	;
+
+LEXICON INDPRSPL3_tõ
+ +Ind+Prs+Pl3:%>tõ    K	;
 
  ! Indicative preterite
 LEXICON INDPRTSG1_i
@@ -1211,11 +1270,19 @@ LEXICON INDPRTPL3_tā
 LEXICON INDCONNEGSG
 +Ind+ConNeg+Sg:    K	;
 
+LEXICON INDCONNEGPL_tõ
+INDCONNEGPL1 ;
+INDCONNEGPL2_tõ ;
+INDCONNEGPL3 ;
+
 LEXICON INDCONNEGPL1
  +Ind+ConNeg+Pl1:%>m    K	;
 
 LEXICON INDCONNEGPL2
  +Ind+ConNeg+Pl2:%>t    K	;
+
+LEXICON INDCONNEGPL2_tõ
+ +Ind+ConNeg+Pl2:%>tõ    K	;
 
 LEXICON INDCONNEGPL3
  +Ind+ConNeg+Pl3:%>t    K	;
