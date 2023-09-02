@@ -652,11 +652,10 @@ LEXICON V-01_TǬʼDÕ
 !! tǭʼdõ:tǭʼ
 :d   GER_sõ   ;
    INF_dõ	  ;
-   SUP-STEM_mõ	  ; 
-   INDPRS_tõ    ;
+   SUP-STEM_mõ	  ; !this provides INDPRSPL... 20230902 
+   INDPRSSG1-STEM    ;
    
    INDCONNEGSG    ;
-   INDCONNEGPL_tõ ;
 !! Prt
  INDPRT_ž    ;
 ! Cond
@@ -1114,12 +1113,12 @@ LEXICON SUP_m
 LEXICON	SUP-STEM_mõ
 !! **LEXICON @LEXNAME@ = 
    SUP_mõ	;
-   INDPRSPL1    ;
-   INDPRSPL2    ;
-   INDPRSPL3    ;
-   INDCONNEGPL1 ;
-   INDCONNEGPL2 ;
-   INDCONNEGPL3 ;
+   INDPRSPL1_mõ    ;
+   INDPRSPL2_tõ    ;
+   INDPRSPL3_bõd    ;
+   INDCONNEGPL1_mõ ;
+   INDCONNEGPL2_tõ ;
+   INDCONNEGPL3_tõ ;
 
 LEXICON SUP_mõ
 !! **LEXICON @LEXNAME@ = 
@@ -1362,13 +1361,21 @@ LEXICON INDPRTPL3_tā
 LEXICON INDCONNEGSG
 +Ind+ConNeg+Sg:    K	;
 
-LEXICON INDCONNEGPL_tõ
+LEXICON INDCONNEGPL_tõ !?depricate 20230902
 INDCONNEGPL1 ;
 INDCONNEGPL2_tõ ;
 INDCONNEGPL3 ;
 
+LEXICON INDCONNEGPL_mõ/tõ/tõ
+INDCONNEGPL1_mõ ;
+INDCONNEGPL2_tõ ;
+INDCONNEGPL3_tõ ;
+
 LEXICON INDCONNEGPL1
  +Ind+ConNeg+Pl1:%>m    K	;
+
+LEXICON INDCONNEGPL1_mõ
+ +Ind+ConNeg+Pl1:%>mõ    K	;
 
 LEXICON INDCONNEGPL2
  +Ind+ConNeg+Pl2:%>t    K	;
@@ -1378,6 +1385,9 @@ LEXICON INDCONNEGPL2_tõ
 
 LEXICON INDCONNEGPL3
  +Ind+ConNeg+Pl3:%>t    K	;
+
+LEXICON INDCONNEGPL3_tõ
+ +Ind+ConNeg+Pl3:%>tõ    K	;
 
 !! Conditional
 LEXICON CONDSG1
