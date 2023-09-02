@@ -401,16 +401,16 @@ simultaneous to reducing vowel of second syllable
 * *je0l0ā%^Stress2to1*
 * *ka0l0ā%^Stress2to1*
 * *rik0āz%^Stress2to1%^ConsRM*
-
-* pūol0a%^Stress1to2%^ConsL examples:*
-
-* pȯ0llõ00 examples:*
+* *pūol0a^Stress1to2^ConsL*
+* *pȯ0llõ00*
 
 **Rule: 0:p**
+* *käp0ā^ConsL^LongV2Õin2*
+* *käppõ00*
 
-* käp0ā%^ConsL%^LongV2Õin2 examples:*
-
-* käppõ00 examples:*
+**Rule: 0:s**
+* *mis0^ConsL>õst*
+* *miss0>õst*
 
 **Rule: %{XC%}:Cx**
 

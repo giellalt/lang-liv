@@ -2701,6 +2701,15 @@ Should ss be s and šš be š? 2013-02-19
 1
 
 2
+tǭʼdõ:tǭʼ
+
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
 
 3
 **LEXICON V-01_VĪDÕ = This is mutual for 3: 
@@ -2872,6 +2881,10 @@ Are the singular and plural homonyms?
 ### Finites
 
 **LEXICON INDPRS_tõ = Indicative present
+
+**LEXICON INDPRS_mõ/tõ/bõd = Indicative present
+
+**LEXICON INDPRS_m/t/bõd = Indicative present
 
 **LEXICON INDPRT_i = Indicative preterite in i
 
@@ -3307,16 +3320,16 @@ simultaneous to reducing vowel of second syllable
 * *je0l0ā%^Stress2to1*
 * *ka0l0ā%^Stress2to1*
 * *rik0āz%^Stress2to1%^ConsRM*
-
-* pūol0a%^Stress1to2%^ConsL examples:*
-
-* pȯ0llõ00 examples:*
+* *pūol0a^Stress1to2^ConsL*
+* *pȯ0llõ00*
 
 **Rule: 0:p**
+* *käp0ā^ConsL^LongV2Õin2*
+* *käppõ00*
 
-* käp0ā%^ConsL%^LongV2Õin2 examples:*
-
-* käppõ00 examples:*
+**Rule: 0:s**
+* *mis0^ConsL>õst*
+* *miss0>õst*
 
 **Rule: %{XC%}:Cx**
 

@@ -243,6 +243,15 @@ Should ss be s and šš be š? 2013-02-19
 1
 
 2
+tǭʼdõ:tǭʼ
+
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
 
 3
 **LEXICON V-01_VĪDÕ = This is mutual for 3: 
@@ -414,6 +423,10 @@ Are the singular and plural homonyms?
 ### Finites
 
 **LEXICON INDPRS_tõ = Indicative present
+
+**LEXICON INDPRS_mõ/tõ/bõd = Indicative present
+
+**LEXICON INDPRS_m/t/bõd = Indicative present
 
 **LEXICON INDPRT_i = Indicative preterite in i
 
