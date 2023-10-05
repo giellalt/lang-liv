@@ -20,8 +20,9 @@
 
 # List any local filter regex files here:
 GIELLA_FILTER_LOCAL_REGEX_SRCS=\
-					downcase_UCletters.regex	                      \
+					downcase_UCletters.regex                          \
 					remove-norm-comp-tags.regex                       \
+					remove-DNorm-tags.regex                           \
 					remove-modifier-letter-apostrophe.regex	          \
 					remove-letter-o-with-ogonek-and-macron.regex      \
 					block-illegal_compound-strings.regex              \
