@@ -18,7 +18,7 @@ LEXICON DET_SĒMI  sēmi: 201
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/determiners.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/determiners.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/determiners.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/determiners.lexc)</small>
 
 ---
 

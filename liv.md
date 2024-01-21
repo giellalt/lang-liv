@@ -385,7 +385,7 @@ LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -398,7 +398,7 @@ This file documents `affixes/adpositions.lexc`
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/adpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adpositions.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/adpositions.lexc)</small>
 
 ---
 
@@ -414,7 +414,7 @@ This file documents `affixes/conjunctors.lexc`
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/conjunctors.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/conjunctors.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/conjunctors.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/conjunctors.lexc)</small>
 
 ---
 
@@ -438,7 +438,7 @@ LEXICON DET_SĒMI  sēmi: 201
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/determiners.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/determiners.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/determiners.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/determiners.lexc)</small>
 
 ---
 
@@ -2221,7 +2221,7 @@ A trigger for z:ž will be required
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -2276,7 +2276,7 @@ LEXICON PRON_ĪKŠ  : 217
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -2389,7 +2389,7 @@ LEXICON PROP_KĪNDÕR  kīndõr:kīndõr 237
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -2433,7 +2433,7 @@ LEXICON NUM_APPÕN  appõn:appõn 235
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/quantifiers.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/quantifiers.lexc)</small>
 
 ---
 
@@ -2452,7 +2452,7 @@ LEXICON NUM_APPÕN  appõn:appõn 235
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -2913,7 +2913,7 @@ Quotative
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -3480,7 +3480,7 @@ nominative plural
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-liv/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -3912,7 +3912,7 @@ This is used in compounding, e.g. äʼb-:äʼb
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -3921,7 +3921,7 @@ Livonian acronyms ...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/acronyms.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/acronyms.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/acronyms.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/acronyms.lexc)</small>
 
 ---
 
@@ -3933,7 +3933,7 @@ ADD NEW ADJECTIVES BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/adjectives_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/adjectives_newwords.lexc)</small>
 
 ---
 
@@ -3945,7 +3945,7 @@ ADD NEW ADVERBS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/adverbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc)</small>
 
 ---
 
@@ -3980,7 +3980,7 @@ The verb vȱlda has irregular forms:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
 
 ---
 
@@ -3992,7 +3992,7 @@ ADD NEW NOUNS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/nouns_newwords.lexc)</small>
 
 ---
 
@@ -4002,7 +4002,7 @@ PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/propernouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/propernouns_newwords.lexc)</small>
 
 ---
 
@@ -4012,7 +4012,7 @@ V_ "(eng) ear/(est) /(fin) /(lav)" ;
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/questionablemisc_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/questionablemisc_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/questionablemisc_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/questionablemisc_newwords.lexc)</small>
 
 ---
 
@@ -4024,7 +4024,7 @@ Add new verbs below
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
 
@@ -4191,7 +4191,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-liv/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-liv/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -4211,7 +4211,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-liv/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -4221,7 +4221,7 @@ Starting work with ordinals
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-liv/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
