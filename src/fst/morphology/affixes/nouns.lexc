@@ -418,6 +418,24 @@ LEXICON N_KAND-SG !!≈ * **@CODE@** : 94
 LEXICON N_KAND-PL !!≈ * **@CODE@** : 94
   NMN_KAND-PL ;
 
+LEXICON N_KAITS !!≈ * **@CODE@** : 94
+!! kaits:kaits
+  N_KAITS-PL ;
+  N_KAITS-SG ;
+LEXICON N_KAITS-SG !!≈ * **@CODE@** : 94
+  NMN_KAITS-SG ;
+LEXICON N_KAITS-PL !!≈ * **@CODE@** : 94
+  NMN_KAITS-PL ;
+
+LEXICON N_SERK !!≈ * **@CODE@** : 94
+!! serk:serk
+  N_SERK-PL ;
+  N_SERK-SG ;
+LEXICON N_SERK-SG !!≈ * **@CODE@** : 94
+  NMN_SERK-SG ;
+LEXICON N_SERK-PL !!≈ * **@CODE@** : 94
+  NMN_SERK-PL ;
+
 LEXICON N_PȮRT !!≈ * **@CODE@** : 95
  NMN_PȮRT	;
 
@@ -2919,6 +2937,40 @@ LEXICON NMN_KOUV-PL !!≈ * **@CODE@** : 93
         PL-ILL_iž ;
         PL-PAR_di ;
 
+LEXICON NMN_KAITS !!≈ * **@CODE@** : 94
+	NMN_KAITS-SG  ;
+	NMN_KAITS-PL  ;
+LEXICON NMN_KAITS-SG !!≈ * **@CODE@** : 94
+	SG-DAT_õn   ;
+:õ	SG-ELA/INE_st    ;
+	SG-GEN	    ;
+	SG-ILL_õ    ;
+	SG-INS_kõks ;
+	SG-NOM	    ;
+	SG-PAR_õ    ;
+LEXICON NMN_KAITS-PL !!≈ * **@CODE@** : 94
+:%^VowsLI1      PL-ELA/INE_ist	  ;
+:%^VowsLI1      PL-ILL_iž	  ;
+:%^VowsLI1	PL-INS_ÕDÕKS-STEM ;
+:%^VowsLI1      PL-PAR_idi	  ;
+
+
+LEXICON NMN_SERK !!≈ * **@CODE@** : 94
+	NMN_SERK-SG  ;
+	NMN_SERK-PL  ;
+LEXICON NMN_SERK-SG !!≈ * **@CODE@** : 94
+	SG-DAT_õn   ;
+:	SG-ELA/INE_stõ    ;
+	SG-GEN	    ;
+	SG-ILL_õ    ;
+	SG-INS_õks ;
+	SG-NOM	    ;
+	SG-PAR_õ    ;
+LEXICON NMN_SERK-PL !!≈ * **@CODE@** : 94
+:%^VowsLI1      PL-ELA/INE_ist	  ;
+:%^VowsLI1      PL-ILL_iž	  ;
+:%^VowsLI1	PL-INS_ÕDÕKS-STEM ;
+:%^VowsLI1      PL-PAR_idi	  ;
 
 
 LEXICON NMN_KAND !!≈ * **@CODE@** : 94
@@ -2926,14 +2978,14 @@ LEXICON NMN_KAND !!≈ * **@CODE@** : 94
 	NMN_KAND-PL  ;
 LEXICON NMN_KAND-SG !!≈ * **@CODE@** : 94
 	SG-DAT_õn   ;
-:õ	SG-ELA/INE_stõ    ;
+	SG-ELA/INE_stõ    ;
 	SG-GEN	    ;
 	SG-ILL_õ    ;
 	SG-INS_kõks ;
 	SG-NOM	    ;
 	SG-PAR_õ    ;
 LEXICON NMN_KAND-PL !!≈ * **@CODE@** : 94
-:%^VowsLI1      PL-ELA/INE_õst	  ;
+:%^VowsLI1      PL-ELA/INE_ist	  ;
 :%^VowsLI1      PL-ILL_iž	  ;
 :%^VowsLI1	PL-INS_ÕDÕKS-STEM ;
 :%^VowsLI1      PL-PAR_idi	  ;
@@ -3020,7 +3072,10 @@ LEXICON NMN_UL-SG !!≈ * **@CODE@** : 99
         SG-NOM      ;
 :%{XC%}        SG-PAR_õ    ;
 LEXICON NMN_UL-PL !!≈ * **@CODE@** : 99
- NMN_KAND-PL ;
+:%^VowsLI1      PL-ELA/INE_õst	  ;
+:%^VowsLI1      PL-ILL_iž	  ;
+:%^VowsLI1	PL-INS_ÕDÕKS-STEM ;
+:%^VowsLI1      PL-PAR_idi	  ;
 
 LEXICON NMN_PAN !!≈ * **@CODE@** : 100
 	NMN_PAN-SG	;
@@ -3531,7 +3586,7 @@ LEXICON NMN_KIM
 	NMN_KIM-PL	;
 LEXICON NMN_KIM-SG
 :%{XC%}        SG-DAT_õn ;
-:%{XC%}%>õ        	SG-ELA/INE_stõ ;
+:%{XC%}%>õ        	SG-ELA/INE_st ;
         	SG-GEN ;
 :%{XC%}    	 SG-ILL_õ ;
 ! SG-INE ;
@@ -5940,8 +5995,8 @@ LEXICON PL-ELA/INE_žist
 LEXICON PL-ELA_st
 +Pl+Ela:%>st K ;
 
-!LEXICON PL-ELA_õst
-!+Pl+Ela:%>õst K ;
+LEXICON PL-ELA_õst
++Pl+Ela:%>õst K ;
 
 LEXICON PL-ELA_Ist
 +Pl+Ela:%^Vow2Iin2%>st K ;
@@ -6031,8 +6086,8 @@ LEXICON PL-INE_īš
 LEXICON PL-INE_s
 +Pl+Ine:%>s K ;
 
-!LEXICON PL-INE_õs
-!+Pl+Ine:%>õs K ;
+LEXICON PL-INE_õs
++Pl+Ine:%>õs K ;
 
 LEXICON PL-INE_Is
 +Pl+Ine:%^Vow2Iin2%>s K ;

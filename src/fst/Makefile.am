@@ -40,6 +40,42 @@ CUSTOM_FSTS=
 #### BEGIN: Add local processing instructions BELOW this line ####
 ##################################################################
 
+########################################################
+#### Add language-specific transducer targets here: ####
+
+#### Xerox transducers:
+if CAN_XFST
+GT_ANALYSERS+=
+GT_GENERATORS+=
+
+if WANT_CUSTOM_FSTS
+CUSTOM_FSTS+=
+endif # WANT_CUSTOM_FSTS
+
+endif # CAN_XFST
+
+#### HFST transducers
+if CAN_HFST
+GT_ANALYSERS+=
+GT_GENERATORS+=generator-dict-gt-norm.hfst
+
+if WANT_CUSTOM_FSTS
+CUSTOM_FSTS+=
+endif # WANT_CUSTOM_FSTS
+
+endif # CAN_HFST
+
+#### FOMA transducers
+if CAN_FOMA
+GT_ANALYSERS+=
+GT_GENERATORS+=
+
+if WANT_CUSTOM_FSTS
+CUSTOM_FSTS+=
+endif # WANT_CUSTOM_FSTS
+
+endif # CAN_FOMA
+
 #################################################
 #### Add language-specific build rules here: ####
 
