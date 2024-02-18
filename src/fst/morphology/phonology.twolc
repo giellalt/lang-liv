@@ -323,7 +323,7 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 
 "õ:i"
 !! **Rule: @RULENAME@**
- õ:i <=> [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: ] %^PalatalizeLeft: ;
+ õ:i <=> [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: | ļ:] %^PalatalizeLeft: ;
 ! # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: ] %^PalatalizeLeft: ;
          [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
 !         # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
@@ -695,7 +695,7 @@ s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 
 "a:ä palatalization"
 !! **Rule: @RULENAME@**
-a:ä <=> # Cns*  _ ( 0: | ʼ: ) [p:|m:]+ [%^PalatalizeLeft:0 | Vow: %^PalatalizeLeft:0 (%^ConsSh:) %^VowsRM: ] [ # | %> ] ;
+a:ä <=> # Cns*  _ ( 0: | ʼ: ) [p:|m:] Cns* [%^PalatalizeLeft:0 | Vow: %^PalatalizeLeft:0 (%^ConsSh:) %^VowsRM: ] [ # | %> ] ;
 
 !!€# aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi
 !!€# äʼm00000ḑi
