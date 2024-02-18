@@ -245,6 +245,16 @@ kand:kand
 * **LEXICON N_KAND-SG** : 94
 * **LEXICON N_KAND-PL** : 94
 
+* **LEXICON N_KAITS** : 94
+kaits:kaits
+* **LEXICON N_KAITS-SG** : 94
+* **LEXICON N_KAITS-PL** : 94
+
+* **LEXICON N_SERK** : 94
+serk:serk
+* **LEXICON N_SERK-SG** : 94
+* **LEXICON N_SERK-PL** : 94
+
 * **LEXICON N_PȮRT** : 95
 
 * **LEXICON N_NUŖM** : 96
@@ -1047,6 +1057,14 @@ Stød: None
 * **LEXICON NMN_KOUV** : 93
 * **LEXICON NMN_KOUV-SG** : 93
 * **LEXICON NMN_KOUV-PL** : 93
+
+* **LEXICON NMN_KAITS** : 94
+* **LEXICON NMN_KAITS-SG** : 94
+* **LEXICON NMN_KAITS-PL** : 94
+
+* **LEXICON NMN_SERK** : 94
+* **LEXICON NMN_SERK-SG** : 94
+* **LEXICON NMN_SERK-PL** : 94
 
 * **LEXICON NMN_KAND** : 94
 * **LEXICON NMN_KAND-SG** : 94
