@@ -365,6 +365,14 @@ LEXICON N_TUP-SG !!≈ * **@CODE@** tup:tup 79
 LEXICON N_TUP-PL !!≈ * **@CODE@** tup:tup 79
      NMN_TUP-PL   ;
 
+LEXICON N_BIS !!≈ * **@CODE@** bis:bis 79
+	N_BIS-SG	;
+	N_BIS-PL	;
+LEXICON N_BIS-SG !!≈ * **@CODE@** bis:bis 79
+     NMN_BIS-SG   ;
+LEXICON N_BIS-PL !!≈ * **@CODE@** bis:bis 79
+     NMN_BIS-PL   ;
+
 LEXICON N_MAKS !!≈ * **@CODE@** : 80
  NMN_MAKS	;
 LEXICON N_MAKS-PL !!≈ * **@CODE@** : 80
@@ -2655,6 +2663,26 @@ LEXICON NMN_TUP-PL !!≈ * **@CODE@** tup:tup 79
 :ū        PL-INS_DÕKS-STEM ;
 :        PL-ELA/INE_īst ;
 :%{XC%}%>õ        PL-ELA/INE_st ;
+:        PL-ILL_īž ;
+!       PL-INE ;
+:        PL-PAR_īdi ;
+
+LEXICON NMN_BIS !!≈ * **@CODE@** bis:bis 79
+	NMN_BIS-SG	;
+	NMN_BIS-PL	;
+LEXICON NMN_BIS-SG !!≈ * **@CODE@** bis:bis 79
+:%{XC%}        SG-DAT_õn ;
+:%{XC%}        SG-ELA/INE_õst ;
+:        SG-GEN ;
+:%{XC%}    SG-ILL_õ ;
+:%{XC%}   SG-INS_õks ;
+:        SG-NOM  ;
+:%{XC%}    SG-PAR_õ ;
+
+LEXICON NMN_BIS-PL !!≈ * **@CODE@** bis:bis 79
+	NMN_NIʼM-PL ;
+:ū        PL-INS_DÕKS-STEM ;
+:        PL-ELA/INE_īst ;
 :        PL-ILL_īž ;
 !       PL-INE ;
 :        PL-PAR_īdi ;
