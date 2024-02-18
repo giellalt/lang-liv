@@ -211,6 +211,10 @@ PROBLEMS with dictionary lexica
 * **LEXICON N_TUP-SG** tup:tup 79
 * **LEXICON N_TUP-PL** tup:tup 79
 
+* **LEXICON N_BIS** bis:bis 79
+* **LEXICON N_BIS-SG** bis:bis 79
+* **LEXICON N_BIS-PL** bis:bis 79
+
 * **LEXICON N_MAKS** : 80
 * **LEXICON N_MAKS-PL** : 80
 
@@ -990,6 +994,11 @@ Stød: None
 * **LEXICON NMN_TUP-SG** tup:tup 79
 
 * **LEXICON NMN_TUP-PL** tup:tup 79
+
+* **LEXICON NMN_BIS** bis:bis 79
+* **LEXICON NMN_BIS-SG** bis:bis 79
+
+* **LEXICON NMN_BIS-PL** bis:bis 79
 
 * **LEXICON NMN_MAKS** : 80
 * **LEXICON NMN_MAKS-SG** : 80
