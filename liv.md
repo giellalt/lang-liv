@@ -3805,6 +3805,8 @@ source and target part-of-speech.
 * **+Der/xxx**
 * **+Der/A** for example present participle to adjective
 * **+Der/VN**
+* **+Der/NomAct**
+* **+Der/NomAg**
 * **+NomAct**
 * **+NomAg**
 
