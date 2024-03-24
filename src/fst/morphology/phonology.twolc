@@ -143,7 +143,9 @@ Rules
 
 "ā:a in first syllable"
 !! **Rule: @RULENAME@**
-ā:a <=> # Cns* _  ( i ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 | %^VowShIn1:0 ] ;
+ā:a <=>
+# Cns* _  ( i ) Cns:+ Vow: %^PEN: %^VV2V: ;
+# Cns* _  ( i ) Cns:+ (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 | %^VowShIn1:0 ] ;
 !!€# āļdža%^VowShIn1%^A2ÕIn2
 !!€0 aļdžõ00
      # Cns* _ ( i ) Cns:+ Vow: %^PenVV2V: ;
