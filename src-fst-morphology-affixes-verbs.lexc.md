@@ -85,7 +85,7 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON IV_TÄUTÕ = 21 täutõ:tǟta
 
-**LEXICON TV_TÄUTÕ = 21 täutõ:tǟta
+**LEXICON TV_TÄUTÕ = 21 täutõ:tǟuta
 
 **LEXICON TV_PȮĻTÕ = 22 pȯļtõ:pūoļta
 
@@ -316,6 +316,22 @@ participles
 
 **LEXICON V-01_MÄNGÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
 
+**LEXICON V-01_KILLÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+**LEXICON V-01_PALLÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+**LEXICON V-01_LOULÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ
+
+**LEXICON V-01_LAITÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ
+
+**LEXICON V-01_TÄUTÕ = 21 täutõ:tǟutõ
+
+22
+**LEXICON V-01_PȮĻTÕ = 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+23
+**LEXICON V-01_MȮISTÕ = 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
 29
 LEXICON	V-01_LUʼGGÕ  luʼggõ:luʼggõ 29
 This is mutual for 29-36: 
@@ -431,6 +447,8 @@ Are the singular and plural homonyms?
 **LEXICON INDPRT_i = Indicative preterite in i
 
 **LEXICON INDPRT_z = Indicative preterite in z
+
+**LEXICON INDPRT_zt/ztõ = Indicative preterite in z
 
 **LEXICON INDPRT_ž = Indicative preterite in ž
 

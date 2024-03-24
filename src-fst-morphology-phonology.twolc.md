@@ -48,6 +48,10 @@ They must be escaped (cf morpheme boundaries further down):
 * %^D2Ž:0     The *ti => *si
 * %^D2ZERO:0  The d => 0
 
+* %^PEN:0	    penultimate syllable
+* %^U2ZERO:0  The u => 0
+* %^VV2V:0	  shorten vowel
+
 ###  Vowel raising
 * %^LowerVows:0  lower vowel
 * %^RVows:0      raise vowel
@@ -98,7 +102,7 @@ They must be escaped (cf morpheme boundaries further down):
 * Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
 * Letters = Vow Cns ; 
-* Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V 
+* Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V %^PEN %^VV2V %^U2ZERO 
   %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
 
 # Rule section
@@ -108,6 +112,8 @@ They must be escaped (cf morpheme boundaries further down):
 ### Shortening in first syllable
 
 **Rule: ǟ:ä in first syllable**
+* *tǟutõ^PEN^VV2V*
+* *täutõ00*
 
 * kǟnga%^VowShIn1%^A2ÕIn2 examples:*
 
@@ -359,6 +365,8 @@ kēļ+N+Sg+Nom
 * ū0ška0 examples:*
 
 **Rule: u:0 in second position of first-syllable diphthong**
+* *tǟutõ^PEN^U2ZERO^VowsRM>a>m*
+* *tǟ0t0000>a>m*
 
 * ouki%^VowsLI1z examples:*
 

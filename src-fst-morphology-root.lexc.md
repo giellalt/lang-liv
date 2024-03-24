@@ -311,6 +311,9 @@ And following triggers to control variation
 *  %^PenVV2V  penultimate vowel shortening
 
 *  %^ĪE2Ē   kēļ:kīel
+* %^PEN	    penultimate syllable
+* %^U2ZERO  The u => 0
+* %^VV2V	  shorten vowel
 
 * {front} = front vowels
 * {back} = back vowels

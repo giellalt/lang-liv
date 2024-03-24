@@ -2578,7 +2578,7 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON IV_TÄUTÕ = 21 täutõ:tǟta
 
-**LEXICON TV_TÄUTÕ = 21 täutõ:tǟta
+**LEXICON TV_TÄUTÕ = 21 täutõ:tǟuta
 
 **LEXICON TV_PȮĻTÕ = 22 pȯļtõ:pūoļta
 
@@ -2809,6 +2809,22 @@ participles
 
 **LEXICON V-01_MÄNGÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
 
+**LEXICON V-01_KILLÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+**LEXICON V-01_PALLÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+**LEXICON V-01_LOULÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ
+
+**LEXICON V-01_LAITÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ
+
+**LEXICON V-01_TÄUTÕ = 21 täutõ:tǟutõ
+
+22
+**LEXICON V-01_PȮĻTÕ = 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+23
+**LEXICON V-01_MȮISTÕ = 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
 29
 LEXICON	V-01_LUʼGGÕ  luʼggõ:luʼggõ 29
 This is mutual for 29-36: 
@@ -2925,6 +2941,8 @@ Are the singular and plural homonyms?
 
 **LEXICON INDPRT_z = Indicative preterite in z
 
+**LEXICON INDPRT_zt/ztõ = Indicative preterite in z
+
 **LEXICON INDPRT_ž = Indicative preterite in ž
 
 **LEXICON INDPRTSG3-STEM_tõ = 
@@ -3002,6 +3020,10 @@ They must be escaped (cf morpheme boundaries further down):
 * %^D2Ž:0     The *ti => *si
 * %^D2ZERO:0  The d => 0
 
+* %^PEN:0	    penultimate syllable
+* %^U2ZERO:0  The u => 0
+* %^VV2V:0	  shorten vowel
+
 ###  Vowel raising
 * %^LowerVows:0  lower vowel
 * %^RVows:0      raise vowel
@@ -3052,7 +3074,7 @@ They must be escaped (cf morpheme boundaries further down):
 * Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
 * Letters = Vow Cns ; 
-* Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V 
+* Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V %^PEN %^VV2V %^U2ZERO 
   %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
 
 # Rule section
@@ -3062,6 +3084,8 @@ They must be escaped (cf morpheme boundaries further down):
 ### Shortening in first syllable
 
 **Rule: ǟ:ä in first syllable**
+* *tǟutõ^PEN^VV2V*
+* *täutõ00*
 
 * kǟnga%^VowShIn1%^A2ÕIn2 examples:*
 
@@ -3313,6 +3337,8 @@ kēļ+N+Sg+Nom
 * ū0ška0 examples:*
 
 **Rule: u:0 in second position of first-syllable diphthong**
+* *tǟutõ^PEN^U2ZERO^VowsRM>a>m*
+* *tǟ0t0000>a>m*
 
 * ouki%^VowsLI1z examples:*
 
@@ -3832,6 +3858,9 @@ And following triggers to control variation
 *  %^PenVV2V  penultimate vowel shortening
 
 *  %^ĪE2Ē   kēļ:kīel
+* %^PEN	    penultimate syllable
+* %^U2ZERO  The u => 0
+* %^VV2V	  shorten vowel
 
 * {front} = front vowels
 * {back} = back vowels
