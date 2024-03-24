@@ -2813,8 +2813,10 @@ participles
 
 **LEXICON V-01_PALLÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
 
+17 loulõ:lōulõ
 **LEXICON V-01_LOULÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ
 
+20 laitõ:
 **LEXICON V-01_LAITÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ
 
 **LEXICON V-01_TÄUTÕ = 21 täutõ:tǟutõ
@@ -2944,6 +2946,8 @@ Are the singular and plural homonyms?
 **LEXICON INDPRT_zt/ztõ = Indicative preterite in z
 
 **LEXICON INDPRT_ž = Indicative preterite in ž
+
+**LEXICON INDPRT_žtõ = Indicative preterite in ž
 
 **LEXICON INDPRTSG3-STEM_tõ = 
 
