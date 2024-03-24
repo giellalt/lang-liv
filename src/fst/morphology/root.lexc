@@ -481,7 +481,9 @@ Multichar_Symbols
  %^PenVV2V !!= * @CODE@ penultimate vowel shortening
 
  %^ĪE2Ē  !!= * @CODE@ kēļ:kīel
-
+%^PEN	   !!= * @CODE@ penultimate syllable
+%^U2ZERO !!= * @CODE@ The u => 0
+%^VV2V	 !!= * @CODE@ shorten vowel
 
  {front}   !!≈ * @CODE@ = front vowels
  {back}  !!≈ * @CODE@ = back vowels
