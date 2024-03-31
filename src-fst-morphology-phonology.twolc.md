@@ -556,10 +556,10 @@ nominative plural
 **Rule: ǟ:ē palatalization**
 
 **Rule: ǟ:e short and palatalization**
-
-* kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
-
-* keņg0000i examples:*
+* *kǟnga^VowShIn1^PalatalizeLeft^VowsRMi*
+* *keņg0000i*
+* *nǟʼ^VowShIn1^PalatalizeLeft^StodRM>i>z*
+* *ne000>i>z*
 
 **Rule: a:ä palatalization**
 

@@ -265,7 +265,27 @@ Qvo
 participles
 
 **LEXICON V-01_NǞʼDÕ = This is mutual for ??: 
-4 nǟʼdõ:nǟʼ
+4 nǟʼdõ:n
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+**LEXICON V-01_KǞʼDÕ = This is mutual for ??: 
+4 kǟʼdõ:kǟʼ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+**LEXICON V-01_TĪʼEDÕ = : 6 tīedõ:tīʼe
+* Yaml: **siiedw**
 Prt
 Imprt
 
@@ -295,7 +315,7 @@ Qvo
 participles
 9
 9
-jūodõ:vī
+jūodõ:jūo
 Prt
 Imprt
 
@@ -448,7 +468,11 @@ Are the singular and plural homonyms?
 
 **LEXICON INDPRT_i = Indicative preterite in i
 
+**LEXICON INDPRT_ita = Indicative preterite in i
+
 **LEXICON INDPRT_z = Indicative preterite in z
+
+**LEXICON INDPRT_ztõ = Indicative preterite in z
 
 **LEXICON INDPRT_zt/ztõ = Indicative preterite in z
 
