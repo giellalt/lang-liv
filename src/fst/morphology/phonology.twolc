@@ -698,14 +698,16 @@ s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
 
 "ǟ:ē palatalization"
 !! **Rule: @RULENAME@**
-ǟ:ē <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
+ǟ:ē <=> _ (ʼ:) %^PalatalizeLeft:0 (%^StodRM:) [ # | %> ] ;
 
 "ǟ:e short and palatalization"
 !! **Rule: @RULENAME@**
 ǟ:e <=> # Cns* _ Cns:+ ( Vow: ) %^VowShIn1: %^PalatalizeLeft: ;
-!!€# kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi
-!!€0 keņg0000i
-
+# Cns* _ ʼ: %^VowShIn1: %^PalatalizeLeft: ;
+!!€ kǟnga^VowShIn1^PalatalizeLeft^VowsRMi
+!!€ keņg0000i
+!!€ nǟʼ^VowShIn1^PalatalizeLeft^StodRM>i>z
+!!€ ne000>i>z
 
 "a:ä palatalization"
 !! **Rule: @RULENAME@**
