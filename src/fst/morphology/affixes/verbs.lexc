@@ -14,16 +14,20 @@ LEXICON TV_
 
 LEXICON V-AUX_VȰLDA
 !!  **LEXICON @LEXNAME@ =  10 vȱlda:ZERO
+:vȱld GER_sõ ;
++Inf:vȱlda K ;
+:vȯʼl SUP-STEM_mõ    ;
 +Ind+Prs+Sg1:uʼm K ;
 +Ind+Prs+Sg2:ūod K ;
 +Ind+Prs+Sg3:uʼm K ;
 +Ind+Prs+Pl1:ūomõ K ;
-+Ind+Prs+Pl1:ūom K ;
++Err/Orth+Ind+Prs+Pl1:ūom K ;
 +Ind+Prs+Pl2:ūotõ K ;
-+Ind+Prs+Pl3:ātõ K ;
-+Ind+Prs+Pl3:attõ K ;
-+Ind+Prs+Pl3:āt K ;
-+Ind+Prs+Pl3:at K ;
++Ind+Prs+Pl3:ūobõd K ;
++Err/Orth+Ind+Prs+Pl3:ātõ K ;
++Err/Orth+Ind+Prs+Pl3:attõ K ;
++Err/Orth+Ind+Prs+Pl3:āt K ;
++Err/Orth+Ind+Prs+Pl3:at K ;
 +Ind+Conneg+Sg:ūo K ;
 +Ind+Conneg+Pl1:ūomõ K ;
 +Ind+Conneg+Pl2:ūotõ K ;
@@ -33,28 +37,35 @@ LEXICON V-AUX_VȰLDA
 +Ind+Prt+Sg3:vȯʼļ K ;
 +Ind+Prt+Pl1:vȯʼļmõ K ;
 +Ind+Prt+Pl2:vȯʼļtõ K ;
-+Ind+Prt+Pl2:vȯʼļțõ K ; ! variant 2023_08_9
++Err/Orth+Ind+Prt+Pl2:vȯʼļțõ K ; ! variant 2023_08_9
 +Ind+Prt+Pl3:vȯʼļtõ K ;
-+Ind+Prt+Pl3:vȯʼļțõ K ; ! variant 2023_08_9
-+Cnd+Conneg:vȯlks K ;
-+Cnd+Sg1:vȯlks K ;
-+Cnd+Sg2:vȯlkst K ;
-+Cnd+Sg3:vȯlks K ;
-+Cnd+Pl1:vȯlksmõ K ;
-+Cnd+Pl2:vȯlkstõ K ;
-+Cnd+Pl3:vȯlkstõ K ;
-+Jus+Sg:vȯlkõ K ;
-+Jus+Conneg+Sg:vȯlkõ K ;
-+Jus+Pl:vȯlkõ K ;
-+Jus+Conneg+Pl:vȯlkõ K ;
-+Quo+Sg:vȯʼļļi K ;
-+Quo+Pl:vȯʼļļi K ;
-+Quo+Pl:vȯʼļļid K ;
-+Ind+PrcPrs+Sg:vȯnd K ;
-+Ind+PrcPrs+Pl:vȯnnõd K ;
++Err/Orth+Ind+Prt+Pl3:vȯʼļțõ K ; ! variant 2023_08_9
++Cond+Conneg:vȯlks K ;
++Cond+Sg1:vȯlks K ;
++Cond+Sg2:vȯlkst K ;
++Cond+Sg3:vȯlks K ;
++Cond+Pl1:vȯlksmõ K ;
++Cond+Pl2:vȯlkstõ K ;
++Cond+Pl3:vȯlkstõ K ;
 +Imprt+Sg2:vȯʼl K ;
-+Imprt+Pl2:vȯʼlgid K ;
-
++Imprt+Pl2:vȯlgid K ;
++Err/Orth+Imprt+Pl2:vȯʼlgid K ;
++Imprt+Conneg+Sg2:vȯʼl K ;
++Imprt+Conneg+Pl2:vȯlgid K ;
++Err/Orth+Imprt+Conneg+Pl2:vȯʼlgid K ;
++Jus+Sg3:vȯlkõ K ;
++Jus+Conneg+Sg3:vȯlkõ K ;
++Jus+Pl3:vȯlkõ K ;
++Jus+Conneg+Pl3:vȯlkõ K ;
++Quo+Sg3:vȯļļi K ;
++Err/Orth+Quo+Pl3:vȯʼļļi K ;
++Quo+Pl3:vȯļļid K ;
++Quo+Conneg+Sg3:vȯļļi K ;
++Err/Orth+Quo+Conneg+Pl3:vȯʼļļi K ;
++Quo+Conneg+Pl3:vȯļļid K ;
++Act+PrcPrf+Sg:vȯnd K ;
++Act+PrcPrf+Pl:vȯnnõd K ;
++Pss+PrfPrc+Sg:vȯldõd K ;
 
 LEXICON IV_VȰLDA
 !!  **LEXICON @LEXNAME@ = 10 vȱlda: goes to **K**
@@ -100,12 +111,12 @@ LEXICON TV_NǞʼDÕ
 LEXICON IV_KǞʼDÕ
 !!  **LEXICON @LEXNAME@ = 5 kǟʼdõ:kǟʼ
 !+IV: K ; FIXME 20230902
-: K ;
+: V-01_KǞʼDÕ ;
 
 LEXICON TV_TĪʼEDÕ
 !!  **LEXICON @LEXNAME@ = 6 tīʼedõ:tīʼe
 !+TV: K ; FIXME 20230902
-: K ;
+: V-01_TĪʼEDÕ ;
 
 
 LEXICON V-AUX_SĪEDÕ
@@ -722,46 +733,115 @@ LEXICON V-01_VĪDÕ
 
 LEXICON V-01_NǞʼDÕ 
 !!  **LEXICON @LEXNAME@ = This is mutual for ??: 
-!! 4 nǟʼdõ:nǟʼ
-:d   GER_sõ   ;
-   INF_dõ	  ;
-:%^StodRM   SUP-STEM_mõ	  ; 
-   INDPRSSG1-STEM    ;
-   INDCONNEGSG    ;
+!! 4 nǟʼdõ:n
+:ǟʼd   GER_sõ   ;
+:ǟʼ   INF_dõ	  ;
+:ǟ   SUP-STEM_mõ	  ; 
+:ǟ   INDPRSSG1-STEM    ;
+:ǟ   INDCONNEGSG    ;
 !! Prt
- INDPRT_žtõ    ;
+:ei INDPRT_ztõ    ;
+! Cond
+:ǟ COND ;
+!! Imprt
+:ǟ	IMPRTSG2    ;
+:ǟ	IMPRTPL1	;
+:ǟ	IMPRTPL2	;
+:ǟ	IMPRTCONNEGSG2 ;
+:ǟ	IMPRTCONNEGPL2_gid ;
+
+!! Jus
+:ǟ JUS_gõ	;
+!! Qvo
+:ē QUO-STEM_ji	;
+
+!! participles
+:ǟʼ ACTPRSPRC ;
+:ǟ ACTPRFPRC_SG-nd/PL-nõd ;
+:ǟʼ PSSPRSPRC ;
+:ǟʼ	PSSPRFPRCSG    ;
+!!5
+
+LEXICON V-01_KǞʼDÕ 
+!!  **LEXICON @LEXNAME@ = This is mutual for ??: 
+!! 4 kǟʼdõ:kǟʼ
+:d   GER_sõ   ;
+:   INF_dõ	  ;
+:   SUP-STEM_mõ	  ; 
+:   INDPRSSG1-STEM    ;
+:   INDCONNEGSG    ;
+!! Prt
+:%^VowShIn1%^PalatalizeLeft INDPRT_i    ;
 ! Cond
 : COND ;
 !! Imprt
-	IMPRTSG2    ;
-	IMPRTPL1	;
-	IMPRTPL2	;
-	IMPRTCONNEG ;
+:	IMPRTSG2    ;
+:	IMPRTPL1	;
+:	IMPRTPL2	;
+:	IMPRTCONNEGSG2 ;
+:	IMPRTCONNEGPL2_gid ;
 
 !! Jus
- JUS_gõ	;
+: JUS_gõ	;
 !! Qvo
- QUO-STEM_ji	;
+:%^PalatalizeLeft QUO-STEM_ji	;
 
 !! participles
- ACTPRSPRC ;
- ACTPRFPRC_SG-nd/PL-nõd ;
-:%^VowsRM PSSPRSPRC ;
-:%^VowsRM	PSSPRFPRCSG    ;
+: ACTPRSPRC ;
+: ACTPRFPRC_SG-nd/PL-nõd ;
+: PSSPRSPRC ;
+:	PSSPRFPRCSG    ;
 !!5
 
+!!6
+LEXICON V-01_TĪʼEDÕ 
+!!  **LEXICON @LEXNAME@ = : 6 tīedõ:tīʼe
+!! * Yaml: **siiedw**
+:īʼed   GER_sõ   ;
+:īʼe   INF_dõ	  ;
+:īʼe   SUP_mõ       ;
+:īʼe   INDPRSPL1_mõ    ;
+:īʼe   INDPRSPL2_tõ    ;
+:īʼe   INDPRSPL3    ;
+:īʼe   INDCONNEGPL_mõ/tõ/tõ ;
+:īʼe   INDCONNEGPL2 ;
+:īʼe   INDCONNEGPL3 ;
+:īʼe   INDPRSSG1-STEM    ;
+:īʼe   INDCONNEGSG    ;
+!! Prt
+:e INDPRT_i    ;
+! Cond
+:īʼe COND ;
+!! Imprt
+:īʼe	IMPRTSG2    ;
+:īʼe	IMPRTPL1	;
+:īʼe	IMPRTPL2	;
+:īʼe	IMPRTCONNEGSG2 ;
+:īʼe	IMPRTCONNEGPL2_gid ;
+
+!! Jus
+:īʼe JUS_gõ	;
+!! Qvo
+:ēʼ QUO-STEM_ji	;
+
+!! participles
+:īʼe ACTPRSPRC ;
+:īʼe ACTPRFPRC_SG-nd/PL-nõd ;
+:īʼe PSSPRSPRC ;
+:īʼe PSSPRFPRCSG    ;
+
+!20240331+Act+PrfPrc:n NMN_SĪEND	   ;
+!!7
 LEXICON V-01_SĪEDÕ 
 !!  **LEXICON @LEXNAME@ = : 7 sīedõ:sīe
 !! * Yaml: **siiedw**
 :d   GER_sõ   ;
    INF_dõ	  ;
    SUP_mõ       ;
-   INDPRSPL1    ;
+   INDPRSPL1_mõ    ;
    INDPRSPL2_tõ    ;
    INDPRSPL3    ;
-   INDCONNEGPL1 ;
-   INDCONNEGPL2 ;
-   INDCONNEGPL3 ;
+   INDCONNEGPL_mõ/tõ/tõ ;
    INDPRSSG1-STEM    ;
    INDCONNEGSG    ;
 !! Prt
@@ -772,12 +852,13 @@ LEXICON V-01_SĪEDÕ
 	IMPRTSG2    ;
 	IMPRTPL1	;
 	IMPRTPL2	;
-	IMPRTCONNEG ;
+	IMPRTCONNEGSG2 ;
+	IMPRTCONNEGPL2_gid ;
 
 !! Jus
  JUS_gõ	;
 !! Qvo
- QUO-STEM_ji	;
+:%^LowerVows%^VowsRM QUO-STEM_ji	;
 
 !! participles
  ACTPRSPRC ;
@@ -802,7 +883,8 @@ LEXICON V-01_SǬDÕ
 :ǭ	IMPRTSG2    ;
 :ǭ	IMPRTPL1	;
 :ǭ	IMPRTPL2	;
-:ǭ	IMPRTCONNEG ;
+:ǭ	IMPRTCONNEGSG2 ;
+:ǭ	IMPRTCONNEGPL2_gid ;
 
 !! Jus
 :ǭ JUS_gõ	;
@@ -817,21 +899,22 @@ LEXICON V-01_SǬDÕ
 !! 9
 !! 9
 LEXICON V-01_JŪODÕ
-!! jūodõ:vī
+!! jūodõ:jūo
 :d   GER_sõ   ;
    INF_dõ	  ;
    SUP-STEM_mõ	  ; 
    INDPRSSG1-STEM    ;
    INDCONNEGSG    ;
 !! Prt
- INDPRT_i    ;
+:%^VowShIn1 INDPRT_i    ;
 ! Cond
 : COND ;
 !! Imprt
 	IMPRTSG2    ;
 	IMPRTPL1	;
 	IMPRTPL2	;
-	IMPRTCONNEG ;
+	IMPRTCONNEGSG2 ;
+	IMPRTCONNEGPL2_gid ;
 
 !! Jus
  JUS_gõ	;
@@ -1390,6 +1473,15 @@ LEXICON INDPRT_i
  INDPRTPL2_i    ;
  INDPRTPL3_i    ;
 
+LEXICON INDPRT_ita
+!!  **LEXICON @LEXNAME@ = Indicative preterite in i
+ INDPRTSG1_i    ;
+ INDPRTSG2_i    ;
+ INDPRTSG3_i    ;
+ INDPRTPL1_ima    ;
+ INDPRTPL2_ita    ;
+ INDPRTPL3_ita    ;
+
 
 LEXICON INDPRT_z
 !!  **LEXICON @LEXNAME@ = Indicative preterite in z
@@ -1399,6 +1491,15 @@ LEXICON INDPRT_z
  INDPRTPL1_z    ;
  INDPRTPL2_zt    ;
  INDPRTPL3_zt    ;
+
+LEXICON INDPRT_ztõ
+!!  **LEXICON @LEXNAME@ = Indicative preterite in z
+ INDPRTSG1_z    ;
+ INDPRTSG2_z    ;
+ INDPRTSG3_z    ;
+ INDPRTPL1_z    ;
+ INDPRTPL2_ztõ    ;
+ INDPRTPL3_ztõ    ;
 
 LEXICON INDPRT_zt/ztõ
 !!  **LEXICON @LEXNAME@ = Indicative preterite in z
@@ -1528,6 +1629,9 @@ LEXICON INDPRTSG3_ž
 LEXICON INDPRTPL1_i
  +Ind+Prt+Pl1:%>imõ    K	;
 
+LEXICON INDPRTPL1_ima
+ +Ind+Prt+Pl1:%>ima    K	;
+
 LEXICON INDPRTPL1_z
  +Ind+Prt+Pl1:%>zmõ    K	;
 
@@ -1536,6 +1640,8 @@ LEXICON INDPRTPL1_ž
 
 LEXICON INDPRTPL2_i
  +Ind+Prt+Pl2:%>itõ    K	;
+LEXICON INDPRTPL2_ita
+ +Ind+Prt+Pl2:%>ita    K	;
 
 LEXICON INDPRTPL2_zt
  +Ind+Prt+Pl2:%>zt    K	;
@@ -1558,6 +1664,8 @@ LEXICON INDPRTPL2_tā
 
 LEXICON INDPRTPL3_i
  +Ind+Prt+Pl3:%>itõ    K	;
+LEXICON INDPRTPL3_ita
+ +Ind+Prt+Pl3:%>ita    K	;
 
 LEXICON INDPRTPL3_zt
  +Ind+Prt+Pl3:%>zt    K	;
@@ -1682,8 +1790,8 @@ LEXICON JUS_gõ
 !! Quotative
 LEXICON QUO-STEM_ji
 	QUO_ji	;
-+Der+Der/NomAct+N:mi		N_AʼBLI	;
-+Der+Der/NomAg+N:ji N_SĒJI ; !CHECKME 2021-08-04
++Der+Der/NomAct+N:%>mi		N_AʼBLI	;
++Der+Der/NomAg+N:%>ji N_SĒJI ; !CHECKME 2021-08-04
 !N_AKKIJI vs N_SĒJI
 LEXICON QUO-STEM_iji
 	QUO_iji	;
