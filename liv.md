@@ -1,6 +1,10 @@
-# Liv description 
+# Liv language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-functions.cg3.md 
 
 
 
@@ -170,7 +174,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-liv/blob/main/src/cg3/functions.cg3)</small># Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-liv/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+# Adjective inflection
 
 This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
 
@@ -389,6 +400,8 @@ LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
 
 ---
 
+# src-fst-morphology-affixes-adpositions.lexc.md 
+
 # Adjective inflection
 This file documents `affixes/adpositions.lexc`
 
@@ -401,6 +414,8 @@ This file documents `affixes/adpositions.lexc`
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adpositions.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/adpositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-conjunctors.lexc.md 
 
 # Conjunctions
 
@@ -417,6 +432,8 @@ This file documents `affixes/conjunctors.lexc`
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/conjunctors.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/conjunctors.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-determiners.lexc.md 
 
 # Determiner inflection
 This file documents `affixes/determiners.lexc`, the language model for
@@ -441,6 +458,8 @@ LEXICON DET_SĒMI  sēmi: 201
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/determiners.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/determiners.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Livonian noun inflection
 
@@ -2260,6 +2279,8 @@ A trigger for z:ž will be required
 
 ---
 
+# src-fst-morphology-affixes-pronouns.lexc.md 
+
 # Prounoun inflection
 This file documents `affixes/pronouns.lexc`,
 the file on Livonian pronoun  inflection
@@ -2314,6 +2335,8 @@ LEXICON PRON_ĪKŠ  : 217
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 # Proper noun inflection
 This file documents `affixes/propernouns.lexc`, the file for inflection of propernouns.
@@ -2428,6 +2451,8 @@ LEXICON PROP_KĪNDÕR  kīndõr:kīndõr 237
 
 ---
 
+# src-fst-morphology-affixes-quantifiers.lexc.md 
+
 # Quantifier inflection
 This file documents the file on Livonian quantifier morphology.
 
@@ -2472,6 +2497,8 @@ LEXICON NUM_APPÕN  appõn:appõn 235
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -2490,6 +2517,8 @@ LEXICON NUM_APPÕN  appõn:appõn 235
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 # Livonian Verb inflection
 This file documents the verb inflection of Livonian.
@@ -2997,6 +3026,8 @@ Quotative
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 
 # Livonian morphophonology
@@ -3573,6 +3604,8 @@ nominative plural
 
 ---
 
+# src-fst-morphology-root.lexc.md 
+
 
 Morphology
 
@@ -4010,6 +4043,8 @@ This is used in compounding, e.g. äʼb-:äʼb
 
 ---
 
+# src-fst-morphology-stems-acronyms.lexc.md 
+
 Acronyms
 Livonian acronyms ...
 
@@ -4018,6 +4053,8 @@ Livonian acronyms ...
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/acronyms.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/acronyms.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adjectives_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -4031,6 +4068,8 @@ ADD NEW ADJECTIVES BELOW
 
 ---
 
+# src-fst-morphology-stems-adverbs_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 ADV_ "(eng) /(est) /(fin) /(lav)" ;
@@ -4042,6 +4081,8 @@ ADD NEW ADVERBS BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-exceptions.lexc.md 
 
 Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
@@ -4078,6 +4119,8 @@ The verb vȱlda has irregular forms:
 
 ---
 
+# src-fst-morphology-stems-nouns_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 N_ "(eng) ear/(est) /(fin) /(lav)" ;
@@ -4090,6 +4133,8 @@ ADD NEW NOUNS BELOW
 
 ---
 
+# src-fst-morphology-stems-propernouns_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
@@ -4100,6 +4145,8 @@ PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
 
 ---
 
+# src-fst-morphology-stems-questionablemisc_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 V_ "(eng) ear/(est) /(fin) /(lav)" ;
@@ -4109,6 +4156,8 @@ V_ "(eng) ear/(est) /(fin) /(lav)" ;
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/questionablemisc_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/questionablemisc_newwords.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -4121,6 +4170,8 @@ Add new verbs below
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -4289,6 +4340,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Liv are read out, e.g.
@@ -4309,6 +4362,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 Starting work with ordinals
@@ -4318,6 +4373,8 @@ Starting work with ordinals
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -4616,7 +4673,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-liv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for liv
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-liv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for liv
 
 Usage:
 ```
@@ -4679,6 +4743,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-liv/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for liv
 
@@ -4743,6 +4809,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -4804,6 +4872,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-liv/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-
