@@ -57,7 +57,8 @@ They must be escaped (cf morpheme boundaries further down):
 * %^RVows:0      raise vowel
 * %^VowsSh1:0    vowel shortening in first syllable
 * %^VowsShU1:0   
-* %^VowsShI1:0   
+* %^VowsShI1:0  
+* %^VowsShIn1:0 
 * %^DiphthSh1:0  
 * %^VowsLI1:0    vowel lengthening that is followed by "i" when short
 * %^VowsLU1:0    vowel lengthening that is followed by "u" when short
@@ -158,6 +159,8 @@ They must be escaped (cf morpheme boundaries further down):
 **Rule: ē:e in first syllable**
 
 **Rule: ū:u in first syllable**
+* *jūo^VowShIn1>i*
+* *juo0>i*
 
 **Rule: ū:ȯ in first syllable**
 

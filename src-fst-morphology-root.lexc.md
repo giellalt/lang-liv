@@ -330,7 +330,7 @@ accompanied by coda consonant lengthening
 * **%^Stress2to1** =
 * **%^VowsSh1** = vowel shortening in first syllable
 * **%^VowsShU1** =
-* **%^VowsShI1** =
+* **%^VowsShIn1** =
 * **%^DiphthSh1** =
 * **%^VowsLI1** = Vowel lengthening
 * **%^VowsLU1** =

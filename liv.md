@@ -2565,7 +2565,7 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_JŪODÕ = 9 jūodõ:jūo
 
-**LEXICON IV_TŪLDA = 11 tūlda:
+**LEXICON IV_TŪLDA = 11 tūlda:tuʼlā
 
 **LEXICON V-AUX_PĀNDA = 12 pānda:
 
@@ -2813,7 +2813,6 @@ Imprt
 
 Jus
 Qvo
-
 participles
 
 **LEXICON V-01_SĪEDÕ = : 7 sīedõ:sīe
@@ -2838,6 +2837,16 @@ participles
 9
 9
 jūodõ:jūo
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+10
+
+tūlda:tuʼl
 Prt
 Imprt
 
@@ -3088,7 +3097,8 @@ They must be escaped (cf morpheme boundaries further down):
 * %^RVows:0      raise vowel
 * %^VowsSh1:0    vowel shortening in first syllable
 * %^VowsShU1:0   
-* %^VowsShI1:0   
+* %^VowsShI1:0  
+* %^VowsShIn1:0 
 * %^DiphthSh1:0  
 * %^VowsLI1:0    vowel lengthening that is followed by "i" when short
 * %^VowsLU1:0    vowel lengthening that is followed by "u" when short
@@ -3189,6 +3199,8 @@ They must be escaped (cf morpheme boundaries further down):
 **Rule: ē:e in first syllable**
 
 **Rule: ū:u in first syllable**
+* *jūo^VowShIn1>i*
+* *juo0>i*
 
 **Rule: ū:ȯ in first syllable**
 
@@ -3938,7 +3950,7 @@ accompanied by coda consonant lengthening
 * **%^Stress2to1** =
 * **%^VowsSh1** = vowel shortening in first syllable
 * **%^VowsShU1** =
-* **%^VowsShI1** =
+* **%^VowsShIn1** =
 * **%^DiphthSh1** =
 * **%^VowsLI1** = Vowel lengthening
 * **%^VowsLU1** =
