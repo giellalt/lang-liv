@@ -63,7 +63,8 @@ K1:k       !!= * @CODE@ this k is not effected by gradation
 %^RVows:0     !!= * @CODE@ raise vowel
 %^VowsSh1:0   !!= * @CODE@ vowel shortening in first syllable
 %^VowsShU1:0  !!= * @CODE@ 
-%^VowsShI1:0  !!= * @CODE@ 
+%^VowsShI1:0  !!= * @CODE@
+%^VowsShIn1:0 !!= * @CODE@
 %^DiphthSh1:0 !!= * @CODE@ 
 %^VowsLI1:0   !!= * @CODE@ vowel lengthening that is followed by "i" when short
 %^VowsLU1:0   !!= * @CODE@ vowel lengthening that is followed by "u" when short
@@ -185,13 +186,17 @@ a:i <=>  _ ( %^ConsSh: |%^VowsSh1: %^PalatalizeLeft: ) %^Vow2Iin2: ;
 
 "ē:e in first syllable"
 !! **Rule: @RULENAME@**
-ē:e <=> # Cns* _  ( :i ) :Cns+ Vow: [ %^VowsShI1:0 | %^Stress1to2:0 | %^VowsSh1:0 ] ;
+ē:e <=> # Cns* _  ( :i ) :Cns+ Vow: [ %^VowsShIn1:0 | %^Stress1to2:0 | %^VowsSh1:0 ] ;
 !# Cns* _  ( :i ) :Cns+ Vow: %^Stress1to2:0  ;
- # Cns* _  ( :i ) :Cns+ Vow: Cns [ %^VowsShI1:0 | %^Stress1to2:0 | %^VowsSh1:0 ] ;
+ # Cns* _  ( :i ) :Cns+ Vow: Cns [ %^VowsShIn1:0 | %^Stress1to2:0 | %^VowsSh1:0 ] ;
 
 "ū:u in first syllable"
 !! **Rule: @RULENAME@**
 ū:u <=> # Cns* _  ( i ) Cns:+ Vow: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
+    # Cns* _  (ʼ:) Cns:+ %^VowShIn1:0 ;
+         # Cns* _ o %^VowShIn1:0 ;
+!!€ jūo^VowShIn1>i
+!!€ juo0>i
 
 "ū:ȯ in first syllable"
 !! **Rule: @RULENAME@**
@@ -251,7 +256,7 @@ u:ū <=> # Cns* _  ( i: | ʼ: | :ʼ ) :Cns+ (Vow:) %^VowsLI1:0 ;
 
 "0:i after shortened vowel or diphthong"
 !! **Rule: @RULENAME@**
-0:i <=> # Cns* [ ē: | ū: o: ] _ :Cns+ Vow: (Cns:) %^VowsShI1:0 ;
+0:i <=> # Cns* [ ē: | ū: o: ] _ :Cns+ Vow: (Cns:) %^VowsShIn1:0 ;
          _ e ( ʼ: | :ʼ ) Cns: %^PreI: ;
 !!€# v0eʼd%^PreI
 !!€0 vieʼd0
@@ -348,7 +353,7 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 "ā:0"
 !! **Rule: @RULENAME@**
 ā:0 <=> _ Dummy:* %^VowsRM:0  ;
-!# Cns*  [Vow: | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 | %^Stress1to2: | %^ConsSh: |%^PalatalizeLeft:) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+!# Cns*  [Vow: | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 | %^Stress1to2: | %^ConsSh: |%^PalatalizeLeft:) %^VowsRM:0 | %^VowsShIn1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
 !!€# aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži
 !!€0 äʼm000000ži
 !!€# aʼmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ḑi
@@ -356,7 +361,7 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 !!€# daʼdzā%^Stress1to2%^VowsRM%>õ
 !!€0 daʼdz0000õ
 
-! # Cns* Vow ( ʼ: | :ʼ ) [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+! # Cns* Vow ( ʼ: | :ʼ ) [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShIn1:0 %^VowsRM:0 | %^ConsL:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
        # Cns* [ Vow | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ Cns: %^StodRM: %^VowsRM: %^ConsRM: ;
 !!€# maʼigāz%^StodRM%^VowsRM%^ConsRM>īst
 !!€0 ma0ig000000īst
@@ -364,7 +369,7 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 "ū:0"
 !! **Rule: @RULENAME@**
 ū:0 <=>  _ Dummy:* %^VowsRM:0 ;
-! # Cns* [Vow | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShI1:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
+! # Cns* [Vow | ʼ: | :ʼ ]+ [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress2to1:0 ) %^VowsRM:0 | %^VowsShIn1:0 %^VowsRM:0 | %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 ] [ # | %> ] ;
     # Cns* Vow:+ ( ʼ: | :ʼ ) [ Cns: | :Cns ]+ _ Cns  %^Tense:0  ;
 !#Vow: %^Stress2to1:0 %^VowsRM:0 %^ConsRM:0 %> d: 
 
@@ -379,8 +384,8 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 "a:0"
 !! **Rule: @RULENAME@**
 a:0 <=>   _ Dummy:* %^VowsRM: ;
-! # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShI1:0 | %^VowsSh1:0 | ( %^Stress1to2:0 ) %^PalatalizeLeft:0 ] %^VowsRM:0 ;
- # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ Cns [ %^VowsShI1:0  ] %^VowsMRM:0 ;
+! # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) ( %^ConsL:0 ) | %^VowsShIn1:0 | %^VowsSh1:0 | ( %^Stress1to2:0 ) %^PalatalizeLeft:0 ] %^VowsRM:0 ;
+ # Cns* [ Vow:+ ( 0:i )| Vow: Vow: ] [ Cns: | :Cns ]+ _ Cns [ %^VowsShIn1:0  ] %^VowsMRM:0 ;
 !!€# jǭr0a%^Stress1to2%^ConsL%^VowsRMõ
 !!€0 jarr0000õ
 !!€# pūol0a%^Stress1to2%^ConsL%^VowsRMõ
