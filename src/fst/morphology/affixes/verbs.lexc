@@ -14,9 +14,9 @@ LEXICON TV_
 
 LEXICON V-AUX_VȰLDA
 !!  **LEXICON @LEXNAME@ =  10 vȱlda:ZERO
-:vȱld GER_sõ ;
+:vȯld GER_sõ ;
 +Inf:vȱlda K ;
-:vȯʼl SUP-STEM_mõ    ;
+:vȯʼl SUP_mõ    ;
 +Ind+Prs+Sg1:uʼm K ;
 +Ind+Prs+Sg2:ūod K ;
 +Ind+Prs+Sg3:uʼm K ;
@@ -28,10 +28,10 @@ LEXICON V-AUX_VȰLDA
 +Err/Orth+Ind+Prs+Pl3:attõ K ;
 +Err/Orth+Ind+Prs+Pl3:āt K ;
 +Err/Orth+Ind+Prs+Pl3:at K ;
-+Ind+Conneg+Sg:ūo K ;
-+Ind+Conneg+Pl1:ūomõ K ;
-+Ind+Conneg+Pl2:ūotõ K ;
-+Ind+Conneg+Pl3:ūotõ K ;
++Ind+ConNeg+Sg:ūo K ;
++Ind+ConNeg+Pl1:ūomõ K ;
++Ind+ConNeg+Pl2:ūotõ K ;
++Ind+ConNeg+Pl3:ūotõ K ;
 +Ind+Prt+Sg1:vȯʼļ K ;
 +Ind+Prt+Sg2:vȯʼļd K ;
 +Ind+Prt+Sg3:vȯʼļ K ;
@@ -40,7 +40,10 @@ LEXICON V-AUX_VȰLDA
 +Err/Orth+Ind+Prt+Pl2:vȯʼļțõ K ; ! variant 2023_08_9
 +Ind+Prt+Pl3:vȯʼļtõ K ;
 +Err/Orth+Ind+Prt+Pl3:vȯʼļțõ K ; ! variant 2023_08_9
-+Cond+Conneg:vȯlks K ;
++Cond+ConNeg+Sg:vȯlks K ;
++Cond+ConNeg+Pl1:vȯlksmõ K ;
++Cond+ConNeg+Pl2:vȯlkstõ K ;
++Cond+ConNeg+Pl3:vȯlkstõ K ;
 +Cond+Sg1:vȯlks K ;
 +Cond+Sg2:vȯlkst K ;
 +Cond+Sg3:vȯlks K ;
@@ -50,23 +53,26 @@ LEXICON V-AUX_VȰLDA
 +Imprt+Sg2:vȯʼl K ;
 +Imprt+Pl2:vȯlgid K ;
 +Err/Orth+Imprt+Pl2:vȯʼlgid K ;
-+Imprt+Conneg+Sg2:vȯʼl K ;
-+Imprt+Conneg+Pl2:vȯlgid K ;
-+Err/Orth+Imprt+Conneg+Pl2:vȯʼlgid K ;
++Imprt+ConNeg+Sg2:vȯʼl K ;
++Imprt+ConNeg+Pl2:vȯlgid K ;
++Err/Orth+Imprt+ConNeg+Pl2:vȯʼlgid K ;
 +Jus+Sg3:vȯlkõ K ;
-+Jus+Conneg+Sg3:vȯlkõ K ;
-+Jus+Pl3:vȯlkõ K ;
-+Jus+Conneg+Pl3:vȯlkõ K ;
++Jus+ConNeg+Sg3:vȯlkõ K ;
++Jus+Pl3:vȯlkõd K ;
++Jus+ConNeg+Pl3:vȯlkõd K ;
 +Quo+Sg3:vȯļļi K ;
 +Err/Orth+Quo+Pl3:vȯʼļļi K ;
 +Quo+Pl3:vȯļļid K ;
-+Quo+Conneg+Sg3:vȯļļi K ;
-+Err/Orth+Quo+Conneg+Pl3:vȯʼļļi K ;
-+Quo+Conneg+Pl3:vȯļļid K ;
-+Act+PrcPrf+Sg:vȯnd K ;
-+Act+PrcPrf+Pl:vȯnnõd K ;
++Quo+ConNeg+Sg3:vȯļļi K ;
++Err/Orth+Quo+ConNeg+Pl3:vȯʼļļi K ;
++Quo+ConNeg+Pl3:vȯļļid K ;
++Act+PrfPrc+Sg:vȯnd K ;
++Act+PrfPrc+Pl:vȯnnõd K ;
 +Pss+PrfPrc+Sg:vȯldõd K ;
-
++Pss+PrsPrc+Sg:vȯldõb K ;
+:vȯʼl  DER/NOMACT_mi ;
+:vȯļļ DER/NOMAG_i ;
+ 
 LEXICON IV_VȰLDA
 !!  **LEXICON @LEXNAME@ = 10 vȱlda: goes to **K**
 +IV: K ;
@@ -157,8 +163,9 @@ LEXICON TV_JŪODÕ
 : V-01_JŪODÕ ;
 
 LEXICON IV_TŪLDA
-!!  **LEXICON @LEXNAME@ = 11 tūlda:
-+IV: K ; !FIXME 20230902
+!!  **LEXICON @LEXNAME@ = 11 tūlda:tuʼlā
+!+IV: V-01_TŪLDA ; !FIXME 20230902
+: V-01_TŪLDA ;
 
 LEXICON V-AUX_PĀNDA
 !!  **LEXICON @LEXNAME@ = 12 pānda:
@@ -804,8 +811,8 @@ LEXICON V-01_TĪʼEDÕ
 :īʼe   INDPRSPL2_tõ    ;
 :īʼe   INDPRSPL3    ;
 :īʼe   INDCONNEGPL_mõ/tõ/tõ ;
-:īʼe   INDCONNEGPL2 ;
-:īʼe   INDCONNEGPL3 ;
+!:īʼe   INDCONNEGPL2 ;
+!:īʼe   INDCONNEGPL3 ;
 :īʼe   INDPRSSG1-STEM    ;
 :īʼe   INDCONNEGSG    ;
 !! Prt
@@ -822,8 +829,9 @@ LEXICON V-01_TĪʼEDÕ
 !! Jus
 :īʼe JUS_gõ	;
 !! Qvo
-:ēʼ QUO-STEM_ji	;
-
+:ēʼ QUO_ji	;
+:ēʼ DER/NOMAG_ji	;
+:īʼe DER/NOMACT_mi ;
 !! participles
 :īʼe ACTPRSPRC ;
 :īʼe ACTPRFPRC_SG-nd/PL-nõd ;
@@ -858,7 +866,9 @@ LEXICON V-01_SĪEDÕ
 !! Jus
  JUS_gõ	;
 !! Qvo
-:%^LowerVows%^VowsRM QUO-STEM_ji	;
+:%^LowerVows%^VowsRM QUO_ji	;
+:%^LowerVows%^VowsRM DER/NOMAG_ji	;
+ DER/NOMACT_mi ;
 
 !! participles
  ACTPRSPRC ;
@@ -874,6 +884,9 @@ LEXICON V-01_SǬDÕ
 :ǭ   INF_dõ	  ;
 :ǭ   SUP-STEM_mõ	  ; 
 :ǭ   INDPRSSG1-STEM    ;
+:ā  INDPRTPL1_ima    ;
+:ā  INDPRTPL2_ita    ;
+:ā  INDPRTPL3_ita    ;
 :ǭ   INDCONNEGSG    ;
 !! Prt
 :a INDPRT_i    ;
@@ -904,6 +917,36 @@ LEXICON V-01_JŪODÕ
    INF_dõ	  ;
    SUP-STEM_mõ	  ; 
    INDPRSSG1-STEM    ;
+   INDCONNEGSG    ;
+!! Prt
+:%^VowShIn1 INDPRT_i    ;
+! Cond
+: COND ;
+!! Imprt
+	IMPRTSG2    ;
+	IMPRTPL1	;
+	IMPRTPL2	;
+	IMPRTCONNEGSG2 ;
+	IMPRTCONNEGPL2_gid ;
+
+!! Jus
+ JUS_gõ	;
+!! Qvo
+ QUO-STEM_ji	;
+
+!! participles
+ ACTPRSPRC ;
+ ACTPRFPRC_SG-nd/PL-nõd ;
+ PSSPRSPRC ;
+ PSSPRFPRCSG    ;
+!! 10
+
+LEXICON V-01_TŪLDA
+!! tūlda:tuʼl
+:d   GER_sõ   ;
+   INF_da	  ;
+   SUP-STEM_mõ	  ; 
+:ā   INDPRSSG1-STEM    ;
    INDCONNEGSG    ;
 !! Prt
 :%^VowShIn1 INDPRT_i    ;
@@ -1790,13 +1833,22 @@ LEXICON JUS_gõ
 !! Quotative
 LEXICON QUO-STEM_ji
 	QUO_ji	;
-+Der+Der/NomAct+N:%>mi		N_AʼBLI	;
-+Der+Der/NomAg+N:%>ji N_SĒJI ; !CHECKME 2021-08-04
+	DER/NOMACT_mi ;
+	DER/NOMAG_ji ;
 !N_AKKIJI vs N_SĒJI
 LEXICON QUO-STEM_iji
 	QUO_iji	;
 +Der+Der/NomAct+N:imi		N_AʼBLI	;
 +Der+Der/NomAg+N:iji N_AKKIJI ; !CHECKME 2021-08-04
+
+LEXICON DER/NOMAG_i
++Der+Der/NomAg+N:%>i N_SĒJI ; !CHECKME 2021-08-04
+
+LEXICON DER/NOMAG_ji
++Der+Der/NomAg+N:%>ji N_SĒJI ; !CHECKME 2021-08-04
+
+LEXICON DER/NOMACT_mi
++Der+Der/NomAct+N:%>mi          N_AʼBLI ;
 
 LEXICON QUO_ji
 +Quo+Sg3:%>ji           K    ;
