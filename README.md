@@ -8,10 +8,13 @@ The Liv morphology and tools
 [![Doc Build Status](https://github.com/giellalt/lang-liv/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-liv/actions)
 [![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-liv/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-liv/main/latest)
 
-Download nightly / CI/CD zhfst files for testing:
+Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
+
 [![Windows](https://img.shields.io/badge/download%40latest-Windows--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-liv?platform=windows&channel=nightly)
 [![MacOS](https://img.shields.io/badge/download%40latest-macOS--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-liv?platform=macos&channel=nightly)
 [![Mobile](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-liv?platform=mobile&channel=nightly)
+
+__NB!!__ Note that the nightly / CI/CD installation packages are not tested for language quality, and might contain regressions and errors.
 
 This directory contains source files for the Livonian language
 morphology and dictionary. The data and implementation are licenced
