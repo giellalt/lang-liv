@@ -4,10 +4,14 @@ The Liv morphology and tools
 [![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-liv%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html)
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-liv%2Fgh-pages%2Flemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-liv/main/badge.svg)](https://github.com/giellalt/lang-liv/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/blob/main/LICENSE)
-[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-liv?platform=desktop&channel=nightly)
-[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-liv?platform=mbile&channel=nightly)
+[![Doc Build Status](https://github.com/giellalt/lang-liv/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-liv/actions)
+[![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-liv/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-liv/main/latest)
+
+Download nightly / CI/CD zhfst files for testing:
+[![Windows](https://img.shields.io/badge/download%40latest-Windows--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-liv?platform=windows&channel=nightly)
+[![MacOS](https://img.shields.io/badge/download%40latest-macOS--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-liv?platform=macos&channel=nightly)
+[![Mobile](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-liv?platform=mobile&channel=nightly)
 
 This directory contains source files for the Livonian language
 morphology and dictionary. The data and implementation are licenced
@@ -45,7 +49,7 @@ dictionaries, you need:
 - an FST compiler: [HFST](https://github.com/hfst/hfst), [Foma](https://github.com/mhulden/foma) or [Xerox Xfst](https://web.stanford.edu/~laurik/fsmbook/home.html)
 - [VislCG3](https://visl.sdu.dk/svn/visl/tools/vislcg3/trunk) Constraint Grammar tools
 
-To install VislCG3 and HFST, just copy/paste this into your Terminal on **Mac OS X**:
+To install VislCG3 and HFST, just copy/paste this into your Terminal on **macOS**:
 
 ```
 curl https://apertium.projectjj.com/osx/install-nightly.sh | sudo bash
