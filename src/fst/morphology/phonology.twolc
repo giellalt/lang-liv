@@ -482,7 +482,7 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !! **Rule: @RULENAME@**
  l:0 <=>
 # Cns* Vow ( ʼ: ) l _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
-  _ (%^VowsLI1:) (%^StodRM:) (%^VowsRM:) %^ConsRM: ;
+  _ (%^VowsLI1:|%^VowShIn1:) (%^StodRM:) (%^VowsRM:) %^ConsRM: ;
 
 "z:0"
 !! **Rule: @RULENAME@**
