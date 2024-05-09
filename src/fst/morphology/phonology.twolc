@@ -193,7 +193,7 @@ a:i <=>  _ ( %^ConsSh: |%^VowsSh1: %^PalatalizeLeft: ) %^Vow2Iin2: ;
 "ū:u in first syllable"
 !! **Rule: @RULENAME@**
 ū:u <=> # Cns* _  ( i ) Cns:+ Vow: [ %^Stress1to2:0 | %^VowsSh1:0 ]  ;
-    # Cns* _  (ʼ:) Cns:+ %^VowShIn1:0 ;
+    # Cns* _  (ʼ:) Cns:+ (%{XC%}:) %^VowShIn1:0 ;
          # Cns* _ o %^VowShIn1:0 ;
 !!€ jūo^VowShIn1>i
 !!€ juo0>i
@@ -526,7 +526,7 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !! **Rule: @RULENAME@**
  %{XC%}:Cx <=> 
 !# Cns* Vow ( ʼ: ) Cx _ Vow: [ ( %^Stress1to2:0 ) %^ConsL:0 | %^Stress2to1:0 ] 
-               Cx _ ;
+               :Cx _ ;
 !  # Cns* [ a | ä | e | õ | u | i ] ( ʼ: ) Cx _ [ %> õ | %> i ] ;
          where Cx in (t b d g l ļ m n ņ r ŗ š v z ) ;
 
@@ -605,7 +605,7 @@ d:ḑ <=>
 !! **Rule: @RULENAME@**
 l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vow: (%^Stress1to2:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
-        _ [g] (%^VowsLI1:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) ( %^ConsRM:0 ) [ # | %> ] ;!kiļg:kilg
+        _ ( g |%{XC%}: ) (%^VowsLI1:|%^VowShIn1:) (%^StodRM:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) ( %^ConsRM:0 ) [ # | %> ] ;!kiļg:kilg
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 	_ (%^ĪE2Ē:) (%^StodRM:) %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !!€# äʼddõl%^PalatalizeLeft%>i
