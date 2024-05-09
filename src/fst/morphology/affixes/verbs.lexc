@@ -963,12 +963,13 @@ LEXICON V-01_TŪLDA
 :%^VowShIn1%^StodRM JUS_gõ	;
 !! Qvo
 :%{XC%}%^VowShIn1%^StodRM%^PalatalizeLeft QUO_i	;!2024-05-09
-
++Der+Der/NomAct+N:%^VowShIn1%>mi N_AʼBLI ;
++Der+Der/NomAg+N:%{XC%}%^VowShIn1%^StodRM%^PalatalizeLeft%>i N_AKKIJI ;
 !! participles
  ACTPRSPRC ;
- ACTPRFPRC_SG-nd/PL-nõd ;
- PSSPRSPRC ;
- PSSPRFPRCSG    ;
+:%^VowShIn1%^StodRM%^ConsRM ACTPRFPRC_SG-nd/PL-nnõd ;
+:%^VowShIn1%^StodRM PSSPRSPRC ;
+:%^VowShIn1%^StodRM PSSPRFPRCSG    ;
 !! 10
 
 !!
@@ -1461,6 +1462,11 @@ LEXICON ACTPRFPRC_nd
 +Act+PrfPrc+Pl:%>nd     K    ; !! Are the singular and plural homonyms?
 
 LEXICON ACTPRFPRC_SG-nd/PL-nõd
+!! **LEXICON @LEXNAME@ = 
++Act+PrfPrc+Sg:%>nd      K    ;
++Act+PrfPrc+Pl:%>nõd     K    ; !! Are the singular and plural homonyms?
+
+LEXICON ACTPRFPRC_SG-nd/PL-nnõd
 !! **LEXICON @LEXNAME@ = 
 +Act+PrfPrc+Sg:%>nd      K    ;
 +Act+PrfPrc+Pl:%>nõd     K    ; !! Are the singular and plural homonyms?
