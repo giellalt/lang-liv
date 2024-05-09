@@ -163,7 +163,7 @@ LEXICON TV_JŪODÕ
 : V-01_JŪODÕ ;
 
 LEXICON IV_TŪLDA
-!!  **LEXICON @LEXNAME@ = 11 tūlda:tuʼlā
+!!  **LEXICON @LEXNAME@ = 11 tūlda:tuʼl
 !+IV: V-01_TŪLDA ; !FIXME 20230902
 : V-01_TŪLDA ;
 
@@ -943,15 +943,15 @@ LEXICON V-01_JŪODÕ
 
 LEXICON V-01_TŪLDA
 !! tūlda:tuʼl
-:d   GER_sõ   ;
-   INF_da	  ;
-   SUP-STEM_mõ	  ; 
-:ā   INDPRSSG1-STEM    ;
-   INDCONNEGSG    ;
+:%^VowShIn1%^StodRM%>d   GER_sõ   ;
+:%^StodRM   INF_da	  ;
+:%^VowShIn1   SUP-STEM_mõ	  ; 
+:%^VowShIn1%^StodRM%>ā   INDPRSSG1-STEM    ;
+:%^VowShIn1   INDCONNEGSG    ;
 !! Prt
 :%^VowShIn1 INDPRT_i    ;
 ! Cond
-: COND ;
+:%^VowShIn1%^StodRM COND ;
 !! Imprt
 	IMPRTSG2    ;
 	IMPRTPL1	;
