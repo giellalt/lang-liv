@@ -3446,6 +3446,8 @@ kēļ+N+Sg+Nom
 
 **Rule: g:0**
 
+**Rule: l:0**
+
 **Rule: z:0**
 * *rik0āz%^Stress2to1%^ConsRM*
 
