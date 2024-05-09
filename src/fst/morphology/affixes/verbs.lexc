@@ -949,20 +949,20 @@ LEXICON V-01_TŪLDA
 :%^VowShIn1%^StodRM%>ā   INDPRSSG1-STEM    ;
 :%^VowShIn1   INDCONNEGSG    ;
 !! Prt
-:%^VowShIn1 INDPRT_i    ;
+:%^VowShIn1%^PalatalizeLeft INDPRT_ZERO    ;
 ! Cond
 :%^VowShIn1%^StodRM COND ;
 !! Imprt
-	IMPRTSG2    ;
-	IMPRTPL1	;
-	IMPRTPL2	;
-	IMPRTCONNEGSG2 ;
-	IMPRTCONNEGPL2_gid ;
+:%^VowShIn1	IMPRTSG2    ;
+:%^VowShIn1%^StodRM	IMPRTPL1	;
+:%^VowShIn1%^StodRM	IMPRTPL2	;
+:%^VowShIn1	IMPRTCONNEGSG2 ;
+:%^VowShIn1%^StodRM	IMPRTCONNEGPL2_gid ;
 
 !! Jus
- JUS_gõ	;
+:%^VowShIn1%^StodRM JUS_gõ	;
 !! Qvo
- QUO-STEM_ji	;
+:%{XC%}%^VowShIn1%^StodRM%^PalatalizeLeft QUO_i	;!2024-05-09
 
 !! participles
  ACTPRSPRC ;
@@ -1507,6 +1507,15 @@ LEXICON INDPRS_m/t/bõd
   INDPRSPL2_t	;
   INDPRSPL3_bõd	;
 
+LEXICON INDPRT_ZERO
+!!  **LEXICON @LEXNAME@ = Indicative preterite in i
+ INDPRTSG1_ZERO    ;
+ INDPRTSG2_d    ;
+ INDPRTSG3_ZERO    ;
+ INDPRTPL1_mõ    ;
+ INDPRTPL2_tõ    ;
+ INDPRTPL3_tõ    ;
+
 LEXICON INDPRT_i
 !!  **LEXICON @LEXNAME@ = Indicative preterite in i
  INDPRTSG1_i    ;
@@ -1575,7 +1584,7 @@ LEXICON INDPRT_žtõ
 
 LEXICON INDPRTSG3-STEM_tõ
 !! **LEXICON @LEXNAME@ = 
- INDPRTSG3    ;
+ INDPRTSG3_ZERO    ;
  INDPRTPL2_tõ    ;
  INDPRTPL3_tõ    ;
 
@@ -1639,6 +1648,9 @@ LEXICON INDPRSPL3_tõ
  +Ind+Prs+Pl3:%>tõ    K	;
 
  ! Indicative preterite
+LEXICON INDPRTSG1_ZERO
+ +Ind+Prt+Sg1:%>    K	;
+
 LEXICON INDPRTSG1_i
  +Ind+Prt+Sg1:%>i    K	;
 
@@ -1647,6 +1659,9 @@ LEXICON INDPRTSG1_z
 
 LEXICON INDPRTSG1_ž
  +Ind+Prt+Sg1:%>ž    K	;
+
+LEXICON INDPRTSG2_d
++Ind+Prt+Sg2:%>d    K ;
 
 LEXICON INDPRTSG2_i
 +Ind+Prt+Sg2:%>id    K ;
@@ -1657,7 +1672,7 @@ LEXICON INDPRTSG2_z
 LEXICON INDPRTSG2_ž
  +Ind+Prt+Sg2:%>žt    K	;
 
-LEXICON INDPRTSG3
+LEXICON INDPRTSG3_ZERO
  +Ind+Prt+Sg3:    K	;
 
 LEXICON INDPRTSG3_i
@@ -1668,6 +1683,9 @@ LEXICON INDPRTSG3_z
 
 LEXICON INDPRTSG3_ž
  +Ind+Prt+Sg3:%>ž    K	;
+
+LEXICON INDPRTPL1_mõ
+ +Ind+Prt+Pl1:%>mõ    K	;
 
 LEXICON INDPRTPL1_i
  +Ind+Prt+Pl1:%>imõ    K	;
@@ -1681,8 +1699,12 @@ LEXICON INDPRTPL1_z
 LEXICON INDPRTPL1_ž
  +Ind+Prt+Pl1:%>žmõ    K	;
 
+LEXICON INDPRTPL2_tõ
+ +Ind+Prt+Pl2:%>tõ    K	;
+
 LEXICON INDPRTPL2_i
  +Ind+Prt+Pl2:%>itõ    K	;
+
 LEXICON INDPRTPL2_ita
  +Ind+Prt+Pl2:%>ita    K	;
 
@@ -1698,9 +1720,6 @@ LEXICON INDPRTPL2_žt
  +Ind+Prt+Pl2:%>žt    K	;
 LEXICON INDPRTPL2_žtõ
  +Ind+Prt+Pl2:%>žtõ    K	;
-
-LEXICON INDPRTPL2_tõ
- +Ind+Prt+Pl2:%>tõ    K	;
 
 LEXICON INDPRTPL2_tā
  +Ind+Prt+Pl2:%>tā    K	;
@@ -1861,6 +1880,12 @@ LEXICON QUO_iji
 +Quo+Pl3:%>ijid           K    ;
 +Quo+ConNeg+Sg3:%>iji           K    ;
 +Quo+ConNeg+Pl3:%>ijid           K    ;
+
+LEXICON QUO_i
++Quo+Sg3:%>i           K    ;
++Quo+Pl3:%>id           K    ;
++Quo+ConNeg+Sg3:%>i           K    ;
++Quo+ConNeg+Pl3:%>id           K    ;
 
 ! vim: set ft=xfst-lexc:
 
