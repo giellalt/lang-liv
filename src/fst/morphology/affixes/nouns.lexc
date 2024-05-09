@@ -3293,17 +3293,17 @@ LEXICON NMN_PȮIS-PL !!≈ * **@CODE@** : 109
 :%^VowsLI1 PL-PAR_idi      ;
 
 
-LEXICON NMN_KIĻG !!≈ * **@CODE@** : 110
+LEXICON NMN_KIĻG !!≈ * **@CODE@** : 110 kiļg:kilg
 	NMN_KIĻG-SG	;
 	NMN_KIĻG-PL	;
 LEXICON NMN_KIĻG-SG !!≈ * **@CODE@** : 110
-:%{XC%}              SG-DAT_õn   ;
+        SG-DAT_õn   ;
         SG-ELA/INE_štõ  ;
         SG-GEN      ;
-:%{XC%}              SG-ILL_õ    ;
-:%{XC%}              SG-INS_õks  ;
-        SG-NOM      ;
-:%{XC%}              SG-PAR_õ    ;
+        SG-ILL_õ    ;
+        SG-INS_kõks  ;
+:%^PalatalizeLeft        SG-NOM      ;
+:%^VowsLI1%^ConsRM              SG-PAR_ta    ;!kīlta
 LEXICON NMN_KIĻG-PL !!≈ * **@CODE@** : 110
 :%^VowsLI1 PL-INS_ÕDÕKS-STEM       ;
 :%^VowsLI1 PL-ELA/INE_ist  ;

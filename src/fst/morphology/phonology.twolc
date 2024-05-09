@@ -468,9 +468,15 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (0:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 !! **Rule: @RULENAME@**
  Cx:0 <=> 
 # Cns* Vow: ( ʼ: ) Cx _ Vow: Dummy:* %^ConsSh:0  ;
-          where Cx in ( b g j l ļ m n ņ r ŗ v ž ) ;
+          where Cx in ( b j l ļ m n ņ r ŗ v ž ) ;
 !!€# aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži
 !!€0 äʼm000000ži
+
+"g:0"
+!! **Rule: @RULENAME@**
+ g:0 <=>
+# Cns* Vow ( ʼ: ) g _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
+  _ (%^VowsLI1:|%^StodRM:) (%^VowsRM:) %^ConsRM: ;
 
 "z:0"
 !! **Rule: @RULENAME@**
@@ -599,6 +605,7 @@ d:ḑ <=>
 !! **Rule: @RULENAME@**
 l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vow: (%^Stress1to2:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
+        _ [g] (%^VowsLI1:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) ( %^ConsRM:0 ) [ # | %> ] ;!kiļg:kilg
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 	_ (%^ĪE2Ē:) (%^StodRM:) %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !!€# äʼddõl%^PalatalizeLeft%>i
