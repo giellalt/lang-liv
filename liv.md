@@ -2997,6 +2997,8 @@ Are the singular and plural homonyms?
 
 **LEXICON INDPRS_m/t/bõd = Indicative present
 
+**LEXICON INDPRT_ZERO = Indicative preterite in i
+
 **LEXICON INDPRT_i = Indicative preterite in i
 
 **LEXICON INDPRT_ita = Indicative preterite in i
