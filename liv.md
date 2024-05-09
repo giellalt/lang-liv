@@ -1604,7 +1604,7 @@ Stød: None
 
 * **LEXICON NMN_PȮIS-PL** : 109
 
-* **LEXICON NMN_KIĻG** : 110
+* **LEXICON NMN_KIĻG** : 110 kiļg:kilg
 * **LEXICON NMN_KIĻG-SG** : 110
 * **LEXICON NMN_KIĻG-PL** : 110
 
@@ -2565,7 +2565,7 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_JŪODÕ = 9 jūodõ:jūo
 
-**LEXICON IV_TŪLDA = 11 tūlda:tuʼlā
+**LEXICON IV_TŪLDA = 11 tūlda:tuʼl
 
 **LEXICON V-AUX_PĀNDA = 12 pānda:
 
@@ -3439,6 +3439,8 @@ kēļ+N+Sg+Nom
 * aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
 
 * äʼm000000ži examples:*
+
+**Rule: g:0**
 
 **Rule: z:0**
 * *rik0āz%^Stress2to1%^ConsRM*

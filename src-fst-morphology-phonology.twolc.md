@@ -400,6 +400,8 @@ kēļ+N+Sg+Nom
 
 * äʼm000000ži examples:*
 
+**Rule: g:0**
+
 **Rule: z:0**
 * *rik0āz%^Stress2to1%^ConsRM*
 

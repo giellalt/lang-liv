@@ -43,7 +43,7 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_JŪODÕ = 9 jūodõ:jūo
 
-**LEXICON IV_TŪLDA = 11 tūlda:tuʼlā
+**LEXICON IV_TŪLDA = 11 tūlda:tuʼl
 
 **LEXICON V-AUX_PĀNDA = 12 pānda:
 

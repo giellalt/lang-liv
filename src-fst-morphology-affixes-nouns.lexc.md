@@ -1141,7 +1141,7 @@ Stød: None
 
 * **LEXICON NMN_PȮIS-PL** : 109
 
-* **LEXICON NMN_KIĻG** : 110
+* **LEXICON NMN_KIĻG** : 110 kiļg:kilg
 * **LEXICON NMN_KIĻG-SG** : 110
 * **LEXICON NMN_KIĻG-PL** : 110
 
