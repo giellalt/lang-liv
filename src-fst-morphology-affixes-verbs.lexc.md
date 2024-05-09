@@ -330,7 +330,6 @@ Imprt
 
 Jus
 Qvo
-
 participles
 10
 
@@ -460,6 +459,9 @@ participles
 Are the singular and plural homonyms?
 
 **LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
+Are the singular and plural homonyms?
+
+**LEXICON ACTPRFPRC_SG-nd/PL-nnõd = 
 Are the singular and plural homonyms?
 
 **LEXICON PSSPRSPRC = 
