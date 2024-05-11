@@ -354,7 +354,7 @@ LEXICON N_NIʼM-PL !!≈ * **@CODE@** niʼm:nim 76
 LEXICON N_USK !!≈ * **@CODE@** usk: 77
  NMN_USK	;
 
-LEXICON N_VAŠK !!≈ * **@CODE@** : 78
+LEXICON N_VAŠK !!≈ * **@CODE@** : 78 vašk:vask
  NMN_VAŠK	;
 
 LEXICON N_TUP !!≈ * **@CODE@** tup:tup 79
@@ -2536,19 +2536,19 @@ LEXICON NMN_VAʼG-PL !!≈ * **@CODE@** vaʼg:vag 72
 LEXICON NMN_KÕʼL !!≈ * **@CODE@** kõʼl:kõl 73
 	NMN_KÕʼL-SG ;
 	NMN_KÕʼL-PL ;
-LEXICON NMN_KÕʼL-SG !!≈ * **@CODE@** kõʼl:kõl 73
+LEXICON NMN_KÕʼL-SG !!≈ * **@CODE@** kõʼl:kõʼl 73
 :%{XC%} SG-DAT_õn ;
-:%{XC%}        SG-ELA/INE_õst ;
+:        SG-ELA/INE_stõ ;
                 SG-GEN ;
 :%{XC%} SG-ILL_õ ;
-:%{XC%}        SG-INS_õks ;
+:        SG-INS_kõks ;
                 SG-NOM  ;
 :%{XC%}        SG-PAR_õ ;
-LEXICON NMN_KÕʼL-PL !!≈ * **@CODE@** kõʼl:kõl 73
-:ī      PL-INS_DÕKS-STEM ;
-        PL-ELA/INE_īst ;
-        PL-ILL_īz ;
-        PL-PAR_īdi ;
+LEXICON NMN_KÕʼL-PL !!≈ * **@CODE@** kõʼl:kõʼl 73
+:%^StodRM%>ū      PL-INS_DÕKS-STEM ;
+:%^PalatalizeLeft        PL-ELA/INE_šti ;
+:%^PalatalizeLeft        PL-ILL_ži ;
+:%^PalatalizeLeft        PL-PAR_ḑi ;
 
 LEXICON NMN_SUʼG !!≈ * **@CODE@** suʼg:suʼg 74
 	NMN_SUʼG-SG ;
@@ -2626,24 +2626,22 @@ LEXICON NMN_USK-PL !!≈ * **@CODE@** usk: 77
 :        PL-ILL_īž ;
 :        PL-PAR_īdi ;
 
-LEXICON NMN_VAŠK !!≈ * **@CODE@** : 78
+LEXICON NMN_VAŠK !!≈ * **@CODE@** : 78 vašk:vask
 	NMN_VAŠK-SG	;
 	NMN_VAŠK-PL	;
 LEXICON NMN_VAŠK-SG !!≈ * **@CODE@** : 78
-:%{XC%}        SG-DAT_õn ;
+:        SG-DAT_õn ;
 :        SG-ELA/INE_stõ ;
 :        SG-GEN ;
-:%{XC%}    SG-ILL_õ ;
-! SG-INE ;
-:        SG-INS_kõks ;
-:        SG-NOM  ;
-:%{XC%}    SG-PAR_õ ;
+:    SG-ILL_õ ;
+:        SG-INS_õks ;
+:%^PalatalizeLeft        SG-NOM  ;
+:    SG-PAR_õ ;
 LEXICON NMN_VAŠK-PL !!≈ * **@CODE@** : 78
-:%^StodRMū        PL-INS_DÕKS-STEM ;
-:%^StodRM        PL-ELA/INE_īst ;
-:%^StodRM        PL-ILL_īž ;
-!       PL-INE ;
-:%^StodRM        PL-PAR_īdi ;
+:ū        PL-INS_DÕKS-STEM ;
+:        PL-ELA/INE_īst ;
+:        PL-ILL_īž ;
+:        PL-PAR_īdi ;
 
 
 LEXICON NMN_TUP !!≈ * **@CODE@** tup:tup 79
@@ -5483,9 +5481,9 @@ LEXICON NMN_UMĀRZ-SG
 
 LEXICON NMN_UMĀRZ-PL
  	PL-INS_DÕKS-STEM ;
-:%^VowsõToi PL-ELA/INE_ist ;
-:%^VowsõToi PL-ILL_iž ;
-:%^VowsõToi PL-PAR_i ;
+:%^PalatalizeLeft PL-ELA/INE_ist ;
+:%^PalatalizeLeft PL-ILL_iž ;
+:%^PalatalizeLeft PL-PAR_i ;
 !!
 !! 226, 227, 228
 LEXICON NMN_DULLÕNZ !!≈ * **@CODE@** dullõnz:dullõn 227
@@ -5677,7 +5675,7 @@ LEXICON NMN_KĪNDÕR-SG
 LEXICON NMN_KĪNDÕR-PL !!≈ * **@CODE@** kīndõr:kīndõr 237
      PL-INS_DÕKS-STEM   ;
      PL-ELA/INE_ist         ;
-:%^VowsõToi     PL-ILL_iž          ;
+:     PL-ILL_iž          ;
      PL-PAR_i           ;
 
 LEXICON NMN_BÄʼZMÕR
