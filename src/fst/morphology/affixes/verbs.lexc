@@ -418,82 +418,79 @@ LEXICON TV_AIGÕ
 LEXICON TV_KUOŖŖÕ
 !!  **LEXICON @LEXNAME@ = kuoŗŗõ:kūoŗõ 38
 !+TV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_KUOŖŖÕ ;
 
 LEXICON TV_VANNÕ
 !!  **LEXICON @LEXNAME@ = vannõ:vǭnõ 39
 !+TV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_VANNÕ ;
 
 LEXICON IV_PȮĻĻÕ
 !!  **LEXICON @LEXNAME@ = pȯļļõ:pūoļõ 40
 !+IV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_PȮĻĻÕ ;
 
 LEXICON IV_PȮIMÕ
 !!  **LEXICON @LEXNAME@ = pȯimõ:pūoimõ 41
 !+IV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_PȮIMÕ ;
 
 LEXICON TV_PȮIMÕ
 !!  **LEXICON @LEXNAME@ = pȯimõ:pūoimõ 41
 !+TV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_PȮIMÕ ;
 
 LEXICON IV_OUŖÕ
 !!  **LEXICON @LEXNAME@ = ouŗõ:ōŗõ 42
 !+IV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_OUŖÕ ;
 
 LEXICON IV_KEIJÕ
 !!  **LEXICON @LEXNAME@ = keijõ:kējõ 43
 !+IV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_KEIJÕ ;
 
 LEXICON TV_KEIJÕ
 !!  **LEXICON @LEXNAME@ = keijõ:kējõ 43
 !+TV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_KEIJÕ ;
 
 
 LEXICON IV_AŖŠTÕ
 !!  **LEXICON @LEXNAME@ = aŗštõ:āŗštõ 44
 !+IV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_AŖŠTÕ ;
 
 LEXICON TV_AŖŠTÕ
 !!  **LEXICON @LEXNAME@ = aŗštõ:āŗštõ 44
 !+TV:	V-01_AIGÕ	;
-:  V-01_AIGÕ ;
+:  V-01_AŖŠTÕ ;
 
 LEXICON TV_PȮRTÕ
 !!  **LEXICON @LEXNAME@ = pȯrtõ:pūortõ 45
-!+TV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+
+:  V-01_PȮRTÕ ;
 
 LEXICON TV_OUTÕ
 !!  **LEXICON @LEXNAME@ = outõ:ōtõ 46
-!+TV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_OUTÕ ;
 
 LEXICON V-AUX_TUNDÕ
 !!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
-:    V-01_AIGÕ       ;
+:    V-01_TUNDÕ       ;
 
 LEXICON IV_TUNDÕ
 !!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
-!+IV:	V-01_AIGÕ	;
-:  V-01_AIGÕ ;
+:  V-01_TUNDÕ ;
 
 LEXICON TV_TUNDÕ
 !!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
-!+TV:     V-01_AIGÕ       ;
-:  V-01_AIGÕ ;
+:  V-01_TUNDÕ ;
 
 LEXICON TV_OUDÕ
 !!  **LEXICON @LEXNAME@ = oudõ:ōdõ 48
 !+TV:	V-01_AIGÕ	;
-:  V-01_AIGÕ ;
+:  V-01_OUDÕ ;
 
 
 LEXICON IV_KŪLÕ
@@ -1239,6 +1236,392 @@ LEXICON	V-01_LUʼGGÕ !!= @CODE@ luʼggõ:luʼggõ 29
 !!
 
 LEXICON V-01_AIGÕ
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_KUOŖŖÕ
+!!  **LEXICON @LEXNAME@ = kuoŗŗõ:kūoŗõ 38
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_VANNÕ
+!!  **LEXICON @LEXNAME@ = vannõ:vǭnõ 39
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_PȮĻĻÕ
+!!  **LEXICON @LEXNAME@ = pȯļļõ:pūoļõ 40
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_PȮIMÕ
+!!  **LEXICON @LEXNAME@ = pȯimõ:pūoimõ 41
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_PȮIMÕ
+!!  **LEXICON @LEXNAME@ = pȯimõ:pūoimõ 41
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_OUŖÕ
+!!  **LEXICON @LEXNAME@ = ouŗõ:ōŗõ 42
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_KEIJÕ
+!!  **LEXICON @LEXNAME@ = keijõ:kējõ 43
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_AŖŠTÕ
+!!  **LEXICON @LEXNAME@ = aŗštõ:āŗštõ 44
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+
+LEXICON V-01_PȮRTÕ
+!!  **LEXICON @LEXNAME@ = pȯrtõ:pūortõ 45
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+
+LEXICON V-01_OUTÕ
+!!  **LEXICON @LEXNAME@ = outõ:ōtõ 46
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_TUNDÕ
+!!  **LEXICON @LEXNAME@ = tundõ:tūndõ 47
+!! This is mutual for 37-48
+:%^Stress1to2 GER_s   ;
+:%^Stress1to2 INF_ZERO	  ;
+:%^Stress1to2 SUP_m	  ; 
+ INDPRSSG1-STEM    ;
+:%^Stress1to2 INDPRSPL1    ;
+:%^Stress1to2 INDPRSPL2    ;
+ INDPRSPL3    ;
+:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
+:%^Stress1to2    INDCONNEGPL1 ;
+:%^Stress1to2    INDCONNEGPL2 ;
+:%^Stress1to2    INDCONNEGPL3 ;
+
+!! Prt
+:%^VowsRM%>i INDPRT_z    ;
+
+!! participles
+:%^Stress1to2 ACTPRSPRC ;
+:%^Stress1to2 ACTPRFPRC_n ;
+:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
+:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+
+:%^Stress1to2 COND ;
+:%^Stress1to2%^VowsRM IMPRTSG2 ;
+:%^Stress1to2 IMPRTPL1 ;
+:%^Stress1to2 IMPRTPL2 ;
+ IMPRTCONNEG ;
+:%^Stress1to2 JUS_g	;
+:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
+
+LEXICON V-01_OUDÕ
+!!  **LEXICON @LEXNAME@ = oudõ:ōdõ 48
 !! This is mutual for 37-48
 :%^Stress1to2 GER_s   ;
 :%^Stress1to2 INF_ZERO	  ;
