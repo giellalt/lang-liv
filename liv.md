@@ -2176,12 +2176,12 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 * **LEXICON NMN_JŪŖ-PL** : 221
 * **PL-INS_DKÕKS-STEM ;** jūrd
 
-* **LEXICON NMN_SŪR** : 222
+* **LEXICON NMN_SŪR** : 222 sūr:sūr
 
 * **LEXICON NMN_SŪR-PL** sūr:sūr 211
 
 * **LEXICON NMN_SĒR** : 223
-* **LEXICON NMN_SĒR-SG** : 223
+* **LEXICON NMN_SĒR-SG** : 223 sēr:
 * **LEXICON NMN_SĒR-PL** : 223
 
 * **LEXICON NMN_BIRKOV** : 224 birkov:birkov
