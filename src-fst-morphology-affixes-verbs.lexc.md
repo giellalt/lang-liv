@@ -380,6 +380,83 @@ Prt
 
 participles
 
+**LEXICON V-01_KUOŖŖÕ = kuoŗŗõ:kūoŗõ 38
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_VANNÕ = vannõ:vǭnõ 39
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_PȮĻĻÕ = pȯļļõ:pūoļõ 40
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_PȮIMÕ = pȯimõ:pūoimõ 41
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_OUŖÕ = ouŗõ:ōŗõ 42
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_KEIJÕ = keijõ:kējõ 43
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_AŖŠTÕ = aŗštõ:āŗštõ 44
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_PȮRTÕ = pȯrtõ:pūortõ 45
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_OUTÕ = outõ:ōtõ 46
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_TUNDÕ = tundõ:tūndõ 47
+This is mutual for 37-48
+
+Prt
+
+participles
+
+**LEXICON V-01_OUDÕ = oudõ:ōdõ 48
+This is mutual for 37-48
+
+Prt
+
+participles
+
 **LEXICON V-01_KŪLÕ =  This is mutual for 49-50, 52-57
 Prt
 +Act+PrfPrc
