@@ -668,7 +668,7 @@ PROBLEMS with dictionary lexica
 
 * **LEXICON N_USK** usk: 77
 
-* **LEXICON N_VAŠK** : 78
+* **LEXICON N_VAŠK** : 78 vašk:vask
 
 * **LEXICON N_TUP** tup:tup 79
 * **LEXICON N_TUP-SG** tup:tup 79
@@ -1431,8 +1431,8 @@ Stød: None
 * **LEXICON NMN_VAʼG-PL** vaʼg:vag 72
 
 * **LEXICON NMN_KÕʼL** kõʼl:kõl 73
-* **LEXICON NMN_KÕʼL-SG** kõʼl:kõl 73
-* **LEXICON NMN_KÕʼL-PL** kõʼl:kõl 73
+* **LEXICON NMN_KÕʼL-SG** kõʼl:kõʼl 73
+* **LEXICON NMN_KÕʼL-PL** kõʼl:kõʼl 73
 
 * **LEXICON NMN_SUʼG** suʼg:suʼg 74
 * **LEXICON NMN_SUʼG-SG** suʼg:suʼg 74
@@ -1449,7 +1449,7 @@ Stød: None
 * **LEXICON NMN_USK-SG** usk: 77
 * **LEXICON NMN_USK-PL** usk: 77
 
-* **LEXICON NMN_VAŠK** : 78
+* **LEXICON NMN_VAŠK** : 78 vašk:vask
 * **LEXICON NMN_VAŠK-SG** : 78
 * **LEXICON NMN_VAŠK-PL** : 78
 
