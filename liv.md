@@ -816,6 +816,9 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_VIĻȚ** : 132
 * **LEXICON N_VIĻȚ-PL** : 132
 
+* **LEXICON N_GĒRMAŅ** : 132
+* **LEXICON N_GĒRMAŅ-PL** : 132
+
 * **LEXICON N_EĻ** : 133
 
 * **LEXICON N_BLĒʼḐ** blēʼḑ:blēʼḑ 134
@@ -838,6 +841,8 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_ANALĪZ** : 141
 
 * **LEXICON N_NĪʼEM** nīʼem:nīem 142
+
+* **LEXICON N_KĪʼL** nīʼem:nīem 142
 
 * **LEXICON N_JAĻKŠ** : 143
 
@@ -1706,6 +1711,11 @@ Stød: None
 
 * **LEXICON NMN_VIĻȚ-PL** : 132
 
+* **LEXICON NMN_GĒRMAŅ** : 132
+* **LEXICON NMN_GĒRMAŅ-SG** : 132
+
+* **LEXICON NMN_GĒRMAŅ-PL** : 132
+
 * **LEXICON NMN_EĻ** : 133
 * **LEXICON NMN_EĻ-SG** : 133
 
@@ -1751,6 +1761,8 @@ Change in stem: None
 +Sg+Ela preceded by -õ-
 consonant-final stem, long vowel in ultimate syllable
 belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
+
+142
 
 142
 
