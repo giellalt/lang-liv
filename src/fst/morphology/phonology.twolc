@@ -637,7 +637,7 @@ n:ņ <=> _ ( Vow: ) (%^VowsSh1:) %^PalatalizeLeft:0 ( %^VowsRM:0 | %^Vow2Iin2:) 
 
 "r:ŗ"
 !! **Rule: @RULENAME@**
-r:ŗ <=> _ %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
+r:ŗ <=> _ (%^RVows:) %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
        _ g ( Vow: ) ( %^VowShIn1: ) %^PalatalizeLeft: ;
 !!€# ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi
 !!€0 eŗg0000i
@@ -716,7 +716,8 @@ s:š <=> _ (k) %^PalatalizeLeft:0 [ # | %> ] ;
 
 "ǟ:ē palatalization"
 !! **Rule: @RULENAME@**
-ǟ:ē <=> _ (ʼ:) %^PalatalizeLeft:0 (%^StodRM:) [ # | %> ] ;
+ǟ:ē <=> _ (ʼ:) (Cns:+) %^RVows: (%^PalatalizeLeft:0) (%^StodRM:) ;
+! _ (ʼ:) (Cns:+) %^RVows: (%^PalatalizeLeft:0) (%^StodRM:) [ # | %> ] ;
 
 "ǟ:e short and palatalization"
 !! **Rule: @RULENAME@**
