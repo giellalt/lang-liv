@@ -1279,16 +1279,18 @@ LEXICON V-01_KŪLÕ
 :%^ConsSh%^VowsRM       INDCONNEGSG    ;
 !:%^ConsSh       INDCONNEGSG    ;
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 !! +Act+PrfPrc
-+Act+PrfPrc:n    NMN_KŪOLÕN      ;
+ ACTPRFPRC_n ;
 !! Cond
  COND ;
 :%^ConsSh%^VowsRM IMPRTSG2/IMPRTCONNEGSG2 ;
  IMPRT-ELSE ;
+ IMPRTCONNEGPL2_gid ;
  JUS_g ;
 :%^VowsRM QUO_iji ; 
-
+ PSSPRSPRC ;
+ PSSPRFPRCSG ;
 
 LEXICON V-01_AʼILÕ
 !! **LEXICON @LEXNAME@ =  This is mutual for 51
