@@ -1238,10 +1238,9 @@ LEXICON NMN_PǞ-SG
 
 LEXICON NMN_PǞ-PL
         PL-INS_DKÕKS-STEM ;
-:%^PalatalizeLeft        PL-ELA/INE_šti ;
-:%^PalatalizeLeft        PL-ILL_ʼži ;
-!       PL-INE ;
-:%^PalatalizeLeft        PL-PAR_ḑi ;
+:%^RVows        PL-ELA/INE_šti ;
+:%^RVows        PL-ILL_ʼži ;
+:%^RVows        PL-PAR_ḑi ;
 
 LEXICON NMN_TĪE !!≈ * **@CODE@** tīe:tīʼe
 !! 15
@@ -3927,8 +3926,8 @@ LEXICON NMN_ANALĪZ !!
 
 LEXICON NMN_ANALĪZ-SG
         SG-DAT_õn ;
-:        SG-ELA/INE_st ;!UNIMORPH 2019
-+Err/Orth:        SG-ELA/INE_õst ;!2014
++Err/Orth:        SG-ELA/INE_st ;!UNIMORPH 2019
+:        SG-ELA/INE_õst ;!2014
         SG-GEN ;
         SG-ILL_õ ;
         SG-INS_õks ;
@@ -5388,7 +5387,7 @@ LEXICON NMN_JŪŖ-PL !!≈ * **@CODE@** : 221
 :%^PalatalizeLeft     PL-ILL_iž   ;
 :%^PalatalizeLeft     PL-PAR_i   ;
 
-LEXICON NMN_SŪR !!≈ * **@CODE@** : 222
+LEXICON NMN_SŪR !!≈ * **@CODE@** : 222 sūr:sūr
  NMN_SŪR-SG     ;
  NMN_SŪR-PL     ;
 LEXICON NMN_SŪR-SG
@@ -5402,26 +5401,26 @@ LEXICON NMN_SŪR-SG
 
 LEXICON NMN_SŪR-PL !!≈ * **@CODE@** sūr:sūr 211
 :     PL-INS_DKÕKS-STEM   ;
-:     PL-ELA/INE_šti   ;
-:     PL-ILL_iž   ;
-:     PL-PAR_i   ;
+:%^PalatalizeLeft     PL-ELA/INE_šti   ;
+:%^PalatalizeLeft     PL-ILL_iž   ;
+:%^PalatalizeLeft     PL-PAR_i   ;
 
 LEXICON NMN_SĒR !!≈ * **@CODE@** : 223
 	NMN_SĒR-SG	;
 	NMN_SĒR-PL	;
-LEXICON NMN_SĒR-SG !!≈ * **@CODE@** : 223
+LEXICON NMN_SĒR-SG !!≈ * **@CODE@** : 223 sēr:
 :               SG-DAT_õn       ;
 :               SG-ELA/INE_stõ  ;
 :               SG-GEN  ;
 :               SG-ILL_õ        ;
 :               SG-INS_õks      ;
-:       SG-NOM  ;
+:%^RVows       SG-NOM  ;
 :               SG-PAR_tõ ;
 LEXICON NMN_SĒR-PL !!≈ * **@CODE@** : 223
 :     PL-INS_DKÕKS-STEM   ;
-:     PL-ELA/INE_šti   ;
-:     PL-ILL_iž   ;
-:     PL-PAR_i   ;
+:%^RVows%^PalatalizeLeft     PL-ELA/INE_šti   ;
+:%^RVows%^PalatalizeLeft     PL-ILL_iž   ;
+:%^RVows%^PalatalizeLeft     PL-PAR_i   ;
 
 
 LEXICON NMN_BIRKOV !!≈ * **@CODE@** : 224 birkov:birkov
@@ -5476,8 +5475,8 @@ LEXICON NMN_UMĀRZ-SG
     	SG-ILL_õ ;
         SG-INS_õks ;
 :z      SG-NOM  ;
-:z    	SG-PAR_t ;!UNIMORPH 2019
-+Err/Orth:    	SG-PAR_t ;! 2014
++Err/Orth:z    	SG-PAR_t ;!UNIMORPH 2019
+:    	SG-PAR_t ;! 2014
 
 LEXICON NMN_UMĀRZ-PL
  	PL-INS_DÕKS-STEM ;
@@ -5496,8 +5495,8 @@ LEXICON NMN_DULLÕNZ-SG !!≈ * **@CODE@** dullõnz:dullõn 227
     	SG-ILL_õ ;
         SG-INS_õks ;
 :z      SG-NOM  ;
-:z    	SG-PAR_t ;!UNIMORPH 2019
-+Err/Orth:    	SG-PAR_t ;! 2014
++Err/Orth:z    	SG-PAR_t ;!UNIMORPH 2019
+    	SG-PAR_t ;! 2014
 
 LEXICON NMN_DULLÕNZ-PL !!≈ * **@CODE@** dullõnz:dullõn 227
  	PL-INS_DÕKS-STEM ;
