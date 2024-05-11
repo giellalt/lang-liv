@@ -1250,7 +1250,7 @@ LEXICON V-01_AIGÕ
 :%^Stress1to2    INDCONNEGPL3 ;
 
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
@@ -1282,7 +1282,7 @@ LEXICON V-01_KUOŖŖÕ
 :%^Stress1to2    INDCONNEGPL3 ;
 
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
@@ -1314,7 +1314,7 @@ LEXICON V-01_VANNÕ
 :%^Stress1to2    INDCONNEGPL3 ;
 
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
@@ -1346,7 +1346,7 @@ LEXICON V-01_PȮĻĻÕ
 :%^Stress1to2    INDCONNEGPL3 ;
 
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
@@ -1378,7 +1378,7 @@ LEXICON V-01_PȮIMÕ
 :%^Stress1to2    INDCONNEGPL3 ;
 
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
@@ -1394,37 +1394,6 @@ LEXICON V-01_PȮIMÕ
 :%^Stress1to2 JUS_g	;
 :%^Stress1to2%^VowsRM QUO-STEM_iji	;		
 
-LEXICON V-01_PȮIMÕ
-!!  **LEXICON @LEXNAME@ = pȯimõ:pūoimõ 41
-!! This is mutual for 37-48
-:%^Stress1to2 GER_s   ;
-:%^Stress1to2 INF_ZERO	  ;
-:%^Stress1to2 SUP_m	  ; 
- INDPRSSG1-STEM    ;
-:%^Stress1to2 INDPRSPL1    ;
-:%^Stress1to2 INDPRSPL2    ;
- INDPRSPL3    ;
-:%^Stress1to2%^VowsRM	INDCONNEGSG    ;
-:%^Stress1to2    INDCONNEGPL1 ;
-:%^Stress1to2    INDCONNEGPL2 ;
-:%^Stress1to2    INDCONNEGPL3 ;
-
-!! Prt
-:%^VowsRM%>i INDPRT_z    ;
-
-!! participles
-:%^Stress1to2 ACTPRSPRC ;
-:%^Stress1to2 ACTPRFPRC_n ;
-:%^Stress1to2%^VowsRM%^ConsRM PSSPRSPRC ;
-:%^Stress1to2%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
-
-:%^Stress1to2 COND ;
-:%^Stress1to2%^VowsRM IMPRTSG2 ;
-:%^Stress1to2 IMPRTPL1 ;
-:%^Stress1to2 IMPRTPL2 ;
- IMPRTCONNEG ;
-:%^Stress1to2 JUS_g	;
-:%^Stress1to2%^VowsRM QUO-STEM_iji	;		
 
 LEXICON V-01_OUŖÕ
 !!  **LEXICON @LEXNAME@ = ouŗõ:ōŗõ 42
@@ -1442,7 +1411,7 @@ LEXICON V-01_OUŖÕ
 :%^Stress1to2    INDCONNEGPL3 ;
 
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
@@ -1474,7 +1443,7 @@ LEXICON V-01_KEIJÕ
 :%^Stress1to2    INDCONNEGPL3 ;
 
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
@@ -1499,14 +1468,14 @@ LEXICON V-01_AŖŠTÕ
  INDPRSSG1-STEM    ;
 :%^Stress1to2 INDPRSPL1    ;
 :%^Stress1to2 INDPRSPL2    ;
- INDPRSPL3    ;
+:%^Stress1to2 INDPRSPL3    ;
 :%^Stress1to2%^VowsRM	INDCONNEGSG    ;
 :%^Stress1to2    INDCONNEGPL1 ;
 :%^Stress1to2    INDCONNEGPL2 ;
 :%^Stress1to2    INDCONNEGPL3 ;
 
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
@@ -1532,14 +1501,14 @@ LEXICON V-01_PȮRTÕ
  INDPRSSG1-STEM    ;
 :%^Stress1to2 INDPRSPL1    ;
 :%^Stress1to2 INDPRSPL2    ;
- INDPRSPL3    ;
+:%^Stress1to2 INDPRSPL3    ;
 :%^Stress1to2%^VowsRM	INDCONNEGSG    ;
 :%^Stress1to2    INDCONNEGPL1 ;
 :%^Stress1to2    INDCONNEGPL2 ;
 :%^Stress1to2    INDCONNEGPL3 ;
 
 !! Prt
-:%^VowsRM%>i INDPRT_z    ;
+:%^VowsRM%>i INDPRT_zt/ztõ    ;
 
 !! participles
 :%^Stress1to2 ACTPRSPRC ;
