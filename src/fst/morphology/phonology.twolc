@@ -706,7 +706,7 @@ k:0 <=> s _ Vow: ( %^ConsSh:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
 
 "s:š palatalization"
 !! **Rule: @RULENAME@**
-s:š <=> _ %^PalatalizeLeft:0 [ # | %> ] ;
+s:š <=> _ (k) %^PalatalizeLeft:0 [ # | %> ] ;
        _ (t) Vow: Dummy:*  %^PalatalizeLeft:0   ;
 !!€# liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i
 !!€0 l0ešt00000i
