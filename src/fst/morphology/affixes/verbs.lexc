@@ -163,21 +163,21 @@ LEXICON TV_JŪODÕ
 : V-01_JŪODÕ ;
 
 LEXICON IV_TŪLDA
-!!  **LEXICON @LEXNAME@ = 11 tūlda:tuʼl
+!!  **LEXICON @LEXNAME@ = 11 tūlda:tūʼl
 !+IV: V-01_TŪLDA ; !FIXME 20230902
 : V-01_TŪLDA ;
 
 LEXICON V-AUX_PĀNDA
-!!  **LEXICON @LEXNAME@ = 12 pānda:
+!!  **LEXICON @LEXNAME@ = 12 pānda:pāʼn
 : K ; !FIXME	20230902
 
 LEXICON IV_PĀNDA
-!!  **LEXICON @LEXNAME@ = 12 pānda:
-+IV: K ; !FIXME	20230902
+!!  **LEXICON @LEXNAME@ = 12 pānda:pāʼn
++IV: V-01_PĀNDA ; !FIXME	20230902
 
 LEXICON TV_PĀNDA
-!!  **LEXICON @LEXNAME@ = 12 pānda:
-+TV: K ; !FIXME	20230902
+!!  **LEXICON @LEXNAME@ = 12 pānda:pāʼn
++TV: V-01_PĀNDA ; !FIXME	20230902
 
 LEXICON IV_JEʼLLÕ
 !!  **LEXICON @LEXNAME@ = 13 jeʼllõ:jeʼlā
@@ -938,8 +938,8 @@ LEXICON V-01_JŪODÕ
  PSSPRFPRCSG    ;
 !! 10
 
-LEXICON V-01_TŪLDA
-!! tūlda:tuʼl
+LEXICON V-01_TŪLDA !! 11
+!! tūlda:tūʼl
 :%^VowShIn1%^StodRM%>d   GER_sõ   ;
 :%^StodRM   INF_da	  ;
 :%^VowShIn1   SUP-STEM_mõ	  ; 
@@ -967,7 +967,39 @@ LEXICON V-01_TŪLDA
 :%^VowShIn1%^StodRM%^ConsRM ACTPRFPRC_SG-nd/PL-nnõd ;
 :%^VowShIn1%^StodRM PSSPRSPRC ;
 :%^VowShIn1%^StodRM PSSPRFPRCSG    ;
-!! 10
+!! 11
+
+!! 12
+LEXICON V-01_PĀNDA !! 12
+!! pānda:pāʼn
+:%^VowShIn1%^StodRM%>d   GER_sõ   ;
+:%^StodRM   INF_da	  ;
+:%^VowShIn1   SUP-STEM_mõ	  ; 
+:%^VowShIn1%^StodRM%>ā   INDPRSSG1-STEM    ;
+:%^VowShIn1   INDCONNEGSG    ;
+!! Prt
+:%^VowShIn1%^PalatalizeLeft INDPRT_ZERO    ;
+! Cond
+:%^VowShIn1%^StodRM COND ;
+!! Imprt
+:%^VowShIn1	IMPRTSG2    ;
+:%^VowShIn1%^StodRM	IMPRTPL1	;
+:%^VowShIn1%^StodRM	IMPRTPL2	;
+:%^VowShIn1	IMPRTCONNEGSG2 ;
+:%^VowShIn1%^StodRM	IMPRTCONNEGPL2_gid ;
+
+!! Jus
+:%^VowShIn1%^StodRM JUS_gõ	;
+!! Qvo
+:%{XC%}%^VowShIn1%^StodRM%^PalatalizeLeft QUO_i	;!2024-05-09
++Der+Der/NomAct+N:%^VowShIn1%>mi N_AʼBLI ;
++Der+Der/NomAg+N:%{XC%}%^VowShIn1%^StodRM%^PalatalizeLeft%>i N_AKKIJI ;
+!! participles
+ ACTPRSPRC ;
+:%^VowShIn1%^StodRM%^ConsRM ACTPRFPRC_SG-nd/PL-nnõd ;
+:%^VowShIn1%^StodRM PSSPRSPRC ;
+:%^VowShIn1%^StodRM PSSPRFPRCSG    ;
+!!12
 
 !!
 LEXICON V-01_JEʼLLÕ
