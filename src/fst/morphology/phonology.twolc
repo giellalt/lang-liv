@@ -621,7 +621,7 @@ l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | �
 
 "n:ņ palatalization"
 !! **Rule: @RULENAME@**
-n:ņ <=> _ ( Vow: ) (%^VowsSh1:) %^PalatalizeLeft:0 ( %^VowsRM:0 | %^Vow2Iin2:) [ # | %> ] ;
+n:ņ <=> _ ( Vow: ) (%^VowsSh1:|%^VowShIn1:) %^PalatalizeLeft:0 ( %^VowsRM:0 | %^Vow2Iin2:) [ # | %> ] ;
 !!€# Vē0na%^PalatalizeLeft%^VowsRMõ
 !!€0 Vein000õ
 !!€# ǭʼrõn%^PalatalizeLeft
