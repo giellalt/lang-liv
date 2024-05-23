@@ -2577,13 +2577,13 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_JŪODÕ = 9 jūodõ:jūo
 
-**LEXICON IV_TŪLDA = 11 tūlda:tuʼl
+**LEXICON IV_TŪLDA = 11 tūlda:tūʼl
 
-**LEXICON V-AUX_PĀNDA = 12 pānda:
+**LEXICON V-AUX_PĀNDA = 12 pānda:pāʼn
 
-**LEXICON IV_PĀNDA = 12 pānda:
+**LEXICON IV_PĀNDA = 12 pānda:pāʼn
 
-**LEXICON TV_PĀNDA = 12 pānda:
+**LEXICON TV_PĀNDA = 12 pānda:pāʼn
 
 **LEXICON IV_JEʼLLÕ = 13 jeʼllõ:jeʼlā
 
@@ -2858,14 +2858,25 @@ Qvo
 participles
 10
 
-tūlda:tuʼl
+11
+tūlda:tūʼl
 Prt
 Imprt
 
 Jus
 Qvo
 participles
-10
+11
+
+12
+12
+pānda:pāʼn
+Prt
+Imprt
+
+Jus
+Qvo
+participles
 
 **LEXICON V-01_JEʼLLÕ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
 
