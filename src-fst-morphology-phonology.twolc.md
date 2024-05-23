@@ -48,7 +48,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %^D2Ž:0     The *ti => *si
 * %^D2ZERO:0  The d => 0
 
-* %^PEN:0	    penultimate syllable
+* %^Pen:0	    penultimate syllable
 * %^U2ZERO:0  The u => 0
 * %^VV2V:0	  shorten vowel
 
@@ -104,7 +104,7 @@ They must be escaped (cf morpheme boundaries further down):
   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
 * Letters = Vow Cns ; 
 * Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V %^PEN %^VV2V %^U2ZERO 
-  %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VowShIn1 %^VowsRM ; 
+  %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 # Rule section
 
@@ -116,13 +116,13 @@ They must be escaped (cf morpheme boundaries further down):
 * *tǟutõ^PEN^VV2V*
 * *täutõ00*
 
-* kǟnga%^VowShIn1%^A2ÕIn2 examples:*
+* kǟnga%^VV2V%^A2ÕIn2 examples:*
 
 * kängõ00 examples:*
 
 **Rule: ā:a in first syllable**
 
-* āļdža%^VowShIn1%^A2ÕIn2 examples:*
+* āļdža%^VV2V%^A2ÕIn2 examples:*
 
 * aļdžõ00 examples:*
 
@@ -132,7 +132,7 @@ They must be escaped (cf morpheme boundaries further down):
 
 **Rule: ȱ:ȯ**
 
-* vȱntsa%^VowShIn1%^VowsRM%>õ examples:*
+* vȱntsa%^VV2V%^VowsRM%>õ examples:*
 
 * vȯnts0000õ examples:*
 
@@ -159,7 +159,7 @@ They must be escaped (cf morpheme boundaries further down):
 **Rule: ē:e in first syllable**
 
 **Rule: ū:u in first syllable**
-* *jūo^VowShIn1>i*
+* *jūo^VV2V>i*
 * *juo0>i*
 
 **Rule: ū:ȯ in first syllable**
@@ -174,7 +174,7 @@ They must be escaped (cf morpheme boundaries further down):
 
 **Rule: ī:i in first syllable**
 
-* tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+* tīer0a%^VV2V%^A2ÕIn2 examples:*
 
 * tierrõ00 examples:*
 
@@ -274,7 +274,7 @@ Destressing in second syllable
 
 **Rule: a:õ **
 
-* tīer0a%^VowShIn1%^A2ÕIn2 examples:*
+* tīer0a%^VV2V%^A2ÕIn2 examples:*
 
 * tierrõ00 examples:*
 
@@ -328,7 +328,7 @@ VOWEL LOSS
 
 * pȯ0ll0000õ examples:*
 
-* kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+* kǟnga%^VV2V%^PalatalizeLeft%^VowsRMi examples:*
 
 * keņg0000i examples:*
 
@@ -500,19 +500,19 @@ kēļ:kēl 215
 
 * ǭʼriņ0 examples:*
 
-* vȱntsa%^VowShIn1%^PalatalizeLeft%^VowsRM%>ti examples:*
+* vȱntsa%^VV2V%^PalatalizeLeft%^VowsRM%>ti examples:*
 
 * vȯņtš00000ti examples:*
 sēņ:sēn 220
 
-* kǟnga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+* kǟnga%^VV2V%^PalatalizeLeft%^VowsRMi examples:*
 
 * keņg0000i examples:*
 
 **Rule: r:ŗ**
 jūŗ:jūr 221
 
-* ǟrga%^VowShIn1%^PalatalizeLeft%^VowsRMi examples:*
+* ǟrga%^VV2V%^PalatalizeLeft%^VowsRMi examples:*
 
 * eŗg0000i examples:*
 
@@ -552,7 +552,7 @@ nominative plural
 
 **Rule: s:š palatalization**
 
-* liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i examples:*
+* liestā%^VV2V%^PalatalizeLeft%^VowsRM%>i examples:*
 
 * l0ešt00000i examples:*
 
@@ -563,9 +563,9 @@ nominative plural
 **Rule: ǟ:ē palatalization**
 
 **Rule: ǟ:e short and palatalization**
-* *kǟnga^VowShIn1^PalatalizeLeft^VowsRMi*
+* *kǟnga^VV2V^PalatalizeLeft^VowsRMi*
 * *keņg0000i*
-* *nǟʼ^VowShIn1^PalatalizeLeft^StodRM>i>z*
+* *nǟʼ^VV2V^PalatalizeLeft^StodRM>i>z*
 * *ne000>i>z*
 
 **Rule: a:ä palatalization**
