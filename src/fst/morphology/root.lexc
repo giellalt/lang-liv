@@ -439,6 +439,11 @@ Multichar_Symbols
 ! +Sem/Inanim !!≈ * __@CODE@__  Inanimate,
 ! +Sem/NonHum !!≈ * __@CODE@__  Nonhuman,
 
+!! ### Homonymy 
++Hom1 !!≈ * **@CODE@** 
++Hom2 !!≈ * **@CODE@** 
++Hom3 !!≈ * **@CODE@** 
++Hom4 !!≈ * **@CODE@** 
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
@@ -484,6 +489,7 @@ Multichar_Symbols
 %^Pen	   !!= * @CODE@ penultimate syllable
 %^U2ZERO !!= * @CODE@ The u => 0
 %^VV2V	 !!= * @CODE@ shorten vowel
+%^CC2C !!= * @CODE@ weak-grade stem
 
  {front}   !!≈ * @CODE@ = front vowels
  {back}  !!≈ * @CODE@ = back vowels
@@ -512,8 +518,8 @@ Multichar_Symbols
  %^DiphthL1    !!≈ * **@CODE@** =
  %^D2Ž         !!≈ * **@CODE@** = The *ti => *si
  %^D2ZERO      !!≈ * **@CODE@** The d => 0
- %^LowerVows   !!= * @CODE@ lower vowel
- %^RVows       !!≈ * **@CODE@** = Vowel raising
+ %^VOWLower   !!= * @CODE@ lower vowel
+ %^VOWRaise       !!≈ * **@CODE@** = Vowel raising
  %^VowsMetath     !!≈ * **@CODE@** = vowel metathesis in verbs
 %^VowsMRM !!≈ * **@CODE@** Vow in middle ētam:eitmõd
  %^VowsRM	  !!≈ * **@CODE@** =
