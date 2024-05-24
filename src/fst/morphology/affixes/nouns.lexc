@@ -1246,9 +1246,9 @@ LEXICON NMN_PǞ-SG
 
 LEXICON NMN_PǞ-PL
         PL-INS_DKÕKS-STEM ;
-:%^RVows        PL-ELA/INE_šti ;
-:%^RVows        PL-ILL_ʼži ;
-:%^RVows        PL-PAR_ḑi ;
+:%^VOWRaise        PL-ELA/INE_šti ;
+:%^VOWRaise        PL-ILL_ʼži ;
+:%^VOWRaise        PL-PAR_ḑi ;
 
 LEXICON NMN_TĪE !!≈ * **@CODE@** tīe:tīʼe
 !! 15
@@ -1270,9 +1270,9 @@ LEXICON NMN_TĪE-SG
 
 LEXICON NMN_TĪE-PL
 :%^StodRM        PL-INS_DKÕKS-STEM ;
-:%^LowerVows%^StodRM%^VowsRM        PL-ELA/INE_šti ; !! tēšti
-:%^LowerVows%^StodRM%^VowsRM        PL-ILL_ʼži ;
-:%^LowerVows%^StodRM%^VowsRM        PL-PAR_ḑi ;
+:%^VOWLower%^StodRM%^VowsRM        PL-ELA/INE_šti ; !! tēšti
+:%^VOWLower%^StodRM%^VowsRM        PL-ILL_ʼži ;
+:%^VOWLower%^StodRM%^VowsRM        PL-PAR_ḑi ;
 
 LEXICON NMN_BRĪ
 !! 16
@@ -5260,13 +5260,13 @@ LEXICON NMN_LÄPŠ-PL !!≈ * **@CODE@** läpš:laps 211
 !LEXICON NMN_RIŠTĪNG-SG !!≈ * __@CODE@__ : 212
 !! * Yaml: **N-rishtiing**
 !NMN_SIDĀM-SG ;
-!!:%^RVows                SG-DAT_õn       ;
-!!:%^RVows                SG-ELA/INE_stõ  ;
-!!:%^RVows                SG-GEN  ;
-!!:%^RVows                SG-ILL_õ        ;
-!!:%^RVows                SG-INS_kõks     ;
+!!:%^VOWRaise                SG-DAT_õn       ;
+!!:%^VOWRaise                SG-ELA/INE_stõ  ;
+!!:%^VOWRaise                SG-GEN  ;
+!!:%^VOWRaise                SG-ILL_õ        ;
+!!:%^VOWRaise                SG-INS_kõks     ;
 !!:%^PalatalizeLeft       SG-NOM  ;
-!!:%^RVows                SG-PAR_dõ ;
+!!:%^VOWRaise                SG-PAR_dõ ;
 LEXICON NMN_ROʼVZT-PL !!≈ * **@CODE@** roʼvzt:roʼvzt 212
 :     PL-INS_TÕKS-STEM   ;
 :%>t     PL-ELA/INE_ist   ;
@@ -5279,10 +5279,10 @@ LEXICON NMN_TUʼĻ !!≈ * **@CODE@** : 213 tuʼļ:tuʼl
 	NMN_TUʼĻ-PL	;
 LEXICON NMN_TUʼĻ-SG !!≈ * **@CODE@** : 213
 :%{XC%}                SG-DAT_õn       ;
-:%^RVows                SG-ELA/INE_stõ  ;
+:%^VOWRaise                SG-ELA/INE_stõ  ;
                 SG-GEN  ;
 :%{XC%}        SG-ILL_õ        ;
-:%^RVows                SG-INS_kõks     ;
+:%^VOWRaise                SG-INS_kõks     ;
 :%^PalatalizeLeft       SG-NOM  ;
 :%^VowsLI1%^StodRM                SG-PAR_da ;
 LEXICON NMN_TUʼĻ-PL !!≈ * **@CODE@** : 213
@@ -5469,13 +5469,13 @@ LEXICON NMN_SĒR-SG !!≈ * **@CODE@** : 223 sēr:
 :               SG-GEN  ;
 :               SG-ILL_õ        ;
 :               SG-INS_õks      ;
-:%^RVows       SG-NOM  ;
+:%^VOWRaise       SG-NOM  ;
 :               SG-PAR_tõ ;
 LEXICON NMN_SĒR-PL !!≈ * **@CODE@** : 223
 :     PL-INS_DKÕKS-STEM   ;
-:%^RVows%^PalatalizeLeft     PL-ELA/INE_šti   ;
-:%^RVows%^PalatalizeLeft     PL-ILL_iž   ;
-:%^RVows%^PalatalizeLeft     PL-PAR_i   ;
+:%^VOWRaise%^PalatalizeLeft     PL-ELA/INE_šti   ;
+:%^VOWRaise%^PalatalizeLeft     PL-ILL_iž   ;
+:%^VOWRaise%^PalatalizeLeft     PL-PAR_i   ;
 
 
 LEXICON NMN_BIRKOV !!≈ * **@CODE@** : 224 birkov:birkov
