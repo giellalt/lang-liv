@@ -353,14 +353,44 @@ Qvo
 
 participles
 
+14
+mängõ:mǟngõ
 **LEXICON V-01_MÄNGÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
 
+Imprt
+Jus
+Qvo
+
+participles
+
+15
+killõ:kīllõ
 **LEXICON V-01_KILLÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
 
+Imprt
+Jus
+Qvo
+
+participles
+
+16
+pallõ:pǭllõ
 **LEXICON V-01_PALLÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+Imprt
+Jus
+Qvo
+
+participles
 
 17 loulõ:lōulõ
 **LEXICON V-01_LOULÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ
+
+18 astõ:astõ
+**LEXICON V-01_ASTÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ
+
+19 võttõ:võttõ
+**LEXICON V-01_VÕTTÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ
 
 20 laitõ:
 **LEXICON V-01_LAITÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ
@@ -545,6 +575,8 @@ participles
 
 **LEXICON ACTPRFPRC_nd = 
 Are the singular and plural homonyms?
+
+**LEXICON ACTPRFPRC_SG-d/PL-nõd = 
 
 **LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
 Are the singular and plural homonyms?

@@ -275,6 +275,12 @@ Question and Focus particles:
 
 Semantics are classified with
 
+### Homonymy 
+* **+Hom1** 
+* **+Hom2** 
+* **+Hom3** 
+* **+Hom4** 
+
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
@@ -314,6 +320,7 @@ And following triggers to control variation
 * %^Pen	    penultimate syllable
 * %^U2ZERO  The u => 0
 * %^VV2V	  shorten vowel
+* %^CC2C  weak-grade stem
 
 * {front} = front vowels
 * {back} = back vowels
@@ -341,8 +348,8 @@ accompanied by coda consonant lengthening
 * **%^DiphthL1** =
 * **%^D2Ž** = The *ti => *si
 * **%^D2ZERO** The d => 0
-*  %^LowerVows    lower vowel
-* **%^RVows** = Vowel raising
+*  %^VOWLower    lower vowel
+* **%^VOWRaise** = Vowel raising
 * **%^VowsMetath** = vowel metathesis in verbs
 * **%^VowsMRM** Vow in middle ētam:eitmõd
 * **%^VowsRM** =

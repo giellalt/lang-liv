@@ -2887,14 +2887,44 @@ Qvo
 
 participles
 
+14
+mängõ:mǟngõ
 **LEXICON V-01_MÄNGÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
 
+Imprt
+Jus
+Qvo
+
+participles
+
+15
+killõ:kīllõ
 **LEXICON V-01_KILLÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
 
+Imprt
+Jus
+Qvo
+
+participles
+
+16
+pallõ:pǭllõ
 **LEXICON V-01_PALLÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+Imprt
+Jus
+Qvo
+
+participles
 
 17 loulõ:lōulõ
 **LEXICON V-01_LOULÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ
+
+18 astõ:astõ
+**LEXICON V-01_ASTÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ
+
+19 võttõ:võttõ
+**LEXICON V-01_VÕTTÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ
 
 20 laitõ:
 **LEXICON V-01_LAITÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ
@@ -3080,6 +3110,8 @@ participles
 **LEXICON ACTPRFPRC_nd = 
 Are the singular and plural homonyms?
 
+**LEXICON ACTPRFPRC_SG-d/PL-nõd = 
+
 **LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
 Are the singular and plural homonyms?
 
@@ -3187,7 +3219,7 @@ They must be escaped (cf morpheme boundaries further down):
 *  %^ĪE2Ē:0   kēļ kīel
 * K1:k        this k is not effected by gradation
 * %^NoGrad:0   This will be placed after a stem to break Gradation
-* %^WGStem:0  this weakens the stem ompel to ommel
+* %^CC2C:0  this weakens the stem ompel to ommel
 * %^TS:0      The ti => si
 * %^D2Ž:0     The *ti => *si
 * %^D2ZERO:0  The d => 0
@@ -3197,8 +3229,8 @@ They must be escaped (cf morpheme boundaries further down):
 * %^VV2V:0	  shorten vowel
 
 ###  Vowel raising
-* %^LowerVows:0  lower vowel
-* %^RVows:0      raise vowel
+* %^VOWLower:0  lower vowel
+* %^VOWRaise:0      raise vowel
 * %^VowsSh1:0    vowel shortening in first syllable
 * %^VowsShU1:0   
 * %^VowsShI1:0  
@@ -3247,7 +3279,7 @@ They must be escaped (cf morpheme boundaries further down):
 * Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
 * Letters = Vow Cns ; 
-* Dummy = %^ConsSh %^ConsL %^LowerVows %^PalatalizeLeft %^PenVV2V %^PEN %^VV2V %^U2ZERO 
+* Dummy = %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
   %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 # Rule section
@@ -3292,12 +3324,6 @@ They must be escaped (cf morpheme boundaries further down):
 
 * ruzī000di examples:*
 
-**Rule: a:i in second syllable plural**
-
-* āita%^Vow2Iin2>di examples:*
-
-* āiti00di examples:*
-
 **Rule: ǭ:a in first syllable**
 
 **Rule: ē:e in first syllable**
@@ -3312,7 +3338,7 @@ They must be escaped (cf morpheme boundaries further down):
 
 * pȯ0llõ00 examples:*
 
-* pūoga%^VowsSh1%^PalatalizeLeft%^VowsRM%>õ examples:*
+* pūoga%^VV2V%^PalatalizeLeft%^VowsRM%>õ examples:*
 
 * pȯig00000õ examples:*
 
@@ -3324,7 +3350,7 @@ They must be escaped (cf morpheme boundaries further down):
 
 **Rule: ȭ:õ in first syllable**
 
-* mȭuka%^VowsSh1%^VowsRM%>õ examples:*
+* mȭuka%^VV2V%^VowsRM%>õ examples:*
 
 * mõuk0000õ examples:*
 
@@ -3354,16 +3380,6 @@ lengthen vowels
 
 **Rule: ä:ǟ in first syllable**
 
-**Rule: 0:i after shortened vowel or diphthong**
-
-* v0eʼd%^PreI examples:*
-
-* vieʼd0 examples:*
-
-**Rule: 0:u after shortened vowel or diphthong**
-
-**Rule: 0:o after shortened vowel or diphthong**
-
 ### VOWEL LENGTHENING
 
 **Rule: a:ǭ in first syllable**
@@ -3378,12 +3394,6 @@ lengthen vowels
 
 * kāndõd examples:*
 
-**Rule: i:ī in first syllable**
-
-* niŗț%^VowsLI1%>õ examples:*
-
-* nīŗț00õ examples:*
-
 **Rule: o:ō in first syllable**
 
 * ouki%^VowsLI1z examples:*
@@ -3392,14 +3402,14 @@ lengthen vowels
 
 **Rule: o:i**
 
-* pūog%^VowsSh1%^PalatalizeLeft%>õ examples:*
+* pūog%^VV2V%^PalatalizeLeft%>õ examples:*
 
 * pȯig0000õ examples:*
 
 LOWER VOWELS
 **Rule: ī:ē in tīe 15**
 
-* tīʼe%^LowerVows%^StodRM%^VowsRM%>šti examples:*
+* tīʼe%^VOWLower%^StodRM%^VowsRM%>šti examples:*
 
 * tē000000šti examples:*
 
@@ -3477,7 +3487,7 @@ VOWEL LOSS
 * keņg0000i examples:*
 
 **Rule: e:0**
-* *tīʼe%^LowerVows%^StodRM%^VowsRM%>šti*
+* *tīʼe%^VOWLower%^StodRM%^VowsRM%>šti*
 * *tē000000šti*
 kēļ+N+Sg+Nom
 * *kīel%^ĪE2Ē%^PalatalizeLeft*
@@ -3555,21 +3565,6 @@ kēļ+N+Sg+Nom
 
 Lengthening consonantism between first and second vowel center
 simultaneous to reducing vowel of second syllable
-
-**Rule: lengthen consonantism between 1st and 2nd vowel center jelāb: jellõ**
-* *je0l0ā%^Stress2to1*
-* *ka0l0ā%^Stress2to1*
-* *rik0āz%^Stress2to1%^ConsRM*
-* *pūol0a^Stress1to2^ConsL*
-* *pȯ0llõ00*
-
-**Rule: 0:p**
-* *käp0ā^ConsL^LongV2Õin2*
-* *käppõ00*
-
-**Rule: 0:s**
-* *mis0^ConsL>õst*
-* *miss0>õst*
 
 **Rule: %{XC%}:Cx**
 
@@ -3707,9 +3702,9 @@ nominative plural
 **Rule: ǟ:ē palatalization**
 
 **Rule: ǟ:e short and palatalization**
-* *kǟnga^VV2V^PalatalizeLeft^VowsRMi*
+* *kǟnga^VV2V^VOWRaise^VowsRMi*
 * *keņg0000i*
-* *nǟʼ^VV2V^PalatalizeLeft^StodRM>i>z*
+* *nǟʼ^VV2V^VOWRaise^StodRM>i>z*
 * *ne000>i>z*
 
 **Rule: a:ä palatalization**
@@ -4003,6 +3998,12 @@ Question and Focus particles:
 
 Semantics are classified with
 
+### Homonymy 
+* **+Hom1** 
+* **+Hom2** 
+* **+Hom3** 
+* **+Hom4** 
+
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
@@ -4042,6 +4043,7 @@ And following triggers to control variation
 * %^Pen	    penultimate syllable
 * %^U2ZERO  The u => 0
 * %^VV2V	  shorten vowel
+* %^CC2C  weak-grade stem
 
 * {front} = front vowels
 * {back} = back vowels
@@ -4069,8 +4071,8 @@ accompanied by coda consonant lengthening
 * **%^DiphthL1** =
 * **%^D2Ž** = The *ti => *si
 * **%^D2ZERO** The d => 0
-*  %^LowerVows    lower vowel
-* **%^RVows** = Vowel raising
+*  %^VOWLower    lower vowel
+* **%^VOWRaise** = Vowel raising
 * **%^VowsMetath** = vowel metathesis in verbs
 * **%^VowsMRM** Vow in middle ētam:eitmõd
 * **%^VowsRM** =
