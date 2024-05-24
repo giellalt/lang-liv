@@ -1472,16 +1472,16 @@ LEXICON NMN_PŪOGA-SG
 :a        SG-DAT_n ;
 :a        SG-ELA/INE_st ;
 :a        SG-GEN ;
-:%^VowsSh1%^PalatalizeLeft    SG-ILL_õ ;
+:%^VV2V%^PalatalizeLeft    SG-ILL_õ ;
 :a        SG-INS_ks ;
 :a        SG-NOM  ;
-:%^VowsSh1%^PalatalizeLeft    SG-PAR_õ ;
+:%^VV2V%^PalatalizeLeft    SG-PAR_õ ;
 
 LEXICON NMN_PŪOGA-PL
 :a        PL-INS_DÕKS-STEM ;
-:%^VowsSh1%^PalatalizeLeft        PL-ELA/INE_šti ;
-:%^VowsSh1%^PalatalizeLeft        PL-ILL_ži ;
-:%^VowsSh1%^PalatalizeLeft        PL-PAR_ḑi ;
+:%^VV2V%^PalatalizeLeft        PL-ELA/INE_šti ;
+:%^VV2V%^PalatalizeLeft        PL-ILL_ži ;
+:%^VV2V%^PalatalizeLeft        PL-PAR_ḑi ;
 
 !! 23
 !LEXICON NMN_LǬJA !!≈ * __@CODE@__ lǭja:lǭija
@@ -1497,16 +1497,16 @@ LEXICON NMN_LǬJA-SG
 :%^ConsSh        SG-DAT_n ;
 :%^ConsSh        SG-ELA/INE_st ;
 :%^ConsSh        SG-GEN ;
-:%^VowsSh1%^VowsRM%>õ    SG-ILL_ZERO ;
+:%^VV2V%^VowsRM%>õ    SG-ILL_ZERO ;
 :%^ConsSh        SG-INS_ks ;
 :%^ConsSh        SG-NOM  ;
-:%^VowsSh1%^VowsRM%>õ    SG-PAR_ZERO ;
+:%^VV2V%^VowsRM%>õ    SG-PAR_ZERO ;
 
 LEXICON NMN_LǬJA-PL
 :%^ConsSh        PL-INS_DÕKS-STEM ;
-:%^VowsSh1%^VowsRM        PL-ELA/INE_šti ;
-:%^VowsSh1%^VowsRM        PL-ILL_ži ;
-:%^VowsSh1%^VowsRM        PL-PAR_ḑi ;
+:%^VV2V%^VowsRM        PL-ELA/INE_šti ;
+:%^VV2V%^VowsRM        PL-ILL_ži ;
+:%^VV2V%^VowsRM        PL-PAR_ḑi ;
 
 !! 24
 LEXICON NMN_PǞVA !!≈ * **@CODE@** pǟva:pǟuva
@@ -1521,16 +1521,16 @@ LEXICON NMN_PǞVA-SG
 :%^ConsSh        SG-DAT_n ;
 :%^ConsSh        SG-ELA/INE_st ;
 :%^ConsSh        SG-GEN ;
-:%^VowsSh1%^VowsRM    SG-ILL_õ ;
+:%^VV2V%^VowsRM    SG-ILL_õ ;
 :%^ConsSh        SG-INS_ks ;
 :%^ConsSh        SG-NOM  ;
-:%^VowsSh1%^VowsRM    SG-PAR_õ ;
+:%^VV2V%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_PǞVA-PL
 :%^ConsSh        PL-INS_DÕKS-STEM ;
-:%^VowsSh1%^VowsRM        PL-ELA/INE_šti ;
-:%^VowsSh1%^VowsRM        PL-ILL_ži ;
-:%^VowsSh1%^VowsRM        PL-PAR_ḑi ;
+:%^VV2V%^VowsRM        PL-ELA/INE_šti ;
+:%^VV2V%^VowsRM        PL-ILL_ži ;
+:%^VV2V%^VowsRM        PL-PAR_ḑi ;
 
 LEXICON NMN_IZĀ !!≈ * **@CODE@** izā:iʼz
 !! 25
@@ -1829,7 +1829,7 @@ LEXICON NMN_KǞNGA-PL !!≈ * **@CODE@** kǟnga:kǟnga 35
 :        PL-INS_DÕKS-STEM ;
 :%^VowsRM        PL-ELA/INE_ist ;
 :%^VowsRM        PL-ILL_iž ;
-:%^VV2V%^PalatalizeLeft%^VowsRM        PL-ELA/INE_šti ;
+:%^VV2V%^PalatalizeLeft%^VowsRM        PL-ELA/INE_šti ;!
 :%^VV2V%^PalatalizeLeft%^VowsRM        PL-ILL_ži ;
 :%^VV2V%^PalatalizeLeft%^VowsRM        PL-PAR_i ;
 
@@ -1842,16 +1842,16 @@ LEXICON NMN_ĀINA-SG !!≈ * **@CODE@** āina:āina 36
 :        SG-DAT_n ;
 :        SG-ELA/INE_st ;
 :        SG-GEN ;
-:%^VowsSh1%^VowsRM    SG-ILL_õ ;
+:%^VV2V%^VowsRM    SG-ILL_õ ;
 :        SG-INS_ks ;
 :        SG-NOM  ;
-:%^VowsSh1%^VowsRM    SG-PAR_õ ;
+:%^VV2V%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_ĀINA-PL !!≈ * **@CODE@** āina:āina 36
 :        PL-INS_DÕKS-STEM ;
        PL-ELA/INE_Ist ;
         PL-ILL_Iž ;
-:%^VowsSh1%^PalatalizeLeft        PL-PAR_I ;
+:%^VV2V%^PalatalizeLeft        PL-PAR_I ;
 
 
 !! 37
@@ -1897,7 +1897,7 @@ LEXICON NMN_RŌDA-PL
         PL-INS_DÕKS-STEM ;
         PL-ELA/INE_Ist ;
         PL-ILL_Iž ;
-:%^VowsSh1%^PalatalizeLeft        PL-PAR_I ;
+:%^VV2V%^PalatalizeLeft        PL-PAR_I ;
 
 !! 39, 40, 41, 42
 LEXICON NMN_PADĀ  !!≈ * **@CODE@** padā:paʼd
@@ -2060,11 +2060,11 @@ LEXICON NMN_ŪŠKA-SG !!≈ * **@CODE@** ūška:ūiska 47
 :%^ConsSh        SG-DAT_n ;
 :%^ConsSh        SG-ELA/INE_st ;
 :%^ConsSh        SG-GEN ;
-:%^VowsSh1%^VowsRM    SG-ILL_õ ;
+:%^VV2V%^VowsRM    SG-ILL_õ ;
 ! SG-INE ;
 :%^ConsSh        SG-INS_ks ;
 :%^ConsSh        SG-NOM  ;
-:%^VowsSh1%^VowsRM    SG-PAR_õ ;
+:%^VV2V%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_ŪŠKA-PL !!≈ * **@CODE@** ūška:ūiska 47
 :%^ConsSh        PL-INS_DÕKS-STEM ;
@@ -2083,11 +2083,11 @@ LEXICON NMN_MȬKA-SG !!≈ * **@CODE@** mȭka:mȭuka 48
 :%^VowsLI1        SG-DAT_n ;
 :%^VowsLI1        SG-ELA/INE_st ;
 :%^VowsLI1        SG-GEN ;
-:%^VowsSh1%^VowsRM    SG-ILL_õ ;
+:%^VV2V%^VowsRM    SG-ILL_õ ;
 ! SG-INE ;
 :%^VowsLI1        SG-INS_ks ;
 :%^VowsLI1        SG-NOM  ;
-:%^VowsSh1%^VowsRM    SG-PAR_õ ;
+:%^VV2V%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_MȬKA-PL !!≈ * **@CODE@** mȭka:mȭuka 48
 :%^VowsLI1        PL-INS_DÕKS-STEM ;
@@ -4572,20 +4572,20 @@ LEXICON NMN_ĀMBAZ !!≈ * **@CODE@** : 173 āmbaz:āmba
         NMN_ĀMBAZ-PL     ;
 
 LEXICON NMN_ĀMBAZ-SG
-:%^VowsSh1%^VowsRM%>õ        SG-DAT_n ;
-:%^VowsSh1%^VowsRM%>õ       	SG-ELA/INE_st ;
-:%^VowsSh1%^VowsRM%>õ        SG-GEN ;
-:%^VowsSh1%^VowsRM%>õ  	SG-ILL_ZERO ;
-:%^VowsSh1%^VowsRM%>õ  	SG-ILL_z ;
-:%^VowsSh1%^VowsRM%>õ        SG-INS_ks ;
+:%^VV2V%^VowsRM%>õ        SG-DAT_n ;
+:%^VV2V%^VowsRM%>õ       	SG-ELA/INE_st ;
+:%^VV2V%^VowsRM%>õ        SG-GEN ;
+:%^VV2V%^VowsRM%>õ  	SG-ILL_ZERO ;
+:%^VV2V%^VowsRM%>õ  	SG-ILL_z ;
+:%^VV2V%^VowsRM%>õ        SG-INS_ks ;
 :z	SG-NOM  ;
 :z    	SG-PAR_t ;
 
 LEXICON NMN_ĀMBAZ-PL !!≈ * **@CODE@** : 173
-:%^VowsSh1%^VowsRM%>õ 	PL-INS_DÕKS-STEM ;
-:%^VowsSh1%^VowsRM 	PL-ELA/INE_ist ;
-:%^VowsSh1%^VowsRM 	PL-ILL_iž ;
-:%^VowsSh1%^VowsRM 	PL-PAR_idi ;
+:%^VV2V%^VowsRM%>õ 	PL-INS_DÕKS-STEM ;
+:%^VV2V%^VowsRM 	PL-ELA/INE_ist ;
+:%^VV2V%^VowsRM 	PL-ILL_iž ;
+:%^VV2V%^VowsRM 	PL-PAR_idi ;
 
 
 LEXICON NMN_PŪŖAZ !!≈ * **@CODE@** : 174 pūŗaz:pūŗŗa
@@ -4605,21 +4605,21 @@ LEXICON NMN_PǬĻAZ !!≈ * **@CODE@** : 175 pǭļaz:pǭļ
 	NMN_PǬĻAZ-PL	;
 LEXICON NMN_PǬĻAZ-SG !!≈ * **@CODE@** : 175
 !NMN_ĀMBAZ-SG     ; !!≈ * __@CODE@__ : 173
-:%{XC%}%^VowsSh1õ        SG-DAT_n ;
-:%{XC%}%^VowsSh1õ       	SG-ELA/INE_st ;
-:%{XC%}%^VowsSh1õ        SG-GEN ;
-:%{XC%}%^VowsSh1          SG-ILL_õ ;
-:%{XC%}%^VowsSh1õ  	SG-ILL_z ;
-:%{XC%}%^VowsSh1        SG-INS_õks ;
+:%{XC%}%^VV2Võ        SG-DAT_n ;
+:%{XC%}%^VV2Võ       	SG-ELA/INE_st ;
+:%{XC%}%^VV2Võ        SG-GEN ;
+:%{XC%}%^VV2V          SG-ILL_õ ;
+:%{XC%}%^VV2Võ  	SG-ILL_z ;
+:%{XC%}%^VV2V        SG-INS_õks ;
 :az	SG-NOM  ;
 :az    	SG-PAR_t ;
 
 LEXICON NMN_PǬĻAZ-PL !!≈ * **@CODE@** : 175
 !NMN_ĀMBAZ-PL     ; !!≈ * __@CODE@__ : 173
-:%{XC%}%^VowsSh1%>õ   PL-INS_DÕKS-STEM ;
-:%{XC%}%^VowsSh1      PL-ELA/INE_ist ;
-:%{XC%}%^VowsSh1      PL-ILL_iž ;
-:%{XC%}%^VowsSh1      PL-PAR_idi ;
+:%{XC%}%^VV2V%>õ   PL-INS_DÕKS-STEM ;
+:%{XC%}%^VV2V      PL-ELA/INE_ist ;
+:%{XC%}%^VV2V      PL-ILL_iž ;
+:%{XC%}%^VV2V      PL-PAR_idi ;
 
 
 !LEXICON NMN_RĒNAZ !!≈ * __@CODE@__ : 176 rēnaz:rēna
