@@ -586,7 +586,12 @@ Are the singular and plural homonyms?
 
 **LEXICON PSSPRSPRC = 
 
+**LEXICON PSSPRSPRC_b = 
+
 **LEXICON PSSPRFPRCSG = 
+2014-08-21
+
+**LEXICON PSSPRFPRCSG_d = 
 2014-08-21
 
 ### Finites
