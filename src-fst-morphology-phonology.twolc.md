@@ -499,6 +499,8 @@ nominative plural
 **Rule: d:0**
      Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
 
+**P loss before subsequent morpheme with underlying**  
+
 **T loss before subsequent morpheme with underlying initial d**  
 
 * kittõ%^ConsSh%^VowsRM%>dõd examples:*

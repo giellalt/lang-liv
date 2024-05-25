@@ -403,6 +403,24 @@ participles
 23
 **LEXICON V-01_MȮISTÕ = 23 mȯistõ, 27 āndõ, 28 tīeudõ
 
+**LEXICON V-01_MAKSÕ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
+
+Cond
+Imprt
+Jus
+Qvo
+
+participles
+
+**LEXICON V-01_TAPPÕ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
+
+Cond
+Imprt
+Jus
+Qvo
+
+participles
+
 29
 LEXICON	V-01_LUʼGGÕ  luʼggõ:luʼggõ 29
 This is mutual for 29-36: 
