@@ -669,6 +669,11 @@ d:0 <=>
      Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;  !!= @CODE@ 
       Cns* Vow ( ʼ: ) d _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
 
+"p:0"
+!! **P loss before subsequent morpheme with underlying**  
+p:0 <=>
+    # Cns* Vow ( ʼ: ) p _ Vow: ( %^StodRM:0 ) %^CC2C:  ;
+
 "t:0"
 !! **T loss before subsequent morpheme with underlying initial d**  
 t:0 <=>
