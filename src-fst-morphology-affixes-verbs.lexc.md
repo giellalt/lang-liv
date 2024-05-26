@@ -417,6 +417,15 @@ Qvo
 
 participles
 
+**LEXICON V-01_VIEʼDDÕ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
+
+Cond
+Imprt
+Jus
+Qvo
+
+participles
+
 **LEXICON V-01_MAKSÕ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
 
 Cond
@@ -435,8 +444,42 @@ Qvo
 
 participles
 
+27
+andõ:āndõ
+**LEXICON V-01_ANDÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+Imprt
+
+Jus
+Qvo
+
+participles
+
+28
+tieudõ:tīeudõ
+**LEXICON V-01_TIEUDÕ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+Imprt
+
+Jus
+Qvo
+
+participles
+
 29
 LEXICON	V-01_LUʼGGÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+30
+LEXICON	V-01_MUʼDŽÕ  luʼggõ:luʼggõ 29
 This is mutual for 29-36: 
 luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
 Prt
@@ -636,10 +679,15 @@ Are the singular and plural homonyms?
 
 **LEXICON PSSPRSPRC_b = 
 
+**LEXICON PSSPRSPRC_tõb = 
+
 **LEXICON PSSPRFPRCSG = 
 2014-08-21
 
 **LEXICON PSSPRFPRCSG_d = 
+2014-08-21
+
+**LEXICON PSSPRFPRCSG_tõd = 
 2014-08-21
 
 ### Finites

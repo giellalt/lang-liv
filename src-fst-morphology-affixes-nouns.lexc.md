@@ -261,7 +261,9 @@ serk:serk
 
 * **LEXICON N_PȮRT** : 95
 
-* **LEXICON N_NUŖM** : 96
+* **LEXICON N_NUŖM** : 96 nuŗm:nūrm
+
+* **LEXICON N_SUOŖM** : 96b suoŗm:sūorm
 
 * **LEXICON N_LAINT** : 97
 
@@ -1088,9 +1090,13 @@ Stød: None
 * **LEXICON NMN_PȮRT-SG** : 95
 * **LEXICON NMN_PȮRT-PL** : 95
 
-* **LEXICON NMN_NUŖM** : 96
+* **LEXICON NMN_NUŖM** : 96 nuŗm:nūrm
 * **LEXICON NMN_NUŖM-SG** : 96
 * **LEXICON NMN_NUŖM-PL** : 96
+
+* **LEXICON NMN_SUOŖM** : 96b
+* **LEXICON NMN_SUOŖM-SG** : 96b
+* **LEXICON NMN_SUOŖM-PL** : 96b
 
 * **LEXICON NMN_LAINT** : 97
 * **LEXICON NMN_LAINT-SG** : 97
