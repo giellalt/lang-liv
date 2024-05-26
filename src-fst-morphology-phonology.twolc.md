@@ -104,7 +104,7 @@ They must be escaped (cf morpheme boundaries further down):
   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
 * Letters = Vow Cns ; 
 * Dummy = %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
-  %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
+  %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 # Rule section
 
@@ -223,12 +223,6 @@ lengthen vowels
 * ouki%^VowsLI1z examples:*
 
 * ō0ki0z examples:*
-
-**Rule: o:i**
-
-* pūog%^VV2V%^PalatalizeLeft%>õ examples:*
-
-* pȯig0000õ examples:*
 
 LOWER VOWELS
 **Rule: ī:ē in tīe 15**

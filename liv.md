@@ -1174,7 +1174,7 @@ Stød: None
 No information
 
 22
-* **LEXICON NMN_PŪOGA** pūoga:pūog
+* **LEXICON NMN_PŪOGA** pūoga:p
 Stem change: Yes
 Vowel change in 1st syllable ūo:ȯi
 Vowel change in word-final position a:õ/0
@@ -1886,23 +1886,23 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_VĪDÕZ-SG** vīdõz: 162
 
 * **LEXICON NMN_VĪDÕZ-PL** vīdõz: 162
-* **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
 
 * **LEXICON NMN_TUOISTÕNZ** : 164
 * **LEXICON NMN_TUOISTÕNZ-SG** : 164
 
 * **LEXICON NMN_TUOISTÕNZ-PL** : 164
-* **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
 
 * **LEXICON NMN_ĪʼDÕKSMÕZ** īʼdõksmõz:īdõksmõz 165
 * **LEXICON NMN_ĪʼDÕKSMÕZ-SG** īʼdõksmõz:īdõksmõz 165
 
 * **LEXICON NMN_ĪʼDÕKSMÕZ-PL** īʼdõksmõz:īdõksmõz 165
 
-* **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
 
 * **LEXICON NMN_MĪEZ** : 166
 * **LEXICON NMN_MĪEZ-SG** mīez:m 166
@@ -1918,16 +1918,16 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_KÄBRĀZ-SG** : 168
 
 * **LEXICON NMN_KÄBRĀZ-PL** : 168
-* **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
 
 * **LEXICON NMN_MAIGĀZ** : 169 maigāz:maʼigāz
 * Yaml: **A-maigaaz**
 * **LEXICON NMN_MAIGĀZ-SG** : 169
 
 * **LEXICON NMN_MAIGĀZ-PL** : 169
-* **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
+* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
 
 * **LEXICON NMN_NÕTKĀZ** : 170 nõtkāz:nõtkā
 * **LEXICON NMN_NÕTKĀZ-SG** : 170
@@ -2653,9 +2653,9 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_VAKȚÕ =  vakțõ:vakțū 31
 
-**LEXICON IV_KITTÕ = kittõ:kitū 32
+**LEXICON IV_KITTÕ = kittõ:kittõ 32
 
-**LEXICON TV_KITTÕ = kittõ:kitū 32
+**LEXICON TV_KITTÕ = kittõ:kittõ 32
 
 **LEXICON V-AUX_RIʼDDÕ = riʼddõ:ridū 33
 
@@ -3030,20 +3030,94 @@ Kvo
 
 participles
 
+31
+LEXICON	V-01_VAKȚÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+32
+LEXICON	V-01_KITTÕ  kittõ:kittõ 32
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+33
+LEXICON	V-01_RIʼDDÕ  riʼddõ:riʼddõ 33
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+34
+LEXICON	V-01_KUTSÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+35
+LEXICON	V-01_LASKÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+36
+LEXICON	V-01_AKKÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+37
 This is mutual for 37-48
 
 Prt
 
 participles
 
-**LEXICON V-01_KUOŖŖÕ = kuoŗŗõ:kūoŗõ 38
+**LEXICON V-01_KUOŖŖÕ = kuoŗŗõ:kūoŗŗõ 38
 This is mutual for 37-48
 
 Prt
 
 participles
 
-**LEXICON V-01_VANNÕ = vannõ:vǭnõ 39
+**LEXICON V-01_VANNÕ = vannõ:vǭnnõ 39
 This is mutual for 37-48
 
 Prt
@@ -3387,7 +3461,7 @@ They must be escaped (cf morpheme boundaries further down):
   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
 * Letters = Vow Cns ; 
 * Dummy = %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
-  %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
+  %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 # Rule section
 
@@ -3506,12 +3580,6 @@ lengthen vowels
 * ouki%^VowsLI1z examples:*
 
 * ō0ki0z examples:*
-
-**Rule: o:i**
-
-* pūog%^VV2V%^PalatalizeLeft%>õ examples:*
-
-* pȯig0000õ examples:*
 
 LOWER VOWELS
 **Rule: ī:ē in tīe 15**

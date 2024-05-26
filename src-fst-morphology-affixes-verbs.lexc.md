@@ -113,9 +113,9 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_VAKȚÕ =  vakțõ:vakțū 31
 
-**LEXICON IV_KITTÕ = kittõ:kitū 32
+**LEXICON IV_KITTÕ = kittõ:kittõ 32
 
-**LEXICON TV_KITTÕ = kittõ:kitū 32
+**LEXICON TV_KITTÕ = kittõ:kittõ 32
 
 **LEXICON V-AUX_RIʼDDÕ = riʼddõ:ridū 33
 
@@ -490,20 +490,94 @@ Kvo
 
 participles
 
+31
+LEXICON	V-01_VAKȚÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+32
+LEXICON	V-01_KITTÕ  kittõ:kittõ 32
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+33
+LEXICON	V-01_RIʼDDÕ  riʼddõ:riʼddõ 33
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+34
+LEXICON	V-01_KUTSÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+35
+LEXICON	V-01_LASKÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+36
+LEXICON	V-01_AKKÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
+37
 This is mutual for 37-48
 
 Prt
 
 participles
 
-**LEXICON V-01_KUOŖŖÕ = kuoŗŗõ:kūoŗõ 38
+**LEXICON V-01_KUOŖŖÕ = kuoŗŗõ:kūoŗŗõ 38
 This is mutual for 37-48
 
 Prt
 
 participles
 
-**LEXICON V-01_VANNÕ = vannõ:vǭnõ 39
+**LEXICON V-01_VANNÕ = vannõ:vǭnnõ 39
 This is mutual for 37-48
 
 Prt
