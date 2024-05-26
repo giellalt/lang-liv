@@ -447,8 +447,11 @@ LEXICON N_SERK-PL !!≈ * **@CODE@** : 94
 LEXICON N_PȮRT !!≈ * **@CODE@** : 95
  NMN_PȮRT	;
 
-LEXICON N_NUŖM !!≈ * **@CODE@** : 96
+LEXICON N_NUŖM !!≈ * **@CODE@** : 96 nuŗm:nūrm
  NMN_NUŖM	;
+
+LEXICON N_SUOŖM !!≈ * **@CODE@** : 96b suoŗm:sūorm
+ NMN_SUOŖM	;
 
 LEXICON N_LAINT !!≈ * **@CODE@** : 97
  NMN_LAINT	;
@@ -3027,36 +3030,53 @@ LEXICON NMN_PȮRT !!≈ * **@CODE@** : 95
 	NMN_PȮRT-SG	;
 	NMN_PȮRT-PL	;
 LEXICON NMN_PȮRT-SG !!≈ * **@CODE@** : 95
-        SG-DAT_õn   ;
-        SG-ELA/INE_stõ    ;
-        SG-GEN      ;
-        SG-ILL_õ    ;
-        SG-INS_kõks ;
-        SG-NOM      ;
-        SG-PAR_õ    ;
+:ȯrt        SG-DAT_õn   ;
+:ȯrt        SG-ELA/INE_stõ    ;
+:ȯrt        SG-GEN      ;
+:ȯrt        SG-ILL_õ    ;
+:ȯrt        SG-INS_õks ;
+:ȯrt        SG-NOM      ;
+:ȯrt        SG-PAR_õ    ;
 LEXICON NMN_PȮRT-PL !!≈ * **@CODE@** : 95
-:%^VowsLI1      PL-ELA/INE_ist    ;
-:%^VowsLI1      PL-ILL_iž         ;
-:%^VowsLI1      PL-INS_ÕDÕKS-STEM ;
-:%^VowsLI1      PL-PAR_idi        ;
+:ūort      PL-ELA/INE_ist    ;
+:ūort      PL-ILL_iž         ;
+:ūort      PL-INS_ÕDÕKS-STEM ;
+:ūort      PL-PAR_idi        ;
 
 
-LEXICON NMN_NUŖM !!≈ * **@CODE@** : 96
+LEXICON NMN_NUŖM !!≈ * **@CODE@** : 96 nuŗm:nūrm
 	NMN_NUŖM-SG	;
 	NMN_NUŖM-PL	;
 LEXICON NMN_NUŖM-SG !!≈ * **@CODE@** : 96
-        SG-DAT_õn   ;
-        SG-ELA/INE_stõ    ;
-        SG-GEN      ;
-        SG-ILL_õ    ;
-        SG-INS_kõks ;
-        SG-NOM      ;
-        SG-PAR_õ    ;
+:%^VV2V        SG-DAT_õn   ;
+:%^VV2V        SG-ELA/INE_stõ    ;
+:%^VV2V        SG-GEN      ;
+:%^VV2V        SG-ILL_õ    ;
+:%^VV2V        SG-INS_kõks ;
+:%^VV2V%^PalatalizeLeft        SG-NOM      ;
+:%^VV2V        SG-PAR_õ    ;
 LEXICON NMN_NUŖM-PL !!≈ * **@CODE@** : 96
-:%^VowsLI1      PL-ELA/INE_ist    ;
-:%^VowsLI1      PL-ILL_iž         ;
-:%^VowsLI1      PL-INS_ÕDÕKS-STEM ;
-:%^VowsLI1      PL-PAR_idi        ;
+:      PL-ELA/INE_ist    ;
+:      PL-ILL_iž         ;
+:      PL-INS_ÕDÕKS-STEM ;
+:      PL-PAR_idi        ;
+
+LEXICON NMN_SUOŖM !!≈ * **@CODE@** : 96b
+	NMN_SUOŖM-SG	;
+	NMN_SUOŖM-PL	;
+LEXICON NMN_SUOŖM-SG !!≈ * **@CODE@** : 96b
+:%^VV2V        SG-DAT_õn   ;
+:%^VV2V        SG-ELA/INE_stõ    ;
+:%^VV2V        SG-GEN      ;
+:%^VV2V        SG-ILL_õ    ;
+:%^VV2V        SG-INS_kõks ;
+:%^VV2V%^PalatalizeLeft        SG-NOM      ;
+:%^VV2V        SG-PAR_õ    ;
+LEXICON NMN_SUOŖM-PL !!≈ * **@CODE@** : 96b
+:      PL-ELA/INE_ist    ;
+:      PL-ILL_iž         ;
+:      PL-INS_ÕDÕKS-STEM ;
+:      PL-PAR_idi        ;
 
 
 LEXICON NMN_LAINT !!≈ * **@CODE@** : 97
