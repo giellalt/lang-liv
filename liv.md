@@ -2931,11 +2931,25 @@ participles
 
 **LEXICON V-01_TÄUTÕ = 21 täutõ:tǟutõ
 
-22
+22 pȯļțõ:p
 **LEXICON V-01_PȮĻTÕ = 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+Cond
+Imprt
 
-23
+Jus
+Qvo
+
+participles
+
+23 mȯistõ:m
 **LEXICON V-01_MȮISTÕ = 23 mȯistõ, 27 āndõ, 28 tīeudõ
+
+Imprt
+
+Jus
+Qvo
+
+participles
 
 **LEXICON V-01_MAKSÕ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
 
@@ -3090,6 +3104,22 @@ Quo+Sg3, Quo+Pl3, +NomAct -mi
 
 * **:%^VowsRM PSSPRSPRC ;** aʼil-
 * **:%^VowsRM PSSPRFPRCSG ;** aʼil-
+
+52
+**LEXICON V-01_SVAʼRRÕ =  This is mutual for 49-50, 52-57
+Prt
++Act+PrfPrc
+Cond
+
+**LEXICON V-01_KĪTÕ =  This is mutual for 49-50, 52-57
+Prt
++Act+PrfPrc
+Cond
+
+**LEXICON V-01_ÄʼBȚÕ =  This is mutual for 49-50, 52-57
+Prt
++Act+PrfPrc
+Cond
 
 **LEXICON V-01_UMBLÕ = This is mutual for 58-61: 
 umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
