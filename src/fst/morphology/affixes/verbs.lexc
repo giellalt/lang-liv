@@ -207,12 +207,12 @@ LEXICON TV_VÕTTÕ
 LEXICON IV_VIEʼDDÕ
 !!  **LEXICON @LEXNAME@ = 24 vieʼddõ:vieʼddõ
 !+IV: V-01_JEʼLLÕ ;
-: V-01_JEʼLLÕ ;
+: V-01_VIEʼDDÕ ;
 
 LEXICON TV_VIEʼDDÕ
 !!  **LEXICON @LEXNAME@ = 24 vieʼddõ:vieʼddõ
 !+TV: V-01_JEʼLLÕ ;
-: V-01_JEʼLLÕ ;
+: V-01_VIEʼDDÕ ;
 
 LEXICON IV_MAKSÕ
 !!  **LEXICON @LEXNAME@ = 25 maksõ:maksõ
@@ -300,12 +300,12 @@ LEXICON TV_ANDÕ
 LEXICON IV_TIEUDÕ
 !!  **LEXICON @LEXNAME@ = 28 tieudõ:tīeda
 !+IV: V-01_MÄNGÕ ;
-: V-01_MÄNGÕ ;
+: V-01_TIEUDÕ ;
 
 LEXICON TV_TIEUDÕ
 !!  **LEXICON @LEXNAME@ = 28 tieudõ:tīeda
 !+TV: V-01_MÄNGÕ ;
-: V-01_MÄNGÕ ;
+: V-01_TIEUDÕ ;
 
 !! 29-48 follow same pattern
 
@@ -322,12 +322,12 @@ LEXICON TV_LUʼGGÕ
 LEXICON IV_MUʼDŽÕ
 !!  **LEXICON @LEXNAME@ = muʼdžõ:mudžū 30
 !+IV:     V-01_LUʼGGÕ ;
-:     V-01_LUʼGGÕ ;
+:     V-01_MUʼDŽÕ ;
 
 LEXICON TV_MUʼDŽÕ
 !!  **LEXICON @LEXNAME@ = muʼdžõ:mudžū 30
 !+TV:     V-01_LUʼGGÕ ;
-:     V-01_LUʼGGÕ ;
+:     V-01_MUʼDŽÕ ;
 
 LEXICON IV_VAKȚÕ
 !!  **LEXICON @LEXNAME@ = vakțõ:vakțū 31
@@ -1296,7 +1296,7 @@ LEXICON V-01_MȮISTÕ !! 23 mȯistõ:m
 :ūošta SUP-STEM_m        ;
 :ūošta   INDPRSSG1-STEM    ;
 :ȯist   INDCONNEGSG    ;
-:ūošti INDPRT_z ;
+:ūošti INDPRT_zt/ztõ ;
 
 
 !+Cond+Sg3:õks	K    ;
@@ -1321,36 +1321,70 @@ LEXICON V-01_MȮISTÕ !! 23 mȯistõ:m
 :ȯistõ PSSPRSPRC_b ;
 :ȯistõ PSSPRFPRCSG_d    ;
 
+!!24
+LEXICON V-01_VIEʼDDÕ !!24 vieddõ:vieʼddõ
+!!  **LEXICON @LEXNAME@ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
+:%^Stress2to1 GER_s     ;
+:%^Stress2to1 INF_ZERO      ;
+:%^StodRM%^CC2C%^VowsRM%>ā SUP-STEM_m        ;
+:%^StodRM%^CC2C%^VowsRM%>ā   INDPRSSG1-STEM    ;
+:%^StodRM%^CC2C%^VowsRM%>ā   INDCONNEGSG    ;
+:%^StodRM%^CC2C%^VowsRM%>ī INDPRT_zt/ztõ ;
+!+Ind+Sg+ConNeg:	K    ;
+
+!! Cond
+:%^StodRM%^CC2C%^VowsRM%>ā COND ;
+!! Imprt
+:%^StodRM%^CC2C%^VowsRM%>ā        IMPRTSG2    ;
+:%^StodRM%^CC2C%^VowsRM%>ā        IMPRTPL1        ;
+:%^StodRM%^CC2C%^VowsRM%>ā        IMPRTPL2        ;
+:%^StodRM%^CC2C%^VowsRM%>ā        IMPRTCONNEGPL2_gid   ;
+:%^StodRM%^CC2C%^VowsRM%>ā        IMPRTCONNEG ;
+:%^StodRM%^CC2C%^VowsRM%>ā       IMPRTCONNEGSG2 ;
+!! Jus
+:%^StodRM%^CC2C%^VowsRM%>ā JUS_g ;
+!! Qvo
+:%^StodRM%^CC2C%^VowsRM%>ā QUO-STEM_ji    ;
+
+!! participles
+ ACTPRSPRC ;
+ ACTPRFPRC_n ;
+:%^CC2C%^VowsRM PSSPRSPRC_tõb ;
+:%^CC2C%^VowsRM PSSPRFPRCSG    ;
+
+!:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
+!+Pss+PrfPrc:tõd			NMN_TAPTÕD ;
+
 !!25
 LEXICON V-01_MAKSÕ
 !!  **LEXICON @LEXNAME@ = 13 jeʼllõ, 18 astõ, 19 võttõ, 24 vieʼddõ, 25 maksõ, 26 tappõ
 :%^Stress2to1 GER_s     ;
 :%^Stress2to1 INF_ZERO      ;
-:%^StodRM%^ConsSh%^VowsRM%>ā SUP-STEM_m        ;
-:%^StodRM%^ConsSh%^VowsRM%>ā   INDPRSSG1-STEM    ;
-:%^ConsSh%^VowsRM   INDCONNEGSG    ;
-:%^StodRM%^ConsSh%^VowsRM%>ī INDPRT_zt/ztõ ;
+:%^VowsRM%>ā SUP-STEM_m        ;
+:%^VowsRM%>ā   INDPRSSG1-STEM    ;
+:%^VowsRM%>ā   INDCONNEGSG    ;
+:%^VowsRM%>ī INDPRT_zt/ztõ ;
 !+Ind+Sg+ConNeg:	K    ;
 
 !! Cond
-:%^StodRM%^ConsSh%^VowsRM%>ā COND ;
+:%^VowsRM%>ā COND ;
 !! Imprt
-:%^StodRM%^ConsSh%^VowsRM%>ā        IMPRTSG2    ;
-:%^StodRM%^ConsSh%^VowsRM%>ā        IMPRTPL1        ;
-:%^StodRM%^ConsSh%^VowsRM%>ā        IMPRTPL2        ;
-:%^StodRM%^ConsSh%^VowsRM%>ā        IMPRTCONNEGPL2_gid   ;
-:%^StodRM%^ConsSh%^VowsRM%>ā        IMPRTCONNEG ;
-       IMPRTCONNEGSG2 ;
+:%^VowsRM%>ā        IMPRTSG2    ;
+:%^VowsRM%>ā        IMPRTPL1        ;
+:%^VowsRM%>ā        IMPRTPL2        ;
+:%^VowsRM%>ā        IMPRTCONNEGPL2_gid   ;
+:%^VowsRM%>ā        IMPRTCONNEG ;
+:%^VowsRM%>ā       IMPRTCONNEGSG2 ;
 !! Jus
-:%^StodRM%^ConsSh%^VowsRM%>ā JUS_g ;
+:%^VowsRM%>ā JUS_g ;
 !! Qvo
-:%^StodRM%^ConsSh%^VowsRM%>ā QUO-STEM_ji    ;
+:%^VowsRM%>ā QUO-STEM_ji    ;
 
 !! participles
  ACTPRSPRC ;
  ACTPRFPRC_n ;
-:%^ConsSh%^VowsRM PSSPRSPRC ;
-:%^ConsSh%^VowsRM PSSPRFPRCSG    ;
+:%^VowsRM PSSPRSPRC_tõb ;
+:%^VowsRM PSSPRFPRCSG_tõd    ;
 
 !:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
 !+Pss+PrfPrc:tõd			NMN_TAPTÕD ;
@@ -1362,7 +1396,7 @@ LEXICON V-01_TAPPÕ
 : INF_ZERO      ;
 :%^CC2C%^VowsRM%>ā SUP-STEM_m        ;
 :%^CC2C%^VowsRM%>ā   INDPRSSG1-STEM    ;
-:%^CC2C%^VowsRM   INDCONNEGSG    ;
+:%^CC2C%^VowsRM%>ā   INDCONNEGSG    ;
 :%^CC2C%^VowsRM%>ī INDPRT_zt/ztõ ;
 !+Ind+Sg+ConNeg:	K    ;
 
@@ -1374,7 +1408,7 @@ LEXICON V-01_TAPPÕ
 :%^CC2C%^VowsRM%>ā        IMPRTPL2        ;
 :%^CC2C%^VowsRM%>ā        IMPRTCONNEGPL2_gid   ;
 :%^CC2C%^VowsRM%>ā        IMPRTCONNEG ;
-       IMPRTCONNEGSG2 ;
+:%^CC2C%^VowsRM%>ā       IMPRTCONNEGSG2 ;
 !! Jus
 :%^CC2C%^VowsRM%>ā JUS_g ;
 !! Qvo
@@ -1383,11 +1417,71 @@ LEXICON V-01_TAPPÕ
 !! participles
  ACTPRSPRC ;
  ACTPRFPRC_n ;
-:%^CC2C%^VowsRM PSSPRSPRC ;
-:%^CC2C%^VowsRM PSSPRFPRCSG    ;
+:%^CC2C%^VowsRM PSSPRSPRC_tõb ;
+:%^CC2C%^VowsRM PSSPRFPRCSG_tõd    ;
 
 !:%^Stress2to1%^VowsRM%^ConsRM	PSSPRFPRCSG    ;
 !+Pss+PrfPrc:tõd			NMN_TAPTÕD ;
+
+!! 27
+LEXICON V-01_ANDÕ !! andõ:āndõ
+!!  **LEXICON @LEXNAME@ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+:%^VV2V GER_s     ;
+:%^VV2V INF_ZERO      ;
+:%^VowsRM%>a SUP-STEM_m        ;
+:%^VowsRM%>a   INDPRSSG1-STEM    ;
+:%^VowsRM%>i INDPRT_zt/ztõ ;
+:%^VowsRM%>a   INDCONNEGSG    ;
+
+:%^VowsRM%>a COND ;
+!! Imprt
+:%^VowsRM%>a        IMPRTSG2    ;
+:%^VowsRM%>a        IMPRTPL1        ;
+:%^VowsRM%>a        IMPRTPL2        ;
+:%^VowsRM%>a        IMPRTCONNEGPL2_gid   ;
+:%^VowsRM%>a        IMPRTCONNEG ;
+
+:%^VowsRM%>a       IMPRTCONNEGSG2 ;
+!! Jus
+:%^VowsRM%>a JUS_g ;
+!! Qvo
+:%^VowsRM%>a QUO-STEM_ji    ;
+
+!! participles
+ ACTPRSPRC ;
+:%^VV2V ACTPRFPRC_n ;
+:%^VV2V%^VowsRM PSSPRSPRC_tõb ;
+:%^VV2V%^VowsRM	PSSPRFPRCSG_tõd    ;
+
+!! 28
+LEXICON V-01_TIEUDÕ !! tieudõ:tīeudõ
+!!  **LEXICON @LEXNAME@ = 14 mängõ, 15 killõ, 16 pallõ, 17 loulõ, 20 laitõ, 21 täutõ, 22 pȯļtõ, 23 mȯistõ, 27 āndõ, 28 tīeudõ
+:%^VV2V GER_s     ;
+:%^VV2V INF_ZERO      ;
+:%^U2ZERO%^VowsRM%>a SUP-STEM_m        ;
+:%^U2ZERO%^VowsRM%>a   INDPRSSG1-STEM    ;
+:%^U2ZERO%^VowsRM%>i INDPRT_zt/ztõ ;
+:%^U2ZERO%^VowsRM%>a   INDCONNEGSG    ;
+
+:%^U2ZERO%^VowsRM%>a COND ;
+!! Imprt
+:%^U2ZERO%^VowsRM%>a        IMPRTSG2    ;
+:%^U2ZERO%^VowsRM%>a        IMPRTPL1        ;
+:%^U2ZERO%^VowsRM%>a        IMPRTPL2        ;
+:%^U2ZERO%^VowsRM%>a        IMPRTCONNEGPL2_gid   ;
+:%^U2ZERO%^VowsRM%>a        IMPRTCONNEG ;
+
+:%^U2ZERO%^VowsRM%>a       IMPRTCONNEGSG2 ;
+!! Jus
+:%^U2ZERO%^VowsRM%>a JUS_g ;
+!! Qvo
+:%^U2ZERO%^VowsRM%>a QUO-STEM_ji    ;
+
+!! participles
+ ACTPRSPRC ;
+:%^VV2V ACTPRFPRC_n ;
+:%^VV2V%^CC2C%^VowsRM PSSPRSPRC_tõb ;
+:%^VV2V%^CC2C%^VowsRM	PSSPRFPRCSG_tõd    ;
 
 
 !! 29
@@ -1397,19 +1491,21 @@ LEXICON	V-01_LUʼGGÕ !!= @CODE@ luʼggõ:luʼggõ 29
  GER_s   ;
  INF_ZERO	  ;
  SUP-STEM_m	  ; 
-:%^StodRM%^ConsSh%^VowsRM%>ū INDPRSSG1-STEM    ;
-:%^ConsSh%^VowsRM INDCONNEGSG    ;
+:%^StodRM%^CC2C%^VowsRM%>ū INDPRSSG1-STEM    ;
+:%^CC2C%^VowsRM INDCONNEGSG    ;
 !! Prt
-:%^StodRM%^ConsSh%^VowsRM%>ī INDPRT_zt/ztõ    ;
+:%^StodRM%^CC2C%^VowsRM%>ī INDPRT_zt/ztõ    ;
 ! Cond
  COND ;
 !! ImprtI
-:%^ConsSh%^VowsRM 	IMPRTSG2    ;
+:%^CC2C%^VowsRM 	IMPRTSG2    ;
 :%^Stress2to1 IMPRTPL1	;
-:%^Stress2to1 IMPRTPL2	;
-:%^ConsSh%^VowsRM IMPRTCONNEG ;
+: IMPRTPL2	;
+ IMPRTCONNEGPL2_gid   ;
+:%^CC2C%^VowsRM IMPRTCONNEG ;
+:%^CC2C%^VowsRM IMPRTCONNEGSG2 ;
 
-+Imprt+Pl2:%^Stress2to1%>gid	K    ;
+!+Imprt+Pl2:%^Stress2to1%>gid	K    ;
 !! Jus
  JUS_g	;
 !! Kvo
@@ -1418,8 +1514,41 @@ LEXICON	V-01_LUʼGGÕ !!= @CODE@ luʼggõ:luʼggõ 29
 !! participles
  ACTPRSPRC ;
  ACTPRFPRC_n ;
-:%^ConsSh%^VowsRM PSSPRSPRC ;
-:%^ConsSh%^VowsRM	PSSPRFPRCSG    ;
+:%^CC2C%^VowsRM PSSPRSPRC ;
+:%^CC2C%^VowsRM	PSSPRFPRCSG    ;
+
+!! 30
+LEXICON	V-01_MUʼDŽÕ !!= @CODE@ luʼggõ:luʼggõ 29
+!! This is mutual for 29-36: 
+!! luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+ GER_s   ;
+ INF_ZERO	  ;
+ SUP-STEM_m	  ; 
+:%^StodRM%^CC2C%^VowsRM%>ū INDPRSSG1-STEM    ;
+:%^CC2C%^VowsRM INDCONNEGSG    ;
+!! Prt
+:%^StodRM%^CC2C%^VowsRM%>ī INDPRT_zt/ztõ    ;
+! Cond
+ COND ;
+!! ImprtI
+:%^CC2C%^VowsRM 	IMPRTSG2    ;
+:%^Stress2to1 IMPRTPL1	;
+: IMPRTPL2	;
+ IMPRTCONNEGPL2_gid   ;
+:%^CC2C%^VowsRM IMPRTCONNEG ;
+:%^CC2C%^VowsRM IMPRTCONNEGSG2 ;
+
+!+Imprt+Pl2:%^Stress2to1%>gid	K    ;
+!! Jus
+ JUS_g	;
+!! Kvo
+:%^VowsRM QUO-STEM_iji	;
+
+!! participles
+ ACTPRSPRC ;
+ ACTPRFPRC_n ;
+:%^CC2C%^VowsRM PSSPRSPRC ;
+:%^CC2C%^VowsRM	PSSPRFPRCSG    ;
 
 !!
 
@@ -2097,6 +2226,11 @@ LEXICON PSSPRSPRC_b
 +Pss+PrsPrc+Sg:%>b        K    ;
 +Pss+PrsPrc+Pl:%>bõd      K    ;
 
+LEXICON PSSPRSPRC_tõb
+!! **LEXICON @LEXNAME@ = 
++Pss+PrsPrc+Sg:%>tõb        K    ;
++Pss+PrsPrc+Pl:%>tõbõd      K    ;
+
 LEXICON PSSPRFPRCSG
 !! **LEXICON @LEXNAME@ = 
 +Use/NG+Pss+PrfPrc:%>dõd    K    ;
@@ -2108,6 +2242,12 @@ LEXICON PSSPRFPRCSG_d
 +Use/NG+Pss+PrfPrc:%>d    K    ;
 +Pss+PrfPrc+Sg:%>d    K    ;
 +Pss+PrfPrc:%>d	   NMN_TAPTÕD ; !! 2014-08-21
+
+LEXICON PSSPRFPRCSG_tõd
+!! **LEXICON @LEXNAME@ = 
++Use/NG+Pss+PrfPrc:%>tõd    K    ;
++Pss+PrfPrc+Sg:%>tõd    K    ;
++Pss+PrfPrc:%>tõd	   NMN_TAPTÕD ; !! 2014-08-21
 
 !! ### Finites
 
