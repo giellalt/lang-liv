@@ -194,13 +194,14 @@ Rules
 !! **Rule: @RULENAME@**
 ū:u <=> # Cns* _  ( i ) Cns:+ Vow: [ %^Stress1to2:0 | %^VV2V:0 ]  ;
     # Cns* _  (ʼ:) Cns:+ (%{XC%}:) %^VV2V:0 ;
-         # Cns* _ o %^VV2V:0 ;
+         # [Cns - [p|m|b]] _ o r: m %^VV2V:0 ;
+         # [Cns - [p | m | b]]* _ o %^VV2V:0 ;
 !!€ jūo^VV2V>i
 !!€ juo0>i
 
 "ū:ȯ in first syllable"
 !! **Rule: @RULENAME@**
-ū:ȯ <=> # Cns* _   o:  Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 | %^VV2V:0 (%^PalatalizeLeft:)]  ;
+ū:ȯ <=> # [p | m | b] _   o:  Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 | %^VV2V:0 (%^PalatalizeLeft:)]  ;
 !!€# pūol0a%^Stress1to2%^ConsL
 !!€0 pȯ0llõ00
 !!€# pūoga%^VV2V%^PalatalizeLeft%^VowsRM%>õ
@@ -437,7 +438,7 @@ i:0 <=>  # Cns* [ e: | ȯ: (:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ;
 !! **Rule: @RULENAME@**
 u:0 <=>
 # Cns:* ǟ: _ Cns:+ Vow: %^Pen: %^U2ZERO: ;
-# Cns:* [ ȭ: | ǟ: | ō: ]  _ Cns:+ ( Vow: ) %^U2ZERO:0 ;
+# Cns:* [ ȭ: | ǟ: | ō: | ī e]  _ Cns:+ ( Vow: ) %^U2ZERO:0 ;
 # Cns:* [ õ: | ȭ: | ä: | o: ]  _ Cns:+ ( Vow: ) %^VowsLI1:0 ;
 !!€ tǟutõ^PEN^U2ZERO^VowsRM>a>m
 !!€ tǟ0t0000>a>m
@@ -477,7 +478,7 @@ o:0 <=> # Cns:* [ ū: ]  _ Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 ] ;
 "g:0"
 !! **Rule: @RULENAME@**
  g:0 <=>
-# Cns* Vow ( ʼ: ) g _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
+# Cns* Vow ( ʼ: ) g _ Vow: ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:]  ;
   _ (%^VowsLI1:) (%^StodRM:) (%^VowsRM:) %^ConsRM: ;
 
 "l:0"
@@ -622,7 +623,7 @@ n:ņ <=> _ ( Vow: ) (%^VowsSh1:|%^VV2V:| %^VV2V:) %^PalatalizeLeft:0 ( %^VowsRM:
 "r:ŗ"
 !! **Rule: @RULENAME@**
 r:ŗ <=> _ (%^VOWRaise:) %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
-       _ g ( Vow: ) ( %^VV2V: ) %^PalatalizeLeft: ;
+       _ [g|m] ( Vow: ) ( %^VV2V: ) %^PalatalizeLeft: ;
 !!€# ǟrga%^VV2V%^PalatalizeLeft%^VowsRMi
 !!€0 eŗg0000i
 
@@ -667,7 +668,7 @@ d:ž <=>
 !! **Rule: @RULENAME@**
 d:0 <=>
      Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;  !!= @CODE@ 
-      Cns* Vow ( ʼ: ) d _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
+      Cns* Vow ( ʼ: ) d _ Vow: ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:]  ;
 
 "p:0"
 !! **P loss before subsequent morpheme with underlying**  
