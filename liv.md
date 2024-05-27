@@ -3124,7 +3124,7 @@ Prt
 
 participles
 
-**LEXICON V-01_PȮĻĻÕ = pȯļļõ:pūoļõ 40
+**LEXICON V-01_PȮĻĻÕ = pȯļļõ:pūoļļõ 40
 This is mutual for 37-48
 
 Prt
@@ -3138,14 +3138,14 @@ Prt
 
 participles
 
-**LEXICON V-01_OUŖÕ = ouŗõ:ōŗõ 42
+**LEXICON V-01_OUŖÕ = ouŗõ:ōuŗõ 42
 This is mutual for 37-48
 
 Prt
 
 participles
 
-**LEXICON V-01_KEIJÕ = keijõ:kējõ 43
+**LEXICON V-01_KEIJÕ = keijõ:kēijõ 43
 This is mutual for 37-48
 
 Prt
@@ -3166,7 +3166,7 @@ Prt
 
 participles
 
-**LEXICON V-01_OUTÕ = outõ:ōtõ 46
+**LEXICON V-01_OUTÕ = outõ:ōutõ 46
 This is mutual for 37-48
 
 Prt
@@ -3187,11 +3187,20 @@ Prt
 
 participles
 
+49
 **LEXICON V-01_KŪLÕ =  This is mutual for 49-50, 52-57
 Prt
 +Act+PrfPrc
 Cond
 
+50
+arrõ:arrõ
+**LEXICON V-01_ARRÕ =  This is mutual for 49-50, 52-57
+Prt
++Act+PrfPrc
+Cond
+
+51
 **LEXICON V-01_AʼILÕ =  This is mutual for 51
 Ger, Ger_Ine
 
@@ -3240,6 +3249,24 @@ Prt
 Cond
 
 **LEXICON V-01_ÄʼBȚÕ =  This is mutual for 49-50, 52-57
+Prt
++Act+PrfPrc
+Cond
+
+55
+**LEXICON V-01_KŪLDÕ =  This is mutual for 49-50, 52-57
+Prt
++Act+PrfPrc
+Cond
+
+56
+**LEXICON V-01_KĪSKÕ =  This is mutual for 49-50, 52-57
+Prt
++Act+PrfPrc
+Cond
+
+57
+**LEXICON V-01_ĪʼEDÕ =  This is mutual for 49-50, 52-57
 Prt
 +Act+PrfPrc
 Cond
