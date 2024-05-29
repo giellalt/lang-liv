@@ -8,26 +8,64 @@
 LEXICON EXCEPTIONS
 
 !! the verbs of negation have partial inflection:
-!!€ äʼb:    äb+V+Neg+Act+Ind+Prs+Sg1
-!!€ iʼzt:   äb+V+Neg+Act+Ind+Prt+Pl2
-!!€ iʼzt:   äb+V+Neg+Act+Ind+Prt+Pl3
-!!€ aʼlgid: äb+V+Neg+Act+Imprt+Pl2
-äb+V+Neg+Act+Ind+Prs+Sg1:äʼb        K ;
-äb+V+Neg+Act+Ind+Prs+Sg3:äʼb        K ;
-äb+V+Neg+Act+Ind+Prs+Pl1:äʼb        K ;
-äb+V+Neg+Act+Ind+Prs+Pl2:ät        K ;
-äb+V+Neg+Act+Ind+Prs+Pl3:äʼb        K ;
-äb+V+Neg+Act+Ind+Prt+Sg3:iʼz        K ;
-äb+V+Neg+Act+Ind+Prt+Pl2:iʼzt       K ;
-äb+V+Neg+Act+Ind+Prt+Pl3:iʼzt       K ;
-äb+V+Neg+Act+Imprt+Sg2:alā         K ;
-äb+V+Neg+Act+Imprt+Pl2:aʼlgid      K ;
-äb+V+Neg+Act+Jus+Sg3:aʼlgõ         K ;
+!!€ äʼb:    äb+V+Aux+Neg+Ind+Prs+Sg1
+!!€ iʼzt:   äb+V+Aux+Neg+Ind+Prt+Pl2
+!!€ iʼzt:   äb+V+Aux+Neg+Ind+Prt+Pl3
+!!€ aʼlgid: äb+V+Aux+Neg+Imprt+Pl2
+äb+V+Aux+Neg+Ind+Prs+Sg1:äʼb        K ;
+äb+V+Aux+Neg+Ind+Prs+Sg1:äb        K ;
+äb+V+Aux+Neg+Ind+Prs+Sg2:äʼd        K ;
+äb+V+Aux+Neg+Ind+Prs+Sg2:äd        K ;
+äb+V+Aux+Neg+Ind+Prs+Sg3:äʼb        K ;
+äb+V+Aux+Neg+Ind+Prs+Sg3:äb        K ;
+äb+V+Aux+Neg+Ind+Prs+Pl1:äʼb        K ;
+äb+V+Aux+Neg+Ind+Prs+Pl1:äb        K ;
+äb+V+Aux+Neg+Ind+Prs+Pl2:ät        K ;
+äb+V+Aux+Neg+Ind+Prs+Pl3:äʼb        K ;
+äb+V+Aux+Neg+Ind+Prs+Pl3:äb        K ;
+äb+V+Aux+Neg+Ind+Prt+Sg1:iʼz        K ;
+äb+V+Aux+Neg+Ind+Prt+Sg1:iz        K ;
+äb+V+Aux+Neg+Ind+Prt+Sg2:iʼzt        K ;
+äb+V+Aux+Neg+Ind+Prt+Sg2:izt        K ;
+äb+V+Aux+Neg+Ind+Prt+Sg3:iʼz        K ;
+äb+V+Aux+Neg+Ind+Prt+Sg3:iz        K ;
+äb+V+Aux+Neg+Ind+Prt+Pl1:iʼz       K ;
+äb+V+Aux+Neg+Ind+Prt+Pl1:iz       K ;
+äb+V+Aux+Neg+Ind+Prt+Pl2:iʼzt       K ;
+äb+V+Aux+Neg+Ind+Prt+Pl2:izt       K ;
+äb+V+Aux+Neg+Ind+Prt+Pl3:iʼzt       K ;
+äb+V+Aux+Neg+Ind+Prt+Pl3:izt       K ;
+äb+V+Aux+Neg+Imprt+Sg2:alā         K ;
+äb+V+Aux+Neg+Imprt+Pl2:aʼlgid      K ;
+äb+V+Aux+Neg+Jus+Sg3:aʼlgõ         K ;
+äb+V+Aux+Neg+Jus+Pl3:aʼlgõd         K ;
 
 !! Some verbs only have few word-forms left:
 !!€ piḑīm:
 !!€ piḑīks:
+piḑīm+V+Ind+Prs+Sg1:piḑīm K ;
+piḑīm+V+Ind+Prs+Sg2:piḑīm K ;
+piḑīm+V+Ind+Prs+Sg3:piḑīm K ;
+piḑīm+V+Ind+Prs+Pl1:piḑīm K ;
+piḑīm+V+Ind+Prs+Pl2:piḑīm K ;
+piḑīm+V+Ind+Prs+Pl3:piḑīm K ;
+piḑīm+V+Ind+ConNeg+Sg:piḑīm K ;
+piḑīm+V+Ind+ConNeg+Pl1:piḑīm K ;
+piḑīm+V+Ind+ConNeg+Pl2:piḑīm K ;
+piḑīm+V+Ind+ConNeg+Pl3:piḑīm K ;
+piḑīm+V+Cond+Sg1:piḑīks K ;
+piḑīm+V+Cond+Sg2:piḑīks K ;
+piḑīm+V+Cond+Sg3:piḑīks K ;
+piḑīm+V+Cond+Pl1:piḑīks K ;
+piḑīm+V+Cond+Pl2:piḑīks K ;
+piḑīm+V+Cond+Pl3:piḑīks K ;
+piḑīm+V+Cond+ConNeg+Sg:piḑīks K ;
+piḑīm+V+Cond+ConNeg+Pl1:piḑīks K ;
+piḑīm+V+Cond+ConNeg+Pl2:piḑīks K ;
+piḑīm+V+Cond+ConNeg+Pl3:piḑīks K ;
 
+sä+V+Aux+Imprt+Sg2:sä K ;
+sä+V+Aux+Imprt+Pl2:sägīd K ;
 
 !! The verb lǟdõ has irregular forms:
 !!€ lekš:
@@ -52,7 +90,14 @@ vȱlda+V+Ind+Prs+Pl3:āt     K       ;
 vȱlda+V:vȯʼļ     INDPRTSG3-STEM_tõ   ;
 vȱlda+V:ūo        INDPRSPL2_tõ   ;
 
-
+!! ### PRONOUNS
+se+Pron+Dem+Pl+Nom:ne K ;
+se+Pron+Dem+Pl+Gen:nänt K ;
+se+Pron+Dem+Pl+Dat:näntõn K ;
+se+Pron+Dem+Pl+Ins:näntkõks K ;
+se+Pron+Dem+Pl+Par:nēḑi K ;
+se+Pron+Dem+Pl+Ill:nēʼži K ; 
+se+Pron+Dem:nē PL-ELA/INE_šti ; 
 
 !! ### PROPER NOUNS
 Pētõr:Pētõr PROP_ "" ;
