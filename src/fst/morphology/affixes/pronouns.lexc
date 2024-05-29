@@ -24,124 +24,142 @@ LEXICON PRON_MIS !!= @CODE@ mis:mi 1
 
 
 LEXICON PRON_JEGĀ !!= @CODE@ jegā:jeʼgā 2
-:%^StodRM SG-DAT_n ;
-:%^StodRM SG-ELA_st ;
-:%^StodRM SG-GEN ;
-:%^ConsL SG-ILL_õ ;
-:%^StodRM SG-INS_ks ;
-:%^StodRM SG-NOM ;
-:%^StodRM SG-PAR_ZERO ;
+:%^StodRM%^CC2C SG-DAT_n ;
+:%^StodRM%^CC2C SG-ELA/INE_st ;
+:%^StodRM%^CC2C SG-GEN ;
+:%^VowsRM SG-ILL_õ ;
+:%^StodRM%^CC2C SG-INS_ks ;
+:%^StodRM%^CC2C SG-NOM ;
+:%^StodRM%^CC2C SG-PAR_ZERO ;
 
 
 LEXICON PRON_MŪ !!= @CODE@ mū:m 3
 :ū SG-DAT_n ;
-:ū SG-ELA_stõ ;
+:ū SG-ELA/INE_stõ ;
 :ū SG-GEN ;
 :ū SG-ILL_ʼzõ ;
 :ū SG-INS_kõks ;
 :ū SG-NOM ;
 :ū SG-PAR_dõ ;
-:ū PL-ELA_šti   ;
-+Pl+Gen:unt K ;
-+Pl+Ill:ū PL-ILL_ʼži   ;
-+Pl+Ins:untkõks K ;
-+Pl+Nom:unt K ;
-+Pl+Par:ūḑi K ;
+:ū PL-ELA/INE_šti   ;
+:unt PL-INS_ZEROKÕKS-STEM ;
+:ū PL-ILL_ʼži ;
+:ū PL-PAR_ḑi ;
 
 LEXICON PRON_SE !!= @CODE@ se:s 4
 +Dem:īe SG-DAT_n ;
-+Dem:īe SG-ELA_stõ ;
++Dem:īe SG-ELA/INE_stõ ;
 +Dem:īe SG-GEN ;
 +Dem+Sg+Ill:īʼezõ K ;
 +Dem:īe SG-INS_kõks ;
 +Dem:e SG-NOM ;
 +Dem:ie SG-PAR_dā ;
 
-LEXICON PRON_TÄMĀ !!= @CODE@ tämā:t 5
-+Dem:äʼm%{XC%} SG-DAT_õn ;
-+Dem:äʼm SG-ELA_stõ ;
-+Dem:äʼm SG-GEN ;
-+Dem:äʼm%{XC%} SG-ILL_õ ;
-+Dem:äʼm%{XC%} SG-ILL_õz ;
-+Dem:äʼm SG-INS_kõks ;
-+Dem:ämā SG-NOM ;
-+Dem:a SG-NOM ;
-+Dem:ǟn SG-PAR_da ;
+LEXICON PRON_TÄMĀ !!= @CODE@ tämā: 5
++Pers:täʼm%{XC%} SG-DAT_õn ;
++Pers:täʼm SG-ELA/INE_stõ ;
++Pers:täʼm SG-GEN ;
++Pers:täʼm%{XC%} SG-ILL_õ ;
++Pers:täʼm%{XC%} SG-ILL_õz ;
++Pers:täʼm SG-INS_kõks ;
++Pers:tämā SG-NOM ;
++Pers:ta SG-NOM ;
++Pers:tǟn SG-PAR_da ;
+PRON_NE ;
 
 LEXICON PRON_NE !!= @CODE@ ne:n 4 & 5
-+Dem+Pl+Dat:äntõn K ;
-+Dem:ē PL-ELA_šti  ;
-+Dem+Pl+Gen:änt K ;
-+Dem:ē PL-ILL_ʼži ;
-+Dem+Pl+Ins:äntkõks K ;
-+Dem+Pl+Nom:e K ;
-+Dem:ē PL-PAR_ḑi  ;
++Pers+Pl+Dat:näntõn K ;
++Pers:nē PL-ELA/INE_šti  ;
++Pers+Pl+Gen:nänt K ;
++Pers:nē PL-ILL_ʼži ;
++Pers+Pl+Ins:näntkõks K ;
++Pers+Pl+Nom:ne K ;
++Pers+Pl+Nom:nämād K ;
++Pers:nē PL-PAR_ḑi  ;
 
-LEXICON PRON_MINĀ !!= @CODE@ 6 minā:m
+LEXICON PRON_MINĀ !!= @CODE@ 6 ma:m
 +Pers+Sg1+Dat:iʼnnõn K ;
-+Pers+Sg1+Ela:iʼsntõ K ;
++Pers+Sg1+Ela:iʼnstõ K ;
 +Pers+Sg1+Gen:iʼn K ;
 +Pers+Sg1+Ill:iʼnnõ K ;
 +Pers+Sg1+Ill:iʼnnõz K ;
++Pers+Sg1+Ine:iʼnsõ K ;
 +Pers+Sg1+Ins:iʼnkõks K ;
 +Pers+Sg1+Nom:inā K ;
 +Pers+Sg1+Nom:a K ;
 +Pers+Sg1+Par:īnda K ;
+ PRON_MĒG ;
 
-LEXICON PRON_MĒG !!= @CODE@ mēg:m 6
+LEXICON PRON_MĒG !!= @CODE@ minā:m 6
 +Pers+Pl1+Dat:äʼddõn K ;
 +Pers+Pl1+Ela:ēšti K ;
 +Pers+Pl1+Gen:äʼd K ;
 +Pers+Pl1+Ill:ēʼži K ;
++Pers+Pl1+Ine:ēši K ;
 +Pers+Pl1+Ins:äʼdkõks K ;
 +Pers+Pl1+Nom:ēg K ;
 +Pers+Pl1+Par:ēḑi K ;
 
-LEXICON PRON_SINĀ !!= @CODE@ sinā:s 7
-+Pers+Sg2+Dat:iʼnnõn K ;
-+Pers+Sg2+Ela:iʼsntõ K ;
-+Pers+Sg2+Gen:iʼn K ;
-+Pers+Sg2+Ill:iʼnnõ K ;
-+Pers+Sg2+Ill:iʼnnõz K ;
-+Pers+Sg2+Ins:iʼnkõks K ;
-+Pers+Sg2+Nom:inā K ;
-+Pers+Sg2+Nom:a K ;
-+Pers+Sg2+Par:īnda K ;
+LEXICON PRON_SINĀ !!= @CODE@ sinā:0 7
++Pers+Sg2+Dat:siʼnnõn K ;
++Pers+Sg2+Ela:siʼnstõ K ;
++Pers+Sg2+Gen:siʼn K ;
++Pers+Sg2+Ill:siʼnnõ K ;
++Pers+Sg2+Ill:siʼnnõz K ;
++Pers+Sg2+Ine:siʼnsõ K ;
++Pers+Sg2+Ins:siʼnkõks K ;
++Pers+Sg2+Nom:sinā K ;
++Pers+Sg2+Nom:sa K ;
++Pers+Sg2+Par:sīnda K ;
+:t PRON_TĒG ;
 
 LEXICON PRON_TĒG !!= @CODE@ tēg:t 7
 +Pers+Pl2+Dat:äʼddõn K ;
 +Pers+Pl2+Ela:ēšti K ;
 +Pers+Pl2+Gen:äʼd K ;
 +Pers+Pl2+Ill:ēʼži K ;
++Pers+Pl2+Ine:ēši K ;
 +Pers+Pl2+Ins:äʼdkõks K ;
 +Pers+Pl2+Nom:ēg K ;
 +Pers+Pl2+Par:ēḑi K ;
 
 LEXICON PRON_KIS !!= @CODE@ kis:kī 8
-+Interr:e SG-DAT_n ;
-+Interr:nga SG-DAT_n ;
-+Interr:en SG-ELA_stõ ;
-+Interr:en SG-GEN ;
-+Interr:enga SG-GEN ;
-+Interr:en SG-ILL_õ ;
-+Interr:en SG-INS_kõks ;
-+Interr:nga SG-INS_ks ;
-+Interr:%^VowsRMis SG-NOM ;
-+Interr:en SG-PAR_ta ;
-+Interr:en SG-PAR_da ;
-+Interr:en PL-ELA_šti   ;
-+Interr:en PL-GEN_d ;
-+Interr:en PL-ILL_iž   ;
-+Interr:en PL-INS_dõks ;
-+Interr:en PL-PAR_di   ;
++Interr:īe SG-DAT_n ;
++Interr:īnga SG-DAT_n ;
++Interr:īen SG-ELA/INE_stõ ;
++Interr:īen SG-GEN ;
++Interr:īnga SG-GEN ;
++Interr:īen SG-ILL_õ ;
++Interr:īen SG-INS_kõks ;
++Interr:īnga SG-INS_ks ;
++Interr:is SG-NOM ;
++Interr:īen SG-PAR_ta ;
++Interr:īen SG-PAR_da ;
++Interr:īen PL-ELA/INE_šti   ;
++Interr:īen PL-ILL_iž   ;
++Interr:is PL-NOM ;
++Interr:īen PL-INS_DÕKS-STEM ;
++Interr:īen PL-PAR_di   ;
 
 
-LEXICON PRON_ĪʼŽ !!= @CODE@ 9
-: # ;
+LEXICON PRON_ĪʼŽ !!= @CODE@ 9 īʼž:0
++Sg+Nom:īʼž K ;
++Sg+Gen:eņtš K ;
++Sg+Dat:eņtšõn K ;
++Sg+Par:ēņtšta K ;
++Sg+Ins:eņtšõks K ;
++Sg+Ill:eņtšõ K ;
++Sg+Ill:eņtšõz K ;
+:eņtš SG-ELA/INE_õst ;
+:eņtš PL-INS_ÕDÕKS-STEM ;
++Pl+Par:eņtšidi K ;
++Pl+Ill:eņtšiz K ;
+:eņtš PL-ELA/INE_ist ;
+
 
 LEXICON PRON_MIDĀGÕD !!= @CODE@ midāgõd:midāg 10
 +Indef: SG-DAT_õn ;
-+Indef: SG-ELA_õst ;
++Indef: SG-ELA/INE_õst ;
 +Indef:õd SG-GEN ;
 +Indef: SG-ILL_õ ;
 +Indef:õ SG-ILL_z ;
@@ -149,13 +167,25 @@ LEXICON PRON_MIDĀGÕD !!= @CODE@ midāgõd:midāg 10
 +Indef:õd SG-NOM ;
 +Indef:õd SG-PAR_ZERO ;
 +Indef: PL-INS_ÕDÕKS-STEM ;
-+Indef:en PL-ELA/INE_ist   ;
-+Indef:en PL-ILL_iž   ;
-+Indef:en PL-PAR_idi   ;
++Indef: PL-ELA/INE_ist   ;
++Indef: PL-ILL_iž   ;
++Indef: PL-PAR_idi   ;
 
 
-LEXICON PRON_MITS !!= @CODE@ 11
-: # ;
+LEXICON PRON_MITS !!= @CODE@ 11 mits:mit
++Sg+Nom:s K ;
++Sg+Gen:s K ;
++Sg+Dat:mõn K ;
++Sg+Par:s K ;
++Sg+Ins:mõks K ;
++Sg+Ill:mõ K ;
++Sg+Ill:mõz K ;
+:m SG-ELA/INE_õst ;
+:m PL-INS_ÕDÕKS-STEM ;
++Pl+Par:midi K ;
++Pl+Ill:miž K ;
+:m PL-ELA/INE_ist ;
+
 
 !! Stem lexica
 LEXICON PRON_TUBĀ !!= @CODE@ tubā:tubā 19
