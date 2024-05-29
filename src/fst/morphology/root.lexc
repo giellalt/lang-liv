@@ -481,6 +481,7 @@ Multichar_Symbols
  {oö}  !!≈ * @CODE@ back/front o
  {uü} !!= * @CODE@ back/front u
  %{XC%} !! * @CODE@ for consonant lengthening
+ %{õØ%} !!= * @CODE@ in umblõ:umb%{õØ%}lõ
 
 !! And following triggers to control variation
  %^PenVV2V !!= * @CODE@ penultimate vowel shortening
@@ -526,6 +527,7 @@ Multichar_Symbols
  %^ConsRM	  !!≈ * **@CODE@** =
  %^StodRM         !!≈ * **@CODE@** = for removing Stød
  %^PalatalizeLeft !!≈ * **@CODE@** =
+ %^DePal 	   !! * @CODE@ 
  %^VowsL1aToǭ     !!≈ * **@CODE@** = a >> ǭ
 
 !! ## Flag diacritics
