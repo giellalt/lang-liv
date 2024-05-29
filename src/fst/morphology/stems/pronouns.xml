@@ -178,9 +178,9 @@
    </e>
    <e>
       <lg>
-         <l pos="Pron">īž 1</l>
+         <l pos="Pron">īž</l>
          <stg>
-            <st Contlex="PRON_ĪʼŽ">īʼž</st>
+            <st Contlex="PRON_ĪʼŽ">0</st>
          </stg>
          <orig>īʼž 1</orig>
       </lg>
@@ -248,7 +248,7 @@
       <lg>
          <l pos="Pron">jegā</l>
          <stg>
-            <st Contlex="PRON_JEGĀ">jegā</st>
+            <st Contlex="PRON_JEGĀ">jeʼggā</st>
          </stg>
          <orig>jegā</orig>
       </lg>
@@ -286,9 +286,9 @@
    </e>
    <e>
       <lg>
-         <l pos="Pron">jegā|ikš</l>
+         <l pos="Pron">jegāikš</l>
          <stg>
-            <st Contlex="PRON_ĪKŠ">jegā|ikš</st>
+            <st Contlex="PRON_ĪKŠ">jegā#ikš</st>
          </stg>
          <orig>jegā|ikš</orig>
       </lg>
@@ -317,7 +317,7 @@
       <lg>
          <l pos="Pron">kis</l>
          <stg>
-            <st Contlex="PRON_KIS">kī</st>
+            <st Contlex="PRON_KIS">k</st>
          </stg>
          <orig>kis</orig>
       </lg>
@@ -398,7 +398,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">ma</l>
          <stg>
@@ -423,7 +423,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e exclude="fst">
       <lg>
          <l pos="Pron">mēg</l>
          <stg>
@@ -564,7 +564,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e exclude="fst">
       <lg>
          <l pos="Pron">minā</l>
          <stg>
@@ -579,7 +579,7 @@
             <semRel>= ma</semRel>
          </m>
          <tg xml:lang="eng">
-            <t pos="Pron">YY</t>
+            <t pos="Pron">I</t>
          </tg>
          <tg xml:lang="est">
             <t pos="Pron">mina</t>
@@ -778,7 +778,7 @@
       <lg>
          <l pos="Pron">mits</l>
          <stg>
-            <st Contlex="PRON_MITS">mits</st>
+            <st Contlex="PRON_MITS">mit</st>
          </stg>
          <orig>mits 1</orig>
       </lg>
@@ -1056,11 +1056,11 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">sa</l>
          <stg>
-            <st Contlex="PRON_SINĀ">sa</st>
+            <st Contlex="PRON_SINĀ">0</st>
          </stg>
          <orig>sa</orig>
       </lg>
@@ -1281,7 +1281,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e exclude="fst">
       <lg>
          <l pos="Pron">sinā</l>
          <stg>
@@ -1307,11 +1307,11 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">ta</l>
          <stg>
-            <st Contlex="PRON_TÄMĀ">ta</st>
+            <st Contlex="PRON_TÄMĀ">0</st>
          </stg>
          <orig>ta</orig>
       </lg>
@@ -1373,7 +1373,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+   <e exclude="fst">
       <lg>
          <l pos="Pron">tēg</l>
          <stg>
