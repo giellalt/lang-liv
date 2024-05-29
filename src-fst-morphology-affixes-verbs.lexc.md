@@ -726,12 +726,51 @@ Prt
 Cond
 
 57
+īedõ:īʼedõ
 **LEXICON V-01_ĪʼEDÕ =  This is mutual for 49-50, 52-57
 Prt
 +Act+PrfPrc
 Cond
 
+58
+umblõ:umbõlõ
 **LEXICON V-01_UMBLÕ = This is mutual for 58-61: 
+umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+59
+mõtlõ:umbõlõ
+**LEXICON V-01_MÕTLÕ = This is mutual for 58-61: 
+umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+60
+mǟʼdlõ:mǟʼdõlõ
+**LEXICON V-01_MǞʼDLÕ = This is mutual for 58-61: 
+umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+61
+naʼgrõ:naʼgõrõ
+**LEXICON V-01_NAʼGRÕ = This is mutual for 58-61: 
 umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
 Prt
 Imprt

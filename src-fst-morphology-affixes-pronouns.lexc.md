@@ -12,25 +12,25 @@ LEXICON PRON_MŪ  mū:m 3
 
 LEXICON PRON_SE  se:s 4
 
-LEXICON PRON_TÄMĀ  tämā:t 5
+LEXICON PRON_TÄMĀ  tämā: 5
 
 LEXICON PRON_NE  ne:n 4 & 5
 
-LEXICON PRON_MINĀ  6 minā:m
+LEXICON PRON_MINĀ  6 ma:m
 
-LEXICON PRON_MĒG  mēg:m 6
+LEXICON PRON_MĒG  minā:m 6
 
-LEXICON PRON_SINĀ  sinā:s 7
+LEXICON PRON_SINĀ  sinā:0 7
 
 LEXICON PRON_TĒG  tēg:t 7
 
 LEXICON PRON_KIS  kis:kī 8
 
-LEXICON PRON_ĪʼŽ  9
+LEXICON PRON_ĪʼŽ  9 īʼž:0
 
 LEXICON PRON_MIDĀGÕD  midāgõd:midāg 10
 
-LEXICON PRON_MITS  11
+LEXICON PRON_MITS  11 mits:mit
 
 Stem lexica
 LEXICON PRON_TUBĀ  tubā:tubā 19

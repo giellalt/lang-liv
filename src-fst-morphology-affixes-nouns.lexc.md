@@ -661,7 +661,7 @@ Stød: Yes
 * **SG-ILL_zõ ;** 2014.12.12 Stød loss problem,
 		    	should be tīʼezõ
 
-tēšti
+tiēšti
 
 16
 Stem change: None

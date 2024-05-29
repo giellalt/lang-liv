@@ -1124,7 +1124,7 @@ Stød: Yes
 * **SG-ILL_zõ ;** 2014.12.12 Stød loss problem,
 		    	should be tīʼezõ
 
-tēšti
+tiēšti
 
 16
 Stem change: None
@@ -2313,25 +2313,25 @@ LEXICON PRON_MŪ  mū:m 3
 
 LEXICON PRON_SE  se:s 4
 
-LEXICON PRON_TÄMĀ  tämā:t 5
+LEXICON PRON_TÄMĀ  tämā: 5
 
 LEXICON PRON_NE  ne:n 4 & 5
 
-LEXICON PRON_MINĀ  6 minā:m
+LEXICON PRON_MINĀ  6 ma:m
 
-LEXICON PRON_MĒG  mēg:m 6
+LEXICON PRON_MĒG  minā:m 6
 
-LEXICON PRON_SINĀ  sinā:s 7
+LEXICON PRON_SINĀ  sinā:0 7
 
 LEXICON PRON_TĒG  tēg:t 7
 
 LEXICON PRON_KIS  kis:kī 8
 
-LEXICON PRON_ĪʼŽ  9
+LEXICON PRON_ĪʼŽ  9 īʼž:0
 
 LEXICON PRON_MIDĀGÕD  midāgõd:midāg 10
 
-LEXICON PRON_MITS  11
+LEXICON PRON_MITS  11 mits:mit
 
 Stem lexica
 LEXICON PRON_TUBĀ  tubā:tubā 19
@@ -3266,12 +3266,51 @@ Prt
 Cond
 
 57
+īedõ:īʼedõ
 **LEXICON V-01_ĪʼEDÕ =  This is mutual for 49-50, 52-57
 Prt
 +Act+PrfPrc
 Cond
 
+58
+umblõ:umbõlõ
 **LEXICON V-01_UMBLÕ = This is mutual for 58-61: 
+umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+59
+mõtlõ:umbõlõ
+**LEXICON V-01_MÕTLÕ = This is mutual for 58-61: 
+umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+60
+mǟʼdlõ:mǟʼdõlõ
+**LEXICON V-01_MǞʼDLÕ = This is mutual for 58-61: 
+umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+61
+naʼgrõ:naʼgõrõ
+**LEXICON V-01_NAʼGRÕ = This is mutual for 58-61: 
 umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
 Prt
 Imprt
@@ -3417,6 +3456,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %{XC%}:m %{XC%}:n %{XC%}:ņ		      
 * %{XC%}:r %{XC%}:ŗ				      
 * %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž   
+* %{õØ%}:õ  in umblõ:umb%{õØ%}lõ
 
 ###  Triggers
 
@@ -3468,6 +3508,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %^VowsRM:0   
 * %^ConsRM:0   
 * %^ConsRM:0   laps:läpš
+* %^ConsRM:0   
 * %^VowsL1aToǭ:0   
 * %^VowsL1aToǭ:0   kīndõr:kīndiriž
 * %^VowsL1aToǭ:0   Hyphen in  constructions 
@@ -3487,7 +3528,10 @@ They must be escaped (cf morpheme boundaries further down):
 * Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
 * Letters = Vow Cns ; 
-* Dummy = %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
+* Dummy = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
+  %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
+
+* DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^VV2V %^U2ZERO 
   %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 # Rule section
@@ -3695,6 +3739,8 @@ kēļ+N+Sg+Nom
 * *kīel%^ĪE2Ē%^PalatalizeLeft*
 * *kē0l00*
 
+**Rule: {õØ}:0**
+
 **Rule: õ:0**
 
 * kittõ%^ConsSh%^VowsRM%>dõd examples:*
@@ -3760,6 +3806,8 @@ kēļ+N+Sg+Nom
 
 **Rule: l:0**
 
+**Rule: m:0**
+
 **Rule: z:0**
 * *rik0āz%^Stress2to1%^ConsRM*
 
@@ -3818,6 +3866,8 @@ aʼb#sõʼnā+N+Sg+Nom:
 
 **Rule: d:ḑ**
 lēʼḑ:līʼed 147
+
+**Rule: ļ:l**
 
 **Rule: l:ļ**
 This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
@@ -4239,6 +4289,7 @@ symbols in the lexicon files:
 * {oö} back/front o
 *  {uü}  back/front u
 *  {uü}  for consonant lengthening
+*  %{õØ%}  in umblõ:umb%{õØ%}lõ
 
 And following triggers to control variation
 *  %^PenVV2V  penultimate vowel shortening
@@ -4283,6 +4334,7 @@ accompanied by coda consonant lengthening
 * **%^ConsRM** =
 * **%^StodRM** = for removing Stød
 * **%^PalatalizeLeft** =
+* %^PalatalizeLeft 
 * **%^VowsL1aToǭ** = a >> ǭ
 
 ## Flag diacritics
@@ -4418,10 +4470,10 @@ one or few words than an exception since these will not work nicely with e.g.
 compounding scheme or possibly many end applications.
 
 the verbs of negation have partial inflection:
-* *äʼb:* `äb+V+Neg+Act+Ind+Prs+Sg1`
-* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl2`
-* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl3`
-* *aʼlgid:* `äb+V+Neg+Act+Imprt+Pl2`
+* *äʼb:* `äb+V+Aux+Neg+Ind+Prs+Sg1`
+* *iʼzt:* `äb+V+Aux+Neg+Ind+Prt+Pl2`
+* *iʼzt:* `äb+V+Aux+Neg+Ind+Prt+Pl3`
+* *aʼlgid:* `äb+V+Aux+Neg+Imprt+Pl2`
 
 Some verbs only have few word-forms left:
 * *piḑīm:*
@@ -4434,6 +4486,8 @@ The verb lǟdõ has irregular forms:
 The verb vȱlda has irregular forms:
 * *uʼm:*
 * *ūo:*
+
+### PRONOUNS
 
 ### PROPER NOUNS
 

@@ -312,6 +312,7 @@ symbols in the lexicon files:
 * {oö} back/front o
 *  {uü}  back/front u
 *  {uü}  for consonant lengthening
+*  %{õØ%}  in umblõ:umb%{õØ%}lõ
 
 And following triggers to control variation
 *  %^PenVV2V  penultimate vowel shortening
@@ -356,6 +357,7 @@ accompanied by coda consonant lengthening
 * **%^ConsRM** =
 * **%^StodRM** = for removing Stød
 * **%^PalatalizeLeft** =
+* %^PalatalizeLeft 
 * **%^VowsL1aToǭ** = a >> ǭ
 
 ## Flag diacritics

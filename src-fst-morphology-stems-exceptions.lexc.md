@@ -6,10 +6,10 @@ one or few words than an exception since these will not work nicely with e.g.
 compounding scheme or possibly many end applications.
 
 the verbs of negation have partial inflection:
-* *äʼb:* `äb+V+Neg+Act+Ind+Prs+Sg1`
-* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl2`
-* *iʼzt:* `äb+V+Neg+Act+Ind+Prt+Pl3`
-* *aʼlgid:* `äb+V+Neg+Act+Imprt+Pl2`
+* *äʼb:* `äb+V+Aux+Neg+Ind+Prs+Sg1`
+* *iʼzt:* `äb+V+Aux+Neg+Ind+Prt+Pl2`
+* *iʼzt:* `äb+V+Aux+Neg+Ind+Prt+Pl3`
+* *aʼlgid:* `äb+V+Aux+Neg+Imprt+Pl2`
 
 Some verbs only have few word-forms left:
 * *piḑīm:*
@@ -22,6 +22,8 @@ The verb lǟdõ has irregular forms:
 The verb vȱlda has irregular forms:
 * *uʼm:*
 * *ūo:*
+
+### PRONOUNS
 
 ### PROPER NOUNS
 

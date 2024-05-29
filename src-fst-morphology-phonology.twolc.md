@@ -33,6 +33,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %{XC%}:m %{XC%}:n %{XC%}:ņ		      
 * %{XC%}:r %{XC%}:ŗ				      
 * %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž   
+* %{õØ%}:õ  in umblõ:umb%{õØ%}lõ
 
 ###  Triggers
 
@@ -84,6 +85,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %^VowsRM:0   
 * %^ConsRM:0   
 * %^ConsRM:0   laps:läpš
+* %^ConsRM:0   
 * %^VowsL1aToǭ:0   
 * %^VowsL1aToǭ:0   kīndõr:kīndiriž
 * %^VowsL1aToǭ:0   Hyphen in  constructions 
@@ -103,7 +105,10 @@ They must be escaped (cf morpheme boundaries further down):
 * Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 
   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
 * Letters = Vow Cns ; 
-* Dummy = %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
+* Dummy = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
+  %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
+
+* DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^VV2V %^U2ZERO 
   %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 # Rule section
@@ -311,6 +316,8 @@ kēļ+N+Sg+Nom
 * *kīel%^ĪE2Ē%^PalatalizeLeft*
 * *kē0l00*
 
+**Rule: {õØ}:0**
+
 **Rule: õ:0**
 
 * kittõ%^ConsSh%^VowsRM%>dõd examples:*
@@ -376,6 +383,8 @@ kēļ+N+Sg+Nom
 
 **Rule: l:0**
 
+**Rule: m:0**
+
 **Rule: z:0**
 * *rik0āz%^Stress2to1%^ConsRM*
 
@@ -434,6 +443,8 @@ aʼb#sõʼnā+N+Sg+Nom:
 
 **Rule: d:ḑ**
 lēʼḑ:līʼed 147
+
+**Rule: ļ:l**
 
 **Rule: l:ļ**
 This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
