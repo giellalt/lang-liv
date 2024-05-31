@@ -65,8 +65,8 @@ PROBLEMS with dictionary lexica
 
 * **LEXICON N_AŽĀ** ažā:aʼžā 26
 
-* **LEXICON N_AŽĀ-SG** ažā:aʼžā 26
-* **LEXICON N_AŽĀ-PL** ažā:aʼžā 26
+* **LEXICON N_AŽĀ-SG** ažā:aʼžžā 26
+* **LEXICON N_AŽĀ-PL** ažā:aʼžžā 26
 
 * **LEXICON N_ĀĻDŽA** āļdža:āļdža 27
 
@@ -742,7 +742,7 @@ Stød: Yes
 
 Stem change: Yes
 
-* **LEXICON NMN_AŽĀ-SG** ažā:aʼžā 26
+* **LEXICON NMN_AŽĀ-SG** ažā:aʼžžā 26
 
 * **LEXICON NMN_AŽĀ-PL** ažā:aʼžā 26
 
@@ -821,12 +821,12 @@ Stem change: Yes (Vowel)
 * **LEXICON NMN_ĀINA-PL** āina:āina 36
 
 37
-* **LEXICON NMN_VĒNA** vēna:veina
+* **LEXICON NMN_VĒNA** vēna:vēina
 * Yaml: **N-veena**
 Stem change: Yes (Vowel)
 
 38
-* **LEXICON NMN_RŌDA** rōda:rouda
+* **LEXICON NMN_RŌDA** rōda:rōuda
 Stem change: Yes (Vowel)
 
 39, 40, 41, 42

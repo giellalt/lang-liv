@@ -528,8 +528,8 @@ PROBLEMS with dictionary lexica
 
 * **LEXICON N_AŽĀ** ažā:aʼžā 26
 
-* **LEXICON N_AŽĀ-SG** ažā:aʼžā 26
-* **LEXICON N_AŽĀ-PL** ažā:aʼžā 26
+* **LEXICON N_AŽĀ-SG** ažā:aʼžžā 26
+* **LEXICON N_AŽĀ-PL** ažā:aʼžžā 26
 
 * **LEXICON N_ĀĻDŽA** āļdža:āļdža 27
 
@@ -1205,7 +1205,7 @@ Stød: Yes
 
 Stem change: Yes
 
-* **LEXICON NMN_AŽĀ-SG** ažā:aʼžā 26
+* **LEXICON NMN_AŽĀ-SG** ažā:aʼžžā 26
 
 * **LEXICON NMN_AŽĀ-PL** ažā:aʼžā 26
 
@@ -1284,12 +1284,12 @@ Stem change: Yes (Vowel)
 * **LEXICON NMN_ĀINA-PL** āina:āina 36
 
 37
-* **LEXICON NMN_VĒNA** vēna:veina
+* **LEXICON NMN_VĒNA** vēna:vēina
 * Yaml: **N-veena**
 Stem change: Yes (Vowel)
 
 38
-* **LEXICON NMN_RŌDA** rōda:rouda
+* **LEXICON NMN_RŌDA** rōda:rōuda
 Stem change: Yes (Vowel)
 
 39, 40, 41, 42
@@ -3529,10 +3529,10 @@ They must be escaped (cf morpheme boundaries further down):
   B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ; 
 * Letters = Vow Cns ; 
 * Dummy = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
-  %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
+  %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 * DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^VV2V %^U2ZERO 
-  %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
+  %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 # Rule section
 
@@ -3903,7 +3903,7 @@ sēņ:sēn 220
 **Rule: r:ŗ**
 jūŗ:jūr 221
 
-* ǟrga%^VV2V%^PalatalizeLeft%^VowsRMi examples:*
+* ǟrga^VV2V^VOWRaise^PalatalizeLeft^VowsRMi examples:*
 
 * eŗg0000i examples:*
 
