@@ -117,10 +117,10 @@ Cns = b c č d ḑ f g ģ h j k ķ l ļ m n ņ p q r ŗ s š t ț v z ž 	   !!�
       B C Č D Ḑ F G Ģ H J K Ķ L Ļ M N Ņ P Q R Ŗ S Š T Ț V Z Ž ;	   !!≈   @CODE@ 
 Letters = Vow Cns ;												   !!≈ * @CODE@ 
 Dummy = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO   !!≈ * @CODE@ 
-  %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ;  !!≈   @CODE@ 
+  %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ;  !!≈   @CODE@ 
 
 DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^VV2V %^U2ZERO   !!≈ * @CODE@ 
-  %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ;  !!≈   @CODE@ 
+  %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ;  !!≈   @CODE@ 
 
 !Definitions
 !
@@ -425,7 +425,7 @@ a:0 <=>   _ Dummy:* %^VowsRM: \[ %^PalatalizeLeft: ]* [ # | %> ] ;
 
 "i:0 in first syllable"
 !! **Rule: @RULENAME@**
-i:0 <=> # Cns:* [ ē ] _ Cns:+ ( Vow: ) %^U2ZERO:0 ;
+i:0 <=> # Cns:* [ ē | ǭ ] _ Cns:+ ( Vow: ) %^U2ZERO:0 ;
 # Cns* [ e: | ȯ: (:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ;
 !  # Cns* [ e: | ȯ: (0:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ; 
 !!€# leiba%^VowsLI1%>st
@@ -437,7 +437,7 @@ i:0 <=> # Cns:* [ ē ] _ Cns:+ ( Vow: ) %^U2ZERO:0 ;
          Vow: _ j Vow: %^ConsSh: ;
 !!€# lǭija%^ConsSh
 !!€0 lǭ0ja0
-       # Cns*  _ e Cns:+ (Vow: ) %^VV2V:  ;
+       # Cns*  _ e (ʼ:) Cns:+ (Vow: ) %^VV2V:  ;
 !!€# liestā%^VowShIn1%^PalatalizeLeft%^VowsRM%>i
 !!€0 l0ešt00000i
        # Cns* Vow: _ s: k Vow: %^ConsSh: ;
@@ -480,8 +480,8 @@ o:0 <=> # [p|b|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V
 "shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb"
 !! **Rule: @RULENAME@**
  Cx:0 <=> 
-# Cns* Vow:+ ( ʼ: ) Cx _ Vow: Dummy:* [%^ConsSh:0|%^CC2C:]  ;
-          where Cx in ( b j ļ m n ņ r ŗ v ž ) ;
+# Cns* Vow:+ ( ʼ: ) Cx _ Vow: [%^VOWLower:|%^VV2V:|%^U2ZERO:|%^StodRM:|%^VV2V:]* [%^ConsSh:0|%^CC2C:] \[ %^DePal: ]* [.#. | %> ] ;
+          where Cx in ( b j ļ n ņ r ŗ v ž ) ;
 !!€# aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži
 !!€0 äʼm000000ži
 
@@ -502,11 +502,12 @@ o:0 <=> # [p|b|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V
 !! **Rule: @RULENAME@**
  m:0 <=>
     m _ %{õØ%}: [l|ļ|r|n] Vow: %^Pen: %^ConsRM: ;
-    
+  # Cns* Vow:+ ( ʼ: ) m _ Vow: Dummy:* [%^ConsSh:0|%^CC2C:]  ;
+
 "z:0"
 !! **Rule: @RULENAME@**
  z:0 <=>
-# Cns* Vow ( ʼ: ) z _ Vow: ( %^StodRM:0 ) %^ConsSh:0  ;
+# Cns* Vow:+ ( ʼ: ) z: _ Vow: (%^VV2V:) ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:] ;
   _ (%^Stress2to1:) (%^StodRM:) (%^VowsRM:) %^ConsRM: ;
   z _ %{õØ%}: [l|ļ|r|n] Vow: %^Pen: %^ConsRM: ;
 !!€  rik0āz%^Stress2to1%^ConsRM
@@ -598,7 +599,8 @@ o:0 <=> # [p|b|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V
 
 "z:ž"
 !! **Rule: @RULENAME@**
- z:ž <=> _ (Vow:0|t) %^PalatalizeLeft:0 ; !! 
+ z:ž <=> Vow: _ (Vow:0|t) %^PalatalizeLeft:0 ; !!
+   _ z: Vow: (%^VV2V:) (%^CC2C:) %^PalatalizeLeft: ;
 !!€# alīz%^PalatalizeLeft%>i
 !!€0 alīž00i
 !!€# izā%^PalatalizeLeft%^VowsRM%>ḑi
@@ -607,7 +609,7 @@ o:0 <=> # [p|b|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V
 "d:ḑ"
 !! **Rule: @RULENAME@**
 d:ḑ <=>
-      Vow: _ (%^ĪE2Ē:) (%^StodRM:) %^PalatalizeLeft:0 ; !! lēʼḑ:līʼed 147
+      Vow: _ (%^ĪE2Ē:) (%^StodRM:|%^VV2V:) %^PalatalizeLeft:0 ; !! lēʼḑ:līʼed 147
 
 "ļ:l"
 !! **Rule: @RULENAME@**
@@ -616,7 +618,7 @@ d:ḑ <=>
 "l:ļ"
 !! **Rule: @RULENAME@**
 l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
-        _ m Vow: (%^Stress1to2:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
+        _ m Vow: (%^Stress1to2:|%^VV2V:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
         _ ( g |%{XC%}: ) (%^VowsLI1:|%^VV2V:) (%^StodRM:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) ( %^ConsRM:0 ) [ # | %> ] ;!kiļg:kilg
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 	_ (%^ĪE2Ē:) (%^StodRM:) %^PalatalizeLeft:0 ; !! kēļ:kēl 215
@@ -643,9 +645,9 @@ n:ņ <=> _ ( Vow: ) (%^VowsSh1:|%^VV2V:| %^VV2V:) %^PalatalizeLeft:0 ( %^VowsRM:
 
 "r:ŗ"
 !! **Rule: @RULENAME@**
-r:ŗ <=> _ (%^VOWRaise:) %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
-       _ [g|m] ( Vow: ) ( %^VV2V: ) %^PalatalizeLeft: ;
-!!€# ǟrga%^VV2V%^PalatalizeLeft%^VowsRMi
+r:ŗ <=> _ (%^VV2V:) (%^VOWRaise:) %^PalatalizeLeft:0 ; !! jūŗ:jūr 221
+       _ [g|m] ( Vow: ) ( %^VV2V: ) (%^VOWRaise:) %^PalatalizeLeft: ;
+!!€# ǟrga^VV2V^VOWRaise^PalatalizeLeft^VowsRMi
 !!€0 eŗg0000i
 
 
