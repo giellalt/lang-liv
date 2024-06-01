@@ -184,6 +184,9 @@ They must be escaped (cf morpheme boundaries further down):
 * mõuk0000õ examples:*
 
 **Rule: ō:o in first syllable**
+rōda+N+Pl+Par
+* *rōuda^VV2V^PalatalizeLeft^VowsRM>i*
+* *rouḑ0000>i*
 
 lengthen vowels
 
@@ -296,10 +299,11 @@ VOWEL LOSS
 * s0e0i examples:*
 
 **Rule: a:0**
-
-* jǭr0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
-
-* jarr0000õ examples:*
+rōda+N+Pl+Par
+* *rōuda^VV2V^PalatalizeLeft^VowsRM>i*
+* *rouḑ0000>i*
+* *jǭrra^VV2V^VowsRM>õ*
+* *jarr000>õ*
 
 * pūol0a%^Stress1to2%^ConsL%^VowsRMõ examples:*
 
@@ -443,6 +447,9 @@ aʼb#sõʼnā+N+Sg+Nom:
 
 **Rule: d:ḑ**
 lēʼḑ:līʼed 147
+rōda+N+Pl+Par
+* *rōuda^VV2V^PalatalizeLeft^VowsRM>i*
+* *rouḑ0000>i*
 
 **Rule: ļ:l**
 
@@ -517,6 +524,8 @@ nominative plural
 * rikkā%^ConsSh%^Vow2Iin2di examples:*
 
 * rik0ī00di examples:*
+
+**Rule: š:0**
 
 **Rule: ț:0**
 

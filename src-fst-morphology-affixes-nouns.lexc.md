@@ -837,7 +837,7 @@ Stød: Yes
 40
 
 41
-* **LEXICON NMN_KÄPĀ** käpā:käpā
+* **LEXICON NMN_KÄPĀ** käpā:käppā
 
 42
 
@@ -846,10 +846,10 @@ Stød: Yes
 44 
 
 45
-* **LEXICON NMN_PŪOLA** pūola:pūola 45
+* **LEXICON NMN_PŪOLA** pūola:pūolla 45
 * **LEXICON NMN_PŪOLA-SG** pūola:pūola 45
 
-* **LEXICON NMN_PŪOLA-PL** pūola:pūola 45
+* **LEXICON NMN_PŪOLA-PL** pūola:pūolla 45
 
 46
 
@@ -874,8 +874,8 @@ Stød: None
 
 * **LEXICON NMN_DADŽĀ-PL** dadžā:daʼdžā 49
 
-* **LEXICON NMN_SUŠĀ** sušā:sušā 50
-* **LEXICON NMN_SUŠĀ-SG** sušā:sušā 50
+* **LEXICON NMN_SUŠĀ** sušā:suššā 50
+* **LEXICON NMN_SUŠĀ-SG** sušā:suššā 50
 * **LEXICON NMN_SUŠĀ-PL** sušā:sušā 50
 
 * **LEXICON NMN_KUPŠĀ** kupšā:kupšā 51
@@ -891,7 +891,7 @@ Stød: None
 
 * **LEXICON NMN_SĒMḐA-PL** sēmḑa:sēmḑa 53
 
-* **LEXICON NMN_TĪERA** tīera:tīer 54
+* **LEXICON NMN_TĪERA** tīera:tīerra 54
 Stem	    change:	 Yes
 Stød: None
 Sg Nom=Gen: Yes
@@ -921,10 +921,11 @@ Stød: None
 * **LEXICON NMN_NĒTŠA-PL** nētša:nētša 58
 
 59
+kiv:kiʼvv
 
 60
 
-* **LEXICON NMN_KEP-SG** kep:kep aʼb 61
+* **LEXICON NMN_KEP-SG** kep:kepp aʼb 61
 
 * **LEXICON NMN_KEP-PL** kep:kep aʼb 61
 
@@ -932,14 +933,14 @@ Stød: None
 * **LEXICON NMN_KRUȚK-SG** : 62
 * **LEXICON NMN_KRUȚK-PL** : 62
 
-* **LEXICON NMN_KRÄMP** : 63
+* **LEXICON NMN_KRÄMP** : 63 krämp:krǟmp
 * **LEXICON NMN_KRÄMP-SG** : 63
 * **LEXICON NMN_KRÄMP-PL** : 63
 
-* **LEXICON NMN_PIʼŅ** piʼņ:piņ 64
-* **LEXICON NMN_PIʼŅ-SG** piʼņ:piņ 64
+* **LEXICON NMN_PIʼŅ** piʼņ:piņņ 64
+* **LEXICON NMN_PIʼŅ-SG** piʼņ:piņņ 64
 
-* **LEXICON NMN_PIʼŅ-PL** piʼņ:piņ 64
+* **LEXICON NMN_PIʼŅ-PL** piņ:piʼņņ 64
 
 * **LEXICON NMN_KUOȚ** : 65
 * **LEXICON NMN_KUOȚ-SG** : 65

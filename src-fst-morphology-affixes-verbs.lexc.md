@@ -709,6 +709,7 @@ Prt
 Cond
 
 **LEXICON V-01_ÄʼBȚÕ =  This is mutual for 49-50, 52-57
+
 Prt
 +Act+PrfPrc
 Cond
