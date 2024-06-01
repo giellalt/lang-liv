@@ -1540,18 +1540,18 @@ LEXICON	V-01_VAKȚÕ !!= @CODE@ luʼggõ:luʼggõ 29
  GER_s   ;
  INF_ZERO	  ;
  SUP-STEM_m	  ; 
-:%^StodRM%^CC2C%^VowsRM%>ū INDPRSSG1-STEM    ;
-:%^CC2C%^VowsRM INDCONNEGSG    ;
+:%^VowsRM%>ū INDPRSSG1-STEM    ;
+:%^VowsRM INDCONNEGSG    ;
 !! Prt
-:%^StodRM%^CC2C%^VowsRM%>ī INDPRT_zt/ztõ    ;
+:%^VowsRM%>ī INDPRT_zt/ztõ    ;
 ! Cond
  COND ;
 !! ImprtI
-:%^CC2C%^VowsRM 	IMPRTSG2/IMPRTCONNEGSG2    ;
+:%^VowsRM 	IMPRTSG2/IMPRTCONNEGSG2    ;
 :%^Stress2to1 IMPRTPL1	;
 : IMPRTPL2	;
  IMPRTCONNEGPL2_gid   ;
-:%^CC2C%^VowsRM IMPRTCONNEG ;
+:%^VowsRM IMPRTCONNEG ;
 
 !+Imprt+Pl2:%^Stress2to1%>gid	K    ;
 !! Jus
@@ -1562,8 +1562,8 @@ LEXICON	V-01_VAKȚÕ !!= @CODE@ luʼggõ:luʼggõ 29
 !! participles
  ACTPRSPRC ;
  ACTPRFPRC_n ;
-:%^CC2C PSSPRSPRC_b ;
-:%^CC2C	PSSPRFPRCSG_d    ;
+: PSSPRSPRC_b ;
+:	PSSPRFPRCSG_d    ;
 
 !! 32
 LEXICON	V-01_KITTÕ !!= @CODE@ kittõ:kittõ 32
@@ -2256,15 +2256,15 @@ LEXICON V-01_ÄʼBȚÕ
  INF_ZERO         ;
  SUP-STEM_m       ;
 : INDPRSSG1-STEM    ;
-:%^CC2C%^VowsRM       INDCONNEGSG    ;
-!:%^CC2C       INDCONNEGSG    ;
+:%^VowsRM       INDCONNEGSG    ;
+
 !! Prt
 :%^VowsRM%>i INDPRT_zt/ztõ    ;
 !! +Act+PrfPrc
  ACTPRFPRC_n ;
 !! Cond
  COND ;
-:%^CC2C%^VowsRM IMPRTSG2/IMPRTCONNEGSG2 ;
+:%^VowsRM IMPRTSG2/IMPRTCONNEGSG2 ;
  IMPRT-ELSE ;
  IMPRTCONNEGPL2_gid ;
  JUS_g ;
