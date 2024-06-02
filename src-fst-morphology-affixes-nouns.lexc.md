@@ -1158,7 +1158,7 @@ Stød: None
 * **LEXICON NMN_KIĻG-PL** : 110
 
 * **LEXICON NMN_VȮĻG** : 111
-* **LEXICON NMN_VȮĻG-SG** : 111
+* **LEXICON NMN_VȮĻG-SG** : 111 vȯļg:vȱlg
 * **LEXICON NMN_VȮĻG-PL** : 111
 
 * **LEXICON NMN_TÄUŽ** täuž: adres 112
@@ -1167,16 +1167,16 @@ Stød: None
 
 * **LEXICON NMN_TÄUŽ-PL** : 116
 
-* **LEXICON NMN_VAŖŽ** : 113
+* **LEXICON NMN_VAŖŽ** : 113 varž:vārd
 * **LEXICON NMN_VAŖŽ-SG** : 113
 * **LEXICON NMN_VAŖŽ-PL** : 113
 
-* **LEXICON NMN_PIERZ** : 114
+* **LEXICON NMN_PIERZ** : 114 pierz:pīerz
 * **LEXICON NMN_PIERZ-SG** : 114
 * **LEXICON NMN_PIERZ-PL** : 114
 
 * **LEXICON NMN_VÕRGÕ** : 115
-* **LEXICON NMN_VÕRGÕ-SG** : 115
+* **LEXICON NMN_VÕRGÕ-SG** : 115 võrgõ:vȭrgõ
 * **LEXICON NMN_VÕRGÕ-PL** : 115
 
 * **LEXICON NMN_JÕUGÕ-SG** : 116
@@ -1208,7 +1208,7 @@ Stød: None
 
 * **LEXICON NMN_DRŪʼOŠÕ-PL** drūʼošõ:drūošõ 121
 
-* **LEXICON NMN_SOʼV** : 122
+* **LEXICON NMN_SOʼV** : 122 kaj:kaʼj
 * **LEXICON NMN_SOʼV-SG** : 122
 
 * **LEXICON NMN_SOʼV-PL** : 122

@@ -29,7 +29,7 @@ They must be escaped (cf morpheme boundaries further down):
 
 * %{XC%}:p %{XC%}:t %{XC%}:k		      
 * %{XC%}:b %{XC%}:d %{XC%}:g		      
-* %{XC%}:l %{XC%}:ļ				      
+* %{XC%}:l %{XC%}:ļ %{XC%}:j				      
 * %{XC%}:m %{XC%}:n %{XC%}:ņ		      
 * %{XC%}:r %{XC%}:ŗ				      
 * %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž   
