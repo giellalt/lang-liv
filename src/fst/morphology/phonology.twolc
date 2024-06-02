@@ -161,7 +161,7 @@ Rules
 
 "ȱ:ȯ"
 !! **Rule: @RULENAME@**
-ȱ:ȯ <=> # Cns* _ Cns:+ (Vow:) %^VV2V: ;
+ȱ:ȯ <=> # Cns* _ Cns:+ (%{XC%}:|Vow:) %^VV2V: ;
 !!€# vȱntsa%^VV2V%^VowsRM%>õ
 !!€0 vȯnts0000õ
 
@@ -505,7 +505,7 @@ o:0 <=> # [p|b|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V
 "g:0"
 !! **Rule: @RULENAME@**
  g:0 <=>
-# Cns* Vow ( ʼ: ) Cns: _ Vow: ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:]  ;
+# Cns* Vow ( ʼ: ) Cns: _ Vow: ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:|%^ConsRM:]  ;
   _ (%^VowsLI1:) (%^StodRM:) (%^VowsRM:) %^ConsRM: ;
    g _ %{õØ%}: [l|ļ|r|n] Vow: %^Pen: %^ConsRM: ;
 
@@ -526,7 +526,7 @@ o:0 <=> # [p|b|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V
 !! **Rule: @RULENAME@**
  z:0 <=>
 # Cns* Vow:+ ( ʼ: ) Cns: _ Vow: (%^VV2V:) ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:] ;
-  _ (%^Stress2to1:) (%^StodRM:) (%^VowsRM:) %^ConsRM: ;
+  _ (%^Stress2to1:|%^VV2V:) (%^StodRM:) (%^VowsRM:) %^ConsRM: ;
   z _ %{õØ%}: [l|ļ|r|n] Vow: %^Pen: %^ConsRM: ;
 !!€  rik0āz%^Stress2to1%^ConsRM
 !0  rikkõ000
@@ -697,7 +697,7 @@ d:ț <=> [ ț: ] Vow: ( %^ConsSh:0 ) %^VowsRM:0  ( %^ConsRM:0 ) %> _ õ d ;
 "d:ž"
 !! **Rule: @RULENAME@**
 d:ž <=>
-       :Vow ( ʼ: | :ʼ ) Cns:* _ (%^PreI:|%^VOWRaise:|%^Pen: %^VowsRM:) (%^StodRM:) (%^VowsLI1:) %^D2Ž:0 ;
+       :Vow ( ʼ: | :ʼ ) Cns:* _ (%^VV2V: %^PalatalizeLeft:|%^PreI:|%^VOWRaise:|%^Pen: %^VowsRM:) (%^StodRM:) (%^VowsLI1:) %^D2Ž:0 ;
 
 !"ž:d "
 !!! __@RULENAME@__
