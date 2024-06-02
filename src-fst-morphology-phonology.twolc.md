@@ -290,6 +290,8 @@ VOWEL LOSS
 
 * ma0ig000000īst examples:*
 
+**Rule: ō:0**
+
 **Rule: ū:0**
 
 **Rule: ī:0**
@@ -361,6 +363,9 @@ kēļ+N+Sg+Nom
 * pǟuva%^ConsSh examples:*
 
 * pǟ0va0 examples:*
+lum+N+Sg+Par:  **snow/lumi**
+* *luʼm^Pen^VowsRM^StodRM^ConsRMūn*
+* *l0000000ūn*
 
 **Rule: o:0 in second position of first-syllable diphthong**
 ```
@@ -509,7 +514,7 @@ nominative plural
 ### Rules for consonant loss
 
 **Rule: d:0**
-     Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
+     Vow: (ʼ:) (Cns:+)  _ (%^Pen: %^VowsRM:|%^VOWRaise:) (%^PreI: %^StodRM:|%^VowsLI1:|%^StodRM:) [%^D2ZERO:0|%^ConsRM:] ;   
 
 **P loss before subsequent morpheme with underlying**  
 
@@ -546,6 +551,10 @@ nominative plural
 * *keņg0000i*
 * *nǟʼ^VV2V^VOWRaise^StodRM>i>z*
 * *ne000>i>z*
+
+**Rule: ä:e short and palatalization**
+
+**Rule: ǭ:ä palatalization**
 
 **Rule: a:ä palatalization**
 

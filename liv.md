@@ -1424,21 +1424,21 @@ kiv:kiʼvv
 * **LEXICON NMN_KAŠ** : 69
 * **LEXICON NMN_KAŠ-SG** : 69
 
-* **LEXICON NMN_KAŠ-PL** : 69
+* **LEXICON NMN_KAŠ-PL** : 69 kaš:kaš stem left alone
 
 * **LEXICON NMN_DUŅTŠ** : 70
-* **LEXICON NMN_DUŅTŠ-SG** : 70
+* **LEXICON NMN_DUŅTŠ-SG** : 70 duņtš:dūņtš
 * **LEXICON NMN_DUŅTŠ-PL** : 70
 
 * **LEXICON NMN_TORĪ** : 71
 * **LEXICON NMN_TORĪ-SG** : 71
 * **LEXICON NMN_TORĪ-PL** : 71
 
-* **LEXICON NMN_VAʼG** vaʼg:vag 72
-* **LEXICON NMN_VAʼG-SG** vaʼg:vag 72
+* **LEXICON NMN_VAʼG** vag:vaʼg 72
+* **LEXICON NMN_VAʼG-SG** vag:vaʼg 72
 * **LEXICON NMN_VAʼG-PL** vaʼg:vag 72
 
-* **LEXICON NMN_KÕʼL** kõʼl:kõl 73
+* **LEXICON NMN_KÕʼL** kõl:kõʼl 73
 * **LEXICON NMN_KÕʼL-SG** kõʼl:kõʼl 73
 * **LEXICON NMN_KÕʼL-PL** kõʼl:kõʼl 73
 
@@ -1477,42 +1477,42 @@ kiv:kiʼvv
 * **LEXICON NMN_MAKS-PL** : 80
 
 * **LEXICON NMN_LUʼM** luʼm:lum 81
-* **LEXICON NMN_LUʼM-SG** luʼm:lum 81
+* **LEXICON NMN_LUʼM-SG** lum:luʼm 81
 
-* **LEXICON NMN_LUʼM-PL** luʼm:lum 81
+* **LEXICON NMN_LUʼM-PL** lum:luʼm 81
 
-* **LEXICON NMN_MIEʼR** mieʼr:mier 82
+* **LEXICON NMN_MIEʼR** mieʼr:mīeʼr 82
 * **LEXICON NMN_MIEʼR-SG** mieʼr:mieʼr 82
 
-* **LEXICON NMN_MIEʼR-PL** mieʼr:mier 82
+* **LEXICON NMN_MIEʼR-PL** mier:mīeʼr 82
 
-* **LEXICON NMN_MEʼR** meʼr:mer 83
+* **LEXICON NMN_MEʼR** mer:mīeʼr 83
 * **LEXICON NMN_MEʼR-SG** meʼr:mer 83
 
-* **LEXICON NMN_MEʼR-PL** meʼr:mer 83
+* **LEXICON NMN_MEʼR-PL** mer:mīeʼr 83
 
 * **LEXICON NMN_MUʼR** muʼr:mur 84
 * **LEXICON NMN_MUʼR-SG** muʼr:mur 84
 
-* **LEXICON NMN_MUʼR-PL** muʼr:mur 84
+* **LEXICON NMN_MUʼR-PL** mur:muʼr 84
 
 * **LEXICON NMN_KUOʼD** kuoʼd:kuod aig 85
 * **LEXICON NMN_KUOʼD-SG** kuoʼd:kuod aig 85
 
-* **LEXICON NMN_KUOʼD-PL** kuoʼd:kuod aig 85
+* **LEXICON NMN_KUOʼD-PL** kuoʼd:kuoʼd aig 85
 
-* **LEXICON NMN_SUʼŽ** suʼž:suž 86
-* **LEXICON NMN_SUʼŽ-SG** suʼž:suž 86
+* **LEXICON NMN_SUʼŽ** suž:suʼd 86
+* **LEXICON NMN_SUʼŽ-SG** suž:suʼd 86
 
 * **LEXICON NMN_SUʼŽ-PL** suʼž:suž 86
 
-* **LEXICON NMN_KEʼŽ** keʼž:kež aim 87
-* **LEXICON NMN_KEʼŽ-SG** keʼž:kež aim 87
+* **LEXICON NMN_KEʼŽ** kež:käʼd aim 87
+* **LEXICON NMN_KEʼŽ-SG** kež:käʼd aim 87
 
-* **LEXICON NMN_KEʼŽ-PL** keʼž:kež aim 87
+* **LEXICON NMN_KEʼŽ-PL** keʼž:käʼd aim 87
 
-* **LEXICON NMN_VEʼŽ** veʼž:vež 88
-* **LEXICON NMN_VEʼŽ-SG** veʼž:veʼd 88
+* **LEXICON NMN_VEʼŽ** veʼž:vieʼd 88
+* **LEXICON NMN_VEʼŽ-SG** veʼž:vieʼd 88
 
 * **LEXICON NMN_VEʼŽ-PL** veʼž:veʼd 88
 
@@ -1531,7 +1531,7 @@ kiv:kiʼvv
 * **LEXICON NMN_RADIO-PL** : 91
 
 * **LEXICON NMN_ANG** : 92
-* **LEXICON NMN_ANG-SG** : 92
+* **LEXICON NMN_ANG-SG** : 92 ang:āng
 * **LEXICON NMN_ANG-PL** : 92
 
 * **LEXICON NMN_KOUV** : 93
@@ -1579,13 +1579,13 @@ kiv:kiʼvv
 * **LEXICON NMN_PAN-PL** : 100
 
 102
-* **LEXICON NMN_NIŖȚ** : 102 niŗț:niŗț
+* **LEXICON NMN_NIŖȚ** : 102 niŗț:nīŗț
 First-syllable Vowel lengthening in Pl
 Stød: None
 * **LEXICON NMN_NIŖȚ-SG** : 102
 * **LEXICON NMN_NIŖȚ-PL** : 102
 
-* **LEXICON NMN_KUĻ** : 103
+* **LEXICON NMN_KUĻ** : 103 kuļ:kūļ
 * **LEXICON NMN_KUĻ-SG** : 103
 * **LEXICON NMN_KUĻ-PL** : 103
 
@@ -1599,7 +1599,7 @@ Stød: None
 
 * **LEXICON NMN_DAŅTŠ-PL** : 105
 
-* **LEXICON NMN_KOUŠ** : 106
+* **LEXICON NMN_KOUŠ** : 106 kouš:kōuš
 * **LEXICON NMN_KOUŠ-SG** : 106
 * **LEXICON NMN_KOUŠ-PL** : 106
 
@@ -3715,6 +3715,8 @@ VOWEL LOSS
 
 * ma0ig000000īst examples:*
 
+**Rule: ō:0**
+
 **Rule: ū:0**
 
 **Rule: ī:0**
@@ -3786,6 +3788,9 @@ kēļ+N+Sg+Nom
 * pǟuva%^ConsSh examples:*
 
 * pǟ0va0 examples:*
+lum+N+Sg+Par:  **snow/lumi**
+* *luʼm^Pen^VowsRM^StodRM^ConsRMūn*
+* *l0000000ūn*
 
 **Rule: o:0 in second position of first-syllable diphthong**
 ```
@@ -3934,7 +3939,7 @@ nominative plural
 ### Rules for consonant loss
 
 **Rule: d:0**
-     Vow: (Cns:+)  _ (%^PreI: %^StodRM:|%^VowsLI1:) %^D2ZERO:0 ;   
+     Vow: (ʼ:) (Cns:+)  _ (%^Pen: %^VowsRM:|%^VOWRaise:) (%^PreI: %^StodRM:|%^VowsLI1:|%^StodRM:) [%^D2ZERO:0|%^ConsRM:] ;   
 
 **P loss before subsequent morpheme with underlying**  
 
@@ -3971,6 +3976,10 @@ nominative plural
 * *keņg0000i*
 * *nǟʼ^VV2V^VOWRaise^StodRM>i>z*
 * *ne000>i>z*
+
+**Rule: ä:e short and palatalization**
+
+**Rule: ǭ:ä palatalization**
 
 **Rule: a:ä palatalization**
 
