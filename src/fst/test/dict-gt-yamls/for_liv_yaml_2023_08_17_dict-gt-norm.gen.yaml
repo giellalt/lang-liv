@@ -4363,22 +4363,22 @@ Tests:
     vag+N+Pl+Ela: vaʼgšti
     
 #"N_73":{"tips":"73","vards":"kõʼl","vcount":"7","bloks":"N","loc":{
-    kõl+N+Sg+Nom: kõʼl
-    kõl+N+Sg+Gen: kõʼl
-    kõl+N+Sg+Dat: kõʼllõn
-    kõl+N+Sg+Par: kõʼllõ
-    kõl+N+Sg+Ins: kõʼlkõks
-    kõl+N+Sg+Ill: kõʼllõ
-    kõl+N+Sg+Ine: kõʼlsõ
-    kõl+N+Sg+Ela: kõʼlstõ
-    kõl+N+Pl+Nom: kõlūd
-    kõl+N+Pl+Gen: kõlūd
-    kõl+N+Pl+Dat: kõlūdõn
-    kõl+N+Pl+Par: kõʼļḑi
-    kõl+N+Pl+Ins: kõlūdõks
-    kõl+N+Pl+Ill: kõʼļži
-    kõl+N+Pl+Ine: kõʼļši
-    kõl+N+Pl+Ela: kõʼļšti
+    kõl+A+Sg+Nom: kõʼl
+    kõl+A+Sg+Gen: kõʼl
+    kõl+A+Sg+Dat: kõʼllõn
+    kõl+A+Sg+Par: kõʼllõ
+    kõl+A+Sg+Ins: kõʼlkõks
+    kõl+A+Sg+Ill: kõʼllõ
+    kõl+A+Sg+Ine: kõʼlsõ
+    kõl+A+Sg+Ela: kõʼlstõ
+    kõl+A+Pl+Nom: kõlūd
+    kõl+A+Pl+Gen: kõlūd
+    kõl+A+Pl+Dat: kõlūdõn
+    kõl+A+Pl+Par: kõʼļḑi
+    kõl+A+Pl+Ins: kõlūdõks
+    kõl+A+Pl+Ill: kõʼļži
+    kõl+A+Pl+Ine: kõʼļši
+    kõl+A+Pl+Ela: kõʼļšti
     
 #"N_74":{"tips":"74","vards":"suʼg","vcount":"33","bloks":"N","loc":{
     sug+N+Sg+Nom: suʼg
@@ -4591,8 +4591,8 @@ Tests:
     kuod+N+Pl+Nom: kuodūd
     kuod+N+Pl+Gen: kuodūd
     kuod+N+Pl+Dat: kuodūdõn
-    kuod+N+Pl+Prt: kuodīdi
-    kuod+N+Pl+Inm: kuodūdõks
+    kuod+N+Pl+Par: kuodīdi
+    kuod+N+Pl+Ins: kuodūdõks
     kuod+N+Pl+Ill: kuodīž
     kuod+N+Pl+Ine: kuodīs
     kuod+N+Pl+Ela: kuodīst
@@ -4832,22 +4832,22 @@ Tests:
     loul+N+Pl+Ela: lōlist
     
 #"N_99":{"tips":"99","vards":"ul","vcount":"14","bloks":"N","loc":{
-    ul+N+Sg+Nom: ul
-    ul+N+Sg+Gen: ul
-    ul+N+Sg+Dat: ullõn
-    ul+N+Sg+Par: ullõ
-    ul+N+Sg+Ins: ullõks
-    ul+N+Sg+Ill: ullõ
-    ul+N+Sg+Ine: ulsõ
-    ul+N+Sg+Ela: ulstõ
-    ul+N+Pl+Nom: ūlõd
-    ul+N+Pl+Gen: ūlõd
-    ul+N+Pl+Dat: ūlõdõn
-    ul+N+Pl+Par: ūlidi
-    ul+N+Pl+Ins: ūlõdõks
-    ul+N+Pl+Ill: ūliž
-    ul+N+Pl+Ine: ūlis
-    ul+N+Pl+Ela: ūlist
+    ul+A+Sg+Nom: ul
+    ul+A+Sg+Gen: ul
+    ul+A+Sg+Dat: ullõn
+    ul+A+Sg+Par: ullõ
+    ul+A+Sg+Ins: ullõks
+    ul+A+Sg+Ill: ullõ
+    ul+A+Sg+Ine: ulsõ
+    ul+A+Sg+Ela: ulstõ
+    ul+A+Pl+Nom: ūlõd
+    ul+A+Pl+Gen: ūlõd
+    ul+A+Pl+Dat: ūlõdõn
+    ul+A+Pl+Par: ūlidi
+    ul+A+Pl+Ins: ūlõdõks
+    ul+A+Pl+Ill: ūliž
+    ul+A+Pl+Ine: ūlis
+    ul+A+Pl+Ela: ūlist
     
 #"N_100":{"tips":"100","vards":"pan","vcount":"2","bloks":"N","loc":{
     pan+N+Sg+Nom: pan
