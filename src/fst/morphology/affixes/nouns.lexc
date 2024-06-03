@@ -4079,23 +4079,22 @@ LEXICON NMN_RŪʼTŠ-PL
         PL-ILL_iz ;
         PL-PAR_idi ;
 !!
-LEXICON NMN_TĒʼḐ !!≈ * **@CODE@** tēʼḑ:tēḑ 146
+LEXICON NMN_TĒʼḐ !!≈ * **@CODE@** tēʼḑ:tǟʼd 146
 	NMN_TĒʼḐ-SG	;
 	NMN_TĒʼḐ-PL	;
 LEXICON NMN_TĒʼḐ-SG !!≈ * **@CODE@** tēʼḑ:tēḑ 146
         SG-DAT_õn ;
-        SG-ELA/INE_õst ;
-:d        SG-GEN ;
-:õ        SG-GEN ;
+        SG-ELA/INE_stõ ;
+        SG-GEN ;
         SG-ILL_õ ;
-        SG-INS_õks ;
-:d        SG-NOM  ;
-:d        SG-PAR_õ ;
+        SG-INS_kõks ;
+:%^VOWRaise%^PalatalizeLeft        SG-NOM  ;
+        SG-PAR_tõ ;
 LEXICON NMN_TĒʼḐ-PL !!≈ * **@CODE@** tēʼḑ:tēḑ 146
         PL-INS_ÕDÕKS-STEM ;
-        PL-ELA/INE_ist ;
-        PL-ILL_iž ;
-        PL-PAR_idi ;
+:%^VOWRaise%^PalatalizeLeft        PL-ELA/INE_ist ;
+:%^VOWRaise%^PalatalizeLeft        PL-ILL_iž ;
+:%^VOWRaise%^PalatalizeLeft        PL-PAR_i ;
 
 LEXICON NMN_LĒʼḐ !!≈ * **@CODE@** lēʼḑ:līʼed 147
 	NMN_LĒʼḐ-SG	;
