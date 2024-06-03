@@ -188,7 +188,7 @@ Rules
 !! **Rule: @RULENAME@**
 ǭ:a <=> # Cns* _  ( i: ) Cns:+ (%{XC%}:) Vow: [ %^Stress1to2:0 | %^VV2V:0 ]  ;
         # Cns* _  Cns (%{XC%}:) %^VV2V:0 \[ %^PalatalizeLeft: ] ;
-        # Cns:* _ Cns:+ Vow: Cns:+ (:Cns) ( Vow: ) %^Pen: %^VV2V: ; 
+        # Cns:* _ Cns:+ Vow: Cns: %^Pen: %^VV2V: ; 
 
 "ē:e in first syllable"
 !! **Rule: @RULENAME@**
@@ -200,6 +200,7 @@ Rules
 !! **Rule: @RULENAME@**
 ū:u <=> # Cns* _  ( i  ) Cns:+ (:Cns) Vow: [ %^Stress1to2:0 | %^VV2V:0 ]  ;
     # Cns* _  (ʼ:) Cns:+ (%{XC%}:) %^VV2V:0 ;
+    # Cns* _  Cns:+ Vow: Cns: %^Pen: %^VV2V:0 ;
          # [Cns - [p|m|b|v]] _ o Cns:+ (Vow:) %^VV2V:0 ;
          # [Cns - [p | m | b| v]]* _ o %^VV2V:0 ;
 !!€ jūo^VV2V>i
@@ -208,6 +209,7 @@ Rules
 "ū:ȯ in first syllable"
 !! **Rule: @RULENAME@**
 ū:ȯ <=> # [p | m | v] _   o:  ( i ) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 | %^VV2V:0 (%^PalatalizeLeft:)]  ;
+ # [p | m | v] _   o:  ( i ) Cns:+  Vow: Cns: %^Pen:0 %^VV2V:0   ;
 ! # [p | b | m | v] _   o:  ( i ) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 | %^VV2V:0 (%^PalatalizeLeft:)]  ;
 !!€# pūol0a%^Stress1to2%^ConsL
 !!€0 pȯ0llõ00
@@ -464,7 +466,7 @@ i:0 <=> # Cns:* [ ē | ǭ | ū ] _ Cns:+ ( Vow: ) %^U2ZERO:0 ;
 "u:0 in second position of first-syllable diphthong"
 !! **Rule: @RULENAME@**
 u:0 <=>
-# Cns:* ǟ: _ Cns:+ Vow: %^Pen: %^U2ZERO: ;
+# Cns:* [ ȭ: |ǟ: | ō: | ī e] _ Cns:+ Vow: Cns: %^Pen: %^U2ZERO: ;
 # Cns:* [ ȭ: | ǟ: | ō: | ī e]  _ Cns:+ ( Vow: ) %^U2ZERO:0 ;
 # Cns:* [ õ: | ȭ: | ä: | o: ]  _ Cns:+ ( Vow: ) %^VowsLI1:0 ;
 !!€ tǟutõ^PEN^U2ZERO^VowsRM>a>m
@@ -482,7 +484,8 @@ u:0 <=>
 "o:0 in second position of first-syllable diphthong"
 !! **Rule: @RULENAME@**
 !! ```
-o:0 <=> # [p|b|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V:] ;
+o:0 <=> # [p|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V:] ;
+ # [p|m|v]* [ ū: ]  _ (i) Cns:+ Vow: Cns: %^Pen:0 %^VV2V: ;
 !!€# pūol0a%^Stress1to2%^ConsL
 !!€# pȯ0llõ00
 !! ```
