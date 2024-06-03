@@ -1319,7 +1319,7 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 
 145
 
-* **LEXICON NMN_TĒʼḐ** tēʼḑ:tēḑ 146
+* **LEXICON NMN_TĒʼḐ** tēʼḑ:tǟʼd 146
 * **LEXICON NMN_TĒʼḐ-SG** tēʼḑ:tēḑ 146
 * **LEXICON NMN_TĒʼḐ-PL** tēʼḑ:tēḑ 146
 
