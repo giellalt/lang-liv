@@ -924,6 +924,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
 * **LEXICON N_PŪŖAZ** : 174
 
+* __LEXICON N_RĒNAZ__ : 176
 * **LEXICON N_RĒNAZ-PL** : 176
 
 * **LEXICON N_TŌVAZ** : 177
@@ -1955,27 +1956,27 @@ Sg Nom=Gen: No
 
 * **LEXICON NMN_PŪŖAZ-PL** : 174
 
-* **LEXICON NMN_PǬĻAZ** : 175 pǭļaz:pǭļ
+* **LEXICON NMN_PǬĻAZ** : 175 pǭļaz:pǭļļaz
 Stød: None
 Sg Nom=Gen: No
 * **LEXICON NMN_PǬĻAZ-SG** : 175
 
 * **LEXICON NMN_PǬĻAZ-PL** : 175
 
+* __LEXICON NMN_RĒNAZ__ : 176 rēnaz:rēinaz
+* __LEXICON NMN_RĒNAZ-SG__ : 176
+
 * **LEXICON NMN_RĒNAZ-PL** : 176
-* **NMN_ĀMBAZ-PL ;** : 173
 
 * **LEXICON NMN_TŌVAZ** : 177 tōvaz:tōva
 * **LEXICON NMN_TŌVAZ-SG** : 177
-* **NMN_ĀMBAZ-SG ;** : 173
+
 * **LEXICON NMN_TŌVAZ-PL** : 177
-* **NMN_ĀMBAZ-PL ;** : 173
 
 * **LEXICON NMN_PŪORAZ** pūoraz:pūora 178
 * **LEXICON NMN_PŪORAZ-SG** pūoraz: 178
-* **NMN_ĀMBAZ-SG ;** : 173
+
 * **LEXICON NMN_PŪORAZ-PL** pūoraz: 178
-* **NMN_ĀMBAZ-PL ;** : 173
 
 179
 
