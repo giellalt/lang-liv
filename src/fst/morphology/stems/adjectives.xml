@@ -3483,7 +3483,7 @@
       <lg>
          <l pos="A">eņtškazātõd</l>
          <stg>
-            <st Contlex="A_TAPTÕD">eņtš#kazātõd</st>
+            <st Contlex="A_TAPTÕD">eņtš#kazātõ</st>
          </stg>
          <orig>eņtš|kazātõd</orig>
       </lg>
@@ -3507,7 +3507,7 @@
       <lg>
          <l pos="A">eņtškudātõd</l>
          <stg>
-            <st Contlex="A_TAPTÕD">eņtš#kudātõd</st>
+            <st Contlex="A_TAPTÕD">eņtš#kudātõ</st>
          </stg>
          <orig>eņtš|kudātõd</orig>
       </lg>
@@ -5545,7 +5545,7 @@
       <lg>
          <l pos="A">immõrkīerdõd</l>
          <stg>
-            <st Contlex="A_TAPTÕD">immõr#kīerdõd</st>
+            <st Contlex="A_TAPTÕD">immõr#kīerdõ</st>
          </stg>
          <orig>immõr|kīerdõd</orig>
       </lg>
@@ -8475,7 +8475,7 @@
       <lg>
          <l pos="A">katkāstõd</l>
          <stg>
-            <st Contlex="A_TAPTÕD">katkāstõd</st>
+            <st Contlex="A_TAPTÕD">katkāstõ</st>
          </stg>
          <orig>katkāstõd</orig>
       </lg>
@@ -9364,7 +9364,7 @@
       <lg>
          <l pos="A">kitsāz</l>
          <stg>
-            <st Contlex="A_NÕTKĀZ">kitsā</st>
+            <st Contlex="A_NÕTKĀZ">kitsāz</st>
          </stg>
          <orig>kitsāz</orig>
       </lg>
@@ -12429,7 +12429,7 @@
       <lg>
          <l pos="A">kōgiņvȯddõltõd</l>
          <stg>
-            <st Contlex="A_TĪʼEDÕD">kōgiņ#vȯʼddõltõd</st>
+            <st Contlex="A_TĪʼEDÕD">kōgiņ#vȯʼddõltõ</st>
          </stg>
          <orig>kōgiņ|vȯʼddõltõd</orig>
       </lg>
@@ -12703,7 +12703,7 @@
       <lg>
          <l pos="A">kūjastõd</l>
          <stg>
-            <st Contlex="A_TAPTÕD">kūjastõd</st>
+            <st Contlex="A_TAPTÕD">kūjastõ</st>
          </stg>
       </lg>
       <mg>
@@ -17348,7 +17348,7 @@
       <lg>
          <l pos="A">makstõd</l>
          <stg>
-            <st Contlex="A_TAPTÕD">makstõd</st>
+            <st Contlex="A_TAPTÕD">makstõ</st>
          </stg>
          <orig>makstõd</orig>
       </lg>
@@ -19031,7 +19031,7 @@
       <lg>
          <l pos="A">mõttõltõd</l>
          <stg>
-            <st Contlex="A_TAPTÕD">mõttõltõd</st>
+            <st Contlex="A_TAPTÕD">mõttõltõ</st>
          </stg>
          <orig>mõttõltõd</orig>
       </lg>
@@ -20044,7 +20044,7 @@
       <lg>
          <l pos="A">neinuttõd</l>
          <stg>
-            <st Contlex="A_TAPTÕD">neʼi#nuttõd</st>
+            <st Contlex="A_TAPTÕD">neʼi#nuttõ</st>
          </stg>
          <orig>neʼi|nuttõd</orig>
       </lg>
@@ -20441,7 +20441,7 @@
       <lg>
          <l pos="A">nõtkāz</l>
          <stg>
-            <st Contlex="A_NÕTKĀZ">nõtkā</st>
+            <st Contlex="A_NÕTKĀZ">nõtkāz</st>
          </stg>
          <orig>nõtkāz</orig>
       </lg>
@@ -21652,7 +21652,7 @@
       <lg>
          <l pos="A">ovstõd</l>
          <stg>
-            <st Contlex="A_TĪʼEDÕD">oʼvstõd</st>
+            <st Contlex="A_TĪʼEDÕD">oʼvstõ</st>
          </stg>
          <orig>oʼvstõd</orig>
       </lg>
@@ -21728,7 +21728,7 @@
       <lg>
          <l pos="A">ovtõd</l>
          <stg>
-            <st Contlex="A_TĪʼEDÕD">oʼvtõd</st>
+            <st Contlex="A_TĪʼEDÕD">oʼvtõ</st>
          </stg>
          <orig>oʼvtõd</orig>
       </lg>
@@ -24968,7 +24968,7 @@
       <lg>
          <l pos="A">pūoltīedõd</l>
          <stg>
-            <st Contlex="A_TĪʼEDÕD">pūol#tīʼedõd</st>
+            <st Contlex="A_TĪʼEDÕD">pūol#tīʼedõ</st>
          </stg>
          <orig>pūol|tīʼedõd</orig>
       </lg>
@@ -30978,6 +30978,30 @@
    </e>
    <e>
       <lg>
+         <l pos="A">taptõd</l>
+         <stg>
+            <st Contlex="A_TAPTÕD">taptõ</st>
+         </stg>
+         <orig>taptõd</orig>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="A">YY</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="A">0</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">tapettu</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="A">0</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l pos="A">tazāmēļi</l>
          <stg>
             <st Contlex="A_TŪĻI">tazā#mēļi</st>
@@ -32552,6 +32576,30 @@
          </tg>
          <tg xml:lang="lav">
             <t pos="A">iezīmēts</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">tīedõd</l>
+         <stg>
+            <st Contlex="A_TĪʼEDÕD">tīʼedõ</st>
+         </stg>
+         <orig>tīʼedõd</orig>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="A">done</t>
+         </tg>
+         <tg xml:lang="est">
+            <t pos="A">tehtud</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">tehty</t>
+         </tg>
+         <tg xml:lang="lav">
+            <t pos="A">0</t>
          </tg>
       </mg>
    </e>
@@ -39019,7 +39067,7 @@
       <lg>
          <l pos="A">äbvȯddõltõd</l>
          <stg>
-            <st Contlex="A_TĪʼEDÕD">äʼb#vȯʼddõltõd</st>
+            <st Contlex="A_TĪʼEDÕD">äʼb#vȯʼddõltõ</st>
          </stg>
          <orig>äʼb|vȯʼddõltõd</orig>
       </lg>
