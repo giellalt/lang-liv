@@ -127,6 +127,12 @@ LEXICON A_TAPTÕD  taptõd: 161
 
 LEXICON A_TĪʼEDÕD  tīʼedõd:tīedõd 162
 
+LEXICON A_VĪDÕZ  vīdõz: 163
+
+LEXICON A_TUOISTÕNZ  : 164
+
+LEXICON A_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
+
 LEXICON A_KÄBRĀZ  : 168
 
 LEXICON A_MAIGĀZ  : 169

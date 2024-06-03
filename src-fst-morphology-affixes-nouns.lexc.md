@@ -452,6 +452,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
 * **LEXICON N_RIKĀZ-PL** rikāz: 171
 
+* __LEXICON N_BIKŠĀZ__ : 172
 * **LEXICON N_BIKŠĀZ-SG** : 172
 * **LEXICON N_BIKŠĀZ-PL** : 172
 
@@ -1320,7 +1321,7 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 145
 
 * **LEXICON NMN_TĒʼḐ** tēʼḑ:tǟʼd 146
-* **LEXICON NMN_TĒʼḐ-SG** tēʼḑ:tēḑ 146
+* **LEXICON NMN_TĒʼḐ-SG** tēʼḑ:tǟʼd 146
 * **LEXICON NMN_TĒʼḐ-PL** tēʼḑ:tēḑ 146
 
 * **LEXICON NMN_LĒʼḐ** lēʼḑ:līʼed 147
@@ -1362,15 +1363,15 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * āigalē’ḑ+N+Pl+Ela examples:*
 
 * **LEXICON NMN_KĪNTŠ** : 148
-* **LEXICON NMN_KĪNTŠ-SG** : 148
+* **LEXICON NMN_KĪNTŠ-SG** : 148 kīntš:kīn
 
 * **LEXICON NMN_KĪNTŠ-PL** : 148
 
-* **LEXICON NMN_KǬŅTŠ** : 149
+* **LEXICON NMN_KǬŅTŠ** : 149 kǭņtš:kǭn
 * **LEXICON NMN_KǬŅTŠ-SG** : 149
 * **LEXICON NMN_KǬŅTŠ-PL** : 149
 
-* **LEXICON NMN_LĒŅTŠ** : 150
+* **LEXICON NMN_LĒŅTŠ** : 150 lēņtš:lǟn
 * **LEXICON NMN_LĒŅTŠ-SG** : 150
 * **LEXICON NMN_LĒŅTŠ-PL** : 150
 
@@ -1391,11 +1392,13 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 
 * **LEXICON NMN_VÕȚĪM-PL** : 154
 
-* **LEXICON NMN_KǬŅIM-SG** : 155
+* **LEXICON NMN_KǬŅIM-SG** : 155 kōņim:kǭņim
+
 * **LEXICON NMN_KǬŅIM-PL** : 155
 
-* **LEXICON NMN_ĒTAM** : 156
+* **LEXICON NMN_ĒTAM** : 156 ētam:ēitam
 * **LEXICON NMN_ĒTAM-SG** : 156
+
 * **LEXICON NMN_ĒTAM-PL** : 156
 
 * **LEXICON NMN_SIDĀM** : 157
@@ -1411,7 +1414,7 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 160
 **72**
 
-* **LEXICON NMN_TAPTÕD** taptõd:taptõd 161
+* **LEXICON NMN_TAPTÕD** taptõd:taptõ 161
 * **LEXICON NMN_TAPTÕD-SG** : 161
 
 * **LEXICON NMN_TAPTÕD-PL** : 161
@@ -1424,23 +1427,19 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_VĪDÕZ-SG** vīdõz: 162
 
 * **LEXICON NMN_VĪDÕZ-PL** vīdõz: 162
-* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
+* **:%^ConsRMnd PL-ELA/INE_ist ;** not same as 2012
+* **:%^ConsRMnd PL-PAR_idi ;** not same as 2012
 
-* **LEXICON NMN_TUOISTÕNZ** : 164
+* **LEXICON NMN_TUOISTÕNZ** : 164 tuoistõnz:tuoistõnz
 * **LEXICON NMN_TUOISTÕNZ-SG** : 164
 
 * **LEXICON NMN_TUOISTÕNZ-PL** : 164
-* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
+* **:%^ConsRMd PL-ELA/INE_ist ;** not same as 2012
 
-* **LEXICON NMN_ĪʼDÕKSMÕZ** īʼdõksmõz:īdõksmõz 165
+* **LEXICON NMN_ĪʼDÕKSMÕZ** īʼdõksmõz:īʼdõksmõz 165
 * **LEXICON NMN_ĪʼDÕKSMÕZ-SG** īʼdõksmõz:īdõksmõz 165
 
 * **LEXICON NMN_ĪʼDÕKSMÕZ-PL** īʼdõksmõz:īdõksmõz 165
-
-* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
 
 * **LEXICON NMN_MĪEZ** : 166
 * **LEXICON NMN_MĪEZ-SG** mīez:m 166
@@ -1456,22 +1455,21 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_KÄBRĀZ-SG** : 168
 
 * **LEXICON NMN_KÄBRĀZ-PL** : 168
-* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
+* **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
+* **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
 
 * **LEXICON NMN_MAIGĀZ** : 169 maigāz:maʼigāz
 * Yaml: **A-maigaaz**
 * **LEXICON NMN_MAIGĀZ-SG** : 169
 
 * **LEXICON NMN_MAIGĀZ-PL** : 169
-* **:%^StodRM%^CC2C%^VowsRM PL-ELA/INE_īst ;** not same as 2012
-* **:%^StodRM%^CC2C%^VowsRM PL-PAR_īdi ;** not same as 2012
+* **:%^StodRM%^VowsRM%^ConsRM PL-ELA/INE_īst ;** not same as 2012
+* **:%^StodRM%^VowsRM%^ConsRM PL-PAR_īdi ;** not same as 2012
 
-* **LEXICON NMN_NÕTKĀZ** : 170 nõtkāz:nõtkā
+* **LEXICON NMN_NÕTKĀZ** : 170 nõtkāz:nõtkāz
 * **LEXICON NMN_NÕTKĀZ-SG** : 170
 
 * **LEXICON NMN_NÕTKĀZ-PL** : 170
-* **NMN_RIKĀZ-PL ;** rikāz: 171
 
 * **LEXICON NMN_RIKĀZ** rikāz:rik 171
 Stem change: Yes
@@ -1481,19 +1479,18 @@ Sg Nom=Gen: No
 
 * **LEXICON NMN_RIKĀZ-PL** rikāz: 171
 
-* **LEXICON NMN_BIKŠĀZ-SG** : 172 bikšāz:bikšā
-* **NMN_RIKĀZ-SG ;** : 171
+* **LEXICON NMN_BIKŠĀZ-SG** : 172 bikšāz:bikšāz
+
 * **LEXICON NMN_BIKŠĀZ-PL** : 172
 
-* **LEXICON NMN_ĀMBAZ** : 173 āmbaz:āmba
+* **LEXICON NMN_ĀMBAZ** : 173 āmbaz:āmbaz
 
 * **LEXICON NMN_ĀMBAZ-PL** : 173
 
-* **LEXICON NMN_PŪŖAZ** : 174 pūŗaz:pūŗŗa
+* **LEXICON NMN_PŪŖAZ** : 174 pūŗaz:pūŗŗaz
 * **LEXICON NMN_PŪŖAZ-SG** : 174
-* **NMN_ĀMBAZ-SG ;** : 173 
+
 * **LEXICON NMN_PŪŖAZ-PL** : 174
-* **NMN_ĀMBAZ-PL ;** : 173
 
 * **LEXICON NMN_PǬĻAZ** : 175 pǭļaz:pǭļ
 Stød: None

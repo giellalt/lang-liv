@@ -301,6 +301,7 @@ VOWEL LOSS
 * s0e0i examples:*
 
 **Rule: a:0**
+
 rōda+N+Pl+Par
 * *rōuda^VV2V^PalatalizeLeft^VowsRM>i*
 * *rouḑ0000>i*

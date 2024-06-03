@@ -29,6 +29,8 @@ The verb vȱlda has irregular forms:
 
 ### NOUNS partitive for morfa demo
 
+### NUMERALS testing
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>

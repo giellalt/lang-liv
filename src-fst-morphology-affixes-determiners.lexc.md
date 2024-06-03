@@ -4,12 +4,6 @@ Livonian determiner inflection.
 
 ## Stem lexica
 
-LEXICON DET_VĪDÕZ  vīdõz: 163
-
-LEXICON DET_TUOISTÕNZ  : 164
-
-LEXICON DET_ĪʼDÕKSMÕZ  ī'dõksmõz:īdõksmõz 165
-
 LEXICON DET_NAI  nai: 191
 
 LEXICON DET_TŪĻI  tūļi: 199
