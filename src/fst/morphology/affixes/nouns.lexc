@@ -4479,7 +4479,7 @@ LEXICON NMN_MĪEZ-SG !!≈ * **@CODE@** mīez:m 166
 :ī’ez        SG-ILL_õ ;
 :ī’e        SG-INS_kõks ;
 :īez        SG-NOM  ;
-:īez        SG-PAR_t ;
+:īez        SG-PAR_tõ ;
 
 LEXICON NMN_MĪEZ-PL !!≈ * **@CODE@** : 166
 :ī’e        PL-INS_DKÕKS-STEM ;
@@ -4710,7 +4710,7 @@ LEXICON NMN_TŌVAZ-SG !!≈ * **@CODE@** : 177
 :%^Pen%^U2ZERO    	SG-PAR_t ;
 
 LEXICON NMN_TŌVAZ-PL !!≈ * **@CODE@** : 177
-:%^Pen%^U2ZERO%^VowsRM%^ConsRM 	PL-INS_ÕDÕKS-STEM ;
+:%^Pen%^VV2V%^VowsRM%^ConsRM 	PL-INS_ÕDÕKS-STEM ;
 :%^Pen%^VV2V%^VowsRM%^ConsRM 	PL-ELA/INE_ist ;
 :%^Pen%^VV2V%^VowsRM%^ConsRM 	PL-ILL_iž ;
 :%^Pen%^VV2V%^VowsRM%^ConsRM 	PL-PAR_idi ;
@@ -4731,12 +4731,10 @@ LEXICON NMN_PŪORAZ-SG !!≈ * **@CODE@** pūoraz: 178
 :    	SG-PAR_t ;
 
 LEXICON NMN_PŪORAZ-PL !!≈ * **@CODE@** pūoraz: 178
-:%^Pen%^VV2V%^VowsRM%^ConsRM 	PL-INS_ÕDÕKS-STEM ;
-:%^Pen%^VV2V%^VowsRM%^ConsRM 	PL-ELA/INE_ist ;
-:%^Pen%^VV2V%^VowsRM%^ConsRM 	PL-ILL_iž ;
-:%^Pen%^VV2V%^VowsRM%^ConsRM 	PL-PAR_idi ;
-
-
+:%^Pen%^VV2V%^VowsRM 	PL-INS_ÕDÕKS-STEM ;
+:%^Pen%^VV2V%^VowsRM 	PL-ELA/INE_ist ;
+:%^Pen%^VV2V%^VowsRM 	PL-ILL_iž ;
+:%^Pen%^VV2V%^VowsRM 	PL-PAR_idi ;
 
 
 !! 179
@@ -4801,29 +4799,27 @@ LEXICON NMN_ÄʼGGÕZ-PL
 	NMN_VȬRÕZ-PL	;
 
 !! 183
-LEXICON NMN_PŪʼDÕZ !!≈ * **@CODE@** pūʼdõz:pūʼdõ
+LEXICON NMN_PŪʼDÕZ !!≈ * **@CODE@** pūʼdõz:pūʼdõz
 !!≈ * Yaml: **A-puuqdwz** Passed: 2014.12.12
 !! Stød: Yes
 !! Sg Nom=Gen: No
       NMN_PŪʼDÕZ-SG	;
       NMN_PŪʼDÕZ-PL	;
 LEXICON NMN_PŪʼDÕZ-SG
-!	NMN_VȬRÕZ-SG	;
-:       SG-DAT_n ;
-:       SG-ELA/INE_st ;
-:       SG-GEN ;
-:       SG-ILL_ZERO ;
-:       SG-ILL_z ;
-:       SG-INS_ks ;
-:z      SG-NOM  ;
-:z      SG-PAR_t ;
+:%^ConsRM       SG-DAT_n ;
+:%^ConsRM       SG-ELA/INE_st ;
+:%^ConsRM       SG-GEN ;
+:       SG-ILL_õ ;
+:%^ConsRM       SG-ILL_z ;
+:%^ConsRM       SG-INS_ks ;
+:      SG-NOM  ;
+:      SG-PAR_t ;
 
 LEXICON NMN_PŪʼDÕZ-PL
-!	NMN_VȬRÕZ-PL	;
-:       PL-INS_DÕKS-STEM ;
-:%^VowsRM       PL-ELA/INE_ist ;
-:%^VowsRM       PL-ILL_iž ;
-:%^VowsRM       PL-PAR_idi ;
+:%^ConsRM       PL-INS_DÕKS-STEM ;
+:%^VowsRM%^ConsRM       PL-ELA/INE_ist ;
+:%^VowsRM%^ConsRM       PL-ILL_iž ;
+:%^VowsRM%^ConsRM       PL-PAR_idi ;
 
 !! 184
 LEXICON NMN_VĪETŠÕZ !!≈ * **@CODE@** : 184
