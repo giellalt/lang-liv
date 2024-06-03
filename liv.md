@@ -1989,7 +1989,7 @@ Sg Nom=Gen: No
 182
 
 183
-* **LEXICON NMN_PŪʼDÕZ** pūʼdõz:pūʼdõ
+* **LEXICON NMN_PŪʼDÕZ** pūʼdõz:pūʼdõz
 Stød: Yes
 Sg Nom=Gen: No
 
