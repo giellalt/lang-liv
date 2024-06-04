@@ -119,7 +119,7 @@ Letters = Vow Cns ;												   !!≈ * @CODE@
 Dummy = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO   !!≈ * @CODE@ 
   %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ;  !!≈   @CODE@ 
 
-DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^VV2V %^U2ZERO   !!≈ * @CODE@ 
+DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^VV2V %^U2ZERO   !!≈ * @CODE@ 
   %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ;  !!≈   @CODE@ 
 
 !Definitions
@@ -194,7 +194,10 @@ Rules
 !! **Rule: @RULENAME@**
 ē:e <=> # Cns* _  ( i: ) Cns:+ (:Cns) (Vow:) [ %^VowsShIn1:0 | %^Stress1to2:0 | %^VV2V:0 ] ;
 !# Cns* _  ( :i ) :Cns+ Vow: %^Stress1to2:0  ;
- # Cns* _  ( i: ) Cns:+ (:Cns) Vow: Cns [ %^VowsShIn1:0 | %^Stress1to2:0 | %^Pen: %^VV2V:0 ] ;
+ # Cns* _  ( i: ) Cns:+ (:Cns) Vow: Cns: [ %^VowsShIn1:0 | %^Stress1to2:0 | %^Pen: %^VV2V:0 ] ;
+!! rēnaz+N+Sg+Gen:
+!!€ rēinaz^Pen^VV2V^VowsRM^ConsRM>õ
+!!€ rein000000>õ
 
 "ū:u in first syllable"
 !! **Rule: @RULENAME@**
@@ -256,9 +259,9 @@ u:ū <=> # Cns* _  ( i: | ʼ: | :ʼ ) :Cns+ (Vow:) %^VowsLI1:0 ;
 !!€0 ūl00õd
 
 
-"õ:ȭ in first syllable"
-!! **Rule: @RULENAME@**
-õ:ȭ <=> # Cns* _  ( u: ) :Cns+ (Vow:) %^VowsLI1:0 ;
+!"õ:ȭ in first syllable"
+!!! **Rule: @RULENAME@**
+!õ:ȭ <=> # Cns* _  ( u: ) :Cns+ (Vow:) %^VowsLI1:0 ;
 
 "ȯ:ū in first syllable"
 !! **Rule: @RULENAME@**
@@ -405,6 +408,9 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 !! **Rule: @RULENAME@**
 a:0 <=>   _ Dummy:* %^VowsRM: \[ %^PalatalizeLeft: ]* [ # | %> ] ;
          Cns: _ Cns: (%^Pen: %^VV2V:) %^VowsRM: ;
+!! rēnaz+N+Sg+Gen:
+!!€ rēinaz^Pen^VV2V^VowsRM^ConsRM>õ
+!!€ rein000000>õ
 
 !! rōda+N+Pl+Par
 !!€ rōuda^VV2V^PalatalizeLeft^VowsRM>i
@@ -434,8 +440,8 @@ a:0 <=>   _ Dummy:* %^VowsRM: \[ %^PalatalizeLeft: ]* [ # | %> ] ;
 
 "õ:0"
 !! **Rule: @RULENAME@**
-õ:0 <=> _ (%^Pen: %^ConsRM:) (%^Pen: %^VowsRM:) DummyNoPen:* %^VowsRM: ;
-!  [ Cns: | :Cns ]+ _ [ ( %^StodRM:0 ) ( %^Stress1to2:0 ) | %^VowsMetath:0 | ( %^StodRM:0 ) %^ConsSh:0 | %^VowsLI1:0 ] %^VowsRM:0 ;
+õ:0 <=> _ (Cns:) (%^Pen: %^ConsRM:) (%^Pen: %^VowsRM:) DummyNoPen:* %^VowsRM: ;
+
 !!€# kittõ%^ConsSh%^VowsRM%>dõd
 !!€0 kit00000tõd
 !          Vow %> _ [ d | n | k s | s t ] ;
@@ -535,8 +541,11 @@ o:0 <=> # [p|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V:]
 !! **Rule: @RULENAME@**
  z:0 <=>
 # Cns* Vow:+ ( ʼ: ) Cns: _ Vow: (%^VV2V:) ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:] ;
-  _ (%^Pen: %^VV2V:|%^Stress2to1:|%^VV2V:) (%^StodRM:) (%^VowsRM:) %^ConsRM: ;
+  _ ( %^Pen: %^VV2V: | %^Stress2to1: | %^VV2V: ) ( %^StodRM: ) ( %^VowsRM: ) %^ConsRM: ;
   z _ %{õØ%}: [l|ļ|r|n] Vow: %^Pen: %^ConsRM: ;
+!! rēnaz+N+Sg+Gen:
+!!€ rēinaz^Pen^VV2V^VowsRM^ConsRM>õ
+!!€ rein000000>õ
 !!€  rik0āz%^Stress2to1%^ConsRM
 !0  rikkõ000
 
