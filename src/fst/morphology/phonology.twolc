@@ -456,6 +456,7 @@ i:0 <=> # Cns:* [ ē | ǭ | ū ] _ Cns:+ ( Vow: ) %^U2ZERO:0 ;
 !  # Cns* [ e: | ȯ: (0:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ; 
 !!€# leiba%^VowsLI1%>st
 !!€0 lē0ba00st
+ # Cns:* Vow:+ (ʼ:) (Vow:) Cns:+ (:Cns) _ (%^StodRM:) (%^CC2C:) %^VowsRM: ;
  # Cns:* Vow:+ (ʼ:) [ CnsWithStod :0* | i g | Cns:+ Cns: ] _ (%^StodRM:) (%^ConsSh:) %^VowsRM: ;
          # Cns* e: _ %^VowsLI1:0 ;
 !!€# tei%^VowsLI1%>ḑi
@@ -541,7 +542,7 @@ o:0 <=> # [p|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V:]
 !! **Rule: @RULENAME@**
  z:0 <=>
 # Cns* Vow:+ ( ʼ: ) Cns: _ Vow: (%^VV2V:) ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:] ;
-  _ ( %^Pen: %^VV2V: | %^Stress2to1: | %^VV2V: ) ( %^StodRM: ) ( %^VowsRM: ) %^ConsRM: ;
+  _ ( %^Pen: %^VV2V: | %^Stress2to1: | %^VV2V: | %^ĪE2Ē:) ( %^StodRM: ) ( %^VowsRM: ) %^ConsRM: ;
   z _ %{õØ%}: [l|ļ|r|n] Vow: %^Pen: %^ConsRM: ;
 !! rēnaz+N+Sg+Gen:
 !!€ rēinaz^Pen^VV2V^VowsRM^ConsRM>õ
