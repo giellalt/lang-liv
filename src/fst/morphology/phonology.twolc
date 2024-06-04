@@ -93,7 +93,7 @@ K1:k       !!= * @CODE@ this k is not effected by gradation
 %^PalatalizeLeft:0 !!  * @CODE@ laps:läpš
 %^DePal:0 	   !! * @CODE@ 
 %^VowsL1aToǭ:0  !!= * @CODE@ 
-%^VowsõToi:0 !! * @CODE@ kīndõr:kīndiriž
+%^Õ2I:0 !! * @CODE@ kīndõr:kīndiriž
 %- !!  * @CODE@ Hyphen in  constructions 
 %> !!  * @CODE@ morpheme boundary
 #   !!  * @CODE@ Word boundary for both lexicalised and dynamic compounds
@@ -119,7 +119,7 @@ Letters = Vow Cns ;												   !!≈ * @CODE@
 Dummy = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO   !!≈ * @CODE@ 
   %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ;  !!≈   @CODE@ 
 
-DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^VV2V %^U2ZERO   !!≈ * @CODE@ 
+DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower  %^PalatalizeLeft %^VV2V %^U2ZERO   !!≈ * @CODE@ 
   %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ;  !!≈   @CODE@ 
 
 !Definitions
@@ -328,8 +328,8 @@ o:ō <=> _ [i g | (u:) :Cns+] (Vow:) %^VowsLI1:0 ;
 !!€0 tē000000šti
  # Cns* _ (ʼ:) ( e: ) Cns: %^ĪE2Ē: ;
 ! requires 0:e
-!!€0 kīel%^ĪE2Ē%^PalatalizeLeft
-!!€# kē0ļ00
+!!€ kīel^ĪE2Ē^PalatalizeLeft
+!!€ kē0ļ00
 
 !! Destressing in second syllable
 "ā:õ "
@@ -356,13 +356,13 @@ a:õ <=>  _ ( %^ConsL:0 ) [ %^Stress2to1:0 | %^VowsShU1: ] [ # | %> ] ;
 
 "õ:i"
 !! **Rule: @RULENAME@**
- õ:i <=> [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: | ļ:] %^PalatalizeLeft: ;
+ õ:i <=> [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: | ļ:] %^Õ2I:  ;
 ! # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ [ n: | l: | z: ] %^PalatalizeLeft: ;
-         [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
-!         # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^VowsõToi:0  ;
-!!€# ǭʼrõn%^PalatalizeLeft
-!!€0 ǭʼriņ0
-!!€# nȭŗkõz%^PalatalizeLeft%>ist
+         [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^Õ2I:0  ;
+!         # Cns* [ Vow | ʼ: | :ʼ ]+ :Cns+ _ r %^Õ2I:0  ;
+!!€# ǭʼrõn%^Õ2I%^PalatalizeLeft
+!!€0 ǭʼriņ00
+!!€# nȭŗkõz%^Õ2I%>ist
 !!€0 nȭŗkiz00ist
 
 
@@ -430,21 +430,18 @@ a:0 <=>   _ Dummy:* %^VowsRM: \[ %^PalatalizeLeft: ]* [ # | %> ] ;
 !!€ tē000000šti
       _ Cns: %^ĪE2Ē: ;
 !! kēļ+N+Sg+Nom
-!!€ kīel%^ĪE2Ē%^PalatalizeLeft
+!!€ kīel^ĪE2Ē^PalatalizeLeft
 !!€ kē0l00
 
 "{õØ}:0"
 !! **Rule: @RULENAME@**
 %{õØ%}:0 <=>
-       _ [l|ļ|r|n] õ: Dummy:* %^Pen: %^VowsRM: ;
+       _ [l:|ļ:|r:|n:] õ: Dummy:* %^Pen: %^VowsRM: ;
 
 "õ:0"
 !! **Rule: @RULENAME@**
-õ:0 <=> _ (Cns:) (%^Pen: %^ConsRM:) (%^Pen: %^VowsRM:) DummyNoPen:* %^VowsRM: ;
-        _ Cns: Vow: %^Pen: %^VowsRM: ;
-!! erțļõ+V+Inf:
-!!€ erțõlõ^Pen^VowsRM^PalatalizeLeft
-!!€ erț0ļõ000
+õ:0 <=> _ (Cns:) (%^Pen: %^ConsRM:) (%^Pen: %^VowsRM:)  DummyNoPen:* %^VowsRM: ;
+!        _ Cns: Vow: %^Pen: %^VowsRM: ;
 !!€# kittõ%^ConsSh%^VowsRM%>dõd
 !!€0 kit00000tõd
 !          Vow %> _ [ d | n | k s | s t ] ;
@@ -681,7 +678,7 @@ n:ņ <=> _ Cns:* ( Vow: ) (%^VowsSh1:|%^VV2V:| %^VV2V:) (%^VOWRaise:) %^Palatali
        _ t s: Vow: %^VV2V: %^PalatalizeLeft: ;
 !!€# vȱntsa%^VV2V%^PalatalizeLeft%^VowsRM%>ti
 !!€0 vȯņtš00000ti
-        _ (%{XC%}:) (%^ĪE2Ē|%^VV2V:) (%^StodRM:) %^PalatalizeLeft:0 ; !! sēņ:sēn 220
+        _ (%{XC%}:) (%^ĪE2Ē:|%^VV2V:) (%^StodRM:) %^PalatalizeLeft:0 ; !! sēņ:sēn 220
        _ g ( Vow: ) (%^VV2V:) %^PalatalizeLeft: ;
 !!€# kǟnga%^VV2V%^PalatalizeLeft%^VowsRMi
 !!€0 keņg0000i
@@ -736,13 +733,13 @@ d:ž <=>
 d:0 <=>
      Vow: (ʼ:) (Cns:+)  _ (%^Pen: %^VowsRM:|%^VOWRaise:) (%^PreI: %^StodRM:|%^VowsLI1:|%^StodRM:) [%^D2ZERO:0|%^ConsRM:] ;  !!= @CODE@ 
       Cns* Vow:+ ( ʼ: ) d _ Vow: ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:]  ;
-    d _ %{õØ%}: [l|ļ|r|n] Vow: %^Pen: %^ConsRM: ;
+    d _ %{õØ%}: [l:|ļ:|r:|n:] Vow: %^Pen: %^ConsRM: ;
     
 "p:0"
 !! **P loss before subsequent morpheme with underlying**  
 p:0 <=>
     # Cns* Vow:+  p _ (Vow:) %^CC2C:  ;
-    p _ %{õØ%}: [l|ļ|r|n] Vow: %^Pen: %^ConsRM: ;
+    p _ %{õØ%}: [l:|ļ:|r:|n:] Vow: %^Pen: %^ConsRM: ;
 
 "t:0"
 !! **T loss before subsequent morpheme with underlying initial d**  
@@ -750,7 +747,7 @@ t:0 <=>
     # Cns* Vow ( ʼ: ) t _ Vow: ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:]  ;
     # Cns* Vow:+ (Cns:) _ %^ConsRM: ;!2024-06-02
     [ Cns:+ | Vow: :u ] _ Vow: ( %^Stress1to2:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
-    t _ %{õØ%}: [l|ļ|r|n] Vow: %^Pen: %^ConsRM: ;
+    t _ %{õØ%}: [l:|ļ:|r:|n:] Vow: %^Pen: %^ConsRM: ;
 !!€# kittõ%^ConsSh%^VowsRM%>dõd
 !!€0 kit00000tõd
 
