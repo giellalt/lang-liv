@@ -636,7 +636,7 @@ o:0 <=> # [p|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V:]
 
 "z:ž"
 !! **Rule: @RULENAME@**
- z:ž <=> Vow: (ʼ:) (v) _ (Vow:0|t) (%^StodRM:) %^PalatalizeLeft:0 ; !!
+ z:ž <=> Vow: (ʼ:) (v) _ (Vow:0|t) (%^StodRM:) (%^Õ2I:) %^PalatalizeLeft:0 ; !!
    _ z: Vow: (%^VV2V:) (%^CC2C:) %^PalatalizeLeft: ;
 !!€# alīz%^PalatalizeLeft%>i
 !!€0 alīž00i
@@ -660,7 +660,7 @@ d:ḑ <=>
 l:ļ <=> _ Vow: (%^Pen: %^VowsRM:) %^PalatalizeLeft: ;
         _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vow: (%^Stress1to2:|%^VV2V:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
-        _ ( g |%{XC%}: ) (%^VowsLI1:|%^VV2V:) (%^StodRM:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) ( %^ConsRM:0 ) [ # | %> ] ;!kiļg:kilg
+        _ ( g |%{XC%}: ) (%^VowsLI1:|%^VV2V:) (%^StodRM:|%^Õ2I:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) ( %^ConsRM:0 ) [ # | %> ] ;!kiļg:kilg
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
 	_ (%^ĪE2Ē:) (%^StodRM:) %^PalatalizeLeft:0 ; !! kēļ:kēl 215
 !!€# äʼddõl%^PalatalizeLeft%>i
@@ -670,7 +670,7 @@ l:ļ <=> _ Vow: (%^Pen: %^VowsRM:) %^PalatalizeLeft: ;
 
 "n:ņ palatalization"
 !! **Rule: @RULENAME@**
-n:ņ <=> _ Cns:* ( Vow: ) (%^VowsSh1:|%^VV2V:| %^VV2V:) (%^VOWRaise:) %^PalatalizeLeft:0 ( %^VowsRM:0 | %^Vow2Iin2:) [ # | %> ] ;
+n:ņ <=> _ Cns:* ( Vow: ) (%^VowsSh1:|%^VV2V:| %^VV2V:) (%^VOWRaise:|%^Õ2I:) %^PalatalizeLeft:0 ( %^VowsRM:0 | %^Vow2Iin2:) [ # | %> ] ;
 !!€# Vē0na%^PalatalizeLeft%^VowsRMõ
 !!€0 Vein000õ
 !!€# ǭʼrõn%^PalatalizeLeft
@@ -745,7 +745,7 @@ p:0 <=>
 !! **T loss before subsequent morpheme with underlying initial d**  
 t:0 <=>
     # Cns* Vow ( ʼ: ) t _ Vow: ( %^StodRM:0 ) [%^ConsSh:0|%^CC2C:]  ;
-    # Cns* Vow:+ (Cns:) _ %^ConsRM: ;!2024-06-02
+    Vow:+ (Cns:) _ %^ConsRM: ;!2024-06-02
     [ Cns:+ | Vow: :u ] _ Vow: ( %^Stress1to2:0 ) %^VowsRM:0 ( %^ConsRM:0 ) %> d: õ d ;
     t _ %{õØ%}: [l:|ļ:|r:|n:] Vow: %^Pen: %^ConsRM: ;
 !!€# kittõ%^ConsSh%^VowsRM%>dõd
