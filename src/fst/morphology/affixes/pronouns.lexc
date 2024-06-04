@@ -186,6 +186,20 @@ LEXICON PRON_MITS !!= @CODE@ 11 mits:mit
 +Pl+Ill:miž K ;
 :m PL-ELA/INE_ist ;
 
+LEXICON PRON_SET !!= @CODE@ 11b set:set
++Sg+Nom: K ;
++Sg+Gen: K ;
++Sg+Dat:mõn K ;
++Sg+Par: K ;
++Sg+Ins:mõks K ;
++Sg+Ill:mõ K ;
++Sg+Ill:mõz K ;
+:m SG-ELA/INE_õst ;
+:m PL-INS_ÕDÕKS-STEM ;
++Pl+Par:midi K ;
++Pl+Ill:miž K ;
+:m PL-ELA/INE_ist ;
+
 
 !! Stem lexica
 LEXICON PRON_TUBĀ !!= @CODE@ tubā:tubā 19
