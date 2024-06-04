@@ -4473,19 +4473,19 @@ LEXICON NMN_MĪEZ !!≈ * **@CODE@** : 166
 	NMN_MĪEZ-SG	;
 	NMN_MĪEZ-PL	;
 LEXICON NMN_MĪEZ-SG !!≈ * **@CODE@** mīez:m 166
-:ī’e        SG-DAT_n ;
-:ī’e        SG-ELA/INE_stõ ;
-:ī’e        SG-GEN ;
-:ī’ez        SG-ILL_õ ;
-:ī’e        SG-INS_kõks ;
-:īez        SG-NOM  ;
-:īez        SG-PAR_tõ ;
+:%^ConsRM        SG-DAT_n ;
+:%^ConsRM        SG-ELA/INE_stõ ;
+:%^ConsRM        SG-GEN ;
+:        SG-ILL_õ ;
+:%^ConsRM        SG-INS_kõks ;
+:%^StodRM        SG-NOM  ;
+:%^StodRM        SG-PAR_tõ ;
 
 LEXICON NMN_MĪEZ-PL !!≈ * **@CODE@** : 166
-:ī’e        PL-INS_DKÕKS-STEM ;
-:ēʼ        PL-ELA/INE_šti ; !!≈ * **@CODE@** 
-:ēʼ        PL-ILL_ži ;
-:ēʼ        PL-PAR_ḑi ; !!≈ * **@CODE@** 
+:%^ConsRM        PL-INS_DKÕKS-STEM ;
+:%^ĪE2Ē%^ConsRM        PL-ELA/INE_šti ; !!≈ * **@CODE@** 
+:%^ĪE2Ē%^ConsRM        PL-ILL_ži ;
+:%^ĪE2Ē%^ConsRM        PL-PAR_ḑi ; !!≈ * **@CODE@** 
 
 
 !LEXICON NMN_ROʼVZ !!≈ * __@CODE@__ : 167 roʼvz:roʼv
