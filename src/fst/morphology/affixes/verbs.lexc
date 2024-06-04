@@ -389,6 +389,11 @@ LEXICON TV_LASKÕ
 !+TV:     V-01_LUʼGGÕ ;
 :     V-01_LASKÕ ;
 
+LEXICON TV_KÄSKÕ
+!!  **LEXICON @LEXNAME@ = laskõ:laskū 35b
+!+TV:     V-01_LUʼGGÕ ;
+:     V-01_KÄSKÕ ;
+
 LEXICON IV_AKKÕ
 !!  **LEXICON @LEXNAME@ = akkõ:akū 36
 !! Should ss be s and šš be š? 2013-02-19
@@ -604,6 +609,16 @@ LEXICON TV_UMBLÕ
 !!  **LEXICON @LEXNAME@ = umblõ: 58
 !+TV: V-01_UMBLÕ ;
 : V-01_UMBLÕ ;
+
+LEXICON IV_ERȚĻÕ
+!!  **LEXICON @LEXNAME@ = erțļõ:erțõlõ 58b
+!+IV: V-01_ERȚĻÕ ;
+: V-01_ERȚĻÕ ;
+
+LEXICON TV_ERȚĻÕ
+!!  **LEXICON @LEXNAME@ = erțļõ:erțõlõ 58b
+!+TV: V-01_ERȚĻÕ ;
+: V-01_ERȚĻÕ ;
 
 LEXICON V-AUX_MÕTLÕ
 !!  **LEXICON @LEXNAME@ = mõtlõ: 59
@@ -1697,6 +1712,38 @@ LEXICON	V-01_LASKÕ !!= @CODE@ luʼggõ:luʼggõ 29
 !! participles
  ACTPRSPRC ;
  ACTPRFPRC_n ;
+:%^ConsRM%^VowsRM PSSPRSPRC_tõb ;
+:%^ConsRM%^VowsRM	PSSPRFPRCSG_tõd    ;
+
+!! 35b
+LEXICON	V-01_KÄSKÕ !!= @CODE@ luʼggõ:luʼggõ 29
+!! This is mutual for 29-36: 
+!! luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+ GER_s   ;
+ INF_ZERO	  ;
+ SUP-STEM_m	  ; 
+:%^StodRM%^CC2C%^VowsRM%>ū INDPRSSG1-STEM    ;
+:%^CC2C%^VowsRM INDCONNEGSG    ;
+!! Prt
+:%^StodRM%^CC2C%^VowsRM%>ī INDPRT_zt/ztõ    ;
+! Cond
+ COND ;
+!! ImprtI
+:%^CC2C%^VowsRM 	IMPRTSG2/IMPRTCONNEGSG2    ;
+:%^Stress2to1 IMPRTPL1	;
+: IMPRTPL2	;
+ IMPRTCONNEGPL2_gid   ;
+:%^CC2C%^VowsRM IMPRTCONNEG ;
+
+!+Imprt+Pl2:%^Stress2to1%>gid	K    ;
+!! Jus
+ JUS_g	;
+!! Kvo
+:%^VowsRM QUO-STEM_iji	;
+
+!! participles
+ ACTPRSPRC ;
+ ACTPRFPRC_n ;
 :%^VowsRM PSSPRSPRC_tõb ;
 :%^VowsRM	PSSPRFPRCSG_tõd    ;
 
@@ -2366,6 +2413,36 @@ LEXICON V-01_UMBLÕ !! umblõ:umbõlõ
 !! participles
 :%^Pen%^VowsRM ACTPRSPRC ;
 :%^Pen%^VowsRM ACTPRFPRC_n ;
+:%^VowsRM PSSPRSPRC_tõb ;
+:%^VowsRM	PSSPRFPRCSG_tõd    ;
+
+!! 58
+LEXICON V-01_ERȚĻÕ !! erțļõ:erțõlõ
+!!  **LEXICON @LEXNAME@ = This is mutual for 58-61: 
+!! umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+:%^Pen%^VowsRM%^PalatalizeLeft   GER_s   ;
+:%^Pen%^VowsRM%^PalatalizeLeft   INF_ZERO	  ;
+:%^Pen%^VowsRM%^PalatalizeLeft   SUP-STEM_m	  ; 
+:%^Pen%^VowsRM%^PalatalizeLeft   INDPRSSG1-STEM    ;
+:%^Pen%^VowsRM%^PalatalizeLeft   INDCONNEGSG    ;
+!! Prt
+:%^Pen%^VowsRM%^PalatalizeLeft%^VowsRM%>i INDPRT_zt/ztõ    ;
+! Cond
+:%^Pen%^VowsRM%^PalatalizeLeft COND ;
+!! Imprt
+:%^VowsRM	IMPRTSG2/IMPRTCONNEGSG2    ;
+:%^Pen%^VowsRM%^PalatalizeLeft IMPRTPL1/PL2	;
+
+:%^VowsRM IMPRTCONNEG ;
+
+!! Jus
+:%^Pen%^VowsRM%^PalatalizeLeft JUS_g	;
+!! Qvo
+:%^Pen%^VowsRM%^PalatalizeLeft%^VowsRM QUO-STEM_iji	;
+
+!! participles
+:%^Pen%^VowsRM%^PalatalizeLeft ACTPRSPRC ;
+:%^Pen%^VowsRM%^PalatalizeLeft ACTPRFPRC_n ;
 :%^VowsRM PSSPRSPRC_tõb ;
 :%^VowsRM	PSSPRFPRCSG_tõd    ;
 
