@@ -330,6 +330,9 @@ kēļ+N+Sg+Nom
 **Rule: {õØ}:0**
 
 **Rule: õ:0**
+erțļõ+V+Inf:
+* *erțõlõ^Pen^VowsRM^PalatalizeLeft*
+* *erț0ļõ000*
 
 * kittõ%^ConsSh%^VowsRM%>dõd examples:*
 

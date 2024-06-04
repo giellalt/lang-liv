@@ -133,6 +133,8 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON TV_LASKÕ = laskõ:laskū 35
 
+**LEXICON TV_KÄSKÕ = laskõ:laskū 35b
+
 **LEXICON IV_AKKÕ = akkõ:akū 36
 Should ss be s and šš be š? 2013-02-19
 
@@ -218,6 +220,10 @@ Should ss be s and šš be š? 2013-02-19
 **LEXICON IV_UMBLÕ = umblõ: 58
 
 **LEXICON TV_UMBLÕ = umblõ: 58
+
+**LEXICON IV_ERȚĻÕ = erțļõ:erțõlõ 58b
+
+**LEXICON TV_ERȚĻÕ = erțļõ:erțõlõ 58b
 
 **LEXICON V-AUX_MÕTLÕ = mõtlõ: 59
 
@@ -551,6 +557,18 @@ Kvo
 
 participles
 
+35b
+LEXICON	V-01_KÄSKÕ  luʼggõ:luʼggõ 29
+This is mutual for 29-36: 
+luʼggõ, muʼdžõ, vakțõ, kittõ, riʼddõ, kutsõ, laskõ, akkõ
+Prt
+ImprtI
+
+Jus
+Kvo
+
+participles
+
 36
 LEXICON	V-01_AKKÕ  luʼggõ:luʼggõ 29
 This is mutual for 29-36: 
@@ -736,6 +754,18 @@ Cond
 58
 umblõ:umbõlõ
 **LEXICON V-01_UMBLÕ = This is mutual for 58-61: 
+umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
+Prt
+Imprt
+
+Jus
+Qvo
+
+participles
+
+58
+erțļõ:erțõlõ
+**LEXICON V-01_ERȚĻÕ = This is mutual for 58-61: 
 umblõ, mõtlõ, mǟʼdlõ, naʼgrõ
 Prt
 Imprt

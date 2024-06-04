@@ -1336,7 +1336,7 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_TĒʼḐ-SG** tēʼḑ:tǟʼd 146
 * **LEXICON NMN_TĒʼḐ-PL** tēʼḑ:tēḑ 146
 
-* **LEXICON NMN_LĒʼḐ** lēʼḑ:līʼed 147
+* **LEXICON NMN_LĒʼḐ** lēʼḑ:līʼed 147 Hom3
 * **LEXICON NMN_LĒʼḐ-SG** lēʼḑ:līʼed 147
 * **LEXICON NMN_LĒʼḐ-PL** lēʼḑ:līʼed 147
 
