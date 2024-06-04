@@ -1600,7 +1600,7 @@ Sg Nom=Gen: No
 * **LEXICON NMN_AIGI** aigi:aigi 196
 **16**
 Stem change: Yes (vowel length in 1st syllable)
-* **LEXICON NMN_AIGI-SG** aigi:aigi 196
+* **LEXICON NMN_AIGI-SG** aigi:āigi 196
 
 * **LEXICON NMN_AIGI-PL** aigi:aigi 196
 
