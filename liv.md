@@ -619,6 +619,8 @@ PROBLEMS with dictionary lexica
 
 * **LEXICON N_LILLA** kuțā:kuțā 57
 
+* **LEXICON N_KAFFE** kuțā:kuțā 57
+
 * **LEXICON N_KUȚĀ** kuțā:kuțā 57
 
 * **LEXICON N_NĒTŠA** nētša:nētša 58
@@ -800,6 +802,8 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_KIM** : 126
 * **LEXICON N_KIM-SG** : 126
 * **LEXICON N_KIM-PL** : 126
+
+* **LEXICON N_PLUS** : 126b
 
 * **LEXICON N_VȮŅ** : 127
 
@@ -1374,6 +1378,11 @@ Sg Nom=Gen: Yes
 
 * **LEXICON NMN_LILLA-PL** lilla:lilla 56
 
+* **LEXICON NMN_KAFFE** kaffe:kaffe 56
+* **LEXICON NMN_KAFFE-SG** kaffe:kaffe 56
+
+* **LEXICON NMN_KAFFE-PL** kaffe:kaffe 56b
+
 * **LEXICON NMN_KUȚĀ** kuțā:kuțā 57
 * **LEXICON NMN_KUȚĀ-SG** kuțā:kuțā 57
 * **LEXICON NMN_KUȚĀ-PL** kuțā:kuțā 57
@@ -1691,6 +1700,8 @@ Stød: None
 125, 126, 128
 
 126
+
+126b
 
 * **LEXICON NMN_VȮŅ** : 127
 * **LEXICON NMN_VȮŅ-SG** : 127
