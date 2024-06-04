@@ -1576,7 +1576,7 @@ Stød: None
 
 192
 
-aʼigi:āʼigi
+aʼigi:aʼigi
 
 * **LEXICON NMN_PUʼNNI** puʼnni:puʼnni 193 tuļļi:tuʼļļi
 **127**
@@ -1605,14 +1605,15 @@ Stem change: Yes (vowel length in 1st syllable)
 * **LEXICON NMN_AIGI-PL** aigi:aigi 196
 
 * **LEXICON NMN_OUKI** : 197
-* **LEXICON NMN_OUKI-SG** : 197
+* **LEXICON NMN_OUKI-SG** : 197 ouki:ōuki
+
 * **LEXICON NMN_OUKI-PL** : 197
 
 * **LEXICON NMN_PAŖĪ** : 198 paŗī:paŗŗī
 * **LEXICON NMN_PAŖĪ-SG** : 198
 
 * **LEXICON NMN_PAŖĪ-PL** : 198
-* **:ž PL-PAR_i ;** paŗrīži ?
+* **:%^CC2Cž PL-PAR_i ;** paŗrīži ?
 
 199
 
@@ -1634,7 +1635,6 @@ Stem change: None
 * Yaml: **A-aqrlimi**
 
 * **LEXICON NMN_LĒʼMI-SG** lēʼmi:lēʼmi 202
-* **SG-PAR_t ;** Should this work for A-aqrlimi ?
 
 * **LEXICON NMN_LĒʼMI-PL** lēʼmi:lēmi 202
 
@@ -1687,12 +1687,15 @@ Stem change: None
 * Yaml: **N-rishtiing**
 * **LEXICON NMN_ROʼVZT-PL** roʼvzt:roʼvzt 212
 
-* **LEXICON NMN_TUʼĻ** : 213 tuʼļ:tuʼl
+* **LEXICON NMN_TUʼĻ** : 213 tuʼļ:tūʼl
 * Yaml: **N-tuqlj**
 * **LEXICON NMN_TUʼĻ-SG** : 213
 * **LEXICON NMN_TUʼĻ-PL** : 213
 
 * **LEXICON NMN_TŪĻ** tūļ:tūl 214
+
+* **LEXICON NMN_TŪĻ-PL** tūļ:tūl 215
+
 * **LEXICON NMN_KĒĻ** kēļ:kīel 215
 
 * **LEXICON NMN_KĒĻ-PL** kēļ:kīel 215
@@ -1702,7 +1705,7 @@ Stem change: None
 
 * **LEXICON NMN_PŪOL-PL** : 216
 
-* **LEXICON NMN_ĪKŠ** : 217
+* **LEXICON NMN_ĪKŠ** : 217 
 * **LEXICON NMN_ĪKŠ-SG** : 217
 * **LEXICON NMN_ĪKŠ-PL** : 217
 
