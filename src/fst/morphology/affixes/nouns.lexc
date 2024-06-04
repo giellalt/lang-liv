@@ -4937,29 +4937,28 @@ LEXICON NMN_LĒʼJI-PL !!≈ * **@CODE@** : 188
        PL-ILL_ž ;
        PL-PAR_di ;
 
-LEXICON NMN_TUĻĻI !!≈ * **@CODE@** : 189
+LEXICON NMN_TUĻĻI !!≈ * **@CODE@** : 189 is this a noun no ʼ
         NMN_TUĻĻI-SG ;
         NMN_TUĻĻI-PL ;
 LEXICON NMN_TUĻĻI-SG !!≈ * **@CODE@** : 188
-:zõ      SG-DAT_n ;
-:z       SG-ELA/INE_õst ;
-         SG-ELA/INE_st ;
-:z       SG-GEN ;
-:z       SG-ILL_õ ;
-:z       SG-INS_õks     ;
-         SG-NOM  ;
-:z       SG-PAR_t ;
-         SG-PAR_ZERO ;
+:%^StodRMz        SG-DAT_õn ;
+:%^StodRMz       	SG-ELA/INE_õst ;
+:%^StodRM       	SG-ELA/INE_st ;
+:%^StodRMz        SG-GEN ;
+:%^StodRMz  	SG-ILL_õ ;
+:%^StodRMz        SG-INS_õks ;
+:%^StodRM			   SG-NOM  ;
+:%^StodRMz    	SG-PAR_t ;
+:%^StodRM    	SG-PAR_t ;
 
 LEXICON NMN_TUĻĻI-PL !!≈ * **@CODE@** : 188
-:z     PL-INS_DÕKS-STEM ;
-       PL-INS_DÕKS-STEM ;
-:ž     PL-ELA/INE_ist ;
-       PL-ELA/INE_sti ;
-:ži    PL-ILL_z ;
-       PL-ILL_ž ;
-:ž       PL-PAR_i ;
-       PL-PAR_di ;
+:%^StodRM 	PL-INS_DÕKS-STEM ;
+:%^StodRM 	PL-INS_ZTÕKS-STEM ;
+:%^StodRMž 	PL-ELA/INE_ist ;
+:%^StodRMž 	PL-ILL_iz ;
+:%^StodRMž 	PL-ILL_ZERO ;
+:%^StodRMž 	PL-PAR_i ;
+:%^StodRM 	PL-PAR_di ;
 
 LEXICON NMN_LÄʼBḐI !!≈ * **@CODE@** läbḑi:läʼbḑi 190
         NMN_LÄʼBḐI-SG ;
@@ -5032,24 +5031,19 @@ LEXICON NMN_PUʼNNI !!≈ * **@CODE@** puʼnni:puʼnni 193 tuļļi:tuʼļļi
 	NMN_PUʼNNI-SG	;
 	NMN_PUʼNNI-PL	;
 LEXICON NMN_PUʼNNI-SG !!≈ * **@CODE@** puʼnni:puʼn 193
-:%^StodRMz        SG-DAT_õn ;
-:%^StodRMz       	SG-ELA/INE_õst ;
-:%^StodRM       	SG-ELA/INE_st ;
-:%^StodRMz        SG-GEN ;
-:%^StodRMz  	SG-ILL_õ ;
-:%^StodRMz        SG-INS_õks ;
-:%^StodRM			   SG-NOM  ;
-:%^StodRMz    	SG-PAR_t ;
-:%^StodRM    	SG-PAR_t ;
+:%^StodRM%^CC2C%^VowsRMīz        SG-DAT_õn ;
+:%^StodRM%^CC2C%^VowsRMīz       	SG-ELA/INE_õst ;
+:%^StodRM%^CC2C%^VowsRMīz        SG-GEN ;
+:%^StodRM%^CC2C%^VowsRMīz  	SG-ILL_õ ;
+:%^StodRM%^CC2C%^VowsRMīz        SG-INS_õks ;
+:			   SG-NOM  ;
+:%^StodRM%^CC2C%^VowsRMīz    	SG-PAR_t ;
 
 LEXICON NMN_PUʼNNI-PL !!≈ * **@CODE@** puʼnni:punni 193
-:%^StodRM 	PL-INS_DÕKS-STEM ;
-:%^StodRM 	PL-INS_ZTÕKS-STEM ;
-:%^StodRMž 	PL-ELA/INE_ist ;
-:%^StodRMž 	PL-ILL_iz ;
-:%^StodRMž 	PL-ILL_ZERO ;
-:%^StodRMž 	PL-PAR_i ;
-:%^StodRM 	PL-PAR_di ;
+: 	PL-INS_ZTÕKS-STEM ;
+:%^StodRM%^CC2C%^VowsRMīž 	PL-ELA/INE_ist ;
+:%^StodRM%^CC2C%^VowsRMīž 	PL-ILL_iz ;
+:%^StodRM%^CC2C%^VowsRMīž 	PL-PAR_i ;
 
 
 LEXICON NMN_KAȚKI !!≈ * **@CODE@** kațki: 194
