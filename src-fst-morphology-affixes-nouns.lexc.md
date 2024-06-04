@@ -1181,7 +1181,7 @@ Stød: None
 * **LEXICON NMN_VÕRGÕ-SG** : 115 võrgõ:vȭrgõ
 * **LEXICON NMN_VÕRGÕ-PL** : 115
 
-* **LEXICON NMN_JÕUGÕ-SG** : 116
+* **LEXICON NMN_JÕUGÕ-SG** : 116 jõugõ:jȭugõ
 
 * **LEXICON NMN_JÕUGÕ-PL** : 116
 
@@ -1552,16 +1552,16 @@ Stem change: None
 * **LEXICON NMN_LĒʼJI** lēʼji:lēʼji 188
 **61**
 * Yaml: **A-aeqbtiji, leeqji**
-* **LEXICON NMN_LĒʼJI-SG** : 188
+* **LEXICON NMN_LĒʼJI-SG** : 188 äʼbțiji:äʼbțiji
 
 * **LEXICON NMN_LĒʼJI-PL** : 188
 
-* **LEXICON NMN_TUĻĻI** : 189
+* **LEXICON NMN_TUĻĻI** : 189 is this a noun no ʼ
 * **LEXICON NMN_TUĻĻI-SG** : 188
 
 * **LEXICON NMN_TUĻĻI-PL** : 188
 
-* **LEXICON NMN_LÄʼBḐI** läʼbḑi:läbḑi 190
+* **LEXICON NMN_LÄʼBḐI** läbḑi:läʼbḑi 190
 * **LEXICON NMN_LÄʼBḐI-SG** : 188
 
 * **LEXICON NMN_LÄʼBḐI-PL** : 188
@@ -1576,7 +1576,9 @@ Stød: None
 
 192
 
-* **LEXICON NMN_PUʼNNI** puʼnni:puʼn 193
+aʼigi:āʼigi
+
+* **LEXICON NMN_PUʼNNI** puʼnni:puʼnni 193 tuļļi:tuʼļļi
 **127**
 Stød: Yes
 Sg Nom=Gen: No

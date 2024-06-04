@@ -108,7 +108,7 @@ They must be escaped (cf morpheme boundaries further down):
 * Dummy = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
   %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
-* DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^VV2V %^U2ZERO 
+* DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^VV2V %^U2ZERO 
   %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 # Rule section
@@ -156,6 +156,9 @@ They must be escaped (cf morpheme boundaries further down):
 **Rule: ǭ:a in first syllable**
 
 **Rule: ē:e in first syllable**
+rēnaz+N+Sg+Gen:
+* *rēinaz^Pen^VV2V^VowsRM^ConsRM>õ*
+* *rein000000>õ*
 
 **Rule: ū:u in first syllable**
 * *jūo^VV2V>i*
@@ -205,8 +208,6 @@ lengthen vowels
 * ul%^VowsLI1>õd examples:*
 
 * ūl00õd examples:*
-
-**Rule: õ:ȭ in first syllable**
 
 **Rule: ȯ:ū in first syllable**
 
@@ -301,6 +302,9 @@ VOWEL LOSS
 * s0e0i examples:*
 
 **Rule: a:0**
+rēnaz+N+Sg+Gen:
+* *rēinaz^Pen^VV2V^VowsRM^ConsRM>õ*
+* *rein000000>õ*
 
 rōda+N+Pl+Par
 * *rōuda^VV2V^PalatalizeLeft^VowsRM>i*
@@ -396,6 +400,9 @@ lum+N+Sg+Par:  **snow/lumi**
 **Rule: m:0**
 
 **Rule: z:0**
+rēnaz+N+Sg+Gen:
+* *rēinaz^Pen^VV2V^VowsRM^ConsRM>õ*
+* *rein000000>õ*
 * *rik0āz%^Stress2to1%^ConsRM*
 
 ### Consonant lengthening
