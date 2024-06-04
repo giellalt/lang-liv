@@ -150,7 +150,7 @@ Rules
 "ā:a in first syllable"
 !! **Rule: @RULENAME@**
 ā:a <=>
-# Cns* _  ( i ) (ʼ:) Cns:+ Vow: %^Pen: %^VV2V: ;
+# Cns* _  [( i ) (ʼ:)|ʼ:  i ] Cns:+ Vow: %^Pen: %^VV2V: ;
 # Cns* _  ( i ) (ʼ:) Cns:+ (%{XC%}:) (Vow:) [ %^Stress1to2:0 | %^VowsSh1:0 | %^VV2V:0 ] ;
 !!€# āļdža%^VV2V%^A2ÕIn2
 !!€0 aļdžõ00
@@ -636,7 +636,7 @@ o:0 <=> # [p|m|v]* [ ū: ]  _ (i) Cns:+ (:Cns) (Vow:) [ %^Stress1to2:0 |%^VV2V:]
 
 "z:ž"
 !! **Rule: @RULENAME@**
- z:ž <=> Vow: (ʼ:) _ (Vow:0|t) (%^StodRM:) %^PalatalizeLeft:0 ; !!
+ z:ž <=> Vow: (ʼ:) (v) _ (Vow:0|t) (%^StodRM:) %^PalatalizeLeft:0 ; !!
    _ z: Vow: (%^VV2V:) (%^CC2C:) %^PalatalizeLeft: ;
 !!€# alīz%^PalatalizeLeft%>i
 !!€0 alīž00i
