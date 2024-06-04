@@ -441,7 +441,10 @@ a:0 <=>   _ Dummy:* %^VowsRM: \[ %^PalatalizeLeft: ]* [ # | %> ] ;
 "õ:0"
 !! **Rule: @RULENAME@**
 õ:0 <=> _ (Cns:) (%^Pen: %^ConsRM:) (%^Pen: %^VowsRM:) DummyNoPen:* %^VowsRM: ;
-
+        _ Cns: Vow: %^Pen: %^VowsRM: ;
+!! erțļõ+V+Inf:
+!!€ erțõlõ^Pen^VowsRM^PalatalizeLeft
+!!€ erț0ļõ000
 !!€# kittõ%^ConsSh%^VowsRM%>dõd
 !!€0 kit00000tõd
 !          Vow %> _ [ d | n | k s | s t ] ;
@@ -657,7 +660,8 @@ d:ḑ <=>
 
 "l:ļ"
 !! **Rule: @RULENAME@**
-l:ļ <=> _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
+l:ļ <=> _ Vow: (%^Pen: %^VowsRM:) %^PalatalizeLeft: ;
+        _ Vow: (%^Stress2to1:0) %^VowsRM:0 ( %^ConsRM:0 ) %> [ ḑ i | ž i | š t i ] ;
         _ m Vow: (%^Stress1to2:|%^VV2V:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) [ # | %> ] ;
         _ ( g |%{XC%}: ) (%^VowsLI1:|%^VV2V:) (%^StodRM:) %^PalatalizeLeft:0 ( %^VowsRM:0 ) ( %^ConsRM:0 ) [ # | %> ] ;!kiļg:kilg
 !! This rule should not require the %^ConsRM:0 trigger, but for now this makes it work.
