@@ -4955,8 +4955,9 @@ LEXICON NMN_TUĻĻI-PL !!≈ * **@CODE@** : 188
 :%^StodRM 	PL-INS_DÕKS-STEM ;
 :%^StodRM 	PL-INS_ZTÕKS-STEM ;
 :%^StodRMž 	PL-ELA/INE_ist ;
+:%^StodRM 	PL-ELA_sti ;
 :%^StodRMž 	PL-ILL_iz ;
-:%^StodRMž 	PL-ILL_ZERO ;
+:%^StodRM 	PL-ILL_ž ;
 :%^StodRMž 	PL-PAR_i ;
 :%^StodRM 	PL-PAR_di ;
 
@@ -5083,21 +5084,20 @@ LEXICON NMN_AIGI !!≈ * **@CODE@** aigi:aigi 196
 !! Stem change: Yes (vowel length in 1st syllable)
 	NMN_AIGI-SG	;
 	NMN_AIGI-PL	;
-LEXICON NMN_AIGI-SG !!≈ * **@CODE@** aigi:aigi 196
-:%^VowsLI1z        SG-DAT_õn ;
-:%^VowsLI1z       	SG-ELA/INE_õst ;
-:%^VowsLI1z        SG-GEN ;
-:%^VowsLI1z  	SG-ILL_õ ;
-! SG-INE ;
-:%^VowsLI1z        SG-INS_õks ;
-	SG-NOM  ;
-:%^VowsLI1z    	SG-PAR_t ;
+LEXICON NMN_AIGI-SG !!≈ * **@CODE@** aigi:āigi 196
+:%^StodRMz        SG-DAT_õn ;
+:%^StodRMz       	SG-ELA/INE_õst ;
+:%^StodRMz        SG-GEN ;
+:%^StodRMz  	SG-ILL_õ ;
+:%^StodRMz        SG-INS_õks ;
+:%^VV2V%^StodRM	SG-NOM  ;
+:%^StodRMz    	SG-PAR_t ;
 
 LEXICON NMN_AIGI-PL !!≈ * **@CODE@** aigi:aigi 196
-:z 	PL-INS_DÕKS-STEM ;
-:%^VowsLI1ž 	PL-ELA/INE_ist ;
-:%^VowsLI1ž 	PL-ILL_iz ;
-:%^VowsLI1ž 	PL-PAR_i ;
+:%^VV2V%^StodRMz 	PL-INS_TÕKS-STEM ;
+:%^StodRMž 	PL-ELA/INE_ist ;
+:%^StodRMž 	PL-ILL_iz ;
+:%^StodRMž 	PL-PAR_i ;
 
 
 LEXICON NMN_OUKI !!≈ * **@CODE@** : 197
