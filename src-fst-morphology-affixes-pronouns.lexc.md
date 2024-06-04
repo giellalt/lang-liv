@@ -32,6 +32,8 @@ LEXICON PRON_MIDĀGÕD  midāgõd:midāg 10
 
 LEXICON PRON_MITS  11 mits:mit
 
+LEXICON PRON_SET  11b set:set
+
 Stem lexica
 LEXICON PRON_TUBĀ  tubā:tubā 19
 

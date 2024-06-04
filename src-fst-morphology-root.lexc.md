@@ -322,6 +322,7 @@ And following triggers to control variation
 * %^U2ZERO  The u => 0
 * %^VV2V	  shorten vowel
 * %^CC2C  weak-grade stem
+*  %^Õ2I		  vowel change in stem 
 
 * {front} = front vowels
 * {back} = back vowels

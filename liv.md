@@ -2348,6 +2348,8 @@ LEXICON PRON_MIDĀGÕD  midāgõd:midāg 10
 
 LEXICON PRON_MITS  11 mits:mit
 
+LEXICON PRON_SET  11b set:set
+
 Stem lexica
 LEXICON PRON_TUBĀ  tubā:tubā 19
 
@@ -3577,7 +3579,7 @@ They must be escaped (cf morpheme boundaries further down):
 * Dummy = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^PenVV2V %^Pen %^VV2V %^U2ZERO 
   %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
-* DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^VV2V %^U2ZERO 
+* DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^VV2V %^U2ZERO 
   %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
 # Rule section
@@ -3708,10 +3710,8 @@ LOWER VOWELS
 * tīʼe%^VOWLower%^StodRM%^VowsRM%>šti examples:*
 
 * tē000000šti examples:*
-
-* kīel%^ĪE2Ē%^PalatalizeLeft examples:*
-
-* kē0ļ00 examples:*
+* *kīel^ĪE2Ē^PalatalizeLeft*
+* *kē0ļ00*
 
 Destressing in second syllable
 **Rule: ā:õ **
@@ -3732,11 +3732,11 @@ Destressing in second syllable
 
 **Rule: õ:i**
 
-* ǭʼrõn%^PalatalizeLeft examples:*
+* ǭʼrõn%^Õ2I%^PalatalizeLeft examples:*
 
-* ǭʼriņ0 examples:*
+* ǭʼriņ00 examples:*
 
-* nȭŗkõz%^PalatalizeLeft%>ist examples:*
+* nȭŗkõz%^Õ2I%>ist examples:*
 
 * nȭŗkiz00ist examples:*
 
@@ -3793,15 +3793,12 @@ rōda+N+Pl+Par
 * *tīʼe%^VOWLower%^StodRM%^VowsRM%>šti*
 * *tē000000šti*
 kēļ+N+Sg+Nom
-* *kīel%^ĪE2Ē%^PalatalizeLeft*
+* *kīel^ĪE2Ē^PalatalizeLeft*
 * *kē0l00*
 
 **Rule: {õØ}:0**
 
 **Rule: õ:0**
-erțļõ+V+Inf:
-* *erțõlõ^Pen^VowsRM^PalatalizeLeft*
-* *erț0ļõ000*
 
 * kittõ%^ConsSh%^VowsRM%>dõd examples:*
 
@@ -4374,6 +4371,7 @@ And following triggers to control variation
 * %^U2ZERO  The u => 0
 * %^VV2V	  shorten vowel
 * %^CC2C  weak-grade stem
+*  %^Õ2I		  vowel change in stem 
 
 * {front} = front vowels
 * {back} = back vowels
