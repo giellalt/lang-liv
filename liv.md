@@ -2280,6 +2280,8 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
 * **LEXICON NMN_ĀNKAŖ** ānkaŗ:ānkaŗ 240
 
+* __LEXICON NMN_ĀNKAŖ-PL__ ānkaŗ:ānkaŗ 240
+
 * __LEXICON NMN_VIRPÕĻ__ virpõļ:virpõļ 241
 * __LEXICON NMN_VIRPÕĻ-SG__ virpõļ:virpõļ 241
 
