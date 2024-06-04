@@ -1909,8 +1909,8 @@ belongs elsewhere **N-kalendaar** kalendār+N+Sg+Ela => kalendārst
 * **LEXICON NMN_MĪEZ-SG** mīez:m 166
 
 * **LEXICON NMN_MĪEZ-PL** : 166
-* **:ēʼ PL-ELA/INE_šti ;** 
-* **:ēʼ PL-PAR_ḑi ;** 
+* **:%^ĪE2Ē%^ConsRM PL-ELA/INE_šti ;** 
+* **:%^ĪE2Ē%^ConsRM PL-PAR_ḑi ;** 
 
 * **LEXICON NMN_ROʼVZ-SG** : 167
 * **LEXICON NMN_ROʼVZ-PL** : 167
