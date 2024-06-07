@@ -1140,9 +1140,10 @@ LEXICON N_APPÕN-PL !!≈ * **@CODE@** appõn:appõn 235
         NMN_APPÕN-PL  ;
 
 LEXICON N_ǬʼRÕN !!≈ * **@CODE@** ǭʼrõn:ǭrõn 236
-        N_TIDĀR ;
+        NMN_ǬʼRÕN-SG ;
+        NMN_ǬʼRÕN-PL ;
 LEXICON N_ǬʼRÕN-PL !!≈ * **@CODE@** ǭʼrõn:ǭrõn 236
-        N_TIDĀR-PL  ;
+        N_ǬʼRÕN-PL  ;
 
 LEXICON N_KĪNDÕR !!≈ * **@CODE@** kīndõr:kīndõr 237
         N_KĪNDÕR-SG  ;
@@ -1209,7 +1210,6 @@ LEXICON NMN_PŪ-PL
  PL-INS_DKÕKS-STEM ;
  PL-ELA/INE_šti ;
  PL-ILL_ʼži ;
-! PL-INE ;
  PL-PAR_ḑi ;
 
 LEXICON NMN_RǬʼ
