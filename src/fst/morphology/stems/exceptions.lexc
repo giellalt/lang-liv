@@ -112,3 +112,17 @@ rēnaz+N:rēinaz NMN_RĒNAZ ;!correct lemma required for test
 !! ### NUMERALS testing
 -kimdõz+A:-kimdõz NMN_VĪDÕZ ;
 -tuoistõnz+A:-tuoistõnz NMN_TUOISTÕNZ ;
+
+!! ### testing what is this
+īž+N+Sg+Nom:īʼd%^D2Ž K ;
+īž+N+Sg+Gen:īʼd K ;
+īž+N+Sg+Dat:īʼdõn K ;
+īž+N+Sg+Par:īʼdtõ K ;
+īž+N+Sg+Ins:īʼdkõks K ;
+īž+N+Sg+Ill:īʼdõ K ;
+īž+N+Sg+Ine:īʼdsõ K ;
+īž+N+Sg+Ela:īʼdstõ K ;
+īž+N:īʼd PL-INS_ZEROKÕKS-STEM ;
+īž+N:īʼd%^D2Ž PL-PAR_i ;
+īž+N:īʼd PL-ILL_iž ;
+īž+N:īʼd PL-ELA/INE_šti ;
