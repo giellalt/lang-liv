@@ -17,6 +17,8 @@ LEXICON PROP_KALĀ   contains  kalā:kalā 18
 
 LEXICON PROP_KALĀ-SG   contains  kalā:kalā 18
 
+LEXICON PROP_IRĒ-SG   contains  irē:iʼr 18a
+
 LEXICON PROP_TUBĀ  tubā:tubā 19
 
 LEXICON PROP_VĒNA  vēna:vēna 37

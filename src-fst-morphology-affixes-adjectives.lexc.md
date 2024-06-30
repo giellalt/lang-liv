@@ -18,6 +18,8 @@ LEXICON A_KALĀ   contains  kalā:kaʼlā 18
 
 LEXICON A_TUBĀ  tubā:tuʼbā 19
 
+LEXICON A_AMĀ  amā:aʼm 19a
+
 LEXICON A_AIGĀ  aigā:aʼig 20
 
 LEXICON A_KŪJA  kūja:??lēba 21

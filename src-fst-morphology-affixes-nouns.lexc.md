@@ -35,11 +35,23 @@ PROBLEMS with dictionary lexica
 
 * **LEXICON N_KALĀ-PL** contains  kalā:kaʼlā 18
 
+* **LEXICON N_IRĒ** contains  irē:iʼr 18
+
+* **LEXICON N_IRĒ-SG** contains  irē:iʼr 18
+
+* **LEXICON N_IRĒ-PL** contains  irē:iʼr 18
+
 * **LEXICON N_TUBĀ** tubā:tuʼbā 19
 
 * **LEXICON N_TUBĀ-SG** tubā:tuʼbā 19
 
 * **LEXICON N_TUBĀ-PL** tubā:tuʼbā 19
+
+* **LEXICON N_AMĀ** amā:aʼm 19a
+
+* **LEXICON N_AMĀ-SG** amā:aʼm 19a
+
+* **LEXICON N_AMĀ-PL** amā:aʼm 19a
 
 * **LEXICON N_AIGĀ** aigā:aigā 20
 
@@ -691,8 +703,23 @@ Consonant palatalization
 Vowel change in 2nd syllable ā:õ/0
 Stød: Yes
 
+18a
+* **LEXICON NMN_IRĒ** irē:iʼr
+Stem change: Yes
+Consonant lengthening
+Consonant palatalization
+Vowel change in 2nd syllable ā:õ/0
+Stød: Yes
+
 19
 * **LEXICON NMN_TUBĀ** tubā:tuʼb
+* Yaml: **A-amaa, N-tubaa** Pass: 2014.12.12
+Stem change:	 Yes
+Vowel change in word-final position a:õ/0
+Stød
+
+19a
+* **LEXICON NMN_AMĀ** amā:tuʼb
 * Yaml: **A-amaa, N-tubaa** Pass: 2014.12.12
 Stem change:	 Yes
 Vowel change in word-final position a:õ/0
