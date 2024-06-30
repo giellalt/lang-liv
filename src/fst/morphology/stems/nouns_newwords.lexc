@@ -11,6 +11,51 @@ test:test N_ "" ;
 !guessing?
 !< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ|B|C|Č|D|Ḑ|F|G|Ģ|H|J|K|Ķ|L|Ļ|M|N|Ņ|P|Q|R|Ŗ|S|Š|T|Ț|V|W|X|Z|Ž|A|Ā|Ä|Ǟ|Ü|Ǖ|E|Ē|I|Ī|O|Ō|Ȯ|Ȱ|Ǫ|Ǭ|Ȭ|Õ] [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ] ???>
 
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ō:"ǭ"|ī|ē|ō|ū|ū o] "+N":0 "+N_12_puu":0 > N_PŪ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ō:"ǭ"] ʼ "+N":0 "+N_13_rooq":0 > N_RǬʼ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ǟ] "+N":0 "+N_14_paeae":0 > N_PǞ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ī ʼ e] "+N":0 "+N_15_tiiqe":0 > N_TĪʼE ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ī|e i| u o i|a i |ȯ i] "+N":0 "+N_16_brii":0 > N_BRĪ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [e i] "+N":0 "+N_17_tei":0 > N_TEI ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|i|o|õ|u] 0:"ʼ" [l|n|r] ā:"0" "+N":0 "+N_18_kalaa":0 > N_KALĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|i|o|õ|u] 0:"ʼ" [l|n|r] ē:"0" "+N":0 "+N_18a_iree":0 > N_IRĒ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|e|i|o|õ|u] 0:"ʼ" [b|g|j|m|v] ā:"0" "+N":0 "+N_19_tubaa":0 > N_TUBĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* a 0:"ʼ" m ā:"0" "+N":0 "+N_19a_amaa":0 > N_AMĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|e|i|o|õ|u] 0:"ʼ" i [b|g|j|m|v] ā:"0" "+N":0 "+N_20_aigaa":0 > N_AIGĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ē 0:"i" [b|g|j|m|v] a "+N":0 "+N_21_leeba":0 > N_LĒBA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ǭ 0:"i" [b|g|j|m|v] a "+N":0 "+N_23_looja":0 > N_LǬJA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ǟ|ȭ] 0:"u" [b|g|j|m|v] a "+N":0 "+N_24_paeaeva":0 > N_PǞVA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|i|o|ȯ|õ] 0:"ʼ" z 0:"z" ā "+N":0 "+N_25_izaa":0 > N_IZĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* i e 0:"ʼ" z 0:"z" ā "+N":0 "+N_25a_piezaa":0 > N_PIEZĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|e|ȯ|u] 0:"ʼ" ž 0:"ž" ā "+N":0 "+N_26_azhaa":0 > N_AŽĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ā|ī] [ļ d|ņ d|r] ž a "+N":0 "+N_27_aaldzha":0 > N_ĀĻDŽA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [u] k 0:"k" ā "+N":0 "+N_28_sukaa":0 > N_SUKĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [i e] [p 0:"p"|t 0:"t"|k 0:"k"] ā "+N":0 "+N_29_liepaa":0 > N_LIEPĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|i|o|õ] [p|t|k] s ā "+N":0 "+N_30_oksaa":0 > N_OKŠĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ȱ] n t s ā "+N":0 "+N_31_voontsa":0 > N_VȰNTSA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* i e s t ā "+N":0 "+N_32_liestaa":0 > N_LIESTAA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [[ȭ|ū] [i|n|r]|ā [i|r]] g a:"0" "+N":0 "+N_33_aaiga":0 > N_AAIGA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ā] n g a:"0" "+N":0 "+N_33a_laanga":0 > N_LĀNGA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [ā|ī] l [g|m] a "+N":0 "+N_34_siilma":0 > N_SĪLMA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* ǟ [l|n|r] g a "+N":0 "+N_35_kaeaenga":0 > N_KǞNGA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* ā i n a "+N":0 "+N_36_aaina":0 > N_ĀINA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* ē 0:"i" n a "+N":0 "+N_37_veena":0 > N_VĒNA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [ō|ȭ] 0:"u" [d|k] a "+N":0 "+N_38_rooda":0 > N_RŌDA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [a|e|i|i e|o|õ|u|u o|ä] 0:"ʼ" [b 0:"b"|d 0:"d"|g 0:"g"|j 0:"j"|l 0:"l"|m 0:"m"|n 0:"n"|ņ 0:"ņ"|r 0:"r"|ŗ 0:"ŗ"|v 0:"v"|z 0:"z"] ā "+N":0 "+N_39_padaa":0 > N_PADĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [a|õ] 0:"ʼ" [b r|g m|z v] ā "+N":0 "+N_40_sobraa":0 > N_SÕBRĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [a|ä|e|i|o|u|i e] [p 0:"p"|t 0:"t"| ț 0:"ț"| k 0:"k"|s 0:"s"|š 0:"š"] ā "+N":0 "+N_41_kaepaa":0 > N_KÄPĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [a|e|i|o|õ|u|i e] [k l|k s|k t|p l|p ļ|p s n|p s t|p š|s k|s t|t k|t s|t š k|ț k|ț ļ] ā "+N":0 "+N_42_maksaa":0 > N_MAKSĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [ē|ī|ū o|ī e|ǟ|ū] [l 0:"l"|ļ 0:"ļ"|m 0:"m"|n 0:"n"|ņ 0:"ņ"|r 0:"r"|ŗ 0:"ŗ"] a "+N":0 "+N_43_keera":0 > N_KĒRA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [ǭ|ī] [l 0:"l"|ļ 0:"ļ"|m 0:"m"|n 0:"n"|ņ 0:"ņ"|r 0:"r"|ŗ 0:"ŗ"] a "+N":0 "+N_44_joora":0 > N_JǬRA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [ā|ǟ|ī|ȱ|ȭ|ū|ō|ǭ|ū o] [i b|i g|i g m|i k|i m|i p|i r|i t|l b|l d|l m|l p|l t s|l z|ļ m|m p|n d|n g|n k|n d l|n t|ņ ḑ|ņ k|ņ ț|r b|r k|r d|r l|r n|r s|ŗ g|ŗ k|r p|r f|r z|i s k|r s k|s k|d] a "+N":0 "+N_46_aaita":0 > N_ĀITA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [ā|ū] 0:"i" š:"s" k a "+N":0 "+N_47_uushka":0 > N_ŪŠKA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [ō|ȭ] 0:"u" k a "+N":0 "+N_48_mooka":0 > N_MȬKA ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [a|i|o] 0:"ʼ" d ž ā "+N":0 "+N_49_dadzhaa":0 > N_DADŽĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [u] š 0:"š" ā "+N":0 "+N_50_sushaa":0 > N_SUŠĀ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [u] p š ā "+N":0 "+N_51_kupshaa":0 > N_KUPŠĀ ;
+
+
+
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ä|i|ī|o|u] [l|ļ|m|n] "+N":0 "+N_99_ul":0 > N_UL ;
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]^{0,3} ä:"ǭ" [m|p] "+N":0 "+N_101_täm":0 > N_TÄM ;
 

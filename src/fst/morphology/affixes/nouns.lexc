@@ -63,6 +63,15 @@ LEXICON N_KALĀ-SG  !!≈ * **@CODE@** contains  kalā:kaʼlā 18
 LEXICON N_KALĀ-PL  !!≈ * **@CODE@** contains  kalā:kaʼlā 18
  NMN_KALĀ-PL    ;
 
+LEXICON N_IRĒ  !!≈ * **@CODE@** contains  irē:iʼr 18
+ NMN_IRĒ   ;
+
+LEXICON N_IRĒ-SG  !!≈ * **@CODE@** contains  irē:iʼr 18
+ NMN_IRĒ-SG    ;
+
+LEXICON N_IRĒ-PL  !!≈ * **@CODE@** contains  irē:iʼr 18
+ NMN_IRĒ-PL    ;
+
 LEXICON N_TUBĀ !!≈ * **@CODE@** tubā:tuʼbā 19
  	N_TUBĀ-SG	;
  	N_TUBĀ-PL	;
@@ -72,6 +81,16 @@ LEXICON N_TUBĀ-SG !!≈ * **@CODE@** tubā:tuʼbā 19
 
 LEXICON N_TUBĀ-PL !!≈ * **@CODE@** tubā:tuʼbā 19
  NMN_TUBĀ-PL   ;
+
+LEXICON N_AMĀ !!≈ * **@CODE@** amā:aʼm 19a
+ 	N_AMĀ-SG	;
+ 	N_AMĀ-PL	;
+
+LEXICON N_AMĀ-SG !!≈ * **@CODE@** amā:aʼm 19a
+ NMN_AMĀ-SG   ;
+
+LEXICON N_AMĀ-PL !!≈ * **@CODE@** amā:aʼm 19a
+ NMN_AMĀ-PL   ;
 
 LEXICON N_AIGĀ !!≈ * **@CODE@** aigā:aigā 20
  NMN_AIGĀ	;
@@ -1375,6 +1394,32 @@ LEXICON NMN_KALĀ-PL
 :%^PalatalizeLeft        PL-ILL_ži ;
 :%^PalatalizeLeft        PL-PAR_ḑi ;
 
+!! 18a
+LEXICON NMN_IRĒ !!≈ * **@CODE@** irē:iʼr
+!!≈ * Yaml: **N-kalaa** Pass: 2014.12.12
+!! Stem change: Yes
+!!   Consonant lengthening
+!!   Consonant palatalization
+!!   Vowel change in 2nd syllable ā:õ/0
+!! Stød: Yes
+	NMN_IRĒ-SG	;
+	NMN_IRĒ-PL	;
+
+LEXICON NMN_IRĒ-SG
+:%^StodRMē        SG-DAT_n ;
+:%^StodRMē        SG-ELA/INE_st ;
+:%^StodRMē        SG-GEN ;
+:%{XC%}%>õ    SG-ILL_ZERO ;
+:%^StodRMē        SG-INS_ks ;
+:%^StodRMē        SG-NOM  ;
+:%{XC%}%>õ    SG-PAR_ZERO ;
+
+LEXICON NMN_IRĒ-PL
+:%^StodRMē        PL-INS_DÕKS-STEM ;
+:%^PalatalizeLeft        PL-ELA/INE_šti ;
+:%^PalatalizeLeft        PL-ILL_ži ;
+:%^PalatalizeLeft        PL-PAR_ḑi ;
+
 !! 19
 LEXICON NMN_TUBĀ !!≈ * **@CODE@** tubā:tuʼb
 !! * Yaml: **A-amaa, N-tubaa** Pass: 2014.12.12
@@ -1393,6 +1438,29 @@ LEXICON NMN_TUBĀ-SG
 :%{XC%}%>õ    SG-PAR_ZERO ;
 
 LEXICON NMN_TUBĀ-PL
+:%^StodRMā        PL-INS_DÕKS-STEM ;
+:%^PalatalizeLeft        PL-ELA/INE_šti ;
+:%^PalatalizeLeft        PL-ILL_ži ;
+:%^PalatalizeLeft        PL-PAR_ḑi ;
+
+!! 19a
+LEXICON NMN_AMĀ !!≈ * **@CODE@** amā:tuʼb
+!! * Yaml: **A-amaa, N-tubaa** Pass: 2014.12.12
+!! Stem change:	 Yes
+!!   Vowel change in word-final position a:õ/0
+!! Stød
+ NMN_AMĀ-SG ;
+ NMN_AMĀ-PL ;
+LEXICON NMN_AMĀ-SG
+:%^StodRMā        SG-DAT_n ;
+:%^StodRMā        SG-ELA/INE_st ;
+:%^StodRMā        SG-GEN ;
+:%{XC%}%>õ    SG-ILL_ZERO ;
+:%^StodRMā        SG-INS_ks ;
+:%^StodRMā        SG-NOM  ;
+:%{XC%}%>õ    SG-PAR_ZERO ;
+
+LEXICON NMN_AMĀ-PL
 :%^StodRMā        PL-INS_DÕKS-STEM ;
 :%^PalatalizeLeft        PL-ELA/INE_šti ;
 :%^PalatalizeLeft        PL-ILL_ži ;
@@ -1431,19 +1499,19 @@ LEXICON NMN_LĒBA !!≈ * **@CODE@** lēba:leib
 	NMN_LĒBA-PL	;
 
 LEXICON NMN_LĒBA-SG
-:%^VowsLI1a        SG-DAT_n ;
-:%^VowsLI1a        SG-ELA/INE_st ;
-:%^VowsLI1a        SG-GEN ;
-:    SG-ILL_õ ;
-:%^VowsLI1a        SG-INS_ks ;
-:%^VowsLI1a        SG-NOM  ;
-:    SG-PAR_õ ;
+:%^U2ZERO        SG-DAT_n ;
+:%^U2ZERO        SG-ELA/INE_st ;
+:%^U2ZERO        SG-GEN ;
+:%^VV2V%^VowsRM    SG-ILL_õ ;
+:%^U2ZERO        SG-INS_ks ;
+:%^U2ZERO        SG-NOM  ;
+:%^VV2V%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_LĒBA-PL
-:%^VowsLI1a        PL-INS_DÕKS-STEM ;
-:        PL-ELA/INE_šti ;
-:        PL-ILL_ži ;
-:        PL-PAR_ḑi ;
+:%^U2ZERO        PL-INS_DÕKS-STEM ;
+:%^VV2V%^VowsRM        PL-ELA/INE_šti ;
+:%^VV2V%^VowsRM        PL-ILL_ži ;
+:%^VV2V%^VowsRM        PL-PAR_ḑi ;
 
 !! 21
 LEXICON NMN_KŪJA !!≈ * **@CODE@** kūja:leiba
@@ -1661,19 +1729,19 @@ LEXICON NMN_LIEPĀ !!≈ * **@CODE@** liepā:liep 29
  NMN_LIEPĀ-SG ;
  NMN_LIEPĀ-PL ;
 LEXICON NMN_LIEPĀ-SG !!≈ * **@CODE@** liepā:lieppā 29
-:ā        SG-DAT_n ;
-:ā        SG-ELA/INE_st ;
-:ā        SG-GEN ;
-:%{XC%}    SG-ILL_õ ;
-:ā        SG-INS_ks ;
-:ā        SG-NOM  ;
-:%{XC%}    SG-PAR_õ ;
+:%^CC2C        SG-DAT_n ;
+:%^CC2C        SG-ELA/INE_st ;
+:%^CC2C        SG-GEN ;
+:%^VowsRM    SG-ILL_õ ;
+:%^CC2C        SG-INS_ks ;
+:%^CC2C        SG-NOM  ;
+:%^VowsRM    SG-PAR_õ ;
 
 LEXICON NMN_LIEPĀ-PL !!≈ * **@CODE@** liepā:lieppā 29
-:ā        PL-INS_DÕKS-STEM ;
-:        PL-ELA/INE_īst ;
-:        PL-ILL_īž ;
-:%^VV2V        PL-PAR_ți ;
+:%^CC2C        PL-INS_DÕKS-STEM ;
+:%^CC2C%^VowsRM        PL-ELA/INE_īst ;
+:%^CC2C%^VowsRM        PL-ILL_īž ;
+:%^VV2V%^CC2C%^VowsRM        PL-PAR_ți ;
 
 LEXICON NMN_OKSĀ !!≈ * **@CODE@** oksā:oksā 30
 !!≈ * Yaml: **N-oksaa** Passed:
