@@ -70,6 +70,9 @@ LEXICON A_NIʼM  niʼm:nim 76
 
 LEXICON A_KAND  kand: 94
 
+* **LEXICON A_SERK** : 94
+serk:serk
+
 LEXICON A_UL  ul: 99
 
 LEXICON A_NIŖȚ  niŗț: 102

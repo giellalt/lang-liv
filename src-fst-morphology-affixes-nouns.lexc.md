@@ -37,10 +37,6 @@ PROBLEMS with dictionary lexica
 
 * **LEXICON N_IRĒ** contains  irē:iʼr 18
 
-* **LEXICON N_IRĒ-SG** contains  irē:iʼr 18
-
-* **LEXICON N_IRĒ-PL** contains  irē:iʼr 18
-
 * **LEXICON N_TUBĀ** tubā:tuʼbā 19
 
 * **LEXICON N_TUBĀ-SG** tubā:tuʼbā 19
@@ -163,6 +159,8 @@ PROBLEMS with dictionary lexica
 * **LEXICON N_TŠŪRTŠA** tšūrtša:tšūrtša 52
 
 * **LEXICON N_SĒMḐA** sēmḑa:sēmḑa 53
+
+* __LEXICON N_TĪERA__ tīera:tīera 54
 
 * **LEXICON N_KRǬIPA** krǭipa:krǭipa 55
 
@@ -1203,7 +1201,7 @@ Stød: None
 
 * **LEXICON NMN_TÄUŽ-SG** : 116
 
-* **LEXICON NMN_TÄUŽ-PL** : 116
+* **LEXICON NMN_TÄUŽ-PL** : 112
 
 * **LEXICON NMN_VAŖŽ** : 113 varž:vārd
 * **LEXICON NMN_VAŖŽ-SG** : 113
