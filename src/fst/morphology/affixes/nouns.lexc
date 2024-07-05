@@ -66,11 +66,11 @@ LEXICON N_KALĀ-PL  !!≈ * **@CODE@** contains  kalā:kaʼlā 18
 LEXICON N_IRĒ  !!≈ * **@CODE@** contains  irē:iʼr 18
  NMN_IRĒ   ;
 
-LEXICON N_IRĒ-SG  !!≈ * **@CODE@** contains  irē:iʼr 18
- NMN_IRĒ-SG    ;
+!LEXICON N_IRĒ-SG  !!≈ * **@CODE@** contains  irē:iʼr 18
+! NMN_IRĒ-SG    ;
 
-LEXICON N_IRĒ-PL  !!≈ * **@CODE@** contains  irē:iʼr 18
- NMN_IRĒ-PL    ;
+!LEXICON N_IRĒ-PL  !!≈ * **@CODE@** contains  irē:iʼr 18
+! NMN_IRĒ-PL    ;
 
 LEXICON N_TUBĀ !!≈ * **@CODE@** tubā:tuʼbā 19
  	N_TUBĀ-SG	;
@@ -275,13 +275,13 @@ LEXICON N_TŠŪRTŠA !!≈ * **@CODE@** tšūrtša:tšūrtša 52
 LEXICON N_SĒMḐA !!≈ * **@CODE@** sēmḑa:sēmḑa 53
  NMN_SĒMḐA	;
 
-!LEXICON N_TĪERA !!≈ * __@CODE@__ tīera:tīera 54
-! N_TĪERA-SG ;
-! N_TĪERA-PL ;
-!LEXICON N_TĪERA-SG
-! NMN_TĪERA-SG	;
-!LEXICON N_TĪERA-PL
-! NMN_TĪERA-PL	;
+LEXICON N_TĪERA !!≈ * __@CODE@__ tīera:tīera 54
+ N_TĪERA-SG ;
+ N_TĪERA-PL ;
+LEXICON N_TĪERA-SG
+ NMN_TĪERA-SG	;
+LEXICON N_TĪERA-PL
+ NMN_TĪERA-PL	;
 
 LEXICON N_KRǬIPA !!≈ * **@CODE@** krǭipa:krǭipa 55
  NMN_KRǬIPA	;
@@ -3299,38 +3299,38 @@ LEXICON NMN_PAŅ !!≈ * **@CODE@** : 104
 	NMN_PAŅ-SG	;
 	NMN_PAŅ-PL	;
 LEXICON NMN_PAŅ-SG !!≈ * **@CODE@** : 104
-:%{XC%}              SG-DAT_õn   ;
-        SG-ELA/INE_štõ  ;
-        SG-GEN      ;
-:%{XC%}              SG-ILL_õ    ;
-:%{XC%}              SG-INS_õks  ;
-        SG-NOM      ;
-:%{XC%}              SG-PAR_õ    ;
+:%{XC%}%^VV2V              SG-DAT_õn   ;
+:%^VV2V        SG-ELA/INE_štõ  ;
+:%^VV2V        SG-GEN      ;
+:%{XC%}%^VV2V              SG-ILL_õ    ;
+:%{XC%}%^VV2V              SG-INS_õks  ;
+:%^VV2V        SG-NOM      ;
+:%{XC%}%^VV2V              SG-PAR_õ    ;
 
 
 LEXICON NMN_PAŅ-PL !!≈ * **@CODE@** : 104
-:%^VowsL1aToǭ PL-INS_ÕDÕKS-STEM       ;
-:%^VowsL1aToǭ PL-ELA/INE_ist  ;
-:%^VowsL1aToǭ PL-ILL_iž       ;
-:%^VowsL1aToǭ PL-PAR_idi      ;
+: PL-INS_ÕDÕKS-STEM       ;
+: PL-ELA/INE_ist  ;
+: PL-ILL_iž       ;
+: PL-PAR_idi      ;
 
 LEXICON NMN_DAŅTŠ !!≈ * **@CODE@** : 105
 	NMN_DAŅTŠ-SG	;
 	NMN_DAŅTŠ-PL	;
 LEXICON NMN_DAŅTŠ-SG !!≈ * **@CODE@** : 105
-        SG-DAT_õn   ;
-        SG-ELA/INE_õst  ;
-        SG-GEN      ;
-        SG-ILL_õ    ;
-        SG-INS_õks  ;
-        SG-NOM      ;
-        SG-PAR_õ    ;
+:%^VV2V        SG-DAT_õn   ;
+:%^VV2V        SG-ELA/INE_õst  ;
+:%^VV2V        SG-GEN      ;
+:%^VV2V        SG-ILL_õ    ;
+:%^VV2V        SG-INS_õks  ;
+:%^VV2V        SG-NOM      ;
+:%^VV2V        SG-PAR_õ    ;
 
 LEXICON NMN_DAŅTŠ-PL !!≈ * **@CODE@** : 105
-:%^VowsLI1 	PL-INS_ÕDÕKS-STEM       ;
-:%^VowsLI1 	PL-ELA/INE_ist  ;
-:%^VowsLI1	PL-ILL_iz       ;
-:%^VowsLI1	PL-PAR_idi      ;
+: 	PL-INS_ÕDÕKS-STEM       ;
+: 	PL-ELA/INE_ist  ;
+:	PL-ILL_iz       ;
+:	PL-PAR_idi      ;
 
 
 LEXICON NMN_KOUŠ !!≈ * **@CODE@** : 106 kouš:kōuš
@@ -3446,20 +3446,20 @@ LEXICON NMN_TÄUŽ !!≈ * **@CODE@** täuž: adres 112
 	NMN_TÄUŽ-PL	;
 
 LEXICON NMN_TÄUŽ-SG !!≈ * **@CODE@** : 116
-		     SG-DAT_õn	;
-		     SG-ELA/INE_stõ	;
-		     SG-GEN	;
-		     SG-ILL_õ	;
-		     SG-INS_kõks	;
-:%^D2Ž		     SG-NOM	;
-:%^VowsLI1%^D2ZERO    SG-PAR_ta	;
+:%^VV2V		     SG-DAT_õn	;
+:%^VV2V		     SG-ELA/INE_stõ	;
+:%^VV2V		     SG-GEN	;
+:%^VV2V		     SG-ILL_õ	;
+:%^VV2V		     SG-INS_kõks	;
+:%^VV2V%^D2Ž		     SG-NOM	;
+:%^U2ZERO%^D2ZERO    SG-PAR_ta	;
 
 
-LEXICON NMN_TÄUŽ-PL !!≈ * **@CODE@** : 116
-:%^D2Ž	     PL-ELA/INE_ist	     ;
-:%^D2Ž	     PL-ILL_iz	     ;
-:%^VowsLI1	     PL-INS_ÕDÕKS-STEM	     ;
-:%^D2Ž	     PL-PAR_i	     ;
+LEXICON NMN_TÄUŽ-PL !!≈ * **@CODE@** : 112
+:%^VV2V%^D2Ž	     PL-ELA/INE_ist	     ;
+:%^VV2V%^D2Ž	     PL-ILL_iz	     ;
+:%^U2ZERO%^VowsLI1	     PL-INS_ÕDÕKS-STEM	     ;
+:%^VV2V%^D2Ž	     PL-PAR_i	     ;
 
 
 LEXICON NMN_VAŖŽ !!≈ * **@CODE@** : 113 varž:vārd
@@ -6325,9 +6325,9 @@ LEXICON PL-ELA/INE_īst
 !	PL-ELA_īšt	;
 !	PL-INE_īš	;
 
-LEXICON PL-ELA/INE_išt
-	PL-ELA_išt	;
-	PL-INE_iš	;
+!LEXICON PL-ELA/INE_išt
+!	PL-ELA_išt	;
+!	PL-INE_iš	;
 
 LEXICON PL-ELA/INE_sti
 	PL-ELA_sti	;
@@ -6443,8 +6443,8 @@ LEXICON PL-INE_iš
 LEXICON PL-INE_žis
 +Pl+Ine:%>žis K ;
 
-LEXICON PL-INE_īš
-+Pl+Ine:%>īš K ;
+!LEXICON PL-INE_īš
+!+Pl+Ine:%>īš K ;
 
 LEXICON PL-INE_s
 +Pl+Ine:%>s K ;
@@ -6467,8 +6467,8 @@ LEXICON PL-INE_si
 LEXICON PL-INE_ši
 +Pl+Ine:%>ši K ;
 
-LEXICON PL-INE_š
-+Pl+Ine:%>š K ;
+!LEXICON PL-INE_š
+!+Pl+Ine:%>š K ;
 
 LEXICON PL-INS_dõks
 +Pl+Ins:%>dõks K ;

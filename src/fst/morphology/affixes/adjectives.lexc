@@ -120,6 +120,10 @@ LEXICON A_NIʼM !!= @CODE@ niʼm:nim 76
 LEXICON A_KAND !!= @CODE@ kand: 94
  NMN_KAND	;
 
+LEXICON A_SERK !!≈ * **@CODE@** : 94
+!! serk:serk
+  NMN_SERK ;
+
 LEXICON A_UL !!= @CODE@ ul: 99
  NMN_UL	;
 
