@@ -137,6 +137,12 @@ test:test N_ "" ;
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ā|e|i|o u|ǭ|u] [ļ|ļ ḑ|ļ ņ|ļ ț|ņ|ŗ ț|ț] "+N":0 "+Guess":0 "+N_132_viljtj":0 > N_VIĻȚ ;
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|e|i|o] [ļ|ņ] "+N":0 "+Guess":0 "+N_133_elj":0 > N_EĻ ;
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ä 0:"ʼ"|ē 0:"ʼ"|ī 0:"ʼ"|ū 0:"ʼ" o] [ḑ|g ț|ļ] "+N":0 "+Guess":0 "+N_134_bleeqdj":0 > N_BLĒʼḐ ;
-< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|ä|ǟ|e|ē|e i|i|ī|ī e|o|õ u|ō|ō:"ǭ"|u|ū|ū o] [b|f t|g s t|h|k s|k t|k s t|l d|l f|l k t|l s|l s t|ļ|m|m n|m p s|m š|m š t|m t|n|n d|n k|n k t|n t|n t s|ņ g|ņ d š t|ņ š t|ņ ț|p k|p s|p s t|p š|p š t|r d|s|r f t|r k|r k t|r p|r s|r s k|r š k|r š t|r t|r t s|ŗ ț|s|s t|š k|t|t k|t š k|v|v š t|v z|z|ž] "+N":0 "+Guess":0 "+N_135_fakt":0 > N_FAKT ;
-
-
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|ä|ǟ|e|ē|e i|i|i e|ī|ī e|o|õ u|ȯ i|ō|ō:"ǭ"|u|ū|ū o] [b|f t|g s t|h|k s|k t|k s t|l d|l f|l k t|l s|l s t|ļ|m|m n|m p s|m š|m š t|m t|n|n d|n k|n k t|n t|n t s|ņ g|ņ d š t|ņ š t|ņ ț|p k|p s|p s t|p š|p š t|r d|s|r f t|r k|r k t|r p|r s|r s k|r š k|r š t|r t|r t s|ŗ ț|s|s t|š k|t|t k|t š k|v|v š t|v z|z|ž] "+N":0 "+Guess":0 "+N_135_fakt":0 > N_FAKT ;
+! wrong? lūos, single consonants? this is probably V+LongCons OR longV+SingleCons
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* a s "+N":0 "+Guess":0 "+N_136_tas":0 > N_TAS ;
+! 137 neitst
+! 138 
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ī e|ū] n d "+N":0 "+Guess":0 "+N_138_siiend":0 > N_SĪEND ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ǟ] 0:"ʼ" n d "+N":0 "+Guess":0 "+N_139_laeaeqnd":0 > N_LǞʼND ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|ǟ|e|e i|i|o|ō|u|u i|ū] [f|k|k s|k t|l s|l t|ļ|n g|n s|n t|n t s|p t|r d|r m|r n|s m|s t|t] "+N":0 "+Guess":0 "+N_140_aaigast":0 > N_ĀIGAST ;
+! wrong_ mõtmõt, mettõpitkit, aerōbik
