@@ -112,8 +112,15 @@ test:test N_ "" ;
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [e:"ē" 0:"i"|ȯ:"ū o" 0:"i"] [š|t š] "+N":0 "+Guess":0 "+N_107_spleish":0 > N_SPLEIŠ ;
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [e:"ē" 0:"i"] [s|t s] "+N":0 "+Guess":0 "+N_108_veis":0 > N_VEIS ;
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ȯ:"ū o" 0:"i"] [s|t s] "+N":0 "+Guess":0 "+N_109_pois":0 > N_PȮIS ;
-< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ä:"ǟ"|õ:"ȭ"|i:"ī" e] u d "+N":0 "+Guess":0 "+N_112_taeuzh":0 > N_TÄUŽ ;
-< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ä:"ǟ"|õ:"ȭ"|i:"ī"|a:"ā"|ȯ:"ȱ"] [l|n|r] d "+N":0 "+Guess":0 "+N_113_varjzh":0 > N_VAŖŽ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ä:"ǟ"|õ:"ȭ"|i:"ī" e] u ž:"d" "+N":0 "+Guess":0 "+N_112_taeuzh":0 > N_TÄUŽ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ä:"ǟ"|õ:"ȭ"|i:"ī"|a:"ā"|ȯ:"ȱ"] [ļ:"l"|ņ:"n"|ŗ:"r"] ž:"d" "+N":0 "+Guess":0 "+N_113_varjzh":0 > N_VAŖŽ ;
 !114-117
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|i|ȯ|ē|ī e|i e|u|u o|ū|ō|õ|ȭ|ū o|ä|ī|õ u] [b|d|i t|k|k k|k ț|l|l d z|l d|l g|l v|ļ ļ|m m|n|n g d|n g t|n t|ņ ņ|ņ r š|p|r|r d|r l|r p|r r|s|s k|s s|s t|t k|t s k|v|z] õ "+N":0 "+Guess":0 "+N_118_sieldo":0 > N_SIELDÕ ;
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a 0:"ʼ"|ǟ 0:"ʼ"|e 0:"ʼ"|i 0:"ʼ"|ī 0:"ʼ"|ī 0:"ʼ" e|o 0:"ʼ" u|õ 0:"ʼ"|õ 0:"ʼ" u|ō:"ǭ" 0:"ʼ"| u 0:"ʼ"|ū 0:"ʼ"|ū 0:"ʼ" o] [b|b d|d|ḑ ḑ|g|g d|g ḑ|k|k s t|l b|m|m d|m m|m t|n|n k t|n t|r|r g|r m|s k|t|v|v v|z z] õ "+N":0 "+Guess":0 "+N_119_nooqgo":0 > N_NǬʼGÕ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|u|ī e] [k|m|š] š õ "+N":0 "+Guess":0 "+N_120_ashsho":0 > N_AŠŠÕ ;
+!121 single
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|ä|o|õ|ȯ|i e] 0:"ʼ" [j|v] "+N":0 "+Guess":0 "+N_122_soqv":0 > N_SOʼV ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|i|ī|o|ǭ|e|ē] [j|m] "+N":0 "+Guess":0 "+N_123_kooj":0 > N_KǬJ ;
+
+
+
