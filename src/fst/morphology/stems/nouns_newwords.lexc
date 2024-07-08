@@ -120,7 +120,17 @@ test:test N_ "" ;
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|u|ī e] [k|m|š] š õ "+N":0 "+Guess":0 "+N_120_ashsho":0 > N_AŠŠÕ ;
 !121 single
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|ä|o|õ|ȯ|i e] 0:"ʼ" [j|v] "+N":0 "+Guess":0 "+N_122_soqv":0 > N_SOʼV ;
-< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|i|ī|o|ǭ|e|ē] [j|m] "+N":0 "+Guess":0 "+N_123_kooj":0 > N_KǬJ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|i|ī|o|ō:"ǭ"|e|ē] [j|m] "+N":0 "+Guess":0 "+N_123_kooj":0 > N_KǬJ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ī 0:"ʼ"|ū 0:"ʼ" o|ū 0:"ʼ"|ō:"ǭ" 0:"ʼ"] j "+N":0 "+Guess":0 "+N_124_ooqj":0 > N_ǬʼJ ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|ā|ǟ|e|e i|i|ī|ī e|o|ō|u|ū|ū o|ō:"ǭ"|o u|õ u|ä u|ȭ|u o] [b|d|f|g|i g|i k|i m|i n|i p|k|l|l b|l g|l k|l m|l v|ļ k|ļ m|m|m p t|n|n t|p|r|r b|r k|r m|r v|ŗ|ŗ g|ŗ ņ|t|u d|u t|v] "+N":0 "+Guess":0 "+N_125_irm":0 > N_IRM ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|ä|e|i|o|õ|u] [k|l|ļ|m|n|p|r|s|t] "+N":0 "+Guess":0 "+N_126_kim":0 > N_KIM ;
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ȯ] [ņ:"n"] "+N":0 "+Guess":0 "+N_127_vonj":0 > N_VȮŅ ;
+! wrong type for Ēgipt, Eirop, Holand, Island, Kanād, Luksemburg maybe 125
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a 0:"ʼ" i|ǟ 0:"ʼ"|ī 0:"ʼ"|ī 0:"ʼ" e|o 0:"ʼ"|ǭ 0:"ʼ"|ū 0:"ʼ"|ū 0:"ʼ" o|ȭ 0:"ʼ"] [g|l|l k|p|r|ŗ g|t|v|z] "+N":0 "+Guess":0 "+N_128_vaqit":0 > N_VAʼIT ;
+! wrong type Iʼzrael
+<  [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|ā|ǟ|e|ē|i|ī|o|ō|ī e|i o|i ō|u|ū] [f|k|l|ļ|n|r|t|v] "+N":0 "+Guess":0 "+N_129_amaat":0 > N_AMĀT ;
+! wrong type -boļ, Kīev ? How does this differ from 130 and 131
+!130, 131
 
 
 
