@@ -156,3 +156,31 @@ test:test N_ "" ;
 ! this looks like short vowel + š
 < [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [ē 0:"ʼ"|i 0:"ʼ"|ō:"ǭ" 0:"ʼ"|ū 0:"ʼ"] [g ž|š|t š|ž] "+N":0 "+Guess":0 "+N_145_ruuqtsh":0 > N_RŪʼTŠ ;
 !
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ē:"ǟ" 0:"ʼ" ḑ:"d" "+N":0 "+Guess":0 "+N_146_teeqdj":0 > N_TĒʼḐ ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ē:"ī" 0:"ʼ" 0:"e" ḑ:"d" "+N":0 "+Guess":0 "+N_147_leeqdj":0 > N_LĒʼḐ ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ī n t:"0" š:"0" "+N":0 "+Guess":0 "+N_148_kiintsh":0 > N_KĪNTŠ ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ō:"ǭ" ņ:"n" t:"0" š:"0" "+N":0 "+Guess":0 "+N_149_koonjtsh":0 > N_KǬŅTŠ ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ē:"ǟ" ņ:"n" t:"0" š:"0" "+N":0 "+Guess":0 "+N_150_leenjtsh":0 > N_LĒŅTŠ ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ī e m "+N":0 "+Guess":0 "+N_151_liiem":0 > N_LĪEM ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|ȯ] 0:"ʼ" [l|m] "+N":0 "+Guess":0 "+N_152_aqm":0 > N_AʼM ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [a|i|ȯ] 0:"ʼ" [ḑ|g|l|z] ū [m] "+N":0 "+Guess":0 "+N_153_azuum":0 > N_AZŪM ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* [e|i|õ] [k|š t|t|ț] ī [m] "+N":0 "+Guess":0 "+N_154_votjiim":0 > N_VÕȚĪM ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ō:"ǭ" [ņ] i [m] "+N":0 "+Guess":0 "+N_155_koonjim":0 > N_KǬŅIM ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž]* ē 0:"i" [t] a [m] "+N":0 "+Guess":0 "+N_156_eetam":0 > N_ĒTAM ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [d|g|j|k|k l|k s|k t|l|l b|l d|l j|ļ|m|n|n d|n j|n v|p š|r|r m|r n|ŗ|s|s t|š|š k|t|t r|v|z] [ā|ē|ī|ī e|o|ō|u|ū] [b|d|g|k|k s|l|m|n|n d|n g|r|t|z] "+N":0 "+Guess":0 "+N_157_sidaam":0 > N_SIDĀM ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [d|d r|j|k|k t|l|l d|ļ|m|n|r|r d|r g|ŗ|s|š t|t|z] [a|i|i u|o|õ|u] [b|g|k|m|n g|r|s] "+N":0 "+Guess":0 "+N_158_tuuoitog":0 > N_TŪOITÕG ;
+!
+< [b|c|č|d|ḑ|f|g|ģ|h|j|k|ķ|l|ļ|m|n|ņ|p|q|r|ŗ|s|š|t|ț|v|w|x|z|ž|a|ā|ä|ǟ|ü|ǖ|e|ē|i|ī|o|ō|ȯ|ȱ|ǫ|ǭ|ȭ|õ]* [d|d r|j|k|k t|l|l d|ļ|m|n|r|r d|r g|ŗ|s|š t|t|z] [a|i|i u|o|õ|u] [b|g|k|m|n d|n g|r|s] "+N":0 "+Guess":0 "+N_159_koorand":0 > N_KǬRAND ;
+!Are 158 and 159 the same?
