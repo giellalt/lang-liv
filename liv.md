@@ -4229,7 +4229,7 @@ Special symbols are classified with:
 * **+CLB**
 * **+PUNCT**
 * **+LEFT**
-* **+RIGHT**
+* **+RIGHT +MIDDLE**
 
 Special multiword units are analysed with:
 * **+Multi**
