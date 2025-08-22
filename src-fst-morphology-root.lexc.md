@@ -410,12 +410,6 @@ word classes
 * **Punctuation ;**
 * **Symbols ;**
 * **EXCEPTIONS ;**
-* **A_NEWWORDS ;** This is for feeding new adjectives
-* **ADV_NEWWORDS ;** This is for feeding new adverbs
-* **N_NEWWORDS ;** This is for feeding new nouns
-* **PROP_NEWWORDS ;** This is for feeding new propernouns
-* **V_NEWWORDS ;** This is for feeding new verbs
-* **QUESTIONABLEMISC_NEWWORDS ;** This is for feeding new words of questionable status
 
 Lexica for words that are not inflected
 

@@ -4493,12 +4493,6 @@ word classes
 * **Punctuation ;**
 * **Symbols ;**
 * **EXCEPTIONS ;**
-* **A_NEWWORDS ;** This is for feeding new adjectives
-* **ADV_NEWWORDS ;** This is for feeding new adverbs
-* **N_NEWWORDS ;** This is for feeding new nouns
-* **PROP_NEWWORDS ;** This is for feeding new propernouns
-* **V_NEWWORDS ;** This is for feeding new verbs
-* **QUESTIONABLEMISC_NEWWORDS ;** This is for feeding new words of questionable status
 
 Lexica for words that are not inflected
 
@@ -4545,6 +4539,7 @@ This is where new words are added as lexc entries before they are
 added to the xml source files.
 A_ "(eng) /(est) /(fin) /(lav)" ;
 
+LEXICON A_NEWWORDS   are commented out in root.lexc, comment in as needed
 ADD NEW ADJECTIVES BELOW
 
 * * *
@@ -4559,6 +4554,7 @@ This is where new words are added as lexc entries before they are
 added to the xml source files.
 ADV_ "(eng) /(est) /(fin) /(lav)" ;
 
+LEXICON ADV_NEWWORDS   are commented out in root.lexc, comment in as needed
 ADD NEW ADVERBS BELOW
 
 * * *
@@ -4616,6 +4612,7 @@ This is where new words are added as lexc entries before they are
 added to the xml source files.
 N_ "(eng) ear/(est) /(fin) /(lav)" ;
 
+LEXICON N_NEWWORDS   are commented out in root.lexc, comment in as needed
 ADD NEW NOUNS BELOW
 
 * * *
@@ -4630,6 +4627,8 @@ This is where new words are added as lexc entries before they are
 added to the xml source files.
 PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
 
+LEXICON PROP_NEWWORDS  are commented out in root.lexc, comment in as needed
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-liv/blob/main/src/fst/morphology/stems/propernouns_newwords.lexc)</small>
@@ -4641,6 +4640,8 @@ PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 V_ "(eng) ear/(est) /(fin) /(lav)" ;
+
+LEXICON QUESTIONABLEMISC_NEWWORDS   are commented out in root.lexc, comment in as needed
 
 * * *
 
@@ -4654,6 +4655,7 @@ This is where new words are added as lexc entries before they are
 added to the xml source files.
 V_ "(eng) ear/(est) /(fin) /(lav)" ;
 
+LEXICON V_NEWWORDS  are commented out in root.lexc, comment in as needed
 Add new verbs below
 
 * * *

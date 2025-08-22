@@ -2,6 +2,7 @@ This is where new words are added as lexc entries before they are
 added to the xml source files.
 V_ "(eng) ear/(est) /(fin) /(lav)" ;
 
+LEXICON V_NEWWORDS  are commented out in root.lexc, comment in as needed
 Add new verbs below
 
 * * *
