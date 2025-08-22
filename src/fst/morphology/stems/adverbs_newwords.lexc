@@ -3,7 +3,7 @@
 !!  ADV_ "(eng) /(est) /(fin) /(lav)" ;
 
 
-LEXICON ADV_NEWWORDS
+LEXICON ADV_NEWWORDS  !!= @CODE@ are commented out in root.lexc, comment in as needed
 test:test ADV_ "" ;
 !! ADD NEW ADVERBS BELOW
 

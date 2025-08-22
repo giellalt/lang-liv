@@ -3,7 +3,7 @@
 !!  PROP_ "(eng) ear/(est) /(fin) /(lav)" ;
 
 
-LEXICON PROP_NEWWORDS
+LEXICON PROP_NEWWORDS !!= @CODE@ are commented out in root.lexc, comment in as needed
 test:test PROP_ "(eng) /(est) /(fin) /(lav) " ;
 !
 
