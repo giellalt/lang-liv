@@ -46,8 +46,8 @@ LEXICON PROP_PŪ-SG !!= @CODE@ contains pū: 12
 LEXICON PROP_KALĀ  !!= @CODE@ contains  kalā:kalā 18
  NMN_KALĀ ;
 
-LEXICON PROP_KALĀ-SG  !!= @CODE@ contains  kalā:kalā 18
- NMN_KALĀ-SG ;
+!LEXICON PROP_KALĀ-SG  !!= @CODE@ contains  kalā:kalā 18
+! NMN_KALĀ-SG ;
 
 !LEXICON PROP_IRĒ  !!= @CODE@ contains  irē:iʼr 18a
 ! NMN_IRĒ ;
@@ -144,8 +144,8 @@ LEXICON PROP_JǬRA-PL !!= @CODE@ jǭra:jǭra 44
 LEXICON PROP_ĀITA !!= @CODE@ āita:āita 46
  NMN_ĀITA ;
 
-LEXICON PROP_ŪŠKA !!= @CODE@ ūška:ūška 47
- NMN_ŪŠKA ;
+!LEXICON PROP_ŪŠKA !!= @CODE@ ūška:ūška 47
+! NMN_ŪŠKA ;
 
 !LEXICON PROP_MȬKA !!= @CODE@ mȭka:mȭka 48
 ! NMN_MȬKA ;

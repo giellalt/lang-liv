@@ -73,9 +73,9 @@ LEXICON V-AUX_VȰLDA
 :vȯʼl  DER/NOMACT_mi ;
 :vȯļļ DER/NOMAG_i ;
  
-LEXICON IV_VȰLDA
-!!  **LEXICON @LEXNAME@ = 10 vȱlda: goes to **K**
-+IV: K ;
+!LEXICON IV_VȰLDA
+!!!  **LEXICON @LEXNAME@ = 10 vȱlda: goes to **K**
+!+IV: K ;
 
 LEXICON V-AUX_LǞʼDÕ
 !!  **LEXICON @LEXNAME@ = 1 lǟʼdõ:lǟʼ
@@ -2208,47 +2208,47 @@ LEXICON V-01_ARRÕ !! arrõ:arrõ
 :%^CC2C%^VowsRM PSSPRFPRCSG ;
 
 !! 51
-LEXICON V-01_AʼILÕ
-!! **LEXICON @LEXNAME@ =  This is mutual for 51
- GER_s   ;
-!! Ger, Ger_Ine
+!LEXICON V-01_AʼILÕ
+!!! **LEXICON @LEXNAME@ =  This is mutual for 51
+! GER_s   ;
+!!! Ger, Ger_Ine
 
- INF_ZERO	  ; !!≈ * **@CODE@** aʼilõ
-!! Inf
+! INF_ZERO	  ; !!≈ * **@CODE@** aʼilõ
+!!! Inf
 
- SUP-STEM_m	  ; !!≈ * **@CODE@** aʼilõ-
-!! Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
-!! Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
-!! Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
+! SUP-STEM_m	  ; !!≈ * **@CODE@** aʼilõ-
+!!! Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
+!!! Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
+!!! Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
 
-: INDPRSSG1-STEM    ;	!!≈ * **@CODE@** aʼilõ-
-!! Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
+!: INDPRSSG1-STEM    ;	!!≈ * **@CODE@** aʼilõ-
+!!! Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
 
-:%^VowsRM	INDCONNEGSG    ; !!≈ * **@CODE@** aʼil-
-!! Ind+ConNeg+Sg
+!:%^VowsRM	INDCONNEGSG    ; !!≈ * **@CODE@** aʼil-
+!!! Ind+ConNeg+Sg
 
-:%^VowsRM%>i INDPRT_z    ; !!≈ * **@CODE@** aʼili-
-!! Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
+!:%^VowsRM%>i INDPRT_z    ; !!≈ * **@CODE@** aʼili-
+!!! Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
 
- COND		; !!≈ * **@CODE@** aʼilõ-
-!! Cond...
-:%^VowsRM IMPRTSG2/IMPRTCONNEGSG2 ;
-!! Imprt+Sg2, Imprt+ConNeg+Sg2
+! COND		; !!≈ * **@CODE@** aʼilõ-
+!!! Cond...
+!:%^VowsRM IMPRTSG2/IMPRTCONNEGSG2 ;
+!!! Imprt+Sg2, Imprt+ConNeg+Sg2
 
-IMPRT-ELSE ;
-!! Imprt+Pl1, Imprt+Pl2, Imprt+ConNeg
+!IMPRT-ELSE ;
+!!! Imprt+Pl1, Imprt+Pl2, Imprt+ConNeg
 
-JUS_g ;
-!! Jus+Sg3, Jus+Pl3
+!JUS_g ;
+!!! Jus+Sg3, Jus+Pl3
 
-:%^VowsRM QUO-STEM_iji ;
-!! Quo+Sg3, Quo+Pl3, +NomAct -mi
+!:%^VowsRM QUO-STEM_iji ;
+!!! Quo+Sg3, Quo+Pl3, +NomAct -mi
 
- ACTPRFPRC_n ; !!≈ * **@CODE@** aʼilõ%>n
-!! +Act+PrfPrc
+! ACTPRFPRC_n ; !!≈ * **@CODE@** aʼilõ%>n
+!!! +Act+PrfPrc
 
-:%^VowsRM PSSPRSPRC ;	!!≈ * **@CODE@** aʼil-
-:%^VowsRM PSSPRFPRCSG ; !!≈ * **@CODE@** aʼil-
+!:%^VowsRM PSSPRSPRC ;	!!≈ * **@CODE@** aʼil-
+!:%^VowsRM PSSPRFPRCSG ; !!≈ * **@CODE@** aʼil-
 
 !! 52
 LEXICON V-01_SVAʼRRÕ
@@ -2617,10 +2617,10 @@ LEXICON	ACTPRFPRC_n
 +Act+PrfPrc+Pl:%>nd	K    ;
 +Act+PrfPrc:%>n  NMN_KŪOLÕN      ; 
 
-LEXICON ACTPRFPRC_nd
-!! **LEXICON @LEXNAME@ = 
-+Act+PrfPrc+Sg:%>nd      K    ;
-+Act+PrfPrc+Pl:%>nd     K    ; !! Are the singular and plural homonyms?
+!LEXICON ACTPRFPRC_nd
+!!! **LEXICON @LEXNAME@ = 
+!+Act+PrfPrc+Sg:%>nd      K    ;
+!+Act+PrfPrc+Pl:%>nd     K    ; !! Are the singular and plural homonyms?
 
 LEXICON ACTPRFPRC_SG-d/PL-nõd
 !! **LEXICON @LEXNAME@ = 
@@ -2687,19 +2687,19 @@ LEXICON INDPRS_tõ
   INDPRSPL2_tõ	;
   INDPRSPL3_tõ	;
 
-LEXICON INDPRS_mõ/tõ/bõd
-!!  **LEXICON @LEXNAME@ = Indicative present
-  INDPRSSG1-STEM	;
-  INDPRSPL1_mõ	;
-  INDPRSPL2_tõ	;
-  INDPRSPL3_bõd	;
+!LEXICON INDPRS_mõ/tõ/bõd
+!!!  **LEXICON @LEXNAME@ = Indicative present
+!  INDPRSSG1-STEM	;
+!  INDPRSPL1_mõ	;
+!  INDPRSPL2_tõ	;
+!  INDPRSPL3_bõd	;
 
-LEXICON INDPRS_m/t/bõd
-!!  **LEXICON @LEXNAME@ = Indicative present
-  INDPRSSG1-STEM	;
-  INDPRSPL1_m	;
-  INDPRSPL2_t	;
-  INDPRSPL3_bõd	;
+!LEXICON INDPRS_m/t/bõd
+!!!  **LEXICON @LEXNAME@ = Indicative present
+!  INDPRSSG1-STEM	;
+!  INDPRSPL1_m	;
+!  INDPRSPL2_t	;
+!  INDPRSPL3_bõd	;
 
 LEXICON INDPRT_ZERO
 !!  **LEXICON @LEXNAME@ = Indicative preterite in i
@@ -2719,24 +2719,24 @@ LEXICON INDPRT_i
  INDPRTPL2_i    ;
  INDPRTPL3_i    ;
 
-LEXICON INDPRT_ita
-!!  **LEXICON @LEXNAME@ = Indicative preterite in i
- INDPRTSG1_i    ;
- INDPRTSG2_i    ;
- INDPRTSG3_i    ;
- INDPRTPL1_ima    ;
- INDPRTPL2_ita    ;
- INDPRTPL3_ita    ;
+!LEXICON INDPRT_ita
+!!!  **LEXICON @LEXNAME@ = Indicative preterite in i
+! INDPRTSG1_i    ;
+! INDPRTSG2_i    ;
+! INDPRTSG3_i    ;
+! INDPRTPL1_ima    ;
+! INDPRTPL2_ita    ;
+! INDPRTPL3_ita    ;
 
 
-LEXICON INDPRT_z
-!!  **LEXICON @LEXNAME@ = Indicative preterite in z
- INDPRTSG1_z    ;
- INDPRTSG2_z    ;
- INDPRTSG3_z    ;
- INDPRTPL1_z    ;
- INDPRTPL2_zt    ;
- INDPRTPL3_zt    ;
+!LEXICON INDPRT_z
+!!!  **LEXICON @LEXNAME@ = Indicative preterite in z
+! INDPRTSG1_z    ;
+! INDPRTSG2_z    ;
+! INDPRTSG3_z    ;
+! INDPRTPL1_z    ;
+! INDPRTPL2_zt    ;
+! INDPRTPL3_zt    ;
 
 LEXICON INDPRT_ztõ
 !!  **LEXICON @LEXNAME@ = Indicative preterite in z
@@ -2758,14 +2758,14 @@ LEXICON INDPRT_zt/ztõ
  INDPRTPL3_zt    ;
  INDPRTPL3_ztõ    ;
 
-LEXICON INDPRT_ž
-!!  **LEXICON @LEXNAME@ = Indicative preterite in ž
- INDPRTSG1_ž    ;
- INDPRTSG2_ž    ;
- INDPRTSG3_ž    ;
- INDPRTPL1_ž    ;
- INDPRTPL2_ž    ;
- INDPRTPL3_ž    ;
+!LEXICON INDPRT_ž
+!!!  **LEXICON @LEXNAME@ = Indicative preterite in ž
+! INDPRTSG1_ž    ;
+! INDPRTSG2_ž    ;
+! INDPRTSG3_ž    ;
+! INDPRTPL1_ž    ;
+! INDPRTPL2_ž    ;
+! INDPRTPL3_ž    ;
 
 LEXICON INDPRT_žtõ
 !!  **LEXICON @LEXNAME@ = Indicative preterite in ž
@@ -2907,11 +2907,11 @@ LEXICON INDPRTPL2_zt
 LEXICON INDPRTPL2_ztõ
  +Ind+Prt+Pl2:%>ztõ    K	;
 
-LEXICON INDPRTPL2_ž
-INDPRTPL2_žt ;
-INDPRTPL2_žtõ ;
-LEXICON INDPRTPL2_žt
- +Ind+Prt+Pl2:%>žt    K	;
+!LEXICON INDPRTPL2_ž
+!INDPRTPL2_žt ;
+!INDPRTPL2_žtõ ;
+!LEXICON INDPRTPL2_žt
+! +Ind+Prt+Pl2:%>žt    K	;
 LEXICON INDPRTPL2_žtõ
  +Ind+Prt+Pl2:%>žtõ    K	;
 
@@ -2928,11 +2928,11 @@ LEXICON INDPRTPL3_zt
 LEXICON INDPRTPL3_ztõ
  +Ind+Prt+Pl3:%>ztõ    K	;
 
-LEXICON INDPRTPL3_ž
- INDPRTPL3_žt ;
- INDPRTPL3_žtõ ;
-LEXICON INDPRTPL3_žt
- +Ind+Prt+Pl3:%>žt    K	;
+!LEXICON INDPRTPL3_ž
+! INDPRTPL3_žt ;
+! INDPRTPL3_žtõ ;
+!LEXICON INDPRTPL3_žt
+! +Ind+Prt+Pl3:%>žt    K	;
 LEXICON INDPRTPL3_žtõ
  +Ind+Prt+Pl3:%>žtõ    K	;
 
@@ -2946,10 +2946,10 @@ LEXICON INDPRTPL3_tā
 LEXICON INDCONNEGSG
 +Ind+ConNeg+Sg:    K	;
 
-LEXICON INDCONNEGPL_tõ !?depricate 20230902
-INDCONNEGPL1_m ;
-INDCONNEGPL2_tõ ;
-INDCONNEGPL3_t ;
+!LEXICON INDCONNEGPL_tõ !?depricate 20230902
+!INDCONNEGPL1_m ;
+!INDCONNEGPL2_tõ ;
+!INDCONNEGPL3_t ;
 
 LEXICON INDCONNEGPL_mõ/tõ/tõ
 INDCONNEGPL1_mõ ;
