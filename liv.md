@@ -4,7 +4,7 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -43,7 +43,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -162,16 +162,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -179,19 +179,19 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
-# Adjective inflection
+## Adjective inflection
 
 This file documents `affixes/adjectives.lexc`, the file for Livonian adjective inflection.
 
-## Indeclneables
+### Indeclneables
 
 **LEXICON A_-ZERO =  modifiers that do not decline, goes to #
 
 **LEXICON A_ = gives Pos tag.
 
-## Stem lexica
+### Stem lexica
 
 LEXICON A_PŪ  contains pū: 12
 
@@ -411,9 +411,9 @@ LEXICON A_ǬʼBIĻ  ǭʼbiļ:ǭbiļ 242
 
 ---
 
-# src-fst-morphology-affixes-adpositions.lexc.md 
+## src-fst-morphology-affixes-adpositions.lexc.md 
 
-# Adjective inflection
+## Adjective inflection
 This file documents `affixes/adpositions.lexc`
 
 **LEXICON POSTP_ = points to #
@@ -426,9 +426,9 @@ This file documents `affixes/adpositions.lexc`
 
 ---
 
-# src-fst-morphology-affixes-conjunctors.lexc.md 
+## src-fst-morphology-affixes-conjunctors.lexc.md 
 
-# Conjunctions
+## Conjunctions
 
 This file documents `affixes/conjunctors.lexc`
 
@@ -444,13 +444,13 @@ This file documents `affixes/conjunctors.lexc`
 
 ---
 
-# src-fst-morphology-affixes-determiners.lexc.md 
+## src-fst-morphology-affixes-determiners.lexc.md 
 
-# Determiner inflection
+## Determiner inflection
 This file documents `affixes/determiners.lexc`, the language model for
 Livonian determiner inflection.
 
-## Stem lexica
+### Stem lexica
 
 LEXICON DET_NAI  nai: 191
 
@@ -464,20 +464,20 @@ LEXICON DET_SĒMI  sēmi: 201
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Livonian noun inflection
+## Livonian noun inflection
 
 This file documents `affixes/nouns.lexc`, the Livonian noun inflection file.
 
-## Ad hoc lexica
+### Ad hoc lexica
 
 PROBLEMS with dictionary lexica
 
 * **LEXICON N_** 
 * **LEXICON N_¤29** 
 
-## Stem lexica
+### Stem lexica
 * **LEXICON N_PŪ** contains pū: 12
 ~156
 
@@ -1123,7 +1123,7 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 
 * **LEXICON N_GOLĀTÕKS** golātõks:golātõks 244 found in Liv-est-lat dictionary
 
-## Nominal inflection
+### Nominal inflection
 Inflection lexica
 * **LEXICON NMN_PŪ** pū:pū 12
 Stem change: None
@@ -2328,7 +2328,7 @@ SG-ILL	;
 SG-INS	;
 SG-PAR	;
 
-## NUMBER AND CASE
+### NUMBER AND CASE
 
 above as pair in SG-ELA/INE_st; 2014 jaska
 
@@ -2344,9 +2344,9 @@ A trigger for z:ž will be required
 
 ---
 
-# src-fst-morphology-affixes-pronouns.lexc.md 
+## src-fst-morphology-affixes-pronouns.lexc.md 
 
-# Prounoun inflection
+## Prounoun inflection
 This file documents `affixes/pronouns.lexc`,
 the file on Livonian pronoun  inflection
 
@@ -2403,9 +2403,9 @@ LEXICON PRON_ĪKŠ  : 217
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
-# Proper noun inflection
+## Proper noun inflection
 This file documents `affixes/propernouns.lexc`, the file for inflection of propernouns.
 
 Livonian proper nouns inflect in the same cases as regular
@@ -2520,9 +2520,9 @@ LEXICON PROP_KĪNDÕR  kīndõr:kīndõr 237
 
 ---
 
-# src-fst-morphology-affixes-quantifiers.lexc.md 
+## src-fst-morphology-affixes-quantifiers.lexc.md 
 
-# Quantifier inflection
+## Quantifier inflection
 This file documents the file on Livonian quantifier morphology.
 
 LEXICON QNT_APPÕN  : 216
@@ -2566,10 +2566,10 @@ LEXICON NUM_APPÕN  appõn:appõn 235
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 **LEXICON Noun_symbols_possibly_inflected = 
 
@@ -2587,12 +2587,12 @@ LEXICON NUM_APPÕN  appõn:appõn 235
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# Livonian Verb inflection
+## Livonian Verb inflection
 This file documents the verb inflection of Livonian.
 
-## Verb stem classes
+### Verb stem classes
 **LEXICON V_ = CONJUGATION TYPE MISSING
 
 **LEXICON TV_ = CONJUGATION TYPE MISSING
@@ -2836,7 +2836,7 @@ Should ss be s and šš be š? 2013-02-19
 
 **LEXICON V-AUX_PIḐĪKS = 64 piḑīks:piḑī
 
-## After transitive, intransitive, auxiliary and such tags have been added
+### After transitive, intransitive, auxiliary and such tags have been added
 1
 
 2
@@ -3402,7 +3402,7 @@ Qvo
 
 participles
 
-### Nonfinites
+#### Nonfinites
 
 **LEXICON GER_s = 
 
@@ -3452,7 +3452,7 @@ Are the singular and plural homonyms?
 **LEXICON PSSPRFPRCSG_tõd = 
 2014-08-21
 
-### Finites
+#### Finites
 
 **LEXICON INDPRS_tõ = Indicative present
 
@@ -3480,7 +3480,7 @@ Are the singular and plural homonyms?
 
 **LEXICON COND = Conditional present
 
-### Indicative present
+#### Indicative present
 
 **LEXICON INDPRSSG1-STEM = 
 * INDPRSSG1 ; 
@@ -3501,16 +3501,16 @@ Quotative
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
 
-# Livonian morphophonology
+## Livonian morphophonology
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-liv/blob/main/src/fst/phonology.twolc) 
 
 We first show alphabet and sets, thereafter rules.
 
-## Alphabet
+### Alphabet
 
 * a b c d e f g h i j k l m n o p q r s t u v w x y z   
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   
@@ -3522,7 +3522,7 @@ We first show alphabet and sets, thereafter rules.
 * Ā Ē Ī Ō Ū Ǟ Ǭ Ȭ Ȱ								      
 * ʼ Stød
 
-### Literal quotes and angles
+#### Literal quotes and angles
 They must be escaped (cf morpheme boundaries further down):
 
 »7
@@ -3530,7 +3530,7 @@ They must be escaped (cf morpheme boundaries further down):
  %[%>%]  - Literal >
  %[%<%]  - Literal <
 
-### Archiphonemes for consonant lengthening
+#### Archiphonemes for consonant lengthening
 
 * %{XC%}:p %{XC%}:t %{XC%}:k		      
 * %{XC%}:b %{XC%}:d %{XC%}:g		      
@@ -3540,7 +3540,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %{XC%}:š %{XC%}:v %{XC%}:z %{XC%}:ž   
 * %{õØ%}:õ  in umblõ:umb%{õØ%}lõ
 
-###  Triggers
+####  Triggers
 
 *  %^PenVV2V:0  penultimate vowel shortening
 *  %^Tense:0  = Tense stem will have stød if proper stem type
@@ -3558,7 +3558,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %^U2ZERO:0  The u => 0
 * %^VV2V:0	  shorten vowel
 
-###  Vowel raising
+####  Vowel raising
 * %^VOWLower:0  lower vowel
 * %^VOWRaise:0      raise vowel
 * %^VowsSh1:0    vowel shortening in first syllable
@@ -3573,10 +3573,10 @@ They must be escaped (cf morpheme boundaries further down):
 * %^LongV2Õin2:0    long vowel to õ in second syllable
 * %^Vow2Iin2:0    vowel to i or ī in second syllable
 
-### Vowel metathesis
+#### Vowel metathesis
 * %^VowsMetath:0   
 
-### VOWEL SHORTENING
+#### VOWEL SHORTENING
 *  %^VowShIn1:0	 This causes vowel shortening in 1. syll
 *                  accompanied by coda consonant lengthening
 *  %^A2ÕIn2:0        This causes 2. syll a => õ
@@ -3597,7 +3597,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %^VowsL1aToǭ:0   morpheme boundary
 * %^VowsL1aToǭ:0   Word boundary for both lexicalised and dynamic compounds
 
-## Sets
+### Sets
 
 * VowBack = a o u A O U ; 
 * VowFront = ä ö y ü Ä Ö Y Ü ; 
@@ -3616,11 +3616,11 @@ They must be escaped (cf morpheme boundaries further down):
 * DummyNoPen = %^DePal %^CC2C %^ConsSh %^ConsL %^VOWLower %^PalatalizeLeft %^VV2V %^U2ZERO 
   %^VOWRaise %^ConsRM %^StodRM %^Stress1to2 %^VowsLI1 %^VowsSh1 %^VV2V %^VowsRM ; 
 
-# Rule section
+## Rule section
 
-## Vowel rules
+### Vowel rules
 
-### Shortening in first syllable
+#### Shortening in first syllable
 
 **Rule: ǟ:ä in first syllable**
 * *tǟutõ^PEN^VV2V*
@@ -3718,7 +3718,7 @@ lengthen vowels
 
 **Rule: ä:ǟ in first syllable**
 
-### VOWEL LENGTHENING
+#### VOWEL LENGTHENING
 
 **Rule: a:ǭ in first syllable**
 
@@ -3883,13 +3883,13 @@ lum+N+Sg+Par:  **snow/lumi**
 * pȯ0llõ00 examples:*
 ```
 
-### Zero to vowel
+#### Zero to vowel
 
 **Rule: 0:õ in vowel metathesis**
 
-## Consonant rules
+### Consonant rules
 
-### Consonant loss 
+#### Consonant loss 
 **Rule: shorten consonantism between 1st and 2nd vowel center jeʼllõ:jelāb**
 
 * aʼmmā%^PalatalizeLeft%^ConsSh%^VowsRM%>ži examples:*
@@ -3908,7 +3908,7 @@ rēnaz+N+Sg+Gen:
 * *rein000000>õ*
 * *rik0āz%^Stress2to1%^ConsRM*
 
-### Consonant lengthening
+#### Consonant lengthening
 
 Lengthening consonantism between first and second vowel center
 simultaneous to reducing vowel of second syllable
@@ -4022,7 +4022,7 @@ nominative plural
 
 **Rule: d:ž**
 
-### Rules for consonant loss
+#### Rules for consonant loss
 
 **Rule: d:0**
      Vow: (ʼ:) (Cns:+)  _ (%^Pen: %^VowsRM:|%^VOWRaise:) (%^PreI: %^StodRM:|%^VowsLI1:|%^StodRM:) [%^D2ZERO:0|%^ConsRM:] ;   
@@ -4079,21 +4079,21 @@ nominative plural
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
 Morphology
 
-# INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF LIVONIAN.
+## INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF LIVONIAN.
 
-## List of the multichar symbols
+### List of the multichar symbols
 
 The morphological analyses of wordforms in Livonian are presented
 in this system in terms of the symbols declared below.
 
 (It is highly suggested to follow existing GiellaLT standards when adding new tags).
 
-## The parts-of-speech are:
+### The parts-of-speech are:
 * **+A** = adjective
 * **+Adp** = adposition
 * **+Adv** = adverb
@@ -4111,11 +4111,11 @@ in this system in terms of the symbols declared below.
 
 Parts of speech are further split up into:
 
-## Nouns
+### Nouns
 
 * **+Prop** = proper nouns
 
-## Pronouns
+### Pronouns
 
 * **+Dem** = demonstrative
 * **+Indef** = indefinite
@@ -4127,11 +4127,11 @@ Parts of speech are further split up into:
 
 Nominals are inflected for Number and Case
 
-## Number
+### Number
 * **+Sg** = singular
 * **+Pl** = plural
 
-## Case
+### Case
 * **+Abe** = abessive
 * **+Abl** = ablative case
 * **+Ade** = adessive
@@ -4210,12 +4210,12 @@ Other verb forms are
 * **+VAbess**
 * **+Aux** = Auxiliary verb
 
-## Verbs are syntactically split according to transitivity:
+### Verbs are syntactically split according to transitivity:
 
 * **+TV** = Transitive verb
 * **+IV** = Intransitive verb
 
-## Usage extents are marked using following tags:
+### Usage extents are marked using following tags:
 * **+Err/Orth**
 * **+Use/-Spell**
 * **+Use/NG** no generation
@@ -4234,7 +4234,7 @@ Special symbols are classified with:
 Special multiword units are analysed with:
 * **+Multi**
 
-### Normative/prescriptive compounding tags
+#### Normative/prescriptive compounding tags
 
 (to govern compound behaviour for the speller, ie what a compound SHOULD BE):
 
@@ -4358,7 +4358,7 @@ Question and Focus particles:
 
 Semantics are classified with
 
-### Homonymy 
+#### Homonymy 
 * **+Hom1** 
 * **+Hom2** 
 * **+Hom3** 
@@ -4378,7 +4378,7 @@ source and target part-of-speech.
 * **+NomAct**
 * **+NomAg**
 
-## Symbols that need to be escaped on the lower side (towards twolc):
+### Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
 ```
@@ -4386,7 +4386,7 @@ source and target part-of-speech.
  %[%<%]  - Literal <
 ```
 
-# Morphophonology
+## Morphophonology
 
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
@@ -4444,7 +4444,7 @@ accompanied by coda consonant lengthening
 * %^PalatalizeLeft 
 * **%^VowsL1aToǭ** = a >> ǭ
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -4472,7 +4472,7 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-## Root lexicon
+### Root lexicon
 
 The word forms in Livonian start from the lexeme roots of basic
 word classes
@@ -4522,7 +4522,7 @@ This is used in compounding, e.g. äʼb-:äʼb
 
 ---
 
-# src-fst-morphology-stems-acronyms.lexc.md 
+## src-fst-morphology-stems-acronyms.lexc.md 
 
 Acronyms
 Livonian acronyms ...
@@ -4533,7 +4533,7 @@ Livonian acronyms ...
 
 ---
 
-# src-fst-morphology-stems-adjectives_newwords.lexc.md 
+## src-fst-morphology-stems-adjectives_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -4548,7 +4548,7 @@ ADD NEW ADJECTIVES BELOW
 
 ---
 
-# src-fst-morphology-stems-adverbs_newwords.lexc.md 
+## src-fst-morphology-stems-adverbs_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -4563,7 +4563,7 @@ ADD NEW ADVERBS BELOW
 
 ---
 
-# src-fst-morphology-stems-exceptions.lexc.md 
+## src-fst-morphology-stems-exceptions.lexc.md 
 
 Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
@@ -4590,15 +4590,15 @@ The verb vȱlda has irregular forms:
 * *uʼm:*
 * *ūo:*
 
-### PRONOUNS
+#### PRONOUNS
 
-### PROPER NOUNS
+#### PROPER NOUNS
 
-### NOUNS partitive for morfa demo
+#### NOUNS partitive for morfa demo
 
-### NUMERALS testing
+#### NUMERALS testing
 
-### testing what is this
+#### testing what is this
 
 * * *
 
@@ -4606,7 +4606,7 @@ The verb vȱlda has irregular forms:
 
 ---
 
-# src-fst-morphology-stems-nouns_newwords.lexc.md 
+## src-fst-morphology-stems-nouns_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -4621,7 +4621,7 @@ ADD NEW NOUNS BELOW
 
 ---
 
-# src-fst-morphology-stems-propernouns_newwords.lexc.md 
+## src-fst-morphology-stems-propernouns_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -4635,7 +4635,7 @@ LEXICON PROP_NEWWORDS  are commented out in root.lexc, comment in as needed
 
 ---
 
-# src-fst-morphology-stems-questionablemisc_newwords.lexc.md 
+## src-fst-morphology-stems-questionablemisc_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -4649,7 +4649,7 @@ LEXICON QUESTIONABLEMISC_NEWWORDS   are commented out in root.lexc, comment in a
 
 ---
 
-# src-fst-morphology-stems-verbs_newwords.lexc.md 
+## src-fst-morphology-stems-verbs_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -4664,7 +4664,7 @@ Add new verbs below
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -4833,7 +4833,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -4855,7 +4855,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -4867,26 +4867,26 @@ Starting work with ordinals
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -4913,7 +4913,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -4929,7 +4929,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -4992,7 +4992,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -5025,7 +5025,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -5095,22 +5095,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -5121,11 +5121,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -5133,7 +5133,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -5145,25 +5145,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -5171,9 +5171,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for liv
+## Tokeniser for liv
 
 Usage:
 ```
@@ -5218,7 +5218,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -5237,9 +5237,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for liv
+## Grammar checker tokenisation for liv
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -5302,9 +5302,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
