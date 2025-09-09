@@ -15,8 +15,6 @@ LEXICON PROP_PŪ-SG  contains pū: 12
 
 LEXICON PROP_KALĀ   contains  kalā:kalā 18
 
-LEXICON PROP_KALĀ-SG   contains  kalā:kalā 18
-
 LEXICON PROP_IRĒ-SG   contains  irē:iʼr 18a
 
 LEXICON PROP_TUBĀ  tubā:tubā 19
@@ -30,8 +28,6 @@ LEXICON PROP_JǬRA  jǭra:jǭra 44
 LEXICON PROP_JǬRA-PL  jǭra:jǭra 44
 
 LEXICON PROP_ĀITA  āita:āita 46
-
-LEXICON PROP_ŪŠKA  ūška:ūška 47
 
 LEXICON PROP_DADŽĀ  dadžā:dadžā 49
 

@@ -801,6 +801,8 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_NǬʼGÕ** nǭʼgõ:nǭgõ 119
 * **LEXICON N_NǬʼGÕ-PL** nǭʼgõ:nǭgõ 119
 
+* __LEXICON N_AŠŠÕ__ : 120
+* __LEXICON N_AŠŠÕ-SG__ : 120
 * **LEXICON N_AŠŠÕ-PL** : 120
 
 * **LEXICON N_SOʼV** : 122
@@ -835,7 +837,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_SAʼGDIT** saʼgdit:sagdit 131
 
 * **LEXICON N_VIĻȚ** : 132
-* **LEXICON N_VIĻȚ-PL** : 132
 
 * **LEXICON N_GĒRMAŅ** : 132
 * **LEXICON N_GĒRMAŅ-PL** : 132
@@ -853,6 +854,10 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_TAS** : 136
 
 * **LEXICON N_NEITST** neitst:neits 137
+
+* __LEXICON N_SĪEND__ : 138
+
+* __LEXICON N_LǞʼND__ lǟʼnd:lǟnd 139
 
 * **LEXICON N_ĀIGAST** : 140
 * **LEXICON N_ĀIGAST-PL** : 140
@@ -944,7 +949,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_PŪŖAZ** : 174
 
 * __LEXICON N_RĒNAZ__ : 176
-* **LEXICON N_RĒNAZ-PL** : 176
 
 * **LEXICON N_TŌVAZ** : 177
 
@@ -1507,7 +1511,6 @@ kiv:kiʼvv
 
 * **LEXICON NMN_TUP-PL** tup:tup 79
 
-* **LEXICON NMN_BIS** bis:bis 79
 * **LEXICON NMN_BIS-SG** bis:bis 79
 
 * **LEXICON NMN_BIS-PL** bis:bis 79
@@ -1579,7 +1582,6 @@ kiv:kiʼvv
 * **LEXICON NMN_KOUV-SG** : 93
 * **LEXICON NMN_KOUV-PL** : 93
 
-* **LEXICON NMN_KAITS** : 94
 * **LEXICON NMN_KAITS-SG** : 94
 * **LEXICON NMN_KAITS-PL** : 94
 
@@ -2310,8 +2312,6 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 
 * **LEXICON NMN_ĀNKAŖ** ānkaŗ:ānkaŗ 240
 
-* __LEXICON NMN_ĀNKAŖ-PL__ ānkaŗ:ānkaŗ 240
-
 * __LEXICON NMN_VIRPÕĻ__ virpõļ:virpõļ 241
 * __LEXICON NMN_VIRPÕĻ-SG__ virpõļ:virpõļ 241
 
@@ -2422,8 +2422,6 @@ LEXICON PROP_PŪ-SG  contains pū: 12
 
 LEXICON PROP_KALĀ   contains  kalā:kalā 18
 
-LEXICON PROP_KALĀ-SG   contains  kalā:kalā 18
-
 LEXICON PROP_IRĒ-SG   contains  irē:iʼr 18a
 
 LEXICON PROP_TUBĀ  tubā:tubā 19
@@ -2437,8 +2435,6 @@ LEXICON PROP_JǬRA  jǭra:jǭra 44
 LEXICON PROP_JǬRA-PL  jǭra:jǭra 44
 
 LEXICON PROP_ĀITA  āita:āita 46
-
-LEXICON PROP_ŪŠKA  ūška:ūška 47
 
 LEXICON PROP_DADŽĀ  dadžā:dadžā 49
 
@@ -2598,8 +2594,6 @@ This file documents the verb inflection of Livonian.
 **LEXICON TV_ = CONJUGATION TYPE MISSING
 
 **LEXICON V-AUX_VȰLDA =  10 vȱlda:ZERO
-
-**LEXICON IV_VȰLDA = 10 vȱlda: goes to **K**
 
 **LEXICON V-AUX_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
 
@@ -3270,41 +3264,6 @@ Prt
 Cond
 
 51
-**LEXICON V-01_AʼILÕ =  This is mutual for 51
-Ger, Ger_Ine
-
-* **INF_ZERO ;** aʼilõ
-Inf
-
-* **SUP-STEM_m ;** aʼilõ-
-Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
-Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
-Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
-
-* **: INDPRSSG1-STEM ;** aʼilõ-
-Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
-
-* **:%^VowsRM INDCONNEGSG ;** aʼil-
-Ind+ConNeg+Sg
-
-* **:%^VowsRM%>i INDPRT_z ;** aʼili-
-Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
-
-* **COND ;** aʼilõ-
-Cond...
-Imprt+Sg2, Imprt+ConNeg+Sg2
-
-Imprt+Pl1, Imprt+Pl2, Imprt+ConNeg
-
-Jus+Sg3, Jus+Pl3
-
-Quo+Sg3, Quo+Pl3, +NomAct -mi
-
-* **ACTPRFPRC_n ;** aʼilõ%>n
-+Act+PrfPrc
-
-* **:%^VowsRM PSSPRSPRC ;** aʼil-
-* **:%^VowsRM PSSPRFPRCSG ;** aʼil-
 
 52
 **LEXICON V-01_SVAʼRRÕ =  This is mutual for 49-50, 52-57
@@ -3426,9 +3385,6 @@ participles
 
 **LEXICON ACTPRSPRC = 
 
-**LEXICON ACTPRFPRC_nd = 
-Are the singular and plural homonyms?
-
 **LEXICON ACTPRFPRC_SG-d/PL-nõd = 
 
 **LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
@@ -3456,23 +3412,13 @@ Are the singular and plural homonyms?
 
 **LEXICON INDPRS_tõ = Indicative present
 
-**LEXICON INDPRS_mõ/tõ/bõd = Indicative present
-
-**LEXICON INDPRS_m/t/bõd = Indicative present
-
 **LEXICON INDPRT_ZERO = Indicative preterite in i
 
 **LEXICON INDPRT_i = Indicative preterite in i
 
-**LEXICON INDPRT_ita = Indicative preterite in i
-
-**LEXICON INDPRT_z = Indicative preterite in z
-
 **LEXICON INDPRT_ztõ = Indicative preterite in z
 
 **LEXICON INDPRT_zt/ztõ = Indicative preterite in z
-
-**LEXICON INDPRT_ž = Indicative preterite in ž
 
 **LEXICON INDPRT_žtõ = Indicative preterite in ž
 
@@ -4493,6 +4439,12 @@ word classes
 * **Punctuation ;**
 * **Symbols ;**
 * **EXCEPTIONS ;**
+* **A_NEWWORDS ;** This is for feeding new adjectives
+* **ADV_NEWWORDS ;** This is for feeding new adverbs
+* **N_NEWWORDS ;** This is for feeding new nouns
+* **PROP_NEWWORDS ;** This is for feeding new propernouns
+* **V_NEWWORDS ;** This is for feeding new verbs
+* **QUESTIONABLEMISC_NEWWORDS ;** This is for feeding new words of questionable status
 
 Lexica for words that are not inflected
 

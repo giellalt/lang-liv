@@ -333,6 +333,8 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_NǬʼGÕ** nǭʼgõ:nǭgõ 119
 * **LEXICON N_NǬʼGÕ-PL** nǭʼgõ:nǭgõ 119
 
+* __LEXICON N_AŠŠÕ__ : 120
+* __LEXICON N_AŠŠÕ-SG__ : 120
 * **LEXICON N_AŠŠÕ-PL** : 120
 
 * **LEXICON N_SOʼV** : 122
@@ -367,7 +369,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_SAʼGDIT** saʼgdit:sagdit 131
 
 * **LEXICON N_VIĻȚ** : 132
-* **LEXICON N_VIĻȚ-PL** : 132
 
 * **LEXICON N_GĒRMAŅ** : 132
 * **LEXICON N_GĒRMAŅ-PL** : 132
@@ -385,6 +386,10 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_TAS** : 136
 
 * **LEXICON N_NEITST** neitst:neits 137
+
+* __LEXICON N_SĪEND__ : 138
+
+* __LEXICON N_LǞʼND__ lǟʼnd:lǟnd 139
 
 * **LEXICON N_ĀIGAST** : 140
 * **LEXICON N_ĀIGAST-PL** : 140
@@ -476,7 +481,6 @@ N_SgPar/VowsLI1/ța-PlPar/VowsRM/idi
 * **LEXICON N_PŪŖAZ** : 174
 
 * __LEXICON N_RĒNAZ__ : 176
-* **LEXICON N_RĒNAZ-PL** : 176
 
 * **LEXICON N_TŌVAZ** : 177
 
@@ -1039,7 +1043,6 @@ kiv:kiʼvv
 
 * **LEXICON NMN_TUP-PL** tup:tup 79
 
-* **LEXICON NMN_BIS** bis:bis 79
 * **LEXICON NMN_BIS-SG** bis:bis 79
 
 * **LEXICON NMN_BIS-PL** bis:bis 79
@@ -1111,7 +1114,6 @@ kiv:kiʼvv
 * **LEXICON NMN_KOUV-SG** : 93
 * **LEXICON NMN_KOUV-PL** : 93
 
-* **LEXICON NMN_KAITS** : 94
 * **LEXICON NMN_KAITS-SG** : 94
 * **LEXICON NMN_KAITS-PL** : 94
 
@@ -1841,8 +1843,6 @@ word-final consonant palatalization: Sg_Nom, Pl_Par, Pl_Ill, Pl_Ela
 * **LEXICON NMN_TARĪĻ-PL** tarīļ:tarīļ 239
 
 * **LEXICON NMN_ĀNKAŖ** ānkaŗ:ānkaŗ 240
-
-* __LEXICON NMN_ĀNKAŖ-PL__ ānkaŗ:ānkaŗ 240
 
 * __LEXICON NMN_VIRPÕĻ__ virpõļ:virpõļ 241
 * __LEXICON NMN_VIRPÕĻ-SG__ virpõļ:virpõļ 241

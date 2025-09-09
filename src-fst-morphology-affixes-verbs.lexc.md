@@ -8,8 +8,6 @@ This file documents the verb inflection of Livonian.
 
 **LEXICON V-AUX_VȰLDA =  10 vȱlda:ZERO
 
-**LEXICON IV_VȰLDA = 10 vȱlda: goes to **K**
-
 **LEXICON V-AUX_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
 
 **LEXICON IV_LǞʼDÕ = 1 lǟʼdõ:lǟʼ
@@ -679,41 +677,6 @@ Prt
 Cond
 
 51
-**LEXICON V-01_AʼILÕ =  This is mutual for 51
-Ger, Ger_Ine
-
-* **INF_ZERO ;** aʼilõ
-Inf
-
-* **SUP-STEM_m ;** aʼilõ-
-Sup, Sup+Abe, Sup+Ela, Sup+Deb, Sup+Ill, Sup+Ine, Sup+Tra
-Ind+Prs+Pl1, Ind+Prs+Pl2, Ind+Prs+Pl3, Ind+ConNeg+Pl1
-Ind+ConNeg+Pl2, Ind+ConNeg+Pl3
-
-* **: INDPRSSG1-STEM ;** aʼilõ-
-Ind+Prs+Sg1, Ind+Prs+Sg2, Ind+Prs+Sg3
-
-* **:%^VowsRM INDCONNEGSG ;** aʼil-
-Ind+ConNeg+Sg
-
-* **:%^VowsRM%>i INDPRT_z ;** aʼili-
-Ind+Prt+Sg1, Ind+Prt+Sg2, Ind+Prt+Sg3, Ind+Prt+Pl1, Ind+Prt+Pl2, Ind+Prt+Pl3
-
-* **COND ;** aʼilõ-
-Cond...
-Imprt+Sg2, Imprt+ConNeg+Sg2
-
-Imprt+Pl1, Imprt+Pl2, Imprt+ConNeg
-
-Jus+Sg3, Jus+Pl3
-
-Quo+Sg3, Quo+Pl3, +NomAct -mi
-
-* **ACTPRFPRC_n ;** aʼilõ%>n
-+Act+PrfPrc
-
-* **:%^VowsRM PSSPRSPRC ;** aʼil-
-* **:%^VowsRM PSSPRFPRCSG ;** aʼil-
 
 52
 **LEXICON V-01_SVAʼRRÕ =  This is mutual for 49-50, 52-57
@@ -835,9 +798,6 @@ participles
 
 **LEXICON ACTPRSPRC = 
 
-**LEXICON ACTPRFPRC_nd = 
-Are the singular and plural homonyms?
-
 **LEXICON ACTPRFPRC_SG-d/PL-nõd = 
 
 **LEXICON ACTPRFPRC_SG-nd/PL-nõd = 
@@ -865,23 +825,13 @@ Are the singular and plural homonyms?
 
 **LEXICON INDPRS_tõ = Indicative present
 
-**LEXICON INDPRS_mõ/tõ/bõd = Indicative present
-
-**LEXICON INDPRS_m/t/bõd = Indicative present
-
 **LEXICON INDPRT_ZERO = Indicative preterite in i
 
 **LEXICON INDPRT_i = Indicative preterite in i
 
-**LEXICON INDPRT_ita = Indicative preterite in i
-
-**LEXICON INDPRT_z = Indicative preterite in z
-
 **LEXICON INDPRT_ztõ = Indicative preterite in z
 
 **LEXICON INDPRT_zt/ztõ = Indicative preterite in z
-
-**LEXICON INDPRT_ž = Indicative preterite in ž
 
 **LEXICON INDPRT_žtõ = Indicative preterite in ž
 
