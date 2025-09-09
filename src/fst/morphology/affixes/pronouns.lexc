@@ -203,37 +203,37 @@ LEXICON PRON_SET !!= @CODE@ 11b set:set
 
 !! Stem lexica
 LEXICON PRON_TUBĀ !!= @CODE@ tubā:tubā 19
-:	CASES	;
+:	NMN_TUBĀ	;
 
 LEXICON PRON_TUBĀ-PL !!= @CODE@ tubā:tubā 19
-:  PL-CASES   ;
+:  NMN_TUBĀ-PL   ;
 
 LEXICON PRON_ĀITA !!= @CODE@ āita:āita 46
-:	CASES	;
+:	NMN_ĀITA	;
 
 LEXICON PRON_ĀIGAST !!= @CODE@ āigast: 140
-:	CASES	;
+:	NMN_ĀIGAST	;
 
 LEXICON PRON_AZŪM-PL !!= @CODE@ azūm: 153
-:  PL-CASES   ;
+:  NMN_AZŪM-PL   ;
 
 LEXICON PRON_VĪDÕZ !!= @CODE@ vīdõz: 163
-:	CASES	;
+:	NMN_VĪDÕZ	;
 
 !!= @CODE@ : 191
 LEXICON PRON_NAI
-:	CASES	;
+:	NMN_NAI	;
 
 !!= @CODE@ : 199
 LEXICON PRON_TŪĻI
-:	CASES	;
+:	NMN_TŪĻI	;
 
 !!= @CODE@ : 201
 LEXICON PRON_SĒMI
-:	CASES	;
+:	NMN_SĒMI	;
 
 LEXICON PRON_ĪKŠ !!= @CODE@ : 217
-:	CASES	;
+:	NMN_ĪKŠ	;
 
 
 
