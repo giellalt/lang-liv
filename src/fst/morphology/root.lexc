@@ -155,6 +155,7 @@ Multichar_Symbols
 
 !! ## Usage extents are marked using following tags:
  +Err/Orth    !!≈ * **@CODE@**
+ +Err/Orth-õ-i    !!≈ * **@CODE@** is õ should be i lītõm should be lītim 2025-09-09
  +Use/-Spell  !!≈ * **@CODE@**
  +Use/NG      !!≈ * **@CODE@** no generation
 
@@ -523,6 +524,7 @@ Multichar_Symbols
  %^VOWLower   !!= * @CODE@ lower vowel
  %^VOWRaise       !!≈ * **@CODE@** = Vowel raising
  %^VowsMetath     !!≈ * **@CODE@** = vowel metathesis in verbs
+ %^UltRmVow !!≈ * __@CODE@__ - for removing ultimate vowels i, ? after final consonant in stem
 %^VowsMRM !!≈ * **@CODE@** Vow in middle ētam:eitmõd
  %^VowsRM	  !!≈ * **@CODE@** =
  %^ConsRM	  !!≈ * **@CODE@** =

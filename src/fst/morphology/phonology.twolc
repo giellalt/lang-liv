@@ -87,6 +87,7 @@ K1:k       !!= * @CODE@ this k is not effected by gradation
 %^1Sh2L:0  !!= * @CODE@ 
 %^Stress1to2:0  !!= * @CODE@ 
 %^Stress2to1:0  !!= * @CODE@ 
+%^UltRmVow:0 !!≈ * __@CODE@__ - for removing ultimate vowels i, ? after final consonant in stem
 %^VowsMRM:0 !!≈ * @CODE@ Vow in middle ētam:eitmõd
 %^VowsRM:0  !!= * @CODE@ 
 %^ConsRM:0  !!= * @CODE@ 
@@ -451,11 +452,15 @@ a:0 <=>   _ Dummy:* %^VowsRM: \[ %^PalatalizeLeft: ]* [ # | %> ] ;
 i:0 <=> # Cns:* [ ē | ǭ | ū ] _ Cns:+ ( Vow: ) %^U2ZERO:0 ;
         # Cns:* [ ē | ǭ | ū ] _ Cns:+ Vow: Cns: %^Pen: %^U2ZERO:0 ;
         # Cns:* _ e (ʼ:) Cns:+ (:Cns) ( Vow: ) %^Pen: %^VowsRM: ; 
-        # Cns:* Vow: (i: | u:) Cns:+ _ Cns:+ (%^Pen: %^VV2V:) %^VowsRM: ; 
+        # Cns:* Vow: (i: | u:) Cns:+ _ Cns:+ (%^Pen: %^VV2V:) %^VowsRM: ;
+	_ %^UltRmVow: ;
 # Cns* [ e: | ȯ: (:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ;
 !  # Cns* [ e: | ȯ: (0:) ] _ :Cns+ (Vow:) %^VowsLI1:0 ; 
 !!€# leiba%^VowsLI1%>st
 !!€0 lē0ba00st
+!! līti+A+Der/Comp+Sg+Nom
+!!€ līti^UltRmVow>õm
+!!€ līt00>õm
  # Cns:* Vow:+ (ʼ:) (Vow:) Cns:+ (:Cns) _ (%^StodRM:) (%^CC2C:) %^VowsRM: ;
  # Cns:* Vow:+ (ʼ:) [ CnsWithStod :0* | i g | Cns:+ Cns: ] _ (%^StodRM:) (%^ConsSh:) %^VowsRM: ;
          # Cns* e: _ %^VowsLI1:0 ;
