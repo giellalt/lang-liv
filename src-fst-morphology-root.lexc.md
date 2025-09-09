@@ -134,6 +134,7 @@ Other verb forms are
 
 ## Usage extents are marked using following tags:
 * **+Err/Orth**
+* **+Err/Orth-õ-i** is õ should be i lītõm should be lītim 2025-09-09
 * **+Use/-Spell**
 * **+Use/NG** no generation
 
@@ -353,6 +354,7 @@ accompanied by coda consonant lengthening
 *  %^VOWLower    lower vowel
 * **%^VOWRaise** = Vowel raising
 * **%^VowsMetath** = vowel metathesis in verbs
+* __%^UltRmVow__ - for removing ultimate vowels i, ? after final consonant in stem
 * **%^VowsMRM** Vow in middle ētam:eitmõd
 * **%^VowsRM** =
 * **%^ConsRM** =

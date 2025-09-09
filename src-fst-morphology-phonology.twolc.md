@@ -81,6 +81,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %^1Sh2L:0   
 * %^Stress1to2:0   
 * %^Stress2to1:0   
+* __%^UltRmVow:0__ - for removing ultimate vowels i, ? after final consonant in stem
 * %^VowsMRM:0 Vow in middle ētam:eitmõd
 * %^VowsRM:0   
 * %^ConsRM:0   
@@ -338,6 +339,9 @@ kēļ+N+Sg+Nom
 * leiba%^VowsLI1%>st examples:*
 
 * lē0ba00st examples:*
+līti+A+Der/Comp+Sg+Nom
+* *līti^UltRmVow>õm*
+* *līt00>õm*
 
 * tei%^VowsLI1%>ḑi examples:*
 

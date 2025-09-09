@@ -3532,6 +3532,7 @@ They must be escaped (cf morpheme boundaries further down):
 * %^1Sh2L:0   
 * %^Stress1to2:0   
 * %^Stress2to1:0   
+* __%^UltRmVow:0__ - for removing ultimate vowels i, ? after final consonant in stem
 * %^VowsMRM:0 Vow in middle ētam:eitmõd
 * %^VowsRM:0   
 * %^ConsRM:0   
@@ -3789,6 +3790,9 @@ kēļ+N+Sg+Nom
 * leiba%^VowsLI1%>st examples:*
 
 * lē0ba00st examples:*
+līti+A+Der/Comp+Sg+Nom
+* *līti^UltRmVow>õm*
+* *līt00>õm*
 
 * tei%^VowsLI1%>ḑi examples:*
 
@@ -4163,6 +4167,7 @@ Other verb forms are
 
 ### Usage extents are marked using following tags:
 * **+Err/Orth**
+* **+Err/Orth-õ-i** is õ should be i lītõm should be lītim 2025-09-09
 * **+Use/-Spell**
 * **+Use/NG** no generation
 
@@ -4382,6 +4387,7 @@ accompanied by coda consonant lengthening
 *  %^VOWLower    lower vowel
 * **%^VOWRaise** = Vowel raising
 * **%^VowsMetath** = vowel metathesis in verbs
+* __%^UltRmVow__ - for removing ultimate vowels i, ? after final consonant in stem
 * **%^VowsMRM** Vow in middle ētam:eitmõd
 * **%^VowsRM** =
 * **%^ConsRM** =
