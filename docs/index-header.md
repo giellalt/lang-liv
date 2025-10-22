@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-liv?label=CI)](https://builds.giellalt.org/pipelines/lang-liv/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/livv1244)
 
 This page documents the work on the [Livonian language model](http://github.com/giellalt/lang-liv). 
 
