@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-liv%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-liv/main/badge.svg)](https://github.com/giellalt/lang-liv/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-liv?label=CI)](https://builds.giellalt.org/pipelines/lang-liv/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/livv1244)
 
 This page documents the work on the [Livonian language model](http://github.com/giellalt/lang-liv). 
 
