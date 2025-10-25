@@ -1,5 +1,6 @@
 * `src/`
     * `cg3/`
+        * [disambiguator.cg3](src-cg3-disambiguator.cg3.html) ([src](https://github.com/giellalt/lang-liv/blob/main/src/cg3/disambiguator.cg3))
         * [functions.cg3](src-cg3-functions.cg3.html) ([src](https://github.com/giellalt/lang-liv/blob/main/src/cg3/functions.cg3))
     * `fst/`
         * `morphology/`

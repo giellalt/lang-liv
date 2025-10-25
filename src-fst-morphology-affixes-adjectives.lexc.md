@@ -168,6 +168,8 @@ LEXICON A_AKKIJI  akkiji:akkiji 187
 
 LEXICON A_LĒʼJI  lēʼji:lēʼji 188
 
+LEXICON A_NAI  nai: 191
+
 LEXICON A_AʼIGI  aʼigi:aigi 192
 
 LEXICON A_PUʼNNI  pu'nni:punni 193
