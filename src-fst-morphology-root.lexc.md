@@ -163,6 +163,8 @@ The first part of the component may be ..
 * +CmpN/SgG SgGenitive
 * +CmpN/PlG PlGenitive
 
+* **+Prefix** 
+
 This entry / word can ...
 
 * +CmpNP/All - ... be in all positions, **default**, this tag does not have to be written
