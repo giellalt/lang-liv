@@ -380,7 +380,8 @@ LIST VFIN_PrsPrc_Inf = Prt Prs Cond PrsPrc (PrfPrc Gen) (PrfPrc Par) InfA InfE I
 # Derivation
 # ----------
 LIST Use/Circ = Use/Circ ;
-LIST Guess = Guess
+LIST Guess = Guess ;
+LIST Prefix = Prefix ;
 
 LIST DA-US = DA-US ; # vaikeus, no spec tag
 LIST DV-US = DV-US ;  # muodostus, no spec tag
@@ -751,6 +752,7 @@ SET CRD = @CNP OR COMMA OR NEGFOC OR XGO OR ("/") OR ("-")  ;
 # Here come the rules
 
 REMOVE Guess ; # If any other reading is possible.
+REMOVE Prefix; # If any other reading is possible.
 
 
 BEFORE-SECTIONS
