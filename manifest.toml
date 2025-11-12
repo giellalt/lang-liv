@@ -1,6 +1,3 @@
-spellername = "Liv"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "73BF1A03-DFB6-4431-BB4F-6609476CCB7A", kind = "nsis" },
     { value = "C00BB1E5-4632-40B5-BAA9-9D1851DAA035", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Liv"
+version = "0.1.1"
+
+[package.grammar]
+name = "Liv"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Liv"
+version = "0.1.0"
