@@ -98,6 +98,8 @@ Verb moods are:
 * **+Jus** = jussitive
 * **+Quo** = quotative, quoted speech
 
+* **+Deb** = 
+
 Tenses
 * **+Prs**
 * **+Prt**
