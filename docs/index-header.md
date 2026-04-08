@@ -5,9 +5,9 @@
 {% include_relative language-map.md %}
 
 <div class="badges" markdown="1">
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-liv%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html) <br/>
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-liv%2Fgh-pages%2Flemmacount.json) <br/>
-[![Speller suggestion quality](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-liv%2Fgh-pages%2Fspellersuggs.json)](typosreport/) <br/>
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-liv%2Fgh-pages%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html) <br/>
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-liv%2Fgh-pages%2Fbadgedata%2Ffst-lemmacount.json) <br/>
+[![Speller suggestion quality](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-liv%2Fgh-pages%2Fbadgedata%2Fspeller-suggestions.json)](typosreport/) <br/>
 [![License](https://img.shields.io/github/license/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/blob/main/LICENSE) <br/>
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-liv)](https://github.com/giellalt/lang-liv/issues) <br/>
 [![Build Status](https://builds.giellalt.org/api/badge/lang-liv?label=CI)](https://builds.giellalt.org/pipelines/lang-liv/builds/latest) <br/>
