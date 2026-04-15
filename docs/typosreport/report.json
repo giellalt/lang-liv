@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "info": {
+      "locale": "liv",
+      "title": [
+        {
+          "lang": null,
+          "$value": "Liv spellchecker"
+        }
+      ],
+      "description": "A spellchecker for Liv, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway.",
+      "producer": "Giellatekno/Divvun/UiT contributors"
+    },
+    "acceptor": {
+      "type": "general",
+      "id": "acceptor.default.hfst",
+      "title": [
+        {
+          "lang": null,
+          "$value": "Liv speller lexicon"
+        }
+      ],
+      "description": "Liv speller lexicon compiled with HFST.",
+      "continuation": null
+    },
+    "errmodel": {
+      "id": "errmodel.default.hfst",
+      "title": [
+        {
+          "lang": null,
+          "$value": "Liv error model"
+        }
+      ],
+      "description": "Error model for Liv."
+    }
+  },
+  "config": {
+    "n-best": 10,
+    "max-weight": 10000.0,
+    "beam": null,
+    "reweight": {
+      "start-penalty": 10.0,
+      "end-penalty": 10.0,
+      "mid-penalty": 5.0
+    },
+    "node-pool-size": 128,
+    "recase": true,
+    "completion-marker": null
+  },
+  "summary": {
+    "total_words": 2,
+    "first_position": 0,
+    "top_five": 0,
+    "any_position": 0,
+    "no_suggestions": 0,
+    "only_wrong": 2,
+    "false_accept": 0,
+    "true_positive": 2,
+    "false_negative": 0,
+    "true_negative": 0,
+    "slowest_lookup": {
+      "secs": 1,
+      "subsec_nanos": 303924708
+    },
+    "fastest_lookup": {
+      "secs": 0,
+      "subsec_nanos": 925495125
+    },
+    "average_time": {
+      "secs": 1,
+      "subsec_nanos": 114709916
+    },
+    "average_time_95pc": {
+      "secs": 1,
+      "subsec_nanos": 114709916
+    },
+    "average_position_of_correct": 0.0,
+    "average_suggestions_for_correct": 0.0
+  },
+  "results": [
+    {
+      "input": "vaņtļõ",
+      "expected": "vaņțlõ",
+      "distance": 2,
+      "suggestions": [
+        {
+          "value": "vaņaļõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaņeļõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaņiļõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaņoļõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaņtaļõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaņteļõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaņtfõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaņtiļõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaņtkõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaņtmõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": null,
+      "time": {
+        "secs": 1,
+        "subsec_nanos": 303924708
+      },
+      "false_accept": false
+    },
+    {
+      "input": "Vaņtlõ",
+      "expected": "Vaņțlõ",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "Vaņalõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "Vaņelõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "Vaņilõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "Vaņolõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "Vaņtalõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "Vaņtelõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "Vaņtfõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "Vaņtilõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "Vaņtkõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "Vaņtlfõ",
+          "weight": 15.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": null,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 925495125
+      },
+      "false_accept": false
+    }
+  ],
+  "start_timestamp": {
+    "secs": 1776254961,
+    "subsec_nanos": 203146000
+  },
+  "total_time": {
+    "secs": 1,
+    "subsec_nanos": 304086875
+  }
+}
