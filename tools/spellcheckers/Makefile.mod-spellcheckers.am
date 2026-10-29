@@ -10,17 +10,29 @@
 # analyser-speller-gt-norm.%: analyser-speller-gt-norm.tmp.%
 #	build rules
 
-generator-speller-gt-norm.hfst: generator-speller-gt-norm.tmp.hfst \
-				$(top_builddir)/src/fst/filters/remove-modifier-letter-apostrophe.hfst   \
-				$(top_builddir)/src/fst/filters/remove-letter-o-with-ogonek-and-macron.hfst
+generator-speller-gt-norm.%: .generated/generator-speller-gt-norm.tmp.% \
+				$(top_builddir)/src/fst/filters/remove-modifier-letter-apostrophe.%   \
+				$(top_builddir)/src/fst/filters/remove-letter-o-with-ogonek-and-macron.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			@\"$<\" \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-letter-o-with-ogonek-and-macron.hfst\" \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-apostrophe.hfst\"   \
-		;\n\
+		.o. @\"$(top_builddir)/src/fst/filters/remove-letter-o-with-ogonek-and-macron.$*\" \
+		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-apostrophe.$*\"   \
+		        ;\n\
+		 $(INVERT_XFST)$(INVERT_FOMA)\
 		save stack $@\n\
 		quit\n" | $(XFST_TOOL)
 
+analyser-speller-gt-norm.%: .generated/generator-speller-gt-norm.tmp.% \
+				$(top_builddir)/src/fst/filters/remove-modifier-letter-apostrophe.%   \
+				$(top_builddir)/src/fst/filters/remove-letter-o-with-ogonek-and-macron.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			@\"$<\" \
+		.o. @\"$(top_builddir)/src/fst/filters/remove-letter-o-with-ogonek-and-macron.$*\" \
+		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-apostrophe.$*\"   \
+		        ;\n\
+		$(INVERT_HFST)\
+  		save stack $@\n\
+		quit\n" | $(XFST_TOOL)
 
 # END: Local processing
 #########################################
